@@ -1,6 +1,11 @@
 # All URLs below verified working as of 2026-07-15.
 # Add/remove feeds and commit; next run picks it up.
 feeds:
+  # ---- Tech News
+  - name: YC Hacker News
+    url: https://news.ycombinator.com/rss
+  - name: Technica
+    url: https://feeds.arstechnica.com/arstechnica/index/
   # ---- Frontier labs & AI research
   - name: Google Research
     url: https://research.google/blog/rss/
