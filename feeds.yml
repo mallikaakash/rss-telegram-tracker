@@ -1,0 +1,78 @@
+# All URLs below verified working as of 2026-07-15.
+# Add/remove feeds and commit; next run picks it up.
+feeds:
+  # ---- Frontier labs & AI research
+  - name: Google Research
+    url: https://research.google/blog/rss/
+  - name: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+  - name: Microsoft Research
+    url: https://www.microsoft.com/en-us/research/feed/
+  - name: Apple ML Research
+    url: https://machinelearning.apple.com/rss.xml
+  - name: OpenAI News
+    url: https://openai.com/news/rss.xml
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+  - name: Together AI
+    url: https://www.together.ai/blog/rss.xml
+
+  # ---- Academic labs
+  - name: BAIR (Berkeley AI)
+    url: https://bair.berkeley.edu/blog/feed.xml
+  - name: CMU ML Blog
+    url: https://blog.ml.cmu.edu/feed/
+  - name: MIT News (AI)
+    url: https://news.mit.edu/rss/topic/artificial-intelligence2
+  - name: The Gradient
+    url: https://thegradient.pub/rss/
+
+  # ---- Individual researchers / writers
+  - name: Lilian Weng
+    url: https://lilianweng.github.io/index.xml
+  - name: Sebastian Raschka (Ahead of AI)
+    url: https://magazine.sebastianraschka.com/feed
+  - name: Interconnects (Nathan Lambert)
+    url: https://www.interconnects.ai/feed
+  - name: Chip Huyen
+    url: https://huyenchip.com/feed.xml
+  - name: Eugene Yan
+    url: https://eugeneyan.com/rss/
+  - name: Jay Alammar (Language Models)
+    url: https://newsletter.languagemodels.co/feed
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+
+  # ---- Engineering blogs (companies)
+  - name: Netflix TechBlog
+    url: https://netflixtechblog.com/feed
+  - name: Meta Engineering
+    url: https://engineering.fb.com/feed/
+  - name: Jane Street Tech
+    url: https://blog.janestreet.com/feed.xml
+  - name: Zerodha Tech
+    url: https://zerodha.tech/index.xml
+  - name: Modal Blog
+    url: https://modal.com/blog/atom.xml
+  - name: Railway Blog
+    url: https://blog.railway.com/rss.xml
+  - name: Cloudflare Blog
+    url: https://blog.cloudflare.com/rss/
+  - name: Stripe Blog
+    url: https://stripe.com/blog/feed.rss
+  - name: Swiggy Bytes
+    url: https://medium.com/feed/swiggy-bytes
+  - name: Zepto Engineering
+    url: https://blog.zeptonow.com/feed
+
+# ---- Wanted but NO working public RSS as of 2026-07-15.
+# To add any of these: generate a feed at https://rss.app (free tier) and paste it here.
+#  - Shopify Engineering   (https://shopify.engineering)
+#  - Zomato Blog           (https://blog.zomato.com)
+#  - Perplexity Hub        (https://www.perplexity.ai/hub)
+#  - Prime Intellect       (https://www.primeintellect.ai/blog)
+#  - Anthropic News        (https://www.anthropic.com/news)
+#  - Meta AI Research      (https://ai.meta.com/blog)
+#  - Uber Engineering      (https://www.uber.com/blog/engineering)
+#  - Epoch AI              (https://epoch.ai/blog)
+#  - Stanford HAI          (https://hai.stanford.edu/news)
