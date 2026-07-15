@@ -3,7 +3,7 @@ name: RSS Tracker
 on:
   schedule:
     # 5 runs/day in IST: 07:17, 11:17, 15:17, 19:17, 23:17
-    - cron: "47 1,5,9,13,17 * * *"
+    - cron: "47 1,3,5,7,9,11,13,15,17 * * *"
     - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
