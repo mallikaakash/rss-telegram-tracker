@@ -1,0 +1,185 @@
+{
+ "d9edef4fa5a7e12a": {
+  "url": "https://gilbaes.substack.com/p/what-i-learned-from-pre-training",
+  "title": "What I Learned from Pre-training a 126M Parameter LLM from Scratch",
+  "domain": "gilbaes.substack.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-16",
+  "tier": "skip",
+  "why": "This post is a basic replication of Andrej Karpathy's nanoGPT/nanochat tutorial without introducing any novel engineering insights or deep technical breakthroughs.",
+  "points": []
+ },
+ "ed885d5a4aa9016e": {
+  "url": "https://medium.com/@anbdwnroop.banerjee/i-built-a-c-backend-so-my-gpu-would-stop-eating-air-695878ec087c",
+  "title": "WarpGroup: Optimizing LLM Training by GPU Optimization with a Custom C++ Backend | Medium",
+  "domain": "medium.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-16",
+  "tier": "hidden_gem",
+  "why": "A highly technical, hands-on engineering post detailing a custom C++ backend for PyTorch to optimize variable-length sequence batching with concrete performance numbers.",
+  "points": [
+   "Replaces standard zero-padding in LLM batching with a custom C++ backend implementing VRAM-aware bin packing for variable-length sequences.",
+   "Achieves a 2.08x throughput speedup on NVIDIA H100 and a 5.89x speedup on GTX 1080 while eliminating out-of-memory (OOM) crashes.",
+   "Implements pinned-memory transfers to optimize host-to-device data movement."
+  ]
+ },
+ "0359941d815d193d": {
+  "url": "https://aarambhdevhub.medium.com/i-built-a-complete-llm-from-scratch-in-pure-rust-pretraining-grpo-flash-attention-and-c585123c14b4",
+  "title": "I Built a Complete LLM From Scratch in Pure Rust — Pretraining, GRPO, Flash Attention, and Self-Learning Without a Single Line of Python | by Aarambh Dev Hub | Jun, 2026 | Medium",
+  "domain": "aarambhdevhub.medium.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-16",
+  "tier": "solid_find",
+  "why": "A highly technical project implementing a complete LLM pipeline in pure Rust, though building LLMs from scratch in Rust is becoming a more common educational genre.",
+  "points": [
+   "Implements a complete LLM pipeline (pretraining, GRPO, Flash Attention) entirely in Rust using the Candle tensor framework.",
+   "Eliminates Python, PyTorch, and C++ wrappers, achieving a pure Rust implementation of modern LLM training and inference."
+  ]
+ },
+ "6fc2cbeba98b0293": {
+  "url": "https://medium.com/@mbonsign/sidon-pretraining-costs-zero-perplexity-first-experimental-results-eaa6000124b3",
+  "title": "Sidon Pretraining Costs Zero Perplexity: First Experimental Results | by Micheal Bee | May, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-16",
+  "tier": "hidden_gem",
+  "why": "Highly niche, original research exploring a novel mathematical constraint (Sidon sets) on embedding pretraining to achieve lossless compressed attention, backed by experimental validation.",
+  "points": [
+   "Proposes a soft Sidon constraint on embedding pretraining to keep pair-sums and k-tuple-sums distinct in a small subspace.",
+   "Aims to make 128-to-1 compressed attention lossless by combining Sidon geometry with DeepSeek-style positional bias.",
+   "Evaluates the mathematical proposal using NanoGPT validation runs on the Tiny Shakespeare dataset."
+  ]
+ },
+ "f814f059e44f6412": {
+  "url": "https://developer.nvidia.com/blog/train-models-faster-with-jax-and-maxtext-using-nvfp4-on-nvidia-blackwell/",
+  "title": "Train Models Faster with JAX and MaxText Using NVFP4 on NVIDIA Blackwell | NVIDIA Technical Blog",
+  "domain": "developer.nvidia.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-16",
+  "tier": "skip",
+  "why": "This is an official vendor blog post from NVIDIA promoting Blackwell and JAX/MaxText, which falls under the penalized category of official vendor docs and marketing.",
+  "points": []
+ },
+ "0657fbe29c8a0500": {
+  "url": "https://www.sean-weldon.com/blog/2026-06-13-road-to-5-million-tokens-breaking-barriers-in-long-context-training-max-ryabinin-together-ai",
+  "title": "'Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max | Sean Weldon",
+  "domain": "sean-weldon.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-16",
+  "tier": "solid_find",
+  "why": "A high-quality technical synthesis of advanced memory optimization techniques required to scale transformer context lengths to millions of tokens.",
+  "points": [
+   "Details the orchestration of FSDP, DeepSpeed Ulysses context parallelism, activation checkpointing, and sequence length tiling to train 5M token contexts.",
+   "Explains how to overcome the quadratic memory growth of self-attention matrices (e.g., 3M x 3M interaction matrices) on an 8x H100 node.",
+   "Introduces a novel optimization termed 'Untitled Ulysses' to maintain competitive performance at 8B and 32B parameter scales."
+  ]
+ },
+ "65d1c2582c756363": {
+  "url": "https://www.alphaxiv.org/abs/2605.21266",
+  "title": "How Much Online RL is Enough? Informative Rollouts for Offline Preference Optimization in RLVR | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-16",
+  "tier": "skip",
+  "why": "The page content is mostly an error message from a PDF viewer and does not contain the actual technical text of the paper.",
+  "points": []
+ },
+ "33e4677b031b2030": {
+  "url": "https://tanhdev.com/series/slm-playbook/part-5-preference-alignment/",
+  "title": "Preference Alignment: DPO, KTO, & GRPO Algorithms | SLM Playbook",
+  "domain": "tanhdev.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-16",
+  "tier": "solid_find",
+  "why": "A solid, well-structured technical guide comparing modern preference alignment algorithms with mathematical objectives and VRAM reduction details.",
+  "points": [
+   "Compares the mathematical objectives of Direct Preference Optimization (DPO) and Kahneman-Tversky Optimization (KTO) for reward-model-free alignment.",
+   "Explains how Group Relative Policy Optimization (GRPO) reduces training memory by over 50% by eliminating the critic model.",
+   "Provides a Python simulation for modeling GRPO loss to help understand its mechanics."
+  ]
+ },
+ "e158e347b6a0cbc2": {
+  "url": "https://www.interconnects.ai/p/frontier-post-training-recipe-review",
+  "title": "Frontier post-training recipe review with Finbarr Timbers",
+  "domain": "interconnects.ai",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-16",
+  "tier": "solid_find",
+  "why": "A high-quality discussion between industry experts on frontier post-training recipes, though presented in a podcast/newsletter format.",
+  "points": [
+   "Reviews the evolution of post-training recipes from InstructGPT to 2026 frontier models like DeepSeek V4 and Kimi K2.6.",
+   "Discusses the practical engineering challenges of scaling open-source post-training recipes (like OLMo) to frontier-level performance."
+  ]
+ },
+ "df75157c22c13719": {
+  "url": "https://medium.com/@tam.tamanna18/reinforcement-learning-for-large-reasoning-models-a-complete-technical-deep-dive-b95da0e0a128",
+  "title": "Reinforcement Learning for Large Reasoning Models: A Complete Technical Deep-Dive | by Tamanna | Jun, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-16",
+  "tier": "skip",
+  "why": "This is a high-level Medium summary of an existing academic survey paper, lacking original data, novel engineering insights, or hands-on implementation details.",
+  "points": []
+ },
+ "7d4716bab9633883": {
+  "url": "https://levelup.gitconnected.com/grpo-in-production-the-failure-modes-nobody-writes-about-5d59c3fc9c3b",
+  "title": "GRPO in Production: The Failure Modes Nobody Writes About | by Yuval Mehta | Jun, 2026 | Level Up Coding",
+  "domain": "levelup.gitconnected.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-16",
+  "tier": "solid_find",
+  "why": "Focuses on practical, production-level failure modes of GRPO, which is highly relevant and useful for engineers implementing DeepSeek-style RL.",
+  "points": [
+   "Focuses on the undocumented production failure modes and practical engineering challenges of implementing Group Relative Policy Optimization (GRPO).",
+   "Addresses the gap between theoretical GRPO benefits (like 50% VRAM reduction) and real-world deployment stability."
+  ]
+ },
+ "7278dd3a74ace632": {
+  "url": "https://iamulya.one/posts/cuda-kernels-and-flashattention/",
+  "title": "CUDA Kernels and FlashAttention: Why Memory Bandwidth Is the Bottleneck | Amulya Bhatia",
+  "domain": "iamulya.one",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-16",
+  "tier": "solid_find",
+  "why": "A very clear, mathematically grounded explanation of CUDA kernels and memory bottlenecks in LLM inference, though the concepts of FlashAttention and kernel fusion are somewhat well-known.",
+  "points": [
+   "Explains how GPU memory bandwidth, rather than compute capacity, acts as the primary bottleneck during LLM inference.",
+   "Grounded in concrete numbers using Gemma 4 12B as a running example to illustrate memory-bound operations.",
+   "Details how custom kernels in frameworks like vLLM and SGLang achieve 2-4x throughput improvements over standard PyTorch kernels."
+  ]
+ },
+ "29264c89f45ea9cf": {
+  "url": "https://deepwiki.com/mirage-project/mirage/3.5.2-attention-kernels",
+  "title": "Attention Kernels | mirage-project/mirage | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-16",
+  "tier": "skip",
+  "why": "This is a sparse wiki index page with mostly navigation links and no deep technical content or analysis in the provided text.",
+  "points": []
+ },
+ "7f5d996f70ddce97": {
+  "url": "https://riftstack.ai/research/learning-flashattention-the-hard-way-part-2",
+  "title": "Learning FlashAttention the Hard Way — Part 2 — RiftStack",
+  "domain": "riftstack.ai",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-16",
+  "tier": "hidden_gem",
+  "why": "An exceptional, deep-dive technical post that reproduces FlashAttention-2 on an RTX 5090 using an ML compiler, showing how an autotuner matches hand-written SOTA kernels to the microsecond.",
+  "points": [
+   "Demonstrates how the Emmy compiler's autotuner can automatically discover the exact thread/block geometry of hand-written FlashAttention-2 kernels.",
+   "Evaluates and quantifies transferable optimizations from FlashAttention-3 and FlashAttention-4 on consumer hardware (RTX 5090).",
+   "Explains the lowering of associative reductions to GPU hardware, including register-tiling and shared memory operand staging."
+  ]
+ },
+ "33125e52a6092756": {
+  "url": "https://dev.to/shrsv/fused-kernels-in-llms-reducing-memory-bandwidth-bottlenecks-through-gpu-kernel-fusion-4fkm",
+  "title": "Fused Kernels in LLMs: Reducing Memory Bandwidth Bottlenecks Through GPU Kernel Fusion - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-16",
+  "tier": "skip",
+  "why": "A relatively basic, introductory explainer on GPU kernel fusion and memory bottlenecks, repeating well-known concepts without novel data or deep implementation details.",
+  "points": []
+ }
+}
