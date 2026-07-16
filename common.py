@@ -1,4 +1,98 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Library</title><style>
+"""
+Shared plumbing for tracker.py (RSS digest) and discovery.py (niche finds):
+JSON stores, Telegram send, Pages URL building, and the shared site CSS/page
+shell so both pipelines render as one consistent-looking site.
+"""
+
+import json
+import os
+import re
+import time
+from pathlib import Path
+
+import requests
+
+ROOT = Path(__file__).parent
+DOCS = ROOT / "docs"
+
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 Chrome/126 Safari/537.36"}
+
+
+# ---------------------------------------------------------------- gemini
+
+def gemini_generate(api_key: str, model: str, prompt: str,
+                    max_output_tokens: int = 8000, temperature: float = 0.2) -> dict | None:
+    """One JSON-mode Gemini call with retries on 429/5xx. Returns parsed dict or None."""
+    r = None
+    for attempt in range(4):
+        try:
+            r = requests.post(
+                "https://generativelanguage.googleapis.com/v1beta/models/"
+                f"{model}:generateContent?key={api_key}",
+                json={"contents": [{"parts": [{"text": prompt}]}],
+                      "generationConfig": {"maxOutputTokens": max_output_tokens,
+                                           "temperature": temperature,
+                                           "responseMimeType": "application/json"}},
+                timeout=120,
+            )
+            if r.status_code in (429, 500, 502, 503):
+                print(f"  Gemini {r.status_code}, retry {attempt + 1}/3...")
+                time.sleep(10 * (attempt + 1))
+                continue
+            break
+        except requests.RequestException as e:
+            print(f"  Gemini request error ({e}), retry {attempt + 1}/3...")
+            time.sleep(10 * (attempt + 1))
+    try:
+        r.raise_for_status()
+        parts = r.json()["candidates"][0]["content"]["parts"]
+        raw = "".join(p.get("text", "") for p in parts)
+        raw = re.sub(r"^```(json)?|```$", "", raw.strip(), flags=re.M).strip()
+        data, _ = json.JSONDecoder().raw_decode(raw[raw.index("{"):])
+        return data
+    except Exception as e:  # noqa: BLE001
+        print(f"  Gemini parse failed: {e}")
+        return None
+
+
+# ---------------------------------------------------------------- json store
+
+def load_json(path: Path, default):
+    return json.loads(path.read_text()) if path.exists() else default
+
+
+def save_json(path: Path, data) -> None:
+    path.write_text(json.dumps(data, indent=1, ensure_ascii=False))
+
+
+# ---------------------------------------------------------------- telegram
+
+def send_telegram(bot_token: str, chat_id: str, msg: str) -> None:
+    r = requests.post(f"https://api.telegram.org/bot{bot_token}/sendMessage",
+                      json={"chat_id": chat_id, "text": msg, "parse_mode": "HTML",
+                            "disable_web_page_preview": True}, timeout=20)
+    if not r.ok:
+        print(f"  Telegram error: {r.text}")
+
+
+# ---------------------------------------------------------------- pages url
+
+def pages_url(rel_path: str) -> str:
+    """rel_path is relative to docs/, e.g. 'digests/foo.html' or 'discovery/index.html'."""
+    base = os.environ.get("PAGES_BASE_URL", "").rstrip("/")
+    if not base:
+        repo = os.environ.get("GITHUB_REPOSITORY", "user/repo")
+        owner, name = repo.split("/", 1)
+        base = f"https://{owner}.github.io/{name}"
+    return f"{base}/{rel_path.lstrip('/')}"
+
+
+# ---------------------------------------------------------------- shared css
+# Nerdy library aesthetic: earth palette, hairline borders, zero radius,
+# monospace for labels/meta, serif for reading. No blur/glow anywhere.
+
+SITE_CSS = """
 :root{
   color-scheme:light dark;
   --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
@@ -71,32 +165,11 @@ li{font-size:.92rem;margin-bottom:5px}
  border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
 .chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
 .empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
-</style><script>
-document.addEventListener('DOMContentLoaded', function(){
-  var chips=[].slice.call(document.querySelectorAll('.chip'));
-  var input=document.getElementById('q');
-  var cards=[].slice.call(document.querySelectorAll('.card'));
-  var activeTier='all';
-  function apply(){
-    var q=input.value.trim().toLowerCase();
-    var shown=0;
-    cards.forEach(function(c){
-      var okTier = activeTier==='all' || c.dataset.tier===activeTier;
-      var okQ = !q || c.dataset.q.indexOf(q) !== -1;
-      var show = okTier && okQ;
-      c.style.display = show ? '' : 'none';
-      if(show) shown++;
-    });
-    document.getElementById('empty').style.display = shown ? 'none' : 'block';
-  }
-  chips.forEach(function(ch){
-    ch.addEventListener('click', function(){
-      chips.forEach(function(x){ x.classList.remove('active'); });
-      ch.classList.add('active');
-      activeTier = ch.dataset.tier;
-      apply();
-    });
-  });
-  input.addEventListener('input', apply);
-});
-</script></head><body><h1>The Library</h1><div class="meta">0 indexed &middot; ranked by tier, then recency &middot; <a href="runs.html">all runs</a> &middot; <a href="discovery/index.html">discovery</a></div><div class="toolbar"><input type="text" id="q" placeholder="search title or source..."></div><div class="toolbar"><span class="chip active" data-tier="all">All</span><span class="chip" data-tier="must_read">Must read</span><span class="chip" data-tier="worth_a_skim">Worth a skim</span><span class="chip" data-tier="low_priority">Low priority</span></div><div class="empty" id="empty" style="display:none">No matches.</div></body></html>
+"""
+
+
+def page_shell(title: str, body: str, extra_head: str = "") -> str:
+    return (f'<!doctype html><html><head><meta charset="utf-8">'
+            f'<meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<title>{title}</title><style>{SITE_CSS}</style>{extra_head}'
+            f'</head><body>{body}</body></html>')
