@@ -23875,5 +23875,195 @@
   "date": null,
   "why": null,
   "points": null
+ },
+ "43270080c2572c72": {
+  "feed": "YC Hacker News",
+  "title": "Goes-19 weather satellite enters Safe Hold mode",
+  "link": "https://www.spaceweather.gov/news/goes-19-safe-hold",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This post is about a weather satellite entering safe hold mode and is completely unrelated to ML, backend engineering, or distributed systems.",
+  "points": [
+   "NOAA's GOES-19 weather satellite entered Safe Hold mode, causing temporary data outages."
+  ]
+ },
+ "317654a4f6139134": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I've built a words game based on binary search",
+  "link": "https://hilogame.cc/",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This is a simple word game that does not cover advanced backend engineering, distributed systems, or ML.",
+  "points": [
+   "The project is a simple word game based on binary search, lacking relevance to ML or backend infrastructure."
+  ]
+ },
+ "7d1fa1c7d54c6323": {
+  "feed": "YC Hacker News",
+  "title": "How to spend 15 years perfecting a product",
+  "link": "https://refactoring.guru/email/gbb-rollout2",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This post offers general product development advice with no technical backend or ML engineering depth.",
+  "points": [
+   "The post discusses long-term product perfection but lacks the technical depth or engineering relevance required."
+  ]
+ },
+ "61861af4cc7c7c4c": {
+  "feed": "YC Hacker News",
+  "title": "Sony Deletes a Bunch More Movies from the Accounts of People Who 'Bought' Them",
+  "link": "https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This article focuses on digital licensing and consumer rights rather than backend architecture or machine learning.",
+  "points": [
+   "Sony is deleting purchased movies from PlayStation accounts due to expiring licensing agreements with StudioCanal."
+  ]
+ },
+ "b8dc55ec2134c9df": {
+  "feed": "YC Hacker News",
+  "title": "Introduction to KizunaShelf: A shelf for everything you love",
+  "link": "https://mudkip.me/2026/07/16/Introduction-to-KizunaShelf/",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This is a personal media tracking tool using Markdown files, which is off-target for ML and enterprise backend infrastructure.",
+  "points": [
+   "KizunaShelf is a file-based media tracker that uses a YAML configuration to manage metadata in Obsidian Markdown files."
+  ]
+ },
+ "92ab1f77dd8ccf54": {
+  "feed": "OpenAI News",
+  "title": "How to manage AI investments in the agentic era",
+  "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This post provides high-level business and administrative advice on managing AI spend rather than technical ML engineering or infrastructure.",
+  "points": [
+   "OpenAI advises evaluating models on 'useful work per dollar' rather than token price alone, highlighting GPT-5.6's efficiency gains."
+  ]
+ },
+ "cca00ce687818d9a": {
+  "feed": "OpenAI News",
+  "title": "How data science teams use ChatGPT Work",
+  "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This is pure product marketing and webinar promotion for ChatGPT Work, lacking technical depth.",
+  "points": [
+   "The post promotes a webinar on using ChatGPT Work for basic data science tasks like drafting analysis assets."
+  ]
+ },
+ "54ee76ae9206d639": {
+  "feed": "OpenAI News",
+  "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+  "link": "https://openai.com/index/gpt-5-6",
+  "date": "2026-07-16",
+  "tier": "must_read",
+  "why": "This is a strategically important major model release of the GPT-5.6 family, detailing performance, cost-efficiency, and agentic capabilities.",
+  "points": [
+   "OpenAI released the GPT-5.6 family: Sol (flagship), Terra (balanced), and Luna (cost-efficient), featuring an 'ultra' setting for multi-agent coordination.",
+   "GPT-5.6 Sol sets a new high of 53.6 on 'Agents' Last Exam', outperforming Claude Fable 5 by 13.1 points.",
+   "The models focus on 'useful work per dollar,' with Terra and Luna outperforming Fable 5 at roughly 1/16th of the cost."
+  ]
+ },
+ "8fd74bd3f51991b5": {
+  "feed": "OpenAI News",
+  "title": "GPT-5.5 Bio Bug Bounty",
+  "link": "https://openai.com/index/bio-bug-bounty",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This is an administrative announcement about a security bug bounty program rather than technical ML training or infrastructure.",
+  "points": [
+   "OpenAI is transitioning its Bio Bug Bounty into an ongoing private program, raising the reward for universal jailbreaks to $50,000."
+  ]
+ },
+ "eaad4cbcfa7f5327": {
+  "feed": "OpenAI News",
+  "title": "Separating signal from noise in coding evaluations",
+  "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+  "date": "2026-07-16",
+  "tier": "must_read",
+  "why": "This is a highly technical audit of SWE-Bench Pro revealing critical flaws in LLM coding evaluations, crucial for understanding model benchmarking.",
+  "points": [
+   "An audit by OpenAI reveals that approximately 30% of tasks in the widely used SWE-Bench Pro benchmark are broken or flawed.",
+   "Key issues identified include overly strict tests (27.4% flagged by pipeline), underspecified prompts, low-coverage tests, and misleading prompts.",
+   "The findings highlight the extreme difficulty of curating reliable, long-horizon agentic benchmarks and suggest using LLM agents for scalable data quality checks."
+  ]
+ },
+ "210f6726bf4a719a": {
+  "feed": "Hugging Face Blog",
+  "title": "Welcome Inkling by Thinking Machines",
+  "link": "https://huggingface.co/blog/thinkingmachines-inkling",
+  "date": "2026-07-16",
+  "tier": "must_read",
+  "why": "This post is a deep-dive into a massive 1T open multimodal MoE model featuring novel relative attention, hybrid attention, and speculative multi-token prediction.",
+  "points": [
+   "Inkling is a 975B parameter (41B active) sparse MoE model with 256 experts, supporting a 1M context window across text, image, and audio.",
+   "Instead of RoPE, it uses a novel relative attention mechanism that learns positions directly in attention logits, combined with a 5:1 hybrid sliding-window to global attention pattern.",
+   "It supports speculative Multi-Token Prediction (MTP) drafters for faster inference and has day-0 integration with SGLang, vLLM, and llama.cpp."
+  ]
+ },
+ "b7f49b2bc1486b47": {
+  "feed": "Hugging Face Blog",
+  "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+  "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+  "date": "2026-07-16",
+  "tier": "must_read",
+  "why": "This is a technical overview of a low-latency, real-time speech-to-speech pipeline leveraging Cerebras hardware and Gemma 4.",
+  "points": [
+   "The open, cascaded speech-to-speech stack integrates Nvidia's Parakeet (ASR), Gemma 4 31B on Cerebras (LLM), and Qwen3TTS (TTS).",
+   "Cerebras hardware is utilized specifically to eliminate the P95 latency bottleneck in the LLM inference step, enabling natural, real-time human-robot interaction.",
+   "The pipeline is already deployed in production powering over 9,000 Reachy Mini robots."
+  ]
+ },
+ "91d16542fa1f3b29": {
+  "feed": "Hugging Face Blog",
+  "title": "DiScoFormer: One transformer for density and score, across distributions",
+  "link": "https://huggingface.co/blog/allenai/discoformer",
+  "date": "2026-07-16",
+  "tier": "worth_a_skim",
+  "why": "This post introduces a novel transformer architecture for joint density and score estimation, relevant to generative modeling foundations.",
+  "points": [
+   "DiScoFormer uses a shared transformer backbone with dual output heads to estimate both density and score in a single forward pass.",
+   "It leverages a label-free consistency loss (matching the score head to the gradient of the log-density head) to adapt to out-of-distribution data at inference time.",
+   "The model bypasses the dimensionality limitations of Kernel Density Estimation (KDE) and the retraining requirements of traditional neural score-matching."
+  ]
+ },
+ "49c160394cb9a203": {
+  "feed": "Hugging Face Blog",
+  "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+  "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
+  "date": "2026-07-16",
+  "tier": "worth_a_skim",
+  "why": "This is a practical engineering guide on automating weekly library releases using GitHub Actions and open-weights LLMs for release notes.",
+  "points": [
+   "Hugging Face transitioned 'huggingface_hub' from a 4-6 week manual release cycle to a fully automated weekly release using GitHub Actions.",
+   "They automated mechanical steps (version bumping, tagging, downstream CI checks) and used open-weights LLMs to draft high-quality release notes from PRs.",
+   "A human-in-the-loop checkpoint remains essential for reviewing the AI-generated release notes and approving the final PyPI publish."
+  ]
+ },
+ "dba1e8f05869c4fb": {
+  "feed": "Hugging Face Blog",
+  "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+  "link": "https://huggingface.co/blog/cross-origin-storage",
+  "date": "2026-07-16",
+  "tier": "worth_a_skim",
+  "why": "This article explores a new browser API to solve the massive model caching and duplication issues in client-side WebGPU/Wasm inference.",
+  "points": [
+   "Currently, client-side ML libraries like Transformers.js must re-download and cache identical models (e.g., Whisper-tiny) for every unique origin due to browser cache isolation.",
+   "The proposed Cross-Origin Storage API allows secure, shared access to cached model and Wasm runtime resources across different websites.",
+   "This API significantly reduces redundant network bandwidth and client-side storage overhead (saving hundreds of megabytes per user)."
+  ]
+ },
+ "cf5f6e5324b6e79e": {
+  "feed": "Simon Willison",
+  "title": "Quoting Linus Torvalds",
+  "link": "https://simonwillison.net/2026/Jul/16/linus-torvalds/#atom-everything",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This is a short quote from Linus Torvalds on AI's utility in Linux, lacking deep technical architecture or implementation details.",
+  "points": [
+   "Linus Torvalds asserts that AI is a clearly useful tool and that Linux is not an anti-AI project, telling critics they can fork the project or walk away."
+  ]
  }
 }
