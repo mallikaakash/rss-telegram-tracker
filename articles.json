@@ -24516,5 +24516,215 @@
    "The model is multimodal (text, images, audio, video) and trained on 45 trillion tokens, serving as a strong base model for fine-tuning.",
    "A smaller 276B (12B active) model, Inkling-Small, is currently undergoing testing for future release."
   ]
+ },
+ "f8da2c94a99e535f": {
+  "feed": "YC Hacker News",
+  "title": "NotebookLM is now Gemini Notebook",
+  "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a pure product renaming and marketing announcement with no technical depth or relevance to ML infrastructure.",
+  "points": [
+   "Google is renaming NotebookLM to Gemini Notebook with minor ecosystem integrations and a secure cloud computer update."
+  ]
+ },
+ "729285d217b58a8d": {
+  "feed": "YC Hacker News",
+  "title": "Immersive Linear Algebra Book with Interactive Figures",
+  "link": "https://immersivemath.com/ila/",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Linear algebra is foundational for ML, and interactive figures can help build intuition, though it is not a cutting-edge engineering deep-dive.",
+  "points": [
+   "An online, fully interactive linear algebra textbook covering vectors, matrices, determinants, eigenvalues, and eigenvectors.",
+   "Useful for reinforcing foundational mathematical concepts used in machine learning."
+  ]
+ },
+ "1d1043a7bdc5eba1": {
+  "feed": "YC Hacker News",
+  "title": "Adaptional (YC S25) Is Hiring",
+  "link": "https://www.ycombinator.com/companies/adaptional/jobs",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a standard startup hiring post for a non-infra/non-core ML role, offering no technical insights.",
+  "points": [
+   "Adaptional (YC S25) is hiring a Founding Engineer and Founding GTM Lead in San Francisco."
+  ]
+ },
+ "0c29a5e2cc355c02": {
+  "feed": "YC Hacker News",
+  "title": "Someone Used AI to Write an Unauthorized Biography of Me",
+  "link": "https://www.nytimes.com/2026/07/16/technology/ai-slop-books-biography-amazon.html",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a non-technical, consumer-focused discussion thread lacking any engineering relevance.",
+  "points": [
+   "A discussion thread about unauthorized AI-generated biographies, lacking technical depth or relevance to ML engineering."
+  ]
+ },
+ "addf87c62a95e4b3": {
+  "feed": "YC Hacker News",
+  "title": "How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM",
+  "link": "https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Highly relevant to low-resource training and fine-tuning, though the post text itself is missing.",
+  "points": [
+   "Discusses training generative AI models on highly constrained consumer hardware (6GB VRAM).",
+   "Relevant for understanding optimization techniques for small-scale local training."
+  ]
+ },
+ "18efb468c4e3e837": {
+  "feed": "Technica",
+  "title": "We've seen helium baked off a rocky exoplanet's atmosphere",
+  "link": "https://arstechnica.com/science/2026/07/weve-seen-helium-baked-off-a-rocky-exoplanets-atmosphere/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is astrophysics news with no relevance to ML, backend, or infrastructure engineering.",
+  "points": [
+   "Observations of the exoplanet LHS 1140 show helium escaping its atmosphere, helping scientists infer atmospheric composition."
+  ]
+ },
+ "e17db83823d25ce6": {
+  "feed": "OpenAI News",
+  "title": "New OpenAI Academy courses for the next era of work",
+  "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a product marketing announcement for non-technical courses targeted at general business users.",
+  "points": [
+   "OpenAI launched three new courses (AI Foundations, Applied AI Foundations, and Agents and Workflows) aimed at general workforce AI literacy."
+  ]
+ },
+ "dcc2fd07a9e82426": {
+  "feed": "OpenAI News",
+  "title": "How Preply combines AI and human tutors to personalize learning",
+  "link": "https://openai.com/index/preply",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a high-level corporate case study with no deep technical architecture or infrastructure details.",
+  "points": [
+   "Preply integrated OpenAI's API to build 'Lesson Insights', generating automated feedback on grammar and vocabulary from lesson transcripts."
+  ]
+ },
+ "a9f0898c4190e001": {
+  "feed": "OpenAI News",
+  "title": "BBVA puts AI at the core of banking with OpenAI",
+  "link": "https://openai.com/index/bbva",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a corporate partnership and enterprise adoption PR announcement with zero technical depth.",
+  "points": [
+   "BBVA is deploying ChatGPT Enterprise globally to ~100,000 employees as part of its 'The Eight' AI transformation roadmap."
+  ]
+ },
+ "4600462b11c1a928": {
+  "feed": "OpenAI News",
+  "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+  "link": "https://openai.com/index/openai-on-oracle-cloud",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is an enterprise procurement and cloud billing partnership announcement with no engineering value.",
+  "points": [
+   "Oracle Cloud Infrastructure (OCI) customers can now use their existing Oracle Universal Credits to access OpenAI models and Codex."
+  ]
+ },
+ "c71f854be1a8bcbe": {
+  "feed": "OpenAI News",
+  "title": "PRC-linked influence operations are targeting AI debates in the US",
+  "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a geopolitics and trust/safety policy report, not relevant to ML training, backend engineering, or infrastructure.",
+  "points": [
+   "OpenAI disrupted two Chinese-origin influence campaigns ('Data Center Bandwagon' and 'Tech and Tariffs') targeting US AI infrastructure debates."
+  ]
+ },
+ "e548e0e285fcb13e": {
+  "feed": "Hugging Face Blog",
+  "title": "How to build scalable web apps with OpenAI's Privacy Filter",
+  "link": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly relevant to small language models, context windows, and building scalable backend architectures with Gradio.",
+  "points": [
+   "OpenAI released Privacy Filter, an open-source 1.5B-parameter (50M active) PII detection model with a 128k token context window.",
+   "The model achieves state-of-the-art performance on the PII-Masking-300k benchmark under an Apache 2.0 license.",
+   "Demonstrates how to use `gradio.Server` to pair custom HTML/JS frontends with Gradio's queuing and ZeroGPU allocation for scalable backends."
+  ]
+ },
+ "48afc81fb0a9c7dc": {
+  "feed": "Hugging Face Blog",
+  "title": "The PR you would have opened yourself",
+  "link": "https://huggingface.co/blog/transformers-to-mlx",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Highly relevant to local inference on Apple Silicon and provides great career-relevant insights on AI code agents in open source.",
+  "points": [
+   "Introduces a Skill and test harness to assist humans in porting models from Hugging Face `transformers` to Apple's `mlx-lm` framework.",
+   "Critiques the rise of AI code agents in open source, noting they often generate verbose, early-generalized PRs that break implicit design contracts.",
+   "Emphasizes that codebases like `transformers` prioritize human readability (flat hierarchies, top-to-bottom reading) over automated 'best practices'."
+  ]
+ },
+ "cda2d0b1dc422da5": {
+  "feed": "Hugging Face Blog",
+  "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+  "link": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly aligns with priorities around multimodal training, embedding models, and performance engineering.",
+  "points": [
+   "Provides a step-by-step guide to finetuning `Qwen3-VL-Embedding-2B` for Visual Document Retrieval (VDR) using Sentence Transformers.",
+   "Finetuning improved NDCG@10 from 0.888 (base) to 0.947, outperforming models up to 4x its size.",
+   "Covers advanced training components including `CachedMultipleNegativesRankingLoss` and `MatryoshkaLoss` for dimensionality reduction."
+  ]
+ },
+ "3977e92d92e9930f": {
+  "feed": "Hugging Face Blog",
+  "title": "Meet HoloTab by HCompany. Your AI browser companion.",
+  "link": "https://huggingface.co/blog/Hcompany/holotab",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a product launch and marketing post for a consumer browser extension, lacking deep technical infrastructure details.",
+  "points": [
+   "HCompany launched HoloTab, a Chrome extension powered by their Holo3-35B model for browser-based task automation and recording routines."
+  ]
+ },
+ "a3ef54c12f07ae5b": {
+  "feed": "Hugging Face Blog",
+  "title": "Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs",
+  "link": "https://huggingface.co/blog/waypoint-1-5",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Interesting ML infrastructure and performance engineering for real-time video generation on consumer GPUs.",
+  "points": [
+   "Waypoint-1.5 is a real-time video world model capable of running at 720p/60 FPS on RTX 3090-5090 GPUs, and 360p on lower-end hardware.",
+   "Trained on 100x more data than Waypoint-1, incorporating efficient video modeling to reduce redundant computation across frames."
+  ]
+ },
+ "697e17a247216ada": {
+  "feed": "Together AI",
+  "title": "What does 99.9% uptime mean for inference?",
+  "link": "https://www.together.ai/blog/99-9-uptime-for-inference",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Touches on inference serving, GPU platforms, and uptime SLAs, though the text is mostly navigation links.",
+  "points": [
+   "Discusses the operational meaning of 99.9% uptime SLAs for enterprise LLM inference serving.",
+   "Highlights Together AI's infrastructure updates, including on-demand B200 GPU clusters and serving optimized models like MiniMax-M3."
+  ]
+ },
+ "b62b68c93c9c8e0d": {
+  "feed": "Simon Willison",
+  "title": "Quoting Thibault Sottiaux",
+  "link": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "An excellent engineering war story and reliability issue involving LLM agents, sandboxing, and critical backend bugs.",
+  "points": [
+   "Highlights a critical bug where GPT-5.6/Codex unexpectedly deleted user files (specifically the `$HOME` directory).",
+   "The issue occurs when full access mode is enabled without sandboxing or auto-review, and the model attempts to override `$HOME` for a temp directory.",
+   "Serves as a stark warning about the security and reliability risks of running unsandboxed LLM coding agents with write access."
+  ]
  }
 }
