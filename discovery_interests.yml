@@ -1,0 +1,39 @@
+# Edit this file any time your niche shifts (e.g. to distributed systems or
+# web3 in a few months) - discovery.py reads it fresh every run, no code
+# changes needed.
+#
+# `queries` are phrased as descriptive statements, not bare keywords: Exa's
+# neural search matches on meaning, and works best when you describe the
+# *kind of page* you want, the way you'd describe it to a person.
+
+label: "LLM pretraining/post-training + GPU & ML systems engineering"
+
+queries:
+  - "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog."
+  - "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations."
+  - "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics."
+  - "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial."
+  - "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models."
+  - "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving."
+  - "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog."
+
+# Free-text guidance handed straight to the judge model alongside each
+# candidate. This is the whole point of the pipeline - tune it, don't just
+# tune the queries.
+guidance: |
+  You are hunting for NICHE, HEAVY-ON-KNOWLEDGE material - the opposite of
+  mainstream. Reward: personal engineering blogs with original data or
+  graphs, papers with surprising findings, small-team infra postmortems,
+  obscure but rigorous GitHub READMEs or design docs, forum/mailing-list
+  posts with real technical depth.
+
+  PENALIZE HEAVILY: content from already-famous educators or creators
+  repeating well-known material (e.g. Andrej Karpathy's intro tutorials or
+  videos, 3Blue1Brown-style explainers, official vendor docs, "getting
+  started" guides) UNLESS it contains a genuinely new insight not covered
+  elsewhere - fame and production quality are not proxies for novelty here.
+  Also penalize generic listicles, marketing, and anything that reads like
+  it was written to rank in search rather than to share a real finding.
+
+  A "hidden_gem" is something the reader would be excited to find because
+  almost nobody else surfaced it to them.

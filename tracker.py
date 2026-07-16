@@ -2,13 +2,20 @@
 RSS -> LLM triage -> HTML digest (GitHub Pages) -> single Telegram ping.
 
 Each run:
-  1. Fetches all feeds, finds new posts since last run.
+  1. Fetches all feeds, finds posts whose id isn't already in articles.json.
   2. One Gemini call ranks everything (must-read / worth-a-skim / low-priority),
      writes key points per post, and a one-line tl;dr for the whole batch.
   3. Renders a mobile-friendly HTML digest into docs/digests/ (served by
-     GitHub Pages) and updates docs/index.html (archive).
+     GitHub Pages), updates docs/runs.html (chronological run list) and
+     docs/index.html (the Library: every triaged article ever, ranked by
+     tier then recency, searchable).
   4. Sends ONE Telegram message: tl;dr + must-read titles + link to the page.
   5. If nothing new: sends nothing. Silence means no news.
+
+Dedup: articles.json is a permanent, global {article_id: record} store keyed
+by a stable hash of the entry's id/link/title. Once an id is in there it is
+never treated as new again - no per-feed trimming, so there's no risk of
+losing track of an already-seen post (which is what caused repeats before).
 
 Env (GitHub Actions secrets):
   TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, GEMINI_API_KEY
@@ -30,9 +37,12 @@ import feedparser
 import requests
 import yaml
 
+import common
+
 ROOT = Path(__file__).parent
-SEEN_FILE = ROOT / "seen.json"
 FEEDS_FILE = ROOT / "feeds.yml"
+ARTICLES_FILE = ROOT / "articles.json"
+BOOTSTRAP_FILE = ROOT / "feeds_bootstrapped.json"
 DOCS = ROOT / "docs"
 DIGESTS = DOCS / "digests"
 
@@ -41,13 +51,10 @@ CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = "gemini-flash-latest"
 
-UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                    "AppleWebKit/537.36 Chrome/126 Safari/537.36"}
-
 MAX_NEW_PER_FEED = 5
-MAX_SEEN_PER_FEED = 400
 ARTICLE_CHAR_BUDGET = 3500   # per-article text sent to the LLM
 MAX_ARTICLES_PER_RUN = 25    # safety cap on total batch size
+LIBRARY_LIMIT = 500          # max cards rendered on the Library page
 
 READER_PROFILE = """
 The reader is an early-career ML/backend engineer. Priorities, in order:
@@ -70,17 +77,22 @@ consumer-feature launches, event recaps - unless strategically important
 (e.g. a major model release or infra pricing change).
 """
 
+TIER_META = {
+    "must_read": ("Must read", "must"),
+    "worth_a_skim": ("Worth a skim", "skim"),
+    "low_priority": ("Low priority", "low"),
+}
+TIER_RANK = {"must_read": 0, "worth_a_skim": 1, "low_priority": 2}
+
 
 # ---------------------------------------------------------------- state
 
-def load_seen() -> dict:
-    return json.loads(SEEN_FILE.read_text()) if SEEN_FILE.exists() else {}
+def load_articles() -> dict:
+    return common.load_json(ARTICLES_FILE, {})
 
 
-def save_seen(seen: dict) -> None:
-    for k in seen:
-        seen[k] = seen[k][-MAX_SEEN_PER_FEED:]
-    SEEN_FILE.write_text(json.dumps(seen, indent=1))
+def save_articles(articles: dict) -> None:
+    common.save_json(ARTICLES_FILE, articles)
 
 
 def entry_id(entry) -> str:
@@ -93,7 +105,7 @@ def entry_id(entry) -> str:
 def fetch_feed(url: str):
     """Fetch with a real browser UA (some feeds 403 the default one)."""
     try:
-        r = requests.get(url, headers=UA, timeout=25)
+        r = requests.get(url, headers=common.UA, timeout=25)
         r.raise_for_status()
         return feedparser.parse(r.content)
     except requests.RequestException as e:
@@ -118,7 +130,7 @@ def get_entry_text(entry) -> str:
     link = entry.get("link")
     if link:
         try:
-            r = requests.get(link, timeout=15, headers=UA)
+            r = requests.get(link, timeout=15, headers=common.UA)
             if r.ok:
                 text = strip_html(r.text)
                 if len(text) > 300:
@@ -162,37 +174,11 @@ Include every idx from 0 to {len(articles) - 1}.
 
 POSTS:
 {chr(10).join(blocks)}"""
-    r = None
-    for attempt in range(4):
-        try:
-            r = requests.post(
-                "https://generativelanguage.googleapis.com/v1beta/models/"
-                f"{GEMINI_MODEL}:generateContent?key={GEMINI_KEY}",
-                json={"contents": [{"parts": [{"text": prompt}]}],
-                      "generationConfig": {"maxOutputTokens": 8000, "temperature": 0.2,
-                                           "responseMimeType": "application/json"}},
-                timeout=120,
-            )
-            if r.status_code in (429, 500, 502, 503):
-                print(f"  Gemini {r.status_code}, retry {attempt + 1}/3...")
-                time.sleep(10 * (attempt + 1))
-                continue
-            break
-        except requests.RequestException as e:
-            print(f"  Gemini request error ({e}), retry {attempt + 1}/3...")
-            time.sleep(10 * (attempt + 1))
-    try:
-        r.raise_for_status()
-        parts = r.json()["candidates"][0]["content"]["parts"]
-        raw = "".join(p.get("text", "") for p in parts)
-        raw = re.sub(r"^```(json)?|```$", "", raw.strip(), flags=re.M).strip()
-        # take the first complete JSON object even if extra data follows
-        data, _ = json.JSONDecoder().raw_decode(raw[raw.index("{"):])
-        items = {it["idx"]: it for it in data.get("items", [])}
-        return {"tldr": data.get("tldr", ""), "items": items}
-    except Exception as e:  # noqa: BLE001
-        print(f"  triage failed: {e}")
+    data = common.gemini_generate(GEMINI_KEY, GEMINI_MODEL, prompt)
+    if data is None:
         return None
+    items = {it["idx"]: it for it in data.get("items", [])}
+    return {"tldr": data.get("tldr", ""), "items": items}
 
 
 def fallback_points(text: str) -> list[str]:
@@ -208,115 +194,117 @@ def fallback_points(text: str) -> list[str]:
 
 # ---------------------------------------------------------------- digest html
 
-TIER_META = {
-    "must_read": ("Must read", "#e5484d"),
-    "worth_a_skim": ("Worth a skim", "#f5a524"),
-    "low_priority": ("Low priority", "#8b8d98"),
-}
-
-PAGE_CSS = """
-:root{color-scheme:light dark}
-*{box-sizing:border-box;margin:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
- background:#0f1115;color:#e6e8ee;max-width:680px;margin:0 auto;
- padding:24px 16px 60px;line-height:1.55}
-a{color:#7aa2ff;text-decoration:none}
-h1{font-size:1.25rem;margin-bottom:4px}
-.meta{color:#8b8d98;font-size:.85rem;margin-bottom:20px}
-.tldr{background:#1a1d24;border-left:3px solid #7aa2ff;padding:12px 14px;
- border-radius:0 8px 8px 0;margin-bottom:24px;font-size:.95rem}
-.card{background:#161920;border:1px solid #23262f;border-radius:12px;
- padding:16px;margin-bottom:14px}
-.badge{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.04em;
- text-transform:uppercase;padding:3px 8px;border-radius:20px;color:#fff;
- margin-bottom:8px}
-.src{color:#8b8d98;font-size:.8rem;margin-left:8px}
-.card h2{font-size:1.02rem;line-height:1.35;margin-bottom:6px}
-.why{color:#b8bcc8;font-size:.88rem;font-style:italic;margin-bottom:8px}
-ul{padding-left:20px}
-li{font-size:.9rem;margin-bottom:5px;color:#d4d7e0}
-.section{margin:26px 0 10px;font-size:.8rem;font-weight:700;color:#8b8d98;
- text-transform:uppercase;letter-spacing:.06em}
-.idx a{display:block;padding:12px 14px;background:#161920;border:1px solid #23262f;
- border-radius:10px;margin-bottom:10px}
-.idx .sub{color:#8b8d98;font-size:.82rem;margin-top:2px}
-"""
+def card_html(a: dict) -> str:
+    label, cls = TIER_META[a["tier"]]
+    pts = "".join(f"<li>{html.escape(p)}</li>" for p in a.get("points") or [])
+    why = f'<div class="why">{html.escape(a["why"])}</div>' if a.get("why") else ""
+    stamp = f'<span class="stamp">{a["date"]}</span>' if a.get("date") else ""
+    return (f'<div class="card"><span class="badge {cls}">{label}</span>'
+            f'<span class="src">{html.escape(a["feed"])}</span>{stamp}'
+            f'<h2><a href="{html.escape(a["link"])}">{html.escape(a["title"])}</a></h2>'
+            f'{why}<ul>{pts}</ul></div>')
 
 
-def render_digest(articles: list[dict], triage: dict | None, ts: dt.datetime) -> str:
+def render_digest(articles: list[dict], tldr: str, ts: dt.datetime) -> str:
     tiers = {"must_read": [], "worth_a_skim": [], "low_priority": []}
-    for i, a in enumerate(articles):
-        info = (triage or {}).get("items", {}).get(i, {})
-        tier = info.get("tier", "worth_a_skim")
-        tiers.setdefault(tier, tiers["worth_a_skim"])
-        a["why"] = info.get("why", "")
-        a["points"] = info.get("points") or fallback_points(a["text"])
-        tiers[tier if tier in tiers else "worth_a_skim"].append(a)
-
-    def card(a, tier):
-        label, color = TIER_META[tier]
-        pts = "".join(f"<li>{html.escape(p)}</li>" for p in a["points"])
-        why = f'<div class="why">{html.escape(a["why"])}</div>' if a["why"] else ""
-        return (f'<div class="card"><span class="badge" style="background:{color}">'
-                f'{label}</span><span class="src">{html.escape(a["feed"])}</span>'
-                f'<h2><a href="{html.escape(a["link"])}">{html.escape(a["title"])}</a></h2>'
-                f'{why}<ul>{pts}</ul></div>')
+    for a in articles:
+        tiers[a["tier"]].append(a)
 
     body = ""
-    tldr = (triage or {}).get("tldr", "")
     if tldr:
-        body += f'<div class="tldr">⚡ {html.escape(tldr)}</div>'
+        body += f'<div class="tldr">&#9889; {html.escape(tldr)}</div>'
     for tier in ("must_read", "worth_a_skim", "low_priority"):
         if tiers[tier]:
-            body += f'<div class="section">{TIER_META[tier][0]} · {len(tiers[tier])}</div>'
-            body += "".join(card(a, tier) for a in tiers[tier])
+            body += f'<div class="section">{TIER_META[tier][0]} &middot; {len(tiers[tier])}</div>'
+            body += "".join(card_html(a) for a in tiers[tier])
 
     n = len(articles)
     when = ts.strftime("%a %d %b %Y, %H:%M IST")
-    return (f'<!doctype html><html><head><meta charset="utf-8">'
-            f'<meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>Digest · {when}</title><style>{PAGE_CSS}</style></head><body>'
-            f'<h1>📰 Reading Digest</h1><div class="meta">{when} · {n} new posts · '
-            f'<a href="../index.html">all digests</a></div>{body}</body></html>')
+    heading = (f'<h1>Reading Digest</h1><div class="meta">{when} &middot; {n} new posts &middot; '
+               f'<a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div>')
+    return common.page_shell(f"Digest &middot; {when}", heading + body)
 
 
-def rebuild_index() -> None:
-    files = sorted(DIGESTS.glob("*.html"), reverse=True)[:100]
+def build_runs_page() -> None:
+    files = sorted(DIGESTS.glob("*.html"), reverse=True)[:200]
     items = ""
     for f in files:
         stamp = f.stem  # 2026-07-15-1147
         try:
             t = dt.datetime.strptime(stamp, "%Y-%m-%d-%H%M")
-            label = t.strftime("%a %d %b %Y · %H:%M IST")
+            label = t.strftime("%a %d %b %Y &middot; %H:%M IST")
         except ValueError:
             label = stamp
         items += (f'<div class="idx"><a href="digests/{f.name}">{label}'
-                  f'<div class="sub">tap to open digest</div></a></div>')
-    DOCS.joinpath("index.html").write_text(
-        f'<!doctype html><html><head><meta charset="utf-8">'
-        f'<meta name="viewport" content="width=device-width,initial-scale=1">'
-        f'<title>Reading Digests</title><style>{PAGE_CSS}</style></head><body>'
-        f'<h1>📰 All Digests</h1><div class="meta">newest first</div>{items}'
-        f'</body></html>')
+                  f'<div class="sub">open digest</div></a></div>')
+    heading = ('<h1>All Runs</h1><div class="meta">newest first &middot; '
+               '<a href="index.html">back to library</a></div>')
+    DOCS.joinpath("runs.html").write_text(common.page_shell("All Runs", heading + items))
 
 
-def pages_url(filename: str) -> str:
-    base = os.environ.get("PAGES_BASE_URL", "").rstrip("/")
-    if not base:
-        repo = os.environ.get("GITHUB_REPOSITORY", "user/repo")
-        owner, name = repo.split("/", 1)
-        base = f"https://{owner}.github.io/{name}"
-    return f"{base}/digests/{filename}"
+def build_library() -> None:
+    store = load_articles()
+    items = [dict(id=aid, **rec) for aid, rec in store.items()
+             if rec.get("tier") in TIER_META]
+    items.sort(key=lambda a: a.get("date") or "", reverse=True)
+    items.sort(key=lambda a: TIER_RANK.get(a["tier"], 1))
+    items = items[:LIBRARY_LIMIT]
 
+    chips = '<span class="chip active" data-tier="all">All</span>'
+    for tier, (label, _cls) in TIER_META.items():
+        chips += f'<span class="chip" data-tier="{tier}">{label}</span>'
+    toolbar = (f'<div class="toolbar"><input type="text" id="q" placeholder="search title or source...">'
+               f'</div><div class="toolbar">{chips}</div>')
 
-# ---------------------------------------------------------------- telegram
+    cards = ""
+    for a in items:
+        label, cls = TIER_META[a["tier"]]
+        q = html.escape((a.get("title", "") + " " + a.get("feed", "")).lower())
+        pts = "".join(f"<li>{html.escape(p)}</li>" for p in a.get("points") or [])
+        why = f'<div class="why">{html.escape(a["why"])}</div>' if a.get("why") else ""
+        stamp = f'<span class="stamp">{a["date"]}</span>' if a.get("date") else ""
+        cards += (f'<div class="card" data-tier="{a["tier"]}" data-q="{q}">'
+                  f'<span class="badge {cls}">{label}</span>'
+                  f'<span class="src">{html.escape(a.get("feed") or "")}</span>{stamp}'
+                  f'<h2><a href="{html.escape(a.get("link") or "")}">{html.escape(a.get("title") or "")}</a></h2>'
+                  f'{why}<ul>{pts}</ul></div>')
 
-def send_telegram(msg: str) -> None:
-    r = requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
-                      json={"chat_id": CHAT_ID, "text": msg, "parse_mode": "HTML",
-                            "disable_web_page_preview": True}, timeout=20)
-    if not r.ok:
-        print(f"  Telegram error: {r.text}")
+    empty = '<div class="empty" id="empty" style="display:none">No matches.</div>'
+    script = """<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var chips=[].slice.call(document.querySelectorAll('.chip'));
+  var input=document.getElementById('q');
+  var cards=[].slice.call(document.querySelectorAll('.card'));
+  var activeTier='all';
+  function apply(){
+    var q=input.value.trim().toLowerCase();
+    var shown=0;
+    cards.forEach(function(c){
+      var okTier = activeTier==='all' || c.dataset.tier===activeTier;
+      var okQ = !q || c.dataset.q.indexOf(q) !== -1;
+      var show = okTier && okQ;
+      c.style.display = show ? '' : 'none';
+      if(show) shown++;
+    });
+    document.getElementById('empty').style.display = shown ? 'none' : 'block';
+  }
+  chips.forEach(function(ch){
+    ch.addEventListener('click', function(){
+      chips.forEach(function(x){ x.classList.remove('active'); });
+      ch.classList.add('active');
+      activeTier = ch.dataset.tier;
+      apply();
+    });
+  });
+  input.addEventListener('input', apply);
+});
+</script>"""
+
+    heading = (f'<h1>The Library</h1><div class="meta">{len(items)} indexed &middot; ranked by tier, '
+               f'then recency &middot; <a href="runs.html">all runs</a> &middot; '
+               f'<a href="discovery/index.html">discovery</a></div>')
+    body = heading + toolbar + cards + empty
+    DOCS.joinpath("index.html").write_text(common.page_shell("The Library", body, script))
 
 
 # ---------------------------------------------------------------- main
@@ -326,8 +314,9 @@ def main() -> None:
         sys.exit("Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID.")
 
     feeds = yaml.safe_load(FEEDS_FILE.read_text())["feeds"]
-    seen = load_seen()
-    articles, first_run = [], set()
+    articles_store = load_articles()
+    bootstrapped = common.load_json(BOOTSTRAP_FILE, {})
+    new_articles, first_run = [], set()
 
     for feed in feeds:
         name, url = feed["name"], feed["url"]
@@ -335,52 +324,73 @@ def main() -> None:
         parsed = fetch_feed(url)
         if parsed is None or (parsed.bozo and not parsed.entries):
             continue
-        if url not in seen:  # first sighting: mark all seen, don't spam
+        if url not in bootstrapped:  # first sighting: mark all seen, don't spam
             first_run.add(name)
-            seen[url] = [entry_id(e) for e in parsed.entries]
+            bootstrapped[url] = True
+            for e in parsed.entries:
+                aid = entry_id(e)
+                articles_store.setdefault(aid, {
+                    "tier": "bootstrap", "feed": name,
+                    "title": e.get("title", ""), "link": e.get("link", ""),
+                    "date": None, "why": None, "points": None,
+                })
             continue
-        known = set(seen[url])
-        for e in [e for e in parsed.entries if entry_id(e) not in known][:MAX_NEW_PER_FEED]:
-            articles.append({"feed": name, "title": e.get("title", "Untitled"),
-                             "link": e.get("link", ""), "entry": e})
-        seen[url] = list(known | {entry_id(e) for e in parsed.entries})
+        candidates = [e for e in parsed.entries if entry_id(e) not in articles_store]
+        for e in candidates[:MAX_NEW_PER_FEED]:
+            new_articles.append({"feed": name, "title": e.get("title", "Untitled"),
+                                 "link": e.get("link", ""), "id": entry_id(e), "entry": e})
 
-    save_seen(seen)
+    common.save_json(BOOTSTRAP_FILE, bootstrapped)
 
     if first_run:
-        send_telegram("✅ Now tracking: " + ", ".join(sorted(first_run)))
-    if not articles:
+        common.send_telegram(BOT_TOKEN, CHAT_ID, "✅ Now tracking: " + ", ".join(sorted(first_run)))
+    if not new_articles:
+        save_articles(articles_store)
         print("No new posts.")
         return
 
-    articles = articles[:MAX_ARTICLES_PER_RUN]
-    print(f"{len(articles)} new posts; fetching text...")
-    for a in articles:
+    new_articles = new_articles[:MAX_ARTICLES_PER_RUN]
+    print(f"{len(new_articles)} new posts; fetching text...")
+    for a in new_articles:
         a["text"] = get_entry_text(a.pop("entry"))
         time.sleep(0.3)
 
-    triage = triage_llm(articles)
+    triage = triage_llm(new_articles)
 
     # IST timestamps for filenames/labels
     now = dt.datetime.utcnow() + dt.timedelta(hours=5, minutes=30)
+    today = now.strftime("%Y-%m-%d")
+    for i, a in enumerate(new_articles):
+        info = (triage or {}).get("items", {}).get(i, {})
+        tier = info.get("tier", "worth_a_skim")
+        a["tier"] = tier if tier in TIER_META else "worth_a_skim"
+        a["why"] = info.get("why", "")
+        a["points"] = info.get("points") or fallback_points(a["text"])
+        articles_store[a["id"]] = {
+            "feed": a["feed"], "title": a["title"], "link": a["link"],
+            "date": today, "tier": a["tier"], "why": a["why"], "points": a["points"],
+        }
+
+    save_articles(articles_store)
+
+    tldr = (triage or {}).get("tldr", "")
     fname = now.strftime("%Y-%m-%d-%H%M") + ".html"
     DIGESTS.mkdir(parents=True, exist_ok=True)
-    DIGESTS.joinpath(fname).write_text(render_digest(articles, triage, now))
-    rebuild_index()
-    url = pages_url(fname)
+    DIGESTS.joinpath(fname).write_text(render_digest(new_articles, tldr, now))
+    build_runs_page()
+    build_library()
+    url = common.pages_url(f"digests/{fname}")
 
-    must = [i for i, a in enumerate(articles)
-            if (triage or {}).get("items", {}).get(i, {}).get("tier") == "must_read"]
-    tldr = (triage or {}).get("tldr", "")
+    must = [a for a in new_articles if a["tier"] == "must_read"]
 
-    lines = [f"📬 <b>{len(articles)} new posts</b>"
+    lines = [f"📬 <b>{len(new_articles)} new posts</b>"
              + (f" · <b>{len(must)} must-read{'s' if len(must) != 1 else ''}</b>" if must else "")]
     if tldr:
         lines.append(f"⚡ {html.escape(tldr)}")
-    for i in must[:3]:
-        lines.append(f"🔴 {html.escape(articles[i]['title'])}")
+    for a in must[:3]:
+        lines.append(f"🔴 {html.escape(a['title'])}")
     lines.append(f'\n<a href="{url}">Open digest →</a>')
-    send_telegram("\n".join(lines))
+    common.send_telegram(BOT_TOKEN, CHAT_ID, "\n".join(lines))
     print(f"Digest: {url}")
 
 
