@@ -24065,5 +24065,220 @@
   "points": [
    "Linus Torvalds asserts that AI is a clearly useful tool and that Linux is not an anti-AI project, telling critics they can fork the project or walk away."
   ]
+ },
+ "02aed8c47c5a1442": {
+  "feed": "YC Hacker News",
+  "title": "Kimi K3 is now live",
+  "link": "https://www.kimi.com/en",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "The post contains no content or technical details about the Kimi K3 release.",
+  "points": [
+   "Lacks any text or technical details to evaluate."
+  ]
+ },
+ "a3c6475ef06bc732": {
+  "feed": "YC Hacker News",
+  "title": "Teen hackers who live streamed cyber-attack on TfL jailed",
+  "link": "https://www.bbc.com/news/articles/c4gyg0y6yg2o",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "This is a general cybersecurity news story about hackers being jailed, which is unrelated to ML or backend engineering.",
+  "points": [
+   "Details the sentencing of two Scattered Spider hackers for a 2024 attack on Transport for London."
+  ]
+ },
+ "2375e9bcdade0df0": {
+  "feed": "YC Hacker News",
+  "title": "How Our Rust-to-Zig Rewrite Is Going",
+  "link": "https://rtfeldman.com/rust-to-zig",
+  "date": "2026-07-16",
+  "tier": "worth_a_skim",
+  "why": "A high-quality systems engineering experience report on rewriting a compiler from Rust to Zig, offering valuable insights into language trade-offs.",
+  "points": [
+   "The Roc compiler team achieved feature parity after rewriting 300,000 lines of Rust code into Zig.",
+   "The rewrite resulted in significantly smaller binary sizes, reducing a WASM game binary from over 62KB to 31KB.",
+   "Highlights real-world trade-offs between Rust and Zig for large-scale systems programming."
+  ]
+ },
+ "0d90ae43c7a36459": {
+  "feed": "YC Hacker News",
+  "title": "Accidental Anonymity",
+  "link": "https://macwright.com/2026/06/24/accidental-anonymity",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "A non-technical, philosophical essay about the social impact of LLMs on job applications and personal expression.",
+  "points": [
+   "Argues that LLM-generated resumes and portfolios strip away the human element and bravery required for genuine connection."
+  ]
+ },
+ "4cc177f1c126b835": {
+  "feed": "YC Hacker News",
+  "title": "World-War-Ⅱ-era telephone line still in use in Upper Tanana Valley Alaska (2021)",
+  "link": "https://www.sketchesofalaska.com/2021/03/world-war-ii-era-telephone-line-still.html",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "Historical telecommunications article with no relevance to modern backend engineering or machine learning.",
+  "points": [
+   "Details the history and construction of the 2,020-mile Alaska Military Telephone Line built during World War II."
+  ]
+ },
+ "c3f3eec59a6d8993": {
+  "feed": "Apple ML Research",
+  "title": "Location-Invariant Properties of Functions Versus Properties of Distributions: United in Testing but Separated in Verification",
+  "link": "https://machinelearning.apple.com/research/location-invariant-functions",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "Highly theoretical mathematical research on property testing and verification, lacking practical ML engineering or systems application.",
+  "points": [
+   "Explores the theoretical divergence between testing and verification complexities for location-invariant functions and distributions."
+  ]
+ },
+ "91dbd63e8311fc49": {
+  "feed": "Apple ML Research",
+  "title": "Interactive Proofs for General Distribution Properties",
+  "link": "https://machinelearning.apple.com/research/interactive-proofs-distribution-properties",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "Purely theoretical research on distribution verification and interactive proofs, not applicable to practical ML training or backend infra.",
+  "points": [
+   "Constructs theoretical interactive proof systems allowing a verifier to efficiently check claims about an unknown distribution made by an untrusted prover."
+  ]
+ },
+ "50aff5b10b2a234c": {
+  "feed": "Apple ML Research",
+  "title": "Doubly Sub-linear Interactive Proofs of Proximity",
+  "link": "https://machinelearning.apple.com/research/doubly-sublinear-interactive-proofs",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "Highly theoretical computer science research on proofs of proximity, unrelated to the reader's core priorities.",
+  "points": [
+   "Studies theoretical proofs of proximity that allow ultra-fast generation and verification of approximate assertions on massive inputs."
+  ]
+ },
+ "4c4d91d3ce63907b": {
+  "feed": "OpenAI News",
+  "title": "Core dump epidemiology: fixing an 18-year-old bug",
+  "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+  "date": "2026-07-16",
+  "tier": "must_read",
+  "why": "An exceptional, high-quality engineering deep-dive from OpenAI on debugging low-level C++ crashes in critical data infrastructure.",
+  "points": [
+   "Details how OpenAI diagnosed random C++ crashes in their Rockset data infrastructure using population-level core dump analysis.",
+   "Uncovered two distinct root causes: silent hardware corruption on a specific Azure host and an 18-year-old race condition in GNU libunwind.",
+   "Explains how the libunwind bug was a single-instruction race window triggered during exception handling, causing register misalignment on return."
+  ]
+ },
+ "1ae317c00ced77b0": {
+  "feed": "OpenAI News",
+  "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+  "link": "https://openai.com/index/hp-frontier-partnership",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "Pure corporate PR and partnership announcement with no technical details or architectural insights.",
+  "points": [
+   "Announces the expansion of HP's enterprise partnership with OpenAI to deploy AI agents across operations."
+  ]
+ },
+ "1a015f5dfa42958d": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+  "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+  "date": "2026-07-16",
+  "tier": "must_read",
+  "why": "A strategically critical hardware announcement detailing OpenAI's custom LLM-optimized inference chip.",
+  "points": [
+   "Unveils 'Jalapeño', OpenAI's first custom Intelligence Processor designed in partnership with Broadcom and Celestica specifically for LLM inference.",
+   "Achieved a rapid nine-month design-to-production tape-out, accelerated by OpenAI's own models.",
+   "Designed to reduce data movement and optimize performance-per-watt, planned for gigawatt-scale deployment in data centers."
+  ]
+ },
+ "6fdda2fdc1d813da": {
+  "feed": "OpenAI News",
+  "title": "Codex-maxxing for long-running work",
+  "link": "https://openai.com/index/codex-maxxing-long-running-work",
+  "date": "2026-07-16",
+  "tier": "worth_a_skim",
+  "why": "Relevant to applied ML workflows and agentic engineering, though somewhat marketing-adjacent.",
+  "points": [
+   "A whitepaper by Jason Liu detailing strategies for using Codex as a persistent workspace to manage complex, multi-step workflows.",
+   "Focuses on breaking down ambitious goals into verifiable steps and maintaining context across long-running projects."
+  ]
+ },
+ "eebdb7f63bb5dd4f": {
+  "feed": "OpenAI News",
+  "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+  "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+  "date": "2026-07-16",
+  "tier": "low_priority",
+  "why": "Primarily a corporate PR and enterprise adoption announcement, though it notes Samsung's hardware collaboration with OpenAI.",
+  "points": [
+   "Announces Samsung's global enterprise deployment of ChatGPT and Codex, alongside their collaboration on next-gen AI memory semiconductors."
+  ]
+ },
+ "493a508e4ceaa14c": {
+  "feed": "Hugging Face Blog",
+  "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+  "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+  "date": "2026-07-16",
+  "tier": "worth_a_skim",
+  "why": "Highly practical, lightweight applied ML models for OCR, relevant to MLOps and edge deployment.",
+  "points": [
+   "Introduces PP-OCRv6, scaling from 1.5M to 34.5M parameters with improved accuracy (+4.6% detection, +5.1% recognition over v5).",
+   "Uses PPLCNetV4 as a unified backbone across tiny, small, and medium tiers to ensure architectural consistency.",
+   "Supports 50 languages and is optimized for low-latency deployment on edge devices and servers."
+  ]
+ },
+ "d1c7fe87ce16567d": {
+  "feed": "Hugging Face Blog",
+  "title": "We got local models to triage the OpenClaw repo for FREE!*",
+  "link": "https://huggingface.co/blog/local-models-pr-triage",
+  "date": "2026-07-16",
+  "tier": "must_read",
+  "why": "Directly relevant to local LLM inference, agent harnesses, and practical backend/ML engineering workflows.",
+  "points": [
+   "Demonstrates using local open-weight models (Gemma, Qwen) in an agent harness (Pi) to perform real-time GitHub issue and PR triage.",
+   "Leverages structured JSON outputs from local models to classify issues into categories like local_models and self_hosted_inference.",
+   "Highlights the cost and latency benefits of running high-concurrency local inference on owned hardware (e.g., NVIDIA GB10) compared to paid APIs."
+  ]
+ },
+ "c7b6e0d15e340e1a": {
+  "feed": "Hugging Face Blog",
+  "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+  "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+  "date": "2026-07-16",
+  "tier": "worth_a_skim",
+  "why": "Interesting robotics/agent infrastructure and dataset integration, but slightly off-target from core backend/LLM training priorities.",
+  "points": [
+   "Introduces Strands Robots, an open-source AWS SDK that integrates the LeRobot stack into agent workflows.",
+   "Enables a unified pipeline for recording demonstrations, running simulations, and deploying policies to physical hardware (like the SO-101) with minimal code changes.",
+   "Uses Zenoh mesh to coordinate and broadcast commands across multiple remote robots in a fleet."
+  ]
+ },
+ "fbaf22fcf62fc443": {
+  "feed": "Hugging Face Blog",
+  "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+  "link": "https://huggingface.co/blog/openenv-agentic-rl",
+  "date": "2026-07-16",
+  "tier": "must_read",
+  "why": "Directly aligns with priorities around RLHF, reasoning RL, and open-source agent training infrastructure.",
+  "points": [
+   "Announces OpenEnv's transition to a community-led project hosted by Hugging Face, backed by major players like Meta, Unsloth, Modal, and Nvidia.",
+   "Acts as an interoperability protocol layer between agent harnesses, execution environments (browsers, terminals), and RL training frameworks.",
+   "Aims to standardize how open-source models are trained via Reinforcement Learning to interact with external tools and environments efficiently."
+  ]
+ },
+ "3c2e7a73efc4745c": {
+  "feed": "Hugging Face Blog",
+  "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+  "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+  "date": "2026-07-16",
+  "tier": "worth_a_skim",
+  "why": "Relevant to LLM deployment, safety guardrails, and reasoning traces (THINK mode), though focused on content moderation.",
+  "points": [
+   "Launches Nemotron 3.5 Content Safety, a unified multimodal and multilingual safety model that supports custom policy enforcement.",
+   "Introduces a 'THINK mode' that generates auditable reasoning traces before outputting a safety verdict.",
+   "Inherits zero-shot generalization across ~140 languages from its Gemma 3 base model while explicitly training on 12 major languages."
+  ]
  }
 }
