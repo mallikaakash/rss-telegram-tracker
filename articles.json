@@ -25276,5 +25276,206 @@
   "points": [
    "Building Swiggy’s AI onboarding companion for delivery executives, where accuracy alone wasn’t enough and mentorship had to scale. For a new Delivery Executive (DE) joining Swiggy, the experience is often overwhelming, throwing a world of SOPs, incentive structures, zone logistics, and app workflows at them all at once. This friction is evident in our metrics, but the drop-off isn’t due to unavailable information, as the DEs are exposed to this information in their onboarding and the information is present in sections of the Swiggy DE app (the dedicated mobile app for delivery partners, separate from the consumer-facing Swiggy app); it’s because the information fails to reach them in a way that builds confidence and delivers instant answers."
   ]
+ },
+ "8e55fd9fdf24edb5": {
+  "feed": "YC Hacker News",
+  "title": "Solod: Go can be a better C",
+  "link": "https://solod.dev",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "An interesting systems-level tool for backend engineers that compiles a strict subset of Go to readable C11 with zero runtime.",
+  "points": [
+   "Compiles Go code directly to readable C11 with no garbage collection, reference counting, or hidden allocations.",
+   "Supports core Go features like structs, methods, interfaces, slices, maps, and defer, with stack-allocation by default.",
+   "Provides native C interop without CGO overhead, allowing seamless bidirectional calls."
+  ]
+ },
+ "b56b218c4d394206": {
+  "feed": "YC Hacker News",
+  "title": "The Little Book of Reinforcement Learning",
+  "link": "https://github.com/alxndrTL/little-book-rl/",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly advances the reader's priority on RLHF and reasoning RL by providing a concise, PyTorch-implemented guide to RL algorithms.",
+  "points": [
+   "Serves as a highly accessible, short introduction to Reinforcement Learning from foundational concepts to applied algorithms.",
+   "Accompanied by a GitHub repository containing clean, PyTorch-based implementations of key RL algorithms.",
+   "Highly relevant for understanding the mechanics behind modern reasoning models and RLHF/GRPO."
+  ]
+ },
+ "6e7d7591c8d44652": {
+  "feed": "YC Hacker News",
+  "title": "Camera Chase Vehicle",
+  "link": "https://transistor-man.com/gimbal_camera_rover.html",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Off-target hobbyist hardware project about building a stabilized camera rover.",
+  "points": [
+   "Details the mechanical and electronic assembly of a custom camera chase vehicle using a 1/5 scale RC chassis and a Movi M10 gimbal."
+  ]
+ },
+ "c7f088c8f3e4d684": {
+  "feed": "YC Hacker News",
+  "title": "Trump Media to sell instant access to 'market-moving' social posts",
+  "link": "https://www.bbc.com/news/articles/c79gw4lj89eo",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Non-technical financial and political news with no relevance to ML or backend engineering.",
+  "points": [
+   "Trump Media is launching a paid API (Truth API) to deliver posts to Wall Street firms in milliseconds."
+  ]
+ },
+ "d1825d1fca9be53e": {
+  "feed": "YC Hacker News",
+  "title": "Old Icons",
+  "link": "https://leancrew.com/all-this/2026/07/old-icons/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Off-target design history post focusing on classic 32x32 pixel Mac application icons.",
+  "points": [
+   "Explores the history and design constraints of early Macintosh application and document icons."
+  ]
+ },
+ "c4d7c9eda0c6cb87": {
+  "feed": "Technica",
+  "title": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
+  "link": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "General tech industry news and opinion rather than a technical deep-dive or ML infrastructure post.",
+  "points": [
+   "Linus Torvalds strongly defends the integration of AI-powered coding and review tools (like Sashiko) in the Linux kernel."
+  ]
+ },
+ "00ed5eb9be7b5a27": {
+  "feed": "OpenAI News",
+  "title": "OpenAI frontier models and Codex are now available on AWS",
+  "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Product marketing and cloud partnership announcement with no technical implementation details.",
+  "points": [
+   "OpenAI's frontier models and Codex are now generally available on AWS via Amazon Bedrock."
+  ]
+ },
+ "507ec0fdf6297e19": {
+  "feed": "OpenAI News",
+  "title": "How Braintrust turns customer requests into code with Codex",
+  "link": "https://openai.com/index/braintrust",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Product marketing case study focusing on high-level usage of Codex rather than technical engineering details.",
+  "points": [
+   "Braintrust uses Codex to rapidly generate preview branches from customer feature requests, speeding up their feedback loop."
+  ]
+ },
+ "8337eeb248ea1830": {
+  "feed": "OpenAI News",
+  "title": "Strengthening societal resilience with Rosalind Biodefense",
+  "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Policy and safety PR announcement regarding biodefense initiatives.",
+  "points": [
+   "OpenAI is launching Rosalind Biodefense to provide trusted developers and government partners with access to GPT-Rosalind for biological preparedness."
+  ]
+ },
+ "c4a9a577612daa8d": {
+  "feed": "OpenAI News",
+  "title": "How Endava builds an agentic organization with Codex",
+  "link": "https://openai.com/index/endava",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "High-level corporate case study and product marketing for OpenAI's Codex.",
+  "points": [
+   "Endava uses Codex to codify senior engineering expertise into agents that assist junior developers across the software lifecycle."
+  ]
+ },
+ "fae225528858b04c": {
+  "feed": "OpenAI News",
+  "title": "Election information and safeguards in 2026",
+  "link": "https://openai.com/index/election-safeguards-2026",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Corporate PR and policy announcement regarding election integrity and partnerships.",
+  "points": [
+   "OpenAI outlines its strategies for the 2026 global elections, including partnerships with AP and Democracy Works to surface reliable voting data."
+  ]
+ },
+ "efcaf252dca14bdd": {
+  "feed": "Hugging Face Blog",
+  "title": "Continuous batching from first principles",
+  "link": "https://huggingface.co/blog/continuous_batching",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Exceptional deep-dive into LLM inference serving optimization, directly aligning with Priority 2 (vLLM, performance engineering).",
+  "points": [
+   "Explains how continuous batching maximizes throughput by dynamically swapping active sequences in and out of the GPU during generation.",
+   "Derives the optimization starting from the fundamentals of attention mechanisms, KV caching, and token-wise operations.",
+   "Addresses key memory and compute bottlenecks in LLM serving, making it essential reading for ML infrastructure engineers."
+  ]
+ },
+ "5e9a93dfd3544e39": {
+  "feed": "Hugging Face Blog",
+  "title": "Building Deep Research: How we Achieved State of the Art",
+  "link": "https://huggingface.co/blog/Tavily/tavily-deep-research",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "High-quality technical deep-dive into building state-of-the-art research agents, covering context engineering and tool orchestration.",
+  "points": [
+   "Highlights the design of an 'agent harness' that manages context, tool invocation, loop control, and error handling.",
+   "Emphasizes 'context engineering' and context-managed web retrieval to feed only the most relevant data to the LLM.",
+   "Advocates for designing flexible agent software that can absorb future model improvements without requiring hand-crafted optimizations."
+  ]
+ },
+ "68660ff47168e0f2": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms",
+  "link": "https://huggingface.co/blog/anylanguagemodel",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Focused on client-side iOS/macOS Swift development rather than backend or ML infrastructure.",
+  "points": [
+   "AnyLanguageModel is a Swift package providing a unified API to swap between local (MLX, CoreML, llama.cpp) and remote LLMs on Apple platforms."
+  ]
+ },
+ "0471cf4f72de8dfe": {
+  "feed": "Hugging Face Blog",
+  "title": "Aligning to What? Rethinking Agent Generalization in MiniMax M2",
+  "link": "https://huggingface.co/blog/MiniMax-AI/aligning-to-what",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly addresses Priority 1 (LLM training, post-training, reasoning RL) with concrete insights on agent alignment.",
+  "points": [
+   "Identifies the gap between benchmark performance and real-world usability as the core agent alignment challenge.",
+   "Introduces 'Interleaved Thinking,' allowing the agent's internal monologue to occur dynamically at any point to handle external perturbations.",
+   "Discusses training strategies to ensure agents generalize robustly across unfamiliar tools, CLIs, and user environments."
+  ]
+ },
+ "f768b875b2c3e7e9": {
+  "feed": "Hugging Face Blog",
+  "title": "On the Shifting Global Compute Landscape",
+  "link": "https://huggingface.co/blog/huggingface/shifting-compute-landscape",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Highly strategic analysis of how hardware constraints in China catalyzed major algorithmic breakthroughs like GRPO and MLA.",
+  "points": [
+   "Documents the shift of Chinese AI inference and training toward domestic silicon like Huawei Ascend and Cambricon due to US export controls.",
+   "Argues that chip scarcity directly incentivized key open-source efficiency innovations, including DeepSeek's Multi-head Latent Attention (MLA) and Group Relative Policy Optimization (GRPO).",
+   "Highlights the rapid emergence of domestic software ecosystems challenging NVIDIA's CUDA dominance at every layer."
+  ]
+ },
+ "22757dfa271c609e": {
+  "feed": "Swiggy Bytes",
+  "title": "How We Made All Swiggy Apps Operations AI-Native",
+  "link": "https://medium.com/swiggy-bytes/how-we-made-all-swiggy-apps-operations-ai-native-1343612ec228?source=rss----9556560f659---4",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "High-quality engineering deep-dive from a major Indian startup (Swiggy) detailing their production-grade agentic operations layer.",
+  "points": [
+   "Details how Swiggy built an agentic operating layer inside Slack to automate release management, on-call analysis, and observability.",
+   "Utilizes Model Context Protocol (MCP) and custom skills to connect LLMs directly to production tools like Jira, New Relic, and Firebase.",
+   "Maintains a 'human-in-the-loop' architecture where agents recommend actions (e.g., rollout holds) but humans retain final approval."
+  ]
  }
 }
