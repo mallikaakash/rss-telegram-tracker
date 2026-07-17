@@ -26294,5 +26294,214 @@
    "CDC enables highly efficient deduplication on content-addressable storage layers like Hugging Face's Xet, drastically reducing upload/download times.",
    "The feature is enabled simply by passing the `use_content_defined_chunking=True` argument during Parquet writes."
   ]
+ },
+ "41b0c4b10a2df308": {
+  "feed": "YC Hacker News",
+  "title": "Frame – the first Linux Assembly X server",
+  "link": "https://isene.org/2026/07/Frame.html",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "An impressive low-level systems project rewriting an X server in Assembly, showcasing extreme performance engineering.",
+  "points": [
+   "The author built 'frame', a 20,000-line Linux X server written entirely in Assembly with zero external dependencies.",
+   "It reduces idle CPU usage to one-third of Xorg's, significantly improving battery life and eliminating unnecessary wakeups."
+  ]
+ },
+ "773435bd8eff7621": {
+  "feed": "YC Hacker News",
+  "title": "Frank Lloyd Wright's First Home",
+  "link": "https://www.architecturaldigest.com/story/frank-lloyd-wright-home-and-studio-everything-you-need-to-know",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is an architectural history article about Frank Lloyd Wright's first home, which is completely unrelated to engineering.",
+  "points": [
+   "Focuses on the history and design of Wright's Oak Park home built in 1889."
+  ]
+ },
+ "946fd7f1e6b3169c": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Explore the Workspaces of Modern Creators",
+  "link": "https://workspaces.xyz/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A lifestyle showcase of creator desk setups, which is irrelevant to ML or backend engineering.",
+  "points": [
+   "Features curated images and gear lists of workspaces from designers and developers."
+  ]
+ },
+ "822bdaef475c48cb": {
+  "feed": "YC Hacker News",
+  "title": "Designing emoji for the way we communicate today",
+  "link": "https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A design-focused post about Google's 3D emoji creation, which is a consumer-facing product marketing piece.",
+  "points": [
+   "Details the design and AI-assisted process behind Google's Noto 3D emoji library."
+  ]
+ },
+ "9ea38b873d3cda76": {
+  "feed": "YC Hacker News",
+  "title": "More Bounce to the Ounce",
+  "link": "https://mceglowski.substack.com/p/more-bounce-to-the-ounce",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "An empty post containing no actual content or technical information.",
+  "points": [
+   "Contains only a placeholder comment link."
+  ]
+ },
+ "6a792bcd60c62d7a": {
+  "feed": "Technica",
+  "title": "Troubling new details emerge on diabetes ouster controversy",
+  "link": "https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "An article covering political and organizational controversy within the American Diabetes Association, unrelated to technology.",
+  "points": [
+   "Discusses tensions and preprints surrounding the ouster of scientists at an ADA meeting."
+  ]
+ },
+ "7e99fdef2a6eb7f9": {
+  "feed": "Technica",
+  "title": "Will Russia's answer to the Falcon 9 rocket ever take flight?",
+  "link": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A news article about Russian reusable rocket development, which is off-target for an ML/backend engineer.",
+  "points": [
+   "Discusses Russia's progress and challenges in developing a reusable booster to compete with Falcon 9."
+  ]
+ },
+ "9807ae0752f785d8": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+  "link": "https://openai.com/index/openai-pwc-finance-collaboration",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A high-level corporate partnership announcement between OpenAI and PwC that lacks technical implementation details.",
+  "points": [
+   "Announces a collaboration to build AI agents for enterprise finance and CFO workflows."
+  ]
+ },
+ "92f8ee26a85afd65": {
+  "feed": "OpenAI News",
+  "title": "Introducing Advanced Account Security",
+  "link": "https://openai.com/index/advanced-account-security",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A consumer-facing security feature announcement for ChatGPT accounts, lacking backend or infrastructure depth.",
+  "points": [
+   "Introduces opt-in advanced security settings like passkeys and disabled SMS recovery for ChatGPT."
+  ]
+ },
+ "368128e6f2812923": {
+  "feed": "OpenAI News",
+  "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+  "link": "https://openai.com/index/openai-on-aws",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A cloud partnership announcement regarding OpenAI models on AWS Bedrock, lacking deep technical architecture.",
+  "points": [
+   "Announces the availability of OpenAI models (including GPT-5.5) and Codex on Amazon Bedrock."
+  ]
+ },
+ "bc680bc14e9fe206": {
+  "feed": "OpenAI News",
+  "title": "OpenAI available at FedRAMP Moderate",
+  "link": "https://openai.com/index/openai-available-at-fedramp-moderate",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A regulatory compliance announcement regarding FedRAMP authorization for OpenAI's enterprise products.",
+  "points": [
+   "Announces that ChatGPT Enterprise and the API Platform achieved FedRAMP Moderate authorization."
+  ]
+ },
+ "e2bf2733d05a142a": {
+  "feed": "OpenAI News",
+  "title": "Introducing OpenAI Privacy Filter",
+  "link": "https://openai.com/index/introducing-openai-privacy-filter",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "Releases an open-weight small language model for local PII masking, which is highly useful for preprocessing ML training data.",
+  "points": [
+   "OpenAI released Privacy Filter, an open-weight model designed for high-throughput, context-aware PII detection and redaction.",
+   "The model runs locally to ensure sensitive data does not leave local machines during preprocessing.",
+   "It achieves state-of-the-art performance on the PII-Masking-300k benchmark, outperforming traditional pattern-matching tools."
+  ]
+ },
+ "db32404a201439d4": {
+  "feed": "Hugging Face Blog",
+  "title": "Arc Virtual Cell Challenge: A Primer",
+  "link": "https://huggingface.co/blog/virtual-cell-challenge",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "An applied ML challenge primer on predicting gene silencing effects, relevant to modeling sparse biological data.",
+  "points": [
+   "The Arc Virtual Cell Challenge requires predicting the transcriptomic effect of silencing a gene in unseen cell types.",
+   "The dataset consists of 300,000 single-cell RNA sequencing profiles represented as sparse matrices.",
+   "Models must handle the 'observer effect' where reading a cell's transcriptome destroys it, requiring control cells as reference points."
+  ]
+ },
+ "084a3f4929552fcb": {
+  "feed": "Hugging Face Blog",
+  "title": "Consilium: When Multiple LLMs Collaborate",
+  "link": "https://huggingface.co/blog/consilium-multi-llm",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Explores multi-LLM collaboration and consensus-building architectures, which is relevant to agentic workflows.",
+  "points": [
+   "Consilium is a multi-LLM platform where models debate complex questions to reach consensus via majority voting or ranked choice.",
+   "It operates as both a visual Gradio interface (poker-table style) and an MCP (Model Context Protocol) server."
+  ]
+ },
+ "c8d7fe2cd231db96": {
+  "feed": "Hugging Face Blog",
+  "title": "Back to The Future: Evaluating AI Agents on Predicting Future Events",
+  "link": "https://huggingface.co/blog/futurebench",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Introduces a novel evaluation methodology for LLM agents that prevents data contamination by predicting future events.",
+  "points": [
+   "FutureBench evaluates AI agents on predicting future events sourced from news and prediction markets like Polymarket.",
+   "Forecasting inherently prevents data contamination because models cannot train on data that does not yet exist."
+  ]
+ },
+ "f516e61d2657d755": {
+  "feed": "Hugging Face Blog",
+  "title": "Migrating the Hub from Git LFS to Xet",
+  "link": "https://huggingface.co/blog/migrating-the-hub-to-xet",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "A major ML infrastructure deep-dive detailing Hugging Face's zero-downtime migration of 20 PB of data from Git LFS to Xet.",
+  "points": [
+   "Hugging Face migrated 500,000 repositories (20 PB) to Xet, a content-addressed storage system built on Rust.",
+   "The migration used a 'Git LFS Bridge' and background syncs to allow hybrid LFS/Xet repositories without locking user workflows.",
+   "Xet utilizes content-defined chunking to upload and download file chunks to S3, optimizing transfer speeds."
+  ]
+ },
+ "6ed40dacc4bc5262": {
+  "feed": "Hugging Face Blog",
+  "title": "Training and Finetuning Sparse Embedding Models with Sentence Transformers",
+  "link": "https://huggingface.co/blog/train-sparse-encoder",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "A highly technical guide on training and finetuning sparse embedding models (SPLADE/CSR) for search and retrieval pipelines.",
+  "points": [
+   "Sentence Transformers now natively supports training and finetuning sparse embedding models like SPLADE and Contrastive Sparse Representation (CSR).",
+   "Sparse models perform query and document expansion, mapping text to high-dimensional sparse vectors aligned with vocabulary.",
+   "Finetuning these models is highly cost-effective and yields strong results in hybrid search and retrieve-and-rerank scenarios."
+  ]
+ },
+ "e3d56e9860e21abb": {
+  "feed": "MIT News (AI)",
+  "title": "Following the questions where they lead",
+  "link": "https://news.mit.edu/2026/following-questions-where-they-lead-bailey-flanigan-0717",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A biographical profile of an MIT faculty member, which is not a technical engineering deep-dive.",
+  "points": [
+   "Profiles Bailey Flanigan's interdisciplinary academic journey across computer science and political science."
+  ]
  }
 }
