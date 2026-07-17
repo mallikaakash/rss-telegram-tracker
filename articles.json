@@ -25652,5 +25652,229 @@
    "Phase 1 focuses on perception and coordinate grounding, while Phase 2 transitions to cognition and action execution.",
    "Releases open-source training recipes, data-processing tools, unified action space converters, and datasets (aguvis-stage-1 and stage-2)."
   ]
+ },
+ "519be566bebeb8fd": {
+  "feed": "YC Hacker News",
+  "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
+  "link": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Kaggle competition drama is not relevant to core ML engineering or industrial optimization.",
+  "points": [
+   "DeepMind's Kaggle competition was allegedly won by an AI-generated entry, sparking integrity concerns."
+  ]
+ },
+ "dfdb7e70d605b02a": {
+  "feed": "YC Hacker News",
+  "title": "Ask HN: Any AWS billing issues known? Amazon forecast of 3 billion dollars",
+  "link": "https://news.ycombinator.com/item?id=48945681",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "A massive AWS billing subsystem failure serves as an interesting cloud infrastructure reliability war story.",
+  "points": [
+   "A bug in AWS's billing computation subsystem caused false forecasts of up to hundreds of billions of dollars, forcing a rollback.",
+   "The incident highlights the critical nature of billing telemetry and the panic caused by automated cost-alerting systems."
+  ]
+ },
+ "6e5f1797a7d7da5c": {
+  "feed": "YC Hacker News",
+  "title": "Apple targets dozens of OpenAI employees with legal letters",
+  "link": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Tech industry legal disputes and poaching news do not advance technical ML or backend engineering skills.",
+  "points": [
+   "Apple sent legal letters to former employees who joined OpenAI, highlighting intensifying talent competition."
+  ]
+ },
+ "a49908d4389e6c5a": {
+  "feed": "YC Hacker News",
+  "title": "Turn your singing voice into printable notes (in the browser)",
+  "link": "https://om-intelligence.ch/projects/vocal-notation/vocal-notation.html",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A consumer-facing audio pitch detection tool is unrelated to backend infrastructure or LLM training.",
+  "points": [
+   "The browser-based tool converts singing into sheet music using real-time pitch detection and noise gating."
+  ]
+ },
+ "b51c6da38eb11528": {
+  "feed": "YC Hacker News",
+  "title": "CD sales growth outpaced vinyl in the first half of 2026",
+  "link": "https://consequence.net/2026/07/the-cd-revival-is-getting-hard-to-ignore/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Music industry sales statistics are completely off-target for an ML/backend engineer.",
+  "points": [
+   "CD sales grew 16% in early 2026, outpacing vinyl's growth due to Gen Z nostalgia and K-pop collectors."
+  ]
+ },
+ "b39edad73c29a0cb": {
+  "feed": "Technica",
+  "title": "The report oil companies are worried about: Climate attribution science",
+  "link": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "General climate science and political news do not align with the reader's technical priorities.",
+  "points": [
+   "Climate attribution science has matured to link extreme weather to emissions, raising liability risks for oil companies."
+  ]
+ },
+ "cc5e373c0723db90": {
+  "feed": "Technica",
+  "title": "FCC took pricey gifts from Paramount as the company needed approval for deals",
+  "link": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Political lobbying and regulatory news are completely irrelevant to ML engineering.",
+  "points": [
+   "FCC officials accepted expensive event tickets from Paramount while regulatory decisions were pending."
+  ]
+ },
+ "60723f3834b8c78d": {
+  "feed": "Technica",
+  "title": "2026 Lucid Gravity Touring review: A strong act 2",
+  "link": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A consumer electric vehicle review is off-target for backend and ML engineering.",
+  "points": [
+   "The 2026 Lucid Gravity Touring is an $82,000 electric SUV with impressive performance but no relevance to ML."
+  ]
+ },
+ "ed7460705fdfe6f7": {
+  "feed": "Technica",
+  "title": "Rocket Report: India's Vikram-1 nears debut flight; AST to become rocket company?",
+  "link": "https://arstechnica.com/space/2026/07/rocket-report-indias-vikram-1-nears-debut-flight-ast-to-become-rocket-company/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Aerospace industry launch updates are unrelated to ML infrastructure or backend engineering.",
+  "points": [
+   "India's Skyroot Aerospace is preparing for the debut orbital launch of its Vikram-1 commercial rocket."
+  ]
+ },
+ "ada6c1425188ba30": {
+  "feed": "OpenAI News",
+  "title": "A new personal finance experience in ChatGPT",
+  "link": "https://openai.com/index/personal-finance-chatgpt",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a consumer-facing product feature launch, which is downranked per the reader's profile.",
+  "points": [
+   "OpenAI launched a personal finance dashboard in ChatGPT using Plaid to connect financial accounts."
+  ]
+ },
+ "c64312c3121cafd6": {
+  "feed": "OpenAI News",
+  "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+  "link": "https://openai.com/index/databricks",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly relevant to LLM capabilities, agent workflows, and enterprise evaluation benchmarks.",
+  "points": [
+   "GPT-5.5 achieved state-of-the-art on Databricks' OfficeQA Pro benchmark, reducing errors by 46% over GPT-5.4.",
+   "The model is the first to surpass 50% accuracy on complex document parsing and reasoning tasks.",
+   "Databricks is exposing GPT-5.5 via AgentBricks and Agent Supervisor APIs for multi-step agent orchestration."
+  ]
+ },
+ "b5b1610b252a64e9": {
+  "feed": "OpenAI News",
+  "title": "How business operations teams use ChatGPT Work",
+  "link": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Pure product marketing and non-technical use cases for business operations.",
+  "points": [
+   "OpenAI released guides on how business operations teams can use ChatGPT Work to draft briefs and analyze metrics."
+  ]
+ },
+ "3e12c692082774f4": {
+  "feed": "OpenAI News",
+  "title": "Work with Codex from anywhere",
+  "link": "https://openai.com/index/work-with-codex-from-anywhere",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Relevant to developer workflows and remote agent execution architecture.",
+  "points": [
+   "Codex is now integrated into the ChatGPT mobile app, allowing developers to monitor and approve agent actions remotely.",
+   "The architecture uses a secure relay layer to sync active session state, terminal outputs, and diffs from local/remote dev environments to mobile."
+  ]
+ },
+ "fd608667e64cf7a5": {
+  "feed": "OpenAI News",
+  "title": "Helping ChatGPT better recognize context in sensitive conversations",
+  "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Touches on LLM safety, alignment, and multi-turn context handling.",
+  "points": [
+   "OpenAI updated ChatGPT's safety systems to detect evolving risks across multi-turn conversations rather than single prompts.",
+   "The system uses a 'safe completion' approach to refuse only the unsafe portions of a request while maintaining helpfulness for benign parts."
+  ]
+ },
+ "439634e93fda03de": {
+  "feed": "Hugging Face Blog",
+  "title": "SyGra: The One-Stop Framework for Building Data for LLMs and SLMs",
+  "link": "https://huggingface.co/blog/ServiceNow-AI/sygra-data-gen-framework",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly targets LLM/SLM training data preparation, SFT to DPO conversion, and reasoning token generation.",
+  "points": [
+   "SyGra is a low-code/no-code Python framework designed to automate dataset creation, transformation, and alignment for LLMs and SLMs.",
+   "It supports converting SFT datasets to DPO preference pairs, generating reasoning tokens, and transforming raw knowledge bases into Q&A.",
+   "The framework integrates with multiple inference backends including vLLM and Hugging Face."
+  ]
+ },
+ "79a47714422b85f5": {
+  "feed": "Hugging Face Blog",
+  "title": "Gaia2 and ARE: Empowering the community to study agents",
+  "link": "https://huggingface.co/blog/gaia2",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Crucial for understanding agent evaluation, multi-step planning, and tool use.",
+  "points": [
+   "Gaia2 is a new read-and-write agentic benchmark focusing on interactive behavior, instruction following, and handling real-world asynchronous chaos.",
+   "Released alongside ARE (Meta Agents Research Environments), an open framework (MIT license) to run, debug, and evaluate agents under simulated real-world conditions.",
+   "Gaia2 moves beyond the read-only retrieval of GAIA to test complex multi-step planning and tool execution."
+  ]
+ },
+ "f8059217fdc34ef4": {
+  "feed": "Hugging Face Blog",
+  "title": "Scaleway on Hugging Face Inference Providers 🔥",
+  "link": "https://huggingface.co/blog/inference-providers-scaleway",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Relevant to ML infrastructure and serverless inference serving.",
+  "points": [
+   "Scaleway is now integrated as an Inference Provider on Hugging Face, offering serverless access to models like DeepSeek R1 and Qwen3.",
+   "Features pay-per-token pricing starting at €0.20 per million tokens, hosted in European data centers for data sovereignty.",
+   "Delivers sub-200ms response times for first tokens, supporting structured outputs and function calling."
+  ]
+ },
+ "cee590182191706f": {
+  "feed": "Hugging Face Blog",
+  "title": "Public AI on Hugging Face Inference Providers 🔥",
+  "link": "https://huggingface.co/blog/inference-providers-publicai",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Interesting decentralized/distributed ML infrastructure and inference serving model.",
+  "points": [
+   "Public AI, a nonprofit distributed inference utility, is now a Hugging Face Inference Provider.",
+   "The infrastructure runs a vLLM-powered backend deployed across distributed clusters donated by national and industry partners.",
+   "It uses a global load-balancing layer to route OpenAI-compatible API requests across sovereign compute nodes."
+  ]
+ },
+ "f51bb658a0b83424": {
+  "feed": "Hugging Face Blog",
+  "title": "mmBERT: ModernBERT goes Multilingual",
+  "link": "https://huggingface.co/blog/mmbert",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly covers LLM/encoder pretraining, tokenizers, architecture (ModernBERT), and scaling laws/recipes.",
+  "points": [
+   "mmBERT is a state-of-the-art multilingual encoder model trained on over 3T tokens across 1,800+ languages, building on the fast ModernBERT architecture.",
+   "Introduces a progressive language inclusion strategy, gradually annealing training data to include more languages and flatter sampling over three phases.",
+   "Significantly outperforms XLM-R on NLU and retrieval tasks while maintaining high efficiency and speed."
+  ]
  }
 }
