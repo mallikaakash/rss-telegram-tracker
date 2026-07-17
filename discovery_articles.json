@@ -181,5 +181,183 @@
   "tier": "skip",
   "why": "A relatively basic, introductory explainer on GPU kernel fusion and memory bottlenecks, repeating well-known concepts without novel data or deep implementation details.",
   "points": []
+ },
+ "4c6ca7869bcab01f": {
+  "url": "https://medium.com/@kaige.yang0110/scaling-async-rl-training-4-vllm-replicas-8-docker-sandboxes-and-nccl-weight-sync-using-verl-7ae6657084cc",
+  "title": "Medium",
+  "domain": "medium.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-17",
+  "tier": "hidden_gem",
+  "why": "A highly technical, hands-on engineering post detailing the architecture of a fully asynchronous GRPO training pipeline using VERL to eliminate GPU idle time.",
+  "points": [
+   "Splits 8 GPUs into parallel inference and parallel tool execution to keep training GPUs from sitting idle during slow rollouts.",
+   "Implements zero-downtime weight synchronization using NCCL.",
+   "Addresses the 50-70% GPU compute waste typical of traditional synchronous RL training pipelines."
+  ]
+ },
+ "da770d197d49d7f4": {
+  "url": "https://jatinbansal.com/ai-engineering/dpo-and-alignment/",
+  "title": "DPO and Modern Alignment | Jatin Bansal",
+  "domain": "jatinbansal.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-17",
+  "tier": "solid_find",
+  "why": "A solid mathematical and operational breakdown of Direct Preference Optimization (DPO) and its loss mechanics.",
+  "points": [
+   "Explains how the beta parameter controls the conversion factor between log-likelihood ratios and implicit reward.",
+   "Highlights the operational advantages of DPO over traditional RLHF by eliminating the brittle reward model component.",
+   "Details the mechanics of the two forward passes required per batch (trainable policy vs. frozen reference model)."
+  ]
+ },
+ "21139c01b8f370aa": {
+  "url": "https://www.dailydoseofds.com/rl-course-part-10/",
+  "title": "Verifiable Rewards and GRPO",
+  "domain": "dailydoseofds.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-17",
+  "tier": "skip",
+  "why": "A mainstream educational course chapter repeating well-known RLHF and GRPO concepts.",
+  "points": []
+ },
+ "cfdfcdfba1d32c11": {
+  "url": "https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/",
+  "title": "I Built a C++ Backend So My GPU Would Stop Eating Air | Towards Data Science",
+  "domain": "towardsdatascience.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-17",
+  "tier": "skip",
+  "why": "The page content is obscured by a cookie consent wall.",
+  "points": []
+ },
+ "b46ea506a4a1cf7a": {
+  "url": "https://iamulya.one/posts/vllm-deep-dive-part-1/",
+  "title": "vLLM Deep Dive: The Engine — How vLLM Turns a Single GPU into a Serving Machine | Amulya Bhatia",
+  "domain": "iamulya.one",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-17",
+  "tier": "skip",
+  "why": "A standard introductory explainer of PagedAttention and continuous batching, repeating well-known SOSP 2023 paper concepts.",
+  "points": []
+ },
+ "21286fea0ea5543e": {
+  "url": "https://mortalapps.com/infrastructure/distributed-training-parallelism/collective-communication-scaling/",
+  "title": "Collective Communication Scaling | AI Infrastructure | MortalApps",
+  "domain": "mortalapps.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-17",
+  "tier": "skip",
+  "why": "The page contains only navigation links and no actual content.",
+  "points": []
+ },
+ "b78de6a4868c3b3a": {
+  "url": "https://markaicode.com/architecture/cuda-distributed-architecture/",
+  "title": "NCCL Ring AllReduce: CUDA Distributed Architecture That Hits 91% Scaling Efficiency on 8 A100 GPUs | Markaicode",
+  "domain": "markaicode.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-17",
+  "tier": "hidden_gem",
+  "why": "An exceptionally detailed, benchmark-backed guide on NCCL Ring AllReduce performance tuning with concrete latency and bandwidth metrics.",
+  "points": [
+   "Identifies a 39 µs startup latency penalty added per extra GPU in the ring, recommending a ring depth of ≤ 8.",
+   "Shows that NCCL's internal ring-ordering heuristic wastes up to 18% bandwidth when GPUs straddle PCIe switches, which can be bypassed using NCCL_P2P_LEVEL=SYS.",
+   "Demonstrates a 27% higher gradient-sync throughput by co-scheduling CUDA kernel execution during the reduce-scatter phase."
+  ]
+ },
+ "3645c62b3221e03e": {
+  "url": "https://mortalapps.com/infrastructure/distributed-training-parallelism/3d-parallelism-topologies/",
+  "title": "3D Parallelism Topologies | AI Infrastructure | MortalApps",
+  "domain": "mortalapps.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-17",
+  "tier": "skip",
+  "why": "The page contains only navigation links and no actual content.",
+  "points": []
+ },
+ "630e0567f5f6d126": {
+  "url": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
+  "title": "Behind the Scenes of Distributed Training and Why Your GPU Wiring Matters as Much as Your Strategy | Towards Data Science",
+  "domain": "towardsdatascience.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-17",
+  "tier": "skip",
+  "why": "The page content is obscured by a cookie consent wall.",
+  "points": []
+ },
+ "d19ef069741b6279": {
+  "url": "https://medium.com/@menu.sri13/ddp-under-the-hood-how-nccl-ring-allreduce-keeps-40-gpus-training-the-same-model-c2afbde08fdb",
+  "title": "DDP Under the Hood: How NCCL Ring AllReduce Keeps 40 GPUs Training the Same Model | by Menuka Wijayarathna | Jun, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-17",
+  "tier": "solid_find",
+  "why": "A detailed, end-to-end trace of PyTorch Distributed Data Parallel (DDP) and NCCL Ring AllReduce mechanics.",
+  "points": [
+   "Traces gradient synchronization from MPIJob pods down to the byte-level rotations in the ring.",
+   "Explains how DDP uses ReduceScatter and AllGather to keep model copies bit-identical across 40 GPUs.",
+   "Provides a clear conceptual walkthrough of the mathematical necessity of gradient averaging in data-parallel training."
+  ]
+ },
+ "1be1390ae5fbff9a": {
+  "url": "https://mortalapps.com/infrastructure/distributed-training-parallelism/tensor-parallelism-llm/",
+  "title": "Tensor Parallelism | AI Infrastructure | MortalApps",
+  "domain": "mortalapps.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-17",
+  "tier": "skip",
+  "why": "The page contains only navigation links and no actual content.",
+  "points": []
+ },
+ "a94d46d3855b1237": {
+  "url": "https://arxiv.gg/abs/2605.01188",
+  "title": "Compute Optimal Tokenization - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-17",
+  "tier": "hidden_gem",
+  "why": "A groundbreaking scaling law paper demonstrating that compute-optimal model parameters scale with data size in bytes rather than tokens.",
+  "points": [
+   "Trains 988 models (50M to 7B parameters) to systematically study the impact of token compression rates.",
+   "Discovers that compute-optimal configurations scale model parameters proportionally to data size in bytes, challenging Kaplan and Chinchilla assumptions.",
+   "Reveals that the optimal compression rate differs from standard BPE and decreases as compute budgets scale up."
+  ]
+ },
+ "7a08a3c7fac0357e": {
+  "url": "https://www.alphaxiv.org/abs/2512.20757",
+  "title": "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-17",
+  "tier": "skip",
+  "why": "The page failed to load due to a PDF viewer rendering error.",
+  "points": []
+ },
+ "6585bd102530755c": {
+  "url": "https://arxiv.gg/abs/2606.29858",
+  "title": "Smooth Scaling Laws Hide Stepwise Token Learning - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-17",
+  "tier": "hidden_gem",
+  "why": "A highly original paper showing that smooth scaling laws are composed of discrete, stepwise token-level learning events that can be optimized.",
+  "points": [
+   "Decomposes aggregate scaling laws into localized learning events of individual contextualized tokens fitted with sigmoids.",
+   "Reconstructs validation loss derivatives across training steps, data scale, and model scale using a token learning-time spectrum.",
+   "Demonstrates an 11% faster validation-loss reduction by dynamically reshaping the training distribution based on token learnability."
+  ]
+ },
+ "4ac4a1b4c3b03e44": {
+  "url": "https://arxiv.gg/abs/2504.03635",
+  "title": "Finding the Minimal Parameter Budget for Implicit Reasoning: A Data Complexity Driven Scaling Law for Language Models - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-17",
+  "tier": "hidden_gem",
+  "why": "A rigorous study establishing a data-complexity-driven scaling law for the minimal parameter budget required for implicit reasoning.",
+  "points": [
+   "Defines implicit reasoning as the ability to infer new facts from learned knowledge without explicit chain-of-thought supervision.",
+   "Identifies a scaling law linking the optimal parameter budget to a graph search entropy measure.",
+   "Proves both theoretically and empirically that an optimally sized language model can reliably reason over at most 0.008 bits of information per parameter."
+  ]
  }
 }

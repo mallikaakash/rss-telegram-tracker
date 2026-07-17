@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Discovery &middot; Fri 17 Jul 2026, 11:57 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Discovery</h1><div class="meta">Fri 17 Jul 2026, 11:57 IST &middot; 7 finds &middot; <a href="../index.html">main library</a> &middot; <a href="index.html">discovery library</a> &middot; <a href="runs.html">all discovery runs</a></div><div class="section">Hidden gem &middot; 5</div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">medium.com</span><h2><a href="https://medium.com/@kaige.yang0110/scaling-async-rl-training-4-vllm-replicas-8-docker-sandboxes-and-nccl-weight-sync-using-verl-7ae6657084cc">Medium</a></h2><div class="why">A highly technical, hands-on engineering post detailing the architecture of a fully asynchronous GRPO training pipeline using VERL to eliminate GPU idle time.</div><ul><li>Splits 8 GPUs into parallel inference and parallel tool execution to keep training GPUs from sitting idle during slow rollouts.</li><li>Implements zero-downtime weight synchronization using NCCL.</li><li>Addresses the 50-70% GPU compute waste typical of traditional synchronous RL training pipelines.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">markaicode.com</span><h2><a href="https://markaicode.com/architecture/cuda-distributed-architecture/">NCCL Ring AllReduce: CUDA Distributed Architecture That Hits 91% Scaling Efficiency on 8 A100 GPUs | Markaicode</a></h2><div class="why">An exceptionally detailed, benchmark-backed guide on NCCL Ring AllReduce performance tuning with concrete latency and bandwidth metrics.</div><ul><li>Identifies a 39 µs startup latency penalty added per extra GPU in the ring, recommending a ring depth of ≤ 8.</li><li>Shows that NCCL&#x27;s internal ring-ordering heuristic wastes up to 18% bandwidth when GPUs straddle PCIe switches, which can be bypassed using NCCL_P2P_LEVEL=SYS.</li><li>Demonstrates a 27% higher gradient-sync throughput by co-scheduling CUDA kernel execution during the reduce-scatter phase.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">arxiv.gg</span><h2><a href="https://arxiv.gg/abs/2605.01188">Compute Optimal Tokenization - arXiv.gg</a></h2><div class="why">A groundbreaking scaling law paper demonstrating that compute-optimal model parameters scale with data size in bytes rather than tokens.</div><ul><li>Trains 988 models (50M to 7B parameters) to systematically study the impact of token compression rates.</li><li>Discovers that compute-optimal configurations scale model parameters proportionally to data size in bytes, challenging Kaplan and Chinchilla assumptions.</li><li>Reveals that the optimal compression rate differs from standard BPE and decreases as compute budgets scale up.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">arxiv.gg</span><h2><a href="https://arxiv.gg/abs/2606.29858">Smooth Scaling Laws Hide Stepwise Token Learning - arXiv.gg</a></h2><div class="why">A highly original paper showing that smooth scaling laws are composed of discrete, stepwise token-level learning events that can be optimized.</div><ul><li>Decomposes aggregate scaling laws into localized learning events of individual contextualized tokens fitted with sigmoids.</li><li>Reconstructs validation loss derivatives across training steps, data scale, and model scale using a token learning-time spectrum.</li><li>Demonstrates an 11% faster validation-loss reduction by dynamically reshaping the training distribution based on token learnability.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">arxiv.gg</span><h2><a href="https://arxiv.gg/abs/2504.03635">Finding the Minimal Parameter Budget for Implicit Reasoning: A Data Complexity Driven Scaling Law for Language Models - arXiv.gg</a></h2><div class="why">A rigorous study establishing a data-complexity-driven scaling law for the minimal parameter budget required for implicit reasoning.</div><ul><li>Defines implicit reasoning as the ability to infer new facts from learned knowledge without explicit chain-of-thought supervision.</li><li>Identifies a scaling law linking the optimal parameter budget to a graph search entropy measure.</li><li>Proves both theoretically and empirically that an optimally sized language model can reliably reason over at most 0.008 bits of information per parameter.</li></ul></div><div class="section">Solid find &middot; 2</div><div class="card"><span class="badge skim">Solid find</span><span class="src">jatinbansal.com</span><h2><a href="https://jatinbansal.com/ai-engineering/dpo-and-alignment/">DPO and Modern Alignment | Jatin Bansal</a></h2><div class="why">A solid mathematical and operational breakdown of Direct Preference Optimization (DPO) and its loss mechanics.</div><ul><li>Explains how the beta parameter controls the conversion factor between log-likelihood ratios and implicit reward.</li><li>Highlights the operational advantages of DPO over traditional RLHF by eliminating the brittle reward model component.</li><li>Details the mechanics of the two forward passes required per batch (trainable policy vs. frozen reference model).</li></ul></div><div class="card"><span class="badge skim">Solid find</span><span class="src">medium.com</span><h2><a href="https://medium.com/@menu.sri13/ddp-under-the-hood-how-nccl-ring-allreduce-keeps-40-gpus-training-the-same-model-c2afbde08fdb">DDP Under the Hood: How NCCL Ring AllReduce Keeps 40 GPUs Training the Same Model | by Menuka Wijayarathna | Jun, 2026 | Medium</a></h2><div class="why">A detailed, end-to-end trace of PyTorch Distributed Data Parallel (DDP) and NCCL Ring AllReduce mechanics.</div><ul><li>Traces gradient synchronization from MPIJob pods down to the byte-level rotations in the ring.</li><li>Explains how DDP uses ReduceScatter and AllGather to keep model copies bit-identical across 40 GPUs.</li><li>Provides a clear conceptual walkthrough of the mathematical necessity of gradient averaging in data-parallel training.</li></ul></div></body></html>
