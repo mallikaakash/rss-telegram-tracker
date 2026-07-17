@@ -26063,5 +26063,236 @@
   "points": [
    "A quote from Kimi K3 Simon Willison’s Weblog Subscribe Sponsored by: Atlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira. Learn more 17th July 2026 Is there something I can actually help you with today? — Kimi K3 , after refusing to leak its system prompt Posted 17th July 2026 at 1:43 pm Recent articles Kimi K3, and what we can still learn from the pelican benchmark - 16th July 2026 The new GPT-5.6 family: Luna, Terra, Sol - 9th July 2026 sqlite-utils 4.0, now with database schema migrations - 7th July 2026 This is a quotation collected by Simon Willison, posted on 17th July 2026 ."
   ]
+ },
+ "ee28be5546284cdd": {
+  "feed": "YC Hacker News",
+  "title": "First atmosphere found on Earth-like planet in habitable zone of distant star",
+  "link": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a general science news article about astronomy and has no relevance to ML or backend engineering.",
+  "points": [
+   "Astronomers detected helium in the atmosphere of LHS 1140b, a rocky planet in the habitable zone 48 light-years away."
+  ]
+ },
+ "c1cc96b01e41c7fd": {
+  "feed": "YC Hacker News",
+  "title": "Claude Code: Anatomy of a Misfeature",
+  "link": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "It discusses a critical security and cost risk in Anthropic's Claude Code CLI where agents auto-proceed after 60 seconds of inactivity.",
+  "points": [
+   "Anthropic shipped an undocumented 'easter egg' in Claude Code 2.1.198 that auto-approves agent actions after a 60-second timeout.",
+   "This behavior risks burning tokens and executing unintended commands (e.g., during deployments) without human oversight.",
+   "The feature was quickly patched, but highlights the risks of silent auto-updates in agentic developer tools."
+  ]
+ },
+ "43257dd01aafcb79": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Watch bots interact with an SSH honeypot in real time",
+  "link": "https://honeypotlive.cc/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a general security and networking project with no direct connection to ML engineering or backend infrastructure priorities.",
+  "points": [
+   "A live telemetry dashboard showing real-time SSH honeypot connections, including attacker IPs, credentials, and commands."
+  ]
+ },
+ "f0cbd11c5988735d": {
+  "feed": "YC Hacker News",
+  "title": "AI Meets Cryptography 2: What AI Found in OpenVM's ZkVM",
+  "link": "https://blog.zksecurity.xyz/posts/openvm-bugs/",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Explores how AI agents (zkao) can audit complex cryptographic codebases like zkVMs, highlighting the limitations of naive LLM setups.",
+  "points": [
+   "An AI auditor (zkao) discovered a critical soundness bug (CVE-2026-46669) in OpenVM's pairing library that allows forging pairing equalities.",
+   "Naive LLM setups fail on complex codebases because they audit modules in isolation; effective auditing requires capturing inter-module assumptions and invariants.",
+   "The bug was validated and patched in OpenVM 1.6.0."
+  ]
+ },
+ "619c537f41a7654c": {
+  "feed": "YC Hacker News",
+  "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+  "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Details a major new 2.8T parameter model release (Kimi K3) from Moonshot AI, discussing its pricing, performance, and reasoning capabilities.",
+  "points": [
+   "Moonshot AI announced Kimi K3, a 2.8 trillion parameter model with open weights promised by late July 2026.",
+   "K3 is priced at $3/M input and $15/M output tokens, positioning it as a premium model that rivals Claude Fable 5 and GPT-5.6 Sol.",
+   "The model demonstrates massive reasoning token usage, utilizing 13,241 reasoning tokens out of 16,658 total for a simple SVG generation task."
+  ]
+ },
+ "9ea5d4c517c78d66": {
+  "feed": "Technica",
+  "title": "Fubo hikes prices by $15 after restoring some NBCU channels lost in November",
+  "link": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is consumer-facing business news about a TV streaming service and is completely unrelated to ML or backend engineering.",
+  "points": [
+   "Fubo is raising its monthly subscription prices by $15 after resolving a contract dispute and restoring NBCUniversal channels."
+  ]
+ },
+ "3c71d375d4b15e09": {
+  "feed": "Technica",
+  "title": "San Francisco orders Apple, Google to remove nudify apps from app stores",
+  "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is legal and policy news regarding consumer AI apps, lacking technical ML or infrastructure depth.",
+  "points": [
+   "San Francisco's attorney general ordered Apple and Google to remove 13 AI-powered 'nudification' apps violating deepfake laws."
+  ]
+ },
+ "f2b36fb15bc6a7a3": {
+  "feed": "Technica",
+  "title": "Ars is looking for a senior technology reporter, and you might be it!",
+  "link": "https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a job posting for a technology journalist, completely irrelevant to an ML/backend engineer's career.",
+  "points": [
+   "Ars Technica is hiring a senior technology reporter to write hands-on hardware reviews and tech articles."
+  ]
+ },
+ "c4595d3193364ca1": {
+  "feed": "Apple ML Research",
+  "title": "When Unlearning Is Free: Leveraging Low Influence Points to Reduce Computational Costs",
+  "link": "https://machinelearning.apple.com/research/unlearning-free-low-influence",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Introduces a novel, cost-saving technique for machine unlearning by identifying and ignoring training points with negligible influence.",
+  "points": [
+   "The paper proposes leveraging influence functions to identify 'low influence' points in the forget set that do not need active unlearning.",
+   "By ignoring these negligible points, the computational cost of machine unlearning in vision and language tasks can be significantly reduced.",
+   "This challenges the traditional approach of treating all points in a forget set equally during the unlearning process."
+  ]
+ },
+ "91ec1ce9a5cf0cec": {
+  "feed": "OpenAI News",
+  "title": "Running Codex safely at OpenAI",
+  "link": "https://openai.com/index/running-codex-safely",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Provides an engineering deep-dive from OpenAI on the sandboxing, network policies, and auto-review telemetry used to run coding agents safely.",
+  "points": [
+   "OpenAI uses a combination of sandboxing, network policies, and an 'auto-review' subagent to govern Codex's autonomous actions.",
+   "The sandbox restricts write access and outbound network traffic, while the auto-review subagent automatically approves low-risk actions to minimize human interruption.",
+   "The system preserves agent-native telemetry and audit trails to ensure all autonomous actions are traceable and auditable."
+  ]
+ },
+ "de2ca3d7578dd51c": {
+  "feed": "OpenAI News",
+  "title": "Testing ads in ChatGPT",
+  "link": "https://openai.com/index/testing-ads-in-chatgpt",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a product marketing and business announcement regarding ad placements in consumer ChatGPT tiers.",
+  "points": [
+   "OpenAI is expanding its pilot program to test ads in the Free and Go tiers of ChatGPT across several international markets."
+  ]
+ },
+ "eed85cf61ed43c59": {
+  "feed": "OpenAI News",
+  "title": "Simplex rethinks software development with Codex",
+  "link": "https://openai.com/index/simplex",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a high-level corporate case study focused on productivity metrics rather than technical implementation details.",
+  "points": [
+   "Simplex adopted ChatGPT Enterprise and Codex, reporting a 70% reduction in screen development time and a 40% reduction in design time."
+  ]
+ },
+ "94a93b54a777d726": {
+  "feed": "OpenAI News",
+  "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+  "link": "https://openai.com/index/singular-bank",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "This is a non-technical business case study about using LLMs for financial portfolio analysis.",
+  "points": [
+   "Singular Bank built an internal assistant called Singularity to help bankers analyze portfolios and prepare client meetings faster."
+  ]
+ },
+ "76cbe027f6a80fda": {
+  "feed": "OpenAI News",
+  "title": "GPT-5.5 Instant System Card",
+  "link": "https://openai.com/index/gpt-5-5-instant-system-card",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Provides safety and capability baselines for OpenAI's new GPT-5.5 Instant model, classifying it as high-capability in cybersecurity.",
+  "points": [
+   "GPT-5.5 Instant is the first 'Instant' model classified as High capability in Cybersecurity and Biological & Chemical Preparedness.",
+   "The system card establishes safety mitigations and baselines against GPT-5.3 Instant.",
+   "OpenAI clarifies the naming convention, distinguishing GPT-5.5 Instant from the reasoning-focused GPT-5.5 Thinking."
+  ]
+ },
+ "a0bbc2c6e6f2a453": {
+  "feed": "Hugging Face Blog",
+  "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+  "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Deep-dive into scaling diffusion model training (FLUX, Wan 2.1) using PyTorch DTensor-native NeMo Automodel and Hugging Face Diffusers.",
+  "points": [
+   "NVIDIA NeMo Automodel uses PyTorch DTensor-native training to scale Diffusers-format models from one to hundreds of GPUs without code rewrites.",
+   "The integration supports memory-efficient sharding, latent caching, and multiresolution bucketing directly on Hugging Face Hub models.",
+   "Checkpoints round-trip cleanly back into the Diffusers ecosystem, eliminating the need for complex checkpoint conversion."
+  ]
+ },
+ "a7d760ab746a249f": {
+  "feed": "Hugging Face Blog",
+  "title": "Measuring Open-Source Llama Nemotron Models on DeepResearch Bench",
+  "link": "https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Explores a high-performing open-source agentic reasoning stack combining Llama 3.3 and Nemotron-Super-49B for long-context retrieval and tool use.",
+  "points": [
+   "NVIDIA's AI-Q agent fuses Llama 3.3-70B Instruct and Llama-3.3-Nemotron-Super-49B-v1.5 to top the DeepResearch Bench leaderboard.",
+   "Nemotron-Super-49B is a reasoning-focused model built via Neural Architecture Search (NAS), knowledge distillation, and RL, supporting explicit reasoning toggles.",
+   "The architecture runs efficiently on a single H100 GPU while supporting context windows up to 128K tokens."
+  ]
+ },
+ "ccf88facbd4d0b10": {
+  "feed": "Hugging Face Blog",
+  "title": "📚 3LM: A Benchmark for Arabic LLMs in STEM and Code",
+  "link": "https://huggingface.co/blog/tiiuae/3lm-benchmark",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Introduces a new multi-component benchmark (3LM) for evaluating Arabic LLMs on STEM subjects and code generation.",
+  "points": [
+   "3LM is the first benchmark designed to evaluate Arabic LLMs on structured reasoning, formal logic, STEM, and code generation.",
+   "It comprises three datasets: Native STEM (865 school-level MCQs), Synthetic STEM (1,744 high-difficulty MCQs), and translated code tasks.",
+   "The benchmark aims to address the lack of technical and scientific reasoning evaluations in Arabic NLP."
+  ]
+ },
+ "e07af35f3032ffe5": {
+  "feed": "Hugging Face Blog",
+  "title": "Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio",
+  "link": "https://huggingface.co/blog/gradio-vton-mcp",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates how to implement Model Context Protocol (MCP) servers in Python using Gradio to expose ML models as LLM tools.",
+  "points": [
+   "Gradio now supports Model Context Protocol (MCP), allowing developers to automatically convert Python functions into LLM tools.",
+   "The integration handles automatic schema generation from docstrings, real-time progress notifications, and file uploads.",
+   "A practical example shows how to expose a virtual try-on diffusion model (IDM-VTON) as an MCP tool for VS Code's AI chat."
+  ]
+ },
+ "ca7971322475137b": {
+  "feed": "Hugging Face Blog",
+  "title": "Parquet Content-Defined Chunking",
+  "link": "https://huggingface.co/blog/parquet-cdc",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Technical deep-dive into Parquet Content-Defined Chunking (CDC) in PyArrow/Pandas, which optimizes storage and transfer speeds on content-addressable systems.",
+  "points": [
+   "Parquet Content-Defined Chunking (CDC) is now supported in PyArrow and Pandas to minimize byte-level differences in similar datasets.",
+   "CDC enables highly efficient deduplication on content-addressable storage layers like Hugging Face's Xet, drastically reducing upload/download times.",
+   "The feature is enabled simply by passing the `use_content_defined_chunking=True` argument during Parquet writes."
+  ]
  }
 }
