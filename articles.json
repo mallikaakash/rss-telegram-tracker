@@ -25477,5 +25477,180 @@
    "Utilizes Model Context Protocol (MCP) and custom skills to connect LLMs directly to production tools like Jira, New Relic, and Firebase.",
    "Maintains a 'human-in-the-loop' architecture where agents recommend actions (e.g., rollout holds) but humans retain final approval."
   ]
+ },
+ "53cb7de17b752729": {
+  "feed": "YC Hacker News",
+  "title": "SQLite Is All You Need",
+  "link": "https://www.dbpro.app/blog/sqlite-is-all-you-need",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "A highly practical performance engineering deep-dive showing how SQLite in WAL mode can handle 315M requests/day on a single laptop.",
+  "points": [
+   "Demonstrates that a single-process Node API backed by SQLite in WAL mode can serve 3,543 req/s for a heavy timeline join (with 2.5M follows and 1M posts) on an M1 laptop.",
+   "Key configuration pragmas used: journal_mode = WAL (non-blocking reads/writes), synchronous = NORMAL (fsync at checkpoints), and cache_size = -64000 (64MB page cache).",
+   "Highlights that SQLite is highly viable for production workloads, challenging the default choice of spinning up a Postgres container."
+  ]
+ },
+ "22cc9f03410fb3f4": {
+  "feed": "YC Hacker News",
+  "title": "I Owe My Life to the Commodore 64",
+  "link": "https://www.goto10retro.com/p/i-owe-my-life-to-the-commodore-64",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A nostalgic memoir about retro computing that does not align with ML, backend, or infrastructure priorities.",
+  "points": [
+   "Recounts the author's childhood experience purchasing and using a Commodore 64 in 1983."
+  ]
+ },
+ "7f57ffe62247dfed": {
+  "feed": "YC Hacker News",
+  "title": "Helium escaping from atmosphere of nearby rocky exoplanet in a habitable zone",
+  "link": "https://www.science.org/doi/10.1126/science.aea9708",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "An astronomy news article completely unrelated to ML, backend engineering, or infrastructure.",
+  "points": [
+   "Discusses atmospheric observations of a nearby rocky exoplanet."
+  ]
+ },
+ "2b09b69c3cbd1781": {
+  "feed": "YC Hacker News",
+  "title": "In Praise of Exhaustive Destructuring",
+  "link": "https://antoine.vandecreme.net/blog/exhaustive-destructuring-praise/",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "A useful software engineering pattern in Rust that improves code safety during refactoring, relevant to backend engineers.",
+  "points": [
+   "Explains how using exhaustive struct destructuring in Rust (avoiding the '..' wildcard) forces compiler errors when new fields are added to a struct.",
+   "Demonstrates how this pattern prevents silent bugs in business logic (e.g., safety checks) when data models evolve."
+  ]
+ },
+ "01bb588cdd2480c3": {
+  "feed": "YC Hacker News",
+  "title": "Mathematics of Data Science",
+  "link": "https://arxiv.org/abs/2607.11938",
+  "date": "2026-07-17",
+  "tier": "worth_a_skim",
+  "why": "A comprehensive textbook on the mathematical foundations of data science, useful for theoretical ML grounding but less immediately practical.",
+  "points": [
+   "Covers foundational mathematical topics including SVD, PCA, dimension reduction, optimization, and a mathematical introduction to deep learning.",
+   "Provides theoretical analysis of high-dimensional data, concentration inequalities, and low-rank matrix recovery."
+  ]
+ },
+ "b36c91942c4f0187": {
+  "feed": "OpenAI News",
+  "title": "Warp’s big bet on building open source with GPT-5.5",
+  "link": "https://openai.com/index/warp",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A product marketing and partnership announcement focused on Warp's terminal and OpenAI's GPT-5.5 integration.",
+  "points": [
+   "Announces Warp's open-source terminal client and its use of GPT-5.5 to orchestrate agentic coding workflows, claiming 30% fewer tokens used per task."
+  ]
+ },
+ "ed9f6061321c89ed": {
+  "feed": "OpenAI News",
+  "title": "AI is becoming a first hire for small businesses",
+  "link": "https://openai.com/index/ai-first-hire-small-business",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A high-level OpenAI report on consumer and small business adoption of ChatGPT, lacking technical depth.",
+  "points": [
+   "Reports that over 4 million people in the US used ChatGPT in March 2026 to help run or grow non-technical small businesses."
+  ]
+ },
+ "ef1db9edff97d09f": {
+  "feed": "OpenAI News",
+  "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+  "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A corporate PR announcement regarding Gartner's Magic Quadrant rating for enterprise coding agents.",
+  "points": [
+   "Highlights OpenAI's positioning in the Gartner Magic Quadrant and mentions enterprise features of Codex."
+  ]
+ },
+ "4ce39150a4dcc4b8": {
+  "feed": "OpenAI News",
+  "title": "How Virgin Atlantic ships faster with Codex",
+  "link": "https://openai.com/index/virgin-atlantic",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A customer success story and marketing case study about using Codex for application development.",
+  "points": [
+   "Claims Virgin Atlantic reduced legacy codebase sizes by 78-80% and accelerated refactoring using Codex."
+  ]
+ },
+ "cb920945cfca046c": {
+  "feed": "OpenAI News",
+  "title": "How Ramp engineers accelerate code review with Codex",
+  "link": "https://openai.com/index/ramp",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A marketing case study detailing Ramp's adoption of Codex for internal code reviews.",
+  "points": [
+   "Describes how Ramp engineers use Codex with GPT-5.5 to get rapid feedback on pull requests and build internal on-call assistants."
+  ]
+ },
+ "d5aaea74f4b4b4fd": {
+  "feed": "Hugging Face Blog",
+  "title": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
+  "link": "https://huggingface.co/blog/openenv",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly addresses Priority 1 (RL training, agentic systems) by introducing an open standard and hub for agentic environments.",
+  "points": [
+   "Meta and Hugging Face have partnered to launch OpenEnv Hub, a shared space for secure, sandboxed agentic environments used in training and deployment.",
+   "Introduces the OpenEnv 0.1 Spec (RFC) to standardize how environments define tools, APIs, credentials, and execution contexts.",
+   "Integrates with post-training and RL libraries like TRL, SkyRL, Unsloth, TorchForge, and verl."
+  ]
+ },
+ "1844c37f0752756b": {
+  "feed": "Hugging Face Blog",
+  "title": "AI for Food Allergies",
+  "link": "https://huggingface.co/blog/hugging-science/ai-for-food-allergies",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "Focused on biomedical research and molecular modeling for food allergies, which is off-target for a backend/ML infra engineer.",
+  "points": [
+   "Introduces a community-driven research initiative applying AI models like AlphaFold and Boltz-1 to predict protein allergenicity."
+  ]
+ },
+ "8988f5b7cbe4327d": {
+  "feed": "Hugging Face Blog",
+  "title": "Google Cloud C4 Brings a 70% TCO improvement on GPT OSS with Intel and Hugging Face",
+  "link": "https://huggingface.co/blog/gpt-oss-on-intel-xeon",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Directly aligns with Priority 1 (MoE architectures) and Priority 2 (ML infrastructure, performance engineering, CPU inference).",
+  "points": [
+   "Benchmarks OpenAI's open-source Mixture of Experts model (GPT OSS 120B) on Google Cloud C4 instances powered by Intel Xeon 6 (Granite Rapids) processors.",
+   "Demonstrates a 1.7x TCO improvement and 1.4x to 1.7x throughput/vCPU/dollar gain over previous-generation C3 instances.",
+   "Highlights a key software optimization (PR #40304 in Hugging Face transformers) that routes tokens only to active experts, eliminating redundant FLOPs."
+  ]
+ },
+ "b56d3c04ae1731d3": {
+  "feed": "Hugging Face Blog",
+  "title": "VibeGame: Exploring Vibe Coding Games",
+  "link": "https://huggingface.co/blog/vibegame",
+  "date": "2026-07-17",
+  "tier": "low_priority",
+  "why": "A hobbyist-focused exploration of 'vibe coding' games using Claude Code, lacking rigorous engineering depth.",
+  "points": [
+   "Discusses the challenges of context window degradation in game development and introduces 'Shallot', a lightweight context management tool for Claude Code."
+  ]
+ },
+ "ba88b960f17d4494": {
+  "feed": "Hugging Face Blog",
+  "title": "Smol2Operator: Post-Training GUI Agents for Computer Use",
+  "link": "https://huggingface.co/blog/smol2operator",
+  "date": "2026-07-17",
+  "tier": "must_read",
+  "why": "Highly relevant to Priority 1 (small language models, post-training, agentic workflows) and provides reproducible training recipes.",
+  "points": [
+   "Details a multi-phase training strategy to transform a lightweight vision-language model (SmolVLM2-2.2B-Instruct) into a GUI-grounded automation agent.",
+   "Phase 1 focuses on perception and coordinate grounding, while Phase 2 transitions to cognition and action execution.",
+   "Releases open-source training recipes, data-processing tools, unified action space converters, and datasets (aguvis-stage-1 and stage-2)."
+  ]
  }
 }
