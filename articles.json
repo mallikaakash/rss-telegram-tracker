@@ -27516,5 +27516,194 @@
    "Details the use of Reinforcement Learning with Verifiable Rewards (RLVR) in domains like math and coding to train reasoning capabilities.",
    "Discusses the mechanics of implementing multiple reasoning effort levels (like GPT-5.6 Sol's settings) to control compute budgets during inference."
   ]
+ },
+ "90096d9848212de3": {
+  "feed": "YC Hacker News",
+  "title": "GPT-5.6 used a prompt to close a 30-year gap in convex optimization",
+  "link": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "Demonstrates a massive breakthrough in using frontier LLMs to solve long-standing mathematical optimization problems, highly relevant to constrained optimization.",
+  "points": [
+   "GPT-5.6 successfully closed a 30-year-old gap in convex optimization using a specific prompting strategy.",
+   "Highlights the growing capability of frontier models in advanced mathematical reasoning and algorithmic design.",
+   "Directly applicable to complex industrial optimization problems like those in blast-furnace ironmaking."
+  ]
+ },
+ "a07ac498c2391748": {
+  "feed": "YC Hacker News",
+  "title": "Is this the end of the once-mighty GoPro?",
+  "link": "https://amateurphotographer.com/latest/photo-news/going-going-gone-is-this-the-end-of-the-once-mighty-gopro/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Financial and business news about a consumer hardware company, completely unrelated to ML or backend engineering.",
+  "points": [
+   "GoPro is facing severe financial distress, with a 26% YoY revenue drop in Q1 2026 and the founder extending a $20M personal loan to keep it afloat."
+  ]
+ },
+ "383703dbd1c0d274": {
+  "feed": "YC Hacker News",
+  "title": "What AI did to stackoverflow in a graph",
+  "link": "https://data.stackexchange.com/stackoverflow/query/1953768#graph",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "General interest discussion on the decline of StackOverflow traffic due to AI, lacking technical depth or actionable engineering insights.",
+  "points": [
+   "Visualizes the dramatic impact of LLMs and AI coding assistants on developer traffic and engagement on StackOverflow."
+  ]
+ },
+ "dd369a4052f60b84": {
+  "feed": "YC Hacker News",
+  "title": "Tech note: making your own V-I plots at home",
+  "link": "https://lcamtuf.substack.com/p/tech-note-making-your-own-v-i-plots",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Hobbyist electronics tutorial on making voltage-current plots, irrelevant to ML infrastructure or backend engineering.",
+  "points": [
+   "A DIY guide for electronics hobbyists to measure and plot voltage-current characteristics at home."
+  ]
+ },
+ "e6a8f9f22355d8dc": {
+  "feed": "YC Hacker News",
+  "title": "Engineering Peace",
+  "link": "https://asteriskmag.com/issues/14/engineering-peace",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Essay on conflict studies and development economics, completely unrelated to the reader's technical priorities.",
+  "points": [
+   "Discusses empirical research and data-driven approaches to conflict prevention and peacebuilding in developing nations."
+  ]
+ },
+ "4ff484c6b4bca9eb": {
+  "feed": "Technica",
+  "title": "Will AI fix prior authorization—or make it worse?",
+  "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Policy and general-interest article on AI in healthcare insurance, lacking technical implementation details.",
+  "points": [
+   "Explores the tension between using AI to expedite medical prior authorizations and the risk of automated wrongful denials."
+  ]
+ },
+ "2e8458dbf71dbf51": {
+  "feed": "OpenAI News",
+  "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+  "link": "https://openai.com/index/vfl-wolfsburg",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Pure product marketing and PR announcement about a football club adopting ChatGPT Enterprise.",
+  "points": [
+   "VfL Wolfsburg adopted ChatGPT Enterprise to build over 50 custom GPTs, saving six-figure annual costs on external agencies."
+  ]
+ },
+ "f44579b21e9e5fdb": {
+  "feed": "OpenAI News",
+  "title": "GPT-5.3 Instant System Card",
+  "link": "https://openai.com/index/gpt-5-3-instant-system-card",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Details a major model release from OpenAI, though the system card focuses heavily on safety mitigations rather than architecture.",
+  "points": [
+   "GPT-5.3 Instant is designed for faster responses, richer web search context, and reduced overly declarative phrasing.",
+   "The safety mitigation framework remains largely identical to the previous GPT-5.2 Instant model."
+  ]
+ },
+ "8c87fa05a78ceb8f": {
+  "feed": "OpenAI News",
+  "title": "Joint Statement from OpenAI and Microsoft",
+  "link": "https://openai.com/index/continuing-microsoft-partnership",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Corporate partnership and funding announcement, which is explicitly downranked.",
+  "points": [
+   "Reaffirms that Microsoft remains the exclusive cloud provider for stateless OpenAI APIs, even with new partnerships like Amazon."
+  ]
+ },
+ "32604a90d1aea354": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+  "link": "https://openai.com/index/figma-partnership",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Product marketing announcement for a consumer/designer feature integration.",
+  "points": [
+   "Launches a code-to-design integration between OpenAI Codex and Figma using the Model Context Protocol (MCP)."
+  ]
+ },
+ "b958e58176b78cc8": {
+  "feed": "OpenAI News",
+  "title": "Why we no longer evaluate SWE-bench Verified",
+  "link": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "Critical analysis of LLM evaluation contamination, directly impacting how frontier coding models are trained and benchmarked.",
+  "points": [
+   "OpenAI is deprecating SWE-bench Verified because 59.4% of audited failures are due to flawed test cases rejecting correct solutions.",
+   "Frontier models suffer from data contamination, showing the ability to reproduce human-written 'gold patches' verbatim from training data.",
+   "OpenAI recommends transitioning to SWE-bench Pro to accurately measure autonomous software engineering capabilities."
+  ]
+ },
+ "4d60567991e237ca": {
+  "feed": "Hugging Face Blog",
+  "title": "Rearchitecting Hugging Face Uploads and Downloads",
+  "link": "https://huggingface.co/blog/rearchitecting-uploads-and-downloads",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "High-quality infrastructure deep-dive into content-addressed storage, chunking, and custom protocols for massive ML model files.",
+  "points": [
+   "Hugging Face is replacing Git LFS with a Content-Addressed Store (CAS) to bypass CDN file size limits (like Cloudfront's 50GB limit).",
+   "The new architecture uses a 'dumb reads, smart writes' protocol that analyzes files at the byte level to upload only modified chunks.",
+   "The write path optimizes transfer speeds by having the client transfer only unique chunks, validated by the CAS before S3 upload."
+  ]
+ },
+ "1d85b256a9a2a6c3": {
+  "feed": "Hugging Face Blog",
+  "title": "Letting Large Models Debate: The First Multilingual LLM Debate Competition",
+  "link": "https://huggingface.co/blog/debate",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Introduces a novel multi-agent evaluation framework (FlagEval Debate) that moves beyond static benchmarks.",
+  "points": [
+   "BAAI launched 'Debate Arena,' a multilingual platform (English, Chinese, Arabic, Korean) to evaluate LLMs through interactive debate.",
+   "Inspired by OpenAI's 'AI Safety via Debate,' the framework aims to expose reasoning strength and reduce static benchmark stalemates.",
+   "Uses dual evaluation metrics combining expert reviews and user feedback to judge model performance."
+  ]
+ },
+ "d8462b839f9422bc": {
+  "feed": "Hugging Face Blog",
+  "title": "Share your open ML datasets on Hugging Face Hub!",
+  "link": "https://huggingface.co/blog/researcher-dataset-sharing",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "General marketing post encouraging users to host datasets on Hugging Face, though it briefly mentions an upcoming backend update.",
+  "points": [
+   "Promotes Hugging Face Hub features like Dataset Viewer, SQL Console, and an upcoming Xet backend update raising per-file limits to 500 GB."
+  ]
+ },
+ "8324669f9f7d81d6": {
+  "feed": "Hugging Face Blog",
+  "title": "Expert Support case study: Bolstering a RAG app with LLM-as-a-Judge",
+  "link": "https://huggingface.co/blog/digital-green-llm-judge",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Practical case study on building and evaluating a RAG system using LLM-as-a-judge, relevant to applied ML.",
+  "points": [
+   "Details 'Farmer.chat,' a RAG-based agricultural advisory chatbot built on 46,000 research papers.",
+   "Collaborated with Hugging Face to implement an LLM-as-a-judge evaluation suite to handle multilingual and highly localized queries.",
+   "Demonstrates how to benchmark RAG performance across diverse, low-resource languages and geographies."
+  ]
+ },
+ "b021a843bf65bd72": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing SynthID Text",
+  "link": "https://huggingface.co/blog/synthid-text",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "Deep-dive into a novel generation-time watermarking technique integrated directly into Hugging Face Transformers.",
+  "points": [
+   "SynthID Text is integrated into Transformers v4.46.0, allowing imperceptible watermarking of LLM-generated text.",
+   "Uses a pseudo-random 'g-function' to augment logits during tournament sampling without degrading generation quality.",
+   "Requires secure storage of unique watermarking keys (20-30 integers) to prevent third parties from replicating or detecting the watermark."
+  ]
  }
 }
