@@ -359,5 +359,174 @@
    "Identifies a scaling law linking the optimal parameter budget to a graph search entropy measure.",
    "Proves both theoretically and empirically that an optimally sized language model can reliably reason over at most 0.008 bits of information per parameter."
   ]
+ },
+ "5237e80e5a4a4d6b": {
+  "url": "https://dev.to/susiloharjo/lighthouse-attention-the-training-time-hierarchy-that-makes-quadratic-attention-practical-again-1fn",
+  "title": "Lighthouse Attention: The Training-Time Hierarchy That Makes Quadratic Attention Practical Again - DEV Community",
+  "domain": "dev.to",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-18",
+  "tier": "hidden_gem",
+  "why": "A highly technical, detailed breakdown of a novel attention mechanism optimization with concrete pretraining speedup metrics and architectural details.",
+  "points": [
+   "Symmetric pyramid pooling compresses Q, K, and V together, reducing attention complexity to O(S^2 d) instead of O(NSd).",
+   "Achieves 1.4-1.7x pretraining wall-clock speedup at 32K-128K context with zero inference overhead.",
+   "The selection logic lives entirely outside the attention kernel, allowing teams to reuse stock, highly optimized FlashAttention kernels."
+  ]
+ },
+ "73f334fa04cc156e": {
+  "url": "https://paperium.net/article/en/20705/one-step-gradient-delay-is-not-a-barrier-for-large-scale-asynchronous-pipelineparallel-llm-pretraini",
+  "title": "One-Step Gradient Delay is Not a Barrier for Large-Scale Asynchronous Pipeline\nParallel LLM Pretraining: Analysis, Review & Summary | Paperium",
+  "domain": "paperium.net",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "This is a high-level, brief summary of an academic paper hosted on a third-party aggregator site rather than the original research or a deep technical breakdown.",
+  "points": []
+ },
+ "2e96e8e6d5254fc8": {
+  "url": "https://www.turingpost.com/p/reasoning-rl-in-2026",
+  "title": "GRPO, DPO & RLVR Explained: Reasoning RL Methods in 2026",
+  "domain": "turingpost.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "A high-level newsletter overview and listicle of existing reinforcement learning methods rather than a deep, original technical implementation.",
+  "points": []
+ },
+ "c8702bfcffbe9659": {
+  "url": "https://medium.com/@dmitrytrifonov/learning-flashattention-the-hard-way-64ee789390a2",
+  "title": "Learning FlashAttention the Hard Way | by Dmitry Trifonov | Jul, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-18",
+  "tier": "solid_find",
+  "why": "An exceptionally deep, hands-on technical guide to writing FlashAttention CUDA kernels from scratch, though it is ultimately a tutorial on reproducing existing work.",
+  "points": [
+   "Explains how to lower the associative reduction math of FlashAttention into efficient GPU CUDA code.",
+   "Focuses heavily on GPU memory hierarchy, tiling, and optimizing SRAM/HBM data movement."
+  ]
+ },
+ "e346e1c3ba9b7711": {
+  "url": "https://solana.garden/guides/llm-cuda-graphs-decode-inference-explained/",
+  "title": "LLM CUDA Graphs for Decode Inference Explained: Kernel Launch Overhead, Shape Buckets and Throughput | Solana Garden",
+  "domain": "solana.garden",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-18",
+  "tier": "hidden_gem",
+  "why": "An incredibly detailed, practical guide on a niche optimization technique (CUDA graphs for LLM decode) with concrete profiling data and architectural constraints.",
+  "points": [
+   "Enabling CUDA graphs on the decode path reduced median inter-token latency from 22ms to 14ms (a 38% throughput increase) by eliminating CPU kernel launch overhead.",
+   "Outlines the strict constraints of CUDA graphs in LLM serving: static topology, fixed shapes per bucket, address stability, and no dynamic control flow.",
+   "Details how PagedAttention block tables swap logical pages while physical pool addresses stay in managed arenas to maintain address stability."
+  ]
+ },
+ "8c1fe086e1b80561": {
+  "url": "https://vuink.com/post/nyrxfntbeqvp-d-dpbz/blog/collective-operations",
+  "title": "Inside TPU and GPU Clusters: The Anatomy of Collective Communication | Vuink.com",
+  "domain": "vuink.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "This is a short aggregator repost of another blog post with almost none of the actual technical content present.",
+  "points": []
+ },
+ "3ef1660d298b879e": {
+  "url": "https://acethecloud.com/blog/5-of-21-distributed-training-ddp-fsdp-deepspeed-zero/",
+  "title": "5/21 - Training Across the Fleet: DDP, FSDP, DeepSpeed, and ZeRO – Ace The Cloud",
+  "domain": "acethecloud.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "A standard educational guide explaining well-known distributed training concepts (DDP, FSDP, ZeRO) without novel data or unique insights.",
+  "points": []
+ },
+ "cbfbb980c231074b": {
+  "url": "https://mortalapps.com/infrastructure/distributed-training-parallelism/fsdp-fully-sharded-data-parallelism/",
+  "title": "Fully Sharded Data Parallelism (FSDP) | AI Infrastructure | MortalApps",
+  "domain": "mortalapps.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "A landing page and table of contents for an educational course rather than a deep-dive technical article or original research.",
+  "points": []
+ },
+ "ceeb45003d1e0e58": {
+  "url": "https://doi.org/10.48550/arxiv.2606.14150",
+  "title": "[2606.14150] Small LLMs: Pruning vs. Training from Scratch",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-18",
+  "tier": "solid_find",
+  "why": "A rigorous academic paper with surprising and practical findings comparing LLM pruning to training from scratch under controlled token budgets.",
+  "points": [
+   "Pruned initialization consistently outperforms random initialization when training token budgets are constrained.",
+   "The advantage of pruning over training from scratch narrows and nearly vanishes at very high pruning ratios (0.8) or when the training token budget is extremely large.",
+   "Finer granularity pruning retains a knowledge-transfer advantage that additional training tokens alone cannot recover, whereas coarser structured pruning can be matched by training from scratch."
+  ]
+ },
+ "440442f20bb4352f": {
+  "url": "https://arxiv.org/abs/2607.15232v1",
+  "title": "[2607.15232v1] In-Place Tokenizer Expansion for Pre-trained LLMs",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-18",
+  "tier": "hidden_gem",
+  "why": "Presents a highly novel, practical, and detailed recipe for expanding an LLM's tokenizer in-place, solving a major real-world efficiency issue for multilingual deployment.",
+  "points": [
+   "Proposes an in-place tokenizer expansion recipe that continues BPE merges on a multilingual corpus, initializing new token embeddings as the mean of their sub-tokens.",
+   "Achieves a 2.4x to 4.0x reduction in token count for languages like Hindi, Vietnamese, and Thai.",
+   "Delivers an estimated 2.2-3.7x per-character decode speedup by combining token reduction with the measured cost of a larger vocabulary."
+  ]
+ },
+ "83fa7e377a1aa835": {
+  "url": "https://github.com/hearth-project/hearth",
+  "title": "GitHub - hearth-project/hearth: Kubernetes-native control plane for vendor-neutral, scale-to-zero LLM serving · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "The page contains only GitHub UI metadata and lacks the actual README content or technical design documentation to evaluate its depth.",
+  "points": []
+ },
+ "09a54f8df75f9674": {
+  "url": "https://github.com/cristiannegru/llm-inference-at-scale",
+  "title": "GitHub - cristiannegru/llm-inference-at-scale: A Practitioner handbook for production llm serving. · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "The page contains only GitHub UI metadata and lacks the actual content of the handbook to assess its technical depth.",
+  "points": []
+ },
+ "b17619ae992eb8aa": {
+  "url": "https://github.com/mkkotcherla/inferx",
+  "title": "GitHub - mkkotcherla/inferx: Description:Modular LLM inference library — KV cache, quantization, batching, speculative decoding · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "The page contains only GitHub UI metadata and lacks the actual README or implementation details.",
+  "points": []
+ },
+ "f82d7116da713770": {
+  "url": "https://github.com/pawankjha25/Architecting-Intelligence/tree/main/Architecting-LLM-Inference",
+  "title": "Architecting-Intelligence/Architecting-LLM-Inference at main · pawankjha25/Architecting-Intelligence · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "The page is a GitHub directory listing without visible technical content, code, or design documentation.",
+  "points": []
+ },
+ "74252f872b522eb5": {
+  "url": "https://github.com/zengxiao-he/tessera",
+  "title": "GitHub - zengxiao-he/tessera: From teacher to tiles — a from-scratch LLM distillation & serving engine: custom Triton/CUDA kernels, FSDP distillation, paged-KV continuous batching, speculative decoding, a Rust gateway, a JAX oracle, and interpretability tooling. · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-18",
+  "tier": "skip",
+  "why": "The page contains only GitHub UI metadata and lacks the actual README content or technical design docs.",
+  "points": []
  }
 }
