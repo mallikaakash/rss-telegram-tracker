@@ -27320,5 +27320,201 @@
    "Introduces NVIDIA's LogitsProcessorZoo, a library for modifying unnormalized logit scores before softmax during Hugging Face generation.",
    "Demonstrates custom processors for controlling sequence length, enforcing key phrases, and guiding multiple-choice outputs."
   ]
+ },
+ "8b8e1d1337bc524f": {
+  "feed": "YC Hacker News",
+  "title": "Why do AI company logos look like buttholes?",
+  "link": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a humorous piece about AI company branding and logo design, which has no technical or career relevance for an ML/backend engineer.",
+  "points": [
+   "The article humorously critiques the trend of circular, gradient-heavy logos in AI companies like OpenAI and Anthropic, comparing them to anatomical shapes."
+  ]
+ },
+ "6b3a8d1a225d57a7": {
+  "feed": "YC Hacker News",
+  "title": "LG monitors silently install software through Windows Update without consent",
+  "link": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This post discusses consumer hardware driver behavior on Windows, which is irrelevant to ML infrastructure or backend engineering.",
+  "points": [
+   "LG monitors are reportedly triggering silent software installations via Windows Update without explicit user consent."
+  ]
+ },
+ "7736e3dc40e5e12b": {
+  "feed": "YC Hacker News",
+  "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal help?",
+  "link": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It evaluates state-of-the-art reasoning models on a complex, NP-hard operations research optimization problem, directly relevant to applied ML and reasoning capabilities.",
+  "points": [
+   "Fable 5 demonstrated exceptional consistency and intelligence, producing the best overall solution on the KIRO fiber-network design problem.",
+   "The native `/goal` mode changes the agent's control loop and search path, but it is not a guaranteed 'try harder' switch and can sometimes mature bad ideas.",
+   "The search space for the Paris network benchmark is massive, with a lower bound of approximately 10^1223 possible valid configurations.",
+   "The evaluation was conducted using Harbor 0.1.43 and Docker with a 30-minute optimization budget per model run."
+  ]
+ },
+ "1361e2e2578ffb2a": {
+  "feed": "YC Hacker News",
+  "title": "Responsive Design Calculator",
+  "link": "https://www.redblobgames.com/blog/2026-07-11-responsive-design-calculator/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This post focuses on frontend CSS layout calculations and responsive design, which is outside the reader's backend and ML focus.",
+  "points": [
+   "The author built an interactive calculator to automate CSS clamp() and min() calculations for smooth, breakpoint-free responsive web layouts."
+  ]
+ },
+ "ba670573b19fee2d": {
+  "feed": "YC Hacker News",
+  "title": "Steam Machine: Between 12k and 15k Units Sold per week",
+  "link": "https://boilingsteam.com/steam-machine-between-10k-and-15k-sold-per-week/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a business/market analysis of Valve's hardware sales, which does not align with ML training, infrastructure, or backend engineering.",
+  "points": [
+   "The article uses Steam's revenue-weighted Global Top Sellers chart to estimate that Valve sells 12k to 15k Steam Machines weekly."
+  ]
+ },
+ "73e2b443794ec4f0": {
+  "feed": "OpenAI News",
+  "title": "How Balyasny Asset Management built an AI research engine",
+  "link": "https://openai.com/index/balyasny-asset-management",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "While marketing-oriented, it provides a high-level look at how a major financial firm structures its LLM evaluation pipeline and agentic workflows.",
+  "points": [
+   "Balyasny built a sophisticated evaluation pipeline measuring models across 12+ dimensions, including forecasting accuracy and numerical reasoning.",
+   "The firm transitioned deep research tasks from days to hours by deploying agent workflows powered by GPT-5.4.",
+   "The system integrates both structured and unstructured financial data while maintaining strict institutional compliance standards."
+  ]
+ },
+ "70d73a6e0656491b": {
+  "feed": "OpenAI News",
+  "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+  "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It explores a fundamental safety and alignment property of reasoning models—their inability to deliberately hide or manipulate their internal chain-of-thought.",
+  "points": [
+   "CoT controllability—the ability of a model to deliberately alter its reasoning trace to evade monitoring—is currently low across frontier models.",
+   "Controllability actually decreases as models are asked to reason for longer periods or undergo additional post-training.",
+   "This limitation is reassuring for AI safety, as it suggests CoT monitoring remains a highly reliable and interpretable safeguard for now."
+  ]
+ },
+ "cb4caaecf3d1defa": {
+  "feed": "OpenAI News",
+  "title": "GPT-5.4 Thinking System Card",
+  "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "It introduces the system card for GPT-5.4 Thinking, highlighting its new cybersecurity mitigations, though the post itself is brief.",
+  "points": [
+   "GPT-5.4 Thinking is the first general-purpose model to implement specific safety mitigations for high-capability cybersecurity risks.",
+   "The model's cyber safety approach builds upon techniques previously implemented for GPT-5.3 Codex."
+  ]
+ },
+ "70299260bcc5a827": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT for Excel and new financial data integrations",
+  "link": "https://openai.com/index/chatgpt-for-excel",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a product marketing announcement for an Excel integration, which is off-target for an ML/backend engineer.",
+  "points": [
+   "OpenAI launched a ChatGPT add-in for Excel and Google Sheets, powered by GPT-5.4 and GPT-5.5, to automate financial modeling."
+  ]
+ },
+ "4ceb746850375586": {
+  "feed": "OpenAI News",
+  "title": "Introducing the Adoption news channel",
+  "link": "https://openai.com/index/introducing-the-adoption-news-channel",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a non-technical announcement of a new business-focused blog channel from OpenAI.",
+  "points": [
+   "OpenAI launched the 'Adoption' channel to share frameworks and business insights on scaling AI within enterprises."
+  ]
+ },
+ "d85c7def0e74fe97": {
+  "feed": "Hugging Face Blog",
+  "title": "Evaluating Audio Reasoning with Big Bench Audio",
+  "link": "https://huggingface.co/blog/big-bench-audio-release",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It introduces a novel benchmark for evaluating audio reasoning and reveals a significant performance gap between native audio and text-based reasoning.",
+  "points": [
+   "Releases 'Big Bench Audio', a 1,000-question dataset adapted from Big Bench Hard to evaluate logical reasoning directly in the audio domain.",
+   "Reveals a significant 'speech reasoning gap': GPT-4o's accuracy drops from 92% on text to 66% on native Speech-to-Speech.",
+   "Finds that cascaded Speech-to-Text-to-Text pipelines currently outperform native audio models on complex reasoning tasks."
+  ]
+ },
+ "9ac97f3c8f3e5a89": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing the Synthetic Data Generator - Build Datasets with Natural Language",
+  "link": "https://huggingface.co/blog/synthetic-data-generator",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "It introduces a no-code tool for generating synthetic text classification and chat datasets, useful for quick prototyping and fine-tuning.",
+  "points": [
+   "The Synthetic Data Generator uses distilabel and Hugging Face APIs to generate custom datasets from natural language prompts.",
+   "It supports text classification (generating diverse texts and labeling them) and chat datasets for supervised fine-tuning (SFT).",
+   "The tool can generate approximately 50 classification samples or 20 chat samples per minute using free APIs."
+  ]
+ },
+ "c984986f56804d0b": {
+  "feed": "Hugging Face Blog",
+  "title": "LeMaterial: an open source initiative to accelerate materials discovery and research",
+  "link": "https://huggingface.co/blog/lematerial",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "While focused on materials science rather than metallurgy/ironmaking, this open-source dataset initiative represents a major applied ML effort in physical sciences.",
+  "points": [
+   "Launches 'LeMaterial', an open-source project by Entalpic and Hugging Face to standardize and unify materials science datasets.",
+   "Releases 'LeMat-Bulk', a harmonized dataset containing 6.7 million entries and 7 material properties from sources like Materials Project and Alexandria.",
+   "Aims to solve dataset integration issues, format inconsistencies, and composition biases to accelerate ML-driven materials discovery."
+  ]
+ },
+ "c910c01d039a239c": {
+  "feed": "Hugging Face Blog",
+  "title": "How good are LLMs at fixing their mistakes? A chatbot arena experiment with Keras and TPUs",
+  "link": "https://huggingface.co/blog/keras-chatbot-arena",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It combines LLM error-correction evaluation with a deep dive into ML infrastructure (TPUs, JAX, Keras, and model sharding).",
+  "points": [
+   "Evaluates how effectively LLMs can correct their own coding mistakes when given plain English feedback on API translation tasks.",
+   "Utilizes Hugging Face Spaces, Gradio, JAX, and Keras on TPUs to run and shard models for the chatbot arena.",
+   "Highlights the practical engineering benefits of using JAX and Keras for scalable model sharding and TPU deployment."
+  ]
+ },
+ "e85e67cfd4ecd135": {
+  "feed": "Hugging Face Blog",
+  "title": "Open Source Developers Guide to the EU AI Act",
+  "link": "https://huggingface.co/blog/eu-ai-act-for-oss-developers",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "It provides a practical compliance guide for open-source developers navigating the newly active EU AI Act, which is highly career-relevant.",
+  "points": [
+   "The EU AI Act applies to open-source AI systems and models if they are offered to or impact users within the EU.",
+   "General Purpose AI (GPAI) models face specific documentation, copyright compliance, and risk-monitoring obligations.",
+   "Hugging Face provides built-in tools (model cards, Gradio watermarking, data redaction) to help developers meet these compliance standards."
+  ]
+ },
+ "28c7ee44d88bdbf2": {
+  "feed": "Sebastian Raschka (Ahead of AI)",
+  "title": "Controlling Reasoning Effort in LLMs",
+  "link": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It provides a highly technical breakdown of how to train and scale reasoning models with variable effort levels, directly aligning with Priority 1.",
+  "points": [
+   "Explains how reasoning models use intermediate reasoning traces to improve performance via training and inference scaling.",
+   "Details the use of Reinforcement Learning with Verifiable Rewards (RLVR) in domains like math and coding to train reasoning capabilities.",
+   "Discusses the mechanics of implementing multiple reasoning effort levels (like GPT-5.6 Sol's settings) to control compute budgets during inference."
+  ]
  }
 }
