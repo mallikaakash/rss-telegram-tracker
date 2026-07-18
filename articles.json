@@ -26503,5 +26503,270 @@
   "points": [
    "Profiles Bailey Flanigan's interdisciplinary academic journey across computer science and political science."
   ]
+ },
+ "e2ba394be3628a9b": {
+  "feed": "YC Hacker News",
+  "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+  "link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "It focuses on workplace surveillance and social impact of AI in healthcare, which is off-target for an ML/backend infrastructure engineer.",
+  "points": [
+   "Nurses report that AI-driven scheduling and surveillance tools degrade patient care and increase administrative burden."
+  ]
+ },
+ "e1ce09da1b5655e1": {
+  "feed": "YC Hacker News",
+  "title": "Thanks HN for 15 years of support and helping me find my life's work",
+  "link": "https://news.ycombinator.com/item?id=48949551",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a personal retrospective on the Recurse Center and lacks technical ML or backend engineering content.",
+  "points": [
+   "The Recurse Center celebrates its 15th anniversary, highlighting its impact as a self-directed programming retreat."
+  ]
+ },
+ "c425eef499844b3f": {
+  "feed": "YC Hacker News",
+  "title": "Reviving a 15-year-old netbook with Arch Linux",
+  "link": "https://parksb.github.io/en/article/41.html",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "While a fun hobbyist project, reviving a 15-year-old 32-bit netbook is irrelevant to modern ML infrastructure or backend engineering.",
+  "points": [
+   "The author successfully installs Arch Linux 32 on a 2009 ASUS Eee PC with 1GB RAM to make it usable again."
+  ]
+ },
+ "7e54e0924b63ca2e": {
+  "feed": "YC Hacker News",
+  "title": "The Zilog Z80 has turned 50",
+  "link": "https://goliath32.com/blog/z80.html",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a historical retrospective on an 8-bit microprocessor, which does not align with modern ML or backend engineering priorities.",
+  "points": [
+   "The Zilog Z80 processor turns 50, celebrating its massive historical impact on 8-bit microcomputing and industrial applications."
+  ]
+ },
+ "6db357dfc79ceba6": {
+  "feed": "YC Hacker News",
+  "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig",
+  "link": "https://moonstone.sh/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A Lua runtime in Zig is a niche tool and does not directly relate to ML infrastructure, distributed systems, or backend engineering priorities.",
+  "points": [
+   "Moonstone is a modern, cross-platform Lua runtime and package manager written in Zig, aiming for reliable environments."
+  ]
+ },
+ "f1a853eaf42d3adb": {
+  "feed": "Technica",
+  "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
+  "link": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a general news announcement about satellite launches for wildfire detection, lacking technical ML or backend engineering details.",
+  "points": [
+   "The Google-backed FireSat program launched its first three satellites to detect wildfires globally using Muon Space hardware."
+  ]
+ },
+ "0d651a0f5d2c90c9": {
+  "feed": "Technica",
+  "title": "The Pentagon's Space Development Agency hasn't moved as fast as anyone would like",
+  "link": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This article covers military space procurement and defense bureaucracy, which is completely unrelated to the reader's priorities.",
+  "points": [
+   "The Space Development Agency is facing closure and integration back into the Space Force due to slow procurement speeds."
+  ]
+ },
+ "819a428ec8b68a69": {
+  "feed": "Technica",
+  "title": "Hegseth wants a \"High-T\" military; doctors call it a clinical minefield",
+  "link": "https://arstechnica.com/health/2026/07/hegseth-wants-a-high-t-military-doctors-call-it-a-clinical-minefield/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a political and medical news article about military health policy, entirely irrelevant to ML or backend engineering.",
+  "points": [
+   "The US military is proposing mandatory testosterone screening for personnel over 30, sparking medical controversy."
+  ]
+ },
+ "fc733f2ef9deb73d": {
+  "feed": "Technica",
+  "title": "Taco Bell iceberg lettuce identified as source of cyclosporiasis in 5 states",
+  "link": "https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a food safety news report about a parasite outbreak, which has no relevance to ML or backend engineering.",
+  "points": [
+   "Taco Bell iceberg lettuce from a Mexican supplier has been linked to a Cyclospora outbreak in five US states."
+  ]
+ },
+ "a68648cceb43cdcc": {
+  "feed": "Apple ML Research",
+  "title": "Show Me Examples: Inferring Visual Concepts from Image Sets",
+  "link": "https://machinelearning.apple.com/research/visual-concept-inference",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "It introduces a novel evaluation task (VICIS) for Vision-Language Models, which is relevant to the reader's interest in LLM/VLM reasoning.",
+  "points": [
+   "Introduces Visual Concept Inference from Sets (VICIS) to evaluate how well VLMs infer shared concepts from image sets.",
+   "Finds that state-of-the-art VLMs perform poorly on this task, highlighting a key reasoning gap in current models."
+  ]
+ },
+ "84d8ed5de18a7300": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT Images 2.0",
+  "link": "https://openai.com/index/introducing-chatgpt-images-2-0",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a product marketing announcement for a consumer image generation feature, lacking technical implementation details.",
+  "points": [
+   "OpenAI announced ChatGPT Images 2.0, a consumer-facing update for image generation modes."
+  ]
+ },
+ "d9639e2fcb88555e": {
+  "feed": "OpenAI News",
+  "title": "Scaling Codex to enterprises worldwide",
+  "link": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a corporate partnership and consulting services announcement (Codex Labs) with no technical depth or architectural details.",
+  "points": [
+   "OpenAI is launching Codex Labs and partnering with global systems integrators to scale enterprise adoption of Codex."
+  ]
+ },
+ "75a4499fe0eb83f1": {
+  "feed": "OpenAI News",
+  "title": "Accelerating the cyber defense ecosystem that protects us all",
+  "link": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a high-level PR announcement about cybersecurity grants and partnerships, lacking technical ML or backend engineering details.",
+  "points": [
+   "OpenAI committed $10 million in API credits to cybersecurity organizations and granted GPT-5.4-Cyber access to safety institutes."
+  ]
+ },
+ "c792fea6548e9ed6": {
+  "feed": "OpenAI News",
+  "title": "Healthcare",
+  "link": "https://openai.com/academy/healthcare",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a collection of basic prompt templates for healthcare clinicians, offering no technical value for an ML or backend engineer.",
+  "points": [
+   "Provides prompt templates for clinicians to use ChatGPT for diagnostic workups and administrative tasks."
+  ]
+ },
+ "e7ee83693ccb7abf": {
+  "feed": "OpenAI News",
+  "title": "Responsible and safe use of AI",
+  "link": "https://openai.com/academy/responsible-and-safe-use",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a high-level, non-technical guide on best practices for using ChatGPT safely, aimed at general users.",
+  "points": [
+   "Outlines basic guidelines for safe AI usage, such as keeping humans in the loop and respecting workplace policies."
+  ]
+ },
+ "512319b1230add0b": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing Training Cluster as a Service - a new collaboration with NVIDIA",
+  "link": "https://huggingface.co/blog/nvidia-training-cluster",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "It announces a new GPU cluster provisioning service by Hugging Face and NVIDIA, which is highly relevant to the reader's interest in ML infrastructure and GPU platforms.",
+  "points": [
+   "Launches Training Cluster as a Service (TCaaS) to provide on-demand, flexible GPU cluster access for training foundational models.",
+   "Integrates NVIDIA DGX Cloud Lepton for scheduling and monitoring with Hugging Face's open-source libraries.",
+   "Aims to bridge the compute gap for organizations needing temporary access to large-scale Hopper or GB200 clusters."
+  ]
+ },
+ "fc2f56f426ee611b": {
+  "feed": "Hugging Face Blog",
+  "title": "Exploring Quantization Backends in Diffusers",
+  "link": "https://huggingface.co/blog/diffusers-quantization",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It provides a highly technical deep-dive into multiple quantization backends (bitsandbytes, torchao, Quanto, GGUF) for optimizing large diffusion models, directly matching the reader's performance engineering interests.",
+  "points": [
+   "Compares quantization backends in Hugging Face Diffusers, including bitsandbytes (4-bit/8-bit), torchao, Quanto, and GGUF.",
+   "Focuses on optimizing the FLUX.1-dev model, which requires 31.4 GB in BF16, down to memory-efficient sizes.",
+   "Highlights NF4 (4-bit NormalFloat) as offering the best trade-off between memory savings and image quality."
+  ]
+ },
+ "7ab3804613b69501": {
+  "feed": "Hugging Face Blog",
+  "title": "Falcon-Edge: A series of powerful, universal, fine-tunable 1.58bit language models.",
+  "link": "https://huggingface.co/blog/tiiuae/falcon-edge",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It introduces a novel pre-training paradigm for 1.58-bit ternary (BitNet) models, which is a cutting-edge architecture topic directly aligned with Priority 1.",
+  "points": [
+   "Introduces Falcon-Edge, a series of 1B and 3B ternary (1.58-bit) models based on the BitNet architecture.",
+   "Validates a new pre-training paradigm that simultaneously outputs both non-quantized (bfloat16) and quantized (BitNet) variants from a single run.",
+   "Releases 'onebitllms', a lightweight Python package designed to make 1-bit LLM training and fine-tuning accessible."
+  ]
+ },
+ "1c8c50279833f190": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing AutoRound: Intel’s Advanced Quantization for LLMs and VLMs",
+  "link": "https://huggingface.co/blog/autoround",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It details a highly relevant, advanced post-training quantization (PTQ) method that optimizes low-bit LLM/VLM inference, matching the reader's performance engineering focus.",
+  "points": [
+   "AutoRound is a weight-only PTQ method using signed gradient descent to optimize weight rounding and clipping ranges.",
+   "Outperforms popular baselines at 2-bit precision (INT2), achieving up to 2.1x higher relative accuracy.",
+   "Supports exporting to GPTQ, AWQ, and GGUF formats, and can quantize a 72B model in 37 minutes on a single A100 GPU."
+  ]
+ },
+ "cd9496c2e2e8a6e7": {
+  "feed": "Hugging Face Blog",
+  "title": "Hugging Face to sell open-source robots thanks to Pollen Robotics acquisition 🤖",
+  "link": "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "While strategically interesting for Hugging Face, robotics hardware is outside the reader's core focus of LLM training, backend infrastructure, and industrial MLOps.",
+  "points": [
+   "Hugging Face acquired Pollen Robotics to sell open-source robots like Reachy 2, integrated with the LeRobot library."
+  ]
+ },
+ "64131661223d4f84": {
+  "feed": "Simon Willison",
+  "title": "LLM cliché highlighter",
+  "link": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a simple toy application for highlighting LLM clichés, offering no technical depth or relevance to backend/ML engineering.",
+  "points": [
+   "A simple web tool built with Fable 5 to highlight common LLM-generated writing clichés."
+  ]
+ },
+ "c6b128d4b5e46dad": {
+  "feed": "Netflix TechBlog",
+  "title": "In-House LLM Serving at Netflix",
+  "link": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?source=rss----2615bd06b42e---4",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "This is a top-tier engineering deep-dive from Netflix detailing their transition to vLLM, Triton integration, and production trade-offs for LLM serving.",
+  "points": [
+   "Netflix migrated its paved-path LLM serving engine from TensorRT-LLM to vLLM due to better extensibility, debuggability, and support for custom architectures.",
+   "Integrates vLLM directly into NVIDIA Triton Inference Server within their shared Model Scoring Service (MSS).",
+   "Details architectural decisions around model packaging, API design, and enforcing output constraints under production load."
+  ]
+ },
+ "5e25abb829c9fc88": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+  "link": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "It is a security engineering update from Cloudflare, which is a strong team (Priority 4), but the focus is on WordPress WAF rules rather than core backend architecture.",
+  "points": [
+   "Cloudflare deployed WAF rules to block two critical WordPress vulnerabilities: a SQL injection (CVE-2026-60137) and an unauthenticated RCE (CVE-2026-63030).",
+   "The rules were deployed proactively before public release, protecting both free and paid customers proxied through Cloudflare."
+  ]
  }
 }
