@@ -27705,5 +27705,182 @@
    "Uses a pseudo-random 'g-function' to augment logits during tournament sampling without degrading generation quality.",
    "Requires secure storage of unique watermarking keys (20-30 integers) to prevent third parties from replicating or detecting the watermark."
   ]
+ },
+ "4005f1d1b142b156": {
+  "feed": "YC Hacker News",
+  "title": "Gleam Is Now on Tangled",
+  "link": "https://tangled.org/gleam.run/gleam",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a minor announcement about a programming language repository moving to a new hosting platform, which is not relevant to ML or backend engineering.",
+  "points": [
+   "Gleam's repository is now hosted on Tangled, a decentralized git hosting platform."
+  ]
+ },
+ "14d5813fcb25b7b8": {
+  "feed": "YC Hacker News",
+  "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
+  "link": "https://ykdojo.github.io/claude-controls-mac/",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "While it is a practical guide on setting up an agentic environment securely, it leans more towards local developer setup than core ML infrastructure or backend engineering.",
+  "points": [
+   "Explains how to securely run Claude Code with broad permissions by isolating it on a spare Mac instead of a local container.",
+   "Enables agentic workflows like computer use (clicking, dragging) and running native Mac apps (e.g., Unity) over SSH."
+  ]
+ },
+ "e1a98f75533248ae": {
+  "feed": "YC Hacker News",
+  "title": "Elixir-lang.org has a new design",
+  "link": "https://elixir-lang.org/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a cosmetic website redesign announcement for Elixir, which does not align with the reader's core ML or backend engineering priorities.",
+  "points": [
+   "Elixir-lang.org launched a new website design highlighting its scalability, productivity, and machine learning capabilities (Nx)."
+  ]
+ },
+ "9993928267123557": {
+  "feed": "YC Hacker News",
+  "title": "EU ban on destruction of unsold clothes and shoes enters into application",
+  "link": "https://environment.ec.europa.eu/news/ban-destruction-unsold-clothes-and-shoes-enters-application-2026-07-17_en",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is an environmental policy announcement regarding textile waste in the EU, completely unrelated to ML or backend engineering.",
+  "points": [
+   "The EU has banned large companies from destroying unsold clothes and footwear to promote a circular economy."
+  ]
+ },
+ "e46ccefee893b8bf": {
+  "feed": "YC Hacker News",
+  "title": "The Fermi Paradox, Percolation, and Inbreeding",
+  "link": "https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a speculative science and science fiction article about the Fermi Paradox and percolation theory, which is off-target for an ML/backend engineer.",
+  "points": [
+   "Discusses Geoffrey Landis' percolation theory model of the Fermi Paradox and how genetic bottlenecks might affect interstellar colonization."
+  ]
+ },
+ "4526d33ef1a20060": {
+  "feed": "OpenAI News",
+  "title": "OpenAI announces Frontier Alliance Partners",
+  "link": "https://openai.com/index/frontier-alliance-partners",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a corporate partnership announcement between OpenAI and consulting firms, which is primarily product marketing and PR.",
+  "points": [
+   "OpenAI is partnering with major consulting firms (BCG, McKinsey, Accenture, Capgemini) to deploy its 'Frontier' AI coworker platform in enterprises."
+  ]
+ },
+ "14da3f6649257f2e": {
+  "feed": "OpenAI News",
+  "title": "Introducing OpenAI for India",
+  "link": "https://openai.com/index/openai-for-india",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Though partly PR, it details a major infrastructure partnership with Tata Group to build up to 1GW of sovereign AI data centers in India, which is highly relevant to ML infra.",
+  "points": [
+   "OpenAI is partnering with Tata Group to build local, sovereign AI data center capacity in India, starting at 100MW and scaling up to 1GW.",
+   "TCS will deploy ChatGPT Enterprise to hundreds of thousands of employees, making it one of the largest enterprise AI deployments globally."
+  ]
+ },
+ "71e8d02564c57357": {
+  "feed": "OpenAI News",
+  "title": "GPT-5.2 derives a new result in theoretical physics",
+  "link": "https://openai.com/index/new-result-theoretical-physics",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "This is a landmark demonstration of an LLM generating a novel, verified scientific result in theoretical physics, showcasing advanced reasoning capabilities.",
+  "points": [
+   "GPT-5.2 Pro conjectured a novel formula for a gluon scattering amplitude in the half-collinear regime, which was previously assumed to be zero.",
+   "The formula was verified for integer n up to 6 by human physicists and proven generally using an internal OpenAI model.",
+   "Demonstrates the potential of frontier LLMs to act as active collaborators in advanced theoretical research."
+  ]
+ },
+ "d480f86c234cd54d": {
+  "feed": "OpenAI News",
+  "title": "Scaling social science research",
+  "link": "https://openai.com/index/scaling-social-science-research",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "It introduces GABRIEL, an open-source Python toolkit for scaling qualitative data labeling and analysis using LLMs, which is a useful applied ML tool.",
+  "points": [
+   "OpenAI released GABRIEL, an open-source Python library that uses GPT to convert unstructured text and images into quantitative measurements.",
+   "Includes utility tools for dataset merging, deduplication, passage coding, and PII de-identification."
+  ]
+ },
+ "3d72134cdaba3173": {
+  "feed": "OpenAI News",
+  "title": "Bringing ChatGPT to GenAI.mil",
+  "link": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a government partnership and product deployment announcement, which falls under downranked PR and product marketing.",
+  "points": [
+   "OpenAI is deploying a custom, unclassified version of ChatGPT on the US Department of War's GenAI.mil platform for administrative and research tasks."
+  ]
+ },
+ "cf26cd625d402b5c": {
+  "feed": "Hugging Face Blog",
+  "title": "Fixing Gradient Accumulation",
+  "link": "https://huggingface.co/blog/gradient_accumulation",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "This is a critical technical deep-dive into a mathematical discrepancy in Hugging Face's gradient accumulation, directly impacting LLM training and loss convergence.",
+  "points": [
+   "Identifies a bug where gradient accumulation was not mathematically equivalent to full batch training due to how default token-level loss was averaged.",
+   "Explains that the correct loss must divide the total loss across all accumulated batches by the total number of non-padding tokens, rather than averaging per-batch losses.",
+   "Introduces a fix in the Hugging Face `transformers` Trainer to automatically handle this scaling when using gradient accumulation."
+  ]
+ },
+ "58ebeefaee95ad35": {
+  "feed": "Hugging Face Blog",
+  "title": "Improving Parquet Dedupe on Hugging Face Hub",
+  "link": "https://huggingface.co/blog/improve_parquet_dedupe",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "A high-quality engineering deep-dive into optimizing Parquet file storage and deduplication on the Hugging Face Hub, directly relevant to ML data infrastructure.",
+  "points": [
+   "Analyzes why standard Content-Defined Chunking (CDC) struggles with Parquet files due to absolute file offsets in column headers rewriting on small modifications.",
+   "Shows that appending rows dedupes extremely well (99.1% deduped), whereas modifying a single row causes widespread header changes, dropping deduplication to 89%.",
+   "Highlights Hugging Face's ongoing efforts to optimize its 2.2PB Parquet storage footprint through layout-aware deduplication."
+  ]
+ },
+ "0b5158215ab2b48d": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing the Open FinLLM Leaderboard",
+  "link": "https://huggingface.co/blog/leaderboard-finbench",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "It introduces a specialized evaluation framework for financial LLMs, which is useful for understanding domain-specific LLM evaluation but lacks core engineering depth.",
+  "points": [
+   "Launches the Open FinLLM Leaderboard to evaluate models on domain-specific tasks like credit risk scoring, sentiment analysis, and stock forecasting.",
+   "Uses zero-shot evaluation to test the generalization capabilities of models on unseen financial datasets."
+  ]
+ },
+ "15a8b69042aa8e39": {
+  "feed": "Hugging Face Blog",
+  "title": "A Short Summary of Chinese AI Global Expansion",
+  "link": "https://huggingface.co/blog/chinese-ai-expansion",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "This is a high-level business and geopolitical summary of Chinese AI companies expanding overseas, lacking technical engineering depth.",
+  "points": [
+   "Summarizes the global expansion strategies of Chinese tech giants like Alibaba, Tencent, and ByteDance, focusing on Southeast Asia and the Middle East."
+  ]
+ },
+ "e2bb92ff22be3b82": {
+  "feed": "Hugging Face Blog",
+  "title": "FineVideo: behind the scenes",
+  "link": "https://huggingface.co/blog/fine-video",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "It provides a detailed technical breakdown of a multimodal data engineering pipeline, showing how to filter, download, and annotate 3.4k hours of video using LLMs.",
+  "points": [
+   "Details the end-to-end pipeline used to curate FineVideo, filtering 1.9M YouTube-Commons videos down to 44K high-quality, dynamic videos.",
+   "Explains the filtering heuristics used, including word density filtering and visual dynamism filtering to remove static content.",
+   "Demonstrates a hybrid annotation strategy using Gemini 1.5 Pro for long video understanding and GPT-4o for structured output generation."
+  ]
  }
 }
