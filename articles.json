@@ -26768,5 +26768,200 @@
    "Cloudflare deployed WAF rules to block two critical WordPress vulnerabilities: a SQL injection (CVE-2026-60137) and an unauthenticated RCE (CVE-2026-63030).",
    "The rules were deployed proactively before public release, protecting both free and paid customers proxied through Cloudflare."
   ]
+ },
+ "3ba8e5950852913f": {
+  "feed": "YC Hacker News",
+  "title": "Regressive JPEGs",
+  "link": "https://maurycyz.com/projects/bad_jpeg/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Interesting web/graphics hack on JPEG progressive scans, but off-target for ML and backend infrastructure.",
+  "points": [
+   "Explains how to manipulate progressive JPEG scans to overwrite rendered image data, though decoder limits restrict it to 9 frames."
+  ]
+ },
+ "6d8a107b806c574e": {
+  "feed": "YC Hacker News",
+  "title": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
+  "link": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "IoT security vulnerability report, irrelevant to ML training or backend infrastructure.",
+  "points": [
+   "Details CVE-2026-13230 where TP-Link Kasa cameras leaked unauthenticated GPS coordinates over UDP for six years."
+  ]
+ },
+ "7c508faf7222ae3b": {
+  "feed": "YC Hacker News",
+  "title": "Learning a few things about running SQLite",
+  "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Practical backend engineering lessons on SQLite query optimization and write-lock timeouts during large operations.",
+  "points": [
+   "Running ANALYZE is critical for SQLite's query planner; it reduced a slow FTS5 query from 5 seconds to 0.05 seconds by generating table statistics.",
+   "Long-running DELETE operations can lock the database, causing other workers to time out (5-second default) and crash the VM.",
+   "Mitigated write-lock timeouts by batching cleanup operations into smaller, faster-running chunks."
+  ]
+ },
+ "8f717b57980b32d1": {
+  "feed": "YC Hacker News",
+  "title": "I started a \"dirt notebook\"",
+  "link": "https://pinewind.bearblog.dev/i-started-a-dirt-notebook/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Personal productivity blog post about paper notebooks, completely irrelevant to engineering.",
+  "points": [
+   "Discusses using a low-quality 'dirt notebook' to overcome the psychological barrier of keeping notes too neat."
+  ]
+ },
+ "53ae656a4919f0e3": {
+  "feed": "YC Hacker News",
+  "title": "Stenchill: 3D Printable Solder Paste Stencil Generator",
+  "link": "https://www.stenchill.com/en/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Hardware prototyping tool for PCB manufacturing, irrelevant to ML/backend.",
+  "points": [
+   "Generates 3D-printable solder paste stencils from Gerber files for rapid PCB prototyping."
+  ]
+ },
+ "4dbb1c1ec2bea53d": {
+  "feed": "OpenAI News",
+  "title": "Writing with ChatGPT",
+  "link": "https://openai.com/academy/writing",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Basic OpenAI marketing/tutorial on writing prompts, far too elementary for an ML engineer.",
+  "points": [
+   "Outlines a basic workflow (Plan, Draft, Revise, Package) for using ChatGPT to draft workplace communications."
+  ]
+ },
+ "39c29e13e298c113": {
+  "feed": "OpenAI News",
+  "title": "Using skills",
+  "link": "https://openai.com/academy/skills",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Product marketing for ChatGPT's 'skills' feature, lacking technical depth.",
+  "points": [
+   "Introduces the SKILL.md markdown standard for defining reusable, step-by-step workflows in ChatGPT."
+  ]
+ },
+ "11c496abc34e390b": {
+  "feed": "OpenAI News",
+  "title": "Financial services",
+  "link": "https://openai.com/academy/financial-services",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "High-level sales and marketing material for OpenAI Enterprise in regulated financial environments.",
+  "points": [
+   "Promotes a prompt pack and whitepapers for deploying ChatGPT securely in banks and financial institutions."
+  ]
+ },
+ "909c28a2bf070247": {
+  "feed": "OpenAI News",
+  "title": "AI fundamentals",
+  "link": "https://openai.com/academy/what-is-ai",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Extremely basic introductory material on how LLMs work, targeted at non-technical users.",
+  "points": [
+   "Explains the difference between pre-training (general pattern learning) and post-training (instruction following/coaching)."
+  ]
+ },
+ "a73b17417cccc9d9": {
+  "feed": "OpenAI News",
+  "title": "ChatGPT for finance teams",
+  "link": "https://openai.com/academy/finance",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Non-technical product marketing guide for using ChatGPT in corporate finance.",
+  "points": [
+   "Suggests basic use cases for ChatGPT in finance, such as drafting variance narratives and close status updates."
+  ]
+ },
+ "1e3d6f5f6214e955": {
+  "feed": "Hugging Face Blog",
+  "title": "Visual Salamandra: Pushing the Boundaries of Multimodal Understanding",
+  "link": "https://huggingface.co/blog/BSC-LT/visualsalamandra7b",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "Deep dive into the 4-phase training process and late-fusion architecture of a 7B multimodal model.",
+  "points": [
+   "Uses a late-fusion architecture combining a SigLIP-So400m image encoder, a 2-layer MLP projector, and the Salamandra Instructed 7B LLM.",
+   "Employs a 4-phase training pipeline: Projector Pre-training, High-Quality Vision Pretraining, Instruction Tuning, and Full Multimodal Tuning.",
+   "Trained on 6.1 million instruction-tuning instances (including 842k text-only) to optimize OCR, visual grounding, and multi-image/video reasoning."
+  ]
+ },
+ "b753e22d7ff3122f": {
+  "feed": "Hugging Face Blog",
+  "title": "The NLP Course is becoming the LLM Course",
+  "link": "https://huggingface.co/blog/llm-course",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Highlights updated open-source educational resources covering modern LLM fine-tuning and reasoning models (like DeepSeek R1).",
+  "points": [
+   "Hugging Face is rebranding and expanding its classic NLP course to focus heavily on LLMs, fine-tuning, and reasoning architectures.",
+   "New chapters cover state-of-the-art topics like DeepSeek R1 reasoning models and integrate tools like Unsloth, LlamaIndex, and Sentence Transformers."
+  ]
+ },
+ "52b2073c417546ea": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing Gradio's new Dataframe!",
+  "link": "https://huggingface.co/blog/gradio-dataframe-upgrade",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "UI library feature update, low priority compared to core ML infrastructure and training.",
+  "points": [
+   "Updates Gradio's gr.Dataframe component with multi-cell selection, column pinning, and search/filter capabilities."
+  ]
+ },
+ "498a4182800e3e16": {
+  "feed": "Hugging Face Blog",
+  "title": "The New and Fresh analytics in Inference Endpoints",
+  "link": "https://huggingface.co/blog/endpoint-analytics",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Minor product UI update for Hugging Face's managed hosting service.",
+  "points": [
+   "Adds real-time metrics, customizable time ranges, and replica lifecycle tracking to Hugging Face Inference Endpoints."
+  ]
+ },
+ "b1a646d2b5eddb7d": {
+  "feed": "Hugging Face Blog",
+  "title": "Xet is on the Hub",
+  "link": "https://huggingface.co/blog/xet-on-the-hub",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "High-quality ML infrastructure deep-dive explaining how Hugging Face is replacing Git LFS with content-defined chunking to optimize massive model/dataset storage.",
+  "points": [
+   "Replaces Git LFS (which deduplicates at the file level) with Xet storage, utilizing Content-Defined Chunking (CDC) at a ~64KB byte-level.",
+   "Solves the 're-upload penalty' where a tiny edit to a multi-gigabyte file (like GGUF or SQLite) previously required re-uploading the entire file.",
+   "Successfully migrated 6% of the Hugging Face Hub's download traffic to Xet infrastructure, validating real-world scale and reliability."
+  ]
+ },
+ "3c690c812db8d5d4": {
+  "feed": "Simon Willison",
+  "title": "Claude make Fable 5 permanent",
+  "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Important strategic update on Anthropic's model availability and subscription pricing driven by competitive pressure from GPT-5.6 Sol.",
+  "points": [
+   "Anthropic reversed its plan to make Claude Fable 5 API-only, keeping it in Max and Team Premium plans at 50% of usage limits.",
+   "The decision was driven by intense competition from OpenAI's GPT-5.6 Sol and Kimi 3, making subscription plans without their flagship model uncompetitive."
+  ]
+ },
+ "0bc93da60f4af79c": {
+  "feed": "Simon Willison",
+  "title": "nascheme/quixote",
+  "link": "https://simonwillison.net/2026/Jul/18/quixote/#atom-everything",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Historical trivia about an obscure Python web framework, irrelevant to modern backend/ML engineering.",
+  "points": [
+   "Notes that the 21-year-old Quixote Python web framework received a commit six hours ago."
+  ]
  }
 }

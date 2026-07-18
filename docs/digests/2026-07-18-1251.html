@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sat 18 Jul 2026, 12:51 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sat 18 Jul 2026, 12:51 IST &middot; 17 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Hugging Face&#x27;s migration to Xet storage using byte-level chunking is a must-read for ML infra, alongside Visual Salamandra&#x27;s multimodal training pipeline.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/BSC-LT/visualsalamandra7b">Visual Salamandra: Pushing the Boundaries of Multimodal Understanding</a></h2><div class="why">Deep dive into the 4-phase training process and late-fusion architecture of a 7B multimodal model.</div><ul><li>Uses a late-fusion architecture combining a SigLIP-So400m image encoder, a 2-layer MLP projector, and the Salamandra Instructed 7B LLM.</li><li>Employs a 4-phase training pipeline: Projector Pre-training, High-Quality Vision Pretraining, Instruction Tuning, and Full Multimodal Tuning.</li><li>Trained on 6.1 million instruction-tuning instances (including 842k text-only) to optimize OCR, visual grounding, and multi-image/video reasoning.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/xet-on-the-hub">Xet is on the Hub</a></h2><div class="why">High-quality ML infrastructure deep-dive explaining how Hugging Face is replacing Git LFS with content-defined chunking to optimize massive model/dataset storage.</div><ul><li>Replaces Git LFS (which deduplicates at the file level) with Xet storage, utilizing Content-Defined Chunking (CDC) at a ~64KB byte-level.</li><li>Solves the &#x27;re-upload penalty&#x27; where a tiny edit to a multi-gigabyte file (like GGUF or SQLite) previously required re-uploading the entire file.</li><li>Successfully migrated 6% of the Hugging Face Hub&#x27;s download traffic to Xet infrastructure, validating real-world scale and reliability.</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/">Learning a few things about running SQLite</a></h2><div class="why">Practical backend engineering lessons on SQLite query optimization and write-lock timeouts during large operations.</div><ul><li>Running ANALYZE is critical for SQLite&#x27;s query planner; it reduced a slow FTS5 query from 5 seconds to 0.05 seconds by generating table statistics.</li><li>Long-running DELETE operations can lock the database, causing other workers to time out (5-second default) and crash the VM.</li><li>Mitigated write-lock timeouts by batching cleanup operations into smaller, faster-running chunks.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/llm-course">The NLP Course is becoming the LLM Course</a></h2><div class="why">Highlights updated open-source educational resources covering modern LLM fine-tuning and reasoning models (like DeepSeek R1).</div><ul><li>Hugging Face is rebranding and expanding its classic NLP course to focus heavily on LLMs, fine-tuning, and reasoning architectures.</li><li>New chapters cover state-of-the-art topics like DeepSeek R1 reasoning models and integrate tools like Unsloth, LlamaIndex, and Sentence Transformers.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything">Claude make Fable 5 permanent</a></h2><div class="why">Important strategic update on Anthropic&#x27;s model availability and subscription pricing driven by competitive pressure from GPT-5.6 Sol.</div><ul><li>Anthropic reversed its plan to make Claude Fable 5 API-only, keeping it in Max and Team Premium plans at 50% of usage limits.</li><li>The decision was driven by intense competition from OpenAI&#x27;s GPT-5.6 Sol and Kimi 3, making subscription plans without their flagship model uncompetitive.</li></ul></div><div class="section">Low priority &middot; 12</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://maurycyz.com/projects/bad_jpeg/">Regressive JPEGs</a></h2><div class="why">Interesting web/graphics hack on JPEG progressive scans, but off-target for ML and backend infrastructure.</div><ul><li>Explains how to manipulate progressive JPEG scans to overwrite rendered image data, though decoder limits restrict it to 9 frames.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md">TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years</a></h2><div class="why">IoT security vulnerability report, irrelevant to ML training or backend infrastructure.</div><ul><li>Details CVE-2026-13230 where TP-Link Kasa cameras leaked unauthenticated GPS coordinates over UDP for six years.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://pinewind.bearblog.dev/i-started-a-dirt-notebook/">I started a &quot;dirt notebook&quot;</a></h2><div class="why">Personal productivity blog post about paper notebooks, completely irrelevant to engineering.</div><ul><li>Discusses using a low-quality &#x27;dirt notebook&#x27; to overcome the psychological barrier of keeping notes too neat.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.stenchill.com/en/">Stenchill: 3D Printable Solder Paste Stencil Generator</a></h2><div class="why">Hardware prototyping tool for PCB manufacturing, irrelevant to ML/backend.</div><ul><li>Generates 3D-printable solder paste stencils from Gerber files for rapid PCB prototyping.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/academy/writing">Writing with ChatGPT</a></h2><div class="why">Basic OpenAI marketing/tutorial on writing prompts, far too elementary for an ML engineer.</div><ul><li>Outlines a basic workflow (Plan, Draft, Revise, Package) for using ChatGPT to draft workplace communications.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/academy/skills">Using skills</a></h2><div class="why">Product marketing for ChatGPT&#x27;s &#x27;skills&#x27; feature, lacking technical depth.</div><ul><li>Introduces the SKILL.md markdown standard for defining reusable, step-by-step workflows in ChatGPT.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/academy/financial-services">Financial services</a></h2><div class="why">High-level sales and marketing material for OpenAI Enterprise in regulated financial environments.</div><ul><li>Promotes a prompt pack and whitepapers for deploying ChatGPT securely in banks and financial institutions.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/academy/what-is-ai">AI fundamentals</a></h2><div class="why">Extremely basic introductory material on how LLMs work, targeted at non-technical users.</div><ul><li>Explains the difference between pre-training (general pattern learning) and post-training (instruction following/coaching).</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/academy/finance">ChatGPT for finance teams</a></h2><div class="why">Non-technical product marketing guide for using ChatGPT in corporate finance.</div><ul><li>Suggests basic use cases for ChatGPT in finance, such as drafting variance narratives and close status updates.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/gradio-dataframe-upgrade">Introducing Gradio&#x27;s new Dataframe!</a></h2><div class="why">UI library feature update, low priority compared to core ML infrastructure and training.</div><ul><li>Updates Gradio&#x27;s gr.Dataframe component with multi-cell selection, column pinning, and search/filter capabilities.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/endpoint-analytics">The New and Fresh analytics in Inference Endpoints</a></h2><div class="why">Minor product UI update for Hugging Face&#x27;s managed hosting service.</div><ul><li>Adds real-time metrics, customizable time ranges, and replica lifecycle tracking to Hugging Face Inference Endpoints.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Jul/18/quixote/#atom-everything">nascheme/quixote</a></h2><div class="why">Historical trivia about an obscure Python web framework, irrelevant to modern backend/ML engineering.</div><ul><li>Notes that the 21-year-old Quixote Python web framework received a commit six hours ago.</li></ul></div></body></html>
