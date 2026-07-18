@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sat 18 Jul 2026, 16:21 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sat 18 Jul 2026, 16:21 IST &middot; 15 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Optimize static search trees for 40x speedups, explore Hugging Face&#x27;s new multilingual visual document retrieval model, and build code-writing agents with smolagents.</div><div class="section">Must read &middot; 3</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://curiouscoding.nl/posts/static-search-tree/">Static search trees: 40x faster than binary search (2024)</a></h2><div class="why">A masterclass in performance engineering and low-level optimization (SIMD, prefetching, cache lines, batching) directly relevant to backend and infra engineers.</div><ul><li>Achieves 40x speedup over standard binary search by using an S+ tree layout (Eytzinger/B-tree hybrid) and batching queries.</li><li>Leverages hardware-level optimizations including manual SIMD (AVX-512), software prefetching (_mm_prefetch), and hugepages to avoid TLB misses.</li><li>Demonstrates that batching independent queries allows interleaving instructions to hide memory latency.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/vdr-2b-multilingual">Visual Document Retrieval Goes Multilingual</a></h2><div class="why">Deep dive into a 2B parameter vision-language embedding model, detailing synthetic dataset generation, Matryoshka Representation Learning, and inference optimization.</div><ul><li>Releases vdr-2b-multi-v1, a multilingual visual document retrieval model based on Qwen2-2B, eliminating the need for OCR or chunking.</li><li>Optimizes inference speed (3x faster) and VRAM usage by reducing image patches from 2560 to 768 while maintaining performance.</li><li>Utilizes Matryoshka Representation Learning (MRL) to allow 3x vector size reduction with 98% quality retention.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/smolagents">Introducing smolagents: simple agents that write actions in code.</a></h2><div class="why">Introduces a highly efficient paradigm for LLM agents where actions are written in secure Python code rather than JSON tool-calling, showing significant performance gains.</div><ul><li>Introduces smolagents, a lightweight library advocating for &#x27;code agents&#x27; that write executable Python blocks instead of parsing JSON.</li><li>Shows that code-based actions outperform JSON tool-calling on complex benchmarks because code naturally supports loops, conditionals, and state.</li><li>Emphasizes security through a sandboxed, local Python interpreter to safely execute LLM-generated code.</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/designing-agents-to-resist-prompt-injection">Designing AI agents to resist prompt injection</a></h2><div class="why">Provides conceptual insights into securing AI agents against social engineering-style prompt injections by constraining tool impact.</div><ul><li>Explains that modern prompt injections mimic social engineering rather than simple system overrides.</li><li>Recommends architectural defenses: privilege separation, explicit user confirmation for sensitive actions, and input validation.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/leaderboard-emissions-analysis">CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard</a></h2><div class="why">Analyzes the environmental and computational cost of LLM inference across 3,000+ models, offering insights into hardware efficiency.</div><ul><li>Evaluates CO2 emissions of LLM inference using a heuristic based on evaluation time, GPU power draw, and grid carbon intensity.</li><li>Finds that community fine-tunes are often more carbon-efficient than base models, and smaller models (e.g., Qwen2-7B) offer the best performance-to-emission ratio.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/logits-processor-zoo">Controlling Language Model Generation with NVIDIA&#x27;s LogitsProcessorZoo</a></h2><div class="why">Explains how to manipulate raw logits during LLM decoding to enforce constraints, which is useful for structured inference serving.</div><ul><li>Introduces NVIDIA&#x27;s LogitsProcessorZoo, a library for modifying unnormalized logit scores before softmax during Hugging Face generation.</li><li>Demonstrates custom processors for controlling sequence length, enforcing key phrases, and guiding multiple-choice outputs.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://rogerdickey.com/funny-item-co-occurrences-in-3-million-instacart-orders/">Funny item co-occurrences in 3.2M Instacart orders</a></h2><div class="why">A basic data analysis project on grocery shopping habits with no relevance to ML infra or advanced engineering.</div><ul><li>Uses Claude and the lift metric to find unusual product pairings in the Instacart Kaggle dataset.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/waaldev/waldi">Waldi: A quiet place to write, and to be read</a></h2><div class="why">A simple web application repository with no relevance to ML, distributed systems, or backend performance.</div><ul><li>A Go-based open-source writing platform repository with standard web architecture.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://arxiv.org/abs/2607.14587">Qubes OS Security in the Public Record</a></h2><div class="why">Academic security analysis of Qubes OS vulnerabilities, which is off-target for an ML/backend engineer.</div><ul><li>Analyzes 109 Qubes Security Bulletins, finding that 79.8% of vulnerabilities stem from upstream components like Xen or CPU microarchitecture.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/">The Computer at the Bottom of a Canal</a></h2><div class="why">A historical retrospective on a niche 1988 hardware architecture, lacking practical relevance to modern backend or ML engineering.</div><ul><li>Retells the story of the Rekursiv processor, which implemented hardware-level garbage collection and object-oriented memory management in 1988.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/why-codex-security-doesnt-include-sast">Why Codex Security Doesn’t Include a SAST Report</a></h2><div class="why">Product marketing and design philosophy for OpenAI&#x27;s security agent, lacking concrete technical implementation details.</div><ul><li>Argues that traditional SAST tools focus too much on dataflow, whereas Codex Security analyzes system behavior and trust boundaries.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/rakuten">Rakuten fixes issues twice as fast with Codex</a></h2><div class="why">A high-level corporate PR and customer success story for OpenAI&#x27;s Codex product.</div><ul><li>Rakuten claims a 50% reduction in MTTR and faster project builds by integrating Codex into their CI/CD and incident response.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/wayfair">Wayfair boosts catalog accuracy and support speed with OpenAI</a></h2><div class="why">A non-technical corporate press release detailing Wayfair&#x27;s adoption of OpenAI APIs.</div><ul><li>Wayfair used OpenAI models to correct 2.5 million product tags and automate supplier support tickets.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/codex-security-now-in-research-preview">Codex Security: now in research preview</a></h2><div class="why">A product announcement and marketing release for OpenAI&#x27;s Codex Security agent.</div><ul><li>Announces the research preview of Codex Security, an agentic tool designed to identify and patch repository vulnerabilities.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/huggingface/blog-articles-for-orgs">Yay! Organizations can now publish blog Articles</a></h2><div class="why">A minor product feature announcement for the Hugging Face Hub platform.</div><ul><li>Hugging Face now allows organizations subscribed to the Enterprise Hub to publish blog articles directly.</li></ul></div></body></html>

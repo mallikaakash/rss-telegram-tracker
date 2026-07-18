@@ -27146,5 +27146,179 @@
    "Integrates VLM support into smolagents, allowing agents to process visual inputs natively during ReAct loops.",
    "Supports both static image passing at startup and dynamic image capture (e.g., viewport screenshots) via callbacks during execution."
   ]
+ },
+ "a8a97b43e1f5fee0": {
+  "feed": "YC Hacker News",
+  "title": "Funny item co-occurrences in 3.2M Instacart orders",
+  "link": "https://rogerdickey.com/funny-item-co-occurrences-in-3-million-instacart-orders/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A basic data analysis project on grocery shopping habits with no relevance to ML infra or advanced engineering.",
+  "points": [
+   "Uses Claude and the lift metric to find unusual product pairings in the Instacart Kaggle dataset."
+  ]
+ },
+ "9042f9d3934188c5": {
+  "feed": "YC Hacker News",
+  "title": "Waldi: A quiet place to write, and to be read",
+  "link": "https://github.com/waaldev/waldi",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A simple web application repository with no relevance to ML, distributed systems, or backend performance.",
+  "points": [
+   "A Go-based open-source writing platform repository with standard web architecture."
+  ]
+ },
+ "c80b798ea3866fda": {
+  "feed": "YC Hacker News",
+  "title": "Qubes OS Security in the Public Record",
+  "link": "https://arxiv.org/abs/2607.14587",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Academic security analysis of Qubes OS vulnerabilities, which is off-target for an ML/backend engineer.",
+  "points": [
+   "Analyzes 109 Qubes Security Bulletins, finding that 79.8% of vulnerabilities stem from upstream components like Xen or CPU microarchitecture."
+  ]
+ },
+ "5cf01deebdd4b901": {
+  "feed": "YC Hacker News",
+  "title": "The Computer at the Bottom of a Canal",
+  "link": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A historical retrospective on a niche 1988 hardware architecture, lacking practical relevance to modern backend or ML engineering.",
+  "points": [
+   "Retells the story of the Rekursiv processor, which implemented hardware-level garbage collection and object-oriented memory management in 1988."
+  ]
+ },
+ "bf8687e1f502929e": {
+  "feed": "YC Hacker News",
+  "title": "Static search trees: 40x faster than binary search (2024)",
+  "link": "https://curiouscoding.nl/posts/static-search-tree/",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "A masterclass in performance engineering and low-level optimization (SIMD, prefetching, cache lines, batching) directly relevant to backend and infra engineers.",
+  "points": [
+   "Achieves 40x speedup over standard binary search by using an S+ tree layout (Eytzinger/B-tree hybrid) and batching queries.",
+   "Leverages hardware-level optimizations including manual SIMD (AVX-512), software prefetching (_mm_prefetch), and hugepages to avoid TLB misses.",
+   "Demonstrates that batching independent queries allows interleaving instructions to hide memory latency."
+  ]
+ },
+ "bae4347eaebc2477": {
+  "feed": "OpenAI News",
+  "title": "Why Codex Security Doesn’t Include a SAST Report",
+  "link": "https://openai.com/index/why-codex-security-doesnt-include-sast",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "Product marketing and design philosophy for OpenAI's security agent, lacking concrete technical implementation details.",
+  "points": [
+   "Argues that traditional SAST tools focus too much on dataflow, whereas Codex Security analyzes system behavior and trust boundaries."
+  ]
+ },
+ "86852cb22192e820": {
+  "feed": "OpenAI News",
+  "title": "Designing AI agents to resist prompt injection",
+  "link": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Provides conceptual insights into securing AI agents against social engineering-style prompt injections by constraining tool impact.",
+  "points": [
+   "Explains that modern prompt injections mimic social engineering rather than simple system overrides.",
+   "Recommends architectural defenses: privilege separation, explicit user confirmation for sensitive actions, and input validation."
+  ]
+ },
+ "34e6351b3e4dcc30": {
+  "feed": "OpenAI News",
+  "title": "Rakuten fixes issues twice as fast with Codex",
+  "link": "https://openai.com/index/rakuten",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A high-level corporate PR and customer success story for OpenAI's Codex product.",
+  "points": [
+   "Rakuten claims a 50% reduction in MTTR and faster project builds by integrating Codex into their CI/CD and incident response."
+  ]
+ },
+ "69f2b5ec7d181072": {
+  "feed": "OpenAI News",
+  "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+  "link": "https://openai.com/index/wayfair",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A non-technical corporate press release detailing Wayfair's adoption of OpenAI APIs.",
+  "points": [
+   "Wayfair used OpenAI models to correct 2.5 million product tags and automate supplier support tickets."
+  ]
+ },
+ "f15850658adf779c": {
+  "feed": "OpenAI News",
+  "title": "Codex Security: now in research preview",
+  "link": "https://openai.com/index/codex-security-now-in-research-preview",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A product announcement and marketing release for OpenAI's Codex Security agent.",
+  "points": [
+   "Announces the research preview of Codex Security, an agentic tool designed to identify and patch repository vulnerabilities."
+  ]
+ },
+ "9c21bea5acdac00b": {
+  "feed": "Hugging Face Blog",
+  "title": "Yay! Organizations can now publish blog Articles",
+  "link": "https://huggingface.co/blog/huggingface/blog-articles-for-orgs",
+  "date": "2026-07-18",
+  "tier": "low_priority",
+  "why": "A minor product feature announcement for the Hugging Face Hub platform.",
+  "points": [
+   "Hugging Face now allows organizations subscribed to the Enterprise Hub to publish blog articles directly."
+  ]
+ },
+ "d9f6692511f1b2bb": {
+  "feed": "Hugging Face Blog",
+  "title": "Visual Document Retrieval Goes Multilingual",
+  "link": "https://huggingface.co/blog/vdr-2b-multilingual",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "Deep dive into a 2B parameter vision-language embedding model, detailing synthetic dataset generation, Matryoshka Representation Learning, and inference optimization.",
+  "points": [
+   "Releases vdr-2b-multi-v1, a multilingual visual document retrieval model based on Qwen2-2B, eliminating the need for OCR or chunking.",
+   "Optimizes inference speed (3x faster) and VRAM usage by reducing image patches from 2560 to 768 while maintaining performance.",
+   "Utilizes Matryoshka Representation Learning (MRL) to allow 3x vector size reduction with 98% quality retention."
+  ]
+ },
+ "aff3f229c73a2e6f": {
+  "feed": "Hugging Face Blog",
+  "title": "CO₂ Emissions and Models Performance: Insights from the Open LLM Leaderboard",
+  "link": "https://huggingface.co/blog/leaderboard-emissions-analysis",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Analyzes the environmental and computational cost of LLM inference across 3,000+ models, offering insights into hardware efficiency.",
+  "points": [
+   "Evaluates CO2 emissions of LLM inference using a heuristic based on evaluation time, GPU power draw, and grid carbon intensity.",
+   "Finds that community fine-tunes are often more carbon-efficient than base models, and smaller models (e.g., Qwen2-7B) offer the best performance-to-emission ratio."
+  ]
+ },
+ "c0002ff17b4064dd": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing smolagents: simple agents that write actions in code.",
+  "link": "https://huggingface.co/blog/smolagents",
+  "date": "2026-07-18",
+  "tier": "must_read",
+  "why": "Introduces a highly efficient paradigm for LLM agents where actions are written in secure Python code rather than JSON tool-calling, showing significant performance gains.",
+  "points": [
+   "Introduces smolagents, a lightweight library advocating for 'code agents' that write executable Python blocks instead of parsing JSON.",
+   "Shows that code-based actions outperform JSON tool-calling on complex benchmarks because code naturally supports loops, conditionals, and state.",
+   "Emphasizes security through a sandboxed, local Python interpreter to safely execute LLM-generated code."
+  ]
+ },
+ "85f22c84d2ac94b3": {
+  "feed": "Hugging Face Blog",
+  "title": "Controlling Language Model Generation with NVIDIA's LogitsProcessorZoo",
+  "link": "https://huggingface.co/blog/logits-processor-zoo",
+  "date": "2026-07-18",
+  "tier": "worth_a_skim",
+  "why": "Explains how to manipulate raw logits during LLM decoding to enforce constraints, which is useful for structured inference serving.",
+  "points": [
+   "Introduces NVIDIA's LogitsProcessorZoo, a library for modifying unnormalized logit scores before softmax during Hugging Face generation.",
+   "Demonstrates custom processors for controlling sequence length, enforcing key phrases, and guiding multiple-choice outputs."
+  ]
  }
 }
