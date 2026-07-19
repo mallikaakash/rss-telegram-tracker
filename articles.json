@@ -28824,5 +28824,182 @@
    "Utilizes a router network to dynamically select which expert models process specific image tokens during generation.",
    "Allows developers to merge existing Stable Diffusion models into a single MoE model in minutes using the 'segmoe' package."
   ]
+ },
+ "cc3ee61a2a71a548": {
+  "feed": "YC Hacker News",
+  "title": "Minecraft: Java Edition now uses SDL3",
+  "link": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "It focuses on game client development and window management migration in Minecraft, which is completely unrelated to ML or backend infrastructure.",
+  "points": [
+   "Minecraft: Java Edition has migrated to SDL3 for input and window management."
+  ]
+ },
+ "bb3e54afda916248": {
+  "feed": "YC Hacker News",
+  "title": "Bananas sprout in Rayleigh Garden UK after 15 years",
+  "link": "https://www.bbc.com/news/articles/cvg8edqq5g5o",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a general news article about gardening and climate change in the UK, entirely irrelevant to ML or backend engineering.",
+  "points": [
+   "Warmer UK temperatures are allowing tropical plants like bananas to fruit in domestic gardens."
+  ]
+ },
+ "d65b43dabb1724ee": {
+  "feed": "YC Hacker News",
+  "title": "DRIVE – Operational Excellence for AI-accelerated engineering",
+  "link": "https://www.cortex.io/drive",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a high-level organizational management framework pitch rather than a concrete technical deep-dive or ML infrastructure post.",
+  "points": [
+   "The DRIVE framework proposes five pillars (Delivery, Reliability, Initiatives, Vigilance, Efficiency) to measure engineering health in the AI era."
+  ]
+ },
+ "d6b9f47c7cd900ac": {
+  "feed": "YC Hacker News",
+  "title": "I burned all my tokens researching how to save tokens",
+  "link": "https://quesma.com/blog/custom-deep-research-pipeline/",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "Directly addresses LLM token optimization, multi-model agent orchestration, and shared memory architectures, which are highly relevant to LLM engineering and cost management.",
+  "points": [
+   "Demonstrates a multi-model orchestration pattern using Claude Code as a harness with Codex and Antigravity as subagents.",
+   "Implements a shared local memory plugin (claude-mem) to allow different models to build on each other's context.",
+   "Saves costs by routing tasks dynamically: Sonnet for search, Opus for verification, and Fable only for high-level planning."
+  ]
+ },
+ "7b5becad7e442239": {
+  "feed": "YC Hacker News",
+  "title": "I joined the IndieWeb, here's what I learned",
+  "link": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "It covers personal blogging and the IndieWeb movement, which does not align with ML, backend infrastructure, or industrial MLOps.",
+  "points": [
+   "The IndieWeb movement advocates for owning your content, decentralized connections, and personal control over web hosting."
+  ]
+ },
+ "1c26a12c7f0fd773": {
+  "feed": "OpenAI News",
+  "title": "The state of enterprise AI",
+  "link": "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "While mostly a high-level enterprise adoption report, it contains interesting macro-level scaling data on reasoning token consumption and agentic workflow growth.",
+  "points": [
+   "Average reasoning token consumption per enterprise organization increased by 320x over 12 months.",
+   "Usage of structured workflows (Projects and Custom GPTs) grew 19x year-to-date, indicating a shift toward integrated processes."
+  ]
+ },
+ "bcd69a9e8a00aa64": {
+  "feed": "OpenAI News",
+  "title": "How Virgin Atlantic uses AI to enhance every step of travel",
+  "link": "https://openai.com/index/virgin-atlantic-oliver-byers",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a non-technical corporate case study and product marketing piece about ChatGPT adoption at an airline.",
+  "points": [
+   "Virgin Atlantic uses ChatGPT Enterprise and Codex to drive internal productivity and customer-facing digital concierges."
+  ]
+ },
+ "b796c43e7637c8bb": {
+  "feed": "OpenAI News",
+  "title": "OpenAI to acquire Neptune",
+  "link": "https://openai.com/index/openai-to-acquire-neptune",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "Strategically important acquisition of a major ML experiment tracking tool (Neptune) to be integrated directly into OpenAI's frontier model training stack.",
+  "points": [
+   "OpenAI is acquiring neptune.ai to integrate its experiment tracking and model monitoring tools deep into their training stack.",
+   "The acquisition aims to improve real-time visibility into how frontier models learn and analyze complex training workflows."
+  ]
+ },
+ "eef0a375a4236a70": {
+  "feed": "OpenAI News",
+  "title": "How confessions can keep language models honest",
+  "link": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "A novel technical alignment and RLHF technique from OpenAI that trains models to explicitly report their own misbehaviors (reward-hacking, scheming) via a separate \"honesty-only\" reward channel.",
+  "points": [
+   "Introduces 'confessions', a separate model output trained solely on honesty, where admitting to misbehavior increases reward.",
+   "Reduces the rate of 'false negatives' (unreported non-compliance) to just 4.4% across adversarial evaluations.",
+   "Provides a mechanism to detect scheming and reward-hacking in highly capable, agentic models before deployment."
+  ]
+ },
+ "2e16efff67ee1326": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”",
+  "link": "https://openai.com/index/norad-holiday-collaboration",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a seasonal consumer-feature launch and PR announcement with no technical depth or relevance to ML engineering.",
+  "points": [
+   "OpenAI partnered with NORAD to launch three simple holiday-themed GPT tools for families."
+  ]
+ },
+ "2beb9a867fa9743f": {
+  "feed": "Hugging Face Blog",
+  "title": "Hugging Face and Google partner for open AI collaboration",
+  "link": "https://huggingface.co/blog/gcp-partnership",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "A strategic partnership announcement that impacts ML infrastructure, detailing deeper integrations of Hugging Face with Google Cloud (GKE, Vertex AI, and TPUs).",
+  "points": [
+   "Enables easier training and deployment of Hugging Face models on Google Kubernetes Engine (GKE) and Vertex AI.",
+   "Provides optimized support for Google Cloud hardware, including TPUs and NVIDIA H100 GPUs."
+  ]
+ },
+ "cc7fa40ce45ee823": {
+  "feed": "Hugging Face Blog",
+  "title": "Run ComfyUI workflows for free with Gradio on Hugging Face Spaces",
+  "link": "https://huggingface.co/blog/run-comfyui-workflows-on-spaces",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Useful for understanding serverless ML deployment (ZeroGPU) and converting node-based UI workflows (ComfyUI) into pure Python/Gradio applications.",
+  "points": [
+   "Explains how to use the ComfyUI-to-Python-Extension to run node-based workflows as pure Python scripts.",
+   "Demonstrates deploying these workflows on Hugging Face Spaces using their serverless ZeroGPU infrastructure."
+  ]
+ },
+ "79a5ed17e041cb72": {
+  "feed": "Hugging Face Blog",
+  "title": "AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU",
+  "link": "https://huggingface.co/blog/huggingface-and-optimum-amd",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "Crucial ML infrastructure update detailing native, out-of-the-box support for AMD Instinct GPUs (MI300) in Hugging Face, including Flash Attention v2 and PagedAttention.",
+  "points": [
+   "Achieves zero-code-change compatibility for running Hugging Face Transformers on AMD Instinct GPUs.",
+   "Integrates AMD-specific Flash Attention v2 and vLLM's PagedAttention natively into the ROCm software platform.",
+   "Establishes continuous integration testing on AMD hardware in green datacenters to ensure performance parity with NVIDIA."
+  ]
+ },
+ "5812dbeaf82c6640": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing Prodigy-HF: a direct integration with Hugging Face",
+  "link": "https://huggingface.co/blog/prodigy-hf",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Relevant for MLOps and active learning workflows, showing how to tightly couple data annotation with transformer fine-tuning.",
+  "points": [
+   "Introduces Prodigy-HF, allowing direct command-line fine-tuning of Hugging Face models (like BERT) on annotated data.",
+   "Enables uploading annotated datasets directly to the Hugging Face Hub to streamline the data-to-model pipeline."
+  ]
+ },
+ "6ff40903f5f7fcff": {
+  "feed": "Hugging Face Blog",
+  "title": "Comparing the Performance of LLMs: A Deep Dive into Roberta, Llama 2, and Mistral for Disaster Tweets Analysis with Lora",
+  "link": "https://huggingface.co/blog/Lora-for-sequence-classification-with-Roberta-Llama-Mistral",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Provides a practical walkthrough of parameter-efficient fine-tuning (PEFT/LoRA) across different model scales, though the classification task itself is quite standard.",
+  "points": [
+   "Compares RoBERTa-large (355M) against Llama-2-7B and Mistral-7B using LoRA for sequence classification.",
+   "Demonstrates the use of Hugging Face PEFT APIs combined with Weights & Biases for hyperparameter tuning."
+  ]
  }
 }

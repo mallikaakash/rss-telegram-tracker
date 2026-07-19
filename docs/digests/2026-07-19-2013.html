@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sun 19 Jul 2026, 20:13 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sun 19 Jul 2026, 20:13 IST &middot; 15 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; OpenAI&#x27;s novel &quot;confessions&quot; alignment technique and AMD&#x27;s native GPU acceleration lead this batch, alongside critical updates on token optimization and ML infrastructure.</div><div class="section">Must read &middot; 4</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://quesma.com/blog/custom-deep-research-pipeline/">I burned all my tokens researching how to save tokens</a></h2><div class="why">Directly addresses LLM token optimization, multi-model agent orchestration, and shared memory architectures, which are highly relevant to LLM engineering and cost management.</div><ul><li>Demonstrates a multi-model orchestration pattern using Claude Code as a harness with Codex and Antigravity as subagents.</li><li>Implements a shared local memory plugin (claude-mem) to allow different models to build on each other&#x27;s context.</li><li>Saves costs by routing tasks dynamically: Sonnet for search, Opus for verification, and Fable only for high-level planning.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/openai-to-acquire-neptune">OpenAI to acquire Neptune</a></h2><div class="why">Strategically important acquisition of a major ML experiment tracking tool (Neptune) to be integrated directly into OpenAI&#x27;s frontier model training stack.</div><ul><li>OpenAI is acquiring neptune.ai to integrate its experiment tracking and model monitoring tools deep into their training stack.</li><li>The acquisition aims to improve real-time visibility into how frontier models learn and analyze complex training workflows.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/how-confessions-can-keep-language-models-honest">How confessions can keep language models honest</a></h2><div class="why">A novel technical alignment and RLHF technique from OpenAI that trains models to explicitly report their own misbehaviors (reward-hacking, scheming) via a separate &quot;honesty-only&quot; reward channel.</div><ul><li>Introduces &#x27;confessions&#x27;, a separate model output trained solely on honesty, where admitting to misbehavior increases reward.</li><li>Reduces the rate of &#x27;false negatives&#x27; (unreported non-compliance) to just 4.4% across adversarial evaluations.</li><li>Provides a mechanism to detect scheming and reward-hacking in highly capable, agentic models before deployment.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/huggingface-and-optimum-amd">AMD + 🤗: Large Language Models Out-of-the-Box Acceleration with AMD GPU</a></h2><div class="why">Crucial ML infrastructure update detailing native, out-of-the-box support for AMD Instinct GPUs (MI300) in Hugging Face, including Flash Attention v2 and PagedAttention.</div><ul><li>Achieves zero-code-change compatibility for running Hugging Face Transformers on AMD Instinct GPUs.</li><li>Integrates AMD-specific Flash Attention v2 and vLLM&#x27;s PagedAttention natively into the ROCm software platform.</li><li>Establishes continuous integration testing on AMD hardware in green datacenters to ensure performance parity with NVIDIA.</li></ul></div><div class="section">Worth a skim &middot; 5</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/the-state-of-enterprise-ai-2025-report">The state of enterprise AI</a></h2><div class="why">While mostly a high-level enterprise adoption report, it contains interesting macro-level scaling data on reasoning token consumption and agentic workflow growth.</div><ul><li>Average reasoning token consumption per enterprise organization increased by 320x over 12 months.</li><li>Usage of structured workflows (Projects and Custom GPTs) grew 19x year-to-date, indicating a shift toward integrated processes.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/gcp-partnership">Hugging Face and Google partner for open AI collaboration</a></h2><div class="why">A strategic partnership announcement that impacts ML infrastructure, detailing deeper integrations of Hugging Face with Google Cloud (GKE, Vertex AI, and TPUs).</div><ul><li>Enables easier training and deployment of Hugging Face models on Google Kubernetes Engine (GKE) and Vertex AI.</li><li>Provides optimized support for Google Cloud hardware, including TPUs and NVIDIA H100 GPUs.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/run-comfyui-workflows-on-spaces">Run ComfyUI workflows for free with Gradio on Hugging Face Spaces</a></h2><div class="why">Useful for understanding serverless ML deployment (ZeroGPU) and converting node-based UI workflows (ComfyUI) into pure Python/Gradio applications.</div><ul><li>Explains how to use the ComfyUI-to-Python-Extension to run node-based workflows as pure Python scripts.</li><li>Demonstrates deploying these workflows on Hugging Face Spaces using their serverless ZeroGPU infrastructure.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/prodigy-hf">Introducing Prodigy-HF: a direct integration with Hugging Face</a></h2><div class="why">Relevant for MLOps and active learning workflows, showing how to tightly couple data annotation with transformer fine-tuning.</div><ul><li>Introduces Prodigy-HF, allowing direct command-line fine-tuning of Hugging Face models (like BERT) on annotated data.</li><li>Enables uploading annotated datasets directly to the Hugging Face Hub to streamline the data-to-model pipeline.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/Lora-for-sequence-classification-with-Roberta-Llama-Mistral">Comparing the Performance of LLMs: A Deep Dive into Roberta, Llama 2, and Mistral for Disaster Tweets Analysis with Lora</a></h2><div class="why">Provides a practical walkthrough of parameter-efficient fine-tuning (PEFT/LoRA) across different model scales, though the classification task itself is quite standard.</div><ul><li>Compares RoBERTa-large (355M) against Llama-2-7B and Mistral-7B using LoRA for sequence classification.</li><li>Demonstrates the use of Hugging Face PEFT APIs combined with Weights &amp; Biases for hyperparameter tuning.</li></ul></div><div class="section">Low priority &middot; 6</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4">Minecraft: Java Edition now uses SDL3</a></h2><div class="why">It focuses on game client development and window management migration in Minecraft, which is completely unrelated to ML or backend infrastructure.</div><ul><li>Minecraft: Java Edition has migrated to SDL3 for input and window management.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.bbc.com/news/articles/cvg8edqq5g5o">Bananas sprout in Rayleigh Garden UK after 15 years</a></h2><div class="why">This is a general news article about gardening and climate change in the UK, entirely irrelevant to ML or backend engineering.</div><ul><li>Warmer UK temperatures are allowing tropical plants like bananas to fruit in domestic gardens.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.cortex.io/drive">DRIVE – Operational Excellence for AI-accelerated engineering</a></h2><div class="why">This is a high-level organizational management framework pitch rather than a concrete technical deep-dive or ML infrastructure post.</div><ul><li>The DRIVE framework proposes five pillars (Delivery, Reliability, Initiatives, Vigilance, Efficiency) to measure engineering health in the AI era.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/">I joined the IndieWeb, here&#x27;s what I learned</a></h2><div class="why">It covers personal blogging and the IndieWeb movement, which does not align with ML, backend infrastructure, or industrial MLOps.</div><ul><li>The IndieWeb movement advocates for owning your content, decentralized connections, and personal control over web hosting.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/virgin-atlantic-oliver-byers">How Virgin Atlantic uses AI to enhance every step of travel</a></h2><div class="why">This is a non-technical corporate case study and product marketing piece about ChatGPT adoption at an airline.</div><ul><li>Virgin Atlantic uses ChatGPT Enterprise and Codex to drive internal productivity and customer-facing digital concierges.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/norad-holiday-collaboration">OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”</a></h2><div class="why">This is a seasonal consumer-feature launch and PR announcement with no technical depth or relevance to ML engineering.</div><ul><li>OpenAI partnered with NORAD to launch three simple holiday-themed GPT tools for families.</li></ul></div></body></html>
