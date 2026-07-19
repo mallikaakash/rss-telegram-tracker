@@ -28059,5 +28059,204 @@
    "RLOO uses 50-70% less vRAM than PPO and runs 2x to 3x faster, making online RLHF significantly more accessible and less prone to out-of-memory errors.",
    "Treats the entire model completion as a single action rather than token-by-token actions, simplifying the implementation while maintaining competitive win rates against PPO."
   ]
+ },
+ "45da52ae09b4d95d": {
+  "feed": "YC Hacker News",
+  "title": "Transcribe.cpp",
+  "link": "https://workshop.cjpais.com/projects/transcribe-cpp",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Provides a practical look at cross-platform local ML inference using ggml and Vulkan/CUDA acceleration.",
+  "points": [
+   "Supports 16 ASR families (60+ models) with numerical validation against reference implementations.",
+   "Achieves cross-platform GPU acceleration using Vulkan, Metal, and CUDA via ggml.",
+   "Offers a lightweight, embeddable C++ alternative to heavy PyTorch or fragmented ONNX runtimes."
+  ]
+ },
+ "744e466904127176": {
+  "feed": "YC Hacker News",
+  "title": "Speech Recognition and TTS in less than 500kb",
+  "link": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Interesting edge-case optimization for running speech models on highly constrained microcontroller hardware.",
+  "points": [
+   "Fits speech recognition and TTS models into a sub-500kb footprint.",
+   "Targets microcontrollers like the RP2350, demonstrating extreme model compression and performance engineering."
+  ]
+ },
+ "b9ceb7b768606bee": {
+  "feed": "YC Hacker News",
+  "title": "FDA approves new kind of cholesterol pill",
+  "link": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "Completely unrelated to ML, backend engineering, or infrastructure.",
+  "points": [
+   "Off-topic medical news with no relevance to software engineering."
+  ]
+ },
+ "1531877762d33c17": {
+  "feed": "YC Hacker News",
+  "title": "LLM-Integrated Multivariable Calculus Course",
+  "link": "https://calculus.academa.ai/",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "An academic course syllabus rather than an engineering deep-dive or ML training resource.",
+  "points": [
+   "Focuses on undergraduate multivariable calculus curriculum integration rather than ML engineering."
+  ]
+ },
+ "e15937ca82905ec3": {
+  "feed": "YC Hacker News",
+  "title": "Better and Cheaper Than IPTV",
+  "link": "https://github.com/stupside/castor",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "A consumer-focused media streaming tool that lacks deep backend or ML infrastructure relevance.",
+  "points": [
+   "A Go-based tool for extracting, transcoding, and casting web video streams in real-time."
+  ]
+ },
+ "67722d7f2046c386": {
+  "feed": "OpenAI News",
+  "title": "How Indeed uses AI to help evolve the job search",
+  "link": "https://openai.com/index/indeed-maggie-hulce",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "High-level corporate PR and product marketing interview with no technical depth.",
+  "points": [
+   "Discusses non-technical AI adoption strategies and responsible AI principles at Indeed."
+  ]
+ },
+ "a3ce7a8e25fd480e": {
+  "feed": "OpenAI News",
+  "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+  "link": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "A high-level marketing report on enterprise ChatGPT adoption patterns without technical implementation details.",
+  "points": [
+   "Presents statistics on ChatGPT usage across different demographics and job roles in the enterprise."
+  ]
+ },
+ "03d0ef228762264d": {
+  "feed": "OpenAI News",
+  "title": "Introducing Edu for Countries",
+  "link": "https://openai.com/index/edu-for-countries",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "A high-level partnership and program announcement with no technical or architectural details.",
+  "points": [
+   "Announces a national education initiative providing access to ChatGPT Edu and GPT-5.2."
+  ]
+ },
+ "aca3ad17ccab0721": {
+  "feed": "OpenAI News",
+  "title": "How countries can end the capability overhang",
+  "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "A policy-oriented blog post discussing global AI adoption metrics rather than engineering.",
+  "points": [
+   "Analyzes the 'capability overhang' and differences in advanced AI tool usage across 70 countries."
+  ]
+ },
+ "6ed9efa8b174bfbb": {
+  "feed": "OpenAI News",
+  "title": "Horizon 1000: Advancing AI for primary healthcare",
+  "link": "https://openai.com/index/horizon-1000",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "A philanthropic funding announcement lacking technical ML or infrastructure details.",
+  "points": [
+   "A $50 million joint initiative by OpenAI and the Gates Foundation to deploy AI in African healthcare clinics."
+  ]
+ },
+ "2e286297c38b0f0f": {
+  "feed": "Hugging Face Blog",
+  "title": "Launching the Artificial Analysis Text to Image Leaderboard & Arena",
+  "link": "https://huggingface.co/blog/leaderboard-artificial-analysis2",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates how to apply human-preference ELO ratings (similar to Chatbot Arena) to evaluate generative models.",
+  "points": [
+   "Uses over 45,000 human preference votes to rank open-source and proprietary text-to-image models.",
+   "Shows that open-source models like Playground AI v2.5 are starting to outperform proprietary models like DALL-E 3."
+  ]
+ },
+ "15fee2ff81fa1de7": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs",
+  "link": "https://huggingface.co/blog/npc-gigax-cubzh",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "A product demo showcase for gaming NPCs rather than a deep dive into ML training or infrastructure.",
+  "points": [
+   "Combines Cubzh (voxel game engine) and Gigax (fine-tuned LLM function calling) to power interactive 3D NPCs."
+  ]
+ },
+ "967b47c7e2a87d3e": {
+  "feed": "Hugging Face Blog",
+  "title": "Faster assisted generation support for Intel Gaudi",
+  "link": "https://huggingface.co/blog/assisted-generation-support-gaudi",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "Directly addresses inference optimization via speculative decoding on alternative hardware platforms (Intel Gaudi).",
+  "points": [
+   "Optimizes speculative sampling (assisted decoding) for Intel Gaudi using Optimum Habana.",
+   "Enables up to 2x speedups for large transformer models by using a smaller draft model to generate candidate tokens.",
+   "Addresses the challenge of managing separate KV caches for the draft and target models simultaneously."
+  ]
+ },
+ "d1df20c20978b7e1": {
+  "feed": "Hugging Face Blog",
+  "title": "Benchmarking Text Generation Inference",
+  "link": "https://huggingface.co/blog/tgi-benchmarking",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "An essential deep-dive into profiling and tuning LLM serving infrastructure (TGI) for latency and throughput.",
+  "points": [
+   "Explains how to profile TGI beyond simple throughput, focusing on pre-fill vs. decoding phase trade-offs.",
+   "Provides concrete strategies for tuning LLM deployments based on specific workloads like RAG vs. multi-turn chat.",
+   "Introduces the TGI Benchmarking tool to help engineers optimize hardware utilization and reduce serving costs."
+  ]
+ },
+ "8511a0c16311c3cf": {
+  "feed": "Hugging Face Blog",
+  "title": "Training and Finetuning Embedding Models with Sentence Transformers",
+  "link": "https://huggingface.co/blog/train-sentence-transformers",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "A highly practical guide to training and finetuning embedding models, crucial for RAG and search pipelines.",
+  "points": [
+   "Details the core components of Sentence Transformers v3, including datasets, loss functions, and evaluators.",
+   "Explains how to customize similarity definitions for specific tasks like classification vs. semantic search.",
+   "Provides a step-by-step walkthrough of using the new SentenceTransformerTrainer."
+  ]
+ },
+ "165d33e669f422b6": {
+  "feed": "Simon Willison",
+  "title": "Claude Code uses Bun written in Rust now",
+  "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "A fascinating real-world example of a high-profile tool shipping a Rust-rewritten runtime in production.",
+  "points": [
+   "Confirms that Claude Code v2.1.181+ runs on a preview of Bun v1.4.0 rewritten in Rust.",
+   "Achieved a 10% startup speedup on Linux with zero user-facing regressions, validating the 'boring is good' migration path."
+  ]
+ },
+ "ccfb0a129469c16c": {
+  "feed": "Simon Willison",
+  "title": "SQLite Query Explainer",
+  "link": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "A useful tool for backend engineers to understand and optimize database query plans.",
+  "points": [
+   "Runs SQLite in-browser using Pyodide (WASM) to provide interactive explanations of EXPLAIN and EXPLAIN QUERY PLAN.",
+   "Helps developers demystify complex database execution paths to improve query performance."
+  ]
  }
 }

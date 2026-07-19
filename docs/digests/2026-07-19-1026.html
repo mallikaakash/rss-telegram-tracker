@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sun 19 Jul 2026, 10:26 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sun 19 Jul 2026, 10:26 IST &middot; 17 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Master LLM inference performance with Hug Hugging Face&#x27;s TGI benchmarking tool and speculative decoding on Intel Gaudi, while tracking production Rust rewrites and embedding finetuning.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/assisted-generation-support-gaudi">Faster assisted generation support for Intel Gaudi</a></h2><div class="why">Directly addresses inference optimization via speculative decoding on alternative hardware platforms (Intel Gaudi).</div><ul><li>Optimizes speculative sampling (assisted decoding) for Intel Gaudi using Optimum Habana.</li><li>Enables up to 2x speedups for large transformer models by using a smaller draft model to generate candidate tokens.</li><li>Addresses the challenge of managing separate KV caches for the draft and target models simultaneously.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/tgi-benchmarking">Benchmarking Text Generation Inference</a></h2><div class="why">An essential deep-dive into profiling and tuning LLM serving infrastructure (TGI) for latency and throughput.</div><ul><li>Explains how to profile TGI beyond simple throughput, focusing on pre-fill vs. decoding phase trade-offs.</li><li>Provides concrete strategies for tuning LLM deployments based on specific workloads like RAG vs. multi-turn chat.</li><li>Introduces the TGI Benchmarking tool to help engineers optimize hardware utilization and reduce serving costs.</li></ul></div><div class="section">Worth a skim &middot; 6</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://workshop.cjpais.com/projects/transcribe-cpp">Transcribe.cpp</a></h2><div class="why">Provides a practical look at cross-platform local ML inference using ggml and Vulkan/CUDA acceleration.</div><ul><li>Supports 16 ASR families (60+ models) with numerical validation against reference implementations.</li><li>Achieves cross-platform GPU acceleration using Vulkan, Metal, and CUDA via ggml.</li><li>Offers a lightweight, embeddable C++ alternative to heavy PyTorch or fragmented ONNX runtimes.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/moonshine-ai/moonshine/tree/main/micro">Speech Recognition and TTS in less than 500kb</a></h2><div class="why">Interesting edge-case optimization for running speech models on highly constrained microcontroller hardware.</div><ul><li>Fits speech recognition and TTS models into a sub-500kb footprint.</li><li>Targets microcontrollers like the RP2350, demonstrating extreme model compression and performance engineering.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/leaderboard-artificial-analysis2">Launching the Artificial Analysis Text to Image Leaderboard &amp; Arena</a></h2><div class="why">Demonstrates how to apply human-preference ELO ratings (similar to Chatbot Arena) to evaluate generative models.</div><ul><li>Uses over 45,000 human preference votes to rank open-source and proprietary text-to-image models.</li><li>Shows that open-source models like Playground AI v2.5 are starting to outperform proprietary models like DALL-E 3.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/train-sentence-transformers">Training and Finetuning Embedding Models with Sentence Transformers</a></h2><div class="why">A highly practical guide to training and finetuning embedding models, crucial for RAG and search pipelines.</div><ul><li>Details the core components of Sentence Transformers v3, including datasets, loss functions, and evaluators.</li><li>Explains how to customize similarity definitions for specific tasks like classification vs. semantic search.</li><li>Provides a step-by-step walkthrough of using the new SentenceTransformerTrainer.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything">Claude Code uses Bun written in Rust now</a></h2><div class="why">A fascinating real-world example of a high-profile tool shipping a Rust-rewritten runtime in production.</div><ul><li>Confirms that Claude Code v2.1.181+ runs on a preview of Bun v1.4.0 rewritten in Rust.</li><li>Achieved a 10% startup speedup on Linux with zero user-facing regressions, validating the &#x27;boring is good&#x27; migration path.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything">SQLite Query Explainer</a></h2><div class="why">A useful tool for backend engineers to understand and optimize database query plans.</div><ul><li>Runs SQLite in-browser using Pyodide (WASM) to provide interactive explanations of EXPLAIN and EXPLAIN QUERY PLAN.</li><li>Helps developers demystify complex database execution paths to improve query performance.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol">FDA approves new kind of cholesterol pill</a></h2><div class="why">Completely unrelated to ML, backend engineering, or infrastructure.</div><ul><li>Off-topic medical news with no relevance to software engineering.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://calculus.academa.ai/">LLM-Integrated Multivariable Calculus Course</a></h2><div class="why">An academic course syllabus rather than an engineering deep-dive or ML training resource.</div><ul><li>Focuses on undergraduate multivariable calculus curriculum integration rather than ML engineering.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/stupside/castor">Better and Cheaper Than IPTV</a></h2><div class="why">A consumer-focused media streaming tool that lacks deep backend or ML infrastructure relevance.</div><ul><li>A Go-based tool for extracting, transcoding, and casting web video streams in real-time.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/indeed-maggie-hulce">How Indeed uses AI to help evolve the job search</a></h2><div class="why">High-level corporate PR and product marketing interview with no technical depth.</div><ul><li>Discusses non-technical AI adoption strategies and responsible AI principles at Indeed.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work">Inside GPT-5 for Work: How Businesses Use GPT-5</a></h2><div class="why">A high-level marketing report on enterprise ChatGPT adoption patterns without technical implementation details.</div><ul><li>Presents statistics on ChatGPT usage across different demographics and job roles in the enterprise.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/edu-for-countries">Introducing Edu for Countries</a></h2><div class="why">A high-level partnership and program announcement with no technical or architectural details.</div><ul><li>Announces a national education initiative providing access to ChatGPT Edu and GPT-5.2.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/how-countries-can-end-the-capability-overhang">How countries can end the capability overhang</a></h2><div class="why">A policy-oriented blog post discussing global AI adoption metrics rather than engineering.</div><ul><li>Analyzes the &#x27;capability overhang&#x27; and differences in advanced AI tool usage across 70 countries.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/horizon-1000">Horizon 1000: Advancing AI for primary healthcare</a></h2><div class="why">A philanthropic funding announcement lacking technical ML or infrastructure details.</div><ul><li>A $50 million joint initiative by OpenAI and the Gates Foundation to deploy AI in African healthcare clinics.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/npc-gigax-cubzh">Introducing NPC-Playground, a 3D playground to interact with LLM-powered NPCs</a></h2><div class="why">A product demo showcase for gaming NPCs rather than a deep dive into ML training or infrastructure.</div><ul><li>Combines Cubzh (voxel game engine) and Gigax (fine-tuned LLM function calling) to power interactive 3D NPCs.</li></ul></div></body></html>
