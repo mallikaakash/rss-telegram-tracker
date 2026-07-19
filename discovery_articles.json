@@ -528,5 +528,184 @@
   "tier": "skip",
   "why": "The page contains only GitHub UI metadata and lacks the actual README content or technical design docs.",
   "points": []
+ },
+ "8ef520b490cf24e7": {
+  "url": "https://huggingface.co/blog/leideng/nanochat-ascend-part1",
+  "title": "Nanochat-Ascend: Training Karpathy's Nanochat on Ascend NPU (Part 1)",
+  "domain": "huggingface.co",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-19",
+  "tier": "skip",
+  "why": "This is a basic introductory tutorial on tokenization and BPE, repeating well-known concepts rather than focusing on the unique engineering aspects of Ascend NPUs.",
+  "points": []
+ },
+ "7cdefc09a35a5243": {
+  "url": "https://ajing.github.io/posts/2026-07-09-grpo-token-level-advantage/",
+  "title": "From GRPO Outcome Rewards to Token-Level Advantage | ML & AI in Action",
+  "domain": "ajing.github.io",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "Provides an exceptionally deep, rigorous mathematical and conceptual breakdown of token-level credit assignment in GRPO, addressing a highly niche and current problem in RLHF.",
+  "points": [
+   "Explains that a single scalar sequence reward does not uniquely identify token-level credit, requiring GAE or extra structure like prefix values or suffix resampling.",
+   "Details the minimal engineering path to token-level advantages using a terminal GRPO reward, a value head, and GAE.",
+   "Advocates for projecting multiple rewards (correctness, format, style) to tokens separately before combining them into a final token-level advantage."
+  ]
+ },
+ "2d4eeb5f4dd6818b": {
+  "url": "https://dev.to/murali8k/pagedattention-vs-traditional-kv-cache-how-vllm-reinvented-gpu-memory-for-llm-inference-3ncc",
+  "title": "PagedAttention vs Traditional KV Cache: How vLLM Reinvented GPU Memory for LLM Inference - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-19",
+  "tier": "skip",
+  "why": "Explains PagedAttention and KV caching at a basic, mainstream level, repeating well-known concepts without offering new technical insights or original data.",
+  "points": []
+ },
+ "45aa14bf82274249": {
+  "url": "https://acethecloud.com/blog/8-of-21-nccl-infiniband-high-speed-networking/",
+  "title": "8/21 - The Fabric Between GPUs: NCCL, InfiniBand, RoCE, and GPUDirect – Ace The Cloud",
+  "domain": "acethecloud.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-19",
+  "tier": "solid_find",
+  "why": "A clear, structured breakdown of multi-GPU networking fabrics (NCCL, RoCE, GPUDirect) that helps bridge the gap between hardware topology and collective communication algorithms.",
+  "points": [
+   "Highlights the four ownership layers of AI platform operability: Contract (NCCL), State/Placement (NVLink), Execution (NIC/HCA), and Control Plane (RDMA).",
+   "Emphasizes the critical engineering invariants: validating rank symmetry, GPU-NIC locality, and lossless RDMA configurations to prevent tail latency."
+  ]
+ },
+ "09f17f7fc7d16a92": {
+  "url": "https://doi.org/10.48550/arxiv.2606.01155",
+  "title": "[2606.01155] When Data Is Scarce: Scaling Sparse Language Models with Repeated Training",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "An academic paper presenting a novel scaling law and surprising findings on how sparse training interacts with data scarcity and multi-epoch training.",
+  "points": [
+   "Introduces a scaling law modeling loss as a function of active parameters, unique tokens, data repetition, and sparsity.",
+   "Finds that sparse training delays data saturation, making multi-epoch training more effective than in dense models.",
+   "Shows that with fixed data, loss-optimal sparsity is moderate (~50%), while compute-optimal sparsity is higher and scales with data."
+  ]
+ },
+ "cfd20e4ff8d0371a": {
+  "url": "https://doi.org/10.48550/arxiv.2605.21486",
+  "title": "[2605.21486] Quantifying Hyperparameter Transfer and the Importance of Embedding Layer Learning Rate",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "A deep-dive paper that uncovers a surprising, practical mechanism behind the success of Maximal Update Parameterization (uP) in AdamW training.",
+  "points": [
+   "Reveals that the primary benefit of uP over standard parameterization (SP) in AdamW is maximizing the learning rate of the embedding layer.",
+   "Identifies the embedding layer learning rate in SP as a bottleneck that induces training instabilities, which can be resolved by scaling it by a factor of width.",
+   "Shows that weight decay improves scaling law fits but hurts extrapolation robustness in fixed token-per-parameter settings."
+  ]
+ },
+ "29b7792a089e711f": {
+  "url": "https://github.com/sarmakska/forge-infer",
+  "title": "GitHub - sarmakska/forge-infer: A minimal LLM inference server with a real paged KV-cache, continuous batching and speculative decoding, by sarmalinux · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "An obscure, highly technical GitHub repository implementing a custom LLM inference server with advanced features like paged KV-cache and speculative decoding from scratch.",
+  "points": [
+   "Implements a custom, lightweight inference engine featuring continuous batching and speculative decoding.",
+   "Tracks and reports advanced metrics like the peak KV block high-water mark during benchmarks."
+  ]
+ },
+ "b8b1a6e8e23f2c89": {
+  "url": "https://github.com/omuratgultekin/llm-inference-at-scale",
+  "title": "GitHub - omuratgultekin/llm-inference-at-scale: A Practitioner handbook for production llm serving. · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-19",
+  "tier": "skip",
+  "why": "This is an inactive fork of another repository with no unique content or code displayed in the provided text.",
+  "points": []
+ },
+ "4e6f90d0d4c4e9bd": {
+  "url": "https://pkhamdee.blog/2026/06/12/gpu-autoscaling-is-broken-what-i-learned-scaling-llm-inference-to-10k-qps/",
+  "title": "GPU Autoscaling is Broken: What I Learned Scaling LLM Inference to 10K QPS - Pongsak Khamdee",
+  "domain": "pkhamdee.blog",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "A phenomenal, high-signal engineering postmortem detailing real-world production failures and solutions when scaling LLM inference to 10K QPS on Kubernetes.",
+  "points": [
+   "Explains why standard Horizontal Pod Autoscaler (HPA) assumptions fail for LLMs due to brutal cold starts (2-5 mins), non-fungible memory, bimodal latency, and catastrophic preemption.",
+   "Achieved a reduction in p99 latency from 12s to 1.8s and OOM kills from 3% to under 0.1% by redesigning the autoscaling patterns.",
+   "Increased GPU utilization from 40% to 75% using custom queue-depth and time-to-first-token metrics instead of standard CPU/memory metrics."
+  ]
+ },
+ "5d0f00ac9e049057": {
+  "url": "https://fparisio.substack.com/p/an-ai-agent-cold-tuned-our-glm-52",
+  "title": "An AI-agent cold-tuned our GLM-5.2 serving. Human engineering leveled it up for real production traffic.",
+  "domain": "fparisio.substack.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "A highly practical, real-world engineering case study on tuning GLM-5.2 serving on NVIDIA B200 clusters, contrasting automated AI tuning with manual systems engineering.",
+  "points": [
+   "Discovered that automated AI-agent tuning broke under real production-shape traffic replay, resulting in massive 4-minute TTFTs.",
+   "Achieved 18x faster first tokens and a peak of 442 tokens/sec/GPU through manual configuration tuning.",
+   "Pushed the latency/throughput Pareto optimal frontier by over 2.2x in latency and +35% in throughput."
+  ]
+ },
+ "671b4e9088d3df0c": {
+  "url": "https://medium.com/@shaunakpython/autopsy-of-an-80b-finetune-1e35f39fe5e4",
+  "title": "Autopsy of an 80B Finetune. Why 282GB of VRAM Still Wasn’t Enough | by Shaunak J | Jun, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "A candid, highly technical postmortem of a failed 80B MoE model fine-tuning run on 2x H200 GPUs, exposing the hidden complexities of distributed training stacks.",
+  "points": [
+   "Exposes the gap between theoretical VRAM calculators and actual training footprints due to conversion-time VRAM spikes and DeepSpeed overhead.",
+   "Details a cascading failure chain involving distributed strategy conflicts, plugin dependency drift, and broken persistence tooling."
+  ]
+ },
+ "8f5e04aae200f12b": {
+  "url": "https://medium.com/@mattral-lifelong-learning/i-built-a-fault-tolerant-moe-training-engine-from-scratch-heres-what-i-learned-explained-simply-4df162f96e3a",
+  "title": "Medium",
+  "domain": "medium.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "A rare, deep systems engineering blog post detailing the design and failures of a custom-built, fault-tolerant MoE training engine.",
+  "points": [
+   "Details the implementation of custom Triton kernels and 4D parallelism for large-scale MoE training.",
+   "Focuses on building elastic recovery mechanisms to handle machine failures gracefully during training runs."
+  ]
+ },
+ "a0a8d32ecc71d8ad": {
+  "url": "https://medium.com/@shaunakpython/from-spot-chaos-to-stable-multi-gpu-finetuning-a3355aaebbcd",
+  "title": "Medium",
+  "domain": "medium.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-19",
+  "tier": "solid_find",
+  "why": "A practical guide on building resilient, fault-tolerant fine-tuning workflows that can survive spot instance interruptions and checkpoint failures.",
+  "points": [
+   "Addresses the operational reality of spot GPU instances, focusing on automated state recovery and checkpoint synchronization.",
+   "Highlights the fragility of standard ML training setups when exposed to real-world infrastructure interruptions."
+  ]
+ },
+ "fe34c40722c2373f": {
+  "url": "https://jared-hpc.com/posts/custom-72b-inference-engine/",
+  "title": "Developing a custom Qwen2.5 72B inference engine from scratch — what is the real bottleneck? | Jared Frost",
+  "domain": "jared-hpc.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-19",
+  "tier": "hidden_gem",
+  "why": "An outstanding, deeply technical systems field report on building a custom tensor-parallel inference engine, offering counter-intuitive profiling insights.",
+  "points": [
+   "Reveals that at Tensor Parallelism (TP) of 8, the inference bottleneck is almost never the matrix multiplication (matmul), but rather the synchronization barrier.",
+   "Identifies that the all-reduce operation during decode is barrier-bound (latency of synchronization) rather than bandwidth-bound.",
+   "Exposes the 'death by a thousand host syncs' problem that severely degrades Time-to-First-Token (TTFT)."
+  ]
  }
 }
