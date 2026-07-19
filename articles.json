@@ -28258,5 +28258,198 @@
    "Runs SQLite in-browser using Pyodide (WASM) to provide interactive explanations of EXPLAIN and EXPLAIN QUERY PLAN.",
    "Helps developers demystify complex database execution paths to improve query performance."
   ]
+ },
+ "d02a9f629333f0de": {
+  "feed": "YC Hacker News",
+  "title": "Searchable field-level encryption on Supabase with CipherStash",
+  "link": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Explains how to perform searches and joins on encrypted Postgres data without decrypting it on the database side.",
+  "points": [
+   "CipherStash uses Data Level Access Control (DLAC) to encrypt data at the application layer before it reaches Postgres.",
+   "Data is stored as a JSON payload containing ciphertext and Searchable Encrypted Metadata (SEM), allowing Postgres to filter/sort/join without decrypting.",
+   "Keys are managed via ZeroKMS, a zero-knowledge key management service where keys never leave user control."
+  ]
+ },
+ "d6dc55b43892f503": {
+  "feed": "YC Hacker News",
+  "title": "Codex Resets",
+  "link": "https://codex-resets.com/",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "It is a simple tracker of OpenAI rate limit resets and contains no deep technical or architectural value.",
+  "points": [
+   "Tracks when OpenAI resets Codex and ChatGPT Work usage limits, which happens roughly every 8.9 days on average."
+  ]
+ },
+ "04260b40589a23f3": {
+  "feed": "YC Hacker News",
+  "title": "Scrying the AMD GFX1250 LLVM Tea Leaves",
+  "link": "https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "Provides a deep technical analysis of AMD's next-gen MI455X ML accelerator architecture based on LLVM compiler commits.",
+  "points": [
+   "GFX1250 (MI455X) operates strictly in Wave32 mode (unlike previous CDNA GPUs which ran in Wave64), requiring re-evaluation of existing kernels.",
+   "Features Wavefront Matrix Multiply Accumulate (WMMA) support instead of the older Matrix Fused Multiply-Add (MFMA) for ML workloads.",
+   "Each wave in a SIMD can address up to 1024 Vector General Purpose Registers (VGPRs), but the dynamic VGPR allocation feature from RDNA4 is missing."
+  ]
+ },
+ "24cd97b35407b6bc": {
+  "feed": "YC Hacker News",
+  "title": "The Kimi K3 Moment",
+  "link": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Offers a practical comparison of the Kimi K3 open model against Claude, highlighting cost differences and geopolitical AI dynamics.",
+  "points": [
+   "Kimi K3 API costs $3/M input and $15/M output tokens, significantly cheaper than Claude's $10/$50 pricing.",
+   "Open Chinese models like GLM 5.2 and Kimi K3 are matching or beating US frontier models on cyber benchmarks due to fewer safety restrictions.",
+   "US AI policy and safety guardrails are inadvertently driving developers toward unrestricted, cheaper open-source foreign models."
+  ]
+ },
+ "59b309ab8096e765": {
+  "feed": "YC Hacker News",
+  "title": "Mathematicians still don't know the fastest way to multiply numbers",
+  "link": "https://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers/",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "While historically interesting, this is a general science article on multiplication complexity with little direct relevance to day-to-day ML or backend engineering.",
+  "points": [
+   "The grade-school multiplication algorithm scales at O(n^2) complexity, which was long thought to be the absolute limit until 1960."
+  ]
+ },
+ "4628896343fc2384": {
+  "feed": "OpenAI News",
+  "title": "Our approach to age prediction",
+  "link": "https://openai.com/index/our-approach-to-age-prediction",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a high-level policy and product safety announcement from OpenAI with no technical implementation details.",
+  "points": [
+   "OpenAI is rolling out an age prediction model using behavioral and account-level signals to apply safety safeguards to users under 18."
+  ]
+ },
+ "c379418780318c58": {
+  "feed": "OpenAI News",
+  "title": "Investing in Merge Labs",
+  "link": "https://openai.com/index/investing-in-merge-labs",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a corporate investment and partnership announcement with no technical depth or relevance to ML/backend engineering.",
+  "points": [
+   "OpenAI is participating in Merge Labs' seed round to collaborate on brain-computer interfaces (BCIs) and scientific foundation models."
+  ]
+ },
+ "3cea822d9d3ce9ae": {
+  "feed": "OpenAI News",
+  "title": "Strengthening the U.S. AI supply chain through domestic manufacturing",
+  "link": "https://openai.com/index/strengthening-the-us-ai-supply-chain",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a high-level corporate RFP and policy announcement regarding physical supply chains, lacking engineering depth.",
+  "points": [
+   "OpenAI launched an RFP to identify domestic manufacturing partners for data center inputs, consumer electronics, and robotics components."
+  ]
+ },
+ "8566227622a63b43": {
+  "feed": "OpenAI News",
+  "title": "OpenAI partners with Cerebras",
+  "link": "https://openai.com/index/cerebras-partnership",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "A major strategic infrastructure partnership that integrates Cerebras' wafer-scale low-latency processors into OpenAI's production inference stack.",
+  "points": [
+   "OpenAI is adding 750MW of Cerebras compute to its platform to accelerate real-time inference and agentic workloads.",
+   "Cerebras' architecture achieves ultra-low latency by keeping compute, memory, and bandwidth on a single giant wafer-scale chip.",
+   "The capacity will be integrated into OpenAI's inference stack in phases through 2028."
+  ]
+ },
+ "1d2d99cb07efa9d6": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and SoftBank Group partner with SB Energy",
+  "link": "https://openai.com/index/stargate-sb-energy-partnership",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "While mostly a business announcement, it highlights the massive scale of power infrastructure (1.2 GW) being secured for next-gen AI training.",
+  "points": [
+   "OpenAI and SoftBank are investing $1 billion in SB Energy to build out AI data center campuses.",
+   "OpenAI signed a 1.2 GW data center lease in Milam County, Texas, to support its 'Stargate' infrastructure initiative.",
+   "The partnership aims to develop a new model for data center builds combining OpenAI's design with SB Energy's execution."
+  ]
+ },
+ "544ac102e3e45e72": {
+  "feed": "Hugging Face Blog",
+  "title": "Deploy models on AWS Inferentia2 from Hugging Face",
+  "link": "https://huggingface.co/blog/inferentia-inference-endpoints",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Useful for understanding alternative hardware options (Inferentia2) and deployment paths for serving LLMs cost-effectively.",
+  "points": [
+   "Hugging Face Inference Endpoints now support AWS Inferentia2 (Inf2 instances) for deploying models like Llama 3.",
+   "Pricing ranges from $0.75/hour for Inf2-small (Llama 3 8B) to $12/hour for Inf2-xlarge (Llama 3 70B).",
+   "The integration is powered by the open-source `optimum-neuron` library, supporting 14 model architectures and 6 ML tasks."
+  ]
+ },
+ "1fac7b2df842fe93": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing Spaces Dev Mode for a seamless developer experience",
+  "link": "https://huggingface.co/blog/spaces-dev-mode",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a product feature announcement for Hugging Face Spaces, aimed at demo developers rather than core ML/backend engineers.",
+  "points": [
+   "Hugging Face Spaces now offers a 'Dev Mode' for PRO subscribers, allowing direct connection via VS Code or SSH without needing git pushes."
+  ]
+ },
+ "636dd21a3cd8494b": {
+  "feed": "Hugging Face Blog",
+  "title": "Hugging Face on AMD Instinct MI300 GPU",
+  "link": "https://huggingface.co/blog/huggingface-amd-mi300",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "Directly addresses alternative GPU platforms (AMD MI300X) and how Hugging Face is optimizing its stack (Transformers, TGI) for them.",
+  "points": [
+   "Hugging Face has integrated AMD Instinct MI300 support natively into `transformers` and Text Generation Inference (TGI).",
+   "Testing and CI/CD are run on Azure ND MI300x V5 VMs using a managed Kubernetes cluster to schedule hardware-specific pods.",
+   "Enables out-of-the-box deployment and fine-tuning of models like Llama 3 on AMD hardware without code changes."
+  ]
+ },
+ "66dc9bf0ce533767": {
+  "feed": "Hugging Face Blog",
+  "title": "Unlocking Longer Generation with Key-Value Cache Quantization",
+  "link": "https://huggingface.co/blog/kv-cache-quantization",
+  "date": "2026-07-19",
+  "tier": "must_read",
+  "why": "A highly technical deep-dive into a crucial memory-saving technique for long-context LLM generation.",
+  "points": [
+   "KV Cache Quantization reduces the memory footprint of storing key-value pairs during autoregressive generation, enabling longer context lengths.",
+   "Quantizing the KV cache trades off a tiny amount of model quality/precision for massive memory savings and customizable generation speeds.",
+   "The feature is natively integrated into Hugging Face `transformers`, allowing users to easily configure quantized cache precision."
+  ]
+ },
+ "c19bcd87f33fd07a": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing the Open Leaderboard for Hebrew LLMs!",
+  "link": "https://huggingface.co/blog/leaderboard-hebrew",
+  "date": "2026-07-19",
+  "tier": "low_priority",
+  "why": "This is a localized LLM evaluation leaderboard for Hebrew, which is off-target for a general ML/backend engineer.",
+  "points": [
+   "A new open leaderboard has been launched to evaluate Hebrew LLMs across four custom datasets addressing Hebrew's complex morphology."
+  ]
+ },
+ "c54ae55d46e9b8ec": {
+  "feed": "Simon Willison",
+  "title": "AI Mania Is Eviscerating Global Decision-Making",
+  "link": "https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything",
+  "date": "2026-07-19",
+  "tier": "worth_a_skim",
+  "why": "Provides entertaining and career-relevant commentary on corporate AI hype, useful for understanding the industry landscape.",
+  "points": [
+   "Highlights the absurdity of corporate AI strategies driven by executives who have never used AI tools.",
+   "Points out that vendors are forced to validate unrealistic 100x productivity claims by customer executives to avoid contract cancellations."
+  ]
  }
 }
