@@ -29362,5 +29362,212 @@
   "points": [
    "A step-by-step guide to generating low-fidelity 3D models and textures using Shap-E and Stable Diffusion in Blender."
   ]
+ },
+ "c0002c6bb9c0f977": {
+  "feed": "YC Hacker News",
+  "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+  "link": "https://github.com/hgaiser/moonshine",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "It is a game-streaming server in Rust, which is unrelated to ML infrastructure, LLMs, or the reader's core engineering priorities.",
+  "points": [
+   "An open-source, headless game-streaming server written in Rust designed for Moonlight clients."
+  ]
+ },
+ "abd78f10116f627f": {
+  "feed": "YC Hacker News",
+  "title": "Power companies are using eminent domain to seize land for data centers",
+  "link": "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a general news article about the legal and social aspects of land seizure for data centers, lacking technical depth in ML infrastructure.",
+  "points": [
+   "Power companies are increasingly using eminent domain to build transmission lines for AI data centers despite local opposition."
+  ]
+ },
+ "f3a7c00814937f7b": {
+  "feed": "YC Hacker News",
+  "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+  "link": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "Demonstrates a massive breakthrough in LLM reasoning capabilities (Claude Fable) solving a long-standing mathematical conjecture, highly relevant for Twitter threads and tracking state-of-the-art reasoning models.",
+  "points": [
+   "An LLM (Claude Fable) successfully generated a concrete counterexample to the 70-year-old Jacobian Conjecture.",
+   "The counterexample maps C^3 to C^3 with a Jacobian determinant of -2, proving the conjecture false.",
+   "Highlights the emerging capability of advanced reasoning models to solve complex, unsolved mathematical problems."
+  ]
+ },
+ "157f79bd67e3d2e7": {
+  "feed": "YC Hacker News",
+  "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
+  "link": "https://github.com/Saivineeth147/lora-speedrun",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A highly relevant public leaderboard and benchmark for optimizing LoRA fine-tuning speed, directly aligning with LLM training and performance engineering priorities.",
+  "points": [
+   "Establishes a public wall-clock leaderboard for optimizing LoRA fine-tuning using modded-nanogpt.",
+   "Focuses on frozen tasks and hardware to isolate software and algorithmic optimization techniques.",
+   "Highly relevant for engineering Twitter threads and practical performance engineering in LLM training."
+  ]
+ },
+ "ad496fe89060b16e": {
+  "feed": "YC Hacker News",
+  "title": "Orion Browser by Kagi",
+  "link": "https://orionbrowser.com/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "A consumer web browser product page with no relevance to ML engineering, distributed systems, or backend infrastructure.",
+  "points": [
+   "Orion is a privacy-focused, WebKit-based browser by Kagi that supports Chrome and Firefox extensions."
+  ]
+ },
+ "209d29820bec5183": {
+  "feed": "Technica",
+  "title": "India's first privately-developed rocket reaches orbit on dramatic debut launch",
+  "link": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "While it features a successful launch by an Indian startup, the topic is aerospace engineering rather than ML, backend, or distributed systems.",
+  "points": [
+   "Skyroot Aerospace successfully launched Vikram-1, India's first privately-developed commercial satellite launcher, into orbit."
+  ]
+ },
+ "454c479882297cd1": {
+  "feed": "OpenAI News",
+  "title": "GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum",
+  "link": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "Details the release and safety metrics of OpenAI's GPT-5.1 models, featuring adaptive reasoning and precise thinking-time allocation.",
+  "points": [
+   "GPT-5.1 Instant features adaptive reasoning, allowing the model to dynamically decide when to think before responding.",
+   "GPT-5.1 Thinking precisely calibrates its thinking time to the complexity of the query.",
+   "Introduces new safety evaluations specifically targeting mental health and emotional reliance in conversational AI."
+  ]
+ },
+ "39f8d47cf4408f8b": {
+  "feed": "OpenAI News",
+  "title": "Understanding prompt injections: a frontier security challenge",
+  "link": "https://openai.com/index/prompt-injections",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "A high-level security explainer on prompt injection risks as LLMs transition to agentic workflows, useful for general backend/ML awareness.",
+  "points": [
+   "Explains prompt injection as a social engineering attack where third-party data misleads an AI agent.",
+   "Highlights rising security risks as AI agents gain access to sensitive data and take actions on behalf of users.",
+   "Outlines mitigation strategies like explicit user instructions and robust system prompt boundaries."
+  ]
+ },
+ "9e4244bc3b0f357a": {
+  "feed": "OpenAI News",
+  "title": "How Chime is redefining marketing through AI",
+  "link": "https://openai.com/index/chime-vineet-mehra",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a high-level marketing and PR interview with no technical depth or relevance to ML infrastructure.",
+  "points": [
+   "Discusses high-level concepts of AI-driven marketing agents and personalization at Chime without technical implementation details."
+  ]
+ },
+ "a9f97454d62e09aa": {
+  "feed": "OpenAI News",
+  "title": "AWS and OpenAI announce multi-year strategic partnership",
+  "link": "https://openai.com/index/aws-and-openai-partnership",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A massive $38B strategic infrastructure partnership that directly impacts the global state of ML hardware, distributed training, and agentic scaling.",
+  "points": [
+   "OpenAI commits $38 billion over seven years to run advanced workloads on AWS infrastructure.",
+   "The deployment features hundreds of thousands of NVIDIA GB200 and GB300 GPUs clustered via EC2 UltraServers.",
+   "Designed to scale to tens of millions of CPUs to support massive agentic workloads and next-gen model training."
+  ]
+ },
+ "4dc8c1bc29aac821": {
+  "feed": "OpenAI News",
+  "title": "Expanding Stargate to Michigan",
+  "link": "https://openai.com/index/expanding-stargate-to-michigan",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A major update on the Stargate AI supercomputer initiative, scaling planned capacity to over 8GW and $450B in investment, representing the absolute frontier of ML infrastructure.",
+  "points": [
+   "Announces a new 1+ GW Stargate campus in Michigan in partnership with Oracle and developed by Related Digital.",
+   "Brings total planned Stargate capacity to over 8 GW across 7 U.S. sites, representing over $450 billion in investment.",
+   "Highlights the massive power and cooling infrastructure requirements (closed-loop cooling, excess transmission capacity) of frontier AI clusters."
+  ]
+ },
+ "a10b85fc3b96cf16": {
+  "feed": "Hugging Face Blog",
+  "title": "Deploy LLMs with Hugging Face Inference Endpoints",
+  "link": "https://huggingface.co/blog/inference-endpoints-llm",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "A practical guide to deploying open-source LLMs using Hugging Face's managed endpoints, featuring PagedAttention and Text Generation Inference (TGI).",
+  "points": [
+   "Demonstrates deploying Falcon 40B using Hugging Face Inference Endpoints with built-in LLM optimizations.",
+   "Leverages PagedAttention and FlashAttention via Text Generation Inference (TGI) for high throughput and low latency.",
+   "Provides code examples for streaming LLM responses in Python and JavaScript."
+  ]
+ },
+ "5446c935cec11149": {
+  "feed": "Hugging Face Blog",
+  "title": "Accelerating Vision-Language Models: BridgeTower on Habana Gaudi2",
+  "link": "https://huggingface.co/blog/bridgetower",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A highly technical hardware and performance engineering benchmark comparing Habana Gaudi2, NVIDIA H100, and A100 for vision-language model training.",
+  "points": [
+   "Habana Gaudi2 with Optimum Habana v1.7 achieves 2.5x speedup over A100 and 1.4x over H100 when fine-tuning BridgeTower.",
+   "Identifies data loading as a primary bottleneck for vision-language models and demonstrates hardware-accelerated data loading solutions.",
+   "Provides concrete performance numbers and optimization techniques applicable to data-constrained ML workloads."
+  ]
+ },
+ "2da194f41be050b3": {
+  "feed": "Hugging Face Blog",
+  "title": "Faster Stable Diffusion with Core ML on iPhone, iPad, and Mac",
+  "link": "https://huggingface.co/blog/fast-diffusers-coreml",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "Explores on-device model optimization and weight compression (6-bit palettization) using Core ML, relevant for performance engineering and quantization.",
+  "points": [
+   "Introduces 6-bit palettization in coremltools to compress model weights from 16-bit float to 6-bit with minimal quality loss.",
+   "Enables significantly faster on-device execution of Stable Diffusion on Apple Neural Engines with reduced memory footprints.",
+   "Highlights the growing importance of on-device optimization techniques for generative AI models."
+  ]
+ },
+ "10db9352a207d207": {
+  "feed": "Hugging Face Blog",
+  "title": "Deploy Livebook notebooks as apps to Hugging Face Spaces",
+  "link": "https://huggingface.co/blog/livebook-app-deployment",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "Focuses on Elixir-based Livebook deployments on Hugging Face, which is too niche and off-target for a mainstream ML/backend engineer.",
+  "points": [
+   "Showcases deploying Elixir-based Livebook notebooks as interactive apps on Hugging Face Spaces using Docker templates."
+  ]
+ },
+ "91be50d6e6eabdb8": {
+  "feed": "Hugging Face Blog",
+  "title": "The Hugging Face Hub for Galleries, Libraries, Archives and Museums",
+  "link": "https://huggingface.co/blog/hf-hub-glam-guide",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "A non-technical guide on how cultural heritage institutions can use the Hugging Face Hub, completely unrelated to ML engineering or infrastructure.",
+  "points": [
+   "Explains how galleries, libraries, archives, and museums can share and utilize datasets and models on the Hugging Face Hub."
+  ]
+ },
+ "b5d7973c852acead": {
+  "feed": "Simon Willison",
+  "title": "Quoting Sam Altman",
+  "link": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "Provides critical, leaked strategic insights into OpenAI's competitive open-source strategy, making it prime material for high-engagement technical Twitter threads.",
+  "points": [
+   "A leaked 2022 email from Sam Altman reveals a defensive strategy to release a GPT-3 class local model to preempt competitors like Stability AI.",
+   "The explicit goal of the release was to discourage others from releasing open models and to choke off funding for new AI startups.",
+   "Offers a rare, unvarnished look at the business and competitive strategy behind frontier LLM releases."
+  ]
  }
 }
