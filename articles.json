@@ -29745,5 +29745,201 @@
    "Details the mathematical formulation of RWKV's attention mechanism and its integration into the Hugging Face Transformers library.",
    "Highlights community efforts around quantization, C++ implementations (RWKV.cpp), and multi-lingual/multi-modal fine-tuning."
   ]
+ },
+ "12dae8c6cc827c74": {
+  "feed": "YC Hacker News",
+  "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+  "link": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates the real-world capability of advanced LLM agents (GPT-5.6 Sol Ultra) in automated vulnerability discovery.",
+  "points": [
+   "Uses GPT-5.6 Sol Ultra to discover a WordPress Remote Code Execution (RCE) vulnerability for only $25.",
+   "Leverages a specialized mathematical reasoning prompt structure released by OpenAI to guide the agent.",
+   "Highlights the rapid evolution of LLM-driven security research and autonomous exploit generation."
+  ]
+ },
+ "7263ffb455be64b2": {
+  "feed": "YC Hacker News",
+  "title": "Airbus Takes Flight from AWS",
+  "link": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "Provides a high-level look at a massive cloud migration driven by digital sovereignty concerns.",
+  "points": [
+   "Airbus is migrating 900 critical applications (ERP, CRM, manufacturing) from AWS to French provider Scaleway.",
+   "The move is motivated by European digital sovereignty and protecting data from US government access.",
+   "Highlights the extreme difficulty of migrating complex global supply chain systems off US-dominated platforms."
+  ]
+ },
+ "bffb35f96ae3e841": {
+  "feed": "YC Hacker News",
+  "title": "Why is it so hard for the U.S. to win wars?",
+  "link": "https://www.npr.org/2026/07/18/g-s1-134037/why-is-it-so-hard-for-the-u-s-to-win-wars",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a geopolitical analysis of US military conflicts and is completely unrelated to ML, backend engineering, or infrastructure.",
+  "points": [
+   "Discusses the historical and political challenges of US military interventions in the Middle East."
+  ]
+ },
+ "c7f5f8b633b16a6d": {
+  "feed": "YC Hacker News",
+  "title": "Eliminating Go bounds checks with unsafe",
+  "link": "https://blog.andr2i.com/posts/2026-07-06-eliminating-go-bound-checks-with-unsafe",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A high-quality performance engineering deep-dive into optimizing Go code by eliminating compiler bounds checks.",
+  "points": [
+   "Explains how Go's safety-oriented bounds checks introduce assembly overhead (non-leaf functions, branches, and panic calls).",
+   "Demonstrates how to use the compiler flag `-gcflags='-d=ssa/check_bce/debug=1'` to identify bounds checks.",
+   "Shows how to use `unsafe` pointer arithmetic to bypass bounds checks in critical hot paths when conventional proving fails."
+  ]
+ },
+ "e20b84a80240d639": {
+  "feed": "YC Hacker News",
+  "title": "What does the Riemann zeta function have to do with the distribution of primes?",
+  "link": "https://hidden-phenomena.com/articles/rh",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a pure mathematics post about prime numbers and the Riemann hypothesis, which is off-target for backend/ML engineering.",
+  "points": [
+   "Explains the connection between Euler's product formula for the Riemann zeta function and the distribution of prime numbers."
+  ]
+ },
+ "942f2839530f11b9": {
+  "feed": "Technica",
+  "title": "Beyond grep: The case for a context-rich AI coding harness",
+  "link": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a high-level product marketing interview about Claude Code rather than a technical engineering deep-dive.",
+  "points": [
+   "Discusses the product philosophy behind Anthropic's Claude Code CLI tool and context management."
+  ]
+ },
+ "a55a242b4910ba9c": {
+  "feed": "OpenAI News",
+  "title": "Consensus accelerates research with GPT-5 and Responses API",
+  "link": "https://openai.com/index/consensus",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "Offers a practical look at a production-grade multi-agent architecture built on top of OpenAI's GPT-5.",
+  "points": [
+   "Details the 'Scholar Agent' architecture, which coordinates Planning, Search, Reading, and Analysis agents.",
+   "Explains how dividing workflows into narrow-scope agents reduces reasoning errors and hallucinations.",
+   "Highlights the use of OpenAI's Responses API to structure agent outputs and handle empty result states gracefully."
+  ]
+ },
+ "236988a26963c7f4": {
+  "feed": "OpenAI News",
+  "title": "HiBob turns 2,500 GPTs into product and team growth",
+  "link": "https://openai.com/index/hibob",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a standard corporate PR and customer success story about internal ChatGPT adoption at HiBob.",
+  "points": [
+   "Describes how HiBob employees built custom GPTs for internal productivity tasks like meeting prep and SEO."
+  ]
+ },
+ "934fa4b0881483c3": {
+  "feed": "OpenAI News",
+  "title": "Disrupting malicious uses of AI: October 2025",
+  "link": "https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-october-2025",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a policy and trust-and-safety threat intelligence report, lacking technical infrastructure or engineering depth.",
+  "points": [
+   "Reports on OpenAI's efforts to disrupt malicious state-sponsored and cybercriminal networks abusing their models."
+  ]
+ },
+ "a90f41cc88c1aa5b": {
+  "feed": "OpenAI News",
+  "title": "AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs",
+  "link": "https://openai.com/index/openai-amd-strategic-partnership",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A highly strategic infrastructure announcement detailing a massive hardware shift toward AMD Instinct GPUs for frontier LLM training.",
+  "points": [
+   "OpenAI and AMD partner to deploy 6 gigawatts of AI compute, starting with a 1GW deployment of MI450 GPUs in 2H 2026.",
+   "Deepens hardware and software co-design, optimizing OpenAI's software stack for AMD's Instinct architecture.",
+   "Includes a massive financial alignment with AMD issuing OpenAI warrants for up to 160 million shares of common stock."
+  ]
+ },
+ "c8d63ee49a3a03a3": {
+  "feed": "OpenAI News",
+  "title": "Sora 2 is here",
+  "link": "https://openai.com/index/sora-2",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A major model release announcement detailing critical advancements in physical world simulation and video pre-training.",
+  "points": [
+   "Sora 2 introduces significantly better physical accuracy, modeling complex dynamics like buoyancy, rigidity, and rebounds.",
+   "Features native, synchronized generation of background soundscapes, realistic speech, and sound effects.",
+   "Enables direct injection of real-world video elements to insert real people into generated environments with consistent perspective."
+  ]
+ },
+ "7a12e84ae4c9a259": {
+  "feed": "Hugging Face Blog",
+  "title": "StarCoder: A State-of-the-Art LLM for Code",
+  "link": "https://huggingface.co/blog/starcoder",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A foundational technical post on training a state-of-the-art open-source code LLM, directly relevant to LLM pretraining.",
+  "points": [
+   "StarCoder is a 15B parameter model trained on 1 trillion tokens across 80+ programming languages with an 8k context window.",
+   "Uses Multi-Query Attention (MQA) for faster inference serving and reduced memory footprint.",
+   "Details training data curation, including a strict PII redaction pipeline and an attribution tracing tool for licensing compliance."
+  ]
+ },
+ "4a53ff1b783783de": {
+  "feed": "Hugging Face Blog",
+  "title": "Training a language model with 🤗 Transformers using TensorFlow and TPUs",
+  "link": "https://huggingface.co/blog/tf_tpu",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A highly practical guide to distributed training of language models on TPU pods using TensorFlow and XLA.",
+  "points": [
+   "Walks through end-to-end masked language model training from scratch using TPUStrategy and XLA compilation.",
+   "Explains how to optimize data pipelines using TFRecords and Google Cloud Storage to prevent TPU starvation.",
+   "Provides a scalable blueprint for moving from single-node training to massive TPU pod slices."
+  ]
+ },
+ "bc3c5929ee49e49d": {
+  "feed": "Hugging Face Blog",
+  "title": "Databricks ❤️ Hugging Face: up to 40% faster training and tuning of Large Language Models",
+  "link": "https://huggingface.co/blog/databricks-case-study",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "Covers a useful MLOps data pipeline optimization for converting Spark dataframes into Hugging Face datasets.",
+  "points": [
+   "Introduces the `Dataset.from_spark()` API to eliminate the need to write intermediate Parquet files to disk.",
+   "Reduces data preparation time by up to 40% (e.g., from 22 minutes down to 12 minutes for a 16GB dataset).",
+   "Prevents resource-heavy data rematerialization, lowering cloud costs during LLM fine-tuning pipelines."
+  ]
+ },
+ "9e82c50b427eb8c6": {
+  "feed": "Hugging Face Blog",
+  "title": "Snorkel AI x Hugging Face: unlock foundation models for enterprises",
+  "link": "https://huggingface.co/blog/snorkel-case-study",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a high-level partnership announcement focused on enterprise marketing rather than technical implementation.",
+  "points": [
+   "Announces integration between Snorkel Flow and Hugging Face Inference Endpoints for programmatic labeling."
+  ]
+ },
+ "c67c2714f2acadba": {
+  "feed": "Hugging Face Blog",
+  "title": "Fast Inference on Large Language Models: BLOOMZ on Habana Gaudi2 Accelerator",
+  "link": "https://huggingface.co/blog/habana-gaudi-2-bloom",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A detailed hardware and inference serving benchmark showing how to run massive LLMs on alternative accelerators.",
+  "points": [
+   "Demonstrates running BLOOMZ-176B inference on Habana Gaudi2 using the Optimum Habana library.",
+   "Highlights Gaudi2's architecture, which performs General Matrix Multiplication (GeMM) in parallel to outperform current GPUs.",
+   "Leverages SynapseAI graph compiler optimizations, HPU graphs, and DeepSpeed-inference to achieve ultra-low latency."
+  ]
  }
 }
