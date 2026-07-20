@@ -707,5 +707,84 @@
    "Identifies that the all-reduce operation during decode is barrier-bound (latency of synchronization) rather than bandwidth-bound.",
    "Exposes the 'death by a thousand host syncs' problem that severely degrades Time-to-First-Token (TTFT)."
   ]
+ },
+ "ea15cd7985bc5a0b": {
+  "url": "https://generativeai.pub/how-i-pretrained-a-1b-language-model-for-0-part-1-of-2-a57063b91fd6",
+  "title": "Medium",
+  "domain": "generativeai.pub",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-20",
+  "tier": "skip",
+  "why": "The content is extremely truncated, containing only the title and a single incomplete sentence, making it impossible to evaluate.",
+  "points": []
+ },
+ "85ef5918017178f9": {
+  "url": "https://mortalapps.com/infrastructure/gpu-execution-model/ptx-assembly-sass/",
+  "title": "PTX Assembly and SASS Fundamentals | AI Infrastructure | MortalApps",
+  "domain": "mortalapps.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-20",
+  "tier": "skip",
+  "why": "The page contains only navigation links and sitemap boilerplate with no actual article content.",
+  "points": []
+ },
+ "34b975ed5e580bf6": {
+  "url": "https://mortalapps.com/infrastructure/distributed-training-parallelism/multi-dimensional-sharding/",
+  "title": "Multi-Dimensional Sharding Strategies | AI Infrastructure | MortalApps",
+  "domain": "mortalapps.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-20",
+  "tier": "skip",
+  "why": "The page contains only navigation links and sitemap boilerplate with no actual article content.",
+  "points": []
+ },
+ "6ac830af6fd52cac": {
+  "url": "https://doi.org/10.48550/arxiv.2605.23901",
+  "title": "[2605.23901] LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-20",
+  "tier": "hidden_gem",
+  "why": "This paper introduces a novel 'Shannon Scaling Law' framework that successfully models and predicts non-monotonic LLM behaviors like overtraining and quantization degradation.",
+  "points": [
+   "Models LLM training as information transmission over a noisy channel, mapping parameters to bandwidth and tokens to signal power.",
+   "Explains non-monotonic performance degradation (U-shaped curves) when scaling without maintaining a sufficient signal-to-noise ratio (SNR).",
+   "Successfully predicts unseen 12B Pythia model performance up to 307B tokens (pooled R2=0.847) using training data from models under 6.9B."
+  ]
+ },
+ "86ca94462168a232": {
+  "url": "https://github.com/pawankjha25/Architecting-Intelligence/tree/main/Architecting-LLM-Inference/Part6-Inference-Parallelism",
+  "title": "Architecting-Intelligence/Architecting-LLM-Inference/Part6-Inference-Parallelism at main · pawankjha25/Architecting-Intelligence · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-20",
+  "tier": "skip",
+  "why": "The page is a GitHub directory listing with no actual README content or code details visible in the text.",
+  "points": []
+ },
+ "a31454968ace5e25": {
+  "url": "https://rundatarun.io/p/borrowed-iron",
+  "title": "Borrowed Iron - by Justin Johnson - Run Data Run",
+  "domain": "rundatarun.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-20",
+  "tier": "skip",
+  "why": "The text is a high-level narrative introduction to a Substack post and lacks concrete technical details, data, or engineering insights.",
+  "points": []
+ },
+ "69ec84cf3ac32357": {
+  "url": "https://tomodahinata.com/en/blog/musetalk-self-host-production-deployment-docker-gpu-autoscaling",
+  "title": "MuseTalk Production Deployment in Practice — Docker, GPU Serving, Autoscaling, Cost Optimization, Observability | Tomoda Hinata — SaaS/DX",
+  "domain": "tomodahinata.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-20",
+  "tier": "hidden_gem",
+  "why": "An exceptionally detailed, practical guide on productionizing the MuseTalk lip-sync model, sharing real-world infrastructure landmines and solutions.",
+  "points": [
+   "Advocates for a resident model with an avatar LRU cache instead of launching direct python scripts per request to avoid startup latency.",
+   "Implements queue-driven processing with idempotency keys and automatic OOM recovery by dynamically shrinking batch sizes.",
+   "Uses KEDA for queue-depth-based GPU autoscaling, keeping a minimum of 1 warm replica for low latency while scaling batch workers to zero.",
+   "Optimizes costs using spot GPUs, fp16 precision, VAD silence-skipping, and avatar reuse."
+  ]
  }
 }
