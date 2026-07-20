@@ -30396,5 +30396,192 @@
    "Alibaba's decision to release Qwen 3.8 Max as open weights represents a strategic shift, potentially encouraged by Chinese state support for open source.",
    "Enforcing bans on distillation (querying APIs to train other models) is practically impossible, suggesting the US should lean into it instead."
   ]
+ },
+ "c29f5e1d6e900867": {
+  "feed": "YC Hacker News",
+  "title": "Kimi Work",
+  "link": "https://www.kimi.com/products/kimi-work",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a product marketing launch for a consumer desktop AI agent, which is out of scope for an ML/backend infrastructure engineer.",
+  "points": [
+   "Kimi Work is a local desktop AI agent featuring browser automation, local file integration, and built-in scheduling for task automation."
+  ]
+ },
+ "e67fcf74c0976e6b": {
+  "feed": "YC Hacker News",
+  "title": "Hyprland 0.55 announced the switch to Lua for its config files",
+  "link": "https://hypr.land/news/update55/",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a desktop environment release announcement and is completely unrelated to ML, backend engineering, or distributed systems.",
+  "points": [
+   "Hyprland 0.55 introduces Lua-based configuration files and a new Layout API for user-defined window layouts."
+  ]
+ },
+ "bb631db1d502fa45": {
+  "feed": "YC Hacker News",
+  "title": "Jelly UI: Soft-body physics for native HTML form controls",
+  "link": "https://jelly-ui.com/",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a frontend UI library that is irrelevant to a backend and ML infrastructure engineer.",
+  "points": [
+   "Jelly UI is a dependency-free Web Components library that adds soft-body physics to native HTML form controls."
+  ]
+ },
+ "809e6a3d28fb8702": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+  "link": "https://news.ycombinator.com/item?id=48981136",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a product launch for a consumer/K-12 EdTech application, lacking deep technical details on ML infrastructure or training.",
+  "points": [
+   "Bloomy is an AI-powered mastery learning platform for K-12 that uses a Socratic AI tutor to diagnose and address student skill gaps."
+  ]
+ },
+ "a8d80f12f56e9f83": {
+  "feed": "YC Hacker News",
+  "title": "What I Learned from Reimplementing 40 Multi-Agent LLM Papers",
+  "link": "https://medium.com/@Koukyosyumei/what-i-learned-from-reimplementing-40-multi-agent-llm-papers-bd6b574f5659",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "Provides highly technical, Twitter-thread-worthy architectural insights and design patterns from reimplementing 40 multi-agent LLM papers.",
+  "points": [
+   "Most multi-agent papers boil down to ~100 lines of control flow consisting of a loop shape, prompt discipline, and an aggregation rule.",
+   "Many agent strategies silently depend on sample independence (e.g., self-consistency voting), which breaks if agents interact.",
+   "Dynamic team structures are better modeled using mutable state rather than rigid, immutable workflow graphs.",
+   "Validating agent outputs at the turn boundary is critical to prevent error propagation through long execution loops."
+  ]
+ },
+ "fc89c28fae120c62": {
+  "feed": "Apple ML Research",
+  "title": "LVSum: A Benchmark for Timestamp-Aware Long Video Summarization",
+  "link": "https://machinelearning.apple.com/research/lvsum-video-summarization",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "Relevant to multimodal LLM evaluation, but is a benchmark dataset paper rather than an end-to-end training or infrastructure deep-dive.",
+  "points": [
+   "LVSum is a human-annotated benchmark designed to evaluate long-form video summarization with fine-grained temporal alignment.",
+   "It contains 72 diverse videos across 13 domains with an average length of 16 minutes, annotated with up to 10 human summaries each."
+  ]
+ },
+ "c161d286b7c19f29": {
+  "feed": "OpenAI News",
+  "title": "How people are using ChatGPT",
+  "link": "https://openai.com/index/how-people-are-using-chatgpt",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a high-level consumer usage study and demographic report, which lacks technical ML engineering or infrastructure substance.",
+  "points": [
+   "OpenAI's study of 1.5 million conversations shows that ChatGPT adoption is broadening globally, with 49% of messages categorized as 'Asking' for advice."
+  ]
+ },
+ "20f5e2677ea34945": {
+  "feed": "OpenAI News",
+  "title": "Statement on OpenAI’s Nonprofit and PBC",
+  "link": "https://openai.com/index/statement-on-openai-nonprofit-and-pbc",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a corporate governance and financial restructuring announcement, which is not relevant to ML engineering or infrastructure.",
+  "points": [
+   "OpenAI's nonprofit will hold an equity stake in its Public Benefit Corporation (PBC) that is projected to exceed $100 billion."
+  ]
+ },
+ "bcd181f7199941e1": {
+  "feed": "OpenAI News",
+  "title": "Vijaye Raji to become CTO of Applications with acquisition of Statsig",
+  "link": "https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "OpenAI's acquisition of Statsig is a strategically important MLOps event, signaling deeper integration of A/B testing and feature flagging into LLM apps.",
+  "points": [
+   "OpenAI is acquiring Statsig to integrate its A/B testing, feature flagging, and real-time decisioning platform directly into OpenAI's application stack.",
+   "Statsig's founder, Vijaye Raji, will become OpenAI's CTO of Applications, overseeing product engineering for ChatGPT and Codex."
+  ]
+ },
+ "07d34a91448890de": {
+  "feed": "OpenAI News",
+  "title": "Building more helpful ChatGPT experiences for everyone",
+  "link": "https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a product safety and policy announcement focused on consumer features and parental controls.",
+  "points": [
+   "OpenAI is rolling out parental controls and routing sensitive mental health conversations to reasoning models to improve safety."
+  ]
+ },
+ "dd6e5d1b40b21eae": {
+  "feed": "OpenAI News",
+  "title": "Introducing gpt-realtime and Realtime API updates",
+  "link": "https://openai.com/index/introducing-gpt-realtime",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "Announces a major model release (gpt-realtime) and critical infrastructure updates like MCP and SIP support for production voice agents.",
+  "points": [
+   "OpenAI has launched 'gpt-realtime', a native speech-to-speech model that processes audio directly in a single step to reduce latency and preserve nuance.",
+   "The Realtime API now supports Model Context Protocol (MCP) servers, allowing voice agents to access external tools and databases.",
+   "New infrastructure integrations include native SIP (Session Initiation Protocol) support for direct phone calling and image inputs for multimodal context."
+  ]
+ },
+ "56623d1a24b67f18": {
+  "feed": "Hugging Face Blog",
+  "title": "Using LoRA for Efficient Stable Diffusion Fine-Tuning",
+  "link": "https://huggingface.co/blog/lora",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "Explains the mechanics of LoRA for parameter-efficient fine-tuning, which is highly relevant to the reader's interest in LLM training.",
+  "points": [
+   "LoRA freezes pre-trained model weights and injects trainable rank-decomposition matrices into attention blocks, drastically reducing VRAM requirements.",
+   "Applying LoRA to Stable Diffusion's cross-attention layers allows full fine-tuning on consumer GPUs with as little as 11 GB of VRAM.",
+   "The technique enables faster training and significantly smaller checkpoint file sizes compared to full model fine-tuning."
+  ]
+ },
+ "1663ffe2d4ba94d1": {
+  "feed": "Hugging Face Blog",
+  "title": "3D Asset Generation: AI for Game Development #3",
+  "link": "https://huggingface.co/blog/ml-for-games-3",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is an outdated game development tutorial focusing on 3D asset generation, which is off-target for backend/LLM infra.",
+  "points": [
+   "The post discusses the 2023 state of text-to-3D generation, noting that technologies like NeRFs are not yet practical for standard game development meshes."
+  ]
+ },
+ "5f62a461ba807c9c": {
+  "feed": "Hugging Face Blog",
+  "title": "A Complete Guide to Audio Datasets",
+  "link": "https://huggingface.co/blog/audio-datasets",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is an outdated introductory guide to loading audio datasets, lacking advanced ML training or infrastructure depth.",
+  "points": [
+   "Hugging Face Datasets provides audio-specific features like on-the-fly resampling, streaming mode for large datasets, and in-browser audio previews."
+  ]
+ },
+ "d6b6151fe6f2e994": {
+  "feed": "Hugging Face Blog",
+  "title": "Using Stable Diffusion with Core ML on Apple Silicon",
+  "link": "https://huggingface.co/blog/diffusers-coreml",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is an outdated client-side inference guide for Apple Silicon, which is off-target for backend/distributed ML infrastructure.",
+  "points": [
+   "Apple's Core ML conversion scripts allow Stable Diffusion to run locally on Apple Silicon, leveraging the Neural Engine and split-einsum attention."
+  ]
+ },
+ "7b30d070668ee0f5": {
+  "feed": "Hugging Face Blog",
+  "title": "Probabilistic Time Series Forecasting with 🤗 Transformers",
+  "link": "https://huggingface.co/blog/time-series-transformers",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "Covers probabilistic time series forecasting, which is highly relevant to the reader's work on industrial sensor data and process optimization.",
+  "points": [
+   "Probabilistic forecasting models the parameters of a distribution (e.g., Student-t) to output prediction intervals and uncertainty, rather than single points.",
+   "The Time Series Transformer trains a global model across multiple time series to learn shared latent representations.",
+   "The architecture leverages the vanilla Transformer to handle univariate probabilistic forecasting tasks efficiently."
+  ]
  }
 }
