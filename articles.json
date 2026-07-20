@@ -29941,5 +29941,229 @@
    "Highlights Gaudi2's architecture, which performs General Matrix Multiplication (GeMM) in parallel to outperform current GPUs.",
    "Leverages SynapseAI graph compiler optimizations, HPU graphs, and DeepSpeed-inference to achieve ultra-low latency."
   ]
+ },
+ "b5bc4b9a6534179f": {
+  "feed": "YC Hacker News",
+  "title": "Hacker wipes Romania's land registry database",
+  "link": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a general cybersecurity news story about a database wipe that lacks technical engineering depth or relevance to ML/infra.",
+  "points": [
+   "A hacker wiped Romania's land registry database after a failed extortion attempt, halting the real estate market, but the agency is rebuilding using an offline backup."
+  ]
+ },
+ "812b62573106a62a": {
+  "feed": "YC Hacker News",
+  "title": "We're Squandering LEDs' Potential to Save Our Night Skies",
+  "link": "https://spectrum.ieee.org/led-light-pollution",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a non-technical article about light pollution and LED efficiency, completely unrelated to ML, backend, or infrastructure.",
+  "points": [
+   "Bad implementation choices have turned energy-efficient LEDs into drivers of increased global light pollution."
+  ]
+ },
+ "80c466c871ea9813": {
+  "feed": "YC Hacker News",
+  "title": "Corners Don't Look Like That: Regarding Screenspace Ambient Occlusion",
+  "link": "https://nothings.org/gamedev/ssao/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a 3D graphics rendering deep-dive on Screen Space Ambient Occlusion (SSAO) that is outside the reader's backend and ML focus.",
+  "points": [
+   "SSAO often produces unrealistic dark halos in corners because developers incorrectly assume physical corners are naturally dark, ignoring soft shadows and radiosity."
+  ]
+ },
+ "f40cff51cd37332b": {
+  "feed": "YC Hacker News",
+  "title": "Airport Simulator",
+  "link": "https://airport.apunen.com/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is an empty placeholder post with no technical content.",
+  "points": [
+   "The post contains no content or discussion to evaluate."
+  ]
+ },
+ "ed906e4530bf316e": {
+  "feed": "YC Hacker News",
+  "title": "Firefox Merges Support for Vulkan Video Decoding",
+  "link": "https://github.com/search",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a client-side browser engineering update on Vulkan video decoding, which is irrelevant to backend or ML infrastructure.",
+  "points": [
+   "Firefox has merged support for Vulkan video decoding, improving hardware-accelerated video playback on compatible systems."
+  ]
+ },
+ "1637896330b59f55": {
+  "feed": "Technica",
+  "title": "The first trailer for Avengers: Doomsday is finally here",
+  "link": "https://arstechnica.com/culture/2026/07/the-first-trailer-for-avengers-doomsday-is-finally-here/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a pop culture movie trailer announcement with zero relevance to engineering or ML.",
+  "points": [
+   "Marvel released the first trailer for Avengers: Doomsday, retooling its Phase Six plans around the Russo brothers."
+  ]
+ },
+ "577ded9569a4387f": {
+  "feed": "Technica",
+  "title": "Pay up or not? Ransomware surge has victims facing tough choices",
+  "link": "https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a general business and policy discussion around ransomware payments, lacking technical backend or ML relevance.",
+  "points": [
+   "Nearly half of ransomware victims pay the ransom, prompting governments like the UK to consider banning payouts for public sector and critical infrastructure."
+  ]
+ },
+ "7e85a976f0f38e31": {
+  "feed": "Apple ML Research",
+  "title": "RayRoPE: Projective Ray Positional Encoding for Multi-View Attention",
+  "link": "https://machinelearning.apple.com/research/rayrope-projective-ray",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "This directly addresses Priority 1 by introducing a novel positional encoding scheme (RayRoPE) for multi-view attention in transformers.",
+  "points": [
+   "Introduces RayRoPE, a novel positional encoding that represents patch positions based on associated rays and a predicted point along the ray.",
+   "Enables SE(3)-invariant attention with multi-frequency similarity, adapting to the underlying 3D geometry of the scene.",
+   "Addresses limitations of prior absolute or relative encoding schemes in multi-view transformers."
+  ]
+ },
+ "c504932dbc29a362": {
+  "feed": "OpenAI News",
+  "title": "Turning contracts into searchable data at OpenAI",
+  "link": "https://openai.com/index/openai-contract-data-agent",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "This is an applied ML case study from OpenAI showing how they use their own APIs for structured data extraction and contract review.",
+  "points": [
+   "OpenAI built an internal contract data agent using retrieval-augmented prompting to parse PDFs and images into structured data.",
+   "The system uses a human-in-the-loop design where finance experts validate the structured, reasoned outputs.",
+   "The workflow cut contract review times in half and allowed the team to scale processing to thousands of contracts."
+  ]
+ },
+ "cf61ac28a05fdddc": {
+  "feed": "OpenAI News",
+  "title": "Building OpenAI with OpenAI",
+  "link": "https://openai.com/index/building-openai-with-openai",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "This provides a high-level overview of OpenAI's internal AI agents, useful for understanding applied LLM patterns and career-relevant use cases.",
+  "points": [
+   "Launches 'OpenAI on OpenAI', a series detailing internal agentic workflows like GTM Assistant, DocuGPT, and Support Agent.",
+   "Highlights how AI is treated as infrastructure to encode and distribute organizational expertise.",
+   "Focuses on high-leverage systems to automate sales, finance, and support workflows with continuous evaluation loops."
+  ]
+ },
+ "6a247e1bdfa57a4d": {
+  "feed": "OpenAI News",
+  "title": "More ways to work with your team and tools in ChatGPT",
+  "link": "https://openai.com/index/more-ways-to-work-with-your-team",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a product marketing announcement for consumer and team features in ChatGPT, which falls under the downrank criteria.",
+  "points": [
+   "OpenAI introduced shared projects, tool connectors (Gmail, GitHub, etc.), and compliance updates for ChatGPT business plans."
+  ]
+ },
+ "4335714f4d0c2f7f": {
+  "feed": "OpenAI News",
+  "title": "Measuring the performance of our models on real-world tasks",
+  "link": "https://openai.com/index/gdpval",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "This introduces GDPval, a major new evaluation benchmark from OpenAI measuring LLM performance on economically valuable, real-world tasks.",
+  "points": [
+   "Introduces GDPval, a new evaluation benchmark measuring model performance across 44 occupations contributing to GDP.",
+   "Bridges the gap between academic benchmarks (MMLU) and highly applied, market-based evaluations (SWE-Lancer).",
+   "Aims to ground discussions of AI's economic impact in empirical evidence rather than speculation."
+  ]
+ },
+ "becdb7a47715517f": {
+  "feed": "OpenAI News",
+  "title": "SAP and OpenAI partner to launch sovereign ‘OpenAI for Germany’",
+  "link": "https://openai.com/global-affairs/openai-for-germany",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This is a corporate partnership and PR announcement between SAP, OpenAI, and Microsoft, which is downranked.",
+  "points": [
+   "SAP and OpenAI partnered to launch 'OpenAI for Germany', deploying sovereign AI workloads on Delos Cloud (Azure) with 4,000 GPUs."
+  ]
+ },
+ "53f2d255a980ac42": {
+  "feed": "Hugging Face Blog",
+  "title": "Multivariate Probabilistic Time Series Forecasting with Informer",
+  "link": "https://huggingface.co/blog/informer",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "This is highly relevant for both transformer architectures (Priority 1) and industrial sensor data forecasting (Priority 3) using the Informer model.",
+  "points": [
+   "Explains the Informer architecture, which optimizes vanilla transformers for long sequence time-series forecasting (LSTF).",
+   "Introduces ProbSparse attention, reducing self-attention computational complexity from O(T^2) to O(T log T).",
+   "Demonstrates multivariate probabilistic forecasting, predicting the joint distribution of future target vectors using diagonal emissions."
+  ]
+ },
+ "eaed840e93f0ab07": {
+  "feed": "Hugging Face Blog",
+  "title": "Fine-tuning 20B LLMs with RLHF on a 24GB consumer GPU",
+  "link": "https://huggingface.co/blog/trl-peft",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "This is a high-value technical guide on RLHF, PEFT, and memory-efficient training of 20B LLMs on consumer hardware.",
+  "points": [
+   "Integrates TRL (Transformer Reinforcement Learning) with PEFT (Parameter-Efficient Fine-Tuning) to enable RLHF on consumer GPUs.",
+   "Uses 8-bit matrix multiplication and Low-Rank Adaptation (LoRA) to drastically reduce the memory footprint of 20B+ models.",
+   "Allows running the memory-heavy PPO algorithm on a single 24GB GPU by loading the active model in 8-bit and adding trainable adapters."
+  ]
+ },
+ "bdefa91a13037f0e": {
+  "feed": "Hugging Face Blog",
+  "title": "Ethical Guidelines for developing the Diffusers library",
+  "link": "https://huggingface.co/blog/ethics-diffusers",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This covers policy and ethical guidelines for the Diffusers library, lacking technical engineering or ML infrastructure depth.",
+  "points": [
+   "Hugging Face published an ethical framework and safety guidelines (like Safe Stable Diffusion) to guide community contributions to the Diffusers library."
+  ]
+ },
+ "51b183f5b46f71d4": {
+  "feed": "Hugging Face Blog",
+  "title": "Red-Teaming Large Language Models",
+  "link": "https://huggingface.co/blog/red-teaming",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "This provides a solid conceptual overview of LLM red-teaming and adversarial evaluation, relevant to LLM behavior but less focused on training/infra.",
+  "points": [
+   "Defines red-teaming as a natural language-based evaluation method to elicit model vulnerabilities and bypass guardrails.",
+   "Distinguishes red-teaming from adversarial attacks, which often use unintelligible strings to degrade performance.",
+   "Discusses how red-teaming outputs are used to train safer models and steer them away from toxic or biased generations."
+  ]
+ },
+ "e95e420442db669f": {
+  "feed": "Hugging Face Blog",
+  "title": "Swift 🧨Diffusers - Fast Stable Diffusion for Mac",
+  "link": "https://huggingface.co/blog/fast-mac-diffusers",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "This focuses on client-side CoreML and Swift optimizations for macOS, which is off-target for backend and distributed ML infra.",
+  "points": [
+   "Swift Diffusers 1.1 optimizes Stable Diffusion for macOS by leveraging CoreML to run across the CPU, GPU, and Apple Neural Engine."
+  ]
+ },
+ "53b994643274894f": {
+  "feed": "Together AI",
+  "title": "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
+  "link": "https://www.together.ai/blog/together-yc-gpu-cluster",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "This is a partnership announcement, but it is strategically relevant to founding engineers regarding GPU platform availability and infrastructure access.",
+  "points": [
+   "Together AI and Y Combinator are launching a dedicated GPU cluster specifically for the YC startup community.",
+   "Provides access to high-performance compute resources, including on-demand B200 GPUs, to accelerate AI startups."
+  ]
  }
 }
