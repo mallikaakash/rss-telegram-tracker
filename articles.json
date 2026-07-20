@@ -29569,5 +29569,181 @@
    "The explicit goal of the release was to discourage others from releasing open models and to choke off funding for new AI startups.",
    "Offers a rare, unvarnished look at the business and competitive strategy behind frontier LLM releases."
   ]
+ },
+ "7320f7e5e5d82407": {
+  "feed": "YC Hacker News",
+  "title": "Xiaomi-Robotics-1",
+  "link": "https://robotics.xiaomi.com/xiaomi-robotics-1.html",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "Explains a novel two-stage pre-training and post-training paradigm for scaling robotics foundation models, demonstrating clear scaling laws.",
+  "points": [
+   "Combines 100,000 hours of embodiment-free (UMI) pre-training with 7,200 hours of real-robot post-training data.",
+   "Uses an auto-labeling pipeline powered by a VLM to segment and annotate state transitions in long videos.",
+   "Demonstrates clear scaling behavior where validation action error steadily decreases as data and model size scale."
+  ]
+ },
+ "00ba61e48a5c0a4d": {
+  "feed": "YC Hacker News",
+  "title": "Self-Powered Trailers Promise Leaner Freight Runs",
+  "link": "https://spectrum.ieee.org/self-powered-trailers-freight-decarbonization",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "Focuses on freight transportation technology, which is completely outside the reader's ML and backend engineering priorities.",
+  "points": [
+   "Discusses the electrification of semitrailers for long-haul freight, which is irrelevant to ML or backend infrastructure."
+  ]
+ },
+ "5660439cb621ae8d": {
+  "feed": "YC Hacker News",
+  "title": "1-Bit LLM in the Browser",
+  "link": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "Contains no text or content to evaluate.",
+  "points": [
+   "The post is empty and contains no technical information."
+  ]
+ },
+ "fd64f7a48b2b339d": {
+  "feed": "YC Hacker News",
+  "title": "Sealed tomb filled with paintings and inscriptions discovered in Egypt",
+  "link": "https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "Discusses Egyptian archaeology, which is completely irrelevant to ML or backend engineering.",
+  "points": [
+   "An archaeology news item with no content, completely irrelevant to the reader's technical focus."
+  ]
+ },
+ "b4918ba473c2330a": {
+  "feed": "YC Hacker News",
+  "title": "The Zen of Parallel Programming",
+  "link": "https://smolnero.com/posts/the-zen-of-parallel-programming",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "Offers high-level philosophical musings on parallel programming rather than actionable technical or architectural insights.",
+  "points": [
+   "Draws philosophical parallels between processor synchronization in parallel programming and mental alignment in Zen philosophy."
+  ]
+ },
+ "aa20070d4f3c7951": {
+  "feed": "OpenAI News",
+  "title": "Introducing Aardvark: OpenAI’s agentic security researcher",
+  "link": "https://openai.com/index/introducing-aardvark",
+  "date": "2026-07-20",
+  "tier": "worth_a_skim",
+  "why": "Provides a high-level look at OpenAI's agentic security workflows, useful for understanding applied LLM reasoning and tool-use.",
+  "points": [
+   "Aardvark (Codex Security) is an autonomous security agent powered by GPT-5 that scans commits, builds threat models, and validates vulnerabilities in sandboxed environments.",
+   "It bypasses traditional static analysis/fuzzing, relying instead on LLM-based reasoning, tool-use, and automated patching."
+  ]
+ },
+ "b5d0db5c03e72f8c": {
+  "feed": "OpenAI News",
+  "title": "How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas",
+  "link": "https://openai.com/index/building-chatgpt-atlas",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A high-quality engineering deep-dive from OpenAI detailing how they decoupled Chromium to build a high-performance native browser.",
+  "points": [
+   "Rebuilds the browser UI natively (SwiftUI, AppKit, Metal) instead of reskinning Chromium to support rich agentic animations and performance.",
+   "Decouples the UI from the Chromium runtime via the OWL architecture to achieve instant startup and support hundreds of concurrent tabs.",
+   "Designed specifically to provide a robust foundation for running agentic AI workflows directly within the browser."
+  ]
+ },
+ "15a10a3d45a37a66": {
+  "feed": "OpenAI News",
+  "title": "Doppel’s AI defense system stops attacks before they spread",
+  "link": "https://openai.com/index/doppel",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "A high-level product marketing case study on threat detection that lacks deep technical or architectural details.",
+  "points": [
+   "Doppel uses GPT-5 and Reinforcement Fine-Tuning (RFT) with human-in-the-loop feedback to automate threat detection and reduce analyst workloads by 80%."
+  ]
+ },
+ "4c569bc2a162829d": {
+  "feed": "OpenAI News",
+  "title": "Built to benefit everyone",
+  "link": "https://openai.com/index/built-to-benefit-everyone",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "A corporate restructuring and philanthropic announcement with no technical engineering content.",
+  "points": [
+   "Details OpenAI's corporate transition to a Public Benefit Corporation (OpenAI Group PBC) controlled by the nonprofit OpenAI Foundation."
+  ]
+ },
+ "04c08ebc91c93a12": {
+  "feed": "OpenAI News",
+  "title": "Addendum to GPT-5 System Card: Sensitive conversations",
+  "link": "https://openai.com/index/gpt-5-system-card-sensitive-conversations",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "A safety-focused policy update and system card addendum rather than a technical ML or infrastructure deep-dive.",
+  "points": [
+   "An addendum evaluating GPT-5's safety performance and distress recognition after consulting with 170+ mental health experts."
+  ]
+ },
+ "0f85cba63b526f5d": {
+  "feed": "Hugging Face Blog",
+  "title": "Welcome fastText to the Hugging Face Hub",
+  "link": "https://huggingface.co/blog/fasttext",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "Outdated 2023 announcement of a basic library integration on the Hugging Face Hub.",
+  "points": [
+   "Hugging Face now hosts official mirrors of Meta's fastText word vectors and language identification models."
+  ]
+ },
+ "86bed6acc5f10298": {
+  "feed": "Hugging Face Blog",
+  "title": "Announcing the Open Source AI Game Jam 🎮",
+  "link": "https://huggingface.co/blog/game-jam",
+  "date": "2026-07-20",
+  "tier": "low_priority",
+  "why": "Outdated 2023 announcement for an AI game jam event.",
+  "points": [
+   "Announces a 2023 weekend game jam focused on integrating open-source AI tools like Stable Diffusion into game development workflows."
+  ]
+ },
+ "d5094d5831a4590e": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing the Hugging Face LLM Inference Container for Amazon SageMaker",
+  "link": "https://huggingface.co/blog/sagemaker-huggingface-llm",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "Deeply covers the core performance engineering and infrastructure optimizations behind Text Generation Inference (TGI) for LLM serving.",
+  "points": [
+   "Introduces the SageMaker LLM Inference Container powered by Text Generation Inference (TGI) for high-performance LLM serving.",
+   "Key performance features include Tensor Parallelism, continuous batching, flash-attention, and bitsandbytes quantization.",
+   "Provides a step-by-step guide to deploying a 12B Pythia model with optimized startup times using safetensors."
+  ]
+ },
+ "a383615c90776aa8": {
+  "feed": "Hugging Face Blog",
+  "title": "Large-scale Near-deduplication Behind BigCode",
+  "link": "https://huggingface.co/blog/dedup",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "A highly technical deep-dive into scaling data pipelines, MinHash, and LSH for large-scale LLM pretraining data deduplication.",
+  "points": [
+   "Explains the use of MinHash and Locality Sensitive Hashing (LSH) to perform document-level near-deduplication at a massive scale.",
+   "Deduplication prevents models from outputting training data verbatim, mitigates privacy attacks, and improves training efficiency.",
+   "Shares practical engineering lessons on scaling graph-based clustering and managing cloud compute budgets for multi-terabyte datasets."
+  ]
+ },
+ "1d768ecb9f8a1a68": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing RWKV - An RNN with the advantages of a transformer",
+  "link": "https://huggingface.co/blog/rwkv",
+  "date": "2026-07-20",
+  "tier": "must_read",
+  "why": "Introduces a novel LLM architecture (RWKV) that combines RNN inference efficiency with Transformer parallel training.",
+  "points": [
+   "Introduces RWKV, an architecture that combines the parallelized training of Transformers with the constant-memory, linear-time inference of RNNs.",
+   "Details the mathematical formulation of RWKV's attention mechanism and its integration into the Hugging Face Transformers library.",
+   "Highlights community efforts around quantization, C++ implementations (RWKV.cpp), and multi-lingual/multi-modal fine-tuning."
+  ]
  }
 }

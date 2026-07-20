@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Mon 20 Jul 2026, 14:00 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Mon 20 Jul 2026, 14:00 IST &middot; 15 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; OpenAI&#x27;s OWL browser architecture leads this batch, alongside deep-dives into BigCode&#x27;s large-scale deduplication, RWKV&#x27;s RNN-Transformer hybrid, and TGI-powered LLM serving on SageMaker.</div><div class="section">Must read &middot; 5</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://robotics.xiaomi.com/xiaomi-robotics-1.html">Xiaomi-Robotics-1</a></h2><div class="why">Explains a novel two-stage pre-training and post-training paradigm for scaling robotics foundation models, demonstrating clear scaling laws.</div><ul><li>Combines 100,000 hours of embodiment-free (UMI) pre-training with 7,200 hours of real-robot post-training data.</li><li>Uses an auto-labeling pipeline powered by a VLM to segment and annotate state transitions in long videos.</li><li>Demonstrates clear scaling behavior where validation action error steadily decreases as data and model size scale.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/building-chatgpt-atlas">How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas</a></h2><div class="why">A high-quality engineering deep-dive from OpenAI detailing how they decoupled Chromium to build a high-performance native browser.</div><ul><li>Rebuilds the browser UI natively (SwiftUI, AppKit, Metal) instead of reskinning Chromium to support rich agentic animations and performance.</li><li>Decouples the UI from the Chromium runtime via the OWL architecture to achieve instant startup and support hundreds of concurrent tabs.</li><li>Designed specifically to provide a robust foundation for running agentic AI workflows directly within the browser.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/sagemaker-huggingface-llm">Introducing the Hugging Face LLM Inference Container for Amazon SageMaker</a></h2><div class="why">Deeply covers the core performance engineering and infrastructure optimizations behind Text Generation Inference (TGI) for LLM serving.</div><ul><li>Introduces the SageMaker LLM Inference Container powered by Text Generation Inference (TGI) for high-performance LLM serving.</li><li>Key performance features include Tensor Parallelism, continuous batching, flash-attention, and bitsandbytes quantization.</li><li>Provides a step-by-step guide to deploying a 12B Pythia model with optimized startup times using safetensors.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/dedup">Large-scale Near-deduplication Behind BigCode</a></h2><div class="why">A highly technical deep-dive into scaling data pipelines, MinHash, and LSH for large-scale LLM pretraining data deduplication.</div><ul><li>Explains the use of MinHash and Locality Sensitive Hashing (LSH) to perform document-level near-deduplication at a massive scale.</li><li>Deduplication prevents models from outputting training data verbatim, mitigates privacy attacks, and improves training efficiency.</li><li>Shares practical engineering lessons on scaling graph-based clustering and managing cloud compute budgets for multi-terabyte datasets.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/rwkv">Introducing RWKV - An RNN with the advantages of a transformer</a></h2><div class="why">Introduces a novel LLM architecture (RWKV) that combines RNN inference efficiency with Transformer parallel training.</div><ul><li>Introduces RWKV, an architecture that combines the parallelized training of Transformers with the constant-memory, linear-time inference of RNNs.</li><li>Details the mathematical formulation of RWKV&#x27;s attention mechanism and its integration into the Hugging Face Transformers library.</li><li>Highlights community efforts around quantization, C++ implementations (RWKV.cpp), and multi-lingual/multi-modal fine-tuning.</li></ul></div><div class="section">Worth a skim &middot; 1</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/introducing-aardvark">Introducing Aardvark: OpenAI’s agentic security researcher</a></h2><div class="why">Provides a high-level look at OpenAI&#x27;s agentic security workflows, useful for understanding applied LLM reasoning and tool-use.</div><ul><li>Aardvark (Codex Security) is an autonomous security agent powered by GPT-5 that scans commits, builds threat models, and validates vulnerabilities in sandboxed environments.</li><li>It bypasses traditional static analysis/fuzzing, relying instead on LLM-based reasoning, tool-use, and automated patching.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://spectrum.ieee.org/self-powered-trailers-freight-decarbonization">Self-Powered Trailers Promise Leaner Freight Runs</a></h2><div class="why">Focuses on freight transportation technology, which is completely outside the reader&#x27;s ML and backend engineering priorities.</div><ul><li>Discusses the electrification of semitrailers for long-haul freight, which is irrelevant to ML or backend infrastructure.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://huggingface.co/spaces/webml-community/bonsai-webgpu">1-Bit LLM in the Browser</a></h2><div class="why">Contains no text or content to evaluate.</div><ul><li>The post is empty and contains no technical information.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.labrujulaverde.com/en/2026/07/sealed-tomb-of-a-high-official-or-priest-filled-with-paintings-and-inscriptions-discovered-on-luxors-west-bank/">Sealed tomb filled with paintings and inscriptions discovered in Egypt</a></h2><div class="why">Discusses Egyptian archaeology, which is completely irrelevant to ML or backend engineering.</div><ul><li>An archaeology news item with no content, completely irrelevant to the reader&#x27;s technical focus.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://smolnero.com/posts/the-zen-of-parallel-programming">The Zen of Parallel Programming</a></h2><div class="why">Offers high-level philosophical musings on parallel programming rather than actionable technical or architectural insights.</div><ul><li>Draws philosophical parallels between processor synchronization in parallel programming and mental alignment in Zen philosophy.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/doppel">Doppel’s AI defense system stops attacks before they spread</a></h2><div class="why">A high-level product marketing case study on threat detection that lacks deep technical or architectural details.</div><ul><li>Doppel uses GPT-5 and Reinforcement Fine-Tuning (RFT) with human-in-the-loop feedback to automate threat detection and reduce analyst workloads by 80%.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/built-to-benefit-everyone">Built to benefit everyone</a></h2><div class="why">A corporate restructuring and philanthropic announcement with no technical engineering content.</div><ul><li>Details OpenAI&#x27;s corporate transition to a Public Benefit Corporation (OpenAI Group PBC) controlled by the nonprofit OpenAI Foundation.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/gpt-5-system-card-sensitive-conversations">Addendum to GPT-5 System Card: Sensitive conversations</a></h2><div class="why">A safety-focused policy update and system card addendum rather than a technical ML or infrastructure deep-dive.</div><ul><li>An addendum evaluating GPT-5&#x27;s safety performance and distress recognition after consulting with 170+ mental health experts.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/fasttext">Welcome fastText to the Hugging Face Hub</a></h2><div class="why">Outdated 2023 announcement of a basic library integration on the Hugging Face Hub.</div><ul><li>Hugging Face now hosts official mirrors of Meta&#x27;s fastText word vectors and language identification models.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/game-jam">Announcing the Open Source AI Game Jam 🎮</a></h2><div class="why">Outdated 2023 announcement for an AI game jam event.</div><ul><li>Announces a 2023 weekend game jam focused on integrating open-source AI tools like Stable Diffusion into game development workflows.</li></ul></div></body></html>
