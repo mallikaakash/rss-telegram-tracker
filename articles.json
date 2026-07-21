@@ -31829,5 +31829,203 @@
   "points": [
    "Chat with Stripe sales 8 sales reps available We're here to discuss your business needs. Chat now with sales Analyzing the evidence that helps businesses win “product not received” disputes Stripe logo Products Solutions Developers Resources Pricing Guide me Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 100+ Terminal In-person payments Radar Fraud prevention Authorization Boost Acceptance optimizations Link Accelerated checkout Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money Management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Platforms and marketplaces Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Financial Connections Linked financial account data Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI."
   ]
+ },
+ "9d4039041bb69162": {
+  "feed": "YC Hacker News",
+  "title": "Meta's AI Models Are Powering the First Wave of Genesis Mission Projects",
+  "link": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "14576512adad316d": {
+  "feed": "YC Hacker News",
+  "title": "Freeink: Open Ecosystem for E-Readers",
+  "link": "https://freeink.org/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "af2b74304030df7a": {
+  "feed": "YC Hacker News",
+  "title": "Cheap Self-Hosted Kubernetes on Hetzner Cloud",
+  "link": "https://blog.qstars.nl/posts/cheap-self-hosted-kubernetes-on-hetzner-cloud/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cheap Self-Hosted Kubernetes on Hetzner Cloud Qstars Blog Cloud, DevOps, and Software Development Home Archives Search Qstars IT Werken bij Contact Dark Mode Table of contents Hetzner Kube-Hetzner MicroOS K3s Planning our cluster 1. Use a single load balancer or MetalLB 2. Remove public IP addresses and use private networking Rolling out our cluster Backups Upgrades Cloud Infrastructure-as-Code Platform Cheap Self-Hosted Kubernetes on Hetzner Cloud Setting up a cost-efficient production Kubernetes cluster on Hetzner Cloud with Terraform in 30 minutes Dec 30, 2025 10 minute read Victor Brinkhorst This blog’s starter project can be found at github.com/qstarsit/hcloud-kube-hetzner Kubernetes is a brilliant workload API, the community has built a highly extensible standard which abstracts the underlying machines and infrastructure from our application deployments."
+  ]
+ },
+ "a54a18ad22c4abe5": {
+  "feed": "YC Hacker News",
+  "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+  "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "so there's no flash of the wrong palette before React hydrates. Mirrors the useTheme hook (storage key \"rw-theme\"; classes rw-theme-dark|light|ascii). --> Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting - RuntimeWire RuntimeWire AI Startups Venture Products Funding Exits Models Head-to-Head About You're browsing RuntimeWire with JavaScript disabled."
+  ]
+ },
+ "fef58e5a3118cfd0": {
+  "feed": "YC Hacker News",
+  "title": "Bloomy (YC S26) is hiring a founding engineer",
+  "link": "https://news.ycombinator.com/item?id=48995037",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Bloomy (YC S26) is hiring a founding engineer | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Bloomy (YC S26) is hiring a founding engineer 1 hour ago | hide About Bloomy Bloomy is an AI tutor and curriculum for K-12 students. Our student users are learning approximately 2x faster in early pilots, and students and teachers alike love our product."
+  ]
+ },
+ "17af2b70bfea0a60": {
+  "feed": "Technica",
+  "title": "Steam Deck sales are losing steam since May's price hike",
+  "link": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Since its 2022 launch, the Steam Deck has consistently been at or near the top of the company's \"top selling products by revenue\" charts , with brief dips outside of the top 10 treated as newsworthy events . But sales of the popular handheld gaming PC have apparently been on a steep decline since the system relaunched at a higher price in May . Linux-focused gaming site Boiling Steam breaks down the historical data , showing how the Deck's chart position has fallen from fifth place immediately after orders resumed in late May down to 14th place for two weeks in early July (the hardware sits at 12th place in the current edition of those charts )."
+  ]
+ },
+ "d2db57030379bea0": {
+  "feed": "Technica",
+  "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
+  "link": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google announced a significant evolution of its AI models at I/O in May with the release of Gemini 3.5 Flash, and it's not slowing down. The company revealed three new AI models today , including its first version of Gemini geared toward cybersecurity. However, none of the new models is the delayed Gemini 3.5 Pro, which was supposed to launch in June."
+  ]
+ },
+ "28ab33062c0aeaab": {
+  "feed": "Technica",
+  "title": "TreeSize won't renew perpetual-license support unless users subscribe",
+  "link": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The company behind the disk space analyzer TreeSize has irked some users by no longer offering support or updates for perpetual licenses beyond their maintenance period unless customers subscribe. Further frustration has come from JAM Software's long-standing policy of not providing license keys or installers to TreeSize perpetual license holders after that support period ends."
+  ]
+ },
+ "d42362617c640879": {
+  "feed": "OpenAI News",
+  "title": "Introducing the ChatGPT for small business program",
+  "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing the ChatGPT for small business program | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI July 21, 2026 AI Adoption Introducing the ChatGPT for small business program Helping entrepreneurs use AI to turn ambitious ideas into growing businesses."
+  ]
+ },
+ "252aa12c0bc7655f": {
+  "feed": "OpenAI News",
+  "title": "Introducing OpenAI for Countries",
+  "link": "https://openai.com/global-affairs/openai-for-countries",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing OpenAI for Countries | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 7, 2025 Global Affairs Introducing OpenAI for Countries A new initiative to support countries around the world that want to build on democratic AI rails."
+  ]
+ },
+ "00b78818aa65b035": {
+  "feed": "OpenAI News",
+  "title": "Introducing our latest image generation model in the API",
+  "link": "https://openai.com/index/image-generation-api",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing our latest image generation model in the API | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI April 23, 2025 Product Introducing our latest image generation model in the API Try in Playground (opens in a new window) Loading… Share Safety Safety Pricing Get started Safety Pricing Get started When we introduced image generation in ChatGPT last month, it quickly became one of our most popular features: over 130 million users around the world created more than 700 million images in just the first week ⁠ (opens in a new window) ."
+  ]
+ },
+ "879524d306f7d8b6": {
+  "feed": "OpenAI News",
+  "title": "The Washington Post partners with OpenAI on search content",
+  "link": "https://openai.com/global-affairs/the-washington-post-partners-with-openai",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Washington Post partners with OpenAI on search content | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI April 22, 2025 Global Affairs The Washington Post partners with OpenAI on search content The Post’s essential journalism is now featured in ChatGPT search responses."
+  ]
+ },
+ "3142953457b67db1": {
+  "feed": "OpenAI News",
+  "title": "Thinking with images",
+  "link": "https://openai.com/index/thinking-with-images",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Thinking with images | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI April 16, 2025 Release Thinking with images Try on ChatGPT (opens in a new window) Loading… Visual reasoning in action Visual reasoning in action Benchmark performance Limitations and what’s next Visual reasoning in action Benchmark performance Limitations and what’s next OpenAI o3 and o4-mini are the latest visual reasoning models in our o-series."
+  ]
+ },
+ "4c8fb28682075b67": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing the Data Measurements Tool: an Interactive Tool for Looking at Datasets",
+  "link": "https://huggingface.co/blog/data-measurements-tool",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing the Data Measurements Tool: an Interactive Tool for Looking at Datasets Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Introducing the 🤗 Data Measurements Tool: an Interactive Tool for Looking at Datasets Published November 29, 2021 Update on GitHub Upvote - Sasha Luccioni sasha Follow Yacine Jernite yjernite Follow Margaret Mitchell meg Follow What is the 🤗 Data Measurements Tool?"
+  ]
+ },
+ "72c3315e5c699329": {
+  "feed": "Hugging Face Blog",
+  "title": "Fine-Tune XLSR-Wav2Vec2 for low-resource ASR with 🤗 Transformers",
+  "link": "https://huggingface.co/blog/fine-tune-xlsr-wav2vec2",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fine-Tune XLSR-Wav2Vec2 for low-resource ASR with 🤗 Transformers Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Fine-tuning XLS-R for Multi-Lingual ASR with 🤗 Transformers Published November 15, 2021 Update on GitHub Upvote 43 +37 Patrick von Platen patrickvonplaten Follow Setup Prepare Data, Tokenizer, Feature Extractor Wav2Vec2CTCTokenizer</code>\"> Create Wav2Vec2CTCTokenizer Wav2Vec2FeatureExtractor</code>\"> Create Wav2Vec2FeatureExtractor Preprocess Data Training Set-up Trainer Training Evaluation New (11/2021) : This blog post has been updated to feature XLSR's successor, called XLS-R ."
+  ]
+ },
+ "1a53c2ccf1ef117d": {
+  "feed": "Hugging Face Blog",
+  "title": "Train a Sentence Embedding Model with 1B Training Pairs",
+  "link": "https://huggingface.co/blog/1b-sentence-embeddings",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Train a Sentence Embedding Model with 1B Training Pairs Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Train a Sentence Embedding Model with 1 Billion Training Pairs Published October 25, 2021 Update on GitHub Upvote 2 Antoine SIMOULIN asi Follow guest Training methodology Model Multiple Negative Ranking Loss Improving Quality with Better Batches Training infrastructure and data Conclusion Sentence embedding is a method that maps sentences to vectors of real numbers."
+  ]
+ },
+ "6cdcea0cf702c1b6": {
+  "feed": "Hugging Face Blog",
+  "title": "Sentence Transformers in the Hugging Face Hub",
+  "link": "https://huggingface.co/blog/sentence-transformers-in-the-hub",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sentence Transformers in the Hugging Face Hub Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Sentence Transformers in the Hugging Face Hub Published June 28, 2021 Update on GitHub Upvote - Omar Sanseviero osanseviero Follow Nils Reimers nreimers Follow Unleashing the Power of Sharing What's next?"
+  ]
+ },
+ "327ee0033cf9d9fe": {
+  "feed": "Hugging Face Blog",
+  "title": "The Partnership: Amazon SageMaker and Hugging Face",
+  "link": "https://huggingface.co/blog/the-partnership-amazon-sagemaker-and-hugging-face",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Partnership: Amazon SageMaker and Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> The Partnership: Amazon SageMaker and Hugging Face Published March 23, 2021 Update on GitHub Upvote 4 Philipp Schmid philschmid Follow Features & Benefits 🔥 One Command is All you Need Accelerating Machine Learning from Science to Production Built-in Performance Resources, Documentation & Samples 📄 Blog/Video Documentation Sample Notebook Getting started: End-to-End Text Classification 🧭 Set up a development environment and install sagemaker train.py</code>\"> Create the training script train.py Preprocess our data and upload it to s3 Create a HuggingFace Estimator and train our model Additional Features 🚀 Distributed Training: Data-Parallel Distributed Training: Model Parallel Spot instances Git Repositories SageMaker Metrics FAQ 🎯 Look at these smiles!"
+  ]
  }
 }
