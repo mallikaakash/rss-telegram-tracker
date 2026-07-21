@@ -31642,5 +31642,192 @@
    "Introduces Nativ, a macOS desktop application that wraps MLX for running local vision-LLMs.",
    "Provides both a chat interface and a localhost API server, automatically detecting existing Hugging Face cache models."
   ]
+ },
+ "8e92027a9b2fd33f": {
+  "feed": "YC Hacker News",
+  "title": "Long Presumed Dead, a Thriving Coral Reef Is Discovered in West Africa",
+  "link": "https://e360.yale.edu/digest/benin-coral-reef",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Long Presumed Dead, a Thriving Coral Reef Is Discovered in West Africa - Yale E360 Close / ← → Search Search Yale Environment 360 Published at the Yale School of the Environment Explore Search About E360 E360 Digest July 21, 2026 Long Presumed Dead, a Thriving Coral Reef Is Discovered in West Africa This article was originally published by Inside Climate News and is reproduced here as part of the Climate Desk collaboration."
+  ]
+ },
+ "b644991ad299a0ea": {
+  "feed": "YC Hacker News",
+  "title": "The World's 2,400 Castles",
+  "link": "https://thecastlemap.com/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Castle Map â Explore 2,435 Castles, Fortresses & Palaces Worldwide The interactive map of the world's castles & fortresses Castlemap is a free interactive map of 2,435 of the world's greatest castles, fortresses and palaces across 129 countries. Pan and zoom the night map above, click any point for a photo and quick facts, or open a landmark's page for its full story and exact location."
+  ]
+ },
+ "0732b6fa93df8c6e": {
+  "feed": "YC Hacker News",
+  "title": "France's Anssi Will Block PQC-Free Products from Certification Starting 2027",
+  "link": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ANSSI Sets 2027 Deadline for Quantum-Safe Certification Cookie policy Menu Search for Home | Industry News All Quantum Industry & Ecosystem News Quantum Research & Methods News Quantum Security, PQC, Post-Quantum News Quantum Systems & Engineering News Quantum Policy, Sovereignty & Standards News | My Articles: By Topic Post-Quantum, PQC, Quantum Security Q-Day, Y2Q Quantum Computing (QC) Quantum Networks Quantum AI (QAI) Quantum Sensing Quantum Policy & Sovereignty Quantum Commercialization AI Security & Safety Cyber-Kinetic Security 5G & mIoT Security Blockchain & Crypto Security Society 5.0 Leadership By Country ASEAN Australia Canada China Europe India Middle East Russia South Korea Switzerland United Kingdom United States By Industry Aerospace & Automotive Energy & Utilities Finance & Banking Government & Defense Healthcare & Medical Research Materials Science & Chemical Engineering Pharmaceuticals & Biotechnology Supply Chain & Logistics Telecommunications | Deep Dives Quantum Computing for Cyber Professionals How to Build a Quantum Computer What It Takes to Build a Quantum Computer Quantum Systems Integration & QOA Quantum Computing Modalities CRQC Quantum Capability Framework Predicting Q-Day Getting Started With Quantum Security & PQC Quantum Security Reference PQC Governance Global PQC Migration Timelines CNSA 2.0: NSA’s Post-Quantum Requirements The Quantum Threat to Cryptocurrencies Quantum Sovereignty The Quantum Utility Map China’s Quantum Ambition Quantum Computing Companies & Roadmaps Quantum Snake Oil Dictionary | Tools Global PQC Migration Timeline CRQC Readiness Benchmark (Q-Day Estimator) PQC Readiness Self-Assessment Scorecard PQC Migration Advisor Database of Quantum Computing Modalities Database of Quantum Hardware Companies PostQuantum.com AI Explainer Quantum Physics Paper Analysis Quantum Technobabble Generator About Me About Me Appearances & Contributions My Books Previous Book Reviews Quantum Sovereignty Book Quantum Ready Book PQC Migration Framework Quantum Systems Integration Book Quantum Computing for Cybersecurity Professionals Book Future of Leadership in the Age of AI Blockchain and Crypto Security Cyber-Kinetic Security Contact Me X LinkedIn Telegram WhatsApp RSS Email Search for Home / Quantum Security & PQC / France’s ANSSI Will Block PQC-Free Products From Certification Starting 2027 Quantum Security & PQC France’s ANSSI Will Block PQC-Free Products From Certification Starting 2027 Marin Ivezic Follow on X Send an email June 17, 2026 7 minutes read Table of Contents My Analysis Another 2027 Procurement Gate The Hybrid Requirement Compounds the Challenge The Sovereignty Signal The Preparedness Gap What This Means in Practice June 17, 2026 — France’s national cybersecurity agency, ANSSI (Agence Nationale de la Sécurité des Systèmes d’Information), confirmed on Tuesday that it will stop certifying security products that lack quantum-resistant encryption."
+  ]
+ },
+ "789a8796b024e18f": {
+  "feed": "YC Hacker News",
+  "title": "Amid Increased Scrutiny, ICE Detention and Deportation Data Goes Dark",
+  "link": "https://www.themarshallproject.org/2026/07/15/ice-data-immigration-detention-transparency",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ICE Hasn’t Reported Detention or Deportation Data in Months | The Marshall Project Menu icon The Marshall Project Nonprofit journalism about criminal justice Search About Newsletters Donate A nonprofit news organization covering the U.S. criminal justice system Search Magnifying glass Local Network Cleveland Jackson St. Louis Projects Inside Story News Inside Life Inside Mauled The Language Project The Record Dying Behind Bars Remember Me Redemption Songs Topics Death Penalty Immigration Juvenile Justice Mental Health Policing Politics & Trump Prison & Jail Conditions Prosecuting Pregnancy About About Us Local Network The Marshall Project Inside News & Awards Impact People Supporters Jobs Contact Us Investigate This!"
+  ]
+ },
+ "1fc36f08349df56d": {
+  "feed": "YC Hacker News",
+  "title": "ICE to Pay Thomson Reuters $125M to Find Voter Fraud",
+  "link": "https://www.404media.co/ice-to-pay-thomson-reuters-125-million-to-find-voter-fraud/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ICE to Pay Thomson Reuters $125 Million to Find ‘Voter Fraud’ Account Log in Subscribe Navigation Home About RSS Support/FAQ Podcast FOIA Forum Archive Merch Advertise Privacy Contact Us/Tips Follow us Twitter Bluesky Mastodon Instagram TikTok Facebook RSS Sign in Subscribe About RSS Support/FAQ Podcast FOIA Forum Archive Merch Advertise Privacy Contact Us/Tips Advertisement • Go ad free ICE ICE to Pay Thomson Reuters $125 Million to Find ‘Voter Fraud’ Joseph Cox · Jul 17, 2026 at 11:35 AM A new procurement record says ICE wants access to personal data, including names, Social Security numbers, and ethnicity, to investigate in part what the agency calls “voters fraud.” It also plans to use the data to investigate immigration fraud."
+  ]
+ },
+ "d42bc9c2244e5c11": {
+  "feed": "Apple ML Research",
+  "title": "Accelerating Text-to-Video Generation with Calibrated Sparse Attention",
+  "link": "https://machinelearning.apple.com/research/calibrated-sparse-attention",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Recent diffusion models enable high-quality video generation, but suffer from slow runtimes. The large transformer-based backbones used in these models are bottlenecked by spatiotemporal attention. In this paper, we identify that a significant fraction of token-to-token connections consistently yield negligible scores across various inputs, and their patterns often repeat across queries."
+  ]
+ },
+ "6571595ba7eb4f9c": {
+  "feed": "OpenAI News",
+  "title": "Introducing Stargate UAE",
+  "link": "https://openai.com/index/introducing-stargate-uae",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Stargate UAE | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 22, 2025 Global Affairs Company Introducing Stargate UAE Our first OpenAI for Countries partnership expands global AI infrastructure and access, in coordination with the U.S."
+  ]
+ },
+ "2478e4b32441a98b": {
+  "feed": "OpenAI News",
+  "title": "AI powers Expedia’s marketing evolution",
+  "link": "https://openai.com/index/expedia-jochen-koedijk",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI powers Expedia’s marketing evolution | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 14, 2025 AI powers Expedia’s marketing evolution A conversation with Jochen Koedijk, Chief Marketing Officer of Expedia Group."
+  ]
+ },
+ "0faa617b838403bd": {
+  "feed": "OpenAI News",
+  "title": "OpenAI’s response to the Department of Energy on AI infrastructure",
+  "link": "https://openai.com/global-affairs/response-to-department-of-energy",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI’s response to the Department of Energy on AI infrastructure | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 7, 2025 Global Affairs OpenAI’s response to the Department of Energy on AI infrastructure Why infrastructure is destiny and how the US can seize it."
+  ]
+ },
+ "014b01550c52a4d5": {
+  "feed": "OpenAI News",
+  "title": "The San Antonio Spurs use ChatGPT to scale impact on and off the court",
+  "link": "https://openai.com/index/san-antonio-spurs",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The San Antonio Spurs use ChatGPT to scale impact on and off the court | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 7, 2025 The San Antonio Spurs use ChatGPT to scale impact on and off the court ChatGPT Enterprise helps the Spurs save 1,800 staff hours a month and deepen global fan engagement."
+  ]
+ },
+ "e340960976580f86": {
+  "feed": "OpenAI News",
+  "title": "Lowe’s puts project expertise into every hand",
+  "link": "https://openai.com/index/lowes",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Lowe’s puts project expertise into every hand | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI Lowe’s puts project expertise into every hand With OpenAI, Lowe’s brings their Mylow Companion app to all retail associates, applying the same AI foundation behind their customer-facing Mylow virtual advisor."
+  ]
+ },
+ "8537b7a1bfebf0e6": {
+  "feed": "Hugging Face Blog",
+  "title": "Getting Started with Transformers on Habana Gaudi",
+  "link": "https://huggingface.co/blog/getting-started-habana",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Getting Started with Transformers on Habana Gaudi Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Getting Started with Transformers on Habana Gaudi Published April 26, 2022 Update on GitHub Upvote 1 Julien Simon juliensimon Follow Setting up an Habana Gaudi instance on AWS Fine-tuning a text classification model on Habana Gaudi A couple of weeks ago, we've had the pleasure to announce that Habana Labs and Hugging Face would partner to accelerate Transformer model training."
+  ]
+ },
+ "4ee7a1d473d2a66e": {
+  "feed": "Hugging Face Blog",
+  "title": "Habana Labs and Hugging Face Partner to Accelerate Transformer Model Training",
+  "link": "https://huggingface.co/blog/habana",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Habana Labs and Hugging Face Partner to Accelerate Transformer Model Training Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Habana Labs and Hugging Face Partner to Accelerate Transformer Model Training Published April 12, 2022 Update on GitHub Upvote - Susan Lansing susanlansing Follow guest Santa Clara and San Francisco, CA, April 12th, 2022 Powered by deep learning, transformer models deliver state-of-the-art performance on a wide range of machine learning tasks, such as natural language processing, computer vision, speech, and more."
+  ]
+ },
+ "0038399443d867b5": {
+  "feed": "Hugging Face Blog",
+  "title": "Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia",
+  "link": "https://huggingface.co/blog/bert-inferentia-sagemaker",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Accelerate BERT inference with Hugging Face Transformers and AWS Inferentia Published March 16, 2022 Update on GitHub Upvote - Philipp Schmid philschmid Follow Tutorial 1."
+  ]
+ },
+ "f4c179cad55a094f": {
+  "feed": "Hugging Face Blog",
+  "title": "Welcome Stable-baselines3 to the Hugging Face Hub 🤗",
+  "link": "https://huggingface.co/blog/sb3",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome Stable-baselines3 to the Hugging Face Hub 🤗 Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Welcome Stable-baselines3 to the Hugging Face Hub 🤗 Published January 21, 2022 Update on GitHub Upvote - Thomas Simonini ThomasSimonini Follow Installation Finding Models Download a model from the Hub Sharing a model to the Hub What's next?"
+  ]
+ },
+ "439b7a00fbac31c9": {
+  "feed": "Hugging Face Blog",
+  "title": "Deploy GPT-J 6B for inference using  Hugging Face Transformers and Amazon SageMaker",
+  "link": "https://huggingface.co/blog/gptj-sagemaker",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Deploy GPT-J 6B for inference using Hugging Face Transformers and Amazon SageMaker Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Deploy GPT-J 6B for inference using Hugging Face Transformers and Amazon SageMaker Published January 11, 2022 Update on GitHub Upvote - Philipp Schmid philschmid Follow Background Tutorial GPT-J</code> using <code>torch.save</code>\"> Save GPT-J using torch.save model.tar.gz</code> for the Amazon SageMaker real-time endpoint\"> Create model.tar.gz for the Amazon SageMaker real-time endpoint GPT-J</code> as Amazon SageMaker Endpoint\"> Deploy GPT-J as Amazon SageMaker Endpoint Run predictions Usage best practices Default request Beam search request Parameterized request Few-Shot example (advanced) Conclusion Almost 6 months ago to the day, EleutherAI released GPT-J 6B , an open-source alternative to OpenAIs GPT-3 ."
+  ]
+ },
+ "090f0aed439d22a0": {
+  "feed": "Stripe Blog",
+  "title": "Analyzing the evidence that helps businesses win “product not received” disputes",
+  "link": "https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chat with Stripe sales 8 sales reps available We're here to discuss your business needs. Chat now with sales Analyzing the evidence that helps businesses win “product not received” disputes Stripe logo Products Solutions Developers Resources Pricing Guide me Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 100+ Terminal In-person payments Radar Fraud prevention Authorization Boost Acceptance optimizations Link Accelerated checkout Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money Management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Platforms and marketplaces Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Financial Connections Linked financial account data Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI."
+  ]
  }
 }
