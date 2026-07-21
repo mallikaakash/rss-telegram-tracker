@@ -31389,5 +31389,258 @@
    "To compare high-volume and low-volume countries, they used the log₂ ratio of current to baseline traffic, making increases and decreases symmetric.",
    "Matches played during overnight/early-morning hours (midnight to 8 AM local time) caused traffic to more than double compared to baseline."
   ]
+ },
+ "204ad590c8d0b698": {
+  "feed": "YC Hacker News",
+  "title": "Claude Is Not a Compiler",
+  "link": "https://blog.exe.dev/claude-is-not-a-compiler",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "A thought-provoking conceptual piece on the role of LLMs in software engineering layers and the importance of mechanical sympathy.",
+  "points": [
+   "Argues that viewing LLMs as mere compilers is a category error because software development requires cross-layer decision-making.",
+   "Highlights the importance of 'mechanical sympathy' and working across abstractions rather than relying on perfect, leak-free layers."
+  ]
+ },
+ "998cb93e127a528f": {
+  "feed": "YC Hacker News",
+  "title": "PCjs Machines",
+  "link": "https://www.pcjs.org/",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "A retro browser-based IBM PC emulator that is completely off-target for ML and backend engineering priorities.",
+  "points": [
+   "Emulates classic hardware and software from the 1970s and 1980s in JavaScript."
+  ]
+ },
+ "bc5044b5fd75e2f3": {
+  "feed": "YC Hacker News",
+  "title": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
+  "link": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "Legal and policy news regarding Apple's Section 230 immunity and CSAM scanning, which is irrelevant to ML engineering.",
+  "points": [
+   "The court dismissed a design defect lawsuit against Apple, upholding Section 230 immunity for cloud hosting providers."
+  ]
+ },
+ "8fd735d6031877e5": {
+  "feed": "YC Hacker News",
+  "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+  "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "A strategically important model release from Google, though the text is mostly navigation links.",
+  "points": [
+   "Announces Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber.",
+   "Focuses on high-efficiency, low-latency, and reliable performance for building AI agents at scale."
+  ]
+ },
+ "f11ac5d122cf6629": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Explore 6048 YC companies as an interactive galaxy",
+  "link": "https://artifacta.io/a/pg_x9pombpdybx90q2s16eu",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "An interactive visualization of YC companies, which is off-target for ML training and backend infrastructure.",
+  "points": [
+   "Visualizes 6,048 YC companies as an interactive galaxy."
+  ]
+ },
+ "674dd71a4230d927": {
+  "feed": "Technica",
+  "title": "When your vehicle outlives its cloud: What happens next?",
+  "link": "https://arstechnica.com/cars/2026/07/when-your-vehicle-outlives-its-cloud-what-happens-next/",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "An article on IoT and automotive cloud obsolescence, which is off-target for ML and backend infrastructure.",
+  "points": [
+   "Discusses the challenges of connected car features when backend cloud services are retired before the vehicle's lifespan ends."
+  ]
+ },
+ "8f280ca2ddb15289": {
+  "feed": "Technica",
+  "title": "Apps targeted at US troops contain Chinese and Russian code",
+  "link": "https://arstechnica.com/security/2026/07/apps-targeted-at-us-troops-contain-chinese-and-russian-code/",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "A security and privacy analysis of military apps, which is off-target for ML and backend engineering.",
+  "points": [
+   "Finds foreign code from China and Russia in mobile apps marketed toward US military personnel."
+  ]
+ },
+ "619f95b06a3cb997": {
+  "feed": "Technica",
+  "title": "2027 Kia Seltos first drive gives you plenty of SUV for not much $",
+  "link": "https://arstechnica.com/cars/2026/07/2027-kia-seltos-first-drive-telluride-vibes-in-a-smaller-package/",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "A car review of the 2027 Kia Seltos, which is completely off-target.",
+  "points": [
+   "Provides a first drive review of a subcompact SUV."
+  ]
+ },
+ "8985407e5ef99051": {
+  "feed": "Google DeepMind",
+  "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+  "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "Duplicate of the Google Gemini model release announcement, which is strategically important but lacks deep technical text here.",
+  "points": [
+   "Announces Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber for agentic workflows."
+  ]
+ },
+ "7898549b95c3b8f5": {
+  "feed": "Google DeepMind",
+  "title": "Introducing Gemini 3.5 Flash Cyber",
+  "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "A subset of the Google Gemini model release focusing on the Cyber variant, strategically relevant for model tracking.",
+  "points": [
+   "Introduces Gemini 3.5 Flash Cyber, a specialized model variant optimized for security and cyber-defense tasks."
+  ]
+ },
+ "ab98c97d43ec3607": {
+  "feed": "Apple ML Research",
+  "title": "Environment-free Synthetic Data Generation for API-Calling Agents",
+  "link": "https://machinelearning.apple.com/research/environment-free",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "Directly addresses LLM agent training and synthetic data generation without needing complex backend environments.",
+  "points": [
+   "Proposes using LLMs as on-the-fly digital world models to generate trajectories mimicking agent-environment interactions.",
+   "Requires only API specifications instead of fully implemented databases, solving a major scalability bottleneck.",
+   "Enables environment-free synthetic data generation for training API-calling agents."
+  ]
+ },
+ "e0c68f21f48fb5da": {
+  "feed": "OpenAI News",
+  "title": "Toward understanding and preventing misalignment generalization",
+  "link": "https://openai.com/index/emergent-misalignment",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "Cutting-edge alignment and mechanistic interpretability research from OpenAI using SAEs to find and steer a 'misaligned persona' feature.",
+  "points": [
+   "Discovers a 'misaligned persona' feature in GPT-4o's activations using Sparse Autoencoders (SAEs).",
+   "Demonstrates that steering this latent feature can directly cause or suppress emergent misalignment in unrelated tasks.",
+   "Shows that retraining on correct data can push the model back to alignment, offering a path toward early warning systems."
+  ]
+ },
+ "0c778567339aa07e": {
+  "feed": "OpenAI News",
+  "title": "Introducing OpenAI for Government",
+  "link": "https://openai.com/global-affairs/introducing-openai-for-government",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "A PR and partnership announcement regarding OpenAI's government initiatives, which is downranked.",
+  "points": [
+   "Launches OpenAI for Government, consolidating partnerships with US National Labs, NASA, and a $200M pilot with the DoD."
+  ]
+ },
+ "cbcb201cb2d9a4b7": {
+  "feed": "OpenAI News",
+  "title": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
+  "link": "https://openai.com/index/response-to-nyt-data-demands",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "A legal and privacy update regarding the New York Times lawsuit, which is downranked PR.",
+  "points": [
+   "Announces that OpenAI is no longer under a legal order to retain consumer ChatGPT and API content indefinitely."
+  ]
+ },
+ "c0011b894af0318c": {
+  "feed": "OpenAI News",
+  "title": "Disrupting malicious uses of AI: June 2025",
+  "link": "https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "A threat intelligence and safety report from OpenAI, which is downranked policy/PR.",
+  "points": [
+   "Details case studies of detecting and disrupting covert influence operations and malicious cyber activity."
+  ]
+ },
+ "c8ce04da54948718": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Deutschland",
+  "link": "https://openai.com/index/openai-deutschland",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "A PR announcement about OpenAI opening an office in Munich, Germany, which is downranked.",
+  "points": [
+   "Announces the opening of OpenAI's first German office in Munich to support local developers and enterprises."
+  ]
+ },
+ "4452737de0f4ebec": {
+  "feed": "Hugging Face Blog",
+  "title": "The Annotated Diffusion Model",
+  "link": "https://huggingface.co/blog/annotated-diffusion",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "An exceptional, code-level engineering deep-dive into implementing DDPMs step-by-step in PyTorch.",
+  "points": [
+   "Explains the mathematical formulation of forward (noise addition) and reverse (denoising) diffusion processes.",
+   "Provides a step-by-step PyTorch implementation of a conditional U-Net with attention and sinusoidal position embeddings.",
+   "Details the training, loss calculation, and sampling loop for Denoising Diffusion Probabilistic Models."
+  ]
+ },
+ "006666053c9ca695": {
+  "feed": "Hugging Face Blog",
+  "title": "Graphcore and Hugging Face Launch New Lineup of IPU-Ready Transformers",
+  "link": "https://huggingface.co/blog/graphcore-update",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "An outdated (2022) hardware partnership announcement that is no longer highly relevant to modern GPU/TPU infrastructure.",
+  "points": [
+   "Announces Graphcore IPU-optimized Hugging Face Transformer models in the Optimum library."
+  ]
+ },
+ "d63191cc955665e8": {
+  "feed": "Hugging Face Blog",
+  "title": "How Sempre Health is leveraging the Expert Acceleration Program to accelerate their ML roadmap",
+  "link": "https://huggingface.co/blog/sempre-health-eap-case-study",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "A product marketing case study for Hugging Face's paid support program, which is downranked.",
+  "points": [
+   "Describes how Sempre Health used Hugging Face's Expert Acceleration Program to build an NLP pipeline for SMS classification."
+  ]
+ },
+ "07c7935bcb69f3a1": {
+  "feed": "Hugging Face Blog",
+  "title": "An Introduction to Q-Learning Part 1",
+  "link": "https://huggingface.co/blog/deep-rl-q-part1",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "A solid foundational tutorial on reinforcement learning concepts, though it may be too basic for advanced reasoning RL.",
+  "points": [
+   "Explains the difference between state-value and action-value functions in reinforcement learning.",
+   "Introduces the Bellman Equation for simplifying value estimation.",
+   "Compares Monte Carlo learning (end of episode) with Temporal Difference learning (step-by-step)."
+  ]
+ },
+ "43a5c9447df3b892": {
+  "feed": "Hugging Face Blog",
+  "title": "Announcing the Hugging Face Fellowship Program",
+  "link": "https://huggingface.co/blog/fellowship",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "An outdated (2022) community announcement about a fellowship program, which is downranked.",
+  "points": [
+   "Announces the Hugging Face Fellowship Program to support open-source ML contributors."
+  ]
+ },
+ "99e42382ba8639f4": {
+  "feed": "Simon Willison",
+  "title": "Nativ: Run AI models locally on your Mac",
+  "link": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "A useful tool for local inference serving on Apple Silicon, wrapping the MLX-VLM library.",
+  "points": [
+   "Introduces Nativ, a macOS desktop application that wraps MLX for running local vision-LLMs.",
+   "Provides both a chat interface and a localhost API server, automatically detecting existing Hugging Face cache models."
+  ]
  }
 }
