@@ -31189,5 +31189,205 @@
    "Demonstrates how to configure and run DeepSpeed ZeRO Stage-2 in a multi-GPU setup using the Accelerate CLI without code changes.",
    "Covers optimizer and parameter offloading to CPU/disk to enable training models that exceed GPU memory limits."
   ]
+ },
+ "5efbf54c6c8ed9a3": {
+  "feed": "YC Hacker News",
+  "title": "New US homeownership measure puts people first",
+  "link": "https://www.minneapolisfed.org/article/2026/new-homeownership-measure-puts-people-first",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This post is about US housing economics and has no relevance to machine learning, backend engineering, or infrastructure.",
+  "points": [
+   "Introduces the homeowners-to-population ratio (HPOP) as an alternative to the traditional owner-occupancy rate to better measure individual homeownership."
+  ]
+ },
+ "ce44b2fc890ca5a6": {
+  "feed": "YC Hacker News",
+  "title": "Python 3.15's Ultra-Low Overhead Interpreter Profiling Mode – Ken Jin's Blog",
+  "link": "https://fidget-spinner.github.io/posts/ultra-fast-tracing.html",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "It provides a brilliant performance engineering deep-dive into Python 3.15's JIT profiling mechanism, which is highly relevant for backend and performance engineers.",
+  "points": [
+   "CPython 3.15 introduces a dual dispatch table mechanism to swap between normal execution and profiling modes without branching overhead.",
+   "Instead of doubling the interpreter size, the second table maps all instructions to a single recording/profiling instruction that fans out to the normal interpreter.",
+   "This technique avoids the 6% slowdown on pyperformance caused by previous tail-calling or computed-goto interpreter profiling approaches."
+  ]
+ },
+ "85e2634d58d97e0b": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco",
+  "link": "https://vincentwoo.com/3d/grace_cathedral/",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a front-end graphics demo with no text or technical details on ML infrastructure or backend engineering.",
+  "points": [
+   "Showcases an immersive Gaussian Splatting visualization of Grace Cathedral in San Francisco."
+  ]
+ },
+ "b7a4deba9f249859": {
+  "feed": "YC Hacker News",
+  "title": "I wrote an bash enumerator because I was sick of xargs",
+  "link": "https://numerlab.org/2025/07/20/bashumerate-enumerator/",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "While mildly interesting for command-line productivity, it lacks the architectural depth or relevance of high-priority backend infrastructure topics.",
+  "points": [
+   "Discusses a custom bash enumerator tool written as an alternative to the standard xargs utility."
+  ]
+ },
+ "32d427eb72d19094": {
+  "feed": "YC Hacker News",
+  "title": "Agent swarms and the new model economics",
+  "link": "https://cursor.com/blog/agent-swarm-model-economics",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "It details a highly sophisticated multi-agent architecture and model cost-optimization strategy from Cursor, a top-tier engineering team.",
+  "points": [
+   "Cursor scaled agent swarms to rebuild SQLite in Rust, achieving an 80% test suite pass rate in 4 hours using Grok 4.5.",
+   "The architecture uses a tree-like decomposition with 'Planner' agents (frontier models) delegating to 'Worker' agents (cheaper, faster models) to prevent context drift.",
+   "Mixing frontier and inexpensive models produced similar quality to using frontier models exclusively, but at a fraction of the cost."
+  ]
+ },
+ "1f499c60214af59e": {
+  "feed": "OpenAI News",
+  "title": "Stargate advances with 4.5 GW partnership with Oracle",
+  "link": "https://openai.com/index/stargate-advances-with-partnership-with-oracle",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "While primarily a high-level partnership announcement, it highlights the massive physical scale (4.5 GW) of upcoming AI training infrastructure.",
+  "points": [
+   "OpenAI and Oracle partner to develop 4.5 gigawatts of data center capacity in the US for the Stargate AI infrastructure platform."
+  ]
+ },
+ "042d49d92b6e7079": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT agent",
+  "link": "https://openai.com/index/introducing-chatgpt-agent",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "This is a major strategic model and product release from OpenAI, introducing a unified agentic system with computer-use capabilities.",
+  "points": [
+   "ChatGPT agent integrates Operator's web interaction, deep research's synthesis, and a virtual computer environment to execute complex workflows.",
+   "The agent can run code, conduct data analysis, and interact with websites, requesting user permission for high-consequence actions.",
+   "It is available for Pro, Plus, and Team users, representing a shift from chat-based interfaces to proactive execution."
+  ]
+ },
+ "b3fee526474fcf62": {
+  "feed": "OpenAI News",
+  "title": "ChatGPT agent System Card",
+  "link": "https://openai.com/index/chatgpt-agent-system-card",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "It provides the technical system card and safety architecture details for OpenAI's new agentic o3-family model.",
+  "points": [
+   "The ChatGPT agent belongs to the o3 model family and utilizes a remote visual browser environment and a terminal tool with limited network access.",
+   "OpenAI classified the model as 'High capability' in the Biological and Chemical domain under its Preparedness Framework, triggering strict safeguards.",
+   "The system integrates first-party Connectors (e.g., Google Drive) and implements product-specific mitigations for terminal and browser-based risks."
+  ]
+ },
+ "520af5b3f18d4f9e": {
+  "feed": "OpenAI News",
+  "title": "OpenAI nonprofit jam",
+  "link": "https://openai.com/global-affairs/openai-nonprofit-jam",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a pure PR and event announcement with no technical or engineering substance.",
+  "points": [
+   "OpenAI is hosting a one-day 'Nonprofit Jam' event to help nonprofit leaders use AI tools."
+  ]
+ },
+ "e4d54c0adef75179": {
+  "feed": "OpenAI News",
+  "title": "Working with 400,000 teachers to shape the future of AI in schools",
+  "link": "https://openai.com/global-affairs/aft",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a non-technical partnership and funding announcement focused on K-12 education.",
+  "points": [
+   "OpenAI is contributing $10 million to launch the National Academy for AI Instruction to train 400,000 teachers."
+  ]
+ },
+ "3f50ec1ca4cd8f48": {
+  "feed": "Hugging Face Blog",
+  "title": "Announcing Evaluation on the Hub",
+  "link": "https://huggingface.co/blog/eval-on-the-hub",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This post is from 2022 and discusses a now-archived Hugging Face evaluation tool, making it outdated and low priority.",
+  "points": [
+   "Announces a now-archived 2022 Hugging Face tool for no-code model evaluation powered by AutoTrain."
+  ]
+ },
+ "83e1bf5fc2a72f74": {
+  "feed": "Hugging Face Blog",
+  "title": "Getting Started With Embeddings",
+  "link": "https://huggingface.co/blog/getting-started-with-embeddings",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is an elementary, introductory tutorial on embeddings from 2022, far below the technical level of an ML/backend engineer.",
+  "points": [
+   "Provides a basic introduction to text embeddings and how to use the Sentence Transformers library."
+  ]
+ },
+ "4e4deaeb9940e5b7": {
+  "feed": "Hugging Face Blog",
+  "title": "Convert Transformers to ONNX with Hugging Face Optimum",
+  "link": "https://huggingface.co/blog/convert-transformers-to-onnx",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "Although written in 2022, it introduces Hugging Face Optimum and ONNX compilation, which are fundamental concepts in ML inference performance engineering.",
+  "points": [
+   "ONNX provides an open standard format to represent machine learning models as computational graphs across PyTorch and TensorFlow.",
+   "Hugging Face Optimum simplifies exporting, quantizing, and optimizing Transformer models for specialized hardware runtimes."
+  ]
+ },
+ "f99861b1cc608cc2": {
+  "feed": "Hugging Face Blog",
+  "title": "Intel and Hugging Face Partner to Democratize Machine Learning Hardware Acceleration",
+  "link": "https://huggingface.co/blog/intel",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is an outdated 2022 partnership announcement between Intel and Hugging Face regarding CPU acceleration.",
+  "points": [
+   "Announces the Optimum Intel library to optimize Transformer performance on Intel Xeon CPUs and Habana Gaudi accelerators."
+  ]
+ },
+ "0e35d84d79bbf328": {
+  "feed": "Hugging Face Blog",
+  "title": "Director of Machine Learning Insights [Part 3: Finance Edition]",
+  "link": "https://huggingface.co/blog/ml-director-insights-3",
+  "date": "2026-07-21",
+  "tier": "low_priority",
+  "why": "This is a high-level, non-technical interview series from 2022 focusing on ML in the financial sector.",
+  "points": [
+   "Gathers high-level career and industry insights from ML directors working in financial institutions like RBC and U.S. Bank."
+  ]
+ },
+ "009d8ac6eee77af2": {
+  "feed": "Simon Willison",
+  "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+  "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+  "date": "2026-07-21",
+  "tier": "must_read",
+  "why": "It contains invaluable, practical insights on building and optimizing state-of-the-art coding agents (Claude Code/Fable) directly from the Anthropic team.",
+  "points": [
+   "Anthropic reduced Claude Code's system prompt size by 80%, finding that adding examples or negative constraints ('don't do X') actually degrades performance on newer models like Fable.",
+   "Claude Tag (Slack integration) now automatically lands 65% of the product engineering PRs for the Claude Code team.",
+   "The team heavily relies on 'ant-fooding' (internal dogfooding) and only ships features that demonstrate strong user retention among Anthropic employees."
+  ]
+ },
+ "084fa881576cc6f4": {
+  "feed": "Cloudflare Blog",
+  "title": "How the 2026 World Cup affected Internet traffic",
+  "link": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "It is a high-quality data analysis post from Cloudflare (a target team) demonstrating how to establish baselines and normalize global traffic data.",
+  "points": [
+   "Cloudflare established a 'normal' baseline using the median traffic of the four preceding weeks to smooth out day-to-day noise.",
+   "To compare high-volume and low-volume countries, they used the log₂ ratio of current to baseline traffic, making increases and decreases symmetric.",
+   "Matches played during overnight/early-morning hours (midnight to 8 AM local time) caused traffic to more than double compared to baseline."
+  ]
  }
 }
