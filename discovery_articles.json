@@ -786,5 +786,53 @@
    "Uses KEDA for queue-depth-based GPU autoscaling, keeping a minimum of 1 warm replica for low latency while scaling batch workers to zero.",
    "Optimizes costs using spot GPUs, fp16 precision, VAD silence-skipping, and avatar reuse."
   ]
+ },
+ "379f5eba712e0eea": {
+  "url": "https://blog.lewman.com/building-a-llm-in-pure-rust-part-2.html",
+  "title": "Building a LLM in pure Rust, Part 2 - Hello Blog ",
+  "domain": "blog.lewman.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-21",
+  "tier": "hidden_gem",
+  "why": "A personal engineering blog post detailing a highly specific performance bottleneck (1.2-2.0s lag) when building an LLM in Rust using the Burn framework versus Candle.",
+  "points": [
+   "Identifies a 1.2 to 2.0 second CPU-bound lag per training step in Burn 0.21's CubeCL backend due to runtime IR compilation and eager-mode autodiff graph construction.",
+   "Contrasts Burn's overhead with Candle, which avoids intermediate graph tracing by using direct cudarc calls to cuBLAS and handwritten CUDA kernels.",
+   "Highlights how host-side framework bookkeeping (buffer management and dispatch overhead) can leave the GPU starved and idle."
+  ]
+ },
+ "0226026d71131c4b": {
+  "url": "https://solana.garden/guides/flash-attention-explained/",
+  "title": "Flash Attention Explained: IO-Aware Attention, Memory Savings and LLM Speedups | Solana Garden",
+  "domain": "solana.garden",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-21",
+  "tier": "skip",
+  "why": "A mainstream, high-level explainer guide on Flash Attention that repeats well-known concepts without offering new empirical data or novel insights.",
+  "points": []
+ },
+ "d1ae0c0030309508": {
+  "url": "https://yobitel.com/knowledge-base/fsdp-fully-sharded-data-parallel",
+  "title": "FSDP — Fully Sharded Data Parallel Explained",
+  "domain": "yobitel.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-21",
+  "tier": "skip",
+  "why": "A generic corporate knowledge-base article explaining PyTorch's FSDP, serving as a high-level overview rather than a deep technical postmortem or novel engineering analysis.",
+  "points": []
+ },
+ "428dd186b3e57b93": {
+  "url": "https://doi.org/10.48550/arxiv.2606.06888",
+  "title": "[2606.06888] Data-Constrained Language Model Pretraining: Improved Regularization and Scaling Laws",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-21",
+  "tier": "solid_find",
+  "why": "An academic paper addressing the highly relevant, data-constrained LLM pretraining regime with a novel scaling law and regularization technique.",
+  "points": [
+   "Proposes Masked-Input Regularization (MIR), an auxiliary next-token prediction loss on masked inputs that improves validation loss in data-constrained regimes.",
+   "Introduces SoftQ, a new scaling law that couples model size and data size to better fit performance under repeated data epochs than the additive Chinchilla law.",
+   "Quantifies MIR's regularization gains as equivalent to roughly 1.3 times as much unique training data."
+  ]
  }
 }
