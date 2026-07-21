@@ -30836,5 +30836,181 @@
   "points": [
    "Starting today, Cloudflare Internal DNS is generally available. Cloudflare Internal DNS provides authoritative and recursive DNS for private networks on the same global network and control plane customers already use for public DNS, Zero Trust, networking, and application services. Internal DNS — sometimes also referred to as private DNS — is one of the last pieces of enterprise infrastructure still managed separately from the rest of the network."
   ]
+ },
+ "5b7d2f3ff11faf9c": {
+  "feed": "YC Hacker News",
+  "title": "Linux kernel will support $ORIGIN, sort of",
+  "link": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Linux kernel will support $ORIGIN, sort of | Farid Zakaria’s Blog Linux kernel will support $ORIGIN, sort of Published 2026-07-20 on Farid Zakaria's Blog For some reason, during TacoSprint 2026 I decided to see if we could tackle relocatable binaries in Nix. I enjoy these lofty goals to push Nix and the surrounding ecosystem forward. I am bold if not stupid ."
+  ]
+ },
+ "5b8713733ab90754": {
+  "feed": "YC Hacker News",
+  "title": "Human mathematicians are being outcounterexampled",
+  "link": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Human mathematicians are being outcounterexampled | Xena Xena Mathematicians learning Lean by doing. Skip to content Home About Xena Student projects Installing Lean and mathlib Bluesky Useful links. ← Formalizing Fermat workshop Human mathematicians are being outcounterexampled Posted on July 20, 2026 by xenaproject It’s been an interesting few weeks for counterexamples."
+  ]
+ },
+ "2751f2fd195167e8": {
+  "feed": "YC Hacker News",
+  "title": "Nativ: Run frontier open models locally on your Mac",
+  "link": "https://blaizzy.github.io/nativ/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nativ — Run AI locally on your Mac Skip to content Nativ Models Integrations Docs Manifesto ★ Open source Download Models Integrations Docs Manifesto Latest release · 100% open source · live now Run AI models locally on your Mac. Nativ puts frontier intelligence on your desk. Download and run open models on Apple Silicon — no accounts, no subscriptions, no cloud."
+  ]
+ },
+ "87327c86c74aafa3": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
+  "link": "https://exsitu.app/map",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "ace9504c93ad4a36": {
+  "feed": "YC Hacker News",
+  "title": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public",
+  "link": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Flock Safety Credibility Lost as it Repeatedly Lies to City Councils, Police Departments, and Public Across the Country | American Civil Liberties Union Skip navigation Back to News & Commentary Flock Safety Credibility Lost as it Repeatedly Lies to City Councils, Police Departments, and Public Across the Country The ACLU documents how an automatic license plate reader company has lied about its operations, signaling a need for reputable governments to avoid working with Flock Safety."
+  ]
+ },
+ "4e6210c836494a32": {
+  "feed": "Technica",
+  "title": "RIP bargain bin: The price impact of Sony's disc-free PlayStation plan",
+  "link": "https://arstechnica.com/gaming/2026/07/our-playstation-price-analysis-shows-why-physical-games-still-matter/",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Since Sony announced that it was planning to stop producing physical PlayStation discs in 2028 , many people have been justifiably worried about how they will maintain ownership and long-term game access in a disc-free world. But halting production of PlayStation discs also means eliminating the market for cheap used PlayStation discs, which are often available for well below the price of a digital download."
+  ]
+ },
+ "0c5c0a6f1172afbc": {
+  "feed": "OpenAI News",
+  "title": "Coding and design with GPT-5",
+  "link": "https://openai.com/index/gpt-5-coding-design",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Coding and design with GPT-5 | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 7, 2025 API GPT‑5: Coding & Design Try now (opens in a new window) Contact sales Share Research Research Index Research Overview Economic Research Latest Advancements GPT-5.6 GPT-5.5 GPT-5.4 Safety Safety Approach Deployment Safety (opens in a new window) Security & Privacy Trust & Transparency Products ChatGPT (opens in a new window) ChatGPT Business (opens in a new window) ChatGPT Enterprise (opens in a new window) ChatGPT for Education (opens in a new window) Codex Release Notes API Platform Overview API Log In (opens in a new window) Docs (opens in a new window) Business Overview Solutions Resources Customer Stories Partner Network Contact Sales Developers Apps SDK (opens in a new window) Open Models Docs (opens in a new window) Resources (opens in a new window) Developer Forum (opens in a new window) Company About Us Our Charter Careers News Support Help Center (opens in a new window) More Stories Academy Supply Co."
+  ]
+ },
+ "190945e74c30c5d8": {
+  "feed": "OpenAI News",
+  "title": "Introducing GPT-5",
+  "link": "https://openai.com/index/introducing-gpt-5",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing GPT-5 | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 7, 2025 Release Product Introducing GPT‑5 Our smartest, fastest, most useful model yet, with built-in thinking that puts expert-level intelligence in everyone’s hands."
+  ]
+ },
+ "e830b77678488661": {
+  "feed": "OpenAI News",
+  "title": "GPT-5 System Card",
+  "link": "https://openai.com/index/gpt-5-system-card",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT-5 System Card | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 7, 2025 Publication Safety GPT‑5 System Card Read the System Card (opens in a new window) Dive into the data (opens in a new window) Share GPT‑5 is a unified system with a smart and fast model that answers most questions, a deeper reasoning model for harder problems, and a real-time router that quickly decides which model to use based on conversation type, complexity, tool needs, and explicit intent (for example, if you say “think hard about this” in the prompt)."
+  ]
+ },
+ "25b4cdfeb382c6d4": {
+  "feed": "OpenAI News",
+  "title": "First look at GPT-5",
+  "link": "https://openai.com/index/gpt-5-first-look",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "First look at GPT-5 | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 7, 2025 ChatGPT GPT‑5: First Look Share Research Research Index Research Overview Economic Research Latest Advancements GPT-5.6 GPT-5.5 GPT-5.4 Safety Safety Approach Deployment Safety (opens in a new window) Security & Privacy Trust & Transparency Products ChatGPT (opens in a new window) ChatGPT Business (opens in a new window) ChatGPT Enterprise (opens in a new window) ChatGPT for Education (opens in a new window) Codex Release Notes API Platform Overview API Log In (opens in a new window) Docs (opens in a new window) Business Overview Solutions Resources Customer Stories Partner Network Contact Sales Developers Apps SDK (opens in a new window) Open Models Docs (opens in a new window) Resources (opens in a new window) Developer Forum (opens in a new window) Company About Us Our Charter Careers News Support Help Center (opens in a new window) More Stories Academy Supply Co."
+  ]
+ },
+ "566e629daef76a44": {
+  "feed": "OpenAI News",
+  "title": "How Cursor uses GPT-5",
+  "link": "https://openai.com/index/gpt-5-cursor",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Cursor uses GPT-5 | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 7, 2025 API GPT‑5: Cursor Share Research Research Index Research Overview Economic Research Latest Advancements GPT-5.6 GPT-5.5 GPT-5.4 Safety Safety Approach Deployment Safety (opens in a new window) Security & Privacy Trust & Transparency Products ChatGPT (opens in a new window) ChatGPT Business (opens in a new window) ChatGPT Enterprise (opens in a new window) ChatGPT for Education (opens in a new window) Codex Release Notes API Platform Overview API Log In (opens in a new window) Docs (opens in a new window) Business Overview Solutions Resources Customer Stories Partner Network Contact Sales Developers Apps SDK (opens in a new window) Open Models Docs (opens in a new window) Resources (opens in a new window) Developer Forum (opens in a new window) Company About Us Our Charter Careers News Support Help Center (opens in a new window) More Stories Academy Supply Co."
+  ]
+ },
+ "7a75a85fc278450d": {
+  "feed": "Hugging Face Blog",
+  "title": "Japanese Stable Diffusion",
+  "link": "https://huggingface.co/blog/japanese-stable-diffusion",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Japanese Stable Diffusion Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Japanese Stable Diffusion Published October 5, 2022 Update on GitHub Upvote 1 Max Shakespeare mshing Follow guest Kei Sawada keisawada Follow guest Stable Diffusion Japanese Stable Diffusion Why do we need Japanese Stable Diffusion?"
+  ]
+ },
+ "a940258e362e95ad": {
+  "feed": "Hugging Face Blog",
+  "title": "Image Classification with AutoTrain",
+  "link": "https://huggingface.co/blog/autotrain-image-classification",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Image Classification with AutoTrain Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Image Classification with AutoTrain Published September 28, 2022 Update on GitHub Upvote 2 Nima Boscarino NimaBoscarino Follow How can you train your own image classifier?"
+  ]
+ },
+ "c8584c4ddb05db8d": {
+  "feed": "Hugging Face Blog",
+  "title": "Ethics and Society Newsletter #1",
+  "link": "https://huggingface.co/blog/ethics-soc-1",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ethics and Society Newsletter #1 Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Ethics and Society Newsletter #1 Published September 22, 2022 Update on GitHub Upvote - Margaret Mitchell meg Follow Hello, world!"
+  ]
+ },
+ "a989832f3573fb3e": {
+  "feed": "Hugging Face Blog",
+  "title": "Incredibly Fast BLOOM Inference with DeepSpeed and Accelerate",
+  "link": "https://huggingface.co/blog/bloom-inference-pytorch-scripts",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Incredibly Fast BLOOM Inference with DeepSpeed and Accelerate Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Incredibly Fast BLOOM Inference with DeepSpeed and Accelerate Published September 16, 2022 Update on GitHub Upvote 1 Stas Bekman stas Follow Sylvain Gugger sgugger Follow Benchmarks Solutions HuggingFace Accelerate Setup Run DeepSpeed-Inference Setup Run Deepspeed ZeRO-Inference Setup Run Additional Client and Server Solutions Blog credits This article shows how to get an incredibly fast per token throughput when generating with the 176B parameter BLOOM model ."
+  ]
+ },
+ "53596c39bb493619": {
+  "feed": "Hugging Face Blog",
+  "title": "How to train a Language Model with Megatron-LM",
+  "link": "https://huggingface.co/blog/megatron-training",
+  "date": "2026-07-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How to train a Language Model with Megatron-LM Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> How to train a Language Model with Megatron-LM Published September 7, 2022 Update on GitHub Upvote 21 +15 Loubna Ben Allal loubnabnl Follow Why Megatron-LM?"
+  ]
  }
 }
