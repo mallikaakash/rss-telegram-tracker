@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Tue 21 Jul 2026, 17:02 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Tue 21 Jul 2026, 17:02 IST &middot; 15 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Optimize LLM inference with SIMD-friendly ternary weight packing, while tracking OpenAI&#x27;s 100k-GPU Stargate Norway data center and open-weight risk evaluations.</div><div class="section">Must read &middot; 4</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://compilade.net/blog/ternary-packing">How to pack ternary numbers in 8-bit bytes</a></h2><div class="why">Highly technical deep-dive into packing BitNet b1.58 ternary weights (-1, 0, 1) into 8-bit bytes with SIMD-friendly unpacking, directly relevant to LLM inference performance engineering.</div><ul><li>Packing 5 ternary digits (trits) into an 8-bit byte achieves 1.6 bits per trit, which is 99.06% of the theoretical ideal.</li><li>Unpacking is optimized for SIMD by replacing slow modulo/division operations with fixed-point multiplication and bit-shifting.</li><li>The scheme assumes packing is done once (during quantization) while unpacking is done repeatedly during LLM inference, making the unpacking asymmetry highly beneficial.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms">Estimating worst case frontier risks of open weight LLMs</a></h2><div class="why">Explains OpenAI&#x27;s methodology for evaluating open-weight LLM risks using Malicious Fine-Tuning (MFT) in biology and cybersecurity, which is highly relevant to LLM alignment and safety.</div><ul><li>Introduces Malicious Fine-Tuning (MFT) to elicit maximum capabilities in biology (via RL and web browsing) and cybersecurity (via CTF challenges).</li><li>Finds that the open-weight &#x27;gpt-oss&#x27; underperforms OpenAI o3 and does not substantially advance the frontier of risk, justifying its open release.</li><li>Provides a standardized framework for other labs to estimate worst-case harms before releasing open-weight models.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/introducing-stargate-norway">Introducing Stargate Norway</a></h2><div class="why">Details a major 230MW+ AI data center initiative in Europe targeting 100,000 GPUs, which is highly relevant to ML infrastructure and GPU platforms.</div><ul><li>Stargate Norway is a planned 230MW AI data center (expandable by 290MW) targeting 100,000 NVIDIA GPUs by the end of 2026.</li><li>The facility will run entirely on renewable hydropower in Narvik and use closed-loop, direct-to-chip liquid cooling.</li><li>It represents OpenAI&#x27;s first European infrastructure project under the &#x27;OpenAI for Countries&#x27; program, partnering with Nscale and Aker.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/grabette">Grabette: an open system to record robot-manipulation data</a></h2><div class="why">Introduces an open-source, low-cost hardware and software system for collecting robot manipulation data, bridging physical interaction with ML datasets.</div><ul><li>Grabette is an open, low-cost handheld gripper with a camera designed to record 6-DoF trajectories without requiring an actual robot.</li><li>It is integrated with the LeRobot library and Hugging Face Hub, allowing users to process data directly in the browser.</li><li>The project aims to democratize robot learning by crowdsourcing diverse, real-world manipulation datasets to train transformer-based VLAs and diffusion policies.</li></ul></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/intercom">Three lessons for creating a sustainable AI advantage</a></h2><div class="why">Offers practical insights on LLM evaluations and architectural flexibility from Intercom&#x27;s deployment of their AI agent, though it leans slightly towards product marketing.</div><ul><li>Intercom built &#x27;Fin Tasks&#x27; using GPT-4.1 after evaluations showed it could handle complex workflows with lower latency than reasoning models.</li><li>Emphasizes the importance of rigorous evaluations to unlock shipping speed and build model fluency.</li><li>Advocates for an architectural design that allows easy swapping of underlying LLMs as newer models are released.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/accelerate-deepspeed">Accelerate Large Model Training using DeepSpeed</a></h2><div class="why">Provides a foundational explanation of DeepSpeed ZeRO stages (1, 2, and 3) and CPU offloading using Hugging Face Accelerate, though the post is from 2022.</div><ul><li>Explains the differences between ZeRO Stage 1 (sharding optimizer states), Stage 2 (gradients), and Stage 3 (parameters).</li><li>Demonstrates how to configure and run DeepSpeed ZeRO Stage-2 in a multi-GPU setup using the Accelerate CLI without code changes.</li><li>Covers optimizer and parameter offloading to CPU/disk to enable training models that exceed GPU memory limits.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://qwen.ai/blog?id=qwen-image-3.0">Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge</a></h2><div class="why">The post contains no text beyond a comment placeholder, offering no technical details on Qwen-Image-3.0.</div><ul><li>The post lacks any technical substance or text to evaluate the model release.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.apollo.com/wealth/insights-news/insights/2026/06/growing-compute-shortage">The Growing Compute Shortage</a></h2><div class="why">This is a generic financial services landing page with no technical content on compute shortages or ML infrastructure.</div><ul><li>The text is a generic financial services portal for Apollo Global Management and contains no actual discussion of compute shortages.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.allaboutcircuits.com/news/arduino-launches-plug-and-play-modules-for-long-range-sensor-projects/">Arduino Launches Plug-and-Play Modules for Long-Range Sensor Projects</a></h2><div class="why">This is a consumer hardware announcement for Arduino modules, which is irrelevant to industrial MLOps or backend engineering.</div><ul><li>The post announces hobbyist-grade plug-and-play Arduino modules for long-range sensors, lacking industrial or ML applicability.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.tokyodev.com/articles/vtubing-how-a-japanese-phenomenon-is-going-worldwide">VTubing: How a Japanese Phenomenon Is Going Worldwide</a></h2><div class="why">This is a cultural and business overview of the VTubing industry, which is completely unrelated to ML, backend engineering, or infrastructure.</div><ul><li>The article discusses the cultural rise and business model of VTubing, offering no technical value to an ML or backend engineer.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/outtake">Resolving digital threats 100x faster with OpenAI</a></h2><div class="why">This is a promotional customer success story about Outtake using OpenAI&#x27;s API, lacking deep technical architecture or infrastructure details.</div><ul><li>The post is a marketing case study showing how Outtake uses GPT-4.1 and o3 for cybersecurity agent workflows without deep technical implementation details.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/global-affairs/new-economic-analysis">OpenAI’s new economic analysis</a></h2><div class="why">This is a policy and economic announcement regarding AI&#x27;s impact on productivity, which is irrelevant to hands-on ML or backend engineering.</div><ul><li>The post details a macroeconomic study and collaboration on AI&#x27;s labor market impacts, offering no technical engineering takeaways.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/tensorflow-philosophy">Hugging Face&#x27;s TensorFlow Philosophy</a></h2><div class="why">This is an outdated 2022 post about TensorFlow integration, which is of low relevance to modern PyTorch-dominated ML infrastructure.</div><ul><li>The post outlines Hugging Face&#x27;s 2022 philosophy on integrating TensorFlow with Keras, which is outdated for current ML engineering practices.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/how-to-train-sentence-transformers">Train and Fine-Tune Sentence Transformers Models</a></h2><div class="why">This 2022 guide on training sentence transformers is explicitly marked as outdated and superseded by newer APIs.</div><ul><li>The tutorial covers deprecated APIs (SentenceTransformer.fit) from 2022 that have been superseded by SentenceTransformerTrainer in v3.0.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/tf-xla-generate">Faster Text Generation with TensorFlow and XLA</a></h2><div class="why">This is an outdated 2022 post focusing on TensorFlow and XLA compilation, which is less relevant to modern PyTorch/vLLM-based serving stacks.</div><ul><li>The post discusses 2022-era TensorFlow XLA compilation for text generation, which has been largely superseded by PyTorch-based serving engines like vLLM.</li></ul></div></body></html>
