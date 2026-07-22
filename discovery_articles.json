@@ -834,5 +834,115 @@
    "Introduces SoftQ, a new scaling law that couples model size and data size to better fit performance under repeated data epochs than the additive Chinchilla law.",
    "Quantifies MIR's regularization gains as equivalent to roughly 1.3 times as much unique training data."
   ]
+ },
+ "d23fbfda49e01227": {
+  "url": "https://saraswatmks.github.io/2026/07/disaggregated-prefill-decode-vllm.html",
+  "title": "Scaling LLM Inference with Disaggregated Prefill and Decode - Floating Bytes",
+  "domain": "saraswatmks.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-22",
+  "tier": "hidden_gem",
+  "why": "A detailed first-person engineering post analyzing the production disaggregation of prefill and decode phases for a 40M MAU chat service.",
+  "points": [
+   "Disaggregates compute-bound prefill and memory-bandwidth-bound decode phases across distinct GPU pools.",
+   "Profiles real-world chat asymmetry, showing a median 73:1 input-to-output token ratio (2,210 prefill tokens vs 30 decode tokens).",
+   "Details hardware underutilization (30-40% compute on H100s) caused by mixing prefill and decode jobs on monolithic serving nodes."
+  ]
+ },
+ "a70d0fbec2bbe36c": {
+  "url": "https://blog.dailydoseofds.com/p/rlhf-vs-dpo-vs-grpo-in-rl",
+  "title": "RLHF vs. DPO vs. GRPO in RL - by Avi Chawla",
+  "domain": "blog.dailydoseofds.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-22",
+  "tier": "skip",
+  "why": "Mainstream newsletter summary covering high-level RL concepts and recent model release news without original technical depth.",
+  "points": []
+ },
+ "930ce6e105c9e02a": {
+  "url": "https://shrikar.com/writing/post-training-toy-sft-dpo-rlhf",
+  "title": "Post-training a model from scratch: SFT, DPO, and RLHF on your laptop | Shrikar Archak",
+  "domain": "shrikar.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-22",
+  "tier": "hidden_gem",
+  "why": "A practical hands-on engineering post that implements SFT, DPO, and REINFORCE from scratch on an 82M parameter model to demonstrate reward hacking behavior on CPU.",
+  "points": [
+   "Uses a deterministic 10-line lexicon reward function to directly isolate algorithmic differences across post-training methods.",
+   "Demonstrates how policy-gradient RLHF actively hacks a simple specification while SFT and DPO behave predictably.",
+   "Provides exact CPU runtime metrics and reward distributions comparing base distilgpt2 to post-trained checkpoints."
+  ]
+ },
+ "c34f7f3d4796b79c": {
+  "url": "https://livebook.manning.com/book/build-a-reasoning-model-from-scratch/chapter-6",
+  "title": "6 Training reasoning models with reinforcement learning · Build a Reasoning Model (From Scratch)",
+  "domain": "livebook.manning.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-22",
+  "tier": "skip",
+  "why": "A commercial textbook extract offering standard introductory explanations of reinforcement learning concepts.",
+  "points": []
+ },
+ "81d6106ef7e63df1": {
+  "url": "https://blog.dailydoseofds.com/p/verifiable-rewards-and-grpo-in-rl",
+  "title": "Verifiable Rewards and GRPO in RL - by Avi Chawla",
+  "domain": "blog.dailydoseofds.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-22",
+  "tier": "skip",
+  "why": "Promotional newsletter post summarizing standard GRPO concepts to advertise an online course.",
+  "points": []
+ },
+ "2ebe131733075881": {
+  "url": "https://github.com/waynehacking8/nccl-collectives-bench",
+  "title": "GitHub - waynehacking8/nccl-collectives-bench: NCCL collective benchmarks on an 8×H100 NVSwitch host — busbw vs link budget, NVLS/Ring/Tree, small-message latency floors (eager vs CUDA Graph vs symmetric memory), and the TP-decode comms ceiling they imply. Includes a quiet-box rerun methodology for attribution. · GitHub",
+  "domain": "github.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-22",
+  "tier": "hidden_gem",
+  "why": "A highly detailed, benchmark-driven GitHub repository measuring H100 NVSwitch collective latency floors and tensor-parallel decode ceilings.",
+  "points": [
+   "Establishes a ~366 GB/s all-reduce bus bandwidth ceiling (~77% of per-GPU uni-directional NVLink budget) on H100 systems.",
+   "Identifies small-message all-reduce latency (~23 µs / ~271 tok/s ceiling) as the bottleneck bounding tensor-parallel decode speed.",
+   "Evaluates performance trade-offs across collective algorithms (NVLS vs Ring vs Tree) and CUDA Graph overheads."
+  ]
+ },
+ "a843967539b65426": {
+  "url": "https://dev.to/member_2e5ba30f/where-tensor-parallel-inference-hits-the-nvlink-wall-1l8p",
+  "title": "Where Tensor-Parallel Inference Hits the NVLink Wall - DEV Community",
+  "domain": "dev.to",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-22",
+  "tier": "solid_find",
+  "why": "A clear, data-backed summary explaining physical communication bottlenecks in tensor-parallel decode using real 4x H100 benchmarks.",
+  "points": [
+   "Shows that all-reduce bus bandwidth hits ~366 GB/s (77% of NVLink budget) on 4x H100 nodes.",
+   "Explains why small-message latency floors restrict token decode speeds regardless of peak network bandwidth.",
+   "Highlights the importance of CUDA Graph capturing to isolate true communication latency from launch overhead."
+  ]
+ },
+ "e3c5daa00ca342ca": {
+  "url": "https://www.alphaxiv.org/abs/2606.06888",
+  "title": "Data-Constrained Language Model Pretraining: Improved Regularization and Scaling Laws | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-22",
+  "tier": "skip",
+  "why": "The page failed to render due to a PDF viewer rendering error and contains no readable content.",
+  "points": []
+ },
+ "6162ff6555b7afea": {
+  "url": "https://blog.phagyul.ai/p/when-sagemaker-wasnt-the-problem",
+  "title": "When SageMaker Wasn't the Problem",
+  "domain": "blog.phagyul.ai",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-22",
+  "tier": "hidden_gem",
+  "why": "An in-depth infrastructure case study detailing how a production team replaced SageMaker with custom AWS primitives for lower latency and scale-to-zero execution.",
+  "points": [
+   "Replaced managed SageMaker endpoints with EC2 GPU warm pools, Auto Scaling Groups, SQS, and pre-baked GPU AMIs.",
+   "Introduced a TBIE (Truth, Belief, Intent, Execution) control plane model using DynamoDB Streams and EventBridge for self-repairing event reconciliation.",
+   "Reframed model inference from a traditional web-serving problem into an asynchronous event orchestration and state reconciliation problem."
+  ]
  }
 }
