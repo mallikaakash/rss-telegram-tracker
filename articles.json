@@ -32697,5 +32697,191 @@
   "points": [
    "Details non-technical insights from a CFO on adopting AI tools across corporate finance teams."
   ]
+ },
+ "a9d310ac67aa65ba": {
+  "feed": "YC Hacker News",
+  "title": "OpenNode – Bitcoin Payment Processor",
+  "link": "https://opennode.com/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Product marketing landing page for a Bitcoin payment processor with no engineering deep-dives.",
+  "points": [
+   "OpenNode provides APIs and integrations for accepting Bitcoin payments with automated local currency conversion."
+  ]
+ },
+ "7e41e843d5a5b295": {
+  "feed": "YC Hacker News",
+  "title": "The startup's Postgres survival guide",
+  "link": "https://hatchet.run/blog/postgres-survival-guide",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Comprehensive backend infrastructure guide on scaling Postgres, query performance tuning, and production database reliability.",
+  "points": [
+   "Provides schema design guidelines including identity columns, timestamptz, and avoiding foreign key cascade penalties on high-volume tables.",
+   "Details query tuning tactics such as aligning ORDER BY to compound indexes and detecting unnecessary sequential scans.",
+   "Explains production maintenance controls including autovacuum tuning, table bloat mitigation, and using FOR UPDATE SKIP LOCKED for task queues."
+  ]
+ },
+ "54ce1e874621d9f8": {
+  "feed": "YC Hacker News",
+  "title": "I Built a Private Genomics Study with Stoffel MPC",
+  "link": "https://vishakh.blog/2026/07/21/i-built-a-private-genomics-study-with-stoffel-mpc/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates an applied privacy-preserving architecture using Multi-Party Computation (MPC) for secure aggregate data processing.",
+  "points": [
+   "Evaluates Stoffel MPC v0.1.0 (StoffelLang/VM) for running distributed calculations across private participant inputs.",
+   "Successfully computes cohort-level genomic aggregate statistics across 100 simulated mobile clients without centralizing raw data."
+  ]
+ },
+ "8f40531f36c3c56b": {
+  "feed": "YC Hacker News",
+  "title": "Passkeys were invented by engineers with zero understanding of consumer brain",
+  "link": "https://twitter.com/nikitabier/status/2079787406300266743",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "A short opinion tweet criticizing passkey consumer UX without technical engineering context.",
+  "points": [
+   "Critiques passkeys for confusing consumer mental models across OS, browser, and hardware boundaries."
+  ]
+ },
+ "ee122fde561ed7c0": {
+  "feed": "YC Hacker News",
+  "title": "Drake Anthony Recreates the Mechanical Bulb First Seen in 1675 – TechEBlog",
+  "link": "https://www.techeblog.com/drake-anthony-styropyro-mechanical-bulb-barometric-light/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "A fun hands-on physics experiment recreating a historical light source, unrelated to ML or backend engineering.",
+  "points": [
+   "Recreates 1675 barometric light using mercury, custom blown glass, and friction-induced electric charge under vacuum."
+  ]
+ },
+ "bf66d7a685ba8500": {
+  "feed": "Technica",
+  "title": "What happens when you try to chop a photon in half?",
+  "link": "https://arstechnica.com/science/2026/07/what-happens-when-you-try-to-chop-a-photon-in-half/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Popular theoretical quantum physics article with no software or machine learning relevance.",
+  "points": [
+   "Explores theoretical quantum electrodynamics when interrupting photon reflection midway through a mirror movement."
+  ]
+ },
+ "ec06410487b55732": {
+  "feed": "Technica",
+  "title": "Samsung unveils new Galaxy Z8 foldables and Galaxy Watches, available August 7",
+  "link": "https://arstechnica.com/gadgets/2026/07/samsung-unveils-new-galaxy-z8-foldables-and-galaxy-watches-available-august-7/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Standard consumer mobile hardware release announcement from Samsung.",
+  "points": [
+   "Samsung announced the Galaxy Z Fold 8, Fold 8 Ultra, and Z Flip 8 powered by the Snapdragon 8 Elite Gen 5 chip."
+  ]
+ },
+ "d1a137b6b1c854a8": {
+  "feed": "Technica",
+  "title": "Unlimited AI tokens aren't unlimited after all as US Army burns through supply",
+  "link": "https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Provides real-world operational data on enterprise token consumption rates and quota exhaustion in large organizations.",
+  "points": [
+   "US Army's Ask Sage platform exhausted its annual pool of 'unlimited' AI tokens within one month due to high organizational adoption.",
+   "Highlights enterprise infrastructure scaling challenges regarding LLM rate limits, cost caps, and multi-model access management."
+  ]
+ },
+ "76a7829571078134": {
+  "feed": "Technica",
+  "title": "Ukrainian drones deliver robots directly into battle by sea and air",
+  "link": "https://arstechnica.com/gadgets/2026/07/ukrainian-drones-deliver-robots-directly-into-battle-by-sea-and-air/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "News report on military tactical drone usage, lacking software, backend, or ML engineering details.",
+  "points": [
+   "Ukrainian forces used heavy hexacopter drones and unmanned boats to deploy wheeled ground robots past defensive lines."
+  ]
+ },
+ "15eb5b1c419aea07": {
+  "feed": "Google DeepMind",
+  "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+  "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Corporate PR release announcing cloud credit grants to government labs without technical details.",
+  "points": [
+   "Google is committing $40 million in cloud credits, Gemini access, and GDM scientific models (AlphaFold 3, AlphaGenome) to DOE researchers."
+  ]
+ },
+ "a03d9320e2091b45": {
+  "feed": "OpenAI News",
+  "title": "Sharing the latest Model Spec",
+  "link": "https://openai.com/index/sharing-the-latest-model-spec",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Directly relevant to LLM post-training and safety, detailing OpenAI's operational specification for steering model behavior.",
+  "points": [
+   "Establishes an explicit chain-of-command hierarchy (platform guidelines > developer instructions > user prompts) for model steering.",
+   "Defines concrete rules for balancing objectivity ('seek the truth together') with user intent and safety boundaries.",
+   "Released under CC0 license with empirical evaluation data on model adherence to behavioral principles."
+  ]
+ },
+ "261796568ea6bab5": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and the CSU system bring AI to 500,000 students & faculty",
+  "link": "https://openai.com/index/openai-and-the-csu-system",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Corporate press release announcing an enterprise software deployment at a university system.",
+  "points": [
+   "California State University system is deploying ChatGPT Edu to 500,000 students and staff across 23 campuses."
+  ]
+ },
+ "f9592b007e3f00ab": {
+  "feed": "OpenAI News",
+  "title": "Building a custom math tutor powered by ChatGPT",
+  "link": "https://openai.com/index/my-dog-the-math-tutor",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Non-technical human interest story on creating a basic custom GPT prompt persona for a child.",
+  "points": [
+   "Describes a non-technical user configuring a custom GPT with a dog persona to help his child learn basic arithmetic."
+  ]
+ },
+ "aeaf6fe7b0a641f9": {
+  "feed": "OpenAI News",
+  "title": "Computer-Using Agent",
+  "link": "https://openai.com/index/computer-using-agent",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Major frontier ML release introducing OpenAI's Computer-Using Agent (CUA) trained with RL for GUI perception and action.",
+  "points": [
+   "Combines vision capabilities with RL-driven reasoning (Chain of Thought) to operate software GUIs using virtual keyboard and mouse inputs.",
+   "Achieves state-of-the-art results: 38.1% success rate on OSWorld, 58.1% on WebArena, and 87% on WebVoyager.",
+   "Executes via an iterative Perception-Reasoning-Action loop operating purely on raw pixel inputs without requiring custom APIs."
+  ]
+ },
+ "0ded8438ecb7cb3b": {
+  "feed": "OpenAI News",
+  "title": "Bertelsmann powers creativity and productivity with OpenAI",
+  "link": "https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Standard enterprise partnership PR announcement without technical engineering details.",
+  "points": [
+   "Media company Bertelsmann is rolling out ChatGPT Enterprise and establishing an internal AI Hub."
+  ]
+ },
+ "d39a1ef9680f5dd0": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+  "link": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "In-depth technical breakdown of open LLM post-training dynamics, Kimi K3, distillation debates, and frontier capability evaluation.",
+  "points": [
+   "Analyzes recent Chinese open-weight model advancements (Kimi K3, Qwen) and geopolitical factors accelerating open frontier releases.",
+   "Critiques common model distillation arguments and explains why agentic coding/computer-use benchmarks better reflect real capability gaps.",
+   "Examines the economic, security, and open-vs-closed strategic landscape as open weights approach proprietary performance."
+  ]
  }
 }

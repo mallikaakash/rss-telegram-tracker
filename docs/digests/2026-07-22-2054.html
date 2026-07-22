@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Wed 22 Jul 2026, 20:54 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Wed 22 Jul 2026, 20:54 IST &middot; 16 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Key updates include OpenAI’s GUI-operating Computer-Using Agent, an open LLM post-training analysis, OpenAI&#x27;s updated Model Spec, and a practical Postgres scaling guide.</div><div class="section">Must read &middot; 4</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://hatchet.run/blog/postgres-survival-guide">The startup&#x27;s Postgres survival guide</a></h2><div class="why">Comprehensive backend infrastructure guide on scaling Postgres, query performance tuning, and production database reliability.</div><ul><li>Provides schema design guidelines including identity columns, timestamptz, and avoiding foreign key cascade penalties on high-volume tables.</li><li>Details query tuning tactics such as aligning ORDER BY to compound indexes and detecting unnecessary sequential scans.</li><li>Explains production maintenance controls including autovacuum tuning, table bloat mitigation, and using FOR UPDATE SKIP LOCKED for task queues.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/sharing-the-latest-model-spec">Sharing the latest Model Spec</a></h2><div class="why">Directly relevant to LLM post-training and safety, detailing OpenAI&#x27;s operational specification for steering model behavior.</div><ul><li>Establishes an explicit chain-of-command hierarchy (platform guidelines &gt; developer instructions &gt; user prompts) for model steering.</li><li>Defines concrete rules for balancing objectivity (&#x27;seek the truth together&#x27;) with user intent and safety boundaries.</li><li>Released under CC0 license with empirical evaluation data on model adherence to behavioral principles.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/computer-using-agent">Computer-Using Agent</a></h2><div class="why">Major frontier ML release introducing OpenAI&#x27;s Computer-Using Agent (CUA) trained with RL for GUI perception and action.</div><ul><li>Combines vision capabilities with RL-driven reasoning (Chain of Thought) to operate software GUIs using virtual keyboard and mouse inputs.</li><li>Achieves state-of-the-art results: 38.1% success rate on OSWorld, 58.1% on WebArena, and 87% on WebVoyager.</li><li>Executes via an iterative Perception-Reasoning-Action loop operating purely on raw pixel inputs without requiring custom APIs.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Interconnects (Nathan Lambert)</span><h2><a href="https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3">Open models recap: more on Kimi K3, Qwen 3.8, Xi&#x27;s WAIC speech, distillation, the open-closed gap, and what&#x27;s next</a></h2><div class="why">In-depth technical breakdown of open LLM post-training dynamics, Kimi K3, distillation debates, and frontier capability evaluation.</div><ul><li>Analyzes recent Chinese open-weight model advancements (Kimi K3, Qwen) and geopolitical factors accelerating open frontier releases.</li><li>Critiques common model distillation arguments and explains why agentic coding/computer-use benchmarks better reflect real capability gaps.</li><li>Examines the economic, security, and open-vs-closed strategic landscape as open weights approach proprietary performance.</li></ul></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://vishakh.blog/2026/07/21/i-built-a-private-genomics-study-with-stoffel-mpc/">I Built a Private Genomics Study with Stoffel MPC</a></h2><div class="why">Demonstrates an applied privacy-preserving architecture using Multi-Party Computation (MPC) for secure aggregate data processing.</div><ul><li>Evaluates Stoffel MPC v0.1.0 (StoffelLang/VM) for running distributed calculations across private participant inputs.</li><li>Successfully computes cohort-level genomic aggregate statistics across 100 simulated mobile clients without centralizing raw data.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/ai/2026/07/us-army-faces-ai-use-limits-after-exhausting-years-supply-of-ai-tokens/">Unlimited AI tokens aren&#x27;t unlimited after all as US Army burns through supply</a></h2><div class="why">Provides real-world operational data on enterprise token consumption rates and quota exhaustion in large organizations.</div><ul><li>US Army&#x27;s Ask Sage platform exhausted its annual pool of &#x27;unlimited&#x27; AI tokens within one month due to high organizational adoption.</li><li>Highlights enterprise infrastructure scaling challenges regarding LLM rate limits, cost caps, and multi-model access management.</li></ul></div><div class="section">Low priority &middot; 10</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://opennode.com/">OpenNode – Bitcoin Payment Processor</a></h2><div class="why">Product marketing landing page for a Bitcoin payment processor with no engineering deep-dives.</div><ul><li>OpenNode provides APIs and integrations for accepting Bitcoin payments with automated local currency conversion.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://twitter.com/nikitabier/status/2079787406300266743">Passkeys were invented by engineers with zero understanding of consumer brain</a></h2><div class="why">A short opinion tweet criticizing passkey consumer UX without technical engineering context.</div><ul><li>Critiques passkeys for confusing consumer mental models across OS, browser, and hardware boundaries.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.techeblog.com/drake-anthony-styropyro-mechanical-bulb-barometric-light/">Drake Anthony Recreates the Mechanical Bulb First Seen in 1675 – TechEBlog</a></h2><div class="why">A fun hands-on physics experiment recreating a historical light source, unrelated to ML or backend engineering.</div><ul><li>Recreates 1675 barometric light using mercury, custom blown glass, and friction-induced electric charge under vacuum.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/07/what-happens-when-you-try-to-chop-a-photon-in-half/">What happens when you try to chop a photon in half?</a></h2><div class="why">Popular theoretical quantum physics article with no software or machine learning relevance.</div><ul><li>Explores theoretical quantum electrodynamics when interrupting photon reflection midway through a mirror movement.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/gadgets/2026/07/samsung-unveils-new-galaxy-z8-foldables-and-galaxy-watches-available-august-7/">Samsung unveils new Galaxy Z8 foldables and Galaxy Watches, available August 7</a></h2><div class="why">Standard consumer mobile hardware release announcement from Samsung.</div><ul><li>Samsung announced the Galaxy Z Fold 8, Fold 8 Ultra, and Z Flip 8 powered by the Snapdragon 8 Elite Gen 5 chip.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/gadgets/2026/07/ukrainian-drones-deliver-robots-directly-into-battle-by-sea-and-air/">Ukrainian drones deliver robots directly into battle by sea and air</a></h2><div class="why">News report on military tactical drone usage, lacking software, backend, or ML engineering details.</div><ul><li>Ukrainian forces used heavy hexacopter drones and unmanned boats to deploy wheeled ground robots past defensive lines.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Google DeepMind</span><h2><a href="https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/">Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission</a></h2><div class="why">Corporate PR release announcing cloud credit grants to government labs without technical details.</div><ul><li>Google is committing $40 million in cloud credits, Gemini access, and GDM scientific models (AlphaFold 3, AlphaGenome) to DOE researchers.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/openai-and-the-csu-system">OpenAI and the CSU system bring AI to 500,000 students &amp; faculty</a></h2><div class="why">Corporate press release announcing an enterprise software deployment at a university system.</div><ul><li>California State University system is deploying ChatGPT Edu to 500,000 students and staff across 23 campuses.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/my-dog-the-math-tutor">Building a custom math tutor powered by ChatGPT</a></h2><div class="why">Non-technical human interest story on creating a basic custom GPT prompt persona for a child.</div><ul><li>Describes a non-technical user configuring a custom GPT with a dog persona to help his child learn basic arithmetic.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai">Bertelsmann powers creativity and productivity with OpenAI</a></h2><div class="why">Standard enterprise partnership PR announcement without technical engineering details.</div><ul><li>Media company Bertelsmann is rolling out ChatGPT Enterprise and establishing an internal AI Hub.</li></ul></div></body></html>
