@@ -32582,5 +32582,120 @@
   "points": [
    "Summarizes OpenAI's actions against state-sponsored covert influence operations."
   ]
+ },
+ "2951a5e1d5bcfb3c": {
+  "feed": "YC Hacker News",
+  "title": "OverpAId – Fire your CEO. Hire the future",
+  "link": "https://overpaid.lol",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Empty submission lacking technical content.",
+  "points": [
+   "Contains no engineering writeup or actionable technical insights."
+  ]
+ },
+ "2d4ccb3c01f5ee8e": {
+  "feed": "YC Hacker News",
+  "title": "So Reddit has decided that plain HTML is unsafe",
+  "link": "https://www.cole-k.com/2026/07/21/reddit/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Discusses real-world platform engineering trade-offs regarding scraping mitigation, legacy frontends, and data access.",
+  "points": [
+   "Reddit restricted logged-out access on old.reddit.com under the rationale of blocking automated LLM scraping.",
+   "Illustrates operational tensions between supporting legacy interfaces, data monetization, and abuse prevention."
+  ]
+ },
+ "19d731942f5fd170": {
+  "feed": "YC Hacker News",
+  "title": "Cornell's Interactive Wall of Birds",
+  "link": "https://academy.allaboutbirds.org/features/wallofbirds/?_hsmi=428996456",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Lacks text and technical depth relevant to ML or backend systems.",
+  "points": [
+   "Submission contains no engineering article or technical data."
+  ]
+ },
+ "c8536203f2ab722b": {
+  "feed": "YC Hacker News",
+  "title": "10 REM\"_(C2SLFF4",
+  "link": "https://beej.us/blog/data/mystery-comment/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "An engaging low-level reverse engineering exploration of Z80 assembly code embedded inside BASIC ASCII strings.",
+  "points": [
+   "Explains how 1980s BASIC games embedded executable Z80 machine code inside REM comment lines for PRNG seeding.",
+   "Demonstrates assembly trampolines using BASIC memory POKE commands and USR function calls."
+  ]
+ },
+ "948e7116f8444d51": {
+  "feed": "YC Hacker News",
+  "title": "ScreenWall – Turn old phones into synced widgets for your space",
+  "link": "https://screenwall.app/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "A promotional product launch page for a consumer multi-device display application.",
+  "points": [
+   "Presents a browser-based tool to sync widgets and displays across repurposed smartphones."
+  ]
+ },
+ "bd6ce42035f55001": {
+  "feed": "OpenAI News",
+  "title": "Building AI infrastructure with the Effingham County community",
+  "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Provides notable context on large-scale AI datacenter compute requirements and power infrastructure constraints.",
+  "points": [
+   "OpenAI contracted 3.2 GW of power for its phased Project Camellia datacenter buildout through 2032.",
+   "Incorporates closed-loop water cooling and demand-response power shedding to protect the local power grid."
+  ]
+ },
+ "c54f46e53d48e304": {
+  "feed": "OpenAI News",
+  "title": "Introducing OpenAI Presence",
+  "link": "https://openai.com/index/introducing-openai-presence",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Enterprise product marketing announcement lacking technical architecture details on agent implementations.",
+  "points": [
+   "Announces OpenAI Presence, an enterprise product suite for managing customer support and voice/chat AI agents."
+  ]
+ },
+ "dbe2e8dc6cd990b6": {
+  "feed": "OpenAI News",
+  "title": "Introducing the SWE-Lancer benchmark",
+  "link": "https://openai.com/index/swe-lancer",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Introduces a key real-world benchmark for evaluating LLM capabilities on complex software engineering and managerial tasks.",
+  "points": [
+   "Benchmarking dataset includes over 1,400 real Upwork engineering tasks valued at $1M total.",
+   "Frontier models struggle on complex tasks, failing to solve the majority of real-world freelance projects.",
+   "Provides SWE-Lancer Diamond, an offline Dockerized evaluation split designed for reliable local testing."
+  ]
+ },
+ "0f0a75108bb5d236": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and Guardian Media Group launch content partnership",
+  "link": "https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Standard corporate content licensing partnership announcement with no technical relevance.",
+  "points": [
+   "OpenAI partnered with Guardian Media Group to display attributed news summaries inside ChatGPT."
+  ]
+ },
+ "6cdda88f9f16304b": {
+  "feed": "OpenAI News",
+  "title": "Fanatics Betting and Gaming uses AI to focus on the big picture",
+  "link": "https://openai.com/index/fanatics-betting-gaming-andrea-ellis",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Non-technical enterprise marketing interview focused on corporate finance AI workflows.",
+  "points": [
+   "Details non-technical insights from a CFO on adopting AI tools across corporate finance teams."
+  ]
  }
 }
