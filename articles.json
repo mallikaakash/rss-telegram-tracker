@@ -32468,5 +32468,119 @@
    "Outlines fast-paced production deployment loops from mathematical formulation to live dark store experimentation.",
    "Emphasizes system observability and tight alignment between business constraints and data science models."
   ]
+ },
+ "8797303f0cfaf8ee": {
+  "feed": "YC Hacker News",
+  "title": "Introduction to Formal Verification with Lean Part 1",
+  "link": "https://hashcloak.com/blog/tutorial-introduction-to-formal-verification-with-lean-(part-1)",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Formal verification of cryptography in Lean is off-target for ML engineering, backend systems, and industrial optimization.",
+  "points": [
+   "Walks through verifying the One-Time Pad protocol using the Lean theorem prover."
+  ]
+ },
+ "45436653d7bebb6a": {
+  "feed": "YC Hacker News",
+  "title": "Codeberg: ToU extension to prohibit LLM-extrusions",
+  "link": "https://codeberg.org/Codeberg/org/pulls/1253",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Focuses on open-source code hosting policy changes regarding AI-generated code rather than engineering topics.",
+  "points": [
+   "Codeberg proposed a Terms of Use update to restrict uploading AI-generated software projects."
+  ]
+ },
+ "02703bfd024a3c65": {
+  "feed": "YC Hacker News",
+  "title": "AMD Ryzen 7 7700X3D Review: 3D V-Cache Gaming Performance for Less – HotHardware",
+  "link": "https://hothardware.com/reviews/amd-ryzen-7-7700x3d-gaming-cpu-review",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "A consumer gaming CPU review with no relevance to enterprise backend or GPU ML infrastructure.",
+  "points": [
+   "Evaluates AMD Ryzen 7 7700X3D desktop gaming performance against the 7800X3D."
+  ]
+ },
+ "2b97f7a70f549309": {
+  "feed": "YC Hacker News",
+  "title": "Ten Steps Towards Happiness (2015)",
+  "link": "http://hintjens.com/blog:99",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "A personal lifestyle essay from 2015 with no technical backend or ML content.",
+  "points": [
+   "Offers ten non-technical habits for personal happiness and well-being."
+  ]
+ },
+ "744516432839aec6": {
+  "feed": "YC Hacker News",
+  "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+  "link": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Provides concrete insights into long-horizon agentic tool use, iterative feedback loops, and cost-performance trade-offs across frontier models.",
+  "points": [
+   "Tests GPT-5.6, Claude Fable 5, Grok 4.5, and Gemini 3.6 Flash on iterative tool calling (brush, pressure, erase, view_canvas).",
+   "Open-weight models failed completely on the complex multi-step canvas drawing environment.",
+   "Claude Fable 5 incurred significantly higher latency and execution cost while generating weaker output than GPT-5.6."
+  ]
+ },
+ "4fc436a4d689d1f4": {
+  "feed": "OpenAI News",
+  "title": "Introducing next-generation audio models in the API",
+  "link": "https://openai.com/index/introducing-our-next-generation-audio-models",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Relevant API update detailing OpenAI's new speech-to-text and controllable text-to-speech models built via audio pretraining and RL.",
+  "points": [
+   "Introduces gpt-4o-transcribe and gpt-4o-mini-transcribe with lower word error rates than Whisper.",
+   "Adds controllable text-to-speech prompting to specify voice persona and speaking style.",
+   "Models were trained using native audio pretraining, distillation, and reinforcement learning."
+  ]
+ },
+ "d3cb5d4d8166dd4b": {
+  "feed": "OpenAI News",
+  "title": "EliseAI improves housing and healthcare efficiency with AI",
+  "link": "https://openai.com/index/eliseai-minna-song",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Promotional customer case study on how a startup uses OpenAI models for healthcare and housing workflows.",
+  "points": [
+   "EliseAI uses conversational LLMs to automate operational workflows in housing and healthcare."
+  ]
+ },
+ "876e271deeb27561": {
+  "feed": "OpenAI News",
+  "title": "Introducing NextGenAI",
+  "link": "https://openai.com/index/introducing-nextgenai",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Corporate PR and grant funding announcement for academic research consortia.",
+  "points": [
+   "OpenAI commits $50M in grants and compute to 15 academic institutions."
+  ]
+ },
+ "2d46d96a3cffa420": {
+  "feed": "OpenAI News",
+  "title": "Supporting sellers with enhanced product listings",
+  "link": "https://openai.com/index/mercari",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Standard vendor customer story detailing Mercari's usage of GPT-4o mini for product listings.",
+  "points": [
+   "Mercari used GPT-4o mini to auto-generate item descriptions from uploaded images."
+  ]
+ },
+ "0f5b77ae32d46dce": {
+  "feed": "OpenAI News",
+  "title": "Disrupting malicious uses of AI",
+  "link": "https://openai.com/global-affairs/disrupting-malicious-uses-of-ai",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "A threat intelligence and global policy report rather than engineering or model infrastructure.",
+  "points": [
+   "Summarizes OpenAI's actions against state-sponsored covert influence operations."
+  ]
  }
 }
