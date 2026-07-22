@@ -32267,5 +32267,206 @@
    "Devin Outposts decouples reasoning in Cognition's cloud from execution in user-controlled Modal sandboxes.",
    "Leverages Modal's fast cold-starts, GPU-backed devboxes, and workspace snapshotting for agent loops."
   ]
+ },
+ "5652bb84fd991abb": {
+  "feed": "YC Hacker News",
+  "title": "Intel Starts Shipping High-NA EUV Silicon",
+  "link": "https://morethanmoore.substack.com/p/intel-starts-shipping-high-na-euv",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "General semiconductor hardware shipping news without actionable software, distributed systems, or ML infra depth.",
+  "points": [
+   "Intel began shipping High-NA EUV silicon for next-generation semiconductor manufacturing."
+  ]
+ },
+ "ac9c2ae4e1b39823": {
+  "feed": "YC Hacker News",
+  "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
+  "link": "https://github.com/chrislgarry/Apollo-11",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Historical source code repository without relevance to modern ML or backend infrastructure engineering.",
+  "points": [
+   "Public release of the original Apollo 11 Guidance Computer assembly code on GitHub."
+  ]
+ },
+ "2bc3528fd6c35c37": {
+  "feed": "YC Hacker News",
+  "title": "Late.sh – a command-line Clubhouse for computer people",
+  "link": "https://late.sh/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "A CLI/SSH social and gaming side-project with no relevance to distributed systems or ML engineering.",
+  "points": [
+   "SSH-accessible terminal application featuring ASCII artboards, games, and chat tied to SSH public keys."
+  ]
+ },
+ "95acb884ceba539c": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: ReadKinetic – a free, local-first speed reader for your own books",
+  "link": "https://www.readkinetic.com/app/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "A niche consumer desktop utility for speed reading, outside the reader's backend and ML focus.",
+  "points": [
+   "Local-first speed reading application for personal ebook files."
+  ]
+ },
+ "70acebfbab7b1b0d": {
+  "feed": "YC Hacker News",
+  "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+  "link": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Strategically significant legal landmark establishing financial settlement boundaries for LLM pretraining data copyright.",
+  "points": [
+   "Approved $1.5 billion class-action copyright settlement between Anthropic and book authors.",
+   "Court established that training on books was fair use, but retaining pirated source copies was not.",
+   "Authors receive an estimated $3,000 per copyrighted work payout."
+  ]
+ },
+ "f175965d872f0d08": {
+  "feed": "Technica",
+  "title": "Let Tom Hiddleston be your guide to Pompeii's final day",
+  "link": "https://arstechnica.com/science/2026/07/tom-hiddleston-tracks-possible-pompeii-survivors-in-new-docuseries/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Off-topic promotional text for a historical television documentary series.",
+  "points": [
+   "Announcement of a National Geographic docuseries on Pompeii narrated by Tom Hiddleston."
+  ]
+ },
+ "d82254b52b6cbc34": {
+  "feed": "Technica",
+  "title": "Naked mole-rat queens use a chemical signal to suppress fertility in rivals",
+  "link": "https://arstechnica.com/science/2026/07/naked-mole-rat-queens-keep-their-colonies-in-line-with-a-scent/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Biology research article with no application to machine learning or backend engineering.",
+  "points": [
+   "Naked mole-rat queens emit olfactory chemical signals to block reproduction in competing colony females."
+  ]
+ },
+ "64a68149b53a1599": {
+  "feed": "Technica",
+  "title": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
+  "link": "https://arstechnica.com/tech-policy/2026/07/judge-approves-anthropics-1-5-billion-copyright-settlement-with-authors/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Redundant coverage of the Anthropic $1.5B copyright settlement already captured in post [4].",
+  "points": [
+   "Details the opt-out mechanism and legal background of Anthropic's $1.5 billion settlement."
+  ]
+ },
+ "a2d15ea4558f6433": {
+  "feed": "OpenAI News",
+  "title": "Our response to the UK’s copyright consultation",
+  "link": "https://openai.com/global-affairs/response-to-uk-copyright-consultation",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Policy lobbying document detailing OpenAI's preference for text and data mining exceptions in the UK.",
+  "points": [
+   "OpenAI advocates for broad text and data mining exceptions to promote UK AI development over opt-out systems."
+  ]
+ },
+ "700d9823667cb51b": {
+  "feed": "OpenAI News",
+  "title": "Addendum to GPT-4o System Card: 4o image generation",
+  "link": "https://openai.com/index/gpt-4o-image-generation-system-card-addendum",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Provides system-level context on how image generation is natively integrated into GPT-4o's omnimodal architecture.",
+  "points": [
+   "Native deep architectural integration allows GPT-4o to generate photorealistic images directly within the model.",
+   "Uses existing DALL-E and Sora safety pipelines augmented with new evaluations for image transformation risks.",
+   "Enhances instruction following and text rendering capability inside generated images."
+  ]
+ },
+ "3ba0084eaf4437f3": {
+  "feed": "OpenAI News",
+  "title": "Automating 90% of finance and legal work with agents",
+  "link": "https://openai.com/index/hebbia",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Illustrates practical multi-agent orchestration architecture that bypasses standard RAG context limits using o1/o3-mini.",
+  "points": [
+   "Multi-agent swarm orchestrates o1, o3-mini, and GPT-4o to handle deep financial and legal research.",
+   "Distributed orchestration engine achieves 92% accuracy compared to 68% with baseline RAG.",
+   "Effectively provides an infinite context window across massive offline document sets."
+  ]
+ },
+ "ae6f9b081876c8b8": {
+  "feed": "OpenAI News",
+  "title": "Early methods for studying affective use and emotional well-being on ChatGPT",
+  "link": "https://openai.com/index/affective-use-study",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "User psychology and sociology research study on chatbot emotional attachment, off-target for technical ML engineering.",
+  "points": [
+   "Joint OpenAI/MIT study examining how emotional engagement with ChatGPT affects user loneliness and well-being."
+  ]
+ },
+ "6895bef8954708af": {
+  "feed": "OpenAI News",
+  "title": "Personalizing travel at scale with OpenAI",
+  "link": "https://openai.com/index/booking-com",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Standard customer case study and product marketing for Booking.com's AI Trip Planner.",
+  "points": [
+   "Booking.com integrated GPT models with internal pricing and availability APIs to launch a conversational travel assistant."
+  ]
+ },
+ "118f0af8b6445346": {
+  "feed": "Hugging Face Blog",
+  "title": "Hyperparameter Search with Transformers and Ray Tune",
+  "link": "https://huggingface.co/blog/ray-tune",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Practical guide on integrating Ray Tune with Hugging Face Transformers for distributed hyperparameter optimization.",
+  "points": [
+   "Ray Tune integration enables Population-Based Training (PBT) and Bayesian optimization with minimal code additions.",
+   "PBT achieved 70.5% test accuracy vs 65.4% for grid search while using less GPU time.",
+   "Integrates seamlessly with Hugging Face Trainer API for pruned trial execution."
+  ]
+ },
+ "245cf6650933f0d0": {
+  "feed": "Hugging Face Blog",
+  "title": "Block Sparse Matrices for Smaller and Faster Language Models",
+  "link": "https://huggingface.co/blog/pytorch_block_sparse",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "High-impact technical deep dive into custom CUTLASS CUDA kernels for block-sparse linear layers in LLMs.",
+  "points": [
+   "pytorch_block_sparse replaces torch.nn.Linear to enable compressed and accelerated matrix multiplication.",
+   "75% block sparsity yields up to 2x speedups and 75% memory reduction during execution.",
+   "Leverages NVIDIA CUTLASS CUDA templates compatible with Tensor Core primitives."
+  ]
+ },
+ "87e0b8db3ace9ff3": {
+  "feed": "Hugging Face Blog",
+  "title": "The Reformer - Pushing the limits of language modeling",
+  "link": "https://huggingface.co/blog/reformer",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Essential architectural deep dive on Transformer efficiency covering memory reduction, positional encodings, and attention scaling.",
+  "points": [
+   "Reversible residual layers store no intermediate activations during forward pass, dramatically lowering training memory.",
+   "Locality-Sensitive Hashing (LSH) attention reduces attention memory footprint from O(N^2) to O(N log N).",
+   "Axial positional encodings enable sequence lengths up to 500,000 tokens on single-GPU hardware."
+  ]
+ },
+ "70d1b0af2b68dee4": {
+  "feed": "Zepto Engineering",
+  "title": "A Field Guide to My Data Science Internship at Zepto",
+  "link": "https://blog.zepto.com/a-field-guide-to-my-data-science-internship-at-zepto-1cf0ea7ae928?source=rss----bd632b1d570d---4",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Engineering and applied ML breakdown from a top Indian quick-commerce startup on dynamic inventory pricing and constrained optimization.",
+  "points": [
+   "Applied constrained mathematical optimization to solve real-time inventory-based pricing in quick commerce.",
+   "Outlines fast-paced production deployment loops from mathematical formulation to live dark store experimentation.",
+   "Emphasizes system observability and tight alignment between business constraints and data science models."
+  ]
  }
 }
