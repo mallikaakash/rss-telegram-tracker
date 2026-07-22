@@ -32993,5 +32993,148 @@
   "points": [
    "OpenAI o1 and new tools for developers | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI Product OpenAI o1 and new tools for developers Introducing OpenAI o1, Realtime API improvements, a new fine-tuning method and more for developers."
   ]
+ },
+ "8fcc591b02ebed1d": {
+  "feed": "YC Hacker News",
+  "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
+  "link": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "The post consists of bare UI boilerplate without technical text or actionable ML insights.",
+  "points": [
+   "Lacks readable text or technical context regarding the conversation."
+  ]
+ },
+ "e08b4c6de43cfaee": {
+  "feed": "YC Hacker News",
+  "title": "GigaToken: ~1000x faster Language model tokenization",
+  "link": "https://github.com/marcelroed/gigatoken/",
+  "date": "2026-07-23",
+  "tier": "must_read",
+  "why": "Optimizing tokenization speed directly impacts LLM preprocessing pipelines and inference ingestion throughput.",
+  "points": [
+   "Implements high-performance tokenization in Rust reaching GB/s processing speeds.",
+   "Demonstrates up to ~1000x throughput improvements over conventional Python tokenizers.",
+   "Reduces pre-tokenization bottlenecks for large dataset ingestion in training pipelines."
+  ]
+ },
+ "d710319afe073d18": {
+  "feed": "YC Hacker News",
+  "title": "Nobody knows what a used GPU cluster is worth",
+  "link": "https://ciphertalk.substack.com/p/nobody-knows-what-a-used-gpu-cluster",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "The post lacks underlying body text or analysis regarding GPU hardware valuation.",
+  "points": [
+   "Contains no text or analysis on GPU hardware cluster pricing."
+  ]
+ },
+ "accc1b9b3971705f": {
+  "feed": "YC Hacker News",
+  "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
+  "link": "https://cruciblebench.ai/",
+  "date": "2026-07-23",
+  "tier": "must_read",
+  "why": "Presents an innovative, budget-friendly benchmark for agent RL and exposes critical fragility in LLM-as-a-judge scoring.",
+  "points": [
+   "Evaluates LLM agent state planning and trust dynamics within a persistent MUD environment.",
+   "Reveals that minor prompt or model variations in LLM judges reorder benchmark leaderboards by up to six ranks.",
+   "Provides 650 full replayable agent interaction transcripts built for under $100."
+  ]
+ },
+ "6e8a63b0c20dd747": {
+  "feed": "YC Hacker News",
+  "title": "Are AI Labs Pelicanmaxxing?",
+  "link": "https://dylancastillo.co/posts/pelicanmaxxing.html",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Provides empirical testing on benchmark contamination and gaming across major frontier models.",
+  "points": [
+   "Generates 1,008 SVGs across 7 models to test whether labs overfitted to the famous pelican-on-a-bicycle prompt.",
+   "Finds no strong statistical evidence that labs explicitly benchmaxxed pelican SVG capabilities.",
+   "Uses multi-stage LLM judging and feature extraction to measure cross-domain generalization."
+  ]
+ },
+ "d74b20cb87441fb3": {
+  "feed": "Google Research",
+  "title": "Towards a quantum computer that learns from its errors",
+  "link": "https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors/",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Quantum hardware error correction falls outside core ML infrastructure and backend engineering priorities.",
+  "points": [
+   "Applies reinforcement learning to stabilize quantum systems against environmental drift."
+  ]
+ },
+ "c29128dea28e476e": {
+  "feed": "OpenAI News",
+  "title": "Elon Musk wanted an OpenAI for-profit",
+  "link": "https://openai.com/index/elon-musk-wanted-an-openai-for-profit",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Contains non-technical corporate drama and legal timeline statements regarding OpenAI's governance history.",
+  "points": [
+   "Outlines OpenAI's stance and timeline regarding historical disputes with Elon Musk."
+  ]
+ },
+ "599d8f36d372078e": {
+  "feed": "OpenAI News",
+  "title": "Sora System Card",
+  "link": "https://openai.com/index/sora-system-card",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Offers architectural details on Sora's diffusion transformer alongside safety evaluation frameworks.",
+  "points": [
+   "Combines visual patch tokenization with transformer architectures for video generation.",
+   "Utilizes DALL-E 3 style recaptioning to improve prompt adherence across temporal frames.",
+   "Outlines OpenAI's red-teaming and safety mitigation stack for visual generation."
+  ]
+ },
+ "104dd14a420609e2": {
+  "feed": "OpenAI News",
+  "title": "Minne Atairu & Sora",
+  "link": "https://openai.com/index/sora-minne-atairu",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Promotional artist spotlight with no engineering details or architectural insights.",
+  "points": [
+   "Focuses on artistic use cases without technical implementation details."
+  ]
+ },
+ "09da17e16c5720e1": {
+  "feed": "OpenAI News",
+  "title": "Put AI to work for your product team",
+  "link": "https://openai.com/index/put-ai-to-work-for-your-product-team",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Product marketing webinar announcement with zero technical or infrastructure substance.",
+  "points": [
+   "Promotional event invite for product teams."
+  ]
+ },
+ "6f2f11e9bd55044e": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT Pro",
+  "link": "https://openai.com/index/introducing-chatgpt-pro",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Announces ChatGPT Pro while sharing evaluation metrics on o1 pro mode's multi-run reliability for reasoning.",
+  "points": [
+   "Introduces o1 pro mode using increased compute for hard reasoning problems.",
+   "Reports 4/4 strict reliability accuracy metrics on AIME (80%) and Codeforces (75%).",
+   "Priced at $200/month for compute-intensive research workloads."
+  ]
+ },
+ "1dea4f3bbb8aea52": {
+  "feed": "MIT News (AI)",
+  "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+  "link": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Honors a foundational figure in dynamic programming, optimal control, and reinforcement learning theory.",
+  "points": [
+   "Commemorates Dimitri Bertsekas, pioneer of dynamic programming and neuro-dynamic programming textbooks.",
+   "Recognizes his foundational theoretical work that underpins modern RL and constrained optimization."
+  ]
  }
 }
