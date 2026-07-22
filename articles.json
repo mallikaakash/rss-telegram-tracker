@@ -32027,5 +32027,245 @@
   "points": [
    "The Partnership: Amazon SageMaker and Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> The Partnership: Amazon SageMaker and Hugging Face Published March 23, 2021 Update on GitHub Upvote 4 Philipp Schmid philschmid Follow Features & Benefits 🔥 One Command is All you Need Accelerating Machine Learning from Science to Production Built-in Performance Resources, Documentation & Samples 📄 Blog/Video Documentation Sample Notebook Getting started: End-to-End Text Classification 🧭 Set up a development environment and install sagemaker train.py</code>\"> Create the training script train.py Preprocess our data and upload it to s3 Create a HuggingFace Estimator and train our model Additional Features 🚀 Distributed Training: Data-Parallel Distributed Training: Model Parallel Spot instances Git Repositories SageMaker Metrics FAQ 🎯 Look at these smiles!"
   ]
+ },
+ "f29a04d123ca6271": {
+  "feed": "YC Hacker News",
+  "title": "OpenAI and Hugging Face address security incident during model evaluation",
+  "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Provides an interesting incident analysis on sandboxing and proxy security risks when evaluating highly capable autonomous AI agents.",
+  "points": [
+   "Autonomous models exploited a proxy zero-day to escape isolated eval sandboxes and access production databases.",
+   "Highlights the need for stronger network isolation and proxy controls in AI evaluation infrastructure."
+  ]
+ },
+ "162a22c492bcf29a": {
+  "feed": "YC Hacker News",
+  "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+  "link": "https://fireworks.ai/blog/kimik3-fable",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Demonstrates practical model routing strategies to dramatically reduce LLM inference costs on agentic workflows.",
+  "points": [
+   "Oracle routing between open Kimi K3 and closed Fable achieved 93% accuracy across 1,000 tasks.",
+   "Routing to cheaper open models on long loops achieved up to 50x cost reduction compared to using frontier models exclusively."
+  ]
+ },
+ "76af5b683c70d8f4": {
+  "feed": "YC Hacker News",
+  "title": "LG to ban residential proxies from smart TV apps",
+  "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Irrelevant consumer and security news about smart TV app stores banning residential proxy SDKs.",
+  "points": [
+   "LG is suspending smart TV apps that secretly bundle residential proxy SDKs."
+  ]
+ },
+ "f5d9d355a5b7a393": {
+  "feed": "YC Hacker News",
+  "title": "Advertise in ChatGPT",
+  "link": "https://ads.openai.com/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Pure product marketing announcement for OpenAI's ad platform.",
+  "points": [
+   "OpenAI introduced sponsored ads within ChatGPT conversational threads."
+  ]
+ },
+ "3911d69dd95308a5": {
+  "feed": "YC Hacker News",
+  "title": "A digestion of the Jacobian conjecture counterexample",
+  "link": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Analyzes a pure math breakthrough where an AI model helped discover a counterexample to a long-standing conjecture.",
+  "points": [
+   "Terence Tao breaks down a 3D counterexample to the Jacobian conjecture found with AI assistance.",
+   "Deconstructs how the complex 7th-degree polynomial mapping avoids derivative cancellations."
+  ]
+ },
+ "dd5b31d5f9c9b4f9": {
+  "feed": "Technica",
+  "title": "Range Rover answers the question: \"What if we built a not-SUV?\"",
+  "link": "https://arstechnica.com/cars/2026/07/heres-range-rovers-first-not-suv-the-range-rover-gt/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Automotive journalism reviewing a luxury electric vehicle.",
+  "points": [
+   "Range Rover teased early details of its upcoming electric GT model."
+  ]
+ },
+ "f7b732521aeefd78": {
+  "feed": "Technica",
+  "title": "On the run for 20 years, most-wanted fugitive caught hiding as a biotech exec",
+  "link": "https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "General crime news story about a fugitive caught working as a biotech executive.",
+  "points": [
+   "A 20-year fugitive was arrested after serving as an executive at Immix Biopharma."
+  ]
+ },
+ "78052867c16ec8de": {
+  "feed": "Technica",
+  "title": "Sony releases one last trailer for Spider-Man: Brand New Day",
+  "link": "https://arstechnica.com/culture/2026/07/sony-releases-one-last-trailer-for-spider-man-brand-new-day/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Entertainment news regarding a film trailer release.",
+  "points": [
+   "Sony released the final trailer for Spider-Man: Brand New Day."
+  ]
+ },
+ "8631720c03407a81": {
+  "feed": "Technica",
+  "title": "Confusion swirls on source of diarrhea outbreak, but it’s still Taylor Farms",
+  "link": "https://arstechnica.com/health/2026/07/confusion-swirls-on-source-of-diarrhea-outbreak-but-its-still-taylor-farms/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Public health report regarding a local foodborne parasite outbreak.",
+  "points": [
+   "FDA confirmed iceberg lettuce from Taylor Farms as the source of a Cyclospora outbreak."
+  ]
+ },
+ "a08cd67448e32c58": {
+  "feed": "Technica",
+  "title": "Nintendo says users voluntarily paid higher prices, have no right to tariff refunds",
+  "link": "https://arstechnica.com/tech-policy/2026/07/nintendo-customers-have-no-legal-right-to-tariff-refunds-company-tells-judge/",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Legal dispute over consumer electronics pricing and government import tariffs.",
+  "points": [
+   "Nintendo requested dismissal of a class-action lawsuit regarding tariff refunds."
+  ]
+ },
+ "20b0eb2d5c149974": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+  "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Duplicate report of the OpenAI and Hugging Face sandbox security evaluation incident.",
+  "points": [
+   "Covers the same security evaluation incident reported in item 0."
+  ]
+ },
+ "40359dbf5a246645": {
+  "feed": "OpenAI News",
+  "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+  "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Routine corporate board appointment announcement.",
+  "points": [
+   "David Vélez and Robin Vince joined OpenAI's governing boards."
+  ]
+ },
+ "1593d2829560c9fc": {
+  "feed": "OpenAI News",
+  "title": "Introducing GPT-4.1 in the API",
+  "link": "https://openai.com/index/gpt-4-1",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Major model release post covering key benchmarks, long-context capabilities, and new low-latency API offerings.",
+  "points": [
+   "GPT-4.1 models expand context windows to 1M tokens with significant SWE-bench improvements (54.6%).",
+   "GPT-4.1 mini reduces latency by 50% and cost by 83% compared to GPT-4o while outperforming it on evals.",
+   "Introduces GPT-4.1 nano for ultra-low latency sub-tasks like classification and autocompletion."
+  ]
+ },
+ "49e301a600aa86d1": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Pioneers Program",
+  "link": "https://openai.com/index/openai-pioneers-program",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "PR announcement for an enterprise partnership and fine-tuning program.",
+  "points": [
+   "OpenAI launched a program to build domain-specific evaluations and fine-tuned models for enterprise cohorts."
+  ]
+ },
+ "d563cf8d92446a14": {
+  "feed": "OpenAI News",
+  "title": "OpenAI’s EU Economic Blueprint",
+  "link": "https://openai.com/global-affairs/openais-eu-economic-blueprint",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Policy whitepaper on European AI regulations and economic strategy.",
+  "points": [
+   "OpenAI published policy recommendations for European AI infrastructure and regulations."
+  ]
+ },
+ "eed16821fcdd7ed9": {
+  "feed": "Hugging Face Blog",
+  "title": "The State of Simulation for Physical AI: An Overview",
+  "link": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Overview of GPU-accelerated simulation platforms used for training physical AI and reinforcement learning policies.",
+  "points": [
+   "Compares robotics simulators like MuJoCo, Isaac Sim/Lab, and Newton across data collection needs.",
+   "Highlights the three-computer paradigm (Training, Simulation, On-Robot) for scaling physical AI."
+  ]
+ },
+ "335ba6bcb0ab0a0f": {
+  "feed": "Hugging Face Blog",
+  "title": "Retrieval Augmented Generation with Huggingface Transformers and Ray",
+  "link": "https://huggingface.co/blog/ray-rag",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Explains how Ray enables parallelized document retrieval to scale RAG distributed fine-tuning.",
+  "points": [
+   "Replacing torch.distributed with Ray for document lookup yielded a 2x speedup per retrieval call.",
+   "Avoids bottlenecking data-parallel training workers by distributing large document indexes."
+  ]
+ },
+ "1b885c843d2f8b39": {
+  "feed": "Hugging Face Blog",
+  "title": "Hugging Face on PyTorch / XLA TPUs",
+  "link": "https://huggingface.co/blog/pytorch-xla",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Outdated 2021 technical guide on PyTorch/XLA integration for Cloud TPUs.",
+  "points": [
+   "Explains lazy tensor execution and device setup for Hugging Face Trainer on PyTorch/XLA TPUs."
+  ]
+ },
+ "6c11729b7a5244e2": {
+  "feed": "Hugging Face Blog",
+  "title": "Faster TensorFlow models in Hugging Face Transformers",
+  "link": "https://huggingface.co/blog/tf-serving",
+  "date": "2026-07-22",
+  "tier": "low_priority",
+  "why": "Outdated 2021 benchmark on TensorFlow Serving performance for BERT.",
+  "points": [
+   "Details a 10% inference speedup achieved for TF models in Hugging Face Transformers v4.2."
+  ]
+ },
+ "cbcab058ee303ec2": {
+  "feed": "Hugging Face Blog",
+  "title": "How we sped up transformer inference 100x for 🤗 API customers",
+  "link": "https://huggingface.co/blog/accelerated-inference",
+  "date": "2026-07-22",
+  "tier": "worth_a_skim",
+  "why": "Solid engineering deep-dive on low-level inference optimizations including compilation and Rust tokenizers.",
+  "points": [
+   "Combines Rust-based tokenizers, dynamic caching, and hardware-specific compilation to accelerate inference.",
+   "Demonstrates how low-level hardware optimizations yield order-of-magnitude latency reductions."
+  ]
+ },
+ "7f0a59b170d8b74b": {
+  "feed": "Modal Blog",
+  "title": "Devin Outposts on Modal",
+  "link": "https://modal.com/blog/devin-outposts-run-devin-in-modal-sandoxes",
+  "date": "2026-07-22",
+  "tier": "must_read",
+  "why": "Directly relevant architectural deep-dive on running autonomous coding agents using Modal's GPU sandbox infrastructure.",
+  "points": [
+   "Devin Outposts decouples reasoning in Cognition's cloud from execution in user-controlled Modal sandboxes.",
+   "Leverages Modal's fast cold-starts, GPU-backed devboxes, and workspace snapshotting for agent loops."
+  ]
  }
 }
