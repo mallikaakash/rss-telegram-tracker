@@ -34060,5 +34060,199 @@
    "Introduces Rule-Based Rewards (RBRs) that use explicit deterministic rules instead of constant human annotation during RLHF.",
    "Used in production for models like GPT-4o mini to maintain safe behavior without policy drift or expensive data collection."
   ]
+ },
+ "2ffe80c9e615693d": {
+  "feed": "YC Hacker News",
+  "title": "What happened to TheNumbers.com",
+  "link": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Illustrates real-world web infrastructure vulnerabilities and backend load spikes caused by modern AI bot scraping traffic.",
+  "points": [
+   "Automated bot requests hit 57.5% of total web traffic in 2026 per Cloudflare data.",
+   "Aggressive unthrottled scraping forced legacy film site TheNumbers.com offline, prompting a complete site rebuild."
+  ]
+ },
+ "23f0b49fe5ef9850": {
+  "feed": "YC Hacker News",
+  "title": "Building on ATProto",
+  "link": "https://lukekanies.com/writing/building-on-atproto/",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Provides practical architecture analysis on ATProto, decentralized data ownership, and protocol engineering trade-offs.",
+  "points": [
+   "ATProto aims to enable local-first data models that decouple user-generated content from centralized platforms like Yelp.",
+   "Current ATProto spec design decisions create friction for developers building rich, complex local-first applications."
+  ]
+ },
+ "3bc63f29d2500550": {
+  "feed": "YC Hacker News",
+  "title": "Why Software Factories Fail (or: harness engineering is not enough)",
+  "link": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+  "date": "2026-07-24",
+  "tier": "must_read",
+  "why": "Directly addresses context engineering and harness design for AI coding agents, a core topic for backend and AI engineers.",
+  "points": [
+   "Software factories and AI coding agents fail when context engineering is treated as naive prompt wrapping without runtime feedback.",
+   "Effective harnesses require structured tool interfaces, specialized context evaluation, and tight execution loop integration."
+  ]
+ },
+ "9b23208c9f5d7e21": {
+  "feed": "YC Hacker News",
+  "title": "A solid-state “atomic channel” for separating rare earth elements",
+  "link": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Off-target academic research focused on chemistry and materials science for rare earth element separation.",
+  "points": [
+   "UChicago researchers designed solid-state atomic channels to separate rare earth elements without toxic chemicals."
+  ]
+ },
+ "200fad4b18626859": {
+  "feed": "YC Hacker News",
+  "title": "From Evaluation to Guardrails: What We Brought to ACM FAccT 2026",
+  "link": "https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Relevant to applied LLM evaluation, agentic guardrails, and context-aware safety architectures.",
+  "points": [
+   "Text-only guardrails fail to verify real-world facts, often approving hallucinated or invalid LLM outputs.",
+   "Effective guardrails require agentic tools like live web search or database lookups to evaluate contextual correctness."
+  ]
+ },
+ "c1c3a83dd8234584": {
+  "feed": "Technica",
+  "title": "Final Coyote vs. Acme trailer drops at SDCC",
+  "link": "https://arstechnica.com/culture/2026/07/final-coyote-vs-acme-trailer-drops-at-sdcc/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Non-technical movie trailer announcement with no relevance to software or ML engineering.",
+  "points": [
+   "Ketchup Entertainment released the final trailer for the satirical film Coyote vs. Acme at San Diego Comic-Con."
+  ]
+ },
+ "e6ad834325a73fd3": {
+  "feed": "Technica",
+  "title": "A woman got a UTI. Two years later, the bacteria had evolved, invaded her brain.",
+  "link": "https://arstechnica.com/health/2026/07/woman-loses-vision-in-one-eye-after-uti-bacteria-evolves-to-invade-her-brain/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Medical news report on bacterial evolution with no technical engineering relevance.",
+  "points": [
+   "New England Journal of Medicine published a case study on a bacterial urinary infection that spread to the brain."
+  ]
+ },
+ "e38bcdedf89e71d2": {
+  "feed": "Technica",
+  "title": "Google hit with $1 billion in fines as EU braces for Trump battle",
+  "link": "https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "General tech policy and antitrust news regarding EU regulatory fines against Google.",
+  "points": [
+   "The European Commission fined Google over $1 billion under the DMA for self-preferencing search and Play Store practices."
+  ]
+ },
+ "18b891796d60b4c8": {
+  "feed": "Technica",
+  "title": "Sony's decision to ditch discs was practically inevitable, data shows",
+  "link": "https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Consumer gaming market analysis tracking the transition from physical game media to digital downloads.",
+  "points": [
+   "US physical game disc sales declined from a peak of 297 million units in 2009 down to 37 million in 2026."
+  ]
+ },
+ "d049e2dcfca2bb1e": {
+  "feed": "Technica",
+  "title": "Google just had its first negative cash flow quarter due to massive AI spending",
+  "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Strategically important macroeconomic signal detailing the unprecedented capital expenditure scale currently driving AI infrastructure.",
+  "points": [
+   "Google reached $119.8B in Q2 revenue but posted negative cash flow due to massive AI infrastructure capital expenditure.",
+   "Google Cloud revenue surged 23.8% quarter-over-quarter to $24.8B, reflecting sustained high enterprise AI demand."
+  ]
+ },
+ "503c865ee1277553": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and Los Alamos National Laboratory announce research partnership",
+  "link": "https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "High-level partnership PR lacking deep technical infrastructure or model training details.",
+  "points": [
+   "OpenAI and Los Alamos National Laboratory are collaborating to evaluate multimodal AI model safety in biological lab settings."
+  ]
+ },
+ "0d2f04bf1f1bb7c1": {
+  "feed": "OpenAI News",
+  "title": "OpenAI acquires Rockset",
+  "link": "https://openai.com/index/openai-acquires-rockset",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Strategically relevant acquisition highlighting OpenAI's investment in low-latency retrieval database infrastructure.",
+  "points": [
+   "OpenAI acquired Rockset to integrate its real-time indexing and search engine into core ChatGPT retrieval infrastructure."
+  ]
+ },
+ "d318dbcf77452cb2": {
+  "feed": "OpenAI News",
+  "title": "Empowering defenders through our Cybersecurity Grant Program",
+  "link": "https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "High-level grant program recap providing broad overviews without deep technical implementation details.",
+  "points": [
+   "OpenAI highlighted grant projects working on prompt-injection defense, cloud misconfiguration detection, and confidential GPU enclaves."
+  ]
+ },
+ "99c118a374b5118b": {
+  "feed": "OpenAI News",
+  "title": "Achieving 10x growth with agentic sales prospecting",
+  "link": "https://openai.com/index/clay",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Applied ML case study detailing concrete context optimization and model routing techniques for web scraping agents.",
+  "points": [
+   "Implements binary search and HTML structural heuristics to drastically reduce token context sent to LLMs during web scraping.",
+   "Routes simple tasks to lightweight models while reserving GPT-4 Turbo for complex orchestration to optimize inference costs."
+  ]
+ },
+ "22aff6059e899abb": {
+  "feed": "OpenAI News",
+  "title": "OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO)",
+  "link": "https://openai.com/index/openai-welcomes-cfo-cpo",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Standard corporate executive hiring announcement with no architectural or technical depth.",
+  "points": [
+   "OpenAI hired Sarah Friar as Chief Financial Officer and Kevin Weil as Chief Product Officer."
+  ]
+ },
+ "c80cfd4ef2eb51df": {
+  "feed": "Together AI",
+  "title": "The production platform for open-weight AI inference",
+  "link": "https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Product marketing landing page for Together AI services without novel engineering deep-dives.",
+  "points": [
+   "Together AI advertises serverless inference APIs, GPU cluster hosting, and fine-tuning tools for open-weight LLMs."
+  ]
+ },
+ "0e880eec74a087a1": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Cache Response Rules",
+  "link": "https://blog.cloudflare.com/introducing-cache-response-rules/",
+  "date": "2026-07-24",
+  "tier": "must_read",
+  "why": "High-quality engineering deep-dive from Cloudflare on edge caching mechanics, HTTP response header manipulation, and performance tuning.",
+  "points": [
+   "Introduces Cache Response Rules executed post-origin response to strip or modify headers like Set-Cookie, Cache-Control, and ETag.",
+   "Prevents accidental origin headers from destroying cache hit ratios without requiring origin codebase modifications."
+  ]
  }
 }

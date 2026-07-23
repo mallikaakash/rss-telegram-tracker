@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Fri 24 Jul 2026, 00:22 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Fri 24 Jul 2026, 00:22 IST &middot; 17 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Cloudflare&#x27;s deep dive into edge caching rules leads this batch, alongside context engineering for AI coding agents and Google&#x27;s massive AI infrastructure capex.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md">Why Software Factories Fail (or: harness engineering is not enough)</a></h2><div class="why">Directly addresses context engineering and harness design for AI coding agents, a core topic for backend and AI engineers.</div><ul><li>Software factories and AI coding agents fail when context engineering is treated as naive prompt wrapping without runtime feedback.</li><li>Effective harnesses require structured tool interfaces, specialized context evaluation, and tight execution loop integration.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/introducing-cache-response-rules/">Introducing Cache Response Rules</a></h2><div class="why">High-quality engineering deep-dive from Cloudflare on edge caching mechanics, HTTP response header manipulation, and performance tuning.</div><ul><li>Introduces Cache Response Rules executed post-origin response to strip or modify headers like Set-Cookie, Cache-Control, and ETag.</li><li>Prevents accidental origin headers from destroying cache hit ratios without requiring origin codebase modifications.</li></ul></div><div class="section">Worth a skim &middot; 6</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all">What happened to TheNumbers.com</a></h2><div class="why">Illustrates real-world web infrastructure vulnerabilities and backend load spikes caused by modern AI bot scraping traffic.</div><ul><li>Automated bot requests hit 57.5% of total web traffic in 2026 per Cloudflare data.</li><li>Aggressive unthrottled scraping forced legacy film site TheNumbers.com offline, prompting a complete site rebuild.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://lukekanies.com/writing/building-on-atproto/">Building on ATProto</a></h2><div class="why">Provides practical architecture analysis on ATProto, decentralized data ownership, and protocol engineering trade-offs.</div><ul><li>ATProto aims to enable local-first data models that decouple user-generated content from centralized platforms like Yelp.</li><li>Current ATProto spec design decisions create friction for developers building rich, complex local-first applications.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/">From Evaluation to Guardrails: What We Brought to ACM FAccT 2026</a></h2><div class="why">Relevant to applied LLM evaluation, agentic guardrails, and context-aware safety architectures.</div><ul><li>Text-only guardrails fail to verify real-world facts, often approving hallucinated or invalid LLM outputs.</li><li>Effective guardrails require agentic tools like live web search or database lookups to evaluate contextual correctness.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/">Google just had its first negative cash flow quarter due to massive AI spending</a></h2><div class="why">Strategically important macroeconomic signal detailing the unprecedented capital expenditure scale currently driving AI infrastructure.</div><ul><li>Google reached $119.8B in Q2 revenue but posted negative cash flow due to massive AI infrastructure capital expenditure.</li><li>Google Cloud revenue surged 23.8% quarter-over-quarter to $24.8B, reflecting sustained high enterprise AI demand.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/openai-acquires-rockset">OpenAI acquires Rockset</a></h2><div class="why">Strategically relevant acquisition highlighting OpenAI&#x27;s investment in low-latency retrieval database infrastructure.</div><ul><li>OpenAI acquired Rockset to integrate its real-time indexing and search engine into core ChatGPT retrieval infrastructure.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/clay">Achieving 10x growth with agentic sales prospecting</a></h2><div class="why">Applied ML case study detailing concrete context optimization and model routing techniques for web scraping agents.</div><ul><li>Implements binary search and HTML structural heuristics to drastically reduce token context sent to LLMs during web scraping.</li><li>Routes simple tasks to lightweight models while reserving GPT-4 Turbo for complex orchestration to optimize inference costs.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements">A solid-state “atomic channel” for separating rare earth elements</a></h2><div class="why">Off-target academic research focused on chemistry and materials science for rare earth element separation.</div><ul><li>UChicago researchers designed solid-state atomic channels to separate rare earth elements without toxic chemicals.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/culture/2026/07/final-coyote-vs-acme-trailer-drops-at-sdcc/">Final Coyote vs. Acme trailer drops at SDCC</a></h2><div class="why">Non-technical movie trailer announcement with no relevance to software or ML engineering.</div><ul><li>Ketchup Entertainment released the final trailer for the satirical film Coyote vs. Acme at San Diego Comic-Con.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/health/2026/07/woman-loses-vision-in-one-eye-after-uti-bacteria-evolves-to-invade-her-brain/">A woman got a UTI. Two years later, the bacteria had evolved, invaded her brain.</a></h2><div class="why">Medical news report on bacterial evolution with no technical engineering relevance.</div><ul><li>New England Journal of Medicine published a case study on a bacterial urinary infection that spread to the brain.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle/">Google hit with $1 billion in fines as EU braces for Trump battle</a></h2><div class="why">General tech policy and antitrust news regarding EU regulatory fines against Google.</div><ul><li>The European Commission fined Google over $1 billion under the DMA for self-preferencing search and Play Store practices.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug/">Sony&#x27;s decision to ditch discs was practically inevitable, data shows</a></h2><div class="why">Consumer gaming market analysis tracking the transition from physical game media to digital downloads.</div><ul><li>US physical game disc sales declined from a peak of 297 million units in 2009 down to 37 million in 2026.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together">OpenAI and Los Alamos National Laboratory announce research partnership</a></h2><div class="why">High-level partnership PR lacking deep technical infrastructure or model training details.</div><ul><li>OpenAI and Los Alamos National Laboratory are collaborating to evaluate multimodal AI model safety in biological lab settings.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program">Empowering defenders through our Cybersecurity Grant Program</a></h2><div class="why">High-level grant program recap providing broad overviews without deep technical implementation details.</div><ul><li>OpenAI highlighted grant projects working on prompt-injection defense, cloud misconfiguration detection, and confidential GPU enclaves.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/openai-welcomes-cfo-cpo">OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO)</a></h2><div class="why">Standard corporate executive hiring announcement with no architectural or technical depth.</div><ul><li>OpenAI hired Sarah Friar as Chief Financial Officer and Kevin Weil as Chief Product Officer.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Together AI</span><h2><a href="https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference">The production platform for open-weight AI inference</a></h2><div class="why">Product marketing landing page for Together AI services without novel engineering deep-dives.</div><ul><li>Together AI advertises serverless inference APIs, GPU cluster hosting, and fine-tuning tools for open-weight LLMs.</li></ul></div></body></html>
