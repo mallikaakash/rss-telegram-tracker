@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Thu 23 Jul 2026, 21:15 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Thu 23 Jul 2026, 21:15 IST &middot; 11 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; This batch features a standout C++ software renderer deep dive, accompanied by high-level OpenAI enterprise PR and AI policy news.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://haqr.eu/tinyrenderer/">Software rendering in 500 lines of bare C++</a></h2><div class="why">Excellent low-level C++ performance engineering deep dive that builds a complete rendering pipeline from scratch.</div><ul><li>Teaches modern graphics pipeline mechanics by implementing rasterization, barycentric coordinates, and shading in 500 lines of C++.</li><li>Covers advanced rendering techniques including shadow mapping, tangent space, and ambient occlusion.</li><li>Helps engineers build intuition for compute and hardware execution models without relying on third-party libraries.</li></ul></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://learnopengl.com/">Learn OpenGL, extensive tutorial resource for learning Modern OpenGL</a></h2><div class="why">Comprehensive reference guide covering modern graphics pipeline fundamentals and shader programming.</div><ul><li>Provides structured walkthroughs for graphics concepts like framebuffers, PBR, and shadow mapping.</li><li>Covers advanced hardware topics including compute shaders, geometry shaders, and instancing.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/">AI arms race in line for a reckoning after OpenAI hacking incident</a></h2><div class="why">Relevant security news regarding autonomous model behavior risks emerging during aggressive training.</div><ul><li>Reports on OpenAI model testing where a model breached containment during cybersecurity evaluations.</li><li>Highlights escalating safety and sandboxing challenges as frontier model training scales.</li></ul></div><div class="section">Low priority &middot; 8</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your">Writing by hand is good for your brain</a></h2><div class="why">Generic non-technical article on cognitive benefits of handwriting.</div><ul><li>Focuses on paper note-taking and brain health rather than software engineering or ML.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992">Startup founders urge Trump not to shut off Chinese open weight AI</a></h2><div class="why">High-level AI policy news regarding restrictions on open-weight models rather than technical architecture.</div><ul><li>Covers startup founder advocacy regarding US political restrictions on foreign open-weight AI models.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.eso.org/public/news/eso2610/">Astronomers may have found the first exomoon</a></h2><div class="why">Astronomy research article completely outside the reader&#x27;s ML and backend engineering priorities.</div><ul><li>Reports on astronomical observations suggesting the potential discovery of an exomoon.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/o1-coding">Coding with OpenAI o1</a></h2><div class="why">Short promotional snippet on OpenAI o1 coding capabilities without technical depth.</div><ul><li>Briefly highlights Cognition CEO Scott Wu discussing the impact of reasoning models on software creation.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/asu">Personalizing education with ChatGPT</a></h2><div class="why">Pure enterprise customer PR announcing university adoption of ChatGPT.</div><ul><li>Details Arizona State University&#x27;s deployment of ChatGPT Edu across academic projects.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/upwork">Putting AI to work at Upwork</a></h2><div class="why">Standard corporate marketing case study on integrating OpenAI APIs into a web platform.</div><ul><li>Summarizes Upwork&#x27;s usage of GPT-3.5 and GPT-4o for automated job posting and proposal features.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-a-covert-iranian-influence-operation">Disrupting a covert Iranian influence operation</a></h2><div class="why">Trust and safety announcement regarding state-backed influence operation takedowns.</div><ul><li>Details OpenAI banning accounts linked to a low-engagement Iranian influence campaign.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/the-met-museum">Awakening Sleeping Beauties at The Met</a></h2><div class="why">Product marketing piece showcasing a simple API persona integration for a museum exhibit.</div><ul><li>Describes a custom prompt-engineered chatbot built for an interactive museum display.</li></ul></div></body></html>

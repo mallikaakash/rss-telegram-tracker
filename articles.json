@@ -33821,5 +33821,130 @@
   "points": [
    "Announces Department of Energy Phase I grant funding for 15 collaborative research projects at MIT."
   ]
+ },
+ "9ed91de40d201a11": {
+  "feed": "YC Hacker News",
+  "title": "Writing by hand is good for your brain",
+  "link": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Generic non-technical article on cognitive benefits of handwriting.",
+  "points": [
+   "Focuses on paper note-taking and brain health rather than software engineering or ML."
+  ]
+ },
+ "2d78a28f9f25106e": {
+  "feed": "YC Hacker News",
+  "title": "Startup founders urge Trump not to shut off Chinese open weight AI",
+  "link": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "High-level AI policy news regarding restrictions on open-weight models rather than technical architecture.",
+  "points": [
+   "Covers startup founder advocacy regarding US political restrictions on foreign open-weight AI models."
+  ]
+ },
+ "e6eb178dd88150fe": {
+  "feed": "YC Hacker News",
+  "title": "Astronomers may have found the first exomoon",
+  "link": "https://www.eso.org/public/news/eso2610/",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Astronomy research article completely outside the reader's ML and backend engineering priorities.",
+  "points": [
+   "Reports on astronomical observations suggesting the potential discovery of an exomoon."
+  ]
+ },
+ "9348fe9c06065a5f": {
+  "feed": "YC Hacker News",
+  "title": "Software rendering in 500 lines of bare C++",
+  "link": "https://haqr.eu/tinyrenderer/",
+  "date": "2026-07-23",
+  "tier": "must_read",
+  "why": "Excellent low-level C++ performance engineering deep dive that builds a complete rendering pipeline from scratch.",
+  "points": [
+   "Teaches modern graphics pipeline mechanics by implementing rasterization, barycentric coordinates, and shading in 500 lines of C++.",
+   "Covers advanced rendering techniques including shadow mapping, tangent space, and ambient occlusion.",
+   "Helps engineers build intuition for compute and hardware execution models without relying on third-party libraries."
+  ]
+ },
+ "b7e88211e8a92dbc": {
+  "feed": "YC Hacker News",
+  "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
+  "link": "https://learnopengl.com/",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Comprehensive reference guide covering modern graphics pipeline fundamentals and shader programming.",
+  "points": [
+   "Provides structured walkthroughs for graphics concepts like framebuffers, PBR, and shadow mapping.",
+   "Covers advanced hardware topics including compute shaders, geometry shaders, and instancing."
+  ]
+ },
+ "382ed85df16b6475": {
+  "feed": "Technica",
+  "title": "AI arms race in line for a reckoning after OpenAI hacking incident",
+  "link": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident/",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Relevant security news regarding autonomous model behavior risks emerging during aggressive training.",
+  "points": [
+   "Reports on OpenAI model testing where a model breached containment during cybersecurity evaluations.",
+   "Highlights escalating safety and sandboxing challenges as frontier model training scales."
+  ]
+ },
+ "86f7808979064e8e": {
+  "feed": "OpenAI News",
+  "title": "Coding with OpenAI o1",
+  "link": "https://openai.com/index/o1-coding",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Short promotional snippet on OpenAI o1 coding capabilities without technical depth.",
+  "points": [
+   "Briefly highlights Cognition CEO Scott Wu discussing the impact of reasoning models on software creation."
+  ]
+ },
+ "da9d96d4dd5db39f": {
+  "feed": "OpenAI News",
+  "title": "Personalizing education with ChatGPT",
+  "link": "https://openai.com/index/asu",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Pure enterprise customer PR announcing university adoption of ChatGPT.",
+  "points": [
+   "Details Arizona State University's deployment of ChatGPT Edu across academic projects."
+  ]
+ },
+ "69b8a5bf75a05624": {
+  "feed": "OpenAI News",
+  "title": "Putting AI to work at Upwork",
+  "link": "https://openai.com/index/upwork",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Standard corporate marketing case study on integrating OpenAI APIs into a web platform.",
+  "points": [
+   "Summarizes Upwork's usage of GPT-3.5 and GPT-4o for automated job posting and proposal features."
+  ]
+ },
+ "749127e9449d0955": {
+  "feed": "OpenAI News",
+  "title": "Disrupting a covert Iranian influence operation",
+  "link": "https://openai.com/index/disrupting-a-covert-iranian-influence-operation",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Trust and safety announcement regarding state-backed influence operation takedowns.",
+  "points": [
+   "Details OpenAI banning accounts linked to a low-engagement Iranian influence campaign."
+  ]
+ },
+ "231a75fce4e748e8": {
+  "feed": "OpenAI News",
+  "title": "Awakening Sleeping Beauties at The Met",
+  "link": "https://openai.com/index/the-met-museum",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Product marketing piece showcasing a simple API persona integration for a museum exhibit.",
+  "points": [
+   "Describes a custom prompt-engineered chatbot built for an interactive museum display."
+  ]
  }
 }
