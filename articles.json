@@ -33946,5 +33946,119 @@
   "points": [
    "Describes a custom prompt-engineered chatbot built for an interactive museum display."
   ]
+ },
+ "ddd369c81268ab88": {
+  "feed": "YC Hacker News",
+  "title": "JEP 540: Simple JSON API (Now in Incubator)",
+  "link": "https://openjdk.org/jeps/540",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Relevant to backend developers tracking Java core library modernization for simple JSON processing.",
+  "points": [
+   "Introduces JEP 540 to provide a native, lightweight RFC 8259-compliant JSON API in the JDK.",
+   "Focuses on simple, fail-fast navigation without external dependencies like Jackson or Gson."
+  ]
+ },
+ "66f28115f44e1836": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Screenpipe (YC S26) – Power your agents by your 24/7 screen recording",
+  "link": "https://news.ycombinator.com/item?id=49024620",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Offers interesting engineering insights on capturing desktop OS events and accessibility trees for AI context without high OCR overhead.",
+  "points": [
+   "Captures local audio/screen context to power persistent LLM agent memories.",
+   "Replaced heavy continuous OCR with OS event triggers (app switches, clicks) and accessibility tree snapshots to reduce resource usage."
+  ]
+ },
+ "92a44cdd69ed697b": {
+  "feed": "YC Hacker News",
+  "title": "Free way to get your data out of ChatGPT Business accounts",
+  "link": "https://github.com/Conradqh/scrapemychats",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Niche utility script for exporting ChatGPT conversation data.",
+  "points": [
+   "Provides a local Python script to scrape and archive ChatGPT Business chats to HTML."
+  ]
+ },
+ "4a98d932b27ebad9": {
+  "feed": "YC Hacker News",
+  "title": "Hybrid-Electric Aicraft Engine Targeting 30% Fuel Efficiency",
+  "link": "https://www.rtx.com/news/news-center/2026/07/21/rtxs-pratt-whitney-canada-advances-hybrid-electric-technology-development",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Off-topic aerospace news unrelated to software, infrastructure, or ML.",
+  "points": [
+   "Pratt & Whitney Canada began ground testing a hybrid-electric aircraft engine aiming for 30% fuel savings."
+  ]
+ },
+ "98d493803ef56ec6": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Remux – an open-source tmux workspace designed for iPhone",
+  "link": "https://github.com/h3nock/remux",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Mobile terminal client irrelevant to backend systems or ML infrastructure priorities.",
+  "points": [
+   "An open-source native iOS client for managing remote tmux sessions."
+  ]
+ },
+ "7569338ee0d35289": {
+  "feed": "OpenAI News",
+  "title": "Launching Health in ChatGPT",
+  "link": "https://openai.com/index/health-in-chatgpt",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Consumer product feature launch with no technical deep-dive or infrastructure details.",
+  "points": [
+   "OpenAI launched a consumer feature integrating Apple Health and medical records into ChatGPT."
+  ]
+ },
+ "78f0aa803a2f2aac": {
+  "feed": "OpenAI News",
+  "title": "Introducing SWE-bench Verified",
+  "link": "https://openai.com/index/introducing-swe-bench-verified",
+  "date": "2026-07-23",
+  "tier": "must_read",
+  "why": "Essential read on LLM benchmark reliability, dataset filtering, and addressing flawed unit tests in agent evaluation.",
+  "points": [
+   "OpenAI validated SWE-bench tasks with human annotators to remove impossible or misannotated coding tests.",
+   "Releases a clean verified subset that prevents underestimating autonomous software engineering model capabilities."
+  ]
+ },
+ "95021c2a00d941f4": {
+  "feed": "OpenAI News",
+  "title": "Zico Kolter Joins OpenAI’s Board of Directors",
+  "link": "https://openai.com/index/zico-kolter-joins-openais-board-of-directors",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Routine corporate governance announcement.",
+  "points": [
+   "CMU professor Zico Kolter joined OpenAI's Board of Directors and Safety & Security Committee."
+  ]
+ },
+ "a3f765197bcf57f4": {
+  "feed": "OpenAI News",
+  "title": "SearchGPT is a prototype of new AI search features",
+  "link": "https://openai.com/index/searchgpt-prototype",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "High-level consumer product launch announcement lacking infrastructure engineering details.",
+  "points": [
+   "OpenAI announced SearchGPT, a temporary prototype bringing conversational web search into ChatGPT."
+  ]
+ },
+ "33dcf0f1015cee80": {
+  "feed": "OpenAI News",
+  "title": "Improving Model Safety Behavior with Rule-Based Rewards",
+  "link": "https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards",
+  "date": "2026-07-23",
+  "tier": "must_read",
+  "why": "Directly advances knowledge in LLM post-training and RLHF by detailing programmatic reward modeling for safety alignment.",
+  "points": [
+   "Introduces Rule-Based Rewards (RBRs) that use explicit deterministic rules instead of constant human annotation during RLHF.",
+   "Used in production for models like GPT-4o mini to maintain safe behavior without policy drift or expensive data collection."
+  ]
  }
 }
