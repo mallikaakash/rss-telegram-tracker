@@ -33673,5 +33673,153 @@
   "points": [
    "Minnesota's state translation office utilizes ChatGPT alongside human reviewers to speed up municipal document translation."
   ]
+ },
+ "d1756e9f09fecafe": {
+  "feed": "YC Hacker News",
+  "title": "Understanding the AI Economy",
+  "link": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "This is a high-level economic policy report lacking technical ML engineering or infrastructure details.",
+  "points": [
+   "Analyzes broad macroeconomic and consumer adoption trends of AI across workplaces."
+  ]
+ },
+ "f79d72d3022ea2f8": {
+  "feed": "YC Hacker News",
+  "title": "Scanning for Pangram Errors",
+  "link": "https://veryfineprint.substack.com/p/scanning-for-pangram-errors",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "The post lacks readable text content or relevant technical engineering details.",
+  "points": [
+   "Contains no usable post text."
+  ]
+ },
+ "c75d5dead7154c97": {
+  "feed": "YC Hacker News",
+  "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+  "link": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Contains no readable content beyond empty comment links and focuses on high-level financial metrics.",
+  "points": [
+   "Lacks technical details on ML models or system architecture."
+  ]
+ },
+ "8fd767c08639ff59": {
+  "feed": "YC Hacker News",
+  "title": "Protecting our FLOSS commons from LLMs",
+  "link": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Provides practical insights into infrastructure load from web crawlers on Git forges and open-source AI policies.",
+  "points": [
+   "Codeberg banned LLM training on hosted user code and restricted purely AI-generated projects.",
+   "LLM web crawlers severely strain Git forge infrastructure by scraping web UI endpoints instead of performing lightweight git clones."
+  ]
+ },
+ "adef23111796be9b": {
+  "feed": "YC Hacker News",
+  "title": "Test-time training 3D reconstruction",
+  "link": "https://github.com/Inception3D/TTT3R",
+  "date": "2026-07-23",
+  "tier": "must_read",
+  "why": "Introduces a novel test-time training (TTT) state update mechanism directly relevant to stateful ML architectures.",
+  "points": [
+   "Applies test-time training state update rules to significantly enhance length generalization in 3D reconstruction.",
+   "Provides open-source code and evaluation benchmarks for adapting neural network hidden states at inference time."
+  ]
+ },
+ "efb9085ea19bb21f": {
+  "feed": "Technica",
+  "title": "White House report says Trump can usher in a \"new golden age\" of science",
+  "link": "https://arstechnica.com/science/2026/07/white-house-report-says-trump-can-usher-in-a-new-golden-age-of-science/",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Focuses on US science policy and political agendas rather than technical ML engineering.",
+  "points": [
+   "Summarizes policy proposals from the White House Office of Science and Technology Policy."
+  ]
+ },
+ "3f482633c7507d62": {
+  "feed": "Technica",
+  "title": "I wanted a clock that never needed setting. Things escalated.",
+  "link": "https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated/",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "A solid systems engineering side-project deep dive on building reliable hardware without bloat.",
+  "points": [
+   "Details the hardware and software architecture of a self-setting, privacy-focused 7-segment LED clock.",
+   "Syncs accurate time without relying on cloud apps or third-party telemetry."
+  ]
+ },
+ "9502d89ca4e45c17": {
+  "feed": "OpenAI News",
+  "title": "Introducing Verdi, an AI dev platform powered by GPT-4o",
+  "link": "https://openai.com/index/mercado-libre",
+  "date": "2026-07-23",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates real-world applied enterprise ML architecture serving 17,000 developers across 30,000 microservices.",
+  "points": [
+   "Mercado Libre deployed 'Verdi', an internal LLM development platform powered by OpenAI models.",
+   "Automated dispute mediation between buyers and sellers, reducing manual human support overhead."
+  ]
+ },
+ "59b986ed1ddef730": {
+  "feed": "OpenAI News",
+  "title": "Introducing OpenAI o1",
+  "link": "https://openai.com/index/introducing-openai-o1-preview",
+  "date": "2026-07-23",
+  "tier": "must_read",
+  "why": "A landmark model release introducing reasoning RL and inference compute scaling paradigms.",
+  "points": [
+   "Introduces inference-time reasoning compute (o1), boosting math performance from 13% to 83% on IMO qualifier problems.",
+   "Demonstrates that training models to refine thinking steps via RL improves safety policy adherence and jailbreak resistance."
+  ]
+ },
+ "08a142e9e8325d5c": {
+  "feed": "OpenAI News",
+  "title": "OpenAI o1 Contributions",
+  "link": "https://openai.com/openai-o1-contributions",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "This is an author attribution list without technical details or model architecture specs.",
+  "points": [
+   "Lists researchers and engineers involved in the OpenAI o1 development."
+  ]
+ },
+ "43bf13985be463be": {
+  "feed": "OpenAI News",
+  "title": "Answering quantum physics questions with OpenAI o1",
+  "link": "https://openai.com/index/o1-quantum-physics",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "A promotional video snippet without technical research or infrastructure depth.",
+  "points": [
+   "Demonstrates a high-level promo video of o1 answering quantum physics queries."
+  ]
+ },
+ "06c69c6d5cd70c72": {
+  "feed": "OpenAI News",
+  "title": "Economics and reasoning with OpenAI o1",
+  "link": "https://openai.com/index/o1-economics",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "Marketing snippet offering high-level commentary rather than concrete engineering analysis.",
+  "points": [
+   "Contains brief commentary from economist Tyler Cowen on o1's performance."
+  ]
+ },
+ "f857d320a928c5f9": {
+  "feed": "MIT News (AI)",
+  "title": "MIT projects selected for funding under US Department of Energy’s Genesis Mission",
+  "link": "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
+  "date": "2026-07-23",
+  "tier": "low_priority",
+  "why": "A general university grant funding announcement lacking deep ML or systems engineering content.",
+  "points": [
+   "Announces Department of Energy Phase I grant funding for 15 collaborative research projects at MIT."
+  ]
  }
 }
