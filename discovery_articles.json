@@ -944,5 +944,41 @@
    "Introduced a TBIE (Truth, Belief, Intent, Execution) control plane model using DynamoDB Streams and EventBridge for self-repairing event reconciliation.",
    "Reframed model inference from a traditional web-serving problem into an asynchronous event orchestration and state reconciliation problem."
   ]
+ },
+ "0abbe197edc9d3ba": {
+  "url": "https://gingerlabs.ai/blog/pagedattention-vllm-throughput",
+  "title": "PagedAttention in vLLM: 14x Throughput with KV Caching",
+  "domain": "gingerlabs.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-23",
+  "tier": "skip",
+  "why": "This is a standard tech blog post re-explaining the well-known 2023 Kwon et al. SOSP paper on PagedAttention and vLLM without presenting new data or original research.",
+  "points": []
+ },
+ "f510858fec857c66": {
+  "url": "https://medium.com/@imharyohm/cuda-vs-triton-a-decision-framework-built-on-how-gpu-memory-actually-works-49677d35db67",
+  "title": "CUDA vs Triton: A Decision Framework Built on How GPU Memory Actually Works | by Imharyohm | Jul, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-23",
+  "tier": "solid_find",
+  "why": "Offers a clear, structured decision framework comparing CUDA and Triton derived from GPU memory hierarchy constraints rather than high-level feature lists.",
+  "points": [
+   "Frames tool choice (CUDA vs Triton) around how deep into the memory hierarchy an operation must reach.",
+   "Explains how memory access patterns determine whether Triton's compiler optimizations suffice or manual CUDA kernel tuning is required."
+  ]
+ },
+ "5429cfc8b66f459a": {
+  "url": "https://github.com/dramasamy/from-api-to-gpu/tree/main/roadmap",
+  "title": "from-api-to-gpu/roadmap at main · dramasamy/from-api-to-gpu · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-23",
+  "tier": "solid_find",
+  "why": "An obscure, hands-on personal repository providing a structured weekly curriculum and lab exercises bridging high-level LLM APIs down to CUDA memory management.",
+  "points": [
+   "Provides a structured roadmap mapping LLM concepts down to bare-metal GPU memory labs.",
+   "Includes a dedicated CUDA track focused on low-level parameter and memory inspection."
+  ]
  }
 }
