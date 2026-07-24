@@ -980,5 +980,85 @@
    "Provides a structured roadmap mapping LLM concepts down to bare-metal GPU memory labs.",
    "Includes a dedicated CUDA track focused on low-level parameter and memory inspection."
   ]
+ },
+ "021497cac18cb3d6": {
+  "url": "https://nebius.com/blog/posts/inside-the-nebius-pytorch-deepseek-v3-recipe",
+  "title": "Inside the Nebius + PyTorch DeepSeek V3 recipe: NVSHMEM and DeepEP for wide expert parallelism",
+  "domain": "nebius.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "444dc2491bac7530": {
+  "url": "https://dreaming.press/posts/grpo-vs-ppo.html",
+  "title": "GRPO vs PPO: Why DeepSeek's RL Algorithm Deleted the Critic",
+  "domain": "dreaming.press",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "035b22736f40828c": {
+  "url": "https://deepwiki.com/NVIDIA/Megatron-LM/11.6-nccl-and-communication-optimization",
+  "title": "NCCL and Communication Optimization | NVIDIA/Megatron-LM | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "55153b93879a4b0f": {
+  "url": "https://deepwiki.com/NVIDIA/Megatron-LM/4-parallelism-strategies",
+  "title": "Parallelism Strategies | NVIDIA/Megatron-LM | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "fe02f5b4bbb850c6": {
+  "url": "https://deepwiki.com/NVIDIA/Megatron-LM/4.7-fully-sharded-data-parallelism-(fsdp)",
+  "title": "Fully Sharded Data Parallelism (FSDP) | NVIDIA/Megatron-LM | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3844bf41e423b672": {
+  "url": "https://github.com/angelnicolasc/tessera",
+  "title": "GitHub - angelnicolasc/Tessera: Rust/Python KV-cache block manager for MLA and hybrid-attention LLM serving, with content-addressed sharing, per-layer layouts, FP4/FP8 accounting, and distributed cache semantics. · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3e449570134d66c6": {
+  "url": "https://github.com/ded-furby/hearth",
+  "title": "GitHub - ded-furby/hearth · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "ff0d3c936949914b": {
+  "url": "https://arxiv.gg/abs/2605.09370",
+  "title": "From Detection to Recovery: Operational Analysis on LLM Pre-training with 504 GPUs - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
