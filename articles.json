@@ -34663,5 +34663,117 @@
   "points": [
    "Outlines productivity gains across translation and data querying teams using ChatGPT Enterprise."
   ]
+ },
+ "8ecb1796d59b945d": {
+  "feed": "YC Hacker News",
+  "title": "The case for MUDs in modern times",
+  "link": "https://www.andrewzigler.com/feed/the-case-for-muds-in-modern-times",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Niche retrospective essay on text-based MUD games with no relevance to ML or backend engineering.",
+  "points": [
+   "Explores how text-based virtual worlds simulate environments through command-line interfaces and custom scripts."
+  ]
+ },
+ "89042027651e45b2": {
+  "feed": "YC Hacker News",
+  "title": "The IBM PC, Part 1: Arrival",
+  "link": "https://technicshistory.com/2026/07/24/the-ibm-pc-part-1-arrival/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Historical retrospective on the 1981 IBM PC launch with no modern engineering takeaways.",
+  "points": [
+   "Traces how IBM standardized the fragmented early microcomputer market through open hardware architecture."
+  ]
+ },
+ "7e4f8413c249fe5d": {
+  "feed": "YC Hacker News",
+  "title": "I Tried Building a Real App with AI. It Took a Year",
+  "link": "https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Indie app development log about building a basic iOS habit tracker, lacking backend or ML infrastructure depth.",
+  "points": [
+   "Highlights practical UX and state management friction when attempting to generate full iOS apps using AI prompts."
+  ]
+ },
+ "a3f0543a32ba6413": {
+  "feed": "YC Hacker News",
+  "title": "Programming language file extensions that match ISO 3166-1 alpha-2 country code",
+  "link": "https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Brief 250-word trivia post mapping language file extensions to country TLDs.",
+  "points": [
+   "Notes coincidental overlaps between language extensions like .rs or .py and ISO country codes."
+  ]
+ },
+ "d78fe6120647c9c5": {
+  "feed": "YC Hacker News",
+  "title": "IRGC Claims It Destroyed Amazon's Bahrain Data Center",
+  "link": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Relevant news report highlighting physical security and regional operational risks for AWS cloud infrastructure.",
+  "points": [
+   "Details alleged cruise missile targeting of commercial cloud facilities like AWS ME-South-1 in Bahrain.",
+   "Illustrates systemic physical reliability and multi-region backup considerations for enterprise cloud workloads."
+  ]
+ },
+ "3b4bc5df89bd6089": {
+  "feed": "OpenAI News",
+  "title": "Saving lives with AI health coaching",
+  "link": "https://openai.com/index/healthify",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Applied ML story from a prominent Indian startup tracing their shift from classical ML/LSTMs to LLMs and vision models.",
+  "points": [
+   "Traces evolution from custom CNNs and hierarchical LSTMs to GPT-Vision and embeddings for food tracking.",
+   "Replaced rigid rule-based NLU systems with LLM-powered virtual coaches to handle complex long-tail user queries."
+  ]
+ },
+ "ffb7722b090649ec": {
+  "feed": "OpenAI News",
+  "title": "Review completed & Altman, Brockman to continue to lead OpenAI",
+  "link": "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Outdated corporate PR announcement regarding OpenAI's March 2024 board governance review.",
+  "points": [
+   "Announces conclusion of the board review and appointment of new OpenAI board members."
+  ]
+ },
+ "739049f6323a96ad": {
+  "feed": "OpenAI News",
+  "title": "Using AI to improve patient access to clinical trials",
+  "link": "https://openai.com/index/paradigm",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "High-level vendor customer story on using GPT-4 for medical record summarization without deep technical architecture details.",
+  "points": [
+   "Replaced task-specific domain ML models with GPT-4 zero-shot extraction for matching patients to clinical trials."
+  ]
+ },
+ "46cbd18ea8ddede1": {
+  "feed": "OpenAI News",
+  "title": "Sparking a more productive company with ChatGPT Enterprise",
+  "link": "https://openai.com/index/match-group",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Pure enterprise product marketing for ChatGPT Enterprise adoption at Match Group.",
+  "points": [
+   "Describes non-technical enterprise adoption of AI tools for internal translation and productivity."
+  ]
+ },
+ "07180d34421a634e": {
+  "feed": "OpenAI News",
+  "title": "Improving health literacy and patient well-being",
+  "link": "https://openai.com/index/lifespan",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Basic prompting use-case for text simplification with minimal technical or infrastructure substance.",
+  "points": [
+   "Uses GPT-4 prompting to simplify complex medical consent forms down to a 6th-grade reading level."
+  ]
  }
 }
