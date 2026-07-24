@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Fri 24 Jul 2026, 16:58 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Fri 24 Jul 2026, 16:58 IST &middot; 10 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Black Forest Labs details FLUX 3&#x27;s multimodal joint video-action training, alongside practical LLM agent cookbooks and systems engineering experiments.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://bfl.ai/blog/flux-3-mimic">Flux 3 X Mimic: The Next Generation of Video-Action Models</a></h2><div class="why">Directly advances foundation model pretraining priorities by analyzing joint video, audio, and action-prediction training in FLUX 3.</div><ul><li>Video prediction accounts for over 95% of total compute costs during joint multimodal foundation model training.</li><li>Integrating low-dimensional action prediction causes an initial 10% drop in video generation quality that fully recovers within 3,500 steps.</li><li>Demonstrates that world representations learned via video rendering transfer directly to robotic action control.</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://platform.claude.com/cookbook/">Claude Cookbook</a></h2><div class="why">Provides practical patterns for LLM systems, including tool embeddings, context compaction, and multi-agent coordination.</div><ul><li>Demonstrates scaling tool usage to thousands using semantic embeddings for dynamic tool discovery.</li><li>Covers automatic context compaction mechanisms for managing memory in long-running agent workflows.</li><li>Provides orchestration patterns for fixed and dynamic multi-agent teams using shared communication hubs.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891">Buz – A fork of Bun using modern Zig, with sub-1s incremental builds</a></h2><div class="why">Offers useful systems engineering insights into build graph optimization, modern Zig, and performance refactoring.</div><ul><li>Ports Bun&#x27;s build graph entirely into modern Zig to achieve sub-second incremental compilation.</li><li>Eliminates over 11,000 lines of dead code to modernize low-level system glue.</li><li>Explores human-guided LLM refactoring strategies on complex native codebases.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/zelma">Making education data accessible</a></h2><div class="why">Demonstrates practical applied LLM design using function calling, vector retrieval, and text-to-SQL execution.</div><ul><li>Combines function calling with vector DB lookup to build reliable data visualization pipelines.</li><li>Uses a fine-tuned type-ahead model to nudge user prompts into supported domain boundaries.</li><li>Exposes raw generated SQL alongside outputs to allow transparent user verification.</li></ul></div><div class="section">Low priority &middot; 6</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://glyphack.com/attention/">It&#x27;s getting harder to focus every day</a></h2><div class="why">A non-technical personal essay discussing personal focus and digital distractions.</div><ul><li>Explores personal struggles with attention management and strategies for distraction-free programming.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://book-prize-index.vercel.app">The Book Prize Index</a></h2><div class="why">An end-user directory site for nonfiction book awards with no relevance to ML or backend infrastructure.</div><ul><li>Indexes award-winning nonfiction books using a weighted prize scoring algorithm.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/gpt-4-api-general-availability">GPT-4 API general availability and deprecation of older models in the Completions API</a></h2><div class="why">An outdated vendor platform announcement regarding standard API deprecations.</div><ul><li>Details historical migration timelines from legacy Completions endpoints to Chat Completions.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program">Introducing improvements to the fine-tuning API and expanding our custom models program</a></h2><div class="why">A routine vendor product update and deprecation notice for fine-tuning platform features.</div><ul><li>Introduces epoch-based checkpointing and side-by-side evaluation while noting fine-tuning platform wind-down timelines.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/start-using-chatgpt-instantly">Start using ChatGPT instantly</a></h2><div class="why">A consumer-focused product announcement about unauthenticated access to ChatGPT.</div><ul><li>Rolls out login-free access to ChatGPT with standard content filtering safeguards.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/holiday-extras">Building a data-driven, efficient culture with AI</a></h2><div class="why">A high-level corporate case study focused on enterprise ChatGPT adoption without technical depth.</div><ul><li>Outlines productivity gains across translation and data querying teams using ChatGPT Enterprise.</li></ul></div></body></html>

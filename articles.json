@@ -34545,5 +34545,123 @@
   "points": [
    "Outlines high-level policies regarding robots.txt adherence and publisher content management tools."
   ]
+ },
+ "2b7ddff8ef48f7f7": {
+  "feed": "YC Hacker News",
+  "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+  "link": "https://bfl.ai/blog/flux-3-mimic",
+  "date": "2026-07-24",
+  "tier": "must_read",
+  "why": "Directly advances foundation model pretraining priorities by analyzing joint video, audio, and action-prediction training in FLUX 3.",
+  "points": [
+   "Video prediction accounts for over 95% of total compute costs during joint multimodal foundation model training.",
+   "Integrating low-dimensional action prediction causes an initial 10% drop in video generation quality that fully recovers within 3,500 steps.",
+   "Demonstrates that world representations learned via video rendering transfer directly to robotic action control."
+  ]
+ },
+ "6d4692295f49b5cc": {
+  "feed": "YC Hacker News",
+  "title": "It's getting harder to focus every day",
+  "link": "https://glyphack.com/attention/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "A non-technical personal essay discussing personal focus and digital distractions.",
+  "points": [
+   "Explores personal struggles with attention management and strategies for distraction-free programming."
+  ]
+ },
+ "4364b10ecc01eb1d": {
+  "feed": "YC Hacker News",
+  "title": "Claude Cookbook",
+  "link": "https://platform.claude.com/cookbook/",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Provides practical patterns for LLM systems, including tool embeddings, context compaction, and multi-agent coordination.",
+  "points": [
+   "Demonstrates scaling tool usage to thousands using semantic embeddings for dynamic tool discovery.",
+   "Covers automatic context compaction mechanisms for managing memory in long-running agent workflows.",
+   "Provides orchestration patterns for fixed and dynamic multi-agent teams using shared communication hubs."
+  ]
+ },
+ "fc9b3a2c5542c534": {
+  "feed": "YC Hacker News",
+  "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
+  "link": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Offers useful systems engineering insights into build graph optimization, modern Zig, and performance refactoring.",
+  "points": [
+   "Ports Bun's build graph entirely into modern Zig to achieve sub-second incremental compilation.",
+   "Eliminates over 11,000 lines of dead code to modernize low-level system glue.",
+   "Explores human-guided LLM refactoring strategies on complex native codebases."
+  ]
+ },
+ "c56c3cea41d7e8bf": {
+  "feed": "YC Hacker News",
+  "title": "The Book Prize Index",
+  "link": "https://book-prize-index.vercel.app",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "An end-user directory site for nonfiction book awards with no relevance to ML or backend infrastructure.",
+  "points": [
+   "Indexes award-winning nonfiction books using a weighted prize scoring algorithm."
+  ]
+ },
+ "b0ff3df3795029e6": {
+  "feed": "OpenAI News",
+  "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
+  "link": "https://openai.com/index/gpt-4-api-general-availability",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "An outdated vendor platform announcement regarding standard API deprecations.",
+  "points": [
+   "Details historical migration timelines from legacy Completions endpoints to Chat Completions."
+  ]
+ },
+ "bb1c5beb9530e2dd": {
+  "feed": "OpenAI News",
+  "title": "Introducing improvements to the fine-tuning API and expanding our custom models program",
+  "link": "https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "A routine vendor product update and deprecation notice for fine-tuning platform features.",
+  "points": [
+   "Introduces epoch-based checkpointing and side-by-side evaluation while noting fine-tuning platform wind-down timelines."
+  ]
+ },
+ "a433a59c63d08fca": {
+  "feed": "OpenAI News",
+  "title": "Start using ChatGPT instantly",
+  "link": "https://openai.com/index/start-using-chatgpt-instantly",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "A consumer-focused product announcement about unauthenticated access to ChatGPT.",
+  "points": [
+   "Rolls out login-free access to ChatGPT with standard content filtering safeguards."
+  ]
+ },
+ "ddd95c940544c10e": {
+  "feed": "OpenAI News",
+  "title": "Making education data accessible",
+  "link": "https://openai.com/index/zelma",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates practical applied LLM design using function calling, vector retrieval, and text-to-SQL execution.",
+  "points": [
+   "Combines function calling with vector DB lookup to build reliable data visualization pipelines.",
+   "Uses a fine-tuned type-ahead model to nudge user prompts into supported domain boundaries.",
+   "Exposes raw generated SQL alongside outputs to allow transparent user verification."
+  ]
+ },
+ "dcf77a0a4ad901a9": {
+  "feed": "OpenAI News",
+  "title": "Building a data-driven, efficient culture with AI",
+  "link": "https://openai.com/index/holiday-extras",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "A high-level corporate case study focused on enterprise ChatGPT adoption without technical depth.",
+  "points": [
+   "Outlines productivity gains across translation and data querying teams using ChatGPT Enterprise."
+  ]
  }
 }
