@@ -34775,5 +34775,130 @@
   "points": [
    "Uses GPT-4 prompting to simplify complex medical consent forms down to a 6th-grade reading level."
   ]
+ },
+ "03a0acd4a5918f95": {
+  "feed": "YC Hacker News",
+  "title": "My security camera shipped a GitHub admin token in its login page",
+  "link": "https://hhh.hn/hanwha-github-token/",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates a real-world build-system security trap where Vite bakes CI environment variables into frontend assets.",
+  "points": [
+   "Hardcoded AES keys in camera firmware were recovered by leveraging AI tools to reverse-engineer obfuscated decryption binaries.",
+   "Setting process.env at build time in Vite leaked production GitHub admin tokens into public firmware assets."
+  ]
+ },
+ "5576937647b8bad1": {
+  "feed": "YC Hacker News",
+  "title": "3GPP Version 19",
+  "link": "https://www.3gpp.org/specifications-technologies/releases/release-19",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Administrative update and portal text for 3GPP telecom standards with no actionable engineering value.",
+  "points": [
+   "Summarizes the completion timeline and organizational structure for 3GPP Release 19 mobile standards."
+  ]
+ },
+ "7c47835d9d2c9a5b": {
+  "feed": "YC Hacker News",
+  "title": "Em dashes are fucking amazing",
+  "link": "https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Empty discussion page about punctuation with no technical or career relevance.",
+  "points": [
+   "Contains no substantial engineering content or text."
+  ]
+ },
+ "2498f519c9a1387b": {
+  "feed": "YC Hacker News",
+  "title": "Half-Life 2 running natively on HaikuOS",
+  "link": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Niche community forum thread on porting Nvidia graphics drivers to HaikuOS.",
+  "points": [
+   "Community discussion around driver compatibility and frame rates for running Half-Life 2 on HaikuOS."
+  ]
+ },
+ "d4849d03a2f659cc": {
+  "feed": "YC Hacker News",
+  "title": "Co-Opting Linux Processes for High-Performance Network Simulation (2022)",
+  "link": "https://www.usenix.org/conference/atc22/presentation/jansen",
+  "date": "2026-07-24",
+  "tier": "must_read",
+  "why": "Deep dive into low-level systems and performance engineering for high-throughput network simulation.",
+  "points": [
+   "Explores techniques for co-opting standard Linux processes to run large-scale, high-performance network simulations.",
+   "Provides architectural insights relevant to backend infrastructure and high-throughput systems design."
+  ]
+ },
+ "e8160a3fca2a9c85": {
+  "feed": "Technica",
+  "title": "Robot snakes searched for Venezuela earthquake survivors in collapsed buildings",
+  "link": "https://arstechnica.com/gadgets/2026/07/robot-snakes-searched-for-venezuela-earthquake-survivors-in-collapsed-buildings/",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "General news coverage of snake-like robotics used in search-and-rescue operations.",
+  "points": [
+   "Describes physical robotics hardware applied to urban search and rescue following earthquakes."
+  ]
+ },
+ "32b7a51db1d9c071": {
+  "feed": "OpenAI News",
+  "title": "Disrupting malicious uses of AI by state-affiliated threat actors",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Provides empirical context on how state-affiliated threat actors attempt to utilize commercial LLMs.",
+  "points": [
+   "Findings indicate threat actors primarily use LLMs for basic scripting, translation, and open-source research rather than novel exploits.",
+   "OpenAI and Microsoft disrupted five state-affiliated threat groups by terminating their platform accounts."
+  ]
+ },
+ "b14ffcddc3737b99": {
+  "feed": "OpenAI News",
+  "title": "Building an early warning system for LLM-aided biological threat creation",
+  "link": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Relevant to LLM evaluation methodology, safety benchmarking, and measuring domain-specific capability uplift.",
+  "points": [
+   "Evaluates whether GPT-4 meaningfully assists users in bio-threat creation, finding only a mild, non-conclusive uplift.",
+   "Establishes an evaluation blueprint for testing model risks in high-consequence technical fields."
+  ]
+ },
+ "af154a5960c3b6f9": {
+  "feed": "OpenAI News",
+  "title": "How OpenAI is approaching 2024 worldwide elections",
+  "link": "https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "High-level corporate PR recap detailing policy and moderation efforts around global elections.",
+  "points": [
+   "Outlines OpenAI's platform guardrails, candidate image generation restrictions, and partnership with NASS."
+  ]
+ },
+ "4c5542cdedb35bc3": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT Team",
+  "link": "https://openai.com/index/introducing-chatgpt-team",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Standard product release announcement and pricing tier marketing for ChatGPT Team.",
+  "points": [
+   "Announces a workspace subscription plan offering dedicated admin controls and higher message limits for business teams."
+  ]
+ },
+ "2c8e6910ccb4fbe3": {
+  "feed": "OpenAI News",
+  "title": "Delivering LLM-powered health solutions",
+  "link": "https://openai.com/index/whoop",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Consumer product case study showcasing GPT-4 integration into the WHOOP health tracking app.",
+  "points": [
+   "Highlights how WHOOP fine-tuned GPT-4 on user health metrics to provide conversational fitness coaching."
+  ]
  }
 }
