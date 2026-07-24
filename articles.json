@@ -34430,5 +34430,120 @@
   "points": [
    "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code: Hugging Face has an enormous attack surface."
   ]
+ },
+ "8959abc1b36bf56e": {
+  "feed": "YC Hacker News",
+  "title": "Flux 3",
+  "link": "https://bfl.ai/blog/flux-3",
+  "date": "2026-07-24",
+  "tier": "must_read",
+  "why": "Presents FLUX 3's unified architecture and Self-Flow technique for jointly training multimodal foundation models across video, image, and audio.",
+  "points": [
+   "Introduces Self-Flow to align multimodal generation and understanding in a single architecture, outperforming standard Flow Matching.",
+   "Trains jointly across video (up to 20s with native audio), image, and audio to leverage mutual physical and acoustic constraints.",
+   "Demonstrates lower generation error (Fréchet distance) and higher downstream task success on physical AI evaluations."
+  ]
+ },
+ "6d0e7fa0c84d5c5b": {
+  "feed": "YC Hacker News",
+  "title": "The PImpl idiom and the C++26 std:indirect type",
+  "link": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Explains how C++26's std::indirect standardizes value semantics for heap-allocated implementation details, simplifying low-level performance engineering.",
+  "points": [
+   "Traditional PImpl requires explicit Rule of Five implementation with raw or smart pointers to isolate compile-time dependencies.",
+   "C++26 std::indirect provides value semantics (deep copy and move) for pointer-like members, simplifying compilation decoupling."
+  ]
+ },
+ "a0cca8e70fdb50a0": {
+  "feed": "YC Hacker News",
+  "title": "Quickly rewrite Git repository history",
+  "link": "https://github.com/newren/git-filter-repo",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Standard open-source repository documentation for a Git history rewriting utility.",
+  "points": [
+   "Provides a Python-based filter-branch replacement tool for rewriting Git commit history."
+  ]
+ },
+ "b849fbf637f25260": {
+  "feed": "YC Hacker News",
+  "title": "Russia's businesses under strain from Ukraine's attacks on Wildberries",
+  "link": "https://www.bbc.com/news/articles/cvg9n2y61w6o",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Geopolitical news report on drone strikes against e-commerce warehouses, unrelated to engineering or ML.",
+  "points": [
+   "Reports on logistics disruption resulting from drone strikes on Russian Wildberries fulfillment centers."
+  ]
+ },
+ "c1235e6e1a5ba5dc": {
+  "feed": "YC Hacker News",
+  "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+  "link": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Details DARPA's VENOM program integrating real-time autonomous flight control AI into operational F-16 fighter jets.",
+  "points": [
+   "Integrates the VENOM Autonomy Kit into F-16s to enable in-flight toggling between human pilot and AI control.",
+   "Establishes a physical hardware testbed for evaluating real-time reinforcement learning agents in edge environments."
+  ]
+ },
+ "b390858fc4b3eca2": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Board Forms Safety and Security Committee",
+  "link": "https://openai.com/index/openai-board-forms-safety-and-security-committee",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Corporate governance PR announcement regarding OpenAI board committee structures.",
+  "points": [
+   "Announces an internal board committee to review safety and security recommendations over 90 days."
+  ]
+ },
+ "cbc851fe0ee27acc": {
+  "feed": "OpenAI News",
+  "title": "OpenAI safety practices",
+  "link": "https://openai.com/index/openai-safety-update",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "High-level policy post summarizing OpenAI's existing safety practices for an international summit.",
+  "points": [
+   "Summarizes red-teaming protocols, evaluation thresholds, and alignment practices without technical training details."
+  ]
+ },
+ "349c468c534ac9b1": {
+  "feed": "OpenAI News",
+  "title": "Improvements to data analysis in ChatGPT",
+  "link": "https://openai.com/index/improvements-to-data-analysis-in-chatgpt",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "Product marketing update highlighting consumer UI feature enhancements in ChatGPT.",
+  "points": [
+   "Adds cloud storage integrations and customizable interactive chart rendering to ChatGPT."
+  ]
+ },
+ "ab01dc4f64c9179e": {
+  "feed": "OpenAI News",
+  "title": "Ilya Sutskever to leave OpenAI, Jakub Pachocki announced as Chief Scientist",
+  "link": "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist",
+  "date": "2026-07-24",
+  "tier": "worth_a_skim",
+  "why": "Strategically notable AI industry transition as Ilya Sutskever departs and GPT-4 research lead Jakub Pachocki becomes Chief Scientist.",
+  "points": [
+   "Jakub Pachocki (former Director of Research leading GPT-4 and OpenAI Five) appointed Chief Scientist.",
+   "Marks a key leadership shift at a primary frontier LLM laboratory."
+  ]
+ },
+ "6787fb9036759851": {
+  "feed": "OpenAI News",
+  "title": "Our approach to data and AI",
+  "link": "https://openai.com/index/approach-to-data-and-ai",
+  "date": "2026-07-24",
+  "tier": "low_priority",
+  "why": "PR and policy statement outlining OpenAI's stance on copyright, web crawling, and publisher relations.",
+  "points": [
+   "Outlines high-level policies regarding robots.txt adherence and publisher content management tools."
+  ]
  }
 }
