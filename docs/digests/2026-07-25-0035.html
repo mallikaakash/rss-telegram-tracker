@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sat 25 Jul 2026, 00:35 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sat 25 Jul 2026, 00:35 IST &middot; 12 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Cloudflare&#x27;s BGP manipulation deep-dive and Anthropic&#x27;s Claude Opus 5 release lead this batch, alongside model inference benchmark analyses and security teardowns.</div><div class="section">Must read &middot; 3</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://www.anthropic.com/news/claude-opus-5">Claude Opus 5</a></h2><div class="why">Major frontier model launch featuring detailed benchmark trade-offs between compute effort, intelligence, and task costs.</div><ul><li>Claude Opus 5 achieves state-of-the-art coding and knowledge work results while running at half the cost of Claude Fable 5.</li><li>Introduces effort settings allowing users to dynamically optimize token consumption against task complexity across benchmarks like Frontier-Bench v0.1 and ARC-AGI 3.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Together AI</span><h2><a href="https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding">Kimi K3 vs Claude Fable 5 on DeepSWE: Cost and Coding</a></h2><div class="why">Directly compares frontier inference cost efficiency and software engineering performance across leading model providers.</div><ul><li>Evaluates Kimi K3 against Claude Fable 5 on the DeepSWE benchmark to measure cost per resolved coding task.</li><li>Highlights trade-offs in provisioned throughput and inference serving costs for developer workflows.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/bgp-origin-attribute/">BGP ORIGIN attribute manipulation and its impact on the Internet</a></h2><div class="why">High-quality networking deep-dive from Cloudflare explaining empirical internet routing dynamics and protocol abuses.</div><ul><li>Cloudflare telemetry reveals ~70% of observed Internet paths have their BGP ORIGIN attribute modified en route despite RFC guidelines.</li><li>Autonomous Systems exploit ORIGIN manipulation (e.g., rewriting INCOMPLETE to IGP) to force upstream routers to prefer their transit paths.</li></ul></div><div class="section">Worth a skim &middot; 1</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html">I got into YC by hacking it</a></h2><div class="why">An entertaining backend security war story detailing an unvalidated HMAC flaw in YC&#x27;s developer scanning script.</div><ul><li>YC distributed a system scanner (Paxel) using a one-liner cURL script to evaluate applicants&#x27; codebase history.</li><li>An unvalidated HMAC vulnerability allowed forging arbitrary evaluation scores into YC&#x27;s backend ranking database.</li></ul></div><div class="section">Low priority &middot; 8</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html">Nvidia, Microsoft, Meta warn against overregulating open-weight models</a></h2><div class="why">Policy news and political maneuvering around open-weight model regulation with no technical or engineering depth.</div><ul><li>Tech consortium including Meta, Microsoft, and Nvidia published an open letter opposing U.S. government restrictions on open-weight AI models.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker">Be skeptical of OpenAI&#x27;s rogue hacker agent story</a></h2><div class="why">Media commentary and opinion piece on AI hype cycles without technical infrastructure or training details.</div><ul><li>Argues that OpenAI&#x27;s autonomous hacking agent announcements are hype-driven marketing campaigns targeted at investors.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.youtube.com/watch?v=5F-2Y1LPRek">Fil-C: Garbage In, Memory Safety Out [video]</a></h2><div class="why">Empty post linking to a video with no accompanying text or transcript.</div><ul><li>Contains only a comment section placeholder for a presentation on Fil-C memory safety.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/dall-e-3-system-card">DALL·E 3 system card</a></h2><div class="why">Outdated 2023 safety system card for an image generation model.</div><ul><li>Details historical red teaming and safety mitigation protocols for DALL-E 3 from late 2023.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/gpt-4v-system-card">GPT-4V(ision) system card</a></h2><div class="why">Outdated 2023 system card on multimodal safety evaluations.</div><ul><li>Summarizes safety evaluations and risk mitigation efforts for GPT-4 Vision from late 2023.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/red-teaming-network">OpenAI Red Teaming Network</a></h2><div class="why">Outdated 2023 call for external red team applications.</div><ul><li>Historical open call inviting domain experts to apply for OpenAI&#x27;s external red teaming network.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/introducing-chatgpt-enterprise">Introducing ChatGPT Enterprise</a></h2><div class="why">Outdated product marketing announcement for an enterprise SaaS offering.</div><ul><li>Announced the initial launch of ChatGPT Enterprise in August 2023.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models">OpenAI partners with Scale to provide support for enterprises fine-tuning models</a></h2><div class="why">Outdated 2023 corporate partnership announcement.</div><ul><li>Announced a 2023 preferred partnership between OpenAI and Scale AI for enterprise model fine-tuning.</li></ul></div></body></html>

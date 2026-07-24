@@ -35054,5 +35054,141 @@
   "points": [
    "Building AI-powered apps for business | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI Retool Retool uses GPT‑4 to give businesses a fast, secure way to build AI-powered apps."
   ]
+ },
+ "e75df1016aa12143": {
+  "feed": "YC Hacker News",
+  "title": "Claude Opus 5",
+  "link": "https://www.anthropic.com/news/claude-opus-5",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "Major frontier model launch featuring detailed benchmark trade-offs between compute effort, intelligence, and task costs.",
+  "points": [
+   "Claude Opus 5 achieves state-of-the-art coding and knowledge work results while running at half the cost of Claude Fable 5.",
+   "Introduces effort settings allowing users to dynamically optimize token consumption against task complexity across benchmarks like Frontier-Bench v0.1 and ARC-AGI 3."
+  ]
+ },
+ "2c4109d9017557ae": {
+  "feed": "YC Hacker News",
+  "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+  "link": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Policy news and political maneuvering around open-weight model regulation with no technical or engineering depth.",
+  "points": [
+   "Tech consortium including Meta, Microsoft, and Nvidia published an open letter opposing U.S. government restrictions on open-weight AI models."
+  ]
+ },
+ "6d40dd16c3912257": {
+  "feed": "YC Hacker News",
+  "title": "I got into YC by hacking it",
+  "link": "https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "An entertaining backend security war story detailing an unvalidated HMAC flaw in YC's developer scanning script.",
+  "points": [
+   "YC distributed a system scanner (Paxel) using a one-liner cURL script to evaluate applicants' codebase history.",
+   "An unvalidated HMAC vulnerability allowed forging arbitrary evaluation scores into YC's backend ranking database."
+  ]
+ },
+ "3ecc7db58a463f60": {
+  "feed": "YC Hacker News",
+  "title": "Be skeptical of OpenAI's rogue hacker agent story",
+  "link": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Media commentary and opinion piece on AI hype cycles without technical infrastructure or training details.",
+  "points": [
+   "Argues that OpenAI's autonomous hacking agent announcements are hype-driven marketing campaigns targeted at investors."
+  ]
+ },
+ "1f849276c400df41": {
+  "feed": "YC Hacker News",
+  "title": "Fil-C: Garbage In, Memory Safety Out [video]",
+  "link": "https://www.youtube.com/watch?v=5F-2Y1LPRek",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Empty post linking to a video with no accompanying text or transcript.",
+  "points": [
+   "Contains only a comment section placeholder for a presentation on Fil-C memory safety."
+  ]
+ },
+ "e2e5c6373596395b": {
+  "feed": "OpenAI News",
+  "title": "DALL·E 3 system card",
+  "link": "https://openai.com/index/dall-e-3-system-card",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 safety system card for an image generation model.",
+  "points": [
+   "Details historical red teaming and safety mitigation protocols for DALL-E 3 from late 2023."
+  ]
+ },
+ "93a89097fcf7617b": {
+  "feed": "OpenAI News",
+  "title": "GPT-4V(ision) system card",
+  "link": "https://openai.com/index/gpt-4v-system-card",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 system card on multimodal safety evaluations.",
+  "points": [
+   "Summarizes safety evaluations and risk mitigation efforts for GPT-4 Vision from late 2023."
+  ]
+ },
+ "b97a4113a1e789ad": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Red Teaming Network",
+  "link": "https://openai.com/index/red-teaming-network",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 call for external red team applications.",
+  "points": [
+   "Historical open call inviting domain experts to apply for OpenAI's external red teaming network."
+  ]
+ },
+ "cbe5ba39988b0fd4": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT Enterprise",
+  "link": "https://openai.com/index/introducing-chatgpt-enterprise",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated product marketing announcement for an enterprise SaaS offering.",
+  "points": [
+   "Announced the initial launch of ChatGPT Enterprise in August 2023."
+  ]
+ },
+ "fe3df80d073ef90e": {
+  "feed": "OpenAI News",
+  "title": "OpenAI partners with Scale to provide support for enterprises fine-tuning models",
+  "link": "https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 corporate partnership announcement.",
+  "points": [
+   "Announced a 2023 preferred partnership between OpenAI and Scale AI for enterprise model fine-tuning."
+  ]
+ },
+ "bc7032432d6a8fd1": {
+  "feed": "Together AI",
+  "title": "Kimi K3 vs Claude Fable 5 on DeepSWE: Cost and Coding",
+  "link": "https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "Directly compares frontier inference cost efficiency and software engineering performance across leading model providers.",
+  "points": [
+   "Evaluates Kimi K3 against Claude Fable 5 on the DeepSWE benchmark to measure cost per resolved coding task.",
+   "Highlights trade-offs in provisioned throughput and inference serving costs for developer workflows."
+  ]
+ },
+ "31c7f32077edb65e": {
+  "feed": "Cloudflare Blog",
+  "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+  "link": "https://blog.cloudflare.com/bgp-origin-attribute/",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "High-quality networking deep-dive from Cloudflare explaining empirical internet routing dynamics and protocol abuses.",
+  "points": [
+   "Cloudflare telemetry reveals ~70% of observed Internet paths have their BGP ORIGIN attribute modified en route despite RFC guidelines.",
+   "Autonomous Systems exploit ORIGIN manipulation (e.g., rewriting INCOMPLETE to IGP) to force upstream routers to prefer their transit paths."
+  ]
  }
 }
