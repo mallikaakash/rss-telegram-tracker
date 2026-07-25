@@ -36015,5 +36015,121 @@
   "points": [
    "Announces the appointment of Helen Toner to OpenAI's board of directors."
   ]
+ },
+ "cac1d34ee768f513": {
+  "feed": "YC Hacker News",
+  "title": "Wind turbine is being used to produce zero-carbon \"green ammonia\" fertilizer",
+  "link": "https://energiesmedia.com/wind-turbine-stopped-electricity-wind-water-air/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Off-topic article on green energy and fertilizer production with no engineering relevance.",
+  "points": [
+   "Explores using wind turbines for green ammonia production via the Haber-Bosch process."
+  ]
+ },
+ "c6e39b69d55e8376": {
+  "feed": "YC Hacker News",
+  "title": "The whole premise of checking for human writing is daft",
+  "link": "https://mohammedshehu.com/checking-for-human-writing-is-daft/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Non-technical opinion essay regarding AI text detectors rather than ML engineering.",
+  "points": [
+   "Argues authorial intent matters more than manual keystrokes when evaluating AI-assisted writing."
+  ]
+ },
+ "9165171a9b7d3f01": {
+  "feed": "YC Hacker News",
+  "title": "Stolen Buttons",
+  "link": "https://anatolyzenkov.com/stolen-buttons",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Frontend design showcase of UI buttons, completely off-target for backend/ML interests.",
+  "points": [
+   "Displays a personal collection of scraped UI button elements from various websites."
+  ]
+ },
+ "01266390edec314e": {
+  "feed": "YC Hacker News",
+  "title": "Bitchat Is Now on Radicle",
+  "link": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Empty announcement stub containing no technical detail or substance.",
+  "points": [
+   "Notifies users of a project relocation to Radicle with no attached article text."
+  ]
+ },
+ "5d1487ccbccb3e32": {
+  "feed": "YC Hacker News",
+  "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it",
+  "link": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Stub text for an opinion piece lacking concrete technical engineering details.",
+  "points": [
+   "Analogy comparing the state of open-weight AI deployment to Kubernetes standardization."
+  ]
+ },
+ "e429584a9dcd778d": {
+  "feed": "OpenAI News",
+  "title": "Introducing Triton: Open-source GPU programming for neural networks",
+  "link": "https://openai.com/index/triton",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "High-value ML infrastructure tool enabling custom GPU kernel development in Python without writing CUDA.",
+  "points": [
+   "Introduces Triton 1.0, allowing Python developers to write FP16 matrix multiplication matching cuBLAS performance in <25 lines.",
+   "Automates complex GPU memory hierarchy management, including DRAM coalescing and SRAM bank conflict minimization.",
+   "Delivers up to 2x speedups over standard PyTorch operators for custom neural network layers."
+  ]
+ },
+ "296e71876a12975d": {
+  "feed": "OpenAI News",
+  "title": "Improving language model behavior by training on a curated dataset",
+  "link": "https://openai.com/index/improving-language-model-behavior",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "Directly advances LLM post-training alignment techniques using efficient dataset steering.",
+  "points": [
+   "Shows model behavioral values can be guided effectively using fine-tuning datasets of fewer than 100 examples.",
+   "Finds that small-dataset behavioral steering becomes increasingly sample-efficient as model parameter scale increases.",
+   "Preserves downstream benchmark task performance while adhering to targeted behavioral guardrails."
+  ]
+ },
+ "ecb93d049674c312": {
+  "feed": "OpenAI News",
+  "title": "DALL·E: Creating images from text",
+  "link": "https://openai.com/index/dall-e",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Foundational architecture milestone for autoregressive Transformer multimodal pretraining.",
+  "points": [
+   "Trains a 12-billion parameter autoregressive Transformer on combined 1280-token streams of text and image tokens.",
+   "Demonstrates zero-shot capabilities across spatial reasoning, image composition, and visual attribute manipulation."
+  ]
+ },
+ "06d2679acb237298": {
+  "feed": "OpenAI News",
+  "title": "CLIP: Connecting text and images",
+  "link": "https://openai.com/index/clip",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Seminal vision-language model release utilizing contrastive learning for zero-shot tasks.",
+  "points": [
+   "Trains visual representations using natural language supervision across broad web image-text pairs.",
+   "Enables flexible zero-shot visual classification by querying text category names without task-specific fine-tuning."
+  ]
+ },
+ "cd860febfac2ced9": {
+  "feed": "OpenAI News",
+  "title": "Organizational update from OpenAI",
+  "link": "https://openai.com/index/organizational-update",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Routine executive departure announcement and corporate reorganization news.",
+  "points": [
+   "Announces Dario Amodei's departure from OpenAI alongside internal leadership restructuring."
+  ]
  }
 }
