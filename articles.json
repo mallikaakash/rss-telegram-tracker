@@ -35538,5 +35538,120 @@
   "points": [
    "Stripe | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI March 14, 2023 Stripe Stripe uses GPT‑4 to improve developer support, understand user businesses faster, and strengthen fraud detection across its platform and community workflows."
   ]
+ },
+ "d221684ef7411f09": {
+  "feed": "YC Hacker News",
+  "title": "NYC Apartment Aquaponics",
+  "link": "https://erinmurphy.dev/projects/project-2/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "An off-topic DIY aquaponics build guide with no relevance to ML, backend systems, or engineering infrastructure.",
+  "points": [
+   "Details the design, continuous-flow mechanics, and lessons learned from setting up a small-apartment aquaponics system."
+  ]
+ },
+ "46d5dba7230c72cc": {
+  "feed": "YC Hacker News",
+  "title": "Extinct Media Museum Tokyo",
+  "link": "https://extinct-media-museum.blog.jp/otemachi/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Focuses on historical physical media preservation in a Tokyo museum, which is unrelated to software or ML engineering.",
+  "points": [
+   "Exhibits 3,000 historical hardware and media items with a hands-on visitor policy and catalog scanning station."
+  ]
+ },
+ "f244f4d4e7a6a805": {
+  "feed": "YC Hacker News",
+  "title": "Building a Tiny 3D Renderer for a Tiny Handheld",
+  "link": "https://saffroncr.itch.io/katavatis/devlog/1534514/building-a-tiny-3d-renderer-for-a-tiny-handheld",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "A detailed engineering deep-dive into CPU performance constraints, low-level memory optimization, and custom software rendering on resource-constrained hardware.",
+  "points": [
+   "Playdate lacks 3D graphics hardware, requiring pure CPU rasterization without depth buffers, floating-point acceleration, or hardware clipping.",
+   "Leverages a 1-bit display framebuffer and custom vector math tricks to achieve acceptable rendering performance.",
+   "Demonstrates practical micro-benchmarking using raycasting engines on low-power microcontrollers."
+  ]
+ },
+ "d3e10866db198abe": {
+  "feed": "YC Hacker News",
+  "title": "Book Corners: Community map of neighborhood book exchange spots",
+  "link": "https://www.bookcorners.org",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "A web directory app mapping local book exchanges without technical architecture or backend insights.",
+  "points": [
+   "Provides a community-driven global map tracking over 37,000 Little Free Library locations."
+  ]
+ },
+ "b56ef24f19396022": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
+  "link": "https://globaloilnetwork.staffinganalytics.io/",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates applied network optimization and dynamic stochastic modeling, relevant to process optimization and constrained systems.",
+  "points": [
+   "Uses fluid-stochastic network clearing and Skorokhod dynamic inventory modeling to simulate oil trade disruptions.",
+   "Models emergency stockpile depletion and price clearing under variable supply and demand elasticity settings.",
+   " Accompanied by an interactive simulation tool and an academic paper on arXiv (2607.17491)."
+  ]
+ },
+ "4418bc3a4906d1e5": {
+  "feed": "OpenAI News",
+  "title": "Filling crucial language learning gaps",
+  "link": "https://openai.com/index/duolingo",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "A high-level product marketing case study showcasing GPT-4 feature integration without deep technical implementation detail.",
+  "points": [
+   "Duolingo uses GPT-4 to power Role Play conversations and Explain My Answer grammar feedback in Duolingo Max."
+  ]
+ },
+ "3f469ebd98c761c3": {
+  "feed": "OpenAI News",
+  "title": "GPT-4",
+  "link": "https://openai.com/index/gpt-4-research",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "A historic release announcement for a major multimodal language model, though this post lacks detailed training architecture depth.",
+  "points": [
+   "Announces GPT-4 as a multimodal model accepting text and image inputs to produce text outputs.",
+   "Reports human-level benchmark performance across academic and professional exams."
+  ]
+ },
+ "7bd854f81ff0f489": {
+  "feed": "OpenAI News",
+  "title": "Planning for AGI and beyond",
+  "link": "https://openai.com/index/planning-for-agi-and-beyond",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "A high-level policy and mission post regarding AGI governance without technical backend or ML engineering content.",
+  "points": [
+   "Outlines OpenAI's high-level strategy for iterative deployment, risk mitigation, and governance as AI models scale."
+  ]
+ },
+ "13872e51bde555b0": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT Plus",
+  "link": "https://openai.com/index/chatgpt-plus",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "A historical consumer product pricing announcement with no technical substance.",
+  "points": [
+   "Announced the initial $20/month ChatGPT Plus subscription tier for faster response times and priority access."
+  ]
+ },
+ "5764a72a7f7b728b": {
+  "feed": "OpenAI News",
+  "title": "Creating next-gen characters",
+  "link": "https://openai.com/index/inworld-ai-DO-NOT-PUBLISH",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "A single-sentence marketing stub lacking any technical context or implementation details.",
+  "points": [
+   "Briefly mentions using GPT-3 to construct interactive AI-powered characters."
+  ]
  }
 }
