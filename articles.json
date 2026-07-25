@@ -36131,5 +36131,119 @@
   "points": [
    "Announces Dario Amodei's departure from OpenAI alongside internal leadership restructuring."
   ]
+ },
+ "8c147a793684f75c": {
+  "feed": "YC Hacker News",
+  "title": "Tile's Security Is So Bad It's a Feature for Stalkers",
+  "link": "https://blog.adafruit.com/2026/03/05/tiles-security-is-so-bad-its-a-feature-for-stalkers/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Consumer tracking product security flaws are unrelated to ML infrastructure or backend engineering.",
+  "points": [
+   "Tile Bluetooth trackers suffer from security vulnerabilities that enable persistent tracking."
+  ]
+ },
+ "aebae44d3ae984e1": {
+  "feed": "YC Hacker News",
+  "title": "GDID Windows – Cut the tracker that follows you even under VPN",
+  "link": "https://korben.info/en/gdid-windows-cut-tracker-vpn.html",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Windows OS telemetry tracking is off-target for ML engineering and backend system priorities.",
+  "points": [
+   "Microsoft tracks Windows sessions using an account-bound 64-bit GDID identifier rather than local hardware hashes."
+  ]
+ },
+ "072711527d0cd748": {
+  "feed": "YC Hacker News",
+  "title": "Bringing PyTorch Monarch to AMD GPUs",
+  "link": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/",
+  "date": "2026-07-26",
+  "tier": "must_read",
+  "why": "Crucial deep-dive into distributed ML infrastructure, bringing fault-tolerant, elastic training to AMD ROCm GPUs.",
+  "points": [
+   "Extends PyTorch Monarch's single-controller runtime to AMD Instinct GPUs for resilient large-scale training.",
+   "Replaces expensive full-cluster checkpoint restarts by enabling dynamic node failure recovery.",
+   "Allows healthy training nodes to continue computation while failed nodes recover and rejoin."
+  ]
+ },
+ "9bf171391d22ff8c": {
+  "feed": "YC Hacker News",
+  "title": "Rauno's Field Notes #2",
+  "link": "https://rauno.me/notes/2",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Frontend UI/UX design tweaks for web dashboards offer no value for ML or backend engineers.",
+  "points": [
+   "Details design iterations for Vercel project cards, context menus, and dashboard widgets."
+  ]
+ },
+ "da90182d2871d993": {
+  "feed": "YC Hacker News",
+  "title": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
+  "link": "https://news.mongabay.com/2026/07/zero-roadkill-as-amazon-canopy-bridges-secure-15000-crossings/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Ecology and wildlife conservation research is entirely outside the target engineering topics.",
+  "points": [
+   "Rope canopy bridges in the Amazon facilitated 15,000 animal crossings without roadkill."
+  ]
+ },
+ "43593b19e634bf45": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Scholars 2020: Final projects",
+  "link": "https://openai.com/index/openai-scholars-2020-final-projects",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Outdated 2020 educational program recap with no reusable engineering insights.",
+  "points": [
+   "Summarizes final research projects from OpenAI's 2020 Scholars cohort."
+  ]
+ },
+ "b8fc21edc568f873": {
+  "feed": "OpenAI News",
+  "title": "Procgen and MineRL Competitions",
+  "link": "https://openai.com/index/procgen-minerl-competitions",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Announcement for historical 2020 RL competitions lacks current engineering relevance.",
+  "points": [
+   "Announces NeurIPS 2020 RL benchmark competitions using Procgen and MineRL."
+  ]
+ },
+ "2b306a79f6e8956a": {
+  "feed": "OpenAI News",
+  "title": "Image GPT",
+  "link": "https://openai.com/index/image-gpt",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Classic study demonstrating autoregressive Transformer scaling applied directly to raw pixel sequences.",
+  "points": [
+   "Trains generative transformers on raw pixel sequences to generate image completions.",
+   "Proves unsupervised feature representation quality scales directly with generative sample quality, rivaling CNNs."
+  ]
+ },
+ "4baf2f14603030c6": {
+  "feed": "OpenAI News",
+  "title": "Language models are few-shot learners",
+  "link": "https://openai.com/index/language-models-are-few-shot-learners",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Landmark paper summary showing how scaling autoregressive language models unlocks in-context few-shot learning.",
+  "points": [
+   "Demonstrates that 175B parameter LMs achieve strong task performance without fine-tuning or gradient updates.",
+   "Evaluates task-agnostic prompting capabilities across translation, QA, and reasoning benchmarks."
+  ]
+ },
+ "53d4cf7377097ba1": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Microscope",
+  "link": "https://openai.com/index/microscope",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Visual interpretability tool for vision neural networks rather than LLM architectures or ML systems.",
+  "points": [
+   "Provides visual feature maps for layers and individual neurons across vision model organisms."
+  ]
  }
 }
