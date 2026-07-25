@@ -35877,5 +35877,143 @@
   "points": [
    "Teaching models to express their uncertainty in words | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 28, 2022 Publication Teaching models to express their uncertainty in words Read paper (opens in a new window) Loading… Share Abstract We show that a GPT‑3 model can learn to express uncertainty about its own answers in natural language—without use of model logits."
   ]
+ },
+ "deb2d889b8090b79": {
+  "feed": "YC Hacker News",
+  "title": "The Silurian Hypothesis (2020)",
+  "link": "https://www.theparisreview.org/blog/2020/01/23/the-silurian-hypothesis/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Philosophical essay on pre-human civilizations with no technical relevance to ML, backend systems, or industrial optimization.",
+  "points": [
+   "Explores the thought experiment of whether ancient industrial civilizations could exist without leaving geological evidence."
+  ]
+ },
+ "835dae60da958db5": {
+  "feed": "YC Hacker News",
+  "title": "My Images Are Dithered",
+  "link": "https://dead.garden/blog/how-my-images-are-dithered.html",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "A practical look at image dithering algorithms and ImageMagick pipelines for web graphics optimization.",
+  "points": [
+   "Compares AM (amplitude modulated) and FM (frequency modulated) halftone grids for image rendering.",
+   "Provides ImageMagick CLI commands to implement custom 2-color palettes and gaussian dithering."
+  ]
+ },
+ "8638b5aaa519e4f0": {
+  "feed": "YC Hacker News",
+  "title": "League of Legends designer shares game design field manual",
+  "link": "https://areadenial.games/design/preface#00-01",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Offers useful mental models on incentive structures and system design that translate well to software and platform architecture.",
+  "points": [
+   "Underlying system mechanics and scoreboards dictate user behavior far more than explicit messaging or UI text.",
+   "Users continuously audit hidden system logic, treating discrepancies between visible indicators and internal math as deliberate deception."
+  ]
+ },
+ "bae4b54f41a1141d": {
+  "feed": "YC Hacker News",
+  "title": "Spatial languages: Writing code in 2D",
+  "link": "https://shukla.io/blog/2026-07/cccx.html",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "An creative concept study on 2D visual programming syntax and multi-arity operator layout.",
+  "points": [
+   "Explores using vertical space in source code to represent 3-arity operators like conditional toggles.",
+   "Demonstrates a 2D spatial expression that simplifies state-machine logic in a physical controller."
+  ]
+ },
+ "fdab397a2e05cc99": {
+  "feed": "YC Hacker News",
+  "title": "Future euro banknote design proposals",
+  "link": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/all-design-proposals.en.html",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Public central bank announcement regarding currency designs, completely irrelevant to software or ML engineering.",
+  "points": [
+   "Presents proposed visual design themes for upcoming euro banknotes."
+  ]
+ },
+ "6408b7f717118594": {
+  "feed": "Technica",
+  "title": "With help from data, art museums are reframing the visitor experience",
+  "link": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "High-level feature story on art museum marketing without technical engineering or data science details.",
+  "points": [
+   "Discusses how museums use visitor analytics and social media trends to attract younger demographics."
+  ]
+ },
+ "2ebe7af5292338a0": {
+  "feed": "Technica",
+  "title": "Big Tech accused of stonewalling European social media researchers",
+  "link": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "News coverage on social media policy and academic data access lacking technical or algorithmic depth.",
+  "points": [
+   "Details how political manipulation campaigns on TikTok evade scrutiny while platform restrictions limit academic research."
+  ]
+ },
+ "9926d7e62490652d": {
+  "feed": "OpenAI News",
+  "title": "Measuring Goodhart’s law",
+  "link": "https://openai.com/index/measuring-goodharts-law",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "Deep mathematical breakdown of Goodhart's law in LLM alignment, specifically analyzing proxy reward models and best-of-n sampling.",
+  "points": [
+   "Demonstrates how over-optimizing a proxy reward model causes output quality to diverge from true human preference.",
+   "Shows that simple best-of-n rejection sampling is mathematically predictable and highly competitive with RLHF methods."
+  ]
+ },
+ "07d94d6636db2bf5": {
+  "feed": "OpenAI News",
+  "title": "New GPT-3 capabilities: Edit & insert",
+  "link": "https://openai.com/index/gpt-3-edit-insert",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Useful context on LLM infilling architecture and mid-document insertion capabilities for code generation.",
+  "points": [
+   "Explains how providing future context enables models to perform middle-of-file code infilling and structural edits.",
+   "Highlights practical applications of infilling in developer tools like GitHub Copilot."
+  ]
+ },
+ "7a34ba14b5f60ec4": {
+  "feed": "OpenAI News",
+  "title": "Customizing GPT-3 for your application",
+  "link": "https://openai.com/index/customizing-gpt-3",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Practical overview of empirical accuracy gains and latency reductions achieved by fine-tuning LLMs over prompt engineering.",
+  "points": [
+   "Shows fine-tuning with fewer than 100 examples yields linear quality improvements with each doubling of training data.",
+   "Demonstrates accuracy gains of 2x-4x over prompt design on complex tasks while reducing prompt length and inference costs."
+  ]
+ },
+ "fc821022a88b10c5": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Residency",
+  "link": "https://openai.com/index/openai-residency",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Standard corporate hiring announcement for a talent residency program.",
+  "points": [
+   "Announces OpenAI's residency program aimed at transitioning non-AI engineers into AI research and software roles."
+  ]
+ },
+ "3c2e6e58216742ea": {
+  "feed": "OpenAI News",
+  "title": "Helen Toner joins OpenAI’s board of directors",
+  "link": "https://openai.com/index/helen-toner-joins",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Routine corporate governance announcement regarding a board appointment.",
+  "points": [
+   "Announces the appointment of Helen Toner to OpenAI's board of directors."
+  ]
  }
 }
