@@ -35767,5 +35767,115 @@
    "Outlines a hazard analysis framework for evaluating code synthesis LLMs across security and technical risks.",
    "Proposes measuring model spec understanding against human programmer capabilities."
   ]
+ },
+ "d38f640d28a4752f": {
+  "feed": "YC Hacker News",
+  "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
+  "link": "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Head of Engineering at Kyber | Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface Safe Find a Co-Founder Events Startup Jobs Log in Apply Kyber Instantly draft, review, and send complex regulatory notices."
+  ]
+ },
+ "58e741285545f488": {
+  "feed": "YC Hacker News",
+  "title": "PyPI Blog: Releases now reject new files after 14 days",
+  "link": "https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Releases now reject new files after 14 days - The Python Package Index Blog The Python Package Index Blog Releases now reject new files after 14 days Initializing search GitHub The Python Package Index Blog GitHub The PyPI Blog Tags Archive Archive 2026 2025 2024 2023 Authors Authors Seth Larson Nicole Harris Mike Fiedler Maria Ashna Dustin Ingram William Woodruff Ee Durbin Facundo Tuesca Deb Nicholson Shamika Monahan Donald Stufft Back to index Seth Larson Security Developer-in-Residence, Python Software Foundation (PSF) Metadata July 22, 2026 2 min read security Releases now reject new files after 14 days The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days."
+  ]
+ },
+ "e4b996acdef134a0": {
+  "feed": "YC Hacker News",
+  "title": "The Fedora 45 Sausage Factory",
+  "link": "https://supakeen.com/weblog/the-fedora-45-sausage-factory/",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Fedora 45 Sausage Factory | supakeen's homepage homepage weblog supakeen's homepage The Fedora 45 Sausage Factory This is a walkthrough of how Fedora turns source code and packages into the artifacts you download and install. It follows the a package from a packager’s git push to a composed release: ISOs, cloud images, container images, and OSTree deployments."
+  ]
+ },
+ "2ede29473c0ebce4": {
+  "feed": "YC Hacker News",
+  "title": "Kimi K3 exploited the latest Redis server",
+  "link": "https://twitter.com/fried_rice/status/2080059356322918777",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chaofan Shou on X: \"Kimi K3 exploited the latest Redis server with a 0day it discovered. All it took was 27min with 32 agents. https://t.co/ZOKA2wchLa https://t.co/0sIeYgfg65\" / X Post Log in Sign up Post Chaofan Shou @Fried_rice Kimi K3 exploited the latest Redis server with a 0day it discovered. All it took was 27min with 32 agents. github.com/berabuddies/re… 10:36 PM · Jul 22, 2026 1.4M Views 106 442 5.1K 2.1K Chaofan Shou @Fried_rice Jul 22 this is the first llm that is capable and willing to write an exploit 🥲🥲🥲 19 10 663 55K nich @nichxbt Jul 22 this was legendary."
+  ]
+ },
+ "a8c94e06cda36420": {
+  "feed": "YC Hacker News",
+  "title": "PartialString – A finite-difference time-domain physical modelling synthesiser",
+  "link": "https://differentinstruments.com/",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "PartialString — a free physically modelled string synthesiser | Different Instruments Method Download About Different Instruments presents... PartialString A finite-difference time-domain physical modelling synthesiser. AU · VST3 — macOS · Windows · Linux Download Method +u −u x Fig. 1 — Displacement u(x, t) of a plucked string. ▾ plectrum, ● pickup. Click the string to pluck it somewhere else."
+  ]
+ },
+ "2c54a9b61abb1668": {
+  "feed": "OpenAI News",
+  "title": "Reducing bias and improving safety in DALL·E 2",
+  "link": "https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Reducing bias and improving safety in DALL·E 2 | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI July 18, 2022 Product Reducing bias and improving safety in DALL·E 2 Today, we are implementing a new technique so that DALL·E generates images of people that more accurately reflect the diversity of the world’s population."
+  ]
+ },
+ "ea339b930f54928f": {
+  "feed": "OpenAI News",
+  "title": "DALL·E 2: Extending creativity",
+  "link": "https://openai.com/index/dall-e-2-extending-creativity",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As part of our DALL·E 2 research preview, more than 3,000 artists from more than 118 countries have incorporated DALL·E into their creative workflows. The artists in our early access group have helped us discover new uses for DALL·E and have served as key voices as we’ve made decisions about DALL·E’s features."
+  ]
+ },
+ "740cb41edfcadeb6": {
+  "feed": "OpenAI News",
+  "title": "Learning to play Minecraft with Video PreTraining",
+  "link": "https://openai.com/index/vpt",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We trained a neural network to play Minecraft by Video PreTraining (VPT) on a massive unlabeled video dataset of human Minecraft play, while using only a small amount of labeled contractor data. With fine-tuning, our model can learn to craft diamond tools, a task that usually takes proficient humans over 20 minutes (24,000 actions). Our model uses the native human interface of keypresses and mouse movements, making it quite general, and represents a step towards general computer-using agents."
+  ]
+ },
+ "80fd5e94bd7e7f53": {
+  "feed": "OpenAI News",
+  "title": "Techniques for training large neural networks",
+  "link": "https://openai.com/index/techniques-for-training-large-neural-networks",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Techniques for training large neural networks | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI June 9, 2022 Publication Techniques for training large neural networks Loading… Share No parallelism No parallelism Data parallelism Pipeline parallelism Tensor parallelism Mixture-of-Experts (MoE) Other memory saving designs No parallelism Data parallelism Pipeline parallelism Tensor parallelism Mixture-of-Experts (MoE) Other memory saving designs Large neural networks are at the core of many recent advances in AI, but training them is a difficult engineering and research challenge which requires orchestrating a cluster of GPUs to perform a single synchronized calculation."
+  ]
+ },
+ "cf349a186080c4c2": {
+  "feed": "OpenAI News",
+  "title": "Teaching models to express their uncertainty in words",
+  "link": "https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Teaching models to express their uncertainty in words | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 28, 2022 Publication Teaching models to express their uncertainty in words Read paper (opens in a new window) Loading… Share Abstract We show that a GPT‑3 model can learn to express uncertainty about its own answers in natural language—without use of model logits."
+  ]
  }
 }
