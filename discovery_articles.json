@@ -1060,5 +1060,93 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "ed7c35bfee798551": {
+  "url": "https://agenticdaily.ai/articles/train-llama-3-1-405b-73-faster-with-nvidia-nvfp4-on-blackwell",
+  "title": "Train Llama 3.1 405B 73% faster with NVIDIA NVFP4 on Blackwell | Agentic Daily",
+  "domain": "agenticdaily.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-25",
+  "tier": "skip",
+  "why": "Secondary tech news summary aggregating official NVIDIA press releases without original benchmarks or hands-on data.",
+  "points": []
+ },
+ "a58ad190dc03b582": {
+  "url": "https://towardsdatascience.com/how-to-build-your-own-llm-runtime-from-scratch/",
+  "title": "How To Build Your Own LLM Runtime From Scratch | Towards Data Science",
+  "domain": "towardsdatascience.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-25",
+  "tier": "skip",
+  "why": "The page text consists almost entirely of cookie consent preferences with no actual article content.",
+  "points": []
+ },
+ "67992c34c56557f8": {
+  "url": "https://deepwiki.com/deepspeedai/DeepSpeed/5.4-transformer-inference-kernels",
+  "title": "Transformer Inference Kernels | deepspeedai/DeepSpeed | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-25",
+  "tier": "skip",
+  "why": "Auto-generated documentation table-of-contents page indexing the DeepSpeed repository.",
+  "points": []
+ },
+ "7956b6e7e13f6187": {
+  "url": "https://prodsens.live/2026/05/31/where-tensor-parallel-inference-hits-the-nvlink-wall/",
+  "title": "Where Tensor-Parallel Inference Hits the NVLink Wall - prodSens.live",
+  "domain": "prodsens.live",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-25",
+  "tier": "hidden_gem",
+  "why": "Outstanding personal engineering post featuring original benchmark data and analysis of NVLink bandwidth bottlenecks during tensor-parallel inference.",
+  "points": [
+   "Measures all-reduce bus bandwidth at ~366 GB/s on 4x H100, reaching a ceiling of ~77% of theoretical uni-directional NVLink throughput.",
+   "Finds that NVLink SHARP (NVLS) outperforms Ring and Tree algorithms once message sizes are large enough to amortize setup costs.",
+   "Analyzes protocol latency floors (Simple vs LL/LL128) for small message sizes, which dictate performance during token decoding."
+  ]
+ },
+ "f20af7d68432c4a6": {
+  "url": "https://arxiv.gg/abs/2606.17945",
+  "title": "Small Initialization Matters for Large Language Models - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-25",
+  "tier": "solid_find",
+  "why": "Surprising research paper demonstrating that tuning initialization scale downward improves LLM reasoning capacity and pretraining efficiency.",
+  "points": [
+   "Introduces gamma-initialization to show that smaller parameter scales directly boost performance on reasoning-heavy tasks.",
+   "Reveals a trajectory where small initialization forces parameters into compressed low-complexity representations before expanding.",
+   "Shows token-level gains concentrated on context-constrained predictions rather than simple uniform tokens."
+  ]
+ },
+ "4dc9a5fae13afbfd": {
+  "url": "https://p.rst.im/q/GitHub.com/zengxiao-he/tessera",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-25",
+  "tier": "skip",
+  "why": "Contains only a static resource proxy mirror landing page rather than technical content.",
+  "points": []
+ },
+ "16971bbce90da2a9": {
+  "url": "https://github.com/anthony-chaudhary/fak/tree/main/docs/serving",
+  "title": "fak/docs/serving at main · anthony-chaudhary/fak · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-25",
+  "tier": "skip",
+  "why": "Bare GitHub directory listing that does not include the actual doc text or design content.",
+  "points": []
+ },
+ "f7c0516234c0b74b": {
+  "url": "https://p.rst.im/q/github.com/leyten/shard",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-25",
+  "tier": "skip",
+  "why": "Landing page for a web static resource proxy service containing no underlying code or technical material.",
+  "points": []
  }
 }
