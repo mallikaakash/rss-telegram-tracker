@@ -35190,5 +35190,199 @@
    "Cloudflare telemetry reveals ~70% of observed Internet paths have their BGP ORIGIN attribute modified en route despite RFC guidelines.",
    "Autonomous Systems exploit ORIGIN manipulation (e.g., rewriting INCOMPLETE to IGP) to force upstream routers to prefer their transit paths."
   ]
+ },
+ "70b0fd3555edf93d": {
+  "feed": "YC Hacker News",
+  "title": "Postgres LISTEN/NOTIFY actually scales",
+  "link": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "A strong performance engineering deep dive explaining how to fix global lock contention in Postgres LISTEN/NOTIFY for high-throughput streaming.",
+  "points": [
+   "Uncovered undocumented global lock contention that throttled NOTIFY to 2.9K writes/second.",
+   "Redesigned notification streaming to achieve 60K writes/second on a single Postgres server with millisecond latency.",
+   "Offers a durable, low-latency alternative to expensive or high-overhead database polling patterns."
+  ]
+ },
+ "31931af2271a6ed4": {
+  "feed": "YC Hacker News",
+  "title": "Taylor Farms Called White House to Try to Delay Cyclospora Recall",
+  "link": "https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Irrelevant news coverage regarding food safety recalls and corporate lobbying.",
+  "points": [
+   "Taylor Farms attempted to delay a foodborne illness recall via political outreach."
+  ]
+ },
+ "5d991c125467c2a2": {
+  "feed": "YC Hacker News",
+  "title": "Re: Bye Bye Gravatar",
+  "link": "https://unattributed.cc/re-bye-bye-gravatar",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Off-target personal blog rant about Gravatar, WordPress, and AI optics.",
+  "points": [
+   "Author deleted their Gravatar account over privacy and anti-AI concerns."
+  ]
+ },
+ "e616440e259bcd17": {
+  "feed": "YC Hacker News",
+  "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
+  "link": "https://artificialanalysis.ai/models",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Provides quick benchmark context on frontier model intelligence, latency, and cost positioning.",
+  "points": [
+   "Claude Opus 5 takes the #1 spot on the Artificial Analysis Intelligence Index v4.1.",
+   "Highlights latency and speed tradeoffs across models, such as Mercury 2 hitting 902 tokens/sec."
+  ]
+ },
+ "02c4e818bddcde54": {
+  "feed": "YC Hacker News",
+  "title": "Sperm Whales blow bubbles to achieve restful, vertical sleep",
+  "link": "https://news.st-andrews.ac.uk/archive/sperm-whales-blow-bubbles-to-achieve-restful-vertical-sleep/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Off-target marine biology study with no engineering application.",
+  "points": [
+   "Sperm whales vent gas bubbles to achieve neutral buoyancy while sleeping vertically near the surface."
+  ]
+ },
+ "f56159eaffd429ea": {
+  "feed": "Technica",
+  "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
+  "link": "https://arstechnica.com/space/2026/07/wildfire-forces-evacuation-of-nasas-deep-space-network-complex-in-spain/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Irrelevant news item about wildfire disruptions to NASA space communication infrastructure.",
+  "points": [
+   "Wildfires in Spain forced a temporary evacuation of NASA's Deep Space Network site."
+  ]
+ },
+ "3921932808f238d2": {
+  "feed": "Technica",
+  "title": "Paramount/WBD merger delayed for months as states' lawsuit moves toward trial",
+  "link": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Off-target media industry business news regarding a corporate merger delay.",
+  "points": [
+   "The Paramount and WBD merger integration is halted until at least mid-2027 pending trial."
+  ]
+ },
+ "c1670995edb34cc5": {
+  "feed": "Technica",
+  "title": "Canadian legislator reads out apparent LLM response in floor speech",
+  "link": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Humorous news story about a politician accidentally reading AI prompt output aloud.",
+  "points": [
+   "A Canadian legislator accidentally read an LLM meta-prompt during official parliamentary proceedings."
+  ]
+ },
+ "c8550037f8020f76": {
+  "feed": "Technica",
+  "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
+  "link": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Helps calibrate expectations around Anthropic's Opus 5 release focusing on efficiency over raw capability jumps.",
+  "points": [
+   "Frames Opus 5 as a cost and token-efficiency update rather than an agentic breakthrough.",
+   "Maintains high coding performance while reducing operational token overhead for developers."
+  ]
+ },
+ "a6f7e270ef145776": {
+  "feed": "Technica",
+  "title": "Roku raises streaming stick prices by up to 60 percent",
+  "link": "https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Off-target consumer electronics hardware pricing update.",
+  "points": [
+   "Roku increased streaming stick prices by up to 60 percent across product lines."
+  ]
+ },
+ "c4aac14feaec47d2": {
+  "feed": "OpenAI News",
+  "title": "GPT-3.5 Turbo fine-tuning and API updates",
+  "link": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 product announcement regarding GPT-3.5 Turbo fine-tuning.",
+  "points": [
+   "Historical 2023 announcement detailing fine-tuning support for GPT-3.5 Turbo."
+  ]
+ },
+ "1dc10b1074bbdd7a": {
+  "feed": "OpenAI News",
+  "title": "Confidence-Building Measures for Artificial Intelligence: Workshop proceedings",
+  "link": "https://openai.com/index/confidence-building-measures-for-artificial-intelligence",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 policy workshop report on AI geopolitical risk management.",
+  "points": [
+   "2023 proceedings on confidence-building measures for frontier AI governance."
+  ]
+ },
+ "3fe00ac124e9e5b8": {
+  "feed": "OpenAI News",
+  "title": "Frontier Model Forum",
+  "link": "https://openai.com/index/frontier-model-forum",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 corporate announcement about an industry safety forum.",
+  "points": [
+   "Joint 2023 press release from AI labs announcing the Frontier Model Forum."
+  ]
+ },
+ "db253aecaed2c0b9": {
+  "feed": "OpenAI News",
+  "title": "Partnership with American Journalism Project to support local news",
+  "link": "https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 corporate philanthropy and grant announcement.",
+  "points": [
+   "OpenAI's 2023 grant partnership with the American Journalism Project."
+  ]
+ },
+ "4550285f82f9be98": {
+  "feed": "OpenAI News",
+  "title": "Accurately analyzing large scale qualitative data",
+  "link": "https://openai.com/index/viable",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2023 promotional customer story for an applied LLM analytics vendor.",
+  "points": [
+   "Case study describing Viable's use of fine-tuned LLMs for customer feedback analysis."
+  ]
+ },
+ "9e10b8bb9cb2c027": {
+  "feed": "Simon Willison",
+  "title": "Quoting Boris Cherny",
+  "link": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Highlights crucial system card evaluations regarding Opus 5's improved prompt injection robustness.",
+  "points": [
+   "Anthropic's system card reveals Opus 5 is their most prompt-injection resistant model to date.",
+   "Demonstrates concrete progress in model robustness against adversarial execution attacks."
+  ]
+ },
+ "3a60f07223b39aed": {
+  "feed": "Simon Willison",
+  "title": "Introducing Claude Opus 5",
+  "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "Essential release breakdown for Claude Opus 5, featuring context engineering guides and proactive agent capabilities.",
+  "points": [
+   "Opus 5 provides top-tier intelligence at half the price of Fable 5, matching Opus 4.8 pricing.",
+   "Demonstrates proactive agentic capabilities, such as writing its own computer vision pipeline to solve visual CAD tasks.",
+   "Links essential developer resources including Anthropic's prompting guide and new context engineering rules."
+  ]
  }
 }
