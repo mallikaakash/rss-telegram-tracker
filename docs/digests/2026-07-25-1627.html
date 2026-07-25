@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sat 25 Jul 2026, 16:27 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sat 25 Jul 2026, 16:27 IST &middot; 10 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; The standout read is an open-source Ethernet switch ASIC design deep-dive, alongside historical OpenAI posts on ChatGPT RLHF and Codex safety analysis.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://essenceia.github.io/projects/ethernet_switch_asic/">Designing an Ethernet Switch ASIC</a></h2><div class="why">An exceptional, high-quality engineering deep-dive on designing and taping out an open-source cut-through Ethernet switch ASIC in Verilog.</div><ul><li>Covers the complete Verilog implementation and gf26b tapeout of an open-source 100Mbps cut-through switch ASIC.</li><li>Explains critical low-level networking hardware trade-offs including RMII interfaces, latency constraints, and floorplanning.</li><li>Details on-chip hardware design for Address Resolution lookup tables, entry replacement policies, and TTL handling.</li></ul></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/chatgpt">Introducing ChatGPT</a></h2><div class="why">Historical 2022 release post containing a concise high-level overview of the initial RLHF and reward-modeling pipeline.</div><ul><li>Summarizes the RLHF training methodology combining supervised fine-tuning with PPO reward modeling.</li><li>Illustrates early conversational code debugging and channel error handling capabilities.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models">A hazard analysis framework for code synthesis large language models</a></h2><div class="why">Discusses safety evaluation and benchmark frameworks specifically targeted at code generation LLMs like Codex.</div><ul><li>Outlines a hazard analysis framework for evaluating code synthesis LLMs across security and technical risks.</li><li>Proposes measuring model spec understanding against human programmer capabilities.</li></ul></div><div class="section">Low priority &middot; 7</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.nytimes.com/2026/07/22/arts/design/charles-ross-star-axis-land-art.html">Charles Ross spent 50 yrs building Star Axis naked-eye observatory in New Mexico</a></h2><div class="why">It is an architectural art project commentary completely unrelated to ML, infrastructure, or backend engineering.</div><ul><li>Details a 50-year naked-eye observatory art construction in New Mexico.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.augmental.tech/">MouthPad: A Tongue-Controlled Touchpad</a></h2><div class="why">A consumer assistive technology product page with no technical software or infrastructure deep-dives.</div><ul><li>Describes an intra-oral 3D-printed Bluetooth touchpad controlled by tongue movements.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://news.mit.edu/2026/three-sided-y-zipper-design-0504">An old patent inspired the new &quot;Y-zipper&quot;, a three-sided fastener</a></h2><div class="why">Covers mechanical design and 3D printing of physical fasteners rather than software or ML topics.</div><ul><li>Presents an MIT CSAIL project creating 3D-printed Y-zippers for shape-shifting objects.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://blog.mozilla.org/en/firefox/firefox-containers-preview/">Firefox Containers Preview</a></h2><div class="why">A consumer browser product feature update without backend infrastructure or systems depth.</div><ul><li>Announces native Multi-Account Containers in Firefox 153 for isolating session state.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/the-power-of-continuous-learning">The power of continuous learning</a></h2><div class="why">An archival 2022 promotional interview with general non-technical commentary.</div><ul><li>High-level overview of Lilian Weng&#x27;s early work at OpenAI on robotics RL and content safety.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/dall-e-api-now-available-in-public-beta">DALL·E API now available in public beta</a></h2><div class="why">Historical 2022 product API marketing announcement with no underlying ML infrastructure details.</div><ul><li>Announces the public beta release of the original DALL-E image generation API.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/dall-e-now-available-without-waitlist">DALL·E now available without waitlist</a></h2><div class="why">Outdated 2022 product waitlist removal update with zero technical engineering content.</div><ul><li>Notes public general availability and user metrics for DALL-E in late 2022.</li></ul></div></body></html>

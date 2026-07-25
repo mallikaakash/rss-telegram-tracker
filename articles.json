@@ -35653,5 +35653,119 @@
   "points": [
    "Briefly mentions using GPT-3 to construct interactive AI-powered characters."
   ]
+ },
+ "0977774c33d07474": {
+  "feed": "YC Hacker News",
+  "title": "Charles Ross spent 50 yrs building Star Axis naked-eye observatory in New Mexico",
+  "link": "https://www.nytimes.com/2026/07/22/arts/design/charles-ross-star-axis-land-art.html",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "It is an architectural art project commentary completely unrelated to ML, infrastructure, or backend engineering.",
+  "points": [
+   "Details a 50-year naked-eye observatory art construction in New Mexico."
+  ]
+ },
+ "e03b1970071b34ff": {
+  "feed": "YC Hacker News",
+  "title": "MouthPad: A Tongue-Controlled Touchpad",
+  "link": "https://www.augmental.tech/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "A consumer assistive technology product page with no technical software or infrastructure deep-dives.",
+  "points": [
+   "Describes an intra-oral 3D-printed Bluetooth touchpad controlled by tongue movements."
+  ]
+ },
+ "e464f79d821bcf4b": {
+  "feed": "YC Hacker News",
+  "title": "An old patent inspired the new \"Y-zipper\", a three-sided fastener",
+  "link": "https://news.mit.edu/2026/three-sided-y-zipper-design-0504",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Covers mechanical design and 3D printing of physical fasteners rather than software or ML topics.",
+  "points": [
+   "Presents an MIT CSAIL project creating 3D-printed Y-zippers for shape-shifting objects."
+  ]
+ },
+ "a90d0210744f6427": {
+  "feed": "YC Hacker News",
+  "title": "Firefox Containers Preview",
+  "link": "https://blog.mozilla.org/en/firefox/firefox-containers-preview/",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "A consumer browser product feature update without backend infrastructure or systems depth.",
+  "points": [
+   "Announces native Multi-Account Containers in Firefox 153 for isolating session state."
+  ]
+ },
+ "3e73ad468307d810": {
+  "feed": "YC Hacker News",
+  "title": "Designing an Ethernet Switch ASIC",
+  "link": "https://essenceia.github.io/projects/ethernet_switch_asic/",
+  "date": "2026-07-25",
+  "tier": "must_read",
+  "why": "An exceptional, high-quality engineering deep-dive on designing and taping out an open-source cut-through Ethernet switch ASIC in Verilog.",
+  "points": [
+   "Covers the complete Verilog implementation and gf26b tapeout of an open-source 100Mbps cut-through switch ASIC.",
+   "Explains critical low-level networking hardware trade-offs including RMII interfaces, latency constraints, and floorplanning.",
+   "Details on-chip hardware design for Address Resolution lookup tables, entry replacement policies, and TTL handling."
+  ]
+ },
+ "26a30d5f43d54c97": {
+  "feed": "OpenAI News",
+  "title": "The power of continuous learning",
+  "link": "https://openai.com/index/the-power-of-continuous-learning",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "An archival 2022 promotional interview with general non-technical commentary.",
+  "points": [
+   "High-level overview of Lilian Weng's early work at OpenAI on robotics RL and content safety."
+  ]
+ },
+ "acc98f58e4e1ccdb": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT",
+  "link": "https://openai.com/index/chatgpt",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Historical 2022 release post containing a concise high-level overview of the initial RLHF and reward-modeling pipeline.",
+  "points": [
+   "Summarizes the RLHF training methodology combining supervised fine-tuning with PPO reward modeling.",
+   "Illustrates early conversational code debugging and channel error handling capabilities."
+  ]
+ },
+ "18ec4ca338a547cb": {
+  "feed": "OpenAI News",
+  "title": "DALL·E API now available in public beta",
+  "link": "https://openai.com/index/dall-e-api-now-available-in-public-beta",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Historical 2022 product API marketing announcement with no underlying ML infrastructure details.",
+  "points": [
+   "Announces the public beta release of the original DALL-E image generation API."
+  ]
+ },
+ "341a35838ae885f2": {
+  "feed": "OpenAI News",
+  "title": "DALL·E now available without waitlist",
+  "link": "https://openai.com/index/dall-e-now-available-without-waitlist",
+  "date": "2026-07-25",
+  "tier": "low_priority",
+  "why": "Outdated 2022 product waitlist removal update with zero technical engineering content.",
+  "points": [
+   "Notes public general availability and user metrics for DALL-E in late 2022."
+  ]
+ },
+ "13ffc85ad5c346ac": {
+  "feed": "OpenAI News",
+  "title": "A hazard analysis framework for code synthesis large language models",
+  "link": "https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models",
+  "date": "2026-07-25",
+  "tier": "worth_a_skim",
+  "why": "Discusses safety evaluation and benchmark frameworks specifically targeted at code generation LLMs like Codex.",
+  "points": [
+   "Outlines a hazard analysis framework for evaluating code synthesis LLMs across security and technical risks.",
+   "Proposes measuring model spec understanding against human programmer capabilities."
+  ]
  }
 }
