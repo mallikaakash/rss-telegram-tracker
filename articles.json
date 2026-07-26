@@ -36505,5 +36505,122 @@
   "points": [
    "OpenAI Fellows Summer 2018: Final projects | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI December 19, 2018 Company OpenAI Fellows Summer 2018: Final projects Our first cohort of OpenAI Fellows has concluded, with each Fellow going from a machine learning beginner to core OpenAI contributor in the course of a 6-month apprenticeship."
   ]
+ },
+ "e65345ce5ebabe0d": {
+  "feed": "YC Hacker News",
+  "title": "Ruff v0.16.0 – Significant new updates – 413 default rules up from 59",
+  "link": "https://astral.sh/blog/ruff-v0.16.0",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Relevant developer productivity update for Python-heavy ML and backend engineering workflows.",
+  "points": [
+   "Default rule set expanded dramatically from 59 to 413 rules to catch runtime and syntax errors automatically.",
+   "Added native formatting support for Python code blocks embedded within Markdown and Quarto files.",
+   "Introduced new line-level suppression comments and fine-grained rule configuration options."
+  ]
+ },
+ "6f36a864b9508a87": {
+  "feed": "YC Hacker News",
+  "title": "Elevated Errors for Opus 5",
+  "link": "https://status.claude.com/incidents/zftg3gqkmv18",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Standard status page incident resolution log with no technical engineering deep dive.",
+  "points": [
+   "Brief operational incident update regarding temporary elevated error rates across Claude services."
+  ]
+ },
+ "2c61a0633c146014": {
+  "feed": "YC Hacker News",
+  "title": "GrapheneOS protections against data extraction from locked devices",
+  "link": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Mobile security and hardware-level encryption are outside the core ML and backend infrastructure focus.",
+  "points": [
+   "Details GrapheneOS secure element rate-limiting and hardware memory tagging defenses against physical data extraction."
+  ]
+ },
+ "34e49e1a156f085c": {
+  "feed": "YC Hacker News",
+  "title": "Overloaded Overloading",
+  "link": "https://powerfulpython.com/blog/overloaded-overloading/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Covers elementary Python syntax concepts rather than advanced backend or ML systems engineering.",
+  "points": [
+   "Explains the mechanics of Python operator overloading via magic methods like __add__ versus Java method overloading."
+  ]
+ },
+ "53c12c6d644adb84": {
+  "feed": "YC Hacker News",
+  "title": "Cloudflare's new AI traffic options for customers",
+  "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Product marketing announcement for Cloudflare CDN traffic management features.",
+  "points": [
+   "Announces customer controls and bot management options for blocking or managing AI crawlers."
+  ]
+ },
+ "da4dabddc4193da0": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Five Benchmark: Results",
+  "link": "https://openai.com/index/openai-five-benchmark-results",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Interesting applied RL landmark showing how win-probability heads enable search-based decision making.",
+  "points": [
+   "OpenAI Five beat top human Dota players by leveraging a win-probability neural network output.",
+   "Constructed a tree search across 11 million team matchups to draft optimal hero compositions within one week of development."
+  ]
+ },
+ "aa8591e122057b49": {
+  "feed": "OpenAI News",
+  "title": "Learning dexterity",
+  "link": "https://openai.com/index/learning-dexterity",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Classic RL milestone demonstrating sim-to-real transfer for high-dimensional robotic control.",
+  "points": [
+   "Trained a 24-degree-of-freedom Shadow Dexterous Hand entirely in simulation without physical human data.",
+   "Transferred policies directly to real hardware by adapting to noisy sensor readings and unobservable physics like friction."
+  ]
+ },
+ "73cae532d738908c": {
+  "feed": "OpenAI News",
+  "title": "Learning Montezuma’s Revenge from a single demonstration",
+  "link": "https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates practical sample-efficient RL techniques combining human demonstrations with PPO.",
+  "points": [
+   "Achieved a score of 74,500 on Montezuma's Revenge using a single human demonstration.",
+   "Reset training episodes to carefully selected states along the demonstration path using standard PPO optimization."
+  ]
+ },
+ "db4cffdb7ea1fbfe": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Five",
+  "link": "https://openai.com/index/openai-five",
+  "date": "2026-07-26",
+  "tier": "must_read",
+  "why": "Essential deep dive into massively distributed RL infrastructure and self-play scaling architectures.",
+  "points": [
+   "Scaled Proximal Policy Optimization (PPO) across 256 GPUs and 128,000 CPU cores to generate 180 years of self-play daily.",
+   "Utilized separate LSTM neural networks per hero to handle continuous action spaces and long time horizons (20,000 moves per game).",
+   "Demonstrated that large-scale compute and RL alone yield long-term strategic planning without explicit domain-specific heuristics."
+  ]
+ },
+ "d4ae6bf04ca93a80": {
+  "feed": "OpenAI News",
+  "title": "GamePad: A learning environment for theorem proving",
+  "link": "https://openai.com/index/gamepad",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Niche research environment for formal theorem proving, unrelated to core ML infra or LLMs.",
+  "points": [
+   "Introduces the GamePad environment for evaluating machine learning models on Coq tactic prediction and proof step evaluation."
+  ]
  }
 }
