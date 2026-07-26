@@ -36622,5 +36622,123 @@
   "points": [
    "Introduces the GamePad environment for evaluating machine learning models on Coq tactic prediction and proof step evaluation."
   ]
+ },
+ "db14a4b9be9bcbdd": {
+  "feed": "YC Hacker News",
+  "title": "Third Drone Shot Down in Three Days in Romanian Territory",
+  "link": "https://english.mapn.ro/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Geopolitical military news regarding drone interceptions with no relevant software or ML content.",
+  "points": [
+   "Reports on the Romanian Air Force shooting down unauthorized drones near the border."
+  ]
+ },
+ "d6482f769ae8eb04": {
+  "feed": "YC Hacker News",
+  "title": "Systemd Linger",
+  "link": "https://etbe.coker.com.au/2026/07/24/systemd-linger/",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Provides practical Linux system administration details on how systemd logind manages background user processes and session lifecycles.",
+  "points": [
+   "Explains KillUserProcesses settings in systemd-logind and how they affect background tools like tmux or nohup.",
+   "Details loginctl enable-linger for preserving background user processes and initializing services prior to user login."
+  ]
+ },
+ "0fc778fda01a692d": {
+  "feed": "YC Hacker News",
+  "title": "German Peasants' War",
+  "link": "https://en.wikipedia.org/wiki/German_Peasants%27_War",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "A historical Wikipedia entry about 16th-century European revolts with zero technical or engineering relevance.",
+  "points": [
+   "Summarizes the causes, key battles, and social impacts of the 1524–1525 German Peasants' War."
+  ]
+ },
+ "2eef1de66075be51": {
+  "feed": "YC Hacker News",
+  "title": "Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home",
+  "link": "https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "A planetary science research report completely unrelated to machine learning or backend systems.",
+  "points": [
+   "Covers scientific chemical analysis performed on a meteorite recovered in New Jersey."
+  ]
+ },
+ "2ed824c58a518b00": {
+  "feed": "YC Hacker News",
+  "title": "Claude Code Deletes Your Context History from Your Device After 30 Days",
+  "link": "https://code.claude.com/docs/en/data-usage",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Outlines Anthropic's data privacy guarantees, commercial non-training policies, and local context history handling for developer CLI tooling.",
+  "points": [
+   "Confirms Anthropic does not train models on commercial API, Team, or Enterprise data by default.",
+   "Explains local context history management and retention policies for Claude Code developers."
+  ]
+ },
+ "5d8606e2ce55f7c3": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Fellows Fall 2018",
+  "link": "https://openai.com/index/openai-fellows",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "An outdated 2018 recruitment announcement for a historical OpenAI fellowship cohort.",
+  "points": [
+   "Details a historical 2018 AI research apprenticeship program hosted by OpenAI."
+  ]
+ },
+ "991716e030ec4017": {
+  "feed": "OpenAI News",
+  "title": "Gym Retro",
+  "link": "https://openai.com/index/gym-retro",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Describes a classic OpenAI reinforcement learning framework for testing agents across retro game environments.",
+  "points": [
+   "Provides access to over 1,000 retro video game environments across multiple console emulators for RL benchmarking.",
+   "Includes custom tooling to extract game memory states and define reward signals."
+  ]
+ },
+ "6f5d87b2fceb70e3": {
+  "feed": "OpenAI News",
+  "title": "On first-order meta-learning algorithms",
+  "link": "https://openai.com/index/on-first-order-meta-learning-algorithms",
+  "date": "2026-07-26",
+  "tier": "must_read",
+  "why": "Offers crucial theoretical insights into first-order meta-learning algorithms, showing how simplified gradient updates achieve fast task adaptation.",
+  "points": [
+   "Demonstrates that ignoring second-order derivatives in MAML still yields effective meta-learning updates.",
+   "Introduces Reptile, an algorithm that moves parameter initializations toward task-specific fine-tuned weights using basic SGD.",
+   "Provides theoretical grounds for why simple first-order optimization strategies scale efficiently for few-shot learning."
+  ]
+ },
+ "aaed821d386f56d8": {
+  "feed": "OpenAI News",
+  "title": "Reptile: A scalable meta-learning algorithm",
+  "link": "https://openai.com/index/reptile",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Summarizes the Reptile meta-learning algorithm, illustrating how task-batch SGD updates replace complex second-order optimization pipelines.",
+  "points": [
+   "Executes standard SGD or Adam updates on sampled tasks to shift base initialization weights.",
+   "Delivers meta-learning performance comparable to FO-MAML while requiring only black-box optimizer access."
+  ]
+ },
+ "a66ffc9e9304b563": {
+  "feed": "OpenAI News",
+  "title": "Some considerations on learning to explore via meta-reinforcement learning",
+  "link": "https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning",
+  "date": "2026-07-26",
+  "tier": "must_read",
+  "why": "Addresses fundamental exploration challenges in meta-reinforcement learning through novel algorithms directly relevant to RL adaptation.",
+  "points": [
+   "Identifies critical exploration failures when applying standard meta-RL algorithms to sparse or complex environments.",
+   "Proposes E-MAML and E-RL² to explicitly incentivize exploratory actions during early task adaptation stages.",
+   "Validates improved exploration performance on complex maze and benchmark environments."
+  ]
  }
 }

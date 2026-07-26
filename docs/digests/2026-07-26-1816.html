@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sun 26 Jul 2026, 18:16 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sun 26 Jul 2026, 18:16 IST &middot; 10 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Led by OpenAI research on first-order meta-learning and RL exploration, this batch covers fast model adaptation techniques alongside Linux administration and developer data policies.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/on-first-order-meta-learning-algorithms">On first-order meta-learning algorithms</a></h2><div class="why">Offers crucial theoretical insights into first-order meta-learning algorithms, showing how simplified gradient updates achieve fast task adaptation.</div><ul><li>Demonstrates that ignoring second-order derivatives in MAML still yields effective meta-learning updates.</li><li>Introduces Reptile, an algorithm that moves parameter initializations toward task-specific fine-tuned weights using basic SGD.</li><li>Provides theoretical grounds for why simple first-order optimization strategies scale efficiently for few-shot learning.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning">Some considerations on learning to explore via meta-reinforcement learning</a></h2><div class="why">Addresses fundamental exploration challenges in meta-reinforcement learning through novel algorithms directly relevant to RL adaptation.</div><ul><li>Identifies critical exploration failures when applying standard meta-RL algorithms to sparse or complex environments.</li><li>Proposes E-MAML and E-RL² to explicitly incentivize exploratory actions during early task adaptation stages.</li><li>Validates improved exploration performance on complex maze and benchmark environments.</li></ul></div><div class="section">Worth a skim &middot; 4</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://etbe.coker.com.au/2026/07/24/systemd-linger/">Systemd Linger</a></h2><div class="why">Provides practical Linux system administration details on how systemd logind manages background user processes and session lifecycles.</div><ul><li>Explains KillUserProcesses settings in systemd-logind and how they affect background tools like tmux or nohup.</li><li>Details loginctl enable-linger for preserving background user processes and initializing services prior to user login.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://code.claude.com/docs/en/data-usage">Claude Code Deletes Your Context History from Your Device After 30 Days</a></h2><div class="why">Outlines Anthropic&#x27;s data privacy guarantees, commercial non-training policies, and local context history handling for developer CLI tooling.</div><ul><li>Confirms Anthropic does not train models on commercial API, Team, or Enterprise data by default.</li><li>Explains local context history management and retention policies for Claude Code developers.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/gym-retro">Gym Retro</a></h2><div class="why">Describes a classic OpenAI reinforcement learning framework for testing agents across retro game environments.</div><ul><li>Provides access to over 1,000 retro video game environments across multiple console emulators for RL benchmarking.</li><li>Includes custom tooling to extract game memory states and define reward signals.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/reptile">Reptile: A scalable meta-learning algorithm</a></h2><div class="why">Summarizes the Reptile meta-learning algorithm, illustrating how task-batch SGD updates replace complex second-order optimization pipelines.</div><ul><li>Executes standard SGD or Adam updates on sampled tasks to shift base initialization weights.</li><li>Delivers meta-learning performance comparable to FO-MAML while requiring only black-box optimizer access.</li></ul></div><div class="section">Low priority &middot; 4</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://english.mapn.ro/">Third Drone Shot Down in Three Days in Romanian Territory</a></h2><div class="why">Geopolitical military news regarding drone interceptions with no relevant software or ML content.</div><ul><li>Reports on the Romanian Air Force shooting down unauthorized drones near the border.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://en.wikipedia.org/wiki/German_Peasants%27_War">German Peasants&#x27; War</a></h2><div class="why">A historical Wikipedia entry about 16th-century European revolts with zero technical or engineering relevance.</div><ul><li>Summarizes the causes, key battles, and social impacts of the 1524–1525 German Peasants&#x27; War.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite/">Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home</a></h2><div class="why">A planetary science research report completely unrelated to machine learning or backend systems.</div><ul><li>Covers scientific chemical analysis performed on a meteorite recovered in New Jersey.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/openai-fellows">OpenAI Fellows Fall 2018</a></h2><div class="why">An outdated 2018 recruitment announcement for a historical OpenAI fellowship cohort.</div><ul><li>Details a historical 2018 AI research apprenticeship program hosted by OpenAI.</li></ul></div></body></html>
