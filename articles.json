@@ -36855,5 +36855,115 @@
    "Iterative rather than joint training of teacher and student networks yields interpretable teaching strategies",
    "Evaluates generated teaching examples across probabilistic and hierarchical concepts using human testing"
   ]
+ },
+ "aa2a1da850d7f93c": {
+  "feed": "YC Hacker News",
+  "title": "Park by Robot at London Gatwick Airport",
+  "link": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "London Gatwick introduces robotic parking service Open menu AGN Farnborough International Airshow Defence Air Transport Latest News About Us Search Subscribe Subscribe Newsletter Sign Up Topic Air Transport Airlines & Business Defence Space Private Rotorcraft Manufacturing Innovation & Technology Sustainability Regulation Urban Air Mobility Company About Us Our People Commercial Contact Us Farnborough International Airshow 2026 News Flying Display Live Stream AGN Theatre Agendas More Opinions Events Event Wraps Videos Search Subscribe Subscribe Newsletter Sign Up Topic Company Farnborough International Airshow 2026 More Air Transport Airlines & Business Defence Space Private Rotorcraft Manufacturing Innovation & Technology Sustainability Regulation Urban Air Mobility About Us Our People Commercial Contact Us News Flying Display Live Stream AGN Theatre Agendas Opinions Events Event Wraps Videos Search Subscribe Subscribe Newsletter Sign Up You can now park by robot at London Gatwick Airport London Gatwick has launched the UK's first robotic airport parking service."
+  ]
+ },
+ "635287ac54577209": {
+  "feed": "YC Hacker News",
+  "title": "Design Is Compromise",
+  "link": "https://stephango.com/design-is-compromise",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Design is compromise — Steph Ango Steph Ango / Writing About Now Design is compromise December 31, 2018 · 1 minute read When did the word “compromise” become vilified? Compromise is neither good nor bad, it’s something we do every day. It’s decision making. Prioritizing. Deciding that one thing is more important than another. It’s finding the right balance between two competing desires."
+  ]
+ },
+ "c02fbe1ae475f9ff": {
+  "feed": "YC Hacker News",
+  "title": "Kill The Cookie Banner",
+  "link": "https://killthecookiebanner.eu/",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Kill the Cookie Banner! Skip to content Stop the tracking circus. Kill the cookie banner! Tired of misleading cookie banners? The EU Commission has finally proposed a solution: set your privacy preferences in the browser once, and never see another banner. Unfortunately, the tracking industry is pushing back – and so far, they’ve been successful. We need YOUR help to #KillTheCookieBanner !"
+  ]
+ },
+ "68e36f6a60200f7f": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs",
+  "link": "https://github.com/gmrandazzo/CheapSecurity",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - gmrandazzo/CheapSecurity · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "94d030042966287c": {
+  "feed": "YC Hacker News",
+  "title": "An Inside Look at the Token Reseller Market",
+  "link": "https://vectoral.com/blog/token-relay-market",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "An Inside Look at the Relay Market Powering Token Resellers and Fraud | Vectoral ← Home / All posts threat-research llm-security An Inside Look at the Relay Market Powering Token Resellers and Fraud June 28, 2026 Â· Matt Lenhard Â· 9 min read Share My Story Iâve spent a lot of time thinking about token fraud, a problem I first stumbled upon while working as a software engineer on an AI gateway."
+  ]
+ },
+ "9a1862e1561efaa3": {
+  "feed": "OpenAI News",
+  "title": "Generalizing from simulation",
+  "link": "https://openai.com/index/generalizing-from-simulation",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Generalizing from simulation | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 19, 2017 Publication Generalizing from simulation Read paper (dynamics randomization) (opens in a new window) Read paper (image-based learning) (opens in a new window) Loading… Share Dynamics randomization Dynamics randomization From vision to action Costs Dynamics randomization From vision to action Costs Our latest robotics techniques allow robot controllers, trained entirely in simulation and deployed on physical robots, to react to unplanned changes in the environment as they solve simple tasks."
+  ]
+ },
+ "2fae4ad83624d1a1": {
+  "feed": "OpenAI News",
+  "title": "Asymmetric actor critic for image-based robot learning",
+  "link": "https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Asymmetric actor critic for image-based robot learning | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 18, 2017 Publication Asymmetric actor critic for image-based robot learning (opens in a new window) Loading… Share Abstract Deep reinforcement learning (RL) has proven a powerful technique in many sequential decision making domains."
+  ]
+ },
+ "88f59a790d5ea707": {
+  "feed": "OpenAI News",
+  "title": "Nonlinear computation in deep linear networks",
+  "link": "https://openai.com/index/nonlinear-computation-in-deep-linear-networks",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nonlinear computation in deep linear networks | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 29, 2017 Conclusion Nonlinear computation in deep linear networks Loading… Share Background Background Exploiting Nonlinearities with Evolution Strategies Background Exploiting Nonlinearities with Evolution Strategies We’ve shown that deep linear networks—as implemented using floating-point arithmetic—are not actually linear and can perform nonlinear computation."
+  ]
+ },
+ "b780b199222ac5fd": {
+  "feed": "OpenAI News",
+  "title": "Learning to model other minds",
+  "link": "https://openai.com/index/learning-to-model-other-minds",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’re releasing an algorithm which accounts for the fact that other agents are learning too, and discovers self-interested yet collaborative strategies like tit-for-tat in the iterated prisoner’s dilemma. This algorithm, Learning with Opponent-Learning Awareness (LOLA), is a small step towards agents that model other minds."
+  ]
+ },
+ "53a608a093dd773b": {
+  "feed": "OpenAI News",
+  "title": "Dota 2",
+  "link": "https://openai.com/index/dota-2",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’ve created a bot which beats the world’s top professionals at 1v1 matches of Dota 2 under standard tournament rules. The bot learned the game from scratch by self-play, and does not use imitation learning or tree search. This is a step towards building AI systems which accomplish well-defined goals in messy, complicated situations involving real humans."
+  ]
  }
 }
