@@ -36245,5 +36245,155 @@
   "points": [
    "Provides visual feature maps for layers and individual neurons across vision model organisms."
   ]
+ },
+ "8b9e40a968d5432f": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I mapped every US golf course",
+  "link": "https://golfcoursebrowser.com/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Personal mapping side project with no relevance to ML training or backend infrastructure.",
+  "points": [
+   "Interactive map application listing 18,000 US golf courses based on OpenStreetMap data."
+  ]
+ },
+ "05af30794be96666": {
+  "feed": "YC Hacker News",
+  "title": "JetZero",
+  "link": "https://www.jetzero.aero",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Corporate investment and aerospace startup news unrelated to software engineering or ML.",
+  "points": [
+   "JetZero raised $175 million in Series B funding to develop blended-wing commercial aircraft."
+  ]
+ },
+ "ca51381b09ad7d77": {
+  "feed": "YC Hacker News",
+  "title": "An ESP32 based plane radar for my desk",
+  "link": "https://blog.ktz.me/esp32-plane-radar/",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Interesting embedded hardware project demonstrating firmware customization, real-time ADS-B data processing, and browser-based OTA updates.",
+  "points": [
+   "Parses real-time ADS-B aircraft telemetry on an ESP32 micro-controller to plot aircraft position on a 1.28-inch circular screen.",
+   "Adds features like authenticated browser OTA updates, flight metadata parsing (origin/destination), and local weather rendering."
+  ]
+ },
+ "1a28640050bb53f5": {
+  "feed": "YC Hacker News",
+  "title": "Humans Haven't Stopped Evolving",
+  "link": "https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Harvard population genetics research that is outside the scope of ML and backend engineering.",
+  "points": [
+   "Ancient human DNA analysis shows evolutionary changes in the human genome have accelerated over the last 10,000 years."
+  ]
+ },
+ "81e43f0350012225": {
+  "feed": "YC Hacker News",
+  "title": "The new rules of context engineering for Claude 5 generation models",
+  "link": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+  "date": "2026-07-26",
+  "tier": "must_read",
+  "why": "Directly relevant guide from Anthropic on context engineering and prompt optimization for agentic LLM workloads.",
+  "points": [
+   "Anthropic removed over 80% of Claude Code's system prompt because modern models require less rigid instruction and perform better with concise context.",
+   "Outlines rules for engineering general system prompts, CLAUDE.md files, and skills to guide autonomous agents without over-constraining reasoning."
+  ]
+ },
+ "cd791503bb4f48e9": {
+  "feed": "Technica",
+  "title": "SDCC teaser gives us our first good look at Blade Runner 2099",
+  "link": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Pop culture entertainment news with no technical engineering content.",
+  "points": [
+   "Prime Video released the first teaser trailer for the Blade Runner 2099 television series."
+  ]
+ },
+ "188d7ad09a8a3d1f": {
+  "feed": "Technica",
+  "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
+  "link": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight/",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Solid hardware engineering update covering extreme heat shield performance and flight telemetry.",
+  "points": [
+   "Starship Flight 13 achieved an intact ocean splashdown with ceramic heat shield tiles surviving reentry temperatures up to 2,600°F.",
+   "SpaceX plans to attempt catching the Starship upper stage with launch tower mechanical arms on Flight 14."
+  ]
+ },
+ "9291bad63135dff0": {
+  "feed": "OpenAI News",
+  "title": "Scaling laws for neural language models",
+  "link": "https://openai.com/index/scaling-laws-for-neural-language-models",
+  "date": "2026-07-26",
+  "tier": "must_read",
+  "why": "Foundational paper establishing power-law scaling for LLM compute, parameters, and dataset size essential for pretraining intuition.",
+  "points": [
+   "Establishes empirical power-law relationships governing cross-entropy loss against training compute, dataset size, and parameter count across seven orders of magnitude.",
+   "Proves larger models are more sample-efficient, demonstrating that compute-optimal training involves large models trained on modest token counts stopped before full convergence."
+  ]
+ },
+ "38a06055dd888854": {
+  "feed": "OpenAI News",
+  "title": "Procgen Benchmark",
+  "link": "https://openai.com/index/procgen-benchmark",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Provides useful perspective on RL benchmark design and evaluating policy generalization.",
+  "points": [
+   "Releases 16 procedurally generated game environments designed to evaluate how fast RL agents generalize to unseen levels.",
+   "Shows that RL agents easily overfit unless trained across hundreds of distinct procedural level variations."
+  ]
+ },
+ "31e61935013eac06": {
+  "feed": "OpenAI News",
+  "title": "Benchmarking safe exploration in deep reinforcement learning",
+  "link": "https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Relevant research background for RL safety constraints and continuous control policy optimization.",
+  "points": [
+   "Proposes constrained reinforcement learning as a standardized framework for safe exploration in RL.",
+   "Introduces the Safety Gym continuous control benchmark suite to measure safety-constrained policy performance."
+  ]
+ },
+ "d1842539e60d2f91": {
+  "feed": "OpenAI News",
+  "title": "GPT-2: 1.5B release",
+  "link": "https://openai.com/index/gpt-2-1-5b-release",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Historical milestone on open model parameter releases and staged LLM release strategies.",
+  "points": [
+   "OpenAI released the full 1.5 billion parameter GPT-2 model weights and detection code to conclude its staged release strategy."
+  ]
+ },
+ "6cc176a0b596d1fb": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Scholars 2020: Applications open",
+  "link": "https://openai.com/index/openai-scholars-2020",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Outdated 2020 educational program announcement with no relevant technical material.",
+  "points": [
+   "Historic application announcement for OpenAI's 2020 deep learning mentorship program."
+  ]
+ },
+ "56eddc9d00c8c32b": {
+  "feed": "Simon Willison",
+  "title": "Ruff v0.16.0",
+  "link": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+  "date": "2026-07-26",
+  "tier": "must_read",
+  "why": "Crucial Python tooling update highlighting automated codebase quality fixes and integration with modern LLM coding agents.",
+  "points": [
+   "Ruff v0.16.0 drastically expands default rules from 59 to 413, catching syntax errors and runtime bugs out of the box without manual config.",
+   "Demonstrates using `uvx ruff@latest check . --fix --unsafe-fixes` to automatically resolve hundreds of lint errors in tandem with coding agents."
+  ]
  }
 }
