@@ -36740,5 +36740,120 @@
    "Proposes E-MAML and E-RL² to explicitly incentivize exploratory actions during early task adaptation stages.",
    "Validates improved exploration performance on complex maze and benchmark environments."
   ]
+ },
+ "69c7a10a23df8945": {
+  "feed": "YC Hacker News",
+  "title": "Go Analysis Framework: modular static analysis by go team",
+  "link": "https://pkg.go.dev/golang.org/x/tools/go/analysis",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "Standard Go static analysis package documentation with no direct application to ML infrastructure or systems performance.",
+  "points": [
+   "Provides the golang.org/x/tools/go/analysis framework for modular static analysis in Go"
+  ]
+ },
+ "45a516783cb25f26": {
+  "feed": "YC Hacker News",
+  "title": "Google Discloses $94.1B in SpaceX Stock, Marking 6% Stake",
+  "link": "https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "A brief financial stock disclosure with no technical engineering content.",
+  "points": [
+   "Google disclosed a $94.1B stake representing a 6% interest in SpaceX"
+  ]
+ },
+ "ed38966a8eaabc93": {
+  "feed": "YC Hacker News",
+  "title": "I learned PCB design, 3D printing and C just to listen to music",
+  "link": "https://pentaton.app/blog/2026-07-12-introducing-pentaton-lp/",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "An embedded hardware and CAD project outside the reader's primary ML and backend focus.",
+  "points": [
+   "Built a custom music streamer featuring a 1920x1920 display and Radxa CM3 compute module"
+  ]
+ },
+ "237fa424d7a2af21": {
+  "feed": "YC Hacker News",
+  "title": "What's Under Your Feet in New York City?",
+  "link": "https://practical.engineering/blog/2026/7/21/whats-under-your-feet-in-new-york-city",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "An article on urban civil water infrastructure unrelated to software systems.",
+  "points": [
+   "Explains how NYC water distribution utilizes gravity flow and high pressure to maintain water safety"
+  ]
+ },
+ "8be639a75ad31687": {
+  "feed": "YC Hacker News",
+  "title": "Ask HN: What are the most promising RL fields for a new master student?",
+  "link": "https://news.ycombinator.com/item?id=49057972",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Offers useful career and research direction advice for reinforcement learning specializations.",
+  "points": [
+   "Recommends choosing research topics aligned with faculty compute resources and interests",
+   "Highlights sim-to-real robotics and adaptive BCIs as high-potential practical RL subfields"
+  ]
+ },
+ "a252d21991fc0df3": {
+  "feed": "OpenAI News",
+  "title": "Ingredients for robotics research",
+  "link": "https://openai.com/index/ingredients-for-robotics-research",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Relevant to RL fundamentals, announcing open-source robotics environments and Hindsight Experience Replay.",
+  "points": [
+   "Releases eight simulated robotics environments designed for training physical hardware",
+   "Provides an open-source implementation of Hindsight Experience Replay (HER)"
+  ]
+ },
+ "abb33238d90c0065": {
+  "feed": "OpenAI News",
+  "title": "OpenAI supporters",
+  "link": "https://openai.com/index/openai-supporters",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "A historical 2018 corporate donor announcement containing no engineering information.",
+  "points": [
+   "Announces historical board and donor updates from OpenAI in 2018"
+  ]
+ },
+ "ec4689904d5d4029": {
+  "feed": "OpenAI News",
+  "title": "Preparing for malicious uses of AI",
+  "link": "https://openai.com/index/preparing-for-malicious-uses-of-ai",
+  "date": "2026-07-26",
+  "tier": "low_priority",
+  "why": "High-level AI policy paper summary lacking technical or architectural depth.",
+  "points": [
+   "Discusses potential malicious misuses of AI and strategic prevention frameworks"
+  ]
+ },
+ "fbab3bc72f696e36": {
+  "feed": "OpenAI News",
+  "title": "Scaling Kubernetes to 2,500 nodes",
+  "link": "https://openai.com/index/scaling-kubernetes-to-2500-nodes",
+  "date": "2026-07-26",
+  "tier": "must_read",
+  "why": "Directly advances ML infrastructure knowledge with practical war stories on scaling large compute clusters.",
+  "points": [
+   "Resolved etcd write latency spikes by switching data directories to local SSDs",
+   "Identified and throttled aggressive LIST API polling from Fluentd and Datadog on kube-apiserver",
+   "Provides key infrastructure tuning techniques for scaling Kubernetes to 2,500 nodes for deep learning"
+  ]
+ },
+ "c74fbbe4836dc99f": {
+  "feed": "OpenAI News",
+  "title": "Interpretable and pedagogical examples",
+  "link": "https://openai.com/index/interpretable-and-pedagogical-examples",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "Relevant to LLM and ML training techniques regarding teacher-student network dynamics.",
+  "points": [
+   "Iterative rather than joint training of teacher and student networks yields interpretable teaching strategies",
+   "Evaluates generated teaching examples across probabilistic and hierarchical concepts using human testing"
+  ]
  }
 }
