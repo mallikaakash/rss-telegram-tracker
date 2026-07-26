@@ -36395,5 +36395,115 @@
    "Ruff v0.16.0 drastically expands default rules from 59 to 413, catching syntax errors and runtime bugs out of the box without manual config.",
    "Demonstrates using `uvx ruff@latest check . --fix --unsafe-fixes` to automatically resolve hundreds of lint errors in tandem with coding agents."
   ]
+ },
+ "abf3b0ab0a8207cb": {
+  "feed": "YC Hacker News",
+  "title": "A shell colon does nothing. Use it anyway",
+  "link": "https://refp.se/articles/your-shell-and-the-magic-colon",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A shell colon does nothing. Use it anyway. | Filip Roséen - refp.se home articles about hire A shell colon does nothing. Use it anyway. I've written more shell scripts than I can count, but I still stumble upon tricks that honestly blow my mind far too often than I care to admit. Latest thing that blew my head clean off? The shell colon. Published 23 July 2026 at 03:53 UTC Modified 26 July 2026 at 05:33 UTC Author Filip Roséen Tags #shell #posix #unix Table of Contents In a land far-far away.."
+  ]
+ },
+ "16b138d9f3a3eb20": {
+  "feed": "YC Hacker News",
+  "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
+  "link": "https://huggingface.co/owensong/Inflect-Micro-v2",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "owensong/Inflect-Micro-v2 · Hugging Face Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up owensong / Inflect-Micro-v2 like 114 Text-to-Speech PyTorch English speech-synthesis local-tts cpu edge-ai small-model base-model vits 24khz License: apache-2.0 Model card Files Files and versions xet Community 2 Copy to bucket new Listen Evaluation 1."
+  ]
+ },
+ "3c5b977aae23633c": {
+  "feed": "YC Hacker News",
+  "title": "Stinkpot: SQLite-backed shell history",
+  "link": "https://tangled.org/oppi.li/stinkpot",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "oppi.li/stinkpot at main · Tangled alpha Login or Join now oppi.li / stinkpot Star 16 Fork 1 Atom Configure Feed Issues Pull Requests Commits Tags Feed URL Select the types of activity you want to include in your feed. sqlite-backed shell history Star 16 Fork 1 Atom Configure Feed Issues Pull Requests Commits Tags Feed URL Select the types of activity you want to include in your feed."
+  ]
+ },
+ "7f366388db06517c": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+  "link": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "6def8fe8f34bd66a": {
+  "feed": "YC Hacker News",
+  "title": "Some more things about Django I've been enjoying",
+  "link": "https://jvns.ca/blog/2026/07/21/more-nice-django-things/",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Some more things about Django I've been enjoying Skip to main content Julia Evans About Talks Projects Mastodon Bluesky Github Favorites TIL Zines RSS Some more things about Django I've been enjoying July 21, 2026 Hello! I’m on a funny journey right now where I’m trying to learn how to make websites in a sort of 2010 style, where I have an SQL database and render some HTML on the backend."
+  ]
+ },
+ "46fed6c8a398dc08": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Fellows Fall 2018: Final projects",
+  "link": "https://openai.com/index/openai-fellows-fall-2018",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI Fellows Fall 2018: Final projects | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 17, 2019 Company OpenAI Fellows Fall 2018: Final projects Loading… Share Final projects Final projects Next steps Final projects Next steps Our second class of OpenAI Fellows has wrapped up, with each Fellow going from a machine learning beginner to core OpenAI contributor in the course of a 6-month apprenticeship."
+  ]
+ },
+ "f659b88e8d1a3a26": {
+  "feed": "OpenAI News",
+  "title": "Implicit generation and generalization methods for energy-based models",
+  "link": "https://openai.com/index/energy-based-models",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’ve made progress towards stable and scalable training of energy-based models (EBMs) resulting in better sample quality and generalization ability than existing models. Generation in EBMs spends more compute to continually refine its answers and doing so can generate samples competitive with GANs at low temperatures, while also having mode coverage guarantees of likelihood-based models."
+  ]
+ },
+ "93f3ddd9d28da162": {
+  "feed": "OpenAI News",
+  "title": "OpenAI LP",
+  "link": "https://openai.com/index/openai-lp",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI LP | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI March 11, 2019 Company OpenAI LP Loading… Share The mission comes first The mission comes first What OpenAI does Safety Who’s involved The mission comes first What OpenAI does Safety Who’s involved Our mission is to ensure that artificial general intelligence (AGI) benefits all of humanity, primarily by attempting to build safe AGI and share the benefits with the world."
+  ]
+ },
+ "7564240155ef3bf5": {
+  "feed": "OpenAI News",
+  "title": "Better language models and their implications",
+  "link": "https://openai.com/index/better-language-models",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, and performs rudimentary reading comprehension, machine translation, question answering, and summarization—all without task-specific training."
+  ]
+ },
+ "ad5199ee24013365": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Fellows Summer 2018: Final projects",
+  "link": "https://openai.com/index/openai-summer-fellows-2018",
+  "date": "2026-07-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI Fellows Summer 2018: Final projects | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI December 19, 2018 Company OpenAI Fellows Summer 2018: Final projects Our first cohort of OpenAI Fellows has concluded, with each Fellow going from a machine learning beginner to core OpenAI contributor in the course of a 6-month apprenticeship."
+  ]
  }
 }
