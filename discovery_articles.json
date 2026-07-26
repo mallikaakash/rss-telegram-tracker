@@ -1148,5 +1148,77 @@
   "tier": "skip",
   "why": "Landing page for a web static resource proxy service containing no underlying code or technical material.",
   "points": []
+ },
+ "215cbfbe5bbcab7e": {
+  "url": "https://aomukai.com/2026/06/26/how-it-begins-signs-of-life/",
+  "title": "How It Begins – Signs of Life – A. Omukai",
+  "domain": "aomukai.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-26",
+  "tier": "hidden_gem",
+  "why": "A personal LLM pretraining research log detailing empirical findings on curriculum learning, data scaling limits, and probing conceptual representations.",
+  "points": [
+   "Curriculum ordering in pretraining consistently outperforms arbitrary data ordering by presenting concepts in dependency order.",
+   "Scaling model parameters provided no noticeable gain before reaching data scarcity, proving curriculum layout should be stabilized before scaling.",
+   "Standard next-token loss curves failed to reflect actual conceptual comprehension, prompting a shift to interactive dialogue-based probing."
+  ]
+ },
+ "bc4c4445a3028b48": {
+  "url": "https://www.mlwhiz.com/p/pretraining-101-data-scale-and-the",
+  "title": "Pretraining 101: Data, Scale, and the Loss Function",
+  "domain": "mlwhiz.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-26",
+  "tier": "skip",
+  "why": "Standard entry-level newsletter tutorial covering well-known LLM pretraining basics and cross-entropy loss functions.",
+  "points": []
+ },
+ "a0e7f78c499c5a2b": {
+  "url": "https://galacodes.hashnode.dev/i-wrote-a-gpu-matmul-kernel-from-scratch-in-triton-here-s-everything-i-learned",
+  "title": "I Wrote a GPU Matmul Kernel From Scratch in Triton. Here's Everything I Learned",
+  "domain": "galacodes.hashnode.dev",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-26",
+  "tier": "solid_find",
+  "why": "A detailed technical breakdown of GPU memory architecture bottlenecks and writing optimized matmul kernels step-by-step in Triton.",
+  "points": [
+   "GPU matmul performance is constrained by HBM memory bandwidth (~2 TB/s) relative to fast on-chip SRAM (~19 TB/s) rather than raw FLOPS.",
+   "Block-tiling techniques minimize DRAM read latency by loading matrix blocks directly into SRAM for tensor cores.",
+   "Triton abstracts block-level thread management in Python while compiling to machine code competitive with PyTorch native matmul."
+  ]
+ },
+ "45332a26aeadff22": {
+  "url": "https://arxiv.gg/abs/2606.25008",
+  "title": "Neural Scaling Universality: If Exponents Are Fixed, Time to Understand Coefficients - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-26",
+  "tier": "hidden_gem",
+  "why": "A paper proposing that neural scaling exponents are fixed by universal mechanisms, shifting the key to model optimization entirely to scaling coefficients.",
+  "points": [
+   "Scaling law exponents are mathematically fixed by generic mechanisms: Softmax nonlinearity (1/3 time scaling), superposition (inverse width), and layer ensembling (inverse depth).",
+   "Because exponents are universal across current architectures, compute-optimal frontiers are dictated by architecture- and data-dependent coefficients.",
+   "Near-term LLM efficiency gains depend on understanding and tuning scaling coefficients rather than seeking different exponent slopes."
+  ]
+ },
+ "9fe1787312048715": {
+  "url": "https://github.com/wondr-wclabs/hearth",
+  "title": "GitHub - wondr-wclabs/hearth · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-26",
+  "tier": "skip",
+  "why": "A bare repository fork commit log with no technical documentation, design decisions, or benchmark data.",
+  "points": []
+ },
+ "3626fcaf4a3c6b38": {
+  "url": "https://devfloor9.github.io/engineering-playbook/en/docs/agentic-ai-platform/model-serving/inference-infrastructure-overview",
+  "title": "Model Serving & Inference Infrastructure | Engineering Playbook",
+  "domain": "devfloor9.github.io",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-07-26",
+  "tier": "skip",
+  "why": "A generic high-level documentation index mapping common LLM serving tools without deep technical analysis or original empirical results.",
+  "points": []
  }
 }
