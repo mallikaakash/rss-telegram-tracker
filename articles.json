@@ -36965,5 +36965,115 @@
   "points": [
    "We’ve created a bot which beats the world’s top professionals at 1v1 matches of Dota 2 under standard tournament rules. The bot learned the game from scratch by self-play, and does not use imitation learning or tree search. This is a step towards building AI systems which accomplish well-defined goals in messy, complicated situations involving real humans."
   ]
+ },
+ "823f8819fb48a25b": {
+  "feed": "YC Hacker News",
+  "title": "Lidl Introduces the European Payment Method Wero in Germany",
+  "link": "https://unternehmen.lidl.de/pressreleases/260724_lidl_pi_einfuehrung_wero",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Lidl führt europäische Bezahlmethode Wero in Deutschland ein - Lidl Deutschland Lidl.de Immobilien Karriere Über Lidl Verantwortung Sortiment Newsroom Kontakt Verantwortung Überblick Lidl-Nachhaltigkeitsnews Fair handeln Gesundheit fördern Dialog führen Biodiversität achten Klima schützen Ressourcen schonen Nachhaltigkeit - leicht erklärt Newsroom Überblick Immobilien Suchseite Lidl führt europäische Bezahlmethode Wero in Deutschland ein JavaScript ist deaktiviert Wir haben erkannt, dass Sie ohne aktivierte JavaScript-Funktion surfen."
+  ]
+ },
+ "3c20825102e6bb43": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Boffin – Staff-engineer layer for AI coding agents",
+  "link": "https://github.com/MicSm/boffin",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - MicSm/boffin: Staff-engineer layer for AI coding agents: routes per-edit architectural constraints and requires verification. Not another AGENTS.md. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "d985f883e2492a60": {
+  "feed": "YC Hacker News",
+  "title": "Jimothy the raccoon has a rare spinal condition. Here's what that means",
+  "link": "https://www.popsci.com/science/whats-jimothy-raccoon-condition/",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jimothy the raccoon has a rare spinal condition. Here’s what that means. | Popular Science Search for: Science Archaeology Ask Us Anything Biology Dinosaurs Physics Popular Science Videos Space The Weirdest Thing I Learned This Week Technology AI Aviation Engineering Internet Military Photography Robots Security Best of What's New Vehicles Environment Agriculture Animals Climate Change Conservation Energy Sustainability Weather DIY Life Skills Projects Tech Hacks Gear Audio Cameras Computers Fitness Gear Gaming Gift Guides Home Home Theater Outdoor Gear Phones Tablets Wearables MERCH Cover Art Store Newsletter Search for: svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> svg]:fill-accent-900 [&>svg]:stroke-accent-900\"> Science Ask Us Anything Jimothy the raccoon has a rare spinal condition."
+  ]
+ },
+ "b6212659c3bbc4ce": {
+  "feed": "YC Hacker News",
+  "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
+  "link": "https://swag.htmx.org/en-cad/products/htmx-4-the-game",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "htmx 4: the game | swag.htmx.org Skip to content Drop 001 swag.htmx.org CAD USD EUR CAD GBP AUD NZD SEK NOK DKK PLN INR JPY MYR SGD MXN BRL CHF swag.htmx.org Home CEO of htmx htmx Sucks Grug htmxeggs Hoodies Tees Octohorse Onesies Posters Stickers Hypermedia is for Lovers Mugs All Products Home CEO of htmx htmx Sucks Grug htmxeggs Hoodies Tees Octohorse Onesies Posters Stickers Hypermedia is for Lovers Mugs All Products htmx 4: the game $35.96 CAD HTMX 4.0, the first JavaScript library to release exclusively on the Game Boy® platform!"
+  ]
+ },
+ "e7e67019fae6d12b": {
+  "feed": "YC Hacker News",
+  "title": "How to Write English Prose",
+  "link": "https://thelampmagazine.com/blog/how-to-write-english-prose",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How to Write English Prose Skip to Content Read Issue 35 A CATHOLIC JOURNAL OF LITERATURE, SCIENCE, THE FINE ARTS, ETC. Login Subscribe Home Subscribe Issues Authors Blog Shop Donate Substack Search Icon Search Icon Menu Icon Close Icon Login Read About Issues Authors Blog Podcast Donate Submissions Shop Accessories Apparel Books Gifts Prints Become a subscriber Read Issue 35 Subscribe to The Lamp for full access to all content."
+  ]
+ },
+ "49923c5d248d45b5": {
+  "feed": "OpenAI News",
+  "title": "Gathering human feedback",
+  "link": "https://openai.com/index/gathering-human-feedback",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RL-Teacher is an open-source implementation of our interface to train AIs via occasional human feedback rather than hand-crafted reward functions. The underlying technique was developed as a step towards safe AI systems, but also applies to reinforcement learning problems with rewards that are hard to specify."
+  ]
+ },
+ "fae8ef608914fdae": {
+  "feed": "OpenAI News",
+  "title": "Better exploration with parameter noise",
+  "link": "https://openai.com/index/better-exploration-with-parameter-noise",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Better exploration with parameter noise | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI July 27, 2017 Publication Better exploration with parameter noise Read code (opens in a new window) Read paper (opens in a new window) Illustration: Ben Barry Loading… Share Baselines and benchmarks Baselines and benchmarks Development Baselines and benchmarks Development We’ve found that adding adaptive noise to the parameters of reinforcement learning algorithms frequently boosts performance."
+  ]
+ },
+ "fbde402894e1f867": {
+  "feed": "OpenAI News",
+  "title": "UCB exploration via Q-ensembles",
+  "link": "https://openai.com/index/ucb-exploration-via-q-ensembles",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "UCB exploration via Q-ensembles | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI June 5, 2017 Publication UCB exploration via Q-ensembles Read paper (opens in a new window) Loading… Share Abstract We show how an ensemble of Q*-functions can be leveraged for more effective exploration in deep reinforcement learning."
+  ]
+ },
+ "6652b2250462d851": {
+  "feed": "OpenAI News",
+  "title": "OpenAI Baselines: DQN",
+  "link": "https://openai.com/index/openai-baselines-dqn",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI Baselines: DQN | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 24, 2017 Release OpenAI Baselines: DQN View code (opens in a new window) Illustration: Ben Barry Loading… Share Best practices Best practices Deep Q-Learning Benchmarks Best practices Deep Q-Learning Benchmarks We’re open-sourcing OpenAI Baselines, our internal effort to reproduce reinforcement learning algorithms with performance on par with published results."
+  ]
+ },
+ "df77a8d6968a687c": {
+  "feed": "OpenAI News",
+  "title": "Equivalence between policy gradients and soft Q-learning",
+  "link": "https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Equivalence between policy gradients and soft Q-learning | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI April 21, 2017 Publication Equivalence between policy gradients and soft Q-learning Read paper (opens in a new window) Loading… Share Abstract Two of the leading approaches for model-free reinforcement learning are policy gradient methods and Q-learning methods."
+  ]
  }
 }
