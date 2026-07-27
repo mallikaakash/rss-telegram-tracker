@@ -37505,5 +37505,168 @@
   "points": [
    "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics Enterprise + Article Published July 27, 2026 Upvote 5 Lukas Zbinden lzbinden Follow nvidia Javier Gamazo javirk1 Follow nvidia Mostafa Toloui mtoloui Follow nvidia Sean Huver shuver Follow nvidia 1."
   ]
+ },
+ "a3a77ef3a0379cd0": {
+  "feed": "YC Hacker News",
+  "title": "Kimi-K3 Technical Report [pdf]",
+  "link": "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf",
+  "date": "2026-07-27",
+  "tier": "must_read",
+  "why": "Moonshot's technical report details the architecture and training of Kimi-K3, a major 2.8T MoE model with novel attention mechanisms.",
+  "points": [
+   "Details Kimi-K3, a 2.8T parameter MoE LLM activating 16 of 896 experts per token with a 1M token context window.",
+   "Introduces Kimi Delta Attention and Attention Residuals to increase scaling efficiency by 2.5x over K2.",
+   "Uses quantization-aware training from SFT onward with MXFP4 weights and MXFP8 activations for servability."
+  ]
+ },
+ "6bb0b0e490a6bdc0": {
+  "feed": "YC Hacker News",
+  "title": "The Computer That Helped Win World War II",
+  "link": "https://spectrum.ieee.org/colossus-computer-ieee-milestone",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Historical computing article about WWII cryptanalysis with no relevance to modern ML or backend infrastructure.",
+  "points": [
+   "Recounts the history of the WWII Colossus computer used to break German cipher traffic."
+  ]
+ },
+ "a90b049cd4f53c04": {
+  "feed": "YC Hacker News",
+  "title": "Glue bonds to nonstick surfaces and wipes clean with ethanol",
+  "link": "https://cen.acs.org/materials/adhesives/glue-bonds-nonstick-surfaces-wipes-clean/104/web/2026/07",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Materials science research on chemical adhesives, entirely off-target for software engineers.",
+  "points": [
+   "Describes a reusable small-molecule glue that adheres to nonstick surfaces and dissolves in ethanol."
+  ]
+ },
+ "6f12073b25669dc6": {
+  "feed": "YC Hacker News",
+  "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity (2023)",
+  "link": "https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "Practical architectural case study on reducing stack complexity and duplicate code by migrating from React to HTMX.",
+  "points": [
+   "Eliminates dual-rendering overhead by replacing React components and Django API serializers with HTMX HTML islands.",
+   "Reduces client-side JavaScript bundle sizes and improves UI loading performance on lower-end devices."
+  ]
+ },
+ "6ffddcfbab130f8c": {
+  "feed": "YC Hacker News",
+  "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
+  "link": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "Provides insightful analysis on LLM unit economics, metered token costs, and AI infrastructure burn rates.",
+  "points": [
+   "Highlights how fixed-price subscription models lose money on high-token LLM usage based on SemiAnalysis data.",
+   "Explains why metered token billing creates friction for enterprise software adoption."
+  ]
+ },
+ "5b96b09e37eceaf5": {
+  "feed": "Technica",
+  "title": "What public health professionals can learn from anti-vaccine storytelling",
+  "link": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism/",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Public health communications article unrelated to ML engineering or distributed systems.",
+  "points": [
+   "Discusses narrative strategies used in public health outreach and vaccine hesitancy."
+  ]
+ },
+ "8cfabe5750ef6f9b": {
+  "feed": "Apple ML Research",
+  "title": "GH-ESD: Grounded Hypothesis-Driven Error Slice Discovery for Instance-Level Vision Tasks",
+  "link": "https://machinelearning.apple.com/research/gh-esd",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "Relevant research on ML model debugging and automated error slice discovery, though focused on computer vision.",
+  "points": [
+   "Presents GH-ESD to identify systematic failure slices in object detection and segmentation models.",
+   "Uses grounded spatial and contextual patterns rather than simple representation clustering."
+  ]
+ },
+ "33560eec3a690b5a": {
+  "feed": "OpenAI News",
+  "title": "Concrete AI safety problems",
+  "link": "https://openai.com/index/concrete-ai-safety-problems",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Historical 2016 OpenAI blog post reposting early reinforcement learning safety concepts.",
+  "points": [
+   "Outlines classic 2016 AI safety topics including reward hacking, safe exploration, and distributional shift."
+  ]
+ },
+ "e6dc80ac24df87d6": {
+  "feed": "OpenAI News",
+  "title": "OpenAI technical goals",
+  "link": "https://openai.com/index/openai-technical-goals",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Outdated 2016 company roadmap post with no current technical value.",
+  "points": [
+   "Summarizes OpenAI's initial 2016 technical objectives around Gym benchmarks and basic robotics."
+  ]
+ },
+ "c57e5be7c3abecb6": {
+  "feed": "OpenAI News",
+  "title": "Adversarial training methods for semi-supervised text classification",
+  "link": "https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Archived 2016 research paper abstract on word embedding perturbations in RNNs, superseded by modern LLM techniques.",
+  "points": [
+   "Applies virtual adversarial training to word embeddings in recurrent neural networks for text classification."
+  ]
+ },
+ "b9df578cb50e6fc3": {
+  "feed": "OpenAI News",
+  "title": "Weight normalization: A simple reparameterization to accelerate training of deep neural networks",
+  "link": "https://openai.com/index/weight-normalization",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Legacy 2016 paper abstract on Weight Normalization, largely replaced by LayerNorm and RMSNorm in modern transformers.",
+  "points": [
+   "Proposes reparameterizing weight vectors into length and direction to speed up stochastic gradient descent."
+  ]
+ },
+ "3fa5924f05280d36": {
+  "feed": "OpenAI News",
+  "title": "Introducing OpenAI",
+  "link": "https://openai.com/index/introducing-openai",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Historical non-profit launch post from 2015 containing zero engineering content.",
+  "points": [
+   "Announces the initial founding mission of OpenAI from 2015."
+  ]
+ },
+ "af29de6f562635dd": {
+  "feed": "Modal Blog",
+  "title": "Kimi K3 by Moonshot now available on Modal",
+  "link": "https://modal.com/blog/kimi-k3-by-moonshot-now-available-on-modal",
+  "date": "2026-07-27",
+  "tier": "must_read",
+  "why": "Outstanding deep-dive into LLM inference serving, MoE architecture tricks, vLLM integration, and speculative decoding at scale.",
+  "points": [
+   "Explains how Modal serves Kimi-K3 at 460 tokens/sec using a custom DFlash speculator trained on 32 B300 nodes.",
+   "Covers vLLM adaptations required for Kimi Delta Attention prefix caching and MXFP4/MXFP8 low-precision execution.",
+   "Demonstrates a 360% interactivity speedup and 88% higher throughput on agentic long-context workloads."
+  ]
+ },
+ "9835c0f32a5d535a": {
+  "feed": "Cloudflare Blog",
+  "title": "We’re open sourcing our privacy proxy CLI",
+  "link": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
+  "date": "2026-07-27",
+  "tier": "must_read",
+  "why": "High-quality engineering deep-dive from Cloudflare on multi-party privacy proxies, OHTTP debugging, and binary HTTP parsing.",
+  "points": [
+   "Open-sources `pvcli` to debug Oblivious HTTP (OHTTP) flows across non-colluding relay and gateway servers.",
+   "Breaks down the 7-step encryption and identity-stripping sequence powering Apple Private Relay and Microsoft Edge Secure Network.",
+   "Provides practical techniques for inspecting raw binary HTTP (bHTTP) frames during incident response."
+  ]
  }
 }
