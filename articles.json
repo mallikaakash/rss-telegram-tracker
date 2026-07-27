@@ -37362,5 +37362,148 @@
   "points": [
    "From a naïve Flink pipeline to a ClickHouse-powered analytics engine — the full story of deduplication, late events, aggregation windows, and the lessons we learned the hard way. The Problem When we serve an ad, we get back a stream of user events — views, clicks, and more — flowing in. We needed to consume this stream and answer some fundamental questions: How much has each advertiser spent?"
   ]
+ },
+ "b66b0bf7ec31a4a9": {
+  "feed": "YC Hacker News",
+  "title": "How is the Bun Rewrite in Rust going?",
+  "link": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How is the Bun Rewrite in Rust Going? | Tom Lockwood - Developer Tom Lockwood - Developer About Projects How is the Bun Rewrite in Rust Going? Jul 27, 2026 I think it’s important to be very Canny when someone makes a claim that supports a company’s large valuation. The Bun rewrite seems well positioned as proof-positive that AI and specifically Anthropic’s AI can do the work of open-source maintainers, for some money, but faster."
+  ]
+ },
+ "3d5408ece1b955b8": {
+  "feed": "YC Hacker News",
+  "title": "If digital computers are conscious, they are conscious at the hardware level",
+  "link": "https://smoothbrains.net/posts/2026-05-09-digital-consciousness.html",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "smoothbrains.net â If digital computers are conscious, they are conscious at the hardware level smoothbrains.net â Previous Raw If digital computers are conscious, they are conscious at the hardware level Posted on 9 May 2026 by Cube Flipper This post is also available on lesswrong.com . Contemporary debate over the moral patienthood of digital minds misses the forest for the trees."
+  ]
+ },
+ "7b2238f543603045": {
+  "feed": "YC Hacker News",
+  "title": "The Birth of the American 12-string Guitar",
+  "link": "https://www.harpguitars.net/history/grunewald/12-string.htm",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Birth of the American 12-string Guitar by Gregg Miner The Birth of the American 12-string Guitar by Gregg Miner Rewritten July, 2013 Last Update: August 2025 INTRODUCTION For those wishing to skip to the heart of the matter, just jump to the end of this article. However, as it took me quite a while to get there, you may find the provenance, and my eventual analysis worth reading first."
+  ]
+ },
+ "fd22bd361c1a6b37": {
+  "feed": "YC Hacker News",
+  "title": "Elevated errors on Claude Opus 5",
+  "link": "https://status.claude.com/incidents/mfdtrknpxghq",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Claude Status - Elevated errors on Claude Opus 5 Elevated errors on Claude Opus 5 Incident Report for Claude Resolved As of 4:47 PST / 11:47 UTC the errors have returned to baseline. Posted Jul 27 , 2026 - 12:30 UTC Investigating We are currently investigating this issue. Posted Jul 27 , 2026 - 11:27 UTC This incident affected: claude.ai, Claude API (api.anthropic.com), Claude Code, and Claude Cowork."
+  ]
+ },
+ "02f05b9f1721cad0": {
+  "feed": "YC Hacker News",
+  "title": "Magnolias Are So Old That They're Pollinated by Beetles, Not Bees",
+  "link": "https://mymodernmet.com/magnolia-ancient-flowers-beetles/",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Magnolias Are So Old That They're Pollinated by Beetles, Not Bees Toggle navigation Popular Categories Art Design Photography Academy Store Architecture Science Technology History Environment Nature Career Resources Classes DIY Interview Travel Entertainment About Us About Editorial Policy Team Submit Content Contact Advertise Affiliate Disclosure Privacy Terms Membership Academy Store Follow @mymodernmet Follow Pinterest --> --> --> Subscribe Get Our Weekly Newsletter Popular Popular Posts View All --> Marathoner With Blood on Her Legs Finishes Race Despite Getting Period 5 Miles From the Finish Line --> Meet Jimothy the Unusually Round Raccoon Who Has Captured Hearts and Inspired Fan Art --> 29 Spectacular Finalists of the 2026 Astronomy Photographer of the Year Contest --> Casa Batlló Reveals Gaudí's Hidden Residential Interior After a Three-Year Restoration Art Design Photography Academy Store More Topics All Topics More Topics Art Design Photography Academy Store Architecture Science Technology History Environment Nature Career Resources Classes DIY Interview Travel Entertainment Membership Follow @mymodernmet Follow Pinterest --> --> --> Subscribe Home / Nature Magnolias Are So Old That They’re Pollinated by Beetles By Livia Pereira on June 22, 2025 Photo: nm737/ Depositphotos Many people begin to notice the arrival of spring with the large, beautiful blooms of the magnolia flower."
+  ]
+ },
+ "05c09dc2d7a517e7": {
+  "feed": "Technica",
+  "title": "Artist sues AI meme generator for selling deeply personal comic as ad template",
+  "link": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Artist Elmer Saflor, who goes by the online handle “Superelmer,” loves that millions of people have shared his “Running Away Balloon” comic since it became a popular meme in 2017. However, just because lots of people have copied it, that doesn’t mean it’s OK for an AI meme generator to commercialize his copyrighted meme as a template for who knows how many ads, he told Ars."
+  ]
+ },
+ "edd884e3eb651634": {
+  "feed": "Google DeepMind",
+  "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+  "link": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber Skip to main content Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber Innovation & AI Products & platforms Company news Feed Subscribe Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Subscribe Breadcrumb Home Innovation & AI Models & research Gemini Models Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber Jul 21, 2026 | x.com Facebook LinkedIn Mail Copy link Our newest Gemini models deliver the efficiency, latency, and reliability to build AI agents at scale."
+  ]
+ },
+ "f143efbfe201f040": {
+  "feed": "OpenAI News",
+  "title": "How AI is expanding what people do at work",
+  "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How AI is expanding what people do at work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI July 27, 2026 Company How AI is expanding what people do at work OpenAI Economic Research’s new Work at the Frontier series shows how workers cross over into work beyond the traditional boundaries of their roles."
+  ]
+ },
+ "b164ccd59792659e": {
+  "feed": "OpenAI News",
+  "title": "Transfer from simulation to real world through learning deep inverse dynamics model",
+  "link": "https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Transfer from simulation to real world through learning deep inverse dynamics model | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 11, 2016 Publication Transfer from simulation to real world through learning deep inverse dynamics model Read paper (opens in a new window) Loading… Share Abstract Developing control policies in simulation is often more practical and safer than directly running experiments in the real world."
+  ]
+ },
+ "ff30bafbb9435b71": {
+  "feed": "OpenAI News",
+  "title": "Infrastructure for deep learning",
+  "link": "https://openai.com/index/infrastructure-for-deep-learning",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Infrastructure for deep learning | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 29, 2016 Conclusion Infrastructure for deep learning Illustration: Ludwig Pettersson Loading… Share The use case The use case An example Infrastructure Software Hardware Provisioning Orchestration kubernetes-ec2-autoscaler The use case An example Infrastructure Software Hardware Provisioning Orchestration kubernetes-ec2-autoscaler Deep learning is an empirical science, and the quality of a group’s infrastructure is a multiplier on progress."
+  ]
+ },
+ "13cff68579281836": {
+  "feed": "OpenAI News",
+  "title": "Machine Learning Unconference",
+  "link": "https://openai.com/index/machine-learning-unconference",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Machine Learning Unconference | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 18, 2016 Company Machine Learning Unconference The latest information about the Unconference is now available at the Unconference wiki, which will be periodically updated with more information for attendees."
+  ]
+ },
+ "ffb2d527f03600dd": {
+  "feed": "OpenAI News",
+  "title": "Special projects",
+  "link": "https://openai.com/index/special-projects",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Special projects | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI July 28, 2016 Company Special projects Impactful scientific work requires working on the right problems—problems which are not just interesting, but whose solutions matter."
+  ]
+ },
+ "9101339b1ac24639": {
+  "feed": "Hugging Face Blog",
+  "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+  "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics Enterprise + Article Published July 27, 2026 Upvote 5 Lukas Zbinden lzbinden Follow nvidia Javier Gamazo javirk1 Follow nvidia Mostafa Toloui mtoloui Follow nvidia Sean Huver shuver Follow nvidia 1."
+  ]
  }
 }
