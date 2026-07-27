@@ -37668,5 +37668,87 @@
    "Breaks down the 7-step encryption and identity-stripping sequence powering Apple Private Relay and Microsoft Edge Secure Network.",
    "Provides practical techniques for inspecting raw binary HTTP (bHTTP) frames during incident response."
   ]
+ },
+ "176cd9f25af3455a": {
+  "feed": "YC Hacker News",
+  "title": "MAI-Cyber 1",
+  "link": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "This is a product marketing PR announcement for Microsoft's MAI-Cyber-1-Flash model inside MDASH.",
+  "points": [
+   "Announces MAI-Cyber-1-Flash for vulnerability scanning within Microsoft's MDASH harness."
+  ]
+ },
+ "93e9225cacd8614e": {
+  "feed": "YC Hacker News",
+  "title": "Watching Go's new garbage collector move through the heap",
+  "link": "https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Covers low-level Go runtime garbage collection mechanics relevant to backend performance engineering.",
+  "points": [
+   "Explores how Go's garbage collector traverses and manages memory across the heap.",
+   "Provides insight into runtime memory allocations and performance characteristics."
+  ]
+ },
+ "41e3f05fff23a971": {
+  "feed": "YC Hacker News",
+  "title": "Decathlon Germany adds Wero payment option to decathlon.de website",
+  "link": "https://www.sgieurope.com/e-commerce/decathlon-germany-launches-wero-payment-on-its-website/122397.article",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Covers consumer fintech adoption for a European retail website with no relevance to ML or backend engineering.",
+  "points": [
+   "Decathlon Germany launched the Wero account-to-account payment option on decathlon.de."
+  ]
+ },
+ "76abbd12622d2583": {
+  "feed": "YC Hacker News",
+  "title": "Self-contained highly-portable Python distributions",
+  "link": "https://gregoryszorc.com/docs/python-build-standalone/main/",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Details CPython compilation and distribution internals essential for building portable, self-contained Python ML runtime environments.",
+  "points": [
+   "Generates highly portable Python distributions with statically linked C dependencies.",
+   "Minimizes runtime requirements to run across arbitrary host systems on target architectures.",
+   "Enables embedding Python inside single-file executables or Rust binaries via PyOxy."
+  ]
+ },
+ "e3bc7cc0846b3233": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: FeyNoBg – Automatic background removal model and training library",
+  "link": "https://usefeyn.com/blog/feynobg/",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Offers an architecture and training deep-dive for an open-source segmentation model and training library.",
+  "points": [
+   "Uses a dual-module BiRefNet architecture separating localization from edge reconstruction matting.",
+   "Achieves top S-measure scores across 4 ultra-high-resolution benchmarks like UHRSD-TE.",
+   "Open-sources the NoBg training library alongside model weights on Hugging Face and GitHub."
+  ]
+ },
+ "362e8d2e1dd50680": {
+  "feed": "Technica",
+  "title": "Activist charged with felony after giving border agent \"duress code\" that wiped his phone",
+  "link": "https://arstechnica.com/gadgets/2026/07/activist-charged-with-felony-after-giving-border-agent-duress-code-that-wiped-his-phone/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Covers legal and border privacy news regarding smartphone OS wiping features rather than software engineering.",
+  "points": [
+   "Federal prosecutors charged an activist after using GrapheneOS duress features to wipe a phone at customs."
+  ]
+ },
+ "12bfe59a364c874b": {
+  "feed": "Technica",
+  "title": "Framework Laptop 13 Pro review: Much better battery, much worse price",
+  "link": "https://arstechnica.com/gadgets/2026/07/framework-laptop-13-pro-review-much-better-battery-much-worse-price/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "A consumer hardware review for a modular laptop that is off-target for software engineering priorities.",
+  "points": [
+   "Framework Laptop 13 Pro improves battery life while breaking backward compatibility for several chassis components."
+  ]
  }
 }
