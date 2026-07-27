@@ -37075,5 +37075,171 @@
   "points": [
    "Equivalence between policy gradients and soft Q-learning | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI April 21, 2017 Publication Equivalence between policy gradients and soft Q-learning Read paper (opens in a new window) Loading… Share Abstract Two of the leading approaches for model-free reinforcement learning are policy gradient methods and Q-learning methods."
   ]
+ },
+ "f3972832c2c9f341": {
+  "feed": "YC Hacker News",
+  "title": "PGSimCity - How PostgreSQL Works",
+  "link": "https://nikolays.github.io/PGSimCity/",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "Interactive 3D visualizer of PostgreSQL internals that offers a novel way to inspect database storage and execution engines.",
+  "points": [
+   "Visualizes PostgreSQL execution engine loading and running database tasks in WebGL",
+   "Helpful tool for building intuition about database layout and query execution",
+   "Currently an unreviewed prototype with known potential inaccuracies"
+  ]
+ },
+ "f3388b3c1815ea8e": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Physically accurate black hole you can put in your room",
+  "link": "https://blackhole.plav.in",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Off-topic consumer show-and-tell project about physics visualization.",
+  "points": [
+   "A physical black hole room simulator project with no engineering relevance to ML or backend infrastructure."
+  ]
+ },
+ "60f7eea84202a3ac": {
+  "feed": "YC Hacker News",
+  "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
+  "link": "https://beyondloom.com/decker/",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Retro computing platform for 1-bit HyperCard-style document creation, unrelated to backend or ML systems.",
+  "points": [
+   "A ditherpunk multimedia platform using a scripting language named Lil for creative coding."
+  ]
+ },
+ "2df68072a7c10f38": {
+  "feed": "YC Hacker News",
+  "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+  "link": "https://github.com/vercel-labs/scriptc",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "Vercel's experimental compiler compiles TypeScript directly to native binaries without embedding a JavaScript runtime.",
+  "points": [
+   "Compiles TypeScript directly to native code to eliminate JS engine overhead",
+   "Aims for minimal binary footprints and instant startup performance",
+   "Relevant for backend engineers interested in low-overhead runtime architectures"
+  ]
+ },
+ "41a2f99aa8b5d321": {
+  "feed": "YC Hacker News",
+  "title": "French firefighters face 'pyrocumulonimbus' for first time",
+  "link": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "General news article regarding wildfire weather phenomena in France.",
+  "points": [
+   "Covers extreme pyrocumulonimbus cloud formations faced by firefighters in France."
+  ]
+ },
+ "4fbca79c509c134a": {
+  "feed": "Technica",
+  "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
+  "link": "https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Pop culture television trailer announcement with no technical substance.",
+  "points": [
+   "Teaser release for the Apple TV sci-fi series adaptation of William Gibson's Neuromancer."
+  ]
+ },
+ "a51777763c783259": {
+  "feed": "OpenAI News",
+  "title": "Unsupervised sentiment neuron",
+  "link": "https://openai.com/index/unsupervised-sentiment-neuron",
+  "date": "2026-07-27",
+  "tier": "worth_a_skim",
+  "why": "Historical 2017 OpenAI publication demonstrating early unsupervised representation learning via next-character prediction.",
+  "points": [
+   "Predicting next character in 82M Amazon reviews produced a single interpretable 'sentiment neuron'",
+   "Matched state-of-the-art sentiment accuracy using 30-100x fewer labeled examples",
+   "Overwriting the sentiment neuron directly controlled the sentiment of generated text"
+  ]
+ },
+ "f0f460ff3761a893": {
+  "feed": "OpenAI News",
+  "title": "One-shot imitation learning",
+  "link": "https://openai.com/index/one-shot-imitation-learning",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Archival 2017 robotics meta-learning paper off-target for modern backend/LLM engineering priorities.",
+  "points": [
+   "Meta-learning framework using soft attention to allow robotic agents to imitate tasks from a single demonstration."
+  ]
+ },
+ "b126cf076e42dad5": {
+  "feed": "OpenAI News",
+  "title": "Prediction and control with temporal segment models",
+  "link": "https://openai.com/index/prediction-and-control-with-temporal-segment-models",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Archival 2017 paper on deep generative models for trajectory prediction in dynamics systems.",
+  "points": [
+   "Uses variational autoencoders and convolutional autoregressive models for trajectory optimization in stochastic systems."
+  ]
+ },
+ "c53cef6bf351020f": {
+  "feed": "OpenAI News",
+  "title": "Third-person imitation learning",
+  "link": "https://openai.com/index/third-person-imitation-learning",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Archival 2017 RL paper on third-person imitation learning.",
+  "points": [
+   "Uses domain confusion to train RL agents from third-person camera viewpoints without explicit state alignment."
+  ]
+ },
+ "c970ebf9afd1e30f": {
+  "feed": "OpenAI News",
+  "title": "Attacking machine learning with adversarial examples",
+  "link": "https://openai.com/index/attacking-machine-learning-with-adversarial-examples",
+  "date": "2026-07-27",
+  "tier": "low_priority",
+  "why": "Brief introductory archive post from 2017 explaining machine learning adversarial examples.",
+  "points": [
+   "High-level conceptual overview of adversarial perturbation attacks on machine learning vision models."
+  ]
+ },
+ "8543674f5db588b5": {
+  "feed": "Together AI",
+  "title": "Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+  "link": "https://www.together.ai/blog/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+  "date": "2026-07-27",
+  "tier": "must_read",
+  "why": "Detailed comparison of frontier coding models analyzing performance, routing strategies, and inference cost efficiencies.",
+  "points": [
+   "Evaluates Kimi K3 against GPT-5.6 Sol on the DeepSWE benchmark for complex software engineering tasks",
+   "Analyzes cost-per-token trade-offs and routing strategies to minimize compute costs in production",
+   "Provides practical benchmarks for serving open-weights and proprietary coding agents at scale"
+  ]
+ },
+ "0e3fc748cb483986": {
+  "feed": "BAIR (Berkeley AI)",
+  "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+  "link": "http://bair.berkeley.edu/blog/2026/07/26/abbel/",
+  "date": "2026-07-27",
+  "tier": "must_read",
+  "why": "Addresses key context compaction limitations in long-horizon LLMs using supervised belief state bottlenecks.",
+  "points": [
+   "Identifies performance degradation in standard self-summarization context compaction during interactive multi-step tasks",
+   "Introduces ABBEL, framing summaries as supervised natural-language belief states via Bayesian recursive estimation",
+   "Dramatically improves RL fine-tuning data efficiency and task success compared to standard context summarization"
+  ]
+ },
+ "e7bd166c2dcc29ec": {
+  "feed": "Simon Willison",
+  "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+  "link": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+  "date": "2026-07-27",
+  "tier": "must_read",
+  "why": "Essential security and infrastructure breakdown on token proxy fraud, API key abuse, and rate-limiting needs.",
+  "points": [
+   "Exposes underground markets reselling discounted LLM tokens using stolen keys and abused free trials",
+   "Leverages open-source load balancers like one-api and new-api as relay proxy infrastructure",
+   "Highlights critical infrastructure gaps in LLM provider API billing caps and security endpoint protection"
+  ]
  }
 }

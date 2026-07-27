@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Mon 27 Jul 2026, 11:02 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Mon 27 Jul 2026, 11:02 IST &middot; 14 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; BAIR introduces ABBEL to improve long-context LLM reasoning via belief bottlenecks, while Together AI analyzes frontier coding model routing costs.</div><div class="section">Must read &middot; 3</div><div class="card"><span class="badge must">Must read</span><span class="src">Together AI</span><h2><a href="https://www.together.ai/blog/kimi-k3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing">Kimi K3 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing</a></h2><div class="why">Detailed comparison of frontier coding models analyzing performance, routing strategies, and inference cost efficiencies.</div><ul><li>Evaluates Kimi K3 against GPT-5.6 Sol on the DeepSWE benchmark for complex software engineering tasks</li><li>Analyzes cost-per-token trade-offs and routing strategies to minimize compute costs in production</li><li>Provides practical benchmarks for serving open-weights and proprietary coding agents at scale</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">BAIR (Berkeley AI)</span><h2><a href="http://bair.berkeley.edu/blog/2026/07/26/abbel/">Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction</a></h2><div class="why">Addresses key context compaction limitations in long-horizon LLMs using supervised belief state bottlenecks.</div><ul><li>Identifies performance degradation in standard self-summarization context compaction during interactive multi-step tasks</li><li>Introduces ABBEL, framing summaries as supervised natural-language belief states via Bayesian recursive estimation</li><li>Dramatically improves RL fine-tuning data efficiency and task success compared to standard context summarization</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything">An Inside Look at the Relay Market Powering Token Resellers and Fraud</a></h2><div class="why">Essential security and infrastructure breakdown on token proxy fraud, API key abuse, and rate-limiting needs.</div><ul><li>Exposes underground markets reselling discounted LLM tokens using stolen keys and abused free trials</li><li>Leverages open-source load balancers like one-api and new-api as relay proxy infrastructure</li><li>Highlights critical infrastructure gaps in LLM provider API billing caps and security endpoint protection</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://nikolays.github.io/PGSimCity/">PGSimCity - How PostgreSQL Works</a></h2><div class="why">Interactive 3D visualizer of PostgreSQL internals that offers a novel way to inspect database storage and execution engines.</div><ul><li>Visualizes PostgreSQL execution engine loading and running database tasks in WebGL</li><li>Helpful tool for building intuition about database layout and query execution</li><li>Currently an unreviewed prototype with known potential inaccuracies</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/vercel-labs/scriptc">Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary</a></h2><div class="why">Vercel&#x27;s experimental compiler compiles TypeScript directly to native binaries without embedding a JavaScript runtime.</div><ul><li>Compiles TypeScript directly to native code to eliminate JS engine overhead</li><li>Aims for minimal binary footprints and instant startup performance</li><li>Relevant for backend engineers interested in low-overhead runtime architectures</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/unsupervised-sentiment-neuron">Unsupervised sentiment neuron</a></h2><div class="why">Historical 2017 OpenAI publication demonstrating early unsupervised representation learning via next-character prediction.</div><ul><li>Predicting next character in 82M Amazon reviews produced a single interpretable &#x27;sentiment neuron&#x27;</li><li>Matched state-of-the-art sentiment accuracy using 30-100x fewer labeled examples</li><li>Overwriting the sentiment neuron directly controlled the sentiment of generated text</li></ul></div><div class="section">Low priority &middot; 8</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://blackhole.plav.in">Show HN: Physically accurate black hole you can put in your room</a></h2><div class="why">Off-topic consumer show-and-tell project about physics visualization.</div><ul><li>A physical black hole room simulator project with no engineering relevance to ML or backend infrastructure.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://beyondloom.com/decker/">Decker, a platform that builds on the legacy of Hypercard and classic macOS</a></h2><div class="why">Retro computing platform for 1-bit HyperCard-style document creation, unrelated to backend or ML systems.</div><ul><li>A ditherpunk multimedia platform using a scripting language named Lil for creative coding.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time">French firefighters face &#x27;pyrocumulonimbus&#x27; for first time</a></h2><div class="why">General news article regarding wildfire weather phenomena in France.</div><ul><li>Covers extreme pyrocumulonimbus cloud formations faced by firefighters in France.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/culture/2026/07/first-teaser-for-apple-tvs-neuromancer-debuts-at-sdcc/">First teaser for Apple TV&#x27;s Neuromancer debuts at SDCC</a></h2><div class="why">Pop culture television trailer announcement with no technical substance.</div><ul><li>Teaser release for the Apple TV sci-fi series adaptation of William Gibson&#x27;s Neuromancer.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/one-shot-imitation-learning">One-shot imitation learning</a></h2><div class="why">Archival 2017 robotics meta-learning paper off-target for modern backend/LLM engineering priorities.</div><ul><li>Meta-learning framework using soft attention to allow robotic agents to imitate tasks from a single demonstration.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/prediction-and-control-with-temporal-segment-models">Prediction and control with temporal segment models</a></h2><div class="why">Archival 2017 paper on deep generative models for trajectory prediction in dynamics systems.</div><ul><li>Uses variational autoencoders and convolutional autoregressive models for trajectory optimization in stochastic systems.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/third-person-imitation-learning">Third-person imitation learning</a></h2><div class="why">Archival 2017 RL paper on third-person imitation learning.</div><ul><li>Uses domain confusion to train RL agents from third-person camera viewpoints without explicit state alignment.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/attacking-machine-learning-with-adversarial-examples">Attacking machine learning with adversarial examples</a></h2><div class="why">Brief introductory archive post from 2017 explaining machine learning adversarial examples.</div><ul><li>High-level conceptual overview of adversarial perturbation attacks on machine learning vision models.</li></ul></div></body></html>
