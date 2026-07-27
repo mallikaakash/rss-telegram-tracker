@@ -1220,5 +1220,38 @@
   "tier": "skip",
   "why": "A generic high-level documentation index mapping common LLM serving tools without deep technical analysis or original empirical results.",
   "points": []
+ },
+ "0c37b16780978caf": {
+  "url": "https://www.howardism.dev/articles/group-relative-policy-optimization",
+  "title": "Howardism | Group Relative Policy Optimization (GRPO)",
+  "domain": "howardism.dev",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-07-27",
+  "tier": "skip",
+  "why": "It is an AI-synthesized summary repeating well-known baseline concepts about DeepSeek's GRPO without presenting original empirical findings or novel research.",
+  "points": []
+ },
+ "05ee57fefc95a8bb": {
+  "url": "https://doi.org/10.48550/arxiv.2606.25008",
+  "title": "[2606.25008] Neural Scaling Universality: If Exponents Are Fixed, Time to Understand Coefficients",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-27",
+  "tier": "hidden_gem",
+  "why": "Provides surprising theoretical explanations linking neural scaling law exponents to specific mechanics like Softmax nonlinearity, superposition, and layer ensembling.",
+  "points": [
+   "Proposes that scaling exponents are fixed by universal physical mechanisms: 1/3 time scaling from Softmax nonlinearity, inverse width scaling from superposition, and inverse depth scaling from layer ensemble averaging.",
+   "Argues LLMs belong to a single universality class with fixed exponents, so near-term performance gains depend on optimizing scaling coefficients rather than trying to alter exponents."
+  ]
+ },
+ "404fc2dd684a7aeb": {
+  "url": "https://openreview.net/forum?id=5wEoaxUYTt",
+  "title": "Verifying your browser | OpenReview",
+  "domain": "openreview.net",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-27",
+  "tier": "skip",
+  "why": "This is an anti-bot browser verification landing page containing no technical content.",
+  "points": []
  }
 }
