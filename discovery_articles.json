@@ -1253,5 +1253,39 @@
   "tier": "skip",
   "why": "This is an anti-bot browser verification landing page containing no technical content.",
   "points": []
+ },
+ "f29a37fe5a454a26": {
+  "url": "https://oh-bug.com/posts/llm-pretraining-data-deduplication-production-guide/",
+  "title": "LLM Pretraining Data Deduplication in Production: Using MinHash-LSH, Semantic Deduplication, and Contamination Gates to Reduce Memorization and Benchmark Leakage | LLM Pioneer Hub",
+  "domain": "oh-bug.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-28",
+  "tier": "solid_find",
+  "why": "Provides a practical, multi-layered architectural framework for implementing LLM pretraining data deduplication and preventing benchmark leakage.",
+  "points": [
+   "Framework breaks deduplication into four distinct tiers: exact document, long substring, near-duplicate (MinHash-LSH), and semantic.",
+   "Warns against unversioned text normalization rules that inadvertently destroy code, math formulas, and structured tables.",
+   "Recommends recording detailed fragment ranges and metadata for long substring matches rather than performing binary document deletions."
+  ]
+ },
+ "e9a447a634b065e3": {
+  "url": "https://handbook.modular.com/kernel-optimization/gpu-architecture-fundamentals/",
+  "title": "GPU architecture fundamentals | LLM Inference Handbook",
+  "domain": "handbook.modular.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-28",
+  "tier": "skip",
+  "why": "Covers standard, mainstream GPU architecture fundamentals and CUDA execution models without offering novel findings or benchmarks.",
+  "points": []
+ },
+ "444a0619f5d6c70a": {
+  "url": "https://www.alphaxiv.org/abs/2504.03635",
+  "title": "Finding the Minimal Parameter Budget for Implicit Reasoning: A Data Complexity Driven Scaling Law for Language Models | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-28",
+  "tier": "skip",
+  "why": "The page encountered a PDF viewer frontend rendering error and contains no readable paper content or findings.",
+  "points": []
  }
 }
