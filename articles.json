@@ -38065,5 +38065,74 @@
    "Implicit autograd graphs present debugging and optimization bottlenecks at scale compared to explicit forward and backward kernels.",
    "Kernel DSLs and AI coding agents are shifting performance optimization away from monolithic compiler-maximalist approaches."
   ]
+ },
+ "5827919040849173": {
+  "feed": "YC Hacker News",
+  "title": "AI revenues are growing fast, but not fast enough",
+  "link": "https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "HN discussion link lacking technical substance, engineering deep-dives, or actionable ML/infra insights.",
+  "points": [
+   "Contains general community commentary on AI industry capital expenditure versus revenue growth without technical data."
+  ]
+ },
+ "cef082dbd5898647": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I put a $2.43 necklace on 3 outfits. VLMs priced it at $19 to $104",
+  "link": "https://github.com/BraveAnn011/ai-halo-valuation-bias",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates practical context-driven valuation bias in multimodal LLMs, useful for understanding VLM prompting and evaluation pitfalls.",
+  "points": [
+   "Valued the identical $2.43 necklace between $19 and $104 across six multimodal LLMs simply by changing the surrounding outfit context.",
+   "Highlights systematic halo effects and sensitivity in current VLM numerical reasoning capabilities."
+  ]
+ },
+ "a47caeb266664ac4": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+  "link": "https://github.com/schildep/verified-3d-mesh-intersection",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Niche formal verification (Lean 4) project for 3D geometry algorithms, outside core ML/backend priorities.",
+  "points": [
+   "Uses 93 lines of Lean 4 formal spec to verify 3D mesh intersection logic instead of relying on unverified LLM-generated code."
+  ]
+ },
+ "fe8b5b1f42020af0": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
+  "link": "https://github.com/ctrlb-hq/ctrlb-decompose",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Useful open-source Rust tool that compresses log streams into structural patterns to optimize token usage when feeding context to LLM agents.",
+  "points": [
+   "Extracts structural patterns, anomalies, and co-occurrences from unstructured logs to minimize prompt size.",
+   "Written in Rust for high-throughput preprocessing in automated AI observability pipelines."
+  ]
+ },
+ "9bb204e879a8e1ab": {
+  "feed": "YC Hacker News",
+  "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)",
+  "link": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Product marketing piece from JFrog focused on vendor security solutions rather than actionable engineering details.",
+  "points": [
+   "Promotes JFrog's AI Catalog and MCP governance tools for managing AI supply chain security."
+  ]
+ },
+ "47bc4c0647517902": {
+  "feed": "Cloudflare Blog",
+  "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption event",
+  "link": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
+  "date": "2026-07-28",
+  "tier": "must_read",
+  "why": "Fits your preference for Cloudflare reliability deep-dives, providing real-world telemetry analysis on global network resilience.",
+  "points": [
+   "Analyzes major Q2 internet disruptions, contrasting physical infrastructure failure (Super Typhoon Sinlaku in Guam) with state-mandated shutdowns.",
+   "Examines global routing resilience issues, including a German outage caused by the distribution of faulty DNSSEC signatures."
+  ]
  }
 }
