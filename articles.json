@@ -38006,5 +38006,64 @@
    "ChatGPT now refuses prompts directly requesting text generated in specific authors' writing styles.",
    "System enforces stylized original responses rather than direct stylistic mimicry across both living and deceased authors."
   ]
+ },
+ "ec42b6a8025a6679": {
+  "feed": "YC Hacker News",
+  "title": "About the security content of macOS Tahoe 26.6",
+  "link": "https://support.apple.com/en-us/128067",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Standard OS security patch notes with no relevance to ML, backend infra, or systems performance engineering.",
+  "points": [
+   "Apple patched security vulnerabilities across macOS Tahoe components including Apple Neural Engine memory bounds checking."
+  ]
+ },
+ "4cc82f0ed3f8c243": {
+  "feed": "YC Hacker News",
+  "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
+  "link": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Empty placeholder post with no actionable technical content on AI security or backend systems.",
+  "points": [
+   "Contains no body text or technical details beyond a marketing title on enterprise security."
+  ]
+ },
+ "863a130c4e96793d": {
+  "feed": "YC Hacker News",
+  "title": "How to Survive Boiling Water",
+  "link": "https://taxa.substack.com/p/how-to-survive-boiling-water",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Non-technical survival content completely unrelated to ML, backend systems, or engineering.",
+  "points": [
+   "Off-topic general interest post with no software or engineering relevance."
+  ]
+ },
+ "1b16788106a4556d": {
+  "feed": "YC Hacker News",
+  "title": "Golang Maps: how Swiss Tables replaced the old bucket design",
+  "link": "https://blog.gaborkoos.com/posts/2026-07-24-Golang-Maps-How-Swiss-Tables-Replaced-the-Old-Bucket-Design/",
+  "date": "2026-07-28",
+  "tier": "must_read",
+  "why": "Excellent deep dive into Go 1.24 runtime internals that directly impacts backend systems performance engineering and memory efficiency.",
+  "points": [
+   "Go 1.24 replaces the legacy bucket-and-overflow map design with a Swiss Table structure for improved performance.",
+   "Swiss Tables eliminate pointer chasing and reduce cache misses by flattening probing patterns and using tighter metadata.",
+   "The new layout allows higher useful load factors and fixes memory leaks caused by accumulating overflow chains."
+  ]
+ },
+ "8181477670e13d29": {
+  "feed": "YC Hacker News",
+  "title": "PyTorch: A Reference Language",
+  "link": "https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/",
+  "date": "2026-07-28",
+  "tier": "must_read",
+  "why": "Edward Yang delivers an insightful architectural perspective on PyTorch's evolving role as a reference verifier alongside modern kernel DSLs and ML training.",
+  "points": [
+   "PyTorch increasingly acts as a reference verifier for correctness while high-performance kernels are explicitly written in kernel DSLs.",
+   "Implicit autograd graphs present debugging and optimization bottlenecks at scale compared to explicit forward and backward kernels.",
+   "Kernel DSLs and AI coding agents are shifting performance optimization away from monolithic compiler-maximalist approaches."
+  ]
  }
 }
