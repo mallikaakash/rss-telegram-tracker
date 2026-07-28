@@ -38134,5 +38134,88 @@
    "Analyzes major Q2 internet disruptions, contrasting physical infrastructure failure (Super Typhoon Sinlaku in Guam) with state-mandated shutdowns.",
    "Examines global routing resilience issues, including a German outage caused by the distribution of faulty DNSSEC signatures."
   ]
+ },
+ "1b1cfe434c44e7e7": {
+  "feed": "YC Hacker News",
+  "title": "New HIV vaccine shows unprecedented success in preclinical study",
+  "link": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Off-topic preclinical medical research with no relevance to ML or backend engineering.",
+  "points": [
+   "Preclinical study shows success for a new HIV vaccine candidate."
+  ]
+ },
+ "433bff9157240f07": {
+  "feed": "YC Hacker News",
+  "title": "Harmony Explained: Progress Towards a Scientific Theory of Music (2012)",
+  "link": "https://arxiv.org/abs/1202.4212",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Off-topic paper applying computational perception concepts to music theory.",
+  "points": [
+   "Proposes a scientific theory of harmony analyzing computational perception of acoustic phenomena."
+  ]
+ },
+ "6711b1606164f247": {
+  "feed": "YC Hacker News",
+  "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+  "link": "https://arxiv.org/abs/2510.26692",
+  "date": "2026-07-28",
+  "tier": "must_read",
+  "why": "Crucial deep-dive into a novel linear attention architecture that drastically cuts KV cache and boosts vLLM inference throughput.",
+  "points": [
+   "Introduces Kimi Delta Attention (KDA), combining Gated DeltaNet with fine-grained gating and Diagonal-Plus-Low-Rank transition matrices.",
+   "Pretrains a 3B active / 48B total parameter hybrid model (KDA + MLA) that outperforms full attention across context lengths and RL regimes.",
+   "Reduces KV cache usage by 75% and achieves 6x decoding throughput on 1M contexts, open-sourcing custom kernels and vLLM code."
+  ]
+ },
+ "c8702b1204007964": {
+  "feed": "YC Hacker News",
+  "title": "Solving Fermat: Andrew Wiles",
+  "link": "https://www.pbs.org/wgbh/nova/proof/wiles.html",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Historical interview on pure mathematics without relevance to software engineering or machine learning.",
+  "points": [
+   "Andrew Wiles reflects on his journey and proof of Fermat's Last Theorem."
+  ]
+ },
+ "2a191d3a97b115f6": {
+  "feed": "YC Hacker News",
+  "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
+  "link": "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Provides practical network infrastructure data on email security compliance and authentication policy gaps.",
+  "points": [
+   "Analysis of 67,336 domains shows 68.4% fail to enforce DMARC policies.",
+   "Only 16.3% of domains actively enforce p=reject, while 23.3% remain stuck on monitor-only p=none.",
+   "The main bottleneck in moving to enforcement is lack of visibility into third-party outbound mail sources."
+  ]
+ },
+ "b8d7702767c350b6": {
+  "feed": "Technica",
+  "title": "As US measles cases rise, biotech firms start developing new treatments",
+  "link": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Public health news regarding biotech virus treatments, unrelated to engineering topics.",
+  "points": [
+   "Biotech companies begin developing measles therapeutics as US cases hit multi-decade highs."
+  ]
+ },
+ "85dd02699b255d55": {
+  "feed": "Hugging Face Blog",
+  "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+  "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+  "date": "2026-07-28",
+  "tier": "must_read",
+  "why": "Directly relevant guide on adapting LLM decoder backbones into bidirectional encoders optimized for fast CPU inference.",
+  "points": [
+   "Converts causal Liquid Foundation Models into bidirectional encoders using symmetric short convolutions and bidirectional attention masks.",
+   "Supports an 8,192-token context while running ~3.7x faster on CPU than ModernBERT-base.",
+   "Releases 230M and 350M models on Hugging Face with recipes for fine-tuning, intent routing, and classification."
+  ]
  }
 }
