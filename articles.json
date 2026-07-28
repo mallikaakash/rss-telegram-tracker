@@ -37750,5 +37750,145 @@
   "points": [
    "Framework Laptop 13 Pro improves battery life while breaking backward compatibility for several chassis components."
   ]
+ },
+ "80d8760fd0f40ab2": {
+  "feed": "YC Hacker News",
+  "title": "Our position on open-weights models",
+  "link": "https://www.anthropic.com/news/position-open-weights-models",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Anthropic's CEO outlines his policy stance on open-weights models, opposing bans while advocating for chip export controls.",
+  "points": [
+   "Anthropic opposes blanket bans on open-weights models, arguing safe open models are a public good.",
+   "Maintains that hardware export controls and anti-smuggling measures are more effective for national security than software restrictions."
+  ]
+ },
+ "447e4a25f507f51c": {
+  "feed": "YC Hacker News",
+  "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+  "link": "https://fermisense.com/when-machines-take-the-wheel/",
+  "date": "2026-07-28",
+  "tier": "must_read",
+  "why": "Demonstrates how task-targeted GRPO fine-tuning of a 9B model can outperform frontier LLMs at 1/40th to 1/340th of the cost.",
+  "points": [
+   "A $500 GRPO fine-tune of a 9B open model surpassed frontier LLMs on a real-world catalog review benchmark.",
+   "Achieved a serving cost of $0.50 per 1,000 listings, representing a 40x to 340x cost reduction compared to frontier models.",
+   "Emphasizes that workflow redesign combined with specialized RL fine-tuning yields vastly superior ROI over dropping raw LLMs into legacy pipelines."
+  ]
+ },
+ "83c7bd2e9481009c": {
+  "feed": "YC Hacker News",
+  "title": "Using an open model feels surprisingly good",
+  "link": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Highlights developer ergonomics and economics of running open-weights models on managed GPU serverless infrastructure like Modal.",
+  "points": [
+   "Demonstrates connecting open coding CLIs (opencode) to serverless ML inference endpoints hosted on Modal within minutes.",
+   "Illustrates the narrowing usability gap between hosted commercial LLM APIs and self-managed open model endpoints."
+  ]
+ },
+ "6e826bcb66ff2fb9": {
+  "feed": "YC Hacker News",
+  "title": "Benchmarking Opus 5 on SlopCodeBench",
+  "link": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Relevant to context engineering and benchmarking long-context coding agents.",
+  "points": [
+   "Examines context engineering strategies for multi-step coding agents.",
+   "Evaluates Opus 5 context handling and generation performance on SlopCodeBench."
+  ]
+ },
+ "785290846d9b1358": {
+  "feed": "YC Hacker News",
+  "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
+  "link": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Off-topic article covering space flight psychology and human neurological adaptation.",
+  "points": [
+   "Astronauts returning from long space missions describe a temporary perceptual 'observer' sensation during Earth readjustment."
+  ]
+ },
+ "7b818cd68cd5f7ab": {
+  "feed": "Technica",
+  "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+  "link": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Generic enterprise security tool announcement with no technical implementation deep-dive.",
+  "points": [
+   "Microsoft announced automated AI security risk management tools following a security incident at Hugging Face."
+  ]
+ },
+ "717a05554f06a6f2": {
+  "feed": "Technica",
+  "title": "Trump admin exempts SpaceX's Starlink from FCC ban on foreign-made routers",
+  "link": "https://arstechnica.com/tech-policy/2026/07/starlink-gets-exemption-from-fcc-ban-on-routers-made-outside-the-us/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Irrelevant telecom regulatory news regarding SpaceX hardware exemptions.",
+  "points": [
+   "Starlink received a temporary DoD exemption from FCC restrictions on foreign-manufactured consumer routers."
+  ]
+ },
+ "ca9e55c9bd917418": {
+  "feed": "Technica",
+  "title": "Epic diarrhea outbreak has 40% of Americans avoiding fruits and veggies",
+  "link": "https://arstechnica.com/health/2026/07/epic-diarrhea-outbreak-has-40-of-americans-avoiding-fruits-and-veggies/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Off-topic news story about a foodborne parasite outbreak in the US.",
+  "points": [
+   "A Cyclospora parasite outbreak linked to produce has caused over 11,500 reported illnesses across 41 states."
+  ]
+ },
+ "68990a81f348815e": {
+  "feed": "Technica",
+  "title": "iOS and macOS 26.6 arrive today, paving the way for iOS and macOS 27",
+  "link": "https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Consumer OS update release notes with no relevance to ML or backend infrastructure.",
+  "points": [
+   "Apple released iOS and macOS 26.6 featuring bug fixes, security patches, and preparatory Spotlight indexing updates."
+  ]
+ },
+ "d31901bd4383ff34": {
+  "feed": "Technica",
+  "title": "A missing underscore sent innocent man to prison for 18 months",
+  "link": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "An engineering cautionary tale illustrating how a database query string typo caused severe real-world failure.",
+  "points": [
+   "A law enforcement typo confusing 'fus__ro_dah' and 'fus_ro_dah' led to a subpoena error and 18 months of wrongful imprisonment."
+  ]
+ },
+ "64db355e6a0ca244": {
+  "feed": "Simon Willison",
+  "title": "moonshotai/Kimi-K3",
+  "link": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
+  "date": "2026-07-28",
+  "tier": "must_read",
+  "why": "Major open-weights model release (2.8T parameter MoE) with novel commercial licensing terms impacting ML hosting.",
+  "points": [
+   "Moonshot released open weights for Kimi K3, a 2.8 trillion parameter model (1.56TB download on Hugging Face).",
+   "Introduces a restrictive license requiring custom commercial agreements for Model-as-a-Service providers exceeding $20M in annual revenue.",
+   "Immediately available across third-party inference aggregators at ~$3/M input and $15/M output tokens."
+  ]
+ },
+ "def96b54eb52415f": {
+  "feed": "Simon Willison",
+  "title": "An opinionated guide to which AI to use to do stuff",
+  "link": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Useful breakdown of current agent execution sandboxes, local capabilities, and permission models across AI tools.",
+  "points": [
+   "Compares desktop vs. mobile execution environments for ChatGPT Work/Codex and Claude Cowork/Code.",
+   "Clarifies key permission differences, such as internet access capabilities within Code Interpreter containers depending on client environment."
+  ]
  }
 }
