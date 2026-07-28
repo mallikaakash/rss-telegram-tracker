@@ -37890,5 +37890,121 @@
    "Compares desktop vs. mobile execution environments for ChatGPT Work/Codex and Claude Cowork/Code.",
    "Clarifies key permission differences, such as internet access capabilities within Code Interpreter containers depending on client environment."
   ]
+ },
+ "58863c29a03d59d7": {
+  "feed": "YC Hacker News",
+  "title": "7.1 Earthquake in Japan",
+  "link": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Off-target news item with corrupted text regarding a Japan earthquake, containing no relevance to ML or backend engineering.",
+  "points": [
+   "Report on a 7.1 magnitude earthquake in Japan with no technical or engineering content."
+  ]
+ },
+ "41c3a6936d99ad30": {
+  "feed": "YC Hacker News",
+  "title": "Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts",
+  "link": "https://arsastronomica.com/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Historical translations of rare astronomy texts are entirely unrelated to modern machine learning or backend infrastructure.",
+  "points": [
+   "Announces historical English translations of medieval Hebrew and Latin astronomical texts."
+  ]
+ },
+ "259cb078918fccac": {
+  "feed": "YC Hacker News",
+  "title": "Neutrino-1 8B",
+  "link": "https://www.fermionresearch.com/models/neutrino-8b/",
+  "date": "2026-07-28",
+  "tier": "must_read",
+  "why": "Presents a deep technical dive into Neutrino-1 8B's architecture, proprietary ternary weight quantization, and high-throughput cross-platform serving.",
+  "points": [
+   "Uses a 3.88 GB container packing 6.95B transformer weights into a coded ternary format (62.6% zeros) decoded directly inside matrix kernels.",
+   "Achieves 763 tok/s using speculative decoding on H100 with a low memory footprint (144 KiB/token KV cache via 4:1 GQA).",
+   "Analyzes layer-wise sparsity, noting feed-forward projections in early layers spike to over 70% zero weights."
+  ]
+ },
+ "d776803a45eb6c1f": {
+  "feed": "YC Hacker News",
+  "title": "Vehicle Motion Cues",
+  "link": "https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Basic Apple end-user support documentation with no technical depth or relevance to backend/ML engineering.",
+  "points": [
+   "User guide for setting up Vehicle Motion Cues on iOS."
+  ]
+ },
+ "f51955e78102e617": {
+  "feed": "YC Hacker News",
+  "title": "RTX 2080 Ti Memory Upgrade to 22 GB",
+  "link": "https://gpusolutions.net/rbservices/graphics-card-upgrade/",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Covers hardware modification techniques (BGA rework) to double consumer GPU VRAM for memory-constrained AI workloads.",
+  "points": [
+   "Details a hardware modification replacing 1GB GDDR6 modules with 2GB modules to give RTX 2080 Ti cards 22GB VRAM.",
+   "Addresses hardware limits faced by developers running larger local LLMs and AI workloads on older GPU architectures."
+  ]
+ },
+ "545e6c11df31f696": {
+  "feed": "Technica",
+  "title": "“Google and Reddit do not own the Internet,\" web scraper says after court win",
+  "link": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss/",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Relevant legal context on anti-scraping litigation affecting how training data and search data APIs are sourced.",
+  "points": [
+   "Google lost a DMCA lawsuit against web-scraper SerpApi, which sells search result data via a third-party API.",
+   "Highlights ongoing legal conflicts between major platforms and web scrapers over data access and anti-circumvention rules."
+  ]
+ },
+ "7a4b03b1af4e2b48": {
+  "feed": "Technica",
+  "title": "5th Circuit blocks Texas law requiring websites to filter \"harmful\" speech",
+  "link": "https://arstechnica.com/tech-policy/2026/07/5th-circuit-blocks-texas-law-requiring-websites-to-filter-harmful-speech/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Legal ruling on state content regulation for minors without engineering, backend, or ML relevance.",
+  "points": [
+   "5th Circuit blocked Texas SCOPE Act social media filtering rules under CDA Section 230 preemption."
+  ]
+ },
+ "994c2a14398c27bd": {
+  "feed": "Technica",
+  "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
+  "link": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Provides strategic insight into physical ML infrastructure, dark fiber interconnects, and edge data center conversions for AI inference.",
+  "points": [
+   "Verizon inked a $1B dark fiber deal with Google to interconnect AI data centers.",
+   "Telecom provider is converting central offices into low-latency edge data centers to support localized AI inference workloads."
+  ]
+ },
+ "fddd3835c8a45cce": {
+  "feed": "Technica",
+  "title": "Experts warn current Starship heat shield tech is a \"dead end\" for rapid reuse",
+  "link": "https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack/",
+  "date": "2026-07-28",
+  "tier": "low_priority",
+  "why": "Aerospace engineering analysis of rocket heat shields with no technical application to backend or ML systems.",
+  "points": [
+   "Covers expert debates over Starship's ceramic tile heat shield durability for rapid launch reuse."
+  ]
+ },
+ "5f3ad195f3ca5aa2": {
+  "feed": "Technica",
+  "title": "ChatGPT starts blocking direct requests to copy an author's style",
+  "link": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+  "date": "2026-07-28",
+  "tier": "worth_a_skim",
+  "why": "Illustrates current commercial LLM alignment and copyright guardrail implementation strategies in production.",
+  "points": [
+   "ChatGPT now refuses prompts directly requesting text generated in specific authors' writing styles.",
+   "System enforces stylized original responses rather than direct stylistic mimicry across both living and deceased authors."
+  ]
  }
 }
