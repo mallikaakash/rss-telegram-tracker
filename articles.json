@@ -38716,5 +38716,99 @@
   "points": [
    "Details the limited P2P payment launch of X Money for US subscribers."
   ]
+ },
+ "b5f96bf69df5265b": {
+  "feed": "YC Hacker News",
+  "title": "KOReader",
+  "link": "https://koreader.rocks/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "E-reader software for E-ink devices is outside your focus on ML training, backend systems, and applied optimization.",
+  "points": [
+   "Open-source document viewer for E-ink hardware supporting multiple formats like EPUB, PDF, and DJVU."
+  ]
+ },
+ "a02c8e7a55b5942b": {
+  "feed": "YC Hacker News",
+  "title": "Handbook.md shows that long policy documents do not reliably govern agents",
+  "link": "https://arxiv.org/abs/2607.25398",
+  "date": "2026-07-29",
+  "tier": "must_read",
+  "why": "Presents crucial empirical findings on how long system prompts and policy handbooks fail to constrain LLM agent actions.",
+  "points": [
+   "Introduces HANDBOOK.md, a benchmark of 65 agentic tasks governed by 20 to 124-page SOP policy documents across MCP environments.",
+   "Frontier LLM configurations peak at only 36.2% success under strict evaluation, with most scoring under 25%.",
+   "Identifies major failure modes: in-environment user requests overriding standing policies, failing to enforce checks, and hallucinating compliance."
+  ]
+ },
+ "97854c7d008de2a9": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+  "link": "https://github.com/drumih/turbo-fieldfare",
+  "date": "2026-07-29",
+  "tier": "must_read",
+  "why": "Demonstrates extreme local inference serving optimization and memory management for modern LLMs on Apple Silicon hardware.",
+  "points": [
+   "Uses a custom Swift and Metal runtime (turbo-fieldfare) to execute Gemma 4 26B inference inside approximately 2 GB of RAM.",
+   "Showcases aggressive memory-efficient inference techniques to run 26B-class models on lightweight consumer hardware."
+  ]
+ },
+ "363ab892b09f6926": {
+  "feed": "YC Hacker News",
+  "title": "The Scientific Literature Is Poisonous to LLMs",
+  "link": "https://www.reinvent.science/p/the-scientific-literature-is-poisonous",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Explores pretraining dataset curation decisions and highlights how unfiltered scientific corpora can degrade LLM performance.",
+  "points": [
+   "Argues that unverified paper repositories inject excessive noise, gamed metrics, and unverified theories into LLM pretraining data.",
+   "Cites research showing that selectively removing paper repositories like ArXiv and PhilPapers improved benchmark accuracy and lowered output toxicity."
+  ]
+ },
+ "de55b4a77a090109": {
+  "feed": "YC Hacker News",
+  "title": "Shipping Godot VR and Porting to PSVR2: A Partial Post Mortem",
+  "link": "https://www.claire-blackshaw.com/blog/2026/07/shipping-godot-vr-and-porting-to-psvr2-a-partial-post-mortem/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "Focuses on VR game engine mechanics and console graphics porting, which is off-target for ML and backend infra engineers.",
+  "points": [
+   "Details the technical challenges and custom rendering work required to port a Godot VR game to PSVR2."
+  ]
+ },
+ "0290e9b6f2fd3f64": {
+  "feed": "Technica",
+  "title": "What happens when you put AI to work deciphering lost languages?",
+  "link": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "High-level popular science summary of historical language decipherment without technical ML or system implementation details.",
+  "points": [
+   "Outlines the difficulty of deciphering isolated ancient scripts like Linear A without Rosetta-style parallel corpora."
+  ]
+ },
+ "9bca82a43b8d9511": {
+  "feed": "MIT News (AI)",
+  "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
+  "link": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "A high-level historical overview of MIT's PhysioNet database with no technical details on ML infrastructure or distributed systems.",
+  "points": [
+   "Traces the 25-year history of PhysioNet in digitizing clinical datasets and standardizing open health data sharing."
+  ]
+ },
+ "1325d501cd3ef3a2": {
+  "feed": "Cloudflare Blog",
+  "title": "Post-quantum authentication to origins is now supported",
+  "link": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
+  "date": "2026-07-29",
+  "tier": "must_read",
+  "why": "A high-quality Cloudflare engineering deep-dive into post-quantum mTLS authentication and edge-to-origin network architecture.",
+  "points": [
+   "Implements ML-DSA post-quantum digital signatures for Authenticated Origin Pulls between Cloudflare and customer origin servers.",
+   "Uses connection pooling to amortize the performance and latency overhead of larger post-quantum cryptographic signatures.",
+   "Advances Cloudflare's roadmap toward achieving full end-to-end post-quantum security across edge and origin layers by 2029."
+  ]
  }
 }
