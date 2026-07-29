@@ -38522,5 +38522,117 @@
   "points": [
    "A note on the Hugging Face agent incident Kimi K3 is live. Try the new Shared API with token-based pricing Learn more Product Solutions Resources Customers Pricing Docs Log In Sign Up All posts Back News July 29, 2026 â¢ 1 minute read A note on the Hugging Face agent incident Hugging Face published a technical timeline of a recent agent intrusion, which names Modal as the third-party infrastructure the agent used as a launchpad."
   ]
+ },
+ "d16ad004d627b62b": {
+  "feed": "YC Hacker News",
+  "title": "More Tailscale tricks for your jailbroken Kindle",
+  "link": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "A niche hobbyist project running Tailscale on jailbroken e-readers that does not align with ML or backend infrastructure priorities.",
+  "points": [
+   "Demonstrates proxy and TUN mode networking hacks for Tailscale on jailbroken Kindles."
+  ]
+ },
+ "41845c96314d8108": {
+  "feed": "YC Hacker News",
+  "title": "User Interfaces of the Demo Scene",
+  "link": "https://www.datagubbe.se/scenegui/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "A historical retrospective on retro demoscene software UIs without relevance to modern systems or ML engineering.",
+  "points": [
+   "Examines custom UI design and lookup table tools from classic Amiga demoscene software."
+  ]
+ },
+ "18286c8c140d342b": {
+  "feed": "YC Hacker News",
+  "title": "Cracking Windows Open: Porting RADV to Win32",
+  "link": "https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Offers a low-level GPU systems engineering breakdown of reverse-engineering WDDM2 kernel interfaces to port Mesa's AMD driver.",
+  "points": [
+   "Reverse-engineered proprietary WDDM2 D3DKMT private data interfaces to enable AMD RADV Vulkan drivers on Windows.",
+   "Successfully submitted command queues to run native Vulkan graphics applications on Windows without WSL."
+  ]
+ },
+ "368f477b983dc4fb": {
+  "feed": "YC Hacker News",
+  "title": "Substack writers, you need a website",
+  "link": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "General advice for writers on personal domain ownership, unrelated to engineering or ML.",
+  "points": [
+   "Argues that content creators should host on custom domains rather than relying on centralized platforms like Substack."
+  ]
+ },
+ "4c51d8b4e09769a9": {
+  "feed": "YC Hacker News",
+  "title": "ReFrame – The EPaper Camera",
+  "link": "https://reframe.camera/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "An open-source hardware project for an ePaper camera, off-target for ML and backend systems.",
+  "points": [
+   "Combines a Raspberry Pi Zero with a 6-pigment ePaper display to capture dithered physical photos."
+  ]
+ },
+ "3ea21b504ca1fe47": {
+  "feed": "Technica",
+  "title": "Study: Dinosaurs were charbroiled after Chicxulub impact",
+  "link": "https://arstechnica.com/science/2026/07/dust-cloud-from-dino-killing-asteroid-charbroiled-the-earth/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "A paleontology study on dinosaur extinction, completely unrelated to technical software priorities.",
+  "points": [
+   "Suggests the Chicxulub asteroid impact produced atmospheric heat clouds that ignited global wildfires."
+  ]
+ },
+ "3b3dd86ab40e62ba": {
+  "feed": "Technica",
+  "title": "Philly suburb: Sure, build that data center—but first meet our 43 demands",
+  "link": "https://arstechnica.com/tech-policy/2026/07/philly-suburb-sure-build-that-data-center-but-first-meet-our-43-demands/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Provides real-world context on physical infrastructure constraints and municipal regulations facing large-scale data center builds.",
+  "points": [
+   "Highlights a suburban PA municipality enforcing 43 zoning and mitigation demands on a proposed 2M sq ft data center."
+  ]
+ },
+ "1fd91bc6f76952ba": {
+  "feed": "Technica",
+  "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
+  "link": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Provides empirical data from 15 million Gemini interactions on how LLMs are actually utilized in white-collar workflows.",
+  "points": [
+   "Analyzed 15M anonymized Gemini interactions across O*NET job classifications.",
+   "Found that current LLM usage is predominantly collaborative and shallow rather than replacing full end-to-end job workflows."
+  ]
+ },
+ "82fcaac5a7a7461b": {
+  "feed": "Technica",
+  "title": "New airliner sets record flying 24 hrs nonstop from Australia to France",
+  "link": "https://arstechnica.com/gadgets/2026/07/new-airliner-sets-record-flying-24-hrs-nonstop-from-australia-to-france/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "Aviation industry news about ultra-long-haul commercial aircraft test flights.",
+  "points": [
+   "Airbus A350-1000ULR completed a 24-hour nonstop test flight from France to Australia for Qantas."
+  ]
+ },
+ "d1f44dacf06fc92d": {
+  "feed": "Technica",
+  "title": "Judge blocks first state law that would have banned prediction markets",
+  "link": "https://arstechnica.com/tech-policy/2026/07/judge-blocks-first-state-law-that-would-have-banned-prediction-markets/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "Legal news concerning state-level regulation of financial prediction markets.",
+  "points": [
+   "Federal judge temporarily blocked Minnesota's state ban on event prediction platforms like Kalshi and Polymarket."
+  ]
  }
 }
