@@ -1287,5 +1287,53 @@
   "tier": "skip",
   "why": "The page encountered a PDF viewer frontend rendering error and contains no readable paper content or findings.",
   "points": []
+ },
+ "f2dd05cb3af8fdbb": {
+  "url": "https://itnext.io/learning-flashattention-the-hard-way-64ee789390a2",
+  "title": "Medium",
+  "domain": "itnext.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-07-29",
+  "tier": "hidden_gem",
+  "why": "It is a deeply technical, low-level CUDA optimization post that reproduces FlashAttention-2 latency using autotuning and original microbenchmarks.",
+  "points": [
+   "Formulates attention GPU lowering as an associative reduction using carrier state triples (m, d, o).",
+   "Demonstrates that automated kernel tuning independently converges on the exact block geometry picked manually by FlashAttention-2 authors.",
+   "Provides microsecond-quantified performance matching on consumer RTX 5090 hardware."
+  ]
+ },
+ "891c74d93cb65082": {
+  "url": "https://www.anyscale.com/blog/fsdp-pytorch-deepspeed-ray-large-scale-distributed-training",
+  "title": "Inside FSDP with PyTorch and Ray: Scaling Model Training with Fully Sharded Data Parallel | Anyscale",
+  "domain": "anyscale.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-07-29",
+  "tier": "skip",
+  "why": "This is a vendor marketing blog from Anyscale reiterating well-known distributed training concepts like PyTorch FSDP and ZeRO stages.",
+  "points": []
+ },
+ "77968be21fb1901d": {
+  "url": "https://www.alphaxiv.org/abs/2606.14150",
+  "title": "Small LLMs: Pruning vs. Training from Scratch | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-29",
+  "tier": "skip",
+  "why": "The page failed to render paper content due to a PDF viewer container positioning error.",
+  "points": []
+ },
+ "91d6180a8aab1bb3": {
+  "url": "https://dredyson.com/my-single-spark-always-on-agent-team-journey-qwen3-6-35b-resident-120b-on-demand-with-two-vllm-ports-a-complete-6-month-design-sanity-check-real-hardware-lessons-and-the-proven-configur/",
+  "title": "My Single-Spark Always-On Agent Team Journey: Qwen3.6-35B Resident + 120B On-Demand With Two vLLM Ports — A Complete 6-Month Design Sanity Check, Real Hardware Lessons, and the Proven Configuration Guide I Wish I'd Had Before Day One - Dre Dyson",
+  "domain": "dredyson.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-29",
+  "tier": "hidden_gem",
+  "why": "An authentic, highly specific personal engineering log detailing real-world hardware constraints, memory layout, and runtime bugs when running multi-agent vLLM infrastructure locally.",
+  "points": [
+   "Configures dual vLLM ports using Marlin FP4 path for high-frequency resident models and CUTLASS MXFP4 path to bypass specific wrong-token bugs on larger models.",
+   "Manages 128 GB Unified Memory Architecture (UMA) constraints to run a 35B resident model and 120B on-demand model simultaneously without KV cache starvation.",
+   "Implements kernel drop_caches routines before large model cold loads to prevent slow mmap execution on massive weight matrices."
+  ]
  }
 }
