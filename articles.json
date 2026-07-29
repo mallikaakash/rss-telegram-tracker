@@ -38313,5 +38313,214 @@
    "Outlines distributed architecture handling terabytes of satellite data at fractions of a cent per square kilometer.",
    "Addresses data alignment across spectral bands and robust worker orchestration under routine hardware failures."
   ]
+ },
+ "65f8a2e3eddbdfe5": {
+  "feed": "YC Hacker News",
+  "title": "Codex Security",
+  "link": "https://github.com/openai/codex-security",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - openai/codex-security: SDKs and CLI for Codex Security · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "7f7b3e74b8af186c": {
+  "feed": "YC Hacker News",
+  "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+  "link": "https://learnvector.ai/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LearnVector — A new AI company Skip to content LearnVector The idea What we're building From Andrew Join our team A new AI company Conventional wisdom says AI will replace people. I believe the opposite. Andrew Ng · Founder & CEO AI is creating unprecedented opportunities for everyone. LearnVector helps people build skills so every person can take part."
+  ]
+ },
+ "87177a57b9687f56": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+  "link": "https://github.com/twalichiewicz/HNewhere",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - twalichiewicz/HNewhere: A lightweight userscript that adds Hacker News discussions to any article. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "cae4c40a9d804aa9": {
+  "feed": "YC Hacker News",
+  "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
+  "link": "https://transformer-transformer.github.io/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design Paper arXiv Video Code Transformer Transformer A Unified Model for Motion-Conditioned Robot Co-design Huy Ha , Karen Liu , Shuran Song Paper arXiv Video Code Motivation Framework RoboTokens Architecture Dynamics Self-Guidance Results Real World Not all robots are created equal Not all robots are created equal — but what if you could design one for a specific task?"
+  ]
+ },
+ "f37b7a52791a9e7d": {
+  "feed": "YC Hacker News",
+  "title": "Half-Life ported to Mac OS 9",
+  "link": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Half-Life ported to Mac OS 9 | Mac Classic Mac Classic News Home News Articles Spotlight Downloads Links General News Website Updates Half-Life ported to Mac OS 9 Half-Life has finally landed for PowerPC based Macintosh computers 28 years after it's original release! Half-Life is a story driven first-person shooter, that follows scientist Gordon Freeman, who is a theoretical physicist trying to survive and escape the Black Mesa Research Facility after a failed experiment opens a portal to an alien dimension."
+  ]
+ },
+ "f245bbe7855c6b60": {
+  "feed": "Technica",
+  "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
+  "link": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Audi provided flights from Washington, DC, to Munich, Germany, and accommodation so Ars could see the Q9 and Q7. And we also drove the new RS5. Ars does not accept paid editorial content. MUNICH—It has taken Audi a little longer than its rivals, but with the debut of the 2027 Q9 this evening, the company has joined them in offering a range-topping full-size SUV."
+  ]
+ },
+ "e312eac4f1c1bcce": {
+  "feed": "Technica",
+  "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
+  "link": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nearly a month since its launch, a first-of-its-kind commercial satellite built to save NASA's Swift gamma-ray telescope from a fiery reentry is having problems of its own, the agency announced Tuesday. The Link satellite developed by Katalyst Space Technologies \"experienced issues with attitude control\" over the weekend, NASA said, causing the spacecraft to spin and resulting in sporadic communications."
+  ]
+ },
+ "eaac21007520199e": {
+  "feed": "Technica",
+  "title": "College lab class ends with 32 people on antibiotics for deadly germ exposure",
+  "link": "https://arstechnica.com/health/2026/07/college-lab-class-ends-with-32-people-on-antibiotics-for-deadly-germ-exposure/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A bizarre series of events in a college microbiology lab class left 33 people—including students, professors, and lab workers—believing they were exposed to a deadly germ. Of those, 32 began taking an antibiotic regimen as a precaution to prevent a life-threatening infection. Two also underwent lumbar punctures—aka spinal taps—after developing mild symptoms."
+  ]
+ },
+ "ed5ec75bea30ca65": {
+  "feed": "Technica",
+  "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+  "link": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last week’s unprecedented security event in which two OpenAI security hacking models trespassed into the network of fellow AI company Hugging Face was enabled by exploiting one or more zero-day vulnerabilities in Artifactory, JFrog, the product’s developer, said Monday. In an incident mimicking a dystopian sci-fi novel, two OpenAI models broke out of the restricted environment meant to keep them from accessing the Internet during an internal test, the AI company revealed last week ."
+  ]
+ },
+ "3b790868b5a34c9e": {
+  "feed": "Technica",
+  "title": "eBay pays $46M to journalists it targeted in bizarre harassment campaign",
+  "link": "https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "eBay and three former executives agreed to pay nearly $56 million in a settlement over a macabre campaign of cyberstalking and harassment that targeted two journalists in 2019. As we've previously written , the case involved deliveries of live cockroaches, a funeral wreath, a book about surviving the loss of a spouse, and a bloody pig mask to the home of a couple who run a news website."
+  ]
+ },
+ "60ca3b89da5f0648": {
+  "feed": "Apple ML Research",
+  "title": "Memory Efficient Audio Synthesis with Decoupled Temporal Depth Diffusion Transformers",
+  "link": "https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Siri Expressive Voices synthesize rich, configurable speech in real time and entirely on device, powered by AFM 3 Core Advanced, Apple’s most powerful on-device foundation model. This work presents the memory-efficient audio synthesis architecture behind that capability: a detokenizer that converts the semantic audio tokens emitted by the foundation model into high-fidelity audio within the tight compute and memory budget of the Apple Matrix Coprocessor (AMX)."
+  ]
+ },
+ "8ff67d77127ccd24": {
+  "feed": "Hugging Face Blog",
+  "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+  "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Published July 27, 2026 Update on GitHub Upvote 131 +125 Hugo Larcher hlarcher Follow Adrien Carreira XciD Follow raphael g raphael-gl Follow Christophe Rannou chris-rannou Follow TL;DR Initial access Stage 1: from an OpenAI evaluation sandbox to a rooted launchpad Stage 2: Penetrating Hugging Face infrastructure using two injection vectors into our dataset processor The kill chain Day-by-day Day 1 (07-09): foothold and C2 Day 2 (07-10): self-referential search Day 3 (07-11): lateral movement begins Day 4 (07-12): using the stolen credentials Day 5 (07-13): exfil, persistence, cleanup Three lateral-movement techniques 1."
+  ]
+ },
+ "2e7cc2c11b64d436": {
+  "feed": "Together AI",
+  "title": "Configuring Dedicated Model Inference",
+  "link": "https://www.together.ai/blog/configuring-dedicated-model-inference",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Configuring Dedicated Model Inference Webflow Analyze/Optimize tracking bridge --> 💰 Announcing our Series C. Intelligence should be abundant, not expensive → 🤝 Together AI & Y Combinator announce partnership to deliver the first dedicated YC GPU cluster → ⚡ On-demand B200s now available on Together GPU Clusters → 🚀 Now serving MiniMax-M3 for efficient inference → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Resources Customer stories Testimonials from AI Natives St"
+  ]
+ },
+ "6a754bccfbb5b496": {
+  "feed": "Simon Willison",
+  "title": "Discovering cryptographic weaknesses with Claude",
+  "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is the prompts that they shared, spelling mistakes included: the models tend to think it is impossible to solve so they don't try they need a good amount of prompting."
+  ]
+ },
+ "45a0faf36c1194c5": {
+  "feed": "Simon Willison",
+  "title": "Quoting Akshat Bubna",
+  "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident"
+  ]
+ },
+ "c9d542dbf75e1e15": {
+  "feed": "Simon Willison",
+  "title": "uv 0.12.0",
+  "link": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv , version 0.11.x, produced this directory when you ran uv init uv-init . Here's what you get with uv 0.12 . I have a GitHub repository that automatically snapshots the output of uv init , so you can also see the full diff : uv init now defaults to a src/ shaped package, instead of dropping main.py in the root of the project."
+  ]
+ },
+ "53b868bd01d6a809": {
+  "feed": "Simon Willison",
+  "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+  "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches."
+  ]
+ },
+ "bb66b233b8a518bc": {
+  "feed": "Simon Willison",
+  "title": "sqlite-utils 3.39.1",
+  "link": "https://simonwillison.net/2026/Jul/26/sqlite-utils/#atom-everything",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: sqlite-utils 3.39.1 Simon Willison’s Weblog Subscribe Sponsored by: Cursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed. Try Cursor & get 50% off your first month 26th July 2026 Release sqlite-utils 3.39.1 — Python CLI utility and library for manipulating SQLite databases I back-ported a fix for table.delete_where() that shipped in version 4."
+  ]
+ },
+ "87c6a0a4546a6555": {
+  "feed": "Modal Blog",
+  "title": "A note on the Hugging Face agent incident",
+  "link": "https://modal.com/blog/a-note-on-the-hugging-face-agent-incident",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A note on the Hugging Face agent incident Kimi K3 is live. Try the new Shared API with token-based pricing Learn more Product Solutions Resources Customers Pricing Docs Log In Sign Up All posts Back News July 29, 2026 â¢ 1 minute read A note on the Hugging Face agent incident Hugging Face published a technical timeline of a recent agent intrusion, which names Modal as the third-party infrastructure the agent used as a launchpad."
+  ]
  }
 }
