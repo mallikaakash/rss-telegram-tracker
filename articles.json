@@ -38634,5 +38634,87 @@
   "points": [
    "Federal judge temporarily blocked Minnesota's state ban on event prediction platforms like Kalshi and Polymarket."
   ]
+ },
+ "6ff3f06e176b1a15": {
+  "feed": "YC Hacker News",
+  "title": "National Security Determination Threat Posed by Foreign-Produced Robotic Devices [pdf]",
+  "link": "https://www.fcc.gov/sites/default/files/robots-nsd.pdf",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "Government policy PDF regarding robotic device security with no engineering or ML infrastructure relevance.",
+  "points": [
+   "Focuses on US government national security policy regarding foreign robotics."
+  ]
+ },
+ "2cf56fafcdda5360": {
+  "feed": "YC Hacker News",
+  "title": "SpecForge – A Platform for Authoring Formal Specifications",
+  "link": "https://docs.imiron.io/v/0.5.10/en/tour.html",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Presents a formal specification framework useful for engineers interested in system correctness and state verification.",
+  "points": [
+   "Introduces Lilo, a temporal logic language for specifying time-bounded safety constraints on real-time signal streams.",
+   "Includes a VSCode extension capable of monitoring logs, generating valid trace examples, and finding counterexample failures."
+  ]
+ },
+ "5add1a91f28e8fac": {
+  "feed": "YC Hacker News",
+  "title": "Amiga Graphics Archive",
+  "link": "https://amiga.lychesis.net/index.html",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "A retro computing image archive unrelated to modern backend infrastructure or machine learning.",
+  "points": [
+   "Curates historical pixel art and graphics created for Commodore Amiga systems."
+  ]
+ },
+ "964bc4fba97c3834": {
+  "feed": "YC Hacker News",
+  "title": "SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers",
+  "link": "https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers",
+  "date": "2026-07-29",
+  "tier": "must_read",
+  "why": "An outstanding performance engineering deep-dive on tuning SQLite for ultra-low latency, modern high-throughput application servers.",
+  "points": [
+   "Eliminates database network latency by embedding SQLite directly within application servers on modern NVMe storage.",
+   "Explains Write-Ahead Logging (WAL) mechanics that unlock concurrent, non-blocking reads during active writes.",
+   "Analyzes checkpointing modes (PASSIVE, FULL, RESTART, TRUNCATE) to manage WAL file growth and prevent random latency spikes."
+  ]
+ },
+ "4e2ec6ba87a33394": {
+  "feed": "YC Hacker News",
+  "title": "Lisp moving Forth moving Lisp",
+  "link": "https://letoverlambda.com/textmode.cl/guest/chap8.html",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "An insightful look into programming language design and macro meta-programming for engineers interested in DSLs.",
+  "points": [
+   "Demonstrates implementing a stack-based Forth interpreter inside Lisp using advanced macro abstractions.",
+   "Explores abstract register mapping and the minimalistic mechanics of stack languages."
+  ]
+ },
+ "72dff1ab43557758": {
+  "feed": "Technica",
+  "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation",
+  "link": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Provides macro-level context on generative AI media scale and the technical limits of statistical AI watermarking.",
+  "points": [
+   "Notes that generative AI generated over 100 billion images and videos within a two-year span.",
+   "Explores Google's SynthID invisible watermarking and why robust technical detection fails to solve broader misinformation."
+  ]
+ },
+ "e2bd9d4aec684ce6": {
+  "feed": "Technica",
+  "title": "Elon Musk finally launches X Money. What could possibly go wrong?",
+  "link": "https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "Standard consumer fintech product release with no architecture or backend performance details.",
+  "points": [
+   "Details the limited P2P payment launch of X Money for US subscribers."
+  ]
  }
 }
