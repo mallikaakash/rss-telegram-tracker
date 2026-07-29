@@ -38810,5 +38810,134 @@
    "Uses connection pooling to amortize the performance and latency overhead of larger post-quantum cryptographic signatures.",
    "Advances Cloudflare's roadmap toward achieving full end-to-end post-quantum security across edge and origin layers by 2029."
   ]
+ },
+ "8e67caa3b283f7d4": {
+  "feed": "YC Hacker News",
+  "title": "Superlogical – Mitchell Hashimoto",
+  "link": "https://mitchellh.com/writing/superlogical",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Insightful founder and career context on Mitchell Hashimoto starting a developer tooling company around terminal multiplexing.",
+  "points": [
+   "Mitchell Hashimoto launched Superlogical to build a modern, high-performance terminal multiplexer built on libghostty.",
+   "Ghostty was donated to a non-profit entity to guarantee its open-source status while Superlogical builds commercial session infrastructure."
+  ]
+ },
+ "3e956dbc749f21ed": {
+  "feed": "YC Hacker News",
+  "title": "Mitchellh starts a new company: Superlogical",
+  "link": "https://www.superlogical.com/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "High-level product vision announcement for Superlogical without technical architectural details.",
+  "points": [
+   "Superlogical aims to build a unified multiplexer bridging local, remote, agentic, and production workflows."
+  ]
+ },
+ "a136f79a6c7a601e": {
+  "feed": "YC Hacker News",
+  "title": "Hugging Face: Anatomy of a frontier-lab agent intrusion",
+  "link": "https://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/index.html",
+  "date": "2026-07-29",
+  "tier": "must_read",
+  "why": "A rare forensic engineering post-mortem analyzing a real-world agent intrusion in a frontier AI laboratory.",
+  "points": [
+   "Reconstructs ~17,600 logged actions across 9 attack phases to map out trust boundary crossings by an automated agent.",
+   "Demonstrates how sandbox isolation contained the breach despite credential leakage."
+  ]
+ },
+ "1cce9a76bbe29492": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
+  "link": "https://usetokenless.com/",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Relevant to LLM inference optimization, detailing dynamic model routing via trajectory confidence monitoring.",
+  "points": [
+   "Fans out user prompts to multiple models concurrently, monitoring early output confidence to cancel expensive frontier runs.",
+   "Claims up to 50% spend reduction on agentic benchmarks (Terminal-Bench, DeepSWE) while retaining solve rates."
+  ]
+ },
+ "137e9a3edb082b3b": {
+  "feed": "YC Hacker News",
+  "title": "Hamburg's Stadtpark: A Park Built to Be Used",
+  "link": "https://alsterrunde.com/hamburgs-stadtpark-a-park-built-to-be-used/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "Irrelevant personal essay about the urban planning and history of Hamburg's Stadtpark.",
+  "points": [
+   "Historical and social overview of Hamburg's public park."
+  ]
+ },
+ "705bd6c095e82bdb": {
+  "feed": "Google DeepMind",
+  "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+  "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "Standard consumer AI PR announcement for Google's Lyria 3.5 music model without technical training deep-dives.",
+  "points": [
+   "Google released Lyria 3.5 in Google Flow Music featuring updated vocal quality and prompt adherence."
+  ]
+ },
+ "8a713703e01a6357": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: July 2, 2026 — US East Services Outage",
+  "link": "https://blog.railway.com/p/incident-report-july-2-2026-us-east-services-outage",
+  "date": "2026-07-29",
+  "tier": "must_read",
+  "why": "An exceptional infrastructure outage post-mortem detailing complex interactions between BGP routing, storage networks, and mesh agents.",
+  "points": [
+   "Disconnecting a degraded ISP unintentionally removed the default internet route for an entire availability zone.",
+   "Storage traffic silently fell back to a slow management network, capping throughput at 33% until stuck TCP sockets were reset.",
+   "Mesh networking agents latched onto invalid IP addresses during the route flap, requiring a fleet-wide restart."
+  ]
+ },
+ "1390e2f3ea15f17d": {
+  "feed": "Railway Blog",
+  "title": "Skill Issue, Writing /skills to solve agent failures",
+  "link": "https://blog.railway.com/p/skills-issue-writing-skills",
+  "date": "2026-07-29",
+  "tier": "worth_a_skim",
+  "why": "Offers practical takeaways on context engineering and markdown skills (SKILLS.md) versus MCP for AI agent reliability.",
+  "points": [
+   "Found that structured text skill files (SKILLS.md) produced more consistent agent behaviour than raw MCP tool endpoints.",
+   "Converted internal operational runbooks directly into agent skills to prevent unintended CLI operations."
+  ]
+ },
+ "539fd6340bb3d0cc": {
+  "feed": "Railway Blog",
+  "title": "State of Railway: Agents",
+  "link": "https://blog.railway.com/p/state-of-railway-agents",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "Product marketing update announcing Railway's agent onboarding heuristics and AGENTS.md entry point.",
+  "points": [
+   "Railway introduced AGENTS.md and automated CLI setup workflows tailored for AI coding agents."
+  ]
+ },
+ "a7241063308f4e05": {
+  "feed": "Railway Blog",
+  "title": "How to build a 30M RPS CDN in 30 days with Rust and WASM",
+  "link": "https://blog.railway.com/p/railway-cdn",
+  "date": "2026-07-29",
+  "tier": "must_read",
+  "why": "Masterclass technical deep-dive on building a global, low-latency CDN in Rust and WebAssembly.",
+  "points": [
+   "Built 'Hikari', a custom CDN in Rust that handles peak production loads of ~1M RPS and DDoS spikes up to 30M RPS.",
+   "Uses WASM to execute dynamically loaded dataplane logic, allowing zero-downtime, zero-packet-drop updates.",
+   "Leverages origin location metadata to route traffic directly across backbone links and execute automatic cache purges on deployment."
+  ]
+ },
+ "e89d0763a8d93ea5": {
+  "feed": "Railway Blog",
+  "title": "Less Dashboards. More Robots. Railway, for Agents",
+  "link": "https://blog.railway.com/p/railway-for-agents",
+  "date": "2026-07-29",
+  "tier": "low_priority",
+  "why": "High-level promotional overview of Railway's agent-first infrastructure toolchain.",
+  "points": [
+   "Railway is packaging CLI tools, MCP servers, and agent skills into a single one-line shell installer."
+  ]
  }
 }
