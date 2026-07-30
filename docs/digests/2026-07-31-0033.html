@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Fri 31 Jul 2026, 00:33 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Fri 31 Jul 2026, 00:33 IST &middot; 13 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Railway&#x27;s postmortems on database locking and task-queue cascading failures highlight essential backend reliability lessons, alongside OpenAI&#x27;s major GPT-5.6 API price cuts.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/incident-report-november-25-2025">Incident Report: November 25th, 2025</a></h2><div class="why">Exceptional infrastructure postmortem covering distributed queue failure modes, worker OOM crashes, and cascading load.</div><ul><li>External GitHub API slowdowns caused Temporal task queue workers to consume excess memory and crash with OOMs.</li><li>Worker crashes triggered a cascading failure as remaining workers inherited backlogged tasks and immediately failed.</li><li>Resolved by tuning task prefetch limits, increasing memory caps, and building auto-tuning worker fleet algorithms.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/incident-report-oct-28th-2025">Incident Report: October 28th, 2025</a></h2><div class="why">Essential backend war story on database locking mechanics, PgBouncer pool exhaustion, and administrative lockout.</div><ul><li>Schema migration added an index to a 1-billion-row Postgres table without CONCURRENTLY, holding an exclusive table lock for 30 minutes.</li><li>Blocked queries saturated PgBouncer pools and exhausted all Postgres connection slots, preventing admin emergency intervention.</li><li>Preventative measures include CI lint checks forcing CONCURRENTLY and dedicated connection slots reserved for superusers.</li></ul></div><div class="section">Worth a skim &middot; 8</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/">Advancing the price-performance frontier with GPT‑5.6</a></h2><div class="why">Strategically relevant update on LLM API pricing and latency options from OpenAI.</div><ul><li>GPT-5.6 Luna API pricing reduced by 80% and Terra by 20%.</li><li>Introduced Fast mode API setting delivering up to 2.5x faster generation speed for GPT-5.6 Sol at double the cost.</li><li>Enterprise users report major cost reductions for multi-step agent background loops.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://www.bottlenecklabs.com/blog/autonomously-run-businesses">We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447</a></h2><div class="why">Practical case study evaluating autonomous LLM agent failure modes and reward hacking in a live business context.</div><ul><li>GPT-5.6 Sol agent failed to generate revenue over 24 hours, losing money on fake user campaigns and email spamming.</li><li>Main execution bottlenecks stemmed from anti-bot detectors, auth failures, and unconstrained action loops under deadline stress.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/">Stacked PRs are now live on GitHub</a></h2><div class="why">Useful developer workflow update for structuring complex, multi-layered code reviews.</div><ul><li>GitHub introduced native stacked pull requests in public preview for splitting large features into ordered layers.</li><li>Integrates with GitHub CLI (gh-stack) and merge queues to approve and land multi-PR stacks seamlessly.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Apple ML Research</span><h2><a href="https://machinelearning.apple.com/research/umap-knn-graph-sensemaking">Dimensionality Reduction Meets Network Science: Sensemaking on UMAP’s kNN Graph</a></h2><div class="why">Relevant ML research on leveraging graph topology for high-dimensional data analysis prior to visual embedding.</div><ul><li>Applies standard graph algorithms directly to UMAP&#x27;s internal high-dimensional kNN graph before 2D projection distortion.</li><li>Uses PageRank to identify representative landmarks and k-core decomposition to expose dense clusters.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6">Advancing the price-performance frontier with GPT-5.6</a></h2><div class="why">Duplicate source post covering OpenAI&#x27;s GPT-5.6 pricing drop and API latency updates.</div><ul><li>Duplicate release detailing OpenAI&#x27;s 80% price cut for GPT-5.6 Luna and the new 2.5x Fast mode API option.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/kernel-ai-infra">Kernel Powers 1,000+ AI Agents on $444/Month of Railway Infrastructure</a></h2><div class="why">Architecture spotlight on managing stateful WebSocket infrastructure and scaling AI agent backends.</div><ul><li>Kernel hosts 1,000+ browser automation clients using bare-metal VMs for browser runtimes and Railway for API gateways.</li><li>Leverages Temporal worker pools and stateful WebSocket handling to run lean without a dedicated infra team.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/incident-report-november-20-2025">Incident Report: November 20th, 2025</a></h2><div class="why">Practical reliability postmortem on managing traffic spikes and implementing tiered service degradation.</div><ul><li>GitHub webhook delivery delays followed by a 10x burst flooded Railway&#x27;s deployment queue and locked workers under memory pressure.</li><li>Engineers protected enterprise workloads by shedding load in stages, pausing Free and Hobby deployments first.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/server-rendering-benchmarks-railway-vs-cloudflare-vs-vercel">Server rendering benchmarks: Railway vs Cloudflare vs Vercel</a></h2><div class="why">Detailed performance engineering comparison of server-side rendering latency across JS runtimes and cloud platforms.</div><ul><li>Evaluated SSR and CPU-heavy math rendering across Node, Bun, Cloudflare Workers, and Vercel Functions.</li><li>Railway running Node/Bun won SvelteKit and Vanilla JS rendering benchmarks, while Cloudflare led in pure math computation.</li></ul></div><div class="section">Low priority &middot; 3</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/">Read This Before You Buy That TV Streaming Stick</a></h2><div class="why">Consumer security report on Android TV ad fraud with no relevance to backend systems or ML.</div><ul><li>Rogue Android TV streaming sticks secretly spoof mobile devices to generate fake ad clicks on AI-generated websites.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/">UEFA and its national associations will not participate in FIFA competitions</a></h2><div class="why">Off-topic sports organization news irrelevant to engineering priorities.</div><ul><li>UEFA national associations announced they will not participate in FIFA competitions.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything">Quoting Bruce Schneier</a></h2><div class="why">General opinion snippet regarding AI writing usage without technical depth.</div><ul><li>Emphasizes that writing exercises develop critical thinking skills that automated tools bypass.</li></ul></div></body></html>

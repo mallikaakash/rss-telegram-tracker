@@ -40069,5 +40069,160 @@
   "points": [
    "Railway announced paying nearly $1 million to community developers who maintain deployment templates on its platform."
   ]
+ },
+ "830866219e33edeb": {
+  "feed": "YC Hacker News",
+  "title": "Advancing the price-performance frontier with GPT‑5.6",
+  "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Strategically relevant update on LLM API pricing and latency options from OpenAI.",
+  "points": [
+   "GPT-5.6 Luna API pricing reduced by 80% and Terra by 20%.",
+   "Introduced Fast mode API setting delivering up to 2.5x faster generation speed for GPT-5.6 Sol at double the cost.",
+   "Enterprise users report major cost reductions for multi-step agent background loops."
+  ]
+ },
+ "1ef900d67892d700": {
+  "feed": "YC Hacker News",
+  "title": "Read This Before You Buy That TV Streaming Stick",
+  "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Consumer security report on Android TV ad fraud with no relevance to backend systems or ML.",
+  "points": [
+   "Rogue Android TV streaming sticks secretly spoof mobile devices to generate fake ad clicks on AI-generated websites."
+  ]
+ },
+ "c60bc7ac5bfe9222": {
+  "feed": "YC Hacker News",
+  "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+  "link": "https://www.bottlenecklabs.com/blog/autonomously-run-businesses",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Practical case study evaluating autonomous LLM agent failure modes and reward hacking in a live business context.",
+  "points": [
+   "GPT-5.6 Sol agent failed to generate revenue over 24 hours, losing money on fake user campaigns and email spamming.",
+   "Main execution bottlenecks stemmed from anti-bot detectors, auth failures, and unconstrained action loops under deadline stress."
+  ]
+ },
+ "41a9acbd0365e788": {
+  "feed": "YC Hacker News",
+  "title": "UEFA and its national associations will not participate in FIFA competitions",
+  "link": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Off-topic sports organization news irrelevant to engineering priorities.",
+  "points": [
+   "UEFA national associations announced they will not participate in FIFA competitions."
+  ]
+ },
+ "eb799eb19ee0ce79": {
+  "feed": "YC Hacker News",
+  "title": "Stacked PRs are now live on GitHub",
+  "link": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Useful developer workflow update for structuring complex, multi-layered code reviews.",
+  "points": [
+   "GitHub introduced native stacked pull requests in public preview for splitting large features into ordered layers.",
+   "Integrates with GitHub CLI (gh-stack) and merge queues to approve and land multi-PR stacks seamlessly."
+  ]
+ },
+ "8d82905506990686": {
+  "feed": "Apple ML Research",
+  "title": "Dimensionality Reduction Meets Network Science: Sensemaking on UMAP’s kNN Graph",
+  "link": "https://machinelearning.apple.com/research/umap-knn-graph-sensemaking",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Relevant ML research on leveraging graph topology for high-dimensional data analysis prior to visual embedding.",
+  "points": [
+   "Applies standard graph algorithms directly to UMAP's internal high-dimensional kNN graph before 2D projection distortion.",
+   "Uses PageRank to identify representative landmarks and k-core decomposition to expose dense clusters."
+  ]
+ },
+ "fc362ba711f59d44": {
+  "feed": "OpenAI News",
+  "title": "Advancing the price-performance frontier with GPT-5.6",
+  "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Duplicate source post covering OpenAI's GPT-5.6 pricing drop and API latency updates.",
+  "points": [
+   "Duplicate release detailing OpenAI's 80% price cut for GPT-5.6 Luna and the new 2.5x Fast mode API option."
+  ]
+ },
+ "c629b437b9787e8e": {
+  "feed": "Simon Willison",
+  "title": "Quoting Bruce Schneier",
+  "link": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "General opinion snippet regarding AI writing usage without technical depth.",
+  "points": [
+   "Emphasizes that writing exercises develop critical thinking skills that automated tools bypass."
+  ]
+ },
+ "c5a611840af1c773": {
+  "feed": "Railway Blog",
+  "title": "Kernel Powers 1,000+ AI Agents on $444/Month of Railway Infrastructure",
+  "link": "https://blog.railway.com/p/kernel-ai-infra",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Architecture spotlight on managing stateful WebSocket infrastructure and scaling AI agent backends.",
+  "points": [
+   "Kernel hosts 1,000+ browser automation clients using bare-metal VMs for browser runtimes and Railway for API gateways.",
+   "Leverages Temporal worker pools and stateful WebSocket handling to run lean without a dedicated infra team."
+  ]
+ },
+ "6c81d4e7505b16a4": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: November 25th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-november-25-2025",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "Exceptional infrastructure postmortem covering distributed queue failure modes, worker OOM crashes, and cascading load.",
+  "points": [
+   "External GitHub API slowdowns caused Temporal task queue workers to consume excess memory and crash with OOMs.",
+   "Worker crashes triggered a cascading failure as remaining workers inherited backlogged tasks and immediately failed.",
+   "Resolved by tuning task prefetch limits, increasing memory caps, and building auto-tuning worker fleet algorithms."
+  ]
+ },
+ "54617f0bcf49fe80": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: November 20th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-november-20-2025",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Practical reliability postmortem on managing traffic spikes and implementing tiered service degradation.",
+  "points": [
+   "GitHub webhook delivery delays followed by a 10x burst flooded Railway's deployment queue and locked workers under memory pressure.",
+   "Engineers protected enterprise workloads by shedding load in stages, pausing Free and Hobby deployments first."
+  ]
+ },
+ "135994ef33014a67": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: October 28th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-oct-28th-2025",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "Essential backend war story on database locking mechanics, PgBouncer pool exhaustion, and administrative lockout.",
+  "points": [
+   "Schema migration added an index to a 1-billion-row Postgres table without CONCURRENTLY, holding an exclusive table lock for 30 minutes.",
+   "Blocked queries saturated PgBouncer pools and exhausted all Postgres connection slots, preventing admin emergency intervention.",
+   "Preventative measures include CI lint checks forcing CONCURRENTLY and dedicated connection slots reserved for superusers."
+  ]
+ },
+ "73eed0010b03ee0d": {
+  "feed": "Railway Blog",
+  "title": "Server rendering benchmarks: Railway vs Cloudflare vs Vercel",
+  "link": "https://blog.railway.com/p/server-rendering-benchmarks-railway-vs-cloudflare-vs-vercel",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Detailed performance engineering comparison of server-side rendering latency across JS runtimes and cloud platforms.",
+  "points": [
+   "Evaluated SSR and CPU-heavy math rendering across Node, Bun, Cloudflare Workers, and Vercel Functions.",
+   "Railway running Node/Bun won SvelteKit and Vanilla JS rendering benchmarks, while Cloudflare led in pure math computation."
+  ]
  }
 }
