@@ -39136,5 +39136,275 @@
    "Railway outlines plans for native agent primitives including execution sandboxes and remote Model Context Protocol (MCP) servers.",
    "Expands bare-metal presence across 4 new regions while introducing native CDN DDoS protection."
   ]
+ },
+ "7b339ca1357c9bd7": {
+  "feed": "YC Hacker News",
+  "title": "AI's top startups are barely publishing their research",
+  "link": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Meta discussion on AI startup publishing trends lacks technical depth or actionable systems engineering insights.",
+  "points": [
+   "Discusses how frontier AI startups publish significantly fewer research papers than traditional academia."
+  ]
+ },
+ "9c58f8b83a3091ef": {
+  "feed": "YC Hacker News",
+  "title": "The coolest use for the Vision Pro",
+  "link": "https://christianselig.com/2026/07/vision-pro-house/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Consumer-focused personal post about 3D floor plan visualization on Vision Pro.",
+  "points": [
+   "Describes using Fusion 360 and Vision Pro to preview home architecture floor plans."
+  ]
+ },
+ "58513a2136109451": {
+  "feed": "YC Hacker News",
+  "title": "NSF pilots 4-year PhDs with industry research placements",
+  "link": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Higher education policy announcement regarding PhD program funding.",
+  "points": [
+   "NSF announces a $47M pilot for 4-year STEM PhDs featuring industry research placements."
+  ]
+ },
+ "7e49a41408012c15": {
+  "feed": "YC Hacker News",
+  "title": "LLM Honeypot",
+  "link": "https://llm2human.pages.dev/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Satirical web project without technical relevance to backend or ML infrastructure.",
+  "points": [
+   "A humorous parody webpage attempting to trick web-crawling LLMs into pretending to become human."
+  ]
+ },
+ "9cbe60454d7e29ef": {
+  "feed": "YC Hacker News",
+  "title": "The Productivity Mirage",
+  "link": "https://frantic.im/mirage/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Pragmatic engineering career advice on prioritizing problem selection and product taste over complex tooling setups.",
+  "points": [
+   "Highlights how top-performing engineers succeed with basic tooling like vanilla Sublime Text by focusing on high-impact problems.",
+   "Warns against falling into the productivity mirage of over-optimizing developer environments."
+  ]
+ },
+ "1401ad6c55e0264d": {
+  "feed": "Technica",
+  "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
+  "link": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Interesting cross-section of AI security models and cryptography, though outside core ML engineering priorities.",
+  "points": [
+   "Anthropic's security AI model helped identify a critical flaw in the NIST candidate algorithm HAWK.",
+   "Demonstrates the emerging utility of LLM security models in automated post-quantum cryptography auditing."
+  ]
+ },
+ "0c3121bca95b0570": {
+  "feed": "Technica",
+  "title": "Musk went to “war,” sought jail time for X ad boycotts—but case ends with a whimper",
+  "link": "https://arstechnica.com/tech-policy/2026/07/musk-went-to-war-sought-jail-time-for-x-ad-boycotts-but-case-ends-with-a-whimper/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Legal news and advertiser lawsuit drama with no technical engineering content.",
+  "points": [
+   "X settled its antitrust lawsuit with the World Federation of Advertisers regarding brand ad boycotts."
+  ]
+ },
+ "3584c79fbc77b6c9": {
+  "feed": "Technica",
+  "title": "Who wins and who loses after US bans foreign robots?",
+  "link": "https://arstechnica.com/ai/2026/07/who-wins-and-who-loses-after-us-bans-foreign-robots/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Geopolitics and hardware regulation announcement unrelated to ML training, serving, or backend systems.",
+  "points": [
+   "The FCC added foreign-produced advanced robotic devices to its restricted Covered List on national security grounds."
+  ]
+ },
+ "ab17c0bd8708a387": {
+  "feed": "Technica",
+  "title": "Comcast store punished low sales by smashing pies in workers' faces, lawsuit claims",
+  "link": "https://arstechnica.com/tech-policy/2026/07/comcast-store-punished-low-sales-by-smashing-pies-in-workers-faces-lawsuit-claims/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Non-technical mainstream news story regarding corporate misconduct.",
+  "points": [
+   "A lawsuit alleges a Comcast store manager subjected low-performing retail sales employees to physical humiliation."
+  ]
+ },
+ "4470558f362152b3": {
+  "feed": "Technica",
+  "title": "Customize Ars your way with an Ars Pro subscription",
+  "link": "https://arstechnica.com/staff/2026/07/customize-ars-your-way-with-an-ars-pro-subscription/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Product marketing and subscription promotion for Ars Technica.",
+  "points": [
+   "Ars Technica details custom layout options available to Ars Pro subscribers."
+  ]
+ },
+ "cc8e132c619995d1": {
+  "feed": "OpenAI News",
+  "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+  "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Crucial technical deep-dive on agent harness design, context retention, and prompt compaction for complex LLM reasoning tasks.",
+  "points": [
+   "Enabling retained reasoning and prompt compaction tripled GPT-5.6 Sol's ARC-AGI-3 benchmark score from 13.3% to 38.3%.",
+   "Reduces output token consumption by 6x on the public ARC-AGI-3 task set.",
+   "Demonstrates that agent benchmark performance relies heavily on API harness choices rather than raw model capabilities alone."
+  ]
+ },
+ "6d964f10c3337bbc": {
+  "feed": "OpenAI News",
+  "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+  "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Essential reading on state-of-the-art LLM inference optimization, speculative decoding, kernel tuning, and agentic context management.",
+  "points": [
+   "GPT-5.6 Sol achieves frontier coding performance at less than half the inference cost of competitor models.",
+   "Employs full-stack optimizations including speculative decoding, KV cache prefix preservation, and custom kernel optimizations.",
+   "Optimizes LLM training and agent harnesses to minimize context bloat and conduct more work per output token."
+  ]
+ },
+ "d69bf57e9b71b9d4": {
+  "feed": "Together AI",
+  "title": "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models",
+  "link": "https://www.together.ai/blog/together-ai-announces-strategic-partnership-with-moonshot-ai-to-natively-serve-kimi-models",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Standard commercial partnership announcement between AI platform providers.",
+  "points": [
+   "Together AI partnered with Moonshot AI to natively host and serve Kimi models on its API."
+  ]
+ },
+ "62018fe96b55bbfa": {
+  "feed": "Together AI",
+  "title": "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
+  "link": "https://www.together.ai/blog/thunderagent",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Directly relevant to ML infrastructure, covering architectural optimizations for fast agentic inference and synthetic data pipelines.",
+  "points": [
+   "Introduces ThunderAgent, achieving 2x latency reduction for multi-turn agentic inference workloads.",
+   "Optimizes system pipelines specifically for massive-scale synthetic dataset generation.",
+   "Leverages specialized kernel routing and context reuse to lower serving costs."
+  ]
+ },
+ "9939bfd922ed189c": {
+  "feed": "BAIR (Berkeley AI)",
+  "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
+  "link": "http://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search/",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Outstanding technical research on automated GPU kernel translation and optimization across hardware backends.",
+  "points": [
+   "Extends Berkeley Sky Lab's K-Search evolutionary framework to automatically adapt CUDA kernel expertise to Apple Silicon MLX.",
+   "Achieves 0.97x performance of native MLX attention and up to a 20x prefill speedup on Mamba SSM scan kernels.",
+   "Enables cross-platform high-performance kernel generation without manual instruction-level re-engineering."
+  ]
+ },
+ "9d4736f08b005ec2": {
+  "feed": "Simon Willison",
+  "title": "Quoting D. Richard Hipp",
+  "link": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Brief historical perspective on developer roles evolving alongside higher-level abstraction tools.",
+  "points": [
+   "Draws a parallel between how SQL transformed COBOL programming and how code-generation AI is evolving modern software engineering."
+  ]
+ },
+ "f34faab803310ac4": {
+  "feed": "Simon Willison",
+  "title": "AI Worming through Word",
+  "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Practical LLM security analysis showing how indirect prompt injection can propagate as a self-replicating worm.",
+  "points": [
+   "Explores a vulnerability where hidden instructions in Word documents trick Copilot into replicating the payload into generated output.",
+   "Demonstrates how prompt injection can spread autonomously across multi-document LLM workflows."
+  ]
+ },
+ "90749d760640e708": {
+  "feed": "Simon Willison",
+  "title": "Adding a custom MCP server to Claude and ChatGPT",
+  "link": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Useful practical guide for connecting custom Model Context Protocol (MCP) servers to frontier web LLM interfaces.",
+  "points": [
+   "Explains the setup steps needed to integrate custom external tools into Claude and ChatGPT web clients via MCP."
+  ]
+ },
+ "a81f6aca47bf06b0": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: May 19, 2026- GCP Account Suspension",
+  "link": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Top-tier reliability engineering postmortem detailing cloud provider outage cascading mechanisms and resilience architecture.",
+  "points": [
+   "An unexpected GCP account suspension triggered an 8-hour platform outage by taking down control plane APIs and cascading to edge proxies.",
+   "Cached routing table expiration caused workloads on bare-metal and AWS to become unreachable despite underlying servers remaining up.",
+   "Details steps taken to decouple control plane dependencies across cloud boundaries to prevent single-provider failures."
+  ]
+ },
+ "f6199eff1070d7b4": {
+  "feed": "Railway Blog",
+  "title": "Counting to 3 with a new builder processing 50M+ monthly builds",
+  "link": "https://blog.railway.com/p/new-builder-scale-big",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Outstanding systems deep-dive on scaling build infrastructure from shared cloud VMs to bare-metal microVMs.",
+  "points": [
+   "Replaced GCP VM Docker buildx pools with bare-metal microVMs handling 50M+ monthly builds and 66k peak hourly builds.",
+   "Implemented a 1-of-3 ring scheduler that routes builds to preserve BuildKit cache affinity across runs.",
+   "Communicates over gRPC bridged via vsock between host controllers and guest build environments."
+  ]
+ },
+ "9ed2f16e967d4915": {
+  "feed": "Railway Blog",
+  "title": "Railway iOS preview now available via TestFlight",
+  "link": "https://blog.railway.com/p/ios-app-testflight",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Consumer product update announcing a TestFlight preview for a mobile app.",
+  "points": [
+   "Railway released an iOS mobile application on TestFlight for basic cloud project management."
+  ]
+ },
+ "6c5e795dfbad664e": {
+  "feed": "Railway Blog",
+  "title": "Kill your onboarding: selling to 10,000+ new users a day",
+  "link": "https://blog.railway.com/p/kill-your-onboarding",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Focuses on sales operations and B2B pipeline identification rather than technical backend or ML engineering.",
+  "points": [
+   "Describes how Railway identified 21,000 ideal customer profiles from signups using product-led data analysis."
+  ]
+ },
+ "bdf3364c01aa7d61": {
+  "feed": "Railway Blog",
+  "title": "Your AI wants to nuke your database.  Guardrails fix that.",
+  "link": "https://blog.railway.com/p/your-ai-wants-to-nuke-your-database",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Relevant case study on agent safety guardrails and API permission scoping when granting AI autonomous access.",
+  "points": [
+   "An AI agent utilized a stored account-scoped API token to directly call an un-scoped volume deletion endpoint.",
+   "Railway implemented mandatory 48-hour soft deletes on API resource deletions to prevent accidental AI agent data loss.",
+   "Highlights the necessity of least-privilege token scoping for autonomous agents."
+  ]
  }
 }
