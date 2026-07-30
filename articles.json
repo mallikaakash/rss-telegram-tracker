@@ -39655,5 +39655,126 @@
    "Details a staged anti-fraud rule rollout that incorrectly matched legitimate Postgres and MySQL database processes.",
    "Demonstrates how unexpected workload termination caused redeployment backpressure across platform infrastructure."
   ]
+ },
+ "de0c8b1bf4984ab3": {
+  "feed": "YC Hacker News",
+  "title": "OpenJDK Interim Policy on Generative AI",
+  "link": "https://openjdk.org/legal/ai",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenJDK Interim Policy on Generative AI OpenJDK Interim Policy on Generative AI The field of generative AI is evolving quickly. It brings compelling opportunities to improve developer productivity, but it also brings risks: to reviewer burden, to safety and security, and to intellectual property. Oracle, as the corporate sponsor of the OpenJDK Community, is working to draft a full policy governing the use of generative AI tools in OpenJDK contributions."
+  ]
+ },
+ "4fd474b5fbcbde17": {
+  "feed": "YC Hacker News",
+  "title": "Ron Gilbert started production on Thimbleweed Park 2",
+  "link": "https://www.grumpygamer.com/twp2_announce/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Thimbleweed Park 2 | Grumpy Gamer Home Contact Archives About RSS Mastodon Grumpy Gamer Ye Olde Grumpy Gamer Blog. Est. 2004. AI free. 100% human. Thimbleweed Park 2 Jul 30, 2026 I have good news and bad news. First the good news. The good news is that we just started production on Thimbleweed Park 2, due out in early 2028. We will self-publish with the help of a private investor."
+  ]
+ },
+ "4d1d0e2bfafff198": {
+  "feed": "YC Hacker News",
+  "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
+  "link": "https://github.com/YoanWai/agent-manager",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - YoanWai/agent-manager: Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok Build) in tmux: live status, group tree, live pane preview, resource gauges. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "b93db35a07bb9ff7": {
+  "feed": "YC Hacker News",
+  "title": "RFC 8890 – The Internet is for End Users (2020)",
+  "link": "https://mnot.net/blog/2020/for_the_users",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RFC 8890 - The Internet is for End Users Mark Nottingham recent entries all entries feed Hi, I’m Mark Nottingham. I write about the Web, protocol design, HTTP, Internet governance, and more. This is a personal blog, it does not represent anyone else. Find out more . Comments? Let's talk on Mastodon. @mnot@techpolicy.social other Standards posts The Nature of Internet Standards (series) RFC 9518 - What Can Internet Standards Do About Centralisation?"
+  ]
+ },
+ "a820987200b3f981": {
+  "feed": "YC Hacker News",
+  "title": "Mbodi AI (YC P25) Is Hiring Robotics/Research Engineers",
+  "link": "https://www.ycombinator.com/companies/mbodi-ai/jobs",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jobs at Mbodi AI | Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface Safe Find a Co-Founder Events Startup Jobs Log in Apply Mbodi AI Industrial Robots that Learn and Operate Like Humans Company Jobs 3 https://www.mbodi.ai/ Jobs at Mbodi AI Senior Software Engineer New York, NY, US $150K - $250K 0.25% - 2.00% 3+ years Apply Now › Founding Research Engineer New York, NY, US $150K - $250K 0.25% - 2.00% 3+ years Apply Now › Senior Robotics Engineer New York, NY, US $100K - $250K 0.50% - 2.00% 3+ years Apply Now › Why you should join Mbodi AI Mbodi is an embodied AI platform that makes robots learn like humans, with natural language."
+  ]
+ },
+ "742d0f3512350943": {
+  "feed": "Railway Blog",
+  "title": "Heroku Walked So Railway Can Run",
+  "link": "https://blog.railway.com/p/heroku-walked-railway-run",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno We’ve been pretty hesitant to write something of this sort for fear that it looked like we were dancing on the grave of a competitor. However, that isn’t the really the set of emotions that we were feeling here at Railway. Mourning is the right word for it. I feel like that is the appropriate feeling to have when a beloved experience that was core to your upbringing as a developer is essentially going to be going away for good."
+  ]
+ },
+ "09c3b3e6f794c879": {
+  "feed": "Railway Blog",
+  "title": "Security Features Your Security Team Will Love",
+  "link": "https://blog.railway.com/p/2fa-audit-logs-compliance",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno At Railway, we've been polishing up our entry points to the product to make it so that your first day on the platform sets a high bar for the experience of your applications. However, if you are part of an organization's security team, you see the word \"entry\" and immediately you are on high alert. Ask any CISO, and the questions start darting out in their brain: \"Who can enter?\" and \"What can they do?\" As an organization with standards that we need to enforce ourselves, we're empathetic to the concerns of the modern security leader."
+  ]
+ },
+ "0d44a66feb69f37a": {
+  "feed": "Railway Blog",
+  "title": "Railway Runs Open Source, Now We're Funding It",
+  "link": "https://blog.railway.com/p/funding-open-source",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Sarah Bedell Railway's goal is simple: reduce shipping friction to zero so more creative software can materialize. Open source is the foundation of great software. From Drizzle to Tailwind, engineers and vibe coders alike rely on trusted and available tooling to iterate quickly and deploy efficiently. For years, we have been encouraging users and maintainers to run their OSS tools via the template marketplace."
+  ]
+ },
+ "4c157aee41dff2a1": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: January 28-29, 2026",
+  "link": "https://blog.railway.com/p/incident-report-january-26-2026",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno Railway experienced intermittent GitHub authentication failures over a multi-day period caused by hitting GitHub's OAuth token rate limit. This resulted in users being unable to log in with GitHub and encountering \"GitHub repo not found\" errors during peak US business hours. When a Major Outage occurs, it is Railway's policy to share the public details of what happened."
+  ]
+ },
+ "5e1dda18faeb4ff6": {
+  "feed": "Railway Blog",
+  "title": "Railway raises $100M Series B to unburden the builders",
+  "link": "https://blog.railway.com/p/series-b",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Jacob Cooper We’ve raised $100M to remove the burden from building, starting with your software applications. Our goal is simple: we want to take everything off your plate so that you can focus on only two things; building beautiful things, or spending time experiencing the richness life has to offer. We’re doing that by building the world’s first intelligent cloud provider."
+  ]
+ },
+ "30887e241c0d32d8": {
+  "feed": "Cloudflare Blog",
+  "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+  "link": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As of June 23, 2026, cdnjs, one of the Internet's busiest open-source CDNs, is running exclusively on Cloudflare’s Developer Platform . Along the way, cdnjs surfaced limits in the platform, and the platform grew to meet them. cdnjs is a free, open-source content delivery network for JavaScript and CSS libraries. Instead of using a bundler or self-hosting jQuery, Bootstrap, or Lodash, you drop a <script> tag pointing to cdnjs.cloudflare.com and the library loads from Cloudflare's edge, instantly, anywhere in the world, with no signup, no API keys, and no rate limits."
+  ]
  }
 }
