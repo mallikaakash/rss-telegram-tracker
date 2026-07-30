@@ -39919,5 +39919,155 @@
   "points": [
    "Author: Angelo Saraceno For a DeFi infrastructure startup wrapping millions in crypto assets across five blockchains, every minute of downtime matters. Universal (built by Alongside Finance) enables users to seamlessly move assets like XRP from their native chains to any EVM-compatible network, processing over 1,000 requests per minute for platforms including World App."
   ]
+ },
+ "d398ad4b8ea7b005": {
+  "feed": "YC Hacker News",
+  "title": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
+  "link": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This article focuses on particle physics theoretical calculations and muon wobble anomalies, which is off-target for ML and backend engineering.",
+  "points": [
+   "New calculations resolved a 25-year particle physics puzzle regarding muon wobbles, but conflicted with earlier collider measurements."
+  ]
+ },
+ "dafe9a2bbb836aa9": {
+  "feed": "YC Hacker News",
+  "title": "The Economic Benefit of Refactoring",
+  "link": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "It presents an interesting empirical experiment on how agentic code refactoring impacts token consumption and execution efficiency when building software with LLMs.",
+  "points": [
+   "Quantified how refactoring a 17,000-line Rust file into clean modules reduced token costs for subsequent AI agent feature prompts.",
+   "Demonstrates that refactoring agentic codebases yields measurable economic savings by reducing token overhead and sub-agent execution latency."
+  ]
+ },
+ "14b44d160d6635a7": {
+  "feed": "YC Hacker News",
+  "title": "Hacker Public Radio",
+  "link": "https://hackerpublicradio.org/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This is a feed of casual hobbyist podcasts covering topics like ham radio and audio editing, with no relevance to ML or backend engineering.",
+  "points": [
+   "Covers general community hobbyist podcast episodes on topics ranging from radio operation to shell scripting."
+  ]
+ },
+ "48f692240df25def": {
+  "feed": "YC Hacker News",
+  "title": "Why is everyone trying to build a solid-state battery?",
+  "link": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This post explores battery electrochemistry and energy density physics, which falls outside your core focus on ML systems and backend infrastructure.",
+  "points": [
+   "Explains why replacing liquid electrolytes with solid materials improves battery energy density and thermal safety."
+  ]
+ },
+ "37770fbc7d6c5162": {
+  "feed": "YC Hacker News",
+  "title": "Rise Reforming (YC S26) Is Hiring",
+  "link": "https://www.ycombinator.com/companies/rise-reforming/jobs/wJ9Q9nv-senior-chemical-process-engineer",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This is a chemical engineering job posting for pilot plant commissioning, which is unrelated to ML or backend software engineering.",
+  "points": [
+   "Rise Reforming is hiring a chemical process engineer to scale biogas-to-methanol pilot plants in Chicago."
+  ]
+ },
+ "ae755848e3c77492": {
+  "feed": "Technica",
+  "title": "Quantum computers outperform classical ones, with results you can trust",
+  "link": "https://arstechnica.com/science/2026/07/if-a-quantum-computer-outperforms-normal-ones-can-you-tell-if-its-right/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This covers quantum computing hardware benchmarks and error-mitigation trackers, which are not relevant to practical ML training or backend engineering.",
+  "points": [
+   "IBM announced three new quantum computing results aimed at proving quantum advantage on noisy hardware."
+  ]
+ },
+ "843617e99355a60c": {
+  "feed": "Microsoft Research",
+  "title": "Echoverse: Deep, evolving environments for computer-use agents",
+  "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents/",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Directly relevant to LLM training and agent reasoning, showcasing how high-fidelity synthetic environments and RL drastically improve GUI agent capabilities.",
+  "points": [
+   "Introduces 12 high-fidelity, stateful synthetic environments to train LLM computer-use agents through reinforcement learning.",
+   "Demonstrates that RL training with grounded verifiers nearly doubled a 9B parameter model's benchmark score from 36.5% to 67.1%.",
+   "Proves that drilling challenging UI components (like date pickers) enables zero-shot generalization across unseen domains."
+  ]
+ },
+ "176a42661309bf7d": {
+  "feed": "Microsoft Research",
+  "title": "EvoLib: Turning experience into evolving knowledge",
+  "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Directly advances Priority 1 by introducing a novel test-time learning framework that enables LLMs to distill, consolidate, and evolve knowledge from inference traces.",
+  "points": [
+   "Presents EvoLib, a framework enabling black-box LLMs to learn continuously at test time without updating model weights.",
+   "Transforms raw inference execution traces into reusable skills and reflective insights through consolidation and dynamic reweighting.",
+   "Improves agent performance over time across diverse tasks by turning instance-specific observations into generalizable knowledge."
+  ]
+ },
+ "18ee00004c1406ba": {
+  "feed": "Railway Blog",
+  "title": "How HUD Delivers Frontier Model Training Gyms on Railway",
+  "link": "https://blog.railway.com/p/hud-ai-gym",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Directly touches Priority 1 and Priority 2 by detailing real-world RL training infrastructure, parallel rollout environments ('gyms'), and latency constraints for frontier LLM labs.",
+  "points": [
+   "HUD hosts RL training gyms running up to 1,400 parallel rollouts per run for frontier AI labs and researchers.",
+   "Highlights how API round-trip latency directly inflates training costs when customers pay over $100 per hour for GPU compute.",
+   "Utilizes container replica scaling to handle severe burst traffic during intensive model training cycles."
+  ]
+ },
+ "b909fd4473465643": {
+  "feed": "Railway Blog",
+  "title": "How G2X Unlocked Rapid Experimentation at Scale with Railway",
+  "link": "https://blog.railway.com/p/g2x-railway-innovation",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This is a vendor product marketing case study detailing a standard CRUD web application's cloud migration.",
+  "points": [
+   "G2X migrated its federal market intelligence platform to Railway to streamline deployments and lower cloud costs."
+  ]
+ },
+ "1eac48ce7fb1c49c": {
+  "feed": "Railway Blog",
+  "title": "How Bilt's Marketing Engineering Team Delivers at Scale with Railway",
+  "link": "https://blog.railway.com/p/bilt-deliver-scale",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This is product marketing detailing a marketing backend's web traffic metrics rather than novel ML infrastructure or backend architecture.",
+  "points": [
+   "Bilt uses Railway to host marketing microservices handling bursty peak traffic of 1,500 requests per second."
+  ]
+ },
+ "f4c5fce0f3a7875b": {
+  "feed": "Railway Blog",
+  "title": "Railway Technology Partners: Earn Revenue on Templates You Didn't Build",
+  "link": "https://blog.railway.com/p/annoucing-railway-technology-partners",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This is a platform feature announcement regarding revenue sharing for cloud infrastructure template creators.",
+  "points": [
+   "Railway launched a Technology Partners tier offering up to 25% recurring revenue share on verified infrastructure templates."
+  ]
+ },
+ "45b1be3b6dd427d7": {
+  "feed": "Railway Blog",
+  "title": "~$1 Million Paid to Developers Who Built Railway Templates",
+  "link": "https://blog.railway.com/p/1M-paid-to-developers-who-built-railway-templates",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "This is a company milestone PR post highlighting creator payouts for platform deployment templates.",
+  "points": [
+   "Railway announced paying nearly $1 million to community developers who maintain deployment templates on its platform."
+  ]
  }
 }
