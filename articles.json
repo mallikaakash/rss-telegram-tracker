@@ -39776,5 +39776,148 @@
   "points": [
    "As of June 23, 2026, cdnjs, one of the Internet's busiest open-source CDNs, is running exclusively on Cloudflare’s Developer Platform . Along the way, cdnjs surfaced limits in the platform, and the platform grew to meet them. cdnjs is a free, open-source content delivery network for JavaScript and CSS libraries. Instead of using a bundler or self-hosting jQuery, Bootstrap, or Lodash, you drop a <script> tag pointing to cdnjs.cloudflare.com and the library loads from Cloudflare's edge, instantly, anywhere in the world, with no signup, no API keys, and no rate limits."
   ]
+ },
+ "7909c613945e81a8": {
+  "feed": "Google DeepMind",
+  "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+  "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Gemini Robotics 2 brings whole body intelligence to robots — Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on th"
+  ]
+ },
+ "bb70b69d160739ee": {
+  "feed": "YC Hacker News",
+  "title": "Why DNA damage from smoking and UV rays cause cancer in some but not others",
+  "link": "https://www.cam.ac.uk/research/news/study-reveals-why-dna-damage-from-smoking-and-uv-rays-may-cause-cancer-in-some-people-but-not-others",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Study reveals why DNA damage from smoking and UV rays may cause cancer in some people but not others | University of Cambridge Sorry, you need to enable JavaScript to visit this website. Skip to main content Study at Cambridge About the University Research at Cambridge Quick links For Cambridge students For staff For alumni For our researchers Business and enterprise Colleges and Departments Give to Cambridge Libraries Museums and collections Search site Home Study at Cambridge Undergraduate Undergraduate courses Applying Events and open days Fees and finance Postgraduate Postgraduate courses How to apply Postgraduate events Fees and funding International students Continuing education Lifelong learning Courses in education About the University How the University and Colleges work Term dates and calendars History Map Visiting the University News Annual reports A global university Equality and diversity Events Public engagement Jobs Give to Cambridge Research at Cambridge For Cambridge students For staff For alumni For our researchers Business and enterprise Colleges and Departments Give to Cambridge Libraries Museums and collections Breadcrumb Home Research Research news Study reveals why DNA damage from smoking and UV rays may cause cancer in some people but not others Research Section - Research Research home News Our people About research About research overview Animal research Overseeing animal research The Animal Welfare and Ethical Review Body Animal welfare and ethics What types of animal do we use?"
+  ]
+ },
+ "7d2eb2497cb30e0f": {
+  "feed": "YC Hacker News",
+  "title": "SDL_GPU minimal, single-header, high-performance 2D graphics painting library",
+  "link": "https://github.com/n67094/sdl_gp",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - n67094/SDL_gp: Single header high-performance 2D graphics painter for SDL3 · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "7d88a88887af93c7": {
+  "feed": "YC Hacker News",
+  "title": "The Lost Civic Life of Movie Rental Stores",
+  "link": "https://thereader.mitpress.mit.edu/the-lost-civic-life-of-movie-rental-stores/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "9736018f9ddea264": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Prized (YC S26) – Let non-engineer staff build secure internal tools",
+  "link": "https://prized.dev",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Prized - Build internal tools with AI. Safely Announcing our backing by Backed by Combinator Prized Pricing Sign in Get started Build internal tools with AI. Safely. For the ops, support, and finance teams who run the work. Scoped, audited, and behind your company sign-in. Build Click anywhere to edit Prefer a walkthrough? Book a call Company data, pre-connected."
+  ]
+ },
+ "7d8cfef12add8e42": {
+  "feed": "Technica",
+  "title": "New MCP specification addresses the main barrier to enterprise adoption",
+  "link": "https://arstechnica.com/ai/2026/07/with-a-stateless-makeover-new-mcp-spec-targets-enterprise-scale/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This week, the Model Context Protocol (MCP) , an open source standard for how AI systems interact with external tools and data sources, saw its largest update since its introduction. Most notably, MCP's protocol core is now stateless, so requests are no longer dependent on a session tied to an individual server instance. This change has the potential to address long-standing barriers to scalability."
+  ]
+ },
+ "06b8d0ad6f63e2ce": {
+  "feed": "Google DeepMind",
+  "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+  "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Gemini Robotics ER 2 Skip to main content Introducing Gemini Robotics ER 2 Innovation & AI Products & platforms Company news Feed Subscribe Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Introducing Gemini Robotics ER 2 Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Subscribe Breadcrumb Home Innovation & AI Models & research Google DeepMind Introducing Gemini Robotics ER 2 Jul 30, 2026 | x.com Facebook LinkedIn Mail Copy link Gemini Robotics ER 2 represents a step change in powering robots with video understanding, task orchestration, and multi-robot collaboration — making it possible for robots to be more helpful in the physical world."
+  ]
+ },
+ "f684c3a66a25993b": {
+  "feed": "Hugging Face Blog",
+  "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+  "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPU Management: Why Idle GPUs Are the New Grounded Aircraft Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> GPU Management: Why Idle GPUs Are the New Grounded Aircraft Team Article Published July 30, 2026 Upvote - Erick Lachmann ErickvL Follow Dharma-AI Gabriel Pimenta de Freitas Cardoso GabrielPimenta99 Follow Dharma-AI Gustavo Lucchetti gustavolucchetti Follow Dharma-AI Utilization, not intelligence, is the next real constraint in AI."
+  ]
+ },
+ "5093ca6276d66992": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: December 16th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-december-16-2025",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Authors: Noah Dunnagan & Ray Chen We recently experienced an incident caused by the exploitation of a newly disclosed vulnerability in certain Next.js versions. Attackers used this vulnerability to compromise a small number of user workloads that had not yet updated to a patched version of Next.js. This resulted in downstream impact across the platform."
+  ]
+ },
+ "a2c94c2efe728b11": {
+  "feed": "Railway Blog",
+  "title": "Introducing the Railway integration on Delve.co",
+  "link": "https://blog.railway.com/p/delve-railway-integration",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Mahmoud Abdelwahab Companies moving upmarket face a familiar challenge: enterprise customers require compliance certifications before they'll sign. SOC 2, HIPAA, GDPR, ISO 27001, PCI-DSS. The list goes on, and each one represents weeks or months of prep work before you can close the deal. The traditional compliance process is slow. Manual evidence collection."
+  ]
+ },
+ "4d059fa2fa539c22": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: December 8th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-december-8-2025",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Authors: Noah Dunnagan & Ray Chen We recently experienced an outage that impacted our backend and downstream systems. When a Major Outage occurs, it is Railway’s policy to share the public details of what happened. Impact This incident impacted our backend API disrupting dashboard access, CLI operations, GitHub-based deployment processing, login, and API functionality."
+  ]
+ },
+ "d4d9c327508aa3b5": {
+  "feed": "Railway Blog",
+  "title": "MindFort Runs 100+ AI Pen Testing Agents Without Their Previous $10k AWS Bill",
+  "link": "https://blog.railway.com/p/mindfort-railway",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno For a security platform that deploys specialized AI agents to perform continuous penetration testing, infrastructure costs can make or break the business model. MindFort allows companies to run daily pen tests with the same fidelity as human testers, replacing quarterly or annual assessments that leave vulnerabilities exposed for months."
+  ]
+ },
+ "d10267dce942fa68": {
+  "feed": "Railway Blog",
+  "title": "How Universal Delivers 24/7 Crypto Asset Tracking on Railway",
+  "link": "https://blog.railway.com/p/universal-delivers-on-railway",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno For a DeFi infrastructure startup wrapping millions in crypto assets across five blockchains, every minute of downtime matters. Universal (built by Alongside Finance) enables users to seamlessly move assets like XRP from their native chains to any EVM-compatible network, processing over 1,000 requests per minute for platforms including World App."
+  ]
  }
 }
