@@ -39538,5 +39538,122 @@
   "points": [
    "Author: Angelo Saraceno Bottom line up front. We've partnered with Stripe and built on their new Agentic Provisioning Protocol spec to let developers sign up and deploy in one command. $ stripe projects link railway ✓ Successfully linked Railway account $ stripe projects add railway/postgres ✓ Provisioned PostgreSQL — credentials synced to .env $ stripe projects add railway/hosting --config '{\"image\": \"nginx:latest\"}' ✓ Deployed nginx:latest on Railway Install the projects plugin in the Stripe CLI and you get access to their provider catalog where you (or your agent) can provision Railway resources on demand."
   ]
+ },
+ "7c69b7e4c8ae5721": {
+  "feed": "YC Hacker News",
+  "title": "Gpiozero Flow",
+  "link": "https://bennuttall.com/blog/2026/07/gpiozero-flow/",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Embedded Python GPIO hardware abstraction library history is irrelevant to backend, distributed systems, or ML priorities.",
+  "points": [
+   "Explores declarative and event-based stream abstractions for physical Raspberry Pi GPIO device programming."
+  ]
+ },
+ "05a5b3eeca363d7b": {
+  "feed": "YC Hacker News",
+  "title": "Azulejo",
+  "link": "https://en.wikipedia.org/wiki/Azulejo",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "A Wikipedia page on historical Iberian ceramic tilework is entirely off-target.",
+  "points": [
+   "Traces the history, etymology, and architectural usage of painted tin-glazed ceramic tiles."
+  ]
+ },
+ "df3b2fe021795c43": {
+  "feed": "YC Hacker News",
+  "title": "Carolina Cloud pays SOFR on unused prepaid credits",
+  "link": "https://docs.carolinacloud.io/organizations/prepaid-interest/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Presents a novel cloud infrastructure billing mechanism that pays SOFR-referenced interest on unused prepaid credit balances.",
+  "points": [
+   "Calculates daily interest using SOFR benchmarks compounded daily directly into spendable compute credits.",
+   "Protects startup balance sheets by converting idle cloud prepayments into growing compute credit."
+  ]
+ },
+ "920d1e97155e24c6": {
+  "feed": "YC Hacker News",
+  "title": "Google will expand age checks on Android worldwide till the end of the year",
+  "link": "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Contains no substantive technical text and covers off-target consumer regulatory policy.",
+  "points": [
+   "Notes Google's planned expansion of age verification checks on Android devices."
+  ]
+ },
+ "e88f9188cad4c444": {
+  "feed": "YC Hacker News",
+  "title": "The first watch featuring computer functions",
+  "link": "https://by.seiko-design.com/140th/en/topic/58.html",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "Historical marketing page about a 1980s Seiko digital watch carries no engineering value.",
+  "points": [
+   "Overview of Seiko's 1984 wrist computer system and modular hardware accessories."
+  ]
+ },
+ "1265a89b966174a5": {
+  "feed": "Railway Blog",
+  "title": "From registrar to deployed: buying a domain inside Railway",
+  "link": "https://blog.railway.com/p/one-click-domains",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Shows how implementing the Domain Connect open standard enables 1-click automated DNS record configuration via Cloudflare.",
+  "points": [
+   "Uses Domain Connect standard to eliminate manual copying of CNAME and TXT verification records.",
+   "Open-sources a Go library for querying domain protocol support via TXT record lookups."
+  ]
+ },
+ "85096ddd51003135": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: Feb 18-21 DDoS + Cloudflare Outage",
+  "link": "https://blog.railway.com/p/incident-report-february-19-2026",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Comprehensive outage post-mortem detailing how multi-vector DDoS attacks compounded with degraded transit links and Cloudflare BGP drops.",
+  "points": [
+   "Analyzes 9 distinct DDoS attack windows combined with upstream fiber cuts that overwhelmed edge proxies.",
+   "Explains SSL certificate provisioning failures across 2,700 endpoints during an emergency WAF rollout.",
+   "Details tuning Fastly and Cloudflare WAF rules to prevent edge-proxy drop cascades."
+  ]
+ },
+ "d1c793fee4c8fc2b": {
+  "feed": "Railway Blog",
+  "title": "A letter to open source builders who deserve more",
+  "link": "https://blog.railway.com/p/open-source-partner-program",
+  "date": "2026-07-30",
+  "tier": "low_priority",
+  "why": "A product marketing announcement for Railway's open-source template revenue-sharing partner program.",
+  "points": [
+   "Offers open-source maintainers a 25% recurring commission on deployments driven by their project templates."
+  ]
+ },
+ "c5ff1a7b641581ef": {
+  "feed": "Railway Blog",
+  "title": "Networking is a black box, we used eBPF to open it",
+  "link": "https://blog.railway.com/p/network-flows-in-railway",
+  "date": "2026-07-30",
+  "tier": "must_read",
+  "why": "Outstanding engineering deep-dive on leveraging eBPF to expose unmasked Linux kernel socket errors and build visual real-time network telemetry.",
+  "points": [
+   "Uses eBPF kernel tracing to expose connection reset and ICMP host unreachable errors hidden by ORMs.",
+   "Visualizes live inter-service throughput and network flows on infrastructure diagrams without tcpdump.",
+   "Eliminates low-level networking guesswork for application developers debugging connection drops."
+  ]
+ },
+ "e152eac3417889a1": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: February 11, 2026",
+  "link": "https://blog.railway.com/p/incident-report-february-11-2026",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "Informative infrastructure reliability war story on how an anti-fraud rollout misfired and sent SIGTERM signals to customer databases.",
+  "points": [
+   "Details a staged anti-fraud rule rollout that incorrectly matched legitimate Postgres and MySQL database processes.",
+   "Demonstrates how unexpected workload termination caused redeployment backpressure across platform infrastructure."
+  ]
  }
 }
