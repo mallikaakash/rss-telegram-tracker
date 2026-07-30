@@ -39406,5 +39406,137 @@
    "Railway implemented mandatory 48-hour soft deletes on API resource deletions to prevent accidental AI agent data loss.",
    "Highlights the necessity of least-privilege token scoping for autonomous agents."
   ]
+ },
+ "54fea8754e11044c": {
+  "feed": "YC Hacker News",
+  "title": "London’s most equidistant pub",
+  "link": "https://equidistance.io/londons-most-equidistant-pub/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "London’s most equidistant pub · Equidistance equidistance Meet in the middle. No arguments. The Equidistance Pub Index London’s most equidistant pub London’s most equidistant pub is The Greene Man at 383 Euston Road, on the corner of Great Portland Street. Starting from where each of the 33 boroughs’ residents actually live, and arriving by 7pm on an ordinary September Thursday by public transport, journeys to it span 47 minutes between the nearest borough and the furthest, and no borough needs more than 70."
+  ]
+ },
+ "11423cbd7c45c4c6": {
+  "feed": "YC Hacker News",
+  "title": "Logic for Programmers",
+  "link": "https://logicforprogrammers.com/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Logic for Programmers Logic for Programmers A book about math, software, and using one to fix the other. Written for the working programmer. No math background required. Buy Print Buy Ebook Buy Ebook Sample Chapter Sample 227 pages. Ebook includes PDF and EPUB, DRM-free. Whatâs this book? This is a book about designing, verifying, and reasoning about software better."
+  ]
+ },
+ "cee80cba07943917": {
+  "feed": "YC Hacker News",
+  "title": "The Cold Email",
+  "link": "https://zachholman.com/posts/cold-email",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Cold Email Zach Holman Currently / Founder of Signed and Calendearing . Invested in hundreds of startups via Tifo . Previously / Second engineer hired at GitHub, and advised GitLab ahead of their IPO. Football / Minority owner of Oakland Roots (USL-C) and Cagliari (Serie A). More about Zach → ◂ zachholman.com The Cold Email July 29, 2026 Three of the biggest changes in my life all stemmed, in part, from cold outreach."
+  ]
+ },
+ "c67f0599e5bd7326": {
+  "feed": "YC Hacker News",
+  "title": "Kimi K3-256k",
+  "link": "https://www.kimi.com/code/docs/en/kimi-code/models",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Model Configuration | Kimi Code Docs Skip to content Kimi Code Docs Search â Ctrl K English ç®ä½ä¸­æ English ç®ä½ä¸­æ Appearance Menu Return to top Sidebar Navigation Kimi Code Overview Model Configuration Membership Benefits What's New Community Guidelines Help & Feedback FAQ Error Reference Contact & Feedback Kimi Code CLI Getting started Migrating from kimi-cli Guides Common use cases Interaction and input Sessions and context Goals Using Kimi Code CLI in IDEs Configuration Configuration files Providers and models Config overrides Environment variables Data locations Customization Model Context Protocol Agent Skills Plugins Agents and Sub-Agents Hooks Custom Themes Reference kimi Command kimi acp Subcommand Built-in Tools Slash Commands Keyboard Shortcuts Release Notes Changelog Kimi Code for VS Code Quick Start Core Operations Configuration Customization Use in Third-Party Tools Claude Code OpenCode Codex On this page Model Configuration â This page covers the models Kimi Code provides and how to switch between them in each client."
+  ]
+ },
+ "d4ab857e663de302": {
+  "feed": "YC Hacker News",
+  "title": "Angels in Coptic Magic I: Introduction",
+  "link": "https://www.coptic-magic.phil.uni-wuerzburg.de/index.php/2026/01/16/angels-in-coptic-magic-i-introduction/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Angels in Coptic Magic I: Introduction – Coptic Magical Papyri Skip to content Home Project Corpus of Coptic Magical Formularies Coptic Magical Papyri: Vernacular Religion in Late Antique and Early Islamic Egypt Database What is Coptic Magic? Religion in the Coptic Magical Papyri Looking at the Coptic Magical Papyri Animals in Coptic Magic Case Studies Coptic Amulets Coptic Charms Coptic Curses Coptic Favour Spells Coptic Love Spells Old Coptic Magic Blog Podcast Team Bibliography Bibliography (Coptic-language Magic) Bibliography (Greek-language Magic) Online Resources Contact Us Home Project Corpus of Coptic Magical Formularies Coptic Magical Papyri: Vernacular Religion in Late Antique and Early Islamic Egypt Database What is Coptic Magic?"
+  ]
+ },
+ "a3e103d2fb085be4": {
+  "feed": "Technica",
+  "title": "New AMD Linux patch boosts low-end gaming performance on Steam Deck",
+  "link": "https://arstechnica.com/gaming/2026/07/new-amd-linux-patch-boosts-low-end-gaming-performance-on-steam-deck/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As the Steam Deck slowly marches toward its fifth birthday next February, owners are likely eager for a way to extend its life rather than investing in expensive high-end competition . A new patch for AMD's Linux drivers could substantially reduce low-end frame hitches when the Steam Deck or other AMD-based gaming hardware is running in Energy Performance Preference (EPP) mode."
+  ]
+ },
+ "eeaf36d3865f84ca": {
+  "feed": "Technica",
+  "title": "Gaming and IRL worlds collide in Jumanji: Open World trailer",
+  "link": "https://arstechnica.com/culture/2026/07/gaming-and-irl-worlds-collide-in-jumanji-open-world-trailer/",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "You'd think all the trailers for upcoming major films would have been released during San Diego Comic-Con last weekend. But Sony Pictures decided to wait until today to drop the trailer for Jumanji: Open World , director Jake Kasdan's sequel to his 2019 hit, Jumanji: The Next Level. (Some spoilers for prior films in the franchise below but no major reveals.) The original Jumanji film, released in 1995 and starring the late Robin Williams, was based on a 1981 children's book by Chris Van Allsburg."
+  ]
+ },
+ "438019c964d192a5": {
+  "feed": "Railway Blog",
+  "title": "Better Rails for Agents: A New Remote MCP and Railway Agent in the CLI",
+  "link": "https://blog.railway.com/p/agent-rails-remote-mcp-cli",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Cody De Arkland Go check out https://mcp.railway.com to get started; or update your railway cli and fire off a railway agent to check it out! If you've been watching the MCP and agent space at all over the last year, you've probably felt the same shift a lot of us have — agents have gone from a fun side experiment to the way a real, growing chunk of people actually build and ship software."
+  ]
+ },
+ "b1ae3e5f224bf45a": {
+  "feed": "Railway Blog",
+  "title": "Moving Railway's Frontend Off Next.js",
+  "link": "https://blog.railway.com/p/moving-railways-frontend-off-nextjs",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Victor Ramirez Railway's entire production frontend no longer runs on Next.js. The dashboard, the canvas, railway.com , all of it now runs on Vite + TanStack Router, and we shipped the migration in two PRs with zero downtime. Next.js served us well. Then it didn't. Next.js got railway.com from zero to a production app serving millions of users monthly."
+  ]
+ },
+ "9f034afa1e3348d5": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: March 30th, 2026 — Authenticated user data cached",
+  "link": "https://blog.railway.com/p/incident-report-march-30-2026-authenticated-user-data-cached",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Jacob Cooper 🚄 Edits have been added to provide additional clarity as of 00:00 UTC, in addition to an update to the title for accuracy Railway experienced an incident where CDN features were accidentally enabled for some domains without users enabling them. For those affected, this may have resulted in potentially authenticated data being served to unauthenticated users."
+  ]
+ },
+ "4c9ce4fed4c1bbbf": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: March 30th, 2026 — Authenticated user data cached",
+  "link": "https://blog.railway.com/p/incident-report-march-30-2026-accidental-cdn-caching",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Jacob Cooper 🚄 Edits have been added to provide additional clarity as of 00:00 UTC, in addition to an update to the title for accuracy Railway experienced an incident where CDN features were accidentally enabled for some domains without users enabling them. For those affected, this may have resulted in potentially authenticated data being served to unauthenticated users."
+  ]
+ },
+ "84772358ec4f6f05": {
+  "feed": "Railway Blog",
+  "title": "One command deploys, there's a Stripe APP for that",
+  "link": "https://blog.railway.com/p/railway-stripe-app",
+  "date": "2026-07-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno Bottom line up front. We've partnered with Stripe and built on their new Agentic Provisioning Protocol spec to let developers sign up and deploy in one command. $ stripe projects link railway ✓ Successfully linked Railway account $ stripe projects add railway/postgres ✓ Provisioned PostgreSQL — credentials synced to .env $ stripe projects add railway/hosting --config '{\"image\": \"nginx:latest\"}' ✓ Deployed nginx:latest on Railway Install the projects plugin in the Stripe CLI and you get access to their provider catalog where you (or your agent) can provision Railway resources on demand."
+  ]
  }
 }
