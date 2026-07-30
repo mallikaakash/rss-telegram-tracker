@@ -1335,5 +1335,67 @@
    "Manages 128 GB Unified Memory Architecture (UMA) constraints to run a 35B resident model and 120B on-demand model simultaneously without KV cache starvation.",
    "Implements kernel drop_caches routines before large model cold loads to prevent slow mmap execution on massive weight matrices."
   ]
+ },
+ "a8beec16328c4347": {
+  "url": "https://medium.com/@nishaanjoshi0/polykv-we-gave-15-ai-agents-one-shared-memory-and-it-actually-worked-114e4aa2b0a2",
+  "title": "Medium",
+  "domain": "medium.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-07-30",
+  "tier": "hidden_gem",
+  "why": "Detailed engineering write-up presenting an asymmetric KV cache compression scheme that solves linear scaling bottlenecks in multi-agent LLM inference.",
+  "points": [
+   "Multi-agent LLM inference scales KV cache memory linearly, requiring ~19.8 GB of VRAM just for KV context across 15 agents on Llama-3-8B with a 7K token window.",
+   "PolyKV uses asymmetric KV cache compression to share a single cached representation among N agents, converting memory complexity from O(N) to O(1).",
+   "The approach achieves a 97.7% reduction in multi-agent KV memory footprint with under 1% loss in output quality."
+  ]
+ },
+ "12b0681c6f79a917": {
+  "url": "https://the-decoder.com/researchers-pinpoint-why-larger-language-models-pick-up-skills-that-small-ones-miss/",
+  "title": "Researchers pinpoint why larger language models pick up skills that small ones miss",
+  "domain": "the-decoder.com",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-30",
+  "tier": "skip",
+  "why": "This is a secondary tech-news summary of an academic paper rather than original engineering findings or a primary source.",
+  "points": []
+ },
+ "55217c1a70f11edc": {
+  "url": "https://www.alphaxiv.org/abs/2606.17945",
+  "title": "Small Initialization Matters for Large Language Models | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-30",
+  "tier": "skip",
+  "why": "The page failed to render and displays a PDF viewer container error with no readable content.",
+  "points": []
+ },
+ "e926029b190e65ea": {
+  "url": "https://vuink.com/post/zbqqbtobg-d-dpbz/blog/intel-arc-pro-b70-postmortem",
+  "title": "Six weeks with Intel's Arc Pro B70 in a production inference fleet | Vuink.com",
+  "domain": "vuink.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-30",
+  "tier": "hidden_gem",
+  "why": "An authentic, practitioner-led infrastructure postmortem detailing real-world hardware failure modes and benchmark metrics for Intel Arc GPUs in production LLM inference fleets.",
+  "points": [
+   "Intel's Arc Pro B70 GPU (32GB VRAM) achieved 633 messages/second peak throughput on 3B judge models via vLLM, beating consumer alternatives on price-per-gigabyte.",
+   "Under sustained heavy compute load in a production fleet, the GPU encounters unrecoverable system crashes that software stack adjustments and driver updates cannot fix.",
+   "The card functions well for spiky, low-concurrency desktop workloads but fails under continuous multi-request inference load."
+  ]
+ },
+ "f75f7afb5cdef54e": {
+  "url": "https://dredyson.com/my-deepseek-v4-flash-on-2-nodes-journey-what-i-learned-after-6-months-a-complete-real-world-case-study-with-proven-configuration-failure-analysis-and-tested-results/",
+  "title": "My Deepseek v4 Flash on 2 Nodes Journey: What I Learned After 6 Months - A Complete Real-World Case Study With Proven Configuration, Failure Analysis, and Tested Results - Dre Dyson",
+  "domain": "dredyson.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-30",
+  "tier": "hidden_gem",
+  "why": "A deep, hands-on infrastructure case study covering six months of multi-node LLM deployment troubleshooting, version dependency traps, and distributed execution failures.",
+  "points": [
+   "Deploying unquantized models across multi-node setups requires pinning precise git commit states across vLLM, FlashInfer, NCCL, and compressed-tensors packages.",
+   "Replicating community deployment scripts frequently fails because unpinned main-branch dependencies and rebuilt Docker images silently break multi-node backends.",
+   "Successful multi-node LLM serving depends on tracking exact dependency alignment rather than relying on high-level release tags or standard setup guides."
+  ]
  }
 }
