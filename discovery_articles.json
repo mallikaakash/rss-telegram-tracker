@@ -1397,5 +1397,25 @@
    "Replicating community deployment scripts frequently fails because unpinned main-branch dependencies and rebuilt Docker images silently break multi-node backends.",
    "Successful multi-node LLM serving depends on tracking exact dependency alignment rather than relying on high-level release tags or standard setup guides."
   ]
+ },
+ "67988e3f7d37439e": {
+  "url": "https://arxiv.org/html/2607.18026v1",
+  "title": "Rethinking Heterogeneous LLM Merging: A Weighted Model Averaging Perspective",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-07-31",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "4c88094ce9c69a7c": {
+  "url": "https://vllm.ai/blog/2026-07-23-glm-5.2-nvfp4-b300-pd",
+  "title": "From Day 0 to Production SLAs: Serving GLM-5.2 on 24 NVIDIA B300 GPUs with vLLM | vLLM Blog",
+  "domain": "vllm.ai",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-07-31",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
