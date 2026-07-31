@@ -40224,5 +40224,236 @@
    "Evaluated SSR and CPU-heavy math rendering across Node, Bun, Cloudflare Workers, and Vercel Functions.",
    "Railway running Node/Bun won SvelteKit and Vanilla JS rendering benchmarks, while Cloudflare led in pure math computation."
   ]
+ },
+ "9aa5a96c9b40d875": {
+  "feed": "YC Hacker News",
+  "title": "The AI trade now runs on borrowed money, and the lenders are repricing it",
+  "link": "https://greyswansignals.com/?theme=dark",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "cfcccf116d3f84e6": {
+  "feed": "YC Hacker News",
+  "title": "The AI Aesthetic",
+  "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The AI Aesthetic - Jim Nielsen’s Blog content where applicable --> Jim’s Blog The AI Aesthetic 2026-07-29 Every zeitgeist comes with new design idioms unique to its challenges. Many of them disappear as fads change, but others bake themselves into deeper parts of existing software interaction paradigms. For example, there’s the hamburger menu (≡) which saw a proliferation during the rise of mobile due to the constraints around screen size."
+  ]
+ },
+ "4ad44c609c51f1ae": {
+  "feed": "YC Hacker News",
+  "title": "I flagged two research papers for fake authors and both were accepted as orals",
+  "link": "https://geospatialml.com/posts/reviewing-ai-slop/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "beca97c908739376": {
+  "feed": "YC Hacker News",
+  "title": "The Session You Cannot take with you",
+  "link": "https://earendil.com/posts/session-portability/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Session You Cannot Take With You | EARENDIL MENU Purpose Values Join Us Posts Pi Lefos Works The Session You Cannot Take With You Date: Thu, 30 Jul 2026 From: Earendil Engineering < rfc@earendil.com > To: You Subject: The Session You Cannot Take With You The original promise of an inference API was wonderfully simple: send some input, receive some output."
+  ]
+ },
+ "8f1425b317dc7c4a": {
+  "feed": "YC Hacker News",
+  "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
+  "link": "https://github.com/AminBlg/SimpleEnglish",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - AminBlg/SimpleEnglish: Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical English — no AI slop · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "ea10becd15211fe9": {
+  "feed": "Google Research",
+  "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+  "link": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "8279eef7bf25d251": {
+  "feed": "Apple ML Research",
+  "title": "MoMo: Dial Motion Mode in Robot Manipulation with Spatiotemporal Action Tokenization",
+  "link": "https://machinelearning.apple.com/research/momo-motion-mode-manipulation",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "To operate effectively across diverse contexts, robots must not only perform manipulation tasks accurately but also adapt how their actions unfold to the task, object, and interaction setting. We ask whether this execution-level variation can be learned as a reusable behavioral factor shared across tasks. We present MoMo, a two-stage imitation-learning framework consisting of a spatiotemporal action tokenizer and a behavior-cloning transformer that takes task and a continuous motion-mode condition as inputs."
+  ]
+ },
+ "9146ff1756af0f60": {
+  "feed": "OpenAI News",
+  "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+  "link": "https://openai.com/index/avatarin",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How avatarin built a 24/7 retail agent with GPT-Realtime | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI July 30, 2026 How avatarin built a 24/7 retail agent with GPT‑Realtime With OpenAI’s GPT‑Realtime, avatarin scales Yamada Denki’s retail expertise through 24/7 multilingual shopping support."
+  ]
+ },
+ "ba87a82bd97881ac": {
+  "feed": "MIT News (AI)",
+  "title": "Daniela Rus receives Bavarian Minister-President's High-Tech Prize",
+  "link": "https://news.mit.edu/2026/daniela-rus-receives-bavarian-minister-presidents-high-tech-prize-0730",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Daniela Rus, director of MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL) and the Panasonic Professor of Computer Science, has received the 2026 High-Tech Prize of the Bavarian Minister-President for her contributions to robotics, artificial intelligence, and autonomous systems. Awarded jointly by the Bavarian State Government and the Bavarian Academy of Sciences and Humanities, it is the most highly endowed award for technology and engineering in Germany."
+  ]
+ },
+ "ee2acf199b452f2a": {
+  "feed": "MIT News (AI)",
+  "title": "Connecting research to policy on Capitol Hill",
+  "link": "https://news.mit.edu/2026/connecting-research-to-policy-on-capitol-hill-0730",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This spring, 25 MIT students and postdocs traveled to Washington to meet with congressional staffers and advocate for sustained federal investment in scientific research. With recent cuts to National Science Foundation programs and continued uncertainty surrounding the federal research budget, these conversations were especially timely. Over the course of just two days, participants met with 62 congressional offices representing 32 states to discuss the importance of federal support for scientific research, higher education, and other policy concerns related to their individual research areas."
+  ]
+ },
+ "cc6d8492c62779d8": {
+  "feed": "Simon Willison",
+  "title": "Advancing the price-performance frontier with GPT‑5.6",
+  "link": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit 5.6 Sol with enabling this: in How GPT‑5.6 fuses frontier intelligence with frontier efficiency they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself: We also used GPT‑5.6 Sol to optimize the model’s forward pass: the computation that transforms inputs into next-token predictions."
+  ]
+ },
+ "1782a66a344a2c99": {
+  "feed": "Simon Willison",
+  "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+  "link": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing."
+  ]
+ },
+ "51d4c308f3f45327": {
+  "feed": "Simon Willison",
+  "title": "llm 0.32rc2",
+  "link": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm 0.32rc2 Hot on the heels of RC1 , this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna . It was previously GPT-4o mini . Luna is a much better and more recent model, albeit slightly more expensive - $0.20 per million input tokens and $1.20 per million output tokens, compared to $0.15/$0.60 for 4o mini."
+  ]
+ },
+ "786e7f5fd72e4efb": {
+  "feed": "Simon Willison",
+  "title": "llm-chat-completions-server 0.1a0",
+  "link": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Content-Type: application/json' \\ -d '{ \"model\": \"qwen3.5-4b\", \"messages\": [ {\"role\": \"user\", \"content\": \"Capital of France?\"}, {\"role\": \"assistant\", \"content\": \"Paris.\"}, {\"role\": \"user\", \"content\": \"Germany?\"} ] }' Here the conversation state is tracked by the client, so each of these requests gets longer and longer."
+  ]
+ },
+ "3c55230ddf74981f": {
+  "feed": "Simon Willison",
+  "title": "llm 0.32rc1",
+  "link": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations."
+  ]
+ },
+ "036d60cb2db3e088": {
+  "feed": "Netflix TechBlog",
+  "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+  "link": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3?source=rss----2615bd06b42e---4",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Authors: Ying Li , Arjun Rao , Shradha Sehgal Introduction Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years to support diverse content types (movies, series, games, live, podcasts) and product surfaces, but its complexity makes it costly to onboard new use cases: adding a content type or surface can require significant feature engineering, architecture change, infrastructure work, and experimentation."
+  ]
+ },
+ "2cb16c87583fd4d6": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: October 16th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-oct-16th-2025",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Chandrika Khanduri We recently experienced an outage that affected our Edge Network connectivity. Some users may have experienced intermittent issues reaching their services for a few minutes via public endpoints. Impact This outage impacted our Edge Network across all regions. Users accessing Railway-hosted domains over HTTP and TCP may have experienced intermittent connection failures or timeouts for approximately 2-3 minutes."
+  ]
+ },
+ "f7ea2e4a913eaaae": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: October 15th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-oct-15th-2025",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Brody Over We recently experienced an outage that impacted our dashboard and deployment pipeline. When a Major Outage occurs, it is Railway’s policy to share the public details of what happened. Impact Between 20:49 UTC and 22:15 UTC, users experienced difficulties deploying new services and accessing the dashboard. Most of the user facing platform’s control systems were unavailable during this time, though running services and networking remained operational."
+  ]
+ },
+ "186d807d3cb86533": {
+  "feed": "Railway Blog",
+  "title": "Why most product planning is bad and what to do about it",
+  "link": "https://blog.railway.com/p/product-planning-improvement",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno TL;DR: We tried OKRs, they created more ceremony than clarity. Our solution: Problem Driven Development, a 4-day quarterly process focused on identifying problems (not solutions), prioritizing as a team, and committing publicly. It's kept us shipping at velocity even as we've scaled to 1.7M+ users. For most of my friends and colleagues at mature software companies, there are usually three ways for an item of work to get put on the board to eventually be done."
+  ]
+ },
+ "09a730228c8c8347": {
+  "feed": "Railway Blog",
+  "title": "Pricing to Encourage Use",
+  "link": "https://blog.railway.com/p/free-plan-part-two",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: David Banys Most of the time, putting a price on a product discourages use of the product. That’s one reason governments tax things like gasoline, cigarettes, and alcohol, because making it cost money discourages consumption of the thing. The same principle is true in software, where if you want explosive use of your product, what you ought to do is make it free."
+  ]
+ },
+ "c1e5b1abfb1958ab": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: September 22nd, 2025",
+  "link": "https://blog.railway.com/p/incident-report-sept-22-2025",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Ray Chen We recently experienced an outage that impacted our dashboard and deployment pipeline. When a Major Outage occurs, it is Railway’s policy to share the public details of what happened. Impact This outage impacted our dashboard and deployment pipeline. You may have experienced an infinite loading state when trying to load your projects’ canvas, delayed deployments, or a “Limited Access” message when initiating new deployments."
+  ]
  }
 }
