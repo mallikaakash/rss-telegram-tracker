@@ -40912,5 +40912,264 @@
    "Introduces a provisioning API for isolated, multi-tenant MoQ relays across Cloudflare's edge network.",
    "Implements IETF draft-14 and draft-16 MoQ specs with role-based publisher and subscriber credentialing."
   ]
+ },
+ "705694bbd6eee007": {
+  "feed": "YC Hacker News",
+  "title": "qm",
+  "link": "https://github.com/yc-software/qm",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A repository landing page dump without deep technical write-ups.",
+  "points": [
+   "Presents a harness repository for multiplayer AI agents."
+  ]
+ },
+ "83404b8115442784": {
+  "feed": "YC Hacker News",
+  "title": "Big Food vs. the People",
+  "link": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Investigative report on corporate food policy litigation, off-target for software and ML engineering.",
+  "points": [
+   "Tracks 239 lawsuits filed by food corporations against public health labeling laws."
+  ]
+ },
+ "d2e9afa21223d5ee": {
+  "feed": "YC Hacker News",
+  "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+  "link": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Practical hardware and performance engineering guide for setting up cheap 25 Gbps networking on Mac hardware.",
+  "points": [
+   "Adapts a server-pulled OCP 2 NIC via Thunderbolt 3 to achieve up to 25 Gbps networking.",
+   "Solves severe NIC thermal throttling by 3D printing a custom active cooling fan duct."
+  ]
+ },
+ "a980319fb16ae192": {
+  "feed": "YC Hacker News",
+  "title": "Termixer (TUI DJ Mixer)",
+  "link": "https://github.com/l00sed/termixer",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A terminal DJ mixer side project, unrelated to ML or backend infrastructure priorities.",
+  "points": [
+   "Builds a terminal-based DJ mixer using Rust, Ratatui, and TidalCycles."
+  ]
+ },
+ "34c95259ece4e1b7": {
+  "feed": "YC Hacker News",
+  "title": "Algorithms on billion-scale graph using 10GB RAM: I love DataFusion",
+  "link": "https://semyonsinchenko.github.io/ssinchenko/post/datafusion-graphs-cc-2/",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "Exceptional deep dive on executing out-of-core billion-scale graph algorithms using Apache DataFusion within tight memory constraints.",
+  "points": [
+   "Executed PageRank on 1B edges using 5GB RAM and Weakly Connected Components on 2B edges using 10GB RAM.",
+   "Leveraged DataFusion's sort-merge joins, execution planner, and disk spilling pool instead of running heavy Spark clusters.",
+   "Demonstrates how Pregel-style bulk-synchronous parallel graph processing can be efficiently implemented via SQL joins and aggregations."
+  ]
+ },
+ "e7488e87eaddb6a7": {
+  "feed": "Technica",
+  "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
+  "link": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Legal news covering high school liability and AI image abuse, off-target for technical priorities.",
+  "points": [
+   "Details a private school's legal defense against victim lawsuits following student AI image abuse."
+  ]
+ },
+ "158b30a6709699f0": {
+  "feed": "Technica",
+  "title": "Researchers devise a full-color night vision goggle",
+  "link": "https://arstechnica.com/science/2026/07/see-the-heat-an-infrared-imaging-system-that-outputs-in-color/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Applied optics and materials science research, unrelated to ML or software backend engineering.",
+  "points": [
+   "Combines colloidal quantum dots with dual-layer OLEDs to translate infrared light into full-color visible images."
+  ]
+ },
+ "d3ee5ec69ec4e9f3": {
+  "feed": "Technica",
+  "title": "China could supply EV manufacturing boom with recycled EVs",
+  "link": "https://arstechnica.com/science/2026/07/china-could-supply-ev-manufacturing-boom-with-recycled-evs/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Macro supply chain economic study on battery materials recycling in China.",
+  "points": [
+   "Models future EV recycling capacity to project raw material coverage for battery production through 2050."
+  ]
+ },
+ "4896a3d243536b63": {
+  "feed": "Technica",
+  "title": "Sony acknowledges backlash, “cautiously” moves ahead with end of PlayStation discs",
+  "link": "https://arstechnica.com/gaming/2026/07/sony-acknowledges-backlash-will-cautiously-move-forward-with-end-of-discs/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Gaming business news regarding physical media sunsetting.",
+  "points": [
+   "Reports Sony's target timeline to phase out optical disc production for PlayStation games by 2028."
+  ]
+ },
+ "cda3403c4256bb68": {
+  "feed": "Technica",
+  "title": "Man invested $45M in a Nicolas Cage movie. It got stolen off Netflix’s desk.",
+  "link": "https://arstechnica.com/tech-policy/2026/07/man-invested-45m-in-a-nicolas-cage-movie-it-got-stolen-off-netflixs-desk/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Entertainment industry lawsuit regarding physical hard drive theft.",
+  "points": [
+   "Details a lawsuit against Netflix after unreleased film footage was stolen from an office desk."
+  ]
+ },
+ "c5ad624a6ffb30ef": {
+  "feed": "OpenAI News",
+  "title": "Disrupting a Criminal Scam Operation",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Applied threat intelligence case study on how scam operations utilize LLM platforms for social engineering and workflow automation.",
+  "points": [
+   "Details OpenAI's disruption of a Cambodian scam network using ChatGPT for romance scams and target messaging.",
+   "Shows how threat networks employ LLMs for both victim communications and internal administrative translation."
+  ]
+ },
+ "b365f6c426caef5e": {
+  "feed": "OpenAI News",
+  "title": "“Tech and Tariffs” Campaign: Influence activity targeting US tech policy",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Threat intelligence overview illustrating automated political influence operations using LLMs.",
+  "points": [
+   "Banned PRC-aligned accounts using ChatGPT to generate automated political comments and cartoons targeting US tech policies.",
+   "Identified operators leveraging Chinese public security terminology to direct automated social media 'water armies'."
+  ]
+ },
+ "b021d026b0eb12b9": {
+  "feed": "OpenAI News",
+  "title": "“Data Center Bandwagon” Campaign: US-targeted influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Threat intelligence case study analyzing LLM usage to shift public opinion on AI infrastructure and power grids.",
+  "points": [
+   "Disrupted a network posing as Americans to post content linking AI data center expansion to rising household electricity bills.",
+   "Illustrates state-aligned commercial actors leveraging LLMs for targeted public opinion manipulation."
+  ]
+ },
+ "6f47a8de778c4393": {
+  "feed": "OpenAI News",
+  "title": "Operation “Nine–emdash Line”: Regional influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Threat intel report detailing threat actor workflows using LLMs for reconnaissance and bulk post generation.",
+  "points": [
+   "Analyzed PRC-linked campaign targeting South China Sea territorial disputes using automated posts.",
+   "Highlighted novel actor behavior using LLMs for social growth strategy advice and forum reconnaissance."
+  ]
+ },
+ "b144ef9f087e21be": {
+  "feed": "OpenAI News",
+  "title": "Operation “Stop News”: Recidivist influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Threat intel case study highlighting how influence operations adapt LLMs for video scripting and SEO.",
+  "points": [
+   "Tracked a Russian network using ChatGPT to translate news scripts and generate SEO metadata for AI-avatar videos.",
+   "Observed a strategic shift from direct AI image generation to video script synthesis."
+  ]
+ },
+ "5c826e8114e67610": {
+  "feed": "Together AI",
+  "title": "Autoscaling endpoints for LLM inference",
+  "link": "https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Truncated high-level product landing page with minimal technical detail.",
+  "points": [
+   "Summarizes Together AI's serverless and dedicated model inference offerings."
+  ]
+ },
+ "ae481fe79b50ea7e": {
+  "feed": "Netflix TechBlog",
+  "title": "Modeling Device Capabilities for Analytics",
+  "link": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8?source=rss----2615bd06b42e---4",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "High-quality engineering deep dive from Netflix on device capability data modeling and analytics at scale.",
+  "points": [
+   "Uses cumulative tables to track hardware and software device capability states for granular feature flags.",
+   "Leverages 28-day active device histogram tables to compute feature penetration across millions of client devices.",
+   "Informs rollout decisions for bandwidth and hardware-heavy features like 4K, Spatial Audio, and cloud gaming."
+  ]
+ },
+ "e03b74550537ab20": {
+  "feed": "Railway Blog",
+  "title": "Speed Isn’t Just About Code, It’s About Where That Code Runs",
+  "link": "https://blog.railway.com/p/railway-for-frontend",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Practical platform engineering analysis on reducing latency by co-locating frontend, backend, and database infrastructure.",
+  "points": [
+   "Identifies multi-cloud network round trips between frontend and backend as a primary cause of web latency.",
+   "Presents Railway's multi-region co-location architecture and Railpack build engine as a latency reduction strategy."
+  ]
+ },
+ "fd4b8f1262c10a9a": {
+  "feed": "Railway Blog",
+  "title": "One-Second Deploys? We Didn’t Believe It Either",
+  "link": "https://blog.railway.com/p/introducing-railway-functions",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "Technically rich breakdown of building sub-second serverless deploys with Bun runtime and AST dependency parsing.",
+  "points": [
+   "Built Railway Functions to achieve sub-second serverless code deployments directly inside containers.",
+   "Parses JS/TS ASTs dynamically to extract and pin package dependencies without lockfiles or package.json.",
+   "Uses Bun runtime to achieve ~500ms dependency installation and execute TypeScript natively."
+  ]
+ },
+ "2953fd04b17d31f6": {
+  "feed": "Railway Blog",
+  "title": "Why We’re Moving on From Nix",
+  "link": "https://blog.railway.com/p/introducing-railpack",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "Outstanding infrastructure post on the practical pain points of Nix in production and building a custom image builder with BuildKit.",
+  "points": [
+   "Replaced Nixpacks with Railpack due to Nix's commit-based versioning constraints and lack of patch-version flexibility.",
+   "Reduced container image sizes by up to 77% by stripping monolithic /nix/store runtime dependencies.",
+   "Interfaced directly with BuildKit to improve Docker layer caching and prevent premature cache invalidations."
+  ]
+ },
+ "1586490cd7acbfca": {
+  "feed": "Railway Blog",
+  "title": "Railway V3: Faster and Cheaper",
+  "link": "https://blog.railway.com/p/launch-week-02-welcome",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Insightful infrastructure economics post on moving platform compute to bare metal to improve performance and cut margins.",
+  "points": [
+   "Shifted compute infrastructure to owned bare metal to offer 50% lower compute and egress costs than major public clouds.",
+   "Achieved up to 6x faster multicore compute benchmarks and 10x faster disk write throughput on bare metal."
+  ]
+ },
+ "3d823ef4fe391dee": {
+  "feed": "Railway Blog",
+  "title": "How We Work (Volume IV)",
+  "link": "https://blog.railway.com/p/how-we-work-volume-iv",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Practical engineering management post on technical context silos, bus factor risks, and structuring onboarding.",
+  "points": [
+   "Examines how senior engineers working in isolation creates a 'context wall' that hampers onboarding and elevates bus factor risk.",
+   "Advises leaving non-critical secondary features as approachable tasks for new hires to build system context quickly."
+  ]
  }
 }
