@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Fri 31 Jul 2026, 21:19 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Fri 31 Jul 2026, 21:19 IST &middot; 17 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Railway’s bare-metal automation deep dive leads this batch alongside OpenAI’s compute economics, Artichoke Ruby&#x27;s VM post-mortem, and Railway&#x27;s control-plane outage report.</div><div class="section">Must read &middot; 4</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://hyperbo.la/w/winding-down-artichoke-ruby/">Winding Down Artichoke Ruby</a></h2><div class="why">A thorough systems engineering post-mortem on VM internals, Rust-C interoperability, and unwinding concurrency shortcuts.</div><ul><li>Details implementing a 100% Rust spec-compliant Ruby String on top of the bstr crate.</li><li>Outlines a modular VM architecture separating execution, core types, and glue logic across distinct crates.</li><li>Recounts the extensive refactoring required to eliminate early Rc&lt;RefCell&gt; abstractions for thread safety.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/building-abundant-intelligence">Building abundant intelligence</a></h2><div class="why">Major strategic update on LLM inference economics, full-stack compute optimization, and aggressive token price cuts.</div><ul><li>Slashes GPT-5.6 Luna input pricing by 80% to $0.20/1M tokens and Terra pricing by 20%.</li><li>Introduces Fast mode for GPT-5.6 Sol offering 2.5x processing speed at double token cost.</li><li>Frames full-stack system optimization around reducing total cost per successful task outcome.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/incident-report-april-23-2025">Incident Report: April 23rd, 2025</a></h2><div class="why">An insightful infrastructure incident post-mortem on control plane resilience and database dependency handling.</div><ul><li>GCP Cloud SQL maintenance on a Postgres read replica cut connections to Railway&#x27;s network control plane.</li><li>Uncaught error handling caused control plane pods to crash loop and continuously evict in-memory routing caches.</li><li>Details how regional isolation and cache warmups impacted edge and private network recovery.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/data-center-build-part-two">Zero-Touch Bare Metal at Scale</a></h2><div class="why">An excellent infrastructure deep dive into bare-metal provisioning, physical device mapping, and orchestration workflows.</div><ul><li>Tackles non-deterministic Linux device node naming across PCIe NVMe drives and multi-NIC hardware.</li><li>Uses Redfish BMC APIs to extract hardware serial numbers and physical slot topology.</li><li>Automates server ingestion via Temporal workflows within an internal control plane called MetalCP.</li></ul></div><div class="section">Worth a skim &middot; 5</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/">Is AI Reasoning Right for the Wrong Reasons?</a></h2><div class="why">Examines the mechanics and ongoing debate surrounding large reasoning models and chain-of-thought validity.</div><ul><li>Contrasts Apple&#x27;s &#x27;Illusion of Thinking&#x27; findings with empirical success on competition math benchmarks.</li><li>Explores whether intermediate reasoning tokens signify structural logic or statistical pattern matching.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://john.fun/elevators">Elevators</a></h2><div class="why">An engaging engineering deep dive into queueing systems, latency metrics, and real-time scheduling algorithms.</div><ul><li>Explains classic LOOK and SCAN elevator algorithms versus modern Relative System Response scoring.</li><li>Emphasizes optimizing for p90 wait-time distributions over averages under fluctuating traffic patterns.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://arxiv.org/abs/2607.27197">The Maxwell Conjecture Is False (GPT 5.6 Sol)</a></h2><div class="why">Presents a mathematical physics paper disproving a long-standing conjecture on electrostatic critical points.</div><ul><li>Constructs a 5-point-charge spatial configuration yielding 24 non-degenerate critical points.</li><li>Disproves Maxwell&#x27;s conjecture that n point charges yield at most (n-1)^2 critical points.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/central-station">Introducing Central Station</a></h2><div class="why">Details building custom internal support and product management tooling to weight features by customer spend and impact.</div><ul><li>Replaced third-party roadmapping tools with a custom platform directly connected to Linear.</li><li>Automates feature prioritization matrices by factoring user spend, team size, and projected revenue upside.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/moq-relays/">An API for MoQ: provision your own isolated relays</a></h2><div class="why">Explains low-latency streaming infrastructure using Media over QUIC (MoQ) relays and multi-tenant access control.</div><ul><li>Introduces a provisioning API for isolated, multi-tenant MoQ relays across Cloudflare&#x27;s edge network.</li><li>Implements IETF draft-14 and draft-16 MoQ specs with role-based publisher and subscriber credentialing.</li></ul></div><div class="section">Low priority &middot; 8</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://tasklet.ai/careers/customer-success-engineer">Tasklet (YC P26) Is Hiring a Customer Success Engineer</a></h2><div class="why">A non-technical job posting for a customer success role at an AI startup.</div><ul><li>Job listing for a Customer Success Engineer at Tasklet in San Francisco.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust/">AI scammers outperform humans when it comes to building trust</a></h2><div class="why">Focuses on social impacts of scam chatbots rather than technical ML engineering or infrastructure.</div><ul><li>Study finds AI chatbots effectively build trust and match human success in early stages of investment scams.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/gaming/2026/07/pathogenic-review-damn-it-feels-good-to-be-a-virus/">Pathogenic review: Damn, it feels good to be a virus</a></h2><div class="why">A video game review with no technical backend or ML relevance.</div><ul><li>Positive review of Pathogenic, an indie roguelite twin-stick shooter game.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit/">How a Yale AI-cheating dispute became a 13-count federal lawsuit</a></h2><div class="why">Covers university litigation regarding academic AI policy rather than engineering details.</div><ul><li>An MBA student sues Yale over an academic suspension resulting from an AI cheating dispute.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/space/2026/07/rocket-report-big-deals-for-us-launch-firms-rfa-one-debut-is-delayed/">Rocket Report: New launch rule may limit environmental regulations, Falcon 9 to hit Moon</a></h2><div class="why">Aerospace industry news with no backend, infra, or ML relevance.</div><ul><li>Rocket Lab secures a $266M military launch contract for Electron suborbital rockets.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/gadgets/2026/07/tim-cooks-last-earnings-call-strong-iphone-sales-but-memory-costs-loom-large/">Tim Cook passes the baton in Apple&#x27;s Q3 2026 earnings call</a></h2><div class="why">Corporate earnings news focusing on Apple&#x27;s quarterly hardware and services metrics.</div><ul><li>Apple Q3 2026 earnings highlight strong iPhone sales alongside slipping services revenue.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/ssh">Ssh, We’re Announcing One More Thing!</a></h2><div class="why">A short product feature announcement for CLI SSH access.</div><ul><li>Railway introduces CLI-based SSH access into running platform instances via &#x27;railway ssh&#x27;.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/1M-open-source-kickbacks">$1M for Open Source</a></h2><div class="why">A promotional announcement for a developer revenue-share referral program.</div><ul><li>Railway offers a 50% revenue kickback program for developers publishing deployed templates.</li></ul></div></body></html>

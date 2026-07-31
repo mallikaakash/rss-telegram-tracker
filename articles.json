@@ -40712,5 +40712,205 @@
    "Rapid 5x user growth exposed unoptimized SQL queries and service mesh latency bottlenecks in database proxies.",
    "Misconfigured health checks allowed failing Kubernetes pods to report as healthy, creating continuous crash loops during rollout."
   ]
+ },
+ "3740ca6a230ee792": {
+  "feed": "YC Hacker News",
+  "title": "Is AI Reasoning Right for the Wrong Reasons?",
+  "link": "https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Examines the mechanics and ongoing debate surrounding large reasoning models and chain-of-thought validity.",
+  "points": [
+   "Contrasts Apple's 'Illusion of Thinking' findings with empirical success on competition math benchmarks.",
+   "Explores whether intermediate reasoning tokens signify structural logic or statistical pattern matching."
+  ]
+ },
+ "c0ca64fbc6d43f96": {
+  "feed": "YC Hacker News",
+  "title": "Elevators",
+  "link": "https://john.fun/elevators",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "An engaging engineering deep dive into queueing systems, latency metrics, and real-time scheduling algorithms.",
+  "points": [
+   "Explains classic LOOK and SCAN elevator algorithms versus modern Relative System Response scoring.",
+   "Emphasizes optimizing for p90 wait-time distributions over averages under fluctuating traffic patterns."
+  ]
+ },
+ "f0bd604457296096": {
+  "feed": "YC Hacker News",
+  "title": "The Maxwell Conjecture Is False (GPT 5.6 Sol)",
+  "link": "https://arxiv.org/abs/2607.27197",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Presents a mathematical physics paper disproving a long-standing conjecture on electrostatic critical points.",
+  "points": [
+   "Constructs a 5-point-charge spatial configuration yielding 24 non-degenerate critical points.",
+   "Disproves Maxwell's conjecture that n point charges yield at most (n-1)^2 critical points."
+  ]
+ },
+ "15c9e95bfa2ea42c": {
+  "feed": "YC Hacker News",
+  "title": "Winding Down Artichoke Ruby",
+  "link": "https://hyperbo.la/w/winding-down-artichoke-ruby/",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "A thorough systems engineering post-mortem on VM internals, Rust-C interoperability, and unwinding concurrency shortcuts.",
+  "points": [
+   "Details implementing a 100% Rust spec-compliant Ruby String on top of the bstr crate.",
+   "Outlines a modular VM architecture separating execution, core types, and glue logic across distinct crates.",
+   "Recounts the extensive refactoring required to eliminate early Rc<RefCell> abstractions for thread safety."
+  ]
+ },
+ "3c1ae977ad99235d": {
+  "feed": "YC Hacker News",
+  "title": "Tasklet (YC P26) Is Hiring a Customer Success Engineer",
+  "link": "https://tasklet.ai/careers/customer-success-engineer",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "A non-technical job posting for a customer success role at an AI startup.",
+  "points": [
+   "Job listing for a Customer Success Engineer at Tasklet in San Francisco."
+  ]
+ },
+ "4a4b1613ef57d268": {
+  "feed": "Technica",
+  "title": "AI scammers outperform humans when it comes to building trust",
+  "link": "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust/",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Focuses on social impacts of scam chatbots rather than technical ML engineering or infrastructure.",
+  "points": [
+   "Study finds AI chatbots effectively build trust and match human success in early stages of investment scams."
+  ]
+ },
+ "e8d0fd67c7cd0c71": {
+  "feed": "Technica",
+  "title": "Pathogenic review: Damn, it feels good to be a virus",
+  "link": "https://arstechnica.com/gaming/2026/07/pathogenic-review-damn-it-feels-good-to-be-a-virus/",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "A video game review with no technical backend or ML relevance.",
+  "points": [
+   "Positive review of Pathogenic, an indie roguelite twin-stick shooter game."
+  ]
+ },
+ "3505ef966d299971": {
+  "feed": "Technica",
+  "title": "How a Yale AI-cheating dispute became a 13-count federal lawsuit",
+  "link": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit/",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Covers university litigation regarding academic AI policy rather than engineering details.",
+  "points": [
+   "An MBA student sues Yale over an academic suspension resulting from an AI cheating dispute."
+  ]
+ },
+ "973117e2b530e8a0": {
+  "feed": "Technica",
+  "title": "Rocket Report: New launch rule may limit environmental regulations, Falcon 9 to hit Moon",
+  "link": "https://arstechnica.com/space/2026/07/rocket-report-big-deals-for-us-launch-firms-rfa-one-debut-is-delayed/",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Aerospace industry news with no backend, infra, or ML relevance.",
+  "points": [
+   "Rocket Lab secures a $266M military launch contract for Electron suborbital rockets."
+  ]
+ },
+ "2796402a60203682": {
+  "feed": "Technica",
+  "title": "Tim Cook passes the baton in Apple's Q3 2026 earnings call",
+  "link": "https://arstechnica.com/gadgets/2026/07/tim-cooks-last-earnings-call-strong-iphone-sales-but-memory-costs-loom-large/",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Corporate earnings news focusing on Apple's quarterly hardware and services metrics.",
+  "points": [
+   "Apple Q3 2026 earnings highlight strong iPhone sales alongside slipping services revenue."
+  ]
+ },
+ "6e145b017b5af327": {
+  "feed": "OpenAI News",
+  "title": "Building abundant intelligence",
+  "link": "https://openai.com/index/building-abundant-intelligence",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "Major strategic update on LLM inference economics, full-stack compute optimization, and aggressive token price cuts.",
+  "points": [
+   "Slashes GPT-5.6 Luna input pricing by 80% to $0.20/1M tokens and Terra pricing by 20%.",
+   "Introduces Fast mode for GPT-5.6 Sol offering 2.5x processing speed at double token cost.",
+   "Frames full-stack system optimization around reducing total cost per successful task outcome."
+  ]
+ },
+ "0fb657f8a0185ca9": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: April 23rd, 2025",
+  "link": "https://blog.railway.com/p/incident-report-april-23-2025",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "An insightful infrastructure incident post-mortem on control plane resilience and database dependency handling.",
+  "points": [
+   "GCP Cloud SQL maintenance on a Postgres read replica cut connections to Railway's network control plane.",
+   "Uncaught error handling caused control plane pods to crash loop and continuously evict in-memory routing caches.",
+   "Details how regional isolation and cache warmups impacted edge and private network recovery."
+  ]
+ },
+ "ab7e14ed0b8a7fdb": {
+  "feed": "Railway Blog",
+  "title": "Zero-Touch Bare Metal at Scale",
+  "link": "https://blog.railway.com/p/data-center-build-part-two",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "An excellent infrastructure deep dive into bare-metal provisioning, physical device mapping, and orchestration workflows.",
+  "points": [
+   "Tackles non-deterministic Linux device node naming across PCIe NVMe drives and multi-NIC hardware.",
+   "Uses Redfish BMC APIs to extract hardware serial numbers and physical slot topology.",
+   "Automates server ingestion via Temporal workflows within an internal control plane called MetalCP."
+  ]
+ },
+ "7ae226ad4ad0ad1e": {
+  "feed": "Railway Blog",
+  "title": "Ssh, We’re Announcing One More Thing!",
+  "link": "https://blog.railway.com/p/ssh",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "A short product feature announcement for CLI SSH access.",
+  "points": [
+   "Railway introduces CLI-based SSH access into running platform instances via 'railway ssh'."
+  ]
+ },
+ "49876512cf41efab": {
+  "feed": "Railway Blog",
+  "title": "Introducing Central Station",
+  "link": "https://blog.railway.com/p/central-station",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Details building custom internal support and product management tooling to weight features by customer spend and impact.",
+  "points": [
+   "Replaced third-party roadmapping tools with a custom platform directly connected to Linear.",
+   "Automates feature prioritization matrices by factoring user spend, team size, and projected revenue upside."
+  ]
+ },
+ "287bf40ff730ad5a": {
+  "feed": "Railway Blog",
+  "title": "$1M for Open Source",
+  "link": "https://blog.railway.com/p/1M-open-source-kickbacks",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "A promotional announcement for a developer revenue-share referral program.",
+  "points": [
+   "Railway offers a 50% revenue kickback program for developers publishing deployed templates."
+  ]
+ },
+ "47154dbdd99e2740": {
+  "feed": "Cloudflare Blog",
+  "title": "An API for MoQ: provision your own isolated relays",
+  "link": "https://blog.cloudflare.com/moq-relays/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Explains low-latency streaming infrastructure using Media over QUIC (MoQ) relays and multi-tenant access control.",
+  "points": [
+   "Introduces a provisioning API for isolated, multi-tenant MoQ relays across Cloudflare's edge network.",
+   "Implements IETF draft-14 and draft-16 MoQ specs with role-based publisher and subscriber credentialing."
+  ]
  }
 }
