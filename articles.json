@@ -40585,5 +40585,132 @@
    "Deliberately excludes destructive tools from the MCP interface to prevent agents from executing unintended resource deletion.",
    "Utilizes stdio transport for local execution and secure agent interaction with pay-per-use cloud resources."
   ]
+ },
+ "d36fb3463f7d73a5": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+  "link": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "Analyzing DeepSeek V4 Flash performance and pricing is directly relevant for understanding competitive LLM efficiency and serving economics.",
+  "points": [
+   "Provides competitive intelligence, latency, and cost tradeoffs for DeepSeek V4 Flash compared to frontier models.",
+   "Offers key benchmarking data for selecting cost-effective LLM models for production inference workloads."
+  ]
+ },
+ "c3b2c774b858bb2a": {
+  "feed": "YC Hacker News",
+  "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+  "link": "https://blog.google/security/chrome-stronger-with-every-update/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates real-world applied LLM agent harnesses operating on large production C++ codebases for vulnerability research.",
+  "points": [
+   "Google combined LLMs with specialized fuzzing tools to discover long-standing C++ sandbox escapes in Chrome.",
+   "Multi-model interoperability and custom knowledge bases reduced false positives in automated security analysis."
+  ]
+ },
+ "5db9ae44a626a7ed": {
+  "feed": "YC Hacker News",
+  "title": "The mean means nothing: data visualization to debug a latency problem",
+  "link": "https://fzakaria.com/2026/07/27/the-mean-means-nothing",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "Essential performance engineering guide on debugging latency using distributions and CDFs instead of misleading scalar summaries like mean or p99.",
+  "points": [
+   "Mean latency can mask improvements, while p50 and p99 metrics can move in opposite directions on bimodal distributions.",
+   "Plotting density curves and Cumulative Distribution Functions (CDFs) reveals true performance characteristics during service rollouts."
+  ]
+ },
+ "e54a08a1f8d1a8f9": {
+  "feed": "YC Hacker News",
+  "title": "IMAX vs. IMAX 70mm: The difference between these two cinema formats",
+  "link": "https://www.engadget.com/2220571/differences-between-imax-70mm/",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Off-topic consumer guide explaining theatrical movie projection formats.",
+  "points": [
+   "Explains technical specs of 70mm 15/70 film projection versus digital theater systems."
+  ]
+ },
+ "521daecb05777995": {
+  "feed": "YC Hacker News",
+  "title": "The Religion of Speed",
+  "link": "https://graybeard.ing/the-religion-of-speed/",
+  "date": "2026-07-31",
+  "tier": "worth_a_skim",
+  "why": "Thought-provoking commentary on engineering culture, distinguishing superficial velocity from true execution speed rooted in system comprehension.",
+  "points": [
+   "Rushing through requirement and design phases creates unexamined technical debt that costs far more during cleanup.",
+   "True execution speed requires clear constraints and clean decision-making rather than continuous re-litigation."
+  ]
+ },
+ "4879819590782b03": {
+  "feed": "OpenAI News",
+  "title": "Univé builds an AI-ready workforce",
+  "link": "https://openai.com/index/unive",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "High-level enterprise promotional case study detailing internal ChatGPT Enterprise adoption without technical architecture details.",
+  "points": [
+   "Covers non-technical enterprise adoption metrics for ChatGPT Enterprise at a insurance cooperative."
+  ]
+ },
+ "bda7c0b06fced109": {
+  "feed": "Railway Blog",
+  "title": "Hackathon: Winners Announced!",
+  "link": "https://blog.railway.com/p/hackathon-2025-winners",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Platform hackathon announcement showcasing user side-projects.",
+  "points": [
+   "Announces Railway hackathon winners across infrastructure template and content categories."
+  ]
+ },
+ "c18ed6d2922a3174": {
+  "feed": "Railway Blog",
+  "title": "Mark Your Calendar: Railway User Hackathon with Prizes",
+  "link": "https://blog.railway.com/p/railway-hackathon-2025",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Marketing announcement soliciting community hackathon participation.",
+  "points": [
+   "Outlines schedule, submission rules, and cash prize details for Railway's user hackathon."
+  ]
+ },
+ "87872b3e78de9f65": {
+  "feed": "Railway Blog",
+  "title": "Launching Railway's Affiliate Program",
+  "link": "https://blog.railway.com/p/launching-affiliate-program",
+  "date": "2026-07-31",
+  "tier": "low_priority",
+  "why": "Product marketing announcement regarding Railway's creator affiliate commission program.",
+  "points": [
+   "Introduces a 15% 12-month referral program for developer content creators on Railway."
+  ]
+ },
+ "b8f07a6936907849": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: June 6th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-june-6-2025",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "High-value backend reliability war story dissecting DB connection exhaustion, websocket thundering herds, and third-party rate limits.",
+  "points": [
+   "High database load triggered circuit breakers, driving aggressive client websocket reconnects that bypassed WAF rules.",
+   "Flooded login pages exhausted GitHub OAuth rate limits, causing cascading authentication lockouts across all users."
+  ]
+ },
+ "918b6bbe7181a10e": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: April 30th, 2025",
+  "link": "https://blog.railway.com/p/incident-report-april-30-2025",
+  "date": "2026-07-31",
+  "tier": "must_read",
+  "why": "Detailed infrastructure postmortem examining Kubernetes crash loops, faulty health checks, and service mesh DB pooling issues under 5x scale.",
+  "points": [
+   "Rapid 5x user growth exposed unoptimized SQL queries and service mesh latency bottlenecks in database proxies.",
+   "Misconfigured health checks allowed failing Kubernetes pods to report as healthy, creating continuous crash loops during rollout."
+  ]
  }
 }

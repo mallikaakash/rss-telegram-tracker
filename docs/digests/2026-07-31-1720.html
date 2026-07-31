@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Fri 31 Jul 2026, 17:20 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Fri 31 Jul 2026, 17:20 IST &middot; 11 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Must-read Railway incident postmortems reveal critical backend failure modes under high load, alongside latency debugging insights and DeepSeek V4 benchmark analyses.</div><div class="section">Must read &middot; 4</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://artificialanalysis.ai/models/deepseek-v4-flash-ga">DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis</a></h2><div class="why">Analyzing DeepSeek V4 Flash performance and pricing is directly relevant for understanding competitive LLM efficiency and serving economics.</div><ul><li>Provides competitive intelligence, latency, and cost tradeoffs for DeepSeek V4 Flash compared to frontier models.</li><li>Offers key benchmarking data for selecting cost-effective LLM models for production inference workloads.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://fzakaria.com/2026/07/27/the-mean-means-nothing">The mean means nothing: data visualization to debug a latency problem</a></h2><div class="why">Essential performance engineering guide on debugging latency using distributions and CDFs instead of misleading scalar summaries like mean or p99.</div><ul><li>Mean latency can mask improvements, while p50 and p99 metrics can move in opposite directions on bimodal distributions.</li><li>Plotting density curves and Cumulative Distribution Functions (CDFs) reveals true performance characteristics during service rollouts.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/incident-report-june-6-2025">Incident Report: June 6th, 2025</a></h2><div class="why">High-value backend reliability war story dissecting DB connection exhaustion, websocket thundering herds, and third-party rate limits.</div><ul><li>High database load triggered circuit breakers, driving aggressive client websocket reconnects that bypassed WAF rules.</li><li>Flooded login pages exhausted GitHub OAuth rate limits, causing cascading authentication lockouts across all users.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/incident-report-april-30-2025">Incident Report: April 30th, 2025</a></h2><div class="why">Detailed infrastructure postmortem examining Kubernetes crash loops, faulty health checks, and service mesh DB pooling issues under 5x scale.</div><ul><li>Rapid 5x user growth exposed unoptimized SQL queries and service mesh latency bottlenecks in database proxies.</li><li>Misconfigured health checks allowed failing Kubernetes pods to report as healthy, creating continuous crash loops during rollout.</li></ul></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://blog.google/security/chrome-stronger-with-every-update/">Google fixed more Chrome bugs in June than over the past two years, thanks to AI</a></h2><div class="why">Demonstrates real-world applied LLM agent harnesses operating on large production C++ codebases for vulnerability research.</div><ul><li>Google combined LLMs with specialized fuzzing tools to discover long-standing C++ sandbox escapes in Chrome.</li><li>Multi-model interoperability and custom knowledge bases reduced false positives in automated security analysis.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://graybeard.ing/the-religion-of-speed/">The Religion of Speed</a></h2><div class="why">Thought-provoking commentary on engineering culture, distinguishing superficial velocity from true execution speed rooted in system comprehension.</div><ul><li>Rushing through requirement and design phases creates unexamined technical debt that costs far more during cleanup.</li><li>True execution speed requires clear constraints and clean decision-making rather than continuous re-litigation.</li></ul></div><div class="section">Low priority &middot; 5</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.engadget.com/2220571/differences-between-imax-70mm/">IMAX vs. IMAX 70mm: The difference between these two cinema formats</a></h2><div class="why">Off-topic consumer guide explaining theatrical movie projection formats.</div><ul><li>Explains technical specs of 70mm 15/70 film projection versus digital theater systems.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/unive">Univé builds an AI-ready workforce</a></h2><div class="why">High-level enterprise promotional case study detailing internal ChatGPT Enterprise adoption without technical architecture details.</div><ul><li>Covers non-technical enterprise adoption metrics for ChatGPT Enterprise at a insurance cooperative.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/hackathon-2025-winners">Hackathon: Winners Announced!</a></h2><div class="why">Platform hackathon announcement showcasing user side-projects.</div><ul><li>Announces Railway hackathon winners across infrastructure template and content categories.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/railway-hackathon-2025">Mark Your Calendar: Railway User Hackathon with Prizes</a></h2><div class="why">Marketing announcement soliciting community hackathon participation.</div><ul><li>Outlines schedule, submission rules, and cash prize details for Railway&#x27;s user hackathon.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/launching-affiliate-program">Launching Railway&#x27;s Affiliate Program</a></h2><div class="why">Product marketing announcement regarding Railway&#x27;s creator affiliate commission program.</div><ul><li>Introduces a 15% 12-month referral program for developer content creators on Railway.</li></ul></div></body></html>
