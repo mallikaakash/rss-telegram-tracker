@@ -42068,5 +42068,189 @@
   "points": [
    "Overview of Railway's product engineering team structure, culture, and stack tools like Nixpacks and ClickHouse."
   ]
+ },
+ "285bc67df401f1e2": {
+  "feed": "YC Hacker News",
+  "title": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
+  "link": "https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Focuses on international cybercrime policy and surveillance treaties rather than ML or backend engineering.",
+  "points": [
+   "Canada signed the UN Cybercrime Convention despite concerns over cross-border surveillance powers."
+  ]
+ },
+ "b69d7e249e2fd172": {
+  "feed": "YC Hacker News",
+  "title": "RipGrep musl binaries occasionally segfault during very-large searches",
+  "link": "https://github.com/BurntSushi/ripgrep/issues/3494",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "It is a raw GitHub issue report regarding musl segfaults in ripgrep rather than an architecture deep-dive.",
+  "points": [
+   "Ripgrep musl binaries occasionally experience segfaults on x86_64 during very large search operations."
+  ]
+ },
+ "080a2fa82eee3307": {
+  "feed": "YC Hacker News",
+  "title": "How to Spot AI Writing",
+  "link": "https://www.economist.com/culture/2026/07/30/how-to-spot-ai-writing",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Contains no substantive engineering content or technical text.",
+  "points": [
+   "Post contains no article text."
+  ]
+ },
+ "546620fcf44df8a4": {
+  "feed": "YC Hacker News",
+  "title": "Linux on ESP32",
+  "link": "https://github.com/GrieferPig/esp32-s31-linux",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Interesting low-level systems project porting MMU Linux to an ESP32 microcontroller, though outside core backend/ML priorities.",
+  "points": [
+   "Ports full MMU Linux and OpenSBI to the ESP32-S31 RISC-V microcontroller.",
+   "Uses Buildroot to construct custom embedded root filesystems."
+  ]
+ },
+ "228b2fca4f45a4fa": {
+  "feed": "YC Hacker News",
+  "title": "Astro Loop",
+  "link": "https://pubdeer.com/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Post is a promotion for an open-source Android mobile game.",
+  "points": [
+   "Astro Loop is an open-source, privacy-focused Android roguelike shooter built without network permissions."
+  ]
+ },
+ "9a9a3a92c75491a6": {
+  "feed": "Technica",
+  "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
+  "link": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "High-level business news regarding Reddit earnings and search traffic rather than technical ML/infra content.",
+  "points": [
+   "Reddit's CEO criticized Google's AI Overviews for impacting search referral dynamics during earnings commentary."
+  ]
+ },
+ "941a4bcb57e81c4f": {
+  "feed": "OpenAI News",
+  "title": "Cyber threat actors: AI-assisted intrusion research",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Practical case study on how threat actors leverage LLMs for vulnerability research, payload obfuscation, and code debugging.",
+  "points": [
+   "DPRK threat actors used ChatGPT for debugging RDP brute-force clients and discovering unknown MacOS staging URLs.",
+   "OpenAI mapped actor prompts against MITRE ATT&CK extensions for LLM-assisted cyber intrusions."
+  ]
+ },
+ "7d51e7b59c413b82": {
+  "feed": "OpenAI News",
+  "title": "Iranian influence nexus: Cross-platform activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Non-technical threat intelligence report on state-sponsored political influence operations.",
+  "points": [
+   "OpenAI banned Iran-linked accounts generating social posts and long-form political articles for foreign websites."
+  ]
+ },
+ "fb1f7a6f71ca01e7": {
+  "feed": "OpenAI News",
+  "title": "Romance-baiting scam: AI-assisted pig butchering workflows",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Threat intelligence recap on AI-driven romance scams without backend or ML infrastructure insights.",
+  "points": [
+   "Cambodia-based scam operations used ChatGPT to translate and script multi-lingual social media romance baiting."
+  ]
+ },
+ "c8a3b2b985a8d77c": {
+  "feed": "OpenAI News",
+  "title": "Operation “Sponsored Discontent”: Influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Report on state-backed propaganda campaigns using AI content generation.",
+  "points": [
+   "China-linked accounts used ChatGPT to translate and publish sponsored news articles in Latin American outlets."
+  ]
+ },
+ "eb3231c265ab9c40": {
+  "feed": "OpenAI News",
+  "title": "Corrupt Comment: Anti-corruption foundation criticism",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Brief threat report covering automated social media comment spam targeting political activists.",
+  "points": [
+   "OpenAI shut down API access for a Russian operation generating low-engagement X replies against anti-corruption activists."
+  ]
+ },
+ "4ae092359c5d4ee3": {
+  "feed": "Railway Blog",
+  "title": "Visualizing Financial Markets with Main Street Data",
+  "link": "https://blog.railway.com/p/julian-matos-main-street-data",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Standard customer success story and marketing post for a cloud hosting platform.",
+  "points": [
+   "Main Street Data uses Railway to ingest and visualize financial KPIs within seconds of earnings releases."
+  ]
+ },
+ "c60833ae6f25e0ee": {
+  "feed": "Railway Blog",
+  "title": "Writing Software for the Browser with Drifting in Space",
+  "link": "https://blog.railway.com/p/drifting-in-space",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Insightful discussion on browser platform evolution, WebGPU/Wasm performance, and real-time state synchronization via CRDTs.",
+  "points": [
+   "Explores how modern browser APIs like WebGPU, WebAssembly, and WebTransport reduce the gap with native software.",
+   "Covers Y-Sweet and Jamsocket for managing Yjs CRDTs and WebSocket session backends."
+  ]
+ },
+ "5904696b62b0e117": {
+  "feed": "Railway Blog",
+  "title": "Team Spotlight: Infrastructure Engineering",
+  "link": "https://blog.railway.com/p/team-spotlight-infrastructure-engineering",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "Exceptional backend deep-dive into building a custom multi-tenant orchestrator, eBPF/Wireguard overlay network, and edge proxies.",
+  "points": [
+   "Railway built a custom multi-tenant orchestrator from scratch to handle over 10 million user deployments instead of using Kubernetes.",
+   "Replaced Envoy with a custom L4/L7 edge proxy and designed an eBPF/Wireguard IPv6 mesh network for tenant isolation.",
+   "Implemented an L3 socket activation server to sleep and wake serverless instances seamlessly without packet loss."
+  ]
+ },
+ "bec2016cb50aad96": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: January 31st, 2024",
+  "link": "https://blog.railway.com/p/2024-01-31-incident-report",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "High-value post-mortem war story detailing how an infra engineering team mitigated a massive 12 million RPS L4 DDoS attack.",
+  "points": [
+   "Railway successfully mitigated a peak 12M RPS L4 TCP SYN flood DDoS attack targeted at European edge proxies.",
+   "Detailed the isolation strategy required to separate hostile botnet traffic from legitimate tenant connections.",
+   "Outlines infrastructure improvements implemented to bolster edge routing and prevent cascading proxy overloads."
+  ]
+ },
+ "b650e2260e9f41d8": {
+  "feed": "Railway Blog",
+  "title": "Support Engineering Is Engineering",
+  "link": "https://blog.railway.com/p/support-engineering-is-engineering",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Thoughtful career and operational perspective on treating support systems and feedback loops as engineering problems.",
+  "points": [
+   "Treats support requests as uncaught exceptions in product design to systematically eliminate recurring user issues.",
+   "Integrates full-stack engineers into a weekly support rotation to direct engineering leverage toward UX friction."
+  ]
  }
 }
