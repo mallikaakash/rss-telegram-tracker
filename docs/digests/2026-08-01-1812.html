@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sat 01 Aug 2026, 18:12 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sat 01 Aug 2026, 18:12 IST &middot; 16 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Top read is SQLiteAI&#x27;s NVMe weight-streaming for 2.78T LLM inference in 29GB RAM, alongside Railway&#x27;s deep dive into zero-downtime envelope encryption.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/sqliteai/waste">Run Kimi K3 using 29 GB of RAM at 0.50 tok/s</a></h2><div class="why">Presents a novel LLM inference engineering technique for running massive multi-trillion parameter models by streaming activated weights directly from NVMe.</div><ul><li>Runs the 2.78-trillion parameter Kimi K3 model using only 29 GB of RAM at 0.50 tokens/sec.</li><li>Employs a dependency-free, embeddable C inference engine (`waste`) that streams weights on demand from NVMe storage.</li><li>Demonstrates an extreme offloading memory architecture to serve gargantuan LLMs without massive GPU VRAM pools.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/envelope-encryption">Upgrading 3 Million Variables to Envelope Encryption</a></h2><div class="why">A high-quality infrastructure engineering deep-dive on eliminating cloud vendor API bottlenecks and executing a zero-downtime secret encryption migration.</div><ul><li>Eliminated severe network latency (~20ms per variable) and GCP KMS quota exhaustion during large batch deployments.</li><li>Adopted envelope encryption using local Data Encryption Keys (DEKs) wrapped by KMS Key Encryption Keys (KEKs).</li><li>Migrated 3 million production environment variables without downtime while removing a single-provider cloud dependency.</li></ul></div><div class="section">Worth a skim &middot; 5</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://gmic.eu/gmic40/">G&#x27;mic 4.0: Squaring the Pixel, Easier</a></h2><div class="why">Covers a major release of a long-standing C++ open-source image processing framework, offering general algorithmic interest.</div><ul><li>G&#x27;MIC 4.0 stabilizes its custom scripting language core and CImg C++ backend.</li><li>Features over 640 image processing filters integrated across Qt, CLI, and web interfaces.</li><li>Reflects a project maturity shift focusing on runtime stability and performance optimization.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus">Operation “VAGue Focus”: Social engineering and influence activity</a></h2><div class="why">Examines a real-world case study on how threat actors operationalize LLM completions for social engineering and covert influence campaigns.</div><ul><li>OpenAI banned accounts using ChatGPT to draft covert social media personas and translate outreach messages.</li><li>Threat actors used LLM completions to support intelligence collection fronts posing as news and advisory firms.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme">Deceptive Employment Scheme: AI-assisted hiring deception</a></h2><div class="why">Offers an insightful security case study on how bad actors leverage LLMs to game technical hiring processes and generate code.</div><ul><li>North Korea-linked actors used ChatGPT to tailor resumes, generate technical interview responses, and write production code.</li><li>Demonstrates how remote worker schemes use AI tools to bypass identity verification and complete daily engineering tasks.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/building-railway-on-railway">Building Railway on Railway</a></h2><div class="why">A solid backend architecture case study on dogfooding internal platform services into a unified open-source production deployment.</div><ul><li>Consolidated separate docs, blog, and forum microservices into a single open-source Railway project.</li><li>Implemented visual Service Groups and multi-environment syncing to streamline complex multi-service architectures.</li><li>Identified practical production gaps including PR preview controls and editor collision prevention.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/scale-not-sales">Scale Not Sales: Automating Revenue So Graph Go Up</a></h2><div class="why">Offers practical insights for founding engineers on automating usage-based revenue modeling without traditional sales friction.</div><ul><li>Built a custom regression model to analyze developer product usage signals and predict upgrades or churn.</li><li>Enforced paid compute usage from day one while removing contact forms and enterprise sales barriers.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.ycombinator.com/companies/kontigo/jobs/xAo6tMt-founding-engineer">Kontigo (YC S24) Is Hiring</a></h2><div class="why">It is a standard startup job posting for a full-stack and crypto role with no technical engineering depth.</div><ul><li>YC job ad for a Founding Engineer at a crypto neobank.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://ephemeralnewyork.wordpress.com/2026/07/27/hidden-by-billboards-for-over-100-years-the-tiny-holdout-building-in-the-middle-of-macys-is-back-in-view/">A tiny holdout building in the middle of Macy’s is back in view</a></h2><div class="why">It is a local historical article about NYC retail real estate holdouts, entirely unrelated to software or ML engineering.</div><ul><li>Historical overview of the NYC Herald Square holdout structure inside Macy&#x27;s flagship store.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://type.today/en/journal/dots">Manual: •.,:;?·</a></h2><div class="why">Provides a typography design guide on basic punctuation glyphs, which is outside core backend and ML engineering topics.</div><ul><li>Explores design, sidebearings, and regional formatting rules for periods and commas in typography.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/">After noise complaints, judge orders Waymo to stop overnight charging in Santa Monica</a></h2><div class="why">Covers municipal legal rulings on autonomous vehicle charging hub noise complaints rather than engineering topics.</div><ul><li>Court orders Waymo to cease overnight fleet charging in Santa Monica following local noise complaints.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review">Operation “Peer Review”: AI-assisted surveillance planning</a></h2><div class="why">Summarizes basic research and pitch-drafting usage by threat actors with minimal technical depth.</div><ul><li>Banned ChatGPT accounts that drafted sales pitches for public opinion monitoring tools and conducted basic political research.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam">Task scam: AI-assisted fake review jobs</a></h2><div class="why">Details low-sophistication translation usage for messaging scams without technical engineering value.</div><ul><li>OpenAI disrupted accounts translating chat messages between Urdu and English for fake-review job scams.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election">Covert influence operation: Ghana election activity</a></h2><div class="why">Covers routine automated text generation for political election spam, lacking novel technical or infrastructure insights.</div><ul><li>Banned accounts that generated bulk articles and pro-candidate social media comments during Ghana&#x27;s presidential election.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/zeno-rocha-resend">How Resend is Building a New Kind of Email Platform for Developers</a></h2><div class="why">A high-level founder interview focusing on product direction and marketing rather than technical infrastructure details.</div><ul><li>Resend discusses its evolution from transactional email APIs toward developer-first marketing broadcasts.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/team-spotlight-product-engineering">Team Spotlight: Product Engineering</a></h2><div class="why">An internal recruiting spotlight focused on team culture and working style rather than technical engineering content.</div><ul><li>Overview of Railway&#x27;s product engineering team structure, culture, and stack tools like Nixpacks and ClickHouse.</li></ul></div></body></html>
