@@ -41686,5 +41686,200 @@
   "points": [
    "Overview of ShipAid's business model and standard React/Node tech stack for Shopify merchants."
   ]
+ },
+ "3111de57b2e6d15f": {
+  "feed": "YC Hacker News",
+  "title": "AI doesn't generate working products, that's still your job",
+  "link": "https://weeraman.com/the-prototype-isnt-the-product/",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Offers a grounded perspective on why AI-generated code does not eliminate the need for system design judgment and computer science fundamentals.",
+  "points": [
+   "Prototypes are trivial to generate, but production-grade software still requires intentional architecture for scale, security, and edge cases.",
+   "Deep CS knowledge remains critical for catching severe issues like full table scans, race conditions, and poor caching in model-generated code."
+  ]
+ },
+ "5af9ccb8c28f4492": {
+  "feed": "YC Hacker News",
+  "title": "RamenHaus",
+  "link": "https://ramen.haus/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A non-technical personal blog showcasing food photography with no relevance to software engineering or ML.",
+  "points": [
+   "A minimalist website showcasing photos of rotating ramen bowls in Japan."
+  ]
+ },
+ "c781a8764af155eb": {
+  "feed": "YC Hacker News",
+  "title": "How to Do Great Work",
+  "link": "https://paulgraham.com/greatwork.html",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Paul Graham's classic essay offering useful career frameworks for identifying ambitious projects and cultivating deep technical curiosity.",
+  "points": [
+   "Great work occurs at the intersection of natural aptitude, deep interest, and ambitious scope.",
+   "Frontiers of knowledge appear smooth from afar but contain fractal gaps that are discovered by asking unconventional questions."
+  ]
+ },
+ "407e8c91b4fa421a": {
+  "feed": "YC Hacker News",
+  "title": "Solid Queue 1.6.0 now supports fiber workers",
+  "link": "https://github.com/rails/solid_queue/releases/tag/v1.6.0",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Relevant engineering update on backend concurrency patterns, shifting from thread pools to fiber reactors in job processing.",
+  "points": [
+   "Solid Queue 1.6.0 introduces fiber execution mode powered by Ruby's Async reactor.",
+   "Replaces multi-threaded worker pools with single-threaded fiber event loops to improve job concurrency and resource efficiency."
+  ]
+ },
+ "6727ced88c9da78b": {
+  "feed": "YC Hacker News",
+  "title": "EU will mandate labels on authentic-looking AI content starting August 2",
+  "link": "https://www.engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A high-level overview of EU AI labeling regulations without technical implementation details.",
+  "points": [
+   "The EU AI Act mandates digital watermarks and labels on authentic-looking AI-generated media starting August 2."
+  ]
+ },
+ "a89848ab1bf90d5f": {
+  "feed": "Technica",
+  "title": "Defcon's new badge is a security key you can see inside",
+  "link": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Focuses on hardware hacking and open-source silicon design rather than backend software or ML infrastructure.",
+  "points": [
+   "Defcon's official hardware badge features an open-source security chip designed by Andrew 'bunnie' Huang."
+  ]
+ },
+ "ed0043329eaafa43": {
+  "feed": "Technica",
+  "title": "How fruit flies chase invisible ribbons of smell to get to their source",
+  "link": "https://arstechnica.com/science/2026/08/how-fruit-flies-chase-invisible-ribbons-of-smell-to-get-to-their-source/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Neuroscience research on biological fly navigation lacking direct computer science or ML applications.",
+  "points": [
+   "Fruit flies track turbulent odor streams using dynamic internal brain representations rather than simple reflex loops."
+  ]
+ },
+ "880ce1f1931015c1": {
+  "feed": "OpenAI News",
+  "title": "Operation “High Five”: Philippines political comments",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-high-five",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "An OpenAI threat intelligence report summarizing low-sophistication social media influence campaigns.",
+  "points": [
+   "OpenAI removed ChatGPT accounts used by a marketing agency to generate short political comments in the Philippines."
+  ]
+ },
+ "982b29288ceb8047": {
+  "feed": "OpenAI News",
+  "title": "Operation “Helgoland Bite”: German-language influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A geopolitical AI safety writeup detailing state-backed social media manipulation.",
+  "points": [
+   "OpenAI disrupted Russian-linked accounts generating propaganda for German social media channels."
+  ]
+ },
+ "14a128ef38bf5856": {
+  "feed": "OpenAI News",
+  "title": "Deceptive Employment Scheme: IT worker activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A threat intel report on job application fraud with minimal technical depth for backend engineers.",
+  "points": [
+   "North Korea-linked actors utilized LLMs to automate resume generation and manage remote job access hardware."
+  ]
+ },
+ "67ab36c524a6efd4": {
+  "feed": "OpenAI News",
+  "title": "Operation “ScopeCreep”: Russian-speaking malware development",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A basic cyber abuse report showing low-level LLM usage for debugging malware.",
+  "points": [
+   "A threat actor used isolated ChatGPT sessions to iteratively develop Windows malware loaders and bypass AV checks."
+  ]
+ },
+ "0b8561ecadcf7479": {
+  "feed": "OpenAI News",
+  "title": "Vixen and Keyhole Panda: China-linked cyber operations",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A high-level threat report covering state-sponsored actors using AI for standard scripting and open-source intelligence.",
+  "points": [
+   "PRC-attributed hackers used ChatGPT to write basic reconnaissance scripts, modify Docker setups, and troubleshoot VPNs."
+  ]
+ },
+ "474a02d8451eabf4": {
+  "feed": "Railway Blog",
+  "title": "Writing a New Story at the Intersection of Art and Technology",
+  "link": "https://blog.railway.com/p/storyboarder-ai",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A promotional customer interview showcasing a web application built on Railway.",
+  "points": [
+   "Storyboarder.ai uses LLMs and image generation models to turn screenplays into visual film storyboards."
+  ]
+ },
+ "999e493524c61fb7": {
+  "feed": "Railway Blog",
+  "title": "Watching TV with Marathon",
+  "link": "https://blog.railway.com/p/marathon-tv-app",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "A non-technical product feature interview about a consumer social tracking app.",
+  "points": [
+   "Marathon is a community tracking app for television shows hosted on Railway's cloud infrastructure."
+  ]
+ },
+ "50230d21a9a9351c": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: June 11th, 2024",
+  "link": "https://blog.railway.com/p/2024-06-11-incident-report",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "An exceptional cloud infrastructure post-mortem analyzing fleet-wide IO saturation, scheduling loops, and queue hot paths.",
+  "points": [
+   "A host migration workflow triggered high-frequency status file reads across node disks concurrently with standard deployment queues.",
+   "Status check latencies caused placement engine retries to cascade across global deployment pipelines, amplifying IO locks.",
+   "Mitigated by throttling host migrations, pausing free-tier scheduling, and resolving private networking startup bugs."
+  ]
+ },
+ "c425c4d1ba98f71d": {
+  "feed": "Railway Blog",
+  "title": "How We Work (Volume III)",
+  "link": "https://blog.railway.com/p/how-we-work-volume-iii",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "A valuable look at engineering leverage, autonomous team structures, and operating philosophy inside an infrastructure startup.",
+  "points": [
+   "Railway operates a global cloud platform for 650k+ users with a lean team of ~20 engineers by maximizing high-leverage autonomy.",
+   "Teams operate without top-down task management, prioritizing P0/P1 business goals autonomously."
+  ]
+ },
+ "6ccaaaeba1aab793": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: May 4th, 2024",
+  "link": "https://blog.railway.com/p/2024-05-04-incident-report",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "A crucial production post-mortem detailing container memory isolation failure, swap exhaustion, and kernel soft-locks.",
+  "points": [
+   "A single user workload bypassed memory limits, consuming over 95% of node host memory and triggering severe swap thrashing.",
+   "The host node entered an unrecoverable kernel soft-lock state, requiring a full node restart and a 30-minute image graph rebuild.",
+   "Underscores critical failure modes in container multi-tenancy, swap configuration, and cgroup enforcement under heavy load."
+  ]
  }
 }
