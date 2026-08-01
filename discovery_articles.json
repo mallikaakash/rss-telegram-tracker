@@ -1417,5 +1417,77 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "f5b6427c13a29ba1": {
+  "url": "https://codepointer.substack.com/p/how-kimi-k3-engineered-its-way-to",
+  "title": "How Kimi K3 Engineered Its Way to the Frontier",
+  "domain": "codepointer.substack.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-01",
+  "tier": "solid_find",
+  "why": "Detailed breakdown of Kimi K3's architecture and associated custom infrastructure components like FlashKDA and MoonEP.",
+  "points": [
+   "Analyzes Kimi K3's 2.78T parameter MoE design with 104B activated parameters per token and a 1M context window.",
+   "Highlights open-source CUTLASS kernels in FlashKDA designed for Kimi Delta Attention.",
+   "Details large-scale agentic RL execution across 51 million microVM sandboxes enabled by training compute savings."
+  ]
+ },
+ "1193e2eba40df03f": {
+  "url": "https://happyrock.cloud/blog/2026-07-30_moonshot_ai_transformer_foundation_rebuild_deep_dive_moonshadow_optimizer_kda_linear_attention_attention_residuals_en/",
+  "title": "Moonshot AI Transformer Foundation Rebuild Deep Dive: MoonShadow Optimizer, KDA Linear Attention, and Attention Residuals Reshape LLM Training | HappyRock",
+  "domain": "happyrock.cloud",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-01",
+  "tier": "hidden_gem",
+  "why": "Deep technical analysis detailing Moonshot AI's core Transformer rebuild involving MoonShadow optimizer, KDA linear attention, and Attention Residuals.",
+  "points": [
+   "Replaces standard Adam and residual connections with MoonShadow and Attention Residuals to achieve a 2.5x scaling efficiency gain at 2.8T scale.",
+   "Overhauls standard Transformer primitives to overcome default hardware and scaling constraints during 1M context training.",
+   "Includes implementation details and runnable code for KDA linear attention and modified residual layers."
+  ]
+ },
+ "d0054e50ea7e8e20": {
+  "url": "https://developer.nvidia.com/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/",
+  "title": "Kernel Fusion in NVIDIA CUDA: Optimizing Memory Traffic and Launch Overhead | NVIDIA Technical Blog",
+  "domain": "developer.nvidia.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-01",
+  "tier": "skip",
+  "why": "Standard vendor technical blog post explaining foundational GPU concepts like kernel fusion and CUDA Graphs without novel insights.",
+  "points": []
+ },
+ "3d115551604445a5": {
+  "url": "https://www.alphaxiv.org/abs/2607.16100",
+  "title": "Every Microsecond Matters: Achieving Near Speed-of-Light Latency in GPU Collectives | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-01",
+  "tier": "hidden_gem",
+  "why": "Rigorous systems paper introducing barrier-free symmetric NCCL collectives that achieve within 7% of theoretical hardware Speed-of-Light latency.",
+  "points": [
+   "Presents barrier-free synchronization and symmetric memory mechanisms built on NCCL device-side APIs.",
+   "Reduces small and medium payload communication overhead to within 7% of physical hardware lower bounds.",
+   "Demonstrates concrete throughput and inter-token latency improvements for long-context LLM decode steps."
+  ]
+ },
+ "b8ca3de7ef102b02": {
+  "url": "https://ai-solutions.wiki/guides/distributed-training-fsdp-deepspeed/",
+  "title": "Distributed Training: FSDP, DeepSpeed, and Parallelism | AI Solutions Wiki",
+  "domain": "ai-solutions.wiki",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-01",
+  "tier": "skip",
+  "why": "Generic educational wiki guide explaining standard distributed training concepts and memory math.",
+  "points": []
+ },
+ "e1d7b33cc158c587": {
+  "url": "https://deepwiki.com/mirage-project/mirage/3.1-architecture-and-design",
+  "title": "Architecture and Design | mirage-project/mirage | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-01",
+  "tier": "skip",
+  "why": "Auto-generated documentation index page lacking substantive technical explanations or original findings.",
+  "points": []
  }
 }
