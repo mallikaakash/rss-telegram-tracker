@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sat 01 Aug 2026, 22:10 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sat 01 Aug 2026, 22:10 IST &middot; 16 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Railway&#x27;s infrastructure war stories and logging/scale-to-zero architecture lead this batch alongside Postgres template cloning performance benchmarks for database testing.</div><div class="section">Must read &middot; 5</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://brandur.org/fragments/pgtestdb">Pgtestdb&#x27;s template cloning approach to testing is fast</a></h2><div class="why">An excellent backend performance deep-dive comparing Postgres database template cloning against schema migration for fast test suites.</div><ul><li>`CREATE DATABASE TEMPLATE` clones Postgres databases in 8kB page chunks in ~100ms, matching schema creation speed.</li><li>Schema isolation allows pooling and reusing dirty test schemas, yielding a 3.5x wall-time speedup over full DB template recreation.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/gcp-incidents">Not Everything Is Google’s Fault (Just Most Things)</a></h2><div class="why">Crucial infrastructure war story detailing Railway&#x27;s operational issues with GCP and their technical decision to migrate to bare metal.</div><ul><li>Railway built custom eBPF/Wireguard networking and container registries to bypass recurring GCP product instability and arbitrary quota throttles.</li><li>Diagnosed rare kernel softlocks on GCP guest VMs caused by heavy userspace-to-kernel memory transfers under resource pressure.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/2023-12-01-incident-report">Incident Report: Dec 1st, 2023</a></h2><div class="why">Valuable systems performance incident report detailing CPU soft locks triggered by kernel-userspace memory transfers.</div><ul><li>A misconfigured metrics collection agent high-frequency sampled processes, driving massive userspace-kernel memory transfers.</li><li>The memory transfer pattern triggered cascading CPU core softlocks on GCP hypervisors across 30% of US-West hosts despite low resource utilization.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/launch-week-01-observability">Our New Observability Platform for 100B Logs</a></h2><div class="why">Deep technical engineering post on scaling logging infrastructure to 1 billion events per day and 100 billion total logs.</div><ul><li>Replaced single-process Go log filtering and filesystem storage to handle 1B logs/day and 60 queries/sec across environments.</li><li>Shifted away from Docker daemon polling to avoid host overhead, enabling cross-service log filtering and structured metadata searches.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/launch-week-01-scale-to-zero">Do Apps Dream of Electric Sheep?</a></h2><div class="why">Practical systems engineering dive into building scale-to-zero for apps and databases using Linux networking primitives.</div><ul><li>Uses Envoy proxies at the edge paired with Linux `nftables` and network namespaces to inspect traffic and auto-wake stopped containers.</li><li>Applies scale-to-zero capabilities to stateful database containers while preserving network state and IP routing.</li></ul></div><div class="section">Worth a skim &middot; 4</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://nostarch.com/art-64-bit-assembly-v2">The Art of 64-bit Assembly</a></h2><div class="why">Offers low-level assembly deep-dives into concurrency primitives, vtables, and fibers on x86-64, though focused on Windows MASM.</div><ul><li>Covers instruction-level implementations of OOP vtables, C++ exceptions (SEH), and coroutines/fibers directly in MASM.</li><li>Explores concurrent programming primitives directly in 64-bit assembly without high-level runtime abstractions.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://forum.cursor.com/t/usage-page-to-token-amount-what/167153">Cursor removed cost information from the usage page and CSV export</a></h2><div class="why">Relevant for tracking developer tooling costs, detailing Cursor&#x27;s UI shift from dollar spending to raw token metrics.</div><ul><li>Cursor replaced dollar-amount cost tracking on individual usage dashboards with token counts, masking per-request costs.</li><li>On-demand spending dollar figures are now only accessible via the high-level Spending tab or CSV export.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://lalitm.com/post/github-alternatives/">GitHub has alternatives, but no replacement</a></h2><div class="why">Provides senior backend engineering perspectives on platform network effects, stacked PR limitations on GitHub, and code discovery.</div><ul><li>Self-hosted Git platforms fail as universal GitHub replacements due to missing shared social identity and project discovery layers.</li><li>GitHub&#x27;s core forge experience is degrading with buggy stacked PR support and UI slowness while prioritizing Copilot features.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/2023-12-13-incident-report">Incident Report: Dec 13th, 2023</a></h2><div class="why">Infrastructure postmortem analyzing how GKE metadata server rate-limiting broke secret encryption during deployment spikes.</div><ul><li>A known GKE v1.25 metadata server pod bug caused extreme latency on secret encryption/decryption under heavy deployment load.</li><li>Mitigated by replacing dynamic GKE metadata key fetching with statically assigned encrypted keys to unblock new deploys.</li></ul></div><div class="section">Low priority &middot; 7</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html">Charlie Stross – On the non-use of AI in my writing process</a></h2><div class="why">This post contains no content or technical text.</div><ul><li>Empty post with no body text to evaluate.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/">Review: Yes, we&#x27;re still arguing about Nolan&#x27;s The Odyssey</a></h2><div class="why">Film review of Christopher Nolan&#x27;s movie with zero engineering relevance.</div><ul><li>Movie review discussing cinematic scale and Odysseus&#x27;s character adaptation.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report">Tort Report: Abusive reporting activity</a></h2><div class="why">Non-technical OpenAI abuse report on low-impact Vietnamese social media reporting spam.</div><ul><li>Banned accounts using LLM completions to draft generic social media reporting text against Vietnamese media outlets.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content">Rwandan election content: Political commenting network</a></h2><div class="why">Case study on social media comment spam with no machine learning infrastructure insights.</div><ul><li>Disrupted a high-volume Rwandan election comment spam network leveraging ChatGPT API for hashtag amplification on X.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot">Bet Bot: Gambling spam network</a></h2><div class="why">Product abuse case study regarding automated gambling spam bots on X.</div><ul><li>Banned an API-driven network generating sports persona bios and replies on X to direct traffic to gambling websites.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024">Operation “STORM-2035”: Iran-origin influence activity</a></h2><div class="why">Generic political influence operation write-up focused on content moderation rather than systems engineering.</div><ul><li>Banned an Iranian network (STORM-2035) using ChatGPT for US/UK election articles and comment generation across fake news sites.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-a2z">Operation “A2Z”: Multilingual influence activity</a></h2><div class="why">Overview of social media bot networks with no systems or ML engineering value.</div><ul><li>Disrupted 150+ social media accounts using OpenAI APIs to generate pro-Azerbaijan comments and automated images.</li></ul></div></body></html>

@@ -42252,5 +42252,190 @@
    "Treats support requests as uncaught exceptions in product design to systematically eliminate recurring user issues.",
    "Integrates full-stack engineers into a weekly support rotation to direct engineering leverage toward UX friction."
   ]
+ },
+ "eb571f6fbf22dc3d": {
+  "feed": "YC Hacker News",
+  "title": "The Art of 64-bit Assembly",
+  "link": "https://nostarch.com/art-64-bit-assembly-v2",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Offers low-level assembly deep-dives into concurrency primitives, vtables, and fibers on x86-64, though focused on Windows MASM.",
+  "points": [
+   "Covers instruction-level implementations of OOP vtables, C++ exceptions (SEH), and coroutines/fibers directly in MASM.",
+   "Explores concurrent programming primitives directly in 64-bit assembly without high-level runtime abstractions."
+  ]
+ },
+ "4d5fae1924874425": {
+  "feed": "YC Hacker News",
+  "title": "Cursor removed cost information from the usage page and CSV export",
+  "link": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Relevant for tracking developer tooling costs, detailing Cursor's UI shift from dollar spending to raw token metrics.",
+  "points": [
+   "Cursor replaced dollar-amount cost tracking on individual usage dashboards with token counts, masking per-request costs.",
+   "On-demand spending dollar figures are now only accessible via the high-level Spending tab or CSV export."
+  ]
+ },
+ "3ec04f1e974931e5": {
+  "feed": "YC Hacker News",
+  "title": "GitHub has alternatives, but no replacement",
+  "link": "https://lalitm.com/post/github-alternatives/",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Provides senior backend engineering perspectives on platform network effects, stacked PR limitations on GitHub, and code discovery.",
+  "points": [
+   "Self-hosted Git platforms fail as universal GitHub replacements due to missing shared social identity and project discovery layers.",
+   "GitHub's core forge experience is degrading with buggy stacked PR support and UI slowness while prioritizing Copilot features."
+  ]
+ },
+ "f5fb55945fb67c65": {
+  "feed": "YC Hacker News",
+  "title": "Charlie Stross – On the non-use of AI in my writing process",
+  "link": "https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "This post contains no content or technical text.",
+  "points": [
+   "Empty post with no body text to evaluate."
+  ]
+ },
+ "eebbdb6a601e8246": {
+  "feed": "YC Hacker News",
+  "title": "Pgtestdb's template cloning approach to testing is fast",
+  "link": "https://brandur.org/fragments/pgtestdb",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "An excellent backend performance deep-dive comparing Postgres database template cloning against schema migration for fast test suites.",
+  "points": [
+   "`CREATE DATABASE TEMPLATE` clones Postgres databases in 8kB page chunks in ~100ms, matching schema creation speed.",
+   "Schema isolation allows pooling and reusing dirty test schemas, yielding a 3.5x wall-time speedup over full DB template recreation."
+  ]
+ },
+ "9b00352cfacc1cb2": {
+  "feed": "Technica",
+  "title": "Review: Yes, we're still arguing about Nolan's The Odyssey",
+  "link": "https://arstechnica.com/culture/2026/08/review-yes-were-still-arguing-about-nolans-the-odyssey/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Film review of Christopher Nolan's movie with zero engineering relevance.",
+  "points": [
+   "Movie review discussing cinematic scale and Odysseus's character adaptation."
+  ]
+ },
+ "d3230d5e7a6afe96": {
+  "feed": "OpenAI News",
+  "title": "Tort Report: Abusive reporting activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Non-technical OpenAI abuse report on low-impact Vietnamese social media reporting spam.",
+  "points": [
+   "Banned accounts using LLM completions to draft generic social media reporting text against Vietnamese media outlets."
+  ]
+ },
+ "c7d3bce094f3664c": {
+  "feed": "OpenAI News",
+  "title": "Rwandan election content: Political commenting network",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Case study on social media comment spam with no machine learning infrastructure insights.",
+  "points": [
+   "Disrupted a high-volume Rwandan election comment spam network leveraging ChatGPT API for hashtag amplification on X."
+  ]
+ },
+ "ec24b4182804256f": {
+  "feed": "OpenAI News",
+  "title": "Bet Bot: Gambling spam network",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Product abuse case study regarding automated gambling spam bots on X.",
+  "points": [
+   "Banned an API-driven network generating sports persona bios and replies on X to direct traffic to gambling websites."
+  ]
+ },
+ "784ade2116534ba4": {
+  "feed": "OpenAI News",
+  "title": "Operation “STORM-2035”: Iran-origin influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Generic political influence operation write-up focused on content moderation rather than systems engineering.",
+  "points": [
+   "Banned an Iranian network (STORM-2035) using ChatGPT for US/UK election articles and comment generation across fake news sites."
+  ]
+ },
+ "56d5b93c0d656b9c": {
+  "feed": "OpenAI News",
+  "title": "Operation “A2Z”: Multilingual influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-a2z",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Overview of social media bot networks with no systems or ML engineering value.",
+  "points": [
+   "Disrupted 150+ social media accounts using OpenAI APIs to generate pro-Azerbaijan comments and automated images."
+  ]
+ },
+ "be4b53752353bafc": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: Dec 13th, 2023",
+  "link": "https://blog.railway.com/p/2023-12-13-incident-report",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Infrastructure postmortem analyzing how GKE metadata server rate-limiting broke secret encryption during deployment spikes.",
+  "points": [
+   "A known GKE v1.25 metadata server pod bug caused extreme latency on secret encryption/decryption under heavy deployment load.",
+   "Mitigated by replacing dynamic GKE metadata key fetching with statically assigned encrypted keys to unblock new deploys."
+  ]
+ },
+ "5d5d0a9eb7933db5": {
+  "feed": "Railway Blog",
+  "title": "Not Everything Is Google’s Fault (Just Most Things)",
+  "link": "https://blog.railway.com/p/gcp-incidents",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "Crucial infrastructure war story detailing Railway's operational issues with GCP and their technical decision to migrate to bare metal.",
+  "points": [
+   "Railway built custom eBPF/Wireguard networking and container registries to bypass recurring GCP product instability and arbitrary quota throttles.",
+   "Diagnosed rare kernel softlocks on GCP guest VMs caused by heavy userspace-to-kernel memory transfers under resource pressure."
+  ]
+ },
+ "79f225af72c0a792": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: Dec 1st, 2023",
+  "link": "https://blog.railway.com/p/2023-12-01-incident-report",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "Valuable systems performance incident report detailing CPU soft locks triggered by kernel-userspace memory transfers.",
+  "points": [
+   "A misconfigured metrics collection agent high-frequency sampled processes, driving massive userspace-kernel memory transfers.",
+   "The memory transfer pattern triggered cascading CPU core softlocks on GCP hypervisors across 30% of US-West hosts despite low resource utilization."
+  ]
+ },
+ "ee42e0ddd329815c": {
+  "feed": "Railway Blog",
+  "title": "Our New Observability Platform for 100B Logs",
+  "link": "https://blog.railway.com/p/launch-week-01-observability",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "Deep technical engineering post on scaling logging infrastructure to 1 billion events per day and 100 billion total logs.",
+  "points": [
+   "Replaced single-process Go log filtering and filesystem storage to handle 1B logs/day and 60 queries/sec across environments.",
+   "Shifted away from Docker daemon polling to avoid host overhead, enabling cross-service log filtering and structured metadata searches."
+  ]
+ },
+ "d9c0cb40dd7da669": {
+  "feed": "Railway Blog",
+  "title": "Do Apps Dream of Electric Sheep?",
+  "link": "https://blog.railway.com/p/launch-week-01-scale-to-zero",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "Practical systems engineering dive into building scale-to-zero for apps and databases using Linux networking primitives.",
+  "points": [
+   "Uses Envoy proxies at the edge paired with Linux `nftables` and network namespaces to inspect traffic and auto-wake stopped containers.",
+   "Applies scale-to-zero capabilities to stateful database containers while preserving network state and IP routing."
+  ]
  }
 }
