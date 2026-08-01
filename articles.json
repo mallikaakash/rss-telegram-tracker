@@ -41446,5 +41446,245 @@
   "points": [
    "Author: Jacob Cooper We recently experienced an outage which affected inbound traffic, on Google Cloud, on all regions of our network. During this outage, inbound requests on Google Cloud Edge servers were unable to route requests to their applications. This outage lasted approximately 10 minutes. Private networking, outbound requests, Metal Hosts, and Dedicated Instances were unaffected."
   ]
+ },
+ "ff4ecb27326bf416": {
+  "feed": "YC Hacker News",
+  "title": "Ten advances in mathematics and theoretical computer science",
+  "link": "https://openai.com/index/ten-advances-in-mathematics/",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates frontier reasoning LLM capabilities (Astra model) solving long-standing open problems in math and computer science.",
+  "points": [
+   "Internal version of Astra solved 10 decade-old open math problems for ~$2,000 in API tokens",
+   "Model generated Lean certificates to formally verify its mathematical proofs",
+   "Demonstrates practical utility of automated reasoning in formal logic and theoretical CS"
+  ]
+ },
+ "661d8ffc65250f75": {
+  "feed": "YC Hacker News",
+  "title": "Ten Ways NAS Is Getting Enshitified",
+  "link": "https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Contains no substantive technical content or article body.",
+  "points": [
+   "Empty post with no text available."
+  ]
+ },
+ "38230c9399f186e3": {
+  "feed": "YC Hacker News",
+  "title": "Progressive Web Components",
+  "link": "https://arielsalminen.com/2026/progressive-web-components/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Focuses on frontend web development and design system component libraries.",
+  "points": [
+   "Introduces Elena, a 2.6kB progressive web component library that renders HTML/CSS before loading JavaScript."
+  ]
+ },
+ "2924fa365a878dca": {
+  "feed": "YC Hacker News",
+  "title": "Attention Decode on AMD MI450 GPUs: A Gluon Kernel Optimization Guide",
+  "link": "https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "A deep-dive technical guide on GPU kernel optimization for LLM inference decode speed on new AMD hardware.",
+  "points": [
+   "Achieves 85% peak HBM bandwidth (19.6 TB/s) on AMD MI450 using Gluon kernels",
+   "Utilizes MI450's new TDM hardware engine for asynchronous, descriptor-based tensor loads from global memory to LDS",
+   "Applies split-k parallelization and latency hiding techniques to bypass memory-bandwidth bottlenecks during attention decode"
+  ]
+ },
+ "5d2450b2f4565a2c": {
+  "feed": "YC Hacker News",
+  "title": "The Absurdity of Albert Camus",
+  "link": "https://www.historytoday.com/archive/portrait-author-historian/absurdity-albert-camus",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Non-technical philosophy discussion with no relevance to ML or systems engineering.",
+  "points": [
+   "Empty post containing no body content."
+  ]
+ },
+ "67f4e11813fd35eb": {
+  "feed": "Technica",
+  "title": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
+  "link": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Consumer AI feature drama and product policy news rather than engineering.",
+  "points": [
+   "Google retracted a Google Earth integration with Nano Banana 2 due to misinformation concerns around fake satellite imagery."
+  ]
+ },
+ "3bd9cb10d42959a2": {
+  "feed": "Technica",
+  "title": "Would you get tattooed just to interview at a 7-days-a-week AI startup?",
+  "link": "https://arstechnica.com/culture/2026/07/ai-startup-admits-tattoo-for-interview-stunt-was-reckless/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Gimmicky startup hiring news without technical substance.",
+  "points": [
+   "Covers an AI startup marketing stunt offering interviews to people getting company logo tattoos."
+  ]
+ },
+ "f50ac0205268e68f": {
+  "feed": "Technica",
+  "title": "Max-severity Exchange server flaw under active exploitation by Kremlin hackers",
+  "link": "https://arstechnica.com/security/2026/07/kremlin-hackers-are-exploiting-exchange-flaw-to-backdoor-unpatched-networks/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "General IT cybersecurity vulnerability report unrelated to ML or backend infrastructure.",
+  "points": [
+   "Kremlin-backed threat actors are actively exploiting a maximum-severity Exchange/Outlook vulnerability via half-click email exploits."
+  ]
+ },
+ "02b575767799458e": {
+  "feed": "Technica",
+  "title": "Trump FCC faces blowback in attempt to police speech on broadcast TV",
+  "link": "https://arstechnica.com/tech-policy/2026/07/trump-fccs-war-on-abc-slammed-by-both-conservatives-and-liberals/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "US political and broadcast regulatory news irrelevant to core engineering priorities.",
+  "points": [
+   "FCC regulatory dispute over broadcast licensing and speech policing."
+  ]
+ },
+ "a1574e2e59f13104": {
+  "feed": "Technica",
+  "title": "Iran struck Amazon data centers again amid widening war, satellites show",
+  "link": "https://arstechnica.com/gadgets/2026/07/satellites-spot-new-war-damage-to-amazon-data-centers-and-saudi-oil-site/",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Geopolitical news report on physical data center damage rather than technical systems engineering.",
+  "points": [
+   "Iranian missile and drone strikes caused physical damage to AWS data centers in UAE and Bahrain."
+  ]
+ },
+ "6d58997b466ca59f": {
+  "feed": "OpenAI News",
+  "title": "Ten advances in mathematics and theoretical computer science",
+  "link": "https://openai.com/index/ten-advances-in-mathematics",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Duplicate publication of OpenAI's report on AI reasoning models solving open mathematical problems.",
+  "points": [
+   "Showcases Astra model solving 10 long-standing open math/CS problems using automated Lean proof verification",
+   "Explores cost-efficient token utilization ($2,000 Sol API equivalent) for deep reasoning tasks"
+  ]
+ },
+ "8b71360e58637c94": {
+  "feed": "OpenAI News",
+  "title": "Operation “Sneer Review”: China-origin influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Threat intelligence report on covert political influence operations abusing ChatGPT.",
+  "points": [
+   "OpenAI banned China-linked accounts generating social media comments to influence geopolitical discussions."
+  ]
+ },
+ "e8926a6e9f91a807": {
+  "feed": "OpenAI News",
+  "title": "Operation “Wrong Number”: AI-assisted task scam",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Trust and safety report on conversational scam operations.",
+  "points": [
+   "OpenAI disrupted a Cambodia-origin AI task scam operation targeting UK users via automated messaging translation."
+  ]
+ },
+ "7905ffba8fb14a24": {
+  "feed": "OpenAI News",
+  "title": "STORM-2035: Recidivist influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Threat intelligence report detailing political influence operations on social media.",
+  "points": [
+   "OpenAI banned Iranian-linked STORM-2035 accounts generating political commentary on X."
+  ]
+ },
+ "3a99acbf664254fa": {
+  "feed": "OpenAI News",
+  "title": "Operation “Uncle Spam”: US polarization influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Trust and safety report regarding foreign social media influence campaigns.",
+  "points": [
+   "OpenAI removed accounts using LLMs to generate divisive US political content and extract user profile data."
+  ]
+ },
+ "8a507da1614893ad": {
+  "feed": "Simon Willison",
+  "title": "datasette-agent 0.4a0",
+  "link": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Minor release notes for a web-oriented agent utility tool.",
+  "points": [
+   "Datasette Agent 0.4a0 introduces browser_task() to execute custom JavaScript in the client's browser context."
+  ]
+ },
+ "36beed34571a9ed7": {
+  "feed": "Railway Blog",
+  "title": "Train an Expert Chatbot with Chatbase",
+  "link": "https://blog.railway.com/p/chatbase",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "High-level promotional founder interview about a commercial RAG chatbot wrapper.",
+  "points": [
+   "Chatbase discusses its SaaS RAG architecture and expansion into automated AI actions like calendar booking."
+  ]
+ },
+ "e83d943a6dfab968": {
+  "feed": "Railway Blog",
+  "title": "Trust Is Not For Sale",
+  "link": "https://blog.railway.com/p/railway-dotcom",
+  "date": "2026-08-01",
+  "tier": "worth_a_skim",
+  "why": "Provides real-world metrics and GTM/infra evolution insights from a fast-growing cloud platform.",
+  "points": [
+   "Railway handles 100B+ requests/month across nearly 1M users and 2M live services",
+   "Outlines the engineering transition from a developer 'toy cloud' to enterprise-grade production reliability",
+   "Rebuilt landing page and edge architecture to scale trust and system transparency"
+  ]
+ },
+ "941ae884847c5f72": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: August 27th, 2024",
+  "link": "https://blog.railway.com/p/incident-august-27-2024",
+  "date": "2026-08-01",
+  "tier": "must_read",
+  "why": "High-quality engineering incident post-mortem analyzing an edge proxy outage caused by IaC configuration drift.",
+  "points": [
+   "A 30-minute edge network outage affected 30% of incoming proxy traffic across multiple regions",
+   "Root cause was Terraform state recreation of all proxy instances simultaneously due to an unapplied boot disk resize in IaC config",
+   "Highlights key failures in IaC orchestration tools and missing deployment safeguards during live traffic migrations"
+  ]
+ },
+ "9856dd25e944d7c9": {
+  "feed": "Railway Blog",
+  "title": "GIT PUSH && GET PAID: How to Make Money on Railway",
+  "link": "https://blog.railway.com/p/template-kickback-program-cash",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Product feature announcement regarding platform monetization for template creators.",
+  "points": [
+   "Railway allows template authors to cash out 25% compute kickbacks directly into USD via GitHub Sponsors or Buy Me a Coffee."
+  ]
+ },
+ "c312d2e4dc1e0071": {
+  "feed": "Railway Blog",
+  "title": "Shipping Peace of Mind with ShipAid",
+  "link": "https://blog.railway.com/p/shipaid",
+  "date": "2026-08-01",
+  "tier": "low_priority",
+  "why": "Interview with a Shopify app creator focusing on e-commerce shipping protection.",
+  "points": [
+   "Overview of ShipAid's business model and standard React/Node tech stack for Shopify merchants."
+  ]
  }
 }
