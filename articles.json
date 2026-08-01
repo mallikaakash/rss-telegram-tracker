@@ -42437,5 +42437,177 @@
    "Uses Envoy proxies at the edge paired with Linux `nftables` and network namespaces to inspect traffic and auto-wake stopped containers.",
    "Applies scale-to-zero capabilities to stateful database containers while preserving network state and IP routing."
   ]
+ },
+ "bc4ec80770d1a1a8": {
+  "feed": "YC Hacker News",
+  "title": "NetBSD 11.0 Released",
+  "link": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Release announcement for NetBSD OS, which falls outside core ML, backend infra, and industrial optimization priorities.",
+  "points": [
+   "NetBSD 11.0 released with architecture updates and automated build pipeline improvements."
+  ]
+ },
+ "e4dc0fe85dfc6e99": {
+  "feed": "YC Hacker News",
+  "title": "Kaisel – Routes as Values. Dart 3 Native Router for Flutter",
+  "link": "https://kaisel.dev/",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Focuses on Flutter mobile frontend routing, which is irrelevant to backend and ML engineering.",
+  "points": [
+   "Kaisel provides Dart 3 strongly typed routing for Flutter without code generation."
+  ]
+ },
+ "4b623ef464b495a0": {
+  "feed": "YC Hacker News",
+  "title": "Explorative modeling: Train on the best of K guesses",
+  "link": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "Introduces a novel generative pretraining paradigm that directly improves scaling efficiency and prevents regression collapse.",
+  "points": [
+   "Solves output averaging collapse by training generative models on the best of K guesses rather than a single target.",
+   "Achieves 6.2x sample efficiency, 4.1x FLOP efficiency, and 47% better parameter efficiency across text, image, and video.",
+   "Enables end-to-end task generation with up to 256x less inference compute than standard diffusion models."
+  ]
+ },
+ "59720404af0212c8": {
+  "feed": "YC Hacker News",
+  "title": "Rear center fuel tank adds roughly 20k liters and extends range by 1k NM",
+  "link": "https://www.airbus.com/en/newsroom/press-releases/2026-06-worlds-longest-range-aircraft-the-airbus-a350-1000ulr-takes-to-the-skies",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Commercial aviation product update with no engineering or ML relevance.",
+  "points": [
+   "Airbus A350-1000ULR adds a rear fuel tank to extend flight range by 1,000 nautical miles."
+  ]
+ },
+ "84a38888a7b958cf": {
+  "feed": "YC Hacker News",
+  "title": "A directory of people who love RSS",
+  "link": "https://andrewshell.org/2026/07/i-%e2%99%a5-rss/",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Personal hobbyist web directory launch unrelated to ML or backend systems.",
+  "points": [
+   "I Heart RSS is a curated directory and live blogroll for RSS feed creators."
+  ]
+ },
+ "a25fae703e360d9d": {
+  "feed": "OpenAI News",
+  "title": "Operation “Stop News”: Russia-origin influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "OpenAI threat intelligence policy report on platform misuse rather than technical AI infrastructure.",
+  "points": [
+   "OpenAI banned Russian accounts generating automated foreign influence articles using models and DALL-E."
+  ]
+ },
+ "a2f1f6824da41440": {
+  "feed": "OpenAI News",
+  "title": "Hoax: Fake Russian “troll” error message",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "PR clarification regarding a fake social media screenshot with no technical depth.",
+  "points": [
+   "OpenAI verified that a viral screenshot showing a fake Russian troll error message was manually fabricated."
+  ]
+ },
+ "8290eb142e507184": {
+  "feed": "OpenAI News",
+  "title": "CyberAv3ngers: Iran-linked cyber research activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "High-level cyber threat report summarizing basic LLM reconnaissance queries.",
+  "points": [
+   "OpenAI blocked IRGC-affiliated accounts using ChatGPT for basic PLC vulnerability scanning and script debugging."
+  ]
+ },
+ "66a3ed8ca74cf332": {
+  "feed": "OpenAI News",
+  "title": "SweetSpecter: China-linked cyber activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Corporate cybersecurity report regarding spear-phishing attempts against OpenAI employees.",
+  "points": [
+   "OpenAI intercepted phishing emails containing SugarGh0st RAT malware sent by China-linked group SweetSpecter."
+  ]
+ },
+ "42848a69a51e4fd8": {
+  "feed": "OpenAI News",
+  "title": "STORM-0817: Iran-linked malware and scraping activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Security threat intelligence report detailing basic Android malware debugging prompts.",
+  "points": [
+   "OpenAI disrupted Iranian threat group STORM-0817 using ChatGPT to debug spyware and social scrapers."
+  ]
+ },
+ "b7493c11eb36c8fe": {
+  "feed": "Railway Blog",
+  "title": "How We’re Building Git for Infrastructure",
+  "link": "https://blog.railway.com/p/launch-week-01-changesets",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Interesting cloud platform deep-dive on managing infrastructure state and diffs using git-like semantics.",
+  "points": [
+   "Railway introduced Changesets to model environment forks, diffs, and merges like version control.",
+   "Eliminates configuration merge conflicts by making diffs first-class UI elements in cloud deployment pipelines."
+  ]
+ },
+ "731914675e7a9539": {
+  "feed": "Railway Blog",
+  "title": "So You Think You Can Scale?",
+  "link": "https://blog.railway.com/p/launch-week-01-horizontal-scaling",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Good architectural overview of horizontal scaling, private network load balancing, and replica orchestration.",
+  "points": [
+   "Railway released single-slider horizontal pod scaling with built-in automatic load balancing.",
+   "Implements fault-tolerant failover and spreads container replicas across multi-machine physical fleets."
+  ]
+ },
+ "0741d451b93928a3": {
+  "feed": "Railway Blog",
+  "title": "The Future of Databases is Services",
+  "link": "https://blog.railway.com/p/launch-01-next-gen-databases",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Relevant engineering post on designing cloud primitives to support stateful workloads and vector databases.",
+  "points": [
+   "Railway deprecated custom database plugins in favor of generic stateful service primitives.",
+   "Supports vector stores like PGVector and Chroma via attached persistent volumes and private networks."
+  ]
+ },
+ "185070624320fd14": {
+  "feed": "Railway Blog",
+  "title": "Introducing Railway V2",
+  "link": "https://blog.railway.com/p/railway-v2",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Valuable engineering war story about the architectural failure of trying to retrofit Kubernetes into a custom PaaS.",
+  "points": [
+   "Railway abandoned a year-long project retrofitting Kubernetes due to excessive complexity and instability.",
+   "Sustained rapid platform growth by building a lightweight custom control plane with a small core team."
+  ]
+ },
+ "03167bb3d73071df": {
+  "feed": "Railway Blog",
+  "title": "Hello, World: We’re Railway",
+  "link": "https://blog.railway.com/p/launch-week-01-regions",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Practical discussion of cloud networking challenges when expanding compute across multi-region data centers.",
+  "points": [
+   "Railway expanded compute infrastructure to US-East, EU-West, and Southeast Asia with 1-click region switching.",
+   "Maintains continuous global routing without requiring changes to user domain names or DNS records."
+  ]
  }
 }

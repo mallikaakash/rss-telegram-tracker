@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sun 02 Aug 2026, 00:14 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sun 02 Aug 2026, 00:14 IST &middot; 15 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Explorative Modeling proposes a novel pretraining paradigm for generative models, while Railway&#x27;s engineering series details infrastructure orchestration, stateful storage primitives, and post-mortems.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://alexiglad.github.io/blog/2026/explorative_modeling/">Explorative modeling: Train on the best of K guesses</a></h2><div class="why">Introduces a novel generative pretraining paradigm that directly improves scaling efficiency and prevents regression collapse.</div><ul><li>Solves output averaging collapse by training generative models on the best of K guesses rather than a single target.</li><li>Achieves 6.2x sample efficiency, 4.1x FLOP efficiency, and 47% better parameter efficiency across text, image, and video.</li><li>Enables end-to-end task generation with up to 256x less inference compute than standard diffusion models.</li></ul></div><div class="section">Worth a skim &middot; 5</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/launch-week-01-changesets">How We’re Building Git for Infrastructure</a></h2><div class="why">Interesting cloud platform deep-dive on managing infrastructure state and diffs using git-like semantics.</div><ul><li>Railway introduced Changesets to model environment forks, diffs, and merges like version control.</li><li>Eliminates configuration merge conflicts by making diffs first-class UI elements in cloud deployment pipelines.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/launch-week-01-horizontal-scaling">So You Think You Can Scale?</a></h2><div class="why">Good architectural overview of horizontal scaling, private network load balancing, and replica orchestration.</div><ul><li>Railway released single-slider horizontal pod scaling with built-in automatic load balancing.</li><li>Implements fault-tolerant failover and spreads container replicas across multi-machine physical fleets.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/launch-01-next-gen-databases">The Future of Databases is Services</a></h2><div class="why">Relevant engineering post on designing cloud primitives to support stateful workloads and vector databases.</div><ul><li>Railway deprecated custom database plugins in favor of generic stateful service primitives.</li><li>Supports vector stores like PGVector and Chroma via attached persistent volumes and private networks.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/railway-v2">Introducing Railway V2</a></h2><div class="why">Valuable engineering war story about the architectural failure of trying to retrofit Kubernetes into a custom PaaS.</div><ul><li>Railway abandoned a year-long project retrofitting Kubernetes due to excessive complexity and instability.</li><li>Sustained rapid platform growth by building a lightweight custom control plane with a small core team.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Railway Blog</span><h2><a href="https://blog.railway.com/p/launch-week-01-regions">Hello, World: We’re Railway</a></h2><div class="why">Practical discussion of cloud networking challenges when expanding compute across multi-region data centers.</div><ul><li>Railway expanded compute infrastructure to US-East, EU-West, and Southeast Asia with 1-click region switching.</li><li>Maintains continuous global routing without requiring changes to user domain names or DNS records.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://blog.netbsd.org/tnf/entry/netbsd_11_0_released">NetBSD 11.0 Released</a></h2><div class="why">Release announcement for NetBSD OS, which falls outside core ML, backend infra, and industrial optimization priorities.</div><ul><li>NetBSD 11.0 released with architecture updates and automated build pipeline improvements.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://kaisel.dev/">Kaisel – Routes as Values. Dart 3 Native Router for Flutter</a></h2><div class="why">Focuses on Flutter mobile frontend routing, which is irrelevant to backend and ML engineering.</div><ul><li>Kaisel provides Dart 3 strongly typed routing for Flutter without code generation.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.airbus.com/en/newsroom/press-releases/2026-06-worlds-longest-range-aircraft-the-airbus-a350-1000ulr-takes-to-the-skies">Rear center fuel tank adds roughly 20k liters and extends range by 1k NM</a></h2><div class="why">Commercial aviation product update with no engineering or ML relevance.</div><ul><li>Airbus A350-1000ULR adds a rear fuel tank to extend flight range by 1,000 nautical miles.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://andrewshell.org/2026/07/i-%e2%99%a5-rss/">A directory of people who love RSS</a></h2><div class="why">Personal hobbyist web directory launch unrelated to ML or backend systems.</div><ul><li>I Heart RSS is a curated directory and live blogroll for RSS feed creators.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024">Operation “Stop News”: Russia-origin influence activity</a></h2><div class="why">OpenAI threat intelligence policy report on platform misuse rather than technical AI infrastructure.</div><ul><li>OpenAI banned Russian accounts generating automated foreign influence articles using models and DALL-E.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll">Hoax: Fake Russian “troll” error message</a></h2><div class="why">PR clarification regarding a fake social media screenshot with no technical depth.</div><ul><li>OpenAI verified that a viral screenshot showing a fake Russian troll error message was manually fabricated.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers">CyberAv3ngers: Iran-linked cyber research activity</a></h2><div class="why">High-level cyber threat report summarizing basic LLM reconnaissance queries.</div><ul><li>OpenAI blocked IRGC-affiliated accounts using ChatGPT for basic PLC vulnerability scanning and script debugging.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter">SweetSpecter: China-linked cyber activity</a></h2><div class="why">Corporate cybersecurity report regarding spear-phishing attempts against OpenAI employees.</div><ul><li>OpenAI intercepted phishing emails containing SugarGh0st RAT malware sent by China-linked group SweetSpecter.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817">STORM-0817: Iran-linked malware and scraping activity</a></h2><div class="why">Security threat intelligence report detailing basic Android malware debugging prompts.</div><ul><li>OpenAI disrupted Iranian threat group STORM-0817 using ChatGPT to debug spyware and social scrapers.</li></ul></div></body></html>
