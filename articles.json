@@ -42863,5 +42863,132 @@
    "Railway removed its free compute tier after 18 months of combating abusive bot networks and fraudulent accounts.",
    "Verification overhead severely degraded customer support quality, leading to a $5/month baseline model."
   ]
+ },
+ "91795cf32ccdcbf8": {
+  "feed": "YC Hacker News",
+  "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+  "link": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "Crucial ML infrastructure benchmark comparing AMD MI355X against NVIDIA B200/B300 GPUs for serving the 2.8T parameter Kimi K3 model under memory and interconnect constraints.",
+  "points": [
+   "Kimi K3 (2.8T parameters) requires >1.5TB VRAM before KV cache, forcing multi-node TP16 on 192GB B200s versus single-node TP8 on 288GB MI355X or B300 nodes.",
+   "AMD MI355X achieves 952 tok/s/node aggregate throughput, outperforming B200 TP16 by 3.8x and beating B300 on performance per dollar (48 vs 33 tok/s/$).",
+   "Multi-node TP16 decode on B200s suffers heavy latency penalties due to cross-node RoCE v2 all-reduce on the decode critical path."
+  ]
+ },
+ "407ad45120f692f4": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+  "link": "https://github.com/tom-ilan/cycloidal_gearbox",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Mechanical engineering hobby project with no relevance to ML, backend systems, or infrastructure engineering.",
+  "points": [
+   "Presents a 3D-printed cycloidal gearbox created using a custom Python script for profile generation."
+  ]
+ },
+ "78f08f5c451f68d8": {
+  "feed": "YC Hacker News",
+  "title": "Elena, a library for building Progressive Web Components",
+  "link": "https://elenajs.com/",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Frontend Web Components UI library irrelevant to backend engineering or machine learning infrastructure.",
+  "points": [
+   "Introduces Elena, a lightweight JavaScript framework for progressive web components and server-side rendering."
+  ]
+ },
+ "314f25ec54fb0bf7": {
+  "feed": "YC Hacker News",
+  "title": "Unraveling the mysteries of habit formation",
+  "link": "https://www.kyoto-u.ac.jp/en/research-news/2026-07-28",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Neuroscience paper on mouse brain habit pathways completely off-target for software and ML engineering.",
+  "points": [
+   "Kyoto University researchers identified two neural circuits in mouse brains that regulate habit formation intensity."
+  ]
+ },
+ "a2ad0542e1912cf8": {
+  "feed": "YC Hacker News",
+  "title": "RFC 10015: Deprecating Obsolete Key Exchange Methods in TLS 1.2 and DTLS 1.2",
+  "link": "https://www.rfc-editor.org/rfc/rfc10015.html",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Standard security protocol update deprecating outdated key exchanges in TLS 1.2.",
+  "points": [
+   "RFC 10015 officially deprecates non-ephemeral finite-field Diffie-Hellman and RSA key exchanges in TLS 1.2 and DTLS 1.2.",
+   "Discourages static ECDH cipher suites to enforce forward secrecy across connections."
+  ]
+ },
+ "397ba82c5e67169e": {
+  "feed": "Simon Willison",
+  "title": "Slack Emoji Maker",
+  "link": "https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Trivial wrapper tool built with an LLM without deep engineering value.",
+  "points": [
+   "Simple web app created to resize and format transparent images into 128x128 PNGs for Slack emojis."
+  ]
+ },
+ "e9e286678484fa68": {
+  "feed": "Railway Blog",
+  "title": "How We Work (Volume II)",
+  "link": "https://blog.railway.com/p/how-we-work-volume-ii",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Good operational deep-dive into high-leverage startup engineering culture, DRI ownership, and asynchronous remote workflows.",
+  "points": [
+   "Railway operates a 14-person engineering team supporting 250k developers without standups, OKRs, or middle management.",
+   "Enforces strict DRI (Directly Responsible Individual) ownership and restricts meetings to brief blocks on Mondays and Fridays."
+  ]
+ },
+ "86acee65a0646e46": {
+  "feed": "Railway Blog",
+  "title": "Why We Ripped Twin out of 400+ Components",
+  "link": "https://blog.railway.com/p/twin-macro-tailwind-migration",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Practical performance engineering post detailing build system optimizations and switching transpilers to speed up developer feedback loops.",
+  "points": [
+   "Removed twin.macro across 400+ React components to eliminate Babel dependencies and unblock SWC adoption.",
+   "Reduced dev cold start compilation times from ~35s to ~1.5s and CI pipeline durations from 6 minutes to 2 minutes."
+  ]
+ },
+ "2f8fd4e4935e19ca": {
+  "feed": "Railway Blog",
+  "title": "Templates Kickback Program",
+  "link": "https://blog.railway.com/p/incentivized-templates",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Platform product marketing announcement introducing revenue sharing for template creators.",
+  "points": [
+   "Railway announced a 25% platform credit kickback program for community template authors based on user usage."
+  ]
+ },
+ "bdc516090b957405": {
+  "feed": "Railway Blog",
+  "title": "New Database Reference Variables",
+  "link": "https://blog.railway.com/p/database-reference-variables",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Platform feature update on Railway database environment variable scoping.",
+  "points": [
+   "Replaces implicit database variable auto-injection with explicit reference variables to support multi-database setups."
+  ]
+ },
+ "2ca8392729811f84": {
+  "feed": "Railway Blog",
+  "title": "Rewriting the CLI in Rust: Was It Worth It?",
+  "link": "https://blog.railway.com/p/rust-cli-rewrite",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "High-quality engineering deep-dive comparing Go and Rust for building robust, type-safe CLI applications backed by GraphQL APIs.",
+  "points": [
+   "Rewrote Railway's CLI from Go to Rust to solve dynamic argument parsing errors and untyped GraphQL query strings.",
+   "Rust provided strong compile-time type checking for GraphQL operations and improved CLI maintainability across breaking API migrations."
+  ]
  }
 }
