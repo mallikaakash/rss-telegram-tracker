@@ -42609,5 +42609,259 @@
    "Railway expanded compute infrastructure to US-East, EU-West, and Southeast Asia with 1-click region switching.",
    "Maintains continuous global routing without requiring changes to user domain names or DNS records."
   ]
+ },
+ "066093c5f082ea64": {
+  "feed": "YC Hacker News",
+  "title": "Go 1.27 Interactive Tour",
+  "link": "https://victoriametrics.com/blog/go-1-27/index.html",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Covers Go 1.27's headline feature, generic methods, which is a major language evolution for Go backend engineers.",
+  "points": [
+   "Go 1.27 allows method declarations to define their own type parameters independent of the receiver type.",
+   "Interfaces still cannot declare type-parameterized methods due to implementation constraints."
+  ]
+ },
+ "1b3c3f79a62c31bc": {
+  "feed": "YC Hacker News",
+  "title": "MkLinux and the pimped-out Apple Workgroup Server 9150",
+  "link": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Empty retro hardware post with no relevant backend or ML content.",
+  "points": [
+   "Contains no readable content or actionable technical details."
+  ]
+ },
+ "9abc53d7091c26dd": {
+  "feed": "YC Hacker News",
+  "title": "Seedance 2.5",
+  "link": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "ByteDance's latest multimodal video generation model release demonstrates state-of-the-art long-form temporal video synthesis.",
+  "points": [
+   "Generates up to 30-second audio-video clips in a single pass with improved shot continuity.",
+   "Supports multimodal reference inputs of up to 30 images, 10 video clips, and 10 audio clips."
+  ]
+ },
+ "b117854c872aff85": {
+  "feed": "YC Hacker News",
+  "title": "Diátaxis",
+  "link": "https://diataxis.fr/",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Diátaxis is an industry-standard technical documentation framework useful for backend and infra engineers writing user or team docs.",
+  "points": [
+   "Categorizes documentation into four distinct quadrants: Tutorials, How-to Guides, Technical Reference, and Explanation.",
+   "Adopted by engineering teams like Cloudflare and Gatsby to restructure developer documentation."
+  ]
+ },
+ "38a87120b9615bea": {
+  "feed": "YC Hacker News",
+  "title": "ASRock BC-250: Building the Budget Steam Machine",
+  "link": "https://plug-world.com/posts/2026/asrock-bc250-the-budget-steam-machine/",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Niche consumer hardware modding guide for gaming on crypto-mining motherboards, outside backend and ML infra core priorities.",
+  "points": [
+   "Provides BIOS voltage, SMU governor, and kernel driver tweaks to optimize Linux gaming on ASRock BC-250 boards."
+  ]
+ },
+ "3e26c8def12c65c6": {
+  "feed": "Technica",
+  "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
+  "link": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "High-level news story on aerospace satellite recovery with no backend systems or ML technical depth.",
+  "points": [
+   "Engineers are troubleshooting attitude control thruster failures on a satellite sent to boost NASA's Swift observatory."
+  ]
+ },
+ "5b14342a053863b4": {
+  "feed": "OpenAI News",
+  "title": "IUVM: Iran-linked influence content network",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Standard threat intelligence recap on low-impact AI influence operations.",
+  "points": [
+   "OpenAI banned Iranian-linked accounts using LLMs to generate low-engagement anti-US/Israel web articles."
+  ]
+ },
+ "f62995dc1fd1417a": {
+  "feed": "OpenAI News",
+  "title": "Operation \"Zero Zeno\": Israel-linked influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Threat intelligence summary detailing foreign influence operations without deep technical ML insights.",
+  "points": [
+   "OpenAI removed Israeli-linked accounts generating social media comments across X, Facebook, and Instagram."
+  ]
+ },
+ "49b303d6c9525715": {
+  "feed": "OpenAI News",
+  "title": "Operation \"Doppelganger\": Russian influence activity targeting Ukraine",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Threat intelligence update focused on Russian social media bot activity.",
+  "points": [
+   "Disrupted Russian-linked accounts generating automated anti-Ukraine comments and redirect links on platforms like 9GAG and X."
+  ]
+ },
+ "d3a78a763a58f553": {
+  "feed": "OpenAI News",
+  "title": "Operation \"Spamouflage\": China-linked influence activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Threat intelligence operational report with minimal relevance to engineering priorities.",
+  "points": [
+   "Identified Chinese-linked accounts using LLMs for social media research, basic code debugging, and text translation."
+  ]
+ },
+ "c3cc9c82049b307a": {
+  "feed": "OpenAI News",
+  "title": "\"Bad Grammar\": Russian-linked Telegram comment activity",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Threat intelligence case study detailing simple automated spam bots on Telegram.",
+  "points": [
+   "Banned Russian-linked Telegram accounts using LLMs to debug spam scripts and generate political comments."
+  ]
+ },
+ "efb91d1922654136": {
+  "feed": "Together AI",
+  "title": "Kimi K3: The Complete Developer Guide",
+  "link": "https://www.together.ai/blog/kimi-k3-guide",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Unformatted website navigation boilerplate with no technical content on Kimi K3.",
+  "points": [
+   "Page snippet consists entirely of Together AI platform marketing and navigation links."
+  ]
+ },
+ "44e3e0fe01cfb31e": {
+  "feed": "Simon Willison",
+  "title": "Open letters about AI development",
+  "link": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "Crucial update on frontier AI policy debates surrounding open-weights models, model distillation legality, and automated AI research risks.",
+  "points": [
+   "Major tech companies signed an open letter advocating for open-weights models and defending distillation as a standard open innovation practice.",
+   "Anthropic CEO Dario Amodei publicly opposed open model distillation and urged crackdowns on industrial-scale distillation operations.",
+   "Over 1,300 AI researchers called for government pacing of automated AI development as internal LLMs generate major percentages of frontier lab code and infra optimizations."
+  ]
+ },
+ "4f08835bebf480f0": {
+  "feed": "Simon Willison",
+  "title": "July 2026 newsletter",
+  "link": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Paywalled monthly newsletter table of contents lacking full technical articles.",
+  "points": [
+   "Lists upcoming subjects including GPT-5.6 Sol, Claude Opus 5, and DeepSeek-V4 model updates."
+  ]
+ },
+ "ea51a590f580e764": {
+  "feed": "Simon Willison",
+  "title": "Quoting Greg Brockman",
+  "link": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Short social commentary quote about AI bots in Slack, lacking engineering substance.",
+  "points": [
+   "Reflects on social preferences for human-to-human collaboration over autonomous AI agents initiating internal Slack tasks."
+  ]
+ },
+ "2290c5b63eda21ce": {
+  "feed": "Simon Willison",
+  "title": "datasette-apps 0.2a0",
+  "link": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Introduces a clever pattern for LLM agents to visually test web applications using sandboxed headless browser tasks.",
+  "points": [
+   "Introduces `app_debug()`, allowing LLM agents to render web apps inside invisible sandboxed iframes.",
+   "Agents execute custom JavaScript within the iframe to smoke-test features and inspect UI layouts."
+  ]
+ },
+ "e2f861af97678f18": {
+  "feed": "Simon Willison",
+  "title": "Ten advances in mathematics and theoretical computer science",
+  "link": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "Demonstrates state-of-the-art LLM formal reasoning and math problem-solving capabilities using automated theorem proving.",
+  "points": [
+   "OpenAI's internal 'Astra' model solved ten open math problems unsolved for over a decade at under $2,000 in token compute per problem.",
+   "Proofs were formalized in Lean 4 and accompanied by model-reconstructed reasoning traces.",
+   "Highlights the transition toward 'big mathematics' driven by decentralized LLM-human formal proof collaboration."
+  ]
+ },
+ "08cdd4fcb496945b": {
+  "feed": "Railway Blog",
+  "title": "Prisma Pulse Templates Launch on Railway",
+  "link": "https://blog.railway.com/p/prisma-pulse-templates",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Product marketing announcement for managed DB templates on Railway.",
+  "points": [
+   "Railway announced starter templates for Prisma Pulse change data capture (CDC) integration."
+  ]
+ },
+ "a7b3b54ad257590f": {
+  "feed": "Railway Blog",
+  "title": "AI Chat Search with Mendable",
+  "link": "https://blog.railway.com/p/ai-chat-search-mendable",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Real-world engineering case study covering backend architecture, ingestion pipelines, and overcoming LLM API rate limits.",
+  "points": [
+   "Mendable processes 400k+ monthly chat search queries using JS servers for completions and Python for ingestion pipelines.",
+   "Primary scaling friction comes from OpenAI HTTP 429 rate limits, driving moves toward open-source self-hosted LLMs."
+  ]
+ },
+ "6faa58cc43e1c892": {
+  "feed": "Railway Blog",
+  "title": "Serverless Inference on GPUs with Banana.dev",
+  "link": "https://blog.railway.com/p/serverless-inference-gpu-banana-dev",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "Directly addresses core ML infra priorities regarding serverless GPU autoscaling, inference latency, and hardware utilization efficiency.",
+  "points": [
+   "Autoscaling GPUs from 0 to N replicas is essential to avoid 10x cost overheads from static provisioned capacity.",
+   "Minimizing queue time is the core design constraint because inference latency directly drives end-user retention.",
+   "Highlights infrastructure challenges involved in dynamic hardware provisioning and fast cold-starts across CLIP, Whisper, and Stable Diffusion models."
+  ]
+ },
+ "da5a185d0e1b2fbc": {
+  "feed": "Railway Blog",
+  "title": "Migration Guide for Upcoming Pricing and Plan Changes, 2023 Edition",
+  "link": "https://blog.railway.com/p/pricing-and-plans-migration-guide-2023",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Outdated 2023 administrative pricing notice for a PaaS provider.",
+  "points": [
+   "Details historical migration plans and $0.10/GB egress billing introduced by Railway in 2023."
+  ]
+ },
+ "9cc873102762c0e1": {
+  "feed": "Railway Blog",
+  "title": "Introducing the $5 Plan",
+  "link": "https://blog.railway.com/p/introducing-trial-hobby-pro-plans",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "An insightful engineering and business post-mortem on how platform abuse forces SaaS companies to eliminate free tiers.",
+  "points": [
+   "Railway removed its free compute tier after 18 months of combating abusive bot networks and fraudulent accounts.",
+   "Verification overhead severely degraded customer support quality, leading to a $5/month baseline model."
+  ]
  }
 }
