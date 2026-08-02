@@ -43108,5 +43108,120 @@
    "Emphasizes prevention over avoidance by enforcing automated, foolproof pipeline checks instead of release freezes.",
    "Demonstrates how systematic post-mortem action items compound into long-term infrastructure resilience."
   ]
+ },
+ "0e59db95700424bb": {
+  "feed": "YC Hacker News",
+  "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
+  "link": "https://meshdiff.com/",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Off-target client-side browser CAD/mesh comparison tool with no relevance to LLMs, backend, or ML infrastructure.",
+  "points": [
+   "Browser-based tool for client-side visual diffing of 3D STL mesh files."
+  ]
+ },
+ "681146c258a7c519": {
+  "feed": "YC Hacker News",
+  "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers",
+  "link": "https://website-auditor.io/ai-visibility-index",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Provides interesting industry data on web-scale dataset collection and LLM retrieval/citation dynamics.",
+  "points": [
+   "While under 10% of websites actively block AI crawlers, 94.8% are never cited in LLM responses.",
+   "Highlights the gap between raw web-scraping volume and actual content retrieval by commercial AI systems."
+  ]
+ },
+ "086d0e813990c88d": {
+  "feed": "YC Hacker News",
+  "title": "Wikimedia Foundation refuses union recognition, hires union-busting law firm",
+  "link": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Non-technical labor news regarding the Wikimedia Foundation that does not align with core technical priorities.",
+  "points": [
+   "Wikimedia Foundation declined voluntary union recognition, opting for an NLRB secret-ballot election process."
+  ]
+ },
+ "3e5c396e06ea53e3": {
+  "feed": "YC Hacker News",
+  "title": "Great Question (YC W21) Is Hiring Senior Demand Gen Manager",
+  "link": "https://www.ycombinator.com/companies/great-question/jobs/YutDxyf-senior-demand-generation-manager",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Non-technical job posting for a marketing role outside the reader's engineering domain.",
+  "points": [
+   "Job advertisement for a non-technical Senior Demand Generation Manager role at Great Question."
+  ]
+ },
+ "685a5d236c66cfca": {
+  "feed": "YC Hacker News",
+  "title": "The Vanishing Page: AI Firms Scan Then Destroy Rare Book Editions",
+  "link": "https://dallasexpress.com/national/the-vanishing-page-ai-firms-scan-then-destroy-rare-book-editions/",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "Directly relevant to LLM pretraining data strategy and the legal landscape surrounding proprietary pretraining datasets.",
+  "points": [
+   "AI labs like Anthropic ('Project Panama') bulk-buy and destructively scan pre-2022 physical print books to guarantee clean, non-synthetic training data.",
+   "A federal judge ruled that digitizing purchased print books and destroying physical originals constitutes fair use for LLM training."
+  ]
+ },
+ "c1988f4fed7e3417": {
+  "feed": "Railway Blog",
+  "title": "How Peerlist Built a New Kind of Professional Network with Railway",
+  "link": "https://blog.railway.com/p/peerlist-professional-network-yogini-bende",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Decent startup case study on building a developer-focused platform, though leans somewhat marketing-heavy.",
+  "points": [
+   "Peerlist built a proof-of-work tech networking platform aggregating real developer output from GitHub, blogs, and projects.",
+   "Leveraged audience distribution and Railway cloud hosting to rapidly iterate on early product deployments."
+  ]
+ },
+ "8d985dc2536492b7": {
+  "feed": "Railway Blog",
+  "title": "Doppler Launches Native Railway Integration for Secrets Management",
+  "link": "https://blog.railway.com/p/doppler-integration-secrets-sharing",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Standard vendor integration product announcement lacking technical depth or architectural lessons.",
+  "points": [
+   "Doppler launched a native Railway integration for centralized secret management, rotation, and sync."
+  ]
+ },
+ "15d6b12949d87313": {
+  "feed": "Railway Blog",
+  "title": "Architectural Engineering Software is Coming Soon to a Browser Near You: Q&A with Paul O’Carroll of Arcol",
+  "link": "https://blog.railway.com/p/software-for-architects-paul-ocarroll-arcol-interview",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Good founder interview on building complex, high-performance web applications to disrupt legacy desktop software.",
+  "points": [
+   "Arcol is building web-native, multiplayer BIM software to challenge incumbent desktop CAD giants in architectural engineering.",
+   "Focuses on delivering high-performance browser rendering for complex geometry and real-time collaboration."
+  ]
+ },
+ "8a4f3152fc3d7585": {
+  "feed": "Railway Blog",
+  "title": "Scaling Railway: Roadmap",
+  "link": "https://blog.railway.com/p/scaling-railway-roadmap",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "Offers useful engineering context on how a cloud PaaS scales its architecture from simple database provisioning to multi-service workloads.",
+  "points": [
+   "Railway details its roadmap and architectural shift from a 10-second database provisioner to serving 200,000+ developers.",
+   "Highlights the challenge of scaling a simple deployment UX into complex multi-tenant production infrastructure."
+  ]
+ },
+ "1c73e6e9c5c1e15d": {
+  "feed": "Railway Blog",
+  "title": "Shared Variables Is Now Available",
+  "link": "https://blog.railway.com/p/shared-variables-release",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "Minor PaaS feature update without deep backend performance engineering or architectural insights.",
+  "points": [
+   "Railway introduced Shared Variables to centralize configuration and secret management across microservices using a templated namespace."
+  ]
  }
 }
