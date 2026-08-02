@@ -43223,5 +43223,126 @@
   "points": [
    "Railway introduced Shared Variables to centralize configuration and secret management across microservices using a templated namespace."
   ]
+ },
+ "22653e73e841b12d": {
+  "feed": "YC Hacker News",
+  "title": "Twenty Years of RISC OS Open",
+  "link": "https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RISC OS Open: News: Twenty years of RISC OS Open Safeguarding the past, present and future of RISC OS for everyone News Downloads Bugs Moonshots Bounties Forums Library Latest news edit Twenty years of RISC OS Open Posted by Steve Revill Sat, 20 Jun 2026 15:13:00 GMT On 20 June 2006 we incorporated RISC OS Open Ltd with one slightly mad ambition: to take a proprietary operating system and open it up to anyone who fancied helping."
+  ]
+ },
+ "2e112e6aa3f2e6b4": {
+  "feed": "YC Hacker News",
+  "title": "F*: A general-purpose proof-oriented programming language",
+  "link": "https://fstar-lang.org/",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "F*: A Proof-Oriented Programming Language Introduction Download Learn Community Uses Research People Introduction F* (pronounced F star ) is a general-purpose proof-oriented programming language, supporting both purely functional and effectful programming. It combines the expressive power of dependent types with proof automation based on SMT solving and tactic-based interactive theorem proving."
+  ]
+ },
+ "7a61723d982b8825": {
+  "feed": "YC Hacker News",
+  "title": "The Seinfeld Chronicles: Digital Edition",
+  "link": "https://seinfeld.visualisingdata.com/",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Seinfeld Chronicles Skip to main content I was a late arrival to Seinfeld fandom. Scroll down or Use keyboard arrows Though the first episode was aired in the US in 1989, there would be a four-year delay until it was broadcast in the UK. As a teenager, and with the show lurking in the shadows of BBC's late-night schedules, it passed me by. It wasn't until the 2010s when Seinfeld reappeared on UK TV in a prime-time slot."
+  ]
+ },
+ "4423410040aa5ed4": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Fuse – statically typed functional programming language",
+  "link": "https://fuselang.org",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fuse Programming Language Get Started Overview GitHub fuse Fuse is a statically typed, purely functional language with higher-kinded types and ad-hoc polymorphism. It compiles to the GRIN whole-program optimizer, producing LLVM-generated native code. Overview Get Started trait Functor [ A ] : fun map [ B ] ( self , f : A -> B ) -> Self [ B ] ; impl List [ A ] : fun fold [ A , B ] ( l : List [ A ] , z : B , f : ( B , A ) -> B ) -> B match l: Cons ( h , t ) => List :: fold ( t , f ( z , h ) , f ) Nil => z fun sum ( l : List [ i32 ] ) -> i32 List :: fold ( l , 0 , ( a , b ) => a + b ) impl Functor [ A ] for List [ A ] : fun map [ B ] ( self , f : A -> B ) -> List [ B ] List :: fold ( self , Nil [ B ] , ( t , h ) => Cons ( f ( h ) , t ) ) fun fmap [ A , B , F : Functor ] ( f : A -> B , x : F [ A ] ) -> F [ B ] x ."
+  ]
+ },
+ "3b8d5c0778b19cb7": {
+  "feed": "YC Hacker News",
+  "title": "Folding Paper Globes",
+  "link": "https://foldingglobes.com/globes",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Free Printable Paper Globes — Folding Paper Globes Folding Globes Free Globes Pricing About MapScaping presents Free Paper Globes Print-ready folding globe templates — every one free to download, print, and fold, and every one customizable into other shapes or with your own pinned places via the custom globe builder . Solar System The Sun The Moon Mars Mercury Venus Jupiter Io Europa Titan Pluto Ceres Earth from Space Earth at Night Blue Marble Living Green Earth Ocean Temperature Ocean Life Earth Without Water Snow & Ice Clouds Rainfall Land Temperature Biomes of the World Population Density Saharan Dust & Aerosols Data Globes A Century of Great Earthquakes Volcanoes of the World Meteorite Landings World Heritage Tectonic Plates Time Zones Maps made with Natural Earth · a MapScaping thing Globe builder Free Globes Pricing About Every globe is built from openly licensed data — sources credited on each theme page."
+  ]
+ },
+ "266ea9598655583d": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the utility of open models on the Pareto frontier",
+  "link": "https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Consolidation has been one of the paths that many astute observers predicted for the near-future of labs training models. It was labelled as inevitable, as training costs are increasing by orders of magnitude every year. Yet, as someone who in 2024 would’ve predicted consolidation really picking up come 2026 or 2027, where are we? We’re at a place where more companies are training strong models — easily investing hundreds of millions to billions of dollars in the total effort still — and an increasing number of organizations are releasing these models openly."
+  ]
+ },
+ "773d86a570dec13e": {
+  "feed": "Railway Blog",
+  "title": "Why You Should Use Config as Code",
+  "link": "https://blog.railway.com/p/config-as-code",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Jake Runzer Config as Code allows you to specify service build and deploy settings in a file alongside your code. This can be a railway.toml or railway.json file by default or a custom file anywhere in your app that you specify in the service settings. Specify service build and deploy settings in a railway.toml or railway.json file Whether a new deployment is triggered via railway up using the Railway CLI , or via a git push event, Railway will combine the service settings from the dashboard with the settings in the config file."
+  ]
+ },
+ "88afb92c80159ce8": {
+  "feed": "Railway Blog",
+  "title": "Railway raises $20M to radically simplify building software",
+  "link": "https://blog.railway.com/p/series-a",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Jacob Cooper Railway’s Origin Story Building software should feel like magic. It used to. But over the years, we’ve introduced layers and layers of abstractions, mostly powered by yaml files, designed to make things “better”. Mostly, more configurable. The result is a complicated web of tooling, where developers are constantly playing “yaml battleship”, hoping their configs apply correctly, or navigating awful dashboards."
+  ]
+ },
+ "f5f5233ce107809e": {
+  "feed": "Railway Blog",
+  "title": "Updates on Plan Changes",
+  "link": "https://blog.railway.com/p/updates-on-plans",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno TL:DR If you’re a rational actor building cool stuff on the platform, this is great news for you! You should be getting higher quality service, more access, etc! If you are in a rush, here is what we are announcing. Attach credit card to verify Prepaid plans (One off credit purchases) Project member limit cap for free/developer plan projects Lowering Developer Plan credits to $5 instead of $10 Service execution limits on the starter plan Contribution credits, getting credits for contributing to the community Billing page updates Read below if you wanna see our rationale and timelines for these incoming changes."
+  ]
+ },
+ "5f86daf5217d6450": {
+  "feed": "Railway Blog",
+  "title": "[RFC] Changes to the Hobby Plans (aka “One Chocolate Per Person”)",
+  "link": "https://blog.railway.com/p/free-plan-changes",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Jacob Cooper TL:DR If you’re a rational actor building cool stuff on the platform, this is great news for you! You should be getting higher quality service, more access, etc! If you’re someone attempting to abuse Railway by having multiple accounts/deploy things against ToS/etc, well, this is probably not great news for you. We started Railway because we wanted to make it crazy easy to build and deploy applications."
+  ]
+ },
+ "4beebd3c172b5d0e": {
+  "feed": "Railway Blog",
+  "title": "Our Inaugural Community Call Summary",
+  "link": "https://blog.railway.com/p/community-call-wrap",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno At Railway, we take customer feedback very seriously. We structure most of our communications around this principle. For example, we pipe all emails to our chat channels, consistently acknowledge and prioritize user input, and try our best to set expectations when highly anticipated features get discussed. We feel the product and our company benefits when our users believe in our vision: allowing you to work on your core product without worrying about infrastructure."
+  ]
  }
 }
