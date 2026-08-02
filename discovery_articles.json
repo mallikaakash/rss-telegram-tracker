@@ -1489,5 +1489,90 @@
   "tier": "skip",
   "why": "Auto-generated documentation index page lacking substantive technical explanations or original findings.",
   "points": []
+ },
+ "d1d41cc60aae63ca": {
+  "url": "https://datarekha.com/nlp/frontier-llm-walkthrough/",
+  "title": "Frontier LLM walkthrough: DeepSeek-V3 — NLP & Transformers — datarekha",
+  "domain": "datarekha.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-02",
+  "tier": "skip",
+  "why": "Standard high-level educational walkthrough summarizing the published DeepSeek-V3 paper architecture rather than presenting novel primary findings.",
+  "points": []
+ },
+ "2924fa365a878dca": {
+  "url": "https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html",
+  "title": "Attention Decode on AMD MI450 GPUs: A Gluon Kernel Optimization Guide — ROCm Blogs",
+  "domain": "rocm.blogs.amd.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-02",
+  "tier": "solid_find",
+  "why": "Detailed low-level GPU kernel optimization guide from AMD detailing memory-bound decode performance and Gluon kernel tuning.",
+  "points": [
+   "Achieves 85% of peak HBM memory bandwidth on MI450 GPUs during the attention decode phase.",
+   "Detailed memory-system bottleneck analysis during long-context generation (1M+ tokens) in agentic workloads.",
+   "Concrete architectural insights on hardware feature utilization for memory-sensitive AI decode kernels."
+  ]
+ },
+ "2e7742b0e248c9dc": {
+  "url": "https://deepwiki.com/deepspeedai/DeepSpeed/4.2-pipeline-scheduling-and-communication",
+  "title": "Pipeline Scheduling and Communication | deepspeedai/DeepSpeed | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-02",
+  "tier": "skip",
+  "why": "Auto-generated documentation mirror page indexing the open-source DeepSpeed codebase.",
+  "points": []
+ },
+ "c67af19c3528c2f1": {
+  "url": "https://github.laiyagushi.com/200lz/llm-engineering-platform",
+  "title": "GitHub - 200lz/llm-engineering-platform: A production-oriented LLM engineering platform with OpenAI-compatible serving, streaming, observability, evaluation, reproducible experiments, and deterministic RAG. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-02",
+  "tier": "skip",
+  "why": "Generic boilerplate LLM platform repository with standard feature wrappers and low novelty.",
+  "points": []
+ },
+ "bbd4f0ba7bb0e2ec": {
+  "url": "https://github.laiyagushi.com/hyunlord/dgx-serving",
+  "title": "GitHub - hyunlord/dgx-serving: LLM serving engine for NVIDIA DGX Spark (GB10/sm_121) with Bayesian auto-tuning · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-02",
+  "tier": "hidden_gem",
+  "why": "Rare, highly targeted open-source effort building a custom LLM serving engine specifically tailored for NVIDIA DGX Spark (sm_121) with hardware-level Bayesian auto-tuning.",
+  "points": [
+   "Custom C++/serving optimization targeted at novel SM_121 (GB10) architecture.",
+   "Implements Bayesian auto-tuning alongside multi-step RoPE and weight setups specifically for local DGX hardware constraints.",
+   "Detailed engineering log documenting real hardware workarounds when stock serving tools fail to perform on specialized chips."
+  ]
+ },
+ "c852bb6c6be38c1e": {
+  "url": "https://techblog.gaudiy.com/entry/2026/07/31/203039",
+  "title": "How We Cut GPU Inference Cost by ~75%: Async, Autoscaled Diffusion on GKE - Gaudiy Tech Blog",
+  "domain": "techblog.gaudiy.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-02",
+  "tier": "hidden_gem",
+  "why": "Exceptional small-team infrastructure postmortem with concrete metrics on optimizing diffusion model inference costs in production.",
+  "points": [
+   "Reduced production GPU cloud cost by ~75% by combining custom queue-depth autoscaling metrics with GPU tier downsizing.",
+   "Replaced high-end GPUs with lower-tier cards (L4 class) after resolving VRAM bottlenecks via chunked-batch processing.",
+   "Built a custom Kubernetes autoscaling metric based on async queue depth because standard metrics failed to capture backlog."
+  ]
+ },
+ "43905713b14b3201": {
+  "url": "https://ai.rundatarun.io/practical-applications/from-a-spark-to-a-borrowed-cluster",
+  "title": "From a DGX Spark to a Borrowed Node: A Retinal-AI Lab | AIXplore",
+  "domain": "ai.rundatarun.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-02",
+  "tier": "solid_find",
+  "why": "Authentic build log detailing the practical infrastructure transition of a medical AI model from local DGX hardware to an 8x H100 cluster.",
+  "points": [
+   "Hands-on operational report on training oculomics (retinal image foundation) models across non-standard compute allocations.",
+   "Shares real-world setup strategies when scaling from single-node workstation prototypes to multi-node H100 clusters."
+  ]
  }
 }
