@@ -43344,5 +43344,131 @@
   "points": [
    "Author: Angelo Saraceno At Railway, we take customer feedback very seriously. We structure most of our communications around this principle. For example, we pipe all emails to our chat channels, consistently acknowledge and prioritize user input, and try our best to set expectations when highly anticipated features get discussed. We feel the product and our company benefits when our users believe in our vision: allowing you to work on your core product without worrying about infrastructure."
   ]
+ },
+ "87ddc22c57fe0518": {
+  "feed": "YC Hacker News",
+  "title": "How the words we teach English language learners changed",
+  "link": "https://pudding.cool/2026/07/essential-words/",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "An analysis of historical changes in English learning vocabulary lists with no relevance to ML or backend engineering.",
+  "points": [
+   "Traces shifts in teaching vocabulary from 1953 to 2023, noting a movement from concrete objects to abstract concepts."
+  ]
+ },
+ "823eb2b8e6528669": {
+  "feed": "YC Hacker News",
+  "title": "Karpathy’s Pelican",
+  "link": "https://twitter.com/karpathy/status/2083749667410727319",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "Provides key insights into LLM long-context capabilities, procedural code generation, and current multimodal feedback limitations.",
+  "points": [
+   "Opus 5 generated 5,500 lines of procedural 3D JavaScript from a 1M token budget to render a story sequence.",
+   "Demonstrates that LLMs excel at hyper-custom, labor-intensive tasks where human coding effort was previously cost-prohibitive.",
+   "Identifies native visual perception and auditing as a key architectural weakness, forcing models into slow screenshot feedback loops."
+  ]
+ },
+ "1be512998157061f": {
+  "feed": "YC Hacker News",
+  "title": "Fasttracker II clone in C using SDL 2",
+  "link": "https://16-bits.org/ft2.php",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "A personal project release page for a C/SDL2 clone of an old audio tracker tool.",
+  "points": [
+   "Source code and binaries released for a C implementation of Fasttracker II."
+  ]
+ },
+ "0405ae091a4a97c4": {
+  "feed": "YC Hacker News",
+  "title": "A Rant About “Technology” (2005)",
+  "link": "https://www.ursulakleguin.com/a-rant-about-technology",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "A 2005 literary essay discussing sci-fi definitions of technology, lacking technical or engineering relevance.",
+  "points": [
+   "Argues that technology encompasses all material human tools rather than just modern high-tech electronics."
+  ]
+ },
+ "b7bc95a23f8fe8f2": {
+  "feed": "YC Hacker News",
+  "title": "Norway Salmon",
+  "link": "https://www.abc.net.au/news/2026-07-28/how-norway-s-salmon-industry-became-a-global-behemoth/106949872",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "A news feature on Norway's salmon aquaculture history and Japanese marketing campaigns.",
+  "points": [
+   "Details how a 10-year Norwegian government marketing strategy popularized salmon sushi in Japan."
+  ]
+ },
+ "85453457bba5f8aa": {
+  "feed": "Railway Blog",
+  "title": "Multi-service templates",
+  "link": "https://blog.railway.com/p/multi-service-templates",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "A platform product feature announcement for Railway multi-service templates.",
+  "points": [
+   "Railway now allows grouping and deploying multi-service templates and monorepos within single projects."
+  ]
+ },
+ "39653ba2db548afa": {
+  "feed": "Railway Blog",
+  "title": "Priority Boarding: The Journey to Get There",
+  "link": "https://blog.railway.com/p/building-the-beta",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "A meta-blog on Railway's internal community management and beta feature gating using Discord integration.",
+  "points": [
+   "Describes using Discord OAuth and roles to grant community members early access to pre-release features."
+  ]
+ },
+ "9b01eb2f0defc97d": {
+  "feed": "Railway Blog",
+  "title": "How We Rebuilt Our Log Storage and Search Infrastructure for Scale",
+  "link": "https://blog.railway.com/p/building-logs-v2",
+  "date": "2026-08-02",
+  "tier": "must_read",
+  "why": "A solid infrastructure deep-dive detailing how Railway replaced Docker daemon polling with a scalable log aggregation system.",
+  "points": [
+   "Shifted from pulling logs via Docker daemon polling every 2 seconds to forwarding logs to node-local Vector instances.",
+   "Uses Vector to tail local files for real-time streaming while batching logs to Google Cloud Storage for persistence.",
+   "Delivers real-time log streaming to the frontend via gRPC streams piped into GraphQL subscriptions."
+  ]
+ },
+ "17e875c0f9235185": {
+  "feed": "Railway Blog",
+  "title": "How we built updatable starters",
+  "link": "https://blog.railway.com/p/updatable-starters",
+  "date": "2026-08-02",
+  "tier": "worth_a_skim",
+  "why": "A short engineering note on handling open-source project updates via Git mirroring and upstream remotes.",
+  "points": [
+   "Solves open-source starter drift by using mirrored GitHub repositories with upstream remotes instead of rigid forks.",
+   "Asynchronously checks and applies upstream updates with user email notifications upon dashboard visits."
+  ]
+ },
+ "81dcb09313ee9f6a": {
+  "feed": "Railway Blog",
+  "title": "Our blog is now on the Notion public API",
+  "link": "https://blog.railway.com/p/notion-public-api",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "A basic tutorial post on updating a blog codebase to use Notion's public API.",
+  "points": [
+   "Explains environment setup for connecting a Railway-hosted blog to Notion's public API."
+  ]
+ },
+ "06973cb2531c1949": {
+  "feed": "Cloudflare Blog",
+  "title": "Welcome to Agents Week",
+  "link": "https://blog.cloudflare.com/agents-week-welcome/",
+  "date": "2026-08-02",
+  "tier": "low_priority",
+  "why": "A high-level marketing kickoff post introducing Cloudflare's Agents Week without deep technical implementations.",
+  "points": [
+   "Introduces Cloudflare's conceptual framing of an 'Agent Cloud' designed for automated agent execution."
+  ]
  }
 }
