@@ -1574,5 +1574,105 @@
    "Hands-on operational report on training oculomics (retinal image foundation) models across non-standard compute allocations.",
    "Shares real-world setup strategies when scaling from single-node workstation prototypes to multi-node H100 clusters."
   ]
+ },
+ "a6fa79b95a50024a": {
+  "url": "https://mer.vin/2026/07/train-llm-from-scratch-pure-pytorch-pipeline-from-pile-to-grpo/",
+  "title": "Train LLM From Scratch: Pure PyTorch Pipeline From Pile to GRPO - Mervin Praison",
+  "domain": "mer.vin",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "97e617931f889696": {
+  "url": "https://acingai.com/articles/rl-post-training-evolution",
+  "title": "From RLHF to RLVR: How RL Post-Training Actually Evolved | Acing AI",
+  "domain": "acingai.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "dd48347e14845481": {
+  "url": "https://rlhfbook.com/book.pdf",
+  "title": "Reinforcement Learning from Human Feedback",
+  "domain": "rlhfbook.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "2c4415d279e829ad": {
+  "url": "https://zoviai.com/how-to-build-your-own-llm-runtime-from-scratch/",
+  "title": "How To Build Your Own LLM Runtime From Scratch – Zovi AI",
+  "domain": "zoviai.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "2a9195bb3a5be911": {
+  "url": "https://vibeengines.com/handbook/distributed-training",
+  "title": "Distributed Training, Explained — Data, Tensor & Pipeline Parallelism, ZeRO and FSDP | Vibe Engines",
+  "domain": "vibeengines.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "4efb839d87e32b50": {
+  "url": "https://arxiv.org/html/2407.13623v1",
+  "title": "Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "892559ff56de6f67": {
+  "url": "https://arxiv.org/abs/2607.28576v1",
+  "title": "[2607.28576v1] Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "46df5702e65bfab6": {
+  "url": "https://deepwiki.com/llm-d/llm-d/2.1-system-overview",
+  "title": "System Overview | llm-d/llm-d | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "b6ed2fdf62e76f3a": {
+  "url": "https://harshit.cloud/blog/gpu-deployments-part-3-scaling-out",
+  "title": "Scaling GPUs past one box",
+  "domain": "harshit.cloud",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "e69446c45b1a1f42": {
+  "url": "https://harshit.cloud/blog/gpu-deployments-part-2-single-node-multi-gpu",
+  "title": "One box, eight GPUs, and the wires between them",
+  "domain": "harshit.cloud",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
