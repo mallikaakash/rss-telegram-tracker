@@ -43744,5 +43744,170 @@
   "points": [
    "Modern LED headlight designs produce high lumen output and cold white color spectrums that increase glare for oncoming drivers."
   ]
+ },
+ "d2e006c4ebfe9a53": {
+  "feed": "YC Hacker News",
+  "title": "Taylor Farms Has Rewritten Its Cyclospora Statement Four Times in Sixteen Days",
+  "link": "https://www.marlerblog.com/case-news/taylor-farms-has-rewritten-its-cyclospora-statement-four-times-in-sixteen-days-it-still-has-not-said-what-changed-at-that-plant-after-2013-or-why-two-thousand-negative-tests-should-mean-an/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Taylor Farms Has Rewritten Its Cyclospora Statement Four Times in Sixteen Days. It Still Has Not Said What Changed at That Plant After 2013, or Why Two Thousand Negative Tests Should Mean Anything. | Marler Blog Skip to content Menu Home About Bill Services Contact Topics Subscribe Search Close Enter Search Terms Search Marler Blog Providing Insight on Food Poisoning Outbreaks & Litigation Marler Blog Providing Insight on Food Poisoning Outbreaks & Litigation Home > Case News > Taylor Farms Has Rewritten Its Cyclospora Statement Four Times in Sixteen Days."
+  ]
+ },
+ "109216a3d979ea33": {
+  "feed": "YC Hacker News",
+  "title": "Devtools must be open source",
+  "link": "https://blog.exe.dev/devtools-must-be-open-source",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Devtools must be open source - exe.dev blog exe.dev docs blog pricing uses Sandbox Disposable VMs for AI agents, by the second. VPS Persistent Linux VMs with HTTPS and SSH. Devbox Cloud dev environment for you and your agents. Dashboard Devtools must be open source 2026-08-02 David Crawshaw Five years ago, most software engineers I spoke to had no programs they had written for themselves."
+  ]
+ },
+ "f722651b2117fd1c": {
+  "feed": "YC Hacker News",
+  "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+  "link": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video ComfyUI Newsletter Subscribe Sign in MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly optimized in ComfyUI and can run locally on a 3060."
+  ]
+ },
+ "05e3254a62dbea9d": {
+  "feed": "YC Hacker News",
+  "title": "Hollywood Stopped Making Movies in Hollywood",
+  "link": "https://www.statsignificant.com/p/how-hollywood-stopped-making-movies",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Hollywood Stopped Making Movies in Hollywood Stat Significant Subscribe Sign in How Hollywood Stopped Making Movies in Hollywood The economics behind where movies are filmed, why Hollywood left Los Angeles, and whether audiences can tell the difference. Daniel Parris Jul 22, 2026 58 6 6 Share La La Land (2016). Credit: Warner Bros. Intro: #StayInLA The past decade has not been kind to Los Angeles’ entertainment industry."
+  ]
+ },
+ "f1fe3fd0e98c360a": {
+  "feed": "YC Hacker News",
+  "title": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
+  "link": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Andy Pavlo joins ClickHouse to establish ClickHouse Labs | ClickHouse Skip to content Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse. Available on AWS, GCP, and Azure."
+  ]
+ },
+ "9cb4da3a4c430e5f": {
+  "feed": "Technica",
+  "title": "SpaceX is set to acquire 130,000 acres of marshland in southern Louisiana",
+  "link": "https://arstechnica.com/space/2026/08/spacex-is-set-to-acquire-130000-acres-of-marshland-in-southern-louisiana/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "SpaceX and the state of Louisiana are close to finalizing a deal for the launch company to acquire about 130,000 acres along the northern coast of the Gulf of Mexico. There have been persistent rumors about such an agreement for months, but now The Times-Picayune | The New Orleans Advocate reports that Louisiana Gov. Jeff Landry is expected to announce the agreement later this month."
+  ]
+ },
+ "785b9e3e2148c9ae": {
+  "feed": "Technica",
+  "title": "Trump wants the power to stop the public from suing polluters",
+  "link": "https://arstechnica.com/tech-policy/2026/08/trump-wants-the-power-to-stop-the-public-from-suing-polluters/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Reducing rampant pollution across the United States was so important that when Congress passed many environmental protection laws, including the Clean Air Act, Clean Water Act, and Safe Drinking Water Act, it didn’t want to leave enforcement only to the executive branch. Congress specifically wrote into those laws ways for citizens to enforce them through the courts when the government does not act to address the problem."
+  ]
+ },
+ "c3fb403dfa499f43": {
+  "feed": "Microsoft Research",
+  "title": "Orchard: An open framework for scalable agentic AI",
+  "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a glance Orchard is an open-source framework for scalable and cost-effective agentic AI research, built around Orchard Env, a reusable environment service for training and evaluating agents across task domains. The same Orchard infrastructure supports software-engineering, web-navigation, and personal-assistant agents, and can train them directly inside real deployment harnesses such as Codex, OpenClaw, and ZeroClaw—letting researchers reuse environments, data pipelines, and evaluation workflows across tasks."
+  ]
+ },
+ "d196a039b06b3f1f": {
+  "feed": "Apple ML Research",
+  "title": "Understanding Alignment in Multimodal LLMs: A Comprehensive Study",
+  "link": "https://machinelearning.apple.com/research/alignment-multimodal-llms",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Preference alignment has become a crucial component in enhancing the performance of Large Language Models (LLMs), yet its impact in Multimodal Large Language Models (MLLMs) remains comparatively underexplored. Similar to language models, MLLMs for image understanding tasks encounter challenges like hallucination. In MLLMs, hallucination can occur not only by stating incorrect facts but also by producing responses that are inconsistent with the image content."
+  ]
+ },
+ "9df97dd7eca50e64": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Introducing our Artifacts Hub and Adoption Dashboard",
+  "link": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "No voiceover for this quick post, but a quick video version is here . We’re expanding our open models coverage into standalone projects that let you go deeper on the state of the open model ecosystem. The new free sources of data are: The Artifacts Hub — a curated view of the models trending on Hugging Face, highlighting inference tokens via Open Router , model intelligence via Artificial Analysis , and our tailored adoption metrics building on top of Hugging Face ’s data."
+  ]
+ },
+ "bbc61161a2d5d087": {
+  "feed": "Cloudflare Blog",
+  "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
+  "link": "https://blog.cloudflare.com/cloudflare-computer/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The most capable agents have something simple in common: they are given their own computer to work with. Coding agents work this way. You give them a filesystem, a shell, tools, packages, and the ability to run code. They inspect the environment, make changes, test their work, and keep going. The computer gives the model a familiar way to act on the world."
+  ]
+ },
+ "95e9787657681aa7": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+  "link": "https://blog.cloudflare.com/grpc-workers/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI is changing how people interact with computers, and voice is becoming an increasingly important part of that shift. Real-time assistants, AI-powered dictation, and other voice interfaces need low-latency communication between clients, models, and supporting services. Many developers use gRPC , a Remote Procedure Call (RPC) framework built on HTTP/2 and TCP, for this infrastructure."
+  ]
+ },
+ "b38c1ec9988809ff": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
+  "link": "https://blog.cloudflare.com/billable-usage-api/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Agents Week is about the shift already underway: agents write code, deploy Workers, and provision infrastructure on your behalf. That shift changes what you need to see. If a program is spending money in your Cloudflare account, you need to know what it's spending; throughout the day, per product, in a shape another program can consume. The dashboard is the right answer for humans."
+  ]
+ },
+ "8392fa5ed7326ea8": {
+  "feed": "Cloudflare Blog",
+  "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+  "link": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Workers AI runs inference for some of the best open models in the world on GPUs in Cloudflare data centers close to your users. Two of the most capable, and most demanding, are Moonshot's Kimi K-series and Z.ai 's GLM. They are large, long-context, mixture-of-experts models, and they are wonderful to use. They are also very hard to serve efficiently because of memory constraints."
+  ]
+ },
+ "50db00365912b5ff": {
+  "feed": "Cloudflare Blog",
+  "title": "Workers RPC now works across Python and JavaScript",
+  "link": "https://blog.cloudflare.com/python-workers-rpc/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Two years ago, we introduced Workers RPC , built on Cap’n Proto RPC . This made it possible for Workers to call other Workers and Durable Objects’ methods, return live objects and call their methods, return functions, streams and get all the benefits of a Remote Procedure Call (RPC) system, without defining schemas or adding any dependencies. We called it “JavaScript-native RPC” because it made using RPC feel native to the language."
+  ]
  }
 }
