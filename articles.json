@@ -43547,5 +43547,71 @@
   "points": [
    "Author: Faraz Patankar Welcome to the Railway blog. If you haven't heard of us before (how did you end up here then?) , we are attempting to build software development infrastructure for humans. We don't want you to have to worry about deployments, observability, clusters, or, even worse, dealing with Docker. Your job should simply be to work on your core product and we'll take care of the rest."
   ]
+ },
+ "f1afe25775a0b093": {
+  "feed": "YC Hacker News",
+  "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+  "link": "https://qwen.ai/blog?id=qwen3.8",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "245bd9037021101c": {
+  "feed": "YC Hacker News",
+  "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+  "link": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The reporters at this news site are AI bots. OpenAIâs super PAC appears to be funding it. - Model Republic Model Republic ABOUT CONTACT SUBSCRIBE Model Republic ABOUT CONTACT SUBSCRIBE M R The reporters at this news site are AI bots. OpenAIâs super PAC appears to be funding it. An interview request from a bot posing as a reporter revealed an AI-generated news site with articles attacking AI industry critics."
+  ]
+ },
+ "37212835e9a43777": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Isopolis – Isometric pixel map of SF",
+  "link": "https://sf.isopolis.city/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "6195dffb3d7c99da": {
+  "feed": "YC Hacker News",
+  "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
+  "link": "https://github.com/johnsonjh/cpm386",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - johnsonjh/cpm386: CP/M-386: CP/M for 386 protected mode, derived from CP/M-68K · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "04dd9313e24625b2": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: ssh ssh.place",
+  "link": "https://ssh.place",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ssh.place: r/place over SSH ssh . place One canvas. Everyone draws on it over SSH. No account, no install · 200×60 cells · one placement every 15s Draw on it: ssh ssh.place Any SSH key works. There is nothing to sign up for. 24 online · 5122 of 12000 cells drawn How it works Move the cursor with the arrow keys , wasd or hjkl The canvas is wider than your terminal, so scroll to pan around."
+  ]
+ },
+ "9af221d9f20290bc": {
+  "feed": "Simon Willison",
+  "title": "condense-json 1.0",
+  "link": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: condense-json 1.0 I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it. Here's an example of what it can do, lifted from the README: { \"foo\" : { \"bar\" : { \"string\" : \" This is a string with foxes in it \" , \"nested\" : { \"more\" : [ \" Here is a string \" , \" another with foxes in it too \" ] } } } } Combine that with a replacements object: { \"1\" : \" with foxes in it \" } And condense_json(input_json, replacements) produces the following: { \"foo\" : { \"bar\" : { \"string\" : { \"$r\" : [ \" This is a string \" , { \"$\" : \" 1 \" }]}, \"nested\" : { \"more\" : [ \" Here is a string \" , { \"$r\" : [ \" another \" , { \"$\" : \" 1 \" }, \" too \" ]}] } } } } It scans for strings or substrings that are present in that replacements object and replaces those with a special {\"$r\": ...} syntax in the output."
+  ]
  }
 }
