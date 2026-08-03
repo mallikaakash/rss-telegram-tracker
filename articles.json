@@ -43613,5 +43613,63 @@
   "points": [
    "Release: condense-json 1.0 I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it. Here's an example of what it can do, lifted from the README: { \"foo\" : { \"bar\" : { \"string\" : \" This is a string with foxes in it \" , \"nested\" : { \"more\" : [ \" Here is a string \" , \" another with foxes in it too \" ] } } } } Combine that with a replacements object: { \"1\" : \" with foxes in it \" } And condense_json(input_json, replacements) produces the following: { \"foo\" : { \"bar\" : { \"string\" : { \"$r\" : [ \" This is a string \" , { \"$\" : \" 1 \" }]}, \"nested\" : { \"more\" : [ \" Here is a string \" , { \"$r\" : [ \" another \" , { \"$\" : \" 1 \" }, \" too \" ]}] } } } } It scans for strings or substrings that are present in that replacements object and replaces those with a special {\"$r\": ...} syntax in the output."
   ]
+ },
+ "d2eab56fecac99e4": {
+  "feed": "YC Hacker News",
+  "title": "Don't be a meat proxy",
+  "link": "https://gruhn.me/blog/2026-08-03/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "Offers pragmatic advice on engineering communication and preventing unvetted LLM output from diluting code reviews.",
+  "points": [
+   "Unvetted LLM copy-pasting in PRs and Slack creates reviewer overhead and dilutes technical accountability.",
+   "Engineers should validate, comprehend, and rephrase AI outputs into their own words before communicating."
+  ]
+ },
+ "7a092721a0eeefc2": {
+  "feed": "YC Hacker News",
+  "title": "Rust project goals: Immobile types and guaranteed destructors",
+  "link": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
+  "date": "2026-08-03",
+  "tier": "low_priority",
+  "why": "A raw language proposal document for Rust features that is distant from ML infrastructure and backend engineering priorities.",
+  "points": [
+   "Outlines proposed Rust goals for immobile types (`Move` trait opt-out) and guaranteed destructors/async drop."
+  ]
+ },
+ "c72d7eda875d75d9": {
+  "feed": "YC Hacker News",
+  "title": "More German than many Germans",
+  "link": "https://mertbulan.com/more-german-than-many-germans/",
+  "date": "2026-08-03",
+  "tier": "low_priority",
+  "why": "A personal career reflection and expat story with no technical relevance to backend or ML engineering.",
+  "points": [
+   "Recounts a personal journey moving from Turkey to Germany for a software internship."
+  ]
+ },
+ "366d44b0439e7fc1": {
+  "feed": "YC Hacker News",
+  "title": "Bonsai: Janestreet's UI Library",
+  "link": "https://github.com/janestreet/bonsai",
+  "date": "2026-08-03",
+  "tier": "low_priority",
+  "why": "While from Jane Street, this is a repository listing for an OCaml web UI framework rather than an architecture deep-dive.",
+  "points": [
+   "Provides a frontend OCaml UI library (`Js_of_ocaml`) maintained by Jane Street."
+  ]
+ },
+ "6d4f14d660f9062e": {
+  "feed": "YC Hacker News",
+  "title": "Why we write our own C and C++ inference engines",
+  "link": "https://localai.io/blog/why-we-write-our-own-engines/",
+  "date": "2026-08-03",
+  "tier": "must_read",
+  "why": "An outstanding technical deep-dive into inference serving performance engineering, directly matching your ML infrastructure priorities.",
+  "points": [
+   "LocalAI's native C++20 engine (`vllm.cpp`) reduces deployment footprint from 9.1 GiB to a 66 MiB binary while matching vLLM throughput on NVFP4 models.",
+   "Implements core serving features—paged KV cache, continuous batching, and prefix caching—completely independent of Python and PyTorch.",
+   "Custom C++/ggml ports beat PyTorch CPU inference on depth estimation models in both latency and peak RAM usage."
+  ]
  }
 }
