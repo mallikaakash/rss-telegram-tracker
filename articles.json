@@ -43671,5 +43671,78 @@
    "Implements core serving features—paged KV cache, continuous batching, and prefix caching—completely independent of Python and PyTorch.",
    "Custom C++/ggml ports beat PyTorch CPU inference on depth estimation models in both latency and peak RAM usage."
   ]
+ },
+ "6ff715560b9fc365": {
+  "feed": "YC Hacker News",
+  "title": "Critical CVE issued for hallucinated SQLite vulnerability",
+  "link": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+  "date": "2026-08-03",
+  "tier": "must_read",
+  "why": "Provides a crucial look into real-world LLM failure modes by detailing how AI-generated security advisories flooded official CVE databases with hallucinated vulnerabilities.",
+  "points": [
+   "JFrog discovered 50+ AI-generated CVE advisories referencing non-existent SQLite C functions, bad code lines, and non-working PoCs.",
+   "NVD and Red Hat initially assigned CVSS scores up to 9.8 Critical without dynamic execution testing or source code verification.",
+   "Demonstrates the necessity of isolated dynamic auditing workflows using Docker and AddressSanitizer when validating AI security reports."
+  ]
+ },
+ "53ea25548c939d0e": {
+  "feed": "YC Hacker News",
+  "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+  "link": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "Offers a practical developer workflow strategy to avoid cognitive debt and catch LLM hallucinations when using AI coding assistants.",
+  "points": [
+   "Allowing AI agents to directly modify repository files creates cognitive debt and degrades developer mental models of complex codebases.",
+   "Forcing LLMs to output proposed changes in chat to be manually typed forces active code reading, catching subtle hallucinations and bad design choices.",
+   "Trades raw generation speed for better architectural familiarity and spatial awareness of the codebase."
+  ]
+ },
+ "bc7a6f0eaf37cf65": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Nightcrawler – A local AI pentesting agent running on a smartphone",
+  "link": "https://github.com/garagehq/nightcrawler/",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates an open-source implementation of a local AI pentesting agent running on a mobile device, though it lacks deep architectural details.",
+  "points": [
+   "Packages an autonomous red-teaming agent loop with proxy scoping, prompt management, and Kali Linux execution scripts for mobile platforms.",
+   "Shows how lightweight local agent architectures can orchestrate automated security testing workflows."
+  ]
+ },
+ "d7b2d7d221cb50ed": {
+  "feed": "YC Hacker News",
+  "title": "ICE Collected Nearly 1M People's DNA Last Year–Including Young Children",
+  "link": "https://www.wired.com/story/ice-dna-collection-fbi-codis/",
+  "date": "2026-08-03",
+  "tier": "low_priority",
+  "why": "Covers government policy, immigration, and civil DNA collection, which lies outside your ML and backend engineering scope.",
+  "points": [
+   "ICE expanded DNA collection to nearly 1 million individuals in civil custody, uploading non-criminal profiles into the FBI's CODIS database."
+  ]
+ },
+ "e008c38efa0b8af7": {
+  "feed": "YC Hacker News",
+  "title": "Octane – React's programming model, compiled",
+  "link": "https://octanejs.dev",
+  "date": "2026-08-03",
+  "tier": "worth_a_skim",
+  "why": "Explores ahead-of-time UI framework compilation techniques, offering interesting performance engineering lessons despite being frontend-focused.",
+  "points": [
+   "Eliminates Virtual DOM overhead by compiling TSX components directly into cloned DOM nodes and targeted property writes.",
+   "Uses static analysis to remove React's rules of hooks and manual dependency arrays, allowing conditional hook calls.",
+   "Provides streaming SSR and independent async data fetching to prevent cascading render suspensions."
+  ]
+ },
+ "21ab393668f74cfd": {
+  "feed": "Technica",
+  "title": "How headlights got brighter, whiter, and more blinding after dark",
+  "link": "https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/",
+  "date": "2026-08-03",
+  "tier": "low_priority",
+  "why": "Discusses automotive headlight technology and road safety, which is irrelevant to software engineering or machine learning.",
+  "points": [
+   "Modern LED headlight designs produce high lumen output and cold white color spectrums that increase glare for oncoming drivers."
+  ]
  }
 }
