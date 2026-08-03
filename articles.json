@@ -43909,5 +43909,108 @@
   "points": [
    "Two years ago, we introduced Workers RPC , built on Cap’n Proto RPC . This made it possible for Workers to call other Workers and Durable Objects’ methods, return live objects and call their methods, return functions, streams and get all the benefits of a Remote Procedure Call (RPC) system, without defining schemas or adding any dependencies. We called it “JavaScript-native RPC” because it made using RPC feel native to the language."
   ]
+ },
+ "ba0eba8bc1076819": {
+  "feed": "YC Hacker News",
+  "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
+  "link": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "The scraped webpage only contains a bot protection block with no readable engineering content.",
+  "points": [
+   "Contains no technical content due to an anti-bot challenge wall."
+  ]
+ },
+ "72ceda3550e56540": {
+  "feed": "YC Hacker News",
+  "title": "Wind and solar overtake fossil fuels in Germany for the first time",
+  "link": "https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379/",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Covers European energy news and geopolitics, which is completely off-target for ML and backend engineering.",
+  "points": [
+   "Focuses on German wind and solar energy statistics and Eastern European news."
+  ]
+ },
+ "0b4220142a3001a5": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+  "link": "https://hoplite.sh",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "An empty product launch post lacking technical depth or architectural detail.",
+  "points": [
+   "Product launch announcement for cloud coding agents with no substantive engineering content."
+  ]
+ },
+ "489b06ed50946813": {
+  "feed": "YC Hacker News",
+  "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+  "link": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "Touches on Cloudflare's platform for serving large open-weight models like Kimi and GLM at scale.",
+  "points": [
+   "Discusses infrastructure strategies for serving open-weight LLMs on Cloudflare Workers AI.",
+   "Relevant for learning about production LLM inference, quantization, and edge deployment."
+  ]
+ },
+ "26149269af1e40c4": {
+  "feed": "YC Hacker News",
+  "title": "AirLLM 70B inference with single 4GB GPU",
+  "link": "https://github.com/lyogavin/airllm",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - lyogavin/airllm: AirLLM 70B inference with single 4GB GPU · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to..."
+  ]
+ },
+ "03ab1788bb3a5045": {
+  "feed": "Technica",
+  "title": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet",
+  "link": "https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "A consumer automobile review with no relevance to backend, infrastructure, or ML engineering.",
+  "points": [
+   "A standard car review for the 2026 VW Jetta Sport."
+  ]
+ },
+ "765bf45633e27746": {
+  "feed": "Simon Willison",
+  "title": "Quoting David Crawshaw's prompt",
+  "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "Presents a practical, concise prompt pattern for autonomous agent integration in nightly repository maintenance.",
+  "points": [
+   "Shows how to automate nightly upstream code fetches, rebases, and automated test runs via LLM prompts."
+  ]
+ },
+ "5439cd2e05240afa": {
+  "feed": "Simon Willison",
+  "title": "Devtools must be open source (exe.dev)",
+  "link": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "Analyzes how AI coding agents lower friction for engineers exploring and modifying open-source toolchains.",
+  "points": [
+   "Argues that LLMs make deep open-source code exploration and modification practical for everyday workflows.",
+   "Highlights how agents like Claude Code and Codex reduce build and setup friction to near zero."
+  ]
+ },
+ "938bb99c853cbc4a": {
+  "feed": "Meta Engineering",
+  "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+  "link": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
+  "date": "2026-08-04",
+  "tier": "must_read",
+  "why": "An outstanding Meta Engineering deep-dive on scaling massive recommendation models with custom kernels and 5D parallelism.",
+  "points": [
+   "Doubled training efficiency to 20–25% MFU while scaling training FLOPs 4x using MXFP8 precision and custom kernels.",
+   "Solves variable sequence length overhead using custom Jagged Flash Attention and BlockAttention kernels.",
+   "Implements topology-aware 5D parallelism combining FSDP, Expert Parallelism, and Fully Sharded 2D Model Parallelism with SM-free collectives."
+  ]
  }
 }
