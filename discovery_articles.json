@@ -1674,5 +1674,49 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "f6c3c8e45c66925e": {
+  "url": "https://www.sundeepteki.org/advice/the-complete-guide-to-post-training-llms-how-sft-rlhf-dpo-and-grpo-shape-llms",
+  "title": "Post-Training LLMs Guide: SFT, RLHF, DPO & GRPO Explained (2026) - Sundeep Teki",
+  "domain": "sundeepteki.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-04",
+  "tier": "skip",
+  "why": "It is a broad introductory overview of LLM post-training paired with career coaching, offering no novel technical insights or original data.",
+  "points": []
+ },
+ "3a9edb905f1ae337": {
+  "url": "https://docshare.wps.com/document/matrixfsdp-communication-free-matrix-optimizers-under-zero-3-parameter-sharding/83013/",
+  "title": "MatrixFSDP: Communication-Free Matrix Optimizers Under Zero-3 Parameter Sharding",
+  "domain": "docshare.wps.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-04",
+  "tier": "skip",
+  "why": "The page failed to extract document content, leaving only interface icons and header metadata without technical text.",
+  "points": []
+ },
+ "ffc7752194c390e9": {
+  "url": "https://www.alphaxiv.org/abs/2602.10545",
+  "title": "$μ$pscaling small models: Principled warm starts and hyperparameter transfer | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-04",
+  "tier": "hidden_gem",
+  "why": "It provides a mathematically rigorous extension of muP theory to model width expansion, enabling zero-shot hyperparameter transfer when upscaling models.",
+  "points": [
+   "Integrates function-preserving Net2Net-style model upscaling with maximal update parametrization (muP).",
+   "Proves functional equivalence under zero perturbation and establishes infinite-width limit analysis.",
+   "Allows optimal hyperparameters tuned on small base models to transfer directly to larger upscaled models without expensive target-scale tuning."
+  ]
+ },
+ "931293f4ee7b5b7d": {
+  "url": "https://github.com/UGEM-io/UGR",
+  "title": "GitHub - UGEM-io/UGR · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-04",
+  "tier": "skip",
+  "why": "The page encountered a loading error and displays only basic commit navigation without any readable README or technical design documentation.",
+  "points": []
  }
 }
