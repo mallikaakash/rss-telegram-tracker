@@ -44243,5 +44243,75 @@
   "points": [
    "OpenAI rebuts trade secret claims from Apple, attributing file retention issues to flawed employee offboarding protocols."
   ]
+ },
+ "142e2aec49d3c942": {
+  "feed": "YC Hacker News",
+  "title": "FFmpeg 9.0",
+  "link": "https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Generic release announcement for a media processing tool with no relevance to ML infrastructure or backend systems.",
+  "points": [
+   "FFmpeg 9.0 released with standard changelog updates, lacking specific relevance to ML/backend engineering."
+  ]
+ },
+ "070483894b024822": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+  "link": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+  "date": "2026-08-04",
+  "tier": "must_read",
+  "why": "Directly addresses LLM inference serving on non-NVIDIA hardware by detailing production vLLM deployment for DeepSeek V4 Flash on AMD MI300X.",
+  "points": [
+   "Provides a complete Docker Compose stack and patches to serve DeepSeek V4 Flash on a single AMD MI300X GPU.",
+   "Demonstrates practical production tuning and vLLM entrypoint configurations for alternative hardware acceleration.",
+   "Offers actionable infrastructure setups for running large language models cost-effectively outside the CUDA ecosystem."
+  ]
+ },
+ "c8bed11e21787dab": {
+  "feed": "YC Hacker News",
+  "title": "Buckminster Fuller: everything I know",
+  "link": "https://www.bfi.org/about-fuller/everything-i-know/",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Transcripts of historical design and philosophy lectures with no technical connection to ML, infra, or backend engineering.",
+  "points": [
+   "Archive of 1975 lectures covering synergetics, architecture, and comprehensive design philosophy."
+  ]
+ },
+ "fa6410cb491d0fe1": {
+  "feed": "YC Hacker News",
+  "title": "Mini retirements: like a sabbatical, but much smaller",
+  "link": "https://www.ssp.sh/brain/mini-retirements/",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Personal lifestyle post on taking short career breaks without technical depth or backend/ML career specifics.",
+  "points": [
+   "Advocates taking 1–3 month mini-sabbaticals between roles to prevent burnout and gain personal clarity."
+  ]
+ },
+ "a68d6d22d517798d": {
+  "feed": "YC Hacker News",
+  "title": "You don't need React: creating a minimal UI library in Vanilla JavaScript",
+  "link": "https://pedroth.github.io/?p=post/NoNeedReact",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Frontend JavaScript tutorial with no relevance to backend systems or ML infrastructure.",
+  "points": [
+   "Discussion on implementing lightweight UI libraries using vanilla JavaScript instead of React."
+  ]
+ },
+ "e72169530bcddc1a": {
+  "feed": "MIT News (AI)",
+  "title": "The benefits of medical AI assistance vary based on user expertise",
+  "link": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "Relevant study on applied ML and human-AI interaction that explores LLM explainability and automation bias.",
+  "points": [
+   "Non-experts suffer from automation bias, trusting flawed LLM explanations even when vague or incorrect.",
+   "Domain experts perform best when receiving raw model predictions rather than full LLM text explanations.",
+   "Highlights the necessity of tailoring AI explainability interfaces based on user domain knowledge to prevent errors."
+  ]
  }
 }
