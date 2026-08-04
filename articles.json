@@ -44012,5 +44012,168 @@
    "Solves variable sequence length overhead using custom Jagged Flash Attention and BlockAttention kernels.",
    "Implements topology-aware 5D parallelism combining FSDP, Expert Parallelism, and Fully Sharded 2D Model Parallelism with SM-free collectives."
   ]
+ },
+ "3e9781fff5059bb1": {
+  "feed": "YC Hacker News",
+  "title": "LLMs reward expertise",
+  "link": "https://www.seangoedecke.com/llms-reward-expertise/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "Analyzes how deep domain expertise dramatically improves LLM prompting outcomes, drawing lessons from Terence Tao's interactions with ChatGPT.",
+  "points": [
+   "Domain knowledge enables users to steer models into specialized, concise modes rather than defaulting to generic amateur explanations.",
+   "Experts can critically validate intermediate reasoning steps and guide the model away from subtle errors, extracting significantly more value."
+  ]
+ },
+ "693f258b86f689ea": {
+  "feed": "YC Hacker News",
+  "title": "Amazonian civilization had estimated 3M people in 3% of forest area",
+  "link": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Historical archaeology news that is completely unrelated to machine learning or backend infrastructure.",
+  "points": [
+   "Estimates that an ancient Amazonian civilization contained three million people settled across 3% of the forest area."
+  ]
+ },
+ "8e9b4ad079fcd7f2": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+  "link": "https://github.com/leonickson1/Swiftlet",
+  "date": "2026-08-04",
+  "tier": "must_read",
+  "why": "Directly relevant to ML infrastructure and inference serving, showcasing aggressive quantization and custom Metal execution for local LLMs.",
+  "points": [
+   "Introduces Swiftlet, a custom Swift + Metal runtime enabling local execution of large Qwen3 models on Apple silicon.",
+   "Uses extreme quantization to run an 80B Qwen model inside just 4.3 GB of RAM.",
+   "Enables edge inference for 35B models directly on iPhone hardware."
+  ]
+ },
+ "c00f85b12506a2c0": {
+  "feed": "YC Hacker News",
+  "title": "That time when I failed the Microsoft interview",
+  "link": "https://ochagavia.nl/blog/that-time-when-i-failed-the-microsoft-interview/",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Personal career anecdote about a 2015 tech interview that lacks relevant technical or systems content.",
+  "points": [
+   "Recounts failing a Microsoft internship interview after admitting to knowing a brain teaser and struggling with a replacement puzzle."
+  ]
+ },
+ "6393450e9fc3964c": {
+  "feed": "YC Hacker News",
+  "title": "Ask HN: Who is hiring? (August 2026)",
+  "link": "https://news.ycombinator.com/item?id=49156683",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Generic monthly job listing thread without technical deep dives or architectural insights.",
+  "points": [
+   "Aggregates August 2026 job openings across remote and onsite engineering roles."
+  ]
+ },
+ "2e8aa46c7aa18e9e": {
+  "feed": "Technica",
+  "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+  "link": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "A high-level overview of applied AI on edge hardware for autonomous drone targeting in combat.",
+  "points": [
+   "Auterion's Skynode S kits add AI terminal guidance to $400 Ukrainian Shrike FPV drones.",
+   "Enables human operators to hand off control to an autonomous fire-and-forget homing mode up to half a mile from targets."
+  ]
+ },
+ "8a9c56134c9a0237": {
+  "feed": "Technica",
+  "title": "Research roundup: 6 cool science stories we almost missed",
+  "link": "https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "General science trivia roundup containing no engineering or ML infrastructure insights.",
+  "points": [
+   "Summarizes recent research findings on Incan human sacrifice methods and cyborg cockroach experiments."
+  ]
+ },
+ "da9ff99a8bf8e94f": {
+  "feed": "Technica",
+  "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
+  "link": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Consumer product announcement for a Lego toy set.",
+  "points": [
+   "Lego announced a 1,252-piece model of the Hubble Space Telescope for $140."
+  ]
+ },
+ "7930501cc9800dff": {
+  "feed": "Technica",
+  "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+  "link": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "A cautionary case study on the real-world failure modes and grade inflation risks of automated AI proctoring.",
+  "points": [
+   "UNAM's AI-proctored remote exam led to massive score inflation, with 16.3% scoring over 100/120 compared to the historical 3.5% baseline.",
+   "Forced 58,000 students to retake the exam following widespread proctoring software failures."
+  ]
+ },
+ "d04cc35bd3ccb8a5": {
+  "feed": "OpenAI News",
+  "title": "How we built a realtime system for responsive voice AI in six months",
+  "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+  "date": "2026-08-04",
+  "tier": "must_read",
+  "why": "An exceptional engineering deep-dive on low-latency streaming inference, stateful context management, and full-duplex speech architecture from OpenAI.",
+  "points": [
+   "Replaces traditional turn detectors with a full-duplex voice model that listens and speaks simultaneously.",
+   "Delegates heavy reasoning to frontier models like GPT-5.5 asynchronously without interrupting the ongoing audio stream.",
+   "Redesigns model inference, context handling, and media transport protocols to achieve responsive, human-like voice latency."
+  ]
+ },
+ "54e616a32e5ede38": {
+  "feed": "OpenAI News",
+  "title": "Circles powers telco personalization with OpenAI technology",
+  "link": "https://openai.com/index/circles",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Standard customer marketing case study that lacks technical architecture or engineering specifics.",
+  "points": [
+   "Describes how telco provider Circles used OpenAI APIs to automate support and boost ARPU."
+  ]
+ },
+ "65bd07859d401501": {
+  "feed": "MIT News (AI)",
+  "title": "Alexander Rakhlin named director of  the MIT Statistics and Data Science Center",
+  "link": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Academic faculty appointment news with no practical relevance to backend or ML engineering.",
+  "points": [
+   "Announces Alexander Rakhlin's appointment as director of the MIT Statistics and Data Science Center."
+  ]
+ },
+ "1ed1f6384a4fe3f0": {
+  "feed": "Simon Willison",
+  "title": "Quoting Steve Yegge",
+  "link": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "Provides valuable real-world observations on model behavioral regressions and failure modes in autonomous coding agent loops.",
+  "points": [
+   "Steve Yegge's coding agent system Gas Town failed when Claude Opus 4.7 introduced an endless self-editing loop tic.",
+   "Demonstrates how subtle changes in model outputs can cause multi-step autonomous agent loops to diverge."
+  ]
+ },
+ "1c5150c65d415e4b": {
+  "feed": "Simon Willison",
+  "title": "Don't be a meat proxy",
+  "link": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "Offers practical career guidance on maintaining engineering rigor and adding value when using generative AI tools.",
+  "points": [
+   "Warns against acting as a 'meat proxy' who uncritically pastes raw AI outputs to colleagues.",
+   "Recommends reading, validating, and rewriting LLM suggestions into your own words to verify correctness."
+  ]
  }
 }
