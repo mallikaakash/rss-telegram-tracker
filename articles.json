@@ -44175,5 +44175,73 @@
    "Warns against acting as a 'meat proxy' who uncritically pastes raw AI outputs to colleagues.",
    "Recommends reading, validating, and rewriting LLM suggestions into your own words to verify correctness."
   ]
+ },
+ "234fe9ac3c58e254": {
+  "feed": "YC Hacker News",
+  "title": "There Will Come Soft Rains (1950) [pdf]",
+  "link": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Corrupted PDF parse of a 1950 science fiction story with no relevance to engineering or machine learning.",
+  "points": [
+   "Raw binary PDF dump of Ray Bradbury's short story 'There Will Come Soft Rains'."
+  ]
+ },
+ "c61accbe672bc93b": {
+  "feed": "YC Hacker News",
+  "title": "CollectWise (YC F24) Is Hiring",
+  "link": "https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Standard job recruitment announcement for a voice AI startup.",
+  "points": [
+   "CollectWise job posting for an AI Agent Engineer focused on LiveKit voice infrastructure and prompting."
+  ]
+ },
+ "fd93919d8794707e": {
+  "feed": "YC Hacker News",
+  "title": "Ask HN: Who wants to be hired? (August 2026)",
+  "link": "https://news.ycombinator.com/item?id=49156682",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Monthly Hacker News community thread containing individual resumes and job seeker postings.",
+  "points": [
+   "Hacker News job board thread listing availability and skill sets of various developers."
+  ]
+ },
+ "196f0add7771087b": {
+  "feed": "YC Hacker News",
+  "title": "Beauty in my backyard",
+  "link": "https://worksinprogress.co/issue/beauty-in-my-backyard/",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Social science essay on urban planning, NIMBYism, and architectural aesthetics.",
+  "points": [
+   "Explores how architectural design influences public policy and neighborhood opposition to housing development."
+  ]
+ },
+ "fdab8d3e1fc3bbb6": {
+  "feed": "YC Hacker News",
+  "title": "Twenty Years of Pandoc",
+  "link": "https://pandoc.org/twenty-years-of-pandoc.html",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "High-quality historical deep dive into Pandoc's compiler-like AST architecture and Haskell implementation.",
+  "points": [
+   "Pandoc uses parser combinators to construct an Abstract Syntax Tree (AST), enabling scalable N x M format conversions.",
+   "Demonstrates the long-term benefits of AST-driven design over fragile regex document transformations.",
+   "Traces Pandoc's evolution from 3,000 lines of code to a core dependency for tools like Quarto and Jupyter."
+  ]
+ },
+ "2163b413300de52f": {
+  "feed": "OpenAI News",
+  "title": "Apple is getting this wrong",
+  "link": "https://openai.com/index/apple-is-getting-this-wrong",
+  "date": "2026-08-04",
+  "tier": "low_priority",
+  "why": "Corporate legal disputes and PR statements between OpenAI and Apple without technical depth.",
+  "points": [
+   "OpenAI rebuts trade secret claims from Apple, attributing file retention issues to flawed employee offboarding protocols."
+  ]
  }
 }
