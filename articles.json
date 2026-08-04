@@ -44313,5 +44313,148 @@
    "Domain experts perform best when receiving raw model predictions rather than full LLM text explanations.",
    "Highlights the necessity of tailoring AI explainability interfaces based on user domain knowledge to prevent errors."
   ]
+ },
+ "c343395b0c533702": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+  "link": "https://toneyalexander.github.io/inclusive-color-space/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What Colors Are We? Constructing A Color Space For Skin Tones What Colors Are We? Constructing A Good Enough Color Space For Skin Tones If you're just looking for the results, below is a custom color picker based on the color space written in Javascript and a sample procedural generation algorithm in Python (Javascript equivalents are in the page source) - feel free to take this math and go have fun depicting our diverse world!"
+  ]
+ },
+ "726032e4377dd8fc": {
+  "feed": "YC Hacker News",
+  "title": "Ray Bradbury's \"There Will Come Soft Rains\" is set today (2026-08-04)",
+  "link": "https://short-stories.co/@raybradbury/there-will-come-soft-rains-6k8vr4xxlnmj",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There Will Come Soft Rains by Ray Bradbury | Short Stories Skip to main content Short Stories Submit Submit a story There Will Come Soft Rains Ray Bradbury 5 min read · Rating: PG-13 Share In the living room the voice-clock sang, Tick-tock, seven o’clock, time to get up, time to get up, seven o’clock! As if it were afraid that nobody would. Seven-nine, breakfast time, seven-nine!"
+  ]
+ },
+ "921b32356dd8ed78": {
+  "feed": "YC Hacker News",
+  "title": "Germany Records Historic 12B KWh Solar Feed-In in July 2026",
+  "link": "https://solarquarter.com/2026/08/03/germany-records-historic-12-billion-kwh-solar-feed-in-in-july-2026/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "69fd2a8cd1dd503e": {
+  "feed": "YC Hacker News",
+  "title": "Agent skills that bring team coding standards to Claude Code and Codex",
+  "link": "https://github.com/tikalk/adlc-team-skills",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - tikalk/adlc-team-skills: 🐙 ADLC Team Skills — Agentic SDLC for Engineering Teams · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Type / to search Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "bc98b22c6ef4c6ec": {
+  "feed": "YC Hacker News",
+  "title": "Dates That Don't Exist (2015)",
+  "link": "https://blog.yossarian.net/2015/06/09/Dates-That-Dont-Exist",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Mini-post: Dates That Don't Exist ENOSUCHBLOG Programming, philosophy, pedaling. Home Tags Series Favorites Archive Main Site TILs Mini-post: Dates That Don't Exist Jun 9, 2015 Tags: programming This post is at least a year old. Calendars and Missing Dates # In 1582, under the inter gravissimas papal bull, the Catholic world transitioned from the Julian Calendar to the Gregorian Calendar ."
+  ]
+ },
+ "dbc6c49e0fb7b6fe": {
+  "feed": "Technica",
+  "title": "2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware",
+  "link": "https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chevrolet provided flights from Albany, New York, to Denver and accommodation so Ars could drive the Grand Sport X. Ars does not accept paid editorial content. When Chevrolet introduced a hybrid system to the Corvette lineup in 2023, creating the E-Ray , many fans were confused. If it was meant to be a performance option, where did it fit alongside the ZR1 and ZR1X ?"
+  ]
+ },
+ "b3077cd39d2787ef": {
+  "feed": "Technica",
+  "title": "OpenAI says Apple's trade secrets lawsuit is \"aggressive and oddly personal\"",
+  "link": "https://arstechnica.com/tech-policy/2026/08/openai-says-apples-trade-secrets-lawsuit-is-aggressive-and-oddly-personal/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI has accused Apple of waging a “careless, aggressive and oddly personal lawsuit” in a blog post rebutting the iPhone maker’s claims that the AI start-up stole top-secret information. “We do not have, nor want, any of their trade secrets,” the ChatGPT maker wrote on Monday evening, accusing Apple of “making vague accusations” and “trying to change their narrative.” The post marks the latest escalation in a dispute that began last month when Apple filed a lawsuit claiming OpenAI had stolen hardware designs as it planned to launch its own AI-focused consumer devices."
+  ]
+ },
+ "ea7f6df3de1a3ce4": {
+  "feed": "Hugging Face Blog",
+  "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+  "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Deploy local agents everywhere with LFM2.5-2.6B Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Deploy local agents everywhere with LFM2.5-2.6B Team Article Published August 4, 2026 Upvote 12 +6 Leonie Monigatti iamleonie Follow LiquidAI Sergei Tilga tilgasergey Follow LiquidAI Sinoué GAD GAD-cell Follow LiquidAI Song Duong sduong Follow LiquidAI Tim Seyde tseyde Follow LiquidAI Maxime Labonne mlabonne Follow LiquidAI How we built a reliable agentic model for edge devices Benchmark results Inference speed on CPU and GPU How to use LFM2.5-2.6B LFM2.5-2.6B demo Get Started Citation LFM2.5-2.6B is built to power capable agents entirely on-device."
+  ]
+ },
+ "64d41bcc08121910": {
+  "feed": "Cloudflare Blog",
+  "title": "The Agent Development Lifecycle has arrived on Cloudflare",
+  "link": "https://blog.cloudflare.com/agent-development-lifecycle/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Engineering managers spent the past few decades figuring out ways for many programmers to work together on a shared codebase. This work dates all the way back to the “Systems Development Lifecycle” ( RAND, 1975 ) - today commonly referred to as the “Software Development Lifecycle” (SDLC), which defines the following phases: Plan Design Implement Test Deploy Maintain Retire AI has made the step that was previously the slowest and most expensive — implementation — the fastest and cheapest."
+  ]
+ },
+ "00813d94baa6c722": {
+  "feed": "Cloudflare Blog",
+  "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+  "link": "https://blog.cloudflare.com/wallets/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, it is difficult for AI agents to try out new APIs. They often have to navigate through a login page designed for humans and not agents, contact a human to add a payment method, generate an API key, and then figure out how to call the API. This flow is very difficult for agents for two reasons: Agents do not have a stable identifier to sign up for an API, and they do not have a native way to pay for APIs."
+  ]
+ },
+ "7d48e808c2defc0c": {
+  "feed": "Cloudflare Blog",
+  "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+  "link": "https://blog.cloudflare.com/ci-workflows/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We are moving toward a world in which you can store, build, test, and deploy your code fully on Cloudflare. We built the first piece with Artifacts , versioned code storage that scales to millions of repos. We have stitched the store, build, and deploy steps together with the CI SDK , built on Cloudflare Workflows , so that you can run your continuous integration (CI) pipeline on Cloudflare."
+  ]
+ },
+ "12dd0b91b5ed1194": {
+  "feed": "Cloudflare Blog",
+  "title": "How Cloudflare enforces engineering standards using AI",
+  "link": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over the past four months, our AI code reviewer has flagged nearly a quarter of a million deviations from Cloudflare engineering standards (what we’ll call “violations” in this post) and blocked 16,000 merges. Our spec reviewer agent has evaluated close to 600 technical designs against the same standards before implementation began. Both systems draw from the Cloudflare Codex, a shared source of engineering guidance built for people and agents."
+  ]
+ },
+ "bcb117e86abf48af": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing: Cloudflare Agents",
+  "link": "https://blog.cloudflare.com/agents-on-cloudflare/",
+  "date": "2026-08-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We're bringing together everything you need to deploy and manage hosted agents on Cloudflare, starting with observability. We've spent the last nine years building a developer platform, and agents are the perfect use case. They're really just another type of application, but what you need to build them — model access , durable runtime , orchestration , sandboxed execution , persistent storage — happens to be exactly what we've already built."
+  ]
  }
 }
