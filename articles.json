@@ -44910,5 +44910,132 @@
    "Achieves 120 tokens/second on an iPhone using a ternary-quantized 20B Mixture-of-Experts architecture.",
    "Showcases the viability of extreme low-bit quantization for high-throughput mobile LLM serving."
   ]
+ },
+ "7383f4b423856b5b": {
+  "feed": "YC Hacker News",
+  "title": "Why the Legendary Erdős Problems Are Falling to AI",
+  "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Provides context on how frontier AI reasoning models are tackling complex mathematical conjectures.",
+  "points": [
+   "AI models solved long-standing Paul Erdős combinatorics conjectures by cross-applying novel mathematical ideas.",
+   "Mathematicians view recent results from models like OpenAI's Astra as a potential phase transition in automated reasoning."
+  ]
+ },
+ "3de39faed3488156": {
+  "feed": "YC Hacker News",
+  "title": "Scaling NumPy on Free-Threaded Python",
+  "link": "https://labs.quansight.org/blog/scaling-numpy-on-free-threaded-python",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "The post lacks any body text or content beyond the title.",
+  "points": [
+   "Contains no article text."
+  ]
+ },
+ "78097c5153d2aedd": {
+  "feed": "YC Hacker News",
+  "title": "Three Six Mafia – Data about \"6/6/6 dating\" (2024)",
+  "link": "https://divingintheshallowend.com/three-six-mafia/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Off-topic statistical analysis of dating criteria.",
+  "points": [
+   "Calculates population percentile statistics for male physical and financial attributes."
+  ]
+ },
+ "de30db574f39f7f0": {
+  "feed": "YC Hacker News",
+  "title": "Bubble Memory",
+  "link": "https://en.wikipedia.org/wiki/Bubble_memory",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Historical overview of an obsolete computer memory technology unrelated to modern software engineering.",
+  "points": [
+   "Wikipedia article summarizing 1970s non-volatile magnetic bubble memory technology."
+  ]
+ },
+ "a2923cd46600b6b7": {
+  "feed": "YC Hacker News",
+  "title": "Iowa et al asks OpenAI to keep their bots sandboxed",
+  "link": "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Regulatory news regarding state inquiries into OpenAI with no technical engineering substance.",
+  "points": [
+   "State attorneys general request OpenAI maintain sandboxing standards following a security breach."
+  ]
+ },
+ "03f2d2d381a8c6a6": {
+  "feed": "Technica",
+  "title": "Pushing the limits: Infinite Machine's Olto is barely a bicycle",
+  "link": "https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Consumer product review for an electric scooter.",
+  "points": [
+   "Overview of the Infinite Machine Olto e-bike/scooter design and specifications."
+  ]
+ },
+ "dabd54b6003371f4": {
+  "feed": "Cloudflare Blog",
+  "title": "The Agent Access Model",
+  "link": "https://blog.cloudflare.com/the-agent-access-model/",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Essential architectural deep-dive into access control frameworks tailored specifically for short-lived autonomous AI agents.",
+  "points": [
+   "Proposes the Agent Access Model (AAM) to replace human-centric Zero Trust frameworks for fast, task-scoped agent runs.",
+   "Restricts agent authority dynamically using execution graphs and ephemeral credentials rather than broad service account keys."
+  ]
+ },
+ "a73db4497c226188": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare OS: an open platform for agents, apps, and work",
+  "link": "https://blog.cloudflare.com/cloudflare-os/",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Technical launch overview of an open-source enterprise platform for orchestrating AI agents, tool contexts, and execution workflows.",
+  "points": [
+   "Cloudflare OS provides an open platform connecting AI agents to enterprise tools, knowledge bases, and MCP servers.",
+   "Built on Cloudflare Workers and Zero Trust to isolate agent context, prevent unauthorized data exposure, and execute deterministic skills."
+  ]
+ },
+ "d54fe34cef69f8d4": {
+  "feed": "Cloudflare Blog",
+  "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+  "link": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Offers organizational context on managing internal AI agent adoption and balancing security guardrails with developer productivity.",
+  "points": [
+   "Outlines governance principles used to transition internal teams from basic chat assistants to full autonomous agent workloads.",
+   "Highlights practical lessons from internal rollouts, balancing enterprise security policies with developer freedom."
+  ]
+ },
+ "8d5fc954d6284bf8": {
+  "feed": "Cloudflare Blog",
+  "title": "WriteGuard: fine-grained controls for MCP Servers",
+  "link": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Crucial technical deep dive into building infrastructure guardrails for Model Context Protocol (MCP) servers executing write operations.",
+  "points": [
+   "WriteGuard acts as a centralized proxy layer enforcing policies, attribution, and audit logging on MCP tool write operations.",
+   "Prevents destructive agent actions by enforcing fine-grained controls at the server level rather than relying on brittle client prompts."
+  ]
+ },
+ "216351377095e397": {
+  "feed": "Cloudflare Blog",
+  "title": "Catching rogue AI behavior with identity-aware analytics",
+  "link": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Relevant for infra engineers building proxy gateways, tracking API costs, and enforcing authentication for LLM traffic.",
+  "points": [
+   "Integrates Cloudflare Access with AI Gateway to authenticate LLM requests via SAML and pass user identity to upstream proxies.",
+   "Enables per-user and per-agent spend limits alongside behavioral baseline analytics to detect rogue LLM usage."
+  ]
  }
 }
