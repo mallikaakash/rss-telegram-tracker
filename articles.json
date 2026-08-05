@@ -44853,5 +44853,62 @@
   "points": [
    "Translates Hero of Alexandria's classic text detailing historical hydraulic and pneumatic inventions."
   ]
+ },
+ "0db5ea2b8c132d3d": {
+  "feed": "YC Hacker News",
+  "title": "Civilian plane crash in New Mexico tied to military GPS blocking",
+  "link": "https://www.wired.com/story/a-civilian-plane-crashed-in-new-mexico-was-the-militarys-tech-to-blame/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "It is an investigative news article on aviation safety and military GPS jamming, completely off-target for ML and backend engineering.",
+  "points": [
+   "Military GPS jamming in New Mexico disoriented pilots, leading to a fatal civilian medevac plane crash."
+  ]
+ },
+ "38e5715b66857a8b": {
+  "feed": "YC Hacker News",
+  "title": "Position: LLMs Can't Jump",
+  "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Touches on fundamental reasoning limits of LLMs, directly touching LLM capabilities research despite minimal post text.",
+  "points": [
+   "Positions a critical viewpoint on the structural reasoning and planning limits of current LLMs.",
+   "Relevant to evaluating where current transformer architectures fail on complex multi-step tasks."
+  ]
+ },
+ "23670d9bbdd98852": {
+  "feed": "YC Hacker News",
+  "title": "Helsinki Hacker News Meetup",
+  "link": "https://calpaterson.com/helsinki-hn.html",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "It is a community event announcement for a local meetup, containing no technical engineering material.",
+  "points": [
+   "Details an informal bi-monthly coffee meetup for Hacker News posters in Helsinki."
+  ]
+ },
+ "6ed7d28b4ac7df82": {
+  "feed": "YC Hacker News",
+  "title": "Birduino: A card-triggered audio player for [learning] the birds",
+  "link": "https://hannahilea.com/blog/birduino/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "A hobbyist embedded electronics project involving Arduino and RFID, which falls outside core ML/backend infrastructure priorities.",
+  "points": [
+   "Describes constructing a card-triggered bird call player using an ATmega328P microcontroller, RFID reader, and C++ firmware."
+  ]
+ },
+ "ca3d8e3fd5e5d9e6": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Maple-Preview – Ternary 20B MoE running at 120 tok/s on a iPhone",
+  "link": "https://deepgrove.ai/maple-preview",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Demonstrates extreme LLM optimization and high-performance inference by running a quantized 20B MoE model on edge hardware.",
+  "points": [
+   "Achieves 120 tokens/second on an iPhone using a ternary-quantized 20B Mixture-of-Experts architecture.",
+   "Showcases the viability of extreme low-bit quantization for high-throughput mobile LLM serving."
+  ]
  }
 }
