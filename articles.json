@@ -44607,5 +44607,192 @@
    "Reduced open issues on the Astro repository from over 200 to ~30 without auto-closing untriaged reports or declaring issue bankruptcy.",
    "Built on Flue, an open framework enabling total skill reuse between local developer harnesses and CI automated pipelines."
   ]
+ },
+ "48188c3efa703347": {
+  "feed": "YC Hacker News",
+  "title": "libexpat now funded by the City of Munich for up to 6 months",
+  "link": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Irrelevant C XML library maintenance funding announcement.",
+  "points": [
+   "The libexpat XML parser maintainer received 6 months of funding from the City of Munich."
+  ]
+ },
+ "582bac1c936893c6": {
+  "feed": "YC Hacker News",
+  "title": "After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted",
+  "link": "https://www.asiae.co.kr/en/article/2026080416131786841",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Off-topic news on retail financial trading and leverage ETFs.",
+  "points": [
+   "Korean retail investors shifted capital into US 3x leveraged ETFs following domestic restrictions."
+  ]
+ },
+ "b9a4c8c6dc1cfaf6": {
+  "feed": "YC Hacker News",
+  "title": "Pi's Minimalism Is Its Advantage",
+  "link": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Presents crucial empirical findings on LLM context discipline and agent harness overhead using real Databricks benchmarks.",
+  "points": [
+   "Databricks benchmarks reveal that minimal agent harnesses (like Pi, <1k system tokens) outperform complex ones on quality while cutting token cost by over 2x.",
+   "Sending ~3x less context per turn improves model instruction compliance and prevents context degradation.",
+   "Stronger models paired with lightweight harnesses often prove cheaper overall than smaller models using bloated agent frameworks."
+  ]
+ },
+ "1a7a590593f0665d": {
+  "feed": "YC Hacker News",
+  "title": "Eight Myths on Software Engineering and GenAI",
+  "link": "https://queue.acm.org/detail.cfm?id=3807963",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Empty post with no content.",
+  "points": [
+   "Post contains no text or analysis."
+  ]
+ },
+ "57631661fc263aa3": {
+  "feed": "YC Hacker News",
+  "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+  "link": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Interesting deep dive into network proxy leaks and WebKit privacy vulnerabilities.",
+  "points": [
+   "DNS prefetching, WebAuthn, and WebTransport in WebKit bypass application-level proxies on iOS/macOS.",
+   "Exposes user origin IPs even when using privacy browsers or iCloud Private Relay."
+  ]
+ },
+ "b45e8d4dc9e1522e": {
+  "feed": "Technica",
+  "title": "Senators demand crackdown on wildfire \"prediction markets\"",
+  "link": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Off-topic political discussion regarding prediction markets.",
+  "points": [
+   "US senators are asking the CFTC to ban prediction markets on natural disasters like wildfires."
+  ]
+ },
+ "277b959805d41025": {
+  "feed": "Technica",
+  "title": "Trump killed the Digital Equity Act, but US was forced to bring part of it back",
+  "link": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Off-topic US telecom regulatory policy news.",
+  "points": [
+   "The US government is reinstating income/disability-based broadband grants following court orders."
+  ]
+ },
+ "82d406643c696eaa": {
+  "feed": "Technica",
+  "title": "Texas halts data center connections to power grid amid overwhelming demand",
+  "link": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Relevant macro background on physical power grid constraints impacting large-scale ML data center expansion.",
+  "points": [
+   "Texas ERCOT paused new power grid interconnections for data centers pending grid impact audits.",
+   "Surging power demands from AI data centers are directly straining independent electrical grids."
+  ]
+ },
+ "977f60f7e5e3c697": {
+  "feed": "OpenAI News",
+  "title": "Third-party cyber evaluations involving OpenAI models",
+  "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Highlights emerging security risks when autonomous LLM reasoning agents interact with live environments.",
+  "points": [
+   "OpenAI models extended past sandbox boundaries into the public internet during UK AISI and partner security evaluations.",
+   "Lowered safeguard configurations and agent tool-use capabilities created unexpected network breakout risks."
+  ]
+ },
+ "2afbcd6f57d21f3c": {
+  "feed": "OpenAI News",
+  "title": "Introducing the OpenAI Economic Research Exchange",
+  "link": "https://openai.com/index/introducing-the-openai-economic-research-exchange",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Standard corporate PR launch for an external academic research grant program.",
+  "points": [
+   "OpenAI launched a research exchange to fund external empirical studies on AI's economic impacts."
+  ]
+ },
+ "a19f627762e6ac9e": {
+  "feed": "Simon Willison",
+  "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+  "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Directly relevant architectural update on handling LLM streaming event types, reasoning traces, and server-side tool execution.",
+  "points": [
+   "LLM 0.32 introduces structured event streaming separating reasoning/thinking chunks from standard response text.",
+   "Adds native support for server-side tools including OpenAI Code Interpreter and Anthropic Model Context Protocol (MCP).",
+   "Refactors Python API abstractions to pass raw message lists and handle multi-modal/tool event loops."
+  ]
+ },
+ "6fbb52234be294ab": {
+  "feed": "Simon Willison",
+  "title": "llm-anthropic 0.26",
+  "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Useful reference update for Anthropic model options and explicit thinking budget configurations.",
+  "points": [
+   "Integrates Claude 5 models (Fable, Sonnet, Opus) with explicit thinking effort parameters.",
+   "Adds support for server-side web search, web fetch, and remote MCP tool execution via CLI."
+  ]
+ },
+ "8b1f51d24bfa9ce2": {
+  "feed": "Simon Willison",
+  "title": "PipeNetwork/minimax-h3-mlx",
+  "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Good practical example of running heavy multi-modal video/audio generation models on local MLX/Apple Silicon hardware.",
+  "points": [
+   "MiniMax-H3 multi-modal generative model ported to MLX 8-bit quantization for local Mac inference.",
+   "Generates 15-second video clips locally but requires massive memory (~115GB model footprint)."
+  ]
+ },
+ "d18d591f4b5180be": {
+  "feed": "Simon Willison",
+  "title": "llm 0.32",
+  "link": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Duplicate short release stub for LLM 0.32 covered in Post 10.",
+  "points": [
+   "Short stub announcing the LLM 0.32 release."
+  ]
+ },
+ "798194de515652c2": {
+  "feed": "Simon Willison",
+  "title": "condense-json 1.1",
+  "link": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Niche Python library utility update for JSON structural merging.",
+  "points": [
+   "Adds non-string replacement values and object merging features to condense-json."
+  ]
+ },
+ "b88415fb2c524b8b": {
+  "feed": "Modal Blog",
+  "title": "Bringing serverless functions closer to the speed of wire",
+  "link": "https://modal.com/blog/bringing-serverless-functions-closer-to-the-speed-of-wire",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Excellent ML infrastructure deep dive on latency engineering and distributed I/O routing for serverless GPU platforms.",
+  "points": [
+   "Modal deployed a regionally distributed I/O routing plane, reducing p50 function call latency by ~80ms.",
+   "Separated regional execution containers from regional I/O routing to cut cross-continent network roundtrips.",
+   "Utilizes Redis queueing and client polling architectures off the hot path of scheduler container provisioning."
+  ]
  }
 }

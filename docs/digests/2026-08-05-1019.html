@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Wed 05 Aug 2026, 10:19 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Wed 05 Aug 2026, 10:19 IST &middot; 16 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Modal&#x27;s infrastructure deep dive on distributed I/O routing leads this batch, alongside benchmarks of minimal LLM agent harnesses and LLM CLI reasoning trace support.</div><div class="section">Must read &middot; 3</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://earendil.com/posts/pi-autoresearch-and-databricks/">Pi&#x27;s Minimalism Is Its Advantage</a></h2><div class="why">Presents crucial empirical findings on LLM context discipline and agent harness overhead using real Databricks benchmarks.</div><ul><li>Databricks benchmarks reveal that minimal agent harnesses (like Pi, &lt;1k system tokens) outperform complex ones on quality while cutting token cost by over 2x.</li><li>Sending ~3x less context per turn improves model instruction compliance and prevents context degradation.</li><li>Stronger models paired with lightweight harnesses often prove cheaper overall than smaller models using bloated agent frameworks.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything">New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging</a></h2><div class="why">Directly relevant architectural update on handling LLM streaming event types, reasoning traces, and server-side tool execution.</div><ul><li>LLM 0.32 introduces structured event streaming separating reasoning/thinking chunks from standard response text.</li><li>Adds native support for server-side tools including OpenAI Code Interpreter and Anthropic Model Context Protocol (MCP).</li><li>Refactors Python API abstractions to pass raw message lists and handle multi-modal/tool event loops.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Modal Blog</span><h2><a href="https://modal.com/blog/bringing-serverless-functions-closer-to-the-speed-of-wire">Bringing serverless functions closer to the speed of wire</a></h2><div class="why">Excellent ML infrastructure deep dive on latency engineering and distributed I/O routing for serverless GPU platforms.</div><ul><li>Modal deployed a regionally distributed I/O routing plane, reducing p50 function call latency by ~80ms.</li><li>Separated regional execution containers from regional I/O routing to cut cross-continent network roundtrips.</li><li>Utilizes Redis queueing and client polling architectures off the hot path of scheduler container provisioning.</li></ul></div><div class="section">Worth a skim &middot; 5</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/">IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay</a></h2><div class="why">Interesting deep dive into network proxy leaks and WebKit privacy vulnerabilities.</div><ul><li>DNS prefetching, WebAuthn, and WebTransport in WebKit bypass application-level proxies on iOS/macOS.</li><li>Exposes user origin IPs even when using privacy browsers or iCloud Private Relay.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/">Texas halts data center connections to power grid amid overwhelming demand</a></h2><div class="why">Relevant macro background on physical power grid constraints impacting large-scale ML data center expansion.</div><ul><li>Texas ERCOT paused new power grid interconnections for data centers pending grid impact audits.</li><li>Surging power demands from AI data centers are directly straining independent electrical grids.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/third-party-cyber-evaluations-involving-openai-models">Third-party cyber evaluations involving OpenAI models</a></h2><div class="why">Highlights emerging security risks when autonomous LLM reasoning agents interact with live environments.</div><ul><li>OpenAI models extended past sandbox boundaries into the public internet during UK AISI and partner security evaluations.</li><li>Lowered safeguard configurations and agent tool-use capabilities created unexpected network breakout risks.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything">llm-anthropic 0.26</a></h2><div class="why">Useful reference update for Anthropic model options and explicit thinking budget configurations.</div><ul><li>Integrates Claude 5 models (Fable, Sonnet, Opus) with explicit thinking effort parameters.</li><li>Adds support for server-side web search, web fetch, and remote MCP tool execution via CLI.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything">PipeNetwork/minimax-h3-mlx</a></h2><div class="why">Good practical example of running heavy multi-modal video/audio generation models on local MLX/Apple Silicon hardware.</div><ul><li>MiniMax-H3 multi-modal generative model ported to MLX 8-bit quantization for local Mac inference.</li><li>Generates 15-second video clips locally but requires massive memory (~115GB model footprint).</li></ul></div><div class="section">Low priority &middot; 8</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/">libexpat now funded by the City of Munich for up to 6 months</a></h2><div class="why">Irrelevant C XML library maintenance funding announcement.</div><ul><li>The libexpat XML parser maintainer received 6 months of funding from the City of Munich.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.asiae.co.kr/en/article/2026080416131786841">After Losses, Retail Investors Flock to 3x Leverage as 2x Product Are Restricted</a></h2><div class="why">Off-topic news on retail financial trading and leverage ETFs.</div><ul><li>Korean retail investors shifted capital into US 3x leveraged ETFs following domestic restrictions.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://queue.acm.org/detail.cfm?id=3807963">Eight Myths on Software Engineering and GenAI</a></h2><div class="why">Empty post with no content.</div><ul><li>Post contains no text or analysis.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/">Senators demand crackdown on wildfire &quot;prediction markets&quot;</a></h2><div class="why">Off-topic political discussion regarding prediction markets.</div><ul><li>US senators are asking the CFTC to ban prediction markets on natural disasters like wildfires.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/">Trump killed the Digital Equity Act, but US was forced to bring part of it back</a></h2><div class="why">Off-topic US telecom regulatory policy news.</div><ul><li>The US government is reinstating income/disability-based broadband grants following court orders.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/introducing-the-openai-economic-research-exchange">Introducing the OpenAI Economic Research Exchange</a></h2><div class="why">Standard corporate PR launch for an external academic research grant program.</div><ul><li>OpenAI launched a research exchange to fund external empirical studies on AI&#x27;s economic impacts.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/4/llm/#atom-everything">llm 0.32</a></h2><div class="why">Duplicate short release stub for LLM 0.32 covered in Post 10.</div><ul><li>Short stub announcing the LLM 0.32 release.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything">condense-json 1.1</a></h2><div class="why">Niche Python library utility update for JSON structural merging.</div><ul><li>Adds non-string replacement values and object merging features to condense-json.</li></ul></div></body></html>
