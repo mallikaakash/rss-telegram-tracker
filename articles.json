@@ -45037,5 +45037,74 @@
    "Integrates Cloudflare Access with AI Gateway to authenticate LLM requests via SAML and pass user identity to upstream proxies.",
    "Enables per-user and per-agent spend limits alongside behavioral baseline analytics to detect rogue LLM usage."
   ]
+ },
+ "4412f2f05cf29e7c": {
+  "feed": "YC Hacker News",
+  "title": "Cloudflare OS: an open platform for agents, apps, and work",
+  "link": "https://blog.cloudflare.com/cloudflare-os/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "It is a high-level marketing page scrape for Cloudflare OS lacking actionable technical architecture details.",
+  "points": [
+   "High-level product announcement page with no deep technical mechanics or system details."
+  ]
+ },
+ "059bf1fd7bdbb64c": {
+  "feed": "YC Hacker News",
+  "title": "Aristotle quotes on virtue, knowledge, and happiness",
+  "link": "https://www.campion.edu.au/blog/top-25-aristotle-quotes-on-virtue-knowledge-and-happiness/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Non-technical post focusing on ancient philosophy.",
+  "points": [
+   "Off-topic collection of Aristotle quotes with no relevance to ML or backend engineering."
+  ]
+ },
+ "c57a4222273bfa52": {
+  "feed": "YC Hacker News",
+  "title": "Intelligence Is Not the Main Bottleneck",
+  "link": "https://www.writingruxandrabio.com/p/intelligence-is-not-the-main-bottleneck",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Provides a useful macro perspective for founding and senior engineers on real-world adoption bottlenecks vs. pure model intelligence.",
+  "points": [
+   "Argues that pure LLM intelligence is rarely the main bottleneck for real-world impact compared to regulatory, institutional, and political constraints.",
+   "Uses clinical trials and housing as evidence that technical capability alone does not guarantee domain transformation."
+  ]
+ },
+ "56a944560582a876": {
+  "feed": "YC Hacker News",
+  "title": "The Entropy of a Markov Chain",
+  "link": "https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Post contains no readable content beyond a placeholder.",
+  "points": [
+   "Empty post with no text or technical content."
+  ]
+ },
+ "212cb58680f5bd7c": {
+  "feed": "YC Hacker News",
+  "title": "Building an Advanced Agentic Harness",
+  "link": "https://data4sci.com/blog/building-an-advanced-agentic-harness",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Detailed, framework-free engineering deep-dive on building reliable production agent harnesses with DAG execution, memory tiers, and verification.",
+  "points": [
+   "Deconstructs naive agent loops into structured Planner, Worker, and Critic roles using thin orchestrators rather than heavy frameworks.",
+   "Introduces concrete primitives for parallel tool execution via DAGs, Pydantic type validation, multi-tier memory management, and multi-dimensional cost budgets.",
+   "Emphasizes failure recovery, output verification hierarchies, and execution tracing for production observability."
+  ]
+ },
+ "6104801924978ae5": {
+  "feed": "Technica",
+  "title": "SpaceX spooks investors with debut earnings report",
+  "link": "https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Financial news report on corporate earnings and CapEx with no engineering relevance.",
+  "points": [
+   "SpaceX reported $7.8B quarterly revenue alongside $16B in AI CapEx spending."
+  ]
  }
 }
