@@ -1718,5 +1718,75 @@
   "tier": "skip",
   "why": "The page encountered a loading error and displays only basic commit navigation without any readable README or technical design documentation.",
   "points": []
+ },
+ "164b449e48bc0fc6": {
+  "url": "https://cursor.com/blog/mixture-of-kittens",
+  "title": "Mixture-of-Kittens: our open-source MoE megakernel for NVL72s · Cursor",
+  "domain": "cursor.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "4b4c8fbd2bbc0cc3": {
+  "url": "https://www.besthub.dev/articles/building-a-from-scratch-llm-training-framework-full-grpo-vs-ppo-vs-dpo-comparison-on-gsm8k-7602a701d0b7",
+  "title": "Building a From‑Scratch LLM Training Framework: Full G… | BestHub",
+  "domain": "besthub.dev",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a9ddb15e18ce2e05": {
+  "url": "https://www.alphaxiv.org/abs/2606.29238",
+  "title": "On the Policy Gradient Foundations of Group Relative Policy Optimization: Credit Assignment, Gradient Sparsity, and Rank Collapse | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "1c22083e27435a7a": {
+  "url": "https://deepwiki.com/flashinfer-ai/flashinfer/3.1-attention-kernel-implementation",
+  "title": "Attention Kernel Implementation | flashinfer-ai/flashinfer | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "992eecf7c996dc1c": {
+  "url": "https://deepwiki.com/tile-ai/tilelang/10.3-flash-attention-and-llm-kernels",
+  "title": "Flash Attention and LLM Kernels | tile-ai/tilelang | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f966b62d9f07ac61": {
+  "url": "https://www.alphaxiv.org/abs/2506.15138",
+  "title": "Less Is More: Reducing Token Counts Without Compromising Performance | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "9c0bd86cd6d31d28": {
+  "url": "https://github.laiyagushi.com/puneethgv/DiSpec",
+  "title": "GitHub - puneethgv/DiSpec: DiSpec — a from-scratch LLM inference engine: paged attention, continuous batching, CUDA-graph decode, speculative decoding, and prefill/decode disaggregation · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
