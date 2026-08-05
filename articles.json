@@ -44794,5 +44794,64 @@
    "Separated regional execution containers from regional I/O routing to cut cross-continent network roundtrips.",
    "Utilizes Redis queueing and client polling architectures off the hot path of scheduler container provisioning."
   ]
+ },
+ "9209ffe6998f4d88": {
+  "feed": "YC Hacker News",
+  "title": "Stateless MCP has recaptured my interest",
+  "link": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+  "date": "2026-08-05",
+  "tier": "worth_a_skim",
+  "why": "Provides a practical look at the MCP 2.0 specification update, which simplifies LLM agent tool integration using stateless HTTP requests.",
+  "points": [
+   "MCP 2.0 shifts from session-id state management to single, stateless HTTP POST requests carrying metadata.",
+   "Stateless protocol execution simplifies backend server scaling by eliminating session state and sticky routing.",
+   "Offers a safer, more auditable tool-use abstraction for smaller local LLMs compared to giving agents raw terminal access."
+  ]
+ },
+ "b7a99e700a7d0459": {
+  "feed": "YC Hacker News",
+  "title": "\"Gravity is worth asking about.\"",
+  "link": "https://unsung.aresluna.org/gravity-is-worth-asking-about/",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "Focuses on consumer UI design philosophy and feature creep, which falls outside ML and backend engineering priorities.",
+  "points": [
+   "Discusses the zero-one-infinity rule and how minor UI concessions lead to interface bloat in web browsers and operating systems."
+  ]
+ },
+ "d88a92316de87c2a": {
+  "feed": "YC Hacker News",
+  "title": "The Golden Age of British Ice Cream",
+  "link": "https://www.vittlesmagazine.com/p/the-golden-age-of-british-ice-cream",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "An essay on the food chemistry and cultural history of British packaged ice cream, irrelevant to technical engineering.",
+  "points": [
+   "Recounts how chemical tweaks to vegetable-fat emulsions and wafer coatings enabled Unilever's Cornetto to scale in the UK."
+  ]
+ },
+ "d88745754c20397e": {
+  "feed": "YC Hacker News",
+  "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+  "link": "https://arxiv.org/abs/2607.29377",
+  "date": "2026-08-05",
+  "tier": "must_read",
+  "why": "Presents an efficient memory architecture for LLM agents that eliminates intermediate LLM generation calls, significantly cutting token overhead and latency.",
+  "points": [
+   "Zero-Mem replaces generative agent memory steps with non-LLM retrieval across an entity-context graph and temporal hierarchy.",
+   "Reduces memory-operation execution time by 57.6% over the fastest baseline while consuming zero intermediate LLM tokens.",
+   "Restricts LLM compute solely to the final answer generation phase while improving grounding in source traces."
+  ]
+ },
+ "3cc15cf36d4f6058": {
+  "feed": "YC Hacker News",
+  "title": "The Pneumatics of Hero of Alexandria",
+  "link": "https://www.thehopkinthomasproject.com/TheHopkinThomasProject/TimeLine/Wales/Steam/URochesterCollection/Hero/index-2.html",
+  "date": "2026-08-05",
+  "tier": "low_priority",
+  "why": "A historical translation of ancient Greek mechanical devices, completely off-topic for backend and ML software engineers.",
+  "points": [
+   "Translates Hero of Alexandria's classic text detailing historical hydraulic and pneumatic inventions."
+  ]
  }
 }
