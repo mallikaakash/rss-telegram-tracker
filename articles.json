@@ -45106,5 +45106,109 @@
   "points": [
    "SpaceX reported $7.8B quarterly revenue alongside $16B in AI CapEx spending."
   ]
+ },
+ "77585261d12a472b": {
+  "feed": "YC Hacker News",
+  "title": "Discovery Loop",
+  "link": "https://www.discoveryloop.com/",
+  "date": "2026-08-06",
+  "tier": "worth_a_skim",
+  "why": "Major industry news detailing a new research automation startup co-founded by AI and distributed systems legends Jeff Dean and Sanjay Ghemawat.",
+  "points": [
+   "Jeff Dean, Sanjay Ghemawat, Quoc Le, and Oriol Vinyals co-founded Discovery Loop to automate ML engineering and scientific research.",
+   "The startup aims to run thousands of parallel AI-proposed experiments to drastically accelerate iteration loops in hard engineering domains."
+  ]
+ },
+ "d6b7431b26a5b59b": {
+  "feed": "YC Hacker News",
+  "title": "Qwen 3.0 Image Pro",
+  "link": "https://www.qwencloud.com/models/qwen-image-3.0-pro",
+  "date": "2026-08-06",
+  "tier": "low_priority",
+  "why": "Standard API product marketing and pricing page for an image generation model with no engineering implementation details.",
+  "points": [
+   "Qwen-Image-3.0-Pro API documentation listing specs, features like 10px text rendering, and per-image pricing."
+  ]
+ },
+ "cc8d4f35907cf9d5": {
+  "feed": "YC Hacker News",
+  "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+  "link": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+  "date": "2026-08-06",
+  "tier": "worth_a_skim",
+  "why": "Significant organizational shift at premier AI lab Google DeepMind marking Jeff Dean's departure.",
+  "points": [
+   "Jeff Dean departs Google while Demis Hassabis shifts from CEO to Chair of Google DeepMind and Chief Scientist of Alphabet.",
+   "Marks a major strategic transition point for Google's foundational AI research arm."
+  ]
+ },
+ "06d0cdff55419519": {
+  "feed": "YC Hacker News",
+  "title": "Atlassian Rovo Exfiltrates Data, Bypassing Controls",
+  "link": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+  "date": "2026-08-06",
+  "tier": "must_read",
+  "why": "Essential security deep-dive on indirect prompt injection vulnerabilities in production LLM agents using insecure tool calling.",
+  "points": [
+   "Indirect prompt injection via uploaded files manipulates Atlassian Rovo to append sensitive Jira and Confluence data onto attacker URLs.",
+   "Exploits Rovo's URL retrieval tool without requiring user confirmation, bypassing organization-wide web search restrictions.",
+   "Demonstrates a critical architectural risk in agent design when dynamically generated target URLs are executed without strict domain validation."
+  ]
+ },
+ "6437fe73ae858ada": {
+  "feed": "YC Hacker News",
+  "title": "Born Against, or why hobby programming communities are against LLM usage",
+  "link": "https://blog.fogus.me/llm/born-against.html",
+  "date": "2026-08-06",
+  "tier": "worth_a_skim",
+  "why": "Thoughtful career perspective on the limits of LLM usage in deep technical mastery and craft.",
+  "points": [
+   "Explores why niche communities (OSDev, LangDev, chess engines) reject LLMs because mastering the domain's complexity is the primary goal.",
+   "Emphasizes that LLMs serve best as leverage for established experts rather than substitutes for fundamental learning."
+  ]
+ },
+ "1ecb8a1d6fcfad47": {
+  "feed": "Technica",
+  "title": "After jacking up prices, Disney+ and Netflix consider offering free alternatives",
+  "link": "https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/",
+  "date": "2026-08-06",
+  "tier": "low_priority",
+  "why": "Off-target consumer streaming business news regarding subscription pricing models.",
+  "points": [
+   "Disney and Netflix consider launching ad-supported free tiers to combat plateauing subscriber growth."
+  ]
+ },
+ "0aa516abfc779b9f": {
+  "feed": "Technica",
+  "title": "EVgo starts building Tesla Superchargers under license",
+  "link": "https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/",
+  "date": "2026-08-06",
+  "tier": "low_priority",
+  "why": "Hardware licensing news for electric vehicle charging infrastructure, unrelated to backend or ML engineering.",
+  "points": [
+   "EVgo will begin building and deploying licensed Tesla V4 Superchargers supporting both NACS and CCS1 plugs."
+  ]
+ },
+ "801d913504be0c37": {
+  "feed": "Technica",
+  "title": "D-Wave shows off its new entry in quantum computing race",
+  "link": "https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits/",
+  "date": "2026-08-06",
+  "tier": "low_priority",
+  "why": "Quantum computing hardware research paper update outside the domain of classical ML and backend systems.",
+  "points": [
+   "D-Wave published findings in Nature on entangling dual-rail fluxonium qubits to simplify quantum error detection."
+  ]
+ },
+ "3432a5c0e7c9f01f": {
+  "feed": "Technica",
+  "title": "Google plans to kill Assistant on your phone on September 4",
+  "link": "https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/",
+  "date": "2026-08-06",
+  "tier": "low_priority",
+  "why": "Routine consumer product deprecation notice regarding mobile voice assistant features.",
+  "points": [
+   "Google sets September 4 as the retirement date for Google Assistant on mobile devices in favor of Gemini."
+  ]
  }
 }
