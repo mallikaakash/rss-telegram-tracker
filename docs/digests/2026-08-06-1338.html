@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Thu 06 Aug 2026, 13:38 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Thu 06 Aug 2026, 13:38 IST &middot; 10 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Post-training a 4B open model with RL matches frontier retrieval accuracy at 100x lower cost, leading this batch of engineering posts.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency">Beating GPT-5.6 Sol on retrieval with 100x cheaper open models</a></h2><div class="why">Directly relevant to SLM post-training, RL optimization, and reducing LLM inference costs for agentic retrieval workflows.</div><ul><li>Post-trains a 4B open-weights model using RL to match GPT-5.6 Sol accuracy on agentic multi-step retrieval.</li><li>Reduces inference cost by 100x and drastically cuts latency compared to multi-turn frontier model API calls.</li><li>Combines Castform&#x27;s planning-focused post-training with Neon&#x27;s Lakebase Postgres search extensions.</li></ul></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://phoboslab.org/log/2026/08/xibalba64-making-of">How to Make a Nintendo 64 Game in 2026</a></h2><div class="why">Offers an engaging low-level systems engineering look at porting C code to constraint-heavy legacy MIPS hardware.</div><ul><li>Demonstrates modular C game engine architecture with decoupled platform and rendering backends.</li><li>Utilizes Libdragon as an open-source abstraction layer to target N64 hardware without proprietary SDKs.</li><li>Explores low-level performance considerations for the N64 MIPS CPU and Reality Coprocessor.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/">Google&#x27;s AI shake-up: DeepMind&#x27;s Hassabis steps aside, senior scientists depart</a></h2><div class="why">Provides high-level strategic context on leadership shifts at a major AI lab, though it lacks technical deep dives.</div><ul><li>Demis Hassabis transitions from direct DeepMind management to an Alphabet-wide oversight role.</li><li>Highlights ongoing executive and senior researcher departures amid Google&#x27;s broader AGI strategy alignment.</li></ul></div><div class="section">Low priority &middot; 7</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.crimepaysbutbotanydoesnt.com/reading-list">Crime Pays but Botany Doesn&#x27;t</a></h2><div class="why">This post is a guide to self-teaching plant taxonomy and botany, which is entirely unrelated to ML or backend engineering.</div><ul><li>Focuses on botany fundamentals and amateur plant identification rather than technical engineering topics.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://blog.gingerbeardman.com/2026/08/06/lets-all-meet-up-in-the-y2k/">Let&#x27;s all meet up in the Y2K</a></h2><div class="why">A nostalgic personal story about agency life around the year 2000 that lacks relevance to modern backend or ML systems.</div><ul><li>Shares historical anecdotes and photos from late-1990s web design and early agency culture.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://quantego.org/">Quantego: A Family of Lego Models of IBM Quantum Computers</a></h2><div class="why">This is a novelty showcase for LEGO models of quantum hardware with no relevance to production ML or infrastructure.</div><ul><li>Provides interactive 3D build instructions and CAD files for LEGO models of IBM Quantum systems.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/">SpaceX claims Starlink Mobile will be better than AT&amp;T, T-Mobile, and Verizon</a></h2><div class="why">Covers high-level satellite telecom spectrum acquisitions rather than backend systems or distributed infrastructure.</div><ul><li>Reports on SpaceX&#x27;s strategy to combine satellite capacity with terrestrial spectrum to offer direct mobile service.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/">This Atlantic hurricane season is looking like a dud, but there will be a price to pay</a></h2><div class="why">A weather report on Atlantic hurricane activity with zero engineering content.</div><ul><li>Summarizes the mild start to the 2026 Atlantic hurricane season in the Houston area.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/culture/2026/08/review-spider-man-brand-new-day-reminds-us-that-superhero-movies-can-be-good/">Review: Spider-Man: Brand New Day reminds us that superhero movies can be good</a></h2><div class="why">A pop culture film review that has no relevance to software development or career priorities.</div><ul><li>Provides a critique and overview of the Spider-Man: Brand New Day feature film.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/health/2026/08/report-cdc-finally-plans-formal-response-team-for-explosive-diarrhea-outbreak/">Weeks into explosive diarrhea outbreak, sluggish CDC plans response team</a></h2><div class="why">Covers public health tracking and federal agency outbreak responses, which is off-target for software engineers.</div><ul><li>Discusses public health management and CDC timeline delays regarding a parasitic foodborne outbreak.</li></ul></div></body></html>
