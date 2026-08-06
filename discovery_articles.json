@@ -1788,5 +1788,155 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "a3c07244301cfa80": {
+  "url": "https://ajing.github.io/posts/2026-06-29-testing-pretraining-ideas-across-model-scales/",
+  "title": "How to Test Pretraining Ideas at Small Scale Before Betting on a Large Model | ML & AI in Action",
+  "domain": "ajing.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "6b3406b891b33f7d": {
+  "url": "https://rickxie.cn/blog/pretraining-the-death-of-chinchilla/",
+  "title": "The Death of Chinchilla – Rui (Rick) Xie 謝銳",
+  "domain": "rickxie.cn",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "113338579ad607a7": {
+  "url": "https://sbordt.substack.com/p/how-to-measure-whether-your-training",
+  "title": "How to Measure Whether Your Training Recipe is Ready to be Scaled Up",
+  "domain": "sbordt.substack.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3966c6d3e1bd2a4d": {
+  "url": "https://huggingface.co/blog/vovaRL/hybernation-models-blog",
+  "title": "Training a 2.7B MoE from scratch for $200, one GPU at a time",
+  "domain": "huggingface.co",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "64f0df6bd6f0c74b": {
+  "url": "https://rickxie.cn/blog/pretraining-the-fossil-fuel-of-intelligence/",
+  "title": "The Fossil Fuel of Intelligence – Rui (Rick) Xie 謝銳",
+  "domain": "rickxie.cn",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "6953b188c4235cce": {
+  "url": "https://www.alphaxiv.org/abs/2606.26671",
+  "title": "NebulaExp-8B: An Empirical Post-Training Pipeline via Full-Scale Ablation Research | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3f6118c17490f885": {
+  "url": "https://www.alphaxiv.org/abs/2607.16097",
+  "title": "Understanding Reasoning from Pretraining to Post-Training | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f3f374c6dfa843ea": {
+  "url": "https://www.alphaxiv.org/abs/2607.13389",
+  "title": "Where Should RL Post-Training Compute Go? Model Size, Search, Learning, and Feedback | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "9312437b4e24a65c": {
+  "url": "https://rfriedmann.de/blog/optimizing-kernels-consumer-blackwell/",
+  "title": "Three kernels for a chip the ecosystem skipped - Raphael Friedmann",
+  "domain": "rfriedmann.de",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "0a01e1f2203e1502": {
+  "url": "https://developers.redhat.com/articles/2026/06/15/mpi-powered-gradient-synchronization-pytorch-distributed-training",
+  "title": "MPI-powered gradient synchronization in PyTorch distributed training | Red Hat Developer",
+  "domain": "developers.redhat.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "13acd83d86b9f41d": {
+  "url": "https://arxiv.gg/abs/2602.20433",
+  "title": "Disentangling Geometry, Performance, and Training in Language Models - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "6ff5007420906272": {
+  "url": "https://www.alphaxiv.org/abs/2607.26831",
+  "title": "Language Models are not Equally Robust to Non-Canonical Tokenization across Languages | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "d8a2d4fa71dcd3c0": {
+  "url": "https://github.com/bkness/frankenstein",
+  "title": "bkness/frankenstein",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "c9d6194a9331dfb3": {
+  "url": "https://github.laiyagushi.com/JohnScheuer/custom-llm-serving-engine",
+  "title": "GitHub - JohnScheuer/custom-llm-serving-engine: Production-oriented LLM inference server with OpenAI-compatible API (/v1/completions, /v1/chat/completions). Continuous batching, SSE streaming, KV cache management, Prometheus metrics, and graceful shutdown. Built from scratch with FastAPI. 33/33 tests passing. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "adf06ac7b9b76c16": {
+  "url": "https://github.com/JustVugg/colibri",
+  "title": "JustVugg/colibri",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-06",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
