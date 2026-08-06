@@ -45548,5 +45548,63 @@
   "points": [
    "Discusses public health management and CDC timeline delays regarding a parasitic foodborne outbreak."
   ]
+ },
+ "4538e728cea19e26": {
+  "feed": "YC Hacker News",
+  "title": "Pareto Front",
+  "link": "https://en.wikipedia.org/wiki/Pareto_front",
+  "date": "2026-08-06",
+  "tier": "low_priority",
+  "why": "It is a raw Wikipedia snippet defining Pareto efficiency without any practical implementation or novel ML context.",
+  "points": [
+   "Defines a Pareto front as the set of non-dominated choices in multi-objective optimization."
+  ]
+ },
+ "3946ac1febe16a08": {
+  "feed": "YC Hacker News",
+  "title": "How Americans View Capitalism, Socialism and Free Enterprise",
+  "link": "https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.aspx",
+  "date": "2026-08-06",
+  "tier": "low_priority",
+  "why": "It is a Gallup public opinion survey on economic concepts with zero technical relevance.",
+  "points": [
+   "Gallup report covering public sentiment toward economic systems."
+  ]
+ },
+ "759e42b702667777": {
+  "feed": "YC Hacker News",
+  "title": "On non-rooted Android 17, ADB uninstall of system apps fails",
+  "link": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426",
+  "date": "2026-08-06",
+  "tier": "low_priority",
+  "why": "It is a niche Android debloating tool issue completely irrelevant to ML and backend infrastructure.",
+  "points": [
+   "Discusses making app disabling the default over uninstallation in an Android debloater tool."
+  ]
+ },
+ "5babfdbfb4735cea": {
+  "feed": "YC Hacker News",
+  "title": "What I love about Django",
+  "link": "https://buttondown.com/blog/what-i-love-about-django",
+  "date": "2026-08-06",
+  "tier": "worth_a_skim",
+  "why": "It provides valuable practical backend architectural patterns from running a production Django app.",
+  "points": [
+   "Highlights Django middleware as a simple request/response hook for features like build version headers and context logging.",
+   "Recommends light model inheritance with a single base model to standardize UUIDs and auto-created timestamps."
+  ]
+ },
+ "8546e0173e9570bb": {
+  "feed": "YC Hacker News",
+  "title": "Prime Agent: A self-improving RLM agent",
+  "link": "https://www.primeintellect.ai/blog/prime-agent",
+  "date": "2026-08-06",
+  "tier": "must_read",
+  "why": "It introduces a novel open-source agent architecture tailored for long-horizon context management and execution.",
+  "points": [
+   "Introduces Recursive Language Models (RLM) that treat context as REPL variables and sub-agent calls as programmatic functions.",
+   "Employs a Continual Harness enabling agents to dynamically create, read, update, and delete their own skills, memory, and prompts.",
+   "Uses a persistent IPython kernel as the primary tool interface for flexible execution and agent-to-agent messaging."
+  ]
  }
 }
