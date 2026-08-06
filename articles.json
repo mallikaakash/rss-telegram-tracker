@@ -45606,5 +45606,289 @@
    "Employs a Continual Harness enabling agents to dynamically create, read, update, and delete their own skills, memory, and prompts.",
    "Uses a persistent IPython kernel as the primary tool interface for flexible execution and agent-to-agent messaging."
   ]
+ },
+ "9a54045d74542bea": {
+  "feed": "YC Hacker News",
+  "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+  "link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "Covers a novel hardware paradigm of etching model weights into silicon (MSICs) to bypass HBM bottlenecks for high-throughput inference.",
+  "points": [
+   "AMD acquired Toronto startup Taalas, which bakes fixed model weights directly into silicon masks rather than dynamic HBM.",
+   "Early TSMC 6nm test chips served Llama 3.1 8B at 16,960 tokens/sec, drastically outperforming standard GPUs.",
+   "Architecture combines mask-ROM for baked parameters with SRAM for dynamic KV caches and fine-tuning adapters."
+  ]
+ },
+ "0fe4652d4187a64d": {
+  "feed": "YC Hacker News",
+  "title": "NSF Inouye Solar Telescope Enables Major Discovery of a Hidden Solar Process",
+  "link": "https://nso.edu/press-release/nsf-inouye-solar-telescope-enables-major-discovery-of-a-hidden-solar-process/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Solar physics discovery unrelated to machine learning infrastructure, software engineering, or process optimization.",
+  "points": [
+   "Observed Kelvin-Helmholtz instability patterns on the surface of the Sun using the Inouye Solar Telescope."
+  ]
+ },
+ "a183ad8d7b7f28bb": {
+  "feed": "YC Hacker News",
+  "title": "Mario Meets Pareto",
+  "link": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "An intuitive, visual explanation of multi-objective optimization and Pareto fronts that maps directly to LLM latency-vs-quality trade-offs.",
+  "points": [
+   "Explains how to identify non-dominated Pareto-efficient frontiers across multi-dimensional metrics.",
+   "Draws clear parallels to engineering trade-offs when balancing LLM latency, cost, and task accuracy.",
+   "Great reference for presenting multi-objective optimization concepts clearly."
+  ]
+ },
+ "65821ac5c007bd16": {
+  "feed": "YC Hacker News",
+  "title": "Herdr is joining Y Combinator. The runtime stays open",
+  "link": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Provides engineering design thoughts on persistent terminal runtimes and CLI interfaces for long-running AI agents.",
+  "points": [
+   "Herdr builds a persistent TUI runtime and terminal primitives for managing concurrent coding agents.",
+   "Relicensed the core runtime to Apache 2.0 while joining Y Combinator to build a broader agent ecosystem.",
+   "Emphasizes terminal-native execution and RPC remoting over building standalone GUI clients."
+  ]
+ },
+ "6b0df7e8c438a84a": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Pokémon Emerald Ported to Raspberry Pi Pico 2",
+  "link": "https://github.com/mattdeeds/pokeemerald-rp2350",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Embedded microcontroller C porting project with little relevance to cloud ML infrastructure or backend backend engineering.",
+  "points": [
+   "Recompiled Pokémon Emerald GBA code to run natively at 60 fps HDMI output on RP2350 microcontrollers."
+  ]
+ },
+ "5f8206bad53c12f7": {
+  "feed": "Technica",
+  "title": "Explosive drone found hovering near Ukrainian cargo aircraft at German airport",
+  "link": "https://arstechnica.com/gadgets/2026/08/germany-disarms-explosive-drone-found-at-airport-hunts-possible-second-drone/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Geopolitical physical security news outside technical engineering priorities.",
+  "points": [
+   "German police disarmed an explosive drone found near Ukrainian cargo aircraft at Leipzig airport."
+  ]
+ },
+ "e28fbc01510c6048": {
+  "feed": "Technica",
+  "title": "X wants to keep suing advertisers, asks 5th Circuit to overrule district judge",
+  "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-x-isnt-done-suing-advertisers-asks-court-to-revive-boycott-case/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Corporate antitrust legal filing without technical architecture content.",
+  "points": [
+   "X filed an appeal with the 5th Circuit seeking to revive antitrust claims against advertiser groups."
+  ]
+ },
+ "58ae0a2f3075e633": {
+  "feed": "Technica",
+  "title": "Suno hopes to go legit with watermarks for AI-generated music",
+  "link": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "High-level policy and product announcement regarding audio watermarking without technical implementation specifics.",
+  "points": [
+   "Suno plans to add watermarking to generated music tracks to comply with emerging AI content labeling standards."
+  ]
+ },
+ "e9bc65786f099942": {
+  "feed": "Technica",
+  "title": "Anthropic will design its own hardware to power Claude",
+  "link": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Notable strategic news reflecting how frontier model creators are vertically integrating into custom silicon design.",
+  "points": [
+   "Anthropic is building an in-house custom silicon team to design chips tailored for running Claude.",
+   "Highlights the trend of frontier AI labs seeking alternatives to standard GPU procurement."
+  ]
+ },
+ "4d710a4e9d107524": {
+  "feed": "Technica",
+  "title": "Large genome models used to design new viruses",
+  "link": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Genomics bio-AI application outside industrial process optimization and core ML infrastructure.",
+  "points": [
+   "Stanford researchers used large genome models to generate functional bacteriophage DNA sequences."
+  ]
+ },
+ "7fa201e30c7e3776": {
+  "feed": "Google DeepMind",
+  "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+  "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "High-level research announcement for AI weather modeling lacking system architecture or training details.",
+  "points": [
+   "Google DeepMind announced WeatherNext for predicting tropical cyclone paths and intensity."
+  ]
+ },
+ "26c34b098956f1d3": {
+  "feed": "Apple ML Research",
+  "title": "Locking Pretrained Weights via Deep Low-Rank Residual Distillation",
+  "link": "https://machinelearning.apple.com/research/locking-pretrained-weights",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "Directly relevant research on model training and weight modification, focusing on protecting pretrained weights from unauthorized fine-tuning.",
+  "points": [
+   "Introduces Deep Low-Rank Residual Distillation to lock pretrained LLM weights against unauthorized fine-tuning.",
+   "Analyzes parameter adaptation mechanics and fine-tuning dynamics in open-weight models.",
+   "Valuable for understanding weight modification, adapter behaviors, and distillation techniques."
+  ]
+ },
+ "0f0c1961f93e8e0c": {
+  "feed": "OpenAI News",
+  "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+  "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Consumer-focused product update for ChatGPT UI features and model availability.",
+  "points": [
+   "OpenAI updated ChatGPT models and introduced user sliders for controlling reasoning depth."
+  ]
+ },
+ "6da5f2d271da214d": {
+  "feed": "OpenAI News",
+  "title": "Working with the American Psychological Association on youth mental health and AI",
+  "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Non-technical corporate PR announcement regarding policy and youth mental health.",
+  "points": [
+   "OpenAI partnered with the American Psychological Association to evaluate AI impact on youth."
+  ]
+ },
+ "fea9ae47ebf2b0f0": {
+  "feed": "OpenAI News",
+  "title": "From asking to doing: How the world is putting ChatGPT to work",
+  "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "High-level user behavior statistics report without technical engineering takeaways.",
+  "points": [
+   "OpenAI published global usage data showing an increase in workplace task execution over search queries."
+  ]
+ },
+ "72ea094fa822e0b0": {
+  "feed": "Hugging Face Blog",
+  "title": "Baseten on Hugging Face Inference Providers 🔥",
+  "link": "https://huggingface.co/blog/baseten",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Useful reference for inference serving infrastructure and third-party API integration with client SDKs.",
+  "points": [
+   "Baseten integrated as an inference provider on Hugging Face Hub for serverless model hosting.",
+   "Supports direct API key routing or proxying through unified Hugging Face developer SDKs."
+  ]
+ },
+ "e36aa14a96d8e499": {
+  "feed": "Simon Willison",
+  "title": "datasette 1.0a38",
+  "link": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Specific patch update for a minor SQL injection vulnerability in Datasette.",
+  "points": [
+   "Fixed a SQL injection vulnerability present when serving mixed public and private tables in Datasette."
+  ]
+ },
+ "54cab4fc4b8cc72a": {
+  "feed": "Simon Willison",
+  "title": "datasette 0.65.3",
+  "link": "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Security patch release note backport.",
+  "points": [
+   "Backported a SQL injection security fix to Datasette version 0.65.3."
+  ]
+ },
+ "91d8b8ec90d8f9e2": {
+  "feed": "Simon Willison",
+  "title": "Simon Willison on Technical Blogging",
+  "link": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Practical career advice on technical writing, publishing, and building engineering visibility.",
+  "points": [
+   "Emphasizes lowering perfectionism standards to publish engineering writeups regularly.",
+   "Explains how technical blogging builds long-term leverage and aids personal learning."
+  ]
+ },
+ "941dbabd75420d47": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare AI Search: give your agents a search engine for your data",
+  "link": "https://blog.cloudflare.com/ai-search-easier/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Practical architectural update on building managed search and RAG endpoints over cloud storage primitives.",
+  "points": [
+   "Cloudflare combined Workers AI, Vectorize, and R2 into an automated managed search product for agents.",
+   "Exposes automatic /search and /mcp endpoints out-of-the-box without manual crawling pipelines.",
+   "Offers free embedding and reranking when using select default Workers AI catalog models."
+  ]
+ },
+ "35d21954540b85b4": {
+  "feed": "Cloudflare Blog",
+  "title": "The next generation of MCP",
+  "link": "https://blog.cloudflare.com/mcp-v2/",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "High-quality engineering deep dive on protocol design, detailing how MCP was redesigned to be fully stateless for edge serverless runtimes.",
+  "points": [
+   "The MCP 2026-07-28 spec removes mandatory stateful sessions, connection handshakes, and sticky routing requirements.",
+   "Allows MCP servers to run efficiently as stateless Cloudflare Workers without session coordination overhead.",
+   "Updated multi-language SDKs to pass client identity and capabilities statelessly per request."
+  ]
+ },
+ "51a47e9c5719ebf0": {
+  "feed": "Cloudflare Blog",
+  "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+  "link": "https://blog.cloudflare.com/aeo/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Good overview of how web infrastructure and backend endpoints are adapting to serve AI agent traffic.",
+  "points": [
+   "Introduces dashboard diagnostics to test site readiness for LLM web crawlers and recommendation engines.",
+   "Categorizes optimizations into quick wins (Markdown endpoints), technical groundwork, and agent protocols (MCP, x402).",
+   "Reports that over half of web page HTML requests now originate from automated non-human agents."
+  ]
+ },
+ "4148517e3e211e5f": {
+  "feed": "Cloudflare Blog",
+  "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+  "link": "https://blog.cloudflare.com/the-agentic-internet/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Overview of emerging open standards (Web Bot Auth, x402, MCP) shaping machine-to-machine web interaction.",
+  "points": [
+   "Outlines standards enabling agents to securely authenticate, parse content, call APIs, and settle micropayments.",
+   "Highlights Web Bot Auth for cryptographic identification of automated agents to prevent spoofing."
+  ]
+ },
+ "de66ade79eccfd9d": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+  "link": "https://blog.cloudflare.com/kitesurf/",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "Excellent system performance engineering deep dive into building an agent-first browser engine inside V8 isolates rather than running heavy Chromium instances.",
+  "points": [
+   "Built Kitesurf, a custom browser engine running in V8 Wasm isolates on Workers designed specifically for AI agents.",
+   "Strips out human UI requirements like CSS visual perfection to drastically reduce memory and token costs.",
+   "Achieves massive CPU and memory efficiency gains over standard Chromium instances for web extraction tasks."
+  ]
  }
 }
