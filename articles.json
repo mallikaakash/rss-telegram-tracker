@@ -45890,5 +45890,141 @@
    "Strips out human UI requirements like CSS visual perfection to drastically reduce memory and token costs.",
    "Achieves massive CPU and memory efficiency gains over standard Chromium instances for web extraction tasks."
   ]
+ },
+ "6327aa271977d60b": {
+  "feed": "YC Hacker News",
+  "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
+  "link": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is a consumer-focused IoT vulnerability story rather than a backend or ML engineering deep-dive.",
+  "points": [
+   "Researchers exploited flaws in cheap smartwatch platforms to remotely track location and capture audio and photos without user knowledge."
+  ]
+ },
+ "a31ea0bcf15191ce": {
+  "feed": "YC Hacker News",
+  "title": "I stopped trusting USB-C cable labels and started testing them",
+  "link": "https://www.makeuseof.com/i-stopped-trusting-usb-c-cable-labels-started-testing-with-meter-instead/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It covers consumer hardware testing for USB-C cables rather than software or ML infrastructure.",
+  "points": [
+   "Consumer USB-C cables vary wildly in power and data capabilities without clear markings, requiring hardware testers to inspect internal e-marker chips."
+  ]
+ },
+ "f371d511885f8b38": {
+  "feed": "YC Hacker News",
+  "title": "Taste Is All That's Left",
+  "link": "https://notashelf.dev/posts/taste-is-all-thats-left",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "It offers an insightful essay on how LLMs lower code generation friction, making engineering judgment and domain taste the primary differentiator.",
+  "points": [
+   "As AI reduces the cost of producing code artifacts to zero, effort no longer acts as an automatic quality filter.",
+   "Engineering value shifts from the ability to write boilerplate to the judgment required to evaluate generated solutions."
+  ]
+ },
+ "4bc6e888c4ea0b4c": {
+  "feed": "YC Hacker News",
+  "title": "Welcoming the Nepalese Government to Have I Been Pwned",
+  "link": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is a standard security service onboarding announcement without deep technical details.",
+  "points": [
+   "Nepal's National Cyber Security Centre joined HIBP's government program to monitor domain breach exposures."
+  ]
+ },
+ "c5f32ba656d15466": {
+  "feed": "YC Hacker News",
+  "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+  "link": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It covers biomedical research completely unrelated to software systems or machine learning.",
+  "points": [
+   "Bioengineered bean-gum extracts reduced salivary HPV levels by up to 93% while preserving beneficial oral bacteria."
+  ]
+ },
+ "58b2069f17989883": {
+  "feed": "Technica",
+  "title": "Organ donation group accused of trying to take living man's organs faces shutdown",
+  "link": "https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It details healthcare regulatory decertification proceedings outside the engineering scope.",
+  "points": [
+   "The US Department of Health and Human Services initiated decertification of Network for Hope over organ harvesting compliance issues."
+  ]
+ },
+ "e2f48efb9b64c227": {
+  "feed": "Technica",
+  "title": "Blue Origin narrowing in on root cause of catastrophic rocket accident",
+  "link": "https://arstechnica.com/space/2026/08/blue-origin-narrowing-in-on-root-cause-of-catastrophic-rocket-accident/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "It provides a brief aerospace engineering post-mortem update on hardware failure analysis.",
+  "points": [
+   "Investigation confirmed the New Glenn launch pad failure originated at the main oxygen valve of a BE-4 first-stage engine."
+  ]
+ },
+ "cfb10b0037262b00": {
+  "feed": "Technica",
+  "title": "Parasitic zombie-ant fungus thrives in mosses, too",
+  "link": "https://arstechnica.com/science/2026/08/parasitic-zombie-fungus-thrives-in-mosses-too/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is a biology news item on fungal ecology unrelated to computing.",
+  "points": [
+   "Genetic analysis showed Cordyceps parasitic fungi also inhabit mosses as a secondary host when insect targets are scarce."
+  ]
+ },
+ "da2a76e99013b6ee": {
+  "feed": "Technica",
+  "title": "Trump FCC kills TV ownership cap, claiming authority over limit set by Congress",
+  "link": "https://arstechnica.com/tech-policy/2026/08/trump-fcc-kills-tv-ownership-cap-claiming-authority-over-limit-set-by-congress/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It discusses US broadcast policy and regulatory changes rather than technical engineering.",
+  "points": [
+   "The FCC voted to remove the 39% national TV ownership cap in favor of case-by-case merger reviews."
+  ]
+ },
+ "c9b681fe04495171": {
+  "feed": "Technica",
+  "title": "Moderna's mRNA flu shot earns FDA approval after rollercoaster review",
+  "link": "https://arstechnica.com/health/2026/08/modernas-mrna-flu-shot-earns-fda-approval-after-rollercoaster-review/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is a pharmaceutical FDA approval news item with no technical relevance to backend or ML systems.",
+  "points": [
+   "Moderna received FDA approval for its mRNA-based seasonal flu vaccine mFLUSIVA for adults 50 and older."
+  ]
+ },
+ "3d374681d292203d": {
+  "feed": "Apple ML Research",
+  "title": "DeepAmbigQA: Ambiguous Multi-hop Questions for Benchmarking LLM Answer Completeness",
+  "link": "https://machinelearning.apple.com/research/deepambigqa-multihop-questions",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "Directly targets LLM evaluation by introducing an automated dataset generation pipeline for complex multi-hop ambiguous QA.",
+  "points": [
+   "DEEPAMBIGQAGEN automatically creates benchmarks testing LLM completeness across entity disambiguation and multi-step evidence gathering.",
+   "Addresses key evaluation gaps where models fail to retrieve full answer sets when queries involve shared entity names."
+  ]
+ },
+ "3debf0b2277af451": {
+  "feed": "Cloudflare Blog",
+  "title": "Give any website a WebMCP interface",
+  "link": "https://blog.cloudflare.com/webmcp/",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "An excellent Cloudflare engineering deep-dive on exposing browser agent tool APIs at the edge without origin code changes.",
+  "points": [
+   "Uses HTMLRewriter at the edge to inject WebMCP bridge scripts into HTML responses dynamically.",
+   "Leverages Chrome 146's native document.modelContext standard to register in-browser tool packs for AI agents.",
+   "Eliminates scraping by allowing agents to execute structured tasks directly within the visitor browser sandbox."
+  ]
  }
 }
