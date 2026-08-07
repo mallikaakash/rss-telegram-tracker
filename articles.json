@@ -46253,5 +46253,72 @@
   "points": [
    "Promotional article summarizing high-level metrics of ChatGPT usage across a German tax advisory network."
   ]
+ },
+ "7f39f211892fac9b": {
+  "feed": "YC Hacker News",
+  "title": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
+  "link": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Political news about energy policy that is irrelevant to ML, backend engineering, or distributed systems.",
+  "points": [
+   "US government reached a $1.2B payout deal with RWE to halt US offshore wind projects in favor of conventional gas."
+  ]
+ },
+ "0fcc331d639f99b0": {
+  "feed": "YC Hacker News",
+  "title": "The Gargantuan Lie That Is Collapsing the Climate",
+  "link": "https://www.currentaffairs.org/news/the-massive-climate-lie-that-will-destroy-human-civilization",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "A political op-ed on climate policy with no technical or engineering relevance.",
+  "points": [
+   "Critiques political and corporate messaging around climate change timelines and carbon reduction targets."
+  ]
+ },
+ "ac91e438961ad151": {
+  "feed": "YC Hacker News",
+  "title": "Generative \"AI\": The Guitar Hero of Creativity",
+  "link": "https://whatever.scalzi.com/2026/08/06/generative-ai-the-guitar-hero-of-creativity/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "A high-level opinion piece arguing against generative AI tools, offering no technical insights into AI models.",
+  "points": [
+   "Compares AI prompting to playing Guitar Hero, arguing it builds non-transferable skills rather than artistic craft."
+  ]
+ },
+ "8e8e895f9653035d": {
+  "feed": "YC Hacker News",
+  "title": "TypeStax: A type scale generator with vintage audio hardware interface",
+  "link": "https://www.typestax.com/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "A frontend UI design tool for web typography scaling that falls outside backend and ML topics.",
+  "points": [
+   "Provides an interactive type scale design tool styled after vintage audio hardware controls."
+  ]
+ },
+ "5b162c916ab2cc03": {
+  "feed": "YC Hacker News",
+  "title": "The BBC Tetris Companion",
+  "link": "https://www.leadedsolder.com/2026/07/28/bbc-bridge-companion-part-1-overview.html",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "A hands-on retro reverse-engineering deep dive into Z80 assembly and early display processors.",
+  "points": [
+   "Analyzes the hardware architecture of the 1985 BBC Bridge Companion console built around a Z80 CPU and TMS9129 VDP.",
+   "Outlines the process of porting Tetris directly to the obscure console using custom Z80 assembly."
+  ]
+ },
+ "82eef917d703bb0c": {
+  "feed": "Technica",
+  "title": "Remembering the pre-Google web, when search was an experiment",
+  "link": "https://arstechnica.com/gadgets/2026/08/remembering-the-pre-google-web-when-search-was-an-experiment/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "A non-technical historical recap of pre-Google search engines without architectural deep dives.",
+  "points": [
+   "Recounts how web search functioned in the 1990s through human-curated directories and early Web crawlers."
+  ]
  }
 }
