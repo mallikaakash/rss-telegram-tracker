@@ -46459,5 +46459,133 @@
    "Provides automatic zero-config observability, tracking token counts, prompts, responses, and cost attribution per request.",
    "Allows applying AI Gateway credits directly across both hosted Workers AI models and third-party APIs."
   ]
+ },
+ "9efeabccb1dbe014": {
+  "feed": "YC Hacker News",
+  "title": "99% of My Website Traffic Is Bots",
+  "link": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is a generic forum thread link about website bot traffic without technical substance or architectural deep dive.",
+  "points": [
+   "Discussion on web bot traffic trends."
+  ]
+ },
+ "186db7cb06ec9bb3": {
+  "feed": "YC Hacker News",
+  "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
+  "link": "https://www.youtube.com/watch?v=UufMqwyO7pY",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is a news video link about a natural phenomenon completely unrelated to ML, infrastructure, or software engineering.",
+  "points": [
+   "Footage of an iceberg flipping over in Greenland."
+  ]
+ },
+ "e64dec560dfa8b0a": {
+  "feed": "YC Hacker News",
+  "title": "Zohran Mamdani's NYC Tech Team Is What DOGE Should Have Been",
+  "link": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is a civic technology political news piece about public sector hiring with no technical infrastructure content.",
+  "points": [
+   "NYC mayor hires civic tech veterans to build digital services for public agencies."
+  ]
+ },
+ "11406604f86a2ed8": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: textlog – A quiet, text-only microblogging platform, open-source, no JS",
+  "link": "https://textlog.cc/about",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is a simple consumer microblogging project show-and-tell lacking deep backend or ML engineering details.",
+  "points": [
+   "A minimal, open-source 280-character text microblogging platform with no JavaScript."
+  ]
+ },
+ "47d3db6a6b80c7b7": {
+  "feed": "YC Hacker News",
+  "title": "An all-sky map of half a million supermassive black holes",
+  "link": "https://www.sdss.org/black-hole-mapper-release-20/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It is an astrophysics research dataset release completely off-topic from ML engineering and backend infrastructure.",
+  "points": [
+   "SDSS Data Release 20 provides optical spectra for 500,000 galaxies and X-ray target identifications."
+  ]
+ },
+ "c0ea7c9ee15149cf": {
+  "feed": "Technica",
+  "title": "Report: White House drafting executive order linking vaccines and autism",
+  "link": "https://arstechnica.com/health/2026/08/report-white-house-drafting-executive-order-linking-vaccines-and-autism/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It covers health policy news that is entirely irrelevant to ML and backend infrastructure priorities.",
+  "points": [
+   "White House draft executive order concerning vaccine policy and autism research."
+  ]
+ },
+ "6eab0a95d44b855f": {
+  "feed": "Technica",
+  "title": "AI chatbots have failed people in crisis. Can that be fixed?",
+  "link": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "It covers AI safety legal liability news rather than technical ML architectures or infrastructure execution.",
+  "points": [
+   "Lawsuits highlight risks and safety failures when conversational AI interacts with mental health crisis cases."
+  ]
+ },
+ "5a1d12b391c84b40": {
+  "feed": "Apple ML Research",
+  "title": "Scaling Categorical Flow Maps",
+  "link": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "It directly advances alternative LLM pretraining architectures by exploring continuous flow matching as a scalable non-autoregressive alternative for language modeling.",
+  "points": [
+   "Applies Categorical Flow Maps to model discrete text using continuous flow matching between Gaussian distributions and one-hot tokens.",
+   "Enables continuous diffusion advantages like accelerated sampling and trajectory tilting for language generation.",
+   "Demonstrates competitive sampling efficiency compared to standard autoregressive language models."
+  ]
+ },
+ "833934ee3b25f4a5": {
+  "feed": "OpenAI News",
+  "title": "Responding to the next frontier of critical cyber capabilities",
+  "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "It provides strategic visibility into frontier AI capability thresholds and new internal safety controls like Chain of Thought monitoring.",
+  "points": [
+   "OpenAI's upcoming Astra model triggered critical cybersecurity capability thresholds in agentic coding and zero-day exploit generation.",
+   "Internal development was paused pending isolated sandbox environments and encrypted weight controls.",
+   "Implemented real-time monitoring on the model's Chain of Thought to detect and interrupt high-risk autonomous actions."
+  ]
+ },
+ "11fab7eed4acb4fd": {
+  "feed": "Simon Willison",
+  "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+  "link": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "It offers practical insight into LLM cost optimization and real-world enterprise inference efficiency challenges.",
+  "points": [
+   "Enterprise LLM token burn is often driven by inefficient non-engineering workflows like parsing PDFs via vision models.",
+   "Highlights the business urgency of managing inference costs and optimizing token consumption in production deployments."
+  ]
+ },
+ "06b4570b12cc4ebc": {
+  "feed": "Netflix TechBlog",
+  "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
+  "link": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "It is a top-tier engineering deep-dive from Netflix detailing high-performance distributed graph query architecture and sub-100ms latency execution.",
+  "points": [
+   "Details Netflix's gRPC-based serving layer for querying a real-time distributed graph holding billions of nodes and edges.",
+   "Handles disparate access patterns including shallow/wide fan-outs with temporal property filtering and deep/narrow traversal chains.",
+   "Achieves sub-100ms response times for complex personalization traces and single-digit millisecond lookups for high-volume security queries."
+  ]
  }
 }
