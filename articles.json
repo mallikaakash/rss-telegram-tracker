@@ -46184,5 +46184,74 @@
   "points": [
    "Tiquatira Linear Park was once an abandoned area, learn about its history! São Paulo Secreto Things To Do Top News Food & Drink Culture Escapes Wellness & Nature Secret Guides Cinema Sports Music Things To Do Top News Food & Drink Culture Escapes Wellness & Nature Secret Guides Cinema Sports Music São Paulo Secreto Things To Do Top News Food & Drink Culture Escapes Wellness & Nature Secret Guides Cinema Sports Music About São Paulo Secreto Advertise with us List your event The city, in your inbox Stay up to date with the best thing to do, breaking local news, hidden gems, and exclusive recommendations from your city."
   ]
+ },
+ "06a5abe82366641d": {
+  "feed": "YC Hacker News",
+  "title": "Interviewing Engineers in the AI Era: Lessons from a Year of Rebuilding",
+  "link": "https://www.coinbase.com/blog/interviewing-engineers-in-the-ai-era-lessons-from-a-year-of-rebuilding",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Offers relevant career and team-building insights on how technical hiring is adapting to candidates using AI coding tools.",
+  "points": [
+   "Examines shifts in technical interviewing methodologies as LLM code generation tools become ubiquitous.",
+   "Emphasizes evaluating architecture skills, system design, and code review capabilities over rote coding."
+  ]
+ },
+ "996599097aebac3c": {
+  "feed": "YC Hacker News",
+  "title": "A quine in Piet – a GIF image that prints itself [video]",
+  "link": "https://www.youtube.com/watch?v=GwMtzhjCzyc",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "An esoteric programming language experiment with no direct relevance to ML infrastructure or backend engineering.",
+  "points": [
+   "Demonstrates a self-printing quine implemented inside a GIF image using the visual esoteric language Piet."
+  ]
+ },
+ "f88eba64bc8e121e": {
+  "feed": "YC Hacker News",
+  "title": "GitHub Actions and Pages are experiencing degraded availability",
+  "link": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "A routine service outage status notification containing mostly boilerplate form data.",
+  "points": [
+   "Reports temporary availability issues affecting GitHub Actions and GitHub Pages services."
+  ]
+ },
+ "ae1bfe3087230663": {
+  "feed": "YC Hacker News",
+  "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+  "link": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "Provides critical empirical data on AI agent security showing that human approval safeguards fail 33% of the time under pressure.",
+  "points": [
+   "In a 40,000-game study with 409,000 decisions, human reviewers missed 32.9% of security threats issued by AI agents.",
+   "Indirect threats like hidden exfiltration code in `npm run analyze` had a massive 64.7% approval rate due to reviewer habituation.",
+   "Demonstrates that relying on human-in-the-loop permissions is an unreliable security boundary for autonomous execution agents."
+  ]
+ },
+ "f0238d2f3a102779": {
+  "feed": "YC Hacker News",
+  "title": "My phone detects going on a run as “someone snatching my phone and running off”",
+  "link": "https://mastodon.gamedev.place/@rygorous/117047697255584965",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "A consumer device anecdote with no technical engineering deep-dive or infrastructure value.",
+  "points": [
+   "Describes false-positive phone theft detection triggered by the motion of a user going for a run."
+  ]
+ },
+ "2ee94000fec4618b": {
+  "feed": "OpenAI News",
+  "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+  "link": "https://openai.com/index/hsp-gruppe",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "A non-technical B2B product marketing case study for ChatGPT Enterprise deployment.",
+  "points": [
+   "Promotional article summarizing high-level metrics of ChatGPT usage across a German tax advisory network."
+  ]
  }
 }
