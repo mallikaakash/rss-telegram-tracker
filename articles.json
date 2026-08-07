@@ -46587,5 +46587,76 @@
    "Handles disparate access patterns including shallow/wide fan-outs with temporal property filtering and deep/narrow traversal chains.",
    "Achieves sub-100ms response times for complex personalization traces and single-digit millisecond lookups for high-volume security queries."
   ]
+ },
+ "82b10fb0542c7cda": {
+  "feed": "YC Hacker News",
+  "title": "Oracle bans AI-generated code from OpenJDK",
+  "link": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "This is general corporate policy news regarding Java contributions that lacks technical depth or relevance to ML and backend infrastructure.",
+  "points": [
+   "Oracle banned AI-generated code submissions in OpenJDK over IP and security concerns."
+  ]
+ },
+ "92f81e64c3c74187": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek V4 Flash 0731",
+  "link": "https://arcprize.org/results/deepseek-v4-flash-0731",
+  "date": "2026-08-08",
+  "tier": "must_read",
+  "why": "It showcases state-of-the-art reasoning benchmark results and cost efficiency for DeepSeek's latest model release.",
+  "points": [
+   "DeepSeek V4 Flash achieves 89.0% on ARC-AGI-1 ($0.02/task) and 61.4% on ARC-AGI-2 ($0.04/task) at max effort.",
+   "Demonstrates clear scaling in accuracy as inference effort increases across low, high, and max compute tiers."
+  ]
+ },
+ "a1d099e6cd3acdad": {
+  "feed": "YC Hacker News",
+  "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+  "link": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
+  "date": "2026-08-08",
+  "tier": "must_read",
+  "why": "A high-quality systems engineering deep-dive on optimizing query engines using modern CPU features, SIMD, and batching.",
+  "points": [
+   "pgrust achieves 300x faster analytics on Clickbench compared to Postgres by replacing row-at-a-time execution with batching.",
+   "Outlines how database bottlenecks shifted from disk I/O to CPU and memory bandwidth on modern hardware.",
+   "Utilizes operator fusion and SIMD instructions in Rust to minimize memory overhead and lock contention."
+  ]
+ },
+ "28f83391dfe3931f": {
+  "feed": "YC Hacker News",
+  "title": "Möbius-Strip Crosswords",
+  "link": "https://quuxplusone.github.io/blog/2026/08/04/mobius-crossword/",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "This post discusses recreational word puzzles and crossword topology, which is completely unrelated to your engineering priorities.",
+  "points": [
+   "Explores the history and topology of crossword puzzles constructed on Möbius strips and Klein bottles."
+  ]
+ },
+ "8023bbd2b7459728": {
+  "feed": "YC Hacker News",
+  "title": "Assembly Hall of Shame",
+  "link": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+  "date": "2026-08-08",
+  "tier": "worth_a_skim",
+  "why": "It offers an insightful micro-optimization perspective on CPU instruction latency and microarchitectural performance bottlenecks.",
+  "points": [
+   "Catalogues worst-case x86 assembly instructions including split-lock hammers and cache flushes.",
+   "Provides a practical benchmark suite for measuring instruction latency floor on modern CPUs."
+  ]
+ },
+ "fd5b733b3580dcf8": {
+  "feed": "Hugging Face Blog",
+  "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+  "link": "https://huggingface.co/blog/allenai/tutormoments",
+  "date": "2026-08-08",
+  "tier": "worth_a_skim",
+  "why": "It introduces a novel LLM evaluation framework for measuring complex decision-making and prompt alignment in interactive tasks.",
+  "points": [
+   "AllenAI released TutorMoments, a replay-based benchmark using human tutoring transcripts.",
+   "Finds that standard LLMs tend to over-assist students unless explicitly prompted on pedagogical trade-offs."
+  ]
  }
 }
