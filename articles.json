@@ -46320,5 +46320,144 @@
   "points": [
    "Recounts how web search functioned in the 1990s through human-curated directories and early Web crawlers."
   ]
+ },
+ "1347c9becc3b1dff": {
+  "feed": "YC Hacker News",
+  "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
+  "link": "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "General macroeconomic labor statistics are unrelated to backend engineering, ML training, or infrastructure.",
+  "points": [
+   "The US economy lost 23,000 jobs in July with significant downward revisions for May and June."
+  ]
+ },
+ "252eddff9320887f": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Wyzer Programming Language",
+  "link": "https://github.com/Wyzer-Lang/wyzer",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Explores distributed system safety and memory safety through choreographic programming and the Perceus memory model.",
+  "points": [
+   "Introduces Wyzer, a compiled resource-oriented language designed for cross-service correctness and deadlock prevention.",
+   "Leverages choreographic programming and Perceus reference-counting memory management instead of traditional garbage collection."
+  ]
+ },
+ "a12ae291c36d568c": {
+  "feed": "YC Hacker News",
+  "title": "U.S. Lost 23,000 Jobs in July, While Unemployment Ticked Lower",
+  "link": "https://www.wsj.com/economy/jobs/july-jobs-report-unemployment-0d7c08a7",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Duplicate macroeconomic news report without technical engineering context.",
+  "points": [
+   "Duplicate coverage of US labor market job losses in July."
+  ]
+ },
+ "d4b6c0dcc2592f51": {
+  "feed": "YC Hacker News",
+  "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
+  "link": "https://blog.cloudflare.com/kitesurf/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Covers infrastructure for AI agents by running browser execution sandboxes in lightweight V8 isolates on Cloudflare Workers.",
+  "points": [
+   "Launches Kitesurf to run agent-focused headless browser tasks in V8 isolates on Cloudflare's edge network.",
+   "Reduces startup latency and resource consumption compared to traditional containerized browser automation."
+  ]
+ },
+ "11cbb99c09e83f3f": {
+  "feed": "YC Hacker News",
+  "title": "The web server deployment model breaks at hobby scale",
+  "link": "https://w.on-t.work/web-deployment-model",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Good practical backend architecture critique on static file serving, reverse proxying, and caching headers.",
+  "points": [
+   "Analyzes why hobby and self-hosted deployments struggle with reverse proxies, container boundaries, and static assets.",
+   "Details friction around HTTP cache-control headers, query string normalization, and lack of dedicated CDN layers."
+  ]
+ },
+ "1031fe6932b5a28d": {
+  "feed": "Technica",
+  "title": "ByteDance trains massive AI model in bid to rival Anthropic",
+  "link": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "Directly relevant to LLM training at scale, covering ByteDance's 10-trillion parameter pre-training initiative.",
+  "points": [
+   "ByteDance has begun early pre-training for a 10-trillion parameter model, roughly three times larger than Moonshot Kimi K3.",
+   "Pre-training is projected to run for 3 to 6 months before fine-tuning and safety evaluations."
+  ]
+ },
+ "4f1966fd79949a76": {
+  "feed": "Technica",
+  "title": "The world's biggest solar telescope caught vortexes on the Sun's surface",
+  "link": "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Solar physics research on plasma vortices is outside the reader's ML and backend focus.",
+  "points": [
+   "Observation of Kelvin-Helmholtz plasma instabilities on the solar surface using the Inouye Solar Telescope."
+  ]
+ },
+ "71b3519876d017ed": {
+  "feed": "Technica",
+  "title": "Trump is losing his war on wind power",
+  "link": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "US political and legal news regarding wind power permitting is non-technical.",
+  "points": [
+   "Federal court ruled that the Department of Defense cannot block wind energy projects without following statutory procedures."
+  ]
+ },
+ "c96ec08cd3011a56": {
+  "feed": "Cloudflare Blog",
+  "title": "Unveiling good and bad behaviors on the Agentic Internet",
+  "link": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "Offers practical insights from Cloudflare's security team on detecting hybrid human-agent web traffic and continuous trust scoring.",
+  "points": [
+   "Frames bot detection around continuous behavioral trust metrics rather than static point-in-time checks.",
+   "Examines security challenges of hybrid sessions where users hand off execution tasks to autonomous AI web agents."
+  ]
+ },
+ "2c82e4782f1ee27e": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+  "link": "https://blog.cloudflare.com/introducing-radar-researcher/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Product announcement for a natural-language wrapper around Cloudflare's existing Radar API.",
+  "points": [
+   "Introduces a chat interface powered by LLMs to query Cloudflare Radar's public Internet traffic datasets."
+  ]
+ },
+ "737297390ecbc6a3": {
+  "feed": "Cloudflare Blog",
+  "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+  "link": "https://blog.cloudflare.com/community-program-refresh/",
+  "date": "2026-08-07",
+  "tier": "low_priority",
+  "why": "Community ambassador and open-source grant announcement lacking technical depth.",
+  "points": [
+   "Cloudflare announced a developer ambassador program and $1M in open-source community funding."
+  ]
+ },
+ "a944decea8ebc876": {
+  "feed": "Cloudflare Blog",
+  "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+  "link": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+  "date": "2026-08-07",
+  "tier": "must_read",
+  "why": "Excellent engineering deep-dive on unified inference serving and observability control planes for AI workloads.",
+  "points": [
+   "Unifies Cloudflare AI Gateway and Workers AI into a single REST API endpoint (/ai/) and Worker binding.",
+   "Provides automatic zero-config observability, tracking token counts, prompts, responses, and cost attribution per request.",
+   "Allows applying AI Gateway credits directly across both hosted Workers AI models and third-party APIs."
+  ]
  }
 }
