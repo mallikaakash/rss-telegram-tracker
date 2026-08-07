@@ -1938,5 +1938,115 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "b346e207bafbf4ba": {
+  "url": "https://medium.com/supportiv/part-2-pre-training-roberta-from-scratch-with-curriculum-learning-and-bias-aware-loss-703de2c0d80b",
+  "title": "Part 2: Pre-Training RoBERTa from Scratch with Curriculum Learning and Bias-Aware Loss | by Siddharth Shukla | Supportiv | Jun, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "9f7c907db795fbe3": {
+  "url": "https://www.adpandey.com/blog/masked-diffusion-lm-tinystories",
+  "title": " 404 Not Found\n",
+  "domain": "adpandey.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "690666bd08fa9196": {
+  "url": "https://jared-hpc.com/posts/training-dflash-drafter-b200/",
+  "title": "Training a DFlash drafter on a B200 — the real grind behind block-diffusion speculative decoding | Jared Frost",
+  "domain": "jared-hpc.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "5964169be880559d": {
+  "url": "https://acethecloud.com/blog/3-of-20-flashattention/",
+  "title": "3/20 - FlashAttention: Why Moving Fewer Bytes Beats Doing Fewer FLOPs – Ace The Cloud",
+  "domain": "acethecloud.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "410d0c57ee639c39": {
+  "url": "https://arxiv.gg/abs/2607.05895",
+  "title": "MatrixFSDP: communication-free matrix optimizers under ZeRO-3 parameter sharding - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3a0a4d56a02f1ccf": {
+  "url": "https://github.com/melasistema/s-moe",
+  "title": "GitHub - melasistema/s-moe: Model-agnostic inference engine for fine-grained Mixture-of-Experts LLMs on Apple Silicon — streams experts from NVMe so the model never has to fit in RAM (a 235B runs from 32 GB up). Designed with an AI agent across some sessions: the direction came from human curiosity, the implementation depth from the collaboration. · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a09f88dd4ecd335d": {
+  "url": "https://github.com/jbarnes850/inference-recipes/tree/main/inference",
+  "title": "inference-recipes/inference at main · jbarnes850/inference-recipes · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "be14b5e15bf74b00": {
+  "url": "https://medium.com/@shaunakpython/fine-tuning-qwen3-32b-on-amd-mi300x-a-war-story-of-silent-failures-ec15bad61134",
+  "title": "Fine-Tuning Qwen3–32B on AMD MI300X: A War Story of Silent Failures | by Shaunak J | Jun, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "73e9b25d07882690": {
+  "url": "https://www.beam.cloud/blog/what-is-a-container-really",
+  "title": "What Is a Container, Really? Five Years of GPU Infrastructure | Beam",
+  "domain": "beam.cloud",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "09814c36f64558a6": {
+  "url": "https://corti.com/why-qwen3-6-35b-runs-on-a-nvidia-dgx-spark-and-gpt-oss-120b-fought-me-every-step/",
+  "title": "Why Qwen3.6-35B Runs on a NVIDIA DGX Spark and gpt-oss-120B Fought Me Every Step",
+  "domain": "corti.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "ca7ceed84960b0fb": {
+  "url": "https://pengguanya.github.io/posts/rootless-llm-fine-tuning-dgx-spark/",
+  "title": "Rootless LLM Fine-Tuning on DGX Spark: GPU Containers Without Root | Guanya Peng",
+  "domain": "pengguanya.github.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
