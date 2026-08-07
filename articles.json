@@ -46129,5 +46129,60 @@
    "Compares DeepSeek-V4 Flash against GPT-5.6 Luna on the DeepSWE benchmark for coding capabilities.",
    "Analyzes performance and token cost trade-offs between open-weights serving platforms and proprietary APIs."
   ]
+ },
+ "57a58ac603eac166": {
+  "feed": "YC Hacker News",
+  "title": "I won't read LLM authored fiction",
+  "link": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why I Won't Read LLM Authored Fiction Chris McCormick independent software developer This blog is written by a human. Aug. 5, 2026 Why I Won't Read LLM Authored Fiction There have been periods of my life where I stopped reading. I don't mean that I stopped reading entirely - I still read articles and blogs and journals, but I could not find the time to read fiction novels."
+  ]
+ },
+ "98208b2daa8f411d": {
+  "feed": "YC Hacker News",
+  "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+  "link": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "New Mexico court orders Meta to pay $567m over harms to children’s mental health | Meta | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us UK US politics World Climate crisis Middle East Ukraine Football Newsletters Business Environment UK politics Science Tech Global development Obituaries Mark Zuckerberg, the Meta chief executive, outside court in Los Angeles in February."
+  ]
+ },
+ "557efb07aae791c8": {
+  "feed": "YC Hacker News",
+  "title": "What is a product?",
+  "link": "https://roge.onwrite.app/what-is-a-product",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What is a product? - One more thing O One more thing Home Archive About Profile RSS Product What is a product? It is far too easy to create software these days, but what is the difference between a side project and a real product? Aug 6, 2026 · 3 min read By Roge Focus black road bike Photo by Mikkel Bech on Unsplash I've seen, and probably you have seen too, far too many prototypes out there created with AI treated as products, because it is that easy to prompt two sentences and get something that resembles a real thing."
+  ]
+ },
+ "b610e9abb2a958ae": {
+  "feed": "YC Hacker News",
+  "title": "Parsers don't have to be complicated",
+  "link": "https://bkaradzic.github.io/posts/scanner/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Parsers don’t have to be complicated | Branimir Karadžić's Home Page Home Menu Home Posts Docs Bio | LIGHT DARK Parsers don’t have to be complicated Jul 27, 2026 Table of Contents Introduction Design LineReader, the simplest helper INI parsing, and sub-scanners URL parsing and what empty means File path normalization Stack trace symbolication Conclusion Introduction Years ago I started writing a proper shader front-end parser for bgfx and used the Lemon parser generator ."
+  ]
+ },
+ "43a75fef56d58bad": {
+  "feed": "YC Hacker News",
+  "title": "Sao Paulo resident transforms degraded area into urban forest",
+  "link": "https://saopaulosecreto.com/en/tiquatira-linear-park-en/",
+  "date": "2026-08-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tiquatira Linear Park was once an abandoned area, learn about its history! São Paulo Secreto Things To Do Top News Food & Drink Culture Escapes Wellness & Nature Secret Guides Cinema Sports Music Things To Do Top News Food & Drink Culture Escapes Wellness & Nature Secret Guides Cinema Sports Music São Paulo Secreto Things To Do Top News Food & Drink Culture Escapes Wellness & Nature Secret Guides Cinema Sports Music About São Paulo Secreto Advertise with us List your event The city, in your inbox Stay up to date with the best thing to do, breaking local news, hidden gems, and exclusive recommendations from your city."
+  ]
  }
 }
