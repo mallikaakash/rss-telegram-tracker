@@ -47302,5 +47302,64 @@
   "points": [
    "Microsoft Edge is ending support for Manifest V2 extensions, blocking older ad-blockers like uBlock Origin."
   ]
+ },
+ "93b9b492871ce8b2": {
+  "feed": "YC Hacker News",
+  "title": "Fastmail offers EU data region",
+  "link": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "Product update regarding Fastmail's EU data region co-location, offering little technical value for ML or backend engineering.",
+  "points": [
+   "Fastmail launched an EU data region using self-managed hardware in Amsterdam while retaining US replicas for fallback."
+  ]
+ },
+ "ddcef63acf2ca72c": {
+  "feed": "YC Hacker News",
+  "title": "LinkedIn Feed Blocker",
+  "link": "https://github.com/andrewpollack/linkedin-feed-blocker",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "A basic browser extension for blocking LinkedIn feeds that lacks relevant systems, ML, or backend depth.",
+  "points": [
+   "Offers a simple Chrome extension to block the main LinkedIn feed while keeping messaging and search functional."
+  ]
+ },
+ "1a399acec709b8fe": {
+  "feed": "YC Hacker News",
+  "title": "\"Code was never the hard part\" is an insult to all programmers",
+  "link": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+  "date": "2026-08-08",
+  "tier": "worth_a_skim",
+  "why": "An insightful career-relevant commentary challenging the narrative that AI renders code implementation and technical depth trivial.",
+  "points": [
+   "Refutes the claim that 'coding is easy' by citing the enduring complexity of software architecture, performance, and low-level engineering.",
+   "Critiques AI-era software management tropes and highlights the disconnect between high-level specs and hands-on technical execution."
+  ]
+ },
+ "57f64daafb0e00dc": {
+  "feed": "YC Hacker News",
+  "title": "Triton: DirectX 11 Driver for QEMU",
+  "link": "https://blog.getutm.app/2026/introducing-triton-directx-11-driver-for-qemu/",
+  "date": "2026-08-08",
+  "tier": "worth_a_skim",
+  "why": "A detailed systems engineering deep-dive into building a Windows DirectX 11 driver for QEMU hypervisor graphics acceleration.",
+  "points": [
+   "Implements DirectX Device Driver Interfaces (DDIs) at user and kernel levels to avoid CPU blitting overhead in QEMU.",
+   "Pairs the Triton driver with Neptune protocol forwarding to support modern hardware-accelerated graphics in Windows virtual machines."
+  ]
+ },
+ "5b3343514171c1b8": {
+  "feed": "YC Hacker News",
+  "title": "Building a Rust Inference Engine That Matches Llama.cpp",
+  "link": "https://www.fratepietro.com/2026/ferrox-rust-gguf-inference-engine/",
+  "date": "2026-08-08",
+  "tier": "must_read",
+  "why": "Directly advances ML infrastructure priorities by detailing how to write a native Rust GGUF inference engine with fused GPU kernels.",
+  "points": [
+   "Builds Ferrox, a zero-dependency Rust LLM inference engine matching llama.cpp across CPU, Apple Metal, and CUDA platforms.",
+   "Uses memory-mapped GGUF model files with fused dequantization inside dot-product kernels to maximize throughput and minimize RAM usage.",
+   "Provides an OpenAI-compatible HTTP server and CLI capable of running local dense and MoE models."
+  ]
  }
 }
