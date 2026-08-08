@@ -2048,5 +2048,91 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "af3b745885b29bfe": {
+  "url": "https://nebius.com/blog/posts/training-speculative-decoders",
+  "title": "Training speculative decoders: removing the logits and attention bottlenecks",
+  "domain": "nebius.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-08",
+  "tier": "solid_find",
+  "why": "Deep engineering post detailing memory and attention kernel optimizations specifically for training speculative decoding draft heads.",
+  "points": [
+   "Streaming Cross Entropy avoids materializing full vocabulary logits in memory during long-context speculative draft training.",
+   "Block-sparse FlashAttention kernels prevent EAGLE-3 draft heads from falling back to inefficient dense attention patterns.",
+   "Speculative draft heads require distinct target masking and loss path handling compared to standard long-context fine-tuning."
+  ]
+ },
+ "8d4a2ebcb9b962f0": {
+  "url": "https://arxiv.gg/abs/2606.29238",
+  "title": "On the Policy Gradient Foundations of Group Relative Policy Optimization: Credit Assignment, Gradient Sparsity, and Rank Collapse - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-08",
+  "tier": "hidden_gem",
+  "why": "Rigorous theoretical and empirical analysis revealing that GRPO suffers from severe rank collapse and token credit assignment failure.",
+  "points": [
+   "Output-only rewards cause GRPO to assign identical advantage to every token in a rollout, collapsing credit assignment to a single scalar.",
+   "SVD analysis on Nemotron-4B shows GRPO gradients maintain an effective rank around 2 regardless of group size R in {2, 4, 8}.",
+   "The zero-sum baseline constraint enforces an intrinsic rank-2 gradient bottleneck that limits multi-step reasoning capability."
+  ]
+ },
+ "29ace72b96a40c67": {
+  "url": "https://thecomputersciencebook.com/posts/pagedattention-is-more-than-virtual-memory/",
+  "title": "\n    PagedAttention is more than virtual memory | The Computer Science Book\n  ",
+  "domain": "thecomputersciencebook.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-08",
+  "tier": "skip",
+  "why": "Rehashes standard, well-known vLLM and PagedAttention concepts as promotional content for a computer science book.",
+  "points": []
+ },
+ "f657e4f2313a8e2c": {
+  "url": "https://www.cloudrift.ai/blog/learning-flashattention-the-hard-way-part-2",
+  "title": "Learning FlashAttention the Hard Way — Part 2",
+  "domain": "cloudrift.ai",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-08",
+  "tier": "hidden_gem",
+  "why": "Deep kernel engineering post demonstrating an autotuner that reproduces handwritten FlashAttention-2 performance down to the microsecond without domain-specific heuristics.",
+  "points": [
+   "An automated compiler (Emmy) autotuned kernel geometry from scratch to match Tri Dao's exact handwritten FlashAttention-2 tile choices on RTX 5090.",
+   "Provides microsecond-level latency benchmarks for each kernel optimization step from scalar streaming to state-of-the-art.",
+   "Includes empirical negative results showing why FA-3 and FA-4 optimizations fail to yield benefits on consumer GPU hardware."
+  ]
+ },
+ "2a45fc806f427bf2": {
+  "url": "https://www.alphaxiv.org/abs/2606.29858",
+  "title": "Smooth Scaling Laws Hide Stepwise Token Learning | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-08",
+  "tier": "skip",
+  "why": "The page failed to render due to a PDF viewer layout error and contains no readable technical content.",
+  "points": []
+ },
+ "24e2bdc663328f39": {
+  "url": "https://github.com/jamesob/local-llm",
+  "title": "GitHub - jamesob/local-llm: Everything I know about running LLMs locally · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-08",
+  "tier": "skip",
+  "why": "Contains only repository file listing metadata without any technical text, data, or documentation.",
+  "points": []
+ },
+ "ae2c95b0cf161535": {
+  "url": "https://markaicode.com/stack/amazon-ec2-kubernetes-stack/",
+  "title": "vLLM on Amazon EKS: Production GPU Inference with P4d (2026 Benchmark) | Markaicode",
+  "domain": "markaicode.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-08",
+  "tier": "solid_find",
+  "why": "Detailed, benchmarked infra postmortem on vLLM production scaling bottlenecks and Kubernetes autoscaling configurations.",
+  "points": [
+   "Standard EKS HPA triggers failure at 50 concurrent requests unless switched to vLLM custom metrics like request_gpu_throughput.",
+   "Karpenter cold-start latency for P4d GPU nodes is 90-120 seconds, causing request drops during sudden bursts.",
+   "Explicitly setting --max-model-len=4096 and --gpu-memory-utilization=0.9 reclaims 15% VRAM wasted by default settings."
+  ]
  }
 }
