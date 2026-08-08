@@ -46932,5 +46932,63 @@
   "points": [
    "Volkswagen is reportedly planning a US pickup truck and large SUV product line by 2030."
   ]
+ },
+ "6ff48551fba429b8": {
+  "feed": "YC Hacker News",
+  "title": "As a Windows user, it's a surreal way to install a program",
+  "link": "https://unsung.aresluna.org/as-a-windows-user-its-a-very-surreal-way-to-install-a-program/",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "It covers macOS visual design customization for app installers, which is irrelevant to ML, backend, or infrastructure engineering.",
+  "points": [
+   "App developers use Finder layout constraints and custom background images inside .dmg files to guide users to drag apps to the Applications folder."
+  ]
+ },
+ "e810abb1f8afeedd": {
+  "feed": "YC Hacker News",
+  "title": "2027 memory capacity is reportedly sold out",
+  "link": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+  "date": "2026-08-08",
+  "tier": "worth_a_skim",
+  "why": "Highlights macro AI hardware supply chain bottlenecks impacting future GPU platform memory availability.",
+  "points": [
+   "DRAM and HBM manufacturing capacity for 2027 from Samsung, SK Hynix, and Micron is reportedly fully pre-sold to AI firms.",
+   "Five-year long-term purchasing agreements by major AI players are driving up broader memory and NAND storage prices."
+  ]
+ },
+ "1ecce56ed40e51f6": {
+  "feed": "YC Hacker News",
+  "title": "Carl's Required Reading",
+  "link": "https://carlkolon.com/reading/",
+  "date": "2026-08-08",
+  "tier": "must_read",
+  "why": "A curated syllabus of foundational software architecture essays directly targeting senior backend engineering and system design principles.",
+  "points": [
+   "Compiles top essays on software complexity, favoring simplicity ('Grug Brained Developer') and locality of behavior over premature abstraction.",
+   "Emphasizes 'Parse, Don't Validate' to encode data assertions directly into type systems for compile-time safety.",
+   "Highlights organizational architecture and API design lessons from Steve Yegge's Google Platforms Rant."
+  ]
+ },
+ "00b1071093000d7c": {
+  "feed": "YC Hacker News",
+  "title": "Workers Drilling in Romania Broke into a Cave Sealed for 5.5M Years",
+  "link": "https://travelandtannins.com/workers-drilling-in-romania-broke-into-a-cave-sealed-for-5-5-million-years-and-found-an-entire-living-world-that-has-never-seen-the-sun/",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "A general science news article about a sealed cave ecosystem, unrelated to machine learning or backend engineering priorities.",
+  "points": [
+   "Movile Cave in Romania was isolated for 5.5 million years, sustaining a unique chemosynthetic ecosystem operating entirely without sunlight."
+  ]
+ },
+ "efb641fe7ca66004": {
+  "feed": "YC Hacker News",
+  "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
+  "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "Focuses on high-level operational technology policy and air-gapping water system PLCs, lacking technical depth for ML or backend engineers.",
+  "points": [
+   "Cybersecurity experts recommend disconnecting industrial water system controllers from the internet following recent attacks on municipal infrastructure."
+  ]
  }
 }
