@@ -46990,5 +46990,64 @@
   "points": [
    "Cybersecurity experts recommend disconnecting industrial water system controllers from the internet following recent attacks on municipal infrastructure."
   ]
+ },
+ "176c3e66e0bf3d12": {
+  "feed": "YC Hacker News",
+  "title": "Hardware backdoors in some x86 CPUs",
+  "link": "https://github.com/xoreaxeaxeax/rosenbridge",
+  "date": "2026-08-08",
+  "tier": "worth_a_skim",
+  "why": "Explores a low-level x86 CPU hardware backdoor that permits userland code to access kernel memory, relevant for systems security awareness.",
+  "points": [
+   "Uncovers an embedded micro-core ('rosenbridge') in certain x86 CPUs that bypasses ring 0 processor protections.",
+   "Allows unprivileged ring 3 processes to freely read and write ring 0 kernel data when enabled.",
+   "Includes open-source tools to audit CPUs for the backdoor and disable it."
+  ]
+ },
+ "58479efa341d14bd": {
+  "feed": "YC Hacker News",
+  "title": "How the 'fecal revolution' changed Earth's ecosystems",
+  "link": "https://phys.org/news/2026-08-fecal-revolution-earth-ecosystems.html",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "Off-target post on biological evolution with no relevance to ML or backend engineering.",
+  "points": [
+   "Discusses ecological history without any technical engineering content."
+  ]
+ },
+ "2b1606cfe2aec216": {
+  "feed": "YC Hacker News",
+  "title": "From One Seed to a Thousand Leaves – Merkle's Authentication Tree",
+  "link": "https://0xkrt26.github.io/math_behind_security/2026/08/03/merkle-tree.html",
+  "date": "2026-08-08",
+  "tier": "worth_a_skim",
+  "why": "Offers an accessible mathematical overview of Merkle Trees and one-time cryptographic signatures, useful for distributed data integrity fundamentals.",
+  "points": [
+   "Breaks down Lamport-Diffie one-time signatures using one-way function vectors.",
+   "Explains how Merkle Trees reduce signature overhead by aggregating keys into a single tree root seed.",
+   "Includes a sample repository implementation demonstrating tree construction and verification."
+  ]
+ },
+ "5a008bd467c274c6": {
+  "feed": "YC Hacker News",
+  "title": "Radical Study Suggests Life on Earth Arose Twice",
+  "link": "https://www.sciencealert.com/radical-study-suggests-life-on-earth-arose-from-non-living-matter-twice",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "Off-topic popular science article on evolutionary biology and the origins of cellular metabolism.",
+  "points": [
+   "Suggests bacteria and archaea independently evolved metabolism, pointing to two separate origins of living cells."
+  ]
+ },
+ "2d98a155f03e09f3": {
+  "feed": "YC Hacker News",
+  "title": "Psychological Warfare in Reverse Engineering (2015)",
+  "link": "https://github.com/xoreaxeaxeax/repsych",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "A 2015 security trick for rendering visual images inside disassembly Control Flow Graphs, lacking practical backend utility.",
+  "points": [
+   "Generates control flow graphs (CFGs) in IDA Pro that form pixel art images using structured assembly jumps."
+  ]
  }
 }
