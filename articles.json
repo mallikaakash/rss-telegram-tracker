@@ -47049,5 +47049,50 @@
   "points": [
    "Generates control flow graphs (CFGs) in IDA Pro that form pixel art images using structured assembly jumps."
   ]
+ },
+ "02fa4fe77aa62419": {
+  "feed": "YC Hacker News",
+  "title": "ao486: x86-compatible Verilog core implementing all features of a 486 SX (2014)",
+  "link": "https://github.com/alfikpl/ao486",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "A 2014 hardware design project implementing an x86 CPU core in Verilog is off-target for ML and backend engineering priorities.",
+  "points": [
+   "Implements a 4-stage pipeline 486 SX x86 core in Verilog capable of booting Linux 3.13 and Windows 95."
+  ]
+ },
+ "d0f0cfa133931f4b": {
+  "feed": "YC Hacker News",
+  "title": "Tell Abu Hureyra (prehistoric archaeological site)",
+  "link": "https://en.wikipedia.org/wiki/Tell_Abu_Hureyra",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "A Wikipedia article covering a prehistoric archaeological site in Syria is completely unrelated to software engineering.",
+  "points": [
+   "Documents a Neolithic archaeological site reflecting the ancient transition from foraging to agriculture."
+  ]
+ },
+ "a3edcb5980c4fd9c": {
+  "feed": "YC Hacker News",
+  "title": "Guarded Methods in OCaml (2025)",
+  "link": "https://xvw.lol/en/articles/oop-refl.html",
+  "date": "2026-08-08",
+  "tier": "worth_a_skim",
+  "why": "Provides a neat programming language deep dive on encoding method-level type constraints in OCaml using type equality witnesses.",
+  "points": [
+   "Explains how to constrain individual method calls based on receiver types without imposing generic constraints on the entire class.",
+   "Encodes Kotlin-style extension methods and guarded methods directly inside OCaml using type equality witnesses."
+  ]
+ },
+ "d3167f63a58046a8": {
+  "feed": "YC Hacker News",
+  "title": "Games at the press of a button: The Rip-O-Bot (1989)",
+  "link": "https://blog.gingerbeardman.com/2026/08/02/games-at-the-press-of-a-button-the-rip-o-bot/",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "A historical retro-gaming essay about a 1989 arcade magazine column predicting automated game creation is fun trivia but lacks technical substance.",
+  "points": [
+   "Highlights a 1989 satire by Bubble Bobble's creator that accurately anticipated modern prompt-driven generative AI game asset creation."
+  ]
  }
 }
