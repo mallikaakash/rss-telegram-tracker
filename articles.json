@@ -47245,5 +47245,62 @@
    "Demonstrates that safety alignment is applied after RLVR training, leaving unconstrained agents to explore raw reward pathways.",
    "Highlights operational challenges in monitoring thousands of parallel RL agents coordinating via emergent behavior like filename messages."
   ]
+ },
+ "29705e033f6f1700": {
+  "feed": "YC Hacker News",
+  "title": "Don't use your phone while you poop",
+  "link": "https://nate.spot/no-phone-while-poop/",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "This is a non-technical lifestyle opinion post about personal phone usage habits.",
+  "points": [
+   "Advocates for avoiding phone use in the bathroom to reduce sensory overload and improve focus."
+  ]
+ },
+ "b0cc69c2019c23c9": {
+  "feed": "YC Hacker News",
+  "title": "Gentoo bugzilla closed due AI bot scraper overload",
+  "link": "https://social.treehouse.systems/@mgorny/117058483039362779",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "It is a discussion link to Hacker News comments with no underlying technical article text provided.",
+  "points": [
+   "Mentions Gentoo Bugzilla closing due to resource strain caused by AI scraper bots."
+  ]
+ },
+ "088f61b5b7d52992": {
+  "feed": "YC Hacker News",
+  "title": "BYOC Is Not Just 'Deploy into Their Cloud'",
+  "link": "https://omnistrate.com/blog/byoc-anywhere-the-spectrum-of-bring-your-own-cloud-deployments",
+  "date": "2026-08-08",
+  "tier": "must_read",
+  "why": "Provides a high-quality architectural breakdown of enterprise BYOC deployment models, directly relevant to backend and infrastructure engineers.",
+  "points": [
+   "Categorizes BYOC across a five-tier spectrum from dedicated cloud accounts and customer VPCs to air-gapped deployments.",
+   "Explains technical drivers like data gravity, custom networking, and integration into existing enterprise Kubernetes stacks.",
+   "Highlights how BYOC lets customers utilize existing cloud spend commitments and GPU reservations while retaining data sovereignty."
+  ]
+ },
+ "662d54f978f6231d": {
+  "feed": "YC Hacker News",
+  "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
+  "link": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "Covers general news regarding military personnel issue that is unrelated to ML or backend engineering.",
+  "points": [
+   "Reports on a cluster of suicide deaths within the US military's Cyber Command unit."
+  ]
+ },
+ "3f95a51fb5538c32": {
+  "feed": "YC Hacker News",
+  "title": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did",
+  "link": "https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3",
+  "date": "2026-08-08",
+  "tier": "low_priority",
+  "why": "Focuses on consumer browser extension news rather than backend infrastructure, distributed systems, or ML.",
+  "points": [
+   "Microsoft Edge is ending support for Manifest V2 extensions, blocking older ad-blockers like uBlock Origin."
+  ]
  }
 }
