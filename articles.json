@@ -47601,5 +47601,63 @@
   "points": [
    "Knuckle cracking sounds stem from gas bubbles collapsing in synovial fluid and do not cause arthritis."
   ]
+ },
+ "373c3947f5b5b978": {
+  "feed": "YC Hacker News",
+  "title": "There Are Magic Hexagons of Every Order",
+  "link": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "It is a niche recreational mathematics exploration on magic hexagons, unrelated to ML training, backend infrastructure, or process optimization.",
+  "points": [
+   "Explores search space reduction via antisymmetry to discover large abnormal magic hexagons."
+  ]
+ },
+ "fd659efb1b86bdd4": {
+  "feed": "YC Hacker News",
+  "title": "The Grid That Doubles the Strength of the Ground",
+  "link": "https://practical.engineering/blog/2026/8/4/the-grid-that-doubles-the-strength-of-the-ground",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "Focuses on civil and geotechnical soil mechanics, which falls completely outside the reader's software and ML focus areas.",
+  "points": [
+   "Explains how 3D plastic geocells confine soft dredged silt to form load-bearing foundations for port machinery."
+  ]
+ },
+ "5210eb6515a65835": {
+  "feed": "YC Hacker News",
+  "title": "How to Survive in a Louisiana Swamp",
+  "link": "https://unherd.com/2026/08/how-to-survive-on-a-louisiana-swamp/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A cultural travelogue about Cajun life in Louisiana wetlands with zero engineering relevance.",
+  "points": [
+   "Explores disappearing Cajun traditions and boat-access communities in the Atchafalaya Basin."
+  ]
+ },
+ "eb3d4f15a5a6d1b2": {
+  "feed": "YC Hacker News",
+  "title": "Software Giant SAP Stops Most Travel and Hiring Because of AI's Soaring Cost",
+  "link": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost/",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "Provides a stark real-world datapoint on how enterprise-wide AI inference costs are impacting operational budgets at scale.",
+  "points": [
+   "SAP implemented corporate-wide hiring and travel freezes specifically to offset surging internal AI infrastructure costs.",
+   "Highlights the growing financial strain on large enterprises rolling out LLM tools company-wide."
+  ]
+ },
+ "c99fb86a4ef5ff17": {
+  "feed": "YC Hacker News",
+  "title": "Building a local positioning system to track runners using Ultra-Wideband",
+  "link": "https://zeus.ugent.be/blog/25-26/12urenloop-uwb/",
+  "date": "2026-08-09",
+  "tier": "must_read",
+  "why": "An exceptional engineering deep-dive into building a real-time, high-precision local positioning system using Ultra-Wideband hardware.",
+  "points": [
+   "Utilizes UWB 500 MHz bandwidth and picosecond-level clocks to perform distance calculations via radio signal flight time.",
+   "Replaces noisy Bluetooth estimation with precise multi-anchor triangulation for centimeter-level lap tracking.",
+   "Solves RF interference issues caused by spectator devices while enabling per-team start-line position detection."
+  ]
  }
 }
