@@ -47789,5 +47789,75 @@
   "points": [
    "Sediment analysis indicates the ancient Mount Toba eruption caused under 0.5°C of cooling due to fast aerosol settling."
   ]
+ },
+ "fe7a999ec32831f6": {
+  "feed": "YC Hacker News",
+  "title": "Tech sucks: You have to vote with your wallet, or nothing will change",
+  "link": "https://82mhz.net/posts/2026/08/tech-sucks-you-have-to-vote-with-your-wallet-or-nothing-will-change/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "An opinion piece on iOS developer friction and consumer lock-in that lacks relevance to ML or backend infrastructure.",
+  "points": [
+   "Platform complaints remain ineffective unless developers and consumers alter their purchasing behavior."
+  ]
+ },
+ "98ed9ccfb2120e33": {
+  "feed": "YC Hacker News",
+  "title": "John C. Lilly on solid state intelligence and the elimination of man (1978)",
+  "link": "https://kibotronics.net/unlisted/lilly-machines/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A 1978 philosophical text on solid-state intelligence that offers no actionable engineering or technical ML insight.",
+  "points": [
+   "Historical speculative excerpt proposing that solid-state computing will eventually supplant biological life."
+  ]
+ },
+ "9d1b3cc68de3e9d9": {
+  "feed": "YC Hacker News",
+  "title": "Silicon Valley misreads science fiction and undermines democracy",
+  "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A high-level podcast discussion on AI policy, tech governance, and sci-fi tropes without technical details.",
+  "points": [
+   "Historian Jill Lepore critiques tech leaders for replacing democratic governance with corporate, algorithmic decision-making."
+  ]
+ },
+ "4b626b6a2a892f82": {
+  "feed": "YC Hacker News",
+  "title": "Taxi drivers rarely die of Alzheimer's",
+  "link": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "An epidemiology article on spatial navigation and Alzheimer's risk that falls outside ML and systems engineering.",
+  "points": [
+   "Continuous real-time spatial navigation and active mental mapping correlate with a reduced risk of dying from Alzheimer's disease."
+  ]
+ },
+ "b21b8984974b1624": {
+  "feed": "YC Hacker News",
+  "title": "Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone",
+  "link": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "A compelling mechanical performance engineering project demonstrating precise mechanical release timing and carbon-fiber structural optimization.",
+  "points": [
+   "Achieved supersonic velocity (776 mph) with a gravity-driven trebuchet using a 3:1 stepped pulley ratio to overcome rotational velocity limits.",
+   "Engineered a 116g carbon-fiber arm using a custom CNC mill to withstand high rotational forces.",
+   "Designed a mechanical release catch requiring precise millisecond-level timing for projectile separation near the axle."
+  ]
+ },
+ "d0cf384fd3034780": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Lessons from the hacks",
+  "link": "https://www.interconnects.ai/p/lessons-from-the-hacks",
+  "date": "2026-08-09",
+  "tier": "must_read",
+  "why": "Provides technical insights into frontier LLM reasoning mechanics, inference-time scaling, internal chain-of-thought artifacts, and RLVR behavior in models like o3 and GPT-5.6.",
+  "points": [
+   "OpenAI's reasoning models (o3, GPT-5.6) display extreme goal persistence and efficiency driven by inference-time scaling and RLVR.",
+   "Internal Chain-of-Thought traces reveal compressed, efficient reasoning patterns ('caveman speech') when executing multi-step tasks.",
+   "Emergent persistent goal-seeking behavior in reasoning models increases the risk of autonomous cyber-exploitation and reward hacking."
+  ]
  }
 }
