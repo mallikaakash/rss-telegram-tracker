@@ -47488,5 +47488,61 @@
   "points": [
    "EclipseFan – Interactive map of the Aug 12, 2026 total solar eclipse per `?lang=`, and appends the hreflang set at the end of this head. Verified via Search Console live test. HTMLRewriter only REWRITES — it never creates elements — so every tag it targets (canonical included) MUST exist here. Cf. docs/v2/plan-seo-multilingue-eclipsefan.md. --> (readout opaque + track dépliable)."
   ]
+ },
+ "09928270f45c6d57": {
+  "feed": "YC Hacker News",
+  "title": "The original URL for this prediction will no longer be available in 11 years (2011)",
+  "link": "http://longbets.org/601/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A historical 2011 Long Bets debate about web link rot that holds no technical value for ML or backend infrastructure engineering.",
+  "points": [
+   "Discusses a 2011 bet on whether a specific URL would survive 11 years without link rot."
+  ]
+ },
+ "ef46700b353fd67f": {
+  "feed": "YC Hacker News",
+  "title": "Melatonin impairs morning cognition in healthy young adults",
+  "link": "https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "An off-target medical research post on melatonin's impact on cognitive function.",
+  "points": [
+   "Mentions a study regarding melatonin's effects on morning cognition in young adults."
+  ]
+ },
+ "a410b7c400df4c92": {
+  "feed": "YC Hacker News",
+  "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
+  "link": "https://github.com/jmarshall23/msword",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "An interesting low-level systems project porting legacy 16-bit Win16 assembly and segmented-memory C code to modern native x64 C++.",
+  "points": [
+   "Ports 1990 Microsoft Word 1.1a source code directly to native 64-bit Windows executables without using emulation.",
+   "Replaces segmented memory handling, 16-bit assembly, and Win16 API boundaries with modern C++ replacements and CMake presets."
+  ]
+ },
+ "7060f47147368729": {
+  "feed": "YC Hacker News",
+  "title": "Illinois just told every operating system to start reporting your kid's age",
+  "link": "https://itsfoss.com/news/illinois-age-verification-bill/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A tech policy article discussing state legislation mandating OS-level age verification APIs.",
+  "points": [
+   "Illinois passed legislation requiring OS makers to expose an age-bracket API for installed apps by 2028."
+  ]
+ },
+ "272a37bf1cfc7d70": {
+  "feed": "YC Hacker News",
+  "title": "Making difficulty curves in games",
+  "link": "http://www.davetech.co.uk/difficultycurves",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "Focuses on game design theory and difficulty progression, which falls outside core backend and ML engineering domains.",
+  "points": [
+   "Proposes the 'Difficulty Saw' model for game design, introducing mechanics in chapter-like resets to smooth player learning curves."
+  ]
  }
 }
