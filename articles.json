@@ -47361,5 +47361,77 @@
    "Uses memory-mapped GGUF model files with fused dequantization inside dot-product kernels to maximize throughput and minimize RAM usage.",
    "Provides an OpenAI-compatible HTTP server and CLI capable of running local dense and MoE models."
   ]
+ },
+ "4084d487325fc21d": {
+  "feed": "YC Hacker News",
+  "title": "My server is a phone now",
+  "link": "https://seg6.space/posts/phone-server/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "This is a personal homelab project about running low-traffic server workloads on a rooted smartphone, lacking relevance to high-scale backend or ML engineering.",
+  "points": [
+   "Leveraging stock Android alongside Termux avoids broken hardware drivers while providing SSH and process supervision for home server workloads."
+  ]
+ },
+ "69ec2f4842efacbf": {
+  "feed": "YC Hacker News",
+  "title": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
+  "link": "https://os8088.com/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A retro-computing hobby project written in 8086 assembly without application to modern backend architectures or ML systems.",
+  "points": [
+   "Demonstrates a real-mode 8086 OS that provides preemptive multitasking and a Mac-like GUI within a 52KB kernel footprint."
+  ]
+ },
+ "ab8d6fb76bb0b917": {
+  "feed": "YC Hacker News",
+  "title": "Improving Heuristics for A* Pathfinding",
+  "link": "https://www.redblobgames.com/pathfinding/heuristics/differential.html",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "Provides a clean algorithmic deep-dive into optimizing A* heuristics using precomputed landmarks, useful for general performance engineering.",
+  "points": [
+   "Standard geometric distance heuristics degrade when obstacle layout forces paths in non-line-of-sight directions.",
+   "Precomputing path costs to fixed 'landmark' nodes drastically reduces explored search space for arbitrary start/goal pairs.",
+   "Selecting landmarks along major map bottlenecks maximizes heuristic accuracy across multiple pathfinding queries."
+  ]
+ },
+ "6870f66dfa837525": {
+  "feed": "YC Hacker News",
+  "title": "The phone book that led us to Assad's spy chief in hiding",
+  "link": "https://www.bbc.com/news/articles/c4gyrzn8p94o",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "Investigative news reporting with no technical, machine learning, or software engineering content.",
+  "points": [
+   "Details how journalists used a physical address book found in Damascus to locate a former Syrian regime official."
+  ]
+ },
+ "7ef61f2efe25ab7b": {
+  "feed": "YC Hacker News",
+  "title": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+  "link": "https://shopify.engineering/scaling-inventory-reservations",
+  "date": "2026-08-09",
+  "tier": "must_read",
+  "why": "A top-tier backend architecture deep-dive from Shopify detailing how they migrated high-throughput inventory reservations from Redis to MySQL.",
+  "points": [
+   "Replaced Redis with MySQL 8 by modeling inventory as individual unit rows rather than mutating a shared aggregate balance counter.",
+   "Utilized MySQL 8's SKIP LOCKED feature to bypass row lock contention during extreme concurrent checkout spikes.",
+   "Successfully sustained peak Black Friday traffic ($5.1M sales/min) while simplifying data consistency and operational complexity."
+  ]
+ },
+ "f43ad033701ae487": {
+  "feed": "Simon Willison",
+  "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+  "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+  "date": "2026-08-09",
+  "tier": "must_read",
+  "why": "Provides important real-world evaluation data on LLM agent security, human confirmation fatigue, and indirect prompt injection defenses.",
+  "points": [
+   "Anthropic made auto-mode default for Claude Code after Trajectory Labs evals showed 0/720 successful indirect prompt injection attacks against frontier models.",
+   "User confirmation prompts failed due to fatigue, with human testers approving 86.4% of maliciously swapped permission requests.",
+   "Automated policy enforcement in auto-mode blocked 89% of harmful actions that human reviewers mistakenly approved."
+  ]
  }
 }

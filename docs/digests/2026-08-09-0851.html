@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sun 09 Aug 2026, 08:51 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sun 09 Aug 2026, 08:51 IST &middot; 6 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Shopify&#x27;s deep-dive on scaling inventory reservations using MySQL SKIP LOCKED tops this batch, alongside Anthropic&#x27;s security evals for Claude Code&#x27;s auto mode.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://shopify.engineering/scaling-inventory-reservations">Shopify replaced Redis with MySQL for inventory reservations–and it scaled</a></h2><div class="why">A top-tier backend architecture deep-dive from Shopify detailing how they migrated high-throughput inventory reservations from Redis to MySQL.</div><ul><li>Replaced Redis with MySQL 8 by modeling inventory as individual unit rows rather than mutating a shared aggregate balance counter.</li><li>Utilized MySQL 8&#x27;s SKIP LOCKED feature to bypass row lock contention during extreme concurrent checkout spikes.</li><li>Successfully sustained peak Black Friday traffic ($5.1M sales/min) while simplifying data consistency and operational complexity.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything">Auto mode is now the default in Claude Code for Pro, Max, and Team plans</a></h2><div class="why">Provides important real-world evaluation data on LLM agent security, human confirmation fatigue, and indirect prompt injection defenses.</div><ul><li>Anthropic made auto-mode default for Claude Code after Trajectory Labs evals showed 0/720 successful indirect prompt injection attacks against frontier models.</li><li>User confirmation prompts failed due to fatigue, with human testers approving 86.4% of maliciously swapped permission requests.</li><li>Automated policy enforcement in auto-mode blocked 89% of harmful actions that human reviewers mistakenly approved.</li></ul></div><div class="section">Worth a skim &middot; 1</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://www.redblobgames.com/pathfinding/heuristics/differential.html">Improving Heuristics for A* Pathfinding</a></h2><div class="why">Provides a clean algorithmic deep-dive into optimizing A* heuristics using precomputed landmarks, useful for general performance engineering.</div><ul><li>Standard geometric distance heuristics degrade when obstacle layout forces paths in non-line-of-sight directions.</li><li>Precomputing path costs to fixed &#x27;landmark&#x27; nodes drastically reduces explored search space for arbitrary start/goal pairs.</li><li>Selecting landmarks along major map bottlenecks maximizes heuristic accuracy across multiple pathfinding queries.</li></ul></div><div class="section">Low priority &middot; 3</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://seg6.space/posts/phone-server/">My server is a phone now</a></h2><div class="why">This is a personal homelab project about running low-traffic server workloads on a rooted smartphone, lacking relevance to high-scale backend or ML engineering.</div><ul><li>Leveraging stock Android alongside Termux avoids broken hardware drivers while providing SSH and process supervision for home server workloads.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://os8088.com/">Os8088: A powerful Mac-like OS for the IBM XT, 286, 386</a></h2><div class="why">A retro-computing hobby project written in 8086 assembly without application to modern backend architectures or ML systems.</div><ul><li>Demonstrates a real-mode 8086 OS that provides preemptive multitasking and a Mac-like GUI within a 52KB kernel footprint.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.bbc.com/news/articles/c4gyrzn8p94o">The phone book that led us to Assad&#x27;s spy chief in hiding</a></h2><div class="why">Investigative news reporting with no technical, machine learning, or software engineering content.</div><ul><li>Details how journalists used a physical address book found in Damascus to locate a former Syrian regime official.</li></ul></div></body></html>
