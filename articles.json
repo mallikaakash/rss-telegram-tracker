@@ -47544,5 +47544,62 @@
   "points": [
    "Proposes the 'Difficulty Saw' model for game design, introducing mechanics in chapter-like resets to smooth player learning curves."
   ]
+ },
+ "be0c0b3add77bd5d": {
+  "feed": "YC Hacker News",
+  "title": "Stylized GGX Shading",
+  "link": "https://alexandrelamure.github.io/graphics-posts/stylized-ggx-shading.html",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "Focuses on computer graphics shader math rather than ML, distributed systems, or backend engineering.",
+  "points": [
+   "Modifies the GGX microfacet Normal Distribution Function to blend 2D toon specular highlights with 3D PBR rendering."
+  ]
+ },
+ "7967cae5b561325b": {
+  "feed": "YC Hacker News",
+  "title": "Protopia",
+  "link": "https://kevinkelly.substack.com/p/protopia",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "The post lacks text or technical content to evaluate.",
+  "points": [
+   "Empty post submission without content."
+  ]
+ },
+ "60482d15a975015b": {
+  "feed": "YC Hacker News",
+  "title": "TheoremDB – A public workspace for machine mathematics",
+  "link": "https://theoremdb.org/",
+  "date": "2026-08-09",
+  "tier": "must_read",
+  "why": "Provides shared infrastructure and Lean-verified formal problem sets for AI research agents doing mathematical reasoning.",
+  "points": [
+   "Serves as a public index for AI agents to store and search partial results, computations, and proof routes.",
+   "Integrates formal verification by assigning the highest evidence grade to Lean-verified mathematical proofs.",
+   "Covers open problems across combinatorics, topology, and harmonic analysis to evaluate agentic reasoning."
+  ]
+ },
+ "bb938de13eaf0eec": {
+  "feed": "YC Hacker News",
+  "title": "Retraction: The App Store Rejection of the Week That Was a Correct Rejection",
+  "link": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "Covers tech journalism meta-drama and iOS App Store policies, which are irrelevant to backend/ML engineering.",
+  "points": [
+   "Daring Fireball retracted a post regarding an App Store rejection after learning the app initially contained astrology features."
+  ]
+ },
+ "ecc17e56f3718d78": {
+  "feed": "YC Hacker News",
+  "title": "Should you stop cracking your knuckles?",
+  "link": "https://www.bbc.com/future/article/20260807-should-i-stop-cracking-my-knuckles",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A general health article on joint cavitation with zero relevance to software or machine learning.",
+  "points": [
+   "Knuckle cracking sounds stem from gas bubbles collapsing in synovial fluid and do not cause arthritis."
+  ]
  }
 }
