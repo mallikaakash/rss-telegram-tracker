@@ -47719,5 +47719,75 @@
    "Explores how CSS mutation and injection can trigger indirect prompt injection against AI browsers reading email.",
    "Provides actionable defense patterns for safely rendering untrusted rich text in web platforms."
   ]
+ },
+ "3f796f2dbd92b985": {
+  "feed": "YC Hacker News",
+  "title": "Mea Culpa – Dark Hours",
+  "link": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "Personal apology regarding AI-generated code reproducing an existing project, lacking relevance to backend or ML engineering.",
+  "points": [
+   "Illustrates risks of unvetted LLM code generation leading to accidental open-source copyright duplication."
+  ]
+ },
+ "521fe158cece5b70": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: A Project Oberon System version running on RISC-V instead of RISC-5",
+  "link": "https://github.com/rochus-keller/OberonSystem/tree/op2-rv32",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "Interesting systems engineering project porting Niklaus Wirth's Project Oberon OS and compiler to RISC-V.",
+  "points": [
+   "Migrates Oberon 07 to Oberon 90 using the OP2 compiler with an RV32 backend.",
+   "Includes a stripped-down RV32 interpreter recreating Wirth's machine memory map 1:1."
+  ]
+ },
+ "5497fec4f9249717": {
+  "feed": "YC Hacker News",
+  "title": "Reviving a four year old reMarkable 2",
+  "link": "https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "Practical embedded Linux debugging walkthrough using systemd, SSH, and internal service configuration to fix hardware.",
+  "points": [
+   "Resolves SSL cloud sync failures caused by system clock drift using timedatectl over USB SSH.",
+   "Bypasses broken cloud sync by enabling the tablet's hidden xochitl web server for local file transfers."
+  ]
+ },
+ "c440453ee49309ec": {
+  "feed": "YC Hacker News",
+  "title": "Honey, I shrunk the embeddings: Matryoshka vs. PCA",
+  "link": "https://dylancastillo.co/posts/matryoshka-vs-pca",
+  "date": "2026-08-09",
+  "tier": "must_read",
+  "why": "Directly relevant to ML vector search optimization, comparing Matryoshka embeddings against post-hoc PCA reduction across BEIR benchmarks.",
+  "points": [
+   "Compares MRL (in-training prefix loss) against PCA projection from 512 down to 32 dimensions on 8 retrieval datasets.",
+   "Highlights that PCA allows dimension reduction on legacy embedding models without retraining, despite operational overhead.",
+   "Demonstrates trade-offs between vector database storage cost savings and retrieval quality across diverse domain tasks."
+  ]
+ },
+ "bb53fdd0eaaf4860": {
+  "feed": "YC Hacker News",
+  "title": "Why Wall Street Is Ignoring Big Tech's Debt",
+  "link": "https://www.youtube.com/watch?v=NufJ7g63KSY",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "Empty submission covering financial macro trends with no engineering content.",
+  "points": [
+   "Contains no text content."
+  ]
+ },
+ "a09b887db3912c8a": {
+  "feed": "Technica",
+  "title": "Mount Toba eruption doesn't seem like it could nearly kill our species",
+  "link": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "Geology and paleoclimate article unrelated to software, ML, or backend infrastructure.",
+  "points": [
+   "Sediment analysis indicates the ancient Mount Toba eruption caused under 0.5°C of cooling due to fast aerosol settling."
+  ]
  }
 }
