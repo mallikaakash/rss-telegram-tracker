@@ -2134,5 +2134,61 @@
    "Karpenter cold-start latency for P4d GPU nodes is 90-120 seconds, causing request drops during sudden bursts.",
    "Explicitly setting --max-model-len=4096 and --gpu-memory-utilization=0.9 reclaims 15% VRAM wasted by default settings."
   ]
+ },
+ "a09ea756c9c0f172": {
+  "url": "https://jared-hpc.com/posts/implement-dont-just-read-speculative-decoding/",
+  "title": "I implement the papers, I don't just read them — a speculative-decoding field journal | Jared Frost",
+  "domain": "jared-hpc.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-09",
+  "tier": "hidden_gem",
+  "why": "An exceptional hands-on engineering field journal breaking down speculative decoding implementations with exact memory-bandwidth calculations and real-world failure modes.",
+  "points": [
+   "At batch size 1, streaming a 72B FP8 model across an H100's 3.35 TB/s bandwidth creates a ~21 ms/token latency floor with 95% tensor core idleness.",
+   "Implementing speculative decoding papers directly exposes serving-regime pitfalls omitted in research literature, such as acceptance rate plateaus during drafter training."
+  ]
+ },
+ "dfa50acf44230f92": {
+  "url": "https://www.alphaxiv.org/abs/2607.25271",
+  "title": "Bridging Compute- and Data-Optimal Pretraining | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-09",
+  "tier": "skip",
+  "why": "The page encountered a PDF viewer error and provides no readable research content.",
+  "points": []
+ },
+ "6c2a1392a82138ab": {
+  "url": "https://github.laiyagushi.com/tkarim45/model-serving",
+  "title": "GitHub - tkarim45/model-serving: Production-style model inference platform — versioned registry, dynamic micro-batching (measured 8x throughput), canary + shadow deployments with instant rollback, load shedding (429+Retry-After), Prometheus metrics, async load-test harness · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-09",
+  "tier": "skip",
+  "why": "Contains only bare GitHub repository UI wrapper and commit metadata without readable technical documentation.",
+  "points": []
+ },
+ "3d3f51f58a083f3e": {
+  "url": "https://github.laiyagushi.com/branes-ai/sie",
+  "title": "GitHub - branes-ai/sie: Open-source inference server and production cluster for all the models your agent needs. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-09",
+  "tier": "skip",
+  "why": "The GitHub page failed to load due to a server error and contains no accessible content.",
+  "points": []
+ },
+ "6f13ee614294f162": {
+  "url": "https://pkhamdee.blog/2026/07/21/disaggregated-llm-inference-on-kubernetes-with-llm-d-prefilldecode-split-expert-parallelism-and-real-autoscaling/",
+  "title": "Disaggregated LLM Inference on Kubernetes with LLM-D: Prefill/Decode Split, Expert Parallelism, and Real Autoscaling - Pongsak Khamdee",
+  "domain": "pkhamdee.blog",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-09",
+  "tier": "solid_find",
+  "why": "A detailed technical breakdown explaining the system architecture and hardware performance trade-offs of prefill/decode disaggregation in Kubernetes.",
+  "points": [
+   "Co-locating prefill (FLOPs-bound) and decode (memory-bandwidth-bound) on the same GPU instance causes large prompt prefills to stall active decode queues.",
+   "Disaggregated inference isolates TTFT and TPOT latency by transferring KV caches via RDMA from dedicated prefill nodes to decode nodes."
+  ]
  }
 }
