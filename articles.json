@@ -47433,5 +47433,60 @@
    "User confirmation prompts failed due to fatigue, with human testers approving 86.4% of maliciously swapped permission requests.",
    "Automated policy enforcement in auto-mode blocked 89% of harmful actions that human reviewers mistakenly approved."
   ]
+ },
+ "8871612795f65ba2": {
+  "feed": "YC Hacker News",
+  "title": "Dithered QR Codes",
+  "link": "https://www.andrewt.net/dithered-qr-codes/wtf/",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How to make error-diffused QR codes Making your own dithered QR codes Make your own The rest of my website Source code QR codes: the basics A QR code is really just a way of encoding a few bytes of data in a way that can be easily read froma photo by a smartphone or similar device. They're designed to be very robust to bad focus, bad printing, funny angles, and missing areas."
+  ]
+ },
+ "4c17583b64b536f0": {
+  "feed": "YC Hacker News",
+  "title": "\"The original URL for this prediction will no longer be available in 11 years.\" (2011)",
+  "link": "https://longbets.org/601/",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "02011-02022 (11 years): The original URL for this prediction (www.longbets.org/601) will no longer be available in eleven years. - Long Bets Sign In Register to Participate! the rules of long bets bets & predictions on the record make a prediction about long bets FAQ & answers Bet 601 Duration 11 years (02011-02022) “The original URL for this prediction (www.longbets.org/601) will no longer be available in eleven years.” Detailed Terms » PREDICTOR Jeremy Keith CHALLENGER Matthew A Haughey STAKES $1,000 will go to Bletchly Park Trust if Keith wins, or The Internet Archive if Haughey wins."
+  ]
+ },
+ "57cd0774ea80858c": {
+  "feed": "YC Hacker News",
+  "title": "Unexpected events and prosocial behavior: the Batman effect",
+  "link": "https://www.nature.com/articles/s44184-025-00171-5",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Unexpected events and prosocial behavior: the Batman effect | npj Mental Health Research Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript."
+  ]
+ },
+ "66bc5cf11e494b9a": {
+  "feed": "YC Hacker News",
+  "title": "Incentives Are for Losers",
+  "link": "https://www.experimental-history.com/p/incentives-are-for-losers",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Incentives are for losers - by Adam Mastroianni Experimental History Subscribe Sign in Incentives are for losers OR: you must look at this fish and go insane Adam Mastroianni Aug 05, 2026 766 85 153 Share Article voiceover 0:00 -18:56 Audio playback is not supported on your browser. Please upgrade. photo cred: my dad We can all agree: the incentives are bad."
+  ]
+ },
+ "5357c5f9e25d3c38": {
+  "feed": "YC Hacker News",
+  "title": "Open-source interactive map for the Aug 12 total solar eclipse",
+  "link": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "EclipseFan – Interactive map of the Aug 12, 2026 total solar eclipse per `?lang=`, and appends the hreflang set at the end of this head. Verified via Search Console live test. HTMLRewriter only REWRITES — it never creates elements — so every tag it targets (canonical included) MUST exist here. Cf. docs/v2/plan-seo-multilingue-eclipsefan.md. --> (readout opaque + track dépliable)."
+  ]
  }
 }
