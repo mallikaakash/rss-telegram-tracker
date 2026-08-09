@@ -47659,5 +47659,65 @@
    "Replaces noisy Bluetooth estimation with precise multi-anchor triangulation for centimeter-level lap tracking.",
    "Solves RF interference issues caused by spectator devices while enabling per-team start-line position detection."
   ]
+ },
+ "226d6abbcdfab8e3": {
+  "feed": "YC Hacker News",
+  "title": "The Alpha 21264 CPU: NT's Greatest RISC (1998)",
+  "link": "https://halfhill.com/byte/1998-12_alpha.html",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A retro 1998 computer architecture article with no direct relevance to modern backend systems or ML infrastructure.",
+  "points": [
+   "Overview of Digital's 1998 Alpha 21264 CPU performance and its historical competition with Intel's IA-64."
+  ]
+ },
+ "b5579c584b0c9e18": {
+  "feed": "YC Hacker News",
+  "title": "You might want to build your WebApp in Canvas instead of HTML",
+  "link": "https://hivekit.io/blog/why-you-might-want-to-build-your-webapp-in-canvas-instead-of-html/",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "A practical engineering breakdown of why complex web applications bypass DOM rendering for HTML Canvas to achieve high frame rates.",
+  "points": [
+   "Explores DOM rendering bottlenecks like layout reflows and memory overhead when managing thousands of interactive UI objects.",
+   "Details trade-offs of Canvas rendering, including manual spatial indexing and event hit-testing versus losing native accessibility."
+  ]
+ },
+ "13b264ccc10c3125": {
+  "feed": "YC Hacker News",
+  "title": "Uber SubmitQueue: a high-performance speculative merge queue",
+  "link": "https://github.com/uber/submitqueue/",
+  "date": "2026-08-09",
+  "tier": "must_read",
+  "why": "Uber open-sources SubmitQueue, offering a strong infrastructure deep-dive into speculative parallel execution for high-throughput monorepo integration.",
+  "points": [
+   "Uber open-sourced SubmitQueue, a Go/Bazel system that speculatively rebases and tests pull requests in parallel to keep main branches green.",
+   "Solves serialized CI bottlenecks in massive monorepos by dynamically building speculative dependency trees of queued changes.",
+   "Offers actionable system architecture patterns for infrastructure engineers managing high-volume CI/CD pipelines."
+  ]
+ },
+ "cdc1c234721b2e50": {
+  "feed": "YC Hacker News",
+  "title": "Everything You Do Is Being Recorded",
+  "link": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
+  "date": "2026-08-09",
+  "tier": "low_priority",
+  "why": "A consumer-focused essay on ambient AI surveillance wearables and physical jamming hardware that lacks technical depth.",
+  "points": [
+   "Discusses social and privacy implications of wearable AI recorders and countermeasure hardware like Spectre I."
+  ]
+ },
+ "4057ced6d5b24673": {
+  "feed": "YC Hacker News",
+  "title": "CSS: The bomb inside your inbox",
+  "link": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+  "date": "2026-08-09",
+  "tier": "worth_a_skim",
+  "why": "A high-quality security research deep-dive into breaking CSS sanitizers, with novel implications for AI agents processing webmail.",
+  "points": [
+   "Demonstrates exploits bypassing webmail CSS sanitizers across major providers (Gmail, Fastmail, Outlook) for data exfiltration.",
+   "Explores how CSS mutation and injection can trigger indirect prompt injection against AI browsers reading email.",
+   "Provides actionable defense patterns for safely rendering untrusted rich text in web platforms."
+  ]
  }
 }
