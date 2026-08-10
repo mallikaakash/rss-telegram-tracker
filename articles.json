@@ -48088,5 +48088,64 @@
    "Klepton uses a custom tool (klepton-ld) to translate Android ARM64 .so libraries into loadable Apple .dylib binaries.",
    "Graphics APIs are remapped by translating OpenGL ES 3.2 to ANGLE over Metal and Vulkan to MoltenVK."
   ]
+ },
+ "778cdf77949acd84": {
+  "feed": "YC Hacker News",
+  "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+  "link": "https://www.docker.com/products/docker-sandboxes/",
+  "date": "2026-08-10",
+  "tier": "must_read",
+  "why": "Docker is introducing microVM-isolated sandboxes specifically for autonomous AI agents, addressing a core security and infra challenge in agentic execution.",
+  "points": [
+   "Uses microVM boundaries to isolate host filesystem and network while granting AI agents full execution privileges inside disposable environments.",
+   "Supports major agent CLIs (Claude Code, Gemini CLI, Codex) with configurable filesystem and network security policies.",
+   "Provides a lightweight CLI tool ('sbx') for single-command spin-up, execution, and teardown of isolated agent environments."
+  ]
+ },
+ "1e1d996fc268fc8d": {
+  "feed": "YC Hacker News",
+  "title": "The Philippines' big offshoring industry is growing despite AI",
+  "link": "https://www.economist.com/asia/2026/08/06/the-philippines-big-offshoring-industry-is-growing-despite-ai",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This submission contains no readable text or technical content relevant to ML or backend engineering.",
+  "points": [
+   "Empty discussion thread placeholder regarding macroeconomic IT offshoring trends."
+  ]
+ },
+ "f443903623ea502e": {
+  "feed": "YC Hacker News",
+  "title": "Slap ROM Patcher",
+  "link": "https://nyuu.page/projects/slap/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "A niche retro-gaming ROM patcher that falls outside ML, backend, or systems infrastructure topics.",
+  "points": [
+   "Describes a Rust and Haskell CLI tool for applying and converting game modification patches across legacy binary formats."
+  ]
+ },
+ "073e7025912e5f00": {
+  "feed": "YC Hacker News",
+  "title": "An Interesting Fourier Transform – 1/F Noise",
+  "link": "https://www.dsprelated.com/showarticle/40.php",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "A solid mathematical deep dive into power-law Fourier transforms and 1/f noise, useful for foundational signal processing knowledge.",
+  "points": [
+   "Proves that the Fourier transform of a time-domain power law t^alpha produces a frequency-domain power law omega^-(alpha+1) scaled by the Gamma function.",
+   "Connects power-law transforms to fractional integration, showing how intermediate alpha values bridge single and double integrators.",
+   "Examines the magnitude and phase behavior that leads to physical 1/f noise spectra in physical systems."
+  ]
+ },
+ "98994fb5805e3429": {
+  "feed": "YC Hacker News",
+  "title": "Nearest Pint",
+  "link": "https://knowwhereconsulting.co.uk/maps/pubs/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This post contains no content beyond an empty comment link.",
+  "points": [
+   "Empty link page with no technical text or architectural detail."
+  ]
  }
 }
