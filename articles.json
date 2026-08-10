@@ -48287,5 +48287,75 @@
    "Features Gated Grouped-Query Attention with 16x KV-cache reduction and Q-K RMSNorm with explicit query scaling for logit stability.",
    "Ships with an optional DFlash speculative decoding drafter tailored for local code generation in vLLM and llama.cpp."
   ]
+ },
+ "06d86779ef5c1053": {
+  "feed": "YC Hacker News",
+  "title": "Because It's Not Fun Enough: why languages fail",
+  "link": "https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "Offers a thoughtful perspective on programming language adoption and software career psychology, though lacking deep technical mechanics.",
+  "points": [
+   "Language survival depends on serving developer psychology across three dimensions: vocation, art, and job.",
+   "Languages like C and JS survive on economic and social gravity, while languages that create friction in daily work inevitably get replaced."
+  ]
+ },
+ "c7d76eee182900dc": {
+  "feed": "YC Hacker News",
+  "title": "Tail-call optimization in C is relatively recent",
+  "link": "https://lwn.net/Articles/1034703/",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "Relevant to performance engineering, detailing how modern C compiler tail-call optimization enables fast interpreter dispatch.",
+  "points": [
+   "C calling conventions historically prevented tail-call optimization because the caller was required to clean up stack arguments.",
+   "Modern GCC and Clang TCO support enables techniques like copy-and-patch compilation, allowing interpreters to efficiently dispatch across massive code snippet sets."
+  ]
+ },
+ "941e19ce95a7fd81": {
+  "feed": "YC Hacker News",
+  "title": "A 'bananas' order for 5000 obscure book titles fuels suspicion",
+  "link": "https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "A general news article about bulk book buying with no technical ML or infrastructure details.",
+  "points": [
+   "Booksellers report mysterious bulk orders of obscure titles suspected to be bought for LLM training dataset creation."
+  ]
+ },
+ "c49793dc850724e8": {
+  "feed": "YC Hacker News",
+  "title": "COLDCARD's Random Numbers Weren't",
+  "link": "https://coldcard.rip/",
+  "date": "2026-08-10",
+  "tier": "must_read",
+  "why": "A high-impact engineering security post-mortem demonstrating how a subtle C build macro bug led to predictable entropy and a $1.4M+ exploit.",
+  "points": [
+   "The build check #ifndef HAS_RNG was bypassed because #define HAS_RNG 0 evaluated as defined, silently disabling hardware entropy.",
+   "Unreviewed commits went unnoticed for five years, eventually allowing attackers to sweep 1,432.48 BTC across 5,477 addresses.",
+   "Demonstrates critical war stories around build guards, code review discipline, and hardware security validation."
+  ]
+ },
+ "05a4c5ddb108bfb4": {
+  "feed": "YC Hacker News",
+  "title": "Meta's new open-weight model targets local agentic AI",
+  "link": "https://twitter.com/finkd/status/2086754845218726027",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Pure high-level PR post with zero technical information on model architecture, training, or infrastructure.",
+  "points": [
+   "Mark Zuckerberg posted a high-level commentary on Meta's open-weight AI philosophy."
+  ]
+ },
+ "deeb72293cb64598": {
+  "feed": "Technica",
+  "title": "Peer review is overwhelmed—can it survive in the AI era?",
+  "link": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Focuses on academic peer review logistics rather than core ML engineering or backend priorities.",
+  "points": [
+   "Academic peer review systems are experiencing bottlenecks and reviewer misunderstandings as paper volumes increase."
+  ]
  }
 }
