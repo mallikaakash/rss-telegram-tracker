@@ -48205,5 +48205,87 @@
   "points": [
    "Summarizes a historical Zoroastrian text concerning calendar omens associated with snakes."
   ]
+ },
+ "311d3f683fc6738c": {
+  "feed": "YC Hacker News",
+  "title": "Meta Muse Glimmer – open weights 30B local coding model",
+  "link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "Announces Meta's open-weight 30B agentic model and outlines its multi-stage distillation and RL training pipeline.",
+  "points": [
+   "Meta released Muse Glimmer 30B under an Apache 2.0 license for local agent workflows.",
+   "Training used a three-stage recipe: logit distillation from a larger model, mid-training for long context, and post-training on-policy RL."
+  ]
+ },
+ "abfd8128564cea18": {
+  "feed": "YC Hacker News",
+  "title": "Tail-Call Interpreters in Rust – Jimmy Ostler",
+  "link": "https://lordgoati.us/blog/tail-call/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Link post contains no text content to evaluate.",
+  "points": [
+   "Missing text content."
+  ]
+ },
+ "ce7f50aa1d2dde8a": {
+  "feed": "YC Hacker News",
+  "title": "How Blackwing Pencils are Made [video]",
+  "link": "https://www.youtube.com/watch?v=fow-LsdaH2E",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Off-topic video post about pencil manufacturing.",
+  "points": [
+   "Covers Blackwing pencil production processes."
+  ]
+ },
+ "8ba6a00fbf84dda7": {
+  "feed": "YC Hacker News",
+  "title": "I made tinnitus my friend, then it disappeared [video]",
+  "link": "https://mynoise.net/vlog.php?ep=20260803",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Personal health blog post unrelated to engineering or ML.",
+  "points": [
+   "Discusses personal management of tinnitus using soundscapes."
+  ]
+ },
+ "4012db0a9ac6d668": {
+  "feed": "YC Hacker News",
+  "title": "The Ambition Project",
+  "link": "https://www.betonit.ai/p/the-ambition-project",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Non-technical post detailing social experiment assignments for a college class.",
+  "points": [
+   "Outlines personal development challenges like asking for discounts and handling rejection."
+  ]
+ },
+ "90d59cd2b4ce1933": {
+  "feed": "Hugging Face Blog",
+  "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+  "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+  "date": "2026-08-10",
+  "tier": "must_read",
+  "why": "Provides crucial systems techniques for cutting VRAM usage during LLM knowledge distillation to enable long-context training on single GPUs.",
+  "points": [
+   "Caches teacher top-K logits offline to eliminate keeping teacher models loaded alongside student models in VRAM.",
+   "Introduces a fused chunked KL divergence loss to avoid materializing full vocabulary-by-sequence tensor matrices.",
+   "Enables long-context distillation recovery (32K+ context) directly on single-GPU hardware."
+  ]
+ },
+ "0da6fb777e3347c6": {
+  "feed": "Hugging Face Blog",
+  "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+  "link": "https://huggingface.co/blog/muse-glimmer",
+  "date": "2026-08-10",
+  "tier": "must_read",
+  "why": "Delivers an essential architectural breakdown of Meta's new Muse Glimmer model, highlighting novel positional encoding schemes and inference optimizations.",
+  "points": [
+   "Employs a hybrid attention scheme alternating 3 sliding window RoPE layers with 1 full attention layer using No Positional Embeddings (NoPE).",
+   "Features Gated Grouped-Query Attention with 16x KV-cache reduction and Q-K RMSNorm with explicit query scaling for logit stability.",
+   "Ships with an optional DFlash speculative decoding drafter tailored for local code generation in vLLM and llama.cpp."
+  ]
  }
 }
