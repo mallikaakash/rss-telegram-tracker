@@ -47916,5 +47916,121 @@
    "Runs single developer tasks across up to five LLM models simultaneously for output fusion.",
    "Uses a local daemon architecture with secure tunneling for cross-device activity and VS Code integration."
   ]
+ },
+ "e7ebeed4c78252c6": {
+  "feed": "YC Hacker News",
+  "title": "What Happened to HackerOne?",
+  "link": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Focuses on the business history and culture of bug bounty platform HackerOne, which is off-target for ML and infrastructure.",
+  "points": [
+   "Analyzes how monetization pressures and low-quality AI submissions altered the bug bounty landscape."
+  ]
+ },
+ "a7c4d93e02ba7f7e": {
+  "feed": "YC Hacker News",
+  "title": "How I use LLMs to learn complex topics",
+  "link": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "Presents an interesting LLM workflow for generating interactive 3D learning simulations of complex industrial pipelines.",
+  "points": [
+   "Uses LLM plan and review modes to generate low-poly HTML/GitHub Pages web games for learning hardware processes.",
+   "Argues interactive visual simulations retain domain knowledge better than static LLM text responses."
+  ]
+ },
+ "302ad6f0dba4ab5d": {
+  "feed": "YC Hacker News",
+  "title": "How We Pushed CDC into Postgres",
+  "link": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
+  "date": "2026-08-10",
+  "tier": "must_read",
+  "why": "High-quality database engineering deep-dive on re-architecting Postgres CDC and replication directly into Apache Iceberg.",
+  "points": [
+   "Replaces fragile logical decoding stream pulls with an in-database transactional push to Apache Iceberg tables.",
+   "Eliminates replication failure modes around schema evolution, snapshot alignment, and network dropouts.",
+   "Provides zero-infrastructure data mirroring by leveraging serverless transactional applies in Snowflake."
+  ]
+ },
+ "e75ec7ce32753270": {
+  "feed": "YC Hacker News",
+  "title": "New Zealand lost its music media, and what we're building to replace it",
+  "link": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Covers the decline of local music journalism and live venues in New Zealand, completely unrelated to backend engineering or ML.",
+  "points": [
+   "Documents the collapse of music media outlets and venue closures in New Zealand."
+  ]
+ },
+ "bb8178f983580fb0": {
+  "feed": "YC Hacker News",
+  "title": "Picophysics: Single file physics for games on platforms like N64, PSX, DC",
+  "link": "https://gitlab.com/Kazade/picophysics",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Empty post with no text beyond a title regarding retro console game physics.",
+  "points": [
+   "Title-only submission regarding game physics engines for retro hardware."
+  ]
+ },
+ "c1b15acb01934c30": {
+  "feed": "Simon Willison",
+  "title": "Quoting OpenClaw",
+  "link": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "A trivial two-sentence anecdote about an unauthenticated API endpoint in a gym reservation app.",
+  "points": [
+   "Demonstrates a missing authorization check on a reservation cancellation endpoint."
+  ]
+ },
+ "b9793ca1b93b04de": {
+  "feed": "Simon Willison",
+  "title": "Quoting Claude Opus 5 system prompt",
+  "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "Provides a real-world example of system prompt engineering used by Anthropic to handle sensitive model export control updates.",
+  "points": [
+   "Shows how system prompts instruct LLMs to remain factual and objective about corporate news past training cutoffs."
+  ]
+ },
+ "1aa79843a7521bc9": {
+  "feed": "Simon Willison",
+  "title": "GitHub Models is now retired",
+  "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "Relevant to LLM infra cost dynamics, detailing the retirement of GitHub Models likely due to expensive agentic API usage.",
+  "points": [
+   "GitHub Models has been officially retired as an LLM playground and API access layer.",
+   "Highlights how agentic coding workflows increase token usage costs, making subsidized free tiers unsustainable."
+  ]
+ },
+ "f404485becb33fdb": {
+  "feed": "Simon Willison",
+  "title": "SQLite compressed text-history prototypes",
+  "link": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
+  "date": "2026-08-10",
+  "tier": "must_read",
+  "why": "Practical database performance engineering exploration on compressing document revision histories in SQLite.",
+  "points": [
+   "Compressing a raw JSON array of revisions in a zstd BLOB achieved a 250x compression ratio (20.4 MB down to 80.3 KB).",
+   "Chunking history into rows capped at 128 revisions or 3MB uncompressed prevents write-time decompression overhead.",
+   "Offers a low-overhead alternative to standard row-per-revision database history schemas."
+  ]
+ },
+ "a990a9d39b0ed908": {
+  "feed": "Simon Willison",
+  "title": "datasette-auth-tokens 0.4a13",
+  "link": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/#atom-everything",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "A routine patch release announcement for a Datasette plugin without technical depth.",
+  "points": [
+   "Minor version update for the datasette-auth-tokens plugin adding sqlite-utils 4 compatibility."
+  ]
  }
 }
