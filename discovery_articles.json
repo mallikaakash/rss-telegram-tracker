@@ -2190,5 +2190,49 @@
    "Co-locating prefill (FLOPs-bound) and decode (memory-bandwidth-bound) on the same GPU instance causes large prompt prefills to stall active decode queues.",
    "Disaggregated inference isolates TTFT and TPOT latency by transferring KV caches via RDMA from dedicated prefill nodes to decode nodes."
   ]
+ },
+ "ed1ce19ba6e9f71b": {
+  "url": "https://chierhu.medium.com/pre-training-under-infinite-compute-rethinking-data-efficiency-when-tokens-become-scarce-caf6bdd791be",
+  "title": "Pre-training Under Infinite Compute: Rethinking Data Efficiency When Tokens Become Scarce | by Chier Hu | Jun, 2026 | Medium",
+  "domain": "chierhu.medium.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-10",
+  "tier": "skip",
+  "why": "This is a high-level Medium essay introduction containing generic thoughts on LLM data efficiency without concrete technical depth, code, or empirical findings in the snippet.",
+  "points": []
+ },
+ "3f677ef79a4c69e9": {
+  "url": "https://www.alphaxiv.org/abs/2606.17890",
+  "title": "Dynamic Rollout Editing for Reducing Overthinking in RL-Trained Reasoning Models | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-10",
+  "tier": "skip",
+  "why": "The page failed to load due to a PDF viewer rendering error, making the actual paper content inaccessible.",
+  "points": []
+ },
+ "94ecfd63a372cc0d": {
+  "url": "https://www.alphaxiv.org/abs/2607.18292",
+  "title": "Reliability Scales Inversely: Hallucinations Snowball Faster in Bigger Language Models | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-10",
+  "tier": "skip",
+  "why": "The page encountered an error loading the PDF viewer, offering no readable paper content or technical findings.",
+  "points": []
+ },
+ "edeb0bbd0cb015aa": {
+  "url": "https://jared-hpc.com/posts/sparkinfer-k3-kimi-2-8t-gittensor-sn74/",
+  "title": "18.7× in two days: what sparkinfer-k3 taught me about shipping fast on Gittensor | Jared Frost",
+  "domain": "jared-hpc.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-10",
+  "tier": "hidden_gem",
+  "why": "A outstanding personal HPC engineering postmortem detailing low-level GPU decode kernel optimization for a massive 2.8-trillion parameter model on 8x H200 hardware.",
+  "points": [
+   "Achieved an 18.7x speedup (from 1.01 to 18.87 tok/s) in two days, outperforming llama.cpp decode speed by 3.26x.",
+   "Optimized custom kernels specifically for Kimi K3's hybrid KDA + MLA attention and 896 routed experts on datacenter Hopper (H200) hardware.",
+   "Offers a detailed breakdown of real-world profiling, bug fixes, and performance engineering across four rapid software releases."
+  ]
  }
 }
