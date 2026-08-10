@@ -48147,5 +48147,63 @@
   "points": [
    "Empty link page with no technical text or architectural detail."
   ]
+ },
+ "2260c2109276aec6": {
+  "feed": "YC Hacker News",
+  "title": "An alias-based formulation of the borrow checker (2018)",
+  "link": "https://smallcultfollowing.com/babysteps/blog/2018/04/27/an-alias-based-formulation-of-the-borrow-checker/",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "It provides an insightful look into Rust compiler internals and static memory analysis techniques for systems engineers.",
+  "points": [
+   "Re-conceptualizes reference lifetime regions as sets of active loans rather than control-flow program points.",
+   "Aims to solve NLL borrow checker edge cases at the MIR level while exploring compiler analysis performance trade-offs."
+  ]
+ },
+ "b742ae4b603d9e5f": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I made alchemical-cosmological PCB badges",
+  "link": "https://github.com/KaiPereira/Alchemical-Cosmological-Badges",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This post focuses on embedded hardware design and microcontrollers, which falls outside your core software engineering priorities.",
+  "points": [
+   "Details hardware assembly and firmware setup for a multi-layer custom PCB badge."
+  ]
+ },
+ "58e767e476246175": {
+  "feed": "YC Hacker News",
+  "title": "ATProto for Distributed Systems Engineers",
+  "link": "https://atproto.com/articles/atproto-for-distsys-engineers",
+  "date": "2026-08-10",
+  "tier": "must_read",
+  "why": "It is a high-quality breakdown mapping decentralized protocols directly to scalable backend concepts like event streaming, CQRS, and unbundled databases.",
+  "points": [
+   "Explains how high-scale backends trade strong consistency for eventual consistency by turning databases 'inside-out' using event logs and view servers.",
+   "Demonstrates how ATProto uses event replay (Kafka-style stream processing) to ensure async view servers recover reliably from failures.",
+   "Provides a clear architectural model for building decentralized systems using familiar distributed engineering patterns."
+  ]
+ },
+ "6e3d5f2034008de6": {
+  "feed": "YC Hacker News",
+  "title": "Tuxedo No. 2 – Cocktail recipes",
+  "link": "https://tuxedono2.com",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This is a collection of cocktail recipes with no relevance to software engineering or machine learning.",
+  "points": [
+   "Lists drink recipes and historical background on gin."
+  ]
+ },
+ "8c8e6699fe4baa94": {
+  "feed": "YC Hacker News",
+  "title": "\"The Persian MâR-Nâmeh Or, the Book for Taking Omens from Snakes\" (1892)",
+  "link": "https://publicdomainreview.org/collection/marnameh/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This is a historical essay on 19th-century Persian folklore, which is completely off-topic.",
+  "points": [
+   "Summarizes a historical Zoroastrian text concerning calendar omens associated with snakes."
+  ]
  }
 }
