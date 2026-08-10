@@ -48032,5 +48032,61 @@
   "points": [
    "Minor version update for the datasette-auth-tokens plugin adding sqlite-utils 4 compatibility."
   ]
+ },
+ "15e161b5f7dd2dc2": {
+  "feed": "YC Hacker News",
+  "title": "Auto mode is now the default in Claude Code",
+  "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This is a product marketing update and pricing policy change for Claude Code rather than a technical deep dive.",
+  "points": [
+   "Claude Code defaults to auto mode for Pro, Max, and Team plans while waiving extra classifier token overhead costs."
+  ]
+ },
+ "7908f14e30362b80": {
+  "feed": "YC Hacker News",
+  "title": "Long-Run Effects of H-1B Immigration on the U.S. Economy (July 2026)",
+  "link": "https://www.nber.org/papers/w35560",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This is an economics policy working paper on H-1B visas, outside your ML and backend engineering scope.",
+  "points": [
+   "An NBER study finds H-1B exposure raised native incomes in downstream industries via productivity shocks rather than labor supply effects."
+  ]
+ },
+ "4e6949d8a97bbb50": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
+  "link": "https://www.whodunnitai.com/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This is a consumer AI game showcase without technical architecture or infrastructure details.",
+  "points": [
+   "A Show HN interactive murder mystery game using voice input to interview AI suspects."
+  ]
+ },
+ "b056341dfc8e934d": {
+  "feed": "YC Hacker News",
+  "title": "Turn satellite imagery into a paper globe you fold yourself",
+  "link": "https://foldingglobes.com/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "This is a papercraft geography project off-target from ML, backend, and infrastructure priorities.",
+  "points": [
+   "A tool to convert satellite imagery maps into printable, foldable paper globes."
+  ]
+ },
+ "05efe377a9c0fa0b": {
+  "feed": "YC Hacker News",
+  "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
+  "link": "https://github.com/shinyquagsire23/Klepton",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "Offers an impressive low-level systems engineering deep dive into binary translation and graphics API mapping without a JIT.",
+  "points": [
+   "Klepton uses a custom tool (klepton-ld) to translate Android ARM64 .so libraries into loadable Apple .dylib binaries.",
+   "Graphics APIs are remapped by translating OpenGL ES 3.2 to ANGLE over Metal and Vulkan to MoltenVK."
+  ]
  }
 }
