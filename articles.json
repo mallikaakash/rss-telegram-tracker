@@ -48462,5 +48462,131 @@
   "points": [
    "Cloudflare announces FedRAMP Class D (High) certification achieved using its unified global network software stack."
   ]
+ },
+ "19a863a423a848a4": {
+  "feed": "YC Hacker News",
+  "title": "Magnitude 7.4 Earthquake – 5 km S of San José del Palmar, Colombia",
+  "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2/executive",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "News report on a Colombian earthquake with no technical or engineering relevance.",
+  "points": [
+   "A magnitude 7.4 earthquake occurred near San José del Palmar, Colombia."
+  ]
+ },
+ "735e9e44b88089c9": {
+  "feed": "YC Hacker News",
+  "title": "Mars Bar from 1991 found – and it's 20g bigger than today's",
+  "link": "https://www.bbc.com/news/articles/c1j1kjy7gewo",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "General consumer news about shrinkflation with zero engineering or ML value.",
+  "points": [
+   "A 35-year-old Mars Bar discovery illustrates chocolate bar weight reduction from 62.5g in 1991 to 40g today."
+  ]
+ },
+ "5ba2f6fd9c3939ea": {
+  "feed": "YC Hacker News",
+  "title": "Exploiting System Management Mode with a very long interrupt",
+  "link": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "Interesting hardware-level systems security research showing how un-interruptible long CPU instructions disrupt x86 System Management Mode synchronization.",
+  "points": [
+   "SMM security relies on all x86 CPU cores entering and leaving the secure execution mode simultaneously.",
+   "Executing an extremely long machine instruction delays core response, breaking SMM core synchronization.",
+   "Demonstrates a novel hardware-level exploit vector without relying on standard memory corruption techniques."
+  ]
+ },
+ "4c66b3d8268c70c0": {
+  "feed": "YC Hacker News",
+  "title": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
+  "link": "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Non-technical news item covering a pharmacy chain scaling back its voice AI assistant due to customer complaints.",
+  "points": [
+   "Kinney Drugs rolled back inbound calls for its AI assistant after user reports of wrong dosages and incoherent interactions."
+  ]
+ },
+ "0eafd8d1a64385f0": {
+  "feed": "YC Hacker News",
+  "title": "Ask HN: In your experience, what are sound conventions for e-ink UI development?",
+  "link": "https://news.ycombinator.com/item?id=49213660",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Discussion focused on frontend web UI patterns for e-ink displays, which falls outside ML and backend infrastructure priorities.",
+  "points": [
+   "Explores e-ink UI techniques such as avoiding scrolling animations, buffering text output, and using print design guidelines."
+  ]
+ },
+ "e24aabdc39859bb7": {
+  "feed": "Technica",
+  "title": "One of China's workhorse rockets just exploded in flight",
+  "link": "https://arstechnica.com/space/2026/08/one-of-chinas-workhorse-rockets-just-exploded-in-flight/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Aerospace failure news story that has no relation to software engineering, ML, or infrastructure.",
+  "points": [
+   "A Chinese Long March 7A rocket exploded 80 seconds after liftoff during a military satellite launch."
+  ]
+ },
+ "f43463c6461aad49": {
+  "feed": "Technica",
+  "title": "Dogs can tell if you're scared or sad",
+  "link": "https://arstechnica.com/science/2026/08/dogs-can-tell-if-youre-scared-or-sad/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "General cognitive science news regarding dog emotional perception, lacking engineering relevance.",
+  "points": [
+   "fMRI research demonstrates that dogs process human facial expressions using distinct brain regions."
+  ]
+ },
+ "049050b1fb89b933": {
+  "feed": "Technica",
+  "title": "2026 Subaru Outback review: Great interior, refined drive, divisive looks",
+  "link": "https://arstechnica.com/cars/2026/08/2026-subaru-outback-limited-review-boxy-outside-almost-premium-inside/",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "Automotive review of a crossover vehicle with no software or ML content.",
+  "points": [
+   "Reviews the design changes and interior features of the 2026 Subaru Outback."
+  ]
+ },
+ "e57074f058d0a65c": {
+  "feed": "Technica",
+  "title": "A researcher bought noreply.net. Companies started sending him secrets.",
+  "link": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
+  "date": "2026-08-10",
+  "tier": "worth_a_skim",
+  "why": "A practical backend security lesson on how bad defaults and catch-all email routing exposed sensitive corporate data via noreply domains.",
+  "points": [
+   "Registering noreply.net and noreply.us inadvertently captured over 400,000 misrouted emails.",
+   "Exposed sensitive data including system test credentials, repair orders, and PII due to hardcoded default addresses."
+  ]
+ },
+ "7a678e9a26d7e264": {
+  "feed": "OpenAI News",
+  "title": "What building an AI-native finance function taught me",
+  "link": "https://openai.com/index/building-an-ai-native-finance-function",
+  "date": "2026-08-10",
+  "tier": "low_priority",
+  "why": "High-level executive thought leadership aimed at CFOs rather than technical deep-dives into ML or backend systems.",
+  "points": [
+   "Summarizes five high-level strategy recommendations for integrating AI into enterprise corporate finance workflows."
+  ]
+ },
+ "e5b664a37aa39848": {
+  "feed": "Hugging Face Blog",
+  "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+  "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+  "date": "2026-08-10",
+  "tier": "must_read",
+  "why": "Technical breakdown of NVIDIA's open-weights 364M Magpie TTS model and low-latency cascaded voice serving architectures.",
+  "points": [
+   "Introduces Magpie TTS, a 364M-parameter open-weights model supporting 12 languages for low-latency speech generation.",
+   "Advocates for modular cascaded voice pipelines (ASR + LLM + TTS) over monolithic end-to-end models for fine-grained performance control.",
+   "Supports self-hosted deployment via NVIDIA NIM for full data privacy and predictable production latency."
+  ]
  }
 }
