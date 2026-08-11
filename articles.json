@@ -48975,5 +48975,65 @@
    "Proposes two new volatility metrics (sFPC and EV) to penalize inaccurate revision size in real-time time-series forecasting.",
    "Exponential smoothing cuts volatility by ~10% with under 0.1% accuracy cost across TSFMs like Chronos-2, TimesFM, and PatchTST."
   ]
+ },
+ "43bf1d5d37987382": {
+  "feed": "YC Hacker News",
+  "title": "Half of Europe's towns and villages have fewer residents than 60 years ago",
+  "link": "https://correctiv.org/en/europe/2026/04/21/half-of-europes-towns-and-villages-have-fewer-residents-than-60-years-ago/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Demographic analysis of European rural population decline is completely unrelated to ML and backend engineering priorities.",
+  "points": [
+   "Analyzes population trends across 100,000 European municipalities, showing half lost residents since 1961 due to urban migration and emigration."
+  ]
+ },
+ "ab4d91cd563ad11c": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek: Reverse Engineering an AI Assistant by Interviewing Itself",
+  "link": "https://manish.sh/writings/models/inside-deepseek-reverse-engineering-an-ai-assistant-by-interviewing-itself",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "Provides an architectural deep-dive into DeepSeek's Mixture-of-Experts (MoE) and Multi-Head Latent Attention (MLA) coupled with an empirical audit of LLM introspection.",
+  "points": [
+   "Deconstructs core DeepSeek architectural components including Multi-Head Latent Attention (MLA) and Mixture-of-Experts (MoE).",
+   "Audits LLM self-introspection capabilities by comparing model responses against published arXiv technical papers.",
+   "Explores context window mechanics, token generation pipelines, hidden chain-of-thought reasoning, and RLHF alignment."
+  ]
+ },
+ "fba14a85c87255b1": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Mcptoon – MCP CLI client that cuts tool discovery tokens by 97%",
+  "link": "https://github.com/activeing123/mcptoon",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "Presents a practical token-optimization tool for engineers building LLM agent tool-calling pipelines using the Model Context Protocol (MCP).",
+  "points": [
+   "Reduces MCP tool discovery context overhead by up to 97% by trimming JSON syntax redundancy.",
+   "Cuts tool execution result payloads by 40-60% while maintaining agent compatibility.",
+   "Built as a zero-dependency, cross-platform CLI tool."
+  ]
+ },
+ "ec6518a9ee05b3c2": {
+  "feed": "YC Hacker News",
+  "title": "LFM2.5 2.6B model competitive with 4x larger models",
+  "link": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "Highlights a new small language model (SLM) entry relevant to high-efficiency edge and small-parameter LLM deployments.",
+  "points": [
+   "Liquid AI released LFM2.5 2.6B, aiming for performance parity with models four times larger.",
+   "Includes native chat and Jinja tool-calling templates configured for structured tool invocation."
+  ]
+ },
+ "d8e1900b664b06b8": {
+  "feed": "YC Hacker News",
+  "title": "Stowaway – Take the window seat on any plane or satellite overhead",
+  "link": "https://stowaway.live/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "A consumer WebGL frontend visualization app that does not touch backend infrastructure or machine learning topics.",
+  "points": [
+   "Interactive real-time WebGL 2 application tracking flight and satellite positions overhead."
+  ]
  }
 }
