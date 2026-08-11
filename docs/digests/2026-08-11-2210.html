@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Tue 11 Aug 2026, 22:10 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Tue 11 Aug 2026, 22:10 IST &middot; 7 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Extract hidden LLM reasoning traces via API trace replay, and explore Microsoft&#x27;s CARE-X VLM combining DAPO RL alignment with tool-augmented measurement.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://stolen-thoughts.com/">Stealing Reasoning Traces from Proprietary LLM APIs</a></h2><div class="why">Uncovers a critical security vulnerability in reasoning models where encrypted CoT tokens can be decrypted by replaying them into weaker models.</div><ul><li>Encrypted thinking blocks from OpenAI, Anthropic, and Google APIs can be replayed across different models and sessions.</li><li>Injecting a frontier model&#x27;s trace into a jailbroken smaller model extracts the complete hidden chain-of-thought in verbatim plaintext.</li><li>Bypasses anti-distillation safeguards without needing to directly breach or jailbreak the frontier model.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Microsoft Research</span><h2><a href="https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/">Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement</a></h2><div class="why">Provides a high-quality MLOps and model design deep-dive on combining RL alignment, VLMs, and tool calling for complex visual tasks.</div><ul><li>Combines generative reasoning reports with calibrated discriminative output heads for diagnostic confidence.</li><li>Applies DAPO reinforcement learning to optimize visual-language models for clinical correctness in multi-task setups.</li><li>Integrates deterministic tool-augmented measurement alongside Qwen3-VL to replace visual approximation with exact calculation.</li></ul></div><div class="section">Worth a skim &middot; 1</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md">Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp</a></h2><div class="why">Discusses a substantial 11–16× LLM inference speedup on Apple Silicon VMs using Llama.cpp.</div><ul><li>Highlights optimization techniques for Llama.cpp inference on macOS virtualized environments.</li><li>Relevant for local model serving and hardware-level performance tuning on Apple Silicon.</li></ul></div><div class="section">Low priority &middot; 4</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/TheRealYT/git-knife">Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet</a></h2><div class="why">A desktop GUI tool for editing Git commit metadata that is unrelated to ML infrastructure or backend engineering.</div><ul><li>Provides a UI wrapper to edit Git commit authors, messages, and timestamps using git commit-tree.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://manus.im/blog/a-note-to-our-users">Manus will return to operating as an independent company</a></h2><div class="why">A corporate status update and operational notice regarding data migration for Manus users.</div><ul><li>Manus is returning to independent operations, requiring user data backup and restoration due to regulatory transitions.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.trykeet.com/">Launch HN: Keet (YC S24) – An app to create video courses on anything</a></h2><div class="why">A consumer-focused product launch for an AI course generator lacking backend infrastructure or ML deep-dive content.</div><ul><li>Keet generates bite-sized video courses and interactive quizzes on arbitrary topics using LLMs.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/08/trump-to-give-republicans-a-3-1-fcc-majority-isnt-filling-empty-democratic-seat/">Trump to give Republicans a 3-1 FCC majority, isn&#x27;t filling empty Democratic seat</a></h2><div class="why">US political news about Federal Communications Commission appointments with no technical relevance.</div><ul><li>A presidential nomination creates a 3-1 Republican majority on the FCC.</li></ul></div></body></html>

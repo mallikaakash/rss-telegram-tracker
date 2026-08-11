@@ -49312,5 +49312,87 @@
    "Hyper-volumetric network DDoS attacks exceeding 1 Tbps increased over 6x in Q2 2026, heavily driven by DNS floods and CLDAP amplification.",
    "DNS-based attack vectors accounted for 34.3% of all network-layer DDoS activity, though median attack sizes stayed under 500 Mbps and 10 minutes in duration."
   ]
+ },
+ "800ebb0d7846f162": {
+  "feed": "YC Hacker News",
+  "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+  "link": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "Discusses a substantial 11–16× LLM inference speedup on Apple Silicon VMs using Llama.cpp.",
+  "points": [
+   "Highlights optimization techniques for Llama.cpp inference on macOS virtualized environments.",
+   "Relevant for local model serving and hardware-level performance tuning on Apple Silicon."
+  ]
+ },
+ "c5702709cec1c70a": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet",
+  "link": "https://github.com/TheRealYT/git-knife",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "A desktop GUI tool for editing Git commit metadata that is unrelated to ML infrastructure or backend engineering.",
+  "points": [
+   "Provides a UI wrapper to edit Git commit authors, messages, and timestamps using git commit-tree."
+  ]
+ },
+ "393245152404d642": {
+  "feed": "YC Hacker News",
+  "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+  "link": "https://stolen-thoughts.com/",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "Uncovers a critical security vulnerability in reasoning models where encrypted CoT tokens can be decrypted by replaying them into weaker models.",
+  "points": [
+   "Encrypted thinking blocks from OpenAI, Anthropic, and Google APIs can be replayed across different models and sessions.",
+   "Injecting a frontier model's trace into a jailbroken smaller model extracts the complete hidden chain-of-thought in verbatim plaintext.",
+   "Bypasses anti-distillation safeguards without needing to directly breach or jailbreak the frontier model."
+  ]
+ },
+ "1ec536db11c82150": {
+  "feed": "YC Hacker News",
+  "title": "Manus will return to operating as an independent company",
+  "link": "https://manus.im/blog/a-note-to-our-users",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "A corporate status update and operational notice regarding data migration for Manus users.",
+  "points": [
+   "Manus is returning to independent operations, requiring user data backup and restoration due to regulatory transitions."
+  ]
+ },
+ "31d51c4602ae4dc8": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Keet (YC S24) – An app to create video courses on anything",
+  "link": "https://www.trykeet.com/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "A consumer-focused product launch for an AI course generator lacking backend infrastructure or ML deep-dive content.",
+  "points": [
+   "Keet generates bite-sized video courses and interactive quizzes on arbitrary topics using LLMs."
+  ]
+ },
+ "039007cd1ee864b7": {
+  "feed": "Technica",
+  "title": "Trump to give Republicans a 3-1 FCC majority, isn't filling empty Democratic seat",
+  "link": "https://arstechnica.com/tech-policy/2026/08/trump-to-give-republicans-a-3-1-fcc-majority-isnt-filling-empty-democratic-seat/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "US political news about Federal Communications Commission appointments with no technical relevance.",
+  "points": [
+   "A presidential nomination creates a 3-1 Republican majority on the FCC."
+  ]
+ },
+ "daffd14d3d224b12": {
+  "feed": "Microsoft Research",
+  "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+  "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "Provides a high-quality MLOps and model design deep-dive on combining RL alignment, VLMs, and tool calling for complex visual tasks.",
+  "points": [
+   "Combines generative reasoning reports with calibrated discriminative output heads for diagnostic confidence.",
+   "Applies DAPO reinforcement learning to optimize visual-language models for clinical correctness in multi-task setups.",
+   "Integrates deterministic tool-augmented measurement alongside Qwen3-VL to replace visual approximation with exact calculation."
+  ]
  }
 }
