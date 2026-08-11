@@ -49207,5 +49207,110 @@
   "points": [
    "Discussion on hardware schematic sharing prior to modern open-source definitions."
   ]
+ },
+ "f253b3b951b6cd2b": {
+  "feed": "YC Hacker News",
+  "title": "England set to be one of the first countries to eliminate hepatitis C",
+  "link": "https://www.bbc.com/news/articles/c75gk620r22o",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "This is public health news unrelated to ML, distributed systems, or backend engineering.",
+  "points": [
+   "England is on track to eliminate hepatitis C using widespread screening and 8-to-12-week oral antiviral treatments."
+  ]
+ },
+ "bc5a28692c2f5201": {
+  "feed": "YC Hacker News",
+  "title": "Nvidia's Risky Business",
+  "link": "https://stratechery.com/2026/nvidias-risky-business/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "It offers useful macroeconomic and industry context on AI compute infrastructure overbuild risks by comparing Nvidia's surge to 19th-century railroad finance panics.",
+  "points": [
+   "Draws historical parallels between Jay Cooke's over-leveraged railroad expansion before the Panic of 1873 and current massive capital expenditure cycles in AI hardware.",
+   "Examines how market expansion driven by aggressive retail and corporate financing can trigger systemic downturns if capital investments outpace realized revenue yields."
+  ]
+ },
+ "220d5105e6c790f0": {
+  "feed": "YC Hacker News",
+  "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
+  "link": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "This deep dive directly reveals how a commercial production LLM application manages context windows, memory structures, and dynamic prompt construction in real time.",
+  "points": [
+   "Intercepts Electron and VS Code network traffic via a MitM proxy to inspect how Copilot constructs context and formats prompt payloads dynamically.",
+   "Uncovers how client-side LLM apps implement context window management, memory tracking, and token budget constraints under real-world constraints."
+  ]
+ },
+ "cdda3fe8b01baa13": {
+  "feed": "YC Hacker News",
+  "title": "I backtested my own stock rankings. They lost to the index",
+  "link": "https://holderdashboard.com/learn/backtest-that-lost-to-the-index",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "It provides a clear practical case study on survivorship and lookahead biases in backtesting, which directly applies to building rigorous ML offline evaluation pipelines.",
+  "points": [
+   "Demonstrates how standard historical backtesting introduces survivorship and lookahead bias by selecting past data based on today's surviving entities.",
+   "Shows that stock ranking strategies based strictly on point-in-time financial data failed to beat the baseline S&P 500 index over a 10-year horizon."
+  ]
+ },
+ "1732dcec9579e017": {
+  "feed": "YC Hacker News",
+  "title": "$580M undersea cable rerouted to avoid the grave of Dobby the House Elf",
+  "link": "https://www.tomshardware.com/networking/usd580-million-undersea-cable-rerouted-to-avoid-the-grave-of-dobby-the-house-elf-company-caves-to-fan-demands-to-safeguard-harry-potter-filming-location-will-instead-pass-by-bronze-age-burial-site",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "This is pop-culture news regarding undersea infrastructure without technical depth on networking or ML.",
+  "points": [
+   "A $580M undersea fiber optic cable was rerouted due to public opposition around a Harry Potter filming site."
+  ]
+ },
+ "e7210abe706aa09b": {
+  "feed": "Technica",
+  "title": "New surveillance tech links your phone to your license plate",
+  "link": "https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "It covers consumer privacy news without technical system architecture or machine learning implementation details.",
+  "points": [
+   "SignalTrace correlates license plate recognition camera logs with nearby mobile device RF signals to track recurring spatial movement patterns."
+  ]
+ },
+ "cfbcaf46624e402a": {
+  "feed": "Technica",
+  "title": "New Pass-ta-key attack reveals all the things we didn't know about passkeys",
+  "link": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "It offers a solid backend security breakdown of passkey implementations, correcting common misconceptions about hardware TPM enclave storage versus browser local data stores.",
+  "points": [
+   "Reveals that Google Password Manager on Windows stores passkeys in local encrypted application database files rather than hardware TPM enclaves.",
+   "Demonstrates that malware running with user privileges can harvest passkey database files, exposing key architecture trade-offs in identity management."
+  ]
+ },
+ "5eb3c49c6262106f": {
+  "feed": "Hugging Face Blog",
+  "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+  "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "It directly advances priority topics in LLM agent architecture by evaluating token-efficient agentic memory mechanisms and prompt engineering strategies.",
+  "points": [
+   "Compares ACE and ALTK-Evolve architectures, showing both prevent context collapse by storing itemized, uncompressed failure lessons rather than aggressive summaries.",
+   "Demonstrates that ALTK-Evolve drastically reduces inference token cost compared to ACE by dynamically retrieving targeted guidelines per step instead of injecting an ever-growing playbook."
+  ]
+ },
+ "4b2d44ef66bb2244": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+  "link": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "It provides high-level threat intelligence metrics on global network traffic and DDoS attack vectors from Cloudflare's edge network.",
+  "points": [
+   "Hyper-volumetric network DDoS attacks exceeding 1 Tbps increased over 6x in Q2 2026, heavily driven by DNS floods and CLDAP amplification.",
+   "DNS-based attack vectors accounted for 34.3% of all network-layer DDoS activity, though median attack sizes stayed under 500 Mbps and 10 minutes in duration."
+  ]
  }
 }
