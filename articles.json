@@ -48892,5 +48892,88 @@
   "points": [
    "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish."
   ]
+ },
+ "be5a50d3bd7e3b6d": {
+  "feed": "YC Hacker News",
+  "title": "Recycle – Floppydisks",
+  "link": "https://www.floppydisk.com/recycle",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Irrelevant promotional web page for a physical floppy disk recycling service.",
+  "points": [
+   "Floppydisk.com recycles 3.5-inch floppy disks and offers small shipping rebates for bulk submissions."
+  ]
+ },
+ "ccc0c7aeab57315b": {
+  "feed": "YC Hacker News",
+  "title": "Hyperspace",
+  "link": "https://hypercritical.co/hyperspace/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Consumer desktop software release notes for a Mac disk space reclamation utility.",
+  "points": [
+   "Hyperspace 1.7 fixes state sync bugs, clone consolidation issues, and UI responsiveness during file reclamation."
+  ]
+ },
+ "635b267ac04d2887": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+  "link": "https://cactuscompute.com/needle",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "Presents a novel 45M parameter ultra-compact LLM tailored specifically for edge tool calling, running within 28MB RAM.",
+  "points": [
+   "Needle 2 uses 2-bit quantization (CQ2-bit) in a 14MB binary to achieve 500+ tok/s decode on Raspberry Pi 5.",
+   "Frames device control and extraction purely as schema mapping, outperforming larger models like FunctionGemma 270M on mobile benchmarks.",
+   "Open-sourced under Apache 2.0 with weights on Hugging Face and native/Wasm execution targets."
+  ]
+ },
+ "7c784dd3821a1241": {
+  "feed": "YC Hacker News",
+  "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+  "link": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "General news article reporting on executive commentary with no technical or infrastructure depth.",
+  "points": [
+   "Financial Times article highlighting Mark Zuckerberg's public criticism of closed-source AI competitors."
+  ]
+ },
+ "bf6626c86d8771bb": {
+  "feed": "YC Hacker News",
+  "title": "Rust SIMD on the GPU",
+  "link": "https://www.vectorware.com/blog/simd-on-gpu/",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "High-quality engineering deep-dive on mapping Rust's portable SIMD abstractions directly to GPU SIMT warp lanes.",
+  "points": [
+   "VectorWare maps core::simd's generic Simd type directly to 32-lane GPU warps, compiling arithmetic directly to GPU PTX instructions.",
+   "Enables cross-platform SIMD code in no_std Rust without relying on hardware-specific vendor intrinsics.",
+   "Completes a thread-to-warp and lane-to-SIMD parallel execution model for writing GPU kernel code in Rust."
+  ]
+ },
+ "f104e949dc60c493": {
+  "feed": "Technica",
+  "title": "Zuckerberg’s superyacht ignored emergency channel, failed to aid stranded boat",
+  "link": "https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Non-technical news gossip completely unrelated to engineering or machine learning.",
+  "points": [
+   "Social media reports and Coast Guard responses regarding a superyacht failing to assist stranded boaters in Alaska."
+  ]
+ },
+ "ec6783b998469430": {
+  "feed": "CMU ML Blog",
+  "title": "Forking-Sequences — Part II: Multi-Horizon Forecast Ensembling with Reduced Volatility",
+  "link": "https://blog.ml.cmu.edu/2026/08/10/forking-sequences-part-ii-multi-horizon-forecast-ensembling-with-reduced-volatility/",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "Deep research post on multi-horizon time-series forecasting that reduces forecast volatility in pretrained foundation models at zero extra encoder compute.",
+  "points": [
+   "Introduces Forking-Sequences forecast ensembling using overlapping predictions from a single forward pass.",
+   "Proposes two new volatility metrics (sFPC and EV) to penalize inaccurate revision size in real-time time-series forecasting.",
+   "Exponential smoothing cuts volatility by ~10% with under 0.1% accuracy cost across TSFMs like Chronos-2, TimesFM, and PatchTST."
+  ]
  }
 }
