@@ -48738,5 +48738,159 @@
    "Outlines Cloudflare's primitives for agent runtime execution, lifecycle management, and observability.",
    "Extends Zero Trust architecture to treat autonomous AI agents as distinct identities with gated access."
   ]
+ },
+ "a50b7e9d346ad20e": {
+  "feed": "YC Hacker News",
+  "title": "The UK's War on Anonymity Has Come to America",
+  "link": "https://www.effort.news/uk-lobby",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The UKâs War on Anonymity Has Come to America â Effort Skip to content Home Investigations Null results About Contact Subscribe The UKâs War on Anonymity Has Come to America The NGOs Behind Britain's Digital ID Laws are Targeting American Statehouses August 10, 2026 13 minute read An Effort investigation has identified a coordinated operation to influence American lawmakers by five foreign non-government organizations and their US affiliates."
+  ]
+ },
+ "8797c3b659bb1ecb": {
+  "feed": "YC Hacker News",
+  "title": "Antirez/h3.c: MiniMax H3 inference engine for Mac computers",
+  "link": "https://github.com/antirez/h3.c",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - antirez/h3.c: MiniMax H3 inference engine for Mac computers · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Type / to search Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "0bc06db0f4edd0f3": {
+  "feed": "YC Hacker News",
+  "title": "Chicken Scheme 6.0",
+  "link": "https://code.call-cc.org/releases/6.0.0/NEWS",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "6.0.0 - Core libraries - All modules specified by the R7RS small language are now available in the core system. - The internal string representation has been converted to UTF-8, making strings fully UNICODE capable. - The (chicken blob) module has been replaced with (chicken bytevector), containing R7RS compatible bytevector operations. Bytevectors are now fully equivalent to SRFI-4 u8vectors."
+  ]
+ },
+ "7d6440dd395371c9": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
+  "link": "https://everycube.alen.is/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "02bf413a0c0d72e5": {
+  "feed": "YC Hacker News",
+  "title": "The “mechanical miracle” that ruined Mark Twain’s life",
+  "link": "https://resobscura.substack.com/p/the-mechanical-miracle-that-ruined",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "5dd6b19cff3c0ffa": {
+  "feed": "Technica",
+  "title": "Ars Live: Ross Scott discusses the Stop Killing Games movement",
+  "link": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "By now, any serious gamer is familiar with a favorite title becoming unplayable after a centralized online server gets shut down, or being unable to purchase and download a digitally delisted, critically acclaimed title from yesteryear. Can anything be done about this video game preservation problem? To help answer that question, we'll be hosting a live conversation with Ross Scott , the founder of the Stop Killing Games campaign , on August 11 at 2:30 pm ET as part of the Ars Live series."
+  ]
+ },
+ "2d01a61a8baa64ee": {
+  "feed": "Technica",
+  "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+  "link": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta has announced its intention to focus on open-weight large language models. Additionally, the company announced the release of an open model called Muse Glimmer and a promise to open the weights for Muse Spark 1.2, its more powerful model, in the next few weeks. Alongside these announcements, Meta CEO Mark Zuckerberg published a more than 6,000-word essay outlining the company's philosophy about AI systems and governance moving forward."
+  ]
+ },
+ "7d0a17b01861efa8": {
+  "feed": "Technica",
+  "title": "Trump signs bonkers order that cuts vaccines, promotes ones that don't exist",
+  "link": "https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "President Trump signed an executive order Monday that makes sweeping, unilateral changes to federal vaccine recommendations. The order aims to reduce the number of lifesaving vaccines all children are recommended to get—from 18 to 11—while also splitting them up and spacing them out over more time and more medical visits. The vaccine changes are not backed by evidence or spurred by new findings."
+  ]
+ },
+ "884b17de544ac91b": {
+  "feed": "Technica",
+  "title": "Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds",
+  "link": "https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Following its announcement in March, game developer Cold Iron Studios has shut down the servers for the cloud version of Aliens: Fireteam Elite on the Nintendo Switch . The game originally cost $30 (or $60 for an “Ultimate” version with additional content). Cold Iron Studios hasn't offered customers refunds. TheGamer reported that affected players are entitled to a discount for the Nintendo Switch 2 version of the game, which is a 2021 co-op, third-person shooter based on the Alien film franchise."
+  ]
+ },
+ "abf634c5f13b8fe0": {
+  "feed": "Technica",
+  "title": "Amazon backs power plant that may become top source of US climate pollution",
+  "link": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Amazon’s artificial intelligence ambitions will soon be partly fueled by a natural gas-burning power plant in Texas that “could become the largest single source of climate pollution in the United States,” The New York Times reported . These gas-burning plants are increasingly lumped into data center projects. They produce harmful pollutants, which can accelerate climate change impacts and harm public health—contributing to conditions like asthma, heart disease, lung cancer, and strokes."
+  ]
+ },
+ "1ea3eea3d9a52b4c": {
+  "feed": "OpenAI News",
+  "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+  "link": "https://openai.com/index/zapier",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Zapier transformed core marketing processes with ChatGPT Work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 10, 2026 How Zapier transformed core marketing processes with ChatGPT Work The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting."
+  ]
+ },
+ "8f3f7b571773b5e8": {
+  "feed": "OpenAI News",
+  "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+  "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Virgin Atlantic sharpens customer journeys with ChatGPT Work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 10, 2026 Virgin Atlantic sharpens customer journeys with ChatGPT Work The airline is accelerating research, product planning, and decision-making while giving teams a connected view of the customer journey."
+  ]
+ },
+ "4610d2d935ba70d0": {
+  "feed": "MIT News (AI)",
+  "title": "With a feel for physics, AI models simulate a wider range of real-world scenarios",
+  "link": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Artificial intelligence models are jacks of many trades, including writing, generating images, and creating 3D models. But they aren’t as helpful when it comes to testing robots or designs for vehicles in diverse environments, since they don’t understand physics as well as they do pixels or text. To build an AI system that can reliably simulate a variety of physical scenarios, engineers need a range of physics data at a scale that isn’t yet feasible."
+  ]
+ },
+ "8aaf1cb28862e975": {
+  "feed": "Simon Willison",
+  "title": "Introducing Muse Glimmer",
+  "link": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Muse Glimmer Meta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old). They claim to have optimized it for exactly the kind of things I'm looking for in a local model: End-to-end Agentic Task Completion. Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish."
+  ]
  }
 }
