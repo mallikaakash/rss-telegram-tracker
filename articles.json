@@ -49093,5 +49093,62 @@
   "points": [
    "Covers consumer policy in France regarding telemarketing calls."
   ]
+ },
+ "87ba0f3b109c1b2e": {
+  "feed": "YC Hacker News",
+  "title": "London Underground begins scanning passengers' faces",
+  "link": "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Covers public surveillance policy in London transit, which is completely unrelated to backend or ML engineering priorities.",
+  "points": [
+   "Reports on face-scanning technology trials across the London Underground passenger network."
+  ]
+ },
+ "69ee5ffdf1603e0a": {
+  "feed": "YC Hacker News",
+  "title": "About Rx Kids",
+  "link": "https://rxkids.org/about/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Describes a municipal social safety net program with no application to machine learning or backend infrastructure.",
+  "points": [
+   "Overview of the Rx Kids maternal and infant direct cash transfer program in Michigan."
+  ]
+ },
+ "0fd361061751065e": {
+  "feed": "YC Hacker News",
+  "title": "The Water Footprint of AI",
+  "link": "https://doi.org/10.1016/j.watres.2026.125866",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Focuses on macro environmental policy regarding AI data centers without technical infrastructure or performance engineering details.",
+  "points": [
+   "Highlights general community discussion surrounding the water consumption footprint of AI datacenters."
+  ]
+ },
+ "d9558c7f4611b22f": {
+  "feed": "YC Hacker News",
+  "title": "Programming the Gigatron",
+  "link": "https://www.iwriteiam.nl/PGigatron.html",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Explores retro hardware hobbyist programming, which falls outside the core focus on ML infra, backend systems, and industrial optimization.",
+  "points": [
+   "Discusses low-level software development for the Gigatron TTL retro microcomputer."
+  ]
+ },
+ "7bcacf9b76804dfe": {
+  "feed": "YC Hacker News",
+  "title": "What's the best programming language for coding agents?",
+  "link": "http://danluu.com/pl-tokens/",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "Deconstructs token efficiency claims and benchmark evaluation flaws when selecting programming languages for LLM coding agents.",
+  "points": [
+   "Critiques widely cited claims that concise or dynamic languages (like Clojure or J) yield 2x-3x token savings over static languages like Rust.",
+   "Exposes critical methodology flaws in popular LLM evals, such as reliance on trivial Rosetta Code problems and benchmark execution bugs.",
+   "Emphasizes that LLM agent performance on trivial tasks fails to generalize to realistic software engineering workloads."
+  ]
  }
 }
