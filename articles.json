@@ -49035,5 +49035,63 @@
   "points": [
    "Interactive real-time WebGL 2 application tracking flight and satellite positions overhead."
   ]
+ },
+ "62b52070c5a60428": {
+  "feed": "YC Hacker News",
+  "title": "As AI eats the web, the internet’s collective memory is disappearing",
+  "link": "https://thewalrus.ca/google-search-is-dying/",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "It is an empty Hacker News link with no technical substance on web AI trends.",
+  "points": [
+   "Contains no technical content or engineering deep-dives."
+  ]
+ },
+ "adaad8fdbd8e604a": {
+  "feed": "YC Hacker News",
+  "title": "To Save C, We Must Save ABI",
+  "link": "https://thephd.dev/to-save-c-we-must-save-abi-fixing-c-function-abi",
+  "date": "2026-08-11",
+  "tier": "worth_a_skim",
+  "why": "Explores low-level systems engineering tradeoffs between ABI stability and language performance optimizations.",
+  "points": [
+   "ABI stability locks in legacy structure layouts, preventing hardware-level compiler optimizations.",
+   "Designing modern high-performance native libraries often requires breaking binary compatibility constraints."
+  ]
+ },
+ "4f49de3486923264": {
+  "feed": "YC Hacker News",
+  "title": "How Claude marks AI-generated content",
+  "link": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Contains non-technical documentation and customer support links for Claude.",
+  "points": [
+   "Consists purely of user-facing help desk navigation text without systemic architecture insights."
+  ]
+ },
+ "ae6270deaf873bb8": {
+  "feed": "YC Hacker News",
+  "title": "Faster floating point math with Rust's new API",
+  "link": "https://pythonspeed.com/articles/faster-float-math-rust/",
+  "date": "2026-08-11",
+  "tier": "must_read",
+  "why": "Directly advances performance engineering priorities by explaining how Rust's new float API unlocks SIMD vectorization for numerical workloads.",
+  "points": [
+   "Strict IEEE 754 precision rules prevent default compiler floating-point SIMD auto-vectorization.",
+   "Rust 1.98 introduces targeted fast-math APIs that allow reassociation for major CPU instruction reductions.",
+   "Compiling for modern target CPUs (x86-64-v3) allows batch vector operations over float slices."
+  ]
+ },
+ "512a7e42dd3250e4": {
+  "feed": "YC Hacker News",
+  "title": "France to ban unsolicited telemarketing calls",
+  "link": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+  "date": "2026-08-11",
+  "tier": "low_priority",
+  "why": "Off-target legal and regulatory news unrelated to engineering or machine learning.",
+  "points": [
+   "Covers consumer policy in France regarding telemarketing calls."
+  ]
  }
 }
