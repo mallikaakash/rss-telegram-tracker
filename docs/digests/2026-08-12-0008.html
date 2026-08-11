@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Wed 12 Aug 2026, 00:08 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Wed 12 Aug 2026, 00:08 IST &middot; 9 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Google Research advances the AMIE medical LLM to real-time audio-visual consultations, alongside posts on Go for AI code review and OpenSSH updates.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">Google Research</span><h2><a href="https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/">Advancing AMIE towards expert-level audio-visual clinical consultations</a></h2><div class="why">It covers frontier research on expanding Google&#x27;s AMIE LLM to real-time, multimodal audio-visual clinical consultations.</div><ul><li>Extends Google&#x27;s AMIE medical AI system from text-based dialogue to real-time audio-visual diagnostic interactions.</li><li>Evaluates multimodal LLM diagnostic accuracy and consultation capabilities using randomized controlled trial methodologies.</li><li>Demonstrates how conversational LLMs can process live visual cues alongside auditory inputs in complex domain settings.</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://www.openssh.org/releasenotes.html#10.5">OpenSSH 10.5 released, AI assistice now welcome</a></h2><div class="why">It details how OpenSSH is adapting its release cadence to handle an influx of AI-assisted vulnerability reports.</div><ul><li>OpenSSH is shifting to more frequent releases to deploy fixes faster as AI tools make bug discovery easier for both researchers and adversaries.</li><li>Portable OpenSSH now requires ECC support in libcrypto, including the NISTP521 curve.</li><li>Fixed security vulnerabilities in ssh-agent locking extensions and client session multiplexing.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/">Why Go Is an Ideal Language for AI-Assisted Software Engineering</a></h2><div class="why">It offers a relevant perspective on how AI coding agents shift developer priorities toward code review, where Go&#x27;s simple toolchain shines.</div><ul><li>AI coding agents shift software engineering bottlenecks from code generation speed to human review, context-setting, and architecture.</li><li>Go&#x27;s opinionated formatting, strict compatibility, and single-platform toolchain make AI-generated code easier to audit and maintain.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://jolt-lang.github.io">Jolt: Clojure compiler implemented with Chez Scheme</a></h2><div class="why">It is an insightful language and compiler deep-dive showing how Clojure can compile down to standalone binaries via Chez Scheme.</div><ul><li>Jolt compiles Clojure to Scheme (Chez natively, Gambit for JS) without needing a JVM runtime.</li><li>Supports core Clojure semantics including persistent data structures, transducers, core.async, and real OS-thread concurrency.</li><li>Ahead-of-time builds output a single standalone binary containing the runtime, application, and dependencies.</li></ul></div><div class="section">Low priority &middot; 5</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://guessingheadlights.com/yall-failed-me-woman-pulled-over-at-gunpoint-twice-after-flock-camera-glitch/">Woman Pulled over at Gunpoint Twice After Flock Camera Glitch</a></h2><div class="why">This is a general news story about a law enforcement automated camera database error, unrelated to backend or ML engineering.</div><ul><li>A stale database flag in a license plate recognition system led to repeated wrongful traffic stops.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://photosynthesis.camera">Show HN: iPhone app takes simultaneous images from 2 lenses, fuses into 1 photo</a></h2><div class="why">This is a consumer-focused iOS camera application announcement without ML infrastructure or backend relevance.</div><ul><li>App fuses simultaneous captures from two physical iPhone camera lenses into a single high-detail photo without generative AI.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/">Less than 2.5% of Taylor Farms&#x27; recalled lettuce went to Taco Bells</a></h2><div class="why">This is a non-technical news article about a food safety recall.</div><ul><li>FDA report revealed only 2.5% of contaminated Taylor Farms lettuce was distributed to Taco Bell locations.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/">Tracking extreme heat by the hour makes climate change seem even worse</a></h2><div class="why">This is a climate science analytics article outside the reader&#x27;s ML engineering priorities.</div><ul><li>Analyzing extreme heat metrics at an hourly resolution rather than daily averages yields deeper climate insights.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/gadgets/2026/08/a-google-insider-spills-the-tea-on-how-the-company-forsook-its-founding-ideals/">A Google insider spills the tea on how the company forsook its founding ideals</a></h2><div class="why">This is a book review and memoir about Google corporate culture rather than a technical engineering post.</div><ul><li>Former Google employee details the 2018 internal walkout and changing company culture in a new book.</li></ul></div></body></html>
