@@ -2234,5 +2234,29 @@
    "Optimized custom kernels specifically for Kimi K3's hybrid KDA + MLA attention and 896 routed experts on datacenter Hopper (H200) hardware.",
    "Offers a detailed breakdown of real-world profiling, bug fixes, and performance engineering across four rapid software releases."
   ]
+ },
+ "a7cd30fc4d8c5ee3": {
+  "url": "https://acethecloud.com/blog/4-of-20-pagedattention/",
+  "title": "4/20 - PagedAttention: Virtual Memory for the KV Cache – Ace The Cloud",
+  "domain": "acethecloud.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-11",
+  "tier": "skip",
+  "why": "This is a basic tutorial explainer on PagedAttention using standard hotel analogies without new empirical data or novel system insights.",
+  "points": []
+ },
+ "918163606995fbd2": {
+  "url": "https://datarekha.com/blog/how-vllm-serves-a-7b-model/",
+  "title": "How vLLM actually serves a 7B model — datarekha",
+  "domain": "datarekha.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-11",
+  "tier": "solid_find",
+  "why": "It provides a clear, concrete breakdown of vLLM serving mechanics with specific hardware block budget calculations for 7B GQA models on L4 GPUs.",
+  "points": [
+   "Quantifies KV cache capacity for a 7B GQA model on an L4 GPU (~5,625 blocks of 16 tokens = ~90,000 total tokens).",
+   "Details how the vLLM scheduler and KV-cache manager iterate per step to decide request admission based on block budget.",
+   "Contrasts compute-bound prefill dense matrix multiplications against memory-bound decode streaming requirements."
+  ]
  }
 }
