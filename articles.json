@@ -49654,5 +49654,99 @@
   "points": [
    "Chat with Stripe sales 8 sales reps available We're here to discuss your business needs. Chat now with sales Mapping the AI economy Stripe logo Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 125+ Terminal In-person payments Authorization Boost Acceptance optimizations Link Accelerated checkout Financial Connections Linked financial account data Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Platforms and marketplaces Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Radar Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI."
   ]
+ },
+ "1a8475db80d519c0": {
+  "feed": "YC Hacker News",
+  "title": "llama.cpp",
+  "link": "https://llama.app",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "Provides a useful overview of llama.cpp's local model serving options and cross-hardware kernel optimization capabilities.",
+  "points": [
+   "Supports seamless deployment across diverse hardware from Apple Silicon to NVIDIA B200/H100 GPUs.",
+   "Integrates with local tooling (e.g., pi-llama plugin) to serve local models with zero telemetry or API keys."
+  ]
+ },
+ "068da7e084f19168": {
+  "feed": "YC Hacker News",
+  "title": "The Human Is the Loop",
+  "link": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "A personal reflection on psychological burnout and developer habits with AI tools rather than a technical engineering post.",
+  "points": [
+   "Reflects on how over-relying on AI coding agents can become a cognitive crutch that hinders direct learning."
+  ]
+ },
+ "5a70573ea4d6aac7": {
+  "feed": "YC Hacker News",
+  "title": "Mojo 1.0",
+  "link": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+  "date": "2026-08-12",
+  "tier": "must_read",
+  "why": "Mojo's 1.0 release is a major milestone in AI systems programming languages, directly relevant to low-level ML infrastructure and kernel performance.",
+  "points": [
+   "Establishes language stability and API compatibility commitments for long-term production use.",
+   "Powers Modular's commercial inference engines, MAX Framework, and Modular Cloud.",
+   "Standardizes standard library evolution following C++ design paradigms."
+  ]
+ },
+ "61e20f5e633e309e": {
+  "feed": "YC Hacker News",
+  "title": "OpenAI’s head of ethics leaves less than a year after joining",
+  "link": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Non-technical corporate turnover news without infrastructure or engineering insights.",
+  "points": [
+   "Reports that OpenAI's head of ethics departed the company less than a year after joining."
+  ]
+ },
+ "0fd788f1b3574b04": {
+  "feed": "YC Hacker News",
+  "title": "A shell exclamation mark is not for yelling. Be lazy.",
+  "link": "https://refp.se/articles/your-shell-and-the-lazy-exclamation-mark",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "A practical, high-quality CLI deep-dive into Unix event designators that improves terminal productivity for backend engineers.",
+  "points": [
+   "Explains shell event designators like `!!` (repeat command), `!$` (last argument), and `!:1` (first argument).",
+   "Demonstrates path and filename modifiers like `:h` (directory head) and `:r` (strip file extension) for rapid shell execution.",
+   "Covers POSIX-compliant history editing using `fc`."
+  ]
+ },
+ "f1a9ee4ad552ac99": {
+  "feed": "Technica",
+  "title": "Gemini becomes Google's fastest-growing product ever as it hits 1B users",
+  "link": "https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Pure PR and consumer usage metric announcement with no technical or architectural detail.",
+  "points": [
+   "Announces that Gemini reached 1 billion monthly active users on its web and app interfaces."
+  ]
+ },
+ "d552df63b3c95986": {
+  "feed": "Technica",
+  "title": "Used EV buying guide: The $30,000 edition",
+  "link": "https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Off-topic consumer buying guide completely unrelated to engineering or machine learning.",
+  "points": [
+   "Analyzes market supply and pricing trends for used electric vehicles under $30,000."
+  ]
+ },
+ "fdcf93c06f854123": {
+  "feed": "Simon Willison",
+  "title": "datasette-upload-dbs 0.5a0",
+  "link": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates an elegant backend infrastructure pattern for atomic database deployment via CI/CD pipelines.",
+  "points": [
+   "Introduces a formal REST API (`/-/upload-dbs`) to upload and atomically swap SQLite databases on live Datasette instances.",
+   "Enables background database generation in CI (e.g., GitHub Actions) with zero-downtime production swaps."
+  ]
  }
 }

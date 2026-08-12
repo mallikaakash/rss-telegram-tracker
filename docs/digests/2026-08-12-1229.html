@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Wed 12 Aug 2026, 12:29 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Wed 12 Aug 2026, 12:29 IST &middot; 8 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Mojo 1.0 introduces a stable AI systems programming foundation, while other posts explore local LLM serving, shell command tricks, and atomic SQLite deployments.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here">Mojo 1.0</a></h2><div class="why">Mojo&#x27;s 1.0 release is a major milestone in AI systems programming languages, directly relevant to low-level ML infrastructure and kernel performance.</div><ul><li>Establishes language stability and API compatibility commitments for long-term production use.</li><li>Powers Modular&#x27;s commercial inference engines, MAX Framework, and Modular Cloud.</li><li>Standardizes standard library evolution following C++ design paradigms.</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://llama.app">llama.cpp</a></h2><div class="why">Provides a useful overview of llama.cpp&#x27;s local model serving options and cross-hardware kernel optimization capabilities.</div><ul><li>Supports seamless deployment across diverse hardware from Apple Silicon to NVIDIA B200/H100 GPUs.</li><li>Integrates with local tooling (e.g., pi-llama plugin) to serve local models with zero telemetry or API keys.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://refp.se/articles/your-shell-and-the-lazy-exclamation-mark">A shell exclamation mark is not for yelling. Be lazy.</a></h2><div class="why">A practical, high-quality CLI deep-dive into Unix event designators that improves terminal productivity for backend engineers.</div><ul><li>Explains shell event designators like `!!` (repeat command), `!$` (last argument), and `!:1` (first argument).</li><li>Demonstrates path and filename modifiers like `:h` (directory head) and `:r` (strip file extension) for rapid shell execution.</li><li>Covers POSIX-compliant history editing using `fc`.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything">datasette-upload-dbs 0.5a0</a></h2><div class="why">Demonstrates an elegant backend infrastructure pattern for atomic database deployment via CI/CD pipelines.</div><ul><li>Introduces a formal REST API (`/-/upload-dbs`) to upload and atomically swap SQLite databases on live Datasette instances.</li><li>Enables background database generation in CI (e.g., GitHub Actions) with zero-downtime production swaps.</li></ul></div><div class="section">Low priority &middot; 4</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://brentfitzgerald.com/posts/the-human-is-the-loop/">The Human Is the Loop</a></h2><div class="why">A personal reflection on psychological burnout and developer habits with AI tools rather than a technical engineering post.</div><ul><li>Reflects on how over-relying on AI coding agents can become a cognitive crutch that hinders direct learning.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0">OpenAI’s head of ethics leaves less than a year after joining</a></h2><div class="why">Non-technical corporate turnover news without infrastructure or engineering insights.</div><ul><li>Reports that OpenAI&#x27;s head of ethics departed the company less than a year after joining.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/ai/2026/08/google-says-gemini-has-reached-1b-users-faster-than-any-other-google-product/">Gemini becomes Google&#x27;s fastest-growing product ever as it hits 1B users</a></h2><div class="why">Pure PR and consumer usage metric announcement with no technical or architectural detail.</div><ul><li>Announces that Gemini reached 1 billion monthly active users on its web and app interfaces.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/cars/2026/08/used-ev-buying-guide-the-30000-edition/">Used EV buying guide: The $30,000 edition</a></h2><div class="why">Off-topic consumer buying guide completely unrelated to engineering or machine learning.</div><ul><li>Analyzes market supply and pricing trends for used electric vehicles under $30,000.</li></ul></div></body></html>
