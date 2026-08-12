@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Wed 12 Aug 2026, 22:10 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Wed 12 Aug 2026, 22:10 IST &middot; 9 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Tailscale&#x27;s postmortem on a 16-year-old SQLite bug leads this batch, alongside Microsoft&#x27;s MindTopo benchmark exposing VLM spatial planning flaws.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://tailscale.com/blog/sqlite-wal-reset-bug">Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug</a></h2><div class="why">An outstanding engineering war story from Tailscale detailing deep forensics behind control plane outages caused by a subtle, 16-year-old SQLite bug.</div><ul><li>Tailscale&#x27;s control plane uses SQLite shards managed by single Go processes where database corruption caused intermittent service outages.</li><li>Forensics traced the issue to a 16-year-old WAL-reset bug in SQLite triggered under specific concurrency and recovery conditions.</li><li>Offers critical production reliability and forensic debugging lessons for infrastructure engineers.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Microsoft Research</span><h2><a href="https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/">MindTopo reveals VLMs’ spatial reasoning abilities</a></h2><div class="why">Microsoft Research introduces MindTopo, a benchmark evaluating 3D spatial topological reasoning and interactive planning in VLMs.</div><ul><li>Evaluates VLMs across five core topological dimensions including connectivity, enclosure, order, separation, and knots.</li><li>Reveals that VLMs perform well on static visual recognition but fail during multi-step planning due to losing track of structural state changes.</li><li>Highlights a key gap in multimodal model evaluation relevant for spatial AI and robotics applications.</li></ul></div><div class="section">Worth a skim &middot; 4</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B">Qwen/Qwen3.8-2.4T-A95B</a></h2><div class="why">Provides a look into Qwen&#x27;s exact Jinja prompt template structure for tool calling and reasoning instructions.</div><ul><li>Exposes Qwen&#x27;s chat template for embedding XML-formatted function calls and reasoning instructions.</li><li>Demonstrates concrete prompt interfaces required to align multi-step tool-use and reasoning flows in open models.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/">Booksellers suspect AI firms are buying and then destroying rare books</a></h2><div class="why">Provides context on the aggressive physical data acquisition strategies AI labs use to gather pretraining text.</div><ul><li>Reports that AI data vendors are buying rare books and using destructive scanning for rapid dataset digitization.</li><li>Illustrates the severe data scarcity challenges driving current frontier LLM pretraining strategies.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/allenai/olmoearth-embeddings">Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis</a></h2><div class="why">Details how AI2&#x27;s open OlmoEarth geospatial foundation model exports quantized embeddings for downstream vision tasks.</div><ul><li>Exports int8 Cloud-Optimized GeoTIFF embeddings from OlmoEarth foundation models ranging from 1.4M to 89M parameters.</li><li>Supports multi-modal Sentinel satellite data across configurable spatial and temporal windows.</li><li>Enables downstream land-use classification, change detection, and similarity search without full fine-tuning.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything">Quoting Florian Herrengt</a></h2><div class="why">A relevant commentary on AI-assisted coding tools creating cognitive debt and eroding baseline software engineering comprehension.</div><ul><li>Warns against over-reliance on LLMs to fix complex bugs without engineers understanding the underlying system architecture.</li><li>Emphasizes that uncritical AI code generation accumulates cognitive debt that renders complex systems unmaintainable.</li></ul></div><div class="section">Low priority &middot; 3</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/">License plate reader searches should require a warrant</a></h2><div class="why">Focuses on legal standards for police license plate tracking, which is irrelevant to backend/ML engineering.</div><ul><li>Argues that law enforcement searches of historical license plate reader databases should require judicial warrants.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://job-boards.greenhouse.io/givecampus/jobs/4112793009">GiveCampus (YC S15) Is Hiring Engineering Managers</a></h2><div class="why">This is a standard job listing for an engineering manager role with no technical learning content.</div><ul><li>GiveCampus is hiring a Senior Engineering Manager to oversee engineering pods.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html">uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook</a></h2><div class="why">The post lacks actual article text or meaningful technical content.</div><ul><li>Contains no readable content beyond a headline.</li></ul></div></body></html>

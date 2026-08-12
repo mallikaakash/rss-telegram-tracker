@@ -50085,5 +50085,113 @@
    "Runs small ML classification models directly on mobile client hardware to detect scam patterns without sending message content to servers.",
    "Maintains WhatsApp's E2EE security model by ensuring zero automatic data reporting unless explicitly initiated by the user."
   ]
+ },
+ "550006791bdd5557": {
+  "feed": "YC Hacker News",
+  "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+  "link": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+  "date": "2026-08-12",
+  "tier": "must_read",
+  "why": "An outstanding engineering war story from Tailscale detailing deep forensics behind control plane outages caused by a subtle, 16-year-old SQLite bug.",
+  "points": [
+   "Tailscale's control plane uses SQLite shards managed by single Go processes where database corruption caused intermittent service outages.",
+   "Forensics traced the issue to a 16-year-old WAL-reset bug in SQLite triggered under specific concurrency and recovery conditions.",
+   "Offers critical production reliability and forensic debugging lessons for infrastructure engineers."
+  ]
+ },
+ "d8d84c04601d2674": {
+  "feed": "YC Hacker News",
+  "title": "License plate reader searches should require a warrant",
+  "link": "https://andrewpwheeler.com/2026/08/12/license-plate-reader-searches-should-require-a-warrant/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Focuses on legal standards for police license plate tracking, which is irrelevant to backend/ML engineering.",
+  "points": [
+   "Argues that law enforcement searches of historical license plate reader databases should require judicial warrants."
+  ]
+ },
+ "f9e1ef66ab3da5c6": {
+  "feed": "YC Hacker News",
+  "title": "Qwen/Qwen3.8-2.4T-A95B",
+  "link": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "Provides a look into Qwen's exact Jinja prompt template structure for tool calling and reasoning instructions.",
+  "points": [
+   "Exposes Qwen's chat template for embedding XML-formatted function calls and reasoning instructions.",
+   "Demonstrates concrete prompt interfaces required to align multi-step tool-use and reasoning flows in open models."
+  ]
+ },
+ "8c372dce5136f988": {
+  "feed": "YC Hacker News",
+  "title": "GiveCampus (YC S15) Is Hiring Engineering Managers",
+  "link": "https://job-boards.greenhouse.io/givecampus/jobs/4112793009",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "This is a standard job listing for an engineering manager role with no technical learning content.",
+  "points": [
+   "GiveCampus is hiring a Senior Engineering Manager to oversee engineering pods."
+  ]
+ },
+ "9f388ba4fa3a5d1b": {
+  "feed": "YC Hacker News",
+  "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+  "link": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "The post lacks actual article text or meaningful technical content.",
+  "points": [
+   "Contains no readable content beyond a headline."
+  ]
+ },
+ "ef64a8025f9c5e6b": {
+  "feed": "Technica",
+  "title": "Booksellers suspect AI firms are buying and then destroying rare books",
+  "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "Provides context on the aggressive physical data acquisition strategies AI labs use to gather pretraining text.",
+  "points": [
+   "Reports that AI data vendors are buying rare books and using destructive scanning for rapid dataset digitization.",
+   "Illustrates the severe data scarcity challenges driving current frontier LLM pretraining strategies."
+  ]
+ },
+ "0377a19f73319b13": {
+  "feed": "Microsoft Research",
+  "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
+  "link": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+  "date": "2026-08-12",
+  "tier": "must_read",
+  "why": "Microsoft Research introduces MindTopo, a benchmark evaluating 3D spatial topological reasoning and interactive planning in VLMs.",
+  "points": [
+   "Evaluates VLMs across five core topological dimensions including connectivity, enclosure, order, separation, and knots.",
+   "Reveals that VLMs perform well on static visual recognition but fail during multi-step planning due to losing track of structural state changes.",
+   "Highlights a key gap in multimodal model evaluation relevant for spatial AI and robotics applications."
+  ]
+ },
+ "e43158037a354e46": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+  "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "Details how AI2's open OlmoEarth geospatial foundation model exports quantized embeddings for downstream vision tasks.",
+  "points": [
+   "Exports int8 Cloud-Optimized GeoTIFF embeddings from OlmoEarth foundation models ranging from 1.4M to 89M parameters.",
+   "Supports multi-modal Sentinel satellite data across configurable spatial and temporal windows.",
+   "Enables downstream land-use classification, change detection, and similarity search without full fine-tuning."
+  ]
+ },
+ "cd20ea4fd093d5bc": {
+  "feed": "Simon Willison",
+  "title": "Quoting Florian Herrengt",
+  "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "A relevant commentary on AI-assisted coding tools creating cognitive debt and eroding baseline software engineering comprehension.",
+  "points": [
+   "Warns against over-reliance on LLMs to fix complex bugs without engineers understanding the underlying system architecture.",
+   "Emphasizes that uncritical AI code generation accumulates cognitive debt that renders complex systems unmaintainable."
+  ]
  }
 }
