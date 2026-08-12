@@ -2258,5 +2258,63 @@
    "Details how the vLLM scheduler and KV-cache manager iterate per step to decide request admission based on block budget.",
    "Contrasts compute-bound prefill dense matrix multiplications against memory-bound decode streaming requirements."
   ]
+ },
+ "8d67f917c2b1eac9": {
+  "url": "https://vibeengines.com/paper/vllm-pagedattention",
+  "title": "PagedAttention (vLLM), Explained — Paging the KV Cache | Vibe Engines",
+  "domain": "vibeengines.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-12",
+  "tier": "skip",
+  "why": "This is a basic paper explainer summarizing the well-known 2023 PagedAttention/vLLM paper rather than offering novel technical findings or original engineering data.",
+  "points": []
+ },
+ "ea9a834dd5e9ac42": {
+  "url": "https://pawankjha.substack.com/p/architecting-kv-cache-for-llm-inference",
+  "title": "Architecting KV Cache for LLM Inference: Part1-Memory Architecture, Paging, and Cache-Footprint Optimization",
+  "domain": "pawankjha.substack.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-12",
+  "tier": "skip",
+  "why": "This Substack post provides a high-level educational overview of standard, well-documented KV cache concepts rather than publishing original empirical research or production postmortems.",
+  "points": []
+ },
+ "fecb062808c472c8": {
+  "url": "https://www.alphaxiv.org/abs/2509.22193",
+  "title": "Scale or Reason? A Compute-Equivalent Analysis of Reasoning Distillation | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-12",
+  "tier": "hidden_gem",
+  "why": "A rigorous paper providing novel empirical data that challenges common wisdom by analyzing compute-equivalent trade-offs between reasoning distillation and standard instruction fine-tuning.",
+  "points": [
+   "Reasoning traces are 5-20x longer than standard IFT outputs, creating a heavy compute trade-off against model size.",
+   "At matched FLOP budgets, standard IFT remains on or near the Pareto frontier for most tasks, with reasoning distillation only outperforming at 7B+ scale on open-ended tasks.",
+   "A sequential curriculum mixing just 25-50% reasoning data with standard IFT captures most reasoning benefits at a fraction of the compute cost."
+  ]
+ },
+ "2462892d260e3be2": {
+  "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+  "title": "Scaling Laws, Carefully | Lil'Log",
+  "domain": "lilianweng.github.io",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-12",
+  "tier": "skip",
+  "why": "Although written by a prominent AI blogger, this is a standard survey repeating widely known scaling law literature (Kaplan, Chinchilla) without presenting original empirical findings.",
+  "points": []
+ },
+ "1312f26dc68ee316": {
+  "url": "https://infrahouse.com/blog/2026-07-18-a-container-that-couldnt-see-its-gpu/",
+  "title": "A Container That Couldn't See Its GPU: Autoscaling GPU Workloads on ECS",
+  "domain": "infrahouse.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-12",
+  "tier": "hidden_gem",
+  "why": "An excellent small-team infrastructure postmortem detailing a real-world production bug with AWS ECS GPU autoscaling metrics and documenting four failed fixes before finding a solution.",
+  "points": [
+   "Uncovers how target-tracking policies fell back to INSUFFICIENT_DATA silently while GPUs actively served production inference traffic.",
+   "Explains the technical subtle separation between ECS task-layer desiredCount scaling and ASG-layer capacity provider reservation scaling.",
+   "Walks through four plausible CloudWatch metric configuration attempts that failed on live EC2 instances before successfully establishing telemetry flow."
+  ]
  }
 }
