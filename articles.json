@@ -49748,5 +49748,64 @@
    "Introduces a formal REST API (`/-/upload-dbs`) to upload and atomically swap SQLite databases on live Datasette instances.",
    "Enables background database generation in CI (e.g., GitHub Actions) with zero-downtime production swaps."
   ]
+ },
+ "cb6bf524df05329d": {
+  "feed": "YC Hacker News",
+  "title": "LinkedIn CringeBot 3000",
+  "link": "https://www.cringebot3000.com/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Empty link submission with no technical content or relevance to ML or backend engineering.",
+  "points": [
+   "Contains no substantive engineering analysis or commentary."
+  ]
+ },
+ "33f1d14380889275": {
+  "feed": "YC Hacker News",
+  "title": "Worms: The Future of Yesterday's Worms Today",
+  "link": "https://worm.net/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Retro gaming expansion pack announcement with no backend infrastructure or ML relevance.",
+  "points": [
+   "Announces a 30th-anniversary fan-curated expansion pack for Worms: The Director's Cut."
+  ]
+ },
+ "9938cc8ab2e95aec": {
+  "feed": "YC Hacker News",
+  "title": "DARPA heavy lift challenge ends with winner at a 3.84:1 payload to weight ratio",
+  "link": "https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "Provides an interesting hardware physics breakdown of why traditional single-rotor designs beat complex multirotors in heavy-lift efficiency.",
+  "points": [
+   "A conventional single-main-rotor helicopter won DARPA's Lift Challenge with a 3.84:1 payload-to-weight ratio.",
+   "Demonstrates that large rotor disk area at low disk loading wastes less power per pound of lift than multirotor configurations."
+  ]
+ },
+ "d45e6cc9bb3124b3": {
+  "feed": "YC Hacker News",
+  "title": "Grok Bot",
+  "link": "https://x.ai/bot",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "Relevant strategic product launch in autonomous agentic AI, highlighting dedicated execution environments and parallel bot workflows.",
+  "points": [
+   "Grok Bot launches autonomous AI agents equipped with dedicated cloud environments to perform tool-use tasks 24/7.",
+   "Features workflow learning by watching human GUI interactions once and converting them into scheduled routines.",
+   "Priced at $200/month standalone or $120/seat/month for teams."
+  ]
+ },
+ "1c6cb5cfcea24d2d": {
+  "feed": "YC Hacker News",
+  "title": "Making holograms with a pen plotter",
+  "link": "https://blog.jordan.matelsky.com/Penplotter-holography/",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "A high-quality creative engineering deep-dive into specular reflection optics and controlling parallax with scratch holography.",
+  "points": [
+   "Hand-etched holography generates 3D virtual images by controlling the radius of curvature of reflective ridges.",
+   "Specular highlight movement speed is inversely proportional to curvature radius, accurately reproducing physical depth parallax."
+  ]
  }
 }
