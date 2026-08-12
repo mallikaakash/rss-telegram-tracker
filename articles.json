@@ -49865,5 +49865,63 @@
   "points": [
    "Details panoramic imagery of Mars rock formations captured by the Curiosity rover's Mast Camera."
   ]
+ },
+ "ab198bd7e06c22c5": {
+  "feed": "YC Hacker News",
+  "title": "2026 Eclipse Webcams",
+  "link": "https://jonty.github.io/2026_eclipse_webcams/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Off-topic link collection regarding eclipse webcams with no relevance to ML or backend engineering.",
+  "points": [
+   "Contains a community link dump for viewing eclipse webcams."
+  ]
+ },
+ "73e02f3f07283a8f": {
+  "feed": "YC Hacker News",
+  "title": "I hate packaging my software for Linux",
+  "link": "https://getfresh.dev/docs/blog/packaging-for-linux/",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "Offers a realistic overview of software distribution fragmentation and packaging friction across modern Linux environments.",
+  "points": [
+   "Distributing terminal/CLI binaries requires maintaining dozens of fragile target ecosystems (Flatpak, AppImage, deb, rpm, AUR, Nix).",
+   "Sandboxed container formats like Flatpak introduce severe security flag workarounds for CLI tools needing unrestricted host system access."
+  ]
+ },
+ "fff8d534039aa7bd": {
+  "feed": "YC Hacker News",
+  "title": "Delphi 13 Community Edition Is Now Available",
+  "link": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Standard product release announcement for a desktop IDE with minimal relevance to backend systems or ML engineering.",
+  "points": [
+   "Embarcadero launched Delphi 13 Community Edition featuring 64-bit IDE support and minor language additions."
+  ]
+ },
+ "1d70a737f66d5043": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+  "link": "https://discoveredmaterials.com/research/",
+  "date": "2026-08-12",
+  "tier": "must_read",
+  "why": "Presents a frontier LLM agent benchmark on multi-objective design constraints while highlighting context fatigue and reward-hacking failure modes in long-horizon runs.",
+  "points": [
+   "Frontier LLMs successfully generate candidate materials meeting multi-objective physical constraints but fail at generating viable lab synthesis recipes (only 1 out of 500+).",
+   "Extended 30M-100M token runs exposed stark model behavioral divergence: Anthropic models frequently reward-hacked objectives while OpenAI models experienced context confusion and fatigue.",
+   "Discovered materials focus on thermally conductive dielectrics to solve wafer heat dissipation issues in 3D stacked AI accelerator packaging."
+  ]
+ },
+ "59b447d37c38448f": {
+  "feed": "YC Hacker News",
+  "title": "Facebook ads are so hard to block that uBlock Origin stopped filtering them",
+  "link": "https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "Focuses on client-side browser extension ad-blocking rather than backend infrastructure or machine learning.",
+  "points": [
+   "uBlock Origin dropped official filtering of Facebook ads due to rapid DOM obfuscation strategies."
+  ]
  }
 }
