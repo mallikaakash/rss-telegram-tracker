@@ -50193,5 +50193,87 @@
    "Warns against over-reliance on LLMs to fix complex bugs without engineers understanding the underlying system architecture.",
    "Emphasizes that uncritical AI code generation accumulates cognitive debt that renders complex systems unmaintainable."
   ]
+ },
+ "fbdfaa10f2aa8cf2": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek V4 Pro 0813",
+  "link": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Provides key API pricing and context window specs for DeepSeek's new GA mixture-of-experts model on OpenRouter.",
+  "points": [
+   "DeepSeek V4 Pro GA model provides a 1M context window at $0.435/$0.87 per 1M input/output tokens.",
+   "Hosted on OpenRouter with direct routing, OpenAI-compatible API endpoints, and live latency/TTFT tracking."
+  ]
+ },
+ "32cdb4e18a7ec1e9": {
+  "feed": "YC Hacker News",
+  "title": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index",
+  "link": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Delivers concrete benchmark data and cost-efficiency analysis comparing Grok 4.6 against Claude Opus 5 and GPT-5.6 Sol on agentic tasks.",
+  "points": [
+   "Grok 4.6 reaches frontier intelligence (score 61) at $2/$6 per 1M tokens, undercutting competitors like Claude Opus 5 by over 60%.",
+   "Demonstrates high turn-efficiency on agentic tasks, completing long-horizon work in ~53 turns versus ~103 turns for Claude Opus 5.",
+   "Achieves 88.4% on Terminal-Bench v2.1 and 50.7% on tau3-Banking for multi-turn tool-use agent workloads."
+  ]
+ },
+ "94cc7b82f2a790c4": {
+  "feed": "YC Hacker News",
+  "title": "Glaciers on the Climate Dashboard",
+  "link": "https://climate.metoffice.cloud/glaciers.html",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Climate science data visualization post completely unrelated to ML engineering or backend infrastructure.",
+  "points": [
+   "Tracks global glacier mass balance loss monitored by the World Glacier Monitoring Service."
+  ]
+ },
+ "afca642b878bd528": {
+  "feed": "YC Hacker News",
+  "title": "Qwen3.8-2.4T",
+  "link": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Exposes the exact Jinja chat template, reasoning instruction syntax, and tool-calling format for Qwen's 2.4T parameter MoE model.",
+  "points": [
+   "Reveals Qwen3.8 prompt template formatting rules for nested XML tool invocation (<tool_call><function=...></tool_call>).",
+   "Specifies strict system-level mechanics for handling multi-step tool calls and reasoning instruction injection."
+  ]
+ },
+ "25f4625a8576d6e6": {
+  "feed": "YC Hacker News",
+  "title": "Reflex (YC W23) Is hiring Growth and GTM Roles",
+  "link": "https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "A startup job posting for a non-engineering GTM role.",
+  "points": [
+   "Reflex is recruiting a Growth Engineer to build their go-to-market engine."
+  ]
+ },
+ "27adfce803ed4243": {
+  "feed": "Technica",
+  "title": "US tries to override New York gambling laws, orders Kalshi to keep operating",
+  "link": "https://arstechnica.com/tech-policy/2026/08/us-tries-to-override-new-york-gambling-laws-orders-kalshi-to-keep-operating/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Regulatory and legal news concerning prediction markets, off-target for technical ML engineering priorities.",
+  "points": [
+   "CFTC invoked emergency authority to keep Kalshi operating despite a New York legal challenge."
+  ]
+ },
+ "4bec668cb6869c4b": {
+  "feed": "Google Research",
+  "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+  "link": "https://research.google/blog/empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality/",
+  "date": "2026-08-13",
+  "tier": "must_read",
+  "why": "A foundational Google Research deep-dive showing that LLM factuality errors stem from recall failures rather than missing parametric training data.",
+  "points": [
+   "Introduces a knowledge profiling framework proving LLMs successfully encode facts in parameters but fail to recall them during generation.",
+   "Shifts the paradigm for fixing parametric hallucinations from training data scaling to improving internal model activation/retrieval mechanisms."
+  ]
  }
 }
