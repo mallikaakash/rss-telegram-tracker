@@ -49807,5 +49807,63 @@
    "Hand-etched holography generates 3D virtual images by controlling the radius of curvature of reflective ridges.",
    "Specular highlight movement speed is inversely proportional to curvature radius, accurately reproducing physical depth parallax."
   ]
+ },
+ "a0f3dc1efe58b059": {
+  "feed": "YC Hacker News",
+  "title": "Tim Gowers: What sort of maths are LLMs good at?",
+  "link": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+  "date": "2026-08-12",
+  "tier": "must_read",
+  "why": "Fields Medalist Tim Gowers analyzes LLM reasoning capabilities, focusing on why models excel at discovering math counterexamples over generating formal proofs.",
+  "points": [
+   "LLMs excel at solving major open mathematical problems when framed as finding counterexamples rather than building full formal proofs.",
+   "The essay evaluates how generative search aligns with counterexample discovery across group theory and Ramsey theory.",
+   "Provides an expert perspective on evaluating automated reasoning capabilities and frontier model limitations in mathematics."
+  ]
+ },
+ "4d5da3ea46dccb3f": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+  "link": "https://woxi.ad-si.com",
+  "date": "2026-08-12",
+  "tier": "worth_a_skim",
+  "why": "An open-source Wolfram Language reimplementation in Rust featuring WebAssembly browser execution, CLI tools, and Jupyter kernel support.",
+  "points": [
+   "Written in Rust to execute locally in-browser via WebAssembly without sending data to server backends.",
+   "Supports multiple frontends including a native notebook editor (.nb format), JupyterLite kernel, and CLI evaluation."
+  ]
+ },
+ "73069a93bafd7554": {
+  "feed": "YC Hacker News",
+  "title": "Dutch Train Map Simulator",
+  "link": "https://spoorkaart.zaza.dev",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "An interactive Dutch railway schedule and map simulator that is completely unrelated to backend or ML engineering.",
+  "points": [
+   "Displays interactive timetables and route maps for Dutch train lines."
+  ]
+ },
+ "1c934513bcad1e7d": {
+  "feed": "YC Hacker News",
+  "title": "Facebook is paying controversial creators to produce rage-bait content",
+  "link": "https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "A news report on Meta's creator monetization policies regarding controversial content, lacking technical backend or ML infra substance.",
+  "points": [
+   "Investigates Facebook revenue-sharing payments made to controversial accounts."
+  ]
+ },
+ "fbc15ceae982e35e": {
+  "feed": "YC Hacker News",
+  "title": "High-Res Photo Shows Sand-Capped Butte Rising from Mars Plain of Polygons",
+  "link": "https://petapixel.com/2026/08/04/amazing-high-res-photo-shows-a-butte-rising-from-mars/",
+  "date": "2026-08-12",
+  "tier": "low_priority",
+  "why": "A news article featuring high-resolution Mars landscape photography from the Curiosity rover, which is off-topic for this reader.",
+  "points": [
+   "Details panoramic imagery of Mars rock formations captured by the Curiosity rover's Mast Camera."
+  ]
  }
 }
