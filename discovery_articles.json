@@ -2316,5 +2316,99 @@
    "Explains the technical subtle separation between ECS task-layer desiredCount scaling and ASG-layer capacity provider reservation scaling.",
    "Walks through four plausible CloudWatch metric configuration attempts that failed on live EC2 instances before successfully establishing telemetry flow."
   ]
+ },
+ "627acee34f160d35": {
+  "url": "https://rfriedmann.de/blog/speculative-decoding/",
+  "title": "Speculative decoding: let a small model do the guessing - Raphael Friedmann",
+  "domain": "rfriedmann.de",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-13",
+  "tier": "solid_find",
+  "why": "A clear, roofline-based analysis of speculative decoding that frames token generation acceleration around GPU memory bandwidth limits.",
+  "points": [
+   "Explains speculative decoding as spending idle GPU compute units while bound by weight memory bandwidth",
+   "Target models verify multiple draft tokens in parallel during a single forward pass without increasing bandwidth overhead",
+   "Uses rejection sampling to guarantee identical output probability distributions without quality loss"
+  ]
+ },
+ "894b1e10b090b1cd": {
+  "url": "https://benebsworth.com/blog/delta-rule-linear-attention/",
+  "title": "The delta rule: linear attention for a million-token context · Ben Ebsworth",
+  "domain": "benebsworth.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-13",
+  "tier": "solid_find",
+  "why": "Provides a rigorous breakdown of linear attention and the delta rule, analyzing the math behind long-context architectures like Kimi K3.",
+  "points": [
+   "Demonstrates that scaling context from 128K to 1M tokens increases quadratic attention work by ~61x while linear attention grows only 7.8x",
+   "Explains how dropping softmax enables associative re-ordering to maintain a fixed-size state",
+   "Connects 2021 linear attention delta-rule research to production flagships like Kimi Delta Attention"
+  ]
+ },
+ "b66d9ae9fb1d7d91": {
+  "url": "https://www.linkedin.com/posts/illiazakharov_ai-machinelearning-llm-activity-7478064399195373568-hd_b",
+  "title": "🔎 I tried to make language-model pretraining faster by compressing text. | Illia Zakharov",
+  "domain": "linkedin.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-13",
+  "tier": "hidden_gem",
+  "why": "An insightful postmortem detailing empirical negative results from attempting to accelerate pretraining via text compression.",
+  "points": [
+   "Compressing text yielded a 4x sequence shortening and 3.67x faster training, but failed due to lossy token representations",
+   "Reconstruction accuracy capped at 56.9%, leading to worse generation quality than standard BPE baselines",
+   "Downstream repair models and larger generator capacities failed to recover information lost during initial text compression"
+  ]
+ },
+ "8dc65be2dcdfe5a1": {
+  "url": "https://teqvolt.com/deep-dives/kv-cache-memory-trick-fast-llm-inference",
+  "title": "KV Cache: The Memory Trick Behind Fast LLM Inference — TeqVolt",
+  "domain": "teqvolt.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-13",
+  "tier": "skip",
+  "why": "Standard introductory guide explaining high-level KV cache mechanics and PagedAttention without novel findings or unique benchmark data.",
+  "points": []
+ },
+ "373881392f33310a": {
+  "url": "https://tensorfoundry.io/blog/mlx-under-the-hood",
+  "title": "Under the Hood of MLX: How a Model Runs on a Mac | TensorFoundry",
+  "domain": "tensorfoundry.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-13",
+  "tier": "solid_find",
+  "why": "A useful technical deep dive into MLX internals, explaining graph construction, lazy evaluation, and kernel fusion on Apple Silicon.",
+  "points": [
+   "MLX defers execution by default, building an operation graph until mx.eval is explicitly invoked",
+   "mx.compile traces the operation graph to fuse chains of operations into unified GPU kernels",
+   "Kernel fusion reduces GPU dispatch overhead and command buffer submission frequency"
+  ]
+ },
+ "38fbcd75602d4930": {
+  "url": "https://huggingface.co/blog/Banaxi-Tech/ovdadadadd",
+  "title": "Extreme Overtraining in Tiny Language Models",
+  "domain": "huggingface.co",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-13",
+  "tier": "hidden_gem",
+  "why": "A rare empirical study on extreme overtraining limits in ultra-small language models with precise dataset and architecture benchmarks.",
+  "points": [
+   "Trained a 0.9M parameter model up to 200B tokens (~222,000 tokens per parameter ratio)",
+   "Discovered that model performance peaked at ~20B tokens (~22,000:1 ratio) before severely degrading across standard SLM benchmarks",
+   "Showed that small vocabulary sizes (384 tokens) cannot indefinitely absorb extra token volume to overcome parameter capacity limits"
+  ]
+ },
+ "ccad8d6a801dafd9": {
+  "url": "https://blog.maincode.com/writing-our-own-inference-engine-in-rust-on-the-amd-mi355x/",
+  "title": "Writing our own inference engine in Rust on the AMD MI355X",
+  "domain": "blog.maincode.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-13",
+  "tier": "hidden_gem",
+  "why": "A high-signal engineering post on bare-metal optimization for AMD MI355X silicon with custom Rust kernels outperforming RCCL.",
+  "points": [
+   "Built a custom Rust inference layer directly on AMD MI355X hardware for production serving",
+   "Achieved a 1.3x speedup over AMD's official RCCL library on tensor-parallel token-level all-reduce operations",
+   "Demonstrated that stripping general-purpose runtime abstraction overhead allows communication to hit the hardware's physical performance floor"
+  ]
  }
 }
