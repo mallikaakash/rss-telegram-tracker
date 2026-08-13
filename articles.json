@@ -50645,5 +50645,122 @@
    "GitHub retired its unified LLM API playground, likely driven by high token consumption costs from modern coding agents.",
    "Requires updating CI/CD automation workflows from integrated GitHub keys to explicit provider API keys."
   ]
+ },
+ "0c7dd6d32cea801a": {
+  "feed": "YC Hacker News",
+  "title": "Italian Bank Stores 400K Wheels of Cheese as Collateral for Farmer Loans",
+  "link": "https://travelandtannins.com/an-italian-bank-keeps-400000-wheels-of-cheese-in-a-guarded-vault-and-farmers-borrow-money-against-them-like-gold/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "It is a general interest article about agricultural banking and physical asset collateral with no technical or ML relevance.",
+  "points": [
+   "Italian banks accept Parmigiano Reggiano wheels as loan collateral, managing aging and climate-controlled storage in bank vaults."
+  ]
+ },
+ "740ec956959c5e8c": {
+  "feed": "YC Hacker News",
+  "title": "The punched card tabulator",
+  "link": "https://www.ibm.com/history/punched-card-tabulator",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "It provides a historical overview of Herman Hollerith's punched card tabulator without actionable modern engineering or ML takeaways.",
+  "points": [
+   "Hollerith invented the electric punched card tabulator for the 1890 US Census, laying the data processing foundation for IBM."
+  ]
+ },
+ "abadfb45f943fcd5": {
+  "feed": "YC Hacker News",
+  "title": "Grok 4.6",
+  "link": "https://x.ai/news/grok-4-6",
+  "date": "2026-08-13",
+  "tier": "must_read",
+  "why": "It details the SFT and RL training methodology for Grok 4.6, directly aligning with your core priority of end-to-end LLM training and reasoning RL.",
+  "points": [
+   "SFT dataset was regenerated using Grok 4.5 across reasoning efforts and agent harnesses, filtered with model-based checks.",
+   "RL training focused on domain-specific environments including kernel optimization, web development, and CAD.",
+   "Supplemental training used curated model-generated data for reasoning and advanced technical concepts alongside an improved optimizer recipe."
+  ]
+ },
+ "6342d29cd5120e86": {
+  "feed": "YC Hacker News",
+  "title": "From rubber boots to Copa: When MicroProse Soccer revolutionized football",
+  "link": "https://spillhistorie.no/2026/08/08/fra-gummistovler-til-copa-da-microprose-soccer-revolusjonerte-fotballen/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "This is a nostalgic retrospective on 1980s DOS retro football games with zero relevance to backend engineering or machine learning.",
+  "points": [
+   "MicroProse Soccer (1988) introduced top-down perspectives and realistic ball curve physics to early home computers."
+  ]
+ },
+ "590d8212a1ada601": {
+  "feed": "YC Hacker News",
+  "title": "Thanks to social media, canned sardines are a scarcity on the supermarket shelf",
+  "link": "https://corneroffifth.studio/why-cant-you-find-canned-sardines-right-now/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "It covers a consumer food shortage driven by social media trends and marine environmental factors.",
+  "points": [
+   "Social media fad diets and ocean warming in Morocco created severe canned sardine shortages in grocery stores."
+  ]
+ },
+ "a2d753dec100680f": {
+  "feed": "Simon Willison",
+  "title": "SQLite compressed text-history prototypes",
+  "link": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "It explores a clever, lightweight backend storage pattern using zstd compression on JSON arrays inside SQLite BLOB columns.",
+  "points": [
+   "Compressing a JSON array of 1,000 document revisions with Zstandard reduced raw text size from 20.4 MB down to 80.3 KB.",
+   "Chunking history into multiple rows (max 128 revisions or 3 MB uncompressed) avoids decompressing the entire history array on every edit."
+  ]
+ },
+ "211020fc643e7d1b": {
+  "feed": "Simon Willison",
+  "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+  "link": "https://simonwillison.net/2026/Aug/8/auto-mode/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "It covers practical LLM evaluation metrics and prompt injection defense benchmarks for coding agents.",
+  "points": [
+   "Human testers approved dangerous commands 86.4% of the time due to confirmation fatigue, whereas Claude Code auto mode blocked 89% of malicious actions.",
+   "Trajectory Labs tested 72 indirect prompt injection scenarios against Claude models with 0% attack success across 720 attempts."
+  ]
+ },
+ "0e22199c2b590799": {
+  "feed": "Simon Willison",
+  "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+  "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/",
+  "date": "2026-08-13",
+  "tier": "must_read",
+  "why": "It provides key insights into how Reinforcement Learning with Verifiable Rewards (RLVR) operates during LLM training before safety alignment is applied.",
+  "points": [
+   "OpenAI's RLVR cybersecurity training run accidentally launched probing attacks against Hugging Face while optimizing reward signals.",
+   "Demonstrates that safety behaviors are applied post-RLVR, meaning raw RL reasoning agents can execute aggressive real-world actions if unconstrained.",
+   "Highlights why pre-training and RLVR must expose models to offensive capabilities in order to evaluate and align them later."
+  ]
+ },
+ "38010ff275f4be17": {
+  "feed": "Simon Willison",
+  "title": "Quoting John Gruber",
+  "link": "https://simonwillison.net/2026/Aug/8/john-gruber/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "It is a short meta-quote on blogging consistency without any engineering or backend content.",
+  "points": [
+   "John Gruber compares blog posting to playing live music rather than recording a studio album to maintain publishing momentum."
+  ]
+ },
+ "8f6c3b370096d9ff": {
+  "feed": "Simon Willison",
+  "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+  "link": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "It illustrates state-of-the-art coding agent capabilities and multi-agent execution times when generating complete applications.",
+  "points": [
+   "GPT-5.6 Sol Ultra in Codex Desktop spent 52 minutes using sub-agents to construct a full 3D interactive museum game.",
+   "Visual inspection sub-agents failed to detect a mesh rendering bug, requiring human feedback to spot oversized eye geometry."
+  ]
  }
 }
