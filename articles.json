@@ -50762,5 +50762,120 @@
    "GPT-5.6 Sol Ultra in Codex Desktop spent 52 minutes using sub-agents to construct a full 3D interactive museum game.",
    "Visual inspection sub-agents failed to detect a mesh rendering bug, requiring human feedback to spot oversized eye geometry."
   ]
+ },
+ "225d8822c185feb0": {
+  "feed": "YC Hacker News",
+  "title": "The lattice of sets of natural numbers is rich",
+  "link": "https://jdh.hamkins.org/the-lattice-of-sets-of-natural-numbers-is-rich/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Pure set theory and mathematical logic with no application to ML, systems engineering, or backend infrastructure.",
+  "points": [
+   "Explores suborders and infinite chains within the power set lattice of natural numbers."
+  ]
+ },
+ "5b2dd78e06248c65": {
+  "feed": "YC Hacker News",
+  "title": "The Three-Stroke Problem",
+  "link": "https://penpot.app/blog/the-three-stroke-problem/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "A detailed engineering investigation into complex stroke rendering algorithms and WebGL pipeline challenges.",
+  "points": [
+   "Explores how combining multiple stroke styles creates complex geometry edge cases in WebGL renderers.",
+   "Translates vector SVG border logic into WebGL shaders and real-time graphics rendering pipelines."
+  ]
+ },
+ "1afb54b1344ac90e": {
+  "feed": "YC Hacker News",
+  "title": "Breaking the WAL",
+  "link": "https://antithesis.com/blog/2026/wal-reset-bug/",
+  "date": "2026-08-13",
+  "tier": "must_read",
+  "why": "Excellent database reliability deep-dive analyzing a 14-year-old SQLite concurrency bug in the Write-Ahead Log that caused real-world outages.",
+  "points": [
+   "SQLite 3.51.3 fixed a tight-timing data race in WAL reset present since 2010 that caused Tailscale production issues.",
+   "Antithesis reproduced the rare, non-deterministic database race condition in 15 minutes using generic assertions and concurrent workloads."
+  ]
+ },
+ "58f40ae24e6c4249": {
+  "feed": "YC Hacker News",
+  "title": "Pixel Watch 5",
+  "link": "https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Consumer hardware product announcement with no technical details on ML models or systems architecture.",
+  "points": [
+   "Announces consumer product features for Google Pixel Watch 5."
+  ]
+ },
+ "273e0745d91a65a6": {
+  "feed": "YC Hacker News",
+  "title": "Shade Map",
+  "link": "https://shademap.app",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Contains no technical content or readable context.",
+  "points": [
+   "No actionable technical content provided."
+  ]
+ },
+ "4dce0134f05f9822": {
+  "feed": "Simon Willison",
+  "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+  "link": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Highlights common operational inefficiencies in enterprise LLM consumption where non-technical workflows balloon token costs.",
+  "points": [
+   "Accenture internal data showed non-engineers drove high token consumption by converting PDFs to images and markdown.",
+   "Underlines the growing enterprise pressure to audit and optimize LLM token usage and pipeline costs."
+  ]
+ },
+ "b18be45c4e7d6817": {
+  "feed": "Simon Willison",
+  "title": "datasette-auth-tokens 0.4a13",
+  "link": "https://simonwillison.net/2026/Aug/6/datasette-auth-tokens/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Routine Datasette plugin version release notes with low general technical relevance.",
+  "points": [
+   "Updates datasette-auth-tokens for compatibility with sqlite-utils 4."
+  ]
+ },
+ "ba62c69ea11ff160": {
+  "feed": "Simon Willison",
+  "title": "datasette 1.0a38",
+  "link": "https://simonwillison.net/2026/Aug/6/datasette/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Explains a SQL injection vulnerability in multi-tenant data access control logic within SQLite database views.",
+  "points": [
+   "A SQL injection flaw allowed users with public table access to query private tables in the same database instance.",
+   "Mitigated by disabling execute-sql permissions or updating to patched versions."
+  ]
+ },
+ "db1ccabc60b1cde8": {
+  "feed": "Simon Willison",
+  "title": "datasette 0.65.3",
+  "link": "https://simonwillison.net/2026/Aug/6/datasette-2/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Brief backport release notice duplicating the security fix covered in the previous post.",
+  "points": [
+   "Backports a SQL injection security fix to Datasette 0.65.3."
+  ]
+ },
+ "ad3dbdde0cbfd2fa": {
+  "feed": "Simon Willison",
+  "title": "Simon Willison on Technical Blogging",
+  "link": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Useful career advice for engineers on technical writing, publishing frequency, and personal branding.",
+  "points": [
+   "Core advice for technical blogging: lower your standards and publish before you feel it is perfect to avoid unreleased drafts.",
+   "Blogging builds unexpected career leverage and helps solidify technical understanding."
+  ]
  }
 }
