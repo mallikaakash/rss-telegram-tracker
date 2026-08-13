@@ -50275,5 +50275,225 @@
    "Introduces a knowledge profiling framework proving LLMs successfully encode facts in parameters but fail to recall them during generation.",
    "Shifts the paradigm for fixing parametric hallucinations from training data scaling to improving internal model activation/retrieval mechanisms."
   ]
+ },
+ "d2535f0238128c31": {
+  "feed": "YC Hacker News",
+  "title": "Delta",
+  "link": "https://zed.dev/blog/introducing-delta",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Delta — Zed's Blog Product Resources Extensions Docs Business Pricing P Sign up S Download D Introducing Delta Nathan Sobo August 12th, 2026 On This Page Review where the work happened Agentic development becomes multiplayer Delta, everywhere An interface built to keep up with agents We built a new application for our new reality Join the private beta What's next for Zed?"
+  ]
+ },
+ "9abd3fd24c08d0fd": {
+  "feed": "YC Hacker News",
+  "title": "Principia Mathematica is modern and insightful",
+  "link": "https://okmij.org/ftp/Computation/Impressions/PrincipiaMathematica.html",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Principia Mathematica previous next start top Principia Mathematica is modern and insightful Introduction Referential transparency, extensionality Definitions: a mere typographic convenience of most importance Propositional functions: anticipation of lambda-calculus for any vs for all: a glimpse of Intuitionism Intuitionistic view on existence Types Origin of set-membership Descriptive functions Introduction Principia Mathematica by Whitehead and Russell was published back in 1910 -- and yet it reads like a modern text on programming languages."
+  ]
+ },
+ "c57f4224ab88ef64": {
+  "feed": "YC Hacker News",
+  "title": "Happy 45th Birthday to the IBM PC and Model F/XT",
+  "link": "https://sharktastica.co.uk/articles/pc-fxt-45",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "1aee3e417e35edb2": {
+  "feed": "YC Hacker News",
+  "title": "Build Wide, Ship Narrow",
+  "link": "https://adapt.com/blog/build-wide-ship-narrow",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Build Wide, Ship Narrow | Blog Platform Solutions Customers Company Pricing Log in Book demo Book demo Table of contents What changed Design still goes first Build wide Demo before anyone reads the code Ship narrow What it bought, what it costs When to reach for it Share this article X Icon LinkedIn Icon Get $100 in free credits when you add Adapt to Slack."
+  ]
+ },
+ "0c1ec251570e2bf2": {
+  "feed": "YC Hacker News",
+  "title": "Why Target Common Lisp for Code Generation?",
+  "link": "http://funcall.blogspot.com/2026/08/why-vibe-code-in-lisp.html",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "2b21256f8da35ff7": {
+  "feed": "Technica",
+  "title": "Toddler's tragic death from brain-destroying amoeba offers lessons for doctors",
+  "link": "https://arstechnica.com/health/2026/08/an-ultra-rare-amoeba-was-destroying-a-toddlers-brain-doctors-missed-it/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A healthy toddler in Washington state fell ill abruptly. It began with vomiting, lethargy, and weakness on his right side. Then it progressed to a headache, fever, and trouble swallowing. At one point, he briefly became unresponsive, and he had episodes where he stopped breathing. Doctors admitted him to the hospital, but his condition only deteriorated."
+  ]
+ },
+ "b7995d0a4e6fe0c1": {
+  "feed": "Technica",
+  "title": "The web’s newest weapon against AI scrapers is a font",
+  "link": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI companies' penchant for scraping through large swathes of the public web in search of valuable training data has already led to lawsuits and technical fixes aimed at stopping the practice. Now, a pair of designers are hoping to stymie these scrapers with a new font designed to offer people a perfectly readable webpage while serving scrapers a subtly edited, nonsensical version in the underlying HTML."
+  ]
+ },
+ "80c120873d58c484": {
+  "feed": "Technica",
+  "title": "Terabytes of credentials leaked in massive supply-chain attack",
+  "link": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Terabytes worth of credentials, many belonging to the world’s biggest and most sensitive organizations, have been exposed in a supply-chain attack on LiteLLM, an open source tool that streamlines AI-driven software development. Microsoft, Amazon, Cisco, Samsung, and Salesforce are only a handful of the entities whose access secrets were exposed. The revelation was posted on Tuesday and Wednesday by security firms CloudSEK and Hudson Rock."
+  ]
+ },
+ "af0f2f319bff6eaf": {
+  "feed": "Technica",
+  "title": "Have physicists finally discovered glueballs? New evidence points to yes.",
+  "link": "https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Physicists with the Beijing Spectrometer III (BES III) experiment have uncovered convincing new evidence of the existence of so-called glueballs , an elusive composite particle made entirely of gluons predicted by quantum theory. The results appeared in a preprint posted to arXiv last month and were also presented last week at the International Conference on High Energy Physics (ICHEP)."
+  ]
+ },
+ "24a64c1218540392": {
+  "feed": "Technica",
+  "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
+  "link": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Twitch now lets users opt out of Amazon's use of content from their channels to train Amazon's \"generative AI content models.\" The change, announced today, comes more than two years after a company executive confirmed that Amazon was using Twitch content for AI training. In an updated support page , Twitch confirms that users must opt out if they don’t want their “streams, VODs, clips, stream chats, and pictures and text on your channel [to] be used in future training of a model developed by Amazon whose purpose is to generate or synthesize text, audio, images, or video.” To opt out, users must go to the proper settings at www.twitch.tv/settings/security ."
+  ]
+ },
+ "cad35e6294feba2f": {
+  "feed": "OpenAI News",
+  "title": "How RingCentral builds AI-native work from engineering to ops",
+  "link": "https://openai.com/index/ringcentral",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How RingCentral builds AI-native work from engineering to ops | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 12, 2026 How RingCentral builds AI-native work from engineering to ops With ChatGPT Work and Codex, RingCentral builds AI product features faster and centralizes operational intelligence."
+  ]
+ },
+ "b9a7811027c857a9": {
+  "feed": "OpenAI News",
+  "title": "How data science teams use ChatGPT Work",
+  "link": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How data science teams use ChatGPT Work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI July 14, 2026 OpenAI Academy How data science teams use ChatGPT Work See how data science teams can use ChatGPT Work to turn questions, dashboards, and raw data into review-ready analysis assets."
+  ]
+ },
+ "40d7f59e47186db1": {
+  "feed": "OpenAI News",
+  "title": "How sales teams use ChatGPT Work",
+  "link": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How sales teams use ChatGPT Work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI July 14, 2026 OpenAI Academy How sales teams use ChatGPT Work Explore how sales teams can use ChatGPT Work to turn account context, customer conversations, and deal signals into pipeline briefs, meeting packs, forecast reviews, and account plans."
+  ]
+ },
+ "f486b6f8ef6c8c01": {
+  "feed": "OpenAI News",
+  "title": "How business operations teams use ChatGPT Work",
+  "link": "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How business operations teams use ChatGPT Work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI May 15, 2026 OpenAI Academy How business operations teams use ChatGPT Work Explore how business operations teams can use ChatGPT Work to turn scattered initiative context, metrics, trackers, and stakeholder input into decision-ready briefs, updates, packets, and tradeoff models."
+  ]
+ },
+ "04d62565190e878d": {
+  "feed": "Simon Willison",
+  "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+  "link": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely."
+  ]
+ },
+ "96d1d535cf9d161f": {
+  "feed": "Simon Willison",
+  "title": "alchemy-utils 0.1a0",
+  "link": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines Test against PostgreSQL and SQLite and duckdb Use ~/dev/sqlite-utils for reference Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work It took very few follow-up prompts to produce this project in a state good enough to release as an alpha."
+  ]
+ },
+ "4ed9ef2ed7b78a06": {
+  "feed": "Simon Willison",
+  "title": "Quoting Florian Herrengt",
+  "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear on the screen."
+  ]
+ },
+ "56be583fe5c24ff1": {
+  "feed": "Simon Willison",
+  "title": "There are no lossless transformations of natural-language text",
+  "link": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems crucial to me: You must stand behind every idea and every sentence in your docs ."
+  ]
+ },
+ "5121059c9365ab44": {
+  "feed": "Simon Willison",
+  "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+  "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker model, and recover the stronger model’s hidden reasoning in plaintext You can see an example of these encrypted blocks by running: curl https://api.openai.com/v1/responses \\ -H \" Content-Type: application/json \" \\ -H \" Authorization: Bearer $( llm keys get openai ) \" \\ -d ' { \"model\": \"gpt-5.6-luna\", \"input\": \"Solve step by step: What is the smallest positive integer divisible by every integer from 1 through 20?\", \"reasoning\": { \"effort\": \"medium\" }, \"include\": [\"reasoning.encrypted_content\"], \"store\": false, \"stream\": false } ' Here's the full output , which includes chunks that look like this: \"output\": [ { \"id\": \"rs_0a7479de7ebae170016a7ba1a0334c8198a95590217efe343c\", \"type\": \"reasoning\", \"content\": [], \"encrypted_content\": \"gAAAAABqe6GjepE1wDjbFCZg0BHB6ucGnN0jvzqygG..."
+  ]
+ },
+ "952dfd50378e7240": {
+  "feed": "Modal Blog",
+  "title": "Qwen3.8-2.4T-A95B now available on Modal",
+  "link": "https://modal.com/blog/qwen3-8-2-4t-a95b-now-available-on-modal",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Qwen3.8-2.4T-A95B now available on Modal Kimi K3 is live. Try the new Shared Endpoint with token-based pricing Learn more Product Solutions Resources Customers Pricing Docs Log In Sign Up All posts Back News August 12, 2026 â¢ 4 minute read Qwen3.8-2.4T-A95B now available on Modal Harmya Bhatt Member of Technical Staff @racerfunction Gilford Ting Member of Technical Staff @gilfordting David Wang Member of Technical Staff @_dcw02 Richard Gong Member of Technical Staff @_gongy Will Hu Member of Technical Staff @_williamhu Greta Workman Product Marketing @gretaworkman Qwen3.8-2.4T-A95B just launched as an open weights model, and itâs now available on Modal."
+  ]
  }
 }
