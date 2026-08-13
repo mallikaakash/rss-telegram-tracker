@@ -51113,5 +51113,115 @@
    "Engineered state matching across asynchronous systems to prepare for 47-day certificate renewal cycles by 2029.",
    "Demonstrates real-world trade-offs between public transparency log indexing and internal state awareness."
   ]
+ },
+ "d72a1d1ef88a0ace": {
+  "feed": "YC Hacker News",
+  "title": "Kubernetes on Oxide: How customer needs shaped our integrations",
+  "link": "https://oxide.computer/blog/kubernetes-on-oxide",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Kubernetes on Oxide: How Customer Needs Shaped Our Integrations | Oxide Computer Company Product Product Solutions Solutions Resources Resources Company Company Podcasts Podcasts Blog Try now Contact sales 13 Aug 2026 Kubernetes on Oxide: How Customer Needs Shaped Our Integrations Matthew Sanabria Solutions Software Engineer In late 2024, customers and prospects were eager to run Kubernetes on Oxide, but we had no supported integrations to help them do it."
+  ]
+ },
+ "22d54f321e3fe72c": {
+  "feed": "YC Hacker News",
+  "title": "We eliminated 1,400 CVEs in NanoClaw's container images",
+  "link": "https://www.echo.ai/blog/echo-xnanoclaw-under-the-hood",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Echo × NanoClaw: An under-the-hood look at our collaboration --> Platform Products Echo Containers Vulnerability-free base images Echo Libraries For a secure application layer Echo VMs Clean virtual machines Echo Serverless Zero re-architecting required Echo OS Packages Secure-by-design for custom builds Ecosystem Helm charts Secure, frictionless deployment Integrations Built for the tools you already use EOL support For images you can no longer upgrade Solutions Solutions Vulnerability elimination Watch your CVEs drop to zero FedRAMP & public sector Fast-track compliance CVE-free on your customer scans Ship clean images to your customers Software supply chain security End-to-end secure software Golden images Secure standardization Cyber Resilience Act (CRA) Compliance without added overhead Digital Operational Resilience Act (DORA) Requirements for compliance built in Customers Pricing Resources Resources Blog Key insights & hot takes Glossary An edu hub for cloud security Events & webinars What’s next with Echo CVE mapping Stay ahead of the latest CVEs Company Company About Echo Our story Careers Join the team Trust Center Protect your data Contact us Let’s connect Let’s connect Join the echosystem Let’s integrate Echo alliances Let’s partner Log in Get a demo Get demo Back Featured How we eliminated 1,400 CVEs in NanoClaw's container images Eylam Milner Aug 04, 2026 | 15 Minutes Featured Agentic security CVE remediation Company news Last week we announced Echo's partnership with NanoClaw, designed to extend the vision and security of the open source project."
+  ]
+ },
+ "f4499451c6efa504": {
+  "feed": "YC Hacker News",
+  "title": "Codex in ChatGPT desktop app for Linux is now in preview",
+  "link": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Codex in ChatGPT desktop app for Linux is now in preview 🐧 - Codex - OpenAI Developer Community = 40rem)\" rel=\"stylesheet\" data-target=\"chat_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-ai_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-gamification_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"discourse-reactions_desktop\" /> = 40rem)\" rel=\"stylesheet\" data-target=\"poll_desktop\" /> OpenAI Developer Community Codex in ChatGPT desktop app for Linux is now in preview 🐧 Codex sps August 11, 2026, 5:52pm 1 Linux users, this one’s for you!"
+  ]
+ },
+ "dd53fcf32880e19b": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
+  "link": "https://github.com/fellowgeek/mcp-memory",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - fellowgeek/mcp-memory: An OKF-backed Model Context Protocol (MCP) server delivering persistent long-term memory and SQLite FTS5 search for AI agents. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Type / to search Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "1afb959c0f7fdc72": {
+  "feed": "YC Hacker News",
+  "title": "Time to Move On: Querying Without Nulls and Bags",
+  "link": "https://arxiv.org/abs/2608.10863",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2608.10863] Time to Move on: Querying without Nulls and Bags Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Databases arXiv:2608.10863 (cs) [Submitted on 11 Aug 2026] Title: Time to Move on: Querying without Nulls and Bags Authors: Molham Aref , Leonid Libkin , Wim Martens View a PDF of the paper titled Time to Move on: Querying without Nulls and Bags, by Molham Aref and Leonid Libkin and Wim Martens View PDF Abstract: SQL is the database community's success story in terms of language design."
+  ]
+ },
+ "6710bde7fa638800": {
+  "feed": "Technica",
+  "title": "Rivian's 2027 changes include its No. 1 most-requested feature",
+  "link": "https://arstechnica.com/cars/2026/08/rivian-tweaks-its-r1-range-for-model-year-2027/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It's time for Rivian's changeover from model year 2026 to 2027, and the electric vehicle startup has decided to take a page from its recently released R2 SUV and apply it to the company's larger, more expensive R1 line. The changes aren't massive—the R1 got a refresh back in 2024 that saw the R1S SUV and R1T pickup each get some comprehensive re-engineering with new powertrain options, a new electronic architecture, and new batteries ."
+  ]
+ },
+ "57d12d777b7ff867": {
+  "feed": "Technica",
+  "title": "Anthropic could be worth $2 trillion when it goes public",
+  "link": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anthropic investors expect the AI startup to float at a valuation of $2 trillion or more in October, a dizzying figure that would eclipse SpaceX and make the AI lab’s debut the largest-ever initial public offering. Half a dozen of the company’s backers told the FT that Anthropic’s rapidly rising revenue would enable it to more than double its current valuation in a planned autumn float."
+  ]
+ },
+ "b73796d60581e732": {
+  "feed": "Technica",
+  "title": "We've flown a radiation-blocking vest to the Moon and back, and it worked",
+  "link": "https://arstechnica.com/science/2026/08/weve-flown-a-radiation-blocking-vest-to-the-moon-and-back-and-it-worked/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Solar storms, like the one in August 1972 that hit during the gap between the Apollo 16 and Apollo 17 missions, throw bursts of protons intense enough to raise an astronaut's cancer risk or even cause radiation sickness. Earth's atmosphere and magnetic field absorb this radiation, but crews heading to the Moon or Mars won't have that protection, and no spacecraft built so far has enough shielding to stop it."
+  ]
+ },
+ "4ef27a7970620304": {
+  "feed": "Apple ML Research",
+  "title": "When Unlearning Is Free: Leveraging Low Influence Points to Reduce Computational Costs",
+  "link": "https://machinelearning.apple.com/research/unlearning-low-influence-points",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As concerns around data privacy in machine learning grow, the ability to unlearn, or remove, specific data points from trained models becomes increasingly important. While state of the art unlearning methods have emerged in response, they typically treat all points in the forget set equally. In this work, we challenge this approach by asking whether points that have a negligible impact on the model’s learning need to be removed."
+  ]
+ },
+ "9e022b7caa78cba4": {
+  "feed": "OpenAI News",
+  "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+  "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI appoints Dali Rajic as Chief Revenue Officer | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 13, 2026 Company OpenAI appoints Dali Rajic as Chief Revenue Officer As enterprise AI deployment accelerates, OpenAI is building on its global scale to grow even faster."
+  ]
  }
 }
