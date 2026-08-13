@@ -50995,5 +50995,123 @@
    "Uses GitHub Pages branch deployment to bypass preview limitations in cloud-hosted agentic coding environments.",
    "Demonstrates Claude Fable 5 one-shotting a complete interactive 3D browser game using automated image assets."
   ]
+ },
+ "889ea1c117f15b31": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek Harness",
+  "link": "https://github.com/deepseek-ai/deepseek-harness",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "DeepSeek's new open-source harness provides an extensible plugin-based ecosystem relevant for LLM evaluation and agentic workflows.",
+  "points": [
+   "DeepSeek open-sourced deepseek-harness built around an 'everything is a plugin' architecture.",
+   "Provides modular structures for benchmark execution, native components, and tool/agent integrations."
+  ]
+ },
+ "3ad94d7f16da60cf": {
+  "feed": "YC Hacker News",
+  "title": "Gloomberb",
+  "link": "https://gloom.sh/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Gloomberb is a desktop/TUI financial terminal project, which falls outside your core focus on ML infra and backend engineering.",
+  "points": [
+   "Offers an open-source keyboard-driven TUI alternative to financial terminals like Bloomberg."
+  ]
+ },
+ "ae6ad57a9170befd": {
+  "feed": "YC Hacker News",
+  "title": "AI agents lie, cheat and steal. That is putting off users",
+  "link": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "This is an empty thread post discussing general AI agent trust issues without technical substance.",
+  "points": [
+   "Lacks article text, linking to a forum discussion on user retention risks with deceptive AI agents."
+  ]
+ },
+ "c3c4b8561186137a": {
+  "feed": "YC Hacker News",
+  "title": "Spaghettifying DRAM",
+  "link": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "A low-level hardware exploration into CPU memory hierarchy and physical DRAM controller scrambling.",
+  "points": [
+   "Demonstrates how rewriting physical DRAM address translations bypasses CPU memory boundaries.",
+   "Unlocks platform security processors (PSP) and system management mode (SMM) memory carveouts usually hidden from kernels."
+  ]
+ },
+ "037087cf100a0328": {
+  "feed": "YC Hacker News",
+  "title": "Heart Aerospace Completes First Flight of Largest Electric Aircraft",
+  "link": "https://www.heartaerospace.com/newsroom/heart-aerospace-completes-first-flight-of-world-s-largest-electric-aircraft",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "A press release about electric regional aircraft testing with no relevance to software, distributed systems, or ML.",
+  "points": [
+   "Heart Aerospace completed a 27-minute maiden flight of a 25,000 lb battery-electric demonstrator aircraft."
+  ]
+ },
+ "e529f54cff052161": {
+  "feed": "Simon Willison",
+  "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+  "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
+  "date": "2026-08-13",
+  "tier": "must_read",
+  "why": "Essential update on LLM CLI/Python tooling for streaming reasoning traces, server-side tools, and Model Context Protocol (MCP).",
+  "points": [
+   "Introduces native stdout/stderr separation and event streaming (`stream_events()`) for reasoning model 'thinking' traces.",
+   "Adds native integration for server-side tools including AnthropicMCP, OpenAI CodeInterpreter, and web search.",
+   "Updates Python API abstractions from single-turn strings to explicit `messages=[]` list handling."
+  ]
+ },
+ "40cc8e9ca95881e8": {
+  "feed": "Simon Willison",
+  "title": "llm-anthropic 0.26",
+  "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "A release note summarizing Claude 5 model support, reasoning controls, and MCP integration via LLM 0.32.",
+  "points": [
+   "Adds support for Claude 5 models (`fable-5`, `sonnet-5`, `opus-5`) with unified `thinking_effort` levels.",
+   "Streams reasoning traces, tool execution, and server-side MCP results as typed event objects."
+  ]
+ },
+ "6fad7c9c59a4cab1": {
+  "feed": "Simon Willison",
+  "title": "PipeNetwork/minimax-h3-mlx",
+  "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Practical example of serving and running a massive omnimodal (text/image/audio/video) model locally using MLX.",
+  "points": [
+   "MiniMax-H3 generates 15-second video clips with synchronized audio from multimodal inputs.",
+   "Details local execution on Apple Silicon using 8-bit quantized weights across a 115 GB memory footprint."
+  ]
+ },
+ "97628ade42131425": {
+  "feed": "Simon Willison",
+  "title": "llm 0.32",
+  "link": "https://simonwillison.net/2026/Aug/4/llm/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "This is a short pointer post cross-referencing the full LLM 0.32 technical deep-dive.",
+  "points": [
+   "Brief release notice linking to Simon Willison's detailed blog post on LLM 0.32."
+  ]
+ },
+ "52a86a2679cc1ab3": {
+  "feed": "Cloudflare Blog",
+  "title": "Certificate Transparency Monitoring is now generally available",
+  "link": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+  "date": "2026-08-13",
+  "tier": "must_read",
+  "why": "A strong Cloudflare engineering deep-dive on solving signal-to-noise issues in high-throughput distributed alerting systems.",
+  "points": [
+   "Eliminated alert fatigue across 650,000+ domains by correlating internal certificate issuance pipelines with public log parsers.",
+   "Engineered state matching across asynchronous systems to prepare for 47-day certificate renewal cycles by 2029.",
+   "Demonstrates real-world trade-offs between public transparency log indexing and internal state awareness."
+  ]
  }
 }
