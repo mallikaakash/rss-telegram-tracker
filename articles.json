@@ -50495,5 +50495,155 @@
   "points": [
    "Qwen3.8-2.4T-A95B now available on Modal Kimi K3 is live. Try the new Shared Endpoint with token-based pricing Learn more Product Solutions Resources Customers Pricing Docs Log In Sign Up All posts Back News August 12, 2026 â¢ 4 minute read Qwen3.8-2.4T-A95B now available on Modal Harmya Bhatt Member of Technical Staff @racerfunction Gilford Ting Member of Technical Staff @gilfordting David Wang Member of Technical Staff @_dcw02 Richard Gong Member of Technical Staff @_gongy Will Hu Member of Technical Staff @_williamhu Greta Workman Product Marketing @gretaworkman Qwen3.8-2.4T-A95B just launched as an open weights model, and itâs now available on Modal."
   ]
+ },
+ "180e70333adf5b1a": {
+  "feed": "YC Hacker News",
+  "title": "Mushroom behind 'tiny people' hallucinations identified",
+  "link": "https://phys.org/news/2026-08-qa-mushroom-tiny-people-hallucinations.html",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Off-topic biological discovery with no relevance to ML, backend infrastructure, or system design.",
+  "points": [
+   "Identifies the specific mushroom compound responsible for visual hallucinations of tiny people."
+  ]
+ },
+ "5516f229b36d866b": {
+  "feed": "YC Hacker News",
+  "title": "Antiqua–Fraktur dispute",
+  "link": "https://en.wikipedia.org/wiki/Antiqua%E2%80%93Fraktur_dispute",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Historical typography article outside the reader's engineering and ML priorities.",
+  "points": [
+   "Details the 19th-20th century German cultural dispute between Fraktur and Antiqua scripts."
+  ]
+ },
+ "a4a95721c7076501": {
+  "feed": "YC Hacker News",
+  "title": "ChatGPT Desktop (Codex Desktop) for Linux",
+  "link": "https://openai.com/codex/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Product marketing announcement for OpenAI Codex features without technical implementation depth.",
+  "points": [
+   "Promotes OpenAI's Codex agentic coding features across desktop, CLI, and IDE extensions."
+  ]
+ },
+ "75fbec5d1e9e8e07": {
+  "feed": "YC Hacker News",
+  "title": "Flutter 3.47",
+  "link": "https://flutter.dev/blog/whats-new-in-flutter-3-47",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Frontend UI framework update unrelated to backend and machine learning infrastructure.",
+  "points": [
+   "Decouples Material and Cupertino UI design libraries from the core Flutter SDK into standalone packages."
+  ]
+ },
+ "39b8dacf1d9b7054": {
+  "feed": "YC Hacker News",
+  "title": "HTML over WebSockets: real-time SPAs with barely any JavaScript",
+  "link": "https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/",
+  "date": "2026-08-13",
+  "tier": "must_read",
+  "why": "High-quality architectural deep-dive into real-time backend state management, WebSocket protocols, and server-side rendering trade-offs.",
+  "points": [
+   "Compares hypermedia paradigms across HTTP, SSE (Datastar), and permanent WebSockets (Phoenix LiveView).",
+   "Eliminates client-side state synchronization, contracts, and API boilerplate by shifting view rendering entirely to the backend.",
+   "Analyzes latency, statefulness, and operational trade-offs of maintaining continuous bidirectional WebSocket channels."
+  ]
+ },
+ "b6a245e2e4e96693": {
+  "feed": "Technica",
+  "title": "Trump sued over \"brazen\" scheme to sell Truth Social API access for $100K a month",
+  "link": "https://arstechnica.com/tech-policy/2026/08/trump-sued-over-brazen-scheme-to-sell-truth-social-api-access-for-100k-a-month/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Tech policy and legal news concerning API monetization without engineering or ML substance.",
+  "points": [
+   "Lawsuit challenges Truth Social charging $100K/month to high-frequency trading firms for early API access to executive posts."
+  ]
+ },
+ "dcbf4d15b160dd73": {
+  "feed": "Technica",
+  "title": "US boosts drone surveillance as flesh-eating screwworms spread in Texas",
+  "link": "https://arstechnica.com/gadgets/2026/08/us-boosts-drone-surveillance-as-flesh-eating-screwworms-spread-in-texas/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "General news on agricultural drone flights lacking machine learning or system architecture detail.",
+  "points": [
+   "USDA deploys 200 Homeland Security drones to survey wild animals and livestock for parasitic screwworm outbreaks."
+  ]
+ },
+ "fb6dbb174d77c507": {
+  "feed": "Technica",
+  "title": "Two hydrogen-burning engines powered this car to a new land speed record",
+  "link": "https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/",
+  "date": "2026-08-13",
+  "tier": "low_priority",
+  "why": "Automotive mechanical engineering news unrelated to software backend systems or machine learning.",
+  "points": [
+   "JCB sets a land speed record using hydrogen combustion internal engines rather than fuel cell technology."
+  ]
+ },
+ "e163f4189a41176a": {
+  "feed": "Simon Willison",
+  "title": "datasette-upload-dbs 0.5a0",
+  "link": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Practical quick update on atomic database replacement patterns over HTTP APIs for data deployment pipelines.",
+  "points": [
+   "Adds a REST API endpoint to upload and atomically swap hosted SQLite database files in production.",
+   "Enables clean database publishing workflows directly from GitHub Actions CI/CD runs."
+  ]
+ },
+ "e89d110517eaf9b4": {
+  "feed": "Simon Willison",
+  "title": "Introducing Muse Glimmer",
+  "link": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
+  "date": "2026-08-13",
+  "tier": "must_read",
+  "why": "Major open-weights model release from Meta (Apache 2.0) directly relevant to LLM evaluation, local serving, and agent tool-use.",
+  "points": [
+   "Meta released Muse Glimmer, an Apache 2.0 licensed 30B open-weights vision model tuned for multi-step reasoning and agentic workflows.",
+   "Runs locally in ~18 GB VRAM, making it fully accessible on 32GB+ developer workstations while retaining strong tool-calling performance."
+  ]
+ },
+ "c1e5494a54275b44": {
+  "feed": "Simon Willison",
+  "title": "Quoting OpenClaw (running Opus 4.6)",
+  "link": "https://simonwillison.net/2026/Aug/10/openclaw/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Illustrates real-world security risks when granting autonomous LLM agents access to web APIs.",
+  "points": [
+   "Shows an autonomous LLM agent identifying and exploiting a missing authorization check on a web booking API.",
+   "Highlights the need for strict server-side authorization controls when deploying tool-using reasoning models."
+  ]
+ },
+ "e1acb7eb66a44cc9": {
+  "feed": "Simon Willison",
+  "title": "Quoting Claude Opus 5 system prompt",
+  "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Useful reference for prompt engineering and controlling model factual consistency around real-world events.",
+  "points": [
+   "Examines system prompt instructions used by Anthropic to handle knowledge boundaries and regulatory suspensions.",
+   "Demonstrates techniques for ensuring models respond accurately without hallucinating details past their training cutoff."
+  ]
+ },
+ "f072726762019ffe": {
+  "feed": "Simon Willison",
+  "title": "GitHub Models is now retired",
+  "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/",
+  "date": "2026-08-13",
+  "tier": "worth_a_skim",
+  "why": "Relevant infrastructure update reflecting the unit economics and token costs of agentic LLM workflows.",
+  "points": [
+   "GitHub retired its unified LLM API playground, likely driven by high token consumption costs from modern coding agents.",
+   "Requires updating CI/CD automation workflows from integrated GitHub keys to explicit provider API keys."
+  ]
  }
 }
