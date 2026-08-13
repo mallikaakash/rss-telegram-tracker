@@ -51223,5 +51223,137 @@
   "points": [
    "OpenAI appoints Dali Rajic as Chief Revenue Officer | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 13, 2026 Company OpenAI appoints Dali Rajic as Chief Revenue Officer As enterprise AI deployment accelerates, OpenAI is building on its global scale to grow even faster."
   ]
+ },
+ "ccebb06f6c320fb0": {
+  "feed": "YC Hacker News",
+  "title": "Gemini 3.7 Flash",
+  "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Truncated landing page boilerplate for Gemini 3.7 Flash lacking technical details or architectural insights.",
+  "points": [
+   "Boilerplate announcement page for Gemini 3.7 Flash model launch without detailed technical specifications."
+  ]
+ },
+ "60521017caf72c5b": {
+  "feed": "YC Hacker News",
+  "title": "Mistral OCR 4.1",
+  "link": "https://docs.mistral.ai/models/ocr-4-1",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Standard API documentation and pricing announcement for an OCR service rather than an engineering deep-dive.",
+  "points": [
+   "Announces API availability and pricing (€3.50/1k pages) for Mistral's OCR 4.1 document parsing service."
+  ]
+ },
+ "213d3a6202416dd5": {
+  "feed": "YC Hacker News",
+  "title": "Choose Boring Technology (2015)",
+  "link": "https://mcfunley.com/choose-boring-technology",
+  "date": "2026-08-14",
+  "tier": "must_read",
+  "why": "Essential foundational essay on tech selection, risk management, and system architecture for backend and infra engineers.",
+  "points": [
+   "Introduces 'innovation tokens' as a mental model to strictly bound technology stack complexity.",
+   "Distinguishes well-understood 'known unknowns' from high-risk 'unknown unknowns' inherent in novel tools.",
+   "Advocates choosing technology with known failure modes to maximize reliability and global focus."
+  ]
+ },
+ "1ce9df3aa971a2e5": {
+  "feed": "YC Hacker News",
+  "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
+  "link": "https://donkeybas.com/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Historical retro gaming trivia with no relevance to ML, distributed systems, or backend engineering.",
+  "points": [
+   "A web JavaScript port celebrating the 45th anniversary of Bill Gates' 1981 IBM PC DOS demo game."
+  ]
+ },
+ "50f9ffd70672de72": {
+  "feed": "YC Hacker News",
+  "title": "Accelerating GPT-5.6 Sol Ultrafast",
+  "link": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+  "date": "2026-08-14",
+  "tier": "must_read",
+  "why": "Significant breakthrough in frontier LLM inference serving throughput using specialized Cerebras hardware.",
+  "points": [
+   "Delivers 750 output tokens per second for GPT-5.6 Sol on Cerebras hardware without quality loss.",
+   "Evaluated all 2,500 Humanity's Last Exam benchmark questions in 11 hours compared to 78 hours on standard systems.",
+   "Achieved a 5.6x end-to-end speedup on complex knowledge-work benchmarks like GDP-Val."
+  ]
+ },
+ "068e562e05123807": {
+  "feed": "Google DeepMind",
+  "title": "Introducing Gemini 3.7 Flash",
+  "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Duplicate product landing page snippet with no deep-dive content on pretraining or model architecture.",
+  "points": [
+   "Google DeepMind product announcement extract for Gemini 3.7 Flash containing mostly page navigation text."
+  ]
+ },
+ "855fa77e93e122bb": {
+  "feed": "OpenAI News",
+  "title": "The builder’s guide to GPT‑5.6",
+  "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+  "date": "2026-08-14",
+  "tier": "must_read",
+  "why": "High-value practical LLM engineering guide detailing test-time reasoning control, prompt caching, and cost tradeoffs.",
+  "points": [
+   "Configuring lower reasoning effort on GPT-5.6 matches prior model performance at significantly lower cost.",
+   "Smaller model variants like Luna retain 98% extraction accuracy of flagship models at 1/18th the expense.",
+   "Provides actionable patterns for agent harness engineering, programmatic tool calling, and multi-agent coordination."
+  ]
+ },
+ "6357d7795d215a7f": {
+  "feed": "OpenAI News",
+  "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+  "link": "https://openai.com/index/previewing-ultrafast",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "OpenAI's perspective on the Cerebras-powered Ultrafast inference tier for low-latency agentic workflows.",
+  "points": [
+   "Offers up to 14x speedups (750 tok/s) aimed at real-time incident response, live voice, and finance.",
+   "Demonstrates how removing inference latency constraints unlocks agent integration into critical-path systems."
+  ]
+ },
+ "c1c988556190aa29": {
+  "feed": "Hugging Face Blog",
+  "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+  "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Practical MLOps overview covering dataset streaming pipelines and byte-level deduplicated storage for training loops.",
+  "points": [
+   "Uses Hugging Face Storage Buckets backed by Xet for non-versioned, byte-level deduplicated object storage.",
+   "Streams data directly from storage into GPU memory during training to eliminate duplicate transfers.",
+   "Integrates AWS Strands Robots SDK with LeRobot format for end-to-end data capture and policy deployment."
+  ]
+ },
+ "5fa28c256021e6a7": {
+  "feed": "Hugging Face Blog",
+  "title": "What We Learned by Reproducing 2,200 papers from ICML",
+  "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
+  "date": "2026-08-14",
+  "tier": "must_read",
+  "why": "Large-scale empirical study on using AI coding agents to audit scientific code and reproduce ML research.",
+  "points": [
+   "Community agents attempted reproducing 2,226 ICML papers (one-third of accepted papers) in 19 days.",
+   "Analyzes agent failure modes, falsified claims, and human-in-the-loop validation dynamics.",
+   "Highlights systemic reproducibility issues and the viability of agents for automated peer-review auditing."
+  ]
+ },
+ "0aa8ff52441adb2b": {
+  "feed": "Railway Blog",
+  "title": "Your Cloud should come with an app builder",
+  "link": "https://blog.railway.com/p/dev-new",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Product marketing launch post for a cloud sandbox service rather than an infrastructure deep-dive.",
+  "points": [
+   "Launches Railway dev.new, combining VM sandbox environments with AI agents to build and host web apps."
+  ]
  }
 }
