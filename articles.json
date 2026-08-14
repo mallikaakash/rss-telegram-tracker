@@ -51530,5 +51530,99 @@
    "Measures 15% to 30% drops in HTTP request volume across European countries along the path of total eclipse obscuration.",
    "Traffic troughs mapped precisely to peak obscuration timestamps and rebounded within minutes."
   ]
+ },
+ "e6c53596b4a80e81": {
+  "feed": "YC Hacker News",
+  "title": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+  "link": "https://z.ai/blog/glm-5.3",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Signals a new frontier-tier coding model release (GLM-5.3), though the post text is minimal.",
+  "points": [
+   "Announces GLM-5.3 focused on frontier coding and emergent cyber capabilities."
+  ]
+ },
+ "a932cf04aada0252": {
+  "feed": "YC Hacker News",
+  "title": "NP-overrated",
+  "link": "https://gruhn.me/blog/2026-08-13/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Offers valuable engineering perspective on practical optimization and SAT/SMT solvers relevant to constrained optimization workflows.",
+  "points": [
+   "Argues NP-hardness is often practically irrelevant because real-world inputs rarely trigger theoretical worst-case exponential explosions.",
+   "Highlights massive algorithmic gains (cited 450-billion-fold speedup) and Amazon solving a billion SMT problems daily at scale.",
+   "Recommends pragmatic engineering mitigations like timeouts rather than abandoning optimal solvers."
+  ]
+ },
+ "6d421f4f8cc8ab6a": {
+  "feed": "YC Hacker News",
+  "title": "The Library of Ashurbanipal",
+  "link": "https://www.historytoday.com/archive/feature/library-ashurbanipal",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Ancient history topic with no relevance to ML, backend systems, or engineering infrastructure.",
+  "points": [
+   "Historical discussion about the ancient Royal Library of Ashurbanipal."
+  ]
+ },
+ "08867b180eb35c32": {
+  "feed": "YC Hacker News",
+  "title": "How do you sell a CPU design when the instruction set is free?",
+  "link": "https://www.siliconimist.com/p/credibility-is-the-barrier-to-entry",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Provides relevant hardware and ecosystem context on RISC-V, ISA standardization, and semiconductor startup strategy.",
+  "points": [
+   "Standardization (like RVA23) is the critical unlock for RISC-V adoption against Arm's 40-year ecosystem advantage.",
+   "European silicon sovereignty focuses on Global Value Chain integration rather than total self-reliance.",
+   "Startups in hardware compensate high-end talent with founding engineer equity and high agency."
+  ]
+ },
+ "6854622261831d75": {
+  "feed": "YC Hacker News",
+  "title": "Nine PBS sues Iron Mountain over blocked access to archival data",
+  "link": "https://current.org/2026/08/nine-pbs-sues-iron-mountain-over-blocked-access-to-archival-data/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Legal dispute regarding vendor insolvency and archival data access, outside core technical priorities.",
+  "points": [
+   "Nine PBS sued Iron Mountain to recover 50TB of archival data stranded after intermediary vendor Open Source Storage collapsed."
+  ]
+ },
+ "522954cd963d2627": {
+  "feed": "Technica",
+  "title": "Pet owners say smart pet feeder outage led to furry ones going unfed",
+  "link": "https://arstechnica.com/gadgets/2026/08/pet-owners-say-smart-pet-feeder-outage-led-to-furry-ones-going-unfed/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Consumer IoT reliability outage with minimal technical depth or infrastructure relevance.",
+  "points": [
+   "Petlibro smart pet feeders suffered an outage caused by server-to-app communication failures."
+  ]
+ },
+ "e3152e562fa7d4a4": {
+  "feed": "Technica",
+  "title": "The new Instagram logo is the perfect embodiment of AI slop",
+  "link": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Consumer UI and branding commentary with zero technical or engineering substance.",
+  "points": [
+   "Critique of Instagram's updated wordmark and design refresh."
+  ]
+ },
+ "cf3951101d71f92d": {
+  "feed": "Technica",
+  "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
+  "link": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
+  "date": "2026-08-14",
+  "tier": "must_read",
+  "why": "Tracks crucial frontier model updates and pricing changes directly impacting LLM evaluation and inference architectures.",
+  "points": [
+   "Gemini 3.7 Flash released with an introductory low price to target developer coding and agentic workflows.",
+   "DeepSWE v1.1 benchmark rose from 49% to 65.3%, and FrontierCode 1.1 jumped from 34.4% to 43.6%.",
+   "Document understanding (GDP.pdf) increased to 34% (up from 22%) and AutomationBench workflow score reached 30.4%."
+  ]
  }
 }
