@@ -51804,5 +51804,104 @@
    "A single log line causes massive write amplification (49KB+ on ext4, 110KB+ on btrfs), causing ~50 IOPS for just 2 log lines per second.",
    "Demonstrates critical performance implications of synchronous journal metadata updates and disk commit patterns on Linux VMs."
   ]
+ },
+ "2daeee02f53932b6": {
+  "feed": "YC Hacker News",
+  "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
+  "link": "https://e360.yale.edu/digest/australia-home-batteries",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half - Yale E360 Close / ← → Search Search Yale Environment 360 Published at the Yale School of the Environment Explore Search About E360 E360 Digest August 14, 2026 In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half NSW Climate and Energy Action A little more than one year ago, Australia rolled out a program to heavily subsidize home batteries, part of a larger effort to make use of the huge volumes of solar energy that were going to waste."
+  ]
+ },
+ "0ef4f189ca5006ce": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Lambdock – Wayland-native GTK4 dock with a live Lisp REPL",
+  "link": "https://codeberg.org/jjba23/lambdock",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "jjba23/lambdock: Modern, hyper-hackable, Wayland-native desktop dock application (C and Guile Scheme + GTK4) w/ REPL - Codeberg.org Codeberg has changed its Terms of Use. View complete changes . LLM-generated content is being restricted. View change or read the blog post Cryptocurrency projects are no longer allowed. View change Dismiss This website requires JavaScript."
+  ]
+ },
+ "9351d217fcc8e429": {
+  "feed": "YC Hacker News",
+  "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
+  "link": "https://hashagent.pages.dev/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "d3f2d27f8e806904": {
+  "feed": "YC Hacker News",
+  "title": "The TEMU-Fication of Software, Digital Goods and Services",
+  "link": "https://xn--gckvb8fzb.com/the-temu-fication-of-software-digital-goods-services/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ããªã¦ã¹ . The TEMU-fication of Software, Digital Goods & Services Journal Updates Guides Reviews Make Now Projects Desk Computer Keyboard Command Line Infrastructure EDC Phone Camera Audio Workout Coffee Travel Luggage Belongings Locations Library Bookmarks Contact Odysee YouTube Source Code GitHub FAQ Support RSS The TEMU-fication of Software, Digital Goods & Services A hypothesis on the not-so-distant future of software, books, music, and movies, in which most of what we consume gets cheaper, more abundant, and noticeably worse, while the human-made variant moves into a luxury segment of its own."
+  ]
+ },
+ "bec925ccad5c7c9f": {
+  "feed": "YC Hacker News",
+  "title": "WhatCable: Know what your USB-C cable can do",
+  "link": "https://www.whatcable.uk/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "WhatCable: Know what your USB-C cable can really do WhatCable Docs CLI Cables Blog GitHub Get Pro A Bitmoor product macOS menu bar diagnostics for USB-C Know what your USB-C cable can really do. Plug in a cable. WhatCable shows its speed, power capability, display path, and the weak link in your connection, using what macOS reports, not what the packaging promises."
+  ]
+ },
+ "51cbe3e17fac2ebb": {
+  "feed": "Technica",
+  "title": "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
+  "link": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome to Edition 9.06 of the Rocket Report! Rocket Lab made a lot of news this week with its quarterly update, and it is clear the company is making impressive progress as it becomes much more than a launch company. But at the end of the day, a lot of the company's success is predicated on the Neutron vehicle, and I'm not thrilled with Rocket Lab's ambiguity around its readiness."
+  ]
+ },
+ "4f072efc0d8f1e7a": {
+  "feed": "Technica",
+  "title": "Samsung Galaxy Z Fold 8 Ultra review: The ultra foldable with an ultra price",
+  "link": "https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Samsung has largely defined the foldable phone category, but it's no longer alone in releasing flexible devices. Google, Motorola, and a raft of Chinese OEMs have their own take on this form factor. Is the new Galaxy Z Fold 8 Ultra really \"ultra\" enough to remain on top? This phone doesn't have the wide frame of the new Z Fold 8 , instead matching the approximate size and shape of the company’s last few tablet-style foldables."
+  ]
+ },
+ "f89a1389d480cc1b": {
+  "feed": "Cloudflare Blog",
+  "title": "How Cloudflare detects MCP traffic and helps secure it",
+  "link": "https://blog.cloudflare.com/mcp-security-updates/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Most companies designed their resource permissions with a human user in mind. A senior engineer may be able to deploy to production, query a sensitive database, or revoke another user's access. Those privileges come with risk, but that risk has traditionally been bounded by two assumptions: the engineer will use human judgment, and the engineer can only act at human speed."
+  ]
+ },
+ "810a786823add8f0": {
+  "feed": "Cloudflare Blog",
+  "title": "Secure all your internal vibe-coded applications — in one click",
+  "link": "https://blog.cloudflare.com/workers-protected-by-access/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI has enabled employees across every team to build applications faster than ever before. But that speed is also what's keeping every CISO up at night: any employee can build an application, deploy it to the public Internet, and accidentally expose internal work or company data. Today, we're launching new tools to make it easy to keep your applications hosted on Workers private."
+  ]
  }
 }
