@@ -2410,5 +2410,96 @@
    "Achieved a 1.3x speedup over AMD's official RCCL library on tensor-parallel token-level all-reduce operations",
    "Demonstrated that stripping general-purpose runtime abstraction overhead allows communication to hit the hardware's physical performance floor"
   ]
+ },
+ "bd778e5b3827a8a6": {
+  "url": "https://www.alphaxiv.org/abs/2606.23740",
+  "title": "Weight-Space Geometry of Offline Reasoning Training | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-14",
+  "tier": "solid_find",
+  "why": "Rigorous empirical research analyzing the parameter-space geometry and representation divergence across six offline reasoning distillation methods.",
+  "points": [
+   "Finds SFT, RFT, and RIFT produce nearly collinear weight deltas (cosine >= 0.97, ~7 deg median principal angle) with equivalent benchmark accuracy.",
+   "Shows Offline GRPO introduces a 67% orthogonal weight update component while remaining in the SFT loss basin.",
+   "Discovers DPO occupies a near-orthogonal subspace, exhibits linear mode connectivity barriers, and causes late-layer CKA collapse to ~0.46 while achieving superior reasoning accuracy."
+  ]
+ },
+ "bb0843a9a5ea84de": {
+  "url": "https://medium.com/@achyuthan.sivasankar/when-memory-layout-assumptions-collide-fixing-a-kv-cache-bug-in-vllm-a16672274500",
+  "title": "When Memory Layout Assumptions Collide: Fixing a KV Cache Bug in vLLM | by Achyuthan Sivasankar | Aug, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-14",
+  "tier": "solid_find",
+  "why": "Firsthand low-level debugging postmortem detailing memory layout collisions and KV cache internals in vLLM.",
+  "points": [
+   "Explores internal memory layout assumptions and stride mechanics inside vLLM's KV cache implementation.",
+   "Provides an open-source systems debugging perspective on resolving silent memory bugs in GPU serving runtimes."
+  ]
+ },
+ "f7bed3bcb4b4e728": {
+  "url": "https://yobitel.com/knowledge-base/paged-attention",
+  "title": "PagedAttention — Efficient KV Cache for LLMs",
+  "domain": "yobitel.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-14",
+  "tier": "skip",
+  "why": "Generic vendor knowledge-base explainer summarizing standard, well-known PagedAttention concepts from the 2023 SOSP paper.",
+  "points": []
+ },
+ "9787768360226f0a": {
+  "url": "https://p.rst.im/q/github.com/asp53826/dist-train",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-14",
+  "tier": "skip",
+  "why": "Irrelevant and broken mirror page listing proxy URLs.",
+  "points": []
+ },
+ "a5a800c285951bcc": {
+  "url": "https://yobitel.com/knowledge-base/nccl",
+  "title": "NVIDIA NCCL — Multi-GPU Collective Communication",
+  "domain": "yobitel.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-14",
+  "tier": "skip",
+  "why": "High-level vendor knowledge-base overview of standard NCCL operations and environment variables with no novel empirical data.",
+  "points": []
+ },
+ "b8856ddc3cafaca1": {
+  "url": "https://github.laiyagushi.com/globus-labs/exaserve",
+  "title": "GitHub - globus-labs/exaserve: Exascale Inference · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-14",
+  "tier": "skip",
+  "why": "GitHub proxy error page containing negligible content or technical detail.",
+  "points": []
+ },
+ "cf3fc46eb90f07c8": {
+  "url": "https://github.laiyagushi.com/MSKazemi/ExaMLOps",
+  "title": "GitHub - MSKazemi/ExaMLOps: End-to-end MLOps platform for HPC workload management — auto-discovery training pipelines (Prefect), Slurm job orchestration, MLflow model registry, Ray Serve multi-model serving, Prometheus/Grafana/Loki observability, a React 19 + FastAPI dashboard, and the `exa` platform CLI. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-14",
+  "tier": "skip",
+  "why": "Shallow repository directory listing for a standard MLOps template without technical analysis or operational findings.",
+  "points": []
+ },
+ "c89d02665d64131f": {
+  "url": "https://koleslaw.ai/blog/running-a-30b-model-on-spot-gpus",
+  "title": "4 hours and 37 minutes of serving nothing — The Koleslaw Blog",
+  "domain": "koleslaw.ai",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-14",
+  "tier": "hidden_gem",
+  "why": "Rare, high-signal personal infra postmortem detailing the hidden failure modes and cost trade-offs of serving a 30B model on AWS spot GPU instances.",
+  "points": [
+   "Details how an ASG with 100% spot instances entered a 4.5-hour capacity drought after terminating a healthy on-demand instance.",
+   "Provides real-world economics of cutting serving costs from ~$588/mo (g6.xlarge on-demand) to ~$245/mo using spot instances paired with automatic cloud fallbacks.",
+   "Demonstrates the architectural design of a custom 200-line supervisor watchdog to handle frequent spot reclamations without downtime."
+  ]
  }
 }
