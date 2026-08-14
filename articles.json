@@ -51355,5 +51355,180 @@
   "points": [
    "Launches Railway dev.new, combining VM sandbox environments with AI agents to build and host web apps."
   ]
+ },
+ "944540e32356afe4": {
+  "feed": "YC Hacker News",
+  "title": "SparrowMap – Cameras that watch government vehicles",
+  "link": "https://sparrowmap.com/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates an edge-native ML deployment pattern running local computer vision and privacy-preserving plate redaction on consumer hardware.",
+  "points": [
+   "Runs license plate reading and vehicle classification entirely on-device via browser or local binary.",
+   "Discards non-target data at the edge before transmission, sending only anonymous metadata to servers."
+  ]
+ },
+ "1475fd126ea6c6ab": {
+  "feed": "YC Hacker News",
+  "title": "Bluesky Protocol Services",
+  "link": "https://atproto.com/blog/introducing-bluesky-protocol-services",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Relevant for backend engineers designing high-throughput event streaming systems with backfill capabilities.",
+  "points": [
+   "Jetstream v2 adds stateless Network Replay over HTTP segments alongside the live WebSocket stream.",
+   "Eliminates per-consumer cursors and server-side state by generating pre-filtered static archive snapshots.",
+   "Live stream remains open/unauthenticated, while heavy archive reads require API tokens to control bandwidth."
+  ]
+ },
+ "979535eb01160942": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek Harness developer preview",
+  "link": "https://deepseek.com/harness/en/",
+  "date": "2026-08-14",
+  "tier": "must_read",
+  "why": "Directly relevant to LLM tooling and agent infrastructure from a leading AI lab (DeepSeek).",
+  "points": [
+   "DeepSeek Harness open-sources a Cordis-kernel modular runtime where models, sandboxes, tools, and schedulers are pluggable.",
+   "Implements append-only session logging capturing reasoning tokens, tool calls, and subagent state for deterministic replay and forking.",
+   "Provides distinct execution modes: Standard, Code Mode (multi-step operations in single TypeScript scripts), and Minimal benchmark mode."
+  ]
+ },
+ "71e7045c3e08690e": {
+  "feed": "YC Hacker News",
+  "title": "Hello, me. It's been a while",
+  "link": "https://themech.net/2026/08/hello-me-its-been-a-while/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Personal reflection on productivity and silence without technical backend or ML engineering content.",
+  "points": [
+   "Author reflects on reclaiming slow, uninterrupted thinking time by reducing background audio consumption."
+  ]
+ },
+ "0d0766dadb5b7aaf": {
+  "feed": "YC Hacker News",
+  "title": "Understanding is the new bottleneck",
+  "link": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Thought-provoking engineering essay on managing cognitive debt when developing with autonomous coding agents.",
+  "points": [
+   "Argues human understanding is required to participate in multi-turn iteration loops, not just for PR verification.",
+   "Advocates generating educational artifacts (explainer docs, interactive microworlds, quizzes) alongside agent diffs."
+  ]
+ },
+ "5273c3175afcecec": {
+  "feed": "Technica",
+  "title": "US wait times for cancer surgeries are getting longer and longer",
+  "link": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "General healthcare news completely unrelated to ML, backend systems, or process optimization.",
+  "points": [
+   "JAMA Surgery study shows increasing wait times for cancer surgeries in the US across a decade-long cohort."
+  ]
+ },
+ "285cb3fe6043e8c5": {
+  "feed": "Technica",
+  "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
+  "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "US cybersecurity policy announcement with no technical architecture or infra details.",
+  "points": [
+   "US government authorizes private security firms to conduct offensive cyber operations against transnational cybercriminal groups."
+  ]
+ },
+ "b1fa5249146cd60b": {
+  "feed": "Technica",
+  "title": "Virgin Galactic wants your help naming its new Delta class spaceship",
+  "link": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Aerospace marketing poll with zero technical engineering relevance.",
+  "points": [
+   "Virgin Galactic is crowdsourcing public votes to name its Delta-class suborbital spaceship."
+  ]
+ },
+ "5230e775c6cff0c3": {
+  "feed": "Technica",
+  "title": "Ukrainian drones wipe out entire US tank brigade in live war game",
+  "link": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Military exercise reporting unrelated to ML infrastructure or software engineering.",
+  "points": [
+   "Live war games demonstrated small drone tactics effectively disabling conventional armored vehicle formations."
+  ]
+ },
+ "69284f51f0654054": {
+  "feed": "Technica",
+  "title": "Flock “can’t tech its way out” of the stalker cop problem, experts say",
+  "link": "https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Surveillance policy and product accountability news without ML or system implementation specifics.",
+  "points": [
+   "Flock mandates automated audit tools for license plate readers to detect personal stalking abuse by law enforcement."
+  ]
+ },
+ "3a85f23ac32bfa82": {
+  "feed": "Simon Willison",
+  "title": "sqlite-utils 4.2.1",
+  "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Highlights practical Python packaging and dependency isolation techniques using uv for CLI tool authors.",
+  "points": [
+   "Addresses missing runtime typing dependencies masked by developer dependency groups.",
+   "Demonstrates testing isolated CLI invocations via `uv run --isolated --no-default-groups`."
+  ]
+ },
+ "9ae5cf1d718fd9b3": {
+  "feed": "Simon Willison",
+  "title": "sqlite-utils 4.2",
+  "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Useful backend database tooling reference on handling complex table schema alterations safely in SQLite.",
+  "points": [
+   "Improves SQLite `table.transform()` table rebuilding to preserve check constraints, column comments, and unique constraints.",
+   "Adds schema introspection properties for programmatic database migrations."
+  ]
+ },
+ "6d7f7c3a0398b0a8": {
+  "feed": "Simon Willison",
+  "title": "llm-gemini 0.33",
+  "link": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Tracks ecosystem tooling integration for Gemini 3.7 Flash and CLI reasoning trace inspection.",
+  "points": [
+   "Adds CLI support for Gemini 3.7 Flash reasoning traces and server-side Python tool execution.",
+   "Notes browser rendering discrepancies with empty SVG filter elements produced by LLM outputs."
+  ]
+ },
+ "1294320a3f2b4836": {
+  "feed": "Simon Willison",
+  "title": "alchemy-utils 0.1a1",
+  "link": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "Short release stub for an early alpha package without detailed architectural depth.",
+  "points": [
+   "Initial alpha release of alchemy-utils providing cross-database utilities for DuckDB and CSV transfers."
+  ]
+ },
+ "7e2441944dbb2565": {
+  "feed": "Cloudflare Blog",
+  "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+  "link": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Solid observational data analysis from Cloudflare Radar showing macro Internet traffic correlations with physical events.",
+  "points": [
+   "Measures 15% to 30% drops in HTTP request volume across European countries along the path of total eclipse obscuration.",
+   "Traffic troughs mapped precisely to peak obscuration timestamps and rebounded within minutes."
+  ]
  }
 }

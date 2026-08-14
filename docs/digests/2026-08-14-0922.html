@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Fri 14 Aug 2026, 09:22 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Fri 14 Aug 2026, 09:22 IST &middot; 15 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; DeepSeek open-sources its pluggable agent harness, while Bluesky details Jetstream v2 stateless network replay and Cloudflare analyzes solar eclipse traffic patterns.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://deepseek.com/harness/en/">DeepSeek Harness developer preview</a></h2><div class="why">Directly relevant to LLM tooling and agent infrastructure from a leading AI lab (DeepSeek).</div><ul><li>DeepSeek Harness open-sources a Cordis-kernel modular runtime where models, sandboxes, tools, and schedulers are pluggable.</li><li>Implements append-only session logging capturing reasoning tokens, tool calls, and subagent state for deterministic replay and forking.</li><li>Provides distinct execution modes: Standard, Code Mode (multi-step operations in single TypeScript scripts), and Minimal benchmark mode.</li></ul></div><div class="section">Worth a skim &middot; 7</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://sparrowmap.com/">SparrowMap – Cameras that watch government vehicles</a></h2><div class="why">Demonstrates an edge-native ML deployment pattern running local computer vision and privacy-preserving plate redaction on consumer hardware.</div><ul><li>Runs license plate reading and vehicle classification entirely on-device via browser or local binary.</li><li>Discards non-target data at the edge before transmission, sending only anonymous metadata to servers.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://atproto.com/blog/introducing-bluesky-protocol-services">Bluesky Protocol Services</a></h2><div class="why">Relevant for backend engineers designing high-throughput event streaming systems with backfill capabilities.</div><ul><li>Jetstream v2 adds stateless Network Replay over HTTP segments alongside the live WebSocket stream.</li><li>Eliminates per-consumer cursors and server-side state by generating pre-filtered static archive snapshots.</li><li>Live stream remains open/unauthenticated, while heavy archive reads require API tokens to control bandwidth.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck">Understanding is the new bottleneck</a></h2><div class="why">Thought-provoking engineering essay on managing cognitive debt when developing with autonomous coding agents.</div><ul><li>Argues human understanding is required to participate in multi-turn iteration loops, not just for PR verification.</li><li>Advocates generating educational artifacts (explainer docs, interactive microworlds, quizzes) alongside agent diffs.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/13/sqlite-utils-2/">sqlite-utils 4.2.1</a></h2><div class="why">Highlights practical Python packaging and dependency isolation techniques using uv for CLI tool authors.</div><ul><li>Addresses missing runtime typing dependencies masked by developer dependency groups.</li><li>Demonstrates testing isolated CLI invocations via `uv run --isolated --no-default-groups`.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/13/sqlite-utils/">sqlite-utils 4.2</a></h2><div class="why">Useful backend database tooling reference on handling complex table schema alterations safely in SQLite.</div><ul><li>Improves SQLite `table.transform()` table rebuilding to preserve check constraints, column comments, and unique constraints.</li><li>Adds schema introspection properties for programmatic database migrations.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/13/llm-gemini/">llm-gemini 0.33</a></h2><div class="why">Tracks ecosystem tooling integration for Gemini 3.7 Flash and CLI reasoning trace inspection.</div><ul><li>Adds CLI support for Gemini 3.7 Flash reasoning traces and server-side Python tool execution.</li><li>Notes browser rendering discrepancies with empty SVG filter elements produced by LLM outputs.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/">Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal</a></h2><div class="why">Solid observational data analysis from Cloudflare Radar showing macro Internet traffic correlations with physical events.</div><ul><li>Measures 15% to 30% drops in HTTP request volume across European countries along the path of total eclipse obscuration.</li><li>Traffic troughs mapped precisely to peak obscuration timestamps and rebounded within minutes.</li></ul></div><div class="section">Low priority &middot; 7</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://themech.net/2026/08/hello-me-its-been-a-while/">Hello, me. It&#x27;s been a while</a></h2><div class="why">Personal reflection on productivity and silence without technical backend or ML engineering content.</div><ul><li>Author reflects on reclaiming slow, uninterrupted thinking time by reducing background audio consumption.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/">US wait times for cancer surgeries are getting longer and longer</a></h2><div class="why">General healthcare news completely unrelated to ML, backend systems, or process optimization.</div><ul><li>JAMA Surgery study shows increasing wait times for cancer surgeries in the US across a decade-long cohort.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/">Private security firms will soon be allowed to hack overseas cybercriminals</a></h2><div class="why">US cybersecurity policy announcement with no technical architecture or infra details.</div><ul><li>US government authorizes private security firms to conduct offensive cyber operations against transnational cybercriminal groups.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/">Virgin Galactic wants your help naming its new Delta class spaceship</a></h2><div class="why">Aerospace marketing poll with zero technical engineering relevance.</div><ul><li>Virgin Galactic is crowdsourcing public votes to name its Delta-class suborbital spaceship.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/">Ukrainian drones wipe out entire US tank brigade in live war game</a></h2><div class="why">Military exercise reporting unrelated to ML infrastructure or software engineering.</div><ul><li>Live war games demonstrated small drone tactics effectively disabling conventional armored vehicle formations.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/">Flock “can’t tech its way out” of the stalker cop problem, experts say</a></h2><div class="why">Surveillance policy and product accountability news without ML or system implementation specifics.</div><ul><li>Flock mandates automated audit tools for license plate readers to detect personal stalking abuse by law enforcement.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Aug/13/alchemy-utils/">alchemy-utils 0.1a1</a></h2><div class="why">Short release stub for an early alpha package without detailed architectural depth.</div><ul><li>Initial alpha release of alchemy-utils providing cross-database utilities for DuckDB and CSV transfers.</li></ul></div></body></html>
