@@ -51624,5 +51624,71 @@
    "DeepSWE v1.1 benchmark rose from 49% to 65.3%, and FrontierCode 1.1 jumped from 34.4% to 43.6%.",
    "Document understanding (GDP.pdf) increased to 34% (up from 22%) and AutomationBench workflow score reached 30.4%."
   ]
+ },
+ "161e9fda1270ec74": {
+  "feed": "YC Hacker News",
+  "title": "Phones should have a 'guest lock' feature",
+  "link": "https://curvise.net/the-phone-features-i-cant-believe-we-dont-have/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Phone Features I Can't Believe We Don't Have – curvise.net curvise.net Home | About | Blog | Pages | Random Bear Blog The Phone Features I Can't Believe We Don't Have 14 Aug, 2026 Short post, I've just had these ideas bouncing in my head for a while and it keeps annoying me phones have never implemented them. First is a \"guest lock\". There's a better name for it somewhere but it's not my job to find it."
+  ]
+ },
+ "591107dee52a3f60": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: C# Game Engine with its own scripting language and IDE",
+  "link": "https://github.com/ArcadeMakerSources/ArcadeMaker",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - ArcadeMakerSources/ArcadeMaker: A 2D Game Engine with its own programming language and IDE. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "6990f6ce15d758bf": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Lumabri – Run Moe Models on a P2P Swarm with Colibri",
+  "link": "https://github.com/JustVugg/lumabri",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - JustVugg/lumabri: Run huge MoE models from a swarm of peers, with the colibri engine. Pure C. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "f997ac1ac5a9a227": {
+  "feed": "YC Hacker News",
+  "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain",
+  "link": "https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ruby 4.0 Universal RCE Deserialization Gadget Chain - elttam Skip to main content Important Update Banner Close Announcement Banner What We Do How We Work RESOURCES About Us Contact Us CONTACT US What We Do How We Work RESOURCES About Us Contact Us CONTACT US By Luke Jahnke August 14, 2026 Ruby 4.0 Universal RCE Deserialization Gadget Chain A new universal chain that turns a single Marshal.load into command execution on Ruby 4.0.6, the most recent release."
+  ]
+ },
+ "30a507d74bb14a0c": {
+  "feed": "YC Hacker News",
+  "title": "What an improv stage can teach you about leading cross-cultural teams in Tokyo",
+  "link": "https://www.tokyodev.com/articles/yes-and-what-an-improv-stage-can-teach-you-about-leading-cross-cultural-teams-in-tokyo",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Yes, And: What an Improv Stage Can Teach You About Leading Cross-Cultural Teams in Tokyo | TokyoDev Jobs Companies Articles Events ••• Companies Articles Get the newsletter Events Post a Job Developer Stories Surveys About 日本語 Post a Job Get the newsletter Working in Japan Yes, And: What an Improv Stage Can Teach You About Leading Cross-Cultural Teams in Tokyo Mike Staffa TokyoDev Contributor Image: Amanda Yanagawa The Senior Vice President from AXA wanted a demo."
+  ]
+ },
+ "ea1923292a86233a": {
+  "feed": "Technica",
+  "title": "Organic-looking brake assemblies debut on new Czinger 21C Spyder",
+  "link": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Across California, it's time for Monterey Car Week, a cluster of events I once called \" Comic-Con and the Oscars but with wheels .\" For the last however many years, though, it's mostly felt like an accumulation of rich people and influencers all crammed into the now-traffic-snarled peninsula, each paying 10 times the normal price for five-night minimums in three-star motels."
+  ]
  }
 }
