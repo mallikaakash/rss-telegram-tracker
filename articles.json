@@ -51745,5 +51745,64 @@
   "points": [
    "Differential heuristics Differential heuristics from Red Blob Games’s Blog Home Blog Links Bluesky About Blog post: 8 Aug 2026 In 2005 Google showed off Google Maps, which lets you drag the map around instead of reloading the page like MapQuest and others used. That’s the feature that got everyone’s attention. But what got my attention was a feature they added in 2007 where you could drag the start/end points on a route [1] , and it would recalculate the shortest path as you dragged."
   ]
+ },
+ "b673a35e4fe90625": {
+  "feed": "YC Hacker News",
+  "title": "Protect Your Relays",
+  "link": "https://www.iroh.computer/blog/authenticated-relays",
+  "date": "2026-08-14",
+  "tier": "low_priority",
+  "why": "This is a product-specific security update for Iroh's managed relay service rather than a deep systems design post.",
+  "points": [
+   "Managed Iroh relays now enforce authentication via signed capability tokens issued by API keys to prevent unauthorized relay bandwidth consumption."
+  ]
+ },
+ "1231e5275ee3ce82": {
+  "feed": "YC Hacker News",
+  "title": "Don't classify, hallucinate!",
+  "link": "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Presents a clever, cost-effective applied LLM pattern to avoid rigid, expensive structured output constraints over large taxonomies.",
+  "points": [
+   "Constraining LLM output across hundreds of categories via Pydantic literals or structured outputs is token-heavy and brittle with small models.",
+   "Instead, prompt a small LLM to hallucinate plausible taxonomy paths and resolve the generated text to the nearest valid category downstream."
+  ]
+ },
+ "0c31743454d859bc": {
+  "feed": "YC Hacker News",
+  "title": "We're not done with point clouds",
+  "link": "https://claytonwramsey.com/blog/mvt/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Interesting systems and performance engineering deep-dive on spatial data structures and SIMD-accelerated collision checking.",
+  "points": [
+   "Explores configuration validation in robotics motion planning between robot sphere approximations and dense perceived point clouds.",
+   "Discusses trade-offs between backtracking-free k-d trees (CAPT) with O(N^2) build times versus modern voxel-based collision checking with SIMD acceleration."
+  ]
+ },
+ "64015dd11c9573d6": {
+  "feed": "YC Hacker News",
+  "title": "How Compaction Works in Pi",
+  "link": "https://earendil.com/posts/compaction-in-pi/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Explains the mechanics of context window management and compaction in autonomous coding agents.",
+  "points": [
+   "Coding agent conversations quickly exceed LLM context windows due to accumulated tool definitions, files, and multi-turn execution results.",
+   "Compaction uses an LLM request to summarize older conversational history and decisions while keeping active tools and recent context intact."
+  ]
+ },
+ "7a470e4fd867bc3e": {
+  "feed": "YC Hacker News",
+  "title": "Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes",
+  "link": "https://github.com/systemd/systemd/issues/40262",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "Relevant backend/systems debugging case on severe write amplification and excessive IOPS in systemd-journald.",
+  "points": [
+   "A single log line causes massive write amplification (49KB+ on ext4, 110KB+ on btrfs), causing ~50 IOPS for just 2 log lines per second.",
+   "Demonstrates critical performance implications of synchronous journal metadata updates and disk commit patterns on Linux VMs."
+  ]
  }
 }
