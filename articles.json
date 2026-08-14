@@ -51690,5 +51690,60 @@
   "points": [
    "Across California, it's time for Monterey Car Week, a cluster of events I once called \" Comic-Con and the Oscars but with wheels .\" For the last however many years, though, it's mostly felt like an accumulation of rich people and influencers all crammed into the now-traffic-snarled peninsula, each paying 10 times the normal price for five-night minimums in three-star motels."
   ]
+ },
+ "99bdd8b2cd62c807": {
+  "feed": "YC Hacker News",
+  "title": "Why does Opus 5 feel worse to work with?",
+  "link": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why does Opus 5 feel worse to work with? Table of Contents Why does Opus 5 feel worse to work with? Baseless speculation Mun logadan /archive Search No results 1 result $NUMBER results Why does Opus 5 feel worse to work with? Posted on 2026-08-14 :: Source Code Why does Opus 5 feel worse to work with? In my opinion and that of the colleagues I've spoken with, working with Opus 5 feels like a downgrade compared to Opus 4.7, Opus 4.8, and Fable."
+  ]
+ },
+ "2776848103c68b3f": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek peak/off-peak pricing update",
+  "link": "https://api-docs.deepseek.com/news/news260813/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DeepSeek-V4-Pro GA Release | DeepSeek API Docs Skip to main content DeepSeek API Docs English English ä¸­æï¼ä¸­å½ï¼ DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Context Caching Using the Responses API Using the Anthropic API API Reference News DeepSeek-V4-Pro GA Release 2026/08/13 DeepSeek-V4 Preview Release 2026/04/24 DeepSeek-V3.2 Release 2025/12/01 DeepSeek-V3.2-Exp Release 2025/09/29 DeepSeek V3.1 Update 2025/09/22 DeepSeek V3.1 Release 2025/08/21 DeepSeek-R1-0528 Release 2025/05/28 DeepSeek-V3-0324 Release 2025/03/25 DeepSeek-R1 Release 2025/01/20 DeepSeek APP 2025/01/15 Introducing DeepSeek-V3 2024/12/26 DeepSeek-V2.5-1210 Release 2024/12/10 DeepSeek-R1-Lite Release 2024/11/20 DeepSeek-V2.5 Release 2024/09/05 Context Caching is Available 2024/08/02 New API Features 2024/07/25 Other Resources FAQ Change Log News DeepSeek-V4-Pro GA Release 2026/08/13 On this page DeepSeek-V4-Pro GA Release Weâre launching DeepSeek-V4-Pro today!"
+  ]
+ },
+ "231ace63f0ce4ad6": {
+  "feed": "YC Hacker News",
+  "title": "Major oil slick washes up on Iran coast after Hormuz ship strike",
+  "link": "https://www.bbc.com/news/articles/cr7kpdkg13zo",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Major oil slick washes up on Iran coast after Hormuz ship strike Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live Major oil slick washes up on Iran coast after Hormuz ship strike 6 hours ago Share Save Add as preferred on Google Kayleen Devlin, Barbara Metzler and Shayan Sardarizadeh BBC Verify BBC Verified videos show a major oil slick washing up on Iran's Qeshm Island, which analysts have said comes from a ship hit by a strike in the Strait of Hormuz."
+  ]
+ },
+ "6fecad6ca55fc8b5": {
+  "feed": "YC Hacker News",
+  "title": "I want extern \"fil-C\"",
+  "link": "https://www.domenkozar.com/2026/08/13/i-want-extern-fil-c/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I want extern \"fil-c\" · Domen Kožar Skip to content Notes on technology & life Domen Kožar Building tools for better developer environments at cachix.org , secretspec.dev , and devenv.sh . Writing About Archive GitHub ↗ X ↗ Email ↗ Words shared under CC BY 3.0 . View source ↗ August 13, 2026 English , Rust , C , Memory Safety I want extern \"fil-c\" Rust’s C FFI gives us access to decades of useful software, but the bargain is backwards."
+  ]
+ },
+ "b86ade214707f5ff": {
+  "feed": "YC Hacker News",
+  "title": "Differential Heuristics",
+  "link": "https://www.redblobgames.com/blog/2026-08-08-differential-heuristics/",
+  "date": "2026-08-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Differential heuristics Differential heuristics from Red Blob Games’s Blog Home Blog Links Bluesky About Blog post: 8 Aug 2026 In 2005 Google showed off Google Maps, which lets you drag the map around instead of reloading the page like MapQuest and others used. That’s the feature that got everyone’s attention. But what got my attention was a feature they added in 2007 where you could drag the start/end points on a route [1] , and it would recalculate the shortest path as you dragged."
+  ]
  }
 }
