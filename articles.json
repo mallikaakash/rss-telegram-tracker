@@ -52534,5 +52534,62 @@
    "Demonstrates using classification detectors as reward/verifier models to guide text generation in small language models.",
    "Covers end-to-end local deployment from model training to API endpoints and a browser-based UI."
   ]
+ },
+ "9850316be183f657": {
+  "feed": "YC Hacker News",
+  "title": "Brazilian election filter in X For You timeline",
+  "link": "https://github.com/xai-org/x-algorithm/blob/main/home-mixer/filters/brazil_2026_election_filter.rs",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Raw repository code dump with no technical analysis, architectural insight, or ML relevance.",
+  "points": [
+   "Contains source code for region-specific timeline filtering in X's recommendation engine."
+  ]
+ },
+ "bddc99946587c701": {
+  "feed": "YC Hacker News",
+  "title": "Strait of Hormuz Live Traffic Tracking",
+  "link": "https://hormuz.now/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Off-topic geopolitical maritime tracking link containing no software or ML content.",
+  "points": [
+   "Non-technical post tracking marine traffic in the Strait of Hormuz."
+  ]
+ },
+ "c6390e512ab633ae": {
+  "feed": "YC Hacker News",
+  "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+  "link": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+  "date": "2026-08-15",
+  "tier": "must_read",
+  "why": "A premier engineering deep-dive from Netflix covering end-to-end LLM post-training, catalog-aware ranking loss, and vLLM inference infrastructure.",
+  "points": [
+   "Replaces thousands of hand-crafted recsys features by verbalizing user history and metadata into natural language context.",
+   "Post-trains foundation models with a catalog-aware scoring head and reward-weighted loss to prevent hallucinations and popularity bias.",
+   "Deploys inference at scale using vLLM in prefill-only mode to directly score and rank catalog items."
+  ]
+ },
+ "4c6e0adc4170d96a": {
+  "feed": "YC Hacker News",
+  "title": "Working with AI Feels More Like Leadership Than Coding",
+  "link": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "High-level personal blog essay comparing AI prompting to management, lacking technical ML or backend depth.",
+  "points": [
+   "Argues that communicating context and intent with LLMs mirrors delegating to human teams rather than deterministic coding."
+  ]
+ },
+ "5567d7f445125c4a": {
+  "feed": "YC Hacker News",
+  "title": "Geometric Reasoning",
+  "link": "https://sophontic.ai/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Vague AI startup marketing page making unverified performance claims without technical depth or open architecture details.",
+  "points": [
+   "Marketing teaser from Sophontic claiming a compact reasoning model that matches models 60x its size via geometric training and flip-rate evals."
+  ]
  }
 }
