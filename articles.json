@@ -52079,5 +52079,142 @@
   "points": [
    "AI by Hand ✍️ | Prof. Tom Yeh | Substack AI by Hand ✍️ Math, Algorithms, Architectures, by hand By Prof. Tom Yeh · Over 73,000 subscribers Subscribe By subscribing, you agree Substack's Terms of Use , and acknowledge its Information Collection Notice and Privacy Policy . Later This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts"
   ]
+ },
+ "be73bc3cd41eaba1": {
+  "feed": "YC Hacker News",
+  "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+  "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Unrelated world news.",
+  "points": [
+   "News item about an earthquake in Indonesia."
+  ]
+ },
+ "2aef493714926de9": {
+  "feed": "YC Hacker News",
+  "title": "Going Dark, and the era of law enforcement hacking",
+  "link": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "Matthew Green explores how AI advances and encrypted reasoning are intersecting with cryptography and lawful interception.",
+  "points": [
+   "Discusses implications of AI advances on cryptography and law enforcement access.",
+   "Contextualizes how private inference and encrypted reasoning change privacy models."
+  ]
+ },
+ "172ecfcf22a92e4a": {
+  "feed": "YC Hacker News",
+  "title": "Simplifying and Refactoring Introductory Calculus",
+  "link": "https://arxiv.org/abs/1811.03459",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Pedagogical paper on introductory calculus without direct ML or engineering application.",
+  "points": [
+   "Proposes simplifying standard calculus curricula to reduce student memorization."
+  ]
+ },
+ "ee04363f17a2b154": {
+  "feed": "YC Hacker News",
+  "title": "The Ploopy A+ Trackball Is Here",
+  "link": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Consumer hardware announcement with no ML/infra relevance.",
+  "points": [
+   "Ploopy released a new trackball device."
+  ]
+ },
+ "455f52fb8a43e456": {
+  "feed": "YC Hacker News",
+  "title": "The case for overhauling American science",
+  "link": "https://www.economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Broad science policy commentary without technical depth.",
+  "points": [
+   "Discusses systemic reforms needed in American scientific research."
+  ]
+ },
+ "b74725c02d4516dd": {
+  "feed": "Technica",
+  "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+  "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Standard OS-level CVE report unrelated to backend or ML infrastructure.",
+  "points": [
+   "CVE-2026-65400 allows full remote control of macOS via exposed port 5900 screen sharing."
+  ]
+ },
+ "855e1413ec0efbfb": {
+  "feed": "Technica",
+  "title": "First test flight of largest all-electric aircraft used just $5 of electricity",
+  "link": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Electric aviation news with no ML or distributed systems content.",
+  "points": [
+   "Heart Aerospace's X1 electric aircraft flew for ~30 minutes using $5 of electricity with 1MW+ peak power."
+  ]
+ },
+ "9510778d4d6d6795": {
+  "feed": "Technica",
+  "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+  "link": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "Notable real-world adversarial prompt injection attack against legal document processing pipelines.",
+  "points": [
+   "Plaintiff injected white-on-white text instructions into court filings to manipulate potential LLM evaluators.",
+   "Highlights vulnerabilities and attack vectors in real-world document ingestion pipelines."
+  ]
+ },
+ "3e5c9909e0dd5b2a": {
+  "feed": "Technica",
+  "title": "State judge orders Kalshi to stop offering sports bets and other wagers",
+  "link": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "State regulatory legal action regarding prediction markets.",
+  "points": [
+   "Judge ordered Kalshi to halt sports and election wagers in Washington state due to licensing issues."
+  ]
+ },
+ "e2a6e77f6a8f7b62": {
+  "feed": "Technica",
+  "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+  "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Legal dispute over defunct third-party cloud storage with minimal architectural takeaway.",
+  "points": [
+   "PBS affiliate sued Iron Mountain to recover 50TB of archival data stranded by an unresponsive intermediary vendor."
+  ]
+ },
+ "3e4e84742a48b5a7": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+  "link": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+  "date": "2026-08-15",
+  "tier": "must_read",
+  "why": "Analyzes how Z.ai scaled post-training and RL environments to push GLM-5.3 (750B) past leading frontier models on agentic coding.",
+  "points": [
+   "GLM-5.3 matches or exceeds frontier models like Kimi K3 and GPT-class models at ~750B parameters using the exact same base model as GLM-5.2.",
+   "Performance leap is attributed entirely to scaled RL post-training across diverse simulated environments and compute, not distillation alone.",
+   "Open weights are scheduled for release to Hugging Face within two weeks."
+  ]
+ },
+ "77478ebfdae20e21": {
+  "feed": "Simon Willison",
+  "title": "Don't classify. Hallucinate!",
+  "link": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "Clever, practical pattern for large-taxonomy classification using LLM hallucination plus embedding retrieval.",
+  "points": [
+   "Avoids stuffing thousands of fixed taxonomy classes into LLM context windows.",
+   "Instructs the LLM to generate idealized descriptive tags, then maps them back to the fixed vocabulary via vector embedding similarity."
+  ]
  }
 }
