@@ -2501,5 +2501,81 @@
    "Provides real-world economics of cutting serving costs from ~$588/mo (g6.xlarge on-demand) to ~$245/mo using spot instances paired with automatic cloud fallbacks.",
    "Demonstrates the architectural design of a custom 200-line supervisor watchdog to handle frequent spot reclamations without downtime."
   ]
+ },
+ "55ad2c57a486b738": {
+  "url": "https://szha.ai/blog/compute-optimal-is-not-cluster-optimal/",
+  "title": "Compute-Optimal Is Not Cluster-Optimal — Sheng Zha",
+  "domain": "szha.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-15",
+  "tier": "hidden_gem",
+  "why": "Original scaling law research that bridges compute-optimal scaling theory with real-world cluster execution layout and MFU constraints for MoE models.",
+  "points": [
+   "Introduces the MOSAIC framework that unifies scaling laws and distributed execution layouts to optimize for GPU-hours instead of pure FLOPs.",
+   "Fits a joint scaling law across total parameters, sparsity, tokens, and expert split factor G across ~150 from-scratch MoE training runs.",
+   "Highlights that MFU differences across model architectures make FLOP-optimal designs diverge significantly from cost-optimal designs on real hardware."
+  ]
+ },
+ "64245814f5e4e0a8": {
+  "url": "https://netraruntime.com/blog/how-paged-attention-and-continuous-batching-actually-work",
+  "title": "How Paged Attention and Continuous Batching Actually Work | Netra Runtime",
+  "domain": "netraruntime.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-15",
+  "tier": "skip",
+  "why": "A standard, broad explainer covering well-known concepts (PagedAttention and continuous batching) that serves as introductory content.",
+  "points": []
+ },
+ "33cfb5c0caac1f59": {
+  "url": "https://dev.to/thokozani_buthelezi_2cd41/how-vllm-actually-manages-kv-cache-vs-the-toy-version-i-built-2kba",
+  "title": "How vLLM Actually Manages KV Cache (vs the Toy Version I Built) - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-15",
+  "tier": "solid_find",
+  "why": "Hands-on codebase analysis comparing toy PagedAttention implementations to modern vLLM internals and design evolutions.",
+  "points": [
+   "Traces how vLLM evolved from a single BlockManager to specialized sub-managers (kv_cache_manager, single_type_kv_cache_manager) to handle heterogeneous attention types.",
+   "Identifies why vLLM uses a doubly-linked list for the block pool rather than a simple queue (enabling arbitrary mid-list block reclamation for prefix caching).",
+   "Shows that Copy-on-Write (CoW) in modern vLLM is primarily driven by partial prefix cache hits rather than beam search branching."
+  ]
+ },
+ "18401118202b6e5a": {
+  "url": "https://p.rst.im/q/github.com/MrMiniMIze/mini-nccl",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-15",
+  "tier": "skip",
+  "why": "Irrelevant static proxy/mirror landing page with broken or mismatched text content.",
+  "points": []
+ },
+ "6bdeeb6d5db36f8e": {
+  "url": "https://www.alphaxiv.org/abs/2608.03599",
+  "title": "Disentangling Language Modeling and Boundaries | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-15",
+  "tier": "solid_find",
+  "why": "A fresh research proposal arguing for byte-level language models to bypass tokenizer misalignment in cross-model logit distillation.",
+  "points": [
+   "Proposes that byte-level language models naturally share identical output spaces, eliminating the need for heuristic cross-tokenizer distillation.",
+   "Hypothesizes that next-byte distribution and patch boundary placement distributions can be disentangled and adapted independently.",
+   "Outlines experimental approaches to separate capability transfer from boundary representations."
+  ]
+ },
+ "9ebc22821c9720c1": {
+  "url": "https://catg.kghs.net/2026/06/2026-06-gb10-llm-serving-part1/",
+  "title": "Turning a GB10 Into an LLM Server: Everything That Broke First - CatG Homepage",
+  "domain": "catg.kghs.net",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-15",
+  "tier": "hidden_gem",
+  "why": "Detailed, first-principles hardware debugging postmortem for local LLM inference on unreleased desktop Blackwell (GB10 / sm_121) unified memory architecture.",
+  "points": [
+   "Exposes architectural realities of desktop Blackwell (sm_121): lacking TMEM, only 99 KiB shared memory per SM, and unified memory causing system-wide Linux OOM kernel crashes.",
+   "Details specific runtime pitfalls including Ollama's 262k context default consuming 8GB+ KV cache and SGLang failing due to SM 12.x/CUDA 13+ build toolchain mismatches.",
+   "Provides hands-on debugging of ARM Grace CPU compilation quirks and PyTorch compatibility issues."
+  ]
  }
 }
