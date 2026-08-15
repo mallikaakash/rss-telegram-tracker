@@ -52216,5 +52216,82 @@
    "Avoids stuffing thousands of fixed taxonomy classes into LLM context windows.",
    "Instructs the LLM to generate idealized descriptive tags, then maps them back to the fixed vocabulary via vector embedding similarity."
   ]
+ },
+ "ab1f720db0b9145d": {
+  "feed": "YC Hacker News",
+  "title": "Google is making private AI practical with homomorphic encryption",
+  "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Google is Making Private AI Practical with Homomorphic Encryption Skip to main content Security How Google is Making Private AI Practical with Homomorphic Encryption [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Security How Google is Making Private AI Practical with Homomorphic Encryption Aug 14, 2026 | x.com Facebook LinkedIn Mail Copy link Jeremy Kun Staff Software Engineer Share x.com Facebook LinkedIn Mail Copy link Today we're excited to showcase HEIR , the latest powerful tool added to our Private Computing Toolkit."
+  ]
+ },
+ "b88a479110156a2e": {
+  "feed": "YC Hacker News",
+  "title": "eigendrum",
+  "link": "https://eigendrum.com/#p=circle",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Eigendrum - draw a shape and hear it as a real drum Skip to the controls tag and the other only in a dialog: which host is canonical, and how to reach the developer. Everything here is true and is said somewhere visible too. --> Eigendrum is hosted at eigendrum.com. The older address baselashraf81.github.io/eigendrum is a mirror that redirects there, so eigendrum.com is the canonical URL to link to and to cite."
+  ]
+ },
+ "593221c1dc28ccc6": {
+  "feed": "YC Hacker News",
+  "title": "Hi-Fi Tape Recorder Changed Radio Forever",
+  "link": "https://spectrum.ieee.org/magnetophon-laugh-track",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "--> Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); The Magnetophon and the Birth of the Laugh Track - IEEE Spectrum IEEE.org IEEE Xplore IEEE Standards IEEE Job Site More Sites Sign In Join IEEE This Hi-Fi Tape Recorder Changed Radio Forever Share FOR THE TECHNOLOGY INSIDER Search: Explore by topic Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation IEEE Spectrum FOR THE TECHNOLOGY INSIDER Topics Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation Sections Features News Opinion Careers DIY Engineering Resources More Newsletters Special Reports Collections Explainers Top Programming Languages Robots Guide ↗ IEEE Job Site ↗ For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive IEEE Spectrum About Us Contact Us Reprints & Permissions ↗ Advertising ↗ Follow IEEE Spectrum Support IEEE Spectrum IEEE Spectrum is the flagship publication of the IEEE — the world’s largest professional organization devoted to engineering and applied sciences."
+  ]
+ },
+ "1895a92afc985df2": {
+  "feed": "YC Hacker News",
+  "title": "Firefox is now the last major browser that still supports uBlock Origin",
+  "link": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Firefox is now the last major browser that still supports uBlock Origin | PCWorld Consumer AI Home Robotics Performance Privacy Productivity Smart Answers Magazine Search Menu HOT TOPICS Best laptops Best VPNs Best antivirus Laptop deals Desktop PC deals Mini PC deals Newsletters Back Close Search CONSUMER AI HOME ROBOTICS PERFORMANCE PRIVACY PRODUCTIVITY BY PRODUCT CATEGORY Accessories Business Entertainment Gaming Laptops Mobile Monitors Computer Components Security Smart Home Security Personal Software Storage Streaming Networking Windows BY STORY TYPE News Best Picks Reviews How-To Deals BLOGS Prompt Mode Safe Mode Smart Mode The Full Nerd Cord-Cutter Confidential Try This EVENTS Annual Awards Back to School Black Friday CES Computex Prime Day NEWSLETTERS DIGITAL MAGAZINE Digital Magazine - Subscribe Digital Magazine - Info Gift Subscription SMART ANSWERS CLIENT CONTENT BrandPosts The 1Password Guide to Password Managers The Avast Online Security Buyer’s Guide The Dell 2026 buying guide: Laptops, monitors and Alienware gaming gear The Dell & Alienware 2026 Wish List The EaseUS PC Utility Buying Guide The 2026 ECOVACS Robot Vacuum & Window Robot Buying Guide The GIGABYTE AI Gaming Laptop Buyer’s Guide The MSI AI PC Buyer’s Guide: From Mini AI PCs to Powerful AI Workstations The MSI Guide to Wi-Fi 7: How to Fix Wireless Dead Zones and Upgrade to Wi-Fi 7 at Home The Navimow Robot Lawn Mower Buying Guide The Norton Security Buyer’s Guide The Norton Small Business Security Buyer’s Guide The Optery Guide to Personal Data Removal The Roborock Guide to Smarter Floor Cleaning How to Choose an ROG Custom Gaming Keyboard The Seagate & LaCie External Storage Buyer’s Guide The T-Mobile 5G and Fiber Home Internet Buying Guide The TP-Link Guide to Modern Mesh Home Wi-Fi The ZOTAC GAMING Graphics Card & MEK PC Buyer’s Guide When you purchase through links in our articles, we may earn a small commission."
+  ]
+ },
+ "c0d7e3a270206042": {
+  "feed": "YC Hacker News",
+  "title": "AI Driven Testing",
+  "link": "https://app.deltix.ai",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Deltix · Test your mobile app like a real user Sign in Test your mobile app like a real user. Describe a task in plain English. Deltix runs it on a simulator and tells you if a real user could complete it. Start free → Watch a real run ↓ Open beta · iOS today · No credit card SEE IT IN ACTION Watch a real run. Watch \" Deltix product demo \" on YouTube Watch Privacy by default Your source and your build stay on your Mac."
+  ]
+ },
+ "e3e02b6fcb1e97fd": {
+  "feed": "Technica",
+  "title": "Policy experts: Europe stuck between \"rock and a hard place\" on launch",
+  "link": "https://arstechnica.com/space/2026/08/policy-experts-europe-stuck-between-rock-and-a-hard-place-on-launch/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A decade ago, SpaceX began to land the first stages of the Falcon 9 rocket with some regularity, but it's only within the last five years that the company has begun flying the rocket dozens and then hundreds of times a year. As a result, SpaceX has very rapidly become responsible for more than three-quarters of all mass launched into orbit. Much of this is the company's Starlink satellites, but due to cost and the lack of alternatives, SpaceX has also stepped up to launch payloads from all comers, including direct competitors such as Amazon, Northrop Grumman, AST Space Mobile, OneWeb, and more."
+  ]
+ },
+ "69a56244fe9854e4": {
+  "feed": "Simon Willison",
+  "title": "Northern Gannet",
+  "link": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. He showed up in the Farallon Islands off the coast of San Francisco 14 years ago . He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier."
+  ]
  }
 }
