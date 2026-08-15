@@ -52591,5 +52591,62 @@
   "points": [
    "Marketing teaser from Sophontic claiming a compact reasoning model that matches models 60x its size via geometric training and flip-rate evals."
   ]
+ },
+ "84691f8174add04b": {
+  "feed": "YC Hacker News",
+  "title": "The First At-Home Test for Infected Ticks Could Improve Lyme Disease Diagnosis",
+  "link": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "This is general consumer medical news completely unrelated to ML, backend systems, or industrial engineering.",
+  "points": [
+   "Announces LymeAlert, an at-home diagnostic test for ticks carrying Lyme disease."
+  ]
+ },
+ "0b73ad404776219f": {
+  "feed": "YC Hacker News",
+  "title": "Secondhand book sales are booming. Is it because of AI?",
+  "link": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "Gives direct insight into LLM pretraining data acquisition pipelines and the legal/operational realities of industrial-scale dataset construction.",
+  "points": [
+   "Anthropic's 'Project Panama' involved bulk-buying secondhand books and using 'destructive scanning' (guillotining spines for fast scanning) to digitize training data at scale.",
+   "A US federal court ruled that training AI models on purchased physical books constitutes transformative fair use under copyright law."
+  ]
+ },
+ "3e34ba37fa70bf9e": {
+  "feed": "YC Hacker News",
+  "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
+  "link": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "Contains practical insights on managing LLM agent workflows and test-driven boundaries when modernizing legacy codebases.",
+  "points": [
+   "Highlights the risk of letting coding agents modify tests and production code simultaneously, which weakens test validity.",
+   "Details a structured modernization workflow using Claude Code, breaking refactoring into isolated, constraint-driven phases over an existing test suite."
+  ]
+ },
+ "4b291a743e6ad736": {
+  "feed": "YC Hacker News",
+  "title": "The AI Situation in Software Development",
+  "link": "https://srikanth.ch/posts/the-ai-situation/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Contains high-level, generic musings on prompting and context windows without deep technical insights or novel engineering architectures.",
+  "points": [
+   "Reflects on the shift from manual coding to specification design and prompt context management when collaborating with LLMs."
+  ]
+ },
+ "ebbd3bb982d2c79e": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Quasicrystals Animation Playground with WebXR",
+  "link": "https://hypnagogic-quasicrystals.github.io/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Frontend WebXR visual demo with zero relevance to backend systems or ML infrastructure.",
+  "points": [
+   "WebXR animation playground demonstrating quasicrystals."
+  ]
  }
 }
