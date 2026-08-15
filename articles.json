@@ -52348,5 +52348,64 @@
   "points": [
    "Yesterdays Yesterdays Browse Map Search Docs More Subjects From Above Favorites Map Layers Activity Stats Login with OSM Yesterdays of Richmond Place historical images of Richmond, Virginia on the map! Contribute Explore the Map Featured Image Ebenezer Baptist Church, circa 1978 Image Details From Jackson Ward Historic District Photographs · Virginia Commonwealth University Image Map Explore the full map Recent Activity mhpob georeferenced an image 2 hours ago Greenhow Houses The Valentine · Mary Wingfield Scott Photograph Collection John Pole georeferenced 8 images 14 hours ago +3 more Mrs."
   ]
+ },
+ "221adc0985abfdc8": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+  "link": "https://chenxiachan.github.io/thoughtdag/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "Provides an interesting DAG-based mental model and tool for visually inspecting, pruning, and managing LLM prompt context trees.",
+  "points": [
+   "Models LLM conversational history as an explicit directed acyclic graph rather than a linear message array.",
+   "Allows arbitrary pruning and merging of context branches to reduce token usage and prevent prompt pollution.",
+   "Compiles graph traversals into exact ordered message payloads before hitting the model API."
+  ]
+ },
+ "f178f6ee2fd0841e": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Silent Shark – tactical map-based WWII submarine sim",
+  "link": "https://silentshark.app/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Commercial video game announcement for a WWII submarine simulator with no relevance to ML or backend engineering.",
+  "points": [
+   "Announces the release of Silent Shark, a tactical map-based submarine simulator on Steam."
+  ]
+ },
+ "c8290e1ea3af3799": {
+  "feed": "YC Hacker News",
+  "title": "In 1962, Egypt's Missile Program Lost Its Key Scientist Without a Trace",
+  "link": "https://www.popularmechanics.com/military/a73358518/nazi-rocket-scientist-disappearance/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "General historical article about Cold War missile programs and espionage with no technical engineering content.",
+  "points": [
+   "Recounts the 1962 disappearance of Heinz Krug, a scientist in Egypt's rocket program."
+  ]
+ },
+ "2c447a7def9e663c": {
+  "feed": "YC Hacker News",
+  "title": "Super Mario Derivations",
+  "link": "https://fzakaria.com/2026/08/05/super-mario-derivations",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "A creative demonstration of Nix's lazy evaluation and content-addressed derivations applied to game state caching.",
+  "points": [
+   "Leverages Nix lazy evaluation to represent infinite tree walks as Nix attribute paths.",
+   "Treats individual NES controller inputs and frames as isolated Nix derivations with savestates as inputs.",
+   "Demonstrates deterministic incremental execution graph caching using nixpkgs architecture."
+  ]
+ },
+ "7d636521da361719": {
+  "feed": "YC Hacker News",
+  "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
+  "link": "https://heyjonny.dev/posts/rss-to-eink-newspaper/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Personal hardware/lifestyle hobbyist project generating EPUB files for a mini e-ink reader.",
+  "points": [
+   "Builds an automated script to convert Feedbin RSS unread items into EPUB format for an ESP32-based e-reader."
+  ]
  }
 }
