@@ -52464,5 +52464,75 @@
   "points": [
    "Racket v9.3 adds Markdown documentation generation via raco, new package installation flags, and minor runtime library adjustments."
   ]
+ },
+ "14707a5e6441e8ce": {
+  "feed": "YC Hacker News",
+  "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+  "link": "https://sankalp.bearblog.dev/autoresearch/",
+  "date": "2026-08-15",
+  "tier": "must_read",
+  "why": "Detailed engineering case study on GPU performance engineering, CUDA kernel optimization, and automated LLM-in-the-loop search.",
+  "points": [
+   "Details optimizing batched compact Householder QR decomposition in CUDA, achieving a 232x speedup over PyTorch baselines.",
+   "Uses blocked Householder reflection algorithms to restructure math and minimize serial execution bottlenecks on GPU.",
+   "Employs an agentic 'auto-research' loop via a CLI harness to systematically iterate on kernel variants and break out of local performance optima."
+  ]
+ },
+ "7c2bcd8c1e358784": {
+  "feed": "YC Hacker News",
+  "title": "The mathematical beauty of hyperbezier curves",
+  "link": "https://linebender.org/blog/hyperbezier/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Covers 2D vector graphics and curve geometry, which is outside your ML and infrastructure focus.",
+  "points": [
+   "Proposes a hyperbezier curve family using Cesàro equations to provide smoother curvature transitions than cubic Béziers."
+  ]
+ },
+ "8097537b4028a87f": {
+  "feed": "YC Hacker News",
+  "title": "The Color of White Light",
+  "link": "https://ludens.cl/photo/spectra/spectra.html",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "DIY optics and spectroscopy project with no relevance to ML systems or backend engineering.",
+  "points": [
+   "Explains how to construct a low-cost camera spectrograph using a diffraction grating and PVC tubing."
+  ]
+ },
+ "aaca96fa0e6a2afa": {
+  "feed": "YC Hacker News",
+  "title": "Debian has begun voting on the future of AI/LLM contributions",
+  "link": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Community governance announcement without technical depth or actionable ML engineering takeaways.",
+  "points": [
+   "Debian initiates a project-wide developer vote to establish policies regarding AI and LLM-assisted contributions."
+  ]
+ },
+ "e20942ac6eee54d7": {
+  "feed": "Technica",
+  "title": "So much solar: Digging into the list of every US power plant that went online this year",
+  "link": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
+  "date": "2026-08-15",
+  "tier": "low_priority",
+  "why": "Macro energy sector reporting with no application to ML, process optimization, or backend infrastructure.",
+  "points": [
+   "Reviews EIA data on 368 utility-scale power projects brought online in early 2026, driven primarily by solar and wind installations."
+  ]
+ },
+ "53ddef6230f10e58": {
+  "feed": "Sebastian Raschka (Ahead of AI)",
+  "title": "Building an AI Text Detector From Scratch",
+  "link": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "Provides a hands-on tutorial by Sebastian Raschka on building verifiers and scoring mechanisms for small language models.",
+  "points": [
+   "Breaks down text-detection techniques including supervised classification, perplexity evaluation, and perturbation tests.",
+   "Demonstrates using classification detectors as reward/verifier models to guide text generation in small language models.",
+   "Covers end-to-end local deployment from model training to API endpoints and a browser-based UI."
+  ]
  }
 }
