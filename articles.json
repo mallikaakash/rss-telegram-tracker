@@ -52293,5 +52293,60 @@
   "points": [
    "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. He showed up in the Farallon Islands off the coast of San Francisco 14 years ago . He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier."
   ]
+ },
+ "3078c7ed68a82c18": {
+  "feed": "YC Hacker News",
+  "title": "I close SSH port 22 (and what I use instead)",
+  "link": "https://www.michelebologna.net/2026/ssh-port-22-fwknop-single-packet-authorization/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why I close SSH port 22 entirely (and what I use instead) · Michele Bologna Michele Bologna Posts Projects Talks Contacts Why I close SSH port 22 entirely (and what I use instead) June 11, 2026 7-minute read Linux • Software Ssh • Security • Fwknop • Ansible • Homelab • Networking Most SSH hardening guides stop at key-only auth and fail2ban . That helps, but if your machine has a public IP, port 22 is still open to the internet."
+  ]
+ },
+ "2bdb9faa4afb6cc1": {
+  "feed": "YC Hacker News",
+  "title": "The other Sean Byrne doesn't exist",
+  "link": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Other Sean Byrne Doesn't Exist — Sean Byrne Sean Byrne Writing Projects About Contact The Other Sean Byrne Doesn't Exist August 14, 2026 Earlier this year Apple denied me access to App Store Connect after deciding that I matched someone on a U.S. government restricted-party list. Their explanation was fairly definitive: “The information you provided fully matches one or more restricted parties on the U.S."
+  ]
+ },
+ "130351f9398364a4": {
+  "feed": "YC Hacker News",
+  "title": "Coin-sized device can hack a Boeing 737",
+  "link": "https://www.wired.com/story/this-coin-sized-device-can-hack-a-boeing-737/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This Coin-Sized Device Can Hack a Boeing 737 | WIRED Skip to main content Menu WIRED SECURITY POLITICS THE BIG STORY BUSINESS SCIENCE CULTURE REVIEWS Menu WIRED Account Account Newsletters Security Politics The Big Story Business Science Culture Reviews Chevron More Expand The Big Interview Magazine Events WIRED Insider WIRED Consulting Newsletters Podcasts Video Livestreams Merch Search Search Andy Greenberg Security Aug 12, 2026 8:00 AM This Coin-Sized Device Can Hack a Boeing 737 Security researchers found that in less than 60 seconds, they could open a hatch on a plane’s exterior, plug in a tiny device, and redirect the aircraft’s autopilot or sabotage its flight plan."
+  ]
+ },
+ "5c6d906950d2b1d9": {
+  "feed": "YC Hacker News",
+  "title": "Unearthing a 31 year old Easter egg in Ecco the Dolphin",
+  "link": "https://32bits.substack.com/p/under-the-microscope-ecco-the-dolphin-98c",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "9caa2d0828541da1": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: A website for exploring historical photographs of my city",
+  "link": "https://yesterdays.maprva.org/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Yesterdays Yesterdays Browse Map Search Docs More Subjects From Above Favorites Map Layers Activity Stats Login with OSM Yesterdays of Richmond Place historical images of Richmond, Virginia on the map! Contribute Explore the Map Featured Image Ebenezer Baptist Church, circa 1978 Image Details From Jackson Ward Historic District Photographs · Virginia Commonwealth University Image Map Explore the full map Recent Activity mhpob georeferenced an image 2 hours ago Greenhow Houses The Valentine · Mary Wingfield Scott Photograph Collection John Pole georeferenced 8 images 14 hours ago +3 more Mrs."
+  ]
  }
 }
