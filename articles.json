@@ -52648,5 +52648,71 @@
   "points": [
    "WebXR animation playground demonstrating quasicrystals."
   ]
+ },
+ "c09e460cdf9e9701": {
+  "feed": "YC Hacker News",
+  "title": "Semaglutide linked to 26% lower 5-year predicted dementia risk",
+  "link": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "fb3e12576f30028d": {
+  "feed": "YC Hacker News",
+  "title": "RISC-V: They Should Have Known Better",
+  "link": "https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RISC-V: They Should Have Known Better - Dmitry.GR Toggle navigation Dmitry.GR Myself Projects Thoughts Dmitry.GR / Thoughts / RV RISC-V: They Should Have Known Better Table of Contents Everything for Everyone Optionality Missing Obvious Pieces Ridiculous encoding Alleged Fixes How Did We Get Here and Where to Now? Does This Mean RISC-V is Doomed? Comments..."
+  ]
+ },
+ "b21a09c4798c2c5f": {
+  "feed": "YC Hacker News",
+  "title": "A Spectre Is Haunting Unicode",
+  "link": "https://www.dampfkraft.com/ghost-characters.html",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A Spectre is Haunting Unicode A Spectre is Haunting Unicode This post is part of collections on Code and Computers and Japanese Language Technology . In 1978 Japan's Ministry of Economy, Trade and Industry established the encoding that would later be known as JIS X 0208, which still serves as an important reference for all Japanese encodings. However, after the JIS standard was released people noticed something strange - several of the added characters had no obvious sources, and nobody could tell what they meant or how they should be pronounced."
+  ]
+ },
+ "69a98c1765b1b416": {
+  "feed": "YC Hacker News",
+  "title": "A controversial Alzheimer's surgery is said to reverse symptoms",
+  "link": "https://www.nature.com/articles/d41586-026-02448-x",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A controversial Alzheimer’s surgery is said to reverse symptoms — here’s what scientists know | Nature Skip to main content Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer)."
+  ]
+ },
+ "16dfa567125ed139": {
+  "feed": "YC Hacker News",
+  "title": "2D Gaussian Splatting for Bézier Spline Line Art Vectorization",
+  "link": "https://studios.disneyresearch.com/2026/07/16/2d-gaussian-splatting-for-bezier-spline-line-art-vectorization/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "2D Gaussian Splatting for Bézier Spline Line Art Vectorization | Disney Research Studios Research Machine Learning Visual Computing Data Sets Publications People Leadership Research Staff Support Teams Alumni Careers Outreach About Us Select Page 2D Gaussian Splatting for Bézier Spline Line Art Vectorization In this work, we leverage several recent advances in the field to introduce a new state-of-the-art method for line art vectorization."
+  ]
+ },
+ "0ed2f09480ff2826": {
+  "feed": "Technica",
+  "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
+  "link": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
+  "date": "2026-08-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ukrainian President Volodymyr Zelenskyy confirmed on Saturday that his country struck the Progress Rocket Space Center deep within Russia using ground-launched cruise missiles. \"In Russia’s Samara region, one of the key enterprises within Roscosmos—the Progress Center, which was involved, among other things, in electronics production–was hit,\" Zelenskyy said on the social media site X."
+  ]
  }
 }
