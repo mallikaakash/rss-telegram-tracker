@@ -52907,5 +52907,62 @@
   "points": [
    "A JACC study reports waist circumference and waist-to-hip ratio predict cardiovascular disease risk better than BMI alone."
   ]
+ },
+ "81ad09ea2459e094": {
+  "feed": "YC Hacker News",
+  "title": "What happens when an LLM never sees material beyond fifth grade?",
+  "link": "https://littlelearner-ll.github.io/",
+  "date": "2026-08-16",
+  "tier": "must_read",
+  "why": "Directly relevant to LLM pretraining and reasoning research, showing empirical limits of GRPO and scaling on controlled curricula.",
+  "points": [
+   "Trained 0.6B, 1.3B, and 5B models from scratch on an 88B-token K–5 filtered corpus with matched unfiltered controls.",
+   "Discovers that scaling, SFT+GRPO, and prompting only elicit in-curriculum capabilities and cannot induce out-of-distribution reasoning missing from pretraining."
+  ]
+ },
+ "c0aca2720abe18ef": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Laptop is the last place your secrets are still in plaintext",
+  "link": "https://github.com/jitpass/jit",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "Local macOS developer security utility unrelated to backend systems or ML infrastructure.",
+  "points": [
+   "CLI tool to gate local macOS plaintext secrets behind Apple Silicon Touch ID with just-in-time injection."
+  ]
+ },
+ "f54ab98d3d04f9cf": {
+  "feed": "YC Hacker News",
+  "title": "Health benefits of Tai Chi",
+  "link": "https://www.health.harvard.edu/exercise-and-fitness/the-health-benefits-of-tai-chi",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "General health article with zero relevance to ML, backend systems, or engineering priorities.",
+  "points": [
+   "Summarizes the physical, balance, and mental health benefits of Tai Chi practice."
+  ]
+ },
+ "341009652c85c7c3": {
+  "feed": "YC Hacker News",
+  "title": "A fortuitous decade as an indie software developer",
+  "link": "https://lapcatsoftware.com/articles/2026/8/3.html",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "Personal memoir about indie Apple App Store development with no relevance to distributed systems or ML.",
+  "points": [
+   "Reflects on a ten-year career surviving as an independent macOS/iOS software developer."
+  ]
+ },
+ "c0f1fafe8f348f67": {
+  "feed": "YC Hacker News",
+  "title": "Tracking down a Zsh history data loss bug",
+  "link": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "High-quality systems engineering deep-dive on troubleshooting subtle data loss using Linux tracing tools.",
+  "points": [
+   "Details a systematic debugging process using inotify, fatrace, strace, and bpftrace to track silent file truncation.",
+   "Resolved the issue by patching Zsh to crash intentionally and inspecting core dumps, resulting in an upstream fix in Zsh 5.9.2."
+  ]
  }
 }
