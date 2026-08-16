@@ -52964,5 +52964,60 @@
    "Details a systematic debugging process using inotify, fatrace, strace, and bpftrace to track silent file truncation.",
    "Resolved the issue by patching Zsh to crash intentionally and inspecting core dumps, resulting in an upstream fix in Zsh 5.9.2."
   ]
+ },
+ "d7233f8de2627b59": {
+  "feed": "YC Hacker News",
+  "title": "Impulse Tracker",
+  "link": "https://ovidem.com/impulsetracker/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Impulse Tracker - ovidem ovidem Posts Work Faves Follow Impulse Tracker To do the big things in life, you have to pay attention to each beat along the way On a quiet night in the year 1996, 20-year old Alan is in his small apartment, about to make an important life decision. His thoughts are torn between the electronic music he makes with his computer and starting a career path with a computer software company."
+  ]
+ },
+ "036f5b189b65347d": {
+  "feed": "YC Hacker News",
+  "title": "I built a browser-native SysEx librarian for 80s/90s synthesizers",
+  "link": "https://bipluk.com/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "bipluk | SysEx Librarian & Vintage Synth Cloud Backup Supported 80+ Hardware Synths Universal Hardware Engine Yamaha DX7 DX7II TX7 TX81Z Reface DX Reface CP FS1R YC Series Roland Juno-106 D-50 JX-8P JD-Xi Juno-DS JV-1080 JV-80 XV-3080 MKS-70 SE-02 TD-07 U-20/U-220 Korg M1 MS2000 microKORG Minilogue XD DW-8000 DW-6000 03R/W R3 Sequential & DSI Prophet-5 Prophet 6 Prophet 12 Prophet 08 Prophet X OB-6 Pro 2 Pro 3 Take 5 Trigon-6 Evolver Mopho Mopho X4 Tempest Tetra Oberheim & Moog Matrix-1000 Matrix 6 OB-8 OB-X OB-X8 OB-Xa Teo-5 Moog Voyager Waldorf & Elektron Blofeld Kyra Waldorf M MicroWave 1 Pulse Analog Rytm Digitone Behringer, Kawai & Boutique DeepMind 12 Pro-800 Behringer Wave Kawai K1 K3 K4/K4r K5000 Akai AX80 Andromeda A6 BC Kijimi 3rd Wave E-mu Morpheus Ensoniq ESQ-1 VFX JB Solaris Line 6 POD Zoom MS Novation AStation Bass Station II Summit UltraNova Cyber-6 Electra One Toraiz AS-1 Sledge Web MIDI Direct Backup Zero Install bipluk™ Features Pricing / Resources Shop Enter The iCloud \" alt=\"Your Avatar\" class=\"absolute inset-[4px] w-[calc(100%-8px)] h-[calc(100%-8px)] object-cover z-10\"> vintage synthesizers Back up, organize, and search vintage synth patches directly in your browser."
+  ]
+ },
+ "9d86472b747e0cbf": {
+  "feed": "YC Hacker News",
+  "title": "Falstad Math and Physics Simulations",
+  "link": "https://www.falstad.com/mathphysics.html",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Math, Physics, and Engineering Applets These are some educational applets I wrote to help visualize various concepts in math, physics, and engineering. They were originally written in Java, but they've mostly been converted to Javascript, so you should be able to view them without a Java-capable browser. Oscillations and Waves Ripple Tank (2-D Waves) Applet Ripple tank simulation that demonstrates wave motion, interference, diffraction, refraction, Doppler effect, etc."
+  ]
+ },
+ "627a59aedf9611fd": {
+  "feed": "YC Hacker News",
+  "title": "AI has access to a vastly larger working memory than the human brain",
+  "link": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI Isn’t Outthinking Mathematicians. It’s Out-Remembering Them. PifferPilfer Subscribe Sign in AI Isn’t Outthinking Mathematicians. It’s Out-Remembering Them. The key advantage may not be superior reasoning, but a virtually unlimited symbolic working memory. Davide Piffer Aug 04, 2026 46 2 16 Share At the 1952 dedication of the Institute for Advanced Study computer."
+  ]
+ },
+ "c21a3b4fa6230a35": {
+  "feed": "YC Hacker News",
+  "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+  "link": "https://arxiv.org/abs/2608.13122",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2608.13122] Validation-Centric AI-Assisted GPU Porting of a 250,000+ Line Legacy Weather Simulation Code Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Distributed, Parallel, and Cluster Computing arXiv:2608.13122 (cs) [Submitted on 13 Aug 2026] Title: Validation-Centric AI-Assisted GPU Porting of a 250,000+ Line Legacy Weather Simulation Code Authors: Tetsuya Hoshino , Masaya Kato , Kazuhisa Tsuboki , Daichi Mukunoki , Takahiro Katagiri , Toshihiro Hanawa View a PDF of the paper titled Validation-Centric AI-Assisted GPU Porting of a 250,000+ Line Legacy Weather Simulation Code, by Tetsuya Hoshino and 5 other authors View PDF HTML (experimental) Abstract: Recent advances in large language models have made CLI-based AI agents a practical tool for accelerating GPU porting of large legacy scientific applications."
+  ]
  }
 }
