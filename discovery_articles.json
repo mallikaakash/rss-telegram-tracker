@@ -2577,5 +2577,67 @@
    "Details specific runtime pitfalls including Ollama's 262k context default consuming 8GB+ KV cache and SGLang failing due to SM 12.x/CUDA 13+ build toolchain mismatches.",
    "Provides hands-on debugging of ARM Grace CPU compilation quirks and PyTorch compatibility issues."
   ]
+ },
+ "2543772e8e9300c1": {
+  "url": "https://dev.to/multigrid/dpo-vs-ppo-vs-grpo-preference-tuning-compared-4jbg",
+  "title": "DPO vs PPO vs GRPO: Preference Tuning Compared - DEV Community",
+  "domain": "dev.to",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-16",
+  "tier": "skip",
+  "why": "A standard high-level conceptual summary of PPO, DPO, and GRPO without original empirical data or novel systems insights.",
+  "points": []
+ },
+ "aee1dfcc2cc4679b": {
+  "url": "https://essamamdani.com/blog/vllm-pagedattention-continuous-batching",
+  "title": "vLLM PagedAttention and Continuous Batching | Essa Mamdani | Essa Mamdani",
+  "domain": "essamamdani.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-16",
+  "tier": "skip",
+  "why": "Low-quality link consisting largely of site navigation text and link aggregation rather than technical content.",
+  "points": []
+ },
+ "506b4775fd40ca09": {
+  "url": "https://rocm.blogs.amd.com/software-tools-optimization/odc-accelerate-training/README.html",
+  "title": "Using ODC to Accelerate AMD SFT Training — ROCm Blogs",
+  "domain": "rocm.blogs.amd.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-16",
+  "tier": "solid_find",
+  "why": "A deep technical engineering report on porting On-Demand Communication (ODC) to AMD ROCm/MI300X to eliminate FSDP synchronization barriers in variable-length SFT.",
+  "points": [
+   "Replaces synchronous FSDP collective barriers (all-gather/reduce-scatter) with one-sided point-to-point transfers using HIP IPC and rocSHMEM/MORI.",
+   "Solves workload-imbalance idle bubbles caused by variable-length document batches in supervised fine-tuning.",
+   "Demonstrates real speedups on AMD MI300X of up to 1.201x on a single node and 1.154x across two nodes within the Primus framework."
+  ]
+ },
+ "4808a9879fe8367a": {
+  "url": "https://www.alphaxiv.org/abs/2606.29158",
+  "title": "On the Nonlinearity of Learning Rate Scaling for LLM Training | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-16",
+  "tier": "solid_find",
+  "why": "Presents a non-obvious empirical correction to standard LLM learning rate scaling laws, explaining the breakdown of log-linear extrapolation.",
+  "points": [
+   "Identifies that optimal learning rates develop an upward curvature at scale rather than following standard log-linear power laws.",
+   "Demonstrates that curvature disappears when using effective learning rate (step size in normalized weight space) and data-scale extrapolation.",
+   "Explains the nonlinearity through weight-norm equilibrium convergence speeds and validates it using the AdamH optimizer."
+  ]
+ },
+ "05c889d858e216d7": {
+  "url": "https://dev.to/joul_dev/shipping-minimax-h3-three-days-after-the-weights-dropped-2dp8",
+  "title": "Shipping MiniMax H3 three days after the weights dropped - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-16",
+  "tier": "hidden_gem",
+  "why": "An authentic, highly detailed indie engineering postmortem on the gritty hacks and format conversions required to serve frontier video weights in production.",
+  "points": [
+   "Details practical format conversion from ComfyUI ConvRot block Hadamard quantization to torchao int8, resynthesizing fused audio VAE weights.",
+   "Shows clever workarounds like synthesizing a dummy 51st layer to bypass rigid Qwen3-VL loader assertion guards.",
+   "Uses HTTP range requests against remote safetensors headers to verify tensor shapes and dtypes without downloading massive weight files."
+  ]
  }
 }
