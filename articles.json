@@ -52848,5 +52848,64 @@
   "points": [
    "Custom PCB and firmware repo combining an ESP32, TEA5767 tuner, and OLED display for manual and preset FM tuning."
   ]
+ },
+ "15125d2d9361328e": {
+  "feed": "YC Hacker News",
+  "title": "The quirky personal homepages of programming language creators",
+  "link": "https://breck.lol/plMakers.html",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "Nostalgic web design trivia with zero ML, distributed systems, or backend infrastructure relevance.",
+  "points": [
+   "A collection of quirky personal web pages belonging to various programming language creators."
+  ]
+ },
+ "af863cb3b215d959": {
+  "feed": "YC Hacker News",
+  "title": "Patterns and problems in emerging multi-agent systems",
+  "link": "https://www.anthropic.com/research/multiagent-systems",
+  "date": "2026-08-16",
+  "tier": "must_read",
+  "why": "Anthropic provides a frontier deep-dive into multi-agent systems, emergent coordination failures, and scalable oversight.",
+  "points": [
+   "Agents perform well when treating others as tool invocations, but struggle when interacting as autonomous, long-lived peers with individual goals.",
+   "Identifies that individual agent reward hacking and behavioral quirks can compound into systemic multi-agent failures.",
+   "Evaluates cooperative swarms on real workloads, running 45 autonomous agents in isolated VMs coordinating via a shared forum to detect software vulnerabilities."
+  ]
+ },
+ "84971242f6d74af4": {
+  "feed": "YC Hacker News",
+  "title": "Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter",
+  "link": "https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "General meteorology and climate forecast analysis completely outside the reader's technical scope.",
+  "points": [
+   "Long-range forecasts project a record-breaking Super El Niño driven by equatorial Pacific westerly wind anomalies."
+  ]
+ },
+ "42ddeef00785108c": {
+  "feed": "YC Hacker News",
+  "title": "Numba in the Browser: Unlocking a New Scientific Python Stack in JupyterLite",
+  "link": "https://notebook.link/blog/numba-in-the-browser/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "A solid compiler and performance engineering deep-dive on running Numba JIT and LLVM directly in WebAssembly.",
+  "points": [
+   "Achieved an in-browser JIT execution pipeline bypassing Python interpreter overhead, yielding ~250x speedups in WebAssembly.",
+   "Bypasses browser memory execution restrictions by compiling LLVM IR into WASM object files and linking them dynamically via wasm-ld side modules.",
+   "Enables client-side, zero-backend execution of the scientific Python compute stack within JupyterLite."
+  ]
+ },
+ "a01eaa04bebc656a": {
+  "feed": "YC Hacker News",
+  "title": "Abdominal fat predicts heart disease risk better than BMI",
+  "link": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "Clinical health and cardiology news irrelevant to backend and ML engineering.",
+  "points": [
+   "A JACC study reports waist circumference and waist-to-hip ratio predict cardiovascular disease risk better than BMI alone."
+  ]
  }
 }
