@@ -53085,5 +53085,63 @@
   "points": [
    "In 1965, a presidential advisory panel issued a report warning that pervasive chemical and carbon pollution was harming environmental health and changing the climate. Five years later, President Richard Nixon signed the Clean Air Act. Since that 1970 law and its amendments were passed, combined emissions of a half-dozen harmful air pollutants from vehicles and industrial sources have decreased by nearly 80 percent ."
   ]
+ },
+ "9ffac573dcb57e87": {
+  "feed": "YC Hacker News",
+  "title": "Claude: System Prompts",
+  "link": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "This is a documentation index of Claude system prompts without technical details on training or infrastructure.",
+  "points": [
+   "Catalogs system prompt version histories and snapshot dates across Claude models."
+  ]
+ },
+ "6b79259854fccb18": {
+  "feed": "YC Hacker News",
+  "title": "Is the industry ready for tokens-constrained work?",
+  "link": "https://blog.alaindichiappari.dev/p/what-to-do-when-tokens-run-out",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "Provides a pragmatic perspective on modern software engineering workflows constrained by agent token limits.",
+  "points": [
+   "Examines the friction when engineers hit token caps while managing parallel opaque agent workflows.",
+   "Discusses how modern software roles are shifting from continuous manual coding to batch agent orchestration."
+  ]
+ },
+ "80a440bce9c815e7": {
+  "feed": "YC Hacker News",
+  "title": "A SAT Attack on Tarski's High School Algebra Problem",
+  "link": "https://arxiv.org/abs/2608.08421",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "Relevant to formal verification and automated reasoning, demonstrating SAT solver performance and Lean autoformalization.",
+  "points": [
+   "Proves the smallest countermodels to Tarski's high school algebra problem have size 12 using SAT solvers, outperforming Mace4 and SEM.",
+   "Classifies exactly 8,957,952 countermodels up to isomorphism and autoformalizes the proof in Lean."
+  ]
+ },
+ "ccc988f1bad259be": {
+  "feed": "YC Hacker News",
+  "title": "Does anyone run Postgres without PgBouncer?",
+  "link": "https://brandur.org/fragments/postgres-without-pgbouncer",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "High-quality backend infrastructure commentary on database connection scaling and proxy architecture.",
+  "points": [
+   "Surveys major managed Postgres providers and finds virtually all bundle PgBouncer or proprietary equivalents by default.",
+   "Argues connection pooling is effectively mandatory for production Postgres due to its process-per-connection model and should be native."
+  ]
+ },
+ "09287bc9f79b9822": {
+  "feed": "YC Hacker News",
+  "title": "Research papers using \"kidney disappointment\" instead of \"kidney failure\"",
+  "link": "https://scholar.google.com/scholar?q=%22kidney+disappointment%22",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "A placeholder link discussing translation/paper-mill artifacts with no substantive engineering content.",
+  "points": [
+   "Highlighting AI translation artifacts in scientific literature without technical depth."
+  ]
  }
 }
