@@ -52714,5 +52714,82 @@
   "points": [
    "Ukrainian President Volodymyr Zelenskyy confirmed on Saturday that his country struck the Progress Rocket Space Center deep within Russia using ground-launched cruise missiles. \"In Russia’s Samara region, one of the key enterprises within Roscosmos—the Progress Center, which was involved, among other things, in electronics production–was hit,\" Zelenskyy said on the social media site X."
   ]
+ },
+ "f473994441e17c0b": {
+  "feed": "YC Hacker News",
+  "title": "Asus Bike Booster",
+  "link": "https://www.asus.com/accessories/bike-booster/asus-oxiis/oxiis-intelligent-bike-booster/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Oxiis Intelligent Bike Booster｜Bike Booster｜ASUS Global Skip to content Accessibility help Gaming Business Environment AI Mobile / Handhelds Laptops Displays / Desktops Motherboards / Components Networking / IoT / Servers Accessories Support Support ZenTalk Drivers and manuals Check repair status MyASUS Customer’s request on personal data My Account Gaming ROG - Republic of Gamers TUF Gaming Business Environment Support Oxiis Intelligent Bike Booster Overview Tech Specs Oxiis Intelligent Bike Booster view on your table View the model in 3D Open side navigation Close side navigation GO TO TOP Design Vision & Sound Performance Battery Intuitive Security ASUS Oxiis E250G1 Ride Easy."
+  ]
+ },
+ "acc499b68485769c": {
+  "feed": "YC Hacker News",
+  "title": "Asynchronous I/O in DuckDB: Work, Thread, Work",
+  "link": "https://duckdb.org/2026/07/31/asynchronous-io",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Asynchronous I/O in DuckDB: Work, Thread, Work – DuckDB Documentation Getting Started Installation Quack Remote Protocol Guides Data Import Client APIs SQL Introduction Why DuckDB Resources Blog Library Events Everywhere Webshop Design FAQ GitHub 40.2k Support Support Asynchronous I/O in DuckDB: Work, Thread, Work Pedro Holanda 2026-07-31 · 21 min TL;DR: Starting with v2.0, scheduled for fall 2026, DuckDB will support asynchronous reads of Parquet and CSV files."
+  ]
+ },
+ "03a14d297358c2a3": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Mic Drop, a real-time multiplayer karaoke game",
+  "link": "https://www.micdrop.gg/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "152a1b19ec9d2e86": {
+  "feed": "YC Hacker News",
+  "title": "Cultivating a state of mind where new ideas are born (2023)",
+  "link": "https://www.henrikkarlsson.xyz/p/good-ideas",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cultivating a state of mind where new ideas are born Escaping Flatland Subscribe Sign in Cultivating a state of mind where new ideas are born Henrik Karlsson and Johanna Karlsson Jul 26, 2023 3,119 71 715 Share Article voiceover 0:00 -30:33 Audio playback is not supported on your browser. Please upgrade. Edward Hopper, Cape Cod Morning, oil on canvas, 1950 The Knight: As you know, I am afraid of emptiness, desolation and stillness."
+  ]
+ },
+ "611835edca3be300": {
+  "feed": "YC Hacker News",
+  "title": "AI in drug discovery – what it is, where we stand and the path forward",
+  "link": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "2cc2920666806035": {
+  "feed": "Technica",
+  "title": "VisionQuest trailer kicks off Disney's D23 fan event",
+  "link": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It was a busy first day at D23: The Ultimate Disney Fan Event, in Anaheim, California, with Marvel Studios releasing the first trailer for VisionQuest . We also got the first teaser for Ahsoka S2; the public release of the Avengers: Doomsday special footage featured last month for attendees only at San Diego Comic-Con; a special sneak peek (for attendees only) for Star Wars: Starfighter ; casting news for the MCU's X-Men movie; and a trailer for an animated special, LEGO Star Wars: The Mandalorian , coming to Disney+ next month."
+  ]
+ },
+ "b0ec4660c7028337": {
+  "feed": "Simon Willison",
+  "title": "CORS Chat",
+  "link": "https://simonwillison.net/2026/Aug/15/cors-chat/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as copy-pasted JSON."
+  ]
  }
 }
