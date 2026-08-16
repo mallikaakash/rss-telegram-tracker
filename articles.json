@@ -53143,5 +53143,73 @@
   "points": [
    "Highlighting AI translation artifacts in scientific literature without technical depth."
   ]
+ },
+ "394dfc3977b6d23a": {
+  "feed": "YC Hacker News",
+  "title": "The AI Credit Resale Economy",
+  "link": "https://vectoral.com/blog/who-are-the-token-brokers",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "Exposes the growing shadow economy and proxy infrastructure behind secondary-market AI inference tokens and cloud credit reselling.",
+  "points": [
+   "Brokers and proxy marketplaces (e.g., CheapCredits, AICreditMart) resell unused startup inference credits at 30–80% off list price.",
+   "Brokers operate API relay proxies across pooled provider keys offering up to $100k/day in spend rather than handing out raw API keys.",
+   "Highlights security, terms-of-service, and data privacy implications for startups looking to cut LLM inference operational costs."
+  ]
+ },
+ "283298017039660d": {
+  "feed": "YC Hacker News",
+  "title": "Firefox for iOS now has a native adblocker",
+  "link": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "Consumer browser feature update with broken content text, irrelevant to backend and ML engineering.",
+  "points": [
+   "Announces native adblocking support in Firefox for iOS."
+  ]
+ },
+ "66ff94b733a641ca": {
+  "feed": "YC Hacker News",
+  "title": "A True Telnet BBS on a Casio Calculator",
+  "link": "https://ei3lh.eu/2026/08/16/a-true-telnet-bbs-on-a-casio-calculator/",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "Hobbyist retrocomputing project with no practical application to modern ML systems or backend infrastructure.",
+  "points": [
+   "Demonstrates running a Telnet BBS on a Casio pocket computer using BASIC and RS232 serial communication."
+  ]
+ },
+ "886316ca512557c1": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: A public AI whose memory is shared across all users",
+  "link": "https://wildstatic.com/",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "A novelty consumer AI demo lacking technical architectural details or distributed systems depth.",
+  "points": [
+   "Showcases a public chatbot experiment where conversation history and state are shared globally among all users."
+  ]
+ },
+ "7575bdfbfcdb3fbf": {
+  "feed": "YC Hacker News",
+  "title": "GPS and the Lost Art of Getting Lost",
+  "link": "https://www.newyorker.com/news/annals-of-inquiry/gps-and-the-lost-art-of-getting-lost",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "General-audience cultural essay and book review about GPS technology and navigation psychology.",
+  "points": [
+   "Discusses the history of GPS, modern over-reliance on satellite navigation, and geopolitical signal spoofing."
+  ]
+ },
+ "7b67d0050f119be4": {
+  "feed": "Simon Willison",
+  "title": "Quoting Dario Amodei",
+  "link": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "Short quote snippet on AI industry public relations without technical or architectural insights.",
+  "points": [
+   "Dario Amodei argues that the AI trust deficit stems from tech industry skepticism and a failure to deliver tangible promised benefits like curing diseases."
+  ]
  }
 }
