@@ -52791,5 +52791,62 @@
   "points": [
    "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as copy-pasted JSON."
   ]
+ },
+ "02cedfeaf3fed72d": {
+  "feed": "YC Hacker News",
+  "title": "I checked 30 frontier model cards. Here are the benchmarks labs report",
+  "link": "https://koutian.is-a.dev/benchmark-radar/?view=leaderboard",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "Provides an interesting meta-analysis of LLM evaluation standards and benchmark adoption patterns across 30 frontier model cards.",
+  "points": [
+   "Tracks reporting conventions across frontier labs, distinguishing shared standards from vendor-specific house styles.",
+   "Highlights the challenge of benchmark comparisons due to missing split versions, scaffolds, inference budgets, and cost/latency parameters."
+  ]
+ },
+ "824c0c93c3bee016": {
+  "feed": "YC Hacker News",
+  "title": "Guiding Ships with Moire Patterns",
+  "link": "https://tinkerings.org/2018/03/28/guiding-ships-with-moire-patterns/",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "An optics and maritime DIY hobby project with no relevance to ML or backend engineering.",
+  "points": [
+   "Explores using Moire interference patterns as optical alignment guides for channel navigation versus standard three-lamp setups."
+  ]
+ },
+ "a3f1b10540e9be82": {
+  "feed": "YC Hacker News",
+  "title": "Zapping Rocks Unlocks Stimulated Geologic Hydrogen",
+  "link": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "Clean-tech energy and geology reporting unrelated to distributed systems or applied ML workflows.",
+  "points": [
+   "Covers Eden GeoPower's electrical stimulation technique to unlock subterranean geologic hydrogen from rock formations."
+  ]
+ },
+ "c17be638bf7eae5a": {
+  "feed": "YC Hacker News",
+  "title": "Software Engineering fundamentals matter more",
+  "link": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/",
+  "date": "2026-08-16",
+  "tier": "worth_a_skim",
+  "why": "A thoughtful reflection on how core software engineering fundamentals (APIs, testability, composability) remain essential despite agentic LLM code generation.",
+  "points": [
+   "Argues that while agentic harnesses excel at generating working code via TDD prompts, they fail at designing maintainable seams and long-term architecture.",
+   "Notes open-weight SLMs running locally are rapidly closing the capability gap with frontier models for code generation tasks."
+  ]
+ },
+ "9cb5ef64aa3d7065": {
+  "feed": "YC Hacker News",
+  "title": "Tea5767-Radio-Tuner",
+  "link": "https://github.com/turtushig22-blip/tea5767-radio-tuner",
+  "date": "2026-08-16",
+  "tier": "low_priority",
+  "why": "A DIY embedded hardware repository for building an ESP32 FM radio tuner, entirely off-topic.",
+  "points": [
+   "Custom PCB and firmware repo combining an ESP32, TEA5767 tuner, and OLED display for manual and preset FM tuning."
+  ]
  }
 }
