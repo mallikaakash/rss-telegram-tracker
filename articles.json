@@ -53629,5 +53629,93 @@
   "points": [
    "OpenAI announced $1M in grants and API credits for 14 independent AI policy and workforce resilience projects."
   ]
+ },
+ "1a522c00cb72ec3f": {
+  "feed": "YC Hacker News",
+  "title": "Incident with Github.com",
+  "link": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub Status - Incident with GitHub.com GitHub Octicon logo Help Community Status GitHub.com Subscribe to Updates Subscribe x Get email notifications whenever GitHub creates , updates or resolves an incident. Email address: Enter OTP: Resend OTP in: seconds Didn't receive the OTP? Resend OTP By subscribing you agree to our Privacy Policy . This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply."
+  ]
+ },
+ "d0bd7c8a81ff6a7f": {
+  "feed": "YC Hacker News",
+  "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+  "link": "https://blog.roboflow.com/openai-gpt-5-6/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released Products Platform Deploy Run models on device, at the edge, in your VPC, or via API Workflows Low-code interface to build pipelines and applications Train Hosted model training infrastructure and GPU access Annotate Label images fast with AI-assisted data annotation Universe Open source computer vision datasets and pre-trained models Solutions By Industry Explore all industry solutions Aerospace & Defense Automotive Consumer Goods Energy & Utilities Healthcare & Medicine Industrial Manufacturing Logistics Manufacturing Media & Entertainment Retail & Service Robotics Transportation Warehousing Explore customer stories and ebooks -> See case studies, comprehensive guides, and insights from thousands of real-world AI projects."
+  ]
+ },
+ "29f0a0efe94bd48a": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Sokoban AI Solver",
+  "link": "https://mkornreich.me/projects/sokoban/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sokoban. Menachem Kornreich Home Projects Blog Sokoban Sokoban (\"warehouse keeper\") is a 1980s puzzle: push every box onto a goal. In this variant the keeper must also finish on a goal. Board: Reset Undo Solve with AI AI speed: Slow Normal Fast Next → Moves: 0 Optimal: – ▲ ◀ ▶ ▼ Keeper (you) Box Goal Box on goal Wall How to play & the rules The warehouse is a grid."
+  ]
+ },
+ "cd2465bff25ed2cd": {
+  "feed": "YC Hacker News",
+  "title": "GitHub down again? no PR access",
+  "link": "https://news.ycombinator.com/item?id=49330632",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub down again? no PR access | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login GitHub down again? no PR access 48 points by yodon 33 minutes ago | hide | past | favorite | 17 comments Githubstatus.com currently says everything is working, but it isn't help ad_fontes 3 minutes ago | next [–] https://mrshu.github.io/github-statuses/ They're struggling to maintain a single nine these days."
+  ]
+ },
+ "312337bb1e84b121": {
+  "feed": "YC Hacker News",
+  "title": "Tell HN: GitHub Is Experiencing Degraded Performance",
+  "link": "https://news.ycombinator.com/item?id=49330597",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tell HN: GitHub Is Experiencing Degraded Performance | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Tell HN: GitHub Is Experiencing Degraded Performance 56 points by SpyCoder77 35 minutes ago | hide | past | favorite | 13 comments Just got this message: \"No server is currently available to service your request. Sorry about that."
+  ]
+ },
+ "c51dd5be23a9efab": {
+  "feed": "Technica",
+  "title": "Satellite operators are in panic mode due to a worsening launch crisis",
+  "link": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This should be a golden era of launch. During the last three years, an average of 270 orbital rockets have launched from Earth, a more than three-fold increase from only a decade ago. By every metric available, the launch industry is crushing it: Prices have never been more competitive, launches never more frequent, and access to space never more rapid."
+  ]
+ },
+ "f137d9ea2f9f034d": {
+  "feed": "OpenAI News",
+  "title": "The Defender’s Window",
+  "link": "https://openai.com/index/the-defenders-window",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Defender’s Window | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 17, 2026 Security The Defender’s Window By Greg Brockman Loading… Share An overview of the moment An overview of the moment A personal anecdote What OpenAI is doing to defend itself What defenders should do now An overview of the moment A personal anecdote What OpenAI is doing to defend itself What defenders should do now The OpenAI-Hugging Face incident ⁠ (opens in a new window) was a watershed moment for cybersecurity because it gave a peek into how the capabilities of a typical threat actor will evolve in upcoming months."
+  ]
+ },
+ "ad5623d5cc7091de": {
+  "feed": "OpenAI News",
+  "title": "OpenAI joins PORTS-Pike project",
+  "link": "https://openai.com/index/openai-joins-ports-pike-project",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI joins PORTS-Pike project | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 17, 2026 Global Affairs Company OpenAI joins PORTS-Pike project Expanding community investment and supporting thousands of Southern Ohio jobs."
+  ]
  }
 }
