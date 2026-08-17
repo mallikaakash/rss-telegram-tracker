@@ -53560,5 +53560,74 @@
   "points": [
    "Promotes 'nurb', a tool that converts natural language constraints into parametric CAD models and printable STL/STEP files."
   ]
+ },
+ "bbac63bf3f6d3bda": {
+  "feed": "YC Hacker News",
+  "title": "Self hosted email continues to steeply decline",
+  "link": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "Interesting large-scale Internet infrastructure measurement study highlighting resilience risks in email centralization.",
+  "points": [
+   "Self-hosted email among Tranco top 1M domains dropped from 44.6% in 2016 to 22.4% today.",
+   "Google Workspace (21.8%) and Microsoft 365 (16.8%) now handle 38.6% of inbound email for measured top domains.",
+   "Consolidation behind two providers creates systemic single points of failure without graceful fallback mechanisms."
+  ]
+ },
+ "1834dcfbdf4a95e7": {
+  "feed": "YC Hacker News",
+  "title": "How Go detects struct copies with sync.noCopy",
+  "link": "https://func25.dev/posts/go-sync-nocopy/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "Relevant to Go backend engineering and understanding static analysis mechanisms for concurrency primitives.",
+  "points": [
+   "Explores how `go vet` uses the `noCopy` sentinel interface to flag accidental struct copies by value.",
+   "Helps backend engineers prevent subtle concurrency bugs when embedding synchronization primitives like mutexes."
+  ]
+ },
+ "a35aba72c199c97b": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Desktopcolors.com – A museum for solid background colors of classic OS",
+  "link": "https://desktopcolors.com",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Design nostalgia project unrelated to ML, backend systems, or infrastructure.",
+  "points": [
+   "A visual archive of default solid background colors from classic desktop operating systems."
+  ]
+ },
+ "15cad4eb99b9b0c8": {
+  "feed": "YC Hacker News",
+  "title": "Production-ready detection and response queries for osquery",
+  "link": "https://github.com/chainguard-dev/osquery-defense-kit",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Security rule catalog that falls outside your core focus on ML infra, training, and backend architecture.",
+  "points": [
+   "A repository of 250+ production osquery detection queries tailored for Linux and macOS monitoring."
+  ]
+ },
+ "b90f5b32d138f4dc": {
+  "feed": "YC Hacker News",
+  "title": "The Mysterious Syndrome Destroying Endurance Athletes",
+  "link": "https://www.outsideonline.com/health/training-performance/running-empty/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Sports journalism regarding athletic endurance training with zero technical or engineering relevance.",
+  "points": [
+   "Investigates the physiological toll and overtraining syndrome experienced by elite ultramarathon runners."
+  ]
+ },
+ "96670aeff66e996d": {
+  "feed": "OpenAI News",
+  "title": "New policy ideas for the Intelligence Age",
+  "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "High-level policy and grant funding announcement without technical ML or systems engineering depth.",
+  "points": [
+   "OpenAI announced $1M in grants and API credits for 14 independent AI policy and workforce resilience projects."
+  ]
  }
 }
