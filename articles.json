@@ -53391,5 +53391,60 @@
   "points": [
    "--> Pikuma: SIMD in the 90s: Programming Intel's Pentium MMX PIKUMA Home About Courses Testimonials Blog FAQ Contact SIGN IN SIMD in the 90s: Programming Intel's Pentium MMX If you programmed PCs in the late 90s, you probably remember the 'Intel Inside Pentium with MMX' stickers. MMX was, of course, a big marketing buzzword, but it was also Intel's major attempt at bringing SIMD (Single Instruction, Multiple Data) instructions to mainstream desktop CPUs."
   ]
+ },
+ "59e7914876a5ccb8": {
+  "feed": "YC Hacker News",
+  "title": "Applying a photosynthetic process to treat “dry eye”",
+  "link": "https://www.science.org/content/blog-post/taking-tip-plants-eyes",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "db2105bc89c16ebb": {
+  "feed": "YC Hacker News",
+  "title": "How do I permanently disable random Google Photos popup to backup photos? (2024)",
+  "link": "https://support.google.com/photos/thread/256212140/how-do-i-permanently-disable-google-photos-pop-up-prompt-to-backup-my-photos-i?hl=en",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How do I permanently disable Google Photos pop-up prompt to backup my photos? I - Google Photos Community Skip to main content Google Photos Help Sign in Google Help Help Center Community Google Photos Privacy Policy Terms of Service Submit feedback Send feedback on... This help content & information General Help Center experience Next Help Center Community Can't find your photos?"
+  ]
+ },
+ "2d36f4827c4297a6": {
+  "feed": "YC Hacker News",
+  "title": "Dancing with friends and enemies: boids' swarm intelligence (2012)",
+  "link": "https://community.wolfram.com/groups/-/m/t/122095",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Dancing with friends and enemies: boids' swarm intelligence - Online Technical Discussion Groups—Wolfram Community WOLFRAM COMMUNITY Connect with users of Wolfram technologies to learn, solve problems and share ideas Join Sign In Dashboard Groups People Group Abstract Message Boards Answer ( Unmark ) Mark as an Answer WOLFRAM COMMUNITY Dashboard Groups People 41 | 108K Views | 30 Replies | 160 Total Likes View groups..."
+  ]
+ },
+ "22638432138e85ca": {
+  "feed": "YC Hacker News",
+  "title": "Strong gravitational lensing and microlensing of supernovae (2024)",
+  "link": "https://infoscience.epfl.ch/entities/publication/644cad8a-6c9b-4b02-bcf3-b8b6e8c614c5",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Strong Gravitational Lensing and Microlensing of Supernovae Skip to main content Infoscience English French Log In Log in with EPFL account Infoscience English French Log In Log in with EPFL account Home Academic and Research Output Journal articles Strong Gravitational Lensing and Microlensing of Supernovae review article Strong Gravitational Lensing and Microlensing of Supernovae Suyu, Sherry H."
+  ]
+ },
+ "519f2391d1c54db9": {
+  "feed": "YC Hacker News",
+  "title": "MathCode, Mathematical Coding Agent",
+  "link": "https://math-ai-org.github.io/mathcode/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "MathCode — A Frontier Mathematical Coding Agent MathCode Overview Quick Start Features Citation Blog MathCode A Frontier Mathematical Coding Agent A terminal AI coding assistant with a built-in math formalization engine — describe a problem in plain language and it converts it into a Lean 4 theorem and attempts a formal proof. Lean 4 Formal Proof AI Agent Mathlib Overview MathCode is a terminal AI coding assistant with a built-in math formalization engine."
+  ]
  }
 }
