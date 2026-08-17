@@ -53446,5 +53446,60 @@
   "points": [
    "MathCode — A Frontier Mathematical Coding Agent MathCode Overview Quick Start Features Citation Blog MathCode A Frontier Mathematical Coding Agent A terminal AI coding assistant with a built-in math formalization engine — describe a problem in plain language and it converts it into a Lean 4 theorem and attempts a formal proof. Lean 4 Formal Proof AI Agent Mathlib Overview MathCode is a terminal AI coding assistant with a built-in math formalization engine."
   ]
+ },
+ "f94f3ec49f0b9218": {
+  "feed": "YC Hacker News",
+  "title": "GIMP Development Update",
+  "link": "https://www.gimp.org/news/2026/08/16/dev-update-august-2026/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Development Update, August 2026 - GIMP GIMP Download News About Docs Participate Tutorials Donate GIMP News Docs Tutorials More Development Update, August 2026 Previous Post 2026-08-16 by GIMP Team For the past few months, we’ve been developing all kinds of features for the future GIMP 3.4 release. We noticed recently that our changelog was getting quite long - a good problem to have!"
+  ]
+ },
+ "5cf73db960dc1896": {
+  "feed": "YC Hacker News",
+  "title": "On A.I. regulation and messaging",
+  "link": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Dario Amodei on X: \"1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. First, on regulation, I think that “either concentrate it in the hands of a\" / X Post Log in Sign up Post Dario Amodei on X: \"1/2 Thanks Gavin for an especially thoughtful exchange."
+  ]
+ },
+ "a0e6a5b85362b733": {
+  "feed": "YC Hacker News",
+  "title": "Linear algebra done right",
+  "link": "https://linear.axler.net/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Linear Algebra Done Right Linear Algebra Done Right third edition, 2015 --> Sheldon Axler --> The fourth and most recent edition of Linear Algebra Done Right is an Open Access book available in English, Chinese, Farsi, Greek, and Portuguese. Other languages are coming soon. Electronic versions of this fourth edition, which has a Creative Commons BY-NC license, are legally availble without cost at the links below."
+  ]
+ },
+ "0f2dda7c9a41a2bd": {
+  "feed": "YC Hacker News",
+  "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+  "link": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Daring Fireball: Anthropic’s ‘Watermark’ Text Adulteration in Claude Is a Perversion of Writing By John Gruber Archive The Talk Show Dithering Projects Contact Colophon Feeds / Social Twitter --> Sponsorship Manage GRC Faster with Drata’s Agentic Trust Management Platform Anthropic’s ‘Watermark’ Text Adulteration in Claude Is a Perversion of Writing Sunday, 16 August 2026 When I wrote this week about Anthropic’s announcement that all Claude models, worldwide, would soon begin “watermarking” everything they generate, including text, to comply with this EU regulation , we were left to speculate how this was going to work, because Anthropic offered not even a vague description of how it would work — despite the fact that the title of the announcement was, absurdly and insultingly, “ How Claude Marks AI-Generated Content ”."
+  ]
+ },
+ "eca7bd3e4c7e3488": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Vocal Slice – Cut audio by selecting text, fully on-device",
+  "link": "https://vocalslice.com/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Vocal Slice — cut audio by selecting text ) rather than at the end of the page: both OS download buttons exist in the markup below (the no-JS fallback needs them), and CSS hides the non-matching one via [data-os] on . Setting that attribute AFTER the hero had already painted caused a visible reflow — \"See how it works\" jumped sideways when a button vanished."
+  ]
  }
 }
