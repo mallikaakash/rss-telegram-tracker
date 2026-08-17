@@ -53717,5 +53717,122 @@
   "points": [
    "OpenAI joins PORTS-Pike project | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 17, 2026 Global Affairs Company OpenAI joins PORTS-Pike project Expanding community investment and supporting thousands of Southern Ohio jobs."
   ]
+ },
+ "a4b154c1e5cef2c4": {
+  "feed": "YC Hacker News",
+  "title": "A Preview of DuckDB v2.0",
+  "link": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "DuckDB v2.0 introduces major architectural upgrades including native client/server protocol and remote query pushdown relevant to backend data infrastructure.",
+  "points": [
+   "Introduces native client/server mode via the 'quack' protocol and CONNECT syntax, shifting DuckDB from embedded-only to a networked server.",
+   "Includes remote pushdown optimization that ships raw SQL directly to PostgreSQL/MySQL instead of pulling full tables over the wire.",
+   "Adds asynchronous I/O, a new default storage format, a VARIANT data type, and a redesigned SQL parser."
+  ]
+ },
+ "10a5b0bc833293ac": {
+  "feed": "YC Hacker News",
+  "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
+  "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "A practical CI/CD and AI security case study on how automated Copilot autofixes can silently introduce critical shell injection vulnerabilities.",
+  "points": [
+   "GitHub Copilot Autofix replaced a safe jq environment variable pattern with direct shell interpolation in a GitHub Actions workflow.",
+   "The resulting script injection allowed unauthenticated attackers to execute arbitrary code via issue titles and exfiltrate Snowflake's Jira tokens.",
+   "Demonstrates the real-world operational risk of deploying automated AI remediation without human security review."
+  ]
+ },
+ "2212c02b4176fcb0": {
+  "feed": "YC Hacker News",
+  "title": "How to disable or avoid intrusive AI",
+  "link": "https://www.librarian.net/notoai/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Consumer guide for disabling generative AI features across end-user operating systems and browsers.",
+  "points": [
+   "Provides step-by-step instructions for toggling off Gemini, Apple Intelligence, and browser-embedded AI for non-technical users."
+  ]
+ },
+ "91872056af2a89e3": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+  "link": "https://news.ycombinator.com/item?id=49332751",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "A standard YC startup launch pitch for an API routing voice AI models.",
+  "points": [
+   "Speko provides an automated routing API and dynamic benchmarking gateway across STT, LLM, and TTS providers."
+  ]
+ },
+ "32e1c7a982785411": {
+  "feed": "YC Hacker News",
+  "title": "How to put 170 atoms in an atom",
+  "link": "https://signoregalilei.com/2026/08/02/how-to-put-170-atoms-in-an-atom/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "General popular science article about quantum physics and Rydberg polarons with no engineering relevance.",
+  "points": [
+   "Explains how laser excitation creates Rydberg atoms that can enclose up to 170 other atoms in a Bose-Einstein condensate."
+  ]
+ },
+ "afc76dc69800e179": {
+  "feed": "Technica",
+  "title": "This sub-$7,000 sportscar might be just what the future needs",
+  "link": "https://arstechnica.com/cars/2026/08/the-opposite-of-a-hypercar-is-fun-meet-the-gasolini-ar1/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Automotive enthusiast article covering a low-cost kit sports car.",
+  "points": [
+   "Reviews a custom sub-$7,000 hand-built road car in the UK."
+  ]
+ },
+ "e505159eb4058314": {
+  "feed": "Technica",
+  "title": "Nvidia discloses $21B stake in SpaceX",
+  "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Financial news report regarding corporate equity stakes between Nvidia and SpaceX.",
+  "points": [
+   "Nvidia disclosed holding a $21 billion equity stake in SpaceX stemming from earlier xAI investments."
+  ]
+ },
+ "ea6d9d434c3dfe85": {
+  "feed": "Technica",
+  "title": "Meet the only known trebuchet casualty in history",
+  "link": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Archaeological human-interest story about medieval siege warfare injuries.",
+  "points": [
+   "Paleopathologists identified the first direct skeletal casualty of a medieval trebuchet impact at Stirling Castle."
+  ]
+ },
+ "30d6dd90b1621170": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Teaching Everyone to Fish for Tokens",
+  "link": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+  "date": "2026-08-17",
+  "tier": "must_read",
+  "why": "Essential strategic analysis of LLM pretraining economics, contrasting open weights with full open-source training recipes like OLMo and Nemotron.",
+  "points": [
+   "Differentiates static open-weight artifacts from full open-source training recipes (data, code, hyperparameters) necessary for sustainable community iteration.",
+   "Explains how Nvidia's $26B investment in open recipes (Nemotron) serves to prevent intelligence monopolies and stimulate broad inference hardware demand.",
+   "Highlights the existential economic risk where capital-intensive pretraining may centralize fully unless open platforms establish direct financial feedback loops."
+  ]
+ },
+ "8933d03c7eacb483": {
+  "feed": "Simon Willison",
+  "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+  "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "Investigative insight into physical pretraining data sourcing pipelines used by major AI frontier labs.",
+  "points": [
+   "Physical AirTag tracking confirmed Amazon operates a dedicated facility (LAS8/VGT3 in Las Vegas) for bulk destructive scanning of rare books for LLM training data.",
+   "Illustrates the extreme data curation lengths frontier labs undertake to acquire high-quality pretraining corpora beyond the public web."
+  ]
  }
 }
