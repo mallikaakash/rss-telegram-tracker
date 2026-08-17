@@ -2639,5 +2639,15 @@
    "Shows clever workarounds like synthesizing a dummy 51st layer to bypass rigid Qwen3-VL loader assertion guards.",
    "Uses HTTP range requests against remote safetensors headers to verify tensor shapes and dtypes without downloading massive weight files."
   ]
+ },
+ "7d3b7985a7081c02": {
+  "url": "https://deepwiki.com/flashinfer-ai/flashinfer/2.1-paged-kv-cache-system",
+  "title": "Paged KV-Cache System | flashinfer-ai/flashinfer | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-17",
+  "tier": "skip",
+  "why": "This page is an empty navigational table of contents from an automated wiki scraper with no actual technical content or documentation text.",
+  "points": []
  }
 }
