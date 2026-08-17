@@ -53501,5 +53501,64 @@
   "points": [
    "Vocal Slice — cut audio by selecting text ) rather than at the end of the page: both OS download buttons exist in the markup below (the no-JS fallback needs them), and CSS hides the non-matching one via [data-os] on . Setting that attribute AFTER the hero had already painted caused a visible reflow — \"See how it works\" jumped sideways when a button vanished."
   ]
+ },
+ "24c18e920dc8004d": {
+  "feed": "YC Hacker News",
+  "title": "Beware the Permanent Periphery",
+  "link": "https://asteriskmag.com/issues/15/beware-the-permanent-periphery",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "Presents a macro/geopolitical perspective on frontier AI concentration and the risks faced by nations without domestic AI labs.",
+  "points": [
+   "Argues that countries without frontier AI labs face lasting economic and political irrelevance as frontier AI advantages compound in the US.",
+   "Contrasts the SF Bay Area fear of an AI underclass with the larger vulnerability of international peripheries lacking regulatory and taxation leverage.",
+   "Provides context on how AGI-era economic power may polarize globally rather than just domestically."
+  ]
+ },
+ "761bf8f0c795852a": {
+  "feed": "YC Hacker News",
+  "title": "HackEurope 2026: A short rant on AI and hackathons",
+  "link": "https://duti.dev/blog/2026/spr/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "Relevant to software engineering culture and career discourse regarding the limits of AI-assisted 'vibe coding' vs. real backend systems.",
+  "points": [
+   "Hackathons have shifted toward front-end-heavy 'AI slop' demos with zero burden of functional proof or technical depth.",
+   "Over-reliance on LLMs creates conformist projects constrained to training distributions while discouraging hard, novel engineering problems.",
+   "Highlights that pitch-driven vibe coding is a marketing trend rather than sustainable software engineering."
+  ]
+ },
+ "81d8834b24b452a1": {
+  "feed": "YC Hacker News",
+  "title": "The continuing \"Q collar\" scandal",
+  "link": "https://statmodeling.stat.columbia.edu/2026/08/13/we-should-probably-be-doing-more-coverage-of-science-adjacent-medical-scams-like-the-q-collar-and-less-on-repulsively-self-promoting-but-ultimately-less-harmful-academic-grifters/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Contains no substantive content or engineering value.",
+  "points": [
+   "Empty post referencing a sports/medical controversy with no technical or ML relevance."
+  ]
+ },
+ "683e244add394237": {
+  "feed": "YC Hacker News",
+  "title": "Gakutensoku",
+  "link": "https://en.wikipedia.org/wiki/Gakutensoku",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Historical Wikipedia entry on a 1920s automaton with no relevance to modern ML or backend systems.",
+  "points": [
+   "Recounts the history of Gakutensoku, an early 20th-century pneumatic robot built in Japan."
+  ]
+ },
+ "56d55f808a247c69": {
+  "feed": "YC Hacker News",
+  "title": "Design 3D-printable parts by talking",
+  "link": "https://nurb.dev/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Marketing page for a consumer text-to-CAD 3D printing tool without architecture or technical ML details.",
+  "points": [
+   "Promotes 'nurb', a tool that converts natural language constraints into parametric CAD models and printable STL/STEP files."
+  ]
  }
 }
