@@ -53268,5 +53268,73 @@
   "points": [
    "Covers the history and design of Archie Norcross's circular panoramic fire lookout maps used in Maine between 1918 and 1923."
   ]
+ },
+ "67414529efd2d95c": {
+  "feed": "YC Hacker News",
+  "title": "The Life and Death of Direct File [pdf]",
+  "link": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Post contains no text and covers government tax software unrelated to ML or backend infrastructure.",
+  "points": [
+   "Discussion on the IRS Direct File program; irrelevant to ML training or backend engineering."
+  ]
+ },
+ "097582375e87a56f": {
+  "feed": "Simon Willison",
+  "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+  "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "Original post evaluating local deployment and over-reasoning dynamics in Alibaba's Qwen 3.8 27B open weights.",
+  "points": [
+   "Qwen 3.8 27B ships with adjustable `reasoning_effort` (xhigh, medium, low) but defaults to xhigh, bloating latency substantially.",
+   "Turning off reasoning reduced a visual SVG prompt generation time from 21 minutes (22,276 reasoning tokens) to 137 seconds."
+  ]
+ },
+ "d09bfc862e00500c": {
+  "feed": "YC Hacker News",
+  "title": "AGI-64 Brings Sierra Adventures to the Commodore 64",
+  "link": "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Retrocomputing announcement for Commodore 64 game engines, off-target for ML and distributed backend engineering.",
+  "points": [
+   "Announces AGI-64, an interpreter bringing 1980s Sierra adventure games to the Commodore 64."
+  ]
+ },
+ "0a37f55e067439f9": {
+  "feed": "YC Hacker News",
+  "title": "Rhombus 1.1 is now available",
+  "link": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "Standard minor release notes for the Rhombus programming language without backend or infrastructure deep dives.",
+  "points": [
+   "Rhombus 1.1 release adds annotation shorthand, binding forms, and minor FFI updates."
+  ]
+ },
+ "3e9e04424fc84f20": {
+  "feed": "YC Hacker News",
+  "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+  "link": "https://rvembedded.com/blog_post/12/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "Offers an insightful perspective on chip economics, supply chain friction, and ISA practicalities vs. theoretical elegance.",
+  "points": [
+   "Rebuts ISA purist criticisms of RISC-V by framing chip cost and open availability as decisive factors in developing regions.",
+   "Emphasizes that sub-$1 microcontrollers like CH32V003 make hardware education viable where shipping overhead exceeds component costs."
+  ]
+ },
+ "5d80ce7e11f5fa42": {
+  "feed": "Simon Willison",
+  "title": "Markdown SVG upgrades",
+  "link": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+  "date": "2026-08-17",
+  "tier": "low_priority",
+  "why": "A personal UI tool update for browser-based SVG rendering, irrelevant to ML pipelines and backend systems.",
+  "points": [
+   "Adds ffmpeg.wasm support to client-side Markdown rendering for exporting animated SVGs to MP4."
+  ]
  }
 }
