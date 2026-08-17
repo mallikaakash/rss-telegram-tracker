@@ -53336,5 +53336,60 @@
   "points": [
    "Adds ffmpeg.wasm support to client-side Markdown rendering for exporting animated SVGs to MP4."
   ]
+ },
+ "b85feffc20aecb4d": {
+  "feed": "YC Hacker News",
+  "title": "Gmail might partially be to blame for receiving emails from other Sean Conners",
+  "link": "https://boston.conman.org/2026/08/11.1",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Gmail might partially be to blame for me receiving emails from other Sean Conners - The Boston Diaries - Captain Napalm The Boston Diaries The ongoing saga of Sean Conner, who doesn't live in Boston, nor does he even like Boston, but yet named his weblog/journal “The Boston Diaries.” Go figure. Tuesday, August 11, 2026 Gmail might partially be to blame for me receiving emails from other Sean Conners I was reading the Lobsters thread about the article “ A researcher bought noreply.net."
+  ]
+ },
+ "bd2ea7ca95892a2b": {
+  "feed": "YC Hacker News",
+  "title": "Reticulum – Decentralized Mesh Network",
+  "link": "https://reticulum.network/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Reticulum Network Deutsch | English | Español | Nederlands | Polski | Português | Türkçe | Українська | 日本語 | 简体中文 Reticulum | Start | Hardware | Connect | Manual | Cryptography | Credits | Source | Donate Reticulum Reticulum is the cryptography-based networking stack for building local and wide-area networks with readily available hardware. Reticulum can continue to operate even in adverse conditions with very high latency and extremely low bandwidth."
+  ]
+ },
+ "22c00a6e2b47591b": {
+  "feed": "YC Hacker News",
+  "title": "Low-Tech Ceramic Water Filter",
+  "link": "https://wiki.lowtechlab.org/wiki/Filtre_%C3%A0_eau_c%C3%A9ramique/en",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ceramic water filter — Low-tech Lab Toggle navigation Tutoriels Groupes Forum Créer une page Vous n'avez pas la permission Oups ! Vous n'avez pas la permission de modifier ce tutoriel car vous n'êtes pas connecté. Pour modifier ce tutoriel, créez un compte ou connectez-vous . français Créer un compte Se connecter Aide Ceramic water filter Page Commentaires 6 Historique Favoris 1 Gsur Je l'ai fait !"
+  ]
+ },
+ "349b9e097177fbf0": {
+  "feed": "YC Hacker News",
+  "title": "Interview with Amit Patel, Creator of \"Solar Realms Elite\"",
+  "link": "https://breakintochat.com/blog/2013/02/18/amit-patel-creator-of-solar-realms-elite/",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Amit Patel, creator of \"Solar Realms Elite\" - Break Into Chat Skip to content Break Into Chat Popular Ya’akov Kirschen ANSI and webcomics History of IGS Unearthed software Door game creators Door game memories Extras BBS Wiki The Break Into Chat wiki was created to preserve the history of BBS door games. Special collections Small collections of BBS- and retrocomputing-related items unique to Break Into Chat."
+  ]
+ },
+ "dbbd3f02466276ec": {
+  "feed": "YC Hacker News",
+  "title": "SIMD in the 90s: Programming Intel's Pentium MMX",
+  "link": "https://pikuma.com/blog/programming-intel-pentium-mmx-simd",
+  "date": "2026-08-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "--> Pikuma: SIMD in the 90s: Programming Intel's Pentium MMX PIKUMA Home About Courses Testimonials Blog FAQ Contact SIGN IN SIMD in the 90s: Programming Intel's Pentium MMX If you programmed PCs in the late 90s, you probably remember the 'Intel Inside Pentium with MMX' stickers. MMX was, of course, a big marketing buzzword, but it was also Intel's major attempt at bringing SIMD (Single Instruction, Multiple Data) instructions to mainstream desktop CPUs."
+  ]
  }
 }
