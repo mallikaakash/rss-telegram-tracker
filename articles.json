@@ -54054,5 +54054,93 @@
   "points": [
    "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model ."
   ]
+ },
+ "f020617b42ee5154": {
+  "feed": "YC Hacker News",
+  "title": "Shattered skeleton is first confirmed death from trebuchet",
+  "link": "https://www.science.org/content/article/shattered-skeleton-scottish-castle-first-confirmed-death-trebuchet",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "1d7b5105e7e233a1": {
+  "feed": "YC Hacker News",
+  "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+  "link": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); Israel creates fake think tank in likely attempt to dupe AI chatbots | Responsible Statecraft quincyinst.org Subscribe Military Industrial Complex Washington Politics Media Global Crises Regions Europe Middle East Africa Asia-Pacific Latin America North America Donate Donate Military Industrial Complex Washington Politics Media Global Crises Regions Europe Middle East Africa Asia-Pacific Latin America North America Video About Us Privacy Policy Follow us on social Stay Responsible."
+  ]
+ },
+ "b5f54d5d83c492d7": {
+  "feed": "YC Hacker News",
+  "title": "Repair Cafe – Fix Your Broken Items",
+  "link": "https://www.repaircafe.org/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Repair Café - Fixing Together, Worldwide skip to Main Content Search Submit Nederlands English Français Deutsch Español Mijn account Login Home Bezoeken Meedoen Starten Vrijwilliger worden Over Community Tips & trucs Handleidingen voor reparaties Nieuws uit ons netwerk Reparatiegegevens Reparatieadvies van onze partners Linux Repair Café FAQ Contact Doneren Search Search Submit Weggooien?"
+  ]
+ },
+ "f4d9c311472abed1": {
+  "feed": "YC Hacker News",
+  "title": "The Road to MS-DOS 2.0",
+  "link": "https://nemanjatrifunovic.substack.com/p/the-road-to-ms-dos-2",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "c76018e68d72fbf6": {
+  "feed": "YC Hacker News",
+  "title": "AI;DR (AI; Didn't Read)",
+  "link": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI;DR (AI; Didn’t Read) - Rick Manelius's Newsletter Rick Manelius's Newsletter Subscribe Sign in AI;DR (AI; Didn’t Read) I'm about as pro-AI as you can be, but this is becoming a pet peeve of mine (and I'm not alone). That's why I love the AI;DR acronym as my new solution for ignoring the walls of slop. Rick Manelius Aug 17, 2026 13 7 2 Share I’m SUPER jealous that I didn’t think of this first..."
+  ]
+ },
+ "6abbbc4ce126c4ed": {
+  "feed": "Technica",
+  "title": "Petlibro accused of “gaslighting” users over smart pet feeder outage",
+  "link": "https://arstechnica.com/gadgets/2026/08/petlibro-accused-of-gaslighting-users-over-smart-pet-feeder-outage/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Petlibro founder and CEO York Wu provided more information about an outage that left users unable to control their smart pet feeders through the companion app and, in some reported cases, left them with hungry pets. Petlibro, a company owned by Shenzhen, China-headquartered firm Shenzhen Libro Technology Co., first acknowledged the outage on Tuesday at 5 am PT."
+  ]
+ },
+ "acb1e48a2ecd8123": {
+  "feed": "Technica",
+  "title": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
+  "link": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For the past year or so, booksellers have suspected that AI firms are buying up huge lots of rare books, then destroying them after scanning them to train AI. But this was hard to prove until now, as 404 Media reports that an Airtag hidden in a rare book shows that at least one tech giant, in the race to advance its frontier models, is behind some of the bulk orders: Amazon."
+  ]
+ },
+ "03370ff5f0a1c1d8": {
+  "feed": "Together AI",
+  "title": "A/B test models in production",
+  "link": "https://www.together.ai/blog/a-b-test-models-in-production",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A/B test models in production Webflow Analyze/Optimize tracking bridge --> 💰 Announcing our Series C. Intelligence should be abundant, not expensive → 🤝 Together AI & Y Combinator announce partnership to deliver the first dedicated YC GPU cluster → ⚡ On-demand B200s now available on Together GPU Clusters → 🚀 Now serving MiniMax-M3 for efficient inference → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Toge"
+  ]
  }
 }
