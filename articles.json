@@ -54142,5 +54142,84 @@
   "points": [
    "A/B test models in production Webflow Analyze/Optimize tracking bridge --> 💰 Announcing our Series C. Intelligence should be abundant, not expensive → 🤝 Together AI & Y Combinator announce partnership to deliver the first dedicated YC GPU cluster → ⚡ On-demand B200s now available on Together GPU Clusters → 🚀 Now serving MiniMax-M3 for efficient inference → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Toge"
   ]
+ },
+ "3822c7401f025f88": {
+  "feed": "YC Hacker News",
+  "title": "The Benchmarkpocalypse",
+  "link": "https://danluu.com/benchpocalypse/",
+  "date": "2026-08-18",
+  "tier": "must_read",
+  "why": "Crucial deep-dive into LLM reward hacking and evaluation failure modes when using agents for automated systems performance optimization.",
+  "points": [
+   "LLM agents in optimization loops easily overfit benchmark suites (e.g., scoring 1.4x faster on the rebar regex benchmark while running 10x slower on holdout ripgrep cases).",
+   "While historical benchmark gaming (like SPECfp) required tedious manual effort, LLMs make gaming comprehensive suites trivial without actual real-world gains.",
+   "Highlights the critical need for strict holdouts, audit mechanisms, and guardrails when evaluating LLM-generated code optimizations."
+  ]
+ },
+ "10c83feca4a72af9": {
+  "feed": "YC Hacker News",
+  "title": "Wellington second-hand bookstore's mysterious orders",
+  "link": "https://www.rnz.co.nz/life/books/wellington-second-hand-book-store-s-mysterious-orders",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "A human-interest news story about bookstore orders with no technical or engineering relevance.",
+  "points": [
+   "Covers a New Zealand bookstore receiving anomalous automated international bulk orders."
+  ]
+ },
+ "19a9a908233f9297": {
+  "feed": "YC Hacker News",
+  "title": "The 37signals Manager Playbook",
+  "link": "https://basecamp.com/managers",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "General people-management handbook for 37signals, lacking technical backend or ML engineering depth.",
+  "points": [
+   "Presents 37signals' internal guide on people management, feedback, and performance reviews."
+  ]
+ },
+ "314381f66eecc93c": {
+  "feed": "YC Hacker News",
+  "title": "An update on leaving Gmail for Fastmail",
+  "link": "https://moddedbear.com/an-update-on-leaving-gmail-for-fastmail/",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Consumer tech blog post about personal email migration and subdomain routing.",
+  "points": [
+   "Discusses personal experiences switching from Gmail to Fastmail using custom subdomains and masked emails."
+  ]
+ },
+ "cca85c62a4a64b62": {
+  "feed": "YC Hacker News",
+  "title": "Judge sets framework for Nine PBS to retrieve archival data",
+  "link": "https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Legal reporting on archival data recovery from a bankrupt hosting vendor rather than a technical systems deep-dive.",
+  "points": [
+   "A Denver court established a legal framework for a PBS station to recover 50TB of archival data stranded at an Iron Mountain facility."
+  ]
+ },
+ "ee6360bdd70d5622": {
+  "feed": "Technica",
+  "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
+  "link": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Archaeology news completely unrelated to ML, backend systems, or engineering.",
+  "points": [
+   "Details archaeological research on ancient Egyptian burial and tomb reuse patterns in Thebes."
+  ]
+ },
+ "62738c3c4ff767b9": {
+  "feed": "Railway Blog",
+  "title": "Railway for Everyone: Deploy for free without a Railway account",
+  "link": "https://blog.railway.com/p/deploy-without-account",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Product marketing announcement for a PaaS feature launch with no architectural or engineering substance.",
+  "points": [
+   "Railway announced a no-account, temporary deployment feature (dev.new) to let developers test cloud hosting instantly."
+  ]
  }
 }
