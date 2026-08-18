@@ -54498,5 +54498,121 @@
   "points": [
    "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers Published August 18, 2026 Update on GitHub Upvote 7 +1 Tom Aarsen tomaarsen Follow Antoine Chaffin NohTow Follow lightonai Raphael Sourty raphaelsty Follow lightonai Table of Contents What are Multi-Vector Models?"
   ]
+ },
+ "611ad4267504a64b": {
+  "feed": "YC Hacker News",
+  "title": "How I Under-Engineered My Book",
+  "link": "https://chriskiehl.com/article/how-i-under-engineered-my-book",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "A personal anecdote about writing a book with simple tools, offering no technical value for ML or backend systems.",
+  "points": [
+   "Author shares a minimalist drafting workflow using Obsidian, Word, and Box instead of complex toolchains."
+  ]
+ },
+ "c743ffdccd705d95": {
+  "feed": "YC Hacker News",
+  "title": "Fairphone is now officially available in the United States",
+  "link": "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "A consumer hardware launch and availability announcement irrelevant to software and ML engineering.",
+  "points": [
+   "Fairphone (Gen. 6+) repairable smartphone is expanding direct sales and shipping to the United States."
+  ]
+ },
+ "37cacdbf3ea2c037": {
+  "feed": "YC Hacker News",
+  "title": "Composable Tests",
+  "link": "https://newsletter.kentbeck.com/p/composable-tests",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "Offers foundational software design insights from Kent Beck on test architecture and combinatorial test reduction.",
+  "points": [
+   "Distinguishes test isolation (referential transparency per test) from test composition (running combined suites for confidence).",
+   "Reduces test complexity from N x M brute-force combinations to N + M + 1 by separating execution steps from reporting assertions.",
+   "Advocates trimming redundant intermediate setup in extended tests without sacrificing specificity."
+  ]
+ },
+ "71d47d030a40269a": {
+  "feed": "YC Hacker News",
+  "title": "Babies born under sugar rationing grew into adults with lower cancer risk",
+  "link": "https://theconversation.com/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-289873",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "An epidemiological health study unrelated to backend engineering, ML infrastructure, or industrial optimization.",
+  "points": [
+   "UK Biobank study links restricted early-life sugar intake under postwar rationing to significantly lower adult cancer rates."
+  ]
+ },
+ "0dfc0db0eac6c7b0": {
+  "feed": "YC Hacker News",
+  "title": "Splitting a Git Commit",
+  "link": "https://blog.gnoack.org/post/git-history-split",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "A trivial one-liner tip on a git command without architectural or systems substance.",
+  "points": [
+   "Demonstrates using 'git history split' to interactively separate commits hunk-by-hunk."
+  ]
+ },
+ "89db0a73f4bbc5ea": {
+  "feed": "Technica",
+  "title": "Teenage Sex and Death at Camp Miasma takes pains to deliver a slasher fan’s dream",
+  "link": "https://arstechnica.com/culture/2026/08/teenage-sex-and-death-at-camp-miasma-takes-pains-to-deliver-a-slasher-fans-dream/",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Entertainment movie review with zero relevance to the reader's engineering profile.",
+  "points": [
+   "Review of Jane Schoenbrun's meta-slasher film 'Teenage Sex and Death at Camp Miasma'."
+  ]
+ },
+ "18da0ed6c2a17e61": {
+  "feed": "Technica",
+  "title": "X-rays add new twist to narwhal's spiral tusk",
+  "link": "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Zoology and biology research with no intersection with ML or computing.",
+  "points": [
+   "CT scans reveal narwhal tusks contain an internal counter-oriented spiral structure beneath the outer spiral."
+  ]
+ },
+ "54ee015553c61572": {
+  "feed": "Apple ML Research",
+  "title": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
+  "link": "https://machinelearning.apple.com/research/grpo-beyond-english",
+  "date": "2026-08-18",
+  "tier": "must_read",
+  "why": "Directly targets Priority 1 by examining GRPO and reinforcement learning with verifiable rewards across multilingual reasoning tasks.",
+  "points": [
+   "Presents large-scale empirical evaluation of Group Relative Policy Optimization (GRPO) beyond English-centric reasoning benchmarks.",
+   "Demonstrates that training models to reason in native languages yields performance closely rivaling English reasoning training.",
+   "Evaluates cross-lingual transfer and verifiable reward dynamics across multiple base model architectures."
+  ]
+ },
+ "7e0541cfd3319638": {
+  "feed": "MIT News (AI)",
+  "title": "Q&A: Rethinking how innovation happens",
+  "link": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0817",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "High-level managerial and economic discussion of innovation theory rather than technical engineering.",
+  "points": [
+   "MIT professor explores market uncertainty and institutional research-to-market translation mechanisms."
+  ]
+ },
+ "8346a6c436b1c5bb": {
+  "feed": "Cloudflare Blog",
+  "title": "BGP Role model: tracking the adoption of RFC 9234",
+  "link": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "A high-quality networking deep-dive from Cloudflare detailing real-world BGP security and RFC 9234 deployment challenges.",
+  "points": [
+   "Explains RFC 9234 BGP Roles and the 'Only to Customer' (OTC) attribute designed to prevent unauthorized valley route leaks automatically.",
+   "Cloudflare tracked global OTC attribute propagation and discovered two major Tier-1 transit providers actively stripping the attribute.",
+   "Highlights why protocol-level enforcement removes the burden of maintaining error-prone manual routing policies."
+  ]
  }
 }
