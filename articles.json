@@ -54221,5 +54221,82 @@
   "points": [
    "Railway announced a no-account, temporary deployment feature (dev.new) to let developers test cloud hosting instantly."
   ]
+ },
+ "746143c32d17e20d": {
+  "feed": "YC Hacker News",
+  "title": "git git git git git",
+  "link": "https://caiustheory.com/git-git-git-git-git/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "git git git git git - CaiusTheory Caius Theory Now with even more cowbell… git git git git git 2017-09-26 11:00:23 Ever found you’ve accidentally entered too many git s in your terminal and wondered if there’s a solution to it? I quite often type git then go away and come back, then type a full git status after it. This leads to a lovely (annoying) error out the box: $ git git status git: 'git' is not a git command."
+  ]
+ },
+ "012604da836b7ba6": {
+  "feed": "YC Hacker News",
+  "title": "Climbing Guide as a Shared Infrastructure",
+  "link": "https://irz.fr/en/articles/openclimbing-open-guide-en/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenClimbing turns a climbing guide into shared infrastructure — IRZ IRZ All 01 Creative 02 Craft 03 Tech 04 AI 05 People 06 Ideas 07 EN / FR IRZ · ART & TECH Craft OpenClimbing turns a climbing guide into shared infrastructure OpenClimbing 2.0 can export an offline PDF, draw a route over a photo, and send shared climbing data back to OpenStreetMap and Wikimedia Commons."
+  ]
+ },
+ "d29be88d69d0262b": {
+  "feed": "YC Hacker News",
+  "title": "Ranking the Most Brilliantly Colored Birds with Data",
+  "link": "https://moultano.wordpress.com/2026/08/14/fairly-ranking-the-most-brilliant-birds/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fairly Ranking the Most Brilliant Birds – Ryan Moulton's Articles Skip to content Ryan Moulton's Articles Fairly Ranking the Most Brilliant Birds Ryan Moulton August 14, 2026 August 14, 2026 Art , Outdoors , Statistics , Technical Post navigation Previous After I finished the project of my last post I still had a giant collection of processed bird color data from BirdColorBase where every way I sliced it revealed new and mind-blowing birds."
+  ]
+ },
+ "37174817181bf62d": {
+  "feed": "YC Hacker News",
+  "title": "Los Puesteros, solitary men who look after ranches and livestock in Patagonia",
+  "link": "https://www.newyorker.com/culture/photo-booth/the-lonely-men-at-the-end-of-the-world",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Lonely Men at the End of the World | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop Festival Open Navigation Menu Menu Photo Booth The Lonely Men at the End of the World In Patagonia, los puesteros look after other people’s livestock for not very much money, and sometimes go months without seeing anyone else."
+  ]
+ },
+ "ae9b970e0cde3461": {
+  "feed": "YC Hacker News",
+  "title": "India has paved the way for charging merchants a fee on UPI transactions",
+  "link": "https://www.bbc.com/news/articles/c8xnwqe00v1o",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "UPI: India built a digital payments miracle. Now comes the bill. Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live India built the world's biggest digital payments miracle."
+  ]
+ },
+ "711ba373d2aa622c": {
+  "feed": "Together AI",
+  "title": "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+  "link": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DeepSeek V4 Pro 0813 vs GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing Webflow Analyze/Optimize tracking bridge --> 💰 Announcing our Series C. Intelligence should be abundant, not expensive → 🤝 Together AI & Y Combinator announce partnership to deliver the first dedicated YC GPU cluster → ⚡ On-demand B200s now available on Together GPU Clusters → 🚀 Now serving MiniMax-M3 for efficient inference → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better wi"
+  ]
+ },
+ "bedb183defd7b6a3": {
+  "feed": "Together AI",
+  "title": "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+  "link": "https://www.together.ai/blog/deepseek-v4-pro-0813-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing Webflow Analyze/Optimize tracking bridge --> 💰 Announcing our Series C. Intelligence should be abundant, not expensive → 🤝 Together AI & Y Combinator announce partnership to deliver the first dedicated YC GPU cluster → ⚡ On-demand B200s now available on Together GPU Clusters → 🚀 Now serving MiniMax-M3 for efficient inference → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better"
+  ]
  }
 }
