@@ -54399,5 +54399,104 @@
   "points": [
    "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
   ]
+ },
+ "36d27d0d69896726": {
+  "feed": "YC Hacker News",
+  "title": "Using the railway network as a flatbed scanner",
+  "link": "https://philo.gay/linecam/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Using the railway network as a flatbed scanner Philo's Website Using the railway network as a flatbed scanner August 17 th , 2026 — 4,600 words Over the past few months, I've been working on using an industrial linear scanning camera to take very wide photos out of trains and ferries. Getting it working has been quite the challenge, but I think the results speak for themselves."
+  ]
+ },
+ "89ce017866341890": {
+  "feed": "YC Hacker News",
+  "title": "Fixing a Bricked Framework Laptop",
+  "link": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fixing a bricked AMD 7040 series Framework 13” laptop with $20 tools | Quantum Quantum Projects DMOJ Referrals About Guanzhong Theme Automatic Light Dark Fixing a bricked AMD 7040 series Framework 13\" laptop with $20 tools Aug 16, 2026 Sysadmin , Electronics 38 minutes Quantum qt.ax/ffw In 2023, I was in need of a new laptop that should hopefully last me for a while."
+  ]
+ },
+ "9100a3c054d874a2": {
+  "feed": "YC Hacker News",
+  "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
+  "link": "https://opensource.posit.co/resources/cheatsheets/polars/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Python Polars: The Definitive Cheatsheet :: Posit Open Source posit::conf is September 14-16 in Houston, TX! Register now to attend in person or virtually. Software People Events Resources Cheatsheets Videos Blog About About Posit Our AI Work Our Python Work Our R Work Community Support Resources Great Tables plotnine | Python Python Polars: The Definitive Cheatsheet Quick reference guide for transforming, analyzing, and visualizing data with Python Polars Read more..."
+  ]
+ },
+ "67636947efe0e665": {
+  "feed": "YC Hacker News",
+  "title": "The Amazon Tax",
+  "link": "https://seths.blog/2026/08/the-amazon-tax/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Amazon tax | Seth's Blog You have unread updates 0 Search Search for: Or try my new AI-powered search bot Subscribe Email Terms & Privacy Get the weekly digest Type your email… Subscribe Learn Which workshop? The LinkedIn Learning Courses Udemy Courses The Akimbo Podcast Connect News and updates Social Media Best of the blog Story of the Week Seth’s Top 100 Popular Posts Archive More Seth Books, videos, and speaking (oh my!) Free content About Seth Godin Find all the books at seths.store Welcome back."
+  ]
+ },
+ "0d3ee817944f4119": {
+  "feed": "YC Hacker News",
+  "title": "Teaching my kid to code with a modern MUD",
+  "link": "https://tau.dev/2026/08/07/canon",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Canon My eight year old daughter wants to make video games. Sheâs obsessed with this idea. She likes playing video games too, but itâs just not the same. Experiencing the world, even defeating the world, is too passive. She wants to make the world. So I made her a game where she can make games. A multiplayer world made of text and images and a tiny new scripting language, where she can take anything and everything apart to see how it works."
+  ]
+ },
+ "3bbaa3b8ac78ec5a": {
+  "feed": "Technica",
+  "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+  "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It’s not every day that attackers can force a frontier AI model to cough up user passwords and other sensitive data without user confirmation. That’s exactly what researchers recently did to Microsoft 365 Copilot Enterprise. Even more unusual is the source they tapped to discover the critical vulnerability that made their exploit possible. Rather than employing reverse engineering or other traditional vulnerability-hunting methods, they asked Copilot."
+  ]
+ },
+ "19cb8962d146c524": {
+  "feed": "Technica",
+  "title": "As temperatures get hotter, pesticides are more dangerous to farmworkers",
+  "link": "https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For the nation’s 2.4 million farmworkers, climate change is poised to exacerbate the harms of pesticides, a growing body of research shows. Heat stresses the body , making it more vulnerable to pesticides and other toxicants, and protective clothing worn in the heat only adds to this stress. Hotter temperatures can also lead to higher evaporation rates, increasing farmworkers’ exposure as more pesticides are applied to crops."
+  ]
+ },
+ "01003c6680bc2ecc": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+  "link": "https://openai.com/index/chatgpt-for-teens",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing ChatGPT for Teens: Built for learning, backed by protections | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 18, 2026 Product Safety Introducing ChatGPT for Teens: Built for learning, backed by protections Loading… Share We’re introducing ChatGPT for Teens, an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence."
+  ]
+ },
+ "e520424e436f5da3": {
+  "feed": "Hugging Face Blog",
+  "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+  "link": "https://huggingface.co/blog/multi-vector-encoder",
+  "date": "2026-08-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers Published August 18, 2026 Update on GitHub Upvote 7 +1 Tom Aarsen tomaarsen Follow Antoine Chaffin NohTow Follow lightonai Raphael Sourty raphaelsty Follow lightonai Table of Contents What are Multi-Vector Models?"
+  ]
  }
 }
