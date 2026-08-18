@@ -54298,5 +54298,62 @@
   "points": [
    "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing Webflow Analyze/Optimize tracking bridge --> 💰 Announcing our Series C. Intelligence should be abundant, not expensive → 🤝 Together AI & Y Combinator announce partnership to deliver the first dedicated YC GPU cluster → ⚡ On-demand B200s now available on Together GPU Clusters → 🚀 Now serving MiniMax-M3 for efficient inference → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better"
   ]
+ },
+ "d37c6702c0ec5f67": {
+  "feed": "YC Hacker News",
+  "title": "Linux 7.3 improves performance when running out of vRAM",
+  "link": "https://pixelcluster.dev/VRAM-Overcommit/",
+  "date": "2026-08-18",
+  "tier": "must_read",
+  "why": "Deep technical breakdown of GPU memory overcommit, PCIe bandwidth bottlenecks, and kernel-level VRAM eviction management directly relevant to GPU infra engineering.",
+  "points": [
+   "PCIe 4.0 x16 bandwidth (~32 GiB/s, or ~32.2 MiB/ms) sets a hard physical limit on CPU-to-GPU data fetching when physical VRAM is exhausted.",
+   "Overcommitting VRAM causes performance drops rather than crashes, but cache hits amortize the latency penalty of evicted memory residing in CPU RAM.",
+   "Linux 7.3 merges upstream kernel patches optimizing driver VRAM management and memory placement to stabilize low-VRAM execution."
+  ]
+ },
+ "3ff998d50ab7d97c": {
+  "feed": "YC Hacker News",
+  "title": "Rethinking Database Programming",
+  "link": "https://acadia.engineering/blog/rethinking-database-programming",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "No article body provided beyond a title stub, offering no actionable engineering insights.",
+  "points": [
+   "Contains no content to review."
+  ]
+ },
+ "6482f3bb8dbd2902": {
+  "feed": "YC Hacker News",
+  "title": "IBM Simon (1994): the original smartphone, explained in its own ad [video]",
+  "link": "https://www.youtube.com/watch?v=xoTFywZpPcc",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Vintage computing history video about the 1994 IBM Simon, irrelevant to ML or backend engineering.",
+  "points": [
+   "Historical video feature on the 1994 IBM Simon smartphone."
+  ]
+ },
+ "0e9ae86904749c6e": {
+  "feed": "YC Hacker News",
+  "title": "Exercise intensity modulates interorgan communication and is associated with",
+  "link": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Health and physiology paper with no engineering or ML relevance.",
+  "points": [
+   "Biology research on exercise intensity and interorgan communication."
+  ]
+ },
+ "43f17457cf3f1bd7": {
+  "feed": "YC Hacker News",
+  "title": "A particle made of force: physicists say they've found mysterious 'glueball'",
+  "link": "https://www.nature.com/articles/d41586-026-02498-1",
+  "date": "2026-08-18",
+  "tier": "low_priority",
+  "why": "Experimental particle physics news regarding quantum chromodynamics, unrelated to ML systems or backend priorities.",
+  "points": [
+   "Physicists at BESIII report strong experimental evidence for glueballs—particles composed solely of force-carrying gluons—in the X(2370) particle."
+  ]
  }
 }
