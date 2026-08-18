@@ -2649,5 +2649,53 @@
   "tier": "skip",
   "why": "This page is an empty navigational table of contents from an automated wiki scraper with no actual technical content or documentation text.",
   "points": []
+ },
+ "998c3018ffba8f01": {
+  "url": "https://pyshine.com/LLM-Decode-KV-Cache-GPU-VRAM-Deep-Dive/",
+  "title": "LLM Decode Deep Dive: KV-Cache, GPU VRAM, and the Memory Bottleneck | PyShine",
+  "domain": "pyshine.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-18",
+  "tier": "skip",
+  "why": "Covers standard, introductory concepts around LLM decode phases and KV-cache sizing that are widely documented elsewhere.",
+  "points": []
+ },
+ "ee07f6293adfeb85": {
+  "url": "https://deepwiki.com/mirage-project/mirage/3.6-paged-kv-cache-management",
+  "title": "Paged KV-Cache Management | mirage-project/mirage | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-18",
+  "tier": "skip",
+  "why": "This is an auto-generated documentation table of contents / index page with no technical depth in the excerpt.",
+  "points": []
+ },
+ "7b8d3d36b349acda": {
+  "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+  "title": "What happens when a GPU reads memory | Doubleword",
+  "domain": "blog.doubleword.ai",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-18",
+  "tier": "hidden_gem",
+  "why": "A rigorous, hardware-level reverse engineering post tracing a single global load SASS instruction through the RTX 4090 memory hierarchy using physical timing experiments.",
+  "points": [
+   "Traces `LDG.E` execution from sub-partition warp schedulers down to DRAM column reads across L1, TLB, crossbar, and 36 L2 slices.",
+   "Provides precise hardware latencies measured via microbenchmarks (15 ns L1, 127 ns L2, 255 ns DRAM).",
+   "Breaks down undocumented NVIDIA memory subsystem paths and coalescing behaviors."
+  ]
+ },
+ "cd23be5bd0ba070d": {
+  "url": "https://hiraditya.github.io/posts/anatomy-of-a-cuda-binary/",
+  "title": "Anatomy of a CUDA Binary | Aditya Kumar",
+  "domain": "hiraditya.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-18",
+  "tier": "hidden_gem",
+  "why": "Provides an exceptionally rare, reverse-engineered byte-level dissection of undocumented NVIDIA CUDA binaries (cubin) and `.nv.info` EIATTR metadata on B200 hardware.",
+  "points": [
+   "Documents the ELF64 container spec for CUDA, including `e_ident[EI_OSABI] = 0x41` and CUDA 13's rejection of older ABI versions (`0x33`).",
+   "Dissects the undocumented `.nv.info` and `.nv.constant0` section structures needed to build a custom cubin emitter from LLVM IR.",
+   "Details architecture flags and parameter bank layouts validated against real Blackwell (sm_100) silicon."
+  ]
  }
 }
