@@ -55087,5 +55087,65 @@
   "points": [
    "GitHub - katiahayati/lucasartsifier: Static analysis for Sierra adventure games: finds softlocks by abstract interpretation of decompiled SCI scripts, derives and verifies guards, recompiles them into the game · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
   ]
+ },
+ "616b6ade42775d98": {
+  "feed": "YC Hacker News",
+  "title": "The Two Factions of C++",
+  "link": "https://herecomesthemoon.net/2024/11/two-factions-of-cpp/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "Useful perspective on the systems programming landscape, detailing the friction between C++ committee conservatism and big tech's shift to Rust.",
+  "points": [
+   "C++ EWG reaffirmed zero-overhead and strict ABI backward compatibility (P3466 R0), blocking viral lifetime/safety annotations.",
+   "Big tech (Google, Microsoft, AWS) is actively shifting away from the C++ committee process toward Rust adoption and successor languages like Carbon."
+  ]
+ },
+ "15e13eb0dc432ebf": {
+  "feed": "YC Hacker News",
+  "title": "λλ: A Programming Language for Silicon Photonics",
+  "link": "https://dl.acm.org/doi/10.1145/3789240.3829151",
+  "date": "2026-08-19",
+  "tier": "low_priority",
+  "why": "Empty submission with no technical details on this niche silicon photonics language.",
+  "points": [
+   "Contains no article text or technical details."
+  ]
+ },
+ "a02463eb94db68f7": {
+  "feed": "YC Hacker News",
+  "title": "Activation Energy is a good model for a lot of things",
+  "link": "https://homosabiens.substack.com/p/activation-energy-is-a-good-model",
+  "date": "2026-08-19",
+  "tier": "low_priority",
+  "why": "Empty submission covering generic non-technical mental models.",
+  "points": [
+   "Contains no article text or relevant ML/backend engineering content."
+  ]
+ },
+ "7b614d757e1aaad7": {
+  "feed": "YC Hacker News",
+  "title": "The Mojo language (by Modular, now Qualcomm) is now open-source",
+  "link": "https://www.modular.com/blog/modcon-announcements",
+  "date": "2026-08-19",
+  "tier": "must_read",
+  "why": "Major milestone for AI infra and kernel programming as the Mojo language and tooling are fully open-sourced.",
+  "points": [
+   "Mojo 1.0 compiler and entire tooling stack are open-sourced under the Apache 2.0 license with production API stability guarantees.",
+   "Added platform support across diverse hardware including AWS Trainium, Google TPUs, and Qualcomm Dragonfly alongside CPUs and GPUs.",
+   "MAX framework removed device usage restrictions, shifting to a source-available ecosystem model."
+  ]
+ },
+ "af3d9b9037a917a6": {
+  "feed": "YC Hacker News",
+  "title": "Turbovec – Google's TurboQuant for vector search in Rust",
+  "link": "https://github.com/RyanCodrai/turbovec",
+  "date": "2026-08-19",
+  "tier": "must_read",
+  "why": "High-performance vector search engine implementation directly relevant to ML inference infra and retrieval systems.",
+  "points": [
+   "Compresses vector embeddings ~8x (31 GB corpus down to 4 GB RAM) while outperforming FAISS search speeds.",
+   "Implements Google's TurboQuant algorithm for data-oblivious quantization, eliminating offline training phases and index rebuilding on ingest.",
+   "Written in Rust with Python bindings and hand-optimized SIMD kernels (NEON SDOT/SMMLA)."
+  ]
  }
 }
