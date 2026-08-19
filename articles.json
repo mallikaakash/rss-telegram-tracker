@@ -55357,5 +55357,137 @@
   "points": [
    "In 2021, we assessed remote Spectre attacks against Cloudflare Workers. Based on the results, we shipped a production defense called Dynamic Process Isolation (DyPrIs), which identifies maliciously looking scripts and isolates them into separate processes. Since then, newer techniques in the area of stabilizing Spectre attacks have been discovered. To understand if these techniques posed a threat to our Workers production environment, we decided to internally reassess the remote Spectre attack."
   ]
+ },
+ "7aaa9e915a9fdb16": {
+  "feed": "YC Hacker News",
+  "title": "Civic Hygiene – avoid building technologies that could be used by a police state (2013)",
+  "link": "https://shkspr.mobi/blog/2013/11/civic-hygiene/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Civic Hygiene – Terence Eden’s Blog Terence Eden’s Blog Theme Switcher: 🌒 Dark 🌞 Light 📰 eInk 💻 xterm 🥴 Drunk 👻 Nude ♻️ Reset Civic Hygiene data protection database dpa NaBloPoMo politics porn · 400 words · Viewed ~4,068 times Imagine, just for a moment, that the Government wanted to keep a record of everyone's sexuality. They need to know this detailed demographic data because it will be highly useful in civic planning."
+  ]
+ },
+ "e78845aaefd86053": {
+  "feed": "YC Hacker News",
+  "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+  "link": "https://ornith.ai/ornith_1_5.html",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ornith-1.5: From Self-Scaffolding to Self-Improvement | Ornith Blog Ornith-1.5: From Self-Scaffolding to Self-Improvement Aug. 2026 Twitter Hugging Face Today, we are introducing Ornith-1.5, a major step toward building foundation models through end-to-end self-improvement. Ornith-1.5 extends the self-scaffolding framework introduced in Ornith-1.0 into a more complete self-improvement loop: the model proposes new tasks, generates task-specific scaffolds, and produces solution rollouts for reinforcement learning, continuously creating new learning experiences from which it can improve."
+  ]
+ },
+ "11b62d30a27454a6": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+  "link": "https://github.com/onecli/onecli",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - onecli/onecli: Open-source sandboxed agent harness for teams. Giving every employee a secured personal agent. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "b9b9c0da4afa6ca0": {
+  "feed": "YC Hacker News",
+  "title": "Extensible Software in the Age of LLMs",
+  "link": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "--> Extensible Software in the age of LLMs | Jeremy Morrell Jeremy Morrell blog notes about rss Blog Everything Aug 18, 2026 Extensible Software in the age of LLMs Most of the web software we interact with today is static. The developers have a limited amount of time and attention, and focus on building the features that serve the largest group of users."
+  ]
+ },
+ "ce98641df2b8aa95": {
+  "feed": "YC Hacker News",
+  "title": "How Kubernetes Probes Work",
+  "link": "https://ngrok.com/blog/probes",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Kubernetes probes work | ngrok blog Skip to main content ngrok home / ngrok blog home blog open mobile navigation Products Problems We Solve Resources Docs Pricing Log in Sign up Products Gateway AI Gateway Share localhost Build & test Share a local app Test webhooks locally Connect local MCP servers Play Host a Minecraft server Deploy & run Route traffic to self-hosted models Run preview and CI workloads Deliver & connect Deliver and secure APIs Reach customer networks Receive webhooks on-prem Connect privately across networks Connect device fleets Open SSH and RDP sessions Developers Download Docs Quickstart Videos API Integrations GitHub Status Resources Support Security Case studies Careers Contact Blog Blog home Compression is prediction The new ngrok.ai Make LLMs 4x smaller and 2x faster Search… Control ⌃ K Newsletter RSS Aug 19, 2026 Latest Post How Kubernetes probes work Sam Rose • 4,195 words • Topics: Kubernetes This post requires JavaScript The demos in this article need JavaScript to function."
+  ]
+ },
+ "f7c871966917353e": {
+  "feed": "Technica",
+  "title": "A fantastical journey unfolds in gorgeous Wildwood trailer",
+  "link": "https://arstechnica.com/culture/2026/08/a-fantastical-journey-unfolds-in-gorgeous-wildwood-trailer/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In June, we highlighted a behind-the-scenes featurette on the making of Wildwood , director Travis Knight’s forthcoming stop-motion animated fantasy film. Laika Studios released an extended teaser in May, which racked up over 90 million views. And now we've got the gorgeous full trailer, set to a haunting cover of Avicii's \" Wake Me Up .\" The film is an adaptation of the 2011 novel by Colin Meloy—frontman of indie folk-rock band The Decemberists—and his wife, illustrator Carson Ellis."
+  ]
+ },
+ "01e81f7c66971eaa": {
+  "feed": "Technica",
+  "title": "mRNA cancer vaccine succeeded in Phase 3 melanoma trial, Moderna and Merck say",
+  "link": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Pharmaceutical partners Moderna and Merck announced on Wednesday that their novel mRNA-based vaccine—individually tailored to target a patient's unique cancer mutations—was effective in a late-stage clinical trial of patients with melanoma, one of the deadliest forms of skin cancer. The announcement was scant on details, but if the success holds, it stands to realize the high aspirations for both mRNA vaccines and individualized cancer-targeting medicines in cancer therapy, providing a first success for both treatment types."
+  ]
+ },
+ "cf70bce2fbbe5c92": {
+  "feed": "Technica",
+  "title": "Google Pixel 11 series review: Is the magic fading?",
+  "link": "https://arstechnica.com/gadgets/2026/08/google-pixel-11-series-review-is-the-magic-fading/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google's approach to making smartphones has changed a lot over the years. It started with Nexus phones aimed at the tinkerer and enthusiast niche back when there were countless companies making smartphones. Today, there are far fewer, and Google's hyper-polished Pixel lineup is seeing less competition and higher sales. So maybe Google thinks it can just keep doing what works."
+  ]
+ },
+ "b39ae874fbbd54ba": {
+  "feed": "Technica",
+  "title": "Scientists find closest star to the Milky Way's central black hole",
+  "link": "https://arstechnica.com/science/2026/08/scientists-find-closest-star-to-the-milky-ways-central-black-hole/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sgr A* is the name we've given to the supermassive black hole that sits at the center of the Milky Way. We've known about its presence since the 1970s but only managed to image it within the past few years. In the intervening time, most of our understanding of the object was obtained by watching a group of stars that orbit the black hole, helping us get a good estimate of its mass and size."
+  ]
+ },
+ "9b3a18b55b3e05eb": {
+  "feed": "Technica",
+  "title": "Meta ran ads for an app promising to nudify female politicians",
+  "link": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta platforms recently ran ads for an AI porn-generation tool that seemingly encouraged users to create deepfaked videos resembling female US politicians, despite the company’s policies against ads containing sexual material. It’s the latest in a series of failures by Meta to keep advertisements for tools that produce nonconsensual intimate imagery off its platforms."
+  ]
+ },
+ "ed53f1562196c2be": {
+  "feed": "Apple ML Research",
+  "title": "The P-Completeness of Inverted Index Traversal: On the Complexity of Evaluating Boolean Query DAGs",
+  "link": "https://machinelearning.apple.com/research/the-p-completeness-of-inverted-index-traversal",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often compile into deeply nested, non-monotonic Boolean queries over text fields. However, standard query evaluation strategies over inverted indices face severe theoretical limits when handling these structures. Stateful iterator models (Document-at-a-Time) are structurally bounded by NC^1 formula evaluation, suffering a worst-case O(2^|Q|) exponential blowup in query complexity when unrolling re-convergent logic."
+  ]
+ },
+ "e396b6baa03e30ff": {
+  "feed": "OpenAI News",
+  "title": "Offering Zero Data Retention for frontier models",
+  "link": "https://openai.com/index/our-commitment-to-zero-data-retention",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Offering Zero Data Retention for frontier models | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 19, 2026 Company Safety Offering Zero Data Retention for frontier models Previewing Private Safety Processing, which strengthens safeguards across interactions while remaining compatible with ZDR."
+  ]
  }
 }
