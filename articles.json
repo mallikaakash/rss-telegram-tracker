@@ -55147,5 +55147,61 @@
    "Implements Google's TurboQuant algorithm for data-oblivious quantization, eliminating offline training phases and index rebuilding on ingest.",
    "Written in Rust with Python bindings and hand-optimized SIMD kernels (NEON SDOT/SMMLA)."
   ]
+ },
+ "e57c1cc0f89d4ce1": {
+  "feed": "YC Hacker News",
+  "title": "Air Theremin – a browser theremin you play by waving at your webcam",
+  "link": "https://theremin.bizibah.com/",
+  "date": "2026-08-19",
+  "tier": "low_priority",
+  "why": "A browser webcam audio toy that is entirely unrelated to ML training, backend systems, or data infra.",
+  "points": [
+   "Browser-based theremin that maps webcam hand tracking and phone gyroscope motion to audio pitch and volume."
+  ]
+ },
+ "bbcb419123d8288e": {
+  "feed": "YC Hacker News",
+  "title": "GrapheneOS in 2027 available on high-end Motorola phones",
+  "link": "https://grapheneos.social/@GrapheneOS/117078064184215730",
+  "date": "2026-08-19",
+  "tier": "low_priority",
+  "why": "Consumer mobile OS availability announcement with no relevance to backend or ML engineering.",
+  "points": [
+   "GrapheneOS plans expansion to support high-end Motorola smartphones."
+  ]
+ },
+ "79c997afd4c94e1b": {
+  "feed": "YC Hacker News",
+  "title": "Rings forged from meteorites may have been fashionable among ancient Greek elite",
+  "link": "https://phys.org/news/2026-08-forged-meteorites-fashionable-ancient-greek.html",
+  "date": "2026-08-19",
+  "tier": "low_priority",
+  "why": "Archaeology news with zero connection to software, ML, or industrial systems.",
+  "points": [
+   "Study explores the historical use of meteoritic iron in ancient Greek elite jewelry."
+  ]
+ },
+ "0c4a4f98331aabf9": {
+  "feed": "YC Hacker News",
+  "title": "Win-V combo from Windows on Ubuntu",
+  "link": "https://leo98ml.github.io/win-v/",
+  "date": "2026-08-19",
+  "tier": "low_priority",
+  "why": "A desktop utility project for GNOME that does not intersect with backend infrastructure or ML pipelines.",
+  "points": [
+   "WinV is a local-only GNOME Shell extension bringing Windows-style clipboard history to Wayland/Ubuntu without background daemons."
+  ]
+ },
+ "ee525340060366f1": {
+  "feed": "YC Hacker News",
+  "title": "A 25-year-old video patent just expired, ending a legal headache for Linux",
+  "link": "https://www.xda-developers.com/25-year-old-brazilian-video-patent-expired-legal-headache-linux/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "Interesting Linux ecosystem news regarding the expiration of legacy multimedia patent hurdles.",
+  "points": [
+   "The final MPEG-4 Visual portfolio patent (Siemens AG Brazilian patent BR PI0109962-0) expired in July 2026.",
+   "Removes the last global patent encumbrance on older MPEG-4/DivX codecs, simplifying out-of-the-box media playback in Linux distros."
+  ]
  }
 }
