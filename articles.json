@@ -55203,5 +55203,93 @@
    "The final MPEG-4 Visual portfolio patent (Siemens AG Brazilian patent BR PI0109962-0) expired in July 2026.",
    "Removes the last global patent encumbrance on older MPEG-4/DivX codecs, simplifying out-of-the-box media playback in Linux distros."
   ]
+ },
+ "7ef24d17d44ae731": {
+  "feed": "YC Hacker News",
+  "title": "PostgreSQL for Everything",
+  "link": "https://www.raphaelbauer.com:443/posts/postgresql-everything/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "PostgreSQL for Everything - Dr. Raphael A. Bauer, MBA | Fractional & Interim CTO | PE/VC Tech Strategy & Due Diligence | Berlin | London | Austin, Texas Home Interim CTO Services Blog About 🇩🇪 Home Interim CTO Services Blog About 🇩🇪 Menu PostgreSQL for Everything . Contrary to popular belief - the answer to everything is NOT 42 - it’s PostgreSQL. (ok. It might also be Postgres )."
+  ]
+ },
+ "5f14b6e455a6bf7a": {
+  "feed": "YC Hacker News",
+  "title": "Geolocating a random island using geometry and CUDA programming",
+  "link": "https://yassa9.github.io/osint/gralhix-004/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "gralhix #004 yassa9 home projects OSINT writeups contact me gralhix004 | Geolocating Random Islet Image Using Geometry & CUDA GPU Programming 16-08-2026 NOTE: this is a genuine human work, didnt use LLM generation. I'm writing this page as a writeup for this challenge gralhix 004 made by Sofia Santos | Gralhix . You can view, clone and locally try all code files and the final report with all instructions here at github."
+  ]
+ },
+ "3d03f9d3b9edad1e": {
+  "feed": "YC Hacker News",
+  "title": "A joke domain purchase turned in geopolitical warfare",
+  "link": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How a joke domain purchase turned in geopolitical warfare How a joke domain purchase turned in geopolitical warfare Aug 19, 2026 Strap in, this story involves a cheese fortune teller, the department of war, and nearly every other government department in between. In 2017 (I think?) I was introduced to weather balloon hunting by Mark VK5QI. At the time the Australian balloon chasing community was small."
+  ]
+ },
+ "a52f4790378be1b9": {
+  "feed": "YC Hacker News",
+  "title": "Moderna reports first positive Phase 3 for mRNA neoantigen therapy in melanoma",
+  "link": "https://twitter.com/NoubarAfeyan/status/2090050162441752787",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Noubar Afeyan on X: \"Today marks an important milestone for @moderna_tx , for the field of mRNA, and for the many people working to bring new possibilities to patients. This morning, Moderna and Merck announced positive Phase 3 results for adjuvant treatment with intismeran autogene, an\" / X Post Log in Sign up Post Noubar Afeyan on X: \"Today marks an important milestone for @moderna_tx , for the field of mRNA, and for the many people working to bring new possibilities to patients."
+  ]
+ },
+ "c826009e28174417": {
+  "feed": "YC Hacker News",
+  "title": "Taffy: A flexible, high-performance, cross-platform UI layout library",
+  "link": "https://github.com/DioxusLabs/taffy",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - DioxusLabs/taffy: A high performance rust-powered UI layout library · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "155d0e3a072766e6": {
+  "feed": "Apple ML Research",
+  "title": "Examining Human-Like Behaviors in LLMs: A Multi-Dimensional Analysis of Model Behaviors, User Factors, and System Prompts",
+  "link": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Large language models (LLMs) exhibit a wide range of human-like behaviors, from expressing thoughts and emotions, to engaging in relationship-building with users, to refusing requests and maintaining boundaries. Despite their prevalence, researchers and practitioners lack methods and empirical insights to make informed decisions about when and what types of human-like behaviors LLMs should exhibit."
+  ]
+ },
+ "9ac0643f24279d08": {
+  "feed": "OpenAI News",
+  "title": "Replit expands access to software creation with GPT-5.6 Luna",
+  "link": "https://openai.com/index/replit",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Replit expands access to software creation with GPT-5.6 Luna | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 19, 2026 Startup Replit expands access to software creation with GPT‑5.6 Luna Replit is introducing Free Mode, powered by GPT‑5.6 Luna, so anyone can turn ideas into working software without worrying about token costs."
+  ]
+ },
+ "22e214c525696116": {
+  "feed": "Hugging Face Blog",
+  "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+  "link": "https://huggingface.co/blog/LiquidAI/qad",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> LFM2.5 Q4_0 Checkpoints from Quantization-Aware Distillation Team Article Published August 19, 2026 Upvote 3 Aditya Tadimeti adityatadimeti Follow LiquidAI Leonie Monigatti iamleonie Follow LiquidAI Benchmark results Speed and size on real edge hardware How to use QAD GGUFs Get Started with QAD GGUFs Citation Today, we release QAD Q4_0 GGUFs."
+  ]
  }
 }
