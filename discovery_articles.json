@@ -2697,5 +2697,35 @@
    "Dissects the undocumented `.nv.info` and `.nv.constant0` section structures needed to build a custom cubin emitter from LLVM IR.",
    "Details architecture flags and parameter bank layouts validated against real Blackwell (sm_100) silicon."
   ]
+ },
+ "dac8686f8d5a9c64": {
+  "url": "https://jxzhangjhu.github.io/blog/2026/how-frontier-labs-train-llms/",
+  "title": "How Frontier Labs Train Large Language Models | Jiaxin Zhang",
+  "domain": "jxzhangjhu.github.io",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-19",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "cdc5d674012a5e29": {
+  "url": "https://livebook.manning.com/book/cuda-for-deep-learning/chapter-6",
+  "title": "6 Optimizing our transformer kernels · CUDA for Deep Learning",
+  "domain": "livebook.manning.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-19",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "0f809b46cba4257c": {
+  "url": "https://snorkel.ai/blog/train-to-test-scaling-laws-reading-group/",
+  "title": "Train-to-Test (T²) Scaling Laws: Why Overtraining LLMs Pays Off",
+  "domain": "snorkel.ai",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-19",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
