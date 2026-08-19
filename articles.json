@@ -54911,5 +54911,60 @@
   "points": [
    "Mojo🔥 is now open source Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license. When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem."
   ]
+ },
+ "b72e1bdcc78d4468": {
+  "feed": "YC Hacker News",
+  "title": "Meta's blockbuster trial draws parallels to big tobacco",
+  "link": "https://www.economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "dcdbdd3ed1b297d6": {
+  "feed": "YC Hacker News",
+  "title": "OpenLogi",
+  "link": "https://openlogi.org/en",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenLogi OpenLogi Configurator Features Local-first Install FAQ Docs EN ä¸­æ Download HID++ over Bolt, Unifying, Bluetooth & wired Â· macOS Â· Linux Â· Windows Your Logitech mouse, finally local. A native, local-first alternative to Logitech Options+, written in Rust ð¦ . Remap buttons, drive DPI and SmartShift over HID++ â with no account and no telemetry ."
+  ]
+ },
+ "a79df62a77c95422": {
+  "feed": "YC Hacker News",
+  "title": "Palomar: A registry of Lean verified mathematics",
+  "link": "https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Palomar – a registry of Lean verified mathematics | What's new What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics. By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed Palomar – a registry of Lean verified mathematics 18 August, 2026 in admin , advertising | Tags: Lean , Palomar | by Terence Tao In recent months there has been a proliferation of AI-generated proofs of various old and new results, some of which have been formalized in the proof assistant language Lean."
+  ]
+ },
+ "5fe3a01f16920a88": {
+  "feed": "YC Hacker News",
+  "title": "Scientists stunned by children's lung recovery in ultra low emission zone",
+  "link": "https://www.bbc.com/news/articles/c1l1r1zne1ro",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Children's stunted lungs show recovery in ultra low emission zone Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live Scientists stunned by children's lung recovery in ultra low emission zone 4 hours ago Share Save Add as preferred on Google Smitha Mundasad Health reporter BBC Children had lung function tests every year Scientists say they have been \"stunned\" by how quickly young children's lungs began to recover and grow after pollution restrictions were brought in where they lived."
+  ]
+ },
+ "d3c89fb31dea3c6d": {
+  "feed": "YC Hacker News",
+  "title": "AI usage patterns in software teams",
+  "link": "https://linear.app/data",
+  "date": "2026-08-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How teams build – Linear Skip to content → Product Resources Customers Pricing Now Contact Docs Open app Log in Sign up HOW TEAMS BUILD AI usage patterns in software teams 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 2026 Linear Orbit Inc."
+  ]
  }
 }
