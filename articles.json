@@ -55841,5 +55841,60 @@
   "points": [
    "The Chauffeur Problem | The Engines of Our Ingenuity Skip to main content Search Every Word Website Search Cullen College of Engineering The Engines of Our Ingenuity Main menu History Episodes Engines Transcripts Search Episodes by Keyword Airing schedule for HPM Multimedia Home No. 1495: The Chauffeur Problem by John H. Lienhard Audio Today, we learn to drive our own cars -- and manage our own computers."
   ]
+ },
+ "3ca1d6eea3dca9c8": {
+  "feed": "YC Hacker News",
+  "title": "Don't Paste the AI, please",
+  "link": "https://dontpastetheai.com/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Don't paste the AI. Prefer another language? EN â English Don't paste the AI , please. When someone asks you something, they want your answer. Not a wall of unedited ChatGPT output . A short reply from you beats a long one from a model, every time. What's happening Someone asked you a real question. You popped it into a chatbot, copied the answer, and sent it back."
+  ]
+ },
+ "f170e5a1ecbf9aa8": {
+  "feed": "YC Hacker News",
+  "title": "Free v4 front end for your v6 site",
+  "link": "https://v4-frontend.netiter.com/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Free v4 frontend for your v6 site --> Free v4 frontend ISP signup Terms of service Contact --> Free v4 frontend for your v6 site Getting started with three simple steps: Read the terms of service . Create an A record with the value 116.202.1.213 - next to your existing AAAA record. Spread the word. Yes, that is really everything you need to do! Why is Netiter providing this service for free?"
+  ]
+ },
+ "5831236134c18c98": {
+  "feed": "YC Hacker News",
+  "title": "Pixel 11 Pro Fold feels like the end of an era",
+  "link": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google’s Pixel 11 Pro Fold feels like the end of an era | The Verge Skip to main content The homepage The Verge The Verge logo. The Verge The Verge logo. Tech Reviews Science Entertainment AI Policy Notifications Notifications Hamburger Navigation Button The homepage The Verge The Verge logo. Notifications Notifications Hamburger Navigation Button Navigation Drawer The Verge The Verge logo."
+  ]
+ },
+ "572d0612873b15cc": {
+  "feed": "YC Hacker News",
+  "title": "The little-known winstart.bat batch file",
+  "link": "https://devblogs.microsoft.com/oldnewthing/20260811-00/?p=112605",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The little-known winstart.bat batch file - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entity Framework C++ C# F# TypeScript NuGet Servicing .NET Blog in Chinese Microsoft for Developers Agent Framework Develop from the cloud Xcode ISE Developer TypeScript PowerShell Python Java Java Blog in Chinese Go Microsoft Edge Dev Microsoft 365 Developer Microsoft Entra Identity Developer Microsoft Entra PowerShell Visual Studio Visual Studio Code Aspire All things Azure Azure SDK Azure VM Runtime Team Microsoft Azure Azure Cosmos DB Azure DocumentDB Azure Data Studio Azure SQL DevOps DirectX Microsoft Foundry Power Platform OData Unified Data Model (IDEAs) Windows Command Line #ifdef Windows Inside MSIX MIDI and music React Native The Old New Thing Windows Developer Dev Blogs The Old New Thing The little-known winstart.bat batch file August 11th, 2026 4 reactions The little-known winstart.bat batch file Raymond Chen Show more Reader Otul Osan wants to know what the use case for C:\\ WINDOWS\\ WINSTART.BAT was, compared to C:\\ AUTOEXEC.BAT and when exactly during system startup it launches."
+  ]
+ },
+ "de716c233805f669": {
+  "feed": "YC Hacker News",
+  "title": "Xorshift Generators",
+  "link": "https://www.alanzucconi.com/2026/08/15/xorshift-generators/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Xorshift Generators - Alan Zucconi Alan Zucconi About Tutorials 🌈 Shaders 🎮 Unity 🖥️ Programming 🧮 Mathematics 🧠 Machine Learning 🔌 Arduino 🦾 Inverse Kinematics ⛏️ Minecraft Courses 🎮 Game AI Books Games Pikuniku Still Time 0RBITALIS Patreon YouTube Twitter Bluesky Xorshift Generators Aug 15, 2026 — in Maths , Programming This article is a deep dive into xorshift generators, one of the most adopted families of algorithms for the generation of pseudorandom numbers."
+  ]
  }
 }
