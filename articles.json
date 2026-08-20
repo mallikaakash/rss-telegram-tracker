@@ -56149,5 +56149,82 @@
   "points": [
    "How ChatGPT Work helps Stampli move ideas to market | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 20, 2026 How ChatGPT Work helps Stampli move ideas to market With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
   ]
+ },
+ "afc2bf6176d33c81": {
+  "feed": "YC Hacker News",
+  "title": "Linux 7.2 Released",
+  "link": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Linux 7.2 Released | Igalia About Us Technologies Services Industries 24/7 Jobs Contact Feder Toggle menu About Us Technologies Services Industries 24/7 Jobs Contact Feder Linux 7.2 Released \"Second busiest cycle ever, kernel 7.2 brings great advances on both CPU and GPU scheduling\" Aug 19, 2026 Linux 7.2 Released Linux 7.2 was tagged and released this week, on the regular schedule."
+  ]
+ },
+ "65653f52e5ccebf2": {
+  "feed": "YC Hacker News",
+  "title": "Sixtyfour (YC P25) Is Hiring",
+  "link": "https://www.ycombinator.com/companies/sixtyfour/jobs/39SkSrA-software-engineering-intern",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Software Engineering Intern at Sixtyfour | Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface SAFE Find a Co-Founder Events Startup Jobs Log in Apply Sixtyfour Intelligence Infrastructure on People and Entities Software Engineering Intern $6K - $10K / monthly • San Francisco, CA, US Job type Internship Role Engineering, Backend School year Junior and above Visa Will sponsor Skills Amazon Web Services (AWS), Kubernetes, Python, TypeScript, Machine Learning, Docker, Fine-tuning, Evals Connect directly with founders of the best YC-funded startups."
+  ]
+ },
+ "7117b3e6f2a3d9b3": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: We chased a weather balloon across Montana and never found it",
+  "link": "https://radi8.dev/blog/uplink/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "1b300226415fee7a": {
+  "feed": "YC Hacker News",
+  "title": "Xorg-Server 26.0.99.901",
+  "link": "https://lists.x.org/archives/xorg-announce/2026-August/003741.html",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[ANNOUNCE] xorg-server 26.0.99.901 [ANNOUNCE] xorg-server 26.0.99.901 Alan Coopersmith alan.coopersmith at oracle.com Thu Aug 20 02:01:40 UTC 2026 Previous message (by thread): [ANNOUNCE] xwayland 26.0.99.901 Messages sorted by: [ date ] [ thread ] [ subject ] [ author ] As per the schedule, I am pleased to announce xorg-server 26.0.99.901, the first release candidate of the upcoming xorg-server 26.1.0 release (or xorg-server 26.1.0 rc1 for short)."
+  ]
+ },
+ "e3c6e7622accb76d": {
+  "feed": "YC Hacker News",
+  "title": "URL shortener links stored in your ATProto PDS",
+  "link": "https://atpr.to/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "atpr.to — AT Protocol URL Shortener atpr.to AT Protocol URL shortener — links stored in your own PDS. Create, edit & delete short links from your dashboard QR code for every link — export as SVG Links tied to your handle or DID — yours forever Search and filter your links instantly JSON API for programmatic access atpr.to/@atpr.to/self suggestions = [], 200)\" autocomplete=\"off\" aria-autocomplete=\"list\" :placeholder=\"placeholder\" required > 0\" x-cloak> Sign in with AT Protocol identity Recently created or modified waiting for shortened urls..."
+  ]
+ },
+ "c7cdb6722fd86cc4": {
+  "feed": "Hugging Face Blog",
+  "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+  "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Up to 3.2x Faster Inference with LFM2.5-DSpark Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Up to 3.2x Faster Inference with LFM2.5-DSpark Team Article Published August 20, 2026 Upvote 6 xx tugot17 Follow LiquidAI Leonie Monigatti iamleonie Follow LiquidAI Fernando Fernandes Neto fernandofernandes Follow LiquidAI Tarek Dakhran tarek-liquid Follow LiquidAI nathan ranchin nathanrchn Follow LiquidAI How does DSpark work Training and Architecture Quality parity Inference Speed Up on CPU and GPU How to use LFM2.5-DSpark Get Started Citation Today, we release DSpark draft model checkpoints for three models from our LFM2.5 family: LFM2.5-1.2B-Instruct, LFM2.5-2.6B, and LFM2.5-8B-A1B."
+  ]
+ },
+ "cce2579b0508d0c3": {
+  "feed": "Cloudflare Blog",
+  "title": "From all-or-nothing to task-based OAuth consent",
+  "link": "https://blog.cloudflare.com/task-based-oauth-consent/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Since June, developers have created thousands of third-party OAuth apps on Cloudflare , with more than a million authorizations since. OAuth makes delegated access possible. It lets applications act on a user’s behalf without asking them to handle long-lived credentials or hand over a password. That model works well when an application can describe its access needs with a small set of scopes."
+  ]
  }
 }
