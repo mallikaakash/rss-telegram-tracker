@@ -55786,5 +55786,60 @@
   "points": [
    "GitHub - cesarblum/sectorforth: sectorforth is a 16-bit x86 Forth that fits in a 512-byte boot sector. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
   ]
+ },
+ "795bf78ffcc46c04": {
+  "feed": "YC Hacker News",
+  "title": "Windows brings out the Rorschach test in everyone",
+  "link": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Windows brings out the Rorschach test in everyone - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entity Framework C++ C# F# TypeScript NuGet Servicing .NET Blog in Chinese Microsoft for Developers Agent Framework Develop from the cloud Xcode ISE Developer TypeScript PowerShell Python Java Java Blog in Chinese Go Microsoft Edge Dev Microsoft 365 Developer Microsoft Entra Identity Developer Microsoft Entra PowerShell Visual Studio Visual Studio Code Aspire All things Azure Azure SDK Azure VM Runtime Team Microsoft Azure Azure Cosmos DB Azure DocumentDB Azure Data Studio Azure SQL DevOps DirectX Microsoft Foundry Power Platform OData Unified Data Model (IDEAs) Windows Command Line #ifdef Windows Inside MSIX MIDI and music React Native The Old New Thing Windows Developer Dev Blogs The Old New Thing Windows brings out the Rorschach test in everyone August 25th, 2003 2 reactions Windows brings out the Rorschach test in everyone Raymond Chen Show more It seems that no matter what you do, somebody will get offended."
+  ]
+ },
+ "5005c0f1dc57e76a": {
+  "feed": "YC Hacker News",
+  "title": "What's missing to have reproducible builds on PyPI",
+  "link": "https://snarky.ca/whats-missing-to-have-reproducible-builds-on-pypi/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What's missing to have reproducible builds on PyPI Tall, Snarky Canadian Sponsor GitHub Mastodon Bluesky Notes Sign in Subscribe 15 Aug 2026 4 min read Python What's missing to have reproducible builds on PyPI While writing the section of my 2026 Python Packaging Council (PPC) nomination on secure supply chain, I realized that one thing related to having a secure supply chain that we lack is a defined way to perform reproducible builds ."
+  ]
+ },
+ "ab3f8e5d4c952056": {
+  "feed": "YC Hacker News",
+  "title": "fx :Tiny, open, native coding agent.",
+  "link": "https://fx.sh",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "fx - Tiny, open, native coding agent docs cli lib try source install Tiny, open, native coding agent. $ curl -fsSL https://fx.sh/setup.sh | bash copied v0.0.4 (notes) · 6.39mib · status: experimental (i) use at your own risk, we will be making frequent changes This demo runs the full fx CLI as WebAssembly compiled with the Zig toolchain. Networking is delegated to browser fetch , and every SDK aspect is configurable in the docs ."
+  ]
+ },
+ "e0f06e61ebea8c7b": {
+  "feed": "YC Hacker News",
+  "title": "Mathematics in the age of AI",
+  "link": "https://arxiv.org/abs/2608.16753",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2608.16753] Mathematics in the age of AI Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Mathematics > History and Overview arXiv:2608.16753 (math) [Submitted on 17 Aug 2026] Title: Mathematics in the age of AI Authors: Terence Tao View a PDF of the paper titled Mathematics in the age of AI, by Terence Tao View PDF HTML (experimental) Abstract: An essay, based on a public lecture delivered at the 2026 International Congress of Mathematicians, on how the mathematical community might respond to the arrival of artificial intelligence tools that are capable of performing research-level mathematical tasks."
+  ]
+ },
+ "a495d9c4d3411c3a": {
+  "feed": "YC Hacker News",
+  "title": "The Chauffeur Problem",
+  "link": "https://engines.egr.uh.edu/episode/1495",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Chauffeur Problem | The Engines of Our Ingenuity Skip to main content Search Every Word Website Search Cullen College of Engineering The Engines of Our Ingenuity Main menu History Episodes Engines Transcripts Search Episodes by Keyword Airing schedule for HPM Multimedia Home No. 1495: The Chauffeur Problem by John H. Lienhard Audio Today, we learn to drive our own cars -- and manage our own computers."
+  ]
  }
 }
