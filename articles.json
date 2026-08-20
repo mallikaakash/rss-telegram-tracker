@@ -56017,5 +56017,137 @@
   "points": [
    "Earlier this week, researchers outlined an attack that used a secret input provided by Microsoft 365 Copilot for enterprise to cause the AI assistant to exfiltrate a password present in the user’s inbox. Now, a separate team has devised a similar attack against Grok. The new data theft hack employs a deceptively simple trick to force the Elon Musk-owned LLM to steal user chats and other personal information."
   ]
+ },
+ "68486633cf63ce55": {
+  "feed": "YC Hacker News",
+  "title": "I like 'em thick: an apology to my English teachers",
+  "link": "https://www.experimental-history.com/p/i-like-em-thick",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I like 'em thick - by Adam Mastroianni Experimental History Subscribe Sign in I like 'em thick OR: an apology to my English teachers Adam Mastroianni Aug 18, 2026 612 76 134 Share Article voiceover 0:00 -22:42 Audio playback is not supported on your browser. Please upgrade. photo cred: my dad I owe an apology to every English teacher I ever had. I always assumed that so-called “great” literature was a hoax, a punishment inflicted upon adolescents for the crime of being young."
+  ]
+ },
+ "8be22f11b3187606": {
+  "feed": "YC Hacker News",
+  "title": "HTML Can Do That",
+  "link": "https://chrisburnell.com/html-can-do-that/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "HTML Can Do That · Chris Burnell HTML Can Do That HTML has been gobbling up swathes of what used to be JavaScript’s remit. This page lists a bunch of dynamic functionality that we can now achieve with just HTML. Update 2026-08-20 : I originally built this page in one hour during HTML Day 2026 to write and celebrate HTML, but I’ve since made some edits to better express and highlight where the browser implementation of some of this stuff is severely lacking and/or completely fails to meet accessibility needs."
+  ]
+ },
+ "38905ed33ae9a18b": {
+  "feed": "YC Hacker News",
+  "title": "CIA funding helped keep NeXT afloat in the 80s",
+  "link": "https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "15aab39d7c3c2d27": {
+  "feed": "YC Hacker News",
+  "title": "How to compromise your system with a job interview",
+  "link": "https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How to compromise your system with a job interview | code and society | codedge cod e dge slashes archive cv © Benjamin Le Roux How to compromise your system with a job interview Table of contents How it begins A closer look: second stage loader Some precaution for next time What now The current situation on the IT job market is hard. So you are lucky when a recruiter on LinkedIn reaches out to you having a suitable match for a new position based on your prior experience."
+  ]
+ },
+ "cfbdbbcb489eb076": {
+  "feed": "YC Hacker News",
+  "title": "Hacking with Claude on a $27 Smart Watch",
+  "link": "https://www.mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hacking with Claude on a $27 Smart Watch · Mike Kasberg Mike Kasberg Husband. Father. Software engineer. Ubuntu Linux user. Home Blog Résumé X (Twitter) GitHub LinkedIn Email RSS Hacking with Claude on a $27 Smart Watch 19 Aug 2026 The Pine Time is a $27 smart watch that runs open source firmware. I’ve had one sitting in the back of a drawer for a year or two."
+  ]
+ },
+ "e027305b2c64040a": {
+  "feed": "Technica",
+  "title": "Genesis joins the giant electric SUV club with new GV90",
+  "link": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A couple of years ago, Genesis showed us its unique take on the luxury electric SUV with the Neolum concept. The brand's designers know how to draw a handsome shape, particularly using an SUV's proportions, and the clean-lined concept featured a four-seat interior with no B pillar, swiveling front seats, and a thoughtful mix of leather, wool, and even wood."
+  ]
+ },
+ "73f822db44c27c67": {
+  "feed": "Technica",
+  "title": "SpaceX’s orbital data centers would create a new category of e-waste",
+  "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Elon Musk’s talk about maintaining a million-strong AI data center satellite megaconstellation may not exactly be practical or economical , but it might be unique. It’s about the closest we’ve come to confronting a scheme that would export a considerable amount of valuable materials into space. Humans aren’t doing a great job of material sustainability, but normally we’re talking about stuff escaping a recycling pipeline rather than escaping Earth’s gravitational pull ."
+  ]
+ },
+ "237de571b930141d": {
+  "feed": "Technica",
+  "title": "Reverse-lookup service exposed millions of photos of people’s faces",
+  "link": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When someone uploads a photo to the people-search tool ClarityCheck, the website has a clear message: “Your reverse image search is private and secure.” New research , though, shows that the website left more than 9 million image files, including photographs of people’s faces, publicly exposed . And a second misconfiguration publicly exposed people’s email addresses and phone numbers."
+  ]
+ },
+ "41c7919ac73544f3": {
+  "feed": "Microsoft Research",
+  "title": "Broadening access to Skala creates a faster path to predictive DFT",
+  "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a glance Skala 1.1 demonstrates the continuously improving nature of Microsoft Research’s deep-learning DFT approach: trained on 2.5× more data than its predecessor, it delivers substantially higher accuracy across key molecular simulation challenges, including thermochemistry, reaction kinetics, and molecular structure prediction. Skala is now available in CP2K and is being integrated into Psi4 , FHI-aims , ORCA and VASP , bringing next-generation DFT accuracy closer to the communities that rely on these codes every day."
+  ]
+ },
+ "588c8ca353d1e905": {
+  "feed": "Apple ML Research",
+  "title": "Multilingual Knowledge Transfer under Data Constraints via Lexical Interventions",
+  "link": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many downstream tasks involving scientific reasoning, commonsense inference, and world knowledge must be acquired primarily from the high-resource language, making effective knowledge transfer essential."
+  ]
+ },
+ "b9b8450d1493c032": {
+  "feed": "Apple ML Research",
+  "title": "Scaling Laws for Mixture Pretraining Under Data Constraints",
+  "link": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scarce but valuable target data with abundant generic data, which presents a fundamental trade-off: too little target data in the mixture underexposes the model to the target domain, while too much target data repeats the same examples excessively, yielding diminishing returns and eventual overfitting."
+  ]
+ },
+ "cb030de2dd9418a3": {
+  "feed": "OpenAI News",
+  "title": "How ChatGPT Work helps Stampli move ideas to market",
+  "link": "https://openai.com/index/stampli",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How ChatGPT Work helps Stampli move ideas to market | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 20, 2026 How ChatGPT Work helps Stampli move ideas to market With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
+  ]
  }
 }
