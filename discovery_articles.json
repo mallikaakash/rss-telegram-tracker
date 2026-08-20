@@ -2727,5 +2727,33 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "6e28525639c17f55": {
+  "url": "https://hiraditya.github.io/posts/the-kv-cache-has-no-abi/",
+  "title": "The KV Cache Has No ABI | Aditya Kumar",
+  "domain": "hiraditya.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-20",
+  "tier": "hidden_gem",
+  "why": "A sharp, highly technical personal engineering post examining the architectural and ABI obstacles preventing seamless KV-cache transfer in disaggregated LLM inference.",
+  "points": [
+   "Exposes why prefill/decode disaggregation fails at the ABI layer: KV cache shapes and memory layouts vary drastically even within a single engine like vLLM.",
+   "Details specific layout incompatibilities such as paged block tables, packed trailing K/V dimensions (2 * head_size), and competing dimension orderings (NHD vs HND).",
+   "Highlights that internal engine APIs must resort to layout negotiation methods because no unified standard or memory layout exists for KV cache buffers."
+  ]
+ },
+ "1db2043306629c52": {
+  "url": "https://arxiv.org/pdf/2608.11859",
+  "title": "Small-Scale Experiments: Are We There Yet?",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-20",
+  "tier": "solid_find",
+  "why": "An insightful research paper explaining why small-scale scaling laws fail to extrapolate, linking the issue to hyperparameter sensitivity and loss surface dimensionality.",
+  "points": [
+   "Identifies hyperparameter sensitivity as the primary confounding factor causing scaling laws to appear broken at small scales (<4M parameters).",
+   "Reveals that the hyperparameter loss surface effectively becomes lower-dimensional as model scale increases, making large models much easier to tune.",
+   "Demonstrates a methodology to accurately recover large-scale architectural decisions (like pre-normalization placement) purely from correctly tuned small-scale runs."
+  ]
  }
 }
