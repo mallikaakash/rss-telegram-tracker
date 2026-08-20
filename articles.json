@@ -55951,5 +55951,71 @@
   "points": [
    "Pacing model development in an era of cyber-critical capabilities | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 18, 2026 Company Publication Pacing model development in an era of cyber-critical capabilities Loading… Share Strengthening safeguards for more capable models Strengthening safeguards for more capable models Securing our research environments Expanding chain-of-thought monitoring Advancing alignment research What’s next Strengthening safeguards for more capable models Securing our research environments Expanding chain-of-thought monitoring Advancing alignment research What’s next Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: the OpenAI-Hugging Face incident and, separately, preliminary evidence that one of our upcoming models, Astra, may meet the Critical cybersecurity capability threshold under our Preparedness Framework ."
   ]
+ },
+ "e2f1f03b79fa69dc": {
+  "feed": "YC Hacker News",
+  "title": "Malicious Rust Crate Arrayref Runs a Build-Time Payload",
+  "link": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Malicious Rust Crate arrayref Runs a Build-Time Payload - Real-time Open Source Software Supply Chain Security New Blog: Malicious Rust Crate arrayref Runs a Build-Time Payload • 20 Aug 2026 Product Discover & Monitor SCA & SBOM Scan dependencies, generate SBOMs, enforce policy. AI Agent Discovery See every AI tool and SDK in your org. AI Agent Monitoring Audit every action your AI agents take."
+  ]
+ },
+ "d0dc8507a711cd76": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+  "link": "https://simedw.com/2026/08/20/midi-autocomplete/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Training a 125M-parameter Model to Autocomplete Piano - SimEdw's Blog simedw@blog Training a 125M-parameter Model to Autocomplete Piano August 20, 2026 • Simon Edwardsson TL;DR: I trained a 125M-parameter transformer to autocomplete piano performances in real time (~108 notes/sec on an iPhone 15). The biggest improvements came from finding the right MIDI representation, cleaning the training data aggressively, and adding DPO post-training."
+  ]
+ },
+ "3e8fc6cea2b1e87a": {
+  "feed": "YC Hacker News",
+  "title": "DiffusionGemma Technical Report",
+  "link": "https://arxiv.org/abs/2608.00146",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2608.00146] DiffusionGemma Technical Report Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Computation and Language arXiv:2608.00146 (cs) [Submitted on 31 Jul 2026] Title: DiffusionGemma Technical Report Authors: DiffusionGemma Team : Adrien Ali Taïga , James Assiene , Daniele Calandriello , Rahma Chaabouni , João Gante , Tamara von Glehn , Nate Keating , Chris Knutsen , Martin Kukla , Tianlin Liu , Ivan Lobov , Ofir Nabati , João Gabriel Oliveira , Nicolas Perez-Nieves , Nastasia Prutianova , Bobak Shahriari , Jean Tarbouriech , Pavel Tyletski , Çağlar Ünlü , Cindy Wu , Glenn Cameron , Jerome Connor , Sertan Girgin , Maarten Grootendorst , Alon Levkovitch , Eliya Nachmani , Omar Sanseviero , Piotr Stanczyk , Quentin Berthet , Andrew Campbell , Clément Crepy , Valentin De Bortoli , Arnaud Doucet , Romuald Elie , Alexandre Galashov , Klaus Greff , Alexis Jacq , David Ruhe , Yu-Han Wu , Sebastian Flennerhag , Brendan O'Donoghue , George Scrivener , Shantanu Thakoor View a PDF of the paper titled DiffusionGemma Technical Report, by DiffusionGemma Team: Adrien Ali Ta\\\"iga and 42 other authors View PDF HTML (experimental) Abstract: We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text at exceptionally high speed."
+  ]
+ },
+ "8499856e8430e70d": {
+  "feed": "YC Hacker News",
+  "title": "CI jobs artifacts should not be difficult",
+  "link": "https://deadsimpleci.sparrowhub.io/doc/job-artifacts",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DSCI - [D]ead [S]imple CI Home Installation Configuration CICD Pipelines Jobs Tasks Plugins Cookbook Discord Demo GitHub job-artifacts # Job Artifacts DSCI dramatically simplify working with artifacts process inside pipelines. To create artifact file just create it in `~/artifacts/` directory in some task file, for example: ```bash #!/bin/bash echo \"DSCI is cool\" > ~/artifacts.txt ``` The the next job will see it in the same directory: ```python #!/usr/bin/python3 from pathlib import Path file_path = Path.home() / \"artifacts.txt\" # 2."
+  ]
+ },
+ "228717538e51f698": {
+  "feed": "YC Hacker News",
+  "title": "I Spent Twenty Years Becoming Good at the Wrong Game",
+  "link": "https://savvynormie.com/i-spent-twenty-years-becoming-good-at-the-wrong-game/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I Spent Twenty Years Becoming Good at the Wrong Game – savvy normie savvy normie Home Blog I Spent Twenty Years Becoming Good at the Wrong Game 19 Aug, 2026 In February 2024, I defended my second dissertation and earned the highest academic degree Russia awards. By June, I knew I wanted out. Out of this kind of research, out of this academic system and out of this country."
+  ]
+ },
+ "901b75f2181aea7b": {
+  "feed": "Technica",
+  "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+  "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Earlier this week, researchers outlined an attack that used a secret input provided by Microsoft 365 Copilot for enterprise to cause the AI assistant to exfiltrate a password present in the user’s inbox. Now, a separate team has devised a similar attack against Grok. The new data theft hack employs a deceptively simple trick to force the Elon Musk-owned LLM to steal user chats and other personal information."
+  ]
  }
 }
