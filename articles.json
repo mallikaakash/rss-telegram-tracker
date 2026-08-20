@@ -55731,5 +55731,60 @@
   "points": [
    "President Trump is expected to nominate Heidi Overton, a top conservative policy aide, as the next commissioner of the Food and Drug Administration, according to multiple media reports. Overton is currently the deputy director of the White House Domestic Policy Council and has played a key role in shaping a variety of health policies during Trump's second term."
   ]
+ },
+ "be24b4dbece9e764": {
+  "feed": "YC Hacker News",
+  "title": "Why Microsoft Entertainment Pack had a sticker announcing that it had Tetris?",
+  "link": "https://devblogs.microsoft.com/oldnewthing/20260818-00/?p=112621",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why did the Microsoft Entertainment Pack for Windows have a special sticker announcing that it also had Tetris? - The Old New Thing Skip to main content Dev Blogs AI All .NET posts .NET MAUI ASP.NET Core Blazor Entity Framework C++ C# F# TypeScript NuGet Servicing .NET Blog in Chinese Microsoft for Developers Agent Framework Develop from the cloud Xcode ISE Developer TypeScript PowerShell Python Java Java Blog in Chinese Go Microsoft Edge Dev Microsoft 365 Developer Microsoft Entra Identity Developer Microsoft Entra PowerShell Visual Studio Visual Studio Code Aspire All things Azure Azure SDK Azure VM Runtime Team Microsoft Azure Azure Cosmos DB Azure DocumentDB Azure Data Studio Azure SQL DevOps DirectX Microsoft Foundry Power Platform OData Unified Data Model (IDEAs) Windows Command Line #ifdef Windows Inside MSIX MIDI and music React Native The Old New Thing Windows Developer Dev Blogs The Old New Thing Why did the Microsoft Entertainment Pack for Windows have a special sticker announcing that it also had Tetris?"
+  ]
+ },
+ "60bc48c99070c173": {
+  "feed": "YC Hacker News",
+  "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+  "link": "https://openai.com/index/asana/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Asana cleared 5 years of engineering work in 2 weeks with Codex | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 18, 2026 Asana cleared 5 years of engineering work in 2 weeks with Codex Using OpenAI Codex, Asana replaced an outdated testing system in two weeks for about $12K."
+  ]
+ },
+ "d829edc693d41220": {
+  "feed": "YC Hacker News",
+  "title": "Feature Request: Support AGENTS.md",
+  "link": "https://github.com/anthropics/claude-code/issues/6235",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Feature Request: Support AGENTS.md. · Issue #6235 · anthropics/claude-code · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "ebc042d1fb8a4ea0": {
+  "feed": "YC Hacker News",
+  "title": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a",
+  "link": "https://os8088.com/spotlight/",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "os8088 Spotlight -- New Programs and Features Skip to content System About os8088 How it works FAQ File Spotlight Screenshots Applications Real hardware Videos Live demo Download Releases Developers Source on GitHub Videos Live demo Developers Get started Open an agent Set up everything Verify the setup Try 86Box Make a change Test the change Contributing guide Source on GitHub Spotlight One page per addition that a line on the releases page does not carry: what it is, screenshots of it running, and the video if there is one."
+  ]
+ },
+ "7ed57cd8164a4e90": {
+  "feed": "YC Hacker News",
+  "title": "Sectorforth is a 16-bit x86 Forth that fits in a 512-byte boot sector (2020)",
+  "link": "https://github.com/cesarblum/sectorforth",
+  "date": "2026-08-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - cesarblum/sectorforth: sectorforth is a 16-bit x86 Forth that fits in a 512-byte boot sector. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
  }
 }
