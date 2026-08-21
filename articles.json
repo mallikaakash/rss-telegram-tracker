@@ -56380,5 +56380,60 @@
   "points": [
    "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes: Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0."
   ]
+ },
+ "f8d5e817777c09d7": {
+  "feed": "YC Hacker News",
+  "title": "Codex on AWS bedrock bug causing 10x charges",
+  "link": "https://github.com/openai/codex/issues/37674",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Native Bedrock Codex GPT-5.6 Sol lacks explicit cache controls, producing high cache-write spend · Issue #37674 · openai/codex · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "19925e0b660e26ad": {
+  "feed": "YC Hacker News",
+  "title": "I should have loved biology (2020)",
+  "link": "https://jsomers.net/i-should-have-loved-biology/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "jsomers.net | I should have loved biology I should have loved biology By James Somers I should have loved biology but I found it to be a lifeless recitation of names: the Golgi apparatus and the Krebs cycle; mitosis, meiosis; DNA, RNA, mRNA, tRNA. In the textbooks, astonishing facts were presented without astonishment. Someone probably told me that every cell in my body has the same DNA."
+  ]
+ },
+ "95294d4c66298d8a": {
+  "feed": "YC Hacker News",
+  "title": "Make a 6-Tesla-class high-temperature superconducting dipole magnet at 4.2 K",
+  "link": "https://journals.aps.org/prab/abstract/10.1103/4nhs-bkwh",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "92d0acf4aa3ac450": {
+  "feed": "YC Hacker News",
+  "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+  "link": "https://annas-archive.gl/blog/physical-destruction.html",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI companies destroy physical books — let’s scan rare books before it’s too late - Anna’s Blog Anna’s Blog ☾ ☀ 🌐 Language ar - العربية - Arabic ast - asturianu - Asturian az - azərbaycan - Azerbaijani be - беларуская - Belarusian bg - български - Bulgarian bn - বাংলা - Bangla br - Brasil: português - Portuguese (Brazil) ca - català - Catalan ckb - کوردیی ناوەندی - Central Kurdish cs - čeština - Czech da - dansk - Danish de - Deutsch - German el - Ελληνικά - Greek en - English eo - Esperanto es - español - Spanish et - eesti - Estonian fa - فارسی - Persian fi - suomi - Finnish fil - Filipino fr - français - French gl - galego - Galician gu - ગુજરાતી - Gujarati ha - Hausa he - עברית - Hebrew hi - हिन्दी - Hindi hr - hrvatski - Croatian hu - magyar - Hungarian hy - հայերեն - Armenian id - Indonesia - Indonesian it - italiano - Italian ja - 日本語 - Japanese jv - Jawa - Javanese ka - ქართული - Georgian ko - 한국어 - Korean lt - lietuvių - Lithuanian ml - മലയാളം - Malayalam mr - मराठी - Marathi ms - Melayu - Malay ne - नेपाली - Nepali nl - Nederlands - Dutch no - norsk bokmål - Norwegian Bokmål (Norway) or - ଓଡ଼ିଆ - Odia pl - polski - Polish ps - پښتو - Pashto pt - Portugal: português - Portuguese (Portugal) ro - română - Romanian ru - русский - Russian sk - slovenčina - Slovak sl - slovenščina - Slovenian sq - shqip - Albanian sr - српски - Serbian sv - svenska - Swedish ta - தமிழ் - Tamil te - తెలుగు - Telugu th - ไทย - Thai tr - Türkçe - Turkish tw - 中文 (繁體) - Chinese (Traditional) uk - українська - Ukrainian ur - اردو - Urdu vec - veneto - Venetian vi - Tiếng Việt - Vietnamese yue - 粵語 - Cantonese zh - 中文 - Chinese Updates about Anna’s Archive , the largest truly open library in human history."
+  ]
+ },
+ "97d1483d355228d7": {
+  "feed": "YC Hacker News",
+  "title": "Why aren't smart people happier? (2022)",
+  "link": "https://www.experimental-history.com/p/why-arent-smart-people-happier",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why aren't smart people happier? - by Adam Mastroianni Experimental History Subscribe Sign in Why aren't smart people happier? A new way to think about brainpower. Adam Mastroianni Aug 09, 2022 788 177 65 Share Photo cred: my dad Here’s a definition of intelligence that lots of psychologists can get behind : Intelligence is a very general mental capability that, among other things, involves the ability to reason, plan, solve problems, think abstractly, comprehend complex ideas, learn quickly and learn from experience."
+  ]
  }
 }
