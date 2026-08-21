@@ -56603,5 +56603,71 @@
   "points": [
    "GitHub - zachahn/vomit: Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
   ]
+ },
+ "e0985e6aa9f43c81": {
+  "feed": "YC Hacker News",
+  "title": "DeepSeek-v4-flash-vision-exp",
+  "link": "https://api-docs.deepseek.com/guides/vision/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Vision | DeepSeek API Docs Skip to main content DeepSeek API Docs English English ä¸­æï¼ä¸­å½ï¼ DeepSeek Platform Quick Start Your First API Call Models & Pricing Token & Token Usage Rate Limit & Isolation Error Codes Agent Integrations API Guides Vision Thinking Mode Multi-round Conversation Chat Prefix Completion (Beta) FIM Completion (Beta) JSON Output Tool Calls Files API Context Caching Using the Responses API Using the Anthropic API API Reference News Other Resources FAQ Change Log API Guides Vision On this page Vision The deepseek-v4-flash-vision-exp model accepts images alongside text, so you can ask the model to describe pictures, read text from screenshots, analyze charts, and more."
+  ]
+ },
+ "ad7b51a78de07a8b": {
+  "feed": "YC Hacker News",
+  "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+  "link": "https://annas-archive.pk/blog/physical-destruction.html",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI companies destroy physical books — let’s scan rare books before it’s too late - Anna’s Blog Anna’s Blog ☾ ☀ 🌐 Language ar - العربية - Arabic ast - asturianu - Asturian az - azərbaycan - Azerbaijani be - беларуская - Belarusian bg - български - Bulgarian bn - বাংলা - Bangla br - Brasil: português - Portuguese (Brazil) ca - català - Catalan ckb - کوردیی ناوەندی - Central Kurdish cs - čeština - Czech da - dansk - Danish de - Deutsch - German el - Ελληνικά - Greek en - English eo - Esperanto es - español - Spanish et - eesti - Estonian fa - فارسی - Persian fi - suomi - Finnish fil - Filipino fr - français - French gl - galego - Galician gu - ગુજરાતી - Gujarati ha - Hausa he - עברית - Hebrew hi - हिन्दी - Hindi hr - hrvatski - Croatian hu - magyar - Hungarian hy - հայերեն - Armenian id - Indonesia - Indonesian it - italiano - Italian ja - 日本語 - Japanese jv - Jawa - Javanese ka - ქართული - Georgian ko - 한국어 - Korean lt - lietuvių - Lithuanian ml - മലയാളം - Malayalam mr - मराठी - Marathi ms - Melayu - Malay ne - नेपाली - Nepali nl - Nederlands - Dutch no - norsk bokmål - Norwegian Bokmål (Norway) or - ଓଡ଼ିଆ - Odia pl - polski - Polish ps - پښتو - Pashto pt - Portugal: português - Portuguese (Portugal) ro - română - Romanian ru - русский - Russian sk - slovenčina - Slovak sl - slovenščina - Slovenian sq - shqip - Albanian sr - српски - Serbian sv - svenska - Swedish ta - தமிழ் - Tamil te - తెలుగు - Telugu th - ไทย - Thai tr - Türkçe - Turkish tw - 中文 (繁體) - Chinese (Traditional) uk - українська - Ukrainian ur - اردو - Urdu vec - veneto - Venetian vi - Tiếng Việt - Vietnamese yue - 粵語 - Cantonese zh - 中文 - Chinese Updates about Anna’s Archive , the largest truly open library in human history."
+  ]
+ },
+ "7f05bfbbca6504c0": {
+  "feed": "YC Hacker News",
+  "title": "TigerBeetle Core System Architecture: Deconstructing Performance Engineering",
+  "link": "https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "TigerBeetle Core System Architecture: Deconstructing Performanceâ¦ Shuvo Technology Leadership, AI & Software Home Blog Write Resume Theme Theme ☰ Menu ← Back to Blog TigerBeetle Core System Architecture: Deconstructing Performance Engineering and the Power of Custom Interfaces An in-depth technical analysis of TigerBeetle's core architecture, exploring how static memory allocation, zero-copy io_uring interfaces, and Zig-based performance engineering eliminate runtime overhead and deliver predictable, sub-millisecond tail latencies."
+  ]
+ },
+ "9ae60a444cd0cd02": {
+  "feed": "YC Hacker News",
+  "title": "The Mystery of Dark Oxygen",
+  "link": "https://www.newyorker.com/science/elements/the-mystery-of-dark-oxygen",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Mystery of Dark Oxygen | The New Yorker Skip to main content Newsletter Search Search The Latest News Books & Culture Fiction & Poetry Humor & Cartoons Magazine Puzzles & Games Video Podcasts Goings On Shop Festival Open Navigation Menu Menu Elements The Mystery of Dark Oxygen Scientists once thought that life-sustaining oxygen existed only near Earth’s surface."
+  ]
+ },
+ "1900a54ebcdfe6f1": {
+  "feed": "YC Hacker News",
+  "title": "Seed: Minimal, self-modifying agent harness",
+  "link": "https://github.com/vivekhaldar/seed",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - vivekhaldar/seed: A seed agent: the smallest starting point from which an agent can grow · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "06daba08af15aa42": {
+  "feed": "Google DeepMind",
+  "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+  "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Exploring new frontiers of AI and games research — Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Bu"
+  ]
  }
 }
