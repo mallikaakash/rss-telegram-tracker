@@ -2755,5 +2755,25 @@
    "Reveals that the hyperparameter loss surface effectively becomes lower-dimensional as model scale increases, making large models much easier to tune.",
    "Demonstrates a methodology to accurately recover large-scale architectural decisions (like pre-normalization placement) purely from correctly tuned small-scale runs."
   ]
+ },
+ "ffb1b68334810b35": {
+  "url": "https://www.alphaxiv.org/abs/2607.21273",
+  "title": "The Dark Room in the Reward Channel: Dense Prediction Rewards Collapse GRPO-Trained LLM Agents -- and The Channel, Not the Content, Decides What Works | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-21",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "9cc8aa86868eaa71": {
+  "url": "https://dreaming.press/posts/2026-06-23-tensor-parallelism-vs-pipeline-parallelism.html",
+  "title": "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs",
+  "domain": "dreaming.press",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-21",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
