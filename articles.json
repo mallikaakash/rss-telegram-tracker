@@ -56548,5 +56548,60 @@
   "points": [
    "Open-source framework allowing end users to build embedded automation agents and UI views inside SaaS products."
   ]
+ },
+ "373e52152d044ee4": {
+  "feed": "YC Hacker News",
+  "title": "Small, native web tricks worth remembering",
+  "link": "https://htmlcat.net/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Home 🍹 HTMLcat /)__/) (•ㅅ •) (∪ ∪ )づ html cat About Contribute Welcome to HTMLcat: small, native web tricks worth remembering. HTML, CSS, and JavaScript can do more than we remember. Each post-it pairs one useful platform feature with a small example and the caveat that matters. Some notes cover limited or experimental features. Check the support label, keep a fallback, and test with real browsers and assistive technology."
+  ]
+ },
+ "ab4a029ede4c5e34": {
+  "feed": "YC Hacker News",
+  "title": "The case against a C alternative (2022)",
+  "link": "https://c3.handmade.network/blog/p/8486-the_case_against_a_c_alternative",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The case against a C alternative | Handmade Network Projects Jams Discord News Resources Unwind Fishbowls Forums About Manifesto Our values About Foundation Foundation Membership Details Log In C3 / Blog / The case against a C alternative The case against a C alternative Christoffer Lernö — August 7, 2022 Like several others I am writing an alternative to the C language (if you read this blog before then this shouldn't be news!)."
+  ]
+ },
+ "a1071bc2676c0959": {
+  "feed": "YC Hacker News",
+  "title": "Flat Chair by Sara Paculdo",
+  "link": "https://www.toxel.com/tech/2026/08/07/flat-chair-by-sara-paculdo/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Flat Chair by Sara Paculdo Toxel.com Design Inspiration Tech Contact Us Archive Flat Chair by Sara Paculdo August 7th, 2026 | Tech | Innovative chair with flat-pack design created around the principles of efficient manufacturing, compact transportation, and structural simplicity. Made from durable fiberglass panels, the chair is delivered as flat-packed product and assembled by the user in a matter of minutes."
+  ]
+ },
+ "04c75a9b8c2398ae": {
+  "feed": "YC Hacker News",
+  "title": "Micron announces $10B research hub in Boise",
+  "link": "https://investors.micron.com/news/press-release/2026/Micron-Unveils-Micron-Research-Labs-a-U-S--Based-Long-Horizon-Innovation-Hub-to-Shape-the-Future-of-Memory-and-AI/default.aspx",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Micron Technology, Inc. - Micron Unveils Micron Research Labs, a U.S.-Based Long-Horizon Innovation Hub to Shape the Future of Memory and AI Skip to main content AI Design Tools Blog Investors Careers language clear menu clear Products Market & Industries Partners Sales & Support About Investors Search Micron Technology search search Suggested Search See all Recent Search search Products Memory HBM DRAM components DRAM modules LPDDR components LPDDR modules CXL GDDR Data center Storage Data center SSDs Client SSD Automotive and industrial SSD All SSDs Managed NAND NAND flash NOR flash Memory cards Multichip packages e.MMC-based MCP uMCP NAND-based MCP Technology leadership 1γ DRAM technology G9 NAND technology Design tools FBGA and part decoder DRAM power calculators NAND power calculator Simulation models Chipset compatibility guide Serial presence-detect tool Cross-reference tools UFSparm SSD firmware Software and drivers Storage Executive software Obsolete part catalogs Search for, filter and download Micron data sheets SEARCH DATA SHEETS Market & Industries AI AI data center Edge AI Automotive Functional safety for automotive Client PC Consumer Data center and servers Cloud solutions Data center storage insights High-performance computing Customer and partner storage success Industrial IoT Mobile Network infrastructure Learn about AI Partners Partner networks Become a partner opens in a new tab Channel partners opens in a new tab Chipset partners Design IP partners Industrial quotient partners Partner login opens in a new tab Sales network Storage ecosystem partners Suppliers Verification IP partners Technology enablement programs CXL TEP resources DDR5 TEP resources AVL status by platform AIC ASRock ASUS Giga Computing Mitac Learn about and enroll in Micron's Technology Enablement Program (TEP) Visit TEP Sales & Support Customer Support Customer trust center FAQs Obsolete part catalogs Quality Technical support contact Sales Authorized distributors Order samples opens in a new tab Sales network Sales support contact Surplus Downloads and tech docs Compatibility guides Data sheets Firmware Software and drivers Technical notes White papers All downloads and tech docs Contact Micron's sales support Sales support About Company Company timeline Customer trust center Educator Hub Global affairs and public policy Leadership Micron brand Opportunity for all Product security center Quality Security Suppliers Ventures Sustainability Compliance and ethics Corporate governance Global culture and workforce Micron Gives Responsible sourcing Sustainability report Sustainability resources Careers Locations Search jobs opens in a new tab Featured opportunities Press Image gallery Media relations and resources Newsroom Trademark and usage guidelines U.S."
+  ]
+ },
+ "0ac0123bfb33b14e": {
+  "feed": "YC Hacker News",
+  "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+  "link": "https://github.com/zachahn/vomit",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - zachahn/vomit: Clean up Claude 5's token vomit with a separate LLM. Save your tokens, Claude 5 is hopeless · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
  }
 }
