@@ -56435,5 +56435,60 @@
   "points": [
    "Why aren't smart people happier? - by Adam Mastroianni Experimental History Subscribe Sign in Why aren't smart people happier? A new way to think about brainpower. Adam Mastroianni Aug 09, 2022 788 177 65 Share Photo cred: my dad Here’s a definition of intelligence that lots of psychologists can get behind : Intelligence is a very general mental capability that, among other things, involves the ability to reason, plan, solve problems, think abstractly, comprehend complex ideas, learn quickly and learn from experience."
   ]
+ },
+ "c01a0a863f386499": {
+  "feed": "YC Hacker News",
+  "title": "There's no such thing as a small software team anymore",
+  "link": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There's no such thing as a small software team anymore | Jake Gold Jake Gold Building AI infra @ Clor in SF Bay Area. Helped launch and scale Vibecode and Bluesky. Prev: Nuro, Docker, Google, and founder. Email LinkedIn Bluesky There's no such thing as a small software team anymore Aug 19, 2026 Uber infamously runs thousands of microservices . They ended up with so many services because hundreds of engineers wanted to deploy on their own schedule, with clear ownership of their code, instead of waiting in one giant merge queue."
+  ]
+ },
+ "2f7b33868b153a76": {
+  "feed": "YC Hacker News",
+  "title": "Ox Alpha",
+  "link": "https://openrouter.ai/stealth/ox-alpha",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ox Alpha - API Pricing & Providers | OpenRouter Skip to content Search ⌘ K Home Models Benchmarks Chat Chat Not available in this workspace Rankings Apps Enterprise Docs © 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Collections Providers Pricing Enterprise Labs Company About Blog Careers Hiring Privacy Terms of Service Support Works With OR Data Developer Documentation API Reference Developer Platform Status Connect Discord GitHub LinkedIn X YouTube This stealth model is developed and operated by a third-party model provider."
+  ]
+ },
+ "e9353cf8b6f584d1": {
+  "feed": "YC Hacker News",
+  "title": "Captain Zilog",
+  "link": "https://www.zilog.com/captain_zilog/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "4794c079ade74a00": {
+  "feed": "YC Hacker News",
+  "title": "Japan tried to build an operating system for the world, the US intervened",
+  "link": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Japan tried to build an operating system for the entire world, then the US government intervened Menu Sign in Sign in now Close News PC Hardware Submenu CPU GPU Storage Monitors Keyboards & Mice Software Submenu AI tools Productivity Self-Hosting Home Lab Other Software Operating Systems Submenu Windows Linux macOS Devices Submenu Single-Board Computers Laptops Gaming Handheld Prebuilt PC Home Submenu Networking Smart Home Entertainment Submenu Entertainment Gaming Sign in Newsletter Array Copyright © 2026 www.xda-developers.com --> Menu Like Follow Followed 2 2 More Action Sign in Sign in now Claude ESP32 AI Tools Entertainment Forums Close Japan tried to build an operating system for the entire world, then the US government intervened By Adam Conway Published Aug 20, 2026, 9:00 AM EDT I’m Adam Conway, an Irish technology fanatic with a BSc in Computer Science and I'm XDA’s Lead Technical Editor."
+  ]
+ },
+ "19e393a5e185aef9": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Huzzah – a novel approach to coding with AI",
+  "link": "https://www.danielvaughn.dev/posts/huzzah/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Huzzah ← Home August 2026 Huzzah A new experimental way to code with AI If you’re a software engineer like me, the first few months of 2026 were incredible. Coding agents suddenly became good enough that we no longer needed to manually write code. But if you’re like me, then sometime later you hit a wall. The honeymoon period ended, and the novelty wore off."
+  ]
  }
 }
