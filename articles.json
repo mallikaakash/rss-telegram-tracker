@@ -56490,5 +56490,63 @@
   "points": [
    "Huzzah ← Home August 2026 Huzzah A new experimental way to code with AI If you’re a software engineer like me, the first few months of 2026 were incredible. Coding agents suddenly became good enough that we no longer needed to manually write code. But if you’re like me, then sometime later you hit a wall. The honeymoon period ended, and the novelty wore off."
   ]
+ },
+ "b62e052e46d945a1": {
+  "feed": "YC Hacker News",
+  "title": "The Lost Treasure of Sid Meier's Pirates",
+  "link": "https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/",
+  "date": "2026-08-21",
+  "tier": "low_priority",
+  "why": "A retrospective on 1980s game design mechanics with no engineering or ML relevance.",
+  "points": [
+   "Explores first-principles game design in Sid Meier's 1987 classic Pirates!."
+  ]
+ },
+ "d66551714677555f": {
+  "feed": "YC Hacker News",
+  "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
+  "link": "https://encore.dev/blog/firecracker-apple-silicon",
+  "date": "2026-08-21",
+  "tier": "must_read",
+  "why": "High-quality systems engineering deep-dive into microVM internals, hypervisor abstractions, and cross-platform virtualization toolchains.",
+  "points": [
+   "Built 'crackling', a unified microVM API driving Linux KVM/Firecracker in production and Apple's Virtualization.framework locally.",
+   "Engineered a custom conversion toolchain to turn Docker image layers into bootable ext4 block devices without native Linux tooling.",
+   "Eliminated reliance on remote shared development servers while preserving sub-second microVM startup guarantees."
+  ]
+ },
+ "9b37d3d1e185fb5b": {
+  "feed": "YC Hacker News",
+  "title": "Version Control for Everything",
+  "link": "https://tyoverby.com/posts/version-control-for-everything-else/",
+  "date": "2026-08-21",
+  "tier": "worth_a_skim",
+  "why": "Thought-provoking architectural essay on extending git-like versioning primitives (branching, staging, rollback) to multi-service agentic workflows.",
+  "points": [
+   "Argues that lack of atomic rollbacks and staging environments is the bottleneck blocking LLM agents in non-code domains.",
+   "Analyzes why proxy-layer review systems fail due to downstream merge conflicts, lack of undo APIs, and lack of distributed atomicity."
+  ]
+ },
+ "0e9cf66b5dc0e4dc": {
+  "feed": "YC Hacker News",
+  "title": "The Religious Experience of Philip K. Dick by R. Crumb (1986)",
+  "link": "https://philipdick.com/resources/miscellaneous/the-religious-experience-of-philip-k-dick-by-r-crumb-from-weirdo-17/",
+  "date": "2026-08-21",
+  "tier": "low_priority",
+  "why": "Art and sci-fi comic archive with zero technical or ML relevance.",
+  "points": [
+   "Web archive of R. Crumb's 1986 comic depicting Philip K. Dick's mystical experiences."
+  ]
+ },
+ "5dd840a03a214ac6": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Vendo (YC S26) – Let users build features on top of your product",
+  "link": "https://github.com/runvendo/vendo",
+  "date": "2026-08-21",
+  "tier": "low_priority",
+  "why": "Standard YC startup product launch announcement.",
+  "points": [
+   "Open-source framework allowing end users to build embedded automation agents and UI views inside SaaS products."
+  ]
  }
 }
