@@ -57357,5 +57357,71 @@
   "points": [
    "Everyone Says Assembly Is Untyped—Everyone Is Wrong - gingerBill --> ginger Bill Home Articles Odin Subscribe Everyone Says Assembly Is Untyped—Everyone Is Wrong Series: Syntax and how it Matters 2026-08-20 TL;DR: I believe Odin’s inline assembly is currently the best out of any language. The most important aspects are of this article listed below. I am not aware of any other assembly (GCC/Clang/Rust/Go…) that would combine all of these aspects: Inline assembly is organized into asm “templates”, similar to and callable as procedures."
   ]
+ },
+ "c4b6f54aa6e73b2f": {
+  "feed": "YC Hacker News",
+  "title": "Canada suspends trade negotiations with USA and match tariffs dollar for dollar",
+  "link": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Statement by Prime Minister Carney on Canada-U.S. trade negotiations | Prime Minister of Canada Skip to main content Main Container Prime Minister of Canada Navigation PM menu News All News News Releases Statements Readouts Speeches Media Advisories About The Ministry Cabinet Secretaries of State Parliamentary Secretaries Committees Mandate Letter Open Government Connect Media Photos Videos Toggle navigation Menu Prime Minister of Canada fr Main navigation-Mobile News All News News Releases Statements Readouts Speeches Media Advisories About The Ministry Cabinet Secretaries of State Parliamentary Secretaries Committees Mandate Letter Open Government Connect Media Photos Videos Privacy Statement Ownership & Usage Social Media Use Help fr Statement by Prime Minister Carney on Canada-U.S."
+  ]
+ },
+ "9de8e8e603c4aa40": {
+  "feed": "YC Hacker News",
+  "title": "Z80–The 1970s Microprocessor Still Alive",
+  "link": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "93b991f0f95efab1": {
+  "feed": "YC Hacker News",
+  "title": "Munder Difflin – Agent harness to run an office of your clones",
+  "link": "https://munderdiffl.in/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Munder Difflin — Agent harness to run an office of your clones MUNDER DIFFLIN How it works Security Pricing Blog Discord ★ Star ⤓ Download GitHub Trending #1 Repository of the Day Agent harness to run an office of your clones Free, open source and performant multi-agent harness, works with your existing subscriptions (uses hourly limits). ⤓ Download Free See how it works ↓ Munder Difflin uses CLI agents running on your computer to do anything you can do Supports 12 CLI agent providers off the shelf, more coming soon Claude Code Codex Grok Kimi Code Antigravity Qwen Gemini CLI OpenCode Crush Pi Copilot Cursor Monitor agents in 'the office' themed simulation or use the cleaner fullscreen mode."
+  ]
+ },
+ "cf4a21abca75c1b5": {
+  "feed": "YC Hacker News",
+  "title": "Galactic Compass 2: now with new augmented reality mode",
+  "link": "https://interconnected.org/home/2026/08/21/galactic",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Galactic Compass 2: now with new augmented reality mode (Interconnected) Interconnected A blog by Matt Webb About Archive Work Subscribe for $0 Email RSS feed (What is a feed?) Unoffice Hours Book a call (What is this?) a.k.a. genmon Bluesky X/Twitter Insta Mastodon LinkedIn Building the AI clock Check out Poem/1 Galactic Compass 2: now with new augmented reality mode 11.44, Friday 21 Aug 2026 Link to this post I updated my Galactic Compass app for iPhone with augmented reality mode."
+  ]
+ },
+ "3ec34d9587381310": {
+  "feed": "YC Hacker News",
+  "title": "The coolest anti-surveillance tools at Defcon [video]",
+  "link": "https://www.youtube.com/watch?v=-2uAsJ5EPAw",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "df5399c7f9d2448e": {
+  "feed": "Sebastian Raschka (Ahead of AI)",
+  "title": "How Claude Watermarks AI-Generated Text",
+  "link": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I recently posted a Substack note about Claude’s new watermarking process and implementation. Since it’s such a popular topic and sparked such a lively discussion, I thought it might be interesting to go into a bit more detail when explaining how it works. Instead of the usual text article, I recorded a little lecture on the topic (to change it up a bit from my usual articles)."
+  ]
  }
 }
