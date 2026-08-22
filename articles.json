@@ -57501,5 +57501,62 @@
   "points": [
    "Covers proposed rollbacks of the 2001 Roadless Rule affecting US wilderness areas and the Tongass National Forest."
   ]
+ },
+ "2dad877b6cc6205e": {
+  "feed": "YC Hacker News",
+  "title": "The New MCP Roadmap",
+  "link": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "Outlines key architectural updates to MCP for agentic systems, including async server-initiated events and identity federation.",
+  "points": [
+   "Introduces agentic messaging primitives like server-initiated channels/webhooks and formalized Task extensions (SEP-2663).",
+   "Unifies on Streamable HTTP transport across both remote cloud hosting and local stdio deployments.",
+   "Standardizes agent-to-agent identity using DPoP, Workload Identity Federation, and enterprise token exchange."
+  ]
+ },
+ "0ff3f677cedd2e6b": {
+  "feed": "YC Hacker News",
+  "title": "A Friendly Introduction to Racket",
+  "link": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Introductory programming language history and tutorial on Racket, irrelevant to production backend or ML workflows.",
+  "points": [
+   "Provides a beginner-level overview of Lisp history, syntax, and Racket's language-oriented programming capabilities."
+  ]
+ },
+ "32dc5360b273728e": {
+  "feed": "YC Hacker News",
+  "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+  "link": "https://quantumi.sh/public/labs.html",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Lighthearted trivia investigating AI startup naming conventions with no technical or strategic substance.",
+  "points": [
+   "Catalogs domain names and startups using the '[number]labs' branding trend across the internet."
+  ]
+ },
+ "a0a832e94110012e": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Rotation via Double Reflection",
+  "link": "https://static.laszlokorte.de/rotor-reflect/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Content-free link submission regarding basic geometric rotation, off-topic for ML and systems engineering.",
+  "points": [
+   "Presents an interactive Show HN demonstration on performing 2D/3D rotations via double reflections."
+  ]
+ },
+ "f5886f0c0a0500f9": {
+  "feed": "YC Hacker News",
+  "title": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
+  "link": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Mainstream labor and cultural reporting on RLHF data annotation rather than actionable ML training methodology.",
+  "points": [
+   "Reports on Hollywood creatives taking temp RLHF annotation contracts to train creative writing AI models."
+  ]
  }
 }
