@@ -57423,5 +57423,83 @@
   "points": [
    "I recently posted a Substack note about Claude’s new watermarking process and implementation. Since it’s such a popular topic and sparked such a lively discussion, I thought it might be interesting to go into a bit more detail when explaining how it works. Instead of the usual text article, I recorded a little lecture on the topic (to change it up a bit from my usual articles)."
   ]
+ },
+ "b138d19e03e709ac": {
+  "feed": "YC Hacker News",
+  "title": "A Kantian Critique of \"Sorry\" by Justin Bieber",
+  "link": "https://decodingvibes.com/blog/a-kantian-critique-of-sorry-by-justin-bieber/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Humor/philosophy critique of pop music completely unrelated to ML or backend engineering.",
+  "points": [
+   "Satirical or philosophical essay with no technical relevance."
+  ]
+ },
+ "6ad84036a6d6bf09": {
+  "feed": "YC Hacker News",
+  "title": "Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week",
+  "link": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Legal reporting on Meta's child safety lawsuits; not relevant to ML infra, systems, or engineering architecture.",
+  "points": [
+   "Covers multi-state trial alleging Meta designed addictive platforms and violated children's privacy laws."
+  ]
+ },
+ "472c0a0d8afaf6be": {
+  "feed": "YC Hacker News",
+  "title": "How Thailand Resisted Colonization",
+  "link": "https://worksinprogress.co/issue/how-thailand-resisted-colonization/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Historical essay on Thai diplomacy and colonization; completely off-topic.",
+  "points": [
+   "Discusses King Rama IV (Mongkut) and the Ramkhamhaeng Stele in resisting European colonization."
+  ]
+ },
+ "7ab8729215cae95d": {
+  "feed": "YC Hacker News",
+  "title": "A formal degree and algorithmic problem-solving is the answer. Always has been",
+  "link": "https://zaksa.zip/blog/formal-education-is-the-answer/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "Opinion piece arguing for CS fundamentals and algorithmic problem-solving in the AI coding era, touching on career relevance for senior engineers.",
+  "points": [
+   "Argues that using AI code generators without rigorous CS fundamentals and algorithmic problem-solving will lead to fragile, unmaintainable software.",
+   "Critiques framework-only developers and poor engineering practices like bike-shedding over linting while neglecting core testing and architecture."
+  ]
+ },
+ "c5fc940f7ada6a34": {
+  "feed": "YC Hacker News",
+  "title": "SalesPatriot (YC W25) Is Hiring Forward Deployed Engineers",
+  "link": "https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Standard job posting for a YC forward-deployed engineer role with no technical depth or architecture insights.",
+  "points": [
+   "Hiring post for SalesPatriot offering $150k-$220k plus equity for full-stack on-site integration work."
+  ]
+ },
+ "cd8d6f001cfcab0e": {
+  "feed": "Technica",
+  "title": "Putting mice into hibernation causes a major loss of synapses",
+  "link": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Neuroscience biology research on mouse hibernation and synapses, unrelated to artificial neural networks or ML systems.",
+  "points": [
+   "Study reveals mice retain memories despite losing over half their synapses during induced hibernation via Q-neuron activation."
+  ]
+ },
+ "e2b84ab9f51ae99b": {
+  "feed": "Technica",
+  "title": "Dismantling the Roadless Rule threatens to disrupt wildlife and water in US",
+  "link": "https://arstechnica.com/science/2026/08/dismantling-the-roadless-rule-threatens-to-disrupt-wildlife-and-water-in-us/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Environmental policy article on US forestry roadless rules with zero relevance to ML/backend engineering.",
+  "points": [
+   "Covers proposed rollbacks of the 2001 Roadless Rule affecting US wilderness areas and the Tongass National Forest."
+  ]
  }
 }
