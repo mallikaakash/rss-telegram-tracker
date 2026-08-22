@@ -57076,5 +57076,95 @@
   "points": [
    "We’re constantly building for the different goals of our customers. Some customers want to optimize for discovery, while others want to protect their content with the strictest security policy. Among these differing policies, there are multiple ways to mitigate bot traffic. Some mechanisms simply state your preference, assuming best intent from crawlers, and other approaches actually lock down content by outright blocking with a Bot Management solution."
   ]
+ },
+ "b7f75c9859c7d042": {
+  "feed": "YC Hacker News",
+  "title": "Scientists release biggest 2D map of the universe",
+  "link": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Astronomy and general science dataset release with no ML infrastructure or modeling relevance.",
+  "points": [
+   "DESI Legacy Imaging Surveys released a 5.6-trillion-pixel 2D cosmic map covering 75% of the sky."
+  ]
+ },
+ "9b7a151adba34331": {
+  "feed": "YC Hacker News",
+  "title": "Felony charges for citizen deleting phone data at US Border",
+  "link": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "General legal and border policy news unrelated to backend engineering or machine learning.",
+  "points": [
+   "Covers felony charges regarding mobile device data deletion at US border control."
+  ]
+ },
+ "5c2957c7d0e209db": {
+  "feed": "YC Hacker News",
+  "title": "OTel isn't going well (and I made a spreadsheet about it)",
+  "link": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+  "date": "2026-08-22",
+  "tier": "must_read",
+  "why": "A critical engineering analysis of OpenTelemetry's governance, maintainer bottlenecks, and architectural trade-offs essential for backend/infra design.",
+  "points": [
+   "OTel's binary stability gate creates perverse incentives to stall features because stable APIs cannot be broken.",
+   "A small core maintainer bench combined with massive language scope creates huge disparities across language ecosystems.",
+   "Auto-instrumentation works well, but the steep cliff to manual instrumentation makes adoption difficult for lean engineering teams."
+  ]
+ },
+ "9c1b8d61aa3e9c7c": {
+  "feed": "YC Hacker News",
+  "title": "Ozone: The fault is not in our trees, but in ourselves",
+  "link": "https://www.science.org/content/blog-post/fault-not-our-trees-ourselves",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Environmental science topic with no engineering or ML content.",
+  "points": [
+   "Discussion on environmental ozone dynamics."
+  ]
+ },
+ "81ababf2be7401a2": {
+  "feed": "YC Hacker News",
+  "title": "Early Humans Likely Ate Carbs and Sugary Foods",
+  "link": "https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Anthropology and dietary history unrelated to engineering priorities.",
+  "points": [
+   "Examines the evolutionary role of carbohydrates and glucose in human brain development."
+  ]
+ },
+ "195fe7a817bcd77d": {
+  "feed": "Technica",
+  "title": "Chinese regulators tell Tesla to fix nearly 3 million cars",
+  "link": "https://arstechnica.com/cars/2026/08/chinese-regulators-tell-tesla-to-fix-nearly-3-million-cars/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Automotive regulatory recall news with no backend or ML engineering takeaways.",
+  "points": [
+   "Chinese regulators mandated physical warning labels and crash window-lowering software on 2.98M Tesla vehicles."
+  ]
+ },
+ "1eebdaa841219796": {
+  "feed": "Technica",
+  "title": "Fighter jets help destroy Russian drone boat near European offshore gas platform",
+  "link": "https://arstechnica.com/gadgets/2026/08/explosive-russian-drone-boat-destroyed-near-european-offshore-gas-site/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Geopolitical and military defense news unrelated to software infrastructure.",
+  "points": [
+   "Romanian fighter jets neutralized an explosive naval drone near Black Sea gas infrastructure."
+  ]
+ },
+ "115d48b83298a75c": {
+  "feed": "Technica",
+  "title": "Personalized pricing is “abhorrent,” but FTC limits may increase costs, critics say",
+  "link": "https://arstechnica.com/tech-policy/2026/08/critics-ftc-limits-on-personalized-pricing-may-increase-costs-kill-discounts/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Consumer policy and regulatory debate with no technical ML or systems implementation detail.",
+  "points": [
+   "FTC proposed policies around personalized pricing transparency and potential market distortions."
+  ]
  }
 }
