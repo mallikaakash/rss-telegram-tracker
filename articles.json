@@ -57558,5 +57558,82 @@
   "points": [
    "Reports on Hollywood creatives taking temp RLHF annotation contracts to train creative writing AI models."
   ]
+ },
+ "304760d427667b9e": {
+  "feed": "YC Hacker News",
+  "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+  "link": "https://twitter.com/argofowl/status/2091150597374537729",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "🥔🥔🥔 on X: \"update: it's server-side, not the app anthropic enrols fable 5 sessions on claude code 2.1.236+ into an experiment that shrinks the effort scale, older versions and opus 5 are left alone probably an a/b test, so not everyone will see it if \"high\" feels like \"low\" for you,\" / X Post Log in Sign up Post 🥔🥔🥔 on X: \"update: it's server-side, not the app anthropic enrols fable 5 sessions on claude code 2.1.236+ into an experiment that shrinks the effort scale, older versions and opus 5 are left alone probably an a/b test, so not everyone will see it if \"high\" feels like \"low\" for you,\" 🥔🥔🥔 @argofowl update: it's server-side, not the app anthropic enrols fable 5 sessions on claude code 2.1.236+ into an experiment that shrinks the effort scale, older versions and opus 5 are left alone probably an a/b test, so not everyone will see it if \"high\" feels like \"low\" for you, you're in the test group holy fuck anthropic, you guys are unbearable sometimes 🥔🥔🥔 @argofowl 5h if fable felt dumber this week, it's not you ❗❗❗ since 2.1.237 the model reads \"high\" effort as 10 out of 100, the exact number \"low\" used to be and the changelog doesn't say a word i spent my whole afternoon convinced t3 code and my own app were broken before i went Show more 1:08 PM · Aug 22, 2026 32.1K Views 23 12 196 21 🥔🥔🥔 @argofowl 4h theo you have to see this bullshit @ theo 2 57 2.2K Synoros @SynorosHQ 3h what am I supposed to do about this how do you work with a company that changes the product under your feet 1 19 1.2K Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Relevant people 🥔🥔🥔 @ argofowl Follow ai + design + development + potatoes, prev: @csm_news, @ual Trending now Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp."
+  ]
+ },
+ "9ee6a2b973a08a30": {
+  "feed": "YC Hacker News",
+  "title": "Learning about \"The Unix Time-Sharing System\"",
+  "link": "https://playtechnique.io/long/the-unix-time-sharing-system.html",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Unix Time-Sharing System play technique DevOps Teacher & Consultant Shop Newsletters Tech Blog Contact Hey there - The feature in this month's newsletter is The Unix Time-Sharing System , by Dennis Ritchie and Ken Thompson. This newsletter's goal is to uncover real details about Unix' early history; to get more confident using these tools, I offer one-on-one teaching about linux, infrastructure tools, scripting, design and more."
+  ]
+ },
+ "51e3ff297f463fd0": {
+  "feed": "YC Hacker News",
+  "title": "Belgian car salesman becomes prince after DNA test proves royal parentage",
+  "link": "https://www.cnn.com/2026/08/22/europe/prince-belgium-secret-son-scli-intl",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Belgian car salesman becomes prince after DNA test proves royal parentage | CNN Ad Feedback CNN values your feedback 1. How relevant is this ad to you? 2. Did you encounter any technical issues? Video player was slow to load content Video content never loaded Ad froze or did not finish loading Video content did not start after ad Audio on ad was too loud Other issues Ad never loaded Ad prevented/slowed the page from loading Content moved around while ad loaded Ad was repetitive to ads I've seen previously Other issues Cancel Submit Thank You!"
+  ]
+ },
+ "8ad734591da433a1": {
+  "feed": "YC Hacker News",
+  "title": "Ameliorate",
+  "link": "https://ameliorate.app/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ameliorate Ameliorate Alpha Playground New Topic Docs Blog Log in Background: cars-going-too-fast What if it was trivial to understand someone's reasoning, and to add yours to it? here's what the world could look like Ameliorate is a collaborative problem-solving tool that aims to make this a reality. It helps you break down complex problems into clear pieces so that multiple people can inspect assumptions, clarify disagreement, and integrate knowledge - without talking past each other."
+  ]
+ },
+ "0d24b5343da1d22c": {
+  "feed": "YC Hacker News",
+  "title": "Embedded AI",
+  "link": "https://nostarch.com/embedded-ai",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Embedded AI | No Starch Press Skip to main content WANT SWEET DEALS? JOIN OUR MAILING LIST Toggle navigation Catalog New Upcoming Early Access Shopping cart There are no products in your shopping cart. 0 Items Total: $0.00 Enter your keywords Shopping cart There are no products in your shopping cart. 0 Items Total: $0.00 Enter your keywords Catalog New Upcoming Early Access Topics Topics AI & Machine Learning Art & Design Computer Science General Computing Hacking & Computer Security Hardware / DIY Kids LEGO Linux & BSD Manga Programming Python Science & Math System Administration Early Access Merch This Month's Bestsellers Embedded AI Intelligence at the Deep Edge by David Such Available September 2026, 600 pp."
+  ]
+ },
+ "d2a4852ea41c5f51": {
+  "feed": "Simon Willison",
+  "title": "llm 0.33",
+  "link": "https://simonwillison.net/2026/Aug/22/llm/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept --key . The Python EmbeddingModel.embed() , EmbeddingModel.embed_multi() , Collection.embed() and Collection.embed_multi() methods accept key= too, passing the resolved per-call key to embedding plugins without changing shared model state."
+  ]
+ },
+ "64b442a93659bae0": {
+  "feed": "Simon Willison",
+  "title": "More than just code review",
+  "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software."
+  ]
  }
 }
