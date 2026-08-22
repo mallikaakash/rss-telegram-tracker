@@ -2775,5 +2775,35 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "ed22dfcd4432de27": {
+  "url": "https://qsimeon.github.io/blog/growlab/",
+  "title": "GrowLab: Scaling Laws Assume Model Size Is Constant. What If It Grows? - Quilee Simeon",
+  "domain": "qsimeon.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-22",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "4d1a9345f2db038e": {
+  "url": "https://www.alphaxiv.org/abs/2604.01499",
+  "title": "Matching Accuracy, Different Geometry: Evolution Strategies vs GRPO in LLM Post-Training | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-22",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "c695e4f70067f0ac": {
+  "url": "https://srekubecraft.io/posts/llm-d-distributed-inference/",
+  "title": "llm-d - Kubernetes-Native Distributed LLM Inference at Scale :: SREKubeCraft | Nick Nikolakakis",
+  "domain": "srekubecraft.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-22",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
