@@ -57166,5 +57166,86 @@
   "points": [
    "FTC proposed policies around personalized pricing transparency and potential market distortions."
   ]
+ },
+ "ea10f7d5c8fcd4a2": {
+  "feed": "YC Hacker News",
+  "title": "Zig's Io.Threaded Is Neat",
+  "link": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "A solid systems engineering deep-dive on handling thread cancellation across blocking POSIX syscalls.",
+  "points": [
+   "Explains why thread cancellation fails on blocking syscalls without kernel-level signal interrupts returning EINTR.",
+   "Details Zig's std.Io.Threaded approach of using signals and shared-memory flags to cancel blocking I/O cleanly.",
+   "Provides useful architectural mental models distinguishing deterministic parallelism from asynchronous concurrency."
+  ]
+ },
+ "80ddadb83a7d5838": {
+  "feed": "YC Hacker News",
+  "title": "AI boosted homework scores, then exam scores dropped: study",
+  "link": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Contains no substantive content or technical relevance for ML and backend engineering.",
+  "points": [
+   "Non-technical link stub about an AI education study without technical substance."
+  ]
+ },
+ "20b3b6a4e11d7e9b": {
+  "feed": "YC Hacker News",
+  "title": "People of ACM – Russ Cox",
+  "link": "https://www.acm.org/articles/people-of-acm/2026/russ-cox",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Empty post stub lacking technical content.",
+  "points": [
+   "Interview link stub with no accessible technical text."
+  ]
+ },
+ "17a127087e4f7af9": {
+  "feed": "YC Hacker News",
+  "title": "HN: The Good Parts (2016)",
+  "link": "https://danluu.com/hn-comments/",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "An old meta-commentary essay on online forums and legacy file formats with no current infra or ML relevance.",
+  "points": [
+   "Reflects on Hacker News comment culture and shares a historical anecdote on Microsoft Word's binary memory dumps."
+  ]
+ },
+ "ad3e7a95a824bd0b": {
+  "feed": "YC Hacker News",
+  "title": "How we made a text-to-speech model respond in sub-50 ms",
+  "link": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+  "date": "2026-08-22",
+  "tier": "must_read",
+  "why": "Exceptional ML inference serving deep-dive with practical latency benchmarks against vLLM-Omni and SGLang.",
+  "points": [
+   "Achieves sub-50 ms p95 time-to-first-audio (TTFA) and 10 RPS on a single H100 SXM for Qwen3-TTS 1.7B.",
+   "Outperforms vLLM-Omni (278 ms TTFA) and SGLang-Omni (1,140 ms TTFA) under realistic Poisson open-loop traffic.",
+   "Techniques include dynamic RMS-based leading silence trimming (saving ~80 ms) and tuning codec frame accumulation thresholds."
+  ]
+ },
+ "c00ce7b9015fc9fc": {
+  "feed": "Together AI",
+  "title": "GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+  "link": "https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Scraped marketing navigation and boilerplate with no extractable technical analysis.",
+  "points": [
+   "Contains scraped website navigation text rather than the actual model evaluation benchmark."
+  ]
+ },
+ "0ecbe8ea83757546": {
+  "feed": "Together AI",
+  "title": "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+  "link": "https://www.together.ai/blog/glm-5-3-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
+  "date": "2026-08-22",
+  "tier": "low_priority",
+  "why": "Scraped marketing boilerplate lacking technical content.",
+  "points": [
+   "Unparsed webpage navigation and promotional links without benchmark substance."
+  ]
  }
 }
