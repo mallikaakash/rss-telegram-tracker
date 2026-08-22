@@ -56922,5 +56922,159 @@
   "points": [
    "An AI tool for prioritizing candidate biomarkers from wearable sensor data Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
   ]
+ },
+ "2715b13cc178df67": {
+  "feed": "YC Hacker News",
+  "title": "There's no reason for software to be slow anymore",
+  "link": "https://danluu.com/perf-opt/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There's no reason for software to be slow anymore There's no reason for software to be slow anymore | Patreon The other day, I saw a viral tweet saying that people talking about how LLMs are causing slow, bloated, code are going to eat crow once they re-write everything in super-optimized assembly. We're not quite at the point where we want to write everything in assembly , but some variant of what Nolan Lawson said about testing, you can choose how many bugs you want now , which I less eloquently noted here , is becoming more true for performance."
+  ]
+ },
+ "31ef8ebb46d965d9": {
+  "feed": "YC Hacker News",
+  "title": "Rust Glancer: Rust LSP using 100x less RAM",
+  "link": "https://rust-glancer.github.io/blog/hello-world/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hello, world! · Rust Glancer Skip to content rust-glancer About Quick start Docs Blog Changelog Source Hello, world! 2026-08-19 I want to present a project that I've been working on for the past 4 months: an alternative Rust LSP implementation that is built with a focus on low memory usage. It has two main features: It can use very little memory (target <100mb for reasonable projects)."
+  ]
+ },
+ "c60e9177a631bf4b": {
+  "feed": "YC Hacker News",
+  "title": "Three important steps in my maturation process",
+  "link": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Three important steps in my maturation process – Thomas Dullien / Halvar Flake Thomas Dullien / Halvar Flake About Writing Guides Three important steps in my maturation process Author Thomas Dullien Published August 21, 2026 Modified August 21, 2026 My father passed recently, and he was twice my age. I am approximately the same age that he was when I was born, and I am now “the old generation” - there’s no one left in the generation above me."
+  ]
+ },
+ "5d9a1ebcc7191a14": {
+  "feed": "YC Hacker News",
+  "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
+  "link": "https://grapheneos.social/@GrapheneOS/117136278553665985",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "ec74d4d3ec74d751": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+  "link": "https://ozbrain.com",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OzBrain: shared brain every AI agent reads and writes OzBrain For Teams Pricing FAQ About Start free The brain layer The brain behind every agent. One shared brain that Claude, ChatGPT, Cursor, and every AI can read and write. It structures what you know so agents read only what they need, and means you never explain yourself twice. Email address Start free Connect to Claude Connect to Cursor Routing index 5 of 61 articles positioning what we sell and to whom fresh clients/meridian scope, current terms, contacts fresh voice how I write, words I never use fresh projects/q3-launch status, decisions, open threads aging preferences models, tools, formats fresh Ask your own agent how OzBrain can help."
+  ]
+ },
+ "f90858f43fcf59fb": {
+  "feed": "Technica",
+  "title": "Trump's space transportation policy calls for new spaceport on federal land",
+  "link": "https://arstechnica.com/space/2026/08/trump-admin-calls-for-more-spaceports-to-handle-surge-in-launches/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A new national space transportation policy signed by President Donald Trump on Thursday calls for the development of more spaceports to support more than 1,000 launches and reentries per year by 2030. The presidential memorandum replaces a 2013 policy signed by former President Barack Obama. Both policies share an emphasis on supporting the commercial space industry and underscore the importance of assured access to space."
+  ]
+ },
+ "f7d709790eca6605": {
+  "feed": "Technica",
+  "title": "Thunder + fiber-optic cabling used for seismic imaging",
+  "link": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Most of what we know about the Earth's interior comes from observing seismic waves. These travel at somewhat different speeds depending on the details of the rock they're moving through—whether it's solid or semi-molten, how much water is present, whether it's fractured or solid material, and so on. Get enough data from enough seismic events, and you can start piecing together a picture of what's present at different depths below the surface."
+  ]
+ },
+ "05f949a592c9b066": {
+  "feed": "Technica",
+  "title": "Hidden Zillow listings created fake supply shock, raising NYC rents, lawsuit says",
+  "link": "https://arstechnica.com/tech-policy/2026/08/class-action-accuses-brokers-of-hiding-zillow-listings-driving-up-nyc-rents/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This week, two New York City renters filed a class action complaint alleging that a brokerage business called Compass—which has been boycotting posting listings on free digital platforms like Zillow —has now delisted so many rental units that it has created a fake supply shock that is artificially raising rents. According to plaintiffs, Peter Castaneda and Haley Gelfand, Compass has bought so many brokerage firms over the past decade-plus that it maintains a monopoly, controlling “over 80 percent of the rental unit listings available for renters in Manhattan based on 2025 data.” With that monopoly, Compass can “literally dictate pricing for as much as 80 percent of Manhattan’s rental units,” renters argued."
+  ]
+ },
+ "392c32ec611e1210": {
+  "feed": "Technica",
+  "title": "Motorola's GrapheneOS phones will launch in 2027 priced higher than Pixels",
+  "link": "https://arstechnica.com/gadgets/2026/08/motorolas-grapheneos-phones-will-launch-in-2027-priced-higher-than-pixels/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Several months ago, Motorola and the makers of GrapheneOS announced a team-up that would expand support for the privacy-centric OS to beyond Google's Pixel phones. The announcement, however, was bereft of details. Now, the creators of the OS have taken to Mastodon (naturally) to provide an update . Moto's GrapheneOS phones are on track to launch in 2027, but they'll cost a pretty penny."
+  ]
+ },
+ "2a6422304d907afb": {
+  "feed": "Technica",
+  "title": "Lawsuit demands Logitech hand tariff refunds over to customers",
+  "link": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Logitech is facing a proposed class action lawsuit for not giving customers tariff refunds. In April 2025, Logitech raised the prices on 51 percent of its portfolio, with some prices increasing by as much as 25 percent. The complaint seeks to “recover monies that Logitech extracted from American consumers as offset for import tariffs that the United States Supreme Court has since declared unlawful, tariffs for which Logitech now stands to be reimbursed by the federal government."
+  ]
+ },
+ "76f9e71cff032030": {
+  "feed": "Google Research",
+  "title": "How mobility gives language models a deeper understanding of place",
+  "link": "https://research.google/blog/how-mobility-gives-language-models-a-deeper-understanding-of-place/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How mobility gives language models a deeper understanding of place Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "dfcebfe8dadb1b62": {
+  "feed": "Simon Willison",
+  "title": "llm 0.32.1",
+  "link": "https://simonwillison.net/2026/Aug/21/llm/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to openai<3 , and a soon-to-drop 0.33 release will switch from httpx to httpx2 ."
+  ]
+ },
+ "be465d304e61507a": {
+  "feed": "Simon Willison",
+  "title": "llm-openrouter 0.7",
+  "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's implementation of the Responses API . Three new server-side tools: Shell , WebFetch , and WebSearch . Enable these with options like -T WebSearch ."
+  ]
+ },
+ "52179d688146ba7b": {
+  "feed": "Cloudflare Blog",
+  "title": "Say it once: introducing Bot Preference Sync",
+  "link": "https://blog.cloudflare.com/bot-preference-sync/",
+  "date": "2026-08-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’re constantly building for the different goals of our customers. Some customers want to optimize for discovery, while others want to protect their content with the strictest security policy. Among these differing policies, there are multiple ways to mitigate bot traffic. Some mechanisms simply state your preference, assuming best intent from crawlers, and other approaches actually lock down content by outright blocking with a Bot Management solution."
+  ]
  }
 }
