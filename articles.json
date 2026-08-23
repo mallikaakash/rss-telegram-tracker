@@ -57635,5 +57635,76 @@
   "points": [
    "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software."
   ]
+ },
+ "a0f751d893141d66": {
+  "feed": "YC Hacker News",
+  "title": "Figmimic – A bookmarklet to copy any webpage into Figma as editable layers",
+  "link": "https://marcua.net/minitools/figmimic/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "Frontend design utility bookmarklet unrelated to ML training, systems, or backend engineering.",
+  "points": [
+   "A bookmarklet embedding capture.js to copy web pages as editable Figma layers."
+  ]
+ },
+ "0cbbcd53f19cb6ca": {
+  "feed": "YC Hacker News",
+  "title": "Scrap (2006)",
+  "link": "https://twitter.com/moxie/status/2091218652133732491",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "Personal memoir/journal entry from Moxie Marlinspike with no technical or ML relevance.",
+  "points": [
+   "Personal nostalgic story about scrapping cast-iron tubs in Pittsburgh in 2006."
+  ]
+ },
+ "3377c27b081e0284": {
+  "feed": "YC Hacker News",
+  "title": "NanoGPT Speedrun Frontier",
+  "link": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+  "date": "2026-08-23",
+  "tier": "must_read",
+  "why": "Directly focuses on LLM training optimization by evaluating frontier models autonomously improving the nanoGPT training speedrun record.",
+  "points": [
+   "Tracks 153 autonomous optimization runs across 18 frontier models attempting to close the human record on the nanoGPT speedrun.",
+   "Evaluates agent harness configurations, token usage, and total runtime for training optimization tasks.",
+   "Top agent setups closed up to 81.7% of the human optimization gap on training throughput."
+  ]
+ },
+ "c0f9d10986f58071": {
+  "feed": "YC Hacker News",
+  "title": "Why your local LLM feels dumber than it is",
+  "link": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "Addresses real-world inference discrepancy, quantization noise, and sampler divergence between reference labs and local serving.",
+  "points": [
+   "Explains how hardware instruction sets, quantization, and custom sampler configs degrade local model output versus lab reference evaluations.",
+   "Highlights common configuration mistakes like improper temperature causing reasoning loops (e.g. Qwen thinking loops).",
+   "Emphasizes using domain-specific long-context benchmarks rather than zero-shot evaluations to measure inference degradation."
+  ]
+ },
+ "e3f8dc16a6405e4a": {
+  "feed": "YC Hacker News",
+  "title": "Hister – A private, full content search index that you control",
+  "link": "https://hister.org/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "Personal desktop full-text search engine tool, tangential to distributed search or ML infrastructure.",
+  "points": [
+   "An AGPLv3 self-hosted local search index tool for browser history and local files."
+  ]
+ },
+ "d17933d43559704b": {
+  "feed": "Simon Willison",
+  "title": "Quoting Linus Torvalds",
+  "link": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "Notable perspective from Linus Torvalds on practical LLM-assisted debugging in kernel-level systems engineering.",
+  "points": [
+   "Linus Torvalds describes using an LLM to debug a complex Linux kernel issue (`drm/xe` VRAM storage bug).",
+   "Notes AI gave up claiming impossibility, but succeeded at automated grunt work and debugging when stubbornly prompted."
+  ]
  }
 }
