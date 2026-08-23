@@ -57973,5 +57973,49 @@
    "Applying SGLang, NVFP4 quantization, and DFlash2 speculative decoding improved code and reasoning inference throughput to ~50 t/s.",
    "Demonstrates open-weight 27B parameter models successfully tackling complex autonomous reverse-engineering and self-correction workflows locally."
   ]
+ },
+ "91e45ba5d38f226c": {
+  "feed": "YC Hacker News",
+  "title": "Malware infects Android-based automotive head unit firmware",
+  "link": "https://securelist.com/android-head-unit-malware/121106/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "First Android malware targeting automotive head units | Securelist Solutions for: Home Products Small Business 1-50 employees Medium Business 51-999 employees Enterprise 1000+ employees by Kaspersky CompanyAccount Get In Touch Dark mode off English Russian Spanish Brazil Solutions Internet of Things & Embedded Security Learn More Industrial Cybersecurity Learn More Fraud Prevention Learn More KasperskyOS-based solutions Learn More Other solutions Kaspersky for Security Operations Center Kaspersky IoT Infrastructure Security Kaspersky Secure Remote Workspace Industries National Cybersecurity Learn More Industrial Cybersecurity Learn More Finance Services Cybersecurity Learn More Healthcare Cybersecurity Learn More Transportation Cybersecurity Learn More Retail Cybersecurity Learn More Other Industries Telecom Cybersecurity View all Products Kaspersky Next NEW!"
+  ]
+ },
+ "96b98d390289a532": {
+  "feed": "YC Hacker News",
+  "title": "Iranian hackers shut down UK power plant for 4 days",
+  "link": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Iranian hackers shut down UK power plant Jump to content UK News Website of the Year 2024 Search Icon News Donald Trump Israel Ukraine Royals Sports Opinion Travel Health Life Entertainment Puzzles Business US Edition UK Edition Search Icon Subscribe now Log in Sections US Edition UK Edition News News home UK news Politics World Donald Trump Health news Defence Science Education Environment Investigations Global Health Security Royals Sport Sport home Football Rugby Union Cricket F1 Golf Tennis Racing Women's Sport Cycling Boxing Betting More..."
+  ]
+ },
+ "fa6039eabf7e3254": {
+  "feed": "YC Hacker News",
+  "title": "Risk of transmission of amyloid β pathology via transfused blood products",
+  "link": "https://doi.org/10.1016/S0140-6736(26)00767-1",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "0d50cbd1b3b1a71b": {
+  "feed": "Technica",
+  "title": "Volcanoes that made history",
+  "link": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The first telegram arrived in Singapore on a Monday, sent from the city of Batavia in the Dutch East Indies (now Jakarta, Indonesia). “Terrific detonations from Krakatau (volcanic island),” it reported. Soon afterward: “Stones falling. Village near Anjer washed away.” The wires continued clattering out news of bridges destroyed, boats smashed, lighthouses “disappeared.” By noon on Tuesday, the scope of the natural disaster was clear: “Where once Mount Krakatau stood the sea now plays.” Within days, the source of the destruction was known worldwide."
+  ]
  }
 }
