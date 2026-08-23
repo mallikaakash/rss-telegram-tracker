@@ -58017,5 +58017,75 @@
   "points": [
    "The first telegram arrived in Singapore on a Monday, sent from the city of Batavia in the Dutch East Indies (now Jakarta, Indonesia). “Terrific detonations from Krakatau (volcanic island),” it reported. Soon afterward: “Stones falling. Village near Anjer washed away.” The wires continued clattering out news of bridges destroyed, boats smashed, lighthouses “disappeared.” By noon on Tuesday, the scope of the natural disaster was clear: “Where once Mount Krakatau stood the sea now plays.” Within days, the source of the destruction was known worldwide."
   ]
+ },
+ "8149cce4638406c6": {
+  "feed": "YC Hacker News",
+  "title": "My favorite nonfiction books about cults, scams, and schemes",
+  "link": "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "Nonfiction book recommendations about scams and cults are unrelated to ML, backend systems, or engineering.",
+  "points": [
+   "Contains a curated reading list of books on cults, frauds, and social scams."
+  ]
+ },
+ "37b4ef0d112657c3": {
+  "feed": "YC Hacker News",
+  "title": "How Complex Systems Fail",
+  "link": "https://how.complexsystems.fail/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "This classic treatise by Richard Cook is essential foundational reading for understanding reliability, latent defects, and failure modes in complex distributed systems.",
+  "points": [
+   "Complex systems inherently operate in degraded modes containing multiple latent flaws that are individually insufficient to trigger an outage.",
+   "Catastrophic failure requires the coincidence of multiple small, benign-seeming failures breaching defense-in-depth layers.",
+   "Post-incident root-cause attribution to single human error or proximate cause is an oversimplification of systemic failure dynamics."
+  ]
+ },
+ "ce7bbfc736ab3cfe": {
+  "feed": "YC Hacker News",
+  "title": "Slovakia finds Russian backdoor in traffic speed cameras",
+  "link": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "General cybersecurity hardware vulnerability news with no direct relevance to ML training or backend engineering.",
+  "points": [
+   "Slovakia halted the deployment of 279 Russian-made speed cameras after discovering SMS-triggered remote shell backdoors and disabled SecureBoot."
+  ]
+ },
+ "1137d40940ed6a03": {
+  "feed": "YC Hacker News",
+  "title": "Things I want in a modern relational query language",
+  "link": "https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "Explores ergonomic and architectural improvements for relational query languages, relevant to database internals and data modeling.",
+  "points": [
+   "Argues SQL's archaic PL/I-era syntax and procedural extensions (like stored procedures and cursors) conflict with its declarative strengths.",
+   "Advocates for functional programming paradigms, standard library improvements, and less opaque query planner diagnostics."
+  ]
+ },
+ "94efea681729da1d": {
+  "feed": "YC Hacker News",
+  "title": "What Is a Harness?",
+  "link": "https://earendil.com/posts/what-is-a-harness/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "Provides a clear high-level architectural decomposition of AI agent harnesses, useful context for agentic tool use and LLM orchestration.",
+  "points": [
+   "Defines the agent architecture as Agent = Model + Harness, where the harness provides runtime environment, execution state, and API abstractions.",
+   "Breaks down harness responsibilities into four pillars: system instructions, tool execution, the iterative agentic evaluation loop, and multi-model translation."
+  ]
+ },
+ "d41bba2863541495": {
+  "feed": "Technica",
+  "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+  "link": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "General aerospace news about lunar exploration mission delays with no technical relevance to software or ML engineering.",
+  "points": [
+   "China postponed its Chang’e 7 lunar south pole exploration mission from 2026 to 2027 to ensure mission reliability."
+  ]
  }
 }
