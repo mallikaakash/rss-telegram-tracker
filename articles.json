@@ -57762,5 +57762,60 @@
   "points": [
    "News piece about a student reporting a rogue AI hacking attempt, lacking technical ML or infra details."
   ]
+ },
+ "cded1185dafe2b44": {
+  "feed": "YC Hacker News",
+  "title": "The Golden Rule for Becoming a Better Writer",
+  "link": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Golden Rule for Becoming a Better Writer - T.R Napper Skip to Navigation Skip to Content Home On Writing Classic Articles Hardboiled, Noir, Cyberpunk My Books Bibliography About On Writing The Golden Rule for Becoming a Better Writer 20/08/2026 21/08/2026 T. R. Napper No Comments on The Golden Rule for Becoming a Better Writer I’m obsessed with the craft of writing."
+  ]
+ },
+ "1c232580dfbfe558": {
+  "feed": "YC Hacker News",
+  "title": "I Dream of Quieter Computing",
+  "link": "https://henry.codes/writing/i-dream-of-quieter-computing/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I dream of quieter computing | Henry From Online Trans women are women. Trans rights are human rights. Fix your heart or die . ✷ ver. ss25 Go Home (the Personal site & Portfolio of Henry from online ) ← All notes I dream of quieter computing Duration 2 minute read Last Updated Jul 2026 Topics future of computing indieweb I’m thinking of quieter computing."
+  ]
+ },
+ "6bd6b4d652fa1bec": {
+  "feed": "YC Hacker News",
+  "title": "The Art and Beauty of Blade Runner",
+  "link": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Art and Beauty of Blade Runner - T.R Napper Skip to Navigation Skip to Content Home On Writing Classic Articles Hardboiled, Noir, Cyberpunk My Books Bibliography About Reviews Uncategorized The Art and Beauty of Blade Runner 02/10/2015 02/12/2019 T. R. Napper 3 Comments on The Art and Beauty of Blade Runner This article was published last year, but due to its enduring popularity I’ve moved it to the front page for those of you who haven’t seen it yet."
+  ]
+ },
+ "5f827225d9c71e5d": {
+  "feed": "YC Hacker News",
+  "title": "Thinking in Python",
+  "link": "https://thinkinginpython.com/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Thinking in Python Bruce Eckel Thinking in Python Insights, Idioms and Patterns 01 Introduction Part I · Foundations 02 Tour 03 Containers 04 Control Flow 05 Functions 06 Modules and Packages 07 Classes 08 Static Typing 09 Class Attributes 10 Cleanup Part II · Techniques 11 Testing 12 Data Classes as Types 13 Pattern Matching 14 Decorators 15 Context Managers 16 Comprehensions 17 Metaprogramming 18 Performance 19 Concurrency Part III · Patterns 20 Rethinking Objects 21 The Pattern Concept 22 Data Transfer Objects 23 Iterators 24 Singleton 25 Template Method 26 Surrogate 27 Factory 28 Function Objects 29 Changing the Interface 30 Observer 31 State Machines 32 Multiple Dispatching 33 Visitor 34 Composite and Interpreter 35 Flyweight 36 Memento 37 Pattern Refactoring 38 Simulation 39 Pattern Catalog Part IV · Functional Programming 40 Foundations 41 Toolkits 42 Error Handling 43 Assurance Part V · Effects 44 Effect Management 45 Generators 46 Stateless 47 Stateless in Practice © 2026 Bruce Eckel."
+  ]
+ },
+ "16ad473b7deba76e": {
+  "feed": "YC Hacker News",
+  "title": "NetBSD and my life (2005)",
+  "link": "https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "netbsd-advocacy: NetBSD and my life... Subject: NetBSD and my life... To: None <netbsd-advocacy@netbsd.org> From: gary rolland <rollandgary@gmail.com> List: netbsd-advocacy Date: 09/10/2005 16:40:17 Hello NetBSD Team, I have been using NetBSD for about two years on my laptop and never had any problems. I use this laptop in work and at home. I knew NetBSD was capable of much more, and I was hell bent on using it at work too!"
+  ]
  }
 }
