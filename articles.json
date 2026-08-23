@@ -57817,5 +57817,60 @@
   "points": [
    "netbsd-advocacy: NetBSD and my life... Subject: NetBSD and my life... To: None <netbsd-advocacy@netbsd.org> From: gary rolland <rollandgary@gmail.com> List: netbsd-advocacy Date: 09/10/2005 16:40:17 Hello NetBSD Team, I have been using NetBSD for about two years on my laptop and never had any problems. I use this laptop in work and at home. I knew NetBSD was capable of much more, and I was hell bent on using it at work too!"
   ]
+ },
+ "650ef088ec9d0114": {
+  "feed": "YC Hacker News",
+  "title": "The End of an Athlon",
+  "link": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The End of an Athlon | OS/2 Museum Skip to content OS/2 Museum OS/2, vintage PC computing, and random musings Home About Wanted List OS/2 History OS/2 Beginnings OS/2 1.0 OS/2 1.1 OS/2 1.2 and 1.3 OS/2 16-bit Server OS/2 2.0 OS/2 2.1 and 2.11 OS/2 Warp OS/2 Warp, PowerPC Edition OS/2 Warp 4 OS/2 Timeline OS/2 Library OS/2 1.x SDK OS/2 1.x Programming OS/2 2.0 Technical Library OS/2 Videos, 1987 DOS History DOS Beginnings DOS 1.0 and 1.1 DOS 2.0 and 2.1 DOS 3.0, 3.1, and 3.2 DOS 3.3 DOS 4.0 DOS Library NetWare History NetWare Timeline NetWare Library Windows History Windows Library PC UNIX History Solaris 2.1 for x86 ← Maximum Overkill The End of an Athlon Posted on August 10, 2026 by Michal Necasek When I was researching the mess related to strange and poorly documented CPUID bits in the Athlon MP and XP processors , I had to swap a lot of CPUs."
+  ]
+ },
+ "525e0c69bb2a7ca8": {
+  "feed": "YC Hacker News",
+  "title": "JIT Compiling Code in 5μs",
+  "link": "https://malisper.me/jit-compiling-code-in-5-us/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "JIT Compiling Code in 5μs - malisper.me Primary Menu malisper.me malisper.me General About Me Twitter Table of Contents for Postgres Posts RSS Subscribe to Blog via Email Enter your email address to subscribe to this blog and receive notifications of new posts by email. Email Address Subscribe Skip to content malisper.me Home » pgrust » JIT Compiling Code in 5μs JIT Compiling Code in 5μs Historically, fast JIT compilation was a black art."
+  ]
+ },
+ "7e8bbd7e442f899e": {
+  "feed": "YC Hacker News",
+  "title": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
+  "link": "https://www.xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Wi-Fi 8 is the first wireless upgrade in years that isn’t chasing speed, and home networks need it Menu Sign in Sign in now Close News PC Hardware Submenu CPU GPU Storage Monitors Keyboards & Mice Software Submenu AI tools Productivity Self-Hosting Home Lab Other Software Operating Systems Submenu Windows Linux macOS Devices Submenu Single-Board Computers Laptops Gaming Handheld Prebuilt PC Home Submenu Networking Smart Home Entertainment Submenu Entertainment Gaming Sign in Newsletter Array Copyright © 2026 www.xda-developers.com --> Menu Like Follow Followed 2 2 More Action Sign in Sign in now Claude ESP32 AI Tools Entertainment Forums Close Wi-Fi 8 is the first wireless upgrade in years that isn’t chasing speed, and home networks need it By João Carrasqueira Published Aug 22, 2026, 1:00 PM EDT João has been covering the tech world for over 7 years, with a heavy focus on laptops and the Windows ecosystem."
+  ]
+ },
+ "b0c261b5c2bf4109": {
+  "feed": "YC Hacker News",
+  "title": "I set a trap for a book-marketing scammer (2025)",
+  "link": "https://rwwgreene.substack.com/p/i-set-a-trap-for-a-book-marketing",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "b4076f1a436240ba": {
+  "feed": "YC Hacker News",
+  "title": "ATProto spaces: A new extension to ATProto that enables non-public data",
+  "link": "https://atproto.com/blog/atproto-spaces-alpha",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Atproto Spaces Alpha is Live - AT Protocol at:// Docs SDKs Blog Podcast Find something... K AI English Português 日本語 한국어 AI Get Started Tutorials Understand Atproto SDKs Cookbook Docs Auth Reads and Writes Sync Lexicons Images and Video Moderation Deploy The AT Stack Self-hosting Going to production User Accounts Deploy recipes About Trademarks Specs Overview Data Model Lexicon Cryptography Accounts Repository Media Blobs Labels HTTP API (XRPC) OAuth Permissions Event Stream Sync DID Handle Namespaced ID (NSID) Timestamp ID (TID) Record Key AT URI Scheme Glossary The Atproto Spaces Alpha is Live Atproto Spaces, formerly known as “the permissioned data protocol,” is a new extension to atproto that enables non-public data."
+  ]
  }
 }
