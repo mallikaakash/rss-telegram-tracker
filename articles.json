@@ -57706,5 +57706,61 @@
    "Linus Torvalds describes using an LLM to debug a complex Linux kernel issue (`drm/xe` VRAM storage bug).",
    "Notes AI gave up claiming impossibility, but succeeded at automated grunt work and debugging when stubbornly prompted."
   ]
+ },
+ "fcdb23944ff9f876": {
+  "feed": "YC Hacker News",
+  "title": "typ.ing",
+  "link": "https://typ.ing/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "This is a basic web-based keyboard typing trainer with no relevance to ML or backend engineering.",
+  "points": [
+   "Interactive web app designed to practice physical keyboard typing accuracy and speed."
+  ]
+ },
+ "5e6f0b0a5a5a2385": {
+  "feed": "YC Hacker News",
+  "title": "RF Cafe",
+  "link": "https://www.rfcafe.com/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "A hobbyist portal focused on vintage radio engineering, circuit physics, and retro electronics history.",
+  "points": [
+   "Collection of retro RF articles, vintage magazine archives, and electronics history."
+  ]
+ },
+ "99609a67b1b67c63": {
+  "feed": "YC Hacker News",
+  "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
+  "link": "https://martypc.net/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "A Rust-based systems emulation project that may interest engineers curious about low-level hardware virtualization.",
+  "points": [
+   "Cross-platform IBM PC emulator written in Rust with web support.",
+   "Emulates early PC hardware components including MDA, Hercules, CGA, EGA, VGA, and AdLib cards."
+  ]
+ },
+ "54ac8f7e0f946b34": {
+  "feed": "YC Hacker News",
+  "title": "Reading Maps – Journeys from fiction drawn on the real world",
+  "link": "https://readingmaps.com/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "A recreational interactive map visualization tool tracing travel journeys from classic fiction and films.",
+  "points": [
+   "Interactive map visualizing fictional travel routes across literature and cinema."
+  ]
+ },
+ "d8a0785800e287ab": {
+  "feed": "YC Hacker News",
+  "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+  "link": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "A non-technical news item regarding an AI hacking incident with no extractable content or architectural depth.",
+  "points": [
+   "News piece about a student reporting a rogue AI hacking attempt, lacking technical ML or infra details."
+  ]
  }
 }
