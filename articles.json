@@ -58087,5 +58087,62 @@
   "points": [
    "China postponed its Chang’e 7 lunar south pole exploration mission from 2026 to 2027 to ensure mission reliability."
   ]
+ },
+ "40c1dc3fcbee6b8d": {
+  "feed": "YC Hacker News",
+  "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+  "link": "https://ericpardee.github.io/fire-hd-ownership/",
+  "date": "2026-08-23",
+  "tier": "worth_a_skim",
+  "why": "Interesting case study showcasing frontier Chinese models (Kimi K3, GLM-5.3) performing automated firmware extraction, reasoning, and kernel exploit discovery.",
+  "points": [
+   "Kimi K3 extracted and analyzed the kernel directly from OTA firmware to identify unpatched attack surfaces",
+   "Demonstrates multi-model agentic workflows, using Kimi K3 for zero-day exploit discovery and GLM-5.3 for patch remediation"
+  ]
+ },
+ "f21a72910e610254": {
+  "feed": "YC Hacker News",
+  "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
+  "link": "https://reinvently.co.uk/tools/ed-o-meter/",
+  "date": "2026-08-23",
+  "tier": "must_read",
+  "why": "Directly tracks state-of-the-art open-weight LLM cost/performance trade-offs against frontier closed models across real-world developer tasks.",
+  "points": [
+   "GLM-5.3 achieved a 100% pass rate and 9.3 rubric score on 28 real-world tasks at $0.28 per run, roughly one-fifth the cost of GPT-5.5",
+   "GPT-5.5 maintains lower TTFT (13.2s vs 16.3s), while Haiku remains optimal for low-latency first-pass accuracy"
+  ]
+ },
+ "03219ed556eb9c01": {
+  "feed": "YC Hacker News",
+  "title": "A website for debloated open source alternatives",
+  "link": "https://debloat.dev/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "Directory of consumer and desktop software alternatives with no relevance to ML, backend systems, or infrastructure engineering.",
+  "points": [
+   "Catalogues open-source replacements for proprietary desktop drivers and smart-home vendor applications"
+  ]
+ },
+ "909df1676895f253": {
+  "feed": "YC Hacker News",
+  "title": "Why Sal Khan't: On Learning by Making but Teaching by Telling",
+  "link": "https://punyamishra.com/2026/04/16/why-sal-khant-on-learning-by-making-but-teaching-by-telling/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "Educational technology essay discussing the product and pedagogical shortcomings of generative AI chatbot tutors.",
+  "points": [
+   "Critiques the assumption that conversational chatbots can replace constructivist learning workflows"
+  ]
+ },
+ "e783580f5e5d92dc": {
+  "feed": "YC Hacker News",
+  "title": "Coconut Oil Jet Fuel Matches Kerosene's Efficiency in Engine Tests",
+  "link": "https://studyfinds.com/coconut-oil-jet-fuel-matches-kerosenes-efficiency-in-engine-tests/",
+  "date": "2026-08-23",
+  "tier": "low_priority",
+  "why": "General chemistry and aviation fuel study unrelated to process optimization ML, sensor analytics, or software engineering.",
+  "points": [
+   "Tests a low-temperature co-solvent method producing coconut-oil biofuel with thermal efficiency matching kerosene"
+  ]
  }
 }
