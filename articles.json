@@ -58221,5 +58221,60 @@
   "points": [
    "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed."
   ]
+ },
+ "451496f8489c5cad": {
+  "feed": "YC Hacker News",
+  "title": "My agent.md to improve LLM-assisted code quality",
+  "link": "https://fabiensanglard.net/agent.md/index.html",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My agent.md to improve LLM-assisted code quality Fabien Sanglard - WEBSITE Aug 21, 2026 My agent.md to improve LLM-assisted code quality The first time I tried to use an LLM to speed up coding was in mid-2025. I was not impressed. I was working on libadbmdns back then, an mDNS implementation in Rust. The code produced would not even compile. I revisited LLMs in January 2026."
+  ]
+ },
+ "24db0009d465ea8e": {
+  "feed": "YC Hacker News",
+  "title": "I built a low-latency AI companion that plays Skyrim with me",
+  "link": "https://pantel.is/projects/ai-gaming-companion/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I Built an AI Companion That Actually Plays With You â¾ â Meet Varkos, a somewhat good boy I Built an AI Companion That Actually Plays With You A real-time intelligent gaming companion that actually plays alongside you. World agency, local inference, persistent plans, and an AI character designed to create a striking emotional experience. (Currently running in Skyrim, but by design pluggable anywhere, standalone too) See it in action."
+  ]
+ },
+ "7ceabbc4a2bbae17": {
+  "feed": "YC Hacker News",
+  "title": "Rural Village in Spain Is Welcoming Digital Nomads with Open Arms",
+  "link": "https://www.cntraveler.com/story/this-rural-village-in-spain-is-welcoming-digital-nomads-with-open-arms",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This Rural Village in Spain is Welcoming Digital Nomads With Open Arms | Condé Nast Traveler Skip to main content Condé Nast Traveler Condé Nast Traveler Inspiration Destinations Places to Stay News & Advice Shopping CNT Triple Crown Plan Your Trip Search Newsletters Account Menu Menu Condé Nast Traveler Account Search Menu Menu Plan Your Trip Inspiration Chevron Destinations Chevron Places to Stay News & Advice Chevron Curated Escapes Shopping Chevron CNT Triple Crown Awards MORE Cruise Video Women Who Travel Search Search Newsletters Menu Search Close Europe Chevron Spain Future of Travel This Rural Village in Spain is Welcoming Digital Nomads With Open Arms As Spain's major cities struggle with overtourism, 8,000 rural villages are at risk of total depopulation."
+  ]
+ },
+ "0c0154a855033e84": {
+  "feed": "YC Hacker News",
+  "title": "Implementation of GPT-2 in pure CMake",
+  "link": "https://github.com/AlpinDale/gpt2.cmake",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - AlpinDale/gpt2.cmake: Implementation of the GPT-2 model in pure CMake · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "0221e318979a0c0a": {
+  "feed": "YC Hacker News",
+  "title": "The first search engine for Internet-connected devices",
+  "link": "https://www.shodan.io/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
  }
 }
