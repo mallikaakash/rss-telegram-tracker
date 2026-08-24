@@ -58452,5 +58452,71 @@
   "points": [
    "Andreessen Horowitz is shaping AI policy â while investing in a bleak vision of the future - Model Republic Model Republic ABOUT CONTACT SUBSCRIBE Model Republic ABOUT CONTACT SUBSCRIBE M R Andreessen Horowitz is shaping AI policy â while investing in a bleak vision of the future The firmâs investment portfolio is full of companies that have exploited legal loopholes, created disturbing products, and broken the law."
   ]
+ },
+ "8699739906e01e77": {
+  "feed": "YC Hacker News",
+  "title": "Omacom Foundation funding hits $10M",
+  "link": "https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Omacom Foundation funding hits $10m — Omarchy News ▄▄▄ ▄█████▄ ▄███████████▄ ▄███████ ▄███████ ▄███████ ▄█ █▄ ▄█ █▄ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ █▀ ███ ███ ███ ███ ███ ███ ███ ███ ███ ▄███▄▄▄███ ▄███▄▄▄██▀ ███ ▄███▄▄▄███▄ ███▄▄▄███ ███ ███ ███ ███ ███ ▀███▀▀▀███ ▀███▀▀▀▀ ███ ▀▀███▀▀▀███ ▀▀▀▀▀▀███ ███ ███ ███ ███ ███ ███ ███ ██████████ ███ █▄ ███ ███ ▄██ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ███ ▀█████▀ ▀█ ███ █▀ ███ █▀ ███ ███ ███████▀ ███ █▀ ▀█████▀ ███ █▀ By DHH on August 24, 2026 Omacom Foundation funding hits $10m The Omacom Foundation’s funding has just hit $10 million with two new Founding Patrons joining the mission: Drew Houston , cofounder and co-CEO of Dropbox , and Peter Steinberger , creator of OpenClaw ."
+  ]
+ },
+ "92181198a2320b01": {
+  "feed": "YC Hacker News",
+  "title": "Omakase Computing",
+  "link": "https://learn.omacom.io/3/omacom/76/omakase-computing",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Omakase Computing · Omacom · DHH Toggle sidebar Previous: Vision, Mission & Principles All books ▸ Omacom ▸ Omakase Computing Enter fullscreen dialog#open keydown.esc->dialog#close\"> dialog#open\" class=\"btn\" title=\"Search (control + space)\"> Search Close Submit search Omakase Computing # Omacom stands for Omakase Computing. The word Omakase means \"I'll leave it up to you\" or \"chef's choice\" in Japanese."
+  ]
+ },
+ "76e66657a34e5296": {
+  "feed": "YC Hacker News",
+  "title": "SeL4 security proofs now complete on AArch64",
+  "link": "https://proofcraft.systems/news-2026/#2026-08-21",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Proofcraft News - 2026 Proofcraft news | about | who | what | contact Proofcraft News - 2026 News from other years: 2025 2024 2023 2022 2021 21 Aug 2026 seL4 security proofs now complete on AArch64 After completing the proofs of functional correctness and integrity , Proofcraft has now established the proof that seL4 enforces confidentiality on AArch64, providing a formal mathematical proof that the kernel prevents an application running on top of seL4 from learning information without authorisation."
+  ]
+ },
+ "f73c51bd701c2171": {
+  "feed": "YC Hacker News",
+  "title": "Fast drilldown dashboards from a single Parquet file",
+  "link": "https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hamilton Ulmer Fast drilldown dashboards from a single Parquet file One 40MB Parquet data cube, an 18KB reader, an R2 bucket, and a few unassuming http range requests. Aug 21, 2026 Every month brings a new eruption of clever uses for object storage, easily the most volcanically active corner of non-AI software infrastructure on earth. The most recent lava bomb was Vicent Martí’s writeup of Cursor Origin’s S3 + WAL approach to managing Git repositories at scale."
+  ]
+ },
+ "b7e6095e59c753a8": {
+  "feed": "YC Hacker News",
+  "title": "Anthropic candidates face blunt money question",
+  "link": "https://www.axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "45339259dc1eb1a5": {
+  "feed": "Simon Willison",
+  "title": "Your executable is a SQLite database",
+  "link": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema ."
+  ]
  }
 }
