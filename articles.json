@@ -58584,5 +58584,71 @@
   "points": [
    "In another time, the MacBook Neo could have caused a substantial realignment of the lowish-end laptop business. Sure, it has shortcomings compared to the MacBook Air, but it could have at least encouraged PC makers to start shipping consistently decent keyboards, screens, and build quality in the Neo's $599 price window. The PC makers did start responding, thanks in part to Intel's actually new non-Ultra Core Series 3 processors (codenamed Wildcat Lake)."
   ]
+ },
+ "8e01f065f751d32d": {
+  "feed": "YC Hacker News",
+  "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+  "link": "https://twitter.com/lemire/status/2091894299289874926",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Daniel Lemire on X: \"Xiaomi is the Chinese tech giant. Their phones compete with iPhones. Their new CPU roughly matches Apple cores on single threaded tasks, and is much faster in multithreaded execution. Of course, Apple may soon announce their next processor, so this edge may not last long. And\" / X Post Log in Sign up Post Daniel Lemire on X: \"Xiaomi is the Chinese tech giant."
+  ]
+ },
+ "42f46d423de7607a": {
+  "feed": "YC Hacker News",
+  "title": "Coding expertise is going to collapse from AI reliance",
+  "link": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI Coding will Prevent Expertise | Lars Faye Lars Faye Articles Companies Confident Coding Course Contact Me AI Coding will Prevent Expertise The need for ongoing friction in long-term skill formation. \"We see a future where intelligence is a utility like electricity or water and people buy it from us on a meter and use it for whatever they want to use it for\" - Sam Altman of OpenAI In my previous article, Agentic Coding is a Trap , I discussed the \"skilled orchestrator paradox\", where the skills required to manage AI agents for coding are the same ones that can be diminished through the continued use of said AI agents."
+  ]
+ },
+ "7a2032ac105cac3c": {
+  "feed": "YC Hacker News",
+  "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+  "link": "https://developers.openai.com/api/docs/pricing",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Pricing | OpenAI API For the complete documentation index, see llms.txt . Markdown versions of documentation pages are available by appending .md to the page URL. ChatGPT Home API Codex Docs Guides, concepts, and product docs for Codex Use cases Example workflows and tasks teams can take on with ChatGPT or Codex Docs Use cases Resources ChatGPT Plugins Extend ChatGPT and Codex Workspace Agents Trigger published ChatGPT workspace agents Commerce Build commerce flows in ChatGPT Ads Publish and measure ads in ChatGPT Resources Showcase Demo apps to get inspired Blog Learnings and experiences from developers Cookbook Notebook examples for building with OpenAI models Learn Docs, videos, and demo apps for building with OpenAI Community Programs, meetups, and support for builders Start searching API Dashboard Try ChatGPT Overview Models Agents Tools Voice & Audio Production API reference Search the API docs Search docs Suggested responses create reasoning_effort realtime prompt caching Primary navigation API Codex ChatGPT Docs Use cases Resources Resources Search docs Suggested responses create reasoning_effort realtime prompt caching Overview Models Agents Tools Voice & Audio Production API reference Overview Models Agents Tools Voice & Audio Production API reference Docs section Models Home Get started Quickstart Using GPT-5.6 Key concepts Core concepts Responses API Conversation state Background mode Streaming WebSocket mode Multi-agent Webhooks File inputs Compaction Counting tokens SDKs and CLI OpenAI SDK OpenAI CLI Resources Changelog Deprecations Supported countries OpenAI Crawlers Terms and policies Legacy APIs Agent Builder Overview Migration guide Node reference Safety in building agents Evals Getting started Working with evals Prompt optimizer External models Best practices Graders Fine-tuning Optimization cycle Supervised fine-tuning Vision fine-tuning Direct preference optimization Reinforcement fine-tuning RFT use cases Best practices Assistants API Migration guide Deep dive Tools Model catalog Choose a model Pricing Model selection Text and code Text generation Code generation Structured output Prompting Overview Prompt engineering Citation formatting Migration guide Prompt generation Frontend prompting Reasoning Reasoning models Reasoning best practices Images and video Images and vision Image generation Video generation Realtime and audio Audio and speech Overview Voice agents Specialized models Deep research Embeddings Moderation Overview Agents SDK Quickstart Agent definitions Models and providers Running agents Sandbox agents Orchestration Guardrails Results and state Integrations and observability Evaluate agent workflows ChatKit Overview Customize Widgets Actions Advanced integrations Overview Function calling Search and retrieval Web search File search Retrieval Connect tools and data MCP and Connectors Secure MCP Tunnel Build tool workflows Skills Tool search Programmatic tool calling Computer and code Shell Computer use Apply Patch Local shell Code interpreter Media Image generation Overview Get started Voice agents Live translation Realtime prompting guide Audio Audio and speech Transcription File transcription Realtime transcription Speech generation Connection methods WebRTC WebSocket SIP Sessions and operations Managing conversations Voice activity detection Realtime with tools Webhooks and server-side controls Managing costs Go live Production best practices Deployment checklist Performance and quality Latency opt"
+  ]
+ },
+ "f34dd1b06c9b0c80": {
+  "feed": "YC Hacker News",
+  "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+  "link": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Microsoft Paint and Photos Embed Server-Issued GUIDs as Invisible Watermarks in Locally-Generated Images :: Xusheng Li > Xusheng Blog CV 14 minutes Microsoft Paint and Photos Embed Server-Issued GUIDs as Invisible Watermarks in Locally-Generated Images Reverse engineering reveals how Paint and Photos embed a server-issued GUID into the pixels of locally generated AI images."
+  ]
+ },
+ "bbad8620995cec04": {
+  "feed": "YC Hacker News",
+  "title": "IPFS Maintainers Winding Down",
+  "link": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The end of IPFS at Shipyard Home Interplanetary Stack Services Blog Support Our Work The end of IPFS at Shipyard Cameron Wood , Adin Schmahmann Aug 24, 2026 - 3 Min read We have some difficult news to share with the IPFS and wider peer-to-peer community. Protocol Labs has informed us that it will not be renewing Shipyard’s funding. While we’re grateful for the support and trust they have placed in us over the past two-plus years, we’re naturally disappointed by this outcome."
+  ]
+ },
+ "f984dfe8fa31e38a": {
+  "feed": "Apple ML Research",
+  "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
+  "link": "https://machinelearning.apple.com/research/internalized-visual-thinking",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an intuitive mechanism for visual foresight but introduces substantial inference overhead, which is particularly problematic for proactive video reasoning."
+  ]
  }
 }
