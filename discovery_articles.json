@@ -2900,5 +2900,77 @@
    "Includes independent re-measurements of CUPTI Activity API overhead on Modal A10G hardware.",
    "Breaks down real large-scale failure modes including pipeline bubble amplification, FlashAttention JIT stalls, and degraded communication links."
   ]
+ },
+ "0318c5512ada7c21": {
+  "url": "https://www.beren.io/2026-08-15-Scaling-is-Subtler-than-it-Seems/",
+  "title": "Scaling is subtler than it seems",
+  "domain": "beren.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-24",
+  "tier": "solid_find",
+  "why": "A thoughtful practitioner-level deep dive into the non-trivial mechanics and tacit engineering knowledge required to make pretraining scaling laws hold.",
+  "points": [
+   "Frames pretrained models as amortized approximators limited by numerical signal propagation capacity and gradient SNR rather than pure compute.",
+   "Explains pretraining dynamics as sequential acquisition from frequent coarse correlations to rare multi-component features until forgetting and learning rates equilibrate.",
+   "Argues that scaling laws appear simple in retrospect only because extensive optimization and architectural scaffolding prevent subtle failure modes."
+  ]
+ },
+ "b7e30c8987e10119": {
+  "url": "https://kenimoto.dev/blog/karpathy-nanochat-43k-gpt2-8000-lines/",
+  "title": "Karpathy Nanochat: $43K GPT-2 Training in 8,000 Lines (2026) — Ken Imoto",
+  "domain": "kenimoto.dev",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-24",
+  "tier": "solid_find",
+  "why": "Provides a clean, concrete code audit and cost breakdown of modern minimal GPT-2 reproduction pipelines across cloud GPUs and local Apple silicon.",
+  "points": [
+   "Documents a 900x cost drop for GPT-2 level pretraining: from $43,000 (OpenAI, 2019) to $48 on 8xH100s down to ~$15 on spot instances in 2026.",
+   "Breaks down the entire end-to-end tokenizer, pretrain, and SFT pipeline implemented in just 8,159 lines across 6 directories.",
+   "Demonstrates a viable 40-minute CPU-only pipeline on an M3 Max laptop running 5,000 pretraining iterations and 1,500 SFT iterations."
+  ]
+ },
+ "0ff8efc6e84a8786": {
+  "url": "https://netraruntime.com/learn/paged-attention",
+  "title": "What is paged attention? | Netra Runtime",
+  "domain": "netraruntime.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-24",
+  "tier": "skip",
+  "why": "Generic vendor marketing content and introductory definitions of paged attention without novel technical data.",
+  "points": []
+ },
+ "c2bf98693db92c25": {
+  "url": "https://deepwiki.com/flashinfer-ai/flashinfer/3-cuda-kernel-architecture",
+  "title": "CUDA Kernel Architecture | flashinfer-ai/flashinfer | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-24",
+  "tier": "skip",
+  "why": "An automated documentation index page containing navigation links rather than substantive technical analysis.",
+  "points": []
+ },
+ "e29a9e4a5243cac6": {
+  "url": "https://p.rst.im/q/github.com/JohnScheuer/custom-llm-serving-engine",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-24",
+  "tier": "skip",
+  "why": "A misindexed proxy mirror page unrelated to LLM serving architecture.",
+  "points": []
+ },
+ "8b57179fce333623": {
+  "url": "https://algorithmine.com/interviews/ai-infrastructure-sre-scale-story-2026",
+  "title": "\"We Hit 10x Query Volume With Zero Latency Spikes\": An SRE's AI Infrastructure Story | Algorithmine",
+  "domain": "algorithmine.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-24",
+  "tier": "solid_find",
+  "why": "A detailed production SRE postmortem tackling real-world failure modes of naive autoscaling on vLLM clusters during a 10x traffic spike.",
+  "points": [
+   "Highlights why standard Kubernetes CPU-based HPA fails for LLM serving, triggering OOM kills and p95 latency spikes up to 8,200ms.",
+   "Outlines the shift to queue-depth and inference-specific metric autoscaling using KEDA combined with warm instance pools.",
+   "Discusses tactical infra stabilization under 1.2M daily inference requests without relying on overprovisioned hardware."
+  ]
  }
 }
