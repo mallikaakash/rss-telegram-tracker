@@ -58144,5 +58144,82 @@
   "points": [
    "Tests a low-temperature co-solvent method producing coconut-oil biofuel with thermal efficiency matching kerosene"
   ]
+ },
+ "d1afeccb07bcdb1d": {
+  "feed": "YC Hacker News",
+  "title": "Everything I own, owned",
+  "link": "https://schlarp.com/posts/everything-i-own-owned/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Everything I own, owned - schlarp.com schlarpc Everything I own, owned August 23, 2026 Over the past couple weeks I’ve been doing agent-driven reverse engineering of peripherals that happen to be within arm’s reach. From those devices, I’ve come away with a full plaintext command shell inside my microphone, a webcam whose activity LED I can switch off while it records, and a key light that hands out memory writes to anyone on the WiFi."
+  ]
+ },
+ "fe3d3d341997677c": {
+  "feed": "YC Hacker News",
+  "title": "How I find problems to solve as a staff engineer",
+  "link": "https://lalitm.com/post/find-problems-staff-engineer/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How I Find Problems to Solve as a Staff Engineer - Lalit Maganti Lalit Maganti × Subscribe About RSS How I Find Problems to Solve as a Staff Engineer Jul 25, 2026 at 14:55 · #big-tech #career #software-engineering Discussed on lobste.rs . Note: this post was revised after publishing for increased clarity, based on reader feedback . “How do you find problems worth working on?” a senior engineer I mentor asked me recently."
+  ]
+ },
+ "75a73f0d5f5385a6": {
+  "feed": "YC Hacker News",
+  "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+  "link": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Subscribe to read Accessibility help Skip to navigation Skip to main content Skip to footer Sign In Subscribe Open side navigation menu Open search bar Financial Times Subscribe Sign In Search the FT Search Close search bar Close Home World Sections World Home Middle East war Global Economy UK US China Africa Asia Pacific Emerging Markets Europe War in Ukraine Americas Middle East & North Africa Most Read Warsh seeks to soothe investors’ nerves as signs of economic strain mount Mark Carney says Canada ‘at war’ with US over trade Are America’s vast Gulf bases worth rebuilding?"
+  ]
+ },
+ "a19aa4c7f425ae2e": {
+  "feed": "YC Hacker News",
+  "title": "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel",
+  "link": "https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel, and Surprising Performance Traps - Scott Hanselman's Blog Scott Hanselman about blog podcast youtube speaking browse by category or date Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel, and Surprising Performance Traps August 23, 2026 Comment on this post [0] Posted in Musings Sponsored By --> I’ve had a Synology NAS for a very long time , and recently I started moving its contents to a new Ubiquiti UniFi UNAS Pro 8 ."
+  ]
+ },
+ "4b192a6211ddc94f": {
+  "feed": "YC Hacker News",
+  "title": "Google Workspace thinks my domain is an email provider (2025)",
+  "link": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "--> Google Workspace thinks my domain is an email provider Elis's Blog Home About --> RSS 𝕏 Google Workspace thinks my domain is an email provider Published Oct 7, 2025 | Updated Aug 23, 2026 Read by ... Update: As of August 2026, this issue is still present. I was creating a Google Workspace account for my company, as everyone knows, itâs a pretty straightforward sign-up process, until Iâm hit with a weird, confusing error when I type my domain name: âEnter a valid domain name instead of an email providerâ Huh?"
+  ]
+ },
+ "fc0f17557ab7491b": {
+  "feed": "Simon Willison",
+  "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+  "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here . Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable."
+  ]
+ },
+ "0e890f2df398c0d6": {
+  "feed": "Simon Willison",
+  "title": "Quoting Drew Breunig",
+  "link": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed."
+  ]
  }
 }
