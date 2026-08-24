@@ -58397,5 +58397,60 @@
   "points": [
    "Every day, millions of customers watch a tiny vehicle icon glide across their screen, a pristine purple line tracing the journey from store to doorstep. Behind that polished UI lies a spatial nightmare. In last-mile delivery, GPS signals degrade in narrow alleys, flyovers, and dense tech parks. Combined with low-end hardware and aggressive battery-saver modes, raw GPS data doesn’t trace a route it spatters coordinates."
   ]
+ },
+ "b0c0eb916d8271a1": {
+  "feed": "YC Hacker News",
+  "title": "OCR It – pull text out of un-copyable documents for your LLM",
+  "link": "https://github.com/thiagotigaz/ocr-it",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - thiagotigaz/ocr-it: Chrome extension: pin a screen region once, then hotkey your way through a paginated document. OCR runs 100% offline via bundled Tesseract. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "31086b693c245a67": {
+  "feed": "YC Hacker News",
+  "title": "Executable Is a SQLite Database",
+  "link": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Your executable is a SQLite database | Farid Zakaria’s Blog Skip to content Farid Zakaria 2026-08-23 · 13 min read Your executable is a SQLite database I have been probably obsessed with two things in the last few years: Nix as a tool to explore innovative ideas that require the capability to rebuild the world and replacing ELF with SQLite as an executable format."
+  ]
+ },
+ "328c58107c9e24cb": {
+  "feed": "YC Hacker News",
+  "title": "The Future Belongs to the Weird",
+  "link": "https://essays.georgestrakhov.com/weird/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Future Belongs To The Weird This essay is telescopic . It can shrink or expand, depending on how much attention you are willing to give. This is the original version (2785 words). Show other sizes . Small Medium Large The Future Belongs To The Weird or the gospel for those out of distribution If you were born in pre-modern times, the last thing you wanted to be was weird."
+  ]
+ },
+ "a23b81e848f79e04": {
+  "feed": "YC Hacker News",
+  "title": "Woman stranded in Spain after UK's eVisa system mistakes her for twin sister",
+  "link": "https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Woman stranded in Spain after UK’s eVisa system mistakes her for twin sister | Immigration and asylum | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Search jobs Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Wordiply Corrections Tips Search input google-search Search Search jobs Digital Archive Guardian Licensing Live events About Us World Europe US news Americas Asia Australia Middle East Africa Inequality Global development The Home Office indicated the problem Webb encountered had since been fixed and that staff would contact her directly."
+  ]
+ },
+ "952348d4b3feab9c": {
+  "feed": "YC Hacker News",
+  "title": "Andreessen Horowitz is investing billions into a bleak future",
+  "link": "https://www.modelrepublic.org/articles/a16z-portfolio",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Andreessen Horowitz is shaping AI policy â while investing in a bleak vision of the future - Model Republic Model Republic ABOUT CONTACT SUBSCRIBE Model Republic ABOUT CONTACT SUBSCRIBE M R Andreessen Horowitz is shaping AI policy â while investing in a bleak vision of the future The firmâs investment portfolio is full of companies that have exploited legal loopholes, created disturbing products, and broken the law."
+  ]
  }
 }
