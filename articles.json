@@ -58650,5 +58650,104 @@
   "points": [
    "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an intuitive mechanism for visual foresight but introduces substantial inference overhead, which is particularly problematic for proactive video reasoning."
   ]
+ },
+ "3fda61ddf7743941": {
+  "feed": "YC Hacker News",
+  "title": "Where Did All the Public Bathrooms Go?",
+  "link": "https://daily.jstor.org/where-did-all-the-public-bathrooms-go/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Where Did All the Public Bathrooms Go? - JSTOR Daily Skip to content from JSTOR, nonprofit library for the intellectually curious Newsletter Collections on JSTOR Teaching and Learning Resources Arts & Culture Art & Art History Film & Media Language & Literature Performing Arts Education & Society Education Lifestyle Religion Social Sciences Politics & History Politics & Government U.S."
+  ]
+ },
+ "c20a4456d4f9c6aa": {
+  "feed": "YC Hacker News",
+  "title": "The entire city of San Francisco as a video game",
+  "link": "https://sf.thijs.gg/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "San Francisco -- The Game Copyright © 2026 Apple Inc. All rights reserved. Terms & Conditions SAN FRANCISCO -- THE GAME CITY ONLINE READY TO EXPLORE CLICK TO TELEPORT N E S W N · 000° G · TILE STREAM IDLE CENTER · WAITING FOR TILE STATE FILL = CURRENT OWNER Z20 Z17 Z16 Z15 GROUND FILE FULL COLUMN READY VISIBLE CORNERS LOADING C · THIRD PERSON R · RESET − SPEED + SPEED − DIST + DIST V · WALK P · WORLD SAFE N · LIFE OFF L RANGE 470 m COPY DEBUG LOG WOOD 0 STONE 0 METAL 0 SAN FRANCISCO L · DETAIL MODE SAN FRANCISCO NEIGHBORHOOD READY 100% The streets around you are ready."
+  ]
+ },
+ "645a8ef6f47225f7": {
+  "feed": "YC Hacker News",
+  "title": "Autostep (YC P26) Is Hiring AI/Fullstack Engineers and a Chief of Staff",
+  "link": "https://www.ycombinator.com/companies/autostep/jobs",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jobs at Autostep | Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface SAFE Find a Co-Founder Events Startup Jobs Log in Apply Autostep The P&L for knowledge work Company Jobs 2 https://autostep.ai/ Jobs at Autostep Founding Chief of Staff, GTM + Operations San Francisco, CA, US Any (new grads ok) Apply Now › Founding Engineer, ML + Forward Deployment San Francisco, CA, US Any (new grads ok) Apply Now › Why you should join Autostep Autostep, a desktop app that finds repetitive tasks across your company, shows what each one costs, and recommends the highest-leverage fixes."
+  ]
+ },
+ "b4708e8dda2489d2": {
+  "feed": "YC Hacker News",
+  "title": "Jabber/XMPP: 25 Years of Digital Independence",
+  "link": "https://gultsch.de/posts/25-years-of-digital-independence/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Daniel Gultsch | Jabber/XMPP: 25 Years of Digital Independence Home Software Standardization Talks Posts Jabber/XMPP: 25 Years of Digital Independence August 24, 2026 9 minutes Table of Contents: Infrastructure Standards The X in XMPP A Future in the Past Infrastructure âWe should own our infrastructure.â A lot of people would instinctively nod in agreement with that statement."
+  ]
+ },
+ "cd91132ba13e3c69": {
+  "feed": "YC Hacker News",
+  "title": "Hot Chips 2026: CUDA Targets RISC-V – By Chester Lam",
+  "link": "https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hot Chips 2026: CUDA Targets RISC-V - by Chester Lam Chips and Cheese Subscribe Sign in Hot Chips 2026: CUDA Targets RISC-V CUDA is the most important software framework in the GPU compute world, and Nvidia is looking at supporting CUDA on RISC-V. Terms and conditions may apply. Chester Lam Aug 24, 2026 5 Share CUDA is a giant for GPU compute, which includes machine learning applications."
+  ]
+ },
+ "e8e03f68c1bad10e": {
+  "feed": "MIT News (AI)",
+  "title": "Generating scenarios for extreme events, without extreme data",
+  "link": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Can a city’s seawall stand up to a blockbuster storm? Will a region’s power grid hold against record-breaking heat? And can a town’s fire-fighting resources contain a major wildfire? To answer these questions, communities will first need to know how such extreme events could unfold. How far is a wildfire likely to spread? How much of a region might a storm impact?"
+  ]
+ },
+ "5002eff5d1522047": {
+  "feed": "Meta Engineering",
+  "title": "MetaRoCE: A New RDMA Transport Built for AI-Scale Ethernet",
+  "link": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Training and serving frontier AI models depends on fast, reliable networks that move data between GPUs without wasting compute cycles. To meet this challenge at scale, Meta designed MetaRoCE – a clean-sheet RDMA transport protocol purpose-built for AI workloads on commodity Ethernet. We’re releasing the MetaRoCE specification, a reference software implementation and a compliance test suite through the Open Compute Project (OCP) to enable the broader industry to adopt, implement, and build on it."
+  ]
+ },
+ "b2c3dfd16baa0479": {
+  "feed": "Meta Engineering",
+  "title": "MTIA 300: Meta’s First Training Chip with Built-in NICs and Communication-Offloading Engines",
+  "link": "https://engineering.fb.com/2026/08/24/networking-traffic/mtia-300-meta-training-chip-built-in-nics/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "MTIA 300 is the first of Meta’s family of in-house training and inference accelerators optimized for training ranking and recommendation models. We’re sharing how MTIA 300’s built-in NIC chiplets allow it to meet the communication needs associated with training recommendation models with superior performance over general-purpose GPUs. By co-designing MTIA’s communication library, HCCL, alongside the chip we’ve taken a fundamentally different approach to chip design and made communication a first-class citizen."
+  ]
+ },
+ "e741a06c69bec68e": {
+  "feed": "Stripe Blog",
+  "title": "Five monetization trends from global pricing leaders",
+  "link": "https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chat with Stripe sales 8 sales reps available We're here to discuss your business needs. Chat now with sales Five monetization trends from global pricing leaders Stripe logo Products Solutions Developers Resources Pricing Guide me Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Not sure where to start?"
+  ]
  }
 }
