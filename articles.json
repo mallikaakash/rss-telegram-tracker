@@ -58518,5 +58518,71 @@
   "points": [
    "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema ."
   ]
+ },
+ "a10515ed86a4147e": {
+  "feed": "YC Hacker News",
+  "title": "How Europe is killing makers and micro-entrepreneurs",
+  "link": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Europe is killing makers and micro-entrepreneurs How Europe is killing makers and micro-entrepreneurs Alain Pannetrat, August 24, 2026 Lectronz is a marketplace for open-source hardware makers and DIY electronics. Most of our sellers are not factories or well-funded start-ups. They are engineers, independent designers, and hardware enthusiasts working from spare rooms, garages, and tiny workshops."
+  ]
+ },
+ "f047b9c370d4f504": {
+  "feed": "YC Hacker News",
+  "title": "Why older tech is sometimes safer from hackers",
+  "link": "https://www.bbc.com/future/article/20260821-why-older-tech-is-sometimes-safer-from-hackers",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "'Security by antiquity': Why older tech is sometimes safer from hackers Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live 'Security by antiquity': Why older tech is sometimes safer from hackers 4 hours ago Share Save Add as preferred on Google Chris Baraniuk Alamy The fear of hacking has made some people turn to other forms of technology ignored by new generations of cyber criminals."
+  ]
+ },
+ "5edf446f8b2df573": {
+  "feed": "YC Hacker News",
+  "title": "Agent Is Not the Model",
+  "link": "https://code.joejag.com/2026/your-agent-is-not-the-model.html",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Your Agent Is Not the Model JoeJag - Just Another Dev About Talks Coding Dojo Katas Your Agent Is Not the Model Aug 23, 2026 I often hear people use the words agent and model interchangeably, referring to Claude as either one. So I thought it would be useful to write a quick reference on the terminology we use here, to help us have more precise conversations."
+  ]
+ },
+ "ede02d94d00d322f": {
+  "feed": "YC Hacker News",
+  "title": "New EU-wide product repair rules come into force",
+  "link": "https://www.rte.ie/news/business/2026/0824/1588931-repair-rules/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "New EU-wide product repair rules come into force skip to main content Your browser does not support Javascript. Please turn Javascript on to get the best experience from rte.ie News Sport Entertainment Business Lifestyle Culture Gaeilge Player Tv Radio Weather Login News Sport Entertainment Business Lifestyle Culture Player TV Radio Gaeilge Weather Archives Brainstorm History Discover Discover RTÉ Games RTÉ Archives RTÉ Brainstorm History Gaeilge RTÉ Learn Food RTÉ Food RTÉ Recipes Watch Watch RTÉ Player TV RTÉ One RTÉ2 RTÉ News RTÉjr Listen Listen Radio Podcasts RTÉ Radio 1 RTÉ 2FM RTÉ lyric fm RTÉ Raidió na Gaeltachta Services Services Orchestra RTÉ Weather Century Ireland Kids Kids RTÉ Kids RTÉ Learn Help Help Contact Feedback Accessibility Complaints Terms & Conditions Individual Rights Guide Privacy Policy Cookie Policy Freedom of Information Helplines Information Information About RTÉ TV Licence Vacancies Latest Annual Report Advertise with RTÉ 2rn Saorview Newsletters RTÉ Supporting the Arts Policies and Reports See all results news Business Agribusiness Focus on Inflation Business of Climate Work Brexit Watch and Listen Your Money Technology Markets Economy Analysis New EU-wide product repair rules come into force Updated / Monday, 24 Aug 2026 14:24 Getty Consumers can now request that manufacturers repair products that are technically repairable under EU law Brian O\\u0027Donovan By Brian O'Donovan Work & Technology Correspondent New EU rules have come into force designed to encourage consumers to repair rather than replace products to tackle the estimated 35 million tonnes of waste the premature disposal of consumer goods generates across the bloc."
+  ]
+ },
+ "d92046fb40b5e66f": {
+  "feed": "YC Hacker News",
+  "title": "Mourning Steve French",
+  "link": "https://lwn.net/Articles/1090098/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Mourning Steve French [LWN.net] LWN .net News from the source Content Weekly Edition Archives Search Kernel Security Events calendar Unread comments LWN FAQ Write for us User: Password: | | Log in / Subscribe / Register Mourning Steve French [Posted August 23, 2026 by corbet] From Jeremy Allison we have the sad news of the passing of Steve French. He was the maintainer of the kernel's SMB filesystem code for many years, having only dropped that role due to health issues in the last week."
+  ]
+ },
+ "b01edcf6b7606746": {
+  "feed": "Technica",
+  "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
+  "link": "https://arstechnica.com/gadgets/2026/08/review-chuwis-449-unibook-laptop-is-a-funhouse-mirror-macbook-neo/",
+  "date": "2026-08-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In another time, the MacBook Neo could have caused a substantial realignment of the lowish-end laptop business. Sure, it has shortcomings compared to the MacBook Air, but it could have at least encouraged PC makers to start shipping consistently decent keyboards, screens, and build quality in the Neo's $599 price window. The PC makers did start responding, thanks in part to Intel's actually new non-Ultra Core Series 3 processors (codenamed Wildcat Lake)."
+  ]
  }
 }
