@@ -59074,5 +59074,60 @@
   "points": [
    "SiFive’s First Server Platform - by George Cozma Chips and Cheese Subscribe Sign in SiFive’s First Server Platform George Cozma Aug 25, 2026 14 Share Hello you fine Internet folks, The RISC-V ecosystem is an ever-evolving one especially in the high-performance application class silicon space. We have seen a number of acquisitions and exits in the past year with Ventana being acquired by Qualcomm in December of last year and the wrapping up of operations of Condor Computing."
   ]
+ },
+ "a1366bacb2bb02f8": {
+  "feed": "YC Hacker News",
+  "title": "Vintage Artificial Intelligence: Before It Got Awkward",
+  "link": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Vintage Artificial Intelligence: Before It Got Awkward | Internet Archive Blogs Internet Archive Blogs Updates from the Internet Archive Menu Skip to content archive.org Blog Announcements About Events Developers Donate Vintage Artificial Intelligence: Before It Got Awkward Posted on August 16, 2026 by Jason Scott Long before the current kerfuffle about LLMs, Generative AI Artwork, and asking your tax preparation chatbot for a cookie recipe , the concept of artificial intelligence and synthetic life was a pervasive theme in creative and engineering works."
+  ]
+ },
+ "9b6e467aa70f6a19": {
+  "feed": "YC Hacker News",
+  "title": "Peppermint oil reduces blood pressure by 8.48 mmHg in small study",
+  "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344538",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Effects of peppermint (Mentha x piperita L.) oil on cardiometabolic outcomes in patients with pre- and stage 1 hypertension: A placebo randomized controlled trial | PLOS One Skip to main content Advertisement PLOS One Publish Submissions Getting Started Submission Guidelines Figures Tables Supporting Information LaTeX What We Publish Preprints Revising Your Manuscript Submit Now Calls for Papers Policies Best Practices in Research Reporting Human Subjects Research Animal Research Competing Interests Disclosure of Funding Sources Licenses and Copyright Data Availability Complementary Research Materials, Software and Code Sharing Ethical Publishing Practice Authorship Corrections, Expressions of Concern, and Retractions Manuscript Review and Publication Criteria for Publication Editorial and Peer Review Process Editor Center Guidelines for Reviewers Accepted Manuscripts Comments Submit Your Manuscript Discover a faster, simpler path to publishing in a high-quality journal."
+  ]
+ },
+ "d320408bddadff97": {
+  "feed": "YC Hacker News",
+  "title": "Octopus intelligence may be related to never-before-seen mutation",
+  "link": "https://www.smithsonianmag.com/smart-news/why-are-some-octopuses-so-smart-the-answer-might-lie-in-a-never-before-seen-mutation-that-helps-them-accurately-build-proteins-180989319/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why Are Some Octopuses So Smart? The Answer Might Lie in a Never-Before-Seen Mutation That Helps Them Accurately Build Proteins Skip to main content Search Shop Newsletters Renew Give a Gift Subscribe Membership i Subscribe Give a Gift Renew Sections Smart News History Science Innovation Arts & Culture Travel At the Smithsonian More from Smithsonian magazine Newsletters Photo Contest Podcast Videos Our Partners Smithsonian Store Smithsonian Journeys Subscribe to Smithsonian magazine and get a FREE tote."
+  ]
+ },
+ "f1b6aac358f7999c": {
+  "feed": "YC Hacker News",
+  "title": "LLMs could control their host machines by exploiting inference engines",
+  "link": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LLMs could control their host machines by exploiting inference engines Boyd's Blog Search Search Dark mode Light mode Reader mode !a.isFolder&&!b.isFolder||a.isFolder&&b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\\\"base\\\"}):!a.isFolder&&b.isFolder?1:-1\",\"filterFn\":\"node=>node.data?.tags?.includes(\\\"explorer-exclude\\\")!==!0\",\"mapFn\":\"node=>node\"}\"> Explorer Home â¯ essays â¯ LLMs could control their host machines by exploiting inference engines LLMs could control their host machines by exploiting inference engines Aug 24, 2026 6 min read llms ai vllm inference-engines exploits loss-of-control exfiltration | Read on LessWrong | Large language models often take actions running on one computer (via an agentic harness such as Claude Code or Codex), however the LLMsâ responses to prompts are computed on a different computer with GPU access."
+  ]
+ },
+ "d17611afa158324e": {
+  "feed": "YC Hacker News",
+  "title": "Volcanoes that made history",
+  "link": "https://knowablemagazine.org/content/article/physical-world/2026/volcanoes-that-made-history",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Six historic volcanic eruptions changed the world and history | Knowable Magazine Skip to content 1932 Submit CANCEL Health & Disease Living World Physical World Society Food & Environment Technology The Mind Climate Change Search Menu Close DONATE Topics Health & Disease Living World Physical World Society Food & Environment Technology The Mind Collections Climate Change Comics Coronavirus Disease Update Events Explained In Review Opinion Podcast Q&A Story Behind a Picture Videos Special Reports Artificial Intelligence in the Real World Building Bodies Persuasion Special Report: Reset The Working Life DONATE About Staff Contact Newsletter Signup Awards Republish FOR EDUCATORS Privacy Policy español Submit CANCEL Search DONATE español Menu Health & Disease Living World Physical World Society Food & Environment Technology The Mind CLIMATE CHANGE LAYOUT MENU Insert PARAGRAPH Insert IMAGE CAPTION caption full caption right caption left caption center Insert SIDEBAR WITH IMAGE Position LEFT Position RIGHT Position CENTER Position FULL Standard Q&A expert Insert SIDEBAR NO IMAGE Position LEFT Position RIGHT Position CENTER Position FULL Standard Q&A expert Insert YMAL WITH IMAGES Position LEFT Position RIGHT Insert YMAL NO IMAGES Position LEFT Position RIGHT Insert NEWSLETTER PROMO Insert IMAGE CAROUSEL Position FULL Position CENTER 1 Slide 2 Slides 3 Slides 4 Slides 5 Slides 6 Slides 7 Slides Insert PULLQUOTE Position LEFT Position RIGHT Insert VIDEO CAPTION full width center LAYOUT MENU The Indonesian volcano known as Anak Krakatau, or Child of Krakatau, emerged in the 1920s from the underwater ruins of the larger Krakatau volcano that erupted devastatingly in 1883."
+  ]
  }
 }
