@@ -59415,5 +59415,104 @@
   "points": [
    "Granite 4.2 LLMs: How They're Built Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Granite 4.2 LLMs: How They're Built Enterprise Article Published August 25, 2026 Upvote 10 +4 Yousaf Shah yousafshah Follow ibm-granite Swanand Kadhe kswanand1 Follow ibm-granite Riddhiman Moulick rmoulick Follow ibm-granite Ashish Sunil Agrawal ashish23 Follow ibm-granite :last-child]:mb-0\"> Overview Model Architecture Pre-Training SFT: Data Preparation & Quality Control Data Quality Control SFT Training Details Phase 2 SFT for the 30B Model Reinforcement Learning: A Multi-Stage, Multi-Environment Pipeline Training Methodology The Staged Curriculum Reward Signals Foundational RL: Build the Skills Agentic RL: Learning to Act (8B / 30B) Alignment: RLHF How the Three Sizes Differ Agentic AI Infrastructure for Scalable RL Results Quantization FP8 FP4 GGUF Infrastructure Hardware Software Stack Getting Started (Transformers) Installation Basic Inference (Thinking Mode) Non-Thinking Mode Low-Effort Thinking Tool Calling Basic Tool Calling Multi-Turn with Tool Response Multi-Turn Conversations History Thinking Truncation Parsing Thinking vs."
   ]
+ },
+ "9968150d92123e9c": {
+  "feed": "YC Hacker News",
+  "title": "Nitter project received cease and desist",
+  "link": "https://github.com/zedeus/nitter/issues/1442",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "All public nitter instances do not work. · Issue #1442 · zedeus/nitter · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "ec5e1953f81d62d1": {
+  "feed": "YC Hacker News",
+  "title": "Black hole singularity is a surface not a point",
+  "link": "https://arxiv.org/abs/2608.21590",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2608.21590] Black hole singularity is a surface not a point Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> General Relativity and Quantum Cosmology arXiv:2608.21590 (gr-qc) [Submitted on 21 Aug 2026] Title: Black hole singularity is a surface not a point Authors: Andrew J. S. Hamilton , Tyler McMaken View a PDF of the paper titled Black hole singularity is a surface not a point, by Andrew J."
+  ]
+ },
+ "cedf3467a2ccf1b7": {
+  "feed": "YC Hacker News",
+  "title": "My Friend Aaron",
+  "link": "https://rorz.io/writing/my-friend-aaron",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My Friend Aaron â Rory McMeekin RoryÂ McMeekin Writing Work Images Music Lists About Posts My Friend Aaron 21st August 2026 The following is a short story. * * * * * This one is about my friend, Aaron. I met him at school, and in our first year when we were eleven years old I told him I wanted to be his best friend but he said he already had a best friend."
+  ]
+ },
+ "48801e31189a0b90": {
+  "feed": "YC Hacker News",
+  "title": "Clara (YC P26) Is Hiring a Growth Engineer to Bring AI Doctors to Market",
+  "link": "https://www.ycombinator.com/companies/clara-2/jobs/8snci6k-founding-full-stack-growth-engineer",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Founding full-stack growth Engineer at Clara | Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface SAFE Find a Co-Founder Events Startup Jobs Log in Apply Clara AI primary care doctor Founding full-stack growth Engineer $130K - $210K • 0.10% - 0.40% • San Francisco, CA, US Job type Full-time Role Engineering, Full stack Experience 3+ years Visa Will sponsor Connect directly with founders of the best YC-funded startups."
+  ]
+ },
+ "26068ddbc9dad398": {
+  "feed": "YC Hacker News",
+  "title": "Run OpenBSD on DigitalOcean for $4/month",
+  "link": "https://nil.wallyjones.com/run-openbsd-on-digitalocean-for-4month/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Run OpenBSD on DigitalOcean for $4/month - Nil Nil About Archives Feed Run OpenBSD on DigitalOcean for $4/month August 23, 2026 My homepage now runs on OpenBSD with httpd(8) and Let's Encrypt via acme-client(1) . I previously hosted it on GitHub Pages and then eventually moved to Cloudflare Pages because both options were free and easy. Free and easy is cool, and I understand that writing software full-time leaves us wanting absolutely nothing to do with computers after we punch out, but lately I have been missing the do-it-yourself web that I grew up with."
+  ]
+ },
+ "e3f3f347c09ec022": {
+  "feed": "Technica",
+  "title": "Two unvaccinated people die from measles in Pennsylvania, officials confirm",
+  "link": "https://arstechnica.com/health/2026/08/two-unvaccinated-people-die-from-measles-in-pennsylvania-officials-confirm/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Two unvaccinated people have died from measles in Pennsylvania, state health officials confirmed Tuesday . They are the first measles deaths reported in Pennsylvania in 35 years and the first deaths reported in the US in 2026. Last year, the US saw three measles deaths : two in otherwise-healthy but unvaccinated school-age children in Texas and one in an unvaccinated adult in New Mexico."
+  ]
+ },
+ "582ff1eabfc11b15": {
+  "feed": "Technica",
+  "title": "SpaceX intends to invest up to $100 billion in massive Louisiana spaceport",
+  "link": "https://arstechnica.com/space/2026/08/spacex-intends-to-invest-up-to-100-billion-in-massive-louisiana-spaceport/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Louisiana Gov. Jeff Landry said Tuesday that SpaceX will commit $100 billion to develop Starship factories and launch pads in the state's coastal areas. In doing so, the company seeks to replicate the Starbase facility it has built over the last decade in southern Texas on a larger scale. The announcement capped months of speculation about SpaceX's interest in a sprawling parcel of land along the Gulf coast of Louisiana, which offers room to build multiple launch towers and offers access to the methane propellant that fuels the Starship rocket."
+  ]
+ },
+ "c772e10a4a4f40c8": {
+  "feed": "Technica",
+  "title": "Lab supply companies have been selling antibodies using manipulated images",
+  "link": "https://arstechnica.com/science/2026/08/lab-supply-companies-have-been-selling-antibodies-using-manipulated-images/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Antibodies play a central role in your body's immune defense. But they're also nearly ubiquitous in biological research, being essential for several widely used lab techniques. While some researchers need to go through the process of producing their own antibodies, antibodies to many key proteins are commercially available and can be ordered for overnight delivery."
+  ]
+ },
+ "cfc376addf8c8224": {
+  "feed": "OpenAI News",
+  "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+  "link": "https://openai.com/index/introducing-admin-plugin",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing the Admin plugin for ChatGPT Work and Codex | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 25, 2026 AI Adoption Introducing the Admin plugin for ChatGPT Work and Codex Understand workspace activity, manage access and usage, and take supported admin actions in one conversation."
+  ]
  }
 }
