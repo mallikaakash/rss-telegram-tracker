@@ -58892,5 +58892,132 @@
   "points": [
    "You likely noticed the recent redesign of the Cloudflare Blog. We added dark mode, modernized the look and feel, and made a lot of other small improvements along the way. What you might not have noticed – well, except for those who are more terminally online – is that the redesign was part of a much bigger migration project. On Wednesday, August 12, we moved the blog to EmDash , a content management system (CMS) built especially to work on Astro and with Cloudflare."
   ]
+ },
+ "4c433491c75583b9": {
+  "feed": "YC Hacker News",
+  "title": "Headlong: A Microharness for Persistent Agents",
+  "link": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "Explores an atypical agent architecture where LLMs have an uninterrupted stream-of-thought loop rather than reactive message-turn sessions.",
+  "points": [
+   "Proposes continuous execution where incoming messages append to a unified internal monologue stream rather than waking reactive sessions.",
+   "Implemented as a lightweight bash harness interacting via persistent communication hooks."
+  ]
+ },
+ "c740c9fe67dac264": {
+  "feed": "YC Hacker News",
+  "title": "Crafting QR Codes: A deep dive into QR code art (2024)",
+  "link": "https://kylezhe.ng/writes/crafting-qr-codes",
+  "date": "2026-08-25",
+  "tier": "low_priority",
+  "why": "Creative deep dive into QR code visual manipulation and Reed-Solomon encoding, irrelevant to backend/ML systems.",
+  "points": [
+   "Explores structural aesthetics and error correction boundaries of QR code visual design."
+  ]
+ },
+ "b832fd5e09720b88": {
+  "feed": "YC Hacker News",
+  "title": "Training AI to Paint with Code",
+  "link": "https://surya.website/rling-qwen-to-paint-with-code",
+  "date": "2026-08-25",
+  "tier": "must_read",
+  "why": "Directly covers end-to-end RL training (GRPO) on LLMs for non-deterministic visual code generation, addressing practical reward function collapse.",
+  "points": [
+   "Fine-tuned Qwen 3.5 35B using GRPO to output executable p5.brush JS rendered via Puppeteer.",
+   "Diagnosed reward plateau caused by highly correlated sub-rewards (0.85-0.95) and saturated length heuristics, replacing them with pairwise relative judges.",
+   "Provides a concrete case study on designing reward models and verifiers when the output is creative rather than formal logic."
+  ]
+ },
+ "478fce4e53acd328": {
+  "feed": "YC Hacker News",
+  "title": "Ox-Alpha Is GLM?",
+  "link": "https://dejan.ai/blog/ox-alpha/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "Interesting reverse-engineering demonstration uncovering model identity via system prompt extraction and token distribution inspection.",
+  "points": [
+   "Reveals 'Ox-Alpha' on OpenRouter to be a GLM derivative via a word-count reasoning prompt injection exploit.",
+   "Demonstrates fragility in guardrails that leak developer identity instructions during reasoning traces."
+  ]
+ },
+ "a6ba381c77a0f332": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
+  "link": "https://tarjan.itch.io/thoreaubasic",
+  "date": "2026-08-25",
+  "tier": "low_priority",
+  "why": "Hobbyist bare-metal UEFI BASIC interpreter with no direct relevance to modern ML or distributed infra.",
+  "points": [
+   "Implements a GW-BASIC compatible interpreter booting straight from modern UEFI firmware."
+  ]
+ },
+ "74e7cf421fbc26e2": {
+  "feed": "Technica",
+  "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
+  "link": "https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/",
+  "date": "2026-08-25",
+  "tier": "low_priority",
+  "why": "Web security and browser fingerprinting news using WebAudio oscillators, not relevant to ML infra.",
+  "points": [
+   "AliExpress caught using silent WebAudio sawtooth wave generation to uniquely fingerprint user hardware."
+  ]
+ },
+ "3226dc8d79ceaa83": {
+  "feed": "Technica",
+  "title": "Buyer beware: Those mummified remains might carry toxic spores",
+  "link": "https://arstechnica.com/science/2026/08/modern-trade-of-mummified-remains-may-carry-its-own-mummys-curse/",
+  "date": "2026-08-25",
+  "tier": "low_priority",
+  "why": "Archaeology and biology article completely unrelated to technical systems.",
+  "points": [
+   "Mummified remains present hazardous micro-organisms and toxic heavy metal risks to handlers."
+  ]
+ },
+ "3de1560a7afaa842": {
+  "feed": "Technica",
+  "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+  "link": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "Geopolitical/hardware supply chain news detailing semiconductor smuggling channels for high-end AI servers.",
+  "points": [
+   "Taiwanese prosecutors indicted nine individuals across Nvidia and Supermicro for forging export control documents.",
+   "Illustrates ongoing enterprise supply chain risks and illicit routes around US AI hardware export restrictions."
+  ]
+ },
+ "923a97904c63e917": {
+  "feed": "Technica",
+  "title": "F1 in the Netherlands: The driver you most want to beat is your teammate",
+  "link": "https://arstechnica.com/cars/2026/08/f1-in-the-netherlands-the-driver-you-most-want-to-beat-is-your-teammate/",
+  "date": "2026-08-25",
+  "tier": "low_priority",
+  "why": "Sports news covering Formula 1 driver contracts.",
+  "points": [
+   "Max Verstappen confirmed staying in F1 alongside contract extensions at Williams."
+  ]
+ },
+ "6c0ab7f23bc7bc9e": {
+  "feed": "Technica",
+  "title": "Trump tried to curb clean energy. It’s booming anyway.",
+  "link": "https://arstechnica.com/science/2026/08/trump-tried-to-curb-clean-energy-its-booming-anyway/",
+  "date": "2026-08-25",
+  "tier": "low_priority",
+  "why": "Broad macro-energy reporting, only tangentially mentioning data center power demand without technical depth.",
+  "points": [
+   "US clean energy installations projected to grow by 45 GW despite regulatory shifts, partly driven by data center power needs."
+  ]
+ },
+ "2983dbf79834f512": {
+  "feed": "Hugging Face Blog",
+  "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+  "link": "https://huggingface.co/blog/gradio-workflow-guide",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "Details Gradio's new node-graph UI for composing chained model inferences and pipeline endpoints.",
+  "points": [
+   "Introduces `gr.Workflow` for visual computation graphs where each node automatically maps to a runnable REST endpoint.",
+   "Enables branching patterns like fan-out execution across multiple inference backends in parallel."
+  ]
  }
 }
