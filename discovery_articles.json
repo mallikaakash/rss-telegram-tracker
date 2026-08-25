@@ -2972,5 +2972,65 @@
    "Outlines the shift to queue-depth and inference-specific metric autoscaling using KEDA combined with warm instance pools.",
    "Discusses tactical infra stabilization under 1.2M daily inference requests without relying on overprovisioned hardware."
   ]
+ },
+ "b095dd908642fb22": {
+  "url": "https://www.zhongzhuzhou.org/blog/2026-08-02-feplb-technical-review-en/",
+  "title": "FEPLB: Exploiting Copy Engines for Nearly Free MoE Load Balancing in Distributed Training | Zhongzhu (Charlie) Zhou",
+  "domain": "zhongzhuzhou.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-25",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "14dec6eb65ad370a": {
+  "url": "https://mlblueprints.substack.com/p/inside-megatron-lm-how-nvidia-taught",
+  "title": "Inside Megatron-LM: How NVIDIA Taught Transformers to Split Themselves Across GPUs",
+  "domain": "mlblueprints.substack.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-25",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "fa18121547634f76": {
+  "url": "https://labs.scale.com/papers/guide",
+  "title": "GUIDE: Adaptive Guidance for Reasoning Models | Scale Labs",
+  "domain": "labs.scale.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-25",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "74d4b90318538928": {
+  "url": "https://www.zhongzhuzhou.org/blog/2026-08-18-gcpo-technical-review-en/",
+  "title": "GCPO: Why Some GRPO Updates Quietly Break Your Model, and How to Structurally Forbid Them | Zhongzhu (Charlie) Zhou",
+  "domain": "zhongzhuzhou.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-25",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3f942796f646f7a1": {
+  "url": "https://deepwiki.com/casys-kaist/LLMServingSim",
+  "title": "casys-kaist/LLMServingSim | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-25",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "1bbafdb969bd505c": {
+  "url": "https://orhunkupeli.hashnode.dev/one-gpu-two-llms",
+  "title": "GPU Time-Slicing on EKS: Running Two LLMs on a Single Tesla",
+  "domain": "orhunkupeli.hashnode.dev",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-25",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
