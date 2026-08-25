@@ -59019,5 +59019,60 @@
    "Introduces `gr.Workflow` for visual computation graphs where each node automatically maps to a runnable REST endpoint.",
    "Enables branching patterns like fan-out execution across multiple inference backends in parallel."
   ]
+ },
+ "5b852dd16049a08a": {
+  "feed": "YC Hacker News",
+  "title": "Nostr is an inclusive communication commons",
+  "link": "https://nostr.org/",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nostr - Notes and Other Stuff Transmitted by Relays nostr Support Apps Explore Spec An open social protocol with a chance of working Nostr is an inclusive communication commons. A simple standard that defines a scalable architecture of clients and servers that can be used to spread information freely. Not controlled by any corporation or government, anyone can build on Nostr and anyone can use it."
+  ]
+ },
+ "4762f50065dc0360": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Screen memory without screenshots, just text to Markdown",
+  "link": "https://github.com/dragthelake/ambient-context",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - dragthelake/ambient-context: A menu bar app that keeps a written record of what you worked on. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "4a7b6ff0a9042b53": {
+  "feed": "YC Hacker News",
+  "title": "What's new in Emacs 31.1",
+  "link": "https://www.masteringemacs.org/article/whats-new-in-emacs-311",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What's New in Emacs 31.1? - Mastering Emacs Close Try Mastering Emacs for free! Are you struggling with the basics? Have you mastered movement and editing yet? When you have read Mastering Emacs you will understand Emacs. Learn Emacs Open main menu Mastering Emacs About Article Index Reading Guide My Emacs Packages Log in → --> Close menu Mastering Emacs About Article Index Reading Guide My Emacs Packages Emacs 29 Edition is out now!"
+  ]
+ },
+ "4f0aaad359d09676": {
+  "feed": "YC Hacker News",
+  "title": "Walgit – a Git server that is one binary in front of an object store",
+  "link": "https://github.com/tobi/walgit",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - tobi/walgit · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "affac886fad1e37f": {
+  "feed": "YC Hacker News",
+  "title": "SiFive's First Server Platform",
+  "link": "https://chipsandcheese.com/p/sifives-first-server-platform",
+  "date": "2026-08-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "SiFive’s First Server Platform - by George Cozma Chips and Cheese Subscribe Sign in SiFive’s First Server Platform George Cozma Aug 25, 2026 14 Share Hello you fine Internet folks, The RISC-V ecosystem is an ever-evolving one especially in the high-performance application class silicon space. We have seen a number of acquisitions and exits in the past year with Ventana being acquired by Qualcomm in December of last year and the wrapping up of operations of Condor Computing."
+  ]
  }
 }
