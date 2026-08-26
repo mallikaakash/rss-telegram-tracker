@@ -59635,5 +59635,60 @@
   "points": [
    "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example 1 / 2 is 0 in Python 2 but is 0.5 in Python 3."
   ]
+ },
+ "089a88c7a5ae788e": {
+  "feed": "YC Hacker News",
+  "title": "Queryable Executables",
+  "link": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Actually Queryable Executables | Farid Zakaria’s Blog Skip to content Farid Zakaria 2026-08-24 · 8 min read Actually Queryable Executables I was pleasantly surprised and happy to see that my article ‘ Your executable is a SQLite database ’ resonated with people. It is a format I have been thinking about for a while, and the idea seems to have struck a chord with others."
+  ]
+ },
+ "22dba9e77261e239": {
+  "feed": "YC Hacker News",
+  "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
+  "link": "https://github.com/runetes/maiao",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - runetes/maiao: Seamless GitHub PR management from the command-line · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "489929a1470052a3": {
+  "feed": "YC Hacker News",
+  "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+  "link": "https://arxiv.org/abs/2607.21503",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2607.21503] Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Artificial Intelligence arXiv:2607.21503 (cs) [Submitted on 23 Jul 2026] Title: Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems Authors: Gaurav Dadhich View a PDF of the paper titled Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems, by Gaurav Dadhich View PDF HTML (experimental) Abstract: Production AI agents' failures are less often due to an inability to reason well and more often because they cannot manage what is in their reasoning context: conversation histories, large prompts, large tool definitions, and ballooning tool outputs."
+  ]
+ },
+ "c21d61ec22c39024": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+  "link": "https://github.com/swimmingbrain/texbrain",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - swimmingbrain/texbrain: FOSS browser-based latex editor with live preview, real-time collaboration, and git integration. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "1421814c7a92b465": {
+  "feed": "YC Hacker News",
+  "title": "Ask HN: What is one simple thing LLMs are insanely bad at?",
+  "link": "https://news.ycombinator.com/item?id=49443820",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ask HN: What is one simple thing LLMs are insanely bad at? | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Ask HN: What is one simple thing LLMs are insanely bad at? 22 points by davidest 1 hour ago | hide | past | favorite | 35 comments I am looking for ideas on what to train a specialized model for! What is one simple thing you repeatedly ask ChatGPT, Claude, or another model to do that it still somehow messes up?"
+  ]
  }
 }
