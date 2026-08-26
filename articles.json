@@ -59746,5 +59746,71 @@
   "points": [
    "Introduces a 'warm window' timer pattern (200ms initial delay, 300ms skip window) to improve consecutive tooltip hover responsiveness in React."
   ]
+ },
+ "cc574d6ca9bf9f9f": {
+  "feed": "YC Hacker News",
+  "title": "Harvest (IBM 7950): Supercomputer for cryptanalysis at the NSA in the Cold War",
+  "link": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "--> Raven.config('https://6b64f5cc8af542cbb920e0238864390a@sentry.io/147999').install(); Secret Cold War Supercomputer Was Built for One Job - IEEE Spectrum IEEE.org IEEE Xplore IEEE Standards IEEE Job Site More Sites Sign In Join IEEE IBM Built the Cold War’s Most Powerful Code Breaker for the NSA Share FOR THE TECHNOLOGY INSIDER Search: Explore by topic Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation IEEE Spectrum FOR THE TECHNOLOGY INSIDER Topics Aerospace AI Biomedical Climate Tech Computing Consumer Electronics Energy History of Technology Robotics Semiconductors Telecommunications Transportation Sections Features News Opinion Careers DIY Engineering Resources More Newsletters Special Reports Collections Explainers Top Programming Languages Robots Guide ↗ IEEE Job Site ↗ For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive For IEEE Members Current Issue Magazine Archive The Institute The Institute Archive IEEE Spectrum About Us Contact Us Reprints & Permissions ↗ Advertising ↗ Follow IEEE Spectrum Support IEEE Spectrum IEEE Spectrum is the flagship publication of the IEEE — the world’s largest professional organization devoted to engineering and applied sciences."
+  ]
+ },
+ "89969ef5c7b62233": {
+  "feed": "YC Hacker News",
+  "title": "Disrupting a new covert influence campaign from Russia",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Disrupting a new covert influence campaign from Russia | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 25, 2026 Global Affairs Disrupting a new covert influence campaign from Russia Loading… Share Actor Actor AI activity Non-AI activity Impact Actor AI activity Non-AI activity Impact Our mission is to ensure that artificial general intelligence benefits all of humanity."
+  ]
+ },
+ "724c107a7f14fab5": {
+  "feed": "YC Hacker News",
+  "title": "I miss the old Claude Code",
+  "link": "https://alexkras.com/focus-is-the-main-feature-why-i-miss-the-old-claude-code/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I Miss the Old Claude Code Skip to content Menu Archive Top Posts GitHub LinkedIn Contact I Miss the Old Claude Code August 25, 2026 August 23, 2026 by admin Like many others, Anthropic won me slowly, over time. How Anthropic won me over I started with generative AI through a web interface I hosted myself, using my own API keys through Open Router and my own local models."
+  ]
+ },
+ "7369d43a2315535c": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+  "link": "https://github.com/ThinkOffApp/CarWatch",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - ThinkOffApp/CarWatch: Your car as a chat-room agent: Raspberry Pi 5 + dashcam + local AI. CodeWatch's sibling for the garage. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "b7598d97e9ed672b": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+  "link": "https://github.com/jeffhajewski/latticedb",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - jeffhajewski/latticedb: Embedded single-file knowledge graph database with vector search and full-text search for AI/RAG apps · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "e7386291854e2ef6": {
+  "feed": "Simon Willison",
+  "title": "Quoting Paul Dix",
+  "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short."
+  ]
  }
 }
