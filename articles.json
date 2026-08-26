@@ -59812,5 +59812,82 @@
   "points": [
    "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short."
   ]
+ },
+ "5b072c291778f08a": {
+  "feed": "YC Hacker News",
+  "title": "Oldinsurancemaps.net is now a Charter Project",
+  "link": "https://openstreetmap.us/news/2026/08/oim-charter-project/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OldInsuranceMaps.net is now a Charter Project! | OpenStreetMap US OpenStreetMap US About Contact Board Staff Advisory Council Code of Conduct Reports Press Our Work TeachOSM Mapping for Impact Trails Community & Charter Projects MapRoulette OSMCha Field Papers OSM US Tileservice Layercake OpenTrailMap Public Domain Map Get Involved Start Mapping Individual Membership Organizational Membership Microgrants Slack Tasking Manager Working Groups Swag Store Donate ❤︎ Events State of the Map US Mapping USA Mappy Hours OSMGeoWeek Recorded Talks Calendar News Latest Guest Posts Out & About Newsletter Member Login News OldInsuranceMaps.net is now a Charter Project!"
+  ]
+ },
+ "13c94f23e5ccf9e9": {
+  "feed": "YC Hacker News",
+  "title": "RAG Is Simpler Than You Think",
+  "link": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "6 RAG Architectures — and How to Avoid Over-Engineering Lighthouse AI Subscribe Sign in RAG Is Simpler Than You Think Six approaches to retrieval-based AI, from minimal to elaborate Rafael Pierre Jun 10, 2026 1 3 Share Nowadays, most people seem to over-engineer their RAG stack. They jump straight to embeddings, vector databases, and reranking pipelines."
+  ]
+ },
+ "5a6b14ecd33b22e9": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Buslens – where can I get to by bus? (UK)",
+  "link": "https://rupertlinacre.com/buslens/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "be1b549dd3ed781c": {
+  "feed": "YC Hacker News",
+  "title": "Value Classes Still Need Compiler Sympathy",
+  "link": "https://johan-sjolen.github.io/post/compiler-sympathy/compiler-sympathy/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Value Classes Still Need Compiler Sympathy Johan Sjölén's blog My personal bog About Dark Mode Blog Value Classes Still Need Compiler Sympathy Friday, August 21, 2026 12 minutes read This post discusses preview features in JDK 28 JEP 401 , a major Valhalla milestone, has been integrated as a preview feature in JDK 28. This is very exciting, as value classes increase both our ability to communicate the semantics of our programs to others and the optimization opportunities available to the JVM."
+  ]
+ },
+ "335d068a83ca11cf": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Banking Access Index – 19 US banking providers, 8 countries, CC-BY",
+  "link": "https://www.globalsolo.global/data/banking-access-index",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "US Banking Access Index for Non-Resident Founders (2026) — Global Solo Compare Get Started Tools Articles About Free Diagnostic Home / Data / Banking Access Index US Banking Access Index for Non-Resident Founders (2026) Which US business banking providers actually accept founders who live outside the US — documented from provider-published sources, not anecdotes."
+  ]
+ },
+ "d34e82eae2f299fc": {
+  "feed": "OpenAI News",
+  "title": "How loveholidays is making everyone a builder with Codex",
+  "link": "https://openai.com/index/loveholidays",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How loveholidays is making everyone a builder with Codex | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 26, 2026 How loveholidays is making everyone a builder with Codex The online travel company is using Codex to put software development in the hands of teams across the business—while helping engineers focus on harder problems."
+  ]
+ },
+ "82377b191bcdee0b": {
+  "feed": "MIT News (AI)",
+  "title": "AI helps design new materials that work in the real world",
+  "link": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, anyone with a large enough artificial intelligence model can generate millions of new material designs in minutes. Unfortunately, that hasn’t led to a huge leap in the number of new materials being used to improve the performance of products like computer chips and rockets. One reason for the translation gap is that current models don’t reliably factor in the chemical stability of the materials they generate, and unstable materials aren’t very useful in the real world."
+  ]
  }
 }
