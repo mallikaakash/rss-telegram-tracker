@@ -59690,5 +59690,61 @@
   "points": [
    "Ask HN: What is one simple thing LLMs are insanely bad at? | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Ask HN: What is one simple thing LLMs are insanely bad at? 22 points by davidest 1 hour ago | hide | past | favorite | 35 comments I am looking for ideas on what to train a specialized model for! What is one simple thing you repeatedly ask ChatGPT, Claude, or another model to do that it still somehow messes up?"
   ]
+ },
+ "c47f658bbbc8a77b": {
+  "feed": "YC Hacker News",
+  "title": "More than half of adults in U.S. say they lack basic statistical understanding",
+  "link": "https://www.psu.edu/news/research/story/more-half-adults-us-say-they-lack-basic-statistical-understanding",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "A general population survey on statistical literacy contains no relevant technical content for ML engineering or applied modeling.",
+  "points": [
+   "62% of surveyed US adults report limited or no statistical knowledge, though 90% express interest in using statistics more if understood."
+  ]
+ },
+ "20199fae6c3e98e9": {
+  "feed": "YC Hacker News",
+  "title": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
+  "link": "https://www.youtube.com/watch?v=656058JxTM0",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "A retrospective talk on classic computer security history with no direct relevance to modern backend systems or ML infrastructure.",
+  "points": [
+   "Cliff Stoll reflects on the 40-year legacy of tracking hackers documented in 'The Cuckoo's Egg'."
+  ]
+ },
+ "3d49b8be15d2d55e": {
+  "feed": "YC Hacker News",
+  "title": "Students prefer Gemini over ChatGPT and Claude for AI essays in blind tests",
+  "link": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "A high-level consumer LLM preference study for essay writing lacking architectural, training, or serving insights.",
+  "points": [
+   "In a blind evaluation of 6,851 student votes, Gemini led writing preference at 39.6%, over Claude (31.8%) and ChatGPT (29.2%).",
+   "Focuses on prompt usage recommendations rather than model evaluation methodology or technical benchmarks."
+  ]
+ },
+ "6efaf1edb02458c8": {
+  "feed": "YC Hacker News",
+  "title": "Building a backyard office, the build and cost breakdown",
+  "link": "https://www.imkylelambert.com/articles/building-a-backyard-office-the-build-and-cost-breakdown",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "A personal lifestyle guide covering backyard shed construction costs and permits, unrelated to engineering work.",
+  "points": [
+   "Breakdown of costs and planning trade-offs between prefab office pods and custom Tuff Shed conversions for remote work."
+  ]
+ },
+ "05c030a0e18f71e1": {
+  "feed": "YC Hacker News",
+  "title": "Tooltips need a delay, and then they need to skip it",
+  "link": "https://blog.master.dev/tooltips-need-a-delay-and-then-they-need-to-skip-it/",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "A frontend UI/UX implementation detail for tooltip hover states that is outside backend and ML engineering priorities.",
+  "points": [
+   "Introduces a 'warm window' timer pattern (200ms initial delay, 300ms skip window) to improve consecutive tooltip hover responsiveness in React."
+  ]
  }
 }
