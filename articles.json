@@ -60146,5 +60146,131 @@
   "points": [
    "Supervised fine-tuning on teacher-generated trajectories is the standard first stage for distilling tool-calling capabilities into deployable models. Post-training pipelines that drive shipped tool-calling agents re-run this stage on a daily or weekly cadence, paying the frontier-teacher cost each cycle, yet the mechanism is generate-and-filter (keep the teacher’s passing trajectories, discard the rest) and each cycle leaves behind the same hard scenarios because failures supply no signal."
   ]
+ },
+ "256005002a962116": {
+  "feed": "YC Hacker News",
+  "title": "Tailcat",
+  "link": "https://github.com/tailscale/tailcat",
+  "date": "2026-08-27",
+  "tier": "worth_a_skim",
+  "why": "Interesting networking tool from Tailscale showing how to leverage WireGuard/DERP data planes independently of central control infrastructure.",
+  "points": [
+   "Implements netcat-like peer-to-peer data transmission directly over Tailscale's WireGuard-based data plane.",
+   "Operates without connecting to Tailscale's centralized control plane or requiring a standard Tailscale coordination server.",
+   "Useful reference architecture for decentralized backend networking and ad-hoc secure tunnels."
+  ]
+ },
+ "cfa42388e2537ed8": {
+  "feed": "YC Hacker News",
+  "title": "An ongoing 3D-printer AGPL violation",
+  "link": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+  "date": "2026-08-27",
+  "tier": "low_priority",
+  "why": "Focuses on 3D printer AGPLv3 legal compliance rather than ML systems or backend architecture.",
+  "points": [
+   "Software Freedom Conservancy presented an ongoing AGPLv3 license violation investigation regarding Bambu Lab 3D printer software."
+  ]
+ },
+ "aaffc556b209ef65": {
+  "feed": "YC Hacker News",
+  "title": "Study Reveals UnitedHealth's Profit Margins Four Times What It Claimed [pdf]",
+  "link": "https://insurancewatchdogcoalition.com/wp-content/uploads/2026/08/UHG-Profits-Study_August-2026.pdf",
+  "date": "2026-08-27",
+  "tier": "low_priority",
+  "why": "Unreadable PDF artifact covering healthcare finance and profit margins.",
+  "points": [
+   "Analysis of UnitedHealth profit margin reporting versus actual financial metrics."
+  ]
+ },
+ "919c1817fb01f5f9": {
+  "feed": "YC Hacker News",
+  "title": "The Tariff Cost: analysis of the costs to Americans from new tariffs on Canada",
+  "link": "https://thetariffcost.com/",
+  "date": "2026-08-27",
+  "tier": "low_priority",
+  "why": "General macroeconomic analysis of trade policy and import tariffs with no engineering relevance.",
+  "points": [
+   "Economic modeling tool tracking costs of U.S.-Canada tariffs across goods, exporters, and energy imports."
+  ]
+ },
+ "9791840f9617b448": {
+  "feed": "YC Hacker News",
+  "title": "CoMaps: The Offline App That Guided Rescuers Without a Signal in Venezuela",
+  "link": "https://hotosm.org/en/news/comaps-the-offline-app-that-guided-rescuers-without-a-signal-in-the-venezuela-response/",
+  "date": "2026-08-27",
+  "tier": "low_priority",
+  "why": "Humanitarian disaster response app story with minimal technical or ML relevance.",
+  "points": [
+   "CoMaps provided offline mapping capabilities to emergency search and rescue teams during flooding in Venezuela."
+  ]
+ },
+ "bb40d847718984a9": {
+  "feed": "Technica",
+  "title": "The Porsche 911 GT3 Touring punches above its weight class",
+  "link": "https://arstechnica.com/cars/2026/08/driven-the-992-2-porsche-911-gt3-touring-earns-its-keep/",
+  "date": "2026-08-27",
+  "tier": "low_priority",
+  "why": "Automotive review of a sports car.",
+  "points": [
+   "Review of the updated 992.2 Porsche 911 GT3 Touring focusing on its naturally aspirated engine and chassis dynamics."
+  ]
+ },
+ "07782fdd28c9cc6b": {
+  "feed": "Technica",
+  "title": "Xbox’s new disc-to-digital program gives physical games a digital future",
+  "link": "https://arstechnica.com/gaming/2026/08/xboxs-new-disc-to-digital-program-gives-physical-games-a-digital-future/",
+  "date": "2026-08-27",
+  "tier": "low_priority",
+  "why": "Consumer gaming console licensing announcement.",
+  "points": [
+   "Microsoft launched a disc-to-digital entitlement program for Xbox One and Series X physical discs."
+  ]
+ },
+ "3d2661b661f5ed37": {
+  "feed": "Google Research",
+  "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+  "link": "https://research.google/blog/glucofm-foundation-model-for-continuous-glucose-monitoring/",
+  "date": "2026-08-27",
+  "tier": "worth_a_skim",
+  "why": "Directly relevant to applied time-series and industrial sensor ML, demonstrating foundation model techniques on continuous sensor streams.",
+  "points": [
+   "Introduces a self-supervised foundation model specifically tailored for continuous temporal bio-sensor streams.",
+   "Uses a dual-stream architecture that explicitly decouples slow baseline trends from high-frequency short-term deviations.",
+   "Provides a strong representation learning paradigm transferable to other continuous industrial sensor time-series tasks."
+  ]
+ },
+ "83abfc082897739b": {
+  "feed": "Google DeepMind",
+  "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+  "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+  "date": "2026-08-27",
+  "tier": "worth_a_skim",
+  "why": "Notable speech foundation model release from DeepMind relevant to inference and multimodal engineering.",
+  "points": [
+   "Announces Gemini 3.5 Transcribe, an audio foundation model targeted at high-precision, low-latency real-time speech-to-text.",
+   "Expands Gemini audio capabilities for streaming developer applications."
+  ]
+ },
+ "d6bb1031e66bcecd": {
+  "feed": "OpenAI News",
+  "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+  "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+  "date": "2026-08-27",
+  "tier": "low_priority",
+  "why": "Standard corporate PR and policy announcement for K-12 education partnerships.",
+  "points": [
+   "OpenAI expands ChatGPT for Teachers to 55 additional school districts with a multi-state student data privacy agreement."
+  ]
+ },
+ "cdfc10030b4b066d": {
+  "feed": "OpenAI News",
+  "title": "Learning never stops: How AI makes learning continuous",
+  "link": "https://openai.com/index/learning-never-stops",
+  "date": "2026-08-27",
+  "tier": "low_priority",
+  "why": "High-level marketing report on consumer study habits without engineering substance.",
+  "points": [
+   "OpenAI usage survey reporting peak homework assistance volumes and educational prompt patterns on ChatGPT."
+  ]
  }
 }
