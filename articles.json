@@ -59970,5 +59970,93 @@
   "points": [
    "Review of an automatic electronic-shifting transmission on the Xtracycle Swoop ASM cargo bike."
   ]
+ },
+ "3966433b8e10954e": {
+  "feed": "YC Hacker News",
+  "title": "AWS Acquires DuckDB",
+  "link": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DuckLabs – DuckLabs to Join AWS, Projects to Remain Open Source Services About Blog Newsroom Jobs DuckDB Jobs DuckDB DuckLabs to Join AWS, Projects to Remain Open Source Mark Raasveldt and Hannes Mühleisen 2026-08-26 | 10 min Today, we’re announcing that DuckLabs will join Amazon Web Services (AWS) , which is expected to be effective in early September."
+  ]
+ },
+ "05f53b90b4745d6c": {
+  "feed": "YC Hacker News",
+  "title": "GLM-5.3-Flash",
+  "link": "https://z.ai/blog/glm-5.3-flash",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "b6e71c13696b6ec8": {
+  "feed": "YC Hacker News",
+  "title": "Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency",
+  "link": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "bbb51d8f57c9403e": {
+  "feed": "YC Hacker News",
+  "title": "Meta reaches $16.68B settlement over social media harms to children",
+  "link": "https://www.reuters.com/world/us/meta-settles-with-us-states-over-social-media-harms-2026-08-26/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "cec3de8a12dc87fb": {
+  "feed": "YC Hacker News",
+  "title": "A curmudgeon tries a language server",
+  "link": "https://entropicthoughts.com/curmudgeon-tries-language-server",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A curmudgeon tries a language server Entropic Thoughts A curmudgeon tries a language server Home Archive Tags About xkqr.org A curmudgeon tries a language server by kqr , published 2026-08-25 Tags: haskell programming I write code roughly the same way I did ten years ago 1 1 Well, this was true when I started drafting this article. I have since adopted robots to do much more of the actual typing of code, unless it’s a project where (a) I care about code quality, or (b) I try to learn something."
+  ]
+ },
+ "09a3d49de5ac65b7": {
+  "feed": "Technica",
+  "title": "15,000 years of solar wind in four hours? A Seattle company gives it a go.",
+  "link": "https://arstechnica.com/space/2026/08/15000-years-of-solar-wind-in-four-hours-a-seattle-company-gives-it-a-go/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As part of its nuclear fusion processes, the Sun produces a particularly interesting isotope of helium, known as helium-3. Some of this helium-3 escapes the Sun's gravitational pull as part of the solar wind, a stream of charged particles that emanates out across the Solar System. Over billions of years, this wind has bombarded every body in the vicinity of the Sun, including Earth's Moon."
+  ]
+ },
+ "0fcb13f709115eca": {
+  "feed": "Technica",
+  "title": "Psychiatry’s diagnostic bible is finally getting a biological upgrade",
+  "link": "https://arstechnica.com/health/2026/08/psychiatrys-diagnostic-bible-is-finally-getting-a-biological-upgrade/",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The “ bible” of clinical psychiatry —the DSM, short for the Diagnostic and Statistical Manual of Mental Disorders—is one of the most popular psychiatry reference books around the world. Clinicians use it to diagnose patients and scientists use it to guide research. Despite its wide impact, the DSM has never integrated biology in its diagnoses of mental illness."
+  ]
+ },
+ "5309d96554639301": {
+  "feed": "Hugging Face Blog",
+  "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+  "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers Published August 26, 2026 Update on GitHub Upvote 5 Tom Aarsen tomaarsen Follow :last-child]:mb-0\"> Table of Contents What are Multi-Vector models?"
+  ]
  }
 }
