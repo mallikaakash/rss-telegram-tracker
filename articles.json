@@ -59889,5 +59889,86 @@
   "points": [
    "Today, anyone with a large enough artificial intelligence model can generate millions of new material designs in minutes. Unfortunately, that hasn’t led to a huge leap in the number of new materials being used to improve the performance of products like computer chips and rockets. One reason for the translation gap is that current models don’t reliably factor in the chemical stability of the materials they generate, and unstable materials aren’t very useful in the real world."
   ]
+ },
+ "745f8246bc21ac13": {
+  "feed": "YC Hacker News",
+  "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+  "link": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "Signals an upcoming open-weights model release in the GLM architecture family.",
+  "points": [
+   "Z.ai confirmed Ox Alpha belongs to the GLM series of foundation models.",
+   "Model weights will be released publicly for open-source evaluation and local deployment."
+  ]
+ },
+ "a6fd1f85145df503": {
+  "feed": "YC Hacker News",
+  "title": "Proliferate (YC S25) Is Hiring",
+  "link": "https://www.ycombinator.com/companies/proliferate/jobs/OgpCKYJ-founding-product-engineer",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "This is a startup job posting and recruiting advertisement.",
+  "points": [
+   "Recruitment post for a founding product engineer at Proliferate (YC S25), an AI-agent IDE."
+  ]
+ },
+ "49bdf2ee614b8fbf": {
+  "feed": "YC Hacker News",
+  "title": "Beyond Recall and the Illusion of Competence",
+  "link": "https://var0.xyz/posts/beyond-recall-and-the-illusion-of-competence.html",
+  "date": "2026-08-26",
+  "tier": "worth_a_skim",
+  "why": "Provides thoughtful engineering philosophy on maintaining system ownership and debugging intuition when using LLM coding tools.",
+  "points": [
+   "Argues system ownership stems from understanding boundaries and failure modes, not typing syntax from memory.",
+   "Warns that relying on AI for debugging destroys the mental model needed to intuitively understand system behavior."
+  ]
+ },
+ "881c0b24ee1cc811": {
+  "feed": "YC Hacker News",
+  "title": "XCancel and Nitter are receiving C&D letters from XCorp",
+  "link": "https://news.ycombinator.com/item?id=49446210",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "Legal and platform news concerning scraping/frontend proxies with no ML or backend technical depth.",
+  "points": [
+   "X Corp issued cease and desist letters forcing the shutdown of Nitter and XCancel proxy frontends."
+  ]
+ },
+ "fce7655a2dd730e3": {
+  "feed": "YC Hacker News",
+  "title": "Debian polls its developers on AI: permit or ban?",
+  "link": "https://www.theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "Community governance reporting on open-source policy rather than technical architecture or ML engineering.",
+  "points": [
+   "Debian opened a multi-option General Resolution poll to decide whether to allow, restrict, or ban LLM-assisted contributions."
+  ]
+ },
+ "05f45dd4d9cc70b6": {
+  "feed": "Technica",
+  "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+  "link": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
+  "date": "2026-08-26",
+  "tier": "must_read",
+  "why": "Directly covers new open-weight small/medium LLMs trained with specialized agentic reinforcement learning.",
+  "points": [
+   "Granite 4.2 provides 3B, 8B, and 30B parameter decoder-only open-weight variants.",
+   "Native 128k context window across all sizes for long-context inference.",
+   "8B and 30B variants include an agentic RL post-training stage specifically targeting terminal use, web search, and tool calling."
+  ]
+ },
+ "471f89d285f9dddb": {
+  "feed": "Technica",
+  "title": "Xtracycle's Swoop ASM e-bike brings an automatic transmission to cargo bikes",
+  "link": "https://arstechnica.com/cars/2026/08/xtracycles-swoop-asm-e-bike-brings-an-automatic-transmission-to-cargo-bikes/",
+  "date": "2026-08-26",
+  "tier": "low_priority",
+  "why": "Consumer hardware review for an electric bicycle with no backend or ML relevance.",
+  "points": [
+   "Review of an automatic electronic-shifting transmission on the Xtracycle Swoop ASM cargo bike."
+  ]
  }
 }
