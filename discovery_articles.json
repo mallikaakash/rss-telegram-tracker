@@ -3032,5 +3032,155 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "25a4804a7364bf1e": {
+  "url": "https://duarteocarmo.substack.com/p/ginjinha-pretraining-llms-on-european",
+  "title": "Ginjinha: Pretraining LLMs on European Portuguese",
+  "domain": "duarteocarmo.substack.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "066d8146d7e346be": {
+  "url": "https://kenimoto.dev/blog/nanochat-sft-loss-mask-where-chat-models-are-born/",
+  "title": "Chat Models Are Born in the Loss Mask — Reading nanochat's SFT — Ken Imoto",
+  "domain": "kenimoto.dev",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "c123cc2214bf8513": {
+  "url": "https://medium.com/@chandupadole/building-llm-part-8-dpo-and-the-whole-post-training-landscape-4130154824fd",
+  "title": "Building LLM, Part 8 — DPO, and the Whole Post-Training Landscape | by Chandrashekhar Padole | Aug, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "19999dfbaa057dd7": {
+  "url": "https://multigrid.ai/learn/dpo-vs-ppo",
+  "title": "DPO vs PPO vs GRPO: Preference Tuning Compared · Multigrid",
+  "domain": "multigrid.ai",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "9d2239c9feeb4266": {
+  "url": "https://algorithmine.com/research/rlhf-to-grpo-2026-comparison",
+  "title": "RLHF vs GRPO in 2026: A Complete Guide to LLM Alignment Methods | Algorithmine",
+  "domain": "algorithmine.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "c22fd586af6dd4b1": {
+  "url": "https://developer.nvidia.com/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/",
+  "title": "Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference | NVIDIA Technical Blog",
+  "domain": "developer.nvidia.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "797da7d6185144cc": {
+  "url": "https://dreaming.press/posts/flash-attention-vs-paged-attention.html",
+  "title": "FlashAttention vs PagedAttention: Two Different Bottlenecks, Not Two Choices",
+  "domain": "dreaming.press",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "742b677a57f39910": {
+  "url": "https://duoan.github.io/posts/foundation-model-kernel-optimization-2026/",
+  "title": "Foundation Model Kernel Optimization in 2026: A Field Guide Across Dense, MoE, Multimodal, and Diffusion | Duo's Tech Blog",
+  "domain": "duoan.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "1e781bdf99d7c988": {
+  "url": "https://deepwiki.com/allover326/deepseek-v4-cmp170hx/2.1-pipeline-parallelism-vs-tensor-parallelism",
+  "title": "Pipeline Parallelism vs Tensor Parallelism | allover326/deepseek-v4-cmp170hx | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "657707ed85fab3d5": {
+  "url": "https://p.rst.im/q/github.com/JohnScheuer/tensor-parallel-kv-cache-bench",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "80d9d40870ed908d": {
+  "url": "https://arxiv.org/abs/2608.04980v1",
+  "title": "[2608.04980v1] Protoreasoning in Tiny Transformers",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "fa6828750ac1e375": {
+  "url": "https://www.alphaxiv.org/abs/2608.18062",
+  "title": "TokEval: A Tokenizer Evaluation Suite | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "9e76aa931dc42dd5": {
+  "url": "https://arxiv.gg/abs/2608.02829",
+  "title": "Wiring Beats Blending: What Transfers Between Transformer Sizes -- and What Doesn't - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a4844b7ea990780b": {
+  "url": "https://deepwiki.com/antonellof/cognitora-inference/2-core-architecture",
+  "title": "Core Architecture | antonellof/cognitora-inference | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a2d9cc7ca1e76058": {
+  "url": "https://github.laiyagushi.com/Aravind0403/aether-control-llm-infra",
+  "title": "GitHub - Aravind0403/aether-control-llm-infra: Enterprise LLM Serving Platform, Control Plane & Post-Training Pipeline (vLLM, GRPO, K8s). · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-26",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
