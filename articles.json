@@ -60448,5 +60448,203 @@
   "points": [
    "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing these pelicans ) and the 78.9GB UD-Q2_K_XL (producing these )."
   ]
+ },
+ "0dcbe66061954566": {
+  "feed": "YC Hacker News",
+  "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+  "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How we saved 100 terabytes of memory by optimizing 1.1.1.1âs DNS cache | Cloudflare Blog Skip to content All Categories AI Developers Radar Product News Security Policy & Legal Zero Trust Speed & Reliability Life at Cloudflare Partners Switch Site Language English Deutsch EspaÃ±ol EspaÃ±ol (LatinoamÃ©rica) FranÃ§ais Italiano æ¥æ¬èª íêµ­ì´ ç¹é«ä¸­æ ç®ä½ä¸­æ PortuguÃªs Ð ÑÑÑÐºÐ¸Ð¹ Bahasa Indonesia à¸ à¸²à¸©à¸²à¹à¸à¸¢ Tiáº¿ng Viá»t Polski Ø§ÙØ¹Ø±Ø¨ÙØ© ×¢××¨××ª Svenska Nederlands TÃ¼rkÃ§e Login Dashboard Contact Sales Blog 1.1.1.1 Deep Dive DNS +4 Show 4 more tags 7 Tags Show 7 tags Selected Tags 1.1.1.1 Deep Dive DNS Engineering Optimization Performance Rust All tags Matching tags No tags found 1.1.1.1 2FA Abuse Access Access Control Lists (ACLs) Accessibility Account Takeover Acquisitions Addressing Advanced Certificate Manager Advanced DDoS Advertising Aegis AEO Africa Afroflare Agent Cloud Agent Development Lifecycle Agent Readiness Agents Agents Week Agents Week 2026 AI AI Bots AI Gateway AI Search AI WAF AI Week AI-SPM Alertmanager Always Online AMD AMP Analytics Anonymous Anti Malware Anycast API API Gateway API Security API Shield APJC Apple Application Security Application Services Area 1 Security Argo Smart Routing ASCII Asia Athenian Project Atlassian Attacks Audit Logs Austin Australia Authentication Authy Auto Rag Automatic HTTPS Automatic Platform Optimization Automation AutoMinify Awards AWS Baidu Bandwidth Alliance Bandwidth Costs Best Practices Beta Better Internet BGP Billing Birthday Week Black Friday Blackbird Bot Fight Mode Bot Management Botnet Bots BPF Brand Brand Protection Brazil Browser Insights Browser Rendering Browser Run Bug Bounty Bugs BYOIP Cache Cache Purge Cache Reserve Cache Rules California Canada Cap'n Proto CAPTCHA Careers CASB Categories CDN CDNJS Certificate Authority Certificate Pinning Certificate Transparency Certification CFSSL Challenge Page ChatGPT China China Network Christmas Chrome CIO Week CISA Claire CLI ClickHouse Clientless Clientless Web Isolation Cloud Connector Cloud Email Security Cloudflare Access Cloudflare Apps Cloudflare Area 1 Cloudflare Calls Cloudflare Email Service Cloudflare for Campaigns Cloudflare for SaaS Cloudflare for Startups Cloudflare Gateway Cloudflare History Cloudflare Images Cloudflare Media Platform Cloudflare Meetups Cloudflare Network Cloudflare One Cloudflare One Client Cloudflare One User Risk Score Cloudflare One Week Cloudflare OS Cloudflare Pages Cloudflare Polish Cloudflare Queues Cloudflare Realtime Cloudflare Stream Cloudflare Tunnel Cloudflare TV Cloudflare Workers Cloudflare Workers (PT) Cloudflare Workers KV Cloudflare Workers KV (ES) Cloudflare Zero Trust Cloudforce One Cloudy Code Orange Coinbase Colombia Community Compliance Compression Config Rules Configuration Management Congestion Control Connectivity Connectivity Cloud Consumer Services Containers Content Independence Day Content Scanning Context Core COVID-19 Crawler Hints CrowdStrike Crypto Week Cryptography CSAM Reporting Customer Success Customer Zero Customers CVE CVE-2023-50387 Cyber Readiness Cybersecurity D1 Dashboard Data Data Catalog Data Center Data Localization Data Localization Suite Data Loss Data Loss Prevention Data Platform Data Privacy Day Data Protection Data Sovereignty Data Transfer Bucket Database DDoS DDoS Alerts DDoS Reports Debugging Deep Dive Descaler Design Deskope Developer Documentation Developer Platform Developer Spotlight Developer Wee"
+  ]
+ },
+ "f609f1af6c8b6236": {
+  "feed": "YC Hacker News",
+  "title": "Small Models Have Arrived",
+  "link": "https://calv.info/small-models-have-arrived",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Small Models Have Arrived Calvin French-Owen / Writing Calvin French-Owen About Writing Bookshelf Small Models Have Arrived AUG 26, 2026 For the past few weeks, I've been playing with gpt-5.6-luna . It is shockingly capable, fast, and smart. I regularly see it do ~100 tps, and rip around my codebase, email, and knowledge base. Of course, the biggest thing with luna is the cost ."
+  ]
+ },
+ "43300684115273ce": {
+  "feed": "YC Hacker News",
+  "title": "Doctors are finally learning to manage antidepressant withdrawal",
+  "link": "https://www.newscientist.com/article/2584861-antidepressant-withdrawal-symptoms-are-prompting-a-radical-rethink-of-how-we-treat-depression/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "298520e4f6efc94a": {
+  "feed": "YC Hacker News",
+  "title": "507 Mechanical Movements",
+  "link": "https://507movements.com/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "507 Mechanical Movements FIVE HUNDRED AND SEVEN Mechanical Movements Index Now Animated for the Internet! « prev next » Wait... you said they were animated! Ah, yes… well, unfortunately we do not have all the animations working yet, but we do have quite a few. Look for the color thumbnails. They identify the completed animations. Use the prev and next links (above right) to browse the thumbnail pages."
+  ]
+ },
+ "a1b02a6424f5c8f2": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: We built open OpenRouter that turns usage into a better model",
+  "link": "https://github.com/experientiallabs/experiential",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - experientiallabs/experiential: An open source model gateway that provides one control plane across closed, open-source, local, and custom models. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "77020aa53dd6024f": {
+  "feed": "Technica",
+  "title": "Anthropic's new hardware standard lets AI agents control the physical world",
+  "link": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For all the interest in and uptake of agentic AI systems over the past year or so , the world of automated AI has thus far been primarily limited to text, images, code, and other data and actions that take place inside a computer. Anthropic is now aiming to change that somewhat with what it's calling the Model Hardware Standard (MHS), a set of standardized drivers designed to let AI agents easily interface with and control arbitrary devices."
+  ]
+ },
+ "4d05f8bb9094f1e7": {
+  "feed": "Technica",
+  "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
+  "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "xAI has now been accused of training Grok on child sex abuse materials (CSAM), as regulators and courts continue to probe how far the problem goes, and some Grok users have been arrested . In a complaint filed on Wednesday, a plaintiff known as Jane Doe explained that she was preschool-age in the early 2000s when adult men repeatedly raped her to create CSAM to sell to pedophiles online."
+  ]
+ },
+ "246b3636a67b23f4": {
+  "feed": "Technica",
+  "title": "GOP heads to Supreme Court after losing case over TV election ad prices",
+  "link": "https://arstechnica.com/tech-policy/2026/08/gop-heads-to-supreme-court-after-losing-case-over-tv-election-ad-prices/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Republican campaign committees want the Supreme Court to mandate lower prices for election commercials on broadcast TV stations. If the court agrees, broadcasters would be forced to offer their lowest ad prices to political parties and joint fundraising committees. For a more thorough description of the legal issues in the dispute, see this article that Ars published yesterday."
+  ]
+ },
+ "df3a388880083837": {
+  "feed": "Technica",
+  "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+  "link": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nvidia is reportedly moving forward to acquire Hugging Face for $12.9 billion. The acquisition could help the hardware giant expand and fortify its deep integration with the wider AI industry. Among other things, Hugging Face is a cloud repository for AI models, similar in some respects to what GitHub is for conventional computer software. Developers and researchers search for models that meet certain criteria, download and run them, and fine-tune them into different variants that then get uploaded back up to Hugging Face."
+  ]
+ },
+ "0cbcba9659d7b320": {
+  "feed": "Technica",
+  "title": "AI industry says Trump plans to tax chips in the “single dumbest way imaginable”",
+  "link": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Donald Trump may be preparing to announce sweeping new semiconductor tariffs at the absolute worst time, the tech industry fears. On Thursday, Politico reported that a wide range of new semiconductor tariffs, which the tech industry expects will “doom” artificial intelligence innovation in the US, could be imposed in the coming “weeks or months.” About eight people familiar with the Trump administration’s plans were granted anonymity to discuss how the tariffs might work."
+  ]
+ },
+ "c7aa58a9fa104d4a": {
+  "feed": "Google Research",
+  "title": "Planetary prediction engine: Automating global models via Earth AI",
+  "link": "https://research.google/blog/planetary-prediction-engine-automating-global-models-via-earth-ai/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Planetary prediction engine: Automating global models via Earth AI Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "a13e39d4fa54504b": {
+  "feed": "Google DeepMind",
+  "title": "Gemini Omni 1.1 Flash lets you build with more control",
+  "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Build with Gemini Omni 1.1 Flash Skip to main content Gemini Omni 1.1 Flash lets you build with more control Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Gemini Omni 1.1 Flash lets you build with more control Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (Melayu) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Technology Developer tools Gemini Omni 1.1 Flash lets you build with more control Aug 27, 2026 | x.com Facebook LinkedIn Mail Copy link Omni now delivers studio-quality video production, including the ability to extend a scene, first and last frame interpolation, crisp 4K upscaling, faster prototyping, and more."
+  ]
+ },
+ "d9b2bc36ffdfc77e": {
+  "feed": "Google DeepMind",
+  "title": "Piloting the world's first double-blind AI evaluations",
+  "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Piloting the world's first double-blind AI evaluations â Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact on "
+  ]
+ },
+ "40263e8882888796": {
+  "feed": "Apple ML Research",
+  "title": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
+  "link": "https://machinelearning.apple.com/research/rubric-based-alignment",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects of answer quality that are difficult to capture with a holistic scalar objective. We introduce a rubric-based reward framework that generates query-specific rubrics grounded in retrieved evidence and decomposed into multiple quality dimensions, providing fine-grained supervision during post-training."
+  ]
+ },
+ "3062d8cdad5fdcd9": {
+  "feed": "OpenAI News",
+  "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+  "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 27, 2026 Company Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training In a randomized experiment with more than 1,000 students, access to ChatGPT and training in causal reasoning improved student work in complementary ways."
+  ]
+ },
+ "9f44453224e48649": {
+  "feed": "MIT News (AI)",
+  "title": "Looking beyond natural sequences",
+  "link": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A protein’s function is determined by its structure, and structure — the way a protein folds — is determined by its sequence of amino acids, the building blocks of proteins. Many methods for designing novel proteins, including examples that could bind to a disease-causing molecule in our cells, involve a two-step process: The structure comes first, and then a machine-learning framework generates a repertoire of sequences that could potentially adopt that structure."
+  ]
+ },
+ "6f6843c5a98ae6d6": {
+  "feed": "Simon Willison",
+  "title": "Breaking Claude Code Opus 5 Auto Mode",
+  "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today."
+  ]
+ },
+ "3e6749fecee8b549": {
+  "feed": "Cloudflare Blog",
+  "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+  "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Big Pineapple , the platform behind 1.1.1.1 , Gateway DNS , DNS Firewall , AS112 , and several other Cloudflare DNS services, stores over 250 billion DNS cache entries at any given time. At that scale, wasting a single byte per entry costs more than 250 gigabytes of memory across our fleet. Five successive changes to how cache entries are stored in memory cut the per-entry footprint by over 50%."
+  ]
  }
 }
