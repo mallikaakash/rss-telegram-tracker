@@ -3182,5 +3182,145 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "a957db291178362b": {
+  "url": "https://vahu.org/key-hyperparameters-for-llm-pretraining-a-practical-guide",
+  "title": "Key Hyperparameters for LLM Pretraining: A Practical Guide",
+  "domain": "vahu.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "2ec1490b4c32dec7": {
+  "url": "https://arize.com/blog/how-do-you-make-an-llm-anyway-microsoft-textbook/",
+  "title": "How do you make an LLM, anyway? Microsoft just published a textbook. - Arize AI",
+  "domain": "arize.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "32cecb31f7d61737": {
+  "url": "https://temperature2.com/p/2026-07-23-did-you-know-rlhf-vs-dpo/",
+  "title": "Why DPO Doesn't Need a Reward Model · temperature2",
+  "domain": "temperature2.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "35b02fbaec4101ae": {
+  "url": "https://deepwiki.com/aidendle94/flashinfer/3.1-prefill-and-decode-kernels-(fa2fa3)",
+  "title": "Prefill & Decode Kernels (FA2/FA3) | aidendle94/flashinfer | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "369abb0a24becc79": {
+  "url": "https://deepwiki.com/pjt222/bare-metal/3.2-flash-attention-kernels",
+  "title": "Flash Attention Kernels | pjt222/bare-metal | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "20a35a84353649b3": {
+  "url": "https://sakshityagi.hashnode.dev/beyond-1d-data-parallelism-zero-tp-pp-and-cp",
+  "title": "Where to go when 1D data parallelism runs out",
+  "domain": "sakshityagi.hashnode.dev",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "22d402450c3157ad": {
+  "url": "https://www.alphaxiv.org/abs/2608.07222",
+  "title": "Skaling: Chinchilla's Exponents Meet Kaplan's Coupling | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f0de153628b9ba7f": {
+  "url": "https://www.alphaxiv.org/abs/2608.11361",
+  "title": "Lifecycle-Optimal Tokenization: Vocabulary Size as a Deployment-Regime-Dependent Infrastructure Parameter | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "64954fd9673c8e80": {
+  "url": "https://github.laiyagushi.com/sailikhithk/llm-production-engineering",
+  "title": "GitHub - sailikhithk/llm-production-engineering: Field notes from building AI systems in production since 2019. LLM serving ops: cost tracking, eval-driven deployment, capacity planning, observability, incident playbooks. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "497770a6ecf4b87d": {
+  "url": "https://github.laiyagushi.com/yukon-systems/StorOps_RAG-Vector-Pipelined-Processor",
+  "title": "GitHub - yukon-systems/StorOps_RAG-Vector-Pipelined-Processor: RAG Vector-Pipelined Processor Platform - ADRs · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "1f8dd90fac192a67": {
+  "url": "https://deepwiki.com/latere-ai/open-llms",
+  "title": "latere-ai/open-llms | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3848d01361b8d53f": {
+  "url": "https://blog.swesty.net/p/vllm-dgx-spark-technical-report",
+  "title": "vLLM on the NVIDIA DGX Spark (GB10 / sm_121): A Complete Technical Guide",
+  "domain": "blog.swesty.net",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "e23d3f9d2d804d8c": {
+  "url": "https://theaiengineer.substack.com/p/why-your-multi-gpu-training-job-keeps",
+  "title": "Why Your Multi-GPU Training Job Keeps Dying",
+  "domain": "theaiengineer.substack.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "fb2357121affb222": {
+  "url": "https://derekarmstrong.dev/blog/running-qwen38-27b-dual-rtx-3090-vllm-v026/",
+  "title": "Qwen3.8 27B on Dual RTX 3090s: A vLLM Field Report | Derek Armstrong — Payments Engineer · AI · Infrastructure",
+  "domain": "derekarmstrong.dev",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
