@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Fri 28 Aug 2026, 18:55 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Fri 28 Aug 2026, 18:55 IST &middot; 12 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="section">Worth a skim &middot; 12</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/openai/openai-python/blob/main/httpx2.md">OpenAI: Migrating to HTTPX2</a></h2><ul><li>openai-python/httpx2.md at main · openai/openai-python · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events &amp; webinars Ebooks &amp; reports Business insights GitHub Skills SUPPORT &amp; SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html">Hilariously Fast Volume Computation with the Divergence Theorem</a></h2><ul><li>Rosenzweig – Hilariously Fast Volume Computation with the Divergence Theorem Hilariously Fast Volume Computation with the Divergence Theorem 16 Feb 2018 (No, there won’t be jokes.) The following presents a fast algorithm for volume computation of a simple, closed, triangulated 3D mesh. This assumption is a consequence of the divergence theorem. Further extensions may generalise to other meshes as well, although that is presently out of scope.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/">Pentagon&#x27;s blacklisting of Anthropic was unlawful, US judge rules</a></h2><ul><li>Comments</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://subsmith.app">Show HN: SubSmith – Turn your own videos into language-learning material</a></h2><ul><li>Learn Languages From the Content You Love – SubSmith SubSmith Blog Roadmap Tools About FAQ SubSmith: Learn languages from the content you love. Understand what native speakers really say. Learn vocabulary in context. Make progress with every video you watch. Download for your OS 7-day free trial • No credit card Unmute How it works From file to fluency in three steps Watch Drop any file.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/">Luanti removed from Google Play due to baseless AI copyright notice</a></h2><ul><li>Luanti removed from Google Play due to baseless AI copyright notice - Luanti Blog --&gt; Luanti Blog About Luanti removed from Google Play due to baseless AI copyright notice Written by the Luanti team Luanti’s Android app is currently not available on the Google Play Store due to a baseless DMCA notice filed on behalf of Microsoft by Tracer.AI, alleging that Luanti infringes Minecraft’s copyright.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/">Authorities arrest 2 alleged members of prolific hacking group TeamPCP</a></h2><ul><li>Authorities in Australia said Wednesday that they arrested two men accused of participating in cybercrimes for TeamPCP, a prolific group of hackers that, over nine months, has carried out a relentless series of supply chain attacks that infected more than 1,000 organizations worldwide. In a statement , the Australian Federal Police said the two men were arrested and charged with 14 offenses.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/space/2026/08/rocket-report-europe-splashes-some-cash-on-launch-startups-pallas-1-nears-debut/">Rocket Report: Europe splashes some cash on launch startups; Pallas-1 nears debut</a></h2><ul><li>Welcome to Edition 9.08 of the Rocket Report! Some major news this week from the state of Louisiana, previously associated with space due to NASA&#x27;s aging Michoud Assembly Facility near New Orleans. Now the state has a chance to become the epicenter of SpaceX&#x27;s Starship program as the company plans to invest up to $100 billion to construct factories and multiple launch pads for the super heavy lift rocket.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/space/2026/08/nasa-t-38-astronaut-training-jet-gets-new-artemis-look/">The iconic T-38 jets flown by astronauts just got a spiffy new look</a></h2><ul><li>For the first time in decades, NASA has rolled out one of its iconic astronaut training aircraft with a bold, new look. The space agency debuted a new livery on one of its T-38 jets in celebration of its program to return astronauts to the Moon. The Artemis design retains nods to what made the &quot;white rocket&quot; immediately recognizable, but adds a new colorway and painted graphics to make clear where NASA is headed.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/health/2026/08/rfk-jr-spews-anti-vaccine-rubbish-as-newborn-revealed-to-have-died-from-measles/">RFK Jr. goes full anti-vaccine bananas over two measles deaths—one was a newborn</a></h2><ul><li>In the wake of news on Tuesday that two people in Pennsylvania died from measles , Health Secretary Robert F. Kennedy Jr. has been posting a slew of anti-vaccine rhetoric and misinformation on social media—marking a resurgence of his old ways as a fervent opponent of lifesaving immunizations. The deaths are the first measles-linked fatalities in Pennsylvania in 35 years and are the first US measles deaths reported in 2026.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants/">Why did 1,000 world citizens bury their underpants?</a></h2><ul><li>A thousand people voluntarily buried their cotton underpants for two months—not to keep the Underpants Gnomes from stealing them, but as part of a citizen science project to map out soil health in 25 countries around the world. The results of this unique experiment were reported in a new paper published in the journal Plants People Planet. “Our results show that how soil is managed can significantly affect both soil life and soil quality,” said co-author Marcel van der Heijden , an agroecologist at the University of Zurich.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/supporting-next-generation-ai-startups-thailand">Supporting Thailand’s next generation of AI startups</a></h2><ul><li>Supporting Thailand’s next generation of AI startups | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 28, 2026 Company Supporting Thailand’s next generation of AI startups OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation are launching an eight-week accelerator to help startups turn promising ideas into products ready for real-world use.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/botbase-for-operators/">BotBase for Operators: A clearer path to joining Cloudflare&#x27;s directory of bots and agents</a></h2><ul><li>Last month, on our second Content Independence Day, we announced a couple of features designed to give website owners more visibility and control over automated traffic: BotBase added a searchable directory of known bots to the Cloudflare dashboard, while Business Insights helped owners understand how crawlers interact with their content. We know that the ecosystem of bots is vast, making it all the more important for site owners to be able to manage bot traffic sustainably.</li></ul></div></body></html>

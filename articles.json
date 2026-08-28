@@ -60646,5 +60646,137 @@
   "points": [
    "Big Pineapple , the platform behind 1.1.1.1 , Gateway DNS , DNS Firewall , AS112 , and several other Cloudflare DNS services, stores over 250 billion DNS cache entries at any given time. At that scale, wasting a single byte per entry costs more than 250 gigabytes of memory across our fleet. Five successive changes to how cache entries are stored in memory cut the per-entry footprint by over 50%."
   ]
+ },
+ "a8673fb7f14838d5": {
+  "feed": "YC Hacker News",
+  "title": "OpenAI: Migrating to HTTPX2",
+  "link": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "openai-python/httpx2.md at main · openai/openai-python · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "15a21800e0013a38": {
+  "feed": "YC Hacker News",
+  "title": "Hilariously Fast Volume Computation with the Divergence Theorem",
+  "link": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Rosenzweig – Hilariously Fast Volume Computation with the Divergence Theorem Hilariously Fast Volume Computation with the Divergence Theorem 16 Feb 2018 (No, there won’t be jokes.) The following presents a fast algorithm for volume computation of a simple, closed, triangulated 3D mesh. This assumption is a consequence of the divergence theorem. Further extensions may generalise to other meshes as well, although that is presently out of scope."
+  ]
+ },
+ "c262c2ce414e4f90": {
+  "feed": "YC Hacker News",
+  "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
+  "link": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "252a963c4b57bbbf": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: SubSmith – Turn your own videos into language-learning material",
+  "link": "https://subsmith.app",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Learn Languages From the Content You Love – SubSmith SubSmith Blog Roadmap Tools About FAQ SubSmith: Learn languages from the content you love. Understand what native speakers really say. Learn vocabulary in context. Make progress with every video you watch. Download for your OS 7-day free trial • No credit card Unmute How it works From file to fluency in three steps Watch Drop any file."
+  ]
+ },
+ "3d1a94f342fcd599": {
+  "feed": "YC Hacker News",
+  "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+  "link": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Luanti removed from Google Play due to baseless AI copyright notice - Luanti Blog --> Luanti Blog About Luanti removed from Google Play due to baseless AI copyright notice Written by the Luanti team Luanti’s Android app is currently not available on the Google Play Store due to a baseless DMCA notice filed on behalf of Microsoft by Tracer.AI, alleging that Luanti infringes Minecraft’s copyright."
+  ]
+ },
+ "2444b0ce38f1c5ad": {
+  "feed": "Technica",
+  "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+  "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Authorities in Australia said Wednesday that they arrested two men accused of participating in cybercrimes for TeamPCP, a prolific group of hackers that, over nine months, has carried out a relentless series of supply chain attacks that infected more than 1,000 organizations worldwide. In a statement , the Australian Federal Police said the two men were arrested and charged with 14 offenses."
+  ]
+ },
+ "5c1b5881c6f527dd": {
+  "feed": "Technica",
+  "title": "Rocket Report: Europe splashes some cash on launch startups; Pallas-1 nears debut",
+  "link": "https://arstechnica.com/space/2026/08/rocket-report-europe-splashes-some-cash-on-launch-startups-pallas-1-nears-debut/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome to Edition 9.08 of the Rocket Report! Some major news this week from the state of Louisiana, previously associated with space due to NASA's aging Michoud Assembly Facility near New Orleans. Now the state has a chance to become the epicenter of SpaceX's Starship program as the company plans to invest up to $100 billion to construct factories and multiple launch pads for the super heavy lift rocket."
+  ]
+ },
+ "16b1f816bcf675c4": {
+  "feed": "Technica",
+  "title": "The iconic T-38 jets flown by astronauts just got a spiffy new look",
+  "link": "https://arstechnica.com/space/2026/08/nasa-t-38-astronaut-training-jet-gets-new-artemis-look/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For the first time in decades, NASA has rolled out one of its iconic astronaut training aircraft with a bold, new look. The space agency debuted a new livery on one of its T-38 jets in celebration of its program to return astronauts to the Moon. The Artemis design retains nods to what made the \"white rocket\" immediately recognizable, but adds a new colorway and painted graphics to make clear where NASA is headed."
+  ]
+ },
+ "cb6939d400439b26": {
+  "feed": "Technica",
+  "title": "RFK Jr. goes full anti-vaccine bananas over two measles deaths—one was a newborn",
+  "link": "https://arstechnica.com/health/2026/08/rfk-jr-spews-anti-vaccine-rubbish-as-newborn-revealed-to-have-died-from-measles/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In the wake of news on Tuesday that two people in Pennsylvania died from measles , Health Secretary Robert F. Kennedy Jr. has been posting a slew of anti-vaccine rhetoric and misinformation on social media—marking a resurgence of his old ways as a fervent opponent of lifesaving immunizations. The deaths are the first measles-linked fatalities in Pennsylvania in 35 years and are the first US measles deaths reported in 2026."
+  ]
+ },
+ "86dca43528acadeb": {
+  "feed": "Technica",
+  "title": "Why did 1,000 world citizens bury their underpants?",
+  "link": "https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A thousand people voluntarily buried their cotton underpants for two months—not to keep the Underpants Gnomes from stealing them, but as part of a citizen science project to map out soil health in 25 countries around the world. The results of this unique experiment were reported in a new paper published in the journal Plants People Planet. “Our results show that how soil is managed can significantly affect both soil life and soil quality,” said co-author Marcel van der Heijden , an agroecologist at the University of Zurich."
+  ]
+ },
+ "0b00c80d502cc3ab": {
+  "feed": "OpenAI News",
+  "title": "Supporting Thailand’s next generation of AI startups",
+  "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Supporting Thailand’s next generation of AI startups | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 28, 2026 Company Supporting Thailand’s next generation of AI startups OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation are launching an eight-week accelerator to help startups turn promising ideas into products ready for real-world use."
+  ]
+ },
+ "fe0541b959a2457e": {
+  "feed": "Cloudflare Blog",
+  "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+  "link": "https://blog.cloudflare.com/botbase-for-operators/",
+  "date": "2026-08-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last month, on our second Content Independence Day, we announced a couple of features designed to give website owners more visibility and control over automated traffic: BotBase added a searchable directory of known bots to the Cloudflare dashboard, while Business Insights helped owners understand how crawlers interact with their content. We know that the ecosystem of bots is vast, making it all the more important for site owners to be able to manage bot traffic sustainably."
+  ]
  }
 }
