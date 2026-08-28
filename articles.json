@@ -60778,5 +60778,176 @@
   "points": [
    "Last month, on our second Content Independence Day, we announced a couple of features designed to give website owners more visibility and control over automated traffic: BotBase added a searchable directory of known bots to the Cloudflare dashboard, while Business Insights helped owners understand how crawlers interact with their content. We know that the ecosystem of bots is vast, making it all the more important for site owners to be able to manage bot traffic sustainably."
   ]
+ },
+ "b66a26257c9c00e8": {
+  "feed": "YC Hacker News",
+  "title": "GUIs should be fully keyboard-driven",
+  "link": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "General UI/UX opinion piece about keyboard navigation in desktop applications, unrelated to ML or backend infrastructure.",
+  "points": [
+   "Argues that GUI applications should natively support comprehensive keyboard navigation on par with TUIs."
+  ]
+ },
+ "7c1666985ef1cce7": {
+  "feed": "YC Hacker News",
+  "title": "Htmx 4.0",
+  "link": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Frontend library release announcement with no relevance to backend systems or ML pipelines.",
+  "points": [
+   "Htmx 4.0 migrates internal networking to fetch(), makes attribute inheritance explicit, and cleans up event naming."
+  ]
+ },
+ "c7ae024cae0f3d6f": {
+  "feed": "YC Hacker News",
+  "title": "Just the rumour of a bug is enough to find an exploit these days",
+  "link": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+  "date": "2026-08-29",
+  "tier": "worth_a_skim",
+  "why": "Highlights how autonomous LLM agents drastically collapse the exploit window for newly patched code, reshaping OSS security.",
+  "points": [
+   "Automated bots using modern LLMs probed live servers with path traversal exploits within 10 minutes of a public PR.",
+   "Mean time to exploit after vulnerability disclosure has dropped from +63 days to negative territory, rendering traditional security embargoes ineffective."
+  ]
+ },
+ "a2caa76d8093f31a": {
+  "feed": "YC Hacker News",
+  "title": "U.S. sanctions against the A/I Collective",
+  "link": "https://www.inventati.org/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Political and regulatory news concerning digital rights hosting collective.",
+  "points": [
+   "Autistici/Inventati faces US sanction-related operational challenges."
+  ]
+ },
+ "95f31e00a2050f07": {
+  "feed": "YC Hacker News",
+  "title": "Inception-style curved map for turn-by-turn directions",
+  "link": "https://www.orbify.eu/demo/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Web demo and commercial pitch for a 3D map navigation interface.",
+  "points": [
+   "Showcases a proprietary curved 3D map visualization demo built on PlayCanvas."
+  ]
+ },
+ "5161e1d00ebf3eff": {
+  "feed": "Technica",
+  "title": "Court rules Kalshi sports bets aren't \"swaps,\" just gambling with a different name",
+  "link": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Legal and regulatory ruling about prediction markets and state gaming laws.",
+  "points": [
+   "US 9th Circuit ruled prediction market sports-event contracts are subject to state gambling regulations."
+  ]
+ },
+ "00099a67b9db30b6": {
+  "feed": "Technica",
+  "title": "Cities terminate Flock contracts at record pace in August",
+  "link": "https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "General tech policy and municipal news regarding ALPR surveillance systems.",
+  "points": [
+   "US municipalities are canceling automated license plate reader contracts due to privacy and cost concerns."
+  ]
+ },
+ "b5dcd310e6495e20": {
+  "feed": "Technica",
+  "title": "\"RFK Jr. has lied to the Senate\": Lawmakers call for criminal probe, ouster",
+  "link": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "US political news entirely unrelated to engineering or machine learning.",
+  "points": [
+   "Lawmakers call for criminal investigation into HHS confirmation hearings."
+  ]
+ },
+ "9d521aac8c7888ee": {
+  "feed": "Technica",
+  "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+  "link": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Legal/political news regarding government blacklisting rather than technical architecture or model capabilities.",
+  "points": [
+   "A federal judge ruled the US government's national security designation against Anthropic was unlawful retaliation."
+  ]
+ },
+ "b8e61b022c97cfa6": {
+  "feed": "Technica",
+  "title": "Here's what we know about the \"space academy\" Trump just announced",
+  "link": "https://arstechnica.com/space/2026/08/trump-calls-for-creation-of-a-space-academy-to-train-future-nasa-leaders/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Government policy announcement regarding space education.",
+  "points": [
+   "Executive order signed to initiate planning for a national US Space Academy under NASA."
+  ]
+ },
+ "4a74e88c35760919": {
+  "feed": "Apple ML Research",
+  "title": "LLMs Are Not (Consistently) Bayesian: Quantifying Internal (In)consistencies of LLMs’ Probabilistic Beliefs",
+  "link": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+  "date": "2026-08-29",
+  "tier": "worth_a_skim",
+  "why": "Analyzes how LLMs update probabilistic beliefs against formal Bayesian reasoning, directly relevant to LLM evaluation and reliability.",
+  "points": [
+   "Introduces an 'information processing gap' metric to quantify how much LLM belief updates deviate from exact Bayesian updates upon seeing evidence.",
+   "Reveals significant internal inconsistencies in how models maintain uncertainty in open-domain scientific and medical reasoning."
+  ]
+ },
+ "8acc6881682888ed": {
+  "feed": "Apple ML Research",
+  "title": "Agent Seer: Synthesizing Scenarios from Specification Understanding",
+  "link": "https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios",
+  "date": "2026-08-29",
+  "tier": "worth_a_skim",
+  "why": "Useful framework for testing and evaluating tool-calling agentic LLM workflows without manual dataset engineering.",
+  "points": [
+   "Agent Seer synthesizes multi-turn evaluation scenarios purely from OpenAPI/JSON schemas and tool signatures without requiring live executions.",
+   "Scales benchmarking across evolving API ecosystems to detect agent planning failures."
+  ]
+ },
+ "b0b2c2da12a5bc45": {
+  "feed": "Hugging Face Blog",
+  "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+  "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+  "date": "2026-08-29",
+  "tier": "worth_a_skim",
+  "why": "Covers benchmark design and evaluation splits for Indian English and Hindi speech recognition.",
+  "points": [
+   "Hugging Face added Monsoon en-IN and hi-IN datasets with 4,888 speakers to measure accent and regional disparities.",
+   "Introduces 9-axis metadata stratification to prevent WER score gaming."
+  ]
+ },
+ "c03b509bb377bca6": {
+  "feed": "Simon Willison",
+  "title": "Just a rumour of a bug is enough to find a security exploit these days",
+  "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Brief commentary and summary of the OCaml AI exploit article already covered in item 2.",
+  "points": [
+   "Echoes Anil Madhavapeddy's report on coding agents rapidly discovering exploits from public patches."
+  ]
+ },
+ "5382ed2b7e30760d": {
+  "feed": "Netflix TechBlog",
+  "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
+  "link": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4",
+  "date": "2026-08-29",
+  "tier": "must_read",
+  "why": "High-quality engineering deep dive from Netflix on production multimodal architecture solving recommendation cold-start problems.",
+  "points": [
+   "Concatenates pretrained CLIP 768-d image embeddings with learned ID embeddings into an MLP to transfer user visual taste signals immediately upon asset release.",
+   "Solves the zero-interaction cold-start penalty for title artwork and video previews without relying purely on popularity heuristics.",
+   "Discusses offline embedding selection heuristics prior to running expensive online A/B tests."
+  ]
  }
 }
