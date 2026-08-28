@@ -3322,5 +3322,35 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "e8aa3991581a02a9": {
+  "url": "https://github.laiyagushi.com/NavyashreeNS/halcyon",
+  "title": "GitHub - NavyashreeNS/halcyon: An inference control plane for real-time ML fleets: SLO-aware continuous batching, peak-EWMA routing, adaptive admission control, and progressive model rollout. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-28",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "19bb22a50cb5fed3": {
+  "url": "https://github.laiyagushi.com/Panchalvedant13/model-canary-gate",
+  "title": "GitHub - Panchalvedant13/model-canary-gate: Progressive delivery controller for ML model services. Paired shadow analysis refuses behaviorally broken models in 5s with zero live exposure; staged 5/25/50% canary ramp with Wilson-bound gates and hysteresis rollback. Measured: 0 false rollbacks in 10 identical-model rollouts; +100ms regression caught at 5% traffic. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-08-28",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "39308895b38d9711": {
+  "url": "https://helmcode.com/posts/qwen36-rtx-pro-6000-nvfp4",
+  "title": "Qwen3.6 on an RTX PRO 6000 at full scale | Helmcode",
+  "domain": "helmcode.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-28",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
