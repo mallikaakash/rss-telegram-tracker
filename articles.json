@@ -61086,5 +61086,72 @@
    "Compares GLM-5.3 and GLM-5.3 Flash on cost, software engineering capabilities, and routing efficiency on SWE benchmarks.",
    "Highlights deployment tradeoffs between full-size models and distilled Flash variants on high-throughput serving infrastructure."
   ]
+ },
+ "df33b5c46b3bf38c": {
+  "feed": "YC Hacker News",
+  "title": "Debian votes to allow \"responsible use of generative AI\"",
+  "link": "https://lwn.net/Articles/1091231/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Covers open-source community governance and AI policy rather than ML engineering or infrastructure.",
+  "points": [
+   "Debian passed a resolution permitting the responsible use of generative AI tools for packaging, documentation, and development without relaxing existing quality and licensing standards."
+  ]
+ },
+ "95576b07d9143c55": {
+  "feed": "YC Hacker News",
+  "title": "I'm teaching an introductory 12 week course on Quantum Oracle Engineering",
+  "link": "https://shukla.io/quantum-oracle-engineering/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Announces a quantum computing course syllabus, which is outside core ML and backend infrastructure priorities.",
+  "points": [
+   "Outlines a 12-week syllabus focused on practical quantum circuit construction, reversible logic, and auditing quantum speedup claims."
+  ]
+ },
+ "d143f28c3f35455a": {
+  "feed": "YC Hacker News",
+  "title": "Indirect Calling of Nested Functions on GCC Without Executable Stack",
+  "link": "https://uecker.codeberg.page/2026-08-29.html",
+  "date": "2026-08-29",
+  "tier": "worth_a_skim",
+  "why": "A solid low-level systems and compiler engineering deep-dive on x86_64 assembly, trampolines, and memory security.",
+  "points": [
+   "Explains how GCC nested functions historically require an executable stack by placing a trampoline that loads static frame registers.",
+   "Demonstrates how to extract code addresses and static chains from trampolines to use `__builtin_call_with_static_chain`, allowing stacks to remain non-executable with `patchelf`."
+  ]
+ },
+ "d967d778b21ab774": {
+  "feed": "YC Hacker News",
+  "title": "Creating the Aetheryte Radio",
+  "link": "https://haz.ee/posts/aetheryte-radio.html",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "A personal hobbyist post on reverse-engineering game audio assets from Final Fantasy XIV.",
+  "points": [
+   "Details extracting ambient audio loop assets from FFXIV game files using community modding and inspection tools."
+  ]
+ },
+ "58413b6ef880e5b3": {
+  "feed": "YC Hacker News",
+  "title": "Glacier Mice",
+  "link": "https://en.wikipedia.org/wiki/Glacier_mice",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "A Wikipedia article about glacier moss biology with no relevance to software or ML engineering.",
+  "points": [
+   "Describes glacier mice, which are rolling, herd-like moss colonies that form on glaciers."
+  ]
+ },
+ "01fb7eabcec4aa5b": {
+  "feed": "Technica",
+  "title": "I asked 100 companies for my data. Some deleted it instead.",
+  "link": "https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Consumer tech journalism focusing on CCPA data privacy compliance rather than technical systems.",
+  "points": [
+   "Explores how various consumer companies responded to CCPA personal data access requests."
+  ]
  }
 }
