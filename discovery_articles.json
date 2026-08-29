@@ -3352,5 +3352,75 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "2d53641465586aa6": {
+  "url": "https://www.alphaxiv.org/abs/2608.24814",
+  "title": "Effective Learning Rate Governs Loss Dynamics in Language Model Pretraining | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-08-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "294413ba845884d7": {
+  "url": "https://blog.everpuredata.com/purely-technical/building-a-gpu-native-data-path-for-pure-kva/",
+  "title": "Building a GPU-Native Data Path for Pure KVA",
+  "domain": "blog.everpuredata.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "90d0ac512dff13d8": {
+  "url": "https://deepwiki.com/pjt222/bare-metal/3.3-cross-attention-and-composition-kernels",
+  "title": "Cross-Attention and Composition Kernels | pjt222/bare-metal | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "bc5ddbf65c617350": {
+  "url": "https://deepwiki.com/LMCache/LMCache/6.3-cuda-memory-kernels",
+  "title": "CUDA Memory Kernels | LMCache/LMCache | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-08-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "d5acdf9cc538cbf3": {
+  "url": "https://proceedings.mlr.press/v337/yehudai26a.html",
+  "title": "When Can Transformers Count to n?",
+  "domain": "proceedings.mlr.press",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-08-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "afc0795692f69694": {
+  "url": "https://dev.to/shubhanshu_shrimali/how-i-self-host-vllm-on-cloud-gpus-for-sub-180ms-inference-and-saved-45-on-costs-4cm5",
+  "title": "Self-Hosting vLLM on Cloud GPUs in 2026: Sub-180ms LLM Inference for Autonomous AI Agents (Full Production Guide) - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "272062af2aec2305": {
+  "url": "https://forums.developer.nvidia.com/t/dgx-spark-vllm-deep-dive-historical-troubleshooting-and-guide/379391",
+  "title": "DGX Spark vLLM Deep Dive: Historical Troubleshooting and Guide - DGX Spark / GB10 User Forum / DGX Spark / GB10 - NVIDIA Developer Forums",
+  "domain": "forums.developer.nvidia.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-08-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
