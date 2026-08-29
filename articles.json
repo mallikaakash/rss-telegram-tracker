@@ -60949,5 +60949,142 @@
    "Solves the zero-interaction cold-start penalty for title artwork and video previews without relying purely on popularity heuristics.",
    "Discusses offline embedding selection heuristics prior to running expensive online A/B tests."
   ]
+ },
+ "e287e9396e84a680": {
+  "feed": "YC Hacker News",
+  "title": "Samsung's Processing-in-Memory (PIM)",
+  "link": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+  "date": "2026-08-29",
+  "tier": "must_read",
+  "why": "Excellent hardware performance deep-dive on Processing-in-Memory (PIM) architecture for accelerating low-precision ML inference.",
+  "points": [
+   "Places MAC units directly at each of the 16 DRAM banks to achieve 614 GB/s internal bandwidth compared to 76.8 GB/s external bus limits.",
+   "Sustains 8 INT8/FP8 MAC ops per cycle per PIM block, reaching 2.4 INT8 TOPS per package (9.6 TOPS across 8 chips).",
+   "Maintains compatibility with standard LPDDR5X protocols by mapping compute controls and multi-bank mode to designated row addresses."
+  ]
+ },
+ "58021e8b5c6794bc": {
+  "feed": "YC Hacker News",
+  "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+  "link": "https://github.com/Lakr233/vphone-cli",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Niche macOS virtualization project for booting virtual iOS environments with no relevance to ML infra or backend systems.",
+  "points": [
+   "CLI tool to boot virtual iPhones on Apple Silicon macOS 15+ using Apple's Virtualization.framework and PCC infrastructure."
+  ]
+ },
+ "05e1cd6224761f61": {
+  "feed": "YC Hacker News",
+  "title": "TurboKV: Insanely fast Rust key-value store",
+  "link": "https://github.com/kingroryg/turbokv",
+  "date": "2026-08-29",
+  "tier": "worth_a_skim",
+  "why": "Relevant to backend storage engine fundamentals, exploring low-latency embedded key-value architectures in Rust.",
+  "points": [
+   "Async embedded key-value database featuring atomic batches, range scans, and configurable background compaction.",
+   "Utilizes hardware-accelerated AES instructions (AES/SSE2 on x86, NEON on ARM) for fast persisted Bloom filters."
+  ]
+ },
+ "8a8f7da51ec696f8": {
+  "feed": "YC Hacker News",
+  "title": "Europe's last regular standard-gauge steam passenger service",
+  "link": "https://parowozowniawolsztyn.pl/?page_id=2141",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Off-topic train timetable for Polish heritage steam railways.",
+  "points": [
+   "Timetable information for standard-gauge steam passenger services operated by Parowozownia Wolsztyn."
+  ]
+ },
+ "e456ef2feadaccae": {
+  "feed": "YC Hacker News",
+  "title": "e is a customizable self-aware Emacs-like editor written in Chez Scheme",
+  "link": "https://github.com/paveluv/e",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Niche text editor implementation in Scheme with no connection to distributed systems or ML engineering.",
+  "points": [
+   "Lightweight Emacs-like text editor built on Chez Scheme using R6RS modular architecture and hot-reloading."
+  ]
+ },
+ "5e5de51c218c35d1": {
+  "feed": "Technica",
+  "title": "Apple One and Apple TV subscription prices increase by up to 20 percent",
+  "link": "https://arstechnica.com/gadgets/2026/08/apple-one-and-apple-tv-subscription-prices-increase-by-up-to-20-percent/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Consumer subscription pricing announcement with no engineering or ML infrastructure relevance.",
+  "points": [
+   "Apple increased Apple TV subscription pricing to $15/month and annual tiers to $119."
+  ]
+ },
+ "a85dfefd3070aaed": {
+  "feed": "Technica",
+  "title": "Our 10 favorite scenes from T2: Judgment Day",
+  "link": "https://arstechnica.com/culture/2026/08/our-10-favorite-scenes-from-t2-judgment-day/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Pop-culture movie retrospective completely unrelated to technical work.",
+  "points": [
+   "Retrospective review celebrating the 35th anniversary of Terminator 2: Judgment Day."
+  ]
+ },
+ "941119c98ca4f164": {
+  "feed": "Technica",
+  "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+  "link": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Consumer hardware feature fix regarding recording indicator LEDs on smart glasses.",
+  "points": [
+   "Meta updated smart glasses firmware to stop recording if the privacy LED indicator is obscured."
+  ]
+ },
+ "df669d345a803daf": {
+  "feed": "Technica",
+  "title": "Panic passes Trump tariff refunds back to the Playdate customers who paid them",
+  "link": "https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Consumer gaming hardware tariff refund announcement.",
+  "points": [
+   "Panic is issuing tariff refunds directly to Playdate handheld customers following a Supreme Court ruling."
+  ]
+ },
+ "bde7b5d130519e2b": {
+  "feed": "Technica",
+  "title": "Traders brought Central American cacao to Georgia 1,000 years ago",
+  "link": "https://arstechnica.com/science/2026/08/traders-brought-central-american-cacao-to-georgia-1000-years-ago/",
+  "date": "2026-08-29",
+  "tier": "low_priority",
+  "why": "Archaeology news about ancient Mississippian trade networks.",
+  "points": [
+   "Traces of cacao DNA on potsherds reveal 1,000-year-old trade links between Central America and Georgia."
+  ]
+ },
+ "092c8de02e8b135e": {
+  "feed": "OpenAI News",
+  "title": "Our decision on Cursor following its acquisition by SpaceX",
+  "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+  "date": "2026-08-29",
+  "tier": "worth_a_skim",
+  "why": "Strategically notable industry news regarding OpenAI model licensing changes affecting popular developer tooling.",
+  "points": [
+   "OpenAI will terminate its model access contract with Cursor by November 12, 2026, following Cursor's acquisition by SpaceX.",
+   "Cites change-of-control clauses and prior terms-of-service disputes with xAI and Twitter as the rationale."
+  ]
+ },
+ "ed596ec525dd5861": {
+  "feed": "Together AI",
+  "title": "GLM-5.3 vs. GLM-5.3 Flash on DeepSWE: Cost, Coding, and Routing",
+  "link": "https://www.together.ai/blog/glm-5-3-vs-glm-5-3-flash-on-deepswe-cost-coding-and-routing",
+  "date": "2026-08-29",
+  "tier": "worth_a_skim",
+  "why": "Relevant to LLM inference routing and coding benchmark performance comparisons (DeepSWE).",
+  "points": [
+   "Compares GLM-5.3 and GLM-5.3 Flash on cost, software engineering capabilities, and routing efficiency on SWE benchmarks.",
+   "Highlights deployment tradeoffs between full-size models and distilled Flash variants on high-throughput serving infrastructure."
+  ]
  }
 }
