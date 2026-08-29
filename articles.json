@@ -61153,5 +61153,60 @@
   "points": [
    "Explores how various consumer companies responded to CCPA personal data access requests."
   ]
+ },
+ "9d39851253e8edaf": {
+  "feed": "YC Hacker News",
+  "title": "The Internet Is Kind of a Predatory Cesspit Now",
+  "link": "https://www.stephendiehl.com/posts/internet_predatory_cesspit/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Internet Is Kind of a Predatory Cesspit Now Stephen Diehl Stephen Diehl Index Blog Humor Book Reviews Python Rust Mathematics Machine Learning Functional Programming Compilers Formal Methods Markets Public Policy Contact PGP Key Github Bluesky LinkedIn Substack RSS Stephen Diehl Index Blog Humor Book Reviews Python Rust Mathematics Machine Learning Functional Programming Compilers Formal Methods Markets Public Policy Contact PGP Key Github Bluesky LinkedIn Substack RSS August 29, 2026 Reading Mode Wider policy The Internet Is Kind of a Predatory Cesspit Now Iâm a kid of the 90s, and I still remember the early internet."
+  ]
+ },
+ "91b6dc2436c470c3": {
+  "feed": "YC Hacker News",
+  "title": "SQLite as a Document Database (2020)",
+  "link": "https://dgl.cx/2020/06/sqlite-json-support",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "SQLite as a document database dgl.cx projects about ✨ ☀️ ☁️ SQLite as a document database SQLite has had JSON support for a while. However recently it added a killer feature: generated columns . (This was added in 3.31.0, released 2020-01-22.) This makes it possible to insert JSON straight into SQLite and then have it extract data and index them, i.e."
+  ]
+ },
+ "7080a92c7eaa4a29": {
+  "feed": "YC Hacker News",
+  "title": "Tether: iMessage, SMS, etc. on Linux",
+  "link": "https://zackbartel.com/blog/2026/08/tether/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tether: Linux + iPhone - Zack Bartel /home blog github rss cat content/blog/2026/08/2026-08-23-tether.md Tether: Linux + iPhone // Aug 23, 2026 I didn't miss macOS, but... When I went to Linux full time I was surprised to not miss much from macOS. tldr; I made Tether to do all the things I did miss. No AirPlay kinda sucked, but the one thing I kept wishing I had was what Apple calls \"Continuity\" : the ability to send and receive iMessages and SMS, share files, sync clipboard, and see notifications from my iPhone on my computer."
+  ]
+ },
+ "fea21f0588c27ee8": {
+  "feed": "YC Hacker News",
+  "title": "Calibrate Before You Accelerate: Bias Toward Action in a New Role",
+  "link": "https://tucker.wales/writing/bias-towards-action/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Calibrate Before You Accelerate: The Smart Way to Bias Toward Action in a New Role | Joshua Tucker Joshua Tucker Senior Engineer at Engine by Starling August 28, 2026 Calibrate Before You Accelerate: The Smart Way to Bias Toward Action in a New Role A bias toward action is a superpower only when applied correctly - here's how to frame it as moving decisively after building context, not rushing in before you have it."
+  ]
+ },
+ "c15e14397282f5ef": {
+  "feed": "YC Hacker News",
+  "title": "Sleepwalker: Passive Backdoor with Its Own Command Language",
+  "link": "https://r136a1.dev/2026/08/24/sleepwalker-a-passive-backdoor-with-its-own-command-language/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "SLEEPWALKER: A Passive Backdoor With Its Own Command Language R136a1 Malware analysis, threat hunting and tool development Archive GitHub X Links About SLEEPWALKER: A Passive Backdoor With Its Own Command Language Aug 24, 2026 â¢ malware Losing access to VirusTotal Intelligence at the start of the year was surprisingly productive. Unable to hunt for interesting new malware, I stopped adding to my âTODOâ pile and finally worked through my backlog from last year."
+  ]
  }
 }
