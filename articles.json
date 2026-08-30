@@ -61208,5 +61208,71 @@
   "points": [
    "SLEEPWALKER: A Passive Backdoor With Its Own Command Language R136a1 Malware analysis, threat hunting and tool development Archive GitHub X Links About SLEEPWALKER: A Passive Backdoor With Its Own Command Language Aug 24, 2026 â¢ malware Losing access to VirusTotal Intelligence at the start of the year was surprisingly productive. Unable to hunt for interesting new malware, I stopped adding to my âTODOâ pile and finally worked through my backlog from last year."
   ]
+ },
+ "1fc8156d3a118f71": {
+  "feed": "YC Hacker News",
+  "title": "Bug Blindness",
+  "link": "https://danluu.com/bug-blind/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Bug blindness Bug blindness | Patreon I used to wonder why I see so many more bugs than most people. I easily observe hundreds to thousands of bugs per week and nothing seems to work , but most people I talk to don't see anything like this . For a long time, I thought this had something to do with how I use computers but, over time, I've realized that it's mostly that people are hitting the same bugs and don't notice."
+  ]
+ },
+ "e4efc6a513fe3346": {
+  "feed": "YC Hacker News",
+  "title": "RISC-V is now officially supported by CPython",
+  "link": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RISC-V is now officially supported by CPython! | Python Insider Python Insider Home Blog Search ⌘K RISC-V is now officially supported by CPython! Stan Ulbrych / August 24, 2026 Over the last few months, I’ve been working on improving CPython’s support for the RISC-V architecture, and I’m thrilled to announce that RISC-V is now officially supported by CPython as a tier 3 platform!"
+  ]
+ },
+ "f9935fd33821b801": {
+  "feed": "YC Hacker News",
+  "title": "Hy4 preview",
+  "link": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tencent Releases and Open-Sources Tencent Hy4 preview - Tencent Skip to main content Who we are Who we are Overview See how teamwork, leadership and global reach bring Tencent's vision and values to life. Our story Our management team Our vision & mission Back Who we are Who we are Overview See how teamwork, leadership and global reach bring Tencent's vision and values to life."
+  ]
+ },
+ "06ed8c51b5a90f59": {
+  "feed": "YC Hacker News",
+  "title": "FreeCORE TrueNAS Core – Continued",
+  "link": "https://freecore.org/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "FreeCORE Free CORE Home Install Documentation Free CORE TrueNAS® CORE — continued. Lineage FreeCORE descends from FreeNAS and TrueNAS® CORE, and builds on FreeBSD and OpenZFS . FreeNAS → TrueNAS → FreeCORE Train 13.3 base 15.0 current ( changelog ) 15.1 next Project FreeCORE carries the TrueNAS CORE 13.3 system forward as an independently maintained operating system on FreeBSD."
+  ]
+ },
+ "23f76a7510659af5": {
+  "feed": "YC Hacker News",
+  "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+  "link": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "California lawmakers unanimously pass Linux exemption from age-verification law — software distributed under the GPL, MIT, BSD, and Apache licenses are exempt | Tom's Hardware Skip to main content Join Tom’s Hardware today Upgrade to Tom’s Hardware Premium Explore GO PREMIUM Choose how you want to join Tom’s Hardware MEMBER Get started with free access to reviews, badges and discussions."
+  ]
+ },
+ "e99b0d4d4edfa874": {
+  "feed": "Simon Willison",
+  "title": "Introducing Hy4 Preview",
+  "link": "https://simonwillison.net/2026/Aug/29/hy4/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities."
+  ]
  }
 }
