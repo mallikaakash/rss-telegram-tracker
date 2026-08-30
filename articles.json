@@ -61274,5 +61274,71 @@
   "points": [
    "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities."
   ]
+ },
+ "773e61521fea2063": {
+  "feed": "YC Hacker News",
+  "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+  "link": "https://github.com/anthropics/claude-code/issues/66504",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[FEATURE] Session URL appended to commit messages and PR descriptions by default — should be opt-in · Issue #66504 · anthropics/claude-code · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "ee5f9d54dd66cb5e": {
+  "feed": "YC Hacker News",
+  "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+  "link": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "QSB-118: Dom0 arbitrary code execution in qvm-copy-to-vm error reporting | Qubes OS Toggle navigation Qubes OS Introduction Downloads Documentation News Team Donate News Categories Statistics QSB-118: Dom0 arbitrary code execution in qvm-copy-to-vm error reporting 2026-08-29 by The Qubes team in Security We have published Qubes Security Bulletin (QSB) 118: Dom0 arbitrary code execution in qvm-copy-to-vm error reporting ."
+  ]
+ },
+ "a651615e7911bbfa": {
+  "feed": "YC Hacker News",
+  "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+  "link": "https://arxiv.org/abs/1804.07389",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[1804.07389] Longest Straight Line Paths on Water or Land on the Earth Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Mathematics > History and Overview arXiv:1804.07389 (math) [Submitted on 9 Apr 2018 ( v1 ), last revised 2 Jul 2018 (this version, v4)] Title: Longest Straight Line Paths on Water or Land on the Earth Authors: Rohan Chabukswar , Kushal Mukherjee View a PDF of the paper titled Longest Straight Line Paths on Water or Land on the Earth, by Rohan Chabukswar and Kushal Mukherjee View PDF HTML (experimental) Abstract: There has been some interest recently in determining the longest distance one can sail for on the earth without hitting land, as well as in the converse problem of determining the longest distance one could drive for on the earth without encountering a major body of water."
+  ]
+ },
+ "1789eb09a1d72ad8": {
+  "feed": "YC Hacker News",
+  "title": "Hacking IKEA Furniture",
+  "link": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hacking IKEA Furniture Â· Green Lightning Skip to content DIY Hacking IKEA Furniture 30 August 2026 When something you want is not available for purchase, well, you can always build it yourself! I recently moved and have a dedicated office room now. I wanted something which combines the practicality of a workbench with the look of regular living room furniture."
+  ]
+ },
+ "8f31fba8f16cac9f": {
+  "feed": "YC Hacker News",
+  "title": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
+  "link": "https://www.youtube.com/watch?v=hpj6r6CjJf8",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "ce11c9b872b55c7e": {
+  "feed": "Technica",
+  "title": "Inside Meta’s push to put robots to work in data centers",
+  "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+  "date": "2026-08-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta is testing robots that can plug in cables, reset servers, and handle other tasks inside its data centers , according to several current and former workers familiar with the projects. The ongoing effort, which has not been previously reported, may eventually allow Meta to operate its rapidly expanding data center footprint with fewer humans, keeping labor costs in check as its spending on AI infrastructure soars ."
+  ]
  }
 }
