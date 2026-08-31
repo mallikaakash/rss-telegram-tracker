@@ -61395,5 +61395,104 @@
   "points": [
    "Electric rain can eat through metal | Scientific American Skip to main content Scientific American September Issue Newsletters Podcasts Games Explore Biology Chemistry Environment Health Math Mind & Brain Technology Social Sciences Space & Physics Latest News Issue Archive Special Reports Videos Books Subscribe Sign In September Issue Newsletters Podcasts Games Explore Biology Chemistry Environment Health Math Mind & Brain Technology Social Sciences Space & Physics Latest News Issue Archive Special Reports Videos Books New Issue: Orbital Catastrophe Ahead?"
   ]
+ },
+ "8a01e72be812a020": {
+  "feed": "YC Hacker News",
+  "title": "“I just chose words carefully”",
+  "link": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "âI just chose words carefully.â â Unsung Unsung Software craft and quality Posts by Marcin Wichary âI just chose words carefully.â I donât think anyone particularly enjoys typesetting in monospace. Regular text is okay â at least as okay as it can be: = 2x) and (width >= 700px)\" srcset=\"_media/i-just-chose-words-carefully/1.2096w.avif\" type=\"image/avif\"> = 3x) or (width >= 700px)\" srcset=\"_media/i-just-chose-words-carefully/1.1600w.avif\" type=\"image/avif\"> Right aligning is also fine, as long as you donât mind counting spaces, but centering already gets tricky, as you donât have a half space to make things truly even: = 2x) and (width >= 700px)\" srcset=\"_media/i-just-chose-words-carefully/2.2096w.avif\" type=\"image/avif\"> = 3x) or (width >= 700px)\" srcset=\"_media/i-just-chose-words-carefully/2.1600w.avif\" type=\"image/avif\"> And full justification is where things get particularly weird."
+  ]
+ },
+ "4dc119bd96eb70c7": {
+  "feed": "YC Hacker News",
+  "title": "P99 0 ms* autocomplete for 240M domain names",
+  "link": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "p99 0 ms* autocomplete for 240 million domain names - Ruurtjan Pul p99 0 ms* autocomplete for 240 million domain names June 22, 2026 We’ll get to the asterisk. I run Wirewiki.com , a website to inspect internet infrastructure like domain names. It helps people check (historic) DNS records, DNS delegation, email deliverability config, etc. There are a ton of sites that offer this (growing faster than ever thanks to vibe coding), so I need a way to stand out."
+  ]
+ },
+ "fe40be9fc8b586c3": {
+  "feed": "YC Hacker News",
+  "title": "Transfer files over an Ethernet patch cable",
+  "link": "https://maurycyz.com/misc/etherfiles/",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Technical note: transfer files over an ethernet patch cable (Maurycy's blog) Navigation: Homepage Index Yearly archives Fun Astrophotography (catalog) About this site Real pages Dark Light TTY Technical note: transfer files over an ethernet patch cable 2026-08-29 — 2026-08-30 It's possible to just connect two computers together with Ethernet and do a bit of IP configuration: # On sender ..."
+  ]
+ },
+ "ba6b93bf69d8f9e0": {
+  "feed": "YC Hacker News",
+  "title": "It takes 5 cloud services to hear my doorbell",
+  "link": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It takes 5 cloud services to hear my doorbell Â· Bit Nebula Bit Nebula A blog with some stuff. â Vivek Ghaisas â blog home â vghaisas.com â @vghaisas Â© 2026 Vivek Ghaisas Â· License It takes 5 cloud services to hear my doorbell Aug 23, 2026 dev It all started in the winter of 2024. There was a burglary in our apartment building and we decided we needed to invest in our home’s security."
+  ]
+ },
+ "fa17eae077cb225c": {
+  "feed": "YC Hacker News",
+  "title": "My hobby of building miniatures and taking pretty pictures",
+  "link": "https://sandyuraz.com/blogs/tiny-cafe/",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Damn fine tiny cafe ☕️ Damn fine tiny cafe ☕️ darkness [at] sandyuraz [dot] com Dossier 🖋 | Bookshelf 🔖 | Fortunes 🧧 | K.K.’s Fortunes 🦋 | Go Up ☝️ | Home 🏠 🥑 At least 17 days ago I love them miniatures. It started off with Rolife series, where the first hit had come from a tiny library , followed by a sakura train , and then some—well, it’s this one—most surely one of the longest ones to build."
+  ]
+ },
+ "6034bfd30121d547": {
+  "feed": "Technica",
+  "title": "A 12TB Steam “teraleak” spills more than a decade of lost PC gaming history",
+  "link": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Here at Ars, we're intimately familiar with data leaks surrounding Valve's games , hardware , and the workings of Steam itself . But nothing could have prepared us for this weekend's \"terarelease\" encompassing more than 12TB of content related to seemingly every title available on Steam between 2003 to 2013. What's being sold as an \"as-complete-as-possible ..."
+  ]
+ },
+ "ff1e4285f7cc3aa8": {
+  "feed": "Technica",
+  "title": "Why it matters that President Trump just dialed into a NASA news conference",
+  "link": "https://arstechnica.com/space/2026/08/why-it-matters-that-president-trump-just-dialed-into-a-nasa-news-conference/",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As is standard procedure for major NASA missions, the US space agency held a post-launch news conference on Sunday morning at Kennedy Space Center in Florida to provide information about how the Nancy Grace Roman Space Telescope was faring during its initial maneuvers. What was not standard, however, is what happened in the middle of the news conference."
+  ]
+ },
+ "684febbb94ebd3f4": {
+  "feed": "MIT News (AI)",
+  "title": "How an MIT research project became a global programming language",
+  "link": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It all started with some exasperated emails. Back in 2009, a group of researchers began venting their frustration with the programming languages designed to help scientists and other researchers perform complex mathematical operations and statistical simulations without learning how to code. These programming languages were rigid and slow. If scientists built something that really worked, they’d need to rewrite the entire program in another language just to run it more quickly."
+  ]
+ },
+ "517370741c36397d": {
+  "feed": "Simon Willison",
+  "title": "Understanding ChatGPT Work",
+  "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+  "date": "2026-08-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps."
+  ]
  }
 }
