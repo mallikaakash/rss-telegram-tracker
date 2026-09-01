@@ -3422,5 +3422,25 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "13aa277b2f17c8f9": {
+  "url": "https://deepwiki.com/danielwoz/vllm-dspark-nvfp4/2.1-kv-cache-memory-layout-and-quantization",
+  "title": "KV Cache Memory Layout and Quantization | danielwoz/vllm-dspark-nvfp4 | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "2f40301ec1829a2b": {
+  "url": "https://github.com/DrHazemAli/enterprise-system-design/blob/main/README.md",
+  "title": "enterprise-system-design/README.md at main · DrHazemAli/enterprise-system-design · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
