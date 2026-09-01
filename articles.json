@@ -62121,5 +62121,159 @@
   "points": [
    "Memory costs are increasing dramatically. Both RAM and hard disk drive prices have exploded over the past year. At Cloudflare, we run several massively distributed storage products (including our famous CDN) that rely on making efficient use of the memory we have deployed so we can continue to serve all of our customers. With this in mind, we prototyped a way to expand effective cache capacity."
   ]
+ },
+ "3df5fbd9b80322fb": {
+  "feed": "YC Hacker News",
+  "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+  "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Claude Fable 5.1 and Claude Mythos 5.1 \\ Anthropic Skip to main content Skip to footer Research Policy Commitments Learn News Try Claude Introduction A new performance frontier Scientific research Safety Claude Mythos 5.1 Cost and availability September 2026 :Claude: Fable 5.1 and Mythos 5.1 [ 1 ] ................................................................................................................................................................"
+  ]
+ },
+ "3b73faf3a995ba18": {
+  "feed": "YC Hacker News",
+  "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+  "link": "https://danluu.com/zitron/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How accurate have Ed Zitron's AI skeptic predictions been? How accurate have Ed Zitron's AI skeptic predictions been? | Patreon I was curious how well the predictions of the most widely cited AI skeptic I've seen (Ed Zitron) have done, so I looked at how his predictions panned out. To disclose my own biases, I've never had a particularly strong pro or anti AI progress position."
+  ]
+ },
+ "2133b6c68bfd8d05": {
+  "feed": "YC Hacker News",
+  "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
+  "link": "https://www.norirobotics.com/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NORI A3 — Affordable bimanual robot nori A3 warming up… // now shipping fall 2026 ships fall 2026 Y YC-backed NORI A3 The most capable robot for $1,688 Order now → scroll ↓ Contact us Order → nori A3 Everyday tasks Nori can support you with day-to-day home tasks. Helping in the kitchen Tidying Fetching from the fridge Loading dishes Folding clothes Pouring ingredients Teach Nori to support you in every way Skills Marketplace Train your Nori at home, share its skills anywhere."
+  ]
+ },
+ "ae39daace435b35d": {
+  "feed": "YC Hacker News",
+  "title": "Movie Scene Map – 13,312 films, series, games, anime and manga",
+  "link": "https://moviescenemap.com/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "filmed\" an AI Overview fills the first screen and cites Reddit and IMDb. The film pages sit at position 8 to 11 on those queries and take a 0.2% clickthrough. \"filming locations map\" behaves completely differently. There is no AI Overview on it at all — a map cannot be summarised into a sentence — and the result sitting first is cinemapper.com, a page whose entire content is \"CineMapper is rebuilding."
+  ]
+ },
+ "d640857d5a6b95c6": {
+  "feed": "YC Hacker News",
+  "title": "The creator of Jujutsu has joined ERSC",
+  "link": "https://ersc.io/blog/martin-joins-ersc",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "East River Source Control Names Jujutsu Creator Martin von Zweigbergk Chief Technology Officer // ERSC EastÂ River SourceÂ Control Blog Contact East River Source Control Names Jujutsu Creator Martin von Zweigbergk Chief Technology Officer 2026-09-01 press by East River Source Control NEW YORK (September 1, 2026), FOR IMMEDIATE RELEASE East River Source Control has appointed Martin von Zweigbergk, creator of the Jujutsu version control system, as chief technology officer, to lead engineering on the companyâs next generation version control platforms."
+  ]
+ },
+ "4a37762fac1fdefb": {
+  "feed": "Technica",
+  "title": "CDC reported then deleted two measles deaths that were questioned by RFK Jr.",
+  "link": "https://arstechnica.com/health/2026/09/cdc-reported-then-deleted-two-measles-deaths-that-were-questioned-by-rfk-jr/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Centers for Disease Control and Prevention is excluding two measles deaths reported by Pennsylvania health officials last week from its latest update of national measles data. The move publicly challenges the accuracy of the state's death determinations in an extraordinary move that breaks precedent that states are the arbiters of case and death determinations, not the CDC."
+  ]
+ },
+ "ce09b2857e7a426e": {
+  "feed": "Technica",
+  "title": "New Android Drop adds remembered items in Find Hub, makes anti-nausea dots official",
+  "link": "https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Let's be frank: Some of Google's recent Android feature Drops have been duds, offering little more than an expansion of Gemini summaries and chat functions. The new September Drop does have some Gemini flavor, but there are non-AI goodies, too. Your messaging threads are getting prettier and more useful, and those nifty Motion Assist dots that began appearing last week are rolling out widely."
+  ]
+ },
+ "2dfabbada382ad9d": {
+  "feed": "Technica",
+  "title": "FTC alleges Amazon illegally made $20 billion by rigging billions of ad auctions",
+  "link": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Federal Trade Commission and 22 states sued Amazon yesterday, alleging that it has conducted a secret scheme to overcharge advertisers for seven years. \"Since 2019, Amazon.com, Inc. has secretly and systematically overcharged its approximately 1.2 million advertising customers by manipulating the 'auctions' that it uses to set the price of ads on its platform,\" the lawsuit said."
+  ]
+ },
+ "f6b96c46f6e1ac42": {
+  "feed": "Technica",
+  "title": "This is what a supercar was like a century ago",
+  "link": "https://arstechnica.com/cars/2026/09/this-is-what-a-supercar-was-like-a-century-ago/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Bentley provided flights from Washington, DC, to Monterey, California, and accommodation so Ars could drive the new Supersports and ride in a preproduction Torcal EV, which we wrote about last week. While we were there, we went for a ride in something quite old. Ars does not accept paid editorial content. MONTEREY, Calif.—Elsewhere on these pages , you can find our first track drive of the new Bentley Supersports."
+  ]
+ },
+ "411288110127b5c8": {
+  "feed": "Google Research",
+  "title": "Mapping global methane emissions from space with deep learning",
+  "link": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Mapping global methane emissions from space with deep learning Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "3b5f2688fec1191a": {
+  "feed": "OpenAI News",
+  "title": "How AI-native companies turn workflows into operating capability",
+  "link": "https://openai.com/index/ai-native-company-workflows",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How AI-native companies turn workflows into operating capability | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 1, 2026 AI Adoption How AI-native companies turn workflows into operating capability Basis, Clay, and Exa Labs use agents for onboarding, account management, and developer integrations."
+  ]
+ },
+ "309be27bdcfe3156": {
+  "feed": "OpenAI News",
+  "title": "Path to Astra: critical capabilities and frontier safeguards",
+  "link": "https://openai.com/index/path-to-astra",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Path to Astra: critical capabilities and frontier safeguards | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 1, 2026 Safety Security Path to Astra: critical capabilities and frontier safeguards Loading… Share Assessing Astra’s cybersecurity capabilities Assessing Astra’s cybersecurity capabilities Safeguards required for critical capabilities Robustness against cyber abuse Alignment & monitoring What this will mean for users Looking forward Assessing Astra’s cybersecurity capabilities Safeguards required for critical capabilities Robustness against cyber abuse Alignment & monitoring What this will mean for users Looking forward Since our earlier assessment that Astra might reach a critical level of cybersecurity capability, we have gathered more evidence and run additional evaluations to assess the model’s capabilities."
+  ]
+ },
+ "50e05f9b472e33e2": {
+  "feed": "OpenAI News",
+  "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+  "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Healthcare organizations can now connect EHR and additional industry data to ChatGPT | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 1, 2026 Product Healthcare organizations can now connect EHR and additional industry data to ChatGPT A new Epic integration and Healthcare Public Data plugin help teams review authorized patient context and work with structured information from official sources in ChatGPT for Healthcare."
+  ]
+ },
+ "4060d5fb1d26c56e": {
+  "feed": "Simon Willison",
+  "title": "Codex bundles LibreOffice",
+  "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010): The ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries."
+  ]
  }
 }
