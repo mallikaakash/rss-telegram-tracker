@@ -61989,5 +61989,137 @@
   "points": [
    "There are, by various estimates, several trillion planets within the local group of galaxies including our own Milky Way. Many of these are within the habitable zone of their stars. So if life finds a way, where are the alien civilizations? This is the crux of what is known as the Fermi paradox , which posits that if life is fairly common in the Universe, humans should have collected credible evidence for the existence of extraterrestrial civilizations by now."
   ]
+ },
+ "0a52bf1dddc25d7c": {
+  "feed": "YC Hacker News",
+  "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
+  "link": "https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Aurora Store returns a “&$Server busy, please try again later.” error when trying to install an application (#1566) · Issues · Aurora OSS / AuroraStore · GitLab Aurora Store returns a “&$Server busy, please try again later.” error when trying to install an application <!--- - Please read Troubleshooting and FAQs on the project's website before writing an issue to see if it helps solve your problem!"
+  ]
+ },
+ "8c4eb6f516c24d4a": {
+  "feed": "YC Hacker News",
+  "title": "Ambient CSS v3 – Blender meets CSS",
+  "link": "https://ambientcss.vercel.app/",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "c814c101cf72837f": {
+  "feed": "YC Hacker News",
+  "title": "Ask HN: Who is hiring? (September 2026)",
+  "link": "https://news.ycombinator.com/item?id=49522897",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ask HN: Who is hiring? (September 2026) | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Ask HN: Who is hiring? (September 2026) 98 points by whoishiring 2 hours ago | hide | past | favorite | 87 comments Please state the location and include REMOTE for remote work, REMOTE (US) or similar if the country is restricted, and ONSITE when remote work is not an option."
+  ]
+ },
+ "6c4c62438da1e3d3": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+  "link": "https://github.com/carloslfu/slotstream",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - carloslfu/slotstream: Run Qwen3.8-Flash-Next (125B MoE, 104 GB at 4-bit) on Macs with a fraction of that RAM by streaming experts from SSD. MLX + Swift, Ollama-compatible API. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "339550396326268e": {
+  "feed": "YC Hacker News",
+  "title": "Quill (YC W20) Is Hiring a Fullstack SWE",
+  "link": "https://news.ycombinator.com/item?id=49524704",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Quill (YC W20) Is Hiring a Fullstack SWE | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Quill (YC W20) Is Hiring a Fullstack SWE 26 minutes ago | hide Quill | Fullstack SWE | Full-time | Remote, PT/ET hours preferred | $150 - 210K USD + equity | https://quill.co/ I’m a co-founder of Quill, a fullstack SDK for adding customer-facing analytics & data features to your app."
+  ]
+ },
+ "20f83224185dd6df": {
+  "feed": "Technica",
+  "title": "It turns out that Orion's much-maligned heat shield performed really well",
+  "link": "https://arstechnica.com/space/2026/09/it-turns-out-that-orions-much-maligned-heat-shield-performed-really-well/",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Perhaps the biggest question going into the Artemis II mission this spring was how the heat shield at the base of the spacecraft would perform during reentry through Earth's atmosphere. The ablative heat shield, designed to char upon reentry while keeping the crew safe, had experienced unexpected losses of large chunks during a test flight in late 2022."
+  ]
+ },
+ "dfd1ea2e5518b0ed": {
+  "feed": "Google DeepMind",
+  "title": "Introducing agentic video understanding with Gemini",
+  "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Agentic Video in Gemini Skip to main content Introducing agentic video understanding with Gemini Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Introducing agentic video understanding with Gemini Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (Melayu) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Models & research Gemini Models Introducing agentic video understanding with Gemini Sep 01, 2026 | x.com Facebook LinkedIn Mail Copy link Our new agentic feature for video analysis cuts token consumption by up to 88%, reduces costs by up to 66%, and boosts quality by up to 7%."
+  ]
+ },
+ "85562dc16345cc8b": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+  "link": "https://huggingface.co/blog/webgpu-kernels",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI Published September 1, 2026 Update on GitHub Upvote 10 +4 Nico Martin nico-martin Follow Joshua Xenova Follow :last-child]:mb-0\"> TL;DR Why start with kernels?"
+  ]
+ },
+ "f632cad25f3c4fe8": {
+  "feed": "Simon Willison",
+  "title": "Quoting Tarn Adams",
+  "link": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A quote from Tarn Adams Simon Willison’s Weblog Subscribe Sponsored by: Greptile — The Al code reviewer that runs your code. Catch bugs that only show up at runtime. Try it for free 1st September 2026 They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes — Tarn Adams , co-creator of Dwarf Fortress Posted 1st September 2026 at 5:01 pm Recent articles Understanding ChatGPT Work - 30th August 2026 Conceptual integrity and counting lines of code - 19th August 2026 Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things - 16th August 2026 This is a quotation collected by Simon Willison, posted on 1st September 2026 ."
+  ]
+ },
+ "58319d71cb137250": {
+  "feed": "Simon Willison",
+  "title": "Python 3.15.0 candidate 2 is here!",
+  "link": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing."
+  ]
+ },
+ "035c87477eec7009": {
+  "feed": "Railway Blog",
+  "title": "Node.js Hosting Options Compared",
+  "link": "https://blog.railway.com/p/nodejs-hosting-options-compared",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Will Raphaelson Node.js is an immensely popular JavaScript runtime, enabling you to run JavaScript outside a web browser. This is useful for web backends, scripts, or jobs that need to be run on a schedule or in response to an event, or any other JavaScript that needs to be run on a server. The ecosystem has more high-quality options than ever, but they’re not all created equally."
+  ]
+ },
+ "59202f933f3fe92f": {
+  "feed": "Cloudflare Blog",
+  "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+  "link": "https://blog.cloudflare.com/cache-transcoding/",
+  "date": "2026-09-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Memory costs are increasing dramatically. Both RAM and hard disk drive prices have exploded over the past year. At Cloudflare, we run several massively distributed storage products (including our famous CDN) that rely on making efficient use of the memory we have deployed so we can continue to serve all of our customers. With this in mind, we prototyped a way to expand effective cache capacity."
+  ]
  }
 }
