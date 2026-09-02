@@ -62275,5 +62275,159 @@
   "points": [
    "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010): The ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries."
   ]
+ },
+ "6f443a0a8f07161f": {
+  "feed": "YC Hacker News",
+  "title": "True Rate of Unemployment",
+  "link": "https://www.lisep.org/tru",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LISEP Ludwig Institute for Shared Economic Prosperity Shared Prosperity Shared Economic Prosperity Measure LISEP’s measure of how national income is shared Unemployment True Rate of Unemployment The percentage of the U.S. labor force that is functionally unemployed True Rate of Unemployment Out of the Population True Rate of Unemployment Out of the Population The percentage of the whole U.S."
+  ]
+ },
+ "c4a33f02a5356fed": {
+  "feed": "YC Hacker News",
+  "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+  "link": "https://arxiv.org/abs/2608.29530",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2608.29530] The Emergent Symbolic Structure of Artificial Neural Networks Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Computation and Language arXiv:2608.29530 (cs) [Submitted on 30 Aug 2026] Title: The Emergent Symbolic Structure of Artificial Neural Networks Authors: R."
+  ]
+ },
+ "31bdc7269e634b65": {
+  "feed": "YC Hacker News",
+  "title": "Fine, I'll build my own text editor",
+  "link": "https://dbushell.com/2026/09/01/text-editor/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fine, Iâll build my own text editor! â David Bushell â Web Dev (UK) Skip to main content dbushell.com valleyfold.co.uk Menu Fine, Iâll build my own text editor! Subscribe Blog RSS feed Notes RSS feed or Combined RSS feed and follow Mastodon Bluesky Tuesday 1 Sept 2026 Play Synthesised Audio âThey donât make âem like Sublime Text anymoreâ resonated with a lot of folk."
+  ]
+ },
+ "4cce6faaea2a8c82": {
+  "feed": "YC Hacker News",
+  "title": "WebFPGA",
+  "link": "https://webfpga.io/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "WebFPGA WebFPGA NOTICE (Updated: March 21st, 2022) Our distributor has confirmed shipment of new parts. We will update our store stock after manufacturing is complete. We estimate this to be completed 2-3 weeks from today. -- WebFPGA Team (previous updates) --> Welcome! Please read our Kickstarter page for the project's information and scope. Purchase a board below and use our Web IDE to program your FPGA device!"
+  ]
+ },
+ "a0aed382f4580bb8": {
+  "feed": "YC Hacker News",
+  "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+  "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "FBI Probes Service Selling 153M+ Drivers Licenses – Krebs on Security --> Advertisement Advertisement --> Skip to content Home About the Author Advertising/Speaking FBI Probes Service Selling 153M+ Drivers Licenses September 1, 2026 10 Comments A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada."
+  ]
+ },
+ "a94d0ae71979e257": {
+  "feed": "Technica",
+  "title": "Here's our first look—and drive—of the 2027 Range Rover Electric",
+  "link": "https://arstechnica.com/cars/2026/09/range-rover-ev-electric-propulsion-pairs-perfectly-with-this-luxury-suv/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jaguar Land Rover provided flights from Washington, DC, to London and accommodation so Ars could visit its factory and drive the Range Rover Electric. Ars does not accept paid editorial content. Jaguar Land Rover was one of the first automakers to announce a transition away from combustion engines. That transition timeline might have slipped somewhat—pesky things like pandemics, supply chains, and revanchism have all been barriers to more rapid electrification—but it's still underway, and today is the debut of the Range Rover Electric, a new battery-electric vehicle variant that sits alongside the internal combustion and plug-in hybrid Range Rovers."
+  ]
+ },
+ "7b391dea3ce2305a": {
+  "feed": "Technica",
+  "title": "Research roundup: 7 cool science stories we almost missed",
+  "link": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. August’s list includes the discovery of a new celestial object astronomers have dubbed a \"black hole star\"; breaking down plastics with microbes and turning them into edible cookies; how whale calls are connected to Einstein's special theory of relativity; and how avocado tree flowers switch sex during the day, among other highlights."
+  ]
+ },
+ "631a857c7a24a6f9": {
+  "feed": "OpenAI News",
+  "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+  "link": "https://openai.com/index/gilbert-tobin",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How law firm Gilbert + Tobin governs and scales AI with OpenAI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 1, 2026 How law firm Gilbert + Tobin governs and scales AI with OpenAI CEO-led commitment, rigorous governance, and human accountability enable Gilbert + Tobin to embed AI into the way the firm operates."
+  ]
+ },
+ "23bdbfdbd061867c": {
+  "feed": "Hugging Face Blog",
+  "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+  "link": "https://huggingface.co/blog/allenai/benchmirt",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "BenchMIRT: What are LLM benchmarks actually measuring? Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> BenchMIRT: What are LLM benchmarks actually measuring?"
+  ]
+ },
+ "aaaa8fc91eb96bba": {
+  "feed": "MIT News (AI)",
+  "title": "Walter Torous named executive director of MIT Center for Real Estate",
+  "link": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Walter Torous , senior lecturer in the MIT Department of Urban Studies and Planning (DUSP) and the MIT Sloan School of Management , and director of the Master of Science in Real Estate Development Program (MSRED), was recently named executive director of the MIT Center for Real Estate (CRE) — effective July 1, 2026. In announcing Torous’ appointment, School of Architecture and Planning Dean Hashim Sarkis also said that Justin Steil , professor of law and urban planning, will represent CRE as faculty chair of the Academic Curriculum Council."
+  ]
+ },
+ "40f6b0d0bc8fdc4f": {
+  "feed": "Simon Willison",
+  "title": "Quoting Rick Brewster",
+  "link": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll ."
+  ]
+ },
+ "ab12481175ff3793": {
+  "feed": "Simon Willison",
+  "title": "Claude Fable 5.1 made me a really nice animated pelican",
+  "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol."
+  ]
+ },
+ "0cf425c452e8fd85": {
+  "feed": "Simon Willison",
+  "title": "GeoJSON Map Viewer",
+  "link": "https://simonwillison.net/2026/Sep/1/geojson/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool."
+  ]
+ },
+ "344c2bcd7098482b": {
+  "feed": "Simon Willison",
+  "title": "datasette-mcp 0.2",
+  "link": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. #1 Now depends on mcp>=2.1.1 . This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself."
+  ]
  }
 }
