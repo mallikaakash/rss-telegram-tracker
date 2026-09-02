@@ -62429,5 +62429,71 @@
   "points": [
    "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. #1 Now depends on mcp>=2.1.1 . This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself."
   ]
+ },
+ "1da1ef5b257c845f": {
+  "feed": "YC Hacker News",
+  "title": "Commodore 64 released September 1, 1982",
+  "link": "https://dfarq.homeip.net/commodore-64-released-september-1-1982/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Commodore 64 released September 1, 1982 - The Silicon Underground The Silicon Underground David L. Farquhar on technology old and new, computer security, and more Menu About Archives Home Privacy policy Recent Comments Home » Retro Computing » Commodore 64 released September 1, 1982 Commodore 64 released September 1, 1982 Dave Farquhar Retro Computing September 1, 2026 August 23, 2026 1 Comment On September 1, 1982, the Commodore 64 launched."
+  ]
+ },
+ "a029a8a195a76170": {
+  "feed": "YC Hacker News",
+  "title": "It's OK to hardcode feature flags (2025)",
+  "link": "https://code.mendhak.com/hardcode-feature-flags/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It's OK to hardcode feature flags Mendhak / Code It’s OK to hardcode feature flags Feature flags (or toggles) are often used to control the visibility of new features in a product. There are a few different ways to implement them, but the most talked and marketed about is to use feature flag management software. The simplest way of course is to hardcode them, though it’s the least written about."
+  ]
+ },
+ "89d79cabf2a0acda": {
+  "feed": "YC Hacker News",
+  "title": "You Know Who Hates AI? Insurance Claims Adjusters",
+  "link": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "You Know Who Really Hates AI? Insurance Claims Adjusters | WIRED Skip to main content Menu WIRED SECURITY POLITICS THE BIG STORY BUSINESS SCIENCE CULTURE REVIEWS Menu WIRED Account Account Newsletters Security Politics The Big Story Business Science Culture Reviews Chevron More Expand The Big Interview Magazine Events WIRED Insider WIRED Consulting Newsletters Podcasts Video Livestreams Merch Search Search Kate Taylor Business Aug 31, 2026 6:30 AM You Know Who Really Hates AI?"
+  ]
+ },
+ "e01d36a91acab946": {
+  "feed": "YC Hacker News",
+  "title": "Open Battery Information",
+  "link": "https://github.com/mnh-jansson/open-battery-information",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - mnh-jansson/open-battery-information · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "acc2a30828af9bd7": {
+  "feed": "YC Hacker News",
+  "title": "Sweden pauses Denmark power cable over EU grid rules",
+  "link": "https://www.nordiskpost.com/2026/05/08/sweden-power-cable-dispute-freezes-link-to-denmark/",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sweden pauses Denmark power cable over EU grid rules - NordiskPost News Politics Economy Culture Mobility Tek Denmark Norway Sweden Politics Sweden pauses Denmark power cable over EU grid rules Malthe Pedersen 4 months ago 3 mins Image: Ebba Busch // Lars Schröder/TT Sweden Denmark power cable plans have been paused after Stockholm suspended Konti-Skan Connect, a major electricity link with Denmark, in a dispute with the European Union over how Sweden can use revenues generated by power grid bottlenecks."
+  ]
+ },
+ "4f36a747f32bfbac": {
+  "feed": "Modal Blog",
+  "title": "Modal is expanding in Europe with our new London office",
+  "link": "https://modal.com/blog/modal-europe-expansion",
+  "date": "2026-09-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Modal is expanding in Europe with our new London office Runtime, the conference for engineers running AI in production. Oct. 1 in SF Register now Product Solutions Resources Customers Pricing Docs Log In Sign Up All posts Back News September 2, 2026 â¢ 3 minute read Modal is expanding in Europe with our new London office Erik Bernhardsson CEO and Co-Founder @bernhardsson Weâre very excited to announce that Modal is opening a London office."
+  ]
  }
 }
