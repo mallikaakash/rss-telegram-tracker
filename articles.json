@@ -62671,5 +62671,104 @@
   "points": [
    "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those prompts into an index page and then a page per model - here's the page for Haiku 4.5 for example, which has the original prompt from October 15th 2025 and an updated prompt from January 18th 2026."
   ]
+ },
+ "3e6570f9052da11a": {
+  "feed": "YC Hacker News",
+  "title": "Muse Spark 1.3",
+  "link": "https://developer.meta.com/ai/models/muse-spark/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "8012cf8583744ebd": {
+  "feed": "YC Hacker News",
+  "title": "Google avoids a breakup of its ad tech business",
+  "link": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "2b7be7a753bceb75": {
+  "feed": "YC Hacker News",
+  "title": "The Post-AI Internet Doesn't Look Great",
+  "link": "https://www.jordangoodman.xyz/the-post-ai-internet-doesnt-look-great/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Post-AI Internet Doesn't Look Great – Jordan Goodman Jordan Goodman Home Blog Portfolio Consulting The Post-AI Internet Doesn't Look Great 02 Sep, 2026 Since the explosion of usage in generative AI, much of the internet is pretty much unusable. Search engines inject AI responses, when I actually want the answer from the source directly. Social media platforms are being bombarded with slop posts from bots."
+  ]
+ },
+ "9c3af5bd4530817f": {
+  "feed": "YC Hacker News",
+  "title": "The American Worker vs. the Most Qualified",
+  "link": "https://www.marginallycompelling.com/p/the-american-worker-vs-the-most-qualified",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The American Worker vs the Most Qualified Person Marginally Compelling Subscribe Sign in The American Worker vs the Most Qualified Person A personal story about importing international talent polimath Sep 02, 2026 21 1 1 Share This story started with a rage-bait comment from British tech entrepreneur Paul Graham : I believe the most qualified person should get the job."
+  ]
+ },
+ "8ceb2a1c139f66ac": {
+  "feed": "YC Hacker News",
+  "title": "Wendell Berry has died",
+  "link": "https://www.nytimes.com/2026/08/31/us/wendell-berry-dead.html",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "39117b4f5ce5df96": {
+  "feed": "Technica",
+  "title": "Wary of Artemis IV timeline, NASA is changing lunar spacesuit design",
+  "link": "https://arstechnica.com/space/2026/09/wary-of-artemis-iv-timeline-nasa-is-changing-lunar-spacesuit-design/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NASA has decided to use a simpler spacesuit for its initial missions to the lunar surface, Ars has learned. The agency announced the decision during an internal meeting this week as it seeks to accelerate its program to land humans at the South Pole of the Moon as early as 2028. At the direction of Artemis Program Manager Jeremy Parsons, NASA will work with Axiom Space to develop a \"Sortie Suit\" variant of the planned spacesuit for the lunar surface."
+  ]
+ },
+ "b0c60d5e22ba07f6": {
+  "feed": "Technica",
+  "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+  "link": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google hasn't released a frontier-level Gemini Pro AI model since early 2026, but it sure loves rolling out new Gemini Flash variants. Today, Google is announcing its third Flash model release in just six weeks , making it more likely that we'll never see the promised Gemini 3.5 Pro. But no matter, says Google, because Gemini 3.8 Flash is its best reasoning and coding model yet."
+  ]
+ },
+ "97e3746f8f5e3f8e": {
+  "feed": "Technica",
+  "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+  "link": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Four federal agencies have been sued amid calls to release information about the secret framework that the Trump administration uses to conduct safety reviews of frontier AI models prior to release. In a Wednesday press release announcing the lawsuit, a nonpartisan nonprofit called Protect Democracy alleged that “almost no details” have been released to the public or Congress."
+  ]
+ },
+ "8f3ab62801648c8a": {
+  "feed": "Simon Willison",
+  "title": "llm-gemini 0.34",
+  "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-gemini 0.34 Simon Willison’s Weblog Subscribe Sponsored by: Greptile — The Al code reviewer that runs your code. Catch bugs that only show up at runtime. Try it for free 2nd September 2026 Release llm-gemini 0.34 — LLM plugin to access Google's Gemini family of models New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels."
+  ]
  }
 }
