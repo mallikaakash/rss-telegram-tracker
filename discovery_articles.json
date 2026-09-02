@@ -3442,5 +3442,19 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "05ec86b79bea43a7": {
+  "url": "https://blog.desigeek.com/post/2026/08/llm-inference-stack-part2-below-python/",
+  "title": "The Stack Below the Stack (Part 2): Below Python | Amit Bahree's (useless?) insight!",
+  "domain": "blog.desigeek.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-02",
+  "tier": "hidden_gem",
+  "why": "A deep, personal engineering deep-dive into the low-level execution stack beneath vLLM and Python, framed around debugging a fused MoE router dtype issue.",
+  "points": [
+   "Explores why runtime knobs like `--enforce-eager` and disabling `torch.compile` fail to catch hand-written kernel-level dtype contract mismatches.",
+   "Breaks down GPU memory hierarchy and hardware bottlenecks separating compute-bound prefill (TTFT) from bandwidth-bound decode (TPOT).",
+   "Examines the boundary between CUDA graph launch optimizations and hand-written C++/CUDA fused kernels in modern MoE serving engines."
+  ]
  }
 }
