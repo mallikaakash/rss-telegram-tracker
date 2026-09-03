@@ -62908,5 +62908,104 @@
    "Replaced Kubernetes cluster management and GCP Batch with serverless GPU containers to minimize spin-up latency and node maintenance.",
    "Operates roughly 15 production inference models alongside proprietary foundation model research pipelines."
   ]
+ },
+ "d75e0275a80166c7": {
+  "feed": "YC Hacker News",
+  "title": "Audacity 4.0",
+  "link": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release Audacity-4.0.0 · audacity/audacity · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "5a569d695621a82d": {
+  "feed": "YC Hacker News",
+  "title": "4.5B Posts Scraped from TikTok",
+  "link": "https://tiktok-api.seeksocial.io/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Scraping TikTok's Mobile API Contents Scraping TikTok's Mobile API · 24 endpoints Dark Get the code Done for you $1,899 The problem What this is Anatomy of a request The first empty 200 Devices Where device IDs come from The activation call Proving a device Signing The five headers Inside X-Argus Simon, Speck, SM3 X-Ladon Version gating Network Region partitioning The TLS fingerprint The Go proxy trap Making it work Detecting the empty 200 Keep-alive and exit IPs Proxies, and what they cost Measured success rates Reference The 24 endpoints Tutorial: trend detector Getting the code Done for you Questions Technical guide · 24 endpoints · Measured Scraping TikTok's Mobile API TikTok's Android app talks to a private HTTP+JSON API that is faster than the web endpoints and returns considerably more."
+  ]
+ },
+ "0f39a3e22dd89d8e": {
+  "feed": "YC Hacker News",
+  "title": "Pre-Release of Polars 2.0",
+  "link": "https://pola.rs/posts/announcing-polars-2/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Polars — Pre-release of Polars 2.0 Docs User guide Rust Python Resources Our services Academy Blog About us We're hiring Polars Cloud We're hiring Docs User guide Rust Python Resources Our services Academy Blog About us We're hiring --> --> --> --> --> --> --> --> --> --> --> User guide --> --> --> API --> --> --> Python --> --> --> Rust --> --> --> --> ( --> --> {link.text} --> --> --> Contact us --> --> --> --> --> --> --> --> --> Back to blog Pre-release of Polars 2.0 By Ritchie Vink on Wed, 2 Sept 2026 Today we are releasing the first release candidate for Polars 2.0."
+  ]
+ },
+ "472bd728063e4c8d": {
+  "feed": "YC Hacker News",
+  "title": "The Browser's Main Thread Is Expensive",
+  "link": "https://kciter.so/posts/the-expensive-main-thread/en/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Browser's Main Thread Is Expensive | kciter.so kciter.so devlog Timeline Posts ▾ Articles Bookshelf Thoughts Talks About Articles Bookshelf Thoughts ESC The Browser's Main Thread Is Expensive Written on July 12, 2026 · 한국어 · English What Does the Main Thread Do? Using the Expensive Resource Wisely Splitting Batching Prioritizing Deferring Not Using the Expensive Resource Moving Work to the Compositor Sending Work to a Worker Eliminating the Work Itself Closing What comes to mind when you hear “frontend optimization”?"
+  ]
+ },
+ "d60159c1cc86445d": {
+  "feed": "YC Hacker News",
+  "title": "9 Mothers (YC P26) Is Hiring in Austin, TX",
+  "link": "https://9mothers.com/careers",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Careers | 9 Mothers 9Â Mothers Products [ 0 4 ] Company Careers Request a brief [ CAREERS Â· 9 MOTHERS ] Â· 11 open roles Build counter-drone systems in Austin. We ship hardware on software tempo â AI perception, kinetic engagement, and the kill chain that closes them. Hard problems, real deployment, short iteration loops, and the people doing the work own the spec."
+  ]
+ },
+ "45020768fad998be": {
+  "feed": "Hugging Face Blog",
+  "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+  "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps Published September 3, 2026 Update on GitHub Upvote - Leonie Monigatti iamleonie Follow LiquidAI ben burtenshaw burtenshaw Follow Sergio Paniego sergiopaniego Follow :last-child]:mb-0\"> Prerequisites IFStruct Evaluation on LFM2.5-350M (Base model) GRPO Fine-tuning with TRL on Structured Outputs Training data Model and LoRA Reward functions Training Merging and saving the model IFStruct Evaluation on GRPO Tuned LFM2.5-350M Conclusion This guide is a fully public, inexpensive recipe for making a small model substantially better at structured-output compliance."
+  ]
+ },
+ "86b47b47cb7422fd": {
+  "feed": "Hugging Face Blog",
+  "title": "Give Your Coding Agents a Memory You Own",
+  "link": "https://huggingface.co/blog/funes",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Give Your Coding Agents a Memory You Own Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Give Your Coding Agents a Memory You Own Published September 3, 2026 Update on GitHub Upvote 1 David Corvoysier dacorvo Follow :last-child]:mb-0\"> Add memory to the agent you already use A memory is a dataset, not a service Ask first, wire later Switching agents without losing the thread The cheapest way out of a long session Stop starting from zero Built on open source I work across several machines, and I switch coding agents depending on the task."
+  ]
+ },
+ "b844bdeeb825fb68": {
+  "feed": "Hugging Face Blog",
+  "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+  "link": "https://huggingface.co/blog/train-to-paint-with-code",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Training a coding model to paint watercolours with TRL and OpenEnv Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Training a coding model to paint watercolours with TRL and OpenEnv Published September 3, 2026 Update on GitHub Upvote 21 +15 Sergio Paniego sergiopaniego Follow :last-child]:mb-0\"> Why people loved it RL over taste The RL environment you need to build The pool is the reward function Just one more yolo run What it actually learned Infra is hard What it costs What I would try next What I changed from the original Everything is published On 23 August, Surya Narreddi posted a beautiful video of watercolours painted by a language model."
+  ]
+ },
+ "a024efb6952c8c83": {
+  "feed": "Zepto Engineering",
+  "title": "Right People, Right Shift, Right Time: Optimizing Workforce Planning at Zepto",
+  "link": "https://blog.zepto.com/right-people-right-shift-right-time-optimizing-workforce-planning-at-zepto-11a8e706c7c3?source=rss----bd632b1d570d---4",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In quick commerce, every minute matters and so does having the right number of people on the floor at the right time. At Zepto, workforce planning across a large and rapidly evolving network of dark stores and superstores across India is anything but static. Order volumes change sharply through the day, inbound trucks bringing in fresh inventory from the warehouse have their own variability, and the same store teams must balance order fulfilment with putaway, inventory audits, expiry checks and other operational tasks."
+  ]
  }
 }
