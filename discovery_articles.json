@@ -3456,5 +3456,35 @@
    "Breaks down GPU memory hierarchy and hardware bottlenecks separating compute-bound prefill (TTFT) from bandwidth-bound decode (TPOT).",
    "Examines the boundary between CUDA graph launch optimizations and hand-written C++/CUDA fused kernels in modern MoE serving engines."
   ]
+ },
+ "747c16552cd45c9f": {
+  "url": "https://ai.ksopyla.com/posts/gemma-with-concepts/",
+  "title": "Replacing Gemma-3 Global Attention with Concepts (Toward Longer Context) · Krzysztof Sopyła AI Blog",
+  "domain": "ai.ksopyla.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "9582d845b5c98d01": {
+  "url": "https://arxiv.org/html/2502.21321v2",
+  "title": "LLM Post-Training: A Deep Dive into ReasoningLarge Language Models",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "d853a5905d1818a8": {
+  "url": "https://tinker.expert/blog/gpu-deployments-part-3-scaling-out",
+  "title": "Scaling GPUs past one box",
+  "domain": "tinker.expert",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
