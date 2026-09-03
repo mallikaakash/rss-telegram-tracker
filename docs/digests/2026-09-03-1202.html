@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Thu 03 Sep 2026, 12:02 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Thu 03 Sep 2026, 12:02 IST &middot; 12 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Meta&#x27;s deep-dive into building self-improving domain LLM agents leads this batch, alongside Modal&#x27;s 100TB image pipeline infra study and LLM grounding vulnerabilities.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">Meta Engineering</span><h2><a href="https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/">An Organizational Second Brain: Building an AI That Learns From Experts</a></h2><div class="why">High-quality engineering deep-dive from Meta detailing an architecture for domain-specific LLM agents that self-improve without weight retraining.</div><ul><li>Decouples static knowledge from explicit reasoning procedures, allowing failure attribution and non-retraining updates.</li><li>Implements an automated improvement loop that turns expert feedback directly into regression-tested knowledge updates.</li><li>Uses a four-layer design (knowledge, reasoning, evaluation gating, and improvement loop) to preserve institutional expertise reliably.</li></ul></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/">Three sites made 215,128 “best software” pages for AI. Perplexity cites them</a></h2><div class="why">Empirical study on LLM web-grounding vulnerabilities, showing how programmatic SEO farms exploit commercial RAG search engines.</div><ul><li>59.8% of Perplexity citations in 380 tested buyer categories come from domains ranked outside the Tranco top 100,000.</li><li>Three interconnected domains published 215,128 automated pages titled explicitly to manipulate model grounding pipelines.</li><li>Exposes architectural vulnerabilities in production RAG systems when relying on uncurated web retrieval.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Modal Blog</span><h2><a href="https://modal.com/blog/botika-case-study">How Botika runs full-stack generative AI on Modal</a></h2><div class="why">Relevant ML infrastructure case study detailing how a generative AI startup runs multi-model inference and 100TB data pipelines on Modal.</div><ul><li>Processes a 100TB image pipeline across heterogeneous GPU types without using heavy orchestrators like Airflow.</li><li>Replaced Kubernetes cluster management and GCP Batch with serverless GPU containers to minimize spin-up latency and node maintenance.</li><li>Operates roughly 15 production inference models alongside proprietary foundation model research pipelines.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://computer-museum.org/wp/">The Computer Museum of America reclamation project</a></h2><div class="why">Off-target historical computing preservation project with no ML, backend, or systems engineering content.</div><ul><li>Volunteers are indexing the preserved collection of the former Computer Museum of America at SDSU.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://en.wikipedia.org/wiki/Holden%27s_Lightning_flight">Holden&#x27;s Lightning Flight</a></h2><div class="why">Historical aviation anecdote completely irrelevant to ML, backend systems, or engineering infrastructure.</div><ul><li>Chronicles a 1966 incident where an RAF engineer accidentally engaged an afterburner and flew an interceptor without flight qualifications.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://arxiv.org/abs/2504.00506">Higher Multipoles of the Cow</a></h2><div class="why">Humorous April Fools&#x27; astrophysics paper with zero relevance to software engineering or machine learning.</div><ul><li>Extends the spherical cow physics approximation to multipole expansions.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://smarmelling.com/posts/creating-backup-storage-sucks.html">Creating Backup Storage Sucks</a></h2><div class="why">Basic personal homelab setup using Syncthing across mini-PCs without production distributed systems or storage engineering value.</div><ul><li>Walks through a personal 3-2-1 file sync setup between two mini-PCs and a laptop using Syncthing.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/">Spending deal comes with a bonus: Blocking political control of grants</a></h2><div class="why">US legislative budget policy report that does not touch engineering, infrastructure, or ML topics.</div><ul><li>US House spending bill blocks proposed rules that would grant political appointees unilateral control over science grants.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/">I rented a car, and within hours, my driver&#x27;s license was for sale</a></h2><div class="why">Consumer cybersecurity incident report on identity theft without backend infrastructure or engineering substance.</div><ul><li>Reports on dark-web service Nexus selling driver&#x27;s license scans harvested from car rental companies.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/">FCC plans robocall scorecard to grade phone companies on spam call blocking</a></h2><div class="why">Telecom regulatory announcement regarding robocall scoring with no backend or machine learning relevance.</div><ul><li>FCC announces a robocall mitigation scorecard to grade telecom carriers on spam-call prevention.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">OpenAI News</span><h2><a href="https://openai.com/index/atv-big-air-tour">ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT</a></h2><div class="why">Non-technical product marketing case study for ChatGPT Work featuring a small event tour.</div><ul><li>Promotional piece detailing an SMB using ChatGPT for event listing validation and merchandising.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">MIT News (AI)</span><h2><a href="https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902">From MIT to IBM, expediting AI and quantum deployment</a></h2><div class="why">Institutional PR profile of university alumni at IBM with minimal concrete technical architecture details.</div><ul><li>Profiles IBM researchers exploring curiosity-driven reinforcement learning and test-time training agent frameworks.</li></ul></div></body></html>

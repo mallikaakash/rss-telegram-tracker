@@ -62770,5 +62770,143 @@
   "points": [
    "Release: llm-gemini 0.34 Simon Willison’s Weblog Subscribe Sponsored by: Greptile — The Al code reviewer that runs your code. Catch bugs that only show up at runtime. Try it for free 2nd September 2026 Release llm-gemini 0.34 — LLM plugin to access Google's Gemini family of models New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels."
   ]
+ },
+ "9c71d74e70484427": {
+  "feed": "YC Hacker News",
+  "title": "The Computer Museum of America reclamation project",
+  "link": "https://computer-museum.org/wp/",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "Off-target historical computing preservation project with no ML, backend, or systems engineering content.",
+  "points": [
+   "Volunteers are indexing the preserved collection of the former Computer Museum of America at SDSU."
+  ]
+ },
+ "b379084d2b2f776a": {
+  "feed": "YC Hacker News",
+  "title": "Holden's Lightning Flight",
+  "link": "https://en.wikipedia.org/wiki/Holden%27s_Lightning_flight",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "Historical aviation anecdote completely irrelevant to ML, backend systems, or engineering infrastructure.",
+  "points": [
+   "Chronicles a 1966 incident where an RAF engineer accidentally engaged an afterburner and flew an interceptor without flight qualifications."
+  ]
+ },
+ "57676719cf1fcae7": {
+  "feed": "YC Hacker News",
+  "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+  "link": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "Empirical study on LLM web-grounding vulnerabilities, showing how programmatic SEO farms exploit commercial RAG search engines.",
+  "points": [
+   "59.8% of Perplexity citations in 380 tested buyer categories come from domains ranked outside the Tranco top 100,000.",
+   "Three interconnected domains published 215,128 automated pages titled explicitly to manipulate model grounding pipelines.",
+   "Exposes architectural vulnerabilities in production RAG systems when relying on uncurated web retrieval."
+  ]
+ },
+ "0be6891f63e1a91e": {
+  "feed": "YC Hacker News",
+  "title": "Higher Multipoles of the Cow",
+  "link": "https://arxiv.org/abs/2504.00506",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "Humorous April Fools' astrophysics paper with zero relevance to software engineering or machine learning.",
+  "points": [
+   "Extends the spherical cow physics approximation to multipole expansions."
+  ]
+ },
+ "c22b0529cecf6134": {
+  "feed": "YC Hacker News",
+  "title": "Creating Backup Storage Sucks",
+  "link": "https://smarmelling.com/posts/creating-backup-storage-sucks.html",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "Basic personal homelab setup using Syncthing across mini-PCs without production distributed systems or storage engineering value.",
+  "points": [
+   "Walks through a personal 3-2-1 file sync setup between two mini-PCs and a laptop using Syncthing."
+  ]
+ },
+ "fae6522e99c24672": {
+  "feed": "Technica",
+  "title": "Spending deal comes with a bonus: Blocking political control of grants",
+  "link": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "US legislative budget policy report that does not touch engineering, infrastructure, or ML topics.",
+  "points": [
+   "US House spending bill blocks proposed rules that would grant political appointees unilateral control over science grants."
+  ]
+ },
+ "4767180cb8aee6b4": {
+  "feed": "Technica",
+  "title": "I rented a car, and within hours, my driver's license was for sale",
+  "link": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "Consumer cybersecurity incident report on identity theft without backend infrastructure or engineering substance.",
+  "points": [
+   "Reports on dark-web service Nexus selling driver's license scans harvested from car rental companies."
+  ]
+ },
+ "ddf2b9940aaf4a11": {
+  "feed": "Technica",
+  "title": "FCC plans robocall scorecard to grade phone companies on spam call blocking",
+  "link": "https://arstechnica.com/tech-policy/2026/09/fcc-plans-robocall-scorecard-to-grade-phone-companies-on-spam-call-blocking/",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "Telecom regulatory announcement regarding robocall scoring with no backend or machine learning relevance.",
+  "points": [
+   "FCC announces a robocall mitigation scorecard to grade telecom carriers on spam-call prevention."
+  ]
+ },
+ "b07b0b2b4d66deed": {
+  "feed": "OpenAI News",
+  "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+  "link": "https://openai.com/index/atv-big-air-tour",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "Non-technical product marketing case study for ChatGPT Work featuring a small event tour.",
+  "points": [
+   "Promotional piece detailing an SMB using ChatGPT for event listing validation and merchandising."
+  ]
+ },
+ "569889965fd0fb38": {
+  "feed": "MIT News (AI)",
+  "title": "From MIT to IBM, expediting AI and quantum deployment",
+  "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+  "date": "2026-09-03",
+  "tier": "low_priority",
+  "why": "Institutional PR profile of university alumni at IBM with minimal concrete technical architecture details.",
+  "points": [
+   "Profiles IBM researchers exploring curiosity-driven reinforcement learning and test-time training agent frameworks."
+  ]
+ },
+ "e5d74a46ff00b8f3": {
+  "feed": "Meta Engineering",
+  "title": "An Organizational Second Brain: Building an AI That Learns From Experts",
+  "link": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+  "date": "2026-09-03",
+  "tier": "must_read",
+  "why": "High-quality engineering deep-dive from Meta detailing an architecture for domain-specific LLM agents that self-improve without weight retraining.",
+  "points": [
+   "Decouples static knowledge from explicit reasoning procedures, allowing failure attribution and non-retraining updates.",
+   "Implements an automated improvement loop that turns expert feedback directly into regression-tested knowledge updates.",
+   "Uses a four-layer design (knowledge, reasoning, evaluation gating, and improvement loop) to preserve institutional expertise reliably."
+  ]
+ },
+ "25c40cccc940e88f": {
+  "feed": "Modal Blog",
+  "title": "How Botika runs full-stack generative AI on Modal",
+  "link": "https://modal.com/blog/botika-case-study",
+  "date": "2026-09-03",
+  "tier": "worth_a_skim",
+  "why": "Relevant ML infrastructure case study detailing how a generative AI startup runs multi-model inference and 100TB data pipelines on Modal.",
+  "points": [
+   "Processes a 100TB image pipeline across heterogeneous GPU types without using heavy orchestrators like Airflow.",
+   "Replaced Kubernetes cluster management and GCP Batch with serverless GPU containers to minimize spin-up latency and node maintenance.",
+   "Operates roughly 15 production inference models alongside proprietary foundation model research pipelines."
+  ]
  }
 }
