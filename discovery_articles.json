@@ -3486,5 +3486,70 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "c72fb5e784f0692e": {
+  "url": "https://iaroslavelistratov.github.io/b200-attention/",
+  "title": "B200 Attention Kernel from Scratch to Near-SOTA in 60 Diagrams - Iaroslav Elistratov",
+  "domain": "iaroslavelistratov.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-04",
+  "tier": "hidden_gem",
+  "why": "A remarkably thorough, original deep-dive blog post building a Blackwell B200 attention kernel from scratch to 94.4% of FlashAttention-4 speed with 60 visual diagrams and PTX optimizations.",
+  "points": [
+   "Constructs a dense B200 attention kernel in CUDA/PTX iteratively across 14 progression steps, reaching 94.4% of FA4 performance on 4K, 8K, and 16K shapes.",
+   "Provides 60 architectural diagrams unpacking low-level GPU mechanics and online softmax specifically tailored for NVIDIA Blackwell hardware.",
+   "Demonstrates end-to-end practical execution by integrating the custom kernel into a video generation pipeline."
+  ]
+ },
+ "c9e63fbfe75d9b7c": {
+  "url": "https://deepwiki.com/pytorch/pytorch/4.4.1-fsdp-parameter-management-and-collectives",
+  "title": "FSDP Parameter Management and Collectives | pytorch/pytorch | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-04",
+  "tier": "skip",
+  "why": "An automated AI documentation index (DeepWiki by Devin) scraping PyTorch repository documentation without unique original technical insight or analysis.",
+  "points": []
+ },
+ "a9dfd11e2feff844": {
+  "url": "https://arxiv.org/abs/2608.28151",
+  "title": "[2608.28151] Nested Byte-Level Vocabularies Are Cheap to Deploy and Expensive to Share: A Pre-Registered Negative Result",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-04",
+  "tier": "hidden_gem",
+  "why": "A rigorous, pre-registered negative result studying prefix-nested byte-level vocabularies, offering concrete numbers and reproducible code that challenge assumptions about vocabulary slicing.",
+  "points": [
+   "Slicing the vocabulary embedding and output head is numerically exact across 76 checks and removes 66% of deployed weights without latency shifts.",
+   "Pre-registered tests show shared multi-cap models trail fixed-cap specialists by 3.64% bits-per-byte at 32k and 2.96% at 8k, violating tight margin hypotheses.",
+   "Multi-cap training offers unexpected noise robustness, degrading 12.5–15.4 points less under typographical noise due to multi-granularity training rather than conditioning tokens."
+  ]
+ },
+ "59ace86b05ac5bda": {
+  "url": "https://arxiv.gg/abs/2607.04926",
+  "title": "Input Pathways Shape Few-Shot, Not Zero-Shot, Binding in Tiny Transformers: A Fully-Enumerable Study - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-04",
+  "tier": "solid_find",
+  "why": "An unusually rigorous, fully-enumerable mechanistic study of tiny transformers isolating how input representations shape compositional binding with zero sampling variance.",
+  "points": [
+   "Evaluates tiny (6–10K parameter) transformers on exhaustive, fully-enumerable factored domains to eliminate sampling variance against a known 1.0 Bayes ceiling.",
+   "Finds an 'endpoint invariance' where zero-shot composition remains at or below chance across all input pathways under lookup-sufficient training objectives.",
+   "Uncovers a failure anatomy double dissociation: symbolic pathways fail at readout, whereas index routes preserve decodability but mis-bind to the wrong slot."
+  ]
+ },
+ "18672cf5ff9e32ae": {
+  "url": "https://arxiv.gg/abs/2506.15138",
+  "title": "Less Is More: Reducing Token Counts Without Compromising Performance - arXiv.gg",
+  "domain": "arxiv.gg",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-04",
+  "tier": "solid_find",
+  "why": "A solid, focused empirical paper on subword tokenization optimization (Thunder-Tok) using likelihood-based pruning with Jensen bounds.",
+  "points": [
+   "Proposes Thunder-Tok, which filters structurally incomplete multi-word candidates before likelihood-based pruning via a uniform Jensen lower bound.",
+   "Reduces token fertility by approximately 25% in English and 9% in Korean compared to standard BPE while maintaining downstream model accuracy."
+  ]
  }
 }
