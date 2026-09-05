@@ -63726,5 +63726,137 @@
   "points": [
    "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark."
   ]
+ },
+ "d60fa68e79731898": {
+  "feed": "YC Hacker News",
+  "title": "Why are European countries moving their gold out of North America?",
+  "link": "https://www.bbc.com/news/articles/cvgyn8q8gqxo",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why are European countries moving their gold out of North America? Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList To the Ends of the Earth Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live Why are European countries moving their gold out of North America?"
+  ]
+ },
+ "0bd764270a92f584": {
+  "feed": "YC Hacker News",
+  "title": "Actively exploited sandbox RCE in all Chromium versions",
+  "link": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "6dfe48a67a1b38bf": {
+  "feed": "YC Hacker News",
+  "title": "Statichost.eu – European static site hosting",
+  "link": "https://www.statichost.eu/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "statichost.eu - 100% European static site hosting Features Docs Pricing Blog Status Contact Login Sign up 100% European static website hosting Not just servers in Europe. A European company, European infrastructure, and European values — from deploy to CDN. Deploy now Explore the docs Trusted by Design studio for global brands including Braun and Oral-B."
+  ]
+ },
+ "3a1a5311d29809bc": {
+  "feed": "YC Hacker News",
+  "title": "GPT-6 Astra on OpenRouter",
+  "link": "https://openrouter.ai/openai/gpt-6-astra",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT-6 Astra - API Pricing & Benchmarks | OpenRouter Skip to content Search ⌘ K Models Benchmarks Chat Rankings Apps Enterprise Docs Models Rankings Chat Enterprise Docs Sign Up Sign Up © 2026 OpenRouter, Inc Product Chat Rankings Benchmarks Apps Discover Models Collections Providers Pricing Business Enterprise Labs Company About Blog Careers Hiring Privacy Terms of Service Trust Center Support Works With OR Data Brand Developer Documentation API Reference Developer Platform Status Connect Discord GitHub LinkedIn X YouTube OpenAI: GPT-6 Astra openai / gpt-6-astra Compare Playground Try this model GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work."
+  ]
+ },
+ "f541ae83479eee82": {
+  "feed": "YC Hacker News",
+  "title": "Nitter has more working instances than before the takedowns",
+  "link": "https://codeberg.org/mv12star/shitter/wiki/Instances",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Instances - mv12star/shitter - Codeberg.org Codeberg has changed its Terms of Use. View complete changes . LLM-generated content is being restricted. View change or read the blog post Cryptocurrency projects are no longer allowed. View change Dismiss This website requires JavaScript. Explore About FAQ Help Donate Register Sign in mv12star / shitter Watch 1 Star 25 Fork You've already forked shitter 0 Code Wiki Activity Page: Instances Pages Apache Caddy Cloudflare Tunnel Creating session tokens Embeds guide Evading DMCA reports — Templates and Gluetun Extensions Forks of the Nitter code repository Home Instances Nginx Rate Limiting ‐ Caddy Rate Limiting ‐ Nginx Self-hosting a Nitter instance Unraid HTTPS No results 975 Instances mv12star edited this page 2026-09-03 07:45:52 +02:00 Table of contents Working instances Active but rate limited Formerly active / Taken down Run a public instance read this post about how to obtain many session tokens, and read this one about how to escape DMCA and other legal complaints."
+  ]
+ },
+ "3ee62c9aa7439853": {
+  "feed": "Technica",
+  "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+  "link": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The BepiColombo mission cleared a major milestone this week in the final stretch of an eight-year interplanetary voyage to Mercury, the hard-to-reach, scorching hot iron world at the Solar System's innermost frontier. The robotic science mission, with a price tag of nearly $2 billion, is led by the European Space Agency with contributions from Japan and the United States."
+  ]
+ },
+ "680bad5aa943a573": {
+  "feed": "Technica",
+  "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+  "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Self-identifying OpenAI agents posted 18,000 messages to a public wiki that discussed ways for other agents to bypass security sandbox restrictions during what was likely internal testing designed to gauge the agents’ hacking abilities, researchers said Friday . In all, agents with 3,700 distinct self-given names posted the messages to German site DSEwiki over a six-week period."
+  ]
+ },
+ "6756f32e5a86b0bf": {
+  "feed": "Technica",
+  "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
+  "link": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A six-week-old baby girl in Lancaster, Pennsylvania, died from measles, the county coroner confirmed to local press on Friday. Stephen Diamantoni, a Republican elected coroner in 2007, told Lancaster Online that the baby died at home. \"I believe it was the 18th of August,\" he said. He also noted that the baby had a genetic condition called Amish lethal microcephaly , in which babies are born with unusually small heads and underdeveloped brains."
+  ]
+ },
+ "25e3bbb955fef81a": {
+  "feed": "Technica",
+  "title": "Trump admin fights ABC lawsuit as watchdogs worry Disney will settle with FCC",
+  "link": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Federal Communications Commission yesterday urged a court to dismiss a Disney lawsuit and let the FCC continue a proceeding that could end in the nonrenewal of ABC's broadcast licenses. Meanwhile, two watchdog groups and individual viewers of ABC stations are trying to intervene in the lawsuit, saying they are worried Disney will agree to a settlement with the FCC that isn't in the public's interest."
+  ]
+ },
+ "1adc6f81fa865167": {
+  "feed": "Technica",
+  "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
+  "link": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Smartphone longevity didn't used to matter. In the past, before you could wear out or break a phone, there was always some shiny new thing to buy. Today, we expect our smartphones to go the distance, but they've also become less repairable and, in many cases, more fragile. Fairphone, a Dutch smartphone maker that has just entered the US market, thinks about phones differently."
+  ]
+ },
+ "0f3b76bc480d3619": {
+  "feed": "OpenAI News",
+  "title": "GPT-6 Astra: A new generation of intelligence",
+  "link": "https://openai.com/index/gpt-6-astra",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT-6 Astra: A new generation of intelligence | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI GPT Astra GPT-6 Astra: A new generation of intelligence A new generation of intelligence We’re introducing GPT‑6 Astra, the world’s most intelligent and aligned model."
+  ]
+ },
+ "631b6c23c9b31726": {
+  "feed": "Simon Willison",
+  "title": "The Pelican comparison grid for Astra is pretty interesting",
+  "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images."
+  ]
  }
 }
