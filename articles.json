@@ -63968,5 +63968,83 @@
   "points": [
    "Pushin.eu — Git hosting that never leaves Europe Skip to content We can't find the internet Attempting to reconnect Something went wrong! Attempting to reconnect Pushin.eu Explore Sign up Login European Git hosting Git hosting that never leaves Europe. Public and private Git repos, hosted 100% in the EU, on a platform built for humans, not AI. We block slop, never use your code to train models, and focus on availability, not shiny AI features."
   ]
+ },
+ "422e6fa7f277cf7f": {
+  "feed": "YC Hacker News",
+  "title": "Flock used >100 times to track veteran who recorded traffic stop",
+  "link": "https://reason.com/2026/09/02/wisconsin-cops-used-flock-over-100-times-to-track-a-navy-veteran-after-he-lawfully-recorded-a-traffic-stop/",
+  "date": "2026-09-05",
+  "tier": "low_priority",
+  "why": "Covers legal and civil liberties concerns around automated license plate readers, unrelated to ML engineering or infra.",
+  "points": [
+   "Lawsuit alleges police misused Flock surveillance cameras over 100 times to retaliate against a citizen."
+  ]
+ },
+ "2115d34e5f4ef53f": {
+  "feed": "YC Hacker News",
+  "title": "Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA",
+  "link": "https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/",
+  "date": "2026-09-05",
+  "tier": "low_priority",
+  "why": "Tech labor and union organizing news with no technical backend or systems content.",
+  "points": [
+   "US-based Wikimedia Foundation staff voted to unionize with CWA Local 9415."
+  ]
+ },
+ "62a1f3776c22076a": {
+  "feed": "YC Hacker News",
+  "title": "Singapore subway (mrt) information display types",
+  "link": "https://www.sgtrains.com/technology-infosys.html",
+  "date": "2026-09-05",
+  "tier": "low_priority",
+  "why": "Empty post with no substance regarding transit display hardware.",
+  "points": [
+   "Link post containing only comment placeholders about Singapore MRT displays."
+  ]
+ },
+ "2ab61078f1fca893": {
+  "feed": "YC Hacker News",
+  "title": "A bizarre Commodore 64 peripheral, a mime, and some pretty bad ads",
+  "link": "https://buttondown.com/suchbadtechads/archive/spartan-and-the-mime/",
+  "date": "2026-09-05",
+  "tier": "low_priority",
+  "why": "Retrocomputing trivia and vintage ad history unrelated to production systems or modern ML.",
+  "points": [
+   "Retrospective on Mimic Systems' Spartan, a slow-to-ship Apple II+ emulator hardware add-on for the Commodore 64."
+  ]
+ },
+ "3ee91b7507cd4ed0": {
+  "feed": "YC Hacker News",
+  "title": "A Million Falcons Went Missing. Here’s How They Were Found",
+  "link": "https://www.nationalgeographic.com/animals/article/falcons-migration-angola-falcopolis",
+  "date": "2026-09-05",
+  "tier": "low_priority",
+  "why": "Ornithology and wildlife migration tracking story outside the scope of systems and ML engineering.",
+  "points": [
+   "Researchers used satellite tracking to discover massive congregation roosts of red-footed falcons in Angola."
+  ]
+ },
+ "5ab91582f4231a20": {
+  "feed": "Technica",
+  "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
+  "link": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
+  "date": "2026-09-05",
+  "tier": "low_priority",
+  "why": "General tech and regulatory news covering Tesla autonomous vehicle deployment hurdles.",
+  "points": [
+   "NHTSA is probing Tesla's pedal-less Cybercab deployments under existing vehicle safety standards."
+  ]
+ },
+ "1ec3daa5e7b56709": {
+  "feed": "Simon Willison",
+  "title": "Using Blender with coding agents on macOS",
+  "link": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "Shows a practical pattern for agentic LLMs driving external desktop tools headlessly via CLI and Python APIs.",
+  "points": [
+   "Coding agents execute headless Blender scripts directly on macOS by leveraging Blender's built-in Python API.",
+   "Iterative text prompting successfully manipulated 3D geometry, backgrounds, and rendering without manual UI interaction."
+  ]
  }
 }
