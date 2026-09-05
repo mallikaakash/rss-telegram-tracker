@@ -64046,5 +64046,60 @@
    "Coding agents execute headless Blender scripts directly on macOS by leveraging Blender's built-in Python API.",
    "Iterative text prompting successfully manipulated 3D geometry, backgrounds, and rendering without manual UI interaction."
   ]
+ },
+ "adc5c99643392ef2": {
+  "feed": "YC Hacker News",
+  "title": "The Luxuries in Life",
+  "link": "https://feld.com/archives/2026/09/the-real-luxuries-in-life/",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Real Luxuries In Life | Feld Thoughts Feld Thoughts Blog Books Films Search About Subscribe Home » Blog The Real Luxuries In Life Labor Day weekend has always been the back to school marker for me. I'm 60, closing in on 61, and thinking a lot more about what I actually care about. Amy texted me a list yesterday. September 5, 2026 · 1 min · Brad Feld I love Labor Day weekend."
+  ]
+ },
+ "707cbd72b504efd1": {
+  "feed": "YC Hacker News",
+  "title": "The moral panic over data centres is foolish",
+  "link": "https://www.economist.com/leaders/2026/09/03/the-moral-panic-over-data-centres-is-foolish",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "a556581ebaea379e": {
+  "feed": "YC Hacker News",
+  "title": "Learn Programming with OCaml",
+  "link": "https://usr.lmf.cnrs.fr/lpo/",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Learn Programming with OCaml Learn Programming with OCaml by Sylvain Conchon and Jean-Christophe FilliÃ¢tre This book on OCaml is an English translation (by Urmila Nair ) of this book in French . The translation was funded by The OCaml Software Foundation . The book is openly licensed via CC BY SA 4.0 . Get the book (1.9Mb PDF file) Get the book (2.3Mb EPUB file) Get the code Typos and errors can be reported here ."
+  ]
+ },
+ "3494a8d354ba6331": {
+  "feed": "YC Hacker News",
+  "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+  "link": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Visualizing Rust's Vtables: How dyn Trait Works In Memory Sofía Belén López Vicens Shapes shift, but essence remains. Github Streamline Icon: https://streamlinehq.com Home Projects Essays Life Favourite Book Streamline Icon: https://streamlinehq.com Bookshelf Search Dark Mode Table of contents Introduction: The Crux of the Matter C++ Approach #1: Virtual Functions C++ Approach #2: CRTP Static Dispatch How does this compare to C++’s templates?"
+  ]
+ },
+ "1e4395c00c25facb": {
+  "feed": "YC Hacker News",
+  "title": "Steffen's Polyhedron – Greg Egan",
+  "link": "https://www.gregegan.net/SCIENCE/Steffen/Steffen.html",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Steffen’s Polyhedron — Greg Egan Steffen’s Polyhedron by Greg Egan Symmetries and the 24-cell | Average Shadows | Ball Bearings in a Hypersphere | Black Hole Passing | Borehole Oscillators | Born Rigid Motion | Catacaustics | Resonant Modes of a Conical Cavity | The Doppler Shift Triangle Law | Conic Section Orbits | Double-Crossing Orbits | Dihedral Angles | The Ellipse and the Atom | Ellipsoids and Gravity | Find The Fake Coin | The Finite Fall | General Relativity in 2+1 dimensions | Howell’s Moving Orbits | Klein's Quartic Curve | Paparazzo vs Bodyguards | Light Mill applet | Littlewood applet | LRL made easy | The Mermin-Peres Magic Square Game | There Are No Corkscrew Orbits | Peeling the Octonions | Ordered Sums | Optimised Origami | Pick Two Points | Weak-field GR near a planar mass | Polar Orbits Around Binary Stars | Planes, Spheres and Pseudospheres | Reptends and Reciprocals | The Rindler Horizon | Rotating Elastic Rings, Disks and Hoops | Constant Weight Rollercoasters | Steffen’s Polyhedron | Superpermutations | Symmetric Waves | Symplectic applet | The Tell-Tale Board | Exact values of regular 10j symbols | Three Point Curvature Science Notes Back to home page | Site Map | Side-bar Site Map Steffen’s polyhedron changing shape Translucent version seen from behind Steffen’s polyhedron is a flexible polyhedron : a polyhedron that can change shape while maintaining the shapes of all its individual faces."
+  ]
  }
 }
