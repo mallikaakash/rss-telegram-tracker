@@ -3551,5 +3551,105 @@
    "Proposes Thunder-Tok, which filters structurally incomplete multi-word candidates before likelihood-based pruning via a uniform Jensen lower bound.",
    "Reduces token fertility by approximately 25% in English and 9% in Korean compared to standard BPE while maintaining downstream model accuracy."
   ]
+ },
+ "92c0ffcf39b7e30f": {
+  "url": "https://vuink.com/post/nyrkvtynq-d-dtvguho-d-dvb/blog/2026/explorative_modeling",
+  "title": "Explorative Modeling -- Unlocking a Third Pretraining Axis and End-to-End Generation | Vuink.com",
+  "domain": "vuink.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-05",
+  "tier": "solid_find",
+  "why": "Introduces a provocative generative modeling paradigm (Explorative Modeling) claiming dramatic FLOP and parameter efficiency improvements over diffusion, though presented via an aggregator snippet of a personal blog post.",
+  "points": [
+   "Proposes Explorative Modeling as a third pretraining axis that scales generalization and allows end-to-end generation.",
+   "Reports 6.2x sample efficiency, 4.1x FLOP efficiency, and 47% better parameter efficiency, matching diffusion on control tasks with up to 256x less inference compute.",
+   "Demonstrates gains that increase with scale (7% to 36% with data, 13% to 23% with parameter count)."
+  ]
+ },
+ "9c988f8af1fd7fee": {
+  "url": "https://docshare.wps.com/document/gift-geometry-informed-low-precision-gradient-communication-for-llm-pretraining/85000/",
+  "title": "GIFT: Geometry-Informed Low-precision Gradient Communication for LLM Pretraining | PDF",
+  "domain": "docshare.wps.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-05",
+  "tier": "skip",
+  "why": "Incomplete scraper artifact showing only icons and metadata without the actual technical content or findings of the paper.",
+  "points": []
+ },
+ "6ec7b28b39f48634": {
+  "url": "https://arxiv.org/abs/2608.07222",
+  "title": "[2608.07222] Skaling: Chinchilla's Exponents Meet Kaplan's Coupling",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-05",
+  "tier": "hidden_gem",
+  "why": "Presents a novel mathematical correction to standard neural scaling laws by coupling model capacity and data through an interaction exponent.",
+  "points": [
+   "Fixes systematic under- and overestimation in Chinchilla/Kaplan formulations at extreme data-scarce and overtraining regimes by coupling parameters and data.",
+   "Reduces Mean Absolute Percentage Error (MAPE) by 1.5-3x across interpolation and extrapolation regimes.",
+   "Enables accurate full-grid extrapolation using approximately 10x less compute via a low-compute sparse grid strategy."
+  ]
+ },
+ "219c3333e7280070": {
+  "url": "https://arxiv.org/abs/2609.01386",
+  "title": "[2609.01386] When Tokenization is Secretly Output Supervision",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-05",
+  "tier": "hidden_gem",
+  "why": "Provides a sharp, overlooked perspective showing that output tokenization directly dictates the learning problem and supervision signal in autoregressive models rather than being just an input format.",
+  "points": [
+   "Demonstrates that task performance, training dynamics, and internal representations are strictly determined by output tokenization and invariant to input tokenization.",
+   "Surveys 120 NLP papers on numeric reasoning and finds 69% improperly compare models across distinct output tokenization regimes without realizing they are evaluating different tasks.",
+   "Reframes tokenizer granularity as explicit output supervision that dictates what a transformer must resolve in a single forward pass."
+  ]
+ },
+ "65e4ce4909e47b65": {
+  "url": "https://arxiv.org/abs/2608.26319",
+  "title": "[2608.26319] When Is Noise Response Universal? Tokenization as the Hidden Variable in Language Models",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-05",
+  "tier": "solid_find",
+  "why": "Uncovers the mechanical reason why neural models diverge under character noise but follow universal degradation curves under word-level noise.",
+  "points": [
+   "Discovers that textual neural models degrade along an identical universal curve under word noise regardless of architecture, but diverge under character noise.",
+   "Identifies token re-segmentation as the hidden variable: character edits force tokenizers to reshape surrounding tokens, whereas word drops preserve token boundaries.",
+   "Shows eight disparate encoders collapse onto a universal robustness curve after a brief contrastive pretraining step."
+  ]
+ },
+ "b849a02c07534687": {
+  "url": "https://arxiv.org/abs/2609.00378",
+  "title": "[2609.00378] Removable and Irreducible: A Token-Cost Ledger for the Multilingual Tokenization Tax",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-05",
+  "tier": "hidden_gem",
+  "why": "Provides an information-theoretic accounting framework (token-cost ledger) quantifying exactly how much of the multilingual tokenization penalty is removable redundancy versus intrinsic information.",
+  "points": [
+   "Splits non-English tokenization cost into removable coding redundancy, residual slack, intrinsic content, and orthographic terms.",
+   "Finds that production tokenizers charge Indic scripts up to 8.9x more tokens (implying up to 79x quadratic attention compute), but intrinsic information content differs by less than 6%.",
+   "Shows a script-matched code trained on just 1,012 sentences removes a median 64% of excess token cost."
+  ]
+ },
+ "7f38f53847a8f8b8": {
+  "url": "https://p.rst.im/q/github.com/Aravind0403/aether-control-llm-infra",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-05",
+  "tier": "skip",
+  "why": "A generic proxy mirror landing page in Chinese with no relevant technical infrastructure or LLM content.",
+  "points": []
+ },
+ "92e552cb344c1a8d": {
+  "url": "https://p.rst.im/q/github.com/manishklach/inference-factory-sim",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-05",
+  "tier": "skip",
+  "why": "A generic proxy mirror page that contains no relevant technical content or documentation.",
+  "points": []
  }
 }
