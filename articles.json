@@ -63858,5 +63858,60 @@
   "points": [
    "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images."
   ]
+ },
+ "40d7d24c82bdadc7": {
+  "feed": "YC Hacker News",
+  "title": "AI handles incidents, engineers lose touch with their systems",
+  "link": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI handles incidents, engineers lose touch with their systems — Sylvain Kalache ~/ Blog Contact Subscribe Subscribe Back to the blog AI handles incidents, engineers lose touch with their systems When I was an SRE at LinkedIn, back in 2012, I designed a system that could heal itself and learn from previous incidents. AI capabilities were nowhere near what we have today, and that remained a prototype, but this is now a reality."
+  ]
+ },
+ "56a1b311fbb1fe7e": {
+  "feed": "YC Hacker News",
+  "title": "Kale: A Transformation-Safe Spreadsheet System",
+  "link": "https://arxiv.org/abs/2608.26345",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2608.26345] Kale: A Transformation-Safe Spreadsheet System Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Human-Computer Interaction arXiv:2608.26345 (cs) [Submitted on 26 Aug 2026] Title: Kale: A Transformation-Safe Spreadsheet System Authors: Michael Coblenz , Jacob Yim , Ajinkya Bokade , Mounika Padala , Julia Epshtein , Priyanka Bhatia , Piyush Chauhan , Simran Gill , Aniket Gupta , Grishma Gurbani , Vaibhav Khetan , Arushi Munjal , Jeffery Tung , Joanna Yang View a PDF of the paper titled Kale: A Transformation-Safe Spreadsheet System, by Michael Coblenz and 13 other authors View PDF HTML (experimental) Abstract: Spreadsheet formulas can refer to rectangular ranges of arbitrary size."
+  ]
+ },
+ "270866455e57984e": {
+  "feed": "YC Hacker News",
+  "title": "Sky Map 2000 – Star Atlas and Planetarium",
+  "link": "https://skymap2000.com/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sky Map 2000 - Online Star Atlas & Planetarium --> red channel, dimmed) --> Loading catalogsâ¦ Sky Map 2000 Star Atlas & Planetarium â° --> LIVE Observer location Find a city or capital Quick city list Lat. (Ï) Lon. (Î») Use my location Update my location when the app starts About observer location Date and time Now Live ×60 ×600 ×3600 Stop About date & time Coordinate system Equatorial Horizontal About coordinate systems Star visualization Spectral color Star magnitude Star atlas mode Stars shown â + About display style Objects and layers Deep-sky objects Milky Way Planets, Sun, Moon Active meteor showers Sun analemma Constellation lines Constellation names Constellation boundaries Coordinate grid Object labels Star labels Ecliptic Meridian Horizon About the sky layers Observation planner Today: local sky guide About Contact FAQ & Guide Documentation 2026 © Marcin Szewczyk-Wilgan Version 1.5 Â· Data & licenses Â· Privacy N W E S + â --> OBSERVATION PLANNER What can I see?"
+  ]
+ },
+ "2079f49c8f8db836": {
+  "feed": "YC Hacker News",
+  "title": "Can AI design circuit boards yet?",
+  "link": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Can AI design circuit boards yet? â EEBench EEBench V1 Leaderboard Methodology Blog Run your model Can AI design circuit boards yet? OpenAI showed GPT-6 Astra working in KiCad. We have been building a way to measure whether the circuits that come out of these models are any good. September 4, 2026 8 min read We got pretty excited yesterday when OpenAI put a demo of GPT-6 Astra working on a circuit board in KiCad on the front page of its launch post."
+  ]
+ },
+ "aa6c90f3238cedfd": {
+  "feed": "YC Hacker News",
+  "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
+  "link": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+  "date": "2026-09-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT-6 Astra review: code review gains, privacy, and cost We raised $143M to build the control layer for software change. Read more : We raised $143M to build the control layer for software change. Enterprise Security Customers Pricing Blog Resources Log In Get a free trial GPT-6 Astra in code review: Gains, privacy, and cost by Erik Thorelli Erfan Al-Hossami September 04, 2026 • 8 min read What Astra added to code review Putting context to work Stronger reasoning comes at a premium What might transfer beyond code review Building and balancing NIGHTSHIFT What we want to see next Protecting customer data Back to blog Some of the hardest work in code review happens outside the changed lines."
+  ]
  }
 }
