@@ -64101,5 +64101,71 @@
   "points": [
    "Steffen’s Polyhedron — Greg Egan Steffen’s Polyhedron by Greg Egan Symmetries and the 24-cell | Average Shadows | Ball Bearings in a Hypersphere | Black Hole Passing | Borehole Oscillators | Born Rigid Motion | Catacaustics | Resonant Modes of a Conical Cavity | The Doppler Shift Triangle Law | Conic Section Orbits | Double-Crossing Orbits | Dihedral Angles | The Ellipse and the Atom | Ellipsoids and Gravity | Find The Fake Coin | The Finite Fall | General Relativity in 2+1 dimensions | Howell’s Moving Orbits | Klein's Quartic Curve | Paparazzo vs Bodyguards | Light Mill applet | Littlewood applet | LRL made easy | The Mermin-Peres Magic Square Game | There Are No Corkscrew Orbits | Peeling the Octonions | Ordered Sums | Optimised Origami | Pick Two Points | Weak-field GR near a planar mass | Polar Orbits Around Binary Stars | Planes, Spheres and Pseudospheres | Reptends and Reciprocals | The Rindler Horizon | Rotating Elastic Rings, Disks and Hoops | Constant Weight Rollercoasters | Steffen’s Polyhedron | Superpermutations | Symmetric Waves | Symplectic applet | The Tell-Tale Board | Exact values of regular 10j symbols | Three Point Curvature Science Notes Back to home page | Site Map | Side-bar Site Map Steffen’s polyhedron changing shape Translucent version seen from behind Steffen’s polyhedron is a flexible polyhedron : a polyhedron that can change shape while maintaining the shapes of all its individual faces."
   ]
+ },
+ "fbaa403a36b29014": {
+  "feed": "YC Hacker News",
+  "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+  "link": "https://cloudinabottle.org/blog/launch-post",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloud in a Bottle: making self-hosting accessible to everyone | Cloud in a Bottle Cloud in a Bottle Apps Docs Blog Managed spaces Matrix GitHub Cloud in a Bottle: making self-hosting accessible to everyone 5 Sep 2026 · Zack Polizzi TLDR: Cloud in a Bottle is your open-source personal cloud: containerized apps, unified auth, good UX. Self-hosting should feel like using a smartphone that serves webapps, not a sysadmin side job."
+  ]
+ },
+ "b529fde1aac24dd9": {
+  "feed": "YC Hacker News",
+  "title": "The revolt of the reader",
+  "link": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The revolt of the reader | The Observation Deck Home Menu About | LIGHT DARK The revolt of the reader Sep 5, 2026 Reading is important to me. While Iâm not a quick reader nor an especially voracious one, I have found that long-form reading has had a profound influence on me over my life. And because reading is important to me, writing is too: writing not only allows us to convey our ideas, but the very act forces us to test and distill themâââat once making our ideas more robust while providing the vehicle by which to share them."
+  ]
+ },
+ "9f0b5f45e8578a49": {
+  "feed": "YC Hacker News",
+  "title": "The ColorChecker, photography's most important 24 squares, turns 50",
+  "link": "https://www.dpreview.com/news/the-colorchecker-photographys-most-important-24-squares-turns-50/",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "ce653837c7daf64f": {
+  "feed": "YC Hacker News",
+  "title": "OpenBSD Stories: Strange Medieval Devices",
+  "link": "http://miod.online.fr/software/openbsd/stories/smd.html",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Strange Medieval Devices OpenBSD stories miod > software > OpenBSD > stories > Strange Medieval Devices Strange Medieval Devices In the late 1970s and the 1980s, the best choice for high-performance, high-capacity storage was so-called SMD disks. The SMD interface was only normalized as ANSI X3.91M-1982 in, well, 1982, after five years of work, and was later revised in 1987; this revision can be found on Bitsavers ."
+  ]
+ },
+ "7d478de9ce8a5fe9": {
+  "feed": "YC Hacker News",
+  "title": "GPT-6 Astra on robot arms",
+  "link": "https://openai.robocurve.org/gpt-6-astra/",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT-6 Astra on robot arms | Robocurve GPT‑6 Astra on robotic manipulation September 4, 2026 A follow‑up to our comparison of Claude Fable 5 and Fable 5.1 . We gave OpenAI's GPT‑6 Astra control of the same YAM arms under the same Inspect Robots agent policy, on the same two tasks: “Pick up the red block from the table and place it inside the bowl.” “Pick up the round blue puzzle piece by the knob at its center and place it into the matching circular groove in the board.” On the bowl task Astra placed the block in 19 of 20 trials, against Fable 5.1's 8 of 20 and Fable 5 in 1 of 20, in 2.5 minutes per trial to Fable 5.1's 6.8, at an estimated $0.94 per run to $2.12."
+  ]
+ },
+ "921e4d073b7dcdaa": {
+  "feed": "Simon Willison",
+  "title": "Introducing GPT-6 Astra for developers",
+  "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+  "date": "2026-09-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres."
+  ]
  }
 }
