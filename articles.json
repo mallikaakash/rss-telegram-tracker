@@ -64398,5 +64398,71 @@
   "points": [
    "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025."
   ]
+ },
+ "e752bff20023ec51": {
+  "feed": "YC Hacker News",
+  "title": "Nitter is unarchived and will continue",
+  "link": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Update README - Nitter lives · zedeus/nitter@1428b4c · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "a44adb427662d5e6": {
+  "feed": "YC Hacker News",
+  "title": "Finder is so frustrating and has been since day one",
+  "link": "https://kepter.app/finder",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Finder is so frustrating and has been since day one Menu Download for Mac Explore How it works What it does Pricing FAQ Download Product Help Changelog Which Macs it runs on Trust The receipts What Kepter stores Privacy Terms Company About Contact Report a bug © 2026 Maltby Ventures LLC 1.0.0 on the changelog How it works FAQ Help Receipts kepter Download for Mac Why Kepter exists Finder is so frustrating and has been since day one."
+  ]
+ },
+ "5bdc5451841a68cd": {
+  "feed": "YC Hacker News",
+  "title": "An Alien Mind",
+  "link": "https://openai.com/index/an-alien-mind/",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "An Alien Mind | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 6, 2026 Safety Research An Alien Mind Author: Jakub Pachocki, Chief Scientist at OpenAI Loading… Share Intellect we don’t fully understand Intellect we don’t fully understand Teaching machines to love Monitoring generalization Scalable defense Pacing RSI What is next?"
+  ]
+ },
+ "9fd9b6725b6ba99d": {
+  "feed": "YC Hacker News",
+  "title": "Research carried out using NetBSD",
+  "link": "https://www.netbsd.org/gallery/research.html",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Research carried out using NetBSD Skip to main content. Navigation: Home Recent changes NetBSD blog Presentations About Developers Gallery Ports Packages Documentation FAQ & HOWTOs The Guide Manual pages Wiki Support Community Mailing lists Bug reports Security Developers CVSWeb Mercurial Cross-reference Release engineering Projects list Research carried out using NetBSD Several groups, organizations, and individuals have conducted research or performed demonstrations utilizing NetBSD as a vehicle."
+  ]
+ },
+ "da53b7094d933495": {
+  "feed": "YC Hacker News",
+  "title": "A/I shuts down – Stay human",
+  "link": "https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A/I Shuts Down Stay Human · Keep the Internet free Keep the Internet free We are not terrorists. Autistici.org is an infrastructure of dissent Announcements Technical Updates Press coverage Solidarity Events English Italiano A/I shuts down - Stay human Sep 6, 2026 The day we discovered we had been designated a global terrorist organization, we promised that we would try to resist as long as this was possible, that we would not back down as long as we could see options to stand our ground."
+  ]
+ },
+ "8321172b50dd8554": {
+  "feed": "Simon Willison",
+  "title": "There's No Limit to How Bad Code Can Get",
+  "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary."
+  ]
  }
 }
