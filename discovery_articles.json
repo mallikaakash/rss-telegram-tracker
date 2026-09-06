@@ -3651,5 +3651,39 @@
   "tier": "skip",
   "why": "A generic proxy mirror page that contains no relevant technical content or documentation.",
   "points": []
+ },
+ "dc7b71b9c6278a41": {
+  "url": "https://temperature2.com/p/2026-09-04-guide-data-tensor-pipeline-parallelism/",
+  "title": "Data vs tensor vs pipeline parallelism explained",
+  "domain": "temperature2.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-06",
+  "tier": "skip",
+  "why": "This is a generic, high-level tutorial summarizing standard concepts of data, tensor, and pipeline parallelism from well-known foundational papers without novel data or implementation insights.",
+  "points": []
+ },
+ "d6fffd631b5742ac": {
+  "url": "https://deepwiki.com/latere-ai/open-llms/1.1-architecture-and-design-decisions",
+  "title": "Architecture and Design Decisions | latere-ai/open-llms | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-06",
+  "tier": "skip",
+  "why": "The extracted content is just an auto-generated table of contents and documentation navigation tree from an AI indexer, lacking substantive technical material.",
+  "points": []
+ },
+ "0da3acb74b14091b": {
+  "url": "https://dev.to/openmake/i-thought-self-hosting-our-ai-would-take-a-weekend-it-took-seven-months-3ob7",
+  "title": "Seven months of self-hosting our own AI stack: four bugs I can point at in the changelog - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-06",
+  "tier": "solid_find",
+  "why": "A practical small-team infrastructure postmortem detailing concrete bugs and architectural fixes encountered while running a self-hosted LLM stack on local hardware.",
+  "points": [
+   "Cloudflare's edge 100MB limit rejected agent file uploads with HTTP 413 before reaching the API, requiring a chunked upload protocol with one-time claims and safe retries.",
+   "Static model configuration caused the app to break when GPU models were swapped; resolved by dynamically probing LiteLLM's /model/info endpoint.",
+   "Parallel agent fan-outs reliably tripped provider rate limits (5/5 429s on free tiers), necessitating per-provider execution semaphores with exponential backoff."
+  ]
  }
 }
