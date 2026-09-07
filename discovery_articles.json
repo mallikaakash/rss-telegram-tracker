@@ -3685,5 +3685,25 @@
    "Static model configuration caused the app to break when GPU models were swapped; resolved by dynamically probing LiteLLM's /model/info endpoint.",
    "Parallel agent fan-outs reliably tripped provider rate limits (5/5 429s on free tiers), necessitating per-provider execution semaphores with exponential backoff."
   ]
+ },
+ "56c857ead89b5dab": {
+  "url": "https://pub.towardsai.net/reading-vertically-photon-and-the-kv-cache-bottleneck-3e25b470bdcd",
+  "title": "Reading Vertically: PHOTON and the KV-Cache Bottleneck | by Jun Nishimura | Aug, 2026 | Towards AI",
+  "domain": "pub.towardsai.net",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f2be1a38384780ef": {
+  "url": "https://codeguilds.com/a-custom-llm-inference-runtime-on-nvidia-h100-a-deep-dive-into-bare-metal-optimization-for-qwen2-5-coder-7b/",
+  "title": "A Custom LLM Inference Runtime on NVIDIA H100: A Deep Dive into Bare-Metal Optimization for Qwen2.5-Coder-7B",
+  "domain": "codeguilds.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
