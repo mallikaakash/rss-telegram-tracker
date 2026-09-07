@@ -64464,5 +64464,71 @@
   "points": [
    "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary."
   ]
+ },
+ "45f14d4fedcb176c": {
+  "feed": "YC Hacker News",
+  "title": "Keep Our Servers Running",
+  "link": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Keep Our Servers Running: Your Recurring Donation Goes 3X This September | Internet Archive Blogs Internet Archive Blogs Updates from the Internet Archive Menu Skip to content archive.org Blog Announcements About Events Developers Donate Keep Our Servers Running: Your Recurring Donation Goes 3X This September Posted on September 1, 2026 by Tom Mayer “Universal access to all human knowledge is within our grasp."
+  ]
+ },
+ "b8daa0a9e9fbd7d7": {
+  "feed": "YC Hacker News",
+  "title": "Making a Python interpreter in 1024 bytes",
+  "link": "https://austinhenley.com/blog/python1024.html",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Making a Python interpreter in 1024 bytes - Austin Z. Henley Austin Z. Henley I build tools for people austin.henley@microsoft.com @austinzhenley github/AZHenley Home | Publications | Teaching | Blog Making a Python interpreter in 1024 bytes 9/6/2026 To feel human, I write code by hand on the weekends. My latest challenge? Make a Python interpreter in 512 1024 bytes of good ole C code."
+  ]
+ },
+ "53c12cd85ace85ab": {
+  "feed": "YC Hacker News",
+  "title": "I'm a seeing-eye dog for a computer",
+  "link": "https://claytonwramsey.com/blog/seeing-eye/",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I'm a seeing-eye dog for a computer Clayton's Website Home About CV Blog Recipes I'm a seeing-eye dog for a computer Clayton Ramsey - 2026-09-03 Grab the lid on the spot that I circled in red. I used to argue with people on the internet. After about six replies, you realize that you’re speaking to someone incapable of thought. This is a more pleasant experience than getting a LLM to do what you want."
+  ]
+ },
+ "da78c093b5712c3a": {
+  "feed": "YC Hacker News",
+  "title": "It took a year to ship WebAssembly in Anubis",
+  "link": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Making sure you're not a bot! Making sure you're not a bot! Loading... Anubis could not load its JavaScript. The server may be overloaded. Please reload the page to try again. You are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies aggressively scraping websites. This can and does cause downtime for the websites, which makes their resources inaccessible for everyone."
+  ]
+ },
+ "9e6309ef0f5cb4f3": {
+  "feed": "YC Hacker News",
+  "title": "Ask HN: How do you manage skills files?",
+  "link": "https://news.ycombinator.com/item?id=49589914",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ask HN: How do you manage skills files? | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Ask HN: How do you manage skills files? 72 points by imadtaieber 7 hours ago | hide | past | favorite | 60 comments How do you find skills, keep them organized, and make sure they actually work? Do you keep improving them over time?"
+  ]
+ },
+ "4f8847a860050aac": {
+  "feed": "Simon Willison",
+  "title": "Research acceleration: The view inside OpenAI",
+  "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+  "date": "2026-09-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents."
+  ]
  }
 }
