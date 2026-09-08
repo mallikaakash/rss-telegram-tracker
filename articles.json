@@ -64875,5 +64875,203 @@
   "points": [
    "Release: llm-anthropic 0.28 Simon Willison’s Weblog Subscribe Sponsored by: Portnox — Shadow AI is the new shadow IT. On Sept. 10, Forrester Research and Portnox share practical steps to regain AI agent visibility, access management, and policy enforcement. Register today 2nd September 2026 Release llm-anthropic 0.28 — LLM access to models by Anthropic, including the Claude series Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal."
   ]
+ },
+ "f2802beee000edfd": {
+  "feed": "YC Hacker News",
+  "title": "On the Navier–Stokes Millennium Prize Problem",
+  "link": "https://openai.com/index/navier-stokes-solution/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On the Navier–Stokes Millennium Prize Problem | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 8, 2026 Research Publication On the Navier–Stokes Millennium Prize Problem Read the paper Link to Lean formalized proof Loading… Share The problem The problem The result How we found the proof Concurrent work Progress and responsibility The problem The result How we found the proof Concurrent work Progress and responsibility We’re sharing a solution to the Navier–Stokes existence and smoothness problem, one of the Millennium Prize Problems."
+  ]
+ },
+ "bc39e137c953ce41": {
+  "feed": "YC Hacker News",
+  "title": "Google DeepMind Releases AlphaGenome Atlas",
+  "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing AlphaGenome Atlas Skip to main content AlphaGenome Atlas: a high-resolution map of human DNA Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebooks See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed AlphaGenome Atlas: a high-resolution map of human DNA Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (Melayu) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Models & research Google DeepMind AlphaGenome Atlas: a high-resolution map of human DNA Sep 08, 2026 | x.com Facebook LinkedIn Mail Copy link AlphaGenome Atlas is the most comprehensive catalogue of how genetic mutations affect molecular biology."
+  ]
+ },
+ "ba6c6e31867d8e5c": {
+  "feed": "YC Hacker News",
+  "title": "DaVinci Resolve 21.1",
+  "link": "https://www.blackmagicdesign.com/media/release/20260908-03",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Media | Blackmagic Design Products Resellers Support Developer Company Media Splice Forum Media Log In Latest News News Archive Press Images Argentina Australia Austria Brazil Canada China Denmark Finland France Germany Hong Kong SAR, China India Italy Japan Korea Mexico Malaysia Netherlands New Zealand Norway Poland Portugal Singapore South Africa Spain Sweden Chinese Taipei Turkey UAE Ukraine United Kingdom United States Argentina Australia Austria Brazil Canada China Denmark Finland France Germany Hong Kong SAR, China India Italy Japan Korea Mexico Malaysia Netherlands New Zealand Norway Poland Portugal Singapore South Africa Spain Sweden Chinese Taipei Turkey UAE Ukraine United Kingdom United States Products Professional Cameras DaVinci Resolve and Fairlight Live ATEM Production Switchers Ultimatte Disk Recorders Capture and Playback Cintel Scanner Standards Conversion Broadcast Converters Monitoring Network Storage MultiView Routing and Distribution Streaming and Encoding Support Resellers Support Center Contact Us Community Forum Splice Community Company Offices About Us Partners Media Privacy Policy All items on this website are copyright Blackmagic Design Pty."
+  ]
+ },
+ "78fc0d55ca24ae81": {
+  "feed": "YC Hacker News",
+  "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+  "link": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses - Quesma Blog Skip to main content How it works Benchmarks Blog About us Token economics Talk to the founder How it works Benchmarks Blog About us Token economics Talk to the founder Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses Piotr Migdał · 26 August 2026 Share / QR code Open on another device."
+  ]
+ },
+ "2b082036b33c58b6": {
+  "feed": "YC Hacker News",
+  "title": "Making Teenagers Read Newspapers. A Nationwide Experiment in French High Schools",
+  "link": "https://cepr.org/publications/dp21706",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DP21706 Making Teenagers Read Newspapers. A Nationwide Experiment in French High Schools | CEPR Skip to main content Mobile menu Search VoxEU Search All Columns VoxTalks VideoVox About VoxEU Research Programme Areas Research Policy Networks (RPNs) Research Projects and Networks Research Policies Data Sets Publications Publication Series Books and Reports Discussion Papers Covid Economics Papers Policy Papers Economic Policy Journal Search All Publications Archive Events Calls for Papers Forthcoming Events Past Events Event Series Audio and video Search all multimedia content VoxTalks VideoVox Vox Webcasts Webinar Videos About CEPR People News Advisory Board Press Governance Support CEPR Partners Jobs at CEPR Summer Reading 2026 Themes Search Themes Themes Key Themes Artificial Intelligence Central Banking Climate Change Competition Policy Development & Growth Economic History Energy EU Economic Architecture Inflation Political Economy Poverty and Income Inequality Sustainable Finance Ukraine Initiative Women in Economics Other Themes Business Cycles Covid 19 Exchange Rates Finance & Fintech Health Economics International Finance International Trade Labour Markets Migration Monetary Policy Productivity and Innovation Taxation Focus On Europe 2050 The Economic Consequences of the War Europe-Asia Initiative Trump & Tariffs Main navigation VoxEU Search All Columns VoxTalks VideoVox About VoxEU Research Programme Areas Research Policy Networks (RPNs) Research Projects and Networks Research Policies Data Sets Publications Publication Series Books and Reports Discussion Papers Covid Economics Papers Policy Papers Economic Policy Journal Search All Publications Archive Events Calls for Papers Forthcoming Events Past Events Event Series Audio and video Search all multimedia content VoxTalks VideoVox Vox Webcasts Webinar Videos About CEPR People News Advisory Board Press Governance Support CEPR Partners Jobs at CEPR Summer Reading 2026 Secondary Menu CEPR Offices User account menu Log in Secondary Menu CEPR Offices User account menu Log in Themes Key Themes Artificial Intelligence Central Banking Climate Change Competition Policy Development & Growth Economic History Energy EU Economic Architecture Inflation Political Economy Poverty and Income Inequality Sustainable Finance Ukraine Initiative Women in Economics Other Themes Business Cycles Covid 19 Exchange Rates Finance & Fintech Health Economics International Finance International Trade Labour Markets Migration Monetary Policy Productivity and Innovation Taxation Focus On Europe 2050 The Economic Consequences of the War Europe-Asia Initiative Trump & Tariffs Search the site Search / Publications / Discussion Papers Discussion paper DP21706 Making Teenagers Read Newspapers."
+  ]
+ },
+ "4795c1e465ac3f1d": {
+  "feed": "Technica",
+  "title": "Google complies with EU rules for travel searches, says the new results stink",
+  "link": "https://arstechnica.com/gadgets/2026/09/google-says-europe-is-making-it-roll-out-degraded-travel-search-results/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As the world's largest search engine, Google is often a target of Europe's Digital Markets Act (DMA), which seeks to rein in Big Tech. The European Commission hit Google with a hefty 460 million euro ($543 million) fine in July for preferring its own services in searches for travel and shopping. Google has now made changes in accordance with the European Union's wishes, but it claims the result is a massive reduction in search quality."
+  ]
+ },
+ "1c66ae5141c67cad": {
+  "feed": "Technica",
+  "title": "The White House made a \"Tetris\" clone. The Tetris Company was not amused.",
+  "link": "https://arstechnica.com/gaming/2026/09/the-white-house-made-a-tetris-clone-the-tetris-company-was-not-amused/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "An anti-immigration-themed adaptation of Tetris was removed from the White House website over the weekend. The move comes days after The Tetris Company disavowed any involvement with the game and said that it \"take[s] copyright infringement very seriously.\" The White House's \"Build the Wall\" game asked players to stop a \"Zombie Border siege\" by stacking Tetris -styled bricks in an attempt to \"hold the line.\" Unlike in Tetris , though, the blocks in \"Build the Wall\" don't disappear when you complete a line, meaning each brick contributes to an impassable barrier for the pixel-art \"zombies\" marching in from the \"Southern Border.\" That change makes the gameplay pretty uninteresting for anything but cheap propaganda, and it also means that every game quickly and ironically ends with a \"Border Breached\" message when the blocks inevitably fill up the well."
+  ]
+ },
+ "2b3d53af889794fd": {
+  "feed": "Technica",
+  "title": "The secret to protecting next-gen spacecraft might be eggshells",
+  "link": "https://arstechnica.com/science/2026/09/how-eggshells-can-protect-spacecraft-from-space-debris/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In 2007, a piece of space debris punched a bullet-like hole through the radiator panel of the US space shuttle Endeavor . The shuttle program ended in 2011, but the space debris problem has only intensified as we launch more and more satellite constellations, telescopes, and spacecraft into orbit. That's why Chinese scientists have devised a new aluminum material inspired by eggshells that they believe could offer enhanced protection against debris fragments, according to a new paper published in the Journal of Applied Physics."
+  ]
+ },
+ "616cfda2952bbd75": {
+  "feed": "Technica",
+  "title": "The combat demo for Free Stars: Children of Infinity is out, and it's free",
+  "link": "https://arstechnica.com/gaming/2026/09/the-official-sequel-to-the-ur-quan-masters-releases-its-free-demo-today/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "After five years in development, Free Stars: Children of Infinity —the official sequel to The Ur-Quan Masters by the old game's original creators—has released a free public demo. It's a \"combat demo\" in the style of UQM ’s melee mode, where players can assemble a fleet from the game's roster of nearly 40 ships, then match those ships up in head-to-head arcade SpaceWar -style action."
+  ]
+ },
+ "cd2259fb92587236": {
+  "feed": "Technica",
+  "title": "EV batteries last longer than drivers feared",
+  "link": "https://arstechnica.com/cars/2026/09/ev-batteries-last-longer-than-drivers-feared/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Electric vehicle batteries are lasting longer than previously feared by drivers, with most used EVs able to retain about 90 percent of their original usable battery capacity after 150,000 kilometers, a new study has shown. Despite a surge in global EV sales on the back of rising fuel prices, long-term battery durability continues to be one of the key concerns for drivers when they consider switching from a petrol model to an electric car."
+  ]
+ },
+ "80d284f58871ce28": {
+  "feed": "Google DeepMind",
+  "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+  "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AlphaGenome Atlas: Molecular predictions for 9 Billion human DNA variants â Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Imagen Generate high-quality images from text Lyria Generate high fidelity music and audio World models & physical AI Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our lat"
+  ]
+ },
+ "e554a40aa95192f9": {
+  "feed": "Microsoft Research",
+  "title": "Called to serve: Tech, research, and positive impact with Chris White",
+  "link": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In the summer of 2010, postdoc Chris White worked with a multidisciplinary team at the Defense Advanced Research Projects Agency, or DARPA, to determine if a new approach to data analysis could prevent violence and protect troops during the war in Afghanistan. At the conclusion of the program, the agency asked White to prove the value of his work—on the ground."
+  ]
+ },
+ "aaada63e998e3254": {
+  "feed": "OpenAI News",
+  "title": "The Work Now Within Reach",
+  "link": "https://openai.com/index/the-work-now-within-reach",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Work Now Within Reach | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 8, 2026 Company The Work Now Within Reach By Sarah Friar Loading… Share Consumer and enterprise strengthen each other Consumer and enterprise strengthen each other More work becomes worth doing Compute that delivers better value Why these advantages compound Previous blogs from Sarah Friar: Consumer and enterprise strengthen each other More work becomes worth doing Compute that delivers better value Why these advantages compound Previous blogs from Sarah Friar: AI is expanding what people and businesses can achieve."
+  ]
+ },
+ "99c22bc85dd5ff7a": {
+  "feed": "OpenAI News",
+  "title": "Funding grants for new research into AI and teen development",
+  "link": "https://openai.com/index/teen-development-research-grants",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Funding grants for new research into AI and teen development | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 8, 2026 Safety Funding grants for new research into AI and teen development OpenAI is committing $5 million to support independent research on how generative AI affects the lives and development of young people ages 13–17."
+  ]
+ },
+ "671a9fed35e21548": {
+  "feed": "OpenAI News",
+  "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+  "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI expands initiatives to support journalism from classrooms to newsrooms | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 8, 2026 Company OpenAI expands initiatives to support journalism from classrooms to newsrooms Loading… Share Giving journalism students practical experience with AI Giving journalism students practical experience with AI Building on years of investment in journalism Supporting the full journalism ecosystem Giving journalism students practical experience with AI Building on years of investment in journalism Supporting the full journalism ecosystem OpenAI is launching a major, multi-faceted initiative to support the journalism ecosystem with tools, training, partnerships, shared learning, and practical enablement for students, educators, journalists, and news organizations."
+  ]
+ },
+ "4f420d1c5cd0cb94": {
+  "feed": "Hugging Face Blog",
+  "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+  "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Safety for Whom?"
+  ]
+ },
+ "2089fa5ad760cf48": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses",
+  "link": "https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Avid Artifacts readers know that we have been covering not only models but also their licenses for quite some time. There was a period when custom licenses were all the rage, for example the custom Qwen2.5 72B-Instruct license or the Llama licenses . DeepSeek had a custom license for DeepSeek V3 before R1 changed it to MIT , which has resulted in many (Chinese) model makers adopting MIT or Apache 2.0 licenses in 2025."
+  ]
+ },
+ "579385c3e697dcbd": {
+  "feed": "Cloudflare Blog",
+  "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+  "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Every time Cloudflare opens a new TLS 1.3 connection to an origin server, we have to make a guess: the protocol requires us to commit to a key agreement algorithm in the very first packet we send, before the origin has told us anything about itself or what it can support. If we guess right, the handshake completes in one round trip. Guess wrong, and the origin replies with a HelloRetryRequest , we start over, and the connection costs two round trips."
+  ]
  }
 }
