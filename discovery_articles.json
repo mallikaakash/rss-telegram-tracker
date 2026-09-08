@@ -3705,5 +3705,33 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "8a4b857efc5b7c23": {
+  "url": "https://www.alphaxiv.org/abs/2608.23566",
+  "title": "Best Practice Critic Optimization | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-08",
+  "tier": "solid_find",
+  "why": "Presents a rigorous technical recipe (BPCO) that revives critic-based RL for LLMs, matching multi-sample GRPO performance while only sampling a single response per prompt.",
+  "points": [
+   "Combines DPPO, bounded value targets, unnormalized policy advantages, and length-adaptive GAE to resolve critic training instability in LLM post-training.",
+   "Conditions the training-time critic on privileged information (reference answers and grading rubrics) that remain hidden from the inference policy.",
+   "Demonstrates performance parity with group-relative baselines across models from 1.5B to 30B MoE while dramatically lowering rollout compute costs."
+  ]
+ },
+ "00310868013351a4": {
+  "url": "https://www.linkup.so/blog/how-we-tune-a-gpu-pipeline-in-an-agentic-world",
+  "title": "Linkup - How we tuned a GPU pipeline 6x in one day",
+  "domain": "linkup.so",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-08",
+  "tier": "hidden_gem",
+  "why": "An excellent small-team infra postmortem detailing how systematic roofline analysis and pipeline ownership yielded a 5.4x GPU embedding throughput jump in a single day.",
+  "points": [
+   "Used first-principles roofline arithmetic to realize their initial Spark-hosted API setup achieved only ~4% hardware utilization.",
+   "Moved from external hosted wrappers to a minimal, observable pipeline benchmarkable in 5-minute loops, allowing rapid single-variable experimentation.",
+   "Scaled throughput from 37,000 to over 200,000 tokens per second on the exact same GPU hardware without changing the underlying model."
+  ]
  }
 }
