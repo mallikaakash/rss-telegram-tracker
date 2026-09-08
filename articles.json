@@ -64677,5 +64677,115 @@
    "Examines the $3.2B Lake Mariner AI data center in NY, highlighting a complex web involving TeraWulf, Fluidstack, Google guarantees, and Anthropic compute demand.",
    "Reveals operational and safety risks during rapid AI infra construction, including a major fire at an unfinished site with non-functioning hydrants and alarms."
   ]
+ },
+ "3045481d86a55253": {
+  "feed": "YC Hacker News",
+  "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+  "link": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Making sovereign, open-weight AI the technology frontier | Mistral Contact sales Menu Products Industries Research Developers Blog Customers Company Contact sales Start building Studio Build, test, and run AI agents and apps. Forge Train, align, and evaluate custom AI models. Vibe AI agent for long-horizon work. Vibe for code Coding agents in the terminal, IDE, and background."
+  ]
+ },
+ "62dc7d9ddc6c164c": {
+  "feed": "YC Hacker News",
+  "title": "We have a year to fix security everywhere",
+  "link": "https://jyn.dev/a-year-to-fix-security/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "we have a year to fix security everywhere the website of jyn menu about computers should be liberating talks the computer of the next 200 years four posts about build systems --> we have a year to fix security everywhere 2026-09-04 • llms • security Table of contents GLM Flash Frontier This Is Bad What do we do? Governments and regulatory agencies Companies and open source foundations Summary GLM 5.3-flash released last week , and that means Project Glasswing and Daybreak are running out of time."
+  ]
+ },
+ "9890218d839896cd": {
+  "feed": "YC Hacker News",
+  "title": "My Feed, My Way",
+  "link": "https://www.pm.gov.au/media/my-feed-my-way",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My feed, My Way | Prime Minister of Australia Skip to main content Main navigation About the PM Our work Help with the cost of living Stronger Medicare and aged care Opportunities for Australians A fair go at your first home Building Australia’s future Your Ministry Media Contact the PM Home Media My feed, My Way My feed, My Way Media release Tuesday 8 September 2026 The Hon Anthony Albanese MP Prime Minister of Australia The Hon Anika Wells MP Minister for Communications Minister for Sport Listen The Albanese Government is taking the next step following its world leading social media age ban to ensure Australians have more choice online, with draft legislation for the Digital Duty of Care released today for targeted consultation."
+  ]
+ },
+ "7dca434f16bafdc5": {
+  "feed": "YC Hacker News",
+  "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+  "link": "https://mcpherrin.ca/2026/09/07/rsa.html",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I’ve factored the RSA keys of a Certificate Authority… | Matthew McPherrin Home | About Matthew McPherrin 2026-09-07 I’ve factored the RSA keys of a Certificate Authority... … from the 90s. I’ve been thinking about the security of RSA lately. RSA’s cryptography relies on the difficulty of factoring a large semiprime number, but what “large” means is an interesting question."
+  ]
+ },
+ "6d05cbe635d45764": {
+  "feed": "YC Hacker News",
+  "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+  "link": "https://cims.nyu.edu/~tristanb/statement.pdf",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "%PDF-1.5 %���� 11 0 obj > endobj 12 0 obj > /W [ 1 2 1 ] /Index [ 11 25 ] /Info 9 0 R /Root 13 0 R /Size 36 /Prev 53175 /ID [ ] >> stream x�cbd�g`b`8 $�ނX�@�q\u0006��\u0007$x5�\u0004�\u0015��m\u0002\u00121�@�Y����`\u000fH \u0003#%\u0004\u0000@z\u0006S endstream endobj 13 0 obj > endobj 14 0 obj > stream x�c```\u0002� � ,� \u0002 P\u0000f3�D\u0019X\u00162t�f_�����oC��^0��\u0004ء��!����A�\\�E︄��� \u0000{e\u000f� endstream endobj 15 0 obj > endobj 16 0 obj > stream x��YK���\u0011��W�-`����\u0000\u0001�$+�kS�㊷*U�s�%fI�@��\u0001��\\����_\u000f\u0000��r.DOOϳ_�4��M|��7�������,��n�\"-n� o�]y�Oқ\"�ߦY~s_��\u0012�o�,�7۴��M\u0012�M���7�.z���,�`�P��l��cj ~�D���7y G�тc�\u001a� ��$s���q6�R��m\u000e�����v֏���n��2�~��]� v;4g�����n�������V����y������]�� 'P�7}���� � 9r��۹[3г\u000e�#�+ �E5��\u0019�Zg�i z�:.T��lt 1c��/\u0011\u00133 \u0003\\b)��Y\\ ��f0�]۬\"�2E�\u0007i\u001b%Ӳ[�U���� �6 X\u0001���'\u0018=шjLQ\u001a�Y�{�k�\u0001j��v\b�~�\u0000�\u0012!�Q :�ʖ���t�\u0011���-K�#EZ��\u000f\u0010?[�Nf̭Kkȷ���0u��u�c�7�..�O�C�\u0012x:�֯E\u000f�:KHێ2tN\u0006;ط\b`��\u0019�=AF.��z��\u0017��\u0004��T��J\u0001��)� �#�\u0010)�Aj`�\u000f� B5�\u0018��Iq���mk�!"
+  ]
+ },
+ "276c6225db64ba2e": {
+  "feed": "Simon Willison",
+  "title": "llm 0.35",
+  "link": "https://simonwillison.net/2026/Sep/7/llm/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm 0.35 Simon Willison’s Weblog Subscribe Sponsored by: Portnox — Shadow AI is the new shadow IT. On Sept. 10, Forrester Research and Portnox share practical steps to regain AI agent visibility, access management, and policy enforcement. Register today 7th September 2026 Release llm 0.35 — Access large language models from the command-line New OpenAI model: gpt-6-astra for GPT-6 Astra ."
+  ]
+ },
+ "315af994e13a7fe4": {
+  "feed": "Simon Willison",
+  "title": "Creepy crawlies",
+  "link": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html."
+  ]
+ },
+ "b392e0204486327f": {
+  "feed": "Simon Willison",
+  "title": "Quoting Jakub Pachocki",
+  "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts."
+  ]
+ },
+ "394fcc6daf9ee6bb": {
+  "feed": "Simon Willison",
+  "title": "Video compressor",
+  "link": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , video , webassembly , claude , claude-code , claude-mythos-fable"
+  ]
+ },
+ "edfb48bd8fe5ce90": {
+  "feed": "Simon Willison",
+  "title": "Mercator ↔ Equal Earth",
+  "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: Mercator ↔ Equal Earth Simon Willison’s Weblog Subscribe Sponsored by: Portnox — Shadow AI is the new shadow IT. On Sept. 10, Forrester Research and Portnox share practical steps to regain AI agent visibility, access management, and policy enforcement. Register today 7th September 2026 Tool Mercator ↔ Equal Earth — View an interactive animated map that morphs between Mercator and Equal Earth projections using a slider or play button."
+  ]
  }
 }
