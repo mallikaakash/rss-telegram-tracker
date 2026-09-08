@@ -64787,5 +64787,93 @@
   "points": [
    "Tool: Mercator ↔ Equal Earth Simon Willison’s Weblog Subscribe Sponsored by: Portnox — Shadow AI is the new shadow IT. On Sept. 10, Forrester Research and Portnox share practical steps to regain AI agent visibility, access management, and policy enforcement. Register today 7th September 2026 Tool Mercator ↔ Equal Earth — View an interactive animated map that morphs between Mercator and Equal Earth projections using a slider or play button."
   ]
+ },
+ "e15bd53e375fc001": {
+  "feed": "YC Hacker News",
+  "title": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
+  "link": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare - CipherCue CIPHERCUE Directory EU Vendors Docs Pricing Blog Log in Book a demo Sign up free Directory EU Vendors Docs Pricing Blog Log in Book a demo Sign up free analysis Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare 8 September 2026 · 8 min read · By Chris McCabe A content delivery network sits in front of a website."
+  ]
+ },
+ "369f26bb0404c22b": {
+  "feed": "YC Hacker News",
+  "title": "Antiquated HTML Snippets and Artefacts",
+  "link": "https://vale.rocks/posts/html-relics",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Antiquated HTML Snippets and Artefacts | Vale.Rocks Skip to content , footer Open document overview Vale Search Open navigation Posts Portfolio Micros Photography Videos Elsewhere Firehose Library Links Contact Close navigation Posts Essay Antiquated HTML Snippets and Artefacts 3042 words 8 Sept 2026 #HTML #front-end #development With ever-changing devices, browsers, operating systems, form factors, specifications, personal preferences, tooling, and corporate interests, the web is in a constant state of flux."
+  ]
+ },
+ "2a996c75646ee836": {
+  "feed": "YC Hacker News",
+  "title": "Why getting your hands dirty is good for you",
+  "link": "https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why getting your hands dirty is good for you Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList To the Ends of the Earth Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live Why getting your hands dirty is good for you 3 hours ago Share Save Add as preferred on Google Becca Warner BBC/ Serenity Strull Putting our hands in soil and touching grass, trees or moss provides a wide range of health benefits, for our skin and wider immune system."
+  ]
+ },
+ "d36837f580485191": {
+  "feed": "YC Hacker News",
+  "title": "We built our house for LAN parties (2024)",
+  "link": "https://lanparty.house/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LAN Party House We built our house for LAN parties This is our basement game room. 12 PCs are built into the walls. Game Stations These fold up nicely when not in use. Closed station Open station Dance Dance Revolution There are DDR pads in the floor. The Upstairs Office We can game here too. Board games are games, right? Computer Mode The table also transforms to reveal six more game stations."
+  ]
+ },
+ "4af081f7a15d9b72": {
+  "feed": "YC Hacker News",
+  "title": "There's a new \"Google Jail\" for independent wikis",
+  "link": "https://weirdgloop.org/blog/google-jail",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There’s a new “Google Jail” for independent wikis | Weird Gloop ← Blog There's a new \"Google Jail\" for independent wikis 17 August 2026 · cookmeplox Big week! We just finished moving the Overwatch and Fortnite wikis off of Fandom. It’s still my favorite thing in the world to help wiki editors grab control of their projects and make them awesome (and not covered with a dozen auto-playing video ads!) Unlike most of the other wikis we host ( runescape.wiki , minecraft.wiki , gta.wiki …), both Overwatch and Fortnite are launching at subdomains of weirdgloop.org instead of on their own root domain, like (say) overwatch.wiki."
+  ]
+ },
+ "6032dc5645061183": {
+  "feed": "Simon Willison",
+  "title": "llm-openrouter 0.7.1",
+  "link": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-openrouter 0.7.1 Simon Willison’s Weblog Subscribe Sponsored by: Portnox — Shadow AI is the new shadow IT. On Sept. 10, Forrester Research and Portnox share practical steps to regain AI agent visibility, access management, and policy enforcement. Register today 2nd September 2026 Release llm-openrouter 0.7.1 — LLM plugin for models hosted by OpenRouter Performance fix for loading OpenRouter models."
+  ]
+ },
+ "1b25aee00a3f12c3": {
+  "feed": "Simon Willison",
+  "title": "llm 0.34",
+  "link": "https://simonwillison.net/2026/Sep/2/llm/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 ."
+  ]
+ },
+ "0de0940442c2d39f": {
+  "feed": "Simon Willison",
+  "title": "llm-anthropic 0.28",
+  "link": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
+  "date": "2026-09-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-anthropic 0.28 Simon Willison’s Weblog Subscribe Sponsored by: Portnox — Shadow AI is the new shadow IT. On Sept. 10, Forrester Research and Portnox share practical steps to regain AI agent visibility, access management, and policy enforcement. Register today 2nd September 2026 Release llm-anthropic 0.28 — LLM access to models by Anthropic, including the Claude series Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal."
+  ]
  }
 }
