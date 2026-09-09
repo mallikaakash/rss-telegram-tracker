@@ -65235,5 +65235,137 @@
   "points": [
    "1Password reports a 21% developer productivity boost and ~11% pull request cycle time reduction using Codex."
   ]
+ },
+ "5a4baff754f833e1": {
+  "feed": "Simon Willison",
+  "title": "On the Navier–Stokes Millennium Prize Problem",
+  "link": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,000,000 prize since May 24th, 2000. The discovery is somewhat overshadowed by accusations of skulduggery from Tristan Buckmaster, an NYU mathematics professor who was collaborating on related problems with Levent Alpöge, an accomplished mathematician who currently works for Anthropic."
+  ]
+ },
+ "d10a3fd68ee14eed": {
+  "feed": "YC Hacker News",
+  "title": "Tension wood: A 'muscle' that can both bend and straighten plants",
+  "link": "https://phys.org/news/2026-09-trees-muscle-posture-newly-role.html",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "00ea837cb76d877c": {
+  "feed": "YC Hacker News",
+  "title": "Researchers Spot Fake Ancient Pottery Using the Earth's Magnetic Field",
+  "link": "https://www.smithsonianmag.com/smart-news/researchers-determine-how-to-spot-fake-ancient-pottery-using-the-earths-magnetic-field-180989441/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Researchers Have Figured Out How to Spot Fake Ancient Pottery Using the Earth's Magnetic Field Skip to main content Search Shop Newsletters Renew Give a Gift Subscribe Membership i Subscribe Give a Gift Renew Sections Smart News History Science Innovation Arts & Culture Travel At the Smithsonian More from Smithsonian magazine Newsletters Photo Contest Podcast Videos Our Partners Smithsonian Store Smithsonian Journeys Subscribe to Smithsonian magazine and get a FREE tote."
+  ]
+ },
+ "7174b568cb769568": {
+  "feed": "YC Hacker News",
+  "title": "The Nonfiction Book Market is Collapsing?",
+  "link": "https://dearheadofmine.substack.com/p/the-nonfiction-book-market-is-collapsing",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "3f7faa570ce63a7c": {
+  "feed": "YC Hacker News",
+  "title": "How to build a printer",
+  "link": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How to build a f**king printer · Nishant Joshi Writing / How to build a f**king printer How to build a f**king printer sep 7, 2026 800 words public I was planning to build an e-ink display when I came across the Xteink X3 online. Somewhere in the fine print, it said the thing was fully programmable. I was sold. When it arrived, I liked how flat it was."
+  ]
+ },
+ "dc3eda17ca27c313": {
+  "feed": "Technica",
+  "title": "LG TV shown scanning LAN for third-party phones and other devices",
+  "link": "https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LG TVs are facing scrutiny due to a video seemingly showing the devices’ capability to track users when the TVs are off. YouTube channel Gamers Nexus worked with Level1Techs, a technology-focused YouTube channel, and security researchers to analyze LG TVs’ tracking capabilities. They shared packet captures that pointed to the TVs, including LG’s pricey G5 OLED TV, scanning the LAN for other devices."
+  ]
+ },
+ "e883a47e5391f8b7": {
+  "feed": "Technica",
+  "title": "GOG brings back \"big box\" PC games, one printable template at a time",
+  "link": "https://arstechnica.com/gaming/2026/09/gog-brings-back-big-box-pc-games-one-printable-template-at-a-time/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Those who remember PC gaming in the days before Steam may have fond memories of the \"big box\" packaging that made those games stand out as shelf eye candy and sought-after in-home collectibles . Today, PC gaming platform GOG is hoping to reignite some of the nostalgia for those days by adding downloadable 3D models and printable, foldable high-res packaging scans for a handful of PC games on the platform."
+  ]
+ },
+ "bf8c2b1da340d9c0": {
+  "feed": "Technica",
+  "title": "Why this month's Microsoft patch release is a doozy",
+  "link": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Microsoft’s patch for September is a doozy, with a record number of roughly 972 vulnerabilities fixed and 112 of them meeting the high critical-severity threshold. It was only two months ago that Microsoft patched a then-record 570 vulnerabilities. Then, last month, Microsoft patched some 620 of them. Google and other companies have also published record numbers of vulnerabilities in recent months."
+  ]
+ },
+ "74012351dabbb0ab": {
+  "feed": "Technica",
+  "title": "The universal language of space is... Star Trek? Mais oui.",
+  "link": "https://arstechnica.com/space/2026/09/astronaut-on-iss-celebrates-60-years-of-star-trek-with-prop-badge/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sixty years after television audiences first tuned in to see the voyages of the Starship Enterprise , an astronaut on board the International Space Station has paid tribute to Star Trek by flying the badge of the franchise's latest fictional captain. Expedition 75 flight engineer Sophie Adenot with European Space Agency (ESA) donned the Delta badge originally worn by actor Anson Mount for a video recorded from aboard the space station."
+  ]
+ },
+ "cec960be6b03fb8d": {
+  "feed": "Technica",
+  "title": "NIH to use part of its budget to pay for Department of Defense research",
+  "link": "https://arstechnica.com/science/2026/09/nih-to-use-part-of-its-budget-to-pay-for-department-of-defense-research/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Late last week, word started leaking that the National Institutes of Health (NIH) had reached an agreement with the Department of Defense that would see part of the NIH's budget used to fund research at the Department of Defense. So, on the Friday just prior to a US holiday weekend, the Department of Defense released a copy of the agreement and confirmed that it had been signed roughly a month earlier."
+  ]
+ },
+ "e4e4ee3b55ca5bbe": {
+  "feed": "Simon Willison",
+  "title": "Quoting Terence Tao",
+  "link": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a problem can trigger a massive amount of AI-powered effort to flatten it before the original research project has time to reach its full potential."
+  ]
+ },
+ "756e8711be7c2f60": {
+  "feed": "Simon Willison",
+  "title": "Introducing ChatGPT Images 2.5",
+  "link": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare ."
+  ]
  }
 }
