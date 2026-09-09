@@ -65367,5 +65367,110 @@
   "points": [
    "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare ."
   ]
+ },
+ "1e6a4408d9dc7eff": {
+  "feed": "YC Hacker News",
+  "title": "Flock Wants a Closely Surveilled World with No Exit",
+  "link": "https://www.newyorker.com/culture/infinite-scroll/flock-wants-a-closely-surveilled-world-with-no-exit",
+  "date": "2026-09-09",
+  "tier": "low_priority",
+  "why": "Non-technical reporting on surveillance policy and corporate controversies with no relevance to ML architectures or backend engineering.",
+  "points": [
+   "Profiles Flock Safety's $8B+ surveillance network and expansion across US law-enforcement agencies."
+  ]
+ },
+ "3a4d107cf67fd2f5": {
+  "feed": "YC Hacker News",
+  "title": "Desert Ant Labs: local, fast models that run on device",
+  "link": "https://desertant.com/blog/introducing-desert-ant-labs/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "Relevant to small language models and efficient inference architectures, detailing sub-15MB specialized on-device models.",
+  "points": [
+   "Showcases 18 task-specific lightweight models including Voz (transcribes 10m audio in 2s, 4.7x faster than Whisper) and Clear (9MB audio enhancer).",
+   "Demonstrates strong task performance at tiny footprint: Redact catches 88.8% of PII at 12MB, competitive with 2.3GB GLiNER-PII.",
+   "Focuses on zero token-cost local execution via Swift, Kotlin, and JS SDKs."
+  ]
+ },
+ "b1b1b45912eb1139": {
+  "feed": "YC Hacker News",
+  "title": "I advertise malicious software on Google Ads",
+  "link": "https://xlii.space/eng/malicious-software-on-google-ads/",
+  "date": "2026-09-09",
+  "tier": "low_priority",
+  "why": "Post contains no technical text or relevant infrastructure details.",
+  "points": [
+   "Empty post/comments-only link regarding Google Ads malware."
+  ]
+ },
+ "678879ef2f22b484": {
+  "feed": "YC Hacker News",
+  "title": "Lotus Notes and the dangers of starting from scratch",
+  "link": "https://buttondown.com/blog/lotus-notes-email",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "Interesting historical engineering perspective on distributed collaboration software and protocol evolution, though not directly ML-focused.",
+  "points": [
+   "Examines the lineage of PLATO Notes to Lotus Notes, which pioneered rich text formatting, encryption, and synced distributed state decades before standard internet tools.",
+   "Explores product architecture trade-offs between monolithic all-in-one workspaces and unbundled protocols."
+  ]
+ },
+ "66c0d2022d08e71f": {
+  "feed": "YC Hacker News",
+  "title": "How An AI math breakthrough ignited a controversy",
+  "link": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+  "date": "2026-09-09",
+  "tier": "low_priority",
+  "why": "Placeholder post with no body text.",
+  "points": [
+   "Empty discussion link on an AI math controversy."
+  ]
+ },
+ "8b769129aac18b6b": {
+  "feed": "Technica",
+  "title": "Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.",
+  "link": "https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus/",
+  "date": "2026-09-09",
+  "tier": "low_priority",
+  "why": "General mainstream tech news regarding AI safety lawsuits without technical model architecture or alignment takeaways.",
+  "points": [
+   "Reports on a lawsuit against OpenAI regarding harmful delusions and safety guardrail failures."
+  ]
+ },
+ "206c60fa62ac39eb": {
+  "feed": "Technica",
+  "title": "With another huge infusion of cash, Stoke Space goes even bigger",
+  "link": "https://arstechnica.com/space/2026/09/stoke-space-sets-debut-launch-target-reveals-plans-for-larger-rocket/",
+  "date": "2026-09-09",
+  "tier": "low_priority",
+  "why": "Pure funding announcement for an aerospace startup, completely outside ML/backend infra priorities.",
+  "points": [
+   "Stoke Space raised a $1 billion Series E for its reusable medium-lift Nova rocket."
+  ]
+ },
+ "44084287147f6737": {
+  "feed": "Sebastian Raschka (Ahead of AI)",
+  "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+  "link": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+  "date": "2026-09-09",
+  "tier": "must_read",
+  "why": "Top-priority architecture deep dive covering frontier LLM scaling, looped transformers, recurrent depth, and chain-of-thought reasoning mechanisms.",
+  "points": [
+   "Analyzes the technical mechanisms behind looped transformers (recurrent depth parameter sharing) and evaluates how they impact hidden reasoning traces.",
+   "Details GPT-6 Astra benchmark performance across ARC-AGI-3 (99.9%), coding agents, and complex math evaluations.",
+   "Critiques evaluation methodologies across diverse agent harnesses (Terminus 2, Stirrup, τ-Bench)."
+  ]
+ },
+ "af4f922db583ae67": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "When will average people feel AI’s impact?",
+  "link": "https://www.interconnects.ai/p/when-will-average-people-feel-ais",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "Thoughtful macro perspective on consumer AI adoption vs. previous industrial revolutions from an authoritative RL/LLM researcher, useful for industry context.",
+  "points": [
+   "Argues current generative AI delivers indirect software/fringe gains rather than transformative tangible consumer goods like electrification or household appliances did.",
+   "Highlights that long-term technological diffusion faces substantial societal inertia, leaving everyday physical life largely unchanged in the near term."
+  ]
  }
 }

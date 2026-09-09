@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Wed 09 Sep 2026, 18:01 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Wed 09 Sep 2026, 18:01 IST &middot; 9 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Sebastian Raschka&#x27;s deep dive into looped transformers, recurrent depth, and hidden reasoning traces in frontier LLMs is this batch&#x27;s essential technical read.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">Sebastian Raschka (Ahead of AI)</span><h2><a href="https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and">GPT-6 Astra, Looped Transformers, and Hidden Reasoning</a></h2><div class="why">Top-priority architecture deep dive covering frontier LLM scaling, looped transformers, recurrent depth, and chain-of-thought reasoning mechanisms.</div><ul><li>Analyzes the technical mechanisms behind looped transformers (recurrent depth parameter sharing) and evaluates how they impact hidden reasoning traces.</li><li>Details GPT-6 Astra benchmark performance across ARC-AGI-3 (99.9%), coding agents, and complex math evaluations.</li><li>Critiques evaluation methodologies across diverse agent harnesses (Terminus 2, Stirrup, τ-Bench).</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://desertant.com/blog/introducing-desert-ant-labs/">Desert Ant Labs: local, fast models that run on device</a></h2><div class="why">Relevant to small language models and efficient inference architectures, detailing sub-15MB specialized on-device models.</div><ul><li>Showcases 18 task-specific lightweight models including Voz (transcribes 10m audio in 2s, 4.7x faster than Whisper) and Clear (9MB audio enhancer).</li><li>Demonstrates strong task performance at tiny footprint: Redact catches 88.8% of PII at 12MB, competitive with 2.3GB GLiNER-PII.</li><li>Focuses on zero token-cost local execution via Swift, Kotlin, and JS SDKs.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://buttondown.com/blog/lotus-notes-email">Lotus Notes and the dangers of starting from scratch</a></h2><div class="why">Interesting historical engineering perspective on distributed collaboration software and protocol evolution, though not directly ML-focused.</div><ul><li>Examines the lineage of PLATO Notes to Lotus Notes, which pioneered rich text formatting, encryption, and synced distributed state decades before standard internet tools.</li><li>Explores product architecture trade-offs between monolithic all-in-one workspaces and unbundled protocols.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Interconnects (Nathan Lambert)</span><h2><a href="https://www.interconnects.ai/p/when-will-average-people-feel-ais">When will average people feel AI’s impact?</a></h2><div class="why">Thoughtful macro perspective on consumer AI adoption vs. previous industrial revolutions from an authoritative RL/LLM researcher, useful for industry context.</div><ul><li>Argues current generative AI delivers indirect software/fringe gains rather than transformative tangible consumer goods like electrification or household appliances did.</li><li>Highlights that long-term technological diffusion faces substantial societal inertia, leaving everyday physical life largely unchanged in the near term.</li></ul></div><div class="section">Low priority &middot; 5</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.newyorker.com/culture/infinite-scroll/flock-wants-a-closely-surveilled-world-with-no-exit">Flock Wants a Closely Surveilled World with No Exit</a></h2><div class="why">Non-technical reporting on surveillance policy and corporate controversies with no relevance to ML architectures or backend engineering.</div><ul><li>Profiles Flock Safety&#x27;s $8B+ surveillance network and expansion across US law-enforcement agencies.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://xlii.space/eng/malicious-software-on-google-ads/">I advertise malicious software on Google Ads</a></h2><div class="why">Post contains no technical text or relevant infrastructure details.</div><ul><li>Empty post/comments-only link regarding Google Ads malware.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy">How An AI math breakthrough ignited a controversy</a></h2><div class="why">Placeholder post with no body text.</div><ul><li>Empty discussion link on an AI math controversy.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus/">Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.</a></h2><div class="why">General mainstream tech news regarding AI safety lawsuits without technical model architecture or alignment takeaways.</div><ul><li>Reports on a lawsuit against OpenAI regarding harmful delusions and safety guardrail failures.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/space/2026/09/stoke-space-sets-debut-launch-target-reveals-plans-for-larger-rocket/">With another huge infusion of cash, Stoke Space goes even bigger</a></h2><div class="why">Pure funding announcement for an aerospace startup, completely outside ML/backend infra priorities.</div><ul><li>Stoke Space raised a $1 billion Series E for its reusable medium-lift Nova rocket.</li></ul></div></body></html>
