@@ -65472,5 +65472,93 @@
    "Argues current generative AI delivers indirect software/fringe gains rather than transformative tangible consumer goods like electrification or household appliances did.",
    "Highlights that long-term technological diffusion faces substantial societal inertia, leaving everyday physical life largely unchanged in the near term."
   ]
+ },
+ "8ef59f4ca466321b": {
+  "feed": "YC Hacker News",
+  "title": "Tailwind Labs is joining Shopify",
+  "link": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tailwind Labs is joining Shopify - Tailwind CSS v 4.3 ⌘K Ctrl K Docs Play Blog Showcase Partners Plus September 9, 2026 Tailwind Labs is joining Shopify Adam Wathan @ adamwathan Big one today — Tailwind is joining Shopify. When I started working on Tailwind over nine years ago, my only goal was to create something that would make it easier to build beautiful interfaces for my own projects."
+  ]
+ },
+ "6072d5d0389c5d0d": {
+  "feed": "YC Hacker News",
+  "title": "GNU Radio in the browser",
+  "link": "https://gnuradioworld.com/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GNU Radio World — GNU Radio flowgraphs in your browser GNU Radio World — GNU Radio flowgraphs in your browser A GNU Radio Companion-style flowgraph editor and runtime that runs entirely in a browser tab. The GNU Radio DSP stack and the Qt GUI sinks are compiled to WebAssembly, so you can build a software-defined radio flowgraph, press Run, and watch live spectrum, waterfall and constellation plots — with no Python, no install and no server."
+  ]
+ },
+ "1664695e28d3afe0": {
+  "feed": "YC Hacker News",
+  "title": "Planet Labs' Open Satellite Feed",
+  "link": "https://tech.marksblogg.com/planet-labs-open-satellite-feed.html",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Planet Labs' Open Satellite Feed Mark Litwintschik I'm a Big Data, AI, GIS & Networking Consultant with clients in the UK, USA, Sweden, Ireland & Germany. Past clients include BAA plc, Bank of America Merrill Lynch, Blackberry, Bloomberg, British Telecom, Ford, Google, ITV, IMG, Nando's, News UK, Pizza Hut, Royal Mail, T-Mobile, Williams Formula 1, Wise & UBS."
+  ]
+ },
+ "982cd14c03164c95": {
+  "feed": "YC Hacker News",
+  "title": "No Man's Sky Cosmos",
+  "link": "https://www.nomanssky.com/cosmos-update/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cosmos Update - No Man's Sky Menu Latest patch notes Hello Games Cloud Cross-Save Twitch Drops Buy Release log News Merch Galactic Atlas Cosmos: Introducing Update 7.0 Become director of a space station , join a galactic alliance , construct a space base and discover deep-space marvels in No Man's Sky Cosmos. Navigate space with a new star system map , strip colossal hulks for parts before hull integrity fails, recover and haul physical salvage to remote space outposts , celebrate 10 years of No Man’s Sky in the Our Journey Continues expedition , and much, much more."
+  ]
+ },
+ "3b7b36e29d5b24d4": {
+  "feed": "YC Hacker News",
+  "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
+  "link": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anthropic Is Building a Predictive Surveillance System to Monitor Activists - The American Prospect Close Subscribe Donate Newsletters Sign In Search for: Search War in Iran Election 2026 ICE America and the World In the Magazine The American Prospect About Us Meet the Staff Donate Subscribe to Our Magazine Newsletter Sign-Up Why We’re Removing Our Programmatic Ads Careers Frequently Asked Questions Close The American Prospect About Us Meet the Staff Donate Subscribe to Our Magazine Newsletter Sign-Up Why We’re Removing Our Programmatic Ads Careers Frequently Asked Questions Skip to content Menu The American Prospect Ideas, Politics & Power Subscribe Donate Newsletters Sign In Open Search Search for: Search Donate Menu Sign In War in Iran Election 2026 ICE America and the World In the Magazine Home / Technology / Anthropic Is Building a Predictive Surveillance System to Monitor Activists Posted in Technology Anthropic Is Building a Predictive Surveillance System to Monitor Activists New hires and comments in interviews show that the AI giant is using its capabilities against dissenters."
+  ]
+ },
+ "d306e5692dd74587": {
+  "feed": "Technica",
+  "title": "NOAA is putting commercial fishing ahead of conservation",
+  "link": "https://arstechnica.com/science/2026/09/noaa-is-putting-commercial-fishing-ahead-of-conservation/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In July , the Trump administration relegated endangered leatherback turtles, sea lions, and whales to mere collateral damage in its race to profit from the oceans. Now, fisheries science is in the government’s crosshairs. The National Oceanic and Atmospheric Administration (NOAA) announced new agency priorities last week that they say are a commitment to “cutting bureaucracy, modernizing our science, and putting our fishing communities first.” But experts say the agency’s actions will erode fish stocks, threaten endangered species, and surrender marine habitats to destructive trawlers."
+  ]
+ },
+ "e8608e40b7228951": {
+  "feed": "Hugging Face Blog",
+  "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+  "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license Enterprise Article Published September 9, 2026 Upvote 8 +2 Roman Vaculin vaculin Follow ibm-research Wesley M."
+  ]
+ },
+ "4fc9fd32c53a36fb": {
+  "feed": "Cloudflare Blog",
+  "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+  "link": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+  "date": "2026-09-09",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’ve rewritten the module registry in workerd , the core open-source component of the Workers runtime, to be faster, more standards-compliant, and more closely aligned with Node.js' module registry. Over the past few years, we’ve been adding support for more and more Node.js runtime APIs. The Workers runtime now supports every stable API from Node.js that you might want to use in a serverless context, and these APIs are now enabled by default , letting you deploy even larger Node.js apps to Cloudflare (now up to 64 MiB on all plans — we’ve removed the limit on compressed bundle size)."
+  ]
  }
 }
