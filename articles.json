@@ -65560,5 +65560,82 @@
   "points": [
    "We’ve rewritten the module registry in workerd , the core open-source component of the Workers runtime, to be faster, more standards-compliant, and more closely aligned with Node.js' module registry. Over the past few years, we’ve been adding support for more and more Node.js runtime APIs. The Workers runtime now supports every stable API from Node.js that you might want to use in a serverless context, and these APIs are now enabled by default , letting you deploy even larger Node.js apps to Cloudflare (now up to 64 MiB on all plans — we’ve removed the limit on compressed bundle size)."
   ]
+ },
+ "da868ab08df15cb8": {
+  "feed": "YC Hacker News",
+  "title": "iPhone Duo",
+  "link": "https://www.apple.com/iphone-duo/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "iPhone Duo - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + iPhone Duo Explore View pricing iPhone Duo Currently viewing iPhone 18 Pro New iPhone Air iPhone 17 iPhone 17e iPhone 16 Compare Accessories Shop iPhone iOS 27 iPhone Duo * View pricing Overview Highlights Design Cameras Performance Shared Features Accessories Tech Specs Switch from Android iPhone Duo Hello, hello."
+  ]
+ },
+ "4c5cced9cba394df": {
+  "feed": "YC Hacker News",
+  "title": "AirPods 5",
+  "link": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple introduces AirPods 5 with best-in-class open-ear Active Noise Cancellation - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Newsroom Open Newsroom navigation Close Newsroom navigation Apple Services Apple Stories Search Newsroom Close opens in new window PRESS RELEASE September 9, 2026 Apple introduces AirPods 5, featuring best-in-class open‑ear Active Noise Cancellation With industry-leading ANC in an open-ear design, improved sound quality, hands-free access to Siri AI, and Live Translation, AirPods 5 deliver the best audio experience Apple has ever offered in this style of AirPods, at an incredible price AirPods 5 deliver the industry’s best Active Noise Cancellation in an open-ear design, an all-new multiport acoustic architecture, and next-generation Adaptive EQ for even more immersive sound."
+  ]
+ },
+ "df30ec5afdd0529a": {
+  "feed": "YC Hacker News",
+  "title": "What do Visa and Mastercard do? An intro to card networks",
+  "link": "https://tautology.town/2026/06/01/card-networks.html",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What do Visa and Mastercard do? An intro to card networks @ tautology.town Home About What do Visa and Mastercard do? An intro to card networks Jun 1, 2026 Most people can recognize the Visa and Mastercard brands. Chances are, you use one of their cards to transact every day. You may have some notion that most places (in the US) take both, but some places only take Visa (e.g."
+  ]
+ },
+ "9b78cef408b4341a": {
+  "feed": "YC Hacker News",
+  "title": "Apple Watch Series 12",
+  "link": "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Apple Watch Series 12, with the all-new Health Sensing System - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Newsroom Open Newsroom navigation Close Newsroom navigation Apple Services Apple Stories Search Newsroom Close opens in new window PRESS RELEASE September 9, 2026 Introducing Apple Watch Series 12, with the all-new Health Sensing System Apple Watch Series 12 offers the most accurate heart rate sensing in a wearable, higher-frequency heart rate and HRV sensing, a readiness score, and Audio Intelligence features built with privacy at the core Apple Watch Series 12 delivers the most accurate heart rate sensing in a wearable, higher-frequency heart rate and heart rate variability sensing, and a readiness score."
+  ]
+ },
+ "07e6d6658c809c32": {
+  "feed": "YC Hacker News",
+  "title": "iPhone 18 Pro and iPhone 18 Pro Max",
+  "link": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple debuts iPhone 18 Pro and iPhone 18 Pro Max - Apple Apple Store Mac iPad iPhone Watch Vision AirPods TV & Home Entertainment Accessories Support 0 + Newsroom Open Newsroom navigation Close Newsroom navigation Apple Services Apple Stories Search Newsroom Close opens in new window PRESS RELEASE September 9, 2026 Apple debuts iPhone 18 Pro and iPhone 18 Pro Max The new Pro lineup introduces variable aperture with the most advanced camera in an iPhone, incredible battery life, next‑level performance, and Siri AI, all powered by A20 Pro iPhone 18 Pro and iPhone 18 Pro Max feature the most advanced camera Apple has ever made and deliver massive leaps in battery life and performance."
+  ]
+ },
+ "534907e0d31e4171": {
+  "feed": "OpenAI News",
+  "title": "Paul Christiano joins OpenAI Foundation Board",
+  "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Paul Christiano joins OpenAI Foundation Board | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 9, 2026 Company Paul Christiano joins OpenAI Foundation Board Paul Christiano will also join the Foundation’s Safety and Security Committee."
+  ]
+ },
+ "b69055f1c6513185": {
+  "feed": "Together AI",
+  "title": "The Open Source AI Stack",
+  "link": "https://www.together.ai/blog/the-open-source-ai-stack",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Open Source AI Stack Webflow Analyze/Optimize tracking bridge --> 🚀 DeepSeek V4 Pro 0813 vs. GPT-5.6 Sol on DeepSWE → 📈 GLM-5.3 vs. GLM 5.3 Flash on DeepSWE → ⚡ On-demand B200s now available on Together GPU Clusters → 🚀 Now serving MiniMax-M3 for efficient inference → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Resources Customer stories Testi"
+  ]
  }
 }
