@@ -3733,5 +3733,25 @@
    "Moved from external hosted wrappers to a minimal, observable pipeline benchmarkable in 5-minute loops, allowing rapid single-variable experimentation.",
    "Scaled throughput from 37,000 to over 200,000 tokens per second on the exact same GPU hardware without changing the underlying model."
   ]
+ },
+ "b66167985a2bcd94": {
+  "url": "https://kenhuangus.substack.com/p/chapter-2-the-kv-cache-frontier-hybrid",
+  "title": "Chapter 2: The KV Cache Frontier: Hybrid Compressed Sparse Attention (DeepSeek-V4 CSA/HCA) & MLA, Global Prefix Caching & KVShare",
+  "domain": "kenhuangus.substack.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-09",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "17fc372355ba4873": {
+  "url": "https://vibeengines.com/paper/grpo",
+  "title": "GRPO & DeepSeekMath, Explained | Vibe Engines",
+  "domain": "vibeengines.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-09",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
