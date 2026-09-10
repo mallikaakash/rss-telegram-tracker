@@ -3753,5 +3753,53 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "62ed432341b08e12": {
+  "url": "https://happyrock.cloud/blog/2026-07-31_longstraw_long_context_training_2m_tokens_8_gpus_fudan_mindlab_en/",
+  "title": "LongStraw Long Context Training Breakthrough Deep Dive: 2M Token RL Training on 8 H20 GPUs — Fudan MindLab Memory Wall Breaker | HappyRock",
+  "domain": "happyrock.cloud",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-10",
+  "tier": "solid_find",
+  "why": "Breaks down an obscure recent RL training paper (LongStraw) that solves memory scaling for 2M token training on modest hardware with concrete math and checkpointing mechanics.",
+  "points": [
+   "Explains how LongStraw decouples long-context RL into a low-overhead 'tourist pass' (<0.3% text size via memory capsules) and an 'examiner mode' backprop pass.",
+   "Includes concrete memory wall math illustrating why standard 2M-token backprop demands ~8TB while LongStraw fits into 8x H20 GPUs (1.14TB total).",
+   "Focuses specifically on the under-discussed gap between extreme long-context inference versus actual RL training."
+  ]
+ },
+ "055e9ce7777f7593": {
+  "url": "https://skillsuites.com/continuous-batching-pagedattention/",
+  "title": "Continuous Batching and PagedAttention: How vLLM Keeps a GPU Busy - Skill Suites",
+  "domain": "skillsuites.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-10",
+  "tier": "skip",
+  "why": "A standard multi-part tutorial explaining widely covered concepts (vLLM, continuous batching, PagedAttention) without novel findings.",
+  "points": []
+ },
+ "a927ed0a6193cac9": {
+  "url": "https://arxiv.org/abs/2609.09691",
+  "title": "[2609.09691] Looped GPT-BERT: Trading Parameters for Computation in Small Language Modeling",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-10",
+  "tier": "solid_find",
+  "why": "An empirical BabyLM research paper investigating depth-wise recurrent parameter sharing (Looped GPT-BERT) under strict compute and data constraints.",
+  "points": [
+   "Implements a 4-physical-layer model looped for 12 traversals to total just 12.18M parameters on a 7.48M-word corpus.",
+   "Demonstrates competitive scores on BLiMP and GLUE against standard GPT-2 baselines while trading parameter capacity for recurrent compute.",
+   "Identifies representational limits where looping physical layers fails to substitute for true parameter scale."
+  ]
+ },
+ "27594fa1bd460d3b": {
+  "url": "https://github.com/theruderaw/medgemma-inference-server/blob/74dfce8f/architecture.md",
+  "title": "medgemma-inference-server/architecture.md at 74dfce8f884a65f8af67843b726c56be57806736 · theruderaw/medgemma-inference-server · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-10",
+  "tier": "skip",
+  "why": "Truncated generic GitHub architecture document for a standard multimodal medical RAG wrapper.",
+  "points": []
  }
 }
