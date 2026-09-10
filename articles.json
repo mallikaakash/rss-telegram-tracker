@@ -65923,5 +65923,205 @@
   "points": [
    "Rebuilding AUTOMATIC1111 with Gradio Workflow Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Rebuilding AUTOMATIC1111 with Gradio Workflow Published September 10, 2026 Update on GitHub Upvote - yuvraj sharma ysharma Follow Abubakar Abid abidlabs Follow :last-child]:mb-0\"> What's on the canvas Text-to-image Hi-resolution fix Image-to-image Let an LLM write the prompt Let an LLM write the prompt Read an image back into a prompt Detection to inpaint mask Prompt matrix Upscale and background removal Annotators PNG Info Image-to-video Running models on your own GPU Every output is an API Where this sits next to ComfyUI Build your own In our last post , we built five small gr.Workflow graphs and hinted at what it would take to build something as complex as AUTOMATIC1111's stable-diffusion-webui ."
   ]
+ },
+ "e0bea100c91b53ad": {
+  "feed": "YC Hacker News",
+  "title": "Shopify moves back to Native from React Native",
+  "link": "https://shopify.engineering/back-to-native",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Native is now the future of mobile at Shopify (2026) - Shopify Skip to Content Solutions Start Start your business . Build your brand Create your website . Online store editor Customize your store . Store themes Find business apps . Shopify app store Own your site domain . Domains & hosting Explore free business tools . Tools to run your business Sell Sell your products ."
+  ]
+ },
+ "48c9aa1ba69818cb": {
+  "feed": "YC Hacker News",
+  "title": "Rust Is Tier-1 Language at Microsoft",
+  "link": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Guest Post: Rust Is Tier-1 Language at Microsoft By visiting our site, you agree to our privacy policy regarding cookies, tracking statistics, etc. Under GDPR, necessary cookies are exempt from consent as they are essential for a site to function. We’d like to set additional cookies to understand site usage and make improvements. By clicking Accept, you consent to allow this."
+  ]
+ },
+ "f628fc104550f90f": {
+  "feed": "YC Hacker News",
+  "title": "Software Drives People Insane",
+  "link": "https://graybeard.ing/software-drives-people-insane/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Software Drives People Insane – The Gospel According to Graybeard The Gospel According to Graybeard Home Blog YouTube X/Twitter Subscribe Software Drives People Insane 10 Sep, 2026 I have a little pet theory that software drives people insane. Not in the \"wash your hands every thirty minutes like Howard Hughes\" kind of way, but more so in how the conditions surrounding software seem remarkably effective at making otherwise normal people lose their sense of proportion."
+  ]
+ },
+ "69669daef8253424": {
+  "feed": "YC Hacker News",
+  "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+  "link": "https://cognition.com/blog/swe-2",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing SWE-2: Pushing the Pareto Frontier | Cognition Menu Close Home Careers Research Blog Get a Demo Devin Home Careers Research Blog Get a Demo Devin Introducing SWE-2: Pushing the Pareto Frontier By The Cognition Team 09.10.26 Today we’re introducing SWE-2, our most advanced coding model yet. It pushes the Pareto frontier of capability and cost, achieving 50.0% on FrontierCode 1.1 Main 1 , within one point of Fable 5.1 while being 64% cheaper."
+  ]
+ },
+ "782d6bbf2b5289c7": {
+  "feed": "YC Hacker News",
+  "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+  "link": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "309bc3c43127daff": {
+  "feed": "Technica",
+  "title": "Artemis II commander and pilot become NASA's first astronaut emeriti",
+  "link": "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The commander and pilot of NASA's Artemis II mission have gained a new distinction five months after splashing down from the Moon: They're not fully retiring from the space agency. Reid Wiseman and Victor Glover are the first astronauts to join NASA's emeritus program , enabling them to continue to support the work being done at Johnson Space Center in Houston."
+  ]
+ },
+ "c8f117b7bb0ac695": {
+  "feed": "Technica",
+  "title": "Popular navigation apps unlikely to ditch Mercator maps despite UN resolution",
+  "link": "https://arstechnica.com/gadgets/2026/09/un-correct-the-map-resolution-wont-change-mercator-map-use-in-navigation-apps/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nearly every country represented in the United Nations General Assembly recently voted in favor of promoting world maps that more accurately show the size of various continents. But the UN resolution is unlikely to change how millions of people regularly see versions of 16th-century Mercator maps depicting skewed continent sizes in navigation apps. On September 4, the African-led resolution attracted 164 votes in favor, with six countries abstaining from voting."
+  ]
+ },
+ "6bd4e0cb86ed80c1": {
+  "feed": "Technica",
+  "title": "Anthropic researcher quits with a warning: Self-improving AI could \"kill us all\"",
+  "link": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When a prominent researcher quits a job at a frontier AI lab these days, it's often to pursue a new startup or protest a new business model . But AI researcher Jacob Coxon is using his departure from Anthropic to publicly warn that frontier AI companies are \"gambling with our lives\" with systems that they \"earnestly believe... could kill us all by the end of the decade.\" In a social media thread Tuesday night , Coxon said that this existential risk is inherent not so much in today's models but more in the impending prospect of \"self-improving superintelligence\" creating \"superhuman systems that can hack anything, revolutionize any field overnight, and acquire real power and resources.\" Others working on these models have either not \"internalized the civilizational stakes\" or believe that they need to \"speedrun\" the race to superintelligence to prevent an irresponsible party from getting there first, he wrote."
+  ]
+ },
+ "178620ed6745e6f8": {
+  "feed": "Technica",
+  "title": "Prime Video releases full trailer for Mike Flanagan's Carrie",
+  "link": "https://arstechnica.com/culture/2026/09/prime-video-releases-full-trailer-for-mike-flanagans-carrie/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I'm on record expressing a certain amount of skepticism about Mike Flanagan's rebooted Carrie miniseries for Prime Video. We don’t need another disappointing remake , so what story is there left to tell—especially stretched out over six episodes? On the plus side, I'm a staunch fan of Flanagan's excellent Netflix horror fare, and he has a particular affinity for the works of Stephen King."
+  ]
+ },
+ "a9bc4c5f1f67fcb3": {
+  "feed": "Technica",
+  "title": "Google's AI genome system evaluates every possible one-base change",
+  "link": "https://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On Tuesday, Google announced AlphaGenome Atlas , a resource that attempts to predict the consequences of every possible single-base variant in the human genome. The human genome is about 3 billion bases long, so trying the other three DNA bases that don't appear in our reference genome means sending a total of 9 billion bases through AlphaGenome software."
+  ]
+ },
+ "014159943e4d9643": {
+  "feed": "OpenAI News",
+  "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+  "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 10, 2026 Applied AI How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules César de la Fuente and his lab probe the genomes of living and extinct organisms for molecules that could help fight drug-resistant infections."
+  ]
+ },
+ "4d4e7920d8a762a2": {
+  "feed": "OpenAI News",
+  "title": "Now everyone can put data to work",
+  "link": "https://openai.com/index/put-data-to-work",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Now everyone can put data to work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 10, 2026 Product Now everyone can put data to work Meet the new Data agent in ChatGPT Work: turn your company’s data into answers, interactive dashboards, and action, just by asking."
+  ]
+ },
+ "1ef5285e671d0ace": {
+  "feed": "OpenAI News",
+  "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+  "link": "https://openai.com/index/expanding-ai-access-us-government",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Expanding AI access and cyber defense for federal, state, local, and tribal governments | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 10, 2026 Global Affairs Expanding AI access and cyber defense for federal, state, local, and tribal governments A first-of-its-kind agreement will provide free access and 50% off usage for federal, state, local, and tribal governments, alongside expanded support and access for public-sector cyber defenders."
+  ]
+ },
+ "4e410dad70fb9298": {
+  "feed": "OpenAI News",
+  "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+  "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Build more natural voice experiences with GPT‑Live‑1 in the API | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 10, 2026 Product Release Build more natural voice experiences with GPT‑Live‑1 in the API GPT‑Live‑1 brings ChatGPT’s natural, full-duplex conversations to the API, with more control over how voice agents speak and act."
+  ]
+ },
+ "e723d856f72c8bdc": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "One resignation turned the embers of AI fear into a wildfire",
+  "link": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As AI became more powerful, it was inevitable that a different, growing group would start to take AI safety more seriously – what we did not know ahead of time, is which set of views they latched onto. We have seen that some of the most extreme views of risk, i.e. moderate probabilities of mass extinction, were the ones that reached the masses. A lot in the AI world is about to change due to this."
+  ]
+ },
+ "8bf1d6c25c72256b": {
+  "feed": "Jane Street Tech",
+  "title": "Can you design a chip? Announcing the protocol emulator ASIC competition",
+  "link": "https://blog.janestreet.com/protocol-emulator-asic-competition/",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - Can you design a chip? Announcing the protocol emulator ASIC competition Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team Can you design a chip?"
+  ]
+ },
+ "ce75e863051d6d88": {
+  "feed": "Railway Blog",
+  "title": "First-Class Databases on Railway",
+  "link": "https://blog.railway.com/p/first-class-databases-on-railway",
+  "date": "2026-09-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Will Raphaelson Most application data is stored in and retrieved from a database hosted somewhere on the cloud. And modern platforms have made it absurdly easy to get started: a couple of button clicks and any modern Platform as a Service (PaaS) or database Software as a Service (SaaS) tool will happily give you a connection string and send you on your way."
+  ]
+ },
+ "f1e60c0d3504af01": {
+  "feed": "Cloudflare Blog",
+  "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+  "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+  "date": "2026-09-10",
+  "tier": "must_read",
+  "why": "Classic Cloudflare deep-dive addressing the low-level networking hurdles of post-quantum cryptography at Internet scale.",
+  "points": [
+   "1.1.1.1 implemented validation for NIST's ML-DSA-44 post-quantum DNSSEC signatures.",
+   "Each ML-DSA-44 signature is 2,420 bytes, far exceeding typical DNS-over-UDP limits and triggering massive fragmentation and transport issues.",
+   "Explores operational mitigations against downgrade attacks when maintaining dual conventional and post-quantum signatures."
+  ]
  }
 }
