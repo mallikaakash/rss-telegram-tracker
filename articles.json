@@ -66409,5 +66409,60 @@
   "points": [
    "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared."
   ]
+ },
+ "3b9f4e29d785e0fb": {
+  "feed": "YC Hacker News",
+  "title": "The Waymo effect: how AI is quietly making research less collaborative",
+  "link": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Waymo effect: how AI is quietly making research less collaborative – Research Agenda Skip to content From the house of Thesis About Research Agenda The news service for UK research – original reporting, analysis and the Tuesday briefing, from the team behind Wonkhe. About us → Subscribe Free to read through December 2026 Paid subscriptions begin in January 2027."
+  ]
+ },
+ "09fcfd248f81abcc": {
+  "feed": "YC Hacker News",
+  "title": "RTK reports token savings, but our cost benchmarks disagree",
+  "link": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RTK reports huge token savings, but our cost benchmarks disagree - Quesma Blog Skip to main content Product Benchmarks Blog About us Token economics Talk to the founder Product Benchmarks Blog About us Token economics Talk to the founder RTK reports huge token savings, but our cost benchmarks disagree Bartosz Kotrys & Jacek Migdal · 11 September 2026 Open on another device Download PNG RTK (Rust Token Killer) filters and compresses terminal output before the AI agent reads it."
+  ]
+ },
+ "9e792b50e41bc474": {
+  "feed": "YC Hacker News",
+  "title": "Cherenkov Radiation - traveling faster than light",
+  "link": "http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "8e10c98735ba80c7": {
+  "feed": "YC Hacker News",
+  "title": "Claude is no longer available for minors",
+  "link": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Age assurance on Claude | Claude Help Center Skip to main content API docs Release notes How to get support English Français Deutsch Bahasa Indonesia Italiano 日本語 한국어 Português Pусский 简体中文 Español 繁體中文 English Search ⌘ K Claude Release notes Get started with Claude Get started with Claude What are some things I can use Claude for? Where can I access Claude?"
+  ]
+ },
+ "932ceeffeb160758": {
+  "feed": "YC Hacker News",
+  "title": "So you want to use OpenRouter?",
+  "link": "https://mmoustafa.com/blog/so-you-want-to-use-openrouter/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "So you want to use OpenRouter? â Mo Moustafa ← thoughts mmoustafa.com ð Engineering So you want to use OpenRouter? September 7, 2026 Might seem simple on the face of it, but unfortunately it's pain all the way down. I run Olly , an AI assistant that lives in iMessage, on open source models through OpenRouter . To date Olly's transacted over 18 million messages, roughly a third of those on open models via OpenRouter."
+  ]
  }
 }
