@@ -66464,5 +66464,246 @@
   "points": [
    "So you want to use OpenRouter? â Mo Moustafa ← thoughts mmoustafa.com ð Engineering So you want to use OpenRouter? September 7, 2026 Might seem simple on the face of it, but unfortunately it's pain all the way down. I run Olly , an AI assistant that lives in iMessage, on open source models through OpenRouter . To date Olly's transacted over 18 million messages, roughly a third of those on open models via OpenRouter."
   ]
+ },
+ "98d3cc9afed8e59d": {
+  "feed": "YC Hacker News",
+  "title": "Feeling Sad about AI",
+  "link": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Personal reflection essay on emotional responses to AI replacing software engineering, lacking technical depth.",
+  "points": [
+   "Discusses the psychological impact of AI automation on developer identity and the love of programming craft."
+  ]
+ },
+ "c4863f29fc2bb91a": {
+  "feed": "YC Hacker News",
+  "title": "Global Glacier Extinction Explorer",
+  "link": "https://glacierextinction.com",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Climate science data visualization tool unrelated to ML engineering, backend systems, or industrial optimization.",
+  "points": [
+   "Interactive tool mapping projected extinction timelines for individual global glaciers using climate models."
+  ]
+ },
+ "eb0dd229618918d2": {
+  "feed": "YC Hacker News",
+  "title": "If coding is solved, what now? Measuring the sloppiness of code",
+  "link": "https://earendil.com/posts/measuring-code-sloppiness/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "Addresses the real-world limitation of LLM code generation and the failure modes of LLM-as-a-judge for evaluation.",
+  "points": [
+   "Correctness via unit tests is easily gameable by LLMs, resulting in code bloat, poor abstractions, and slop.",
+   "LLM-as-a-judge performs essentially at random for nuanced code quality, suffering from naming-bias in A/B pairwise comparisons.",
+   "Highlights the lack of rigorous, scalable quantitative metrics for code maintainability and agent-generated outputs."
+  ]
+ },
+ "b7ccd404c732d245": {
+  "feed": "YC Hacker News",
+  "title": "Godot and Rust based multiplexer (terminal panes and more)",
+  "link": "https://github.com/godot-pty/gpty",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Open-source desktop terminal multiplexer tool written in Godot and Rust, not focused on backend infra or ML training.",
+  "points": [
+   "A Godot and Rust PTY foundation offering a tiling grid and JSON-RPC/MCP API for AI agents to interact with terminals without scraping TUIs."
+  ]
+ },
+ "bc5b11736bf48406": {
+  "feed": "YC Hacker News",
+  "title": "I've operated petabyte-scale ClickHouse clusters for 5 years",
+  "link": "https://www.tinybird.co/blog/what-i-learned-operating-clickhouse",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "A vendor blog landing page for Tinybird rather than a technical architectural deep-dive into ClickHouse operations.",
+  "points": [
+   "Marketing blurb advertising managed ClickHouse clusters, real-time ingestion, and sub-second SQL APIs."
+  ]
+ },
+ "499c7eee1e277f11": {
+  "feed": "Technica",
+  "title": "Claude users found ways around safeguards for bioweapons research",
+  "link": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "High-level tech journalism report on AI safety circumvention rather than actionable engineering or model architecture.",
+  "points": [
+   "Anthropic reported multiple instances of actors obfuscating queries to bypass Claude's biological weapon safeguards."
+  ]
+ },
+ "adc6888365e39206": {
+  "feed": "Technica",
+  "title": "ClickFix attacks infecting PCs and Macs are going viral",
+  "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "General cybersecurity news on social engineering techniques targeting end-users.",
+  "points": [
+   "ClickFix malware attacks trick users into running terminal commands disguised as CAPTCHA verifications."
+  ]
+ },
+ "e399e87723a0b87d": {
+  "feed": "Technica",
+  "title": "What happens when quantum mechanics and relativity meet?",
+  "link": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Popular science article on experimental quantum physics with no relevance to distributed systems or ML.",
+  "points": [
+   "Physicists used an atom interferometer with dual paths to test quantum wave behavior in free fall against general relativity."
+  ]
+ },
+ "93b35ee610e33ebb": {
+  "feed": "Technica",
+  "title": "Could United Launch Alliance's money problems finally force its owners to sell?",
+  "link": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell/",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Business analysis of the commercial aerospace and rocket launch market.",
+  "points": [
+   "Explores financial pressures on ULA compared to vertically integrated, reusable competitors like SpaceX and Rocket Lab."
+  ]
+ },
+ "685e0a836bb08267": {
+  "feed": "Technica",
+  "title": "Rocket Report: Europe joins the commercial launch club; a Ravn X sighting?",
+  "link": "https://arstechnica.com/space/2026/09/rocket-report-europe-joins-the-commercial-launch-club-a-ravn-x-sighting/",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Industry newsletter summarizing European commercial rocketry milestones.",
+  "points": [
+   "German startup Isar Aerospace became the first fully commercial European company to reach orbit with its Spectrum rocket."
+  ]
+ },
+ "ef405dc4e730f5f6": {
+  "feed": "Apple ML Research",
+  "title": "DiscoSign: Discourse-Aware Text to Sign Language Gloss Translation",
+  "link": "https://machinelearning.apple.com/research/discosign-gloss-translation",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Niche application paper focusing on sign language gloss translation rather than core LLM pretraining or serving infrastructure.",
+  "points": [
+   "Proposes DiscoSign to handle discourse phenomena like spatial coreference resolution in text-to-sign LLM pipelines."
+  ]
+ },
+ "9b095a0e3b225451": {
+  "feed": "Apple ML Research",
+  "title": "Putting Captions to the Test: Evaluating Video Caption Quality through Multiple-Choice Question Answering",
+  "link": "https://machinelearning.apple.com/research/video-caption-quality",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "Useful methodology on addressing the evaluation bottleneck for visual LLMs beyond surface lexical overlap.",
+  "points": [
+   "Highlights that traditional n-gram/text-matching caption metrics penalize valid alternative descriptions and visual focus shifts.",
+   "Proposes information fidelity evaluated via multiple-choice question answering to assess fine-grained caption quality."
+  ]
+ },
+ "374978d2e1da2ba8": {
+  "feed": "Apple ML Research",
+  "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+  "link": "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Structural biology and generative protein modeling paper outside your focus on industrial optimization and LLM systems.",
+  "points": [
+   "Introduces SimpleDesign, a joint model codesigning protein sequence and 3D structure without two-stage latent autoencoders."
+  ]
+ },
+ "c7d3c8aeae425678": {
+  "feed": "OpenAI News",
+  "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+  "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+  "date": "2026-09-11",
+  "tier": "must_read",
+  "why": "A premier distributed systems postmortem from OpenAI detailing how they scaled their application data tier to 70M RPS and 500PB.",
+  "points": [
+   "Habitat evolved from a simple Python client into a distributed data platform handling 70M requests/sec across 40 regions and 500+ PB.",
+   "Documents the pain points of Python asyncio event-loop delays at massive concurrency and the tactical migration path to Rust.",
+   "Details techniques for connection pooling, request shaping, tail-latency reduction in feature-flag configs, and Azure Cosmos DB optimization."
+  ]
+ },
+ "b0d276b218534cd3": {
+  "feed": "Together AI",
+  "title": "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+  "link": "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Standard cloud vendor feature announcement and marketing push for managed fine-tuning services.",
+  "points": [
+   "Together AI adds live training metrics, finer hyperparameter controls, and new open-source models like Gemma and Qwen to its API."
+  ]
+ },
+ "75ddcd67e5aa8556": {
+  "feed": "MIT News (AI)",
+  "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+  "link": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Government technology transfer award announcement for a military medical ultrasound device.",
+  "points": [
+   "MIT Lincoln Lab and MGH received an award for transferring AI-GUIDE vascular catheter placement technology to a commercial startup."
+  ]
+ },
+ "3149e64f7f8b62ea": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Open-Source AI & Open Models Reading List",
+  "link": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "Authoritative curated syllabus on open-weight LLMs, licensing nuances, and geopolitical dynamics by a leading post-training researcher.",
+  "points": [
+   "Synthesizes essential essays on why open models lag frontier closed models and the decline of open pretraining data commons.",
+   "Covers the competitive landscape and adoption patterns between US open initiatives and Chinese models (Kimi, GLM, DeepSeek).",
+   "Excellent high-level context for technical positioning, strategy, and understanding post-training ecosystems."
+  ]
+ },
+ "b8e61897c6ced1cd": {
+  "feed": "Simon Willison",
+  "title": "Quoting huggingface.co/security.txt",
+  "link": "https://simonwillison.net/2026/Sep/11/hugging-face-security/",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Trivial two-sentence social quote regarding a joke inside Hugging Face's security.txt file.",
+  "points": [
+   "Hugging Face added a humorous note in security.txt pointing automated security testing agents to the CyberGym benchmark."
+  ]
+ },
+ "68c9d57c259dc49b": {
+  "feed": "Simon Willison",
+  "title": "Soft-deprecating re.match()",
+  "link": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "Practical core Python backend update regarding a subtle, widely misunderstood regular expression standard library function.",
+  "points": [
+   "Python 3.15 soft-deprecates `re.match()` in favor of the explicitly named `re.prefixmatch()` to clarify start-of-string anchoring.",
+   "Recommends default use of `re.search()` or `re.fullmatch()` depending on exact matching requirements."
+  ]
+ },
+ "aea27ded894bca4f": {
+  "feed": "Simon Willison",
+  "title": "Don't sleep on wrapture",
+  "link": "https://simonwillison.net/2026/Sep/11/wrapture/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "Covers a powerful new Python observability and monkey-patching tool built by Graham Dumpleton for tracing and profiling backend services.",
+  "points": [
+   "Wrapture provides unified monkey patching for both unit test mocking and production-style latency tracing.",
+   "Supports zero-code instrumentation via TOML files across major Python async and sync frameworks (FastAPI, aiohttp, SQLAlchemy, gRPC).",
+   "Includes built-in call timeline capture, timing aggregation, and native OpenTelemetry trace export."
+  ]
+ },
+ "3e88a5acd1cc5b70": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing automatic remediation policies with Cloudflare CASB",
+  "link": "https://blog.cloudflare.com/casb-policies/",
+  "date": "2026-09-11",
+  "tier": "low_priority",
+  "why": "Enterprise SaaS security product feature release announcement with minimal distributed systems architecture value.",
+  "points": [
+   "Cloudflare CASB adds automated remediation policies and webhooks to revoke overshared files without manual security intervention."
+  ]
  }
 }
