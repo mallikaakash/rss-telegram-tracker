@@ -3801,5 +3801,47 @@
   "tier": "skip",
   "why": "Truncated generic GitHub architecture document for a standard multimodal medical RAG wrapper.",
   "points": []
+ },
+ "80c36dd2f9715f56": {
+  "url": "https://macaron.im/mindlab/research/serving-macaron-v1-at-scale-page-level-2d-kv-resharding",
+  "title": "Serving Macaron-V1 at Scale: Page-Level 2D KV Resharding",
+  "domain": "macaron.im",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-11",
+  "tier": "hidden_gem",
+  "why": "An exceptional engineering deep dive into a real production wall (long-context decode memory saturation) with a novel system architecture combining Prefill CP, Decode CP, and RDMA KV resharding.",
+  "points": [
+   "Solves long-context serving bottlenecks by introducing page-level 2D resharding during RDMA transfer between prefill and decode clusters.",
+   "Bridges the gap between prefill context parallelism (layer-split) and decode context parallelism (page-split) without moving whole sequences naively.",
+   "Addresses prefix divergence and collective communication safety across distributed ranks via size-broadcast and consensus prefixing."
+  ]
+ },
+ "e5beeff3d5b6d859": {
+  "url": "https://www.alphaxiv.org/abs/2607.19313",
+  "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-11",
+  "tier": "solid_find",
+  "why": "Presents a novel technical approach to solve RLVR's 'learning cliff' on hard reasoning tasks via off-context privileged rollouts corrected by importance sampling.",
+  "points": [
+   "Tackles the zero-gradient failure mode in GRPO when all rollouts in a group fail on difficult reasoning problems.",
+   "Introduces Off-Context GRPO (OC-GRPO), using privileged hints during rollouts combined with an importance-corrected objective to prevent distribution collapse.",
+   "Demonstrates a 3.8% absolute (13.7% relative) accuracy improvement across math reasoning benchmarks with minimal computational overhead."
+  ]
+ },
+ "802fc222ac929798": {
+  "url": "https://www.llms.blog/posts/cuda-graph-capture-in-production-llm-serving-dynamic-batch-bucketing-static-memory-pooling-and-kernel-launch-elimination",
+  "title": "CUDA Graph Capture in Production LLM Serving: Dynamic Batch Bucketing, Static Memory Pooling, and Kernel Launch Elimination — LLMs Blog",
+  "domain": "llms.blog",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-11",
+  "tier": "solid_find",
+  "why": "A solid, rigorous technical breakdown of CUDA Graph capture internals in modern LLM serving engines, though primarily synthesizing existing architecture from vLLM and SGLang.",
+  "points": [
+   "Explains how decode token generation hits CPU host-launch bottlenecks due to sub-millisecond kernel execution times.",
+   "Details practical strategies for static CUDA graph capture in dynamic workloads: discrete batch bucketing, static memory pooling, and in-place metadata mutation.",
+   "Analyzes how engines like vLLM, SGLang, and TRT-LLM maintain continuous batching within static graph execution limits."
+  ]
  }
 }
