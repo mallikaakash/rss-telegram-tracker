@@ -66266,5 +66266,148 @@
   "points": [
    "To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72! Webflow Analyze/Optimize tracking bridge --> 🚀 DeepSeek V4 Pro 0813 vs. GPT-5.6 Sol on DeepSWE → 📈 GLM-5.3 vs. GLM 5.3 Flash on DeepSWE → ⚡ On-demand B200s now available on Together GPU Clusters → 🚀 Now serving MiniMax-M3 for efficient inference → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Explore Top Open-Source Models Chat Image Code Vision Video Show all Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Explore Top Open-Source Models Chat Image Code Vision Video Show all Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voic"
   ]
+ },
+ "f536d02c0bf394d1": {
+  "feed": "YC Hacker News",
+  "title": "Astra for Coding: Why Are We Doing This Again?",
+  "link": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Astra for Coding: Why Are We Doing This Again? | Armin Ronacher's Thoughts and Writings Armin Ronacher 's Thoughts and Writings blog archive projects travel talks about Astra for Coding: Why Are We Doing This Again? written on September 07, 2026 I’m more and more convinced that all of AI engineering is Neijuan (内卷, meaning curl inwards). In China it describes a system that demands ever more effort and competition without improving output."
+  ]
+ },
+ "fe93b4954af2078b": {
+  "feed": "YC Hacker News",
+  "title": "Don't let anyone take away your big box of cables",
+  "link": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Don’t Let Anyone Take Away Your Big Box of Cables - Jim Nielsen’s Blog content where applicable --> Jim’s Blog Don’t Let Anyone Take Away Your Big Box of Cables 2026-09-09 Speaking of being on the internet and finding things that make you go, “Hey! It’s not just me!” I scrolled across this skeet from Tyler Gaw : I just dug to the bottom of my Big Box of Cables to find two cables that I needed for something."
+  ]
+ },
+ "4330d272b635ae49": {
+  "feed": "YC Hacker News",
+  "title": "The little holes in your bread are telling you something",
+  "link": "https://edconway.substack.com/p/the-little-holes-in-your-bread-are",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "cf1d2b81fef83b05": {
+  "feed": "YC Hacker News",
+  "title": "OpenAI Agents API",
+  "link": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Agents API | OpenAI API For the complete documentation index, see llms.txt . Markdown versions of documentation pages are available by appending .md to the page URL. ChatGPT Home API Codex Docs Guides, concepts, and product docs for Codex Use cases Example workflows and tasks teams can take on with ChatGPT or Codex Docs Use cases Training Resources ChatGPT Plugins Extend ChatGPT and Codex Workspace Agents Trigger published ChatGPT workspace agents Commerce Build commerce flows in ChatGPT Ads Publish and measure ads in ChatGPT Resources Showcase Demo apps to get inspired Blog Learnings and experiences from developers Cookbook Notebook examples for building with OpenAI models Learn Docs, videos, and demo apps for building with OpenAI Community Programs, meetups, and support for builders Start searching API Dashboard Try ChatGPT Overview Models Agents Tools Audio & voice Production API reference Search the API docs Search docs Suggested responses create reasoning_effort realtime prompt caching Primary navigation API Codex ChatGPT Docs Use cases Training Resources Resources Search docs Suggested responses create reasoning_effort realtime prompt caching Overview Models Agents Tools Audio & voice Production API reference Overview Models Agents Tools Audio & voice Production API reference Docs Agents Home Get started Quickstart Using GPT-6 Astra Key concepts Core concepts Responses API Conversation state Background mode Streaming WebSocket mode Mid-turn steering Multi-agent Webhooks File inputs Compaction Counting tokens SDKs and CLI OpenAI SDK OpenAI CLI Resources Changelog Deprecations Supported countries OpenAI Crawlers Terms and policies Legacy APIs Agent Builder Overview Migration guide Node reference Safety in building agents Evals Getting started Working with evals Prompt optimizer External models Best practices Graders Fine-tuning Optimization cycle Supervised fine-tuning Vision fine-tuning Direct preference optimization Reinforcement fine-tuning RFT use cases Best practices Assistants API Migration guide Model catalog Choose a model Pricing Model selection Text and code Text generation Code generation Structured output Prompting Overview Prompt engineering Citation formatting Migration guide Prompt generation Frontend prompting Reasoning Reasoning models Reasoning best practices Images and video Images and vision Image input cost calculator Image generation Overview Image prompting Video generation Realtime and audio Audio and speech Getting started Voice agents Specialized models Deep research Embeddings Moderation Overview Agents API Overview Quickstart Architecture Configuring Agents Sessions Run and continue sessions Events and items Manage sessions Webhooks Environments and sandboxes OpenAI-hosted sandboxes Self-hosted sandboxes Sandbox lifecycle Sandbox security Files and artifacts Tools and integrations Web search Functions MCP connections Plugins Vaults Multi-agent Observability and usage Tracing Agents SDK Overview Quickstart Agent definitions Models and providers Running agents Sandbox agents Orchestration Guardrails Results and state Integrations and observability Evaluate agent workflows ChatKit Overview Customize Widgets Actions Advanced integrations Overview Function calling Search and retrieval Web search File search Retrieval Connect tools and data MCP and Connectors Secure MCP Tunnel Build tool workflows Skills Tool search Programmatic tool calling Async tool calling Computer and code Shell Computer use Apply Patch Lo"
+  ]
+ },
+ "14a9ade9c7b7828d": {
+  "feed": "YC Hacker News",
+  "title": "Nine coding harnesses vs. your laptop",
+  "link": "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "f7d25b4f5a8b4f66": {
+  "feed": "Technica",
+  "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
+  "link": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fears that modern electronic devices may harm children are nothing new. Gadgets with screens of any size have long been allegedly melting, rotting, and/or corrupting the brains of youths for decades. However, a medical case report published this week offers a new and alarming way our digital doodads may cause physical harm. In BMJ Case Reports , two UK doctors, Mara Znagoveanu and Edward Artley, report the case of a boy who came to an emergency department with alarming marks on his abdomen."
+  ]
+ },
+ "8bbba81b854df9bf": {
+  "feed": "Technica",
+  "title": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions",
+  "link": "https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LinkedIn beat two lawsuits over its practice of scanning users’ browser extensions, with a judge granting the Microsoft subsidiary's motion to dismiss the cases. The users who sued LinkedIn failed to adequately allege that they have standing to sue because neither asserted that they \"had browser extensions installed that conveyed private information to LinkedIn,\" ruled Judge Vince Chhabria in US District Court for the Northern District of California."
+  ]
+ },
+ "5605ce270ce091a0": {
+  "feed": "Technica",
+  "title": "China’s drone supremacy shows in airlifting bodies and food after Nepal flood disaster",
+  "link": "https://arstechnica.com/gadgets/2026/09/drones-deliver-food-and-remove-bodies-after-nepals-flood-disaster/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chinese-made drones are flying out the bodies of flood victims and delivering food to survivors in the aftermath of devastating flash floods on the border of Nepal and China’s Tibetan region. Nepal’s army has been using four DJI FlyCart 100 drones donated from China to make 10 to 16 aid deliveries each day, according to Reuters . This comes after a partial glacier collapse in the Himalayan mountains unleashed a sudden surge of water, mud, and debris that swept through border crossings, valley communities, and hydropower projects on August 26."
+  ]
+ },
+ "edd61c31429065ea": {
+  "feed": "Google Research",
+  "title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+  "link": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\" Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "2b26a8066576cc98": {
+  "feed": "OpenAI News",
+  "title": "Introducing the Agents API",
+  "link": "https://openai.com/index/introducing-the-agents-api",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing the Agents API | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 10, 2026 Product API Introducing the Agents API Build and run cloud agents with the Codex harness, fully managed by OpenAI."
+  ]
+ },
+ "0bea6aa8e9e76678": {
+  "feed": "Simon Willison",
+  "title": "Datasette 1.0a39 and 0.65.4 security releases",
+  "link": "https://simonwillison.net/2026/Sep/11/datasette-security/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables."
+  ]
+ },
+ "346c4c630b23db4e": {
+  "feed": "Simon Willison",
+  "title": "Any Nix package, live in your browser",
+  "link": "https://simonwillison.net/2026/Sep/10/trynix/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with any Nix package from the past 13 years. They are URL addressable, so you can navigate to this page: https://trynix.dev/?pkg=python3%403.6.2 Then click \"Load\" and get an interactive shell against a virtual machine running Python 3.6.2 from 2017."
+  ]
+ },
+ "8548ae32b0a6f6f1": {
+  "feed": "Simon Willison",
+  "title": "Native is now the future of mobile at Shopify",
+  "link": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
+  "date": "2026-09-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared."
+  ]
  }
 }
