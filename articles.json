@@ -67003,5 +67003,82 @@
   "points": [
    "github-to-sqlite 2.9.1 updates compatibility for sqlite-utils 4.x."
   ]
+ },
+ "fd9115d2b8b36099": {
+  "feed": "YC Hacker News",
+  "title": "IKEA made a mod for Skyrim [video]",
+  "link": "https://www.youtube.com/watch?v=iZODN0QUgjI",
+  "date": "2026-09-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "b2e24dfd6d9603cf": {
+  "feed": "YC Hacker News",
+  "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+  "link": "https://eiln.github.io/posts/ane.html",
+  "date": "2026-09-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Retrospectively Reverse-Engineering Apple's Neural Engine | Eileen Yoon Eileen Yoon Home | About Retrospectively Reverse-Engineering Apple's Neural Engine Aug 10, 2026 (5089 words) I stopped working on the reverse-engineered Apple Neural Engine (ANE) driver three years ago, upon a sad mini realization that the ANE block is just not that useful, and I could be doing more useful things, and moved onto upstreaming other, more useful, blocks."
+  ]
+ },
+ "632170b228c19ed4": {
+  "feed": "YC Hacker News",
+  "title": "A Design Space Exploration of Async/Await",
+  "link": "https://cel.cs.brown.edu/blog/design-space-async-await/",
+  "date": "2026-09-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A Design Space Exploration of Async/Await Cognitive Engineering Lab A Design Space Exploration of Async/Await Gavin Gray · September 8, 2026 Many programming languages now provide the async / await keywords for expressing concurrency. The design rationale is pretty consistent: to make concurrent programs look more like straight-line code (see: Python , Rust , or Swift )."
+  ]
+ },
+ "7eab2231fff014b8": {
+  "feed": "YC Hacker News",
+  "title": "Inverse Kinematics and Foot Locking",
+  "link": "https://theorangeduck.com/page/inverse-kinematics-foot-locking",
+  "date": "2026-09-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Inverse Kinematics and Foot Locking Projects . Publications . Writing . About . Archive . Microblog . Github . RSS 0xf39c . 0x81a9 . 0x23ed . 0xd095 . 0x2ffe . 0xd19e . 0xc27f . 0x380d . 0x3ce6 Inverse Kinematics and Foot Locking 30/07/2026 One of my most requested blog posts has always been something on inverse kinematics and foot locking. That isn't surprising - foot sliding is something that affects almost all animation systems, and proper foot locking and inverse kinematics is something that is tricky to get right, yet can have a huge positive impact on the visual quality of the resulting animation."
+  ]
+ },
+ "0d759abbe1cbac34": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Bodily Oddities",
+  "link": "https://vester.si/bodily-oddities/",
+  "date": "2026-09-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Bodily Oddities: strange things the human body can (sometimes) do Skip to content Bodily Oddities Oddities Regions Kinds Tags About Bodily Oddities 143 Strange things bodies can (sometimes) do. Search oddities Results appear below as you type. It felt scary but it's normal Things you can try right now Did you know Ear rumbling Up to about half of all people can make a low roar inside their own head by tensing a tiny muscle in the middle ear."
+  ]
+ },
+ "7943eebc90e34740": {
+  "feed": "Simon Willison",
+  "title": "datasette 0.65.4",
+  "link": "https://simonwillison.net/2026/Sep/11/datasette/",
+  "date": "2026-09-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette 0.65.4 Simon Willison’s Weblog Subscribe Sponsored by: WorkOS — auth.md by WorkOS: agents register users, no sign-up form. Try it! 11th September 2026 Release datasette 0.65.4 — An open source multi-tool for exploring and publishing data See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Posted 11th September 2026 at 12:06 am Recent articles OpenAI agents attacked RubyGems back in May - 12th September 2026 Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026 The Pelican comparison grid for Astra is pretty interesting - 4th September 2026 This is a beat by Simon Willison, posted on 11th September 2026 ."
+  ]
+ },
+ "80c207384661fcc2": {
+  "feed": "Simon Willison",
+  "title": "datasette 1.0a39",
+  "link": "https://simonwillison.net/2026/Sep/11/datasette-2/",
+  "date": "2026-09-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette 1.0a39 Simon Willison’s Weblog Subscribe Sponsored by: WorkOS — auth.md by WorkOS: agents register users, no sign-up form. Try it! 11th September 2026 Release datasette 1.0a39 — An open source multi-tool for exploring and publishing data See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Posted 11th September 2026 at 12:05 am Recent articles OpenAI agents attacked RubyGems back in May - 12th September 2026 Some thoughts on the Navier–Stokes Millennium Prize Problem - 8th September 2026 The Pelican comparison grid for Astra is pretty interesting - 4th September 2026 This is a beat by Simon Willison, posted on 11th September 2026 ."
+  ]
  }
 }
