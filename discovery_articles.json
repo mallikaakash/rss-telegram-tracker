@@ -3843,5 +3843,25 @@
    "Details practical strategies for static CUDA graph capture in dynamic workloads: discrete batch bucketing, static memory pooling, and in-place metadata mutation.",
    "Analyzes how engines like vLLM, SGLang, and TRT-LLM maintain continuous batching within static graph execution limits."
   ]
+ },
+ "1089fc9526fa6994": {
+  "url": "https://magic.dev/blog/pretraining",
+  "title": ">10x More Efficient Pretraining — Magic",
+  "domain": "magic.dev",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-12",
+  "tier": "skip",
+  "why": "This is a corporate research teaser and marketing announcement that makes dramatic efficiency claims with scaling curves, but reveals no underlying architectural, algorithmic, or implementation details.",
+  "points": []
+ },
+ "66a5a7f5c1b5af6a": {
+  "url": "https://github.laiyagushi.com/ipconfiger/rectifiers",
+  "title": "GitHub - ipconfiger/rectifiers: Cache-aware routing and orchestration layer for multi-GPU LLM inference. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-12",
+  "tier": "skip",
+  "why": "The scraped page is just a repository file listing on a GitHub mirror that truncates before any README content, architecture docs, or code can be evaluated.",
+  "points": []
  }
 }
