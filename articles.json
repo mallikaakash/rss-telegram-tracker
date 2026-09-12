@@ -67146,5 +67146,62 @@
   "points": [
    "On a sunny morning in June, I walked to work with a quadruped robot beside me. I’ve never gotten more attention from strangers. A bunch of people snapped pictures of my robot dog. Several people asked me questions. Was it mine? (Yes.) Did I build it? (No.) Was it being used for surveillance? (No.) Biological dogs kept a safe distance from my mechanical companion."
   ]
+ },
+ "c63b548b05372ee5": {
+  "feed": "YC Hacker News",
+  "title": "Nvidia is the central bank of AI",
+  "link": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+  "date": "2026-09-12",
+  "tier": "low_priority",
+  "why": "The post has no content beyond the title and comment link, offering no actionable insight into ML infrastructure or models.",
+  "points": [
+   "Contains no text or analysis to evaluate."
+  ]
+ },
+ "fb7919de32923915": {
+  "feed": "YC Hacker News",
+  "title": "Will There Be a 7G?",
+  "link": "https://arxiv.org/abs/2609.01877",
+  "date": "2026-09-12",
+  "tier": "low_priority",
+  "why": "Focuses on academic telecommunications policy and mobile standards (6G/7G) rather than distributed ML systems or LLM architecture.",
+  "points": [
+   "Proposes a framework for evaluating whether post-6G networks require a distinct '7G' generation based on coordination and discontinuity needs."
+  ]
+ },
+ "15de64b60e84f44f": {
+  "feed": "YC Hacker News",
+  "title": "Make Your First Edit to OpenStreetMap in the Next 15 Minutes",
+  "link": "https://high5apps.github.io/josm-plugin-website-wizard/",
+  "date": "2026-09-12",
+  "tier": "low_priority",
+  "why": "A beginner tutorial for OpenStreetMap tagging that is completely unrelated to backend engineering, distributed systems, or ML.",
+  "points": [
+   "Provides a step-by-step guide on using JOSM and the WebsiteWizard plugin to add website metadata to OSM entries."
+  ]
+ },
+ "f4ecdb05b2bf851e": {
+  "feed": "YC Hacker News",
+  "title": "I refuse to let SPICE die",
+  "link": "https://github.com/nefarius/vd_agent/",
+  "date": "2026-09-12",
+  "tier": "low_priority",
+  "why": "Maintenance fork of a legacy desktop virtualization agent (SPICE) for Windows with negligible relevance to modern backend infra or ML.",
+  "points": [
+   "Community fork aimed at maintaining the abandoned freedesktop.org SPICE vd_agent for Windows guests."
+  ]
+ },
+ "287de84e5bcc258a": {
+  "feed": "YC Hacker News",
+  "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
+  "link": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
+  "date": "2026-09-12",
+  "tier": "worth_a_skim",
+  "why": "High-quality reverse-engineering deep-dive into floating-point hardware microcode, valuable for low-level numerical stability and systems understanding.",
+  "points": [
+   "Examines the Intel 8087 FSCALE instruction, which uses over 140 micro-instructions and three subroutine levels to handle edge cases.",
+   "Details the hardware datapath layout including a 16-bit exponent datapath, 64-bit significand datapath, and barrel shifter.",
+   "Illustrates the architectural origins of modern IEEE 754 numerical precision and corner-case handling in hardware."
+  ]
  }
 }
