@@ -67203,5 +67203,93 @@
    "Details the hardware datapath layout including a 16-bit exponent datapath, 64-bit significand datapath, and barrel shifter.",
    "Illustrates the architectural origins of modern IEEE 754 numerical precision and corner-case handling in hardware."
   ]
+ },
+ "942c4a03dcd9ffe1": {
+  "feed": "YC Hacker News",
+  "title": "The Interim Computer Museum",
+  "link": "https://icm.museum/",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Interim Computer Museum --> Welcome to ... The Interim Computer Museum About Events Collections Recollections Donate Join Visit Blog × Welcome to the Interim Computer Museum Online! The Interim Computer Museum (ICM) strives to preserve and share the history of computing through interactive exhibits using vintage hardware with modern enhancements. Our exhibits provide a hands-on experience that bridges the past and the present, allowing visitors to explore the evolution of computing technology."
+  ]
+ },
+ "ae1c0b143270a4ac": {
+  "feed": "YC Hacker News",
+  "title": "Why are AI agents lying, cheating and coordinating?",
+  "link": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why are AI agents lying, cheating and coordinating? | Yoshua Bengio Skip to main content Main navigation Research Blog Fr We use cookies to analyze the browsing and usage of our website and to personalize your experience. You can disable these technologies at any time, but this may limit certain functionalities of the site. Read our Privacy Policy for more information."
+  ]
+ },
+ "16316487dc98a6eb": {
+  "feed": "YC Hacker News",
+  "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+  "link": "https://withspecific.com/benchmarks/real-swe",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Real-SWE Benchmark — Specific Labs ← Benchmarks September 2026 Introducing Real-SWE By Snagnik Das · Siddhant Paliwal · Janak Sunil Benchmarking frontier AI models on private, real-world, enterprise codebases. Results Analysis Effort Setup . ;+;+;:;+;+;.# ; ; ; . . . . ; . + ; ; . . : @;;+;+# +;+;+;+;:;+:# : : ; . ; ; ; @;+;+.+;:;+;+* ; . . : ; . . : ; @++:;:;+.;;@ ;."
+  ]
+ },
+ "849d8ab6c68f5de7": {
+  "feed": "YC Hacker News",
+  "title": "I Made a Non-Wi-Fi Mitsubishi AC Smart with an ESP32",
+  "link": "https://medium.com/@ivangomezarnedo/how-i-added-a-non-wi-fi-mitsubishi-ac-to-home-assistant-22770661dd77",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Medium How I Added a Non-Wi-Fi Mitsubishi AC to Home Assistant | by Iván Gómez Arnedo | Sep, 2026 | Medium Sitemap Open in app Sign up Sign in Medium Logo Get app Write Search Sign up Sign in My current setup: What I wanted Options discarded The solution Hardware used How I did it How to configure the ESP32 CN105 pinout How to install it Home Assistant integration TLDR Iván Gómez Arnedo Pragmatic and curious Data Engineer."
+  ]
+ },
+ "8b9f5aa61e80399f": {
+  "feed": "YC Hacker News",
+  "title": "Apple iPod Engraver (2019)",
+  "link": "https://dunstanorchard.com/apple-ipod-engraver/",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple iPod engraver This is a home for the things that Dunstan makes Dec 12, 2019 Apple iPod engraver I spent 2004–2006 working at Apple as a UI engineer for their online store. Part of my job was to prototype concepts that would add some interactive sparkle to the site. One such project improved the “Personalize your iPod” page, where customers could submit two lines of text to be engraved on the back of the iPod they were ordering."
+  ]
+ },
+ "3f37b0a02f79eadd": {
+  "feed": "Simon Willison",
+  "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+  "link": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route: When I asked it how it had created the route, it replied: I used Nominatim to locate the address and Overpass to download local OpenStreetMap roads and trails , then calculated the loops locally."
+  ]
+ },
+ "86c07f5a755140f4": {
+  "feed": "Simon Willison",
+  "title": "California Brown Pelican",
+  "link": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sighting: California Brown Pelican Simon Willison’s Weblog Subscribe Sponsored by: WorkOS — auth.md by WorkOS: agents register users, no sign-up form. Try it! 12th September 2026 Sighting 2:16 PM — California Brown Pelican, in San Mateo County, CA, US California Brown Pelican California Brown Pelican The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe."
+  ]
+ },
+ "db19087c5b7011d2": {
+  "feed": "Simon Willison",
+  "title": "Quoting Paul Ford",
+  "link": "https://simonwillison.net/2026/Sep/12/paul-ford/",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail."
+  ]
  }
 }
