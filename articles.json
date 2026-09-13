@@ -67416,5 +67416,61 @@
   "points": [
    "Author reverse engineered an Egret GT e-scooter by sniffing CAN bus traffic routed over USB-C data pins using an ESP32 to rewrite firmware in Rust."
   ]
+ },
+ "ef9f4296e998275c": {
+  "feed": "YC Hacker News",
+  "title": "Why is Google still serving dodgy ads?",
+  "link": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+  "date": "2026-09-14",
+  "tier": "low_priority",
+  "why": "A casual critique of ad review policies using Gemini rather than a technical ML or infrastructure deep dive.",
+  "points": [
+   "Gemini successfully flagged deceptive ads mimicking iOS storage warnings across three distinct policy violations that human moderation missed."
+  ]
+ },
+ "978198e2ed46934e": {
+  "feed": "YC Hacker News",
+  "title": "Global Shortage Has Led to Motor Oil Rationing at Costco",
+  "link": "https://guessingheadlights.com/global-shortage-has-led-to-motor-oil-rationing-at-costco/",
+  "date": "2026-09-14",
+  "tier": "low_priority",
+  "why": "Consumer auto retail news with zero relevance to ML, backend systems, or industrial optimization.",
+  "points": [
+   "Costco introduced purchase rationing and sharp price hikes on synthetic motor oil due to refining supply constraints and complex modern lubricant specifications."
+  ]
+ },
+ "ed60bc70cf720c35": {
+  "feed": "YC Hacker News",
+  "title": "Data collected by cars and sold to third parties",
+  "link": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+  "date": "2026-09-14",
+  "tier": "low_priority",
+  "why": "Mainstream tech policy and automotive privacy reporting unrelated to the reader's technical engineering priorities.",
+  "points": [
+   "The FTC banned GM from selling driver telemetry data to insurance-focused data brokers like LexisNexis and Verisk."
+  ]
+ },
+ "003ff6da8e6d1b75": {
+  "feed": "YC Hacker News",
+  "title": "I'm being cyberattacked by Tesla, Inc",
+  "link": "https://dreamstation.systems/personal/tesla.html",
+  "date": "2026-09-14",
+  "tier": "worth_a_skim",
+  "why": "An entertaining backend log forensics piece analyzing anomalous automated exploit traffic hitting an nginx server.",
+  "points": [
+   "Server logs revealed persistent drive-by scanner traffic probing for Log4j JNDI vulnerabilities with Assetnote user agents.",
+   "Requests spoofed 'pool-ntp.tesla.com' headers and targeted callback domains, pointing to misdirected commercial attack surface monitoring."
+  ]
+ },
+ "694d353e39c93683": {
+  "feed": "YC Hacker News",
+  "title": "Sean Carroll explains the biggest ideas in the universe – Full Interview [video]",
+  "link": "https://www.youtube.com/watch?v=_TBNJyztai0",
+  "date": "2026-09-14",
+  "tier": "low_priority",
+  "why": "Off-topic theoretical physics interview with no engineering or ML content.",
+  "points": [
+   "General audience physics discussion covering fundamental universe concepts."
+  ]
  }
 }
