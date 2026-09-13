@@ -67357,5 +67357,64 @@
   "points": [
    "There is something wrong with the tractor. The water-in-fuel sensor, a small device embedded in the John Deere machine that monitors the integrity of its diesel engine, is disconnected. And I’ve got to fix it. I’m not a mechanic or a farmer. I’m poking at a laptop at John Deere’s corporate office in Santa Clara, California. There’s a cable connecting the computer to a 5130ML tractor sitting on the grass nearby."
   ]
+ },
+ "ed4dc19a3249738c": {
+  "feed": "YC Hacker News",
+  "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
+  "link": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
+  "date": "2026-09-13",
+  "tier": "low_priority",
+  "why": "The entry contains no substantial content or context beyond a vague alignment evals title.",
+  "points": [
+   "Mentions Astra and Fable hacking on simple alignment evaluation variants, but lacks article body or details."
+  ]
+ },
+ "15d32d01aaec65b4": {
+  "feed": "YC Hacker News",
+  "title": "CUDA for AMD on Windows",
+  "link": "https://github.com/Speedstu/CUDA-for-AMD-Windows",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "Relevant to GPU acceleration ecosystems and running CUDA workloads without NVIDIA hardware, though Windows-focused and early-stage.",
+  "points": [
+   "Open-source project using ZLUDA + AMD ROCm/HIP to run CUDA-targeted Windows binaries on AMD GPUs.",
+   "Currently validated exclusively on AMD Radeon RX 9060 XT (gfx1200), targeting compute and LibTorch workloads.",
+   "Highlights ongoing community efforts to bypass NVIDIA CUDA lock-in on consumer hardware."
+  ]
+ },
+ "a46b2e3bd17225ab": {
+  "feed": "YC Hacker News",
+  "title": "Why is the x86 undefined instruction called ud2? Why 2?",
+  "link": "https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689",
+  "date": "2026-09-13",
+  "tier": "worth_a_skim",
+  "why": "A classic systems engineering deep-dive by Raymond Chen illustrating instruction decoding history and Hyrum's Law.",
+  "points": [
+   "x86 instruction `ud2` is guaranteed to raise an invalid opcode exception, commonly used by compilers to trap unreachable code.",
+   "Historically, developers relied on ad-hoc byte sequences like `0F FF` or `0F B9` before Intel officially reserved an undefined instruction.",
+   "Serves as an architectural case study of Hyrum's Law, where implicit microcode quirks became unbreakable ABI dependencies."
+  ]
+ },
+ "70e87e9e9397f046": {
+  "feed": "YC Hacker News",
+  "title": "Cpak – OCI application package format for Linux desktops, servers and devices",
+  "link": "https://cpak.it/",
+  "date": "2026-09-13",
+  "tier": "low_priority",
+  "why": "Focuses on Linux desktop and consumer application packaging rather than server infrastructure or distributed systems.",
+  "points": [
+   "Cpak is an OCI-based application packaging format for Linux combining Dockerfile builds with daemonless runtime execution."
+  ]
+ },
+ "9562a83923732e17": {
+  "feed": "YC Hacker News",
+  "title": "Reverse engineering my e-scooter and rewriting the firmware in Rust",
+  "link": "https://bensimms.moe/reverse-engineering-scooter/",
+  "date": "2026-09-13",
+  "tier": "low_priority",
+  "why": "An embedded hardware and firmware hacking project, completely disconnected from LLM training, backend engineering, or industrial ML.",
+  "points": [
+   "Author reverse engineered an Egret GT e-scooter by sniffing CAN bus traffic routed over USB-C data pins using an ESP32 to rewrite firmware in Rust."
+  ]
  }
 }
