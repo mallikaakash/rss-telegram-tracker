@@ -67659,5 +67659,143 @@
   "points": [
    "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL Published September 10, 2026 Update on GitHub Upvote 18 +12 Amine Dirhoussi aminediroHF Follow Quentin Gallouédec qgallouedec Follow Kashif Rasul kashif Follow Sergio Paniego sergiopaniego Follow :last-child]:mb-0\"> The architecture: leveraging Hugging Face Jobs and Storage Buckets 🪣 The three Jobs The vLLM replicas The dataset choice: the Sanity set The trainer The proxy Routing rollouts by KV prefix Broadcasting the adapter Full run results Weight sync Routing Where the time goes Reward Chasing the bottleneck ping-pong Reading the dashboard r1-dp2</code>: a trainer that cannot keep up\"> Run 1, r1-dp2 : a trainer that cannot keep up r1-dp2-tb16k</code>: pack the microbatch\"> Run 2, r1-dp2-tb16k : pack the microbatch r1-dp2-tb16k-nockpt</code>: stop recomputing the forward\"> Run 3, r1-dp2-tb16k-nockpt : stop recomputing the forward r1-dp3-tb16k-nockpt</code>: three replicas, and a surprise\"> Run 4, r1-dp3-tb16k-nockpt : three replicas, and a surprise r1-dp3-inflight384</code>: lift the cap on in-flight requests\"> Run 5, r1-dp3-inflight384 : lift the cap on in-flight requests The scoreboard Try it References TL;DR AsyncGRPOTrainer can now train a LoRA adapter and sync only that adapter to vLLM (TRL v1.14)."
   ]
+ },
+ "310d4fd0496b542a": {
+  "feed": "YC Hacker News",
+  "title": "Pion, an agent designed to run any company autonomously",
+  "link": "https://andonlabs.com/blog/why-we-built-pion",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "Presents empirical observations on long-horizon agent planning and benchmark saturation from running autonomous business tasks.",
+  "points": [
+   "Vending-Bench evaluates multi-step LLM planning over thousands of steps, showing models prior to Claude Opus 4 looped or broke under long horizons.",
+   "Highlights the challenge of evaluating real-world agent autonomy beyond static sandboxes."
+  ]
+ },
+ "050c752fcd3f13e3": {
+  "feed": "YC Hacker News",
+  "title": "Distributed Systems Classics (2017)",
+  "link": "https://nvartolomei.com/dist-sys-classics/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "Curates seminal consensus and distributed systems papers essential for senior backend and infrastructure engineering fundamentals.",
+  "points": [
+   "Covers foundational distributed systems theory including Lamport clocks, FLP impossibility, Paxos, and Viewstamped Replication.",
+   "Includes essential practical consensus references like Raft and CRDTs for distributed storage systems."
+  ]
+ },
+ "ea38292b932e2de2": {
+  "feed": "YC Hacker News",
+  "title": "Steam Frame starts at $1059",
+  "link": "https://store.steampowered.com/hardware/steamframe",
+  "date": "2026-09-15",
+  "tier": "low_priority",
+  "why": "Off-topic consumer gaming hardware pricing page with no engineering or ML relevance.",
+  "points": [
+   "Valve store listing for the Steam Frame hardware starting at $1,059."
+  ]
+ },
+ "df1c0beb84f2c626": {
+  "feed": "YC Hacker News",
+  "title": "Why don't machine learning research agents overfit?",
+  "link": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+  "date": "2026-09-15",
+  "tier": "low_priority",
+  "why": "Scraped article text is truncated into website navigation boilerplate without the technical substance.",
+  "points": [
+   "Post lacks substantive article text on why ML research agents resist overfitting."
+  ]
+ },
+ "5ec9efd00c51ca06": {
+  "feed": "YC Hacker News",
+  "title": "A Beginning for Mathematics",
+  "link": "https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "Thoughtful perspective on how automated theorem proving and superhuman AI models will reshape rigorous technical disciplines.",
+  "points": [
+   "Argues AI is moving rapidly from basic arithmetic failure to solving major open mathematical questions.",
+   "Examines institutional risks where mathematical text generation decouples from human foundational understanding."
+  ]
+ },
+ "a2cc74dc8f3137fc": {
+  "feed": "Technica",
+  "title": "Prehistoric builders transported Devil's Arrows 11 miles",
+  "link": "https://arstechnica.com/science/2026/09/prehistoric-builders-transported-devils-arrows-11-miles/",
+  "date": "2026-09-15",
+  "tier": "low_priority",
+  "why": "Archaeology news completely irrelevant to ML, distributed systems, or backend engineering.",
+  "points": [
+   "Neolithic builders transported 25-ton monoliths 11 miles across Yorkshire."
+  ]
+ },
+ "e69e384e05ff41b3": {
+  "feed": "Technica",
+  "title": "Steam Frame: The Ars Technica review",
+  "link": "https://arstechnica.com/gaming/2026/09/steam-frame-the-ars-technica-review/",
+  "date": "2026-09-15",
+  "tier": "low_priority",
+  "why": "Consumer tech product review of a VR headset without systems or ML engineering insights.",
+  "points": [
+   "Review criticizes Valve's standalone Steam Frame headset as overengineered yet underbaked."
+  ]
+ },
+ "7bc5e1d475c16048": {
+  "feed": "Technica",
+  "title": "\"Offensively cheap\": Solar power is looking up",
+  "link": "https://arstechnica.com/gadgets/2026/09/offensively-cheap-solar-power-is-looking-up/",
+  "date": "2026-09-15",
+  "tier": "low_priority",
+  "why": "General renewable energy news unrelated to industrial process ML or software engineering.",
+  "points": [
+   "Pakistani cement manufacturer deploys solar arrays to cut plant operating costs."
+  ]
+ },
+ "bfd0a6ad9e30895f": {
+  "feed": "Technica",
+  "title": "New corners, new lights for 2028 Volvo XC40",
+  "link": "https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/",
+  "date": "2026-09-15",
+  "tier": "low_priority",
+  "why": "Automotive consumer facelift news with zero technical engineering relevance.",
+  "points": [
+   "Volvo introduces minor styling and lighting updates for the 2028 XC40."
+  ]
+ },
+ "7fef968f923866f7": {
+  "feed": "Technica",
+  "title": "F1 in Madrid: Like Monaco but twice as long and none of the glamour",
+  "link": "https://arstechnica.com/cars/2026/09/f1-in-madrid-like-monaco-but-twice-as-long-and-none-of-the-glamour/",
+  "date": "2026-09-15",
+  "tier": "low_priority",
+  "why": "Sports journalism covering Formula 1 racing.",
+  "points": [
+   "Recap of the Italian Grand Prix at Monza and track accessibility."
+  ]
+ },
+ "affb45ca605e0127": {
+  "feed": "Simon Willison",
+  "title": "Quoting Laurie Voss",
+  "link": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "Succinct career perspective on how LLMs shift software engineering value toward product definition and user empathy.",
+  "points": [
+   "Argues plummeting code generation and review costs shift primary engineering effort toward precise specification and UX.",
+   "Predicts unbounded demand for tailored software will convert general software roles into product engineering."
+  ]
+ },
+ "183a67e01c67d337": {
+  "feed": "Jane Street Tech",
+  "title": "A study of sequence weighting at scale",
+  "link": "https://blog.janestreet.com/a-study-of-sequence-weighting-at-scale/",
+  "date": "2026-09-15",
+  "tier": "must_read",
+  "why": "Directly impacts core pretraining and scaling priorities from Jane Street's world-class engineering team.",
+  "points": [
+   "Identifies non-monotonic scaling behavior when varying data sequence weights across small, medium, and large LMs.",
+   "Medium-scale models learn specific patterns proportional to weights, whereas large models learn all patterns regardless of assigned weighting.",
+   "Provides critical empirical intuition for data curriculum design and loss formulation in pretraining pipelines."
+  ]
  }
 }
