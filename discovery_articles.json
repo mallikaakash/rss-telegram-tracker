@@ -3863,5 +3863,45 @@
   "tier": "skip",
   "why": "The scraped page is just a repository file listing on a GitHub mirror that truncates before any README content, architecture docs, or code can be evaluated.",
   "points": []
+ },
+ "951ebe3ae97cb926": {
+  "url": "https://www.alphaxiv.org/abs/2607.27919",
+  "title": "Memory Decoder at Scale: A Pretrained, Parametric Long-Term Memory | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-14",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "512cccd2175baac1": {
+  "url": "https://frontiercheckpoint.com/explainers/distributed-training-fsdp-zero-parallelism/",
+  "title": "Sharding the Model: FSDP, ZeRO, and Tensor/Pipeline Parallelism · Frontier Checkpoint",
+  "domain": "frontiercheckpoint.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-14",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "18ada1a35e264610": {
+  "url": "https://arxiv.org/abs/2609.12303",
+  "title": "[2609.12303] Breaking the Token Ceiling: Distilling Smaller, Stronger Byte Models",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-14",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "b2c61459b876f4c8": {
+  "url": "https://moddogbot.com/blog/intel-arc-pro-b70-postmortem",
+  "title": "Six weeks with Intel's Arc Pro B70 in a production inference fleet — ModDog Blog",
+  "domain": "moddogbot.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-14",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
