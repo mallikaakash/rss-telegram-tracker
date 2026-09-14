@@ -67582,5 +67582,82 @@
   "points": [
    "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents."
   ]
+ },
+ "189862bbeb2f3ac5": {
+  "feed": "YC Hacker News",
+  "title": "People Who Can't Picture Anything Are Rewriting the Science of Imagination",
+  "link": "https://dailyneuron.com/aphantasia-mental-imagery-brain-network/",
+  "date": "2026-09-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "8ba9e44894271165": {
+  "feed": "YC Hacker News",
+  "title": "EuroBirdPortal – Live bird movements across Europe",
+  "link": "https://www.eurobirdportal.org/ebp/en/",
+  "date": "2026-09-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "EuroBirdPortal - Home --> --> --> --> --> --> Toggle navigation X Home Help About Partners Blog LIFE EBP reinforcement English български Босански català црногорски jeзик Čeština dansk Deutsch ελληνικά English eesti español euskara suomi français Gaeilge Galego עברית‎ hrvatski magyar Íslenska italiano Lietuvių latviešu Македонски Malti Nederlands norsk polski português română Русский язык Slovenčina Slovenščina Shqip Српски svenska Türkçe Українська × Species Northern Bobwhite Colinus virginianus L R California Quail Callipepla californica L R Quail Coturnix coturnix L R Rock Partridge Alectoris graeca L R Chukar Alectoris chukar L R Barbary Partridge Alectoris barbara L R Red-legged Partridge Alectoris rufa L R Erckel's Spurfowl Pternistis erckelii L R Black Francolin Francolinus francolinus L R Reeves's Pheasant Syrmaticus reevesii L R Pheasant Phasianus colchicus L R Grey Partridge Perdix perdix L R Wild Turkey Meleagris gallopavo L R Hazel Grouse Tetrastes bonasia L R Willow Grouse Lagopus lagopus L R Ptarmigan Lagopus muta L R Capercaillie Tetrao urogallus L R Black Grouse Lyrurus tetrix L R Ruddy Duck Oxyura jamaicensis L R White-headed Duck Oxyura leucocephala L R Black Swan Cygnus atratus L R Mute Swan Cygnus olor L R Whooper Swan Cygnus cygnus L R Bewick's Swan Cygnus columbianus L R Brent Goose Branta bernicla L R Barnacle Goose Branta leucopsis L R Red-breasted Goose Branta ruficollis L R Cackling Goose Branta hutchinsii L R Canada Goose Branta canadensis L R Bar-headed Goose Anser indicus L R Greylag Goose Anser anser L R Bean Goose Anser fabalis L R Pink-footed Goose Anser brachyrhynchus L R White-fronted Goose Anser albifrons L R Lesser White-fronted Goose Anser erythropus L R Long-tailed Duck Clangula hyemalis L R King Eider Somateria spectabilis L R Eider Somateria mollissima L R Steller's Eider Polysticta stelleri L R Surf Scoter Melanitta perspicillata L R Velvet Scoter Melanitta fusca L R Common Scoter Melanitta nigra L R Goldeneye Bucephala clangula L R Barrow's Goldeneye Bucephala islandica L R Smew Mergellus albellus L R Goosander Mergus merganser L R Red-breasted Merganser Mergus serrator L R Harlequin Duck Histrionicus histrionicus L R Egyptian Goose Alopochen aegyptiaca L R Shelduck Tadorna tadorna L R Ruddy Shelduck Tadorna ferruginea L R Muscovy Duck Cairina moschata L R Mandarin Duck Aix galericulata L R Marbled Duck Marmaronetta angustirostris L R Red-crested Pochard Netta rufina L R Pochard Aythya ferina L R Ferruginous Duck Aythya nyroca L R Ring-necked Duck Aythya collaris L R Tufted Duck Aythya fuligula L R Scaup Aythya marila L R Lesser Scaup Aythya affinis L R Garganey Spatula querquedula L R Shoveler Spatula clypeata L R Blue-winged Teal Spatula discors L R Gadwall Mareca strepera L R Wigeon Mareca penelope L R American Wigeon Mareca americana L R Mallard Anas platyrhynchos L R American Black Duck Anas rubripes L R Pintail Anas acuta L R Teal Anas crecca L R Green-winged Teal Anas carolinensis L R Little Grebe Tachybaptus ruficollis L R Red-necked Grebe Podiceps grisegena L R Great Crested Grebe Podiceps cristatus L R Slavonian Grebe Podiceps auritus L R Black-necked Grebe Podiceps nigricollis L R Greater Flamingo Phoenicopterus roseus L R Lesser Flamingo Phoeniconaias minor L R Red-billed Tropicbird Phaethon aethereus L R Rock Dove/Feral Pigeon Columba livia L R Stock Dove Columba oenas L R Woodpigeon Columba palumbus L R Trocaz Pigeon Columba trocaz L R Bolle's Pigeon Columba bollii L R Laurel Pigeon"
+  ]
+ },
+ "d23febd8527aea52": {
+  "feed": "YC Hacker News",
+  "title": "A 386 PC for Your RP2350",
+  "link": "https://github.com/rh1tech/frank-386",
+  "date": "2026-09-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - rh1tech/frank-386: Tiny386 port to RP2350 · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "64c789458148a50b": {
+  "feed": "YC Hacker News",
+  "title": "An atlas of periodic solutions to the three-body problem",
+  "link": "https://www.threebodyorbits.com/",
+  "date": "2026-09-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Three Body Orbits — 3,915 periodic three-body orbits, visualized Skip to content Three Body Orbits Atlas Families Battle Leaderboard About Personal orbit An atlas of periodic solutions to the three-body problem. The three-body problem has no general solution, but it has thousands of periodic orbits: three masses falling around each other and arriving, after one period, at precisely their starting positions and velocities."
+  ]
+ },
+ "f27fe1e95966e223": {
+  "feed": "YC Hacker News",
+  "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+  "link": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+  "date": "2026-09-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows - MacRumors Skip to Content Got a tip for us? Let us know a. Send us an email b. Anonymous form close Open Menu Front Page Roundups Show Roundups Guides How Tos Reviews Buyer's Guide Forums Forums Show Forums menu Login Register New Posts Visit Forums Visit Forums New Posts Login Register Visit Forums Alerts Direct messages Watched New Posts Visit Forums Open Sidebar iPhone Duo iPhone 18 Pro Mac mini Mac Studio iOS 27 iPadOS 27 macOS Golden Gate MacBook Neo iPhone 17e AirTag iPhone 18 iOS 26 iPhone 17 macOS Tahoe iPhone 17 Pro MacBook Pro iPadOS 26 iMac HomePod Apple TV iPad Pro iPhone Air Apple Vision Pro iPhone 16 AirPods 5 Apple Watch Ultra 4 HomePod mini MacBook Air iPad AirPods Max 2 AirPods Pro 3 Apple Deals Apple Watch 12 Apple Watch SE 3 Studio Display iPad Air iPad mini watchOS 27 CarPlay Apple Pay watchOS 26 All > Front Page Roundups Guides How Tos Reviews Buyer's Guide Upcoming Products Forums Archives Tips / Contact Us Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows Monday September 14, 2026 4:37 am PDT by Tim Hardwick Code sleuth \"pdfu\" has uncovered iOS 27 and macOS Golden Gate private frameworks that show Apple has designed its new Siri architecture to work with third-party AI models at what appears to be a surprisingly deep level."
+  ]
+ },
+ "296d33defd03a1b2": {
+  "feed": "OpenAI News",
+  "title": "How Fyxer built an AI executive assistant people trust",
+  "link": "https://openai.com/index/fyxer",
+  "date": "2026-09-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Fyxer built an AI executive assistant people trust | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI August 13, 2026 Startup How Fyxer built an AI executive assistant people trust Fyxer pairs OpenAI models with 500,000+ hours of EA workflows and real user feedback to draft replies in each person’s voice."
+  ]
+ },
+ "d4e55a9164f4783e": {
+  "feed": "Hugging Face Blog",
+  "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+  "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+  "date": "2026-09-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL Published September 10, 2026 Update on GitHub Upvote 18 +12 Amine Dirhoussi aminediroHF Follow Quentin Gallouédec qgallouedec Follow Kashif Rasul kashif Follow Sergio Paniego sergiopaniego Follow :last-child]:mb-0\"> The architecture: leveraging Hugging Face Jobs and Storage Buckets 🪣 The three Jobs The vLLM replicas The dataset choice: the Sanity set The trainer The proxy Routing rollouts by KV prefix Broadcasting the adapter Full run results Weight sync Routing Where the time goes Reward Chasing the bottleneck ping-pong Reading the dashboard r1-dp2</code>: a trainer that cannot keep up\"> Run 1, r1-dp2 : a trainer that cannot keep up r1-dp2-tb16k</code>: pack the microbatch\"> Run 2, r1-dp2-tb16k : pack the microbatch r1-dp2-tb16k-nockpt</code>: stop recomputing the forward\"> Run 3, r1-dp2-tb16k-nockpt : stop recomputing the forward r1-dp3-tb16k-nockpt</code>: three replicas, and a surprise\"> Run 4, r1-dp3-tb16k-nockpt : three replicas, and a surprise r1-dp3-inflight384</code>: lift the cap on in-flight requests\"> Run 5, r1-dp3-inflight384 : lift the cap on in-flight requests The scoreboard Try it References TL;DR AsyncGRPOTrainer can now train a LoRA adapter and sync only that adapter to vLLM (TRL v1.14)."
+  ]
  }
 }
