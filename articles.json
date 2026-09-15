@@ -67929,5 +67929,115 @@
   "points": [
    "My comment on What blog posts influenced your thinking the most? — Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks. A more recent one, from 2018, is Migrations: the sole scalable fix to tech debt by Will Larson."
   ]
+ },
+ "8410ab28b2f182cb": {
+  "feed": "YC Hacker News",
+  "title": "I can't stop thinking about Papua New Guinea",
+  "link": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "7a7e08b5d8345271": {
+  "feed": "YC Hacker News",
+  "title": "Suspected sabotage causes major Netherlands rail disruption",
+  "link": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Netherlands rail disruption due to suspected sabotage, operator says Skip to content Watch Live British Broadcasting Corporation Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Home News US & Canada UK UK Politics England N. Ireland N. Ireland Politics Scotland Scotland Politics Wales Wales Politics Africa Asia China India Australia Europe Latin America Middle East In Pictures BBC InDepth BBC Verify Sport Business World of Business Technology of Business NYSE Opening Bell Technology Watch Documentaries Artificial Intelligence Intelligence Revolution AI v the Mind Tech Now Health Watch Documentaries Culture Watch Documentaries Film & TV Music Art & Design Style Books Entertainment News Arts Watch Documentaries Arts in Motion Travel Watch Documentaries Destinations Africa Antarctica Asia Australia and Pacific Caribbean & Bermuda Central America Europe Middle East North America South America World’s Table Culture & Experiences Adventures The SpeciaList To the Ends of the Earth Earth Watch Documentaries Science Natural Wonders Climate Solutions Sustainable Business Green Living Audio Podcast Categories Radio Audio FAQs Video Watch Documentaries BBC Maestro Discover the World Live Live News Live Sport Documentaries Site search Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Documentaries Weather Newsletters Watch Live Suspected sabotage causes major Netherlands rail disruption 21 minutes ago Share Save Add as preferred on Google Amy Walker EPA Parts of the Netherlands, including Amsterdam, have been hit by major rail disruption after suspected sabotage to the tracks, the country's railway infrastructure operator has said."
+  ]
+ },
+ "fb23a63fdcf9b7eb": {
+  "feed": "YC Hacker News",
+  "title": "Alternatives to MinIO for single-node local S3",
+  "link": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Alternatives to MinIO for single-node local S3 rmoff's random ramblings Interesting Links Categories Search ⌘K RSS Home Categories Interesting Links Search RSS linkedin twitter bluesky youtube talks github Alternatives to MinIO for single-node local S3 14 Jan 2026 by · S3 , MinIO , Apache Iceberg at https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/ Table of Contents MinIO baseline MinIO alternatives S3Proxy RustFS SeaweedFS Zenko CloudServer Garage Apache Ozone Ceph Object Gateway Comparison Summary Addendum S3 MinIO Apache Iceberg In late 2025 the company behind MinIO decided to abandon it to pursue other commercial interests."
+  ]
+ },
+ "174f77d925684310": {
+  "feed": "YC Hacker News",
+  "title": "CSS-Tricks in Limbo",
+  "link": "https://vale.rocks/micros/20260915-0135",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "CSS-Tricks in Limbo - 15 Sept 2026 01:35 UTC | Vale.Rocks Skip to content , footer Open document overview Vale Search Open navigation Posts Portfolio Micros Photography Videos Elsewhere Firehose Library Links Contact Close navigation Micros 15 Sept 2026, 01:35 - CSS-Tricks in Limbo ActivityPub Bluesky ActivityPub View on the Fediverse Bluesky View on Bluesky I’m sad to say that CSS -Tricks is stuck in limbo again."
+  ]
+ },
+ "d7845e38c4255ad2": {
+  "feed": "YC Hacker News",
+  "title": "25 Years of Mass Surveillance Is Enough",
+  "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "25 Years of Mass Surveillance Is Enough - Schneier on Security Schneier on Security Menu Blog Newsletter Books Essays News Talks Academic About Me Search Powered by DuckDuckGo Blog Essays Whole site Subscribe Home Blog 25 Years of Mass Surveillance Is Enough This essay was written with Cindy Cohn, and originally appeared in Lawfare . One of the many legacies of the terrorist attacks of Sept."
+  ]
+ },
+ "1e67ea309e5934e5": {
+  "feed": "Technica",
+  "title": "Volvo increases the batteries for 2028 XC60 and XC90 plug-in refresh",
+  "link": "https://arstechnica.com/cars/2026/09/volvo-bigs-up-the-batteries-for-2028-xc60-and-xc90-plug-in-refresh/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Volvo provided flights from Washington, DC, to London, England, and accommodation so Ars could see its refreshed vehicles. Ars does not accept paid editorial content. There must be a case of upgrade fever taking hold in Gothenburg. Yesterday, we saw the revised Volvo XC40 ; today it’s the turn of another pair of Volvo SUVs, the bestselling XC60 and the three-row XC90."
+  ]
+ },
+ "9f9bcb95fb907dbd": {
+  "feed": "Technica",
+  "title": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
+  "link": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "China leads the world in churning out humanoid robots and four-legged robot dogs that also happen to be the most affordable on the market—and Unitree Robotics’ founder Wang Xingxing is arguably one of the people most responsible for that Chinese lead. The introverted founder, who prominently appeared at a 2025 business symposium hosted by Chinese President Xi Jinping, became phenomenally wealthy after Unitree launched an initial public offering on the Shanghai Stock Exchange STAR Market on August 19."
+  ]
+ },
+ "1ae9b9badf470914": {
+  "feed": "Technica",
+  "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
+  "link": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As previously announced, Apple has today released 2026's major annual updates for its operating systems, including iOS 27, macOS 27 Golden Gate, watchOS 27, visionOS 27, and tvOS 27. Siri AI—a large language model-based and context-aware overhaul of the company's Siri voice and text assistant—is the flagship feature across all these releases except one (tvOS)."
+  ]
+ },
+ "0ae42235b746e806": {
+  "feed": "Technica",
+  "title": "AI leaders want to hit the brakes after years of reckless speed",
+  "link": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For years now, the major frontier AI labs have all been acting as if they're in an all-out, winner-take-all race with control of world-changing machine superintelligence (or at least market-changing artificial general intelligence ) at the finish line. This weekend, the industry as a whole rapidly started turning away from that posture, urging coordination on slowing down the development of frontier AI that they say could soon be too dangerous and unknowable to control."
+  ]
+ },
+ "f7be9f051dbc45b0": {
+  "feed": "Technica",
+  "title": "Online hate researcher keeps hammering X despite deportation threat",
+  "link": "https://arstechnica.com/tech-policy/2026/09/online-hate-researcher-keeps-hammering-x-despite-deportation-threat/",
+  "date": "2026-09-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The US is not backing down from its fight to deport noncitizen technology researchers who monitor safety risks on the biggest online platforms. In July, a judge blocked as unconstitutional an immigration policy that the US relied on to weigh whether to detain and deport people who flag illegal or harmful online content as national security risks. In his announcement of the policy, Secretary of State Marco Rubio explained that by targeting a list of researchers—which he stood “ready and willing” to expand—the policy supposedly served to prevent foreign nationals from manipulating digital town squares and censoring Americans."
+  ]
  }
 }
