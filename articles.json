@@ -68211,5 +68211,145 @@
   "points": [
    "Marketing teaser from Stripe concerning fraud patterns at AI startups, containing only navigation boilerplate."
   ]
+ },
+ "642a1494ec3f8e04": {
+  "feed": "YC Hacker News",
+  "title": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
+  "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "Introduces a non-autoregressive, parallel-sampling model architecture trained via RL for calibrated structured outputs rather than token generation.",
+  "points": [
+   "Abandons sequential string generation for parallel sampling of typed structured values, eliminating type errors and hallucinations.",
+   "Trained with Reinforcement Learning for Calibrated Decisions (RLCD) to provide well-calibrated confidence scores.",
+   "Claims dramatic cost ($0.042/MTok input, free outputs) and latency reductions compared to standard autoregressive frontier models."
+  ]
+ },
+ "bf9170b14f20c405": {
+  "feed": "YC Hacker News",
+  "title": "An Update on Wayback Machine Access",
+  "link": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+  "date": "2026-09-16",
+  "tier": "low_priority",
+  "why": "A brief administrative status update regarding Wayback Machine rate limiting and bot mitigation.",
+  "points": [
+   "Explains recent 429 HTTP errors caused by bot-blocking heuristics misidentifying legitimate traffic."
+  ]
+ },
+ "685a03460968997d": {
+  "feed": "YC Hacker News",
+  "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+  "link": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "An informative security post-mortem detailing how an exposed container registry compromised a major ML inference provider's infrastructure.",
+  "points": [
+   "Autonomous pentest tool Strix discovered an unauthenticated public Harbor container registry project at Baseten.",
+   "Extracted an active 3-year-old GitHub bot token from an image blob granting repo-level admin rights across Baseten's core repositories.",
+   "Demonstrates the operational security risk of dangling internal container registries in ML infra stacks."
+  ]
+ },
+ "25434a8963f79e4f": {
+  "feed": "YC Hacker News",
+  "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+  "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+  "date": "2026-09-16",
+  "tier": "low_priority",
+  "why": "High-level consumer product launch announcement for Gemini voice features lacking underlying architecture or training details.",
+  "points": [
+   "Announces Gemini 3.8 Live and Extended Thinking with voice interaction and parallel reasoning capabilities."
+  ]
+ },
+ "ea512514c53ccd62": {
+  "feed": "YC Hacker News",
+  "title": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
+  "link": "https://github.com/GraafHenk/numberwang",
+  "date": "2026-09-16",
+  "tier": "low_priority",
+  "why": "A humorous 1.8 MB toy project without practical machine learning or engineering relevance.",
+  "points": [
+   "A 100-line dependency-free Python implementation of a joke Numberwang classifier."
+  ]
+ },
+ "b948f185a799ebba": {
+  "feed": "Technica",
+  "title": "18-year-old dies of measles in PA from severe neurological complication",
+  "link": "https://arstechnica.com/health/2026/09/measles-kills-18-year-old-in-pa-fourth-death-as-state-outbreak-nears-700-cases/",
+  "date": "2026-09-16",
+  "tier": "low_priority",
+  "why": "Regional public health reporting unrelated to engineering or ML.",
+  "points": [
+   "Reports on measles fatalities resulting from acute disseminated encephalomyelitis in Pennsylvania."
+  ]
+ },
+ "75a28c3dcafa1e78": {
+  "feed": "Technica",
+  "title": "SpaceX declares Starship ready for orbit, sets launch date next week",
+  "link": "https://arstechnica.com/space/2026/09/spacex-sets-launch-date-for-first-starship-orbital-flight/",
+  "date": "2026-09-16",
+  "tier": "low_priority",
+  "why": "Aerospace industry news with no engineering overlap with your focus areas.",
+  "points": [
+   "SpaceX scheduled an orbital test attempt for Starship carrying V3 Starlink payloads."
+  ]
+ },
+ "f557dac5230fe02d": {
+  "feed": "Technica",
+  "title": "Agility’s new humanoid robot will stop, squat to avoid harming human coworkers",
+  "link": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/",
+  "date": "2026-09-16",
+  "tier": "low_priority",
+  "why": "Consumer-level robotics product announcement lacking mechanical or ML control implementation depth.",
+  "points": [
+   "Agility Robotics introduces safety mitigation motions, like stopping or squatting, to work around human warehouse personnel."
+  ]
+ },
+ "74370992a1065cee": {
+  "feed": "Technica",
+  "title": "Boston dumps Flock, says it shared data nationwide in violation of contract",
+  "link": "https://arstechnica.com/tech-policy/2026/09/boston-dumps-flock-says-it-shared-data-nationwide-in-violation-of-contract/",
+  "date": "2026-09-16",
+  "tier": "low_priority",
+  "why": "Municipal procurement and data privacy news regarding automated license plate readers.",
+  "points": [
+   "City of Boston terminated its pilot with Flock Safety following unauthorized cross-jurisdiction data sharing."
+  ]
+ },
+ "32d1440d741e18d5": {
+  "feed": "Technica",
+  "title": "Demand for EV chargers is outstripping supply, says ChargePoint report",
+  "link": "https://arstechnica.com/cars/2026/09/ev-charging-infrastructure-is-still-lagging-adoption-report-says/",
+  "date": "2026-09-16",
+  "tier": "low_priority",
+  "why": "Commercial EV market analysis report with no relevance to backend systems or ML.",
+  "points": [
+   "ChargePoint claims commercial demand for EV charging installations is outpacing current electrical infrastructure buildouts."
+  ]
+ },
+ "e0b2eaa994e7e730": {
+  "feed": "Google Research",
+  "title": "Bypassing inference bottlenecks: Accelerating complex AI search with Retrieve-for-Train",
+  "link": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train/",
+  "date": "2026-09-16",
+  "tier": "must_read",
+  "why": "Directly tackles the trade-off between expensive inference-time reasoning compute and training-time RL for complex search tasks.",
+  "points": [
+   "Proposes Retrieve-for-Train to frontload computation by training a lightweight model with RL instead of executing long inference reasoning chains.",
+   "Mitigates serving latency and cost bottlenecks common in complex multi-step search and retrieval-augmented reasoning.",
+   "Offers a concrete architectural alternative to standard test-time scaling for agentic search workflows."
+  ]
+ },
+ "4406657fe2f3aaec": {
+  "feed": "Modal Blog",
+  "title": "Product updates: Sandbox Sidecars, new models, a refreshed dashboard, and more",
+  "link": "https://modal.com/blog/product-updates-sidecars-models-dashboard",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "Provides concrete operational details on serving massive open MoE models using vLLM, SGLang, and speculative decoding.",
+  "points": [
+   "Modal deployed day-zero serving for trillion-parameter MoE models including Kimi K3 (2.8T) and Qwen 3.8 (2.4T-A95B).",
+   "Custom DFlash speculative decoding integrated into vLLM/SGLang achieves up to 460 tokens/second on agentic tasks.",
+   "Introduced container Sandbox Sidecars and reduced broad-region compute multipliers down to 1.15x."
+  ]
  }
 }
