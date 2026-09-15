@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Tue 15 Sep 2026, 23:17 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Tue 15 Sep 2026, 23:17 IST &middot; 15 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; IBM&#x27;s agent consistency study exposes major multi-run reliability gaps and fixes them via trajectory resampling, while Mozilla reports open models lag closed frontiers by only four months.</div><div class="section">Must read &middot; 1</div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/ibm-research/altk-evolve-consistency">Your Agent Aced the Task. Will It Do It Again?</a></h2><div class="why">A rigorous technical investigation into agentic LLM reliability, defining critical multi-run evaluation metrics and inference-time consistency fixes.</div><ul><li>Identifies a 24.4-point consistency gap on AppWorld where an agent with 77.4% average accuracy achieves 5-run success on only 53.0% of tasks.</li><li>Consistency Analyzer resamples single trajectories with k completions per decision point to isolate high-variance, flip-prone steps without running full tasks.</li><li>Deriving consistency guidelines from diagnosed points halves the consistency gap from 24.4pp to 12.0pp without degrading average task accuracy.</li></ul></div><div class="section">Worth a skim &middot; 4</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/">Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost</a></h2><div class="why">Provides concrete cost-performance benchmark data comparing open-weight LLMs against closed frontier models for architectural decision-making.</div><ul><li>Mozilla report finds the performance gap between frontier closed models and open Chinese models has compressed to 4.4 months.</li><li>Moonshot AI&#x27;s Kimi K3 scores within 3 points of Anthropic&#x27;s closed model on the Artificial Analysis Index at 30% of the cost.</li><li>Closed models remain justifiable primarily for high-intensity retrieval, long context, and specialized expert workloads.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Google DeepMind</span><h2><a href="https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/">Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</a></h2><div class="why">Major model release announcement covering live voice dialogue and parallel extended thinking capabilities, though technical architecture details are thin.</div><ul><li>Introduces Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking for real-time voice tasks.</li><li>Upgrades focus on parallel reasoning and conversational latency during complex voice interactions.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/">Have it both ways: stay discoverable in search while disallowing AI training</a></h2><div class="why">Directly affects ML web crawler data pipelines and shows how major web infra separates discovery indexing from training data ingestion.</div><ul><li>Cloudflare introduces controls allowing sites to remain indexed in search while disallowing crawling for AI pretraining.</li><li>Major operators including Apple, Google, and Microsoft agreed to respect opt-out requirements and crawler attribution.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/workers-granular-authorization/">Give every teammate and agent the right level of access to your Workers</a></h2><div class="why">Engineering deep-dive on applying least-privilege RBAC to serverless workers and autonomous AI agents from Cloudflare&#x27;s infra team.</div><ul><li>Introduces 4 granular roles (Metadata Read-Only, Content Read-Only, Edit, Admin) scoped at platform, product, or individual Worker levels.</li><li>Enables provisioning scoped API tokens so debugging agents can read metrics, traces, and logs without viewing source code.</li></ul></div><div class="section">Low priority &middot; 10</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://github.com/arnegiacomo/fugleramme">Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations</a></h2><div class="why">A niche hobbyist hardware project running edge audio classification on Raspberry Pi with no backend or distributed systems depth.</div><ul><li>Runs local audio bird classification on Raspberry Pi outputting vintage illustrations to an e-ink display.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://dallincrump.com/dystopian-surveillance-is-becoming-a-reality">Dystopian Surveillance Is Becoming a Reality</a></h2><div class="why">A non-technical consumer privacy opinion piece regarding wearable audio recording features.</div><ul><li>Argues always-on audio features in smart wearables pose serious public surveillance and consent issues.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://withcapsule.app/">Show HN: Capsule – Single-file web apps that save their data into SQLite</a></h2><div class="why">A showcase of a local single-file app generator using SQLite, lacking deep distributed systems or MLOps relevance.</div><ul><li>Bundles HTML/CSS UI and SQLite data into single portable .capsule files with AI prompt modification support.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://bkovac.github.io/modem-thing/">Show HN: Hacking a $20 4G wireless hotspot into a texting device</a></h2><div class="why">Hardware modification hobby post focused on reflashing cheap modem firmware rather than scalable backend systems.</div><ul><li>Flashes Linux onto a $20 4G hotspot using OpenStick and pairs it with an external keyboard and display.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/">There&#x27;s a 100% Chance AI Agents Are Ruining the Internet</a></h2><div class="why">General commentary on spammy AI agents on the internet without technical architecture or systems engineering details.</div><ul><li>Describes instances of autonomous AI agents spamming email and internet forums after failing to generate revenue.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/09/epa-seeks-to-eliminate-remaining-greenhouse-gas-rules-for-power-plants/">Trump EPA moves to wipe out climate rules for power plants</a></h2><div class="why">General political and environmental regulatory news completely unrelated to ML engineering or systems infrastructure.</div><ul><li>EPA revoked Biden-era carbon pollution standards targeting greenhouse gas emissions from power plants.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/cars/2026/09/gm-gives-its-most-important-trucks-a-new-ui-and-includes-carplay/">GM gives its most important trucks a new UI—and includes CarPlay</a></h2><div class="why">Consumer automotive infotainment announcement with zero relevance to backend systems or machine learning.</div><ul><li>GM revealed a minimalist UI update retaining CarPlay for upcoming 2027 Silverado and Sierra trucks.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/09/this-is-by-far-the-most-peaceful-atlantic-hurricane-season-weve-ever-seen/">This Atlantic hurricane season is about to do something that hasn&#x27;t happened in 175 years</a></h2><div class="why">Meteorological reporting on hurricane season dynamics irrelevant to the reader&#x27;s engineering work.</div><ul><li>Unusual atmospheric wind shear and Saharan dust suppressed peak Atlantic hurricane activity in mid-September.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/09/a-new-solar-cell-could-generate-electricity-underwater/">A new solar cell could generate electricity underwater</a></h2><div class="why">Materials science discovery on perovskite solar cells without software, systems, or process optimization angles.</div><ul><li>Researchers tuned perovskite solar cells to underwater light wavelengths to generate electricity in submerged environments.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Stripe Blog</span><h2><a href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups">What Stripe data shows about fraud at AI startups</a></h2><div class="why">Empty marketing landing page snippet containing no usable data or architecture insights.</div><ul><li>Marketing teaser from Stripe concerning fraud patterns at AI startups, containing only navigation boilerplate.</li></ul></div></body></html>
