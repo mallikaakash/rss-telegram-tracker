@@ -68692,5 +68692,126 @@
   "points": [
    "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder."
   ]
+ },
+ "9741c847e95d54a1": {
+  "feed": "YC Hacker News",
+  "title": "Vectorized and performance-portable Quicksort (2022)",
+  "link": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "1 Vectorized and performance-portable Quicksort | Google Open Source Blog You are using an outdated browser. Please upgrade your browser to improve your experience. opensource.google.com Menu Events Projects Programs and services Documentation About Blog Google Open Source Blog The latest news from Google on open source releases, major projects, events, and outreach programs for early career developers."
+  ]
+ },
+ "2a70d59635a98d40": {
+  "feed": "YC Hacker News",
+  "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+  "link": "https://rohanbansal.com/qorl",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Training a 4B model to produce 81% faster query plans than Postgres - Rohan Bansal rohan bansal Skip to article Training a 4B model to produce 81% faster query plans than Postgres ...or how to make Qwen learn query optimization via agentic reinforcement learning September 16, 2026 A reinforcement-learning policy update Four RL rollouts commence for a single query."
+  ]
+ },
+ "5780eb88ac795794": {
+  "feed": "YC Hacker News",
+  "title": "Accurate Models of AMD Matrix Cores",
+  "link": "https://arxiv.org/abs/2609.14845",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2609.14845] Accurate Models of AMD Matrix Cores Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Hardware Architecture arXiv:2609.14845 (cs) [Submitted on 13 Sep 2026 ( v1 ), last revised 15 Sep 2026 (this version, v2)] Title: Accurate Models of AMD Matrix Cores Authors: Faizan A Khattak , Mantas Mikaitis , Carlo J."
+  ]
+ },
+ "dc91b08fc5faa544": {
+  "feed": "YC Hacker News",
+  "title": "How good are frontier models at physics?",
+  "link": "https://arxiv.org/abs/2609.13009",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2609.13009] How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Artificial Intelligence arXiv:2609.13009 (cs) [Submitted on 11 Sep 2026] Title: How Good Are Frontier Models at Physics?"
+  ]
+ },
+ "33ba1a7a100c0ecd": {
+  "feed": "YC Hacker News",
+  "title": "The Siberian Ice Maiden and the Scythian World",
+  "link": "https://patrickwyman.substack.com/p/the-siberian-ice-maiden-and-the-scythian",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "4e08e8bed0ca1288": {
+  "feed": "Technica",
+  "title": "It’s OK to tell ICE their actions will haunt them, judge rules in speech fight",
+  "link": "https://arstechnica.com/tech-policy/2026/09/its-ok-to-tell-ice-their-actions-will-haunt-them-judge-rules-in-speech-fight/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It’s not illegal to send an email telling Immigration and Customs Enforcement (ICE) officials that their actions will haunt them, a federal judge ruled Tuesday, granting a preliminary injunction that blocks ICE from threatening to prosecute a critic for protected speech. Back in January, David Streever sent a scathing three-paragraph email to then-acting director of ICE, Todd Lyons."
+  ]
+ },
+ "5604e23691ab88c4": {
+  "feed": "Technica",
+  "title": "Iran strikes on Amazon data centers caused permanent loss of customer data",
+  "link": "https://arstechnica.com/gadgets/2026/09/iran-strikes-on-amazon-data-centers-caused-permanent-loss-of-customer-data/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Half a year after Iranian drone strikes knocked out multiple Amazon data centers, the US tech company has acknowledged the permanent loss of some customer data that was hosted in Bahrain and the United Arab Emirates. Amazon Web Services was “unable to restore access to the resources and data” hosted in some of the war-damaged data centers, according to an AWS dashboard update posted on September 15."
+  ]
+ },
+ "c2525a6656a822b7": {
+  "feed": "Apple ML Research",
+  "title": "Glyph: A Multi-Strategy Agentic System for Column Description and Sensitivity-Ontology Tagging of Enterprise Data Catalogs",
+  "link": "https://machinelearning.apple.com/research/glyph-column-description-tagging",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Enterprise data lakes accumulate tables faster than human stewards can document or classify them, leaving columns with missing descriptions and unassigned governance labels. This documentation debt undermines data discovery, access control, and regulatory compliance. We present Glyph, a production system that frames two coupled problems, column description generation and column type annotation for data classification, as cooperating LLM agents orchestrated as stateful graphs."
+  ]
+ },
+ "5f7e182a53f2403b": {
+  "feed": "OpenAI News",
+  "title": "How to connect AI usage to business value",
+  "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How to connect AI usage to business value | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 16, 2026 Product How to connect AI usage to business value Understand how teams use ChatGPT Work and Codex, see the work behind the spend, and connect it to measurable outcomes."
+  ]
+ },
+ "d86c6da463d50815": {
+  "feed": "Simon Willison",
+  "title": "Claude Cowork and chat are now one Claude",
+  "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans."
+  ]
+ },
+ "795ab58433386302": {
+  "feed": "Cloudflare Blog",
+  "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+  "link": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A modern storefront can look perfectly healthy while malicious JavaScript works underneath: siphoning affiliate revenue, hijacking searches and clicks, tampering with analytics, or asking a remote server what to execute next. Pages load, products appear, and checkout works — yet the browser may be quietly doing something the site owner never authorized."
+  ]
  }
 }
