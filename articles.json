@@ -68516,5 +68516,181 @@
   "points": [
    "Forward Deployed Engineer at Kyber | Y Combinator Open menu About What Happens at YC? Apply YC Interview Guide FAQ People YC Blog Companies Startup Directory Founder Directory Launch YC Library Partners Resources Startup School Newsletter Requests for Startups For Investors Verify Founders Hacker News Bookface SAFE Find a Co-Founder Events Startup Jobs Log in Apply Kyber Instantly draft, review, and send complex regulatory notices."
   ]
+ },
+ "6013dae34b0574d5": {
+  "feed": "YC Hacker News",
+  "title": "Small Programming Tricks",
+  "link": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Small Programming Tricks Â· will keleher writing all posts about.md rss.xml Small Programming Tricks Day to day, I think a surprising amount of engineering productivity comes from small nuggets of knowledge: being aware that a language feature exists; knowing that an unexplained tcp delay is probably related to the TCP_NO_DELAY setting and Nagle’s algorithm; knowing the right git incantation to get out of a pickle; or knowing a trick with sed to rewrite a file."
+  ]
+ },
+ "88f560b1ea503be1": {
+  "feed": "YC Hacker News",
+  "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+  "link": "https://arxiv.org/abs/2609.14858",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2609.14858] Dream-RSI: Recursive Self-Improvement through Evolving Worlds Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Computation and Language arXiv:2609.14858 (cs) [Submitted on 14 Sep 2026] Title: Dream-RSI: Recursive Self-Improvement through Evolving Worlds Authors: Tong Zheng , Xidong Wu , Zheng Zhang , Zhankui He , Chaoyi Zhang , Benjamin Coleman , Ruoqiao Wei , Di Bai , Haolin Liu , Rui Liu , Xue Wang , Yue Zhuan , Wang-Cheng Kang , Renkai Xiang , Heng Huang , Xinwu Cheng , Yunsong Guo View a PDF of the paper titled Dream-RSI: Recursive Self-Improvement through Evolving Worlds, by Tong Zheng and 16 other authors View PDF HTML (experimental) Abstract: Recursive self-improvement is becoming increasingly vital for autonomous AI agents, where progress hinges on discovering high-value solutions across complex domains."
+  ]
+ },
+ "f5e99772b0d35c7a": {
+  "feed": "YC Hacker News",
+  "title": "Tell the speakers that you liked their talks",
+  "link": "https://ohhelloana.blog/tell-the-speakers/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Oh Hello Ana - Tell the speakers that you liked their talks Skip to content OhHelloAna.blog Jottings from Ana Rodrigues Main menu Posts Pixels Bookmarks Guestbook About me Tell the speakers that you liked their talks Published by Ana Rodrigues on the 14th September 2026 I spent a great chunk of last week at SmashingConf Freiburg and it was lovely as usual."
+  ]
+ },
+ "b121f3ccdf2aae2a": {
+  "feed": "YC Hacker News",
+  "title": "Claude Cowork and chat are now one Claude",
+  "link": "https://claude.com/blog/cowork-is-now-claude",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Claude Cowork and chat are now one Claude | Claude by Anthropic Product Products Claude Claude Code @Claude Specialized Claude Security Claude Science Capabilities Artifacts Design Connectors Plugins Skills Claude apps built for Claude in Chrome Claude for Microsoft 365 Models Mythos Fable Opus Sonnet Haiku Import to Claude Download apps Download apps Download apps Login Login Login Developers Build with Claude Code Claude Platform For developers Claude Academy Community Developer docs Developer docs Developer docs Console Console Console Enterprise Enterprise Overview Claude Code for Enterprise Claude Platform Use cases AI agents Coding Commerce Departments Customer support Cybersecurity Legal Industries Financial services Government Healthcare Higher education K-12 teachers Life sciences Nonprofits Sales Customer stories Customer stories Customer stories Contact sales Contact sales Contact sales Resources Insights Blog Customer stories Anthropic news Learn Claude Academy Courses Tutorials Use cases Connect Events Community Pricing Overview API Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Product Products Claude Claude Code @Claude Specialized Claude Security Claude Science Capabilities Artifacts Design Connectors Plugins Skills Claude apps built for Claude in Chrome Claude for Microsoft 365 Models Mythos Fable Opus Sonnet Haiku Import to Claude Download apps Download apps Download apps Login Login Login Developers Build with Claude Code Claude Platform For developers Claude Academy Community Developer docs Developer docs Developer docs Console Console Console Enterprise Enterprise Overview Claude Code for Enterprise Claude Platform Use cases AI agents Coding Commerce Departments Customer support Cybersecurity Legal Industries Financial services Government Healthcare Higher education K-12 teachers Life sciences Nonprofits Sales Customer stories Customer stories Customer stories Contact sales Contact sales Contact sales Resources Insights Blog Customer stories Anthropic news Learn Claude Academy Courses Tutorials Use cases Connect Events Community Pricing Overview API Login Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Contact sales Contact sales Contact sales Try Claude Try Claude Try Claude Blog Blog / Claude Cowork and chat are now one Claude Explore here Ask questions about this page Copy as markdown Claude Cowork and chat are now one Claude You don’t have to choose where a task goes."
+  ]
+ },
+ "de6d592d4a01aaf0": {
+  "feed": "YC Hacker News",
+  "title": "How big are factorials?",
+  "link": "https://eli.thegreenplace.net/2026/how-big-are-factorials/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How big are factorials? - Eli Bendersky's website Toggle navigation Eli Bendersky's website About Projects Archives How big are factorials? August 27, 2026 at 18:52 Tags Math The other day, I found myself wondering how big 52! (52 factorial) is, and that led me to ponder how these could be estimated without a calculator or a computer. It turns out thereâs some fairly interesting math behind being able to estimate the size (number of digits) of a factorial reasonably accurately."
+  ]
+ },
+ "eb6ba41d10f310e8": {
+  "feed": "Technica",
+  "title": "What happens when neutrinos swap identities inside a supernova?",
+  "link": "https://arstechnica.com/science/2026/09/what-happens-when-neutrinos-swap-identities-inside-a-supernova/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Our basic understanding of core-collapse supernovae hasn't changed in decades. Large stars burn through all the fuel at their cores and start creating heavier elements in reactions that consume energy. The lack of energy from these reactions allows gravity to pull the interior of the star in on itself, collapsing it into a neutron star or black hole. The energy released by this process then blows the remainder of the star apart."
+  ]
+ },
+ "0317bab3a39adea2": {
+  "feed": "Technica",
+  "title": "macOS 27 Golden Gate: The Ars Technica review",
+  "link": "https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple Intelligence is back, baby! That's right: Two years after its initial launch, Apple is giving its generative AI features their first significant upgrade, along with a new version of Siri that the company has been strongly insinuating would be a part of each of the last two macOS releases, without ever actually announcing a release date. Generative AI is unavoidable if you install macOS 27 Golden Gate."
+  ]
+ },
+ "81568755a9354a63": {
+  "feed": "Technica",
+  "title": "The world’s best racing driver is about to race 100 karts at once",
+  "link": "https://arstechnica.com/cars/2026/09/the-worlds-best-racing-driver-is-about-to-race-100-karts-at-once/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Later today, Max Verstappen will strap on his helmet and take to the track at the Silverstone circuit in England for a rather unusual race. The four-time Formula 1 world champion is recognized as the leading talent of his generation, but unlike some of the legends that have preceded him, Verstappen’s passion for motorsport extends beyond just the rarified world of F1."
+  ]
+ },
+ "e207baffcee85d7e": {
+  "feed": "Technica",
+  "title": "Lawmakers target Flock cameras with a threat to highway funding",
+  "link": "https://arstechnica.com/tech-policy/2026/09/lawmakers-target-flock-cameras-with-a-threat-to-highway-funding/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A bipartisan pair of US lawmakers tell WIRED they plan to introduce legislation today that would strip federal funding from states that fail to restrict the use of Flock cameras and other automated license plate readers. The devices, which help police track the location of vehicles tied to crimes, have become the subject of nationwide backlash in recent months over more nefarious uses by officers."
+  ]
+ },
+ "cc3cd674c388fe30": {
+  "feed": "Apple ML Research",
+  "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+  "link": "https://machinelearning.apple.com/research/shared-selective-persistent-memory",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Agentic LLM systems that generate code through multi-turn tool use face a fundamental context problem: each session starts from zero, discarding the configuration choices, domain constraints, data schemas, and tool-use patterns that made previous sessions productive. Naively persisting entire conversation histories is both token-inefficient and counterproductive—irrelevant context degrades generation quality."
+  ]
+ },
+ "027811ca1632d0f5": {
+  "feed": "OpenAI News",
+  "title": "Helping older adults use AI in everyday life",
+  "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Helping older adults use AI in everyday life | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 16, 2026 Global Affairs Helping older adults use AI in everyday life In collaboration with OATS, bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S."
+  ]
+ },
+ "52752974efc060af": {
+  "feed": "OpenAI News",
+  "title": "Reimagining advertising with AI",
+  "link": "https://openai.com/index/reimagining-advertising-with-ai",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Reimagining advertising with AI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 16, 2026 Product Reimagining advertising with AI Introducing new AI-powered experiences for ChatGPT Ads."
+  ]
+ },
+ "71646fffd914b496": {
+  "feed": "OpenAI News",
+  "title": "How workers are unlocking new ways of working",
+  "link": "https://openai.com/index/unlocking-new-ways-of-working",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How workers are unlocking new ways of working | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 16, 2026 Global Affairs How workers are unlocking new ways of working New OpenAI Economic Research shows how workers use AI to do tasks outside their typical occupation and which new tasks they build into their workflow."
+  ]
+ },
+ "7625ff2d75c81147": {
+  "feed": "Together AI",
+  "title": "Migrating from closed to open source models, Together",
+  "link": "https://www.together.ai/blog/migrating-from-closed-to-open-source-models",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Migrating from closed to open source models, Together Webflow Analyze/Optimize tracking bridge --> The Open Source AI Stack: models, inference, routers, harnesses & tools → 📈 GLM-5.3 vs. GLM 5.3 Flash on DeepSWE → 🚀 DeepSeek V4 Pro 0813 vs. GPT-5.6 Sol on DeepSWE → ⚡ On-demand B200s now available on Together GPU Clusters → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Explore Top Open-Source Models Chat Image Code Vision Video Show all Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Explore Top Open-Source Models Chat Image Code Vision Video Show all Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Buil"
+  ]
+ },
+ "3a5713cd1d2196f2": {
+  "feed": "MIT News (AI)",
+  "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+  "link": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Researchers created a new technique that accurately and rapidly matches X-rays captured during surgery with a patient’s preoperative 3D medical scan. This method could make it easier for clinicians to precisely pilot minimally invasive surgical tools, leading to faster and safer procedures. Clinicians perform many minimally invasive surgeries using real-time X-rays to help them steer devices like catheters and endoscopes through tiny incisions."
+  ]
+ },
+ "fc651ee7288f058a": {
+  "feed": "Simon Willison",
+  "title": "Quoting Mustafa Suleyman",
+  "link": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder."
+  ]
  }
 }
