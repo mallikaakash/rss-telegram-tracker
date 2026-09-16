@@ -3903,5 +3903,66 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "20ec479276b9f9f6": {
+  "url": "https://huggingface.co/blog/Pier-Jean/llvq-init",
+  "title": "I put a 24 dimensional lattice in a CUDA kernel to run Qwen3-4B in 2.6 GB",
+  "domain": "huggingface.co",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-16",
+  "tier": "hidden_gem",
+  "why": "A rare, deep personal engineering blog detailing an original implementation of a fused CUDA decoder for multi-shell Leech lattice vector quantization in Rust.",
+  "points": [
+   "Unfolds the combinatorial 47-bit multi-shell Leech lattice index offline into a uniform 14-byte bit-plane layout, eliminating warp divergence and runtime class-decoding inside the matvec kernel.",
+   "Implements pure Rust lattice math, nearest-neighbor search, and spherical GPTQ with zero external dependencies and forbids unsafe code.",
+   "Successfully runs Qwen3-4B at 2-bit quantization (87 tok/s in 2.6 GB VRAM) matching dense greedy tokens up to tie-breaks."
+  ]
+ },
+ "f9d395f6f2c37579": {
+  "url": "https://www.alphaxiv.org/abs/2607.26862",
+  "title": "ReCo: Reweighting GRPO Against Distributional Concentration | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-16",
+  "tier": "solid_find",
+  "why": "Identifies an important failure mode in GRPO reasoning models (degraded Pass@k at high k) and presents an intuitive reweighting fix.",
+  "points": [
+   "Discovers that GRPO degrades reasoning coverage (Pass@k for large k) due to high-probability responses dominating the group gradient and importance ratios reinforcing saturated tokens.",
+   "Proposes ReCo, which normalizes response gradients by rollout frequency and switches to a variance-based token importance ratio at non-saturated decision points.",
+   "Demonstrates improved Pass@k scaling on mathematical reasoning benchmarks across Qwen2.5-Math and Llama-3.1 models."
+  ]
+ },
+ "6bf662bed80cb7f8": {
+  "url": "https://outcomeschool.com/blog/how-does-tensorrt-llm-work",
+  "title": "How does TensorRT-LLM work?",
+  "domain": "outcomeschool.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-16",
+  "tier": "skip",
+  "why": "A high-level pedagogical explainer of well-known LLM inference concepts aimed at beginners, written for an educational platform.",
+  "points": []
+ },
+ "452ba96460e60a76": {
+  "url": "https://understandingdata.com/ai-engineering-visualised/parallelism/",
+  "title": "Data, tensor and pipeline parallelism | Understanding Data",
+  "domain": "understandingdata.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-16",
+  "tier": "skip",
+  "why": "Standard introductory educational explainer on data, tensor, and pipeline parallelism with textbook memory math.",
+  "points": []
+ },
+ "324959a05145d287": {
+  "url": "https://blog.zacharycangemi.com/2026/08/19/go-big-or-go-home-part-2-commissioning-the-new-gpu-cluster/",
+  "title": "Go Big or Go Home, Part 2: Commissioning the new GPU cluster – Zachary Cangemi",
+  "domain": "blog.zacharycangemi.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-16",
+  "tier": "solid_find",
+  "why": "A rigorous, hands-on hardware engineering post detailing systematic qualification and stress-testing protocols for a custom multi-GPU workstation.",
+  "points": [
+   "Distinguishes cluster commissioning from simple benchmarking, establishing rigorous validation across system RAM, VRAM boundaries, and thermal constraints before deploying AI workloads.",
+   "Documents real-world hardware commissioning steps for an eight-channel Threadripper PRO 9955WX workstation with dual RTX 3090 GPUs."
+  ]
  }
 }
