@@ -68351,5 +68351,115 @@
    "Custom DFlash speculative decoding integrated into vLLM/SGLang achieves up to 460 tokens/second on agentic tasks.",
    "Introduced container Sandbox Sidecars and reduced broad-region compute multipliers down to 1.15x."
   ]
+ },
+ "faddb36e8fb1347d": {
+  "feed": "YC Hacker News",
+  "title": "Apple Reference Image: A New Approach for Verified Photography",
+  "link": "https://security.apple.com/blog/apple-reference-image/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple Reference Image: A New Approach for Verified Photography - Apple Security Research Apple Security Research Local Nav Open Menu Overview Blog Bounty Research Device Submit a Report Blog September 15, 2026 Apple Reference Image: A New Approach for Verified Photography Written by Apple Security Engineering and Architecture (SEAR) and Camera & Photos Today, powerful, widely available AI tools allow users to easily generate or alter photorealistic images to a degree that was difficult to imagine just a few years ago."
+  ]
+ },
+ "93012fd9d90428d0": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: I made a flight simulator, except you're just a passenger",
+  "link": "https://inflightsimulator.com",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "2b63f7d3b22b690c": {
+  "feed": "YC Hacker News",
+  "title": "Negativland, Culture Jamming, and the Art of Making Something New",
+  "link": "https://blog.archive.org/2026/09/11/negativland-culture-jamming-and-the-art-of-making-something-new/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Negativland, Culture Jamming, and the Art of Making Something New | Internet Archive Blogs Internet Archive Blogs Updates from the Internet Archive Menu Skip to content archive.org Blog Announcements About Events Developers Donate Negativland, Culture Jamming, and the Art of Making Something New Posted on September 11, 2026 by Caralee Adams In 1980, Negativland released its first self-titled album with handmade covers and distributed it through a few record stores in the California Bay Area."
+  ]
+ },
+ "0f67af4401c8120e": {
+  "feed": "YC Hacker News",
+  "title": "Datamimic – don't let your coding agent invent its own test world",
+  "link": "https://github.com/rapiddweller/datamimic",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - rapiddweller/datamimic: Model-driven synthetic test data for CI/CD and analytics - deterministic, privacy-preserving, and domain-aware. Includes Python APIs, XML pipelines, and MCP/IDE integration to orchestrate realistic datasets for finance, healthcare, and other regulated environments. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "20910f522cb5e20d": {
+  "feed": "YC Hacker News",
+  "title": "Doing Everyone Else's Job",
+  "link": "https://yosefk.com/blog/doing-everyone-elses-job.html",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Doing everyone else's job Blog Site ð Feed Doing everyone else's job June 14th, 2026 I find it very useful to be able to do everyone elseâs job â it helps you learn how they work and what they need, and it helps even more when you need their job done, but they wonât do it themselves. If you made something new and those you made it for canât be bothered to start using it, go ahead and integrate it into their system."
+  ]
+ },
+ "ea18852fc5444bd8": {
+  "feed": "Technica",
+  "title": "How chimps teach their kids tool tricks",
+  "link": "https://arstechnica.com/science/2026/09/how-chimps-teach-their-kids-tool-tricks/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chimpanzees are known to use rudimentary tools when foraging for food. According to a new paper in the journal Frontiers in Psychology, this learned behavior is passed down from adults to offspring through social learning. Specifically, adult chimps deliberately model the behavior, then turn their tools over to the youngsters so they can mimic the same motions."
+  ]
+ },
+ "ecaae448f6f44a62": {
+  "feed": "Technica",
+  "title": "The Roman telescope has enough gas for 22 years, double NASA's expectations",
+  "link": "https://arstechnica.com/space/2026/09/the-roman-telescope-has-enough-gas-for-22-years-double-nasas-expectations/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NASA's Nancy Grace Roman Space Telescope is gliding toward its distant observation post on a pinpoint trajectory so precise that engineers estimate the spacecraft's fuel load will last twice as long as their initial expectations, the space agency confirmed Monday. The $4.3 billion observatory's designers originally planned to load enough propellant into Roman's four fuel tanks for a minimum lifetime of five years, plus a potential five-year mission extension."
+  ]
+ },
+ "7f3629cfa6b1ce30": {
+  "feed": "Technica",
+  "title": "“Filmmaker” suing PassThePopcorn may be banned user out for revenge",
+  "link": "https://arstechnica.com/tech-policy/2026/09/filmmaker-suing-passthepopcorn-may-be-banned-user-out-for-revenge/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Some of the most widely used private torrent trackers for pirating movies suspect that a banned user may have posed as a filmmaker protecting copyrights in a failed attempt to seek revenge. TorrentFreak has been tracking this story closely, reporting last September that an alleged independent filmmaker named Matthew Schneider sued six private trackers for infringing copyrights on some films that he supposedly made."
+  ]
+ },
+ "fce5c946628f0281": {
+  "feed": "MIT News (AI)",
+  "title": "Measure by measure, studying society accurately",
+  "link": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Let’s agree at the outset the world is a complicated place, and social scientists have exacting jobs when it comes to measuring civic phenomena with precision. After all, even careful studies raise follow-up questions: How much do their findings apply in other settings? Do conclusions about politics in one country apply to other countries? If you’re studying voters in a lopsided election, will your findings apply to voters in a close election?"
+  ]
+ },
+ "500c6bf99a8171dc": {
+  "feed": "Simon Willison",
+  "title": "Gemini Live audio",
+  "link": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+  "date": "2026-09-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking."
+  ]
  }
 }
