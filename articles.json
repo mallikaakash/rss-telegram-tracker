@@ -68813,5 +68813,181 @@
   "points": [
    "A modern storefront can look perfectly healthy while malicious JavaScript works underneath: siphoning affiliate revenue, hijacking searches and clicks, tampering with analytics, or asking a remote server what to execute next. Pages load, products appear, and checkout works — yet the browser may be quietly doing something the site owner never authorized."
   ]
+ },
+ "1990b508cd2fc65e": {
+  "feed": "YC Hacker News",
+  "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+  "link": "https://ryan.science/blog/keys-not-included",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "dbb60a81aa824bf3": {
+  "feed": "YC Hacker News",
+  "title": "Nvidia announces native GPU programming in Rust",
+  "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels | NVIDIA Technical Blog DEVELOPER Home Blog Forums Docs Downloads Training Join Technical Blog Subscribe Related Resources Developer Tools & Techniques English 한국어 中文 Introducing CUDA Rust: Two Tracks for Writing GPU Kernels Sep 08, 2026 By Sri Koundinyan , Melih Elibol and Jonathan Bentz Like Discuss (1) L T F R E AI-Generated Summary cuda-oxide provides a custom rustc codegen backend that compiles SIMT-style GPU kernels written in Rust directly to PTX using the Pliron IR framework and LLVM."
+  ]
+ },
+ "4d12d43d1356abcf": {
+  "feed": "YC Hacker News",
+  "title": "Comparison of Malloc() Algorithms",
+  "link": "https://egbert.net/blog/articles/comparison-of-arena-architecture-in-malloc.html",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comparison of Arena Architecture in malloc() | Egbert Blog Egbert Network Motto Articles Categories Tags Archives Uses About Jan 20 2026 Comparison of Arena Architecture in malloc() Memory Allocation Problems Limit Memory Allocation (if not necessary) Multithreaded programs often do not scale because the heap is a bottleneck. When multiple threads simultaneously allocate or deallocate memory from the allocator, the allocator will serialize them."
+  ]
+ },
+ "3010916ccd18086c": {
+  "feed": "YC Hacker News",
+  "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+  "link": "https://mimo.xiaomi.com/rl/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "6aa76e4f0b22d946": {
+  "feed": "YC Hacker News",
+  "title": "Backups Aren't Simple",
+  "link": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Backups aren't simple Backups aren't simple Software Engineer | FOSS Enthusiast | Homelabber --> Backups aren't simple Aleksandar Filipovski , 2026-09-16 See also: John Salvatier’s excellent blog, Reality has a surprising amount of detail I read a comment somewhere that stuck with me, that went something like this: “There are two types of people: those who have suffered a catastrophic loss of data, and those who will.” Trying to find the source for it for this blog, it turned out that every other sysadmin has his rehashed version of the quote, but the gist of it is the same everywhere."
+  ]
+ },
+ "00f56e1b1eec192b": {
+  "feed": "Technica",
+  "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+  "link": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple is working on an AI server that would use Apple’s high-performance M-series Ultra chips found in Mac desktops. The potential product’s expected release in 2029 would mark the first Apple server to hit the market in nearly two decades—and could capitalize on the surging popularity of Apple hardware among AI developers. The enterprise server would come in two configurations that include either two or four of Apple’s future M8 Ultra chips, according to The Information ."
+  ]
+ },
+ "2a4fab1da5c1918f": {
+  "feed": "Technica",
+  "title": "Epstein had huge cache of child sex pics; victims sue to find out who's in them",
+  "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-trump-doj-notified-very-few-victims-in-epsteins-stash-of-child-sex-images/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On Tuesday, two survivors of child sex abuse accused the Justice Department of failing to notify dozens of victims found in Jeffrey Epstein’s massive collection of child sex images. In a proposed class action , survivors explained that Epstein apparently started collecting child sex images in the 1990s, many of which the DOJ recovered after his arrest."
+  ]
+ },
+ "c60fc05e1d0d16b4": {
+  "feed": "Technica",
+  "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
+  "link": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The International Meteor Organization, the nonprofit that coordinates and publishes amateur and professional observations of meteor phenomena, said its infrastructure has suffered a “critical blow” from a cyberattack. “We recently suffered a cyberattack that dealt a critical blow to aging infrastructure, taking much of our site offline,\" a static page on its website on Wednesday said."
+  ]
+ },
+ "1a466487d1448704": {
+  "feed": "Technica",
+  "title": "Lionsgate releases a new trailer for Sunrise on the Reaping",
+  "link": "https://arstechnica.com/culture/2026/09/haymitch-gets-a-backstory-in-sunrise-on-the-reaping-trailer/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Lionsgate has released an action-packed trailer for The Hunger Games: Sunrise on the Reaping —a sequel to 2023’s Ballad of Songbirds and Snakes and a prequel leading into the events of the first film, The Hunger Games (2012). In addition, Laika Studios released a trailer for its highly anticipated stop-motion animated feature, Wildwood . (Some spoilers for The Hunger Games below.) The main protagonist is a young Haymitch Abernathy, future District 12 mentor to Katniss (Jennifer Lawrence) and Peeta (Josh Hutcherson)."
+  ]
+ },
+ "cb035bc8dd07a01e": {
+  "feed": "Technica",
+  "title": "Not just Proton: Getting to know Valve's new SteamOS compatibility layers",
+  "link": "https://arstechnica.com/gaming/2026/09/not-just-proton-getting-to-know-valves-new-steamos-compatibility-layers/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Since the release of the Steam Deck , Valve fans have gotten very familiar with the idea of the Proton compatibility layer that allows games written for Windows to run capably on the Linux-based SteamOS (though Valve's efforts in this realm date back further than that ). To get more games running on the SteamOS-powered Steam Frame , though, Valve is relying on two additional compatibility layers that are new to the Steam architecture ."
+  ]
+ },
+ "ef5f7a1f3b834dfe": {
+  "feed": "Apple ML Research",
+  "title": "DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models",
+  "link": "https://machinelearning.apple.com/research/denoising-aware-credit-assignment",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Diffusion large language models are a compelling alternative to autoregressive models, yet existing RL methods for diffusion treat all denoising steps as equally important and rely on biased, high-variance likelihood estimates. We identify two fundamental weaknesses: the absence of temporal credit assignment across the denoising trajectory, and the systematic bias of mean-field likelihood estimates used for policy optimization."
+  ]
+ },
+ "e324e1fdd200d34a": {
+  "feed": "Apple ML Research",
+  "title": "Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation",
+  "link": "https://machinelearning.apple.com/research/trajectory-teacher-flow-matching",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Discrete flow matching generates text by iteratively transforming noise tokens into coherent language, but may require hundreds of forward passes. Distillation uses the multi-step trajectory to train a student to reproduce the process in a few steps. When the student underperforms, the usual explanation is insufficient capacity. We argue the opposite: the trajectory is the bottleneck, not the student."
+  ]
+ },
+ "e6fc19a3064a1bba": {
+  "feed": "Apple ML Research",
+  "title": "How Value Induction Reshapes LLM Behaviour",
+  "link": "https://machinelearning.apple.com/research/value-induction-llm-behaviour",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Conversational Large Language Models are post-trained on language that expresses specific behavioural traits, such as curiosity, open-mindedness, and empathy, and values, such as helpfulness, harmlessness, and honesty. This is done to increase utility, ensure safety, and improve the experience of the people interacting with the model. However, values are complex and inter-related – inducing one could modify behaviour on another."
+  ]
+ },
+ "bbe6c30a33c9c72e": {
+  "feed": "OpenAI News",
+  "title": "Our framework for reporting model misalignment",
+  "link": "https://openai.com/index/model-misalignment-reporting-framework",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Our framework for reporting model misalignment | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 16, 2026 Research Safety Our framework for reporting model misalignment Loading… Share What misalignment examples we’ll report What misalignment examples we’ll report The misalignment examples we’re sharing today How our disclosure process works What each report will include What misalignment examples we’ll report The misalignment examples we’re sharing today How our disclosure process works What each report will include We are sharing a new framework for tracking, investigating, and disclosing instances of model misalignment at OpenAI, along with six reports on unexpected or concerning model behavior we’ve observed in the last six months."
+  ]
+ },
+ "738877fde7567c89": {
+  "feed": "Simon Willison",
+  "title": "datasette 1.0a40",
+  "link": "https://simonwillison.net/2026/Sep/16/datasette/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like the internal datasette.client.get() method. A whole lot of bug fixes , many of them stemming from a recent effort to triage issues for a 1.0 stable release."
+  ]
+ },
+ "2105625f58a47d54": {
+  "feed": "Simon Willison",
+  "title": "datasette 0.65.5",
+  "link": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette 0.65.5 Simon Willison’s Weblog Subscribe Sponsored by: WorkOS — auth.md by WorkOS: agents register users, no sign-up form. Try it! 16th September 2026 Release datasette 0.65.5 — An open source multi-tool for exploring and publishing data Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m ."
+  ]
  }
 }
