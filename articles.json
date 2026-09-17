@@ -69143,5 +69143,126 @@
   "points": [
    "Operation “Date Bait”: AI-enabled scam targeting loveseekers | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI February 1, 2026 Safety Operation “Date Bait”: AI-enabled scam targeting loveseekers OpenAI banned accounts that very likely originated in Cambodia and used AI for scam outreach to Indonesian loveseekers, including translation and engagement."
   ]
+ },
+ "8fdad716cd09ccda": {
+  "feed": "YC Hacker News",
+  "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+  "link": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "1831f5fcb0b861b5": {
+  "feed": "YC Hacker News",
+  "title": "Rate limits on GitLab.com are changing",
+  "link": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Rate limits on GitLab.com are changing Close To search repositories and projects, login to gitlab.com . Suggestions GitLab Duo Agent Platform Code Suggestions (AI) CI/CD GitLab on AWS GitLab on Google Cloud Why GitLab? Platform Execution & Workflows CI/CD Source Code Management Agile Delivery Security & Governance Application Security Testing Governance & Compliance Supply Chain Security Context & AI Agentic Orchestration Context Graph Visibility & Measurement Explore the Platform Why GitLab One platform for speed with control across your software lifecycle."
+  ]
+ },
+ "8aa746a4e736af82": {
+  "feed": "YC Hacker News",
+  "title": "Whoisinspace.com/",
+  "link": "https://whoisinspace.com",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Who Is In Space 0 Skip to Content Who Is In Space Home Soyuz MS-28 Crew-12 Shenzhou-23 Open Menu Close Menu Who Is In Space Home Soyuz MS-28 Crew-12 Shenzhou-23 Open Menu Close Menu Home Soyuz MS-28 Crew-12 Shenzhou-23 THERE ARE 10 HUMANS IN SPACE ISS - SpaceX Crew-12 Launched February 13, 2026, 10:15:56 UTC Jessica Meir Jack Hathaway Sophie Adenot Andrey Fedyaev ISS - Soyuz ms-29 Launched July 14, 2026, 14:47:43 UTC Pyotr Dubrov Anna Kikina Anil Menon Tiangong station - Shenzhou 23 Launched 24 May 2026, 15:08:39 UTC Zhu Yangzhu Zhang Zhiyuan Lai Ka-ying As of April 2026, a total of 781 humans have flown to space."
+  ]
+ },
+ "bf5dba8048fd7a78": {
+  "feed": "YC Hacker News",
+  "title": "hister",
+  "link": "https://github.com/asciimoo/hister",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - asciimoo/hister: Your own search engine · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "24e336d6c0a392bd": {
+  "feed": "YC Hacker News",
+  "title": "CrowdSec Source Code Leak",
+  "link": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "CrowdSec Statement: Source Code Exposure in May 2026 Download the latest Vulnerability & Exploitation Report Download now CrowdSec Products Solutions Pricing Our Data Resources Company Search Log in CrowdSec Blog Announcement Sep 17, 2026 CrowdSec Statement: Source Code Exposure in May 2026 On September 16, CrowdSec was informed of a source code leak involving our GitHub repository, which occurred in May 2026."
+  ]
+ },
+ "8211d1bd9e3d79ff": {
+  "feed": "Apple ML Research",
+  "title": "REVERSAL-BENCH: A Reversibility Axis and Reset Oracle for Measuring the Reset-Free RL Cliff",
+  "link": "https://machinelearning.apple.com/research/reversal-bench-rl-cliff",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A central goal of autonomous reinforcement learning is continuous policy training without external resets. However, existing paradigms largely depend on underlying environmental reversibility, a property absent in real world manipulation, where events such as pushing objects off tables or spilling granular substances cannot be undone. We introduce REVERSAL-BENCH, a benchmark that controls reversibility via a continuous parameter ρ∈ [0, 1] and provides a reset oracle, a ground-truth verification mechanism to test state recoverability across eight manipulation settings in five physics engines…"
+  ]
+ },
+ "a018ae9534a7624b": {
+  "feed": "OpenAI News",
+  "title": "Prompting fundamentals",
+  "link": "https://openai.com/academy/prompting",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Prompting | ChatGPT Learn For the complete documentation index, see llms.txt . Markdown versions of documentation pages are available by appending .md to the page URL. ChatGPT Home API Codex Docs Guides, concepts, and product docs for Codex Use cases Example workflows and tasks teams can take on with ChatGPT or Codex Docs Use cases Training Resources ChatGPT Plugins Extend ChatGPT and Codex Workspace Agents Trigger published ChatGPT workspace agents Commerce Build commerce flows in ChatGPT Ads Publish and measure ads in ChatGPT Resources Showcase Demo apps to get inspired Blog Learnings and experiences from developers Cookbook Notebook examples for building with OpenAI models Learn Docs, videos, and demo apps for building with OpenAI Community Programs, meetups, and support for builders Start searching API Dashboard Try ChatGPT Overview Features Configuration Developers Security Administration Use Cases Resources Search the docs Search docs Suggested responses create reasoning_effort realtime prompt caching Primary navigation API Codex ChatGPT Docs Use cases Training Resources Resources Search docs Suggested responses create reasoning_effort realtime prompt caching Overview Models Agents Tools Audio & voice Production API reference Overview Models Agents Tools Audio & voice Production API reference Docs Overview Home Get started Quickstart Using GPT-6 Astra Key concepts Core concepts Responses API Conversation state Background mode Streaming WebSocket mode Mid-turn steering Multi-agent Webhooks File inputs Compaction Counting tokens SDKs and CLI OpenAI SDK OpenAI CLI Resources Changelog Deprecations Supported countries OpenAI Crawlers Terms and policies Legacy APIs Agent Builder Overview Migration guide Node reference Safety in building agents Evals Getting started Working with evals Prompt optimizer External models Best practices Graders Fine-tuning Optimization cycle Supervised fine-tuning Vision fine-tuning Direct preference optimization Reinforcement fine-tuning RFT use cases Best practices Assistants API Migration guide Model catalog Choose a model Pricing Model selection Text and code Text generation Code generation Structured output Prompting Overview Prompt engineering Citation formatting Migration guide Prompt generation Frontend prompting Reasoning Reasoning models Reasoning best practices Images and video Images and vision Image input cost calculator Image generation Overview Image prompting Video generation Realtime and audio Audio and speech Getting started Voice agents Specialized models Deep research Embeddings Moderation Overview Agents API Overview Quickstart Architecture Configuring Agents Sessions Run and continue sessions Events and items Manage sessions Webhooks Environments and sandboxes OpenAI-hosted sandboxes Self-hosted sandboxes Sandbox lifecycle Sandbox security Files and artifacts Tools and integrations Web search Functions MCP connections Plugins Vaults Multi-agent Observability and usage Tracing Agents SDK Overview Quickstart Agent definitions Models and providers Running agents Sandbox agents Orchestration Guardrails Results and state Integrations and observability Evaluate agent workflows ChatKit Overview Customize Widgets Actions Advanced integrations Overview Function calling Search and retrieval Web search File search Retrieval Connect tools and data MCP servers Secure MCP Tunnel Build tool workflows Skills Tool search Programmatic tool calling Async tool calling Computer and code Shell Computer use Ap"
+  ]
+ },
+ "8d26aa196c15887d": {
+  "feed": "OpenAI News",
+  "title": "Romance scams: AI-enabled romance scam workflows",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-scam",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Romance scams: AI-enabled romance scam workflows | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI February 1, 2026 Safety Romance scams: AI-enabled romance scam workflows OpenAI banned accounts using AI to support romance scam workflows, including outreach, translation, victim engagement, and investment-fraud lures."
+  ]
+ },
+ "86bf234034bcfad3": {
+  "feed": "OpenAI News",
+  "title": "Operation “False Witness”: Fake recovery service impersonating authorities",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Operation “False Witness”: Fake recovery service impersonating authorities | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI February 1, 2026 Safety Operation “False Witness”: Fake recovery service impersonating authorities OpenAI banned accounts that very likely originated in Cambodia and used AI to pose as recovery services, law firms, and authorities targeting people affected by fraud."
+  ]
+ },
+ "a863cf70af228d3e": {
+  "feed": "OpenAI News",
+  "title": "Silver lining playbook: Likely China-origin activity targeting US persons",
+  "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Silver Lining Playbook: Likely China-origin activity targeting US persons | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI February 1, 2026 Safety Silver Lining Playbook: Likely China-origin activity targeting US persons OpenAI banned likely China-origin accounts using AI to research US persons, locations, and social-engineering tactics."
+  ]
+ },
+ "dca9921c9c8ef457": {
+  "feed": "Stripe Blog",
+  "title": "SaaS platforms are surging despite the SaaSpocalypse",
+  "link": "https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse",
+  "date": "2026-09-17",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "SaaS platforms are surging despite the SaaSpocalypse 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Guide me Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Not sure where to start?"
+  ]
  }
 }
