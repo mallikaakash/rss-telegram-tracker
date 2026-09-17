@@ -3964,5 +3964,29 @@
    "Distinguishes cluster commissioning from simple benchmarking, establishing rigorous validation across system RAM, VRAM boundaries, and thermal constraints before deploying AI workloads.",
    "Documents real-world hardware commissioning steps for an eight-channel Threadripper PRO 9955WX workstation with dual RTX 3090 GPUs."
   ]
+ },
+ "3ad18e0801c04f50": {
+  "url": "https://www.zhongzhuzhou.org/blog/2026-08-04-grpoimpossibility-technical-review-en/",
+  "title": "GRPO vs. Dr. GRPO Is Not a Bug-Fix Story: An Impossibility Theorem for Length Bias in Group RL | Zhongzhu (Charlie) Zhou",
+  "domain": "zhongzhuzhou.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-17",
+  "tier": "hidden_gem",
+  "why": "An exceptional deep-dive engineering review analyzing an impossibility proof that reframes GRPO and Dr. GRPO as a fundamental Pareto tradeoff between length invariance and unbiased gradient estimation.",
+  "points": [
+   "Formalizes how removing per-trajectory length normalization in Dr. GRPO introduces an alternative bias rather than creating a strictly unbiased estimator.",
+   "Highlights an impossibility theorem showing that no length-based weighting function can be simultaneously unbiased and length-invariant under outcome rewards.",
+   "Reframes RLVR length optimization variants (GRPO, Dr. GRPO, RLOO, REINFORCE++) along a continuous tradeoff frontier rather than a sequence of sequential bug fixes."
+  ]
+ },
+ "3f6e610d272d9b69": {
+  "url": "https://deepwiki.com/pytorch/pytorch/4.5-pipeline-parallelism",
+  "title": "Pipeline Parallelism | pytorch/pytorch | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-17",
+  "tier": "skip",
+  "why": "This is an automated documentation aggregator/table of contents scraping the PyTorch repository with no original analysis or insights.",
+  "points": []
  }
 }
