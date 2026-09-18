@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Sat 19 Sep 2026, 01:29 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Sat 19 Sep 2026, 01:29 IST &middot; 14 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Cache-to-Cache enables 2.5x faster inter-LLM semantic transfer via KV-cache fusion, while Cloudflare shares an algorithmic memory optimization deep-dive in Pingora.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">YC Hacker News</span><h2><a href="https://arxiv.org/abs/2510.03215">Cache-to-Cache: Direct Semantic Communication Between Large Language Models</a></h2><div class="why">Proposes a novel inter-LLM communication architecture fusing KV-caches directly instead of decoding to tokens, advancing multi-model inference efficiency.</div><ul><li>Cache-to-Cache (C2C) uses a neural network projection and learnable gating to fuse source and target KV-caches directly across layers.</li><li>Eliminates token-by-token intermediate text generation latency, yielding an average 2.5x speedup.</li><li>Delivers 6.4-14.2% accuracy gains over single models and 3.1-5.4% over standard text-based inter-model communication.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/">Saving another 100TB of RAM with math (and Rust)</a></h2><div class="why">Top-tier performance engineering post from Cloudflare detailing algorithmic memory optimization in their Rust proxy.</div><ul><li>Refactored pingora-ketama consistent hashing data structures in Pingora Backend Router (PBR).</li><li>Reclaimed over 100TB of RAM globally by optimizing how server node tokens and hash rings are represented in memory.</li><li>Demonstrates concrete techniques for high-scale reverse-proxy performance and resource reclamation in Rust.</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">YC Hacker News</span><h2><a href="https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/">Saving another 100TB of RAM with math (and Rust)</a></h2><div class="why">HN discussion link for the Cloudflare engineering deep-dive on memory optimization in Rust.</div><ul><li>Discussions on optimizing consistent hashing memory in Cloudflare&#x27;s Rust-based Pingora proxy.</li><li>Community analysis of large-scale distributed cache routing efficiency.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Google Research</span><h2><a href="https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/">MilleMiglia: A realistic instance generator for middle-mile logistics</a></h2><div class="why">Directly relevant to applied operations research and constrained optimization for complex industrial supply chains.</div><ul><li>MilleMiglia provides an open-source realistic benchmark instance generator for middle-mile industrial logistics.</li><li>Bridges theoretical combinatorial optimization with production operational constraints like driver schedules and facility bottlenecks.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Sep/18/thariq-shihipar/">Quoting Thariq Shihipar</a></h2><div class="why">Useful context on emerging repo-level agent instruction standards and Anthropic tooling extensibility.</div><ul><li>Claude Code added fallback support for AGENTS.md alongside CLAUDE.md.</li><li>Introduced &#x27;mods&#x27; harness for customizing coding agent behavior and project instructions.</li></ul></div><div class="section">Low priority &middot; 9</div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://grapheneos.social/@GrapheneOS/117282080803799576">Android 17 is the first since 3.x to add new APIs without releasing to the AOSP</a></h2><div class="why">Android OS release politics and closed-source proprietary APIs are outside backend and ML engineering priorities.</div><ul><li>Android 17 introduces APIs without upstreaming to AOSP, breaking standard open-source Android release patterns.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes">Apple releases iPhone Duo simulator and Xcode 27.1 beta</a></h2><div class="why">Apple iOS simulator and Xcode tooling updates are mobile client developments with no relevance to ML infra.</div><ul><li>Apple released the Xcode 27.1 beta and iPhone Duo simulator for client developers.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">YC Hacker News</span><h2><a href="https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/">Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug</a></h2><div class="why">Hardware fault injection and physical microcontroller silicon attacks are niche security topics irrelevant to backend/ML systems.</div><ul><li>Ledger Donjon used photon-emission microscopy and laser fault injection to bypass RP2350 A4 security protections and extract OTP secrets.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/">FAA tees up $875M AI tool to help manage air traffic congestion</a></h2><div class="why">High-level mainstream news coverage of an FAA deployment without technical modeling or architecture details.</div><ul><li>The FAA is rolling out an $875M AI traffic-prediction tool (SMART) starting in the Washington DC airspace.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/">FCC lets Paramount sell 49.5% equity stake to Saudi Arabia, UAE, and Qatar</a></h2><div class="why">Regulatory and corporate media acquisition news with no technical relevance.</div><ul><li>FCC approved foreign sovereign wealth fund equity stakes in Paramount Skydance up to 49.5%.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/">Finding the cells that put our brain to sleep</a></h2><div class="why">Basic biological neuroscience research with no bearing on artificial neural networks or engineering systems.</div><ul><li>Discovered a 1% cortical inhibitory neuron population capable of autonomously initiating deep-sleep rhythms in mice.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/">US government website used Chinese model the FBI called &quot;malicious&quot;</a></h2><div class="why">Political news story regarding government agency use of open-weight Chinese LLMs.</div><ul><li>The National Archives briefly deployed Alibaba&#x27;s Qwen model for comment search on the Federal Register before removal.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/security/2026/09/hackers-reveal-how-flock-cameras-really-track-cars-and-people/">Hackers reveal how Flock cameras really track cars and people</a></h2><div class="why">Consumer privacy and security hardware tear-down focused on ALPR surveillance rather than ML infra.</div><ul><li>Reverse engineering of Flock Safety cameras revealed plaintext video storage, on-device encryption key exposure, and multi-class object detection.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/">Note on 18th September 2026</a></h2><div class="why">A single-sentence subjective opinion note without technical content.</div><ul><li>Simon Willison compares dismissing modern LLM advances to ignoring Jurassic Park.</li></ul></div></body></html>

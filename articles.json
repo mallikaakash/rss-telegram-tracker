@@ -69792,5 +69792,166 @@
   "points": [
    "Last year, Stripe data shows fraud attempts against travel and leisure businesses hit a four-year high. We analyzed payment activity from more than 200,000 active travel and leisure businesses on Stripe to understand where fraud is rising, how effectively it’s being blocked, and what businesses can do in response."
   ]
+ },
+ "1704ec300ffe2f68": {
+  "feed": "YC Hacker News",
+  "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+  "link": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "Android OS release politics and closed-source proprietary APIs are outside backend and ML engineering priorities.",
+  "points": [
+   "Android 17 introduces APIs without upstreaming to AOSP, breaking standard open-source Android release patterns."
+  ]
+ },
+ "2f284f65a5b40c46": {
+  "feed": "YC Hacker News",
+  "title": "Saving another 100TB of RAM with math (and Rust)",
+  "link": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+  "date": "2026-09-19",
+  "tier": "worth_a_skim",
+  "why": "HN discussion link for the Cloudflare engineering deep-dive on memory optimization in Rust.",
+  "points": [
+   "Discussions on optimizing consistent hashing memory in Cloudflare's Rust-based Pingora proxy.",
+   "Community analysis of large-scale distributed cache routing efficiency."
+  ]
+ },
+ "a4ee0a750348e7d0": {
+  "feed": "YC Hacker News",
+  "title": "Apple releases iPhone Duo simulator and Xcode 27.1 beta",
+  "link": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "Apple iOS simulator and Xcode tooling updates are mobile client developments with no relevance to ML infra.",
+  "points": [
+   "Apple released the Xcode 27.1 beta and iPhone Duo simulator for client developers."
+  ]
+ },
+ "556741f86c49ffa9": {
+  "feed": "YC Hacker News",
+  "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
+  "link": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "Hardware fault injection and physical microcontroller silicon attacks are niche security topics irrelevant to backend/ML systems.",
+  "points": [
+   "Ledger Donjon used photon-emission microscopy and laser fault injection to bypass RP2350 A4 security protections and extract OTP secrets."
+  ]
+ },
+ "6496bc27021917f7": {
+  "feed": "YC Hacker News",
+  "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language Models",
+  "link": "https://arxiv.org/abs/2510.03215",
+  "date": "2026-09-19",
+  "tier": "must_read",
+  "why": "Proposes a novel inter-LLM communication architecture fusing KV-caches directly instead of decoding to tokens, advancing multi-model inference efficiency.",
+  "points": [
+   "Cache-to-Cache (C2C) uses a neural network projection and learnable gating to fuse source and target KV-caches directly across layers.",
+   "Eliminates token-by-token intermediate text generation latency, yielding an average 2.5x speedup.",
+   "Delivers 6.4-14.2% accuracy gains over single models and 3.1-5.4% over standard text-based inter-model communication."
+  ]
+ },
+ "8a86701f25e4f074": {
+  "feed": "Technica",
+  "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+  "link": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "High-level mainstream news coverage of an FAA deployment without technical modeling or architecture details.",
+  "points": [
+   "The FAA is rolling out an $875M AI traffic-prediction tool (SMART) starting in the Washington DC airspace."
+  ]
+ },
+ "20fc0c317b9e8267": {
+  "feed": "Technica",
+  "title": "FCC lets Paramount sell 49.5% equity stake to Saudi Arabia, UAE, and Qatar",
+  "link": "https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "Regulatory and corporate media acquisition news with no technical relevance.",
+  "points": [
+   "FCC approved foreign sovereign wealth fund equity stakes in Paramount Skydance up to 49.5%."
+  ]
+ },
+ "d781200a2b8df24c": {
+  "feed": "Technica",
+  "title": "Finding the cells that put our brain to sleep",
+  "link": "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "Basic biological neuroscience research with no bearing on artificial neural networks or engineering systems.",
+  "points": [
+   "Discovered a 1% cortical inhibitory neuron population capable of autonomously initiating deep-sleep rhythms in mice."
+  ]
+ },
+ "26bd35d9b365cbf2": {
+  "feed": "Technica",
+  "title": "US government website used Chinese model the FBI called \"malicious\"",
+  "link": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "Political news story regarding government agency use of open-weight Chinese LLMs.",
+  "points": [
+   "The National Archives briefly deployed Alibaba's Qwen model for comment search on the Federal Register before removal."
+  ]
+ },
+ "774b93474be4400f": {
+  "feed": "Technica",
+  "title": "Hackers reveal how Flock cameras really track cars and people",
+  "link": "https://arstechnica.com/security/2026/09/hackers-reveal-how-flock-cameras-really-track-cars-and-people/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "Consumer privacy and security hardware tear-down focused on ALPR surveillance rather than ML infra.",
+  "points": [
+   "Reverse engineering of Flock Safety cameras revealed plaintext video storage, on-device encryption key exposure, and multi-class object detection."
+  ]
+ },
+ "90801afbca07a432": {
+  "feed": "Google Research",
+  "title": "MilleMiglia: A realistic instance generator for middle-mile logistics",
+  "link": "https://research.google/blog/millemiglia-a-realistic-instance-generator-for-middle-mile-logistics/",
+  "date": "2026-09-19",
+  "tier": "worth_a_skim",
+  "why": "Directly relevant to applied operations research and constrained optimization for complex industrial supply chains.",
+  "points": [
+   "MilleMiglia provides an open-source realistic benchmark instance generator for middle-mile industrial logistics.",
+   "Bridges theoretical combinatorial optimization with production operational constraints like driver schedules and facility bottlenecks."
+  ]
+ },
+ "e3a6799112421c6d": {
+  "feed": "Simon Willison",
+  "title": "Note on 18th September 2026",
+  "link": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "A single-sentence subjective opinion note without technical content.",
+  "points": [
+   "Simon Willison compares dismissing modern LLM advances to ignoring Jurassic Park."
+  ]
+ },
+ "beaede86e124ef87": {
+  "feed": "Simon Willison",
+  "title": "Quoting Thariq Shihipar",
+  "link": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+  "date": "2026-09-19",
+  "tier": "worth_a_skim",
+  "why": "Useful context on emerging repo-level agent instruction standards and Anthropic tooling extensibility.",
+  "points": [
+   "Claude Code added fallback support for AGENTS.md alongside CLAUDE.md.",
+   "Introduced 'mods' harness for customizing coding agent behavior and project instructions."
+  ]
+ },
+ "7dd414890e7f66f4": {
+  "feed": "Cloudflare Blog",
+  "title": "Saving another 100TB of RAM with math (and Rust)",
+  "link": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+  "date": "2026-09-19",
+  "tier": "must_read",
+  "why": "Top-tier performance engineering post from Cloudflare detailing algorithmic memory optimization in their Rust proxy.",
+  "points": [
+   "Refactored pingora-ketama consistent hashing data structures in Pingora Backend Router (PBR).",
+   "Reclaimed over 100TB of RAM globally by optimizing how server node tokens and hash rings are represented in memory.",
+   "Demonstrates concrete techniques for high-scale reverse-proxy performance and resource reclamation in Rust."
+  ]
  }
 }
