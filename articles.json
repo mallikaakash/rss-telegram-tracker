@@ -69616,5 +69616,181 @@
   "points": [
    "Days after finalizing a rule that would eliminate climate rules for power plants , the Environmental Protection Agency (EPA) was sued by groups who say the EPA’s repeal was shockingly short-sighted and risked leaving the country’s single largest source of industrial climate pollution unchecked. On Thursday, the American Lung Association, the American Public Health Association (APHA), the Clean Air Council, Clean Wisconsin, the Environmental Defense Fund, and the Natural Resources Defense Council (NRDC) filed a petition requesting that the US Court of Appeals for the DC Circuit review if the EPA’s action conflicts with the Clean Air Act."
   ]
+ },
+ "bac22dcf3ca76fe7": {
+  "feed": "YC Hacker News",
+  "title": "Cloudflare Quick Tunnels",
+  "link": "https://try.cloudflare.com/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare Quick Tunnels Cloudflare ✨ Free · 🔒 Secure · ⚡ Instant Free, secure tunnel for everything you are building. Preview and ship ideas globally in seconds with Quick Tunnels. Deploy your local application to the Internet with a single command. Spin up a Quick Tunnel Explore Cloudflare Tunnel cloudflared — bash The Modern Way to Build and Share You're a single command away from sharing your project with the Internet."
+  ]
+ },
+ "3f8ce213f8ded073": {
+  "feed": "YC Hacker News",
+  "title": "An Empirical Study of Harness Design for Coding Agents",
+  "link": "https://arxiv.org/abs/2609.20804",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "[2609.20804] An Empirical Study of Harness Design for Coding Agents Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search · Advanced search --> Computer Science > Artificial Intelligence arXiv:2609.20804 (cs) [Submitted on 17 Sep 2026] Title: An Empirical Study of Harness Design for Coding Agents Authors: Run-Ze Fan , Zihao Zhang , Simin Ma , Yebowen Hu , Shouju Wang , Kaiqiang Song , Fei Liu , Hamed Zamani , Xiaoyang Wang View a PDF of the paper titled An Empirical Study of Harness Design for Coding Agents, by Run-Ze Fan and 8 other authors View PDF HTML (experimental) Abstract: Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear."
+  ]
+ },
+ "7adf40146a5ff4ac": {
+  "feed": "YC Hacker News",
+  "title": "North Korean nuclear test sets off years of earthquakes",
+  "link": "https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "8e89b866e77a5224": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Microsoft Office running with Wine on Linux with no virtualization",
+  "link": "https://github.com/Tombert/office365_flake",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - Tombert/office365_flake: A set of Nix Flakes and scripts to get Office 365 working on Linux without virtualization. · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "3410f5952e164284": {
+  "feed": "YC Hacker News",
+  "title": "I vibed a proof of Conway's conjecture",
+  "link": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How I Vibed a Proof of Conway’s Conjecture — overreacted overreacted by How I Vibed a Proof of Conway’s Conjecture September 18, 2026 Pay what you like A few months ago, AI math results started making headlines. “Do a breakthrough” became a Twitter meme. Naturally, I became curious whether I, too, a math noob , can find some open mathematical problem and then have a frontier model solve it."
+  ]
+ },
+ "161acfd6fde5a0a8": {
+  "feed": "Technica",
+  "title": "Meet the winner of Nikon's Small World in Motion video contest",
+  "link": "https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Abnormal beating of airway cilia from a child with Primary Ciliary Dyskinesia, a genetic disorder affecting respiratory function. Credit: Ning Xu, Tsinghua University Abnormal beating of airway cilia from a child with Primary Ciliary Dyskinesia, a genetic disorder affecting respiratory function. Credit: Ning Xu, Tsinghua University A Chinese optical engineer is the winner of this year's Small World in Motion competition, sponsored by Nikon."
+  ]
+ },
+ "a8365cfa26c035d9": {
+  "feed": "Technica",
+  "title": "Researchers used Claude to hack OpenAI",
+  "link": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cyber researchers broke into OpenAI using its key rival Anthropic’s software, highlighting vulnerabilities in the ChatGPT maker’s security as leading AI companies face mounting scrutiny over safety. A small cyber security group gained access to an OpenAI employee’s ChatGPT account, which permitted them to read private software information and suggest changes."
+  ]
+ },
+ "2ac41d6a4629ca0a": {
+  "feed": "Technica",
+  "title": "Rocket Report: China wants a Raptor 3 engine; SpaceX set for big Starship test",
+  "link": "https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome to Edition 9.11 of the Rocket Report! The most interesting story of the week, in our view, is a deep dive by Stephen Clark, linked below, into the dwindling fortunes of United Launch Alliance. As recently as a decade ago, the launch company, co-owned by Boeing and Lockheed Martin, could claim dominance over the US industry. But those glory days are fading fast."
+  ]
+ },
+ "d723def5dfc740c2": {
+  "feed": "Technica",
+  "title": "After being sidelined, Boeing's Starliner to get starring role in NASA's spaceflight plans",
+  "link": "https://arstechnica.com/space/2026/09/nasa-to-order-more-starliner-missions-and-help-certify-a-new-rocket-to-keep-it-flying/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As it contemplates a future without access to SpaceX's Crew Dragon spacecraft, NASA will make some key moves to ensure that Boeing's Starliner spacecraft, which has a decidedly checkered record in spaceflight to date, is safer and can continue flying after its Atlas V rocket retires. Multiple sources confirmed to Ars that as early as next week, NASA will announce that it will order two additional Starliner crewed missions from Boeing, pay some of the costs to fix the spacecraft's thruster issues, and provide support to certify the spacecraft's launch on a new rocket."
+  ]
+ },
+ "a9680e6eed1a4757": {
+  "feed": "Technica",
+  "title": "A dolphin named Bubbles makes other fish vomit, then eats it",
+  "link": "https://arstechnica.com/science/2026/09/a-dolphin-named-bubbles-makes-other-fish-vomit-then-eats-it/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Staff at the Lady Elliott Island Eco Resort off the southern Great Barrier Reef in Australia are well acquainted with the shenanigans of a male bottlenose dolphin they've nicknamed Bubbles. Bubbles has been around since at least 2017 and regularly harasses local bigeye trevally , chasing a fish around and stressing it so much that the fish throws up what it has consumed."
+  ]
+ },
+ "196370bf574aac38": {
+  "feed": "Apple ML Research",
+  "title": "Dynamically Scaled Activation Steering",
+  "link": "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Activation steering has emerged as a powerful method for guiding the behavior of generative models towards desired outcomes such as toxicity mitigation. However, most existing methods apply interventions uniformly across all inputs, degrading model performance when steering is unnecessary. We introduce Dynamically Scaled Activation Steering (DSAS), a method-agnostic steering framework that decouples when to steer from how to steer."
+  ]
+ },
+ "57daa634e0a67d28": {
+  "feed": "Together AI",
+  "title": "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+  "link": "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How a global fintech scaled coding agent traffic with Dedicated Model Inference Webflow Analyze/Optimize tracking bridge --> The Open Source AI Stack: models, inference, routers, harnesses & tools → 📈 GLM-5.3 vs. GLM 5.3 Flash on DeepSWE → 🚀 DeepSeek V4 Pro 0813 vs. GPT-5.6 Sol on DeepSWE → ⚡ On-demand B200s now available on Together GPU Clusters → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Explore Top Open-Source Models Chat Image Code Vision Video Show all Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Explore Top Open-Source Models Chat Image Code Vision Video Show all Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training From reinforcement learning to full control Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementatio"
+  ]
+ },
+ "0cf2be2f0ba1cd97": {
+  "feed": "MIT News (AI)",
+  "title": "A new chapter for MIT Reads",
+  "link": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As it marks its 10-year anniversary, MIT Reads is being reimagined for the age of artificial intelligence. Recognizing the need to foster social connection and a sense of our shared humanity, the popular MIT Libraries’ program will turn its focus to fiction and memoir, and to the particular power of stories to help us understand ourselves and our place in the world."
+  ]
+ },
+ "fc55e6480f4ee645": {
+  "feed": "Simon Willison",
+  "title": "The Creative Spirit of Who Framed Roger Rabbit",
+  "link": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit , the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from early in the movie: It's a pelican riding a bicycle! Look closely and you'll note that the pelican is animated while the bicycle is a real bicycle."
+  ]
+ },
+ "b86af929e02365cb": {
+  "feed": "Netflix TechBlog",
+  "title": "Leave the Class Path in the Rearview Mirror",
+  "link": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be?source=rss----2615bd06b42e---4",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing composable, module system native and agent friendly command line tools for modern Java development By Danny Thomas, JVM Ecosystem Team Recent work on the Java language to pave the on-ramp has made it easier than ever to start a Java program and evolve it using the full language and platform. At the end of that on-ramp lies Java’s mature build and dependency management ecosystem, capable of carrying software to enormous scale and complexity."
+  ]
+ },
+ "c20a068b82d2253f": {
+  "feed": "Stripe Blog",
+  "title": "Analyzing rising fraud attempts among travel and leisure businesses on Stripe",
+  "link": "https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last year, Stripe data shows fraud attempts against travel and leisure businesses hit a four-year high. We analyzed payment activity from more than 200,000 active travel and leisure businesses on Stripe to understand where fraud is rising, how effectively it’s being blocked, and what businesses can do in response."
+  ]
  }
 }
