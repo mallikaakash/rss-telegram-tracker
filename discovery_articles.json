@@ -3988,5 +3988,25 @@
   "tier": "skip",
   "why": "This is an automated documentation aggregator/table of contents scraping the PyTorch repository with no original analysis or insights.",
   "points": []
+ },
+ "481a4c13e7b35817": {
+  "url": "https://hiteshsahu.com/posts/kubernetes/5-3-Flash-Attention/",
+  "title": "Flash Attention: Fast, Memory-Efficient Attention for LLMs",
+  "domain": "hiteshsahu.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-18",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "88a759d57c10db11": {
+  "url": "https://arxivtldr.org/abs/2609.19145",
+  "title": "TL;DR: Objective vs. Search: Decomposing What Makes a Good Tokeniser | ArXiv TLDR",
+  "domain": "arxivtldr.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-18",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
