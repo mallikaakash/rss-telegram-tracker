@@ -69341,5 +69341,170 @@
   "points": [
    "Author: Will Raphaelson As the number of high-quality cloud hosting options has increased, so too has the number of pricing models for cloud hosting. On one end of the spectrum, there exist simple fixed price options where you rent server space by the month or year, and on the other end, usage-based platforms abstract away servers altogether and charge by the number of requests, traffic volume, or any number of (sometimes) obscure meters."
   ]
+ },
+ "39b208522bb559fd": {
+  "feed": "YC Hacker News",
+  "title": "Hacking OpenAI",
+  "link": "https://www.hacktron.ai/blog/hacking-openai",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "before the body paints so `data-theme` is correct on first render (no FOUC) and re-applies it to the *incoming* document in `astro:before-swap` so the swapped keeps `data-theme` (and thus the critical paint above resolves to the right colors) mid-swap. --> Hacking OpenAI | Hacktron AI Docs D o c s Product P r o d u c t PR Review Catch vulnerabilities in PRs before shipping Automations Automate your security workflows Whitebox Whitebox pentests in hours, not weeks Services S e r v i c e s Pricing P r i c i n g Customers C u s t o m e r s Company C o m p a n y Leadership Meet the elite hackers behind Hacktron Careers See open positions Resources R e s o u r c e s Open Source Free PR security reviews for OSS projects Blog Security research and insights from our team Advisories Coordinated disclosures of vulnerabilities FAQ Common questions about Hacktron, answered Security Changelog Security-only vulnerability fix timelines Scan Dependency File Check your lock file for malicious packages en Change language Toggle theme Toggle menu svg]:px-3 uppercase -me-2 px-3 py-2 h-8 lg:h-9 lg:px-4 lg:py-2 items-center gap-1 hidden 2xl:flex\" data-astro-cid-nen7h5rs> Start for free S t a r t f o r f r e e svg]:px-3 uppercase -me-2 px-3 py-2 h-8 lg:h-9 lg:px-4 lg:py-2 inline-flex items-center gap-1\" data-astro-cid-nen7h5rs> Book a demo B o o k a d e m o Overview Intro Background Hacking community.openai.com Heap buffer overflow in libheif Opus 5 Released Costs of finding these vulnerabilities Epilogue Versions affected and patches Acknowledgements References Blog Hacking OpenAI research Hacking OpenAI A heap overflow and SSO misconfiguration to compromise OpenAI internal repositories Harsh Jaiswal , Mohan Pedhapati , Rahul Maini September 13, 2026 11 min read Subscribe On this page Intro Background Hacking community.openai.com Heap buffer overflow in libheif Opus 5 Released Costs of finding these vulnerabilities Epilogue Versions affected and patches Acknowledgements References Intro On July 25, 2026, we chained two critical vulnerabilities to compromise multiple OpenAI employees’ ChatGPT accounts."
+  ]
+ },
+ "b38892ce5b710bf6": {
+  "feed": "YC Hacker News",
+  "title": "Waymo in Singapore",
+  "link": "https://waymo.com/waymo-in-singapore/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Waymo in Singapore | Learn more about Waymo in the Lion City Skip to main content Rides Rides The world’s first autonomous ride-hailing service Our service Where we operate How it works Technology Waymo Driver The World’s Most Experienced Driver™ Our Technology About Company Our mission: Be the world’s most trusted driver Our History Latest Updates Press Resources Waymo Leadership Safety Safety Because Safety is Urgent™ Safety at Waymo Safety Research Safety Impact Community Community Supporting and empowering communities Community Voices Community Partners Community Impact Careers Careers Find your drive Why Waymo Working at Waymo Teams Early Careers Benefits Open Roles Your web browser does not support this video."
+  ]
+ },
+ "705ff08b9e856585": {
+  "feed": "YC Hacker News",
+  "title": "Jemalloc 5.4.0",
+  "link": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release 5.4.0 · jemalloc/jemalloc · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "4a65016fd02f5305": {
+  "feed": "YC Hacker News",
+  "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+  "link": "https://prismml.com/news/bonsai-2-27b",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "PrismML — Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint About Blog News Careers Contact Docs Models Bonsai 2 27B Bonsai 27B Bonsai 8B Bonsai 4B Bonsai 1.7B Bonsai Image About Blog News Careers Docs LAUNCH 1001011100 11010 1 001 Back to all posts Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint September 17, 2026 • PrismML Two months ago, we released our first Bonsai 27B models and showed that a 27B-class multimodal model could be compressed enough to run efficiently on a local device."
+  ]
+ },
+ "fdbe8e7f4578a08d": {
+  "feed": "YC Hacker News",
+  "title": "The scourge of x86 emulation",
+  "link": "https://fex-emu.com/Scourge-of-emulation/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The scourge of x86 emulation – FEX-Emu – A fast linux usermode x86 and x86-64 emulator Blog Github Discord 🌙 / ☀️ The scourge of x86 emulation Welcome to the first feature article on our site. We’re going to cover an ongoing problem with x86 emulation that affects every application that we emulate. This comes down to a single over-arching term that has wide-reaching ramifications; Emulating the x86 Total Store Ordering memory model (x86-TSO) ."
+  ]
+ },
+ "f5dbcedb0e592751": {
+  "feed": "Technica",
+  "title": "RFK Jr. names 8 new members to influential preventive medicine task force",
+  "link": "https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anti-vaccine Health Secretary Robert F. Kennedy Jr. announced the names of eight new members of a 16-person federal task force intended to make scientifically independent, evidence-based recommendations on an array of preventive medicine services for Americans—from depression screening to statin use, colonoscopies, and mammograms. Recommendations from the panel—the US Preventive Services Task Force (USPSTF)—don't simply provide guidance for Americans; they also determine access."
+  ]
+ },
+ "289b2cb14f501524": {
+  "feed": "Technica",
+  "title": "Small AI models let drones autonomously identify and attack battlefield targets",
+  "link": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As European militaries adapt to the use of AI and drones in modern warfare, a NATO-backed startup is helping to deploy AI-driven target detection and selection that can run on small drones for surveillance and attack missions. The company Scaleout Systems was originally founded by researchers from Uppsala University in Sweden in 2018, and initially focused on training and deploying machine learning models directly on the hardware available in commercial trucks and other vehicles."
+  ]
+ },
+ "beb9711acac3a683": {
+  "feed": "Technica",
+  "title": "Google announces new experimental \"CC\" AI agent for families",
+  "link": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google's AI models may not be in the lead by most measures right now, but the company does have one key advantage: your data. If you're deep in the Google ecosystem, Gemini models have a lot of context on you already. Google's latest Google Labs experiment, known as CC , aims to expand that kind of customization to the whole family. CC is an evolution of something that Google announced in 2025."
+  ]
+ },
+ "01982aadb2ec9850": {
+  "feed": "Technica",
+  "title": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
+  "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For years, Microsoft and OpenAI have fought to keep certain information out of the public eye in their fight with news organizations that have accused the AI firms of teaming up to violate copyright laws by stealing tons of news content to train AI. However, now the details that should never have been marked confidential are starting to leak. In a motion for summary judgment that was unsealed Thursday from news plaintiffs led by The New York Times, internal documents are exposed that news groups alleged show exactly how Microsoft and OpenAI viewed the threat to news before unleashing new AI products like ChatGPT and Copilot."
+  ]
+ },
+ "efa840d232707a5f": {
+  "feed": "Technica",
+  "title": "Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites",
+  "link": "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "US Rep. Darrell Issa (R-Calif.) has proposed a law that would require Internet service providers and other network operators to block foreign piracy websites. Issa's bill would help copyright holders obtain judicial blocking orders to be served to ISPs, domain name resolution services, and virtual private networks. Issa, who is retiring from the House at the end of this year, is the latest in a string of Republican and Democratic lawmakers to propose a site-blocking regime that's been sought by the Motion Picture Association (MPA)."
+  ]
+ },
+ "26cb68725f0f97ad": {
+  "feed": "Google Research",
+  "title": "The future of practice: Enabling teachers to create learning interactives with generative UI",
+  "link": "https://research.google/blog/the-future-of-practice-enabling-teachers-to-create-learning-interactives-with-generative-ui/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The future of practice: Enabling teachers to create learning interactives with generative UI Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "964ae1dd0facf551": {
+  "feed": "OpenAI News",
+  "title": "How Cooley is accelerating IPO work with ChatGPT",
+  "link": "https://openai.com/index/cooley-gopublic",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Cooley is accelerating IPO work with ChatGPT | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 17, 2026 How Cooley is accelerating IPO work with ChatGPT Cooley’s GO Public offering uses ChatGPT Work to surface issues earlier, focus expertise, and help clients reach market faster."
+  ]
+ },
+ "acc67ef32e42e5a2": {
+  "feed": "Simon Willison",
+  "title": "Be alert: targeted attacks on prominent Rustaceans",
+  "link": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates that is attempting to compromise devices and accounts in order to use them to publish malware. A video call is set up for something positive — maybe for a job, maybe for a project, maybe for a contract opportunity — and then that's used as a vector to either get the target to install something on their computer (such as a purportedly missing audio codec) or execute another command (for example, via putting a command on the clipboard)."
+  ]
+ },
+ "e4addcf48f06208d": {
+  "feed": "Simon Willison",
+  "title": "How To Write With An LLM",
+  "link": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule!"
+  ]
+ },
+ "2f269a03d10ac235": {
+  "feed": "Simon Willison",
+  "title": "Self-generated prompt injections in compaction summaries",
+  "link": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+  "date": "2026-09-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". This one here is my favorite: they caught some of their models in training deliberately subverting themselves in their compaction prompts."
+  ]
  }
 }
