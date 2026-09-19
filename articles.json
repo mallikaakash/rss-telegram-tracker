@@ -70133,5 +70133,88 @@
   "points": [
    "For decades, astronomers thought rings were something only giant planets had. That changed in 2013, when a small, dark body orbiting between Saturn and Uranus passed in front of a star and blinked twice on either side of the main event, revealing two narrow rings around an object barely 250 kilometers across. “It was a surprise,” says Pablo Santos-Sanz, an astronomer at the Instituto de Astrofísica de Andalucía in Granada, Spain."
   ]
+ },
+ "f56b60ed4fab98e3": {
+  "feed": "YC Hacker News",
+  "title": "A graphical desktop for the ZX Spectrum",
+  "link": "https://github.com/mindbox77/zxdesk",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "This is a retrocomputing hobby project writing a GUI OS for the 1982 ZX Spectrum in Z80 assembly, outside your backend/ML focus.",
+  "points": [
+   "Implements overlapping windows, a memory heap, and event queue in 48K RAM using Z80 assembly."
+  ]
+ },
+ "28f5c2dee5be6445": {
+  "feed": "YC Hacker News",
+  "title": "Tin: full-text search for Postgres",
+  "link": "https://planetscale.com/blog/introducing-tin",
+  "date": "2026-09-19",
+  "tier": "must_read",
+  "why": "This is a high-value backend infrastructure deep-dive from PlanetScale on building high-performance storage and indexing engines inside Postgres.",
+  "points": [
+   "Introduces TIN, a native Postgres index supporting BM25 ranking, phrase queries, and concurrent updates without external search clusters.",
+   "Engineered for high throughput using 48-bit document identifiers, query work elision, and SIMD vectorization.",
+   "Architected specifically to solve Postgres MVCC and vacuuming bottlenecks during heavy concurrent writes."
+  ]
+ },
+ "0a076ef91a5da668": {
+  "feed": "YC Hacker News",
+  "title": "Black Holes or Black Hole Stars? Astronomers Spar over 'Little Red Dots'",
+  "link": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "This is an astrophysics journalism piece on JWST observations of early universe objects, unrelated to your technical work.",
+  "points": [
+   "Astronomers debate whether JWST's 'little red dots' are supermassive black holes or exotic supermassive stars."
+  ]
+ },
+ "015468c32f0c4313": {
+  "feed": "YC Hacker News",
+  "title": "Asking Authors About Their Own Papers",
+  "link": "https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0",
+  "date": "2026-09-19",
+  "tier": "worth_a_skim",
+  "why": "Provides direct visibility into the state of peer review and the surge of low-effort, AI-assisted ML paper submissions from a TMLR Editor-in-Chief.",
+  "points": [
+   "Out of 10 authors contacted before desk rejection, 6 could not explain basic technical details or high-level ideas of their own papers.",
+   "Highlights the breakdown of publication authorship as a reliable hiring and competence signal in the generative AI era.",
+   "Authors were often independent or students unable to verify or defend the code and theory submitted under their names."
+  ]
+ },
+ "642b2491b39a8f7c": {
+  "feed": "YC Hacker News",
+  "title": "Agreement between the USA and Denmark (1951,2004) [pdf]",
+  "link": "https://www.state.gov/wp-content/uploads/2019/02/04-806-Denmark-Defense.done_.pdf",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "This is a garbled PDF text dump of a historical US-Denmark bilateral treaty, completely irrelevant.",
+  "points": [
+   "Corrupted binary text of a 1951/2004 diplomatic agreement."
+  ]
+ },
+ "00e72da2b937ce66": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Why I still haven’t bought into true RSI",
+  "link": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+  "date": "2026-09-19",
+  "tier": "must_read",
+  "why": "Directly addresses frontier LLM progress, evaluating scaling law limits, agent parallelization bottlenecks, and recursive self-improvement realism.",
+  "points": [
+   "Argues against imminent recursive self-improvement, proposing 'lossy self-improvement' where progress hits rapid diminishing returns.",
+   "Identifies exponential compute scaling laws and narrow automatable research tasks as hard ceilings for autonomous agent swarms.",
+   "Contrasts hyper-anxious frontier lab culture with actual physical and political resource bottlenecks in training next-gen models."
+  ]
+ },
+ "47336030addf468e": {
+  "feed": "Simon Willison",
+  "title": "California Sea Lion, Brandt's Cormorant",
+  "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+  "date": "2026-09-19",
+  "tier": "low_priority",
+  "why": "A personal wildlife photography note with zero engineering or machine learning relevance.",
+  "points": [
+   "A photo log of sea lions and cormorants in Pillar Point Harbor."
+  ]
  }
 }
