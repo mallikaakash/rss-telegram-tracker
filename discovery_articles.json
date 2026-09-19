@@ -4008,5 +4008,49 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "62fa60ac97652acd": {
+  "url": "https://temperature2.com/p/2026-09-16-did-you-know-grpo-reasoning-rl/",
+  "title": "GRPO: How DeepSeek Trained Reasoning Without a Critic",
+  "domain": "temperature2.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-19",
+  "tier": "skip",
+  "why": "Rehashes widely known concepts from the DeepSeek-R1 paper and subsequent RL literature without contributing original experimental findings or deep engineering postmortems.",
+  "points": []
+ },
+ "0f7f2acca4e43121": {
+  "url": "https://theaiengineer.substack.com/p/reinforce-vs-ppo-vs-dpo-vs-grpo",
+  "title": "REINFORCE vs PPO vs DPO vs GRPO, Which to Use",
+  "domain": "theaiengineer.substack.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-19",
+  "tier": "skip",
+  "why": "High-level newsletter explainer covering basic differences between post-training RL algorithms tailored for broad educational consumption.",
+  "points": []
+ },
+ "effd2105ffc70e60": {
+  "url": "https://arxiv.org/abs/2609.20166",
+  "title": "[2609.20166] Small Enough to Know Everything: The Fully-Enumerable Transformer as an Instrument for the Science of Delayed Generalization",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-19",
+  "tier": "hidden_gem",
+  "why": "A rigorous, original paper presenting a novel experimental methodology that uses tiny, fully-enumerable transformers as falsifiable model organisms to study delayed generalization (grokking) across a 4,000x parameter span.",
+  "points": [
+   "Treats tiny, fully-enumerable transformers (12K parameters) as exact scientific instruments where every input, generalization ceiling, and weight can be directly measured across hundreds of seeds.",
+   "Presents a preregistered conservation study verifying that task-side laws (recoverability-ceiling and role-conflict delay) hold across 12K, 1M, and 50M parameters (Spearman rho >= 0.75, p < 1e-4).",
+   "Shows that deviations at scale are themselves lawful: while ceiling and delay laws conserve, the weight-decay response law steepens systematically with scale."
+  ]
+ },
+ "35b715b9cb5634fa": {
+  "url": "https://p.rst.im/q/gitHub.com/lamhotsiagian/llm-system-design",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-19",
+  "tier": "skip",
+  "why": "A scraped or misrouted mirror listing for a static resource web proxy with no relevant technical analysis.",
+  "points": []
  }
 }
