@@ -70339,5 +70339,93 @@
   "points": [
    "Resolves session expiry in Mobile Safari by adding Max-Age to cookies and releases v1.0."
   ]
+ },
+ "de5be036637110d4": {
+  "feed": "YC Hacker News",
+  "title": "AI and the Destruction of the Creative Commons",
+  "link": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI and the Destruction of the Creative Commons AI and the Destruction of the Creative Commons Home About Posts Projects AI and the Destruction of the Creative Commons September 13, 2026 AI LLMs OpenAI Anthropic Copyright License Open Source The balance of software copyright protection and openness has always been fraught with minutiae and detail that bores all but the most nerdy of pedants."
+  ]
+ },
+ "b6ad19eb6a85feae": {
+  "feed": "YC Hacker News",
+  "title": "If AI coding is lowering your code quality, you're not managing quality right",
+  "link": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "If AI coding is lowering your code quality, you’re not managing quality right Iouri Khramtsov Subscribe Sign in If AI coding is lowering your code quality, you’re not managing quality right Iouri Khramtsov Sep 14, 2026 Share One common take on the coding agents that I see goes something like this: “Sure, AI helps you output more code, but won’t the quality suffer?” It certainly will if you just blindly merge the PRs and send them off to prod."
+  ]
+ },
+ "36f0770f71563f2c": {
+  "feed": "YC Hacker News",
+  "title": "Why Do We Need Human Mathematicians Anymore?",
+  "link": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why Do We Need Human Mathematicians Anymore? | What's new What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics. By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed Why Do We Need Human Mathematicians Anymore? 19 September, 2026 in guest blog , opinion | Tags: Po-Shen Loh | by Terence Tao [This is a guest post by Po-Shen Loh , crossposted from his blog , where an illustrated version appears."
+  ]
+ },
+ "51e7581e90f58ad7": {
+  "feed": "YC Hacker News",
+  "title": "I'm Tired of the AI Tone",
+  "link": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I'm tired of the AI tone | Sagiv Ofek Skip to main content sagiv ofek blog angel open source All posts 2026 I'm tired of the AI tone Quoted $1M for AI code review. Built it for free. The Rise of the Backwards Deployed Engineer Distribution is the New Engineering 2025 SaaS is the new mall Specialist is Dead. Long Live the Generalist! Everyone Sounds the Same 2024 Knowledge is a Commodity 2023 How to plan a team offsite How to choose your startup investors 2022 Startup ideas for 2022 A confession of a FAANG hiring manager Back in the arena 2021 Crypto Billboard Dear recruiter - a canned response to a canned email Time is (your only) money Startup ideas for 2021 2020 How to become an ETH2 validator?"
+  ]
+ },
+ "e6d56593e98f4957": {
+  "feed": "YC Hacker News",
+  "title": "English: A vs. An",
+  "link": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "English: a vs an English: a vs an from Red Blob Games’s Blog Home Blog Links Bluesky About Blog post: 16 Sep 2026 {Note: this is a short blog post introducing the actual project page } In English, there is an “indefinite” article a that can go before a word. For example, a raccoon . But for some words, we use an . For example, an apple . When procedurally generating text, I want a function a_or_an(\"apple\") that tells me which article to use."
+  ]
+ },
+ "2fab1312f6e2614f": {
+  "feed": "Technica",
+  "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+  "link": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Before two of its alleged members were arrested and charged in Australia last month, the hacker group known as TeamPCP carried out a hacking spree unlike any other in history. It tainted hundreds of open-source programs with its malware, stole developer accounts to perpetuate that software supply-chain hacking, and even released a Dune -themed self-spreading worm to automate the process, ultimately breaching more than a thousand companies."
+  ]
+ },
+ "6449f8efc30e8226": {
+  "feed": "Technica",
+  "title": "Don't call it an SUV: The Ferrari Purosangue review",
+  "link": "https://arstechnica.com/cars/2026/09/dont-call-it-an-suv-the-ferrari-purosangue-review/",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ferrari’s two-seat sports cars might be the brand’s identity, but the Italian automaker has always catered to customers who want to bring more than one passenger along for the ride. It started building cars with back seats in the 1960s with the 250 GT 2+2; as the name suggests, the second row was more for occasional use, something that was true all the way through to the 612 in the early 2000s."
+  ]
+ },
+ "130f9eb6783813c8": {
+  "feed": "Technica",
+  "title": "T. rex teeth indicate it ran as warm as an elephant",
+  "link": "https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/",
+  "date": "2026-09-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For most of the last century, T. rex was pictured as a sluggish, tail-dragging reptile that had to warm up in the sun before it could go anywhere. Then, further research changed that view, replacing it with the active, bird-like animal shown in the movie Jurassic Park . But whether T. rex used warm blood to power that activity remained a question. Now we might have gotten closer to an answer."
+  ]
  }
 }
