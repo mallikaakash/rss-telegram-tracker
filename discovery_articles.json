@@ -4052,5 +4052,85 @@
   "tier": "skip",
   "why": "A scraped or misrouted mirror listing for a static resource web proxy with no relevant technical analysis.",
   "points": []
+ },
+ "92722e3b1f075944": {
+  "url": "https://john463212.substack.com/p/part-4-v3-inference-and-serving-models",
+  "title": "Part 4: V3, Inference, and Serving models live - John",
+  "domain": "john463212.substack.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-20",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "92cedb6dcc917030": {
+  "url": "https://jaehun.me/en/posts/miles-v0.1-production-level-post-training/",
+  "title": "Miles v0.1: Production-Level Post-Training |\nJaehun's Blog",
+  "domain": "jaehun.me",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-20",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "b3ea1ae66f5898b2": {
+  "url": "https://futureagi.com/blog/how-grpo-trains-deepseek-reasoning-llms-2026/",
+  "title": "How DeepSeek-R1 Was Trained: The GRPO Recipe",
+  "domain": "futureagi.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-20",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "be2a6aae09447453": {
+  "url": "https://futureagi.com/blog/what-is-grpo-llm-reinforcement-learning-2026/",
+  "title": "GRPO Explained: Group Relative Policy Optimization",
+  "domain": "futureagi.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-20",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "62f50f9f46186452": {
+  "url": "https://notes.elimelt.com/ml/serving-systems/gpu-interconnects",
+  "title": "GPU Interconnects and Collective Communication",
+  "domain": "notes.elimelt.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-20",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "d9b837d239817f38": {
+  "url": "https://notes.elimelt.com/ml/serving-systems/distributed-training",
+  "title": "Distributed Training of Large Language Models",
+  "domain": "notes.elimelt.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-20",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "eae5c50a6e1232c8": {
+  "url": "https://github.laiyagushi.com/killbynothing/Unified_Inference_Engine",
+  "title": "GitHub - killbynothing/Unified_Inference_Engine · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-20",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "287ea5f0ac10657b": {
+  "url": "https://www.linkedin.com/posts/suffyanali_kubernetes-kubernetesengineer-cloudnative-activity-7498657885040734209-6P6W",
+  "title": "Everyone is talking about GPUs. Nobody is talking about the thing that actually decides if your AI workload survives production. | Suffyan Ali",
+  "domain": "linkedin.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-20",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
