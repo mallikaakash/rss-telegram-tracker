@@ -70537,5 +70537,93 @@
   "points": [
    "GitHub - kyle-pena-nlp/jevchat: Turns Jev into a chatbot · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
   ]
+ },
+ "3b45c2112693d852": {
+  "feed": "YC Hacker News",
+  "title": "Grim Fandango Puzzle Document (1996) [pdf]",
+  "link": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf",
+  "date": "2026-09-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "%PDF-1.6 %���� 400 0 obj > endobj 405 0 obj >/Filter/FlateDecode/ID[ ]/Index[400 7]/Info 399 0 R/Length 36/Prev 2407541/Root 401 0 R/Size 407/Type/XRef/W[1 2 0]>>stream h�bbd\u0010`b`�ab`�bb`�\u0000���\u0018��\u0006�=\u0001\u0002 \u0000\"�\u0003� endstream endobj startxref 0 %%EOF 406 0 obj >stream h�b```f``Rg\u0000\u0002�] \" \b\u0000a�0p|Qz\u0010�ȑU ��꠰%���i\u0003S�C�&�\u001a���LV ����\u0002�\u0005�g\u0015\u0004�['\b�qL > endobj 402 0 obj >>>/Rotate 0/Type/Page>> endobj 403 0 obj >stream q 612 0 0 773 0 0 cm /Img1 Do Q endstream endobj 404 0 obj >/Filter/DCTDecode/Height 3224/Length 1008150/Name/Img1/Subtype/Image/Type/XObject/Width 2520>>stream ����\u0000\u0010JFIF\u0000\u0001\u0001\u0001,\u0001,\u0001\u0000\u0000��\u0000C\u0000\b\u0006\u0007 \u0007\u0006\u0007 \u000f \u0014 \u0006\u0005\b ,0# \u001a \b\u0007 \u0019 $ 1=84 ."
+  ]
+ },
+ "ea087dc9487ce483": {
+  "feed": "YC Hacker News",
+  "title": "AX – Google’s Open Agentic Orchestrator",
+  "link": "https://agentexecutor.io",
+  "date": "2026-09-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AX AX GitHub Declare an agentic task. AX runs it at scale. AX sandboxes your task, wires up its workspace, fences its network, and helps you run billions of them per cluster. Either use a single task per agent, or compose as many as your agent needs. Get started View on GitHub Pause $ cat task.yaml apiVersion: ax.io/v1alpha1 kind: Workspace metadata: name: golang spec: git: - repo: https://github.com/golang/go.git branch: \"my-fix\" --- apiVersion: ax.io/v1alpha1 kind: Task metadata: name: test spec: workspaces: - name: golang goal: \"Ensure that Go tool chain is available and is built from source\" debug: true $ ax apply -f task.yaml workspace.ax.io/golang created task.ax.io/test created $ ax watch task test Watching task default/test..."
+  ]
+ },
+ "8db79723e7adda31": {
+  "feed": "YC Hacker News",
+  "title": "What happened to the Snowden archive",
+  "link": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+  "date": "2026-09-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What happened to the Snowden archive - Libroot.org Libroot.org about projects posts What happened to the Snowden archive Published on 20 Sept 2026 The last document from the Snowden archive was published on 29 May 2019. The Guardian stopped publishing documents in February 2014, Der Spiegel in January 2015, and The New York Times and ProPublica in August 2015."
+  ]
+ },
+ "f17b71af291af540": {
+  "feed": "YC Hacker News",
+  "title": "Winning the visa lottery",
+  "link": "https://www.aeaweb.org/research/immigration-restrictions-firms-workers",
+  "date": "2026-09-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Winning the visa lottery This website uses cookies. By clicking the \"Accept\" button or continuing to browse our site, you agree to first-party and session-only cookies being stored on your device to enhance site navigation and analyze site performance and traffic. For more information on our use of cookies, please see our Privacy Policy . Accept Menu Journals Annual Meeting Careers Resources EconLit Committees Ethics/Ombuds Membership About AEA Log In Home Research Highlights Winning the visa lottery Research Highlights Article August 13, 2026 Winning the visa lottery Evidence from a US government lottery shows that restricting foreign low-skill workers shrinks businesses without creating jobs for Americans."
+  ]
+ },
+ "984907575a7e8c24": {
+  "feed": "YC Hacker News",
+  "title": "The Effect of CRTs on Pixel Art (2024)",
+  "link": "https://datagubbe.se/crt/",
+  "date": "2026-09-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Effect of CRTs on Pixel Art | datagubbe.se { datagubbe } datagubbe.se » the effect of crts on pixel art The Effect of CRTs on Pixel Art On Cathode Ray Tubes, nostalgia and anachronisms. Summer 2024 A follow-up to this text is available here . It goes into much greater detail about signal quality, and also examines how pixel art techniques have been used on non-CRT systems."
+  ]
+ },
+ "3db7829d04e1e559": {
+  "feed": "Simon Willison",
+  "title": "Quoting voxium",
+  "link": "https://simonwillison.net/2026/Sep/20/voxium/",
+  "date": "2026-09-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow?"
+  ]
+ },
+ "54ed4b673b9e8ece": {
+  "feed": "Simon Willison",
+  "title": "llm-keys-ui 0.1",
+  "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+  "date": "2026-09-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly."
+  ]
+ },
+ "69497bfa343c0986": {
+  "feed": "Simon Willison",
+  "title": "datasette-explain 0.2.2",
+  "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+  "date": "2026-09-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-explain 0.2.2 Simon Willison’s Weblog Subscribe Sponsored by: Teleport — See what 13 engineers learned from “pressure washing” their codebase using LLMs for 90 days. Hint: Quality > quantity for finding security vulnerabilities. 20th September 2026 Release datasette-explain 0.2.2 — Explain and validate SQL queries as you type them into Datasette Explain plans now work on read-only stored-query pages."
+  ]
  }
 }
