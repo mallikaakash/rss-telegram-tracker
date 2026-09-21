@@ -70768,5 +70768,192 @@
   "points": [
    "We introduced Python Workers two years ago, providing a way to run Python applications in the Cloudflare Workers runtime. Our goal was to make it as simple to write Workers in Python as it is in TypeScript, and to make the ecosystem of Python packages and frameworks “just work”. Today, Python Workers are now generally available (GA). What does GA mean?"
   ]
+ },
+ "6eeee864170986ca": {
+  "feed": "YC Hacker News",
+  "title": "The NASA/ESA Mars Sample Return mission has been canceled",
+  "link": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "dfd00f6ab1517261": {
+  "feed": "YC Hacker News",
+  "title": "Attention is all you have",
+  "link": "https://alicegg.tech/2026/09/21/attention",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Attention is all you have Alice GG Posted on September 21, 2026 Attention is all you have The Tetris effect is one of psychology’s most easy to reproduce experiments. Simply spend a bit of time playing the eponymous game every day for a few weeks. After a little while, you’ll start recognizing familiar Tetromino shapes in clouds, buildings, and everyday objects."
+  ]
+ },
+ "4e508a2c3cc6b408": {
+  "feed": "YC Hacker News",
+  "title": "Why Does an NPM Math Library Need an Encrypted Loader?",
+  "link": "https://safedep.io/mathmain-encrypted-loader/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why Does an npm Math Library Need an Encrypted Loader? - Real-time Open Source Software Supply Chain Security New Blog: Malicious Rust Crate arrayref Runs a Build-Time Payload • 20 Aug 2026 Product Discover & Monitor SCA & SBOM Scan dependencies, generate SBOMs, enforce policy. AI Agent Discovery See every AI tool and SDK in your org. AI Agent Monitoring Audit every action your AI agents take."
+  ]
+ },
+ "47c9d6525399a676": {
+  "feed": "YC Hacker News",
+  "title": "In Search of a Compositional Theory of Self-Stabilization",
+  "link": "http://muratbuffalo.blogspot.com/2026/09/in-search-of-compositional-theory-of.html",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In Search of a Compositional Theory of Self-Stabilization Skip to main content Search This Blog Metadata On distributed systems broadly defined and other curiosities. The opinions on this site are my own. In Search of a Compositional Theory of Self-Stabilization Get link Facebook X Pinterest Email Other Apps - September 21, 2026 My literature search for recent work on composing self-stabilizing systems didn't yield anything useful."
+  ]
+ },
+ "17eb8b7818e287db": {
+  "feed": "YC Hacker News",
+  "title": "The Advisory Group on Mathematics and Artificial Intelligence",
+  "link": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Announcing the Advisory Group on Mathematics and Artificial Intelligence | What's new What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics. By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed Announcing the Advisory Group on Mathematics and Artificial Intelligence 21 September, 2026 in advertising , math.GM | Tags: AI , Camilo De Lellis , Edward Witten , Francois Charles , Martin Hairer , Melanie Matchett Wood , Nikhil Srivastava , Ravi Vakil , Timothy Gowers , Ulrike Tillman | by Terence Tao [This is a guest post by the Advisory Group on Mathematics and Artificial Intelligence ."
+  ]
+ },
+ "f79a067193d73a77": {
+  "feed": "Technica",
+  "title": "Google confirms Gemini models hacked three companies in May 2026",
+  "link": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It has become increasingly common for AI firms to announce that their latest and most capable models engaged in unauthorized real-world hacking. Google, which has been slow to release frontier Gemini models in recent months, has been absent from the \"rogue AI\" conversation until now. Following a Wall Street Journal report, Google has confirmed that Gemini models hacked three companies during a May 2026 test, but the nature of the intrusion isn't as troubling (or impressive) as previous AI hacks."
+  ]
+ },
+ "5169d5a0c73e613f": {
+  "feed": "Technica",
+  "title": "Russel Vought will reportedly be given veto power over all NIH grants",
+  "link": "https://arstechnica.com/science/2026/09/trump-planning-to-hand-veto-power-over-nih-grants-to-political-appointee/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On Friday, The Washington Post reported on a contentious White House meeting in which the director of the National Institutes of Health (NIH), Jay Bhattacharya, tried to fend off yet another effort to place funding decisions under political control. The move came from Russell Vought, head of the Office of Management and Budget (OMB), which has sought to limit and control research funds."
+  ]
+ },
+ "a9c684051bd08a3a": {
+  "feed": "Technica",
+  "title": "California settles lawsuit against Paramount/Warner merger, angering advocates",
+  "link": "https://arstechnica.com/tech-policy/2026/09/california-settles-lawsuit-against-paramount-warner-merger-angering-advocates/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "California and Paramount Skydance have reportedly reached a settlement allowing the company to complete its $111 billion merger with Warner Bros. Discovery. The settlement, which will reportedly be announced later today, drew condemnation from Democrats and media advocates. \"The Paramount/Warner Brothers merger seems facially illegal, and the state AG lawsuit challenging it is very strong,\" Lina Khan, who chaired the Federal Trade Commission during the Biden administration, wrote yesterday."
+  ]
+ },
+ "a7f35bf45e5f5560": {
+  "feed": "Technica",
+  "title": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
+  "link": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Donald Trump has said that the US would appoint a new AI tsar and create an “AI Force” while offering a full-throated defense of the emerging industry in the face of a growing popular backlash. The US president’s announcement comes as leading industry figures have sounded the alarm that humans could lose control over the rapidly advancing technology without a slowdown in development."
+  ]
+ },
+ "5671b4bec0d8c2e1": {
+  "feed": "Technica",
+  "title": "Review: Neagley is a worthy spinoff to megahit Reacher",
+  "link": "https://arstechnica.com/culture/2026/09/review-neagley-is-a-worthy-spinoff-to-megahit-reacher/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Prime Video looks to have another hit on its hands with Neagley , a new spinoff series set in the same universe as the streaming platform’s critically acclaimed Reacher , now in its fourth season. Both shows are solidly addictive escapist fare, and while Neagley has some uneven elements, it mostly sticks to the successful formula while exploring new ground to give a very different main character her due."
+  ]
+ },
+ "b7a5473aeebc2603": {
+  "feed": "Microsoft Research",
+  "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+  "link": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a glance We report on the recent publication of our retrosynthesis model RetroChimera in the journal Nature (opens in new tab) . The paper describes the model’s architecture as well as extensive validation studies, including the model’s ability to recall rare reaction types, and successful zero-shot transfer and fine-tuning on proprietary datasets."
+  ]
+ },
+ "a7ca59844a94ccd6": {
+  "feed": "OpenAI News",
+  "title": "Advisory Group on Mathematics and Artificial Intelligence",
+  "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Advisory Group on Mathematics and Artificial Intelligence | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 21, 2026 Company Advisory Group on Mathematics and Artificial Intelligence Loading… Share On August 28, we began training a new internal model."
+  ]
+ },
+ "d37f5b2c59270d01": {
+  "feed": "OpenAI News",
+  "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+  "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Higgsfield AI ships new video features in a day with GPT-6 Astra | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 21, 2026 Startup Higgsfield AI ships new video features in a day with GPT‑6 Astra With GPT‑6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster."
+  ]
+ },
+ "2c9792fbb14ae5db": {
+  "feed": "OpenAI News",
+  "title": "Building standards for the next phase of AI",
+  "link": "https://openai.com/index/building-standards-next-phase-ai",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Building standards for the next phase of AI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 21, 2026 Global Affairs Building standards for the next phase of AI Loading… Share RSI RSI International standards (1) A mechanism that facilitates complementary national and international frontier standards (2) Common measurements and incident reporting protocols for better collective action The United States should lead RSI International standards (1) A mechanism that facilitates complementary national and international frontier standards (2) Common measurements and incident reporting protocols for better collective action The United States should lead Our mission is to ensure that artificial general intelligence benefits all of humanity."
+  ]
+ },
+ "530db518a73a5717": {
+  "feed": "OpenAI News",
+  "title": "Expanding OpenAI Academy with new learning paths",
+  "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Expanding OpenAI Academy with new learning paths | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI September 21, 2026 Company Expanding OpenAI Academy with new learning paths Role-based learning helps employees, developers, leaders, educators, and students build practical AI skills and demonstrate what they’ve learned."
+  ]
+ },
+ "178c10402999a979": {
+  "feed": "Simon Willison",
+  "title": "MCP was always a bad idea?",
+  "link": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My comment on MCP was always a bad idea? — Hacker News. This article entirely misses the value that MCP brings today. Sure, there's almost no reason to use MCPs if you are running a full-blown terminal agent (Claude Code, Codex, Meta Muse, OpenClaw etc) with unfettered internet access - just let it call APIs directly. If you want to operate something that's less YOLO than that, you'll find yourself wanting: Control over exactly which external services it can access A way to handle authentication that doesn't allow the agent to directly access API keys A sensible UI to allow users to connect and authenticate further services Strong audit logging for what's going on MCP makes all of that so much easier to provide."
+  ]
+ },
+ "55a91808afcc3118": {
+  "feed": "Meta Engineering",
+  "title": "Open-Sourcing Rebalancer: A Generic, High-Performance Library for Solving Assignment Problems",
+  "link": "https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’re open-sourcing Rebalancer , the assignment-problem solver that has been used to solve resource allocation problems throughout Meta for over nine years. Rebalancer separates several related concerns: how to specify an assignment problem, how to store it efficiently in memory, how to solve it, and how to debug it. This separation of concerns is crucial to Rebalancer’s usability, scalability, and extensibility."
+  ]
  }
 }
