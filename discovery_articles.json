@@ -4132,5 +4132,15 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "224215e00c94b658": {
+  "url": "https://blog.phagyul.ai/p/from-managed-services-to-primitives",
+  "title": "From Managed Services to Primitives (DX vs DIY)",
+  "domain": "blog.phagyul.ai",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-21",
+  "tier": "skip",
+  "why": "The text cuts off right after the introduction, providing virtually no technical substance, benchmarks, or architectural specifics.",
+  "points": []
  }
 }
