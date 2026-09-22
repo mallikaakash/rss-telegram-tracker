@@ -71340,5 +71340,169 @@
   "points": [
    "New trends in global card fraud: How 3D Secure and regional mandates are affecting risk 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in See all products Explore our full product catalog Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 125+ Terminal In-person payments Authorization Boost Acceptance optimizations Link Accelerated checkout Financial Connections Linked financial account data Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Platforms and marketplaces Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Radar Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI."
   ]
+ },
+ "dfc615803e71af47": {
+  "feed": "YC Hacker News",
+  "title": "GPT-6 Sol and Luna",
+  "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "date": "2026-09-23",
+  "tier": "worth_a_skim",
+  "why": "Strategically important major model tier release and 50% API price reduction directly impacting LLM system economics.",
+  "points": [
+   "GPT-6 Sol cuts input/output prices by 50% ($2/$10 per million tokens) while outperforming Claude Opus 5 on AutomationBench at 9% of the cost.",
+   "GPT-6 Luna drops to $0.10/$0.50 per million tokens, targeting high-volume agentic tasks.",
+   "Duplicate of item 11."
+  ]
+ },
+ "766be4c87beead30": {
+  "feed": "YC Hacker News",
+  "title": "SAML: A Fractal of Bad Design",
+  "link": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+  "date": "2026-09-23",
+  "tier": "worth_a_skim",
+  "why": "A solid backend security deep-dive from Trail of Bits on why SAML's XML signature design is fragile and why systems should migrate to OIDC.",
+  "points": [
+   "Explains how SAML's reliance on XML canonicalization and enveloped signatures creates structural security vulnerabilities.",
+   "Highlights the operational risks of relying on complex, unmaintained C libraries like libxmlsec for authentication.",
+   "Advocates standardizing modern federated identity on JSON-based OpenID Connect."
+  ]
+ },
+ "f9da3b4b56b242db": {
+  "feed": "YC Hacker News",
+  "title": "Native apps written in TypeScript and CSS",
+  "link": "https://github.com/geastack/examples",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "Frontend and embedded UI framework repo irrelevant to ML systems, training, or backend engineering.",
+  "points": [
+   "Showcases example applications for GeaStack targeting web, ESP32, and Apple devices using TypeScript and CSS."
+  ]
+ },
+ "0ae28eab3fcb4464": {
+  "feed": "YC Hacker News",
+  "title": "Unreal Agent",
+  "link": "https://unreallabs.ai/blog/unreal-agent/",
+  "date": "2026-09-23",
+  "tier": "worth_a_skim",
+  "why": "Addresses practical LLM agent engineering and latency/cost optimization in production workflows.",
+  "points": [
+   "Decouples tool management from LLM calls by appending asynchronous 'in-progress' tool states to the session event log.",
+   "Allows continuous user steering and parallel background tasks (e.g. dev environment setup) without burning token overhead.",
+   "Reports up to 40% cost savings compared to OpenAI Codex agent runs on coding and agent benchmarks."
+  ]
+ },
+ "b3a229745acf62d4": {
+  "feed": "YC Hacker News",
+  "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+  "link": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "General mainstream cybersecurity news without technical backend or infrastructure depth.",
+  "points": [
+   "Hacking group ShinyHunters claims breach of FBI employee and applicant PII and defaced the FBI careers portal."
+  ]
+ },
+ "f5795de5b2fbaacf": {
+  "feed": "Technica",
+  "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+  "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "Non-technical legal news regarding AI policy and liability.",
+  "points": [
+   "British Columbia files a lawsuit against OpenAI seeking damages for a school shooting allegedly planned with ChatGPT."
+  ]
+ },
+ "ebd8c3d9c44002cd": {
+  "feed": "Technica",
+  "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
+  "link": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "Consumer video-editing mobile software release with no relevance to your ML/infra stack.",
+  "points": [
+   "Adobe launched a free Android version of Premiere focused on short-form video creation."
+  ]
+ },
+ "e71b03c98eee4dad": {
+  "feed": "Technica",
+  "title": "Protests for Germany’s car industry as job losses loom",
+  "link": "https://arstechnica.com/cars/2026/09/protests-for-germanys-car-industry-as-job-losses-loom/",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "Macroeconomic automotive industry news irrelevant to engineering priorities.",
+  "points": [
+   "German automakers face potential factory closures and layoffs amid falling demand, tariffs, and EV competition from China."
+  ]
+ },
+ "bae7e01b75808be9": {
+  "feed": "Technica",
+  "title": "Trump’s sneaky plan to gut Endangered Species Act draws from 1995 Scalia dissent",
+  "link": "https://arstechnica.com/tech-policy/2026/09/trumps-sneaky-plan-to-gut-endangered-species-act-draws-from-1995-scalia-dissent/",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "Environmental policy and regulatory news outside technical domain.",
+  "points": [
+   "US Fish and Wildlife Service reinterprets Endangered Species Act enforcement based on a 1995 Scalia dissent."
+  ]
+ },
+ "2de9b1ece6a57ef9": {
+  "feed": "Technica",
+  "title": "Dyson’s most overengineered gadget may have a waterproofing problem",
+  "link": "https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "Consumer hardware critique with zero relevance to ML or backend systems.",
+  "points": [
+   "Dyson's $499 CameraJet camera-enabled electric toothbrush reportedly suffers from waterproofing flaws."
+  ]
+ },
+ "b6b1e4118cdbb529": {
+  "feed": "OpenAI News",
+  "title": "Better prompt caching for GPT-6",
+  "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+  "date": "2026-09-23",
+  "tier": "must_read",
+  "why": "Critical inference serving update detailing explicit prompt caching, diagnostic tooling, and reasoning-effort decoupling to optimize LLM serving costs.",
+  "points": [
+   "Introduces explicit cache breakpoints and a 30-minute eligibility window for reused prompt prefixes, offering up to 90% input token discounts.",
+   "Enables dynamic reasoning effort adjustments between turns without busting the existing KV cache.",
+   "Adds a Prompt Caching Dashboard and programmatic diagnostics API to trace exact root causes of cache misses (e.g., tool definition diffs)."
+  ]
+ },
+ "3d48e529ad7a20b1": {
+  "feed": "OpenAI News",
+  "title": "Introducing GPT-6 Sol and Luna",
+  "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+  "date": "2026-09-23",
+  "tier": "worth_a_skim",
+  "why": "Official announcement of OpenAI's new cost-optimized model tier, essential context for model selection and budgeting.",
+  "points": [
+   "Sol and Luna models cut API costs by 50% relative to GPT-5.6 promotional pricing ($2/$10 and $0.10/$0.50 per M tokens respectively).",
+   "Trained using GPT-6 Astra distillation/alignment techniques to deliver high reasoning and tool-use performance at reduced inference cost.",
+   "Primary source for the duplicate story in item 0."
+  ]
+ },
+ "1500813625f0d22c": {
+  "feed": "MIT News (AI)",
+  "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+  "link": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "Academic fellowship and grant announcement irrelevant to ML engineering.",
+  "points": [
+   "MIT's Poitras Center established a $10 million fellowship program funding 50 psychiatric disorder researchers over ten years."
+  ]
+ },
+ "df9ee5d27afc5dae": {
+  "feed": "Simon Willison",
+  "title": "Quoting @therealcornpop",
+  "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+  "date": "2026-09-23",
+  "tier": "low_priority",
+  "why": "Short social media quote commenting on synthetic writing style, lacking technical substance.",
+  "points": [
+   "Highlights the hollow, formulaic stylistic patterns common in AI-generated social media scripts."
+  ]
  }
 }
