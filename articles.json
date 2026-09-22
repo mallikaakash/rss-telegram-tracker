@@ -71065,5 +71065,93 @@
   "points": [
    "Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully supported language on the Cloudflare Developer Platform\". A neat thing about this is how it works. Cloudflare are running Python compiled to WebAssembly via Pyodide in their V8-based workerd runtime."
   ]
+ },
+ "dce74d6d29e9ae53": {
+  "feed": "YC Hacker News",
+  "title": "AI Has No Wisdom and Neither Will You",
+  "link": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI Has No Wisdom and Neither Will You - Alexandru Nedelcu Alex andru Nedelcu ☕️ Blog Wiki About Subscribe AI Has No Wisdom and Neither Will You September 22, 2026 | 5 minutes | Comments In the past month alone I’ve heard these phrases: I haven’t written code since 2025 ; Code reviews are dead ; People no longer read code . Certainly the industry is transforming, however, the people and organizations falling into the trap of no longer reading and writing code only do so at their peril."
+  ]
+ },
+ "6714e565c0d35492": {
+  "feed": "YC Hacker News",
+  "title": "Type Punning in C and C++",
+  "link": "https://blog.pwkf.org/2026/09/21/correct-type-punning-in-c.html",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Type Punning in C and C++ | Personal Workflow Blog Personal Workflow Blog About Comments Tags Index Type Punning in C and C++ Sep 21, 2026 • Steve SCHNEPP c undefined-behavior c++ About 7 min read I had a bug that took me a while to track down. The problem was type punning. A pointer cast worked fine at -O0 and silently broke at -O2 . The C vs C++ distinction here is genuinely treacherous, and most blog posts on the topic get it wrong."
+  ]
+ },
+ "8eca8a565a2c0fc9": {
+  "feed": "YC Hacker News",
+  "title": "AMD's random number generator can't generate a 0?",
+  "link": "https://board.flatassembler.net/topic.php?t=24261",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "flat assembler - AMD's random number generator can't generate a 0 (+ app) flat assembler Message board for the users of flat assembler. Home FAQ --> Search Register Log in to check your private messages Log in Index > Linux > AMD's random number generator can't generate a 0 (+ app) Goto page 1 , 2 Next Author Thread Jessé Joined: 03 May 2025 Posts: 151 Location: Brazil Jessé 11 May 2026, 05:13 Recently, while doing some assembly code to render data intro charts, and using 'rdrand' and 'rdseed' to provide that data to the displayed, I've figured out by accident what appears to be a bug (problem) only with AMD processors (maybe Zen2 only problem): they can't generate a number 0 at a given size!"
+  ]
+ },
+ "ee9d433be83190ee": {
+  "feed": "YC Hacker News",
+  "title": "Can gzip be a language model?",
+  "link": "https://nathan.rs/posts/gzip-lm/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Can gzip be a language model? nathan.rs Writing X Github LinkedIn ☾ Can gzip be a language model? Nathan Barry June 14, 2026 Introduction Compression is prediction Generating by beam search A while back I wrote about language modeling without neural networks , where I generated Shakespeare with an unbounded n-gram model: no weights, no training, just counting."
+  ]
+ },
+ "2d9b0127e08681d9": {
+  "feed": "YC Hacker News",
+  "title": "Will Open Source Survive the Agents That Replaced It?",
+  "link": "https://albertoarena.it/posts/will-open-source-survive-the-agents-that-replaced-it/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comments"
+  ]
+ },
+ "c7abd59cfe1836b7": {
+  "feed": "Technica",
+  "title": "NASA chief: I'm only interested in \"good deals\" from international partners",
+  "link": "https://arstechnica.com/space/2026/09/nasa-chief-im-only-interested-in-good-deals-from-international-partners/",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NASA must be more selective in the way it forges international partnerships as the race to the Moon transforms from a battle for national prestige between the United States and China into a high-stakes competition for extraterrestrial real estate and resources, the agency's administrator said. Jared Isaacman, now in his 10th month at the helm of the world's largest civilian space agency, told a gathering of military leaders and defense contractors last week near Washington, DC, that the 21st century race to the Moon is more than a battle of ideologies."
+  ]
+ },
+ "98acfe91fd30b730": {
+  "feed": "Hugging Face Blog",
+  "title": "Transformers now runs llama.cpp quants",
+  "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Transformers now runs llama.cpp quants Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Transformers now runs llama.cpp quants Published September 22, 2026 Update on GitHub Upvote 14 +8 Marc Sun marcsun13 Follow Arthur Zucker ArthurZ Follow Lysandre lysandre Follow :last-child]:mb-0\"> What is the GGUF file format?"
+  ]
+ },
+ "fb8ad85c459c0cb6": {
+  "feed": "Hugging Face Blog",
+  "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+  "link": "https://huggingface.co/blog/omlx",
+  "date": "2026-09-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community Published September 22, 2026 Update on GitHub Upvote 46 +40 Pedro Cuenca pcuenq Follow Lysandre lysandre Follow Victor Mustar victor Follow Julien Chaumond julien-c Follow Jun Kim Jundot Follow :last-child]:mb-0\"> What is the impact for oMLX?"
+  ]
  }
 }
