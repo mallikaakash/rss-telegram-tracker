@@ -4142,5 +4142,29 @@
   "tier": "skip",
   "why": "The text cuts off right after the introduction, providing virtually no technical substance, benchmarks, or architectural specifics.",
   "points": []
+ },
+ "7b85de21f5cc3ba3": {
+  "url": "https://www.llms.blog/posts/group-relative-policy-optimization-grpo-mathematical-foundations-value-free-advantage-estimation-group-normalization-dynamics-and-scalable-reasoning-rl",
+  "title": "Group Relative Policy Optimization (GRPO): Mathematical Foundations, Value-Free Advantage Estimation, Group Normalization Dynamics, and Scalable Reasoning RL — LLMs Blog",
+  "domain": "llms.blog",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-22",
+  "tier": "skip",
+  "why": "This is a generic, SEO-style rehash explaining DeepSeek's GRPO algorithm without novel empirical findings, benchmarks, or original engineering insights.",
+  "points": []
+ },
+ "613906844e088ee3": {
+  "url": "https://tioye.dev/blog/i-lost-the-cluster-six-weeks-dark-and-the-rebuild-that-followed-2ami",
+  "title": "Christian Tioye - AI Engineer",
+  "domain": "tioye.dev",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-22",
+  "tier": "hidden_gem",
+  "why": "A brutally honest, detailed personal infrastructure post-mortem detailing a total cluster loss caused by compound failures: cloud provider non-payment, disk wipes, IP reassignment, and catastrophic local key loss.",
+  "points": [
+   "Examines the cascade of failure when a provider terminates unpaid nodes and immediately reassigns the IP while DNS records still point to it, serving another user's workloads.",
+   "Highlights the critical risk of single-point credential loss: losing a local development machine containing the only unbacked-up SOPS age key, SSH keys, and kubeconfig.",
+   "Details the process of surviving a multi-week dark period and rebuilding from off-site Backblaze B2 WAL segments and GitOps repositories."
+  ]
  }
 }
