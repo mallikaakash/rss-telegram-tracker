@@ -4166,5 +4166,105 @@
    "Highlights the critical risk of single-point credential loss: losing a local development machine containing the only unbacked-up SOPS age key, SSH keys, and kubeconfig.",
    "Details the process of surviving a multi-week dark period and rebuilding from off-site Backblaze B2 WAL segments and GitOps repositories."
   ]
+ },
+ "ba5e05c7d04da0c7": {
+  "url": "https://www.linkedin.com/posts/divyanshu-vyas_ai-pytorch-cuda-activity-7495161411950657537-UuBT",
+  "title": "📍Scaling LLM Pretraining across multi-GPU clusters - Part 8. | Divyanshu Vyas",
+  "domain": "linkedin.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "7f402affedbba5dc": {
+  "url": "https://www.beren.io/2026-07-26-How-Can-LLM-RL-Work-Despite-Information-Theoretic-Inefficiency/",
+  "title": "How can LLM RL Work Despite Information-Theoretic Inefficiency",
+  "domain": "beren.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "70b6b3c37828c2e8": {
+  "url": "https://wpnews.pro/news/show-hn-minimal-llm-post-training-experiments-on-an-8gb-gpu-sft-dpo-grpo",
+  "title": "Show HN: Minimal LLM Post-Training Experiments on an 8GB GPU (SFT, DPO, GRPO) — Web Pulse",
+  "domain": "wpnews.pro",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f323e7f72ac3294d": {
+  "url": "https://www.alphaxiv.org/abs/2602.05547",
+  "title": "Multi-Task GRPO: Reliable LLM Reasoning Across Tasks | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "e954c1ac0b246f5e": {
+  "url": "https://www.alphaxiv.org/abs/2608.25756",
+  "title": "TailSFT: Filtered Fine-Tuning Improves Post-Training Performance | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a5ff618d7e54e73b": {
+  "url": "https://pratikdhanave.com/blog/posts/llmserve-06-serving-engines.html",
+  "title": "Serving Engines and PagedAttention — Pratik Dhanave",
+  "domain": "pratikdhanave.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f02accb01e40b638": {
+  "url": "https://manumartinm.dev/blog/rotary-positional-embeddings-cuda",
+  "title": "Rotary Positional Embeddings in CUDA: From Math to High-Performance Kernels | Manuel Blog",
+  "domain": "manumartinm.dev",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "6fb778b88d6afcaf": {
+  "url": "https://dl.acm.org/doi/10.1145/3832810.3832826",
+  "title": "Low-bit and Sparsified Gradient Communication for Accelerating Distributed Deep Learning with Convergence Guarantees | Proceedings of the 55th International Conference on Parallel Processing",
+  "domain": "dl.acm.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "67d13d23ba883f47": {
+  "url": "https://arxiv.org/abs/2607.24276",
+  "title": "[2607.24276] The Tokenizer Tax: Quantifying and Explaining the Cross-Lingual Cost of Subword Tokenization for Indian Languages",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a9e6f336776b2d9b": {
+  "url": "https://opentools.ai/resources/aisystem",
+  "title": "AISystem | OpenTools",
+  "domain": "opentools.ai",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-23",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
