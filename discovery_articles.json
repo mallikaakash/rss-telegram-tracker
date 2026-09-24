@@ -4266,5 +4266,55 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "2cd43193e1950d4a": {
+  "url": "https://www.scholarfeed.org/paper/2608.28442",
+  "title": "Curvature-Conditioned Multiscale Momentum with Sphere Constraints for LLM Pretraining | Scholar Feed",
+  "domain": "scholarfeed.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "6569228372fc3141": {
+  "url": "https://www.alphaxiv.org/abs/2608.27046",
+  "title": "Performance Foundations of Parallel & Distributed Reasoning Language Models | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "4491909b5136f9fe": {
+  "url": "https://medium.com/@neuraldev/gpu-cache-hierarchy-explained-what-l1-l2-and-l3-actually-do-inside-your-gpu-47e5676e8cc2",
+  "title": "GPU Cache Hierarchy Explained: What L1, L2, and L3 Actually Do Inside Your GPU | by Uday Sharma | Aug, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "bd83f7fae6dc361c": {
+  "url": "https://towardsai.com/p/machine-learning/what-a-kernel-is-and-why-everyone-is-writing-new-ones",
+  "title": "What a Kernel Is, and Why Everyone Is Writing New Ones | Towards AI",
+  "domain": "towardsai.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "905fb0a631374e56": {
+  "url": "https://www.alphaxiv.org/abs/2609.08690",
+  "title": "Hyperparameter Scaling Laws Across MoE Sparsity | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-24",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
