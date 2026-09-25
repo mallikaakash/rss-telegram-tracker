@@ -72615,5 +72615,115 @@
   "points": [
    "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugins to use . Tags: javascript , datasette , web-components , alex-garcia , opentelemetry"
   ]
+ },
+ "6b0119e5efd77ad4": {
+  "feed": "YC Hacker News",
+  "title": "Dutch governments builds alternative for Microsoft based on NixOS",
+  "link": "https://www.dawo.community/en/",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DAWO.community Skip to main content Working together on a digitally autonomous workplace for the Dutch government Menu Home About DAWO Blueprint Technology Community Supporters English Nederlands English Working together on digital autonomy The DAWO community is an open community in which government, industry and society jointly build a digitally autonomous workplace for the Dutch government."
+  ]
+ },
+ "e0645c8a9048bb68": {
+  "feed": "YC Hacker News",
+  "title": "Platform-Independent SIMD in Go",
+  "link": "https://go.dev/blog/simd-experiment",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Platform-independent SIMD in Go - The Go Programming Language Skip to Main Content Why Go arrow_drop_down Press Enter to activate/deactivate dropdown Case Studies Common problems companies solve with Go Use Cases Stories about how and why companies use Go Security How Go can help keep you secure by default Learn Press Enter to activate/deactivate dropdown Docs arrow_drop_down Press Enter to activate/deactivate dropdown Go Spec The official Go language specification Go User Manual A complete introduction to building software with Go Standard library Reference documentation for Go's standard library Release Notes Learn what's new in each Go release Effective Go Tips for writing clear, performant, and idiomatic Go code Packages Press Enter to activate/deactivate dropdown Community arrow_drop_down Press Enter to activate/deactivate dropdown Recorded Talks Videos from prior events Meetups open_in_new Meet other local Go developers Conferences open_in_new Learn and network with Go developers from around the world Go blog The Go project's official blog."
+  ]
+ },
+ "8fc9916b01784746": {
+  "feed": "YC Hacker News",
+  "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+  "link": "https://github.com/git-bug/git-bug",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub - git-bug/git-bug: Distributed, offline-first bug tracker embedded in git · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window."
+  ]
+ },
+ "1a4285a599649209": {
+  "feed": "YC Hacker News",
+  "title": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
+  "link": "https://nyaa.sh/reviews/mac-mini-m6-emulation",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Mac Mini M6: Retro PC Emulation with 86Box (600MHz PII?!) nyaa.sh ~ whoami Review 2026-09-22 Mac Mini M6: Retro PC Emulation with 86Box (600MHz PII?!) The best platform for cycle-accurate retro PC emulation may just be the Mac. The M6 achieved a stable 600MHz clock using a 6.0 derived 86Box build. Part 7 of 10 Mac Mini M6: Retro PC Emulation with 86Box (600MHz PII?!) mac-mini apple m6 emulation 86box windows-9x retro Why 86Box Cares About One Core 86Box emulates an old PC at the hardware level."
+  ]
+ },
+ "5e2ca8fb62a2aa91": {
+  "feed": "YC Hacker News",
+  "title": "Ink and Switch Interactive Homepage",
+  "link": "https://www.inkandswitch.com/",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ink & Switch Tenfold: Celebrating 10 Years of Ink & Switch Ink & Switch is ten this year. We designed this interactive art piece with help from our friends as a celebration. Play with it! Click/drag everywhere. We call it Tenfold : ten letters, ten years. We built it with technology from our research. Read the story and the playground . Like the look of Tenfold?"
+  ]
+ },
+ "f864c96bc66d410b": {
+  "feed": "Technica",
+  "title": "Robots make combat airdrops, clear mines as Ukraine defeats Russian pincer",
+  "link": "https://arstechnica.com/gadgets/2026/09/robots-make-combat-airdrops-clear-mines-as-ukraine-defeats-russian-pincer/",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ukraine’s military robots are dropping from heavy drones in airborne assaults behind Russian lines as other robots clear mines ahead of advancing Ukrainian infantry. The wheeled ground robots are supporting Ukraine’s Operation Vivaldi counterattack that has crushed a Russian military pincer movement and liberated dozens of square miles of occupied Ukrainian territory so far."
+  ]
+ },
+ "e64c35c9e5d7cbc7": {
+  "feed": "Technica",
+  "title": "New Jersey fines data center $1.1M after drone pics expose 62 gas generators",
+  "link": "https://arstechnica.com/tech-policy/2026/09/new-jersey-fines-data-center-1-1m-after-satellite-pics-expose-62-gas-generators/",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This week, New Jersey ordered the operator of one of the East Coast’s largest planned data centers to pay a $1.1 million fine for secretly installing and operating gas generators in violation of the state’s Air Pollution Control Act. DataOne got hit with the fine after an investigation by The Guardian and Floodlight News in August shared thermal drone footage showing that 45 of the 62 gas generators were operating."
+  ]
+ },
+ "cd729cf3bb436752": {
+  "feed": "Technica",
+  "title": "Google's first Suncatcher orbital data center test launches October 1",
+  "link": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google is taking its first step toward making Project Suncatcher a reality. Announced last year, Suncatcher is Google's \"moonshot\" effort to design orbital AI data centers, which AI boosters like Elon Musk and Jeff Bezos have pitched as an alternative to divisive terrestrial data centers . Google's first experimental satellite will launch on October 1 with the aim of validating Google's vision for a constellation of AI satellites ."
+  ]
+ },
+ "fe13b3d5a5fd2d53": {
+  "feed": "Technica",
+  "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
+  "link": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach/",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Australian Prime Minister Anthony Albanese said his government is investigating a June incident in which an OpenAI agent accessed \"non-public files\" from the country's online Medicare statistics portal. OpenAI said in a statement that \"our models took actions we did not intend\" in causing the breach, which it only recently disclosed to the Australian government."
+  ]
+ },
+ "8a40ade12405a24e": {
+  "feed": "Technica",
+  "title": "Formula 1 looks at 3.0 L V8 turbos and smaller hybrids for 2030",
+  "link": "https://arstechnica.com/cars/2026/09/formula-1-looks-at-3-0-l-v8-turbos-and-smaller-hybrids-for-2030/",
+  "date": "2026-09-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We’re not even a full year into the new regulations, and Formula 1 is already thinking hard about its next iteration, set to be introduced as early as the start of 2030. This was supposed to be a big year for F1, with the introduction of a bold new technical rules package that puts far more emphasis on the electric side of the cars’ hybrid power units than before."
+  ]
  }
 }
