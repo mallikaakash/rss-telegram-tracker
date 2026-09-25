@@ -4316,5 +4316,53 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "686c0e817b372e8b": {
+  "url": "https://www.gamut.so/blog/qlora-explained",
+  "title": "QLoRA Explained: Fine-Tune 70B+ LLMs on One GPU",
+  "domain": "gamut.so",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-25",
+  "tier": "skip",
+  "why": "Generic high-level explainer of well-known 2023 QLoRA concepts that repeats standard textbook definitions without novel implementation insights.",
+  "points": []
+ },
+ "515f240ddd74de40": {
+  "url": "https://www.hospedales.com/blog/grafting-a-drafter-into-a-90gb-gguf",
+  "title": "I grafted a speculative decoding head into a 90 GB model file | Michael Hospedales",
+  "domain": "hospedales.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-25",
+  "tier": "hidden_gem",
+  "why": "Exceptional deep dive into the internals of llama.cpp and GGUF files to manually wire up an unsupported multi-token prediction head for speculative decoding.",
+  "points": [
+   "Dissects why MTP failed on Qwen MoE due to mismatched PR assumptions across third-party converter scripts and llama.cpp graph code",
+   "Shows that `llama-server` multi-token prediction requires the draft head to reside inside the primary target file rather than loading as a separate context",
+   "Achieved a 56% throughput boost (27.75 to 43.30 tok/s on code generation) by packaging the 2.5 GB draft head into the main model"
+  ]
+ },
+ "1d35aea08d2a2d01": {
+  "url": "https://derekarmstrong.dev/projects/ha-ai-inference-cluster/",
+  "title": "Highly Available AI Inference Cluster | Derek Armstrong — Payments Engineer · AI · Infrastructure",
+  "domain": "derekarmstrong.dev",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-25",
+  "tier": "solid_find",
+  "why": "A concrete personal engineering project documenting a multi-box local LLM inference cluster with automated failover and heterogeneous hardware.",
+  "points": [
+   "Deploys a custom Rust proxy ('switchyard') that speaks OpenAI and Anthropic protocols while doing capability routing, failover, and request metering",
+   "Combines dual RTX 3090s running 27B MoE on vLLM with an Intel Arc B70 running llama.cpp for background vision tasks",
+   "Solves single-point-of-failure issues in local agentic workflows through tiered model escalation"
+  ]
+ },
+ "0d493e8a1a7a2382": {
+  "url": "https://www.together.ai/blog/a-practitioners-guide-to-testing-and-running-large-gpu-clusters-for-training-generative-ai-models",
+  "title": "A practitioner's guide to testing and running large GPU clusters for training generative AI models",
+  "domain": "together.ai",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-25",
+  "tier": "skip",
+  "why": "High-level vendor blog post compiling well-known GPU stress-testing tools (DCGM, NCCL tests, gpu-burn) without distinctive technical surprises.",
+  "points": []
  }
 }
