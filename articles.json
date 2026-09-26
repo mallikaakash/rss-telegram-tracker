@@ -73208,5 +73208,72 @@
   "points": [
    "Reports and FOIA documents show CMS's automated WISeR pilot caused severe care delays and unjustified coverage denials for seniors."
   ]
+ },
+ "fc201052ac82a480": {
+  "feed": "YC Hacker News",
+  "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+  "link": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+  "date": "2026-09-27",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates a practical Rust implementation for connecting coding agents like Claude Code to interactive canvas tools using MCP and headless vision feedback.",
+  "points": [
+   "Connects local coding agents (Claude Code, Codex, opencode) via ACP and local bridges to an Excalidraw whiteboard.",
+   "Employs headless Chrome for visual verification so agents can inspect canvas screenshots and verify diagram updates."
+  ]
+ },
+ "36075cbc8c0c5413": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+  "link": "https://github.com/reladraw/reladraw",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "Declarative diagramming tool unrelated to ML training, distributed backend infra, or industrial data optimization.",
+  "points": [
+   "Text-based diagram language focusing on relative spatial positioning rather than automated graph layout."
+  ]
+ },
+ "b3533141ffb0b1b8": {
+  "feed": "YC Hacker News",
+  "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+  "link": "https://www.movingimagearchive.com/",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "Historical public-domain video archive showcase with no backend engineering or ML infrastructure insights.",
+  "points": [
+   "Searchable media repository of vintage film clips from 1915 onward."
+  ]
+ },
+ "dca0d697a958cb03": {
+  "feed": "YC Hacker News",
+  "title": "Analyzing Frontier Model Progress with My Favourite Game: Prince of Persia",
+  "link": "https://blog.priyan.in/2026/09/analyzing-frontier-model-progress-with.html",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "Lacks readable technical content and is an anecdotal gaming evaluation rather than a rigorous frontier model analysis.",
+  "points": [
+   "Empty post body discussing model evaluation on Prince of Persia."
+  ]
+ },
+ "92e64b9a29888cf1": {
+  "feed": "YC Hacker News",
+  "title": "The Rise of Audio AR",
+  "link": "https://www.dbreunig.com/2024/04/10/the_rise_of_audio_ar.html",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "High-level product and UX essay about consumer audio augmented reality rather than technical ML engineering.",
+  "points": [
+   "Overview of hardware and language model trends driving audio-first ambient computing interfaces."
+  ]
+ },
+ "c36ef5e5a6d6fdbf": {
+  "feed": "Technica",
+  "title": "Rocket Report: Era of cheap launch is over? Astra sets early 2027 target for return",
+  "link": "https://arstechnica.com/space/2026/09/rocket-report-era-of-cheap-launch-is-over-astra-sets-early-2027-target-for-return/",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "Aerospace industry newsletter completely outside backend, ML infra, and applied machine learning topics.",
+  "points": [
+   "Weekly news roundup on commercial rocket launches and launch provider market dynamics."
+  ]
  }
 }
