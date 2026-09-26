@@ -73095,5 +73095,118 @@
   "points": [
    "Imagine starting a space company in October 2019 with the aim of changing the world. Then, a few months later, a global pandemic shuts the world down. \"Little did we know what the world had in store for us,\" said Trevor Bennett, an engineer who co-founded Starfish Space after a few years at Blue Origin. \"But that's kind of become part of our story, showing some resilience along the way.\" At Blue Origin, he saw, up close, the ambitions of billionaires to build big rockets and put massive numbers of satellites into orbit."
   ]
+ },
+ "14d6d1760fccb3c1": {
+  "feed": "YC Hacker News",
+  "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+  "link": "https://github.com/InfinityLoop1308/PipePipe",
+  "date": "2026-09-26",
+  "tier": "low_priority",
+  "why": "Consumer-focused Android YouTube client fork with no relevance to ML or backend engineering.",
+  "points": [
+   "An open-source Android fork of NewPipe that integrates SponsorBlock and ReturnYouTubeDislike."
+  ]
+ },
+ "75d0a5a5d9664df7": {
+  "feed": "YC Hacker News",
+  "title": "The Lost Atomic Update on Loongson CPU",
+  "link": "https://jia.je/hardware/2026/09/24/loongson-cpu-erratum-en/",
+  "date": "2026-09-26",
+  "tier": "must_read",
+  "why": "Exceptional low-level systems debugging war story uncovering a silent hardware concurrency erratum in a modern CPU architecture.",
+  "points": [
+   "Tracked down an infinite loop in Debian packaging to an OpenMP atomic add instruction failing to maintain atomicity on Loongson LA664.",
+   "Used AI-assisted test-case minimization to isolate the CPU erratum from a complex mathematical codebase within two days.",
+   "Loongson validated the hardware erratum and patched it via firmware with minimal performance overhead."
+  ]
+ },
+ "48a4a9c4535ae91b": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: A Claude Code skill to analyze your chess games",
+  "link": "https://github.com/brumar/chess-postmortem-skills",
+  "date": "2026-09-26",
+  "tier": "low_priority",
+  "why": "A hobbyist wrapper pairing Claude Code and Stockfish for personal chess analysis rather than ML infrastructure or training.",
+  "points": [
+   "Uses Claude Code skills, local whisper.cpp transcription, and Stockfish evaluations to generate annotated chess recaps."
+  ]
+ },
+ "d56071c594a818c1": {
+  "feed": "YC Hacker News",
+  "title": "Modern Object Pascal Introduction for Programmers – Castle Game Engine",
+  "link": "https://castle-engine.io/modern_pascal",
+  "date": "2026-09-26",
+  "tier": "low_priority",
+  "why": "A language tutorial for Object Pascal in game development, far outside your backend and ML tech stack.",
+  "points": [
+   "Comprehensive guide covering modern Object Pascal features like classes, generics, and COM interfaces for Castle Game Engine."
+  ]
+ },
+ "262356b7f7edeaa9": {
+  "feed": "YC Hacker News",
+  "title": "Reflections on 1,000 Days of Math",
+  "link": "https://gmays.com/reflections-on-1000-days-of-math/",
+  "date": "2026-09-26",
+  "tier": "worth_a_skim",
+  "why": "A candid reflection on building foundational math habits (including Math for Machine Learning) and the pitfalls of shortcutting learning systems.",
+  "points": [
+   "Highlights the danger of checking notes/solutions early in adaptive learning systems (Math Academy), which papers over foundational gaps.",
+   "Emphasizes the long-term compounding benefits of strict daily problem-solving for engineering confidence and decision-making."
+  ]
+ },
+ "e899f09f9f933c2b": {
+  "feed": "Technica",
+  "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
+  "link": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+  "date": "2026-09-26",
+  "tier": "low_priority",
+  "why": "Commercial EV trucking logistics and manufacturing news with no ML, backend, or distributed systems depth.",
+  "points": [
+   "Tesla launched high-volume production of the Tesla Semi targeting enterprise fleet managers amidst charging infrastructure challenges."
+  ]
+ },
+ "ad2dde791cc2f4bc": {
+  "feed": "Technica",
+  "title": "US being left behind in EV charging speeds as China goes sub-5 min to 70%",
+  "link": "https://arstechnica.com/cars/2026/09/us-being-left-behind-in-ev-charging-speeds-as-china-goes-sub-5-min-to-70/",
+  "date": "2026-09-26",
+  "tier": "low_priority",
+  "why": "Automotive battery hardware and charging speed comparison between US and Chinese EV makers.",
+  "points": [
+   "Chinese EV OEMs like Geely are introducing extreme fast-charging capable of reaching 70% capacity in under 5 minutes."
+  ]
+ },
+ "dac2c0379fa6c935": {
+  "feed": "Technica",
+  "title": "With PRIMA, NASA will try to build a billion-dollar space telescope in record time",
+  "link": "https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/",
+  "date": "2026-09-26",
+  "tier": "low_priority",
+  "why": "Aerospace project management and telescope program funding news irrelevant to software infrastructure.",
+  "points": [
+   "NASA announced PRIMA, a new intermediate 'Probe Explorer' space telescope class designed to bridge low-cost and flagship missions."
+  ]
+ },
+ "d69a4fb8620f03c2": {
+  "feed": "Technica",
+  "title": "Trump administration takes Musk’s side in fight over EU tech rules",
+  "link": "https://arstechnica.com/tech-policy/2026/09/trump-administration-takes-musks-side-in-fight-over-eu-tech-rules/",
+  "date": "2026-09-26",
+  "tier": "low_priority",
+  "why": "Mainstream tech policy and regulatory litigation between the US DOJ, X, and the European Union.",
+  "points": [
+   "The US DOJ is seeking to intervene in Elon Musk's appeal against a €120 million European Commission fine targeting X."
+  ]
+ },
+ "42742cbbb3a8cb2c": {
+  "feed": "Technica",
+  "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+  "link": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
+  "date": "2026-09-26",
+  "tier": "low_priority",
+  "why": "General news reporting on a flawed government pilot using automated AI rules for Medicare prior authorization.",
+  "points": [
+   "Reports and FOIA documents show CMS's automated WISeR pilot caused severe care delays and unjustified coverage denials for seniors."
+  ]
  }
 }
