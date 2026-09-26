@@ -4364,5 +4364,57 @@
   "tier": "skip",
   "why": "High-level vendor blog post compiling well-known GPU stress-testing tools (DCGM, NCCL tests, gpu-burn) without distinctive technical surprises.",
   "points": []
+ },
+ "924be8cef1d75617": {
+  "url": "https://www.linkedin.com/posts/tommaso-vaccari_llm-library-activity-7503067843136167937-5hfe",
+  "title": "I’ve released llm-library v0.1.0, my implementation of the core pretraining and inference pipeline behind modern LLMs.",
+  "domain": "linkedin.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-26",
+  "tier": "skip",
+  "why": "A standard LinkedIn announcement of another educational 'LLM from scratch' PyTorch repository repeating common knowledge.",
+  "points": []
+ },
+ "6505068bba546881": {
+  "url": "https://hoanh.space/blog/attention-backward-5090-cuda/",
+  "title": "Writing Fast Attention Backward Kernel for 5090 in CUDA | by Hoanh Le",
+  "domain": "hoanh.space",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-26",
+  "tier": "hidden_gem",
+  "why": "A rigorous, deeply technical engineering post tackling attention backward pass optimization in CUDA specifically for RTX 5090 SM120 architecture.",
+  "points": [
+   "Walks through low-level CUDA optimization for attention backward, which is notoriously harder and far less documented than the forward pass.",
+   "Explores SM120-specific mechanics, contrasting warp-level mma instructions against Hopper's wgmma and datacenter Blackwell's tcgen05.",
+   "Details concrete memory movement and hardware setup: shared-memory swizzling, register pressure management, TMA, mbarrier, and locked-clock BF16 Tensor Core profiling."
+  ]
+ },
+ "0a36a0b802956696": {
+  "url": "https://www.layerthelatestinalattice.com/papers/arxiv:2609.27581",
+  "title": "Does Step Law Transfer to Small-Scale Language Models? An Empirical Recalibration Below 59M Parameters",
+  "domain": "layerthelatestinalattice.com",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-26",
+  "tier": "solid_find",
+  "why": "A rigorous empirical study testing the transferability of Step Law scaling formulas to small models below 59M parameters across nearly 1,000 runs.",
+  "points": [
+   "Demonstrates that direct transfer of Step Law overestimates optimal learning rate by roughly 4.0x (ranging from 2.4x to 6.6x).",
+   "Confirms that optimal batch size B* remains independent of parameter count N (p = 0.87), but scales almost twice as steeply with dataset size D as originally reported.",
+   "Provides newly calibrated power-law formulas for the sub-59M regime: eta*(N, D) = 0.0985 N^(-0.508) D^(0.238) and B*(D) = 3.6e-4 D^(0.931)."
+  ]
+ },
+ "301d9c42a7ebf2c7": {
+  "url": "https://beye.blog/blog/posts/gx10-cluster",
+  "title": "Building a Two-Node LLM Inference Cluster on NVIDIA GX10 (GB10) - beye.blog",
+  "domain": "beye.blog",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-26",
+  "tier": "hidden_gem",
+  "why": "A refreshingly honest, hands-on hardware infra postmortem detailing the actual engineering hurdles of clustering modern NVIDIA GB10 hardware for local LLM inference.",
+  "points": [
+   "Documents the gap between theoretical spec and reality in dual-node inference, tuning throughput from an unstable 25 tok/s to a repeatable 40.4 tok/s.",
+   "Uncovers practical platform quirks: Ollama falling through from CUDA 12 to 13 runners for compute capability 1210 and the need to disable the default Vulkan path.",
+   "Provides hard-won operational insights on interconnect transport bottlenecks, quantisation limits, and shell process handling on bare-metal inference nodes."
+  ]
  }
 }
