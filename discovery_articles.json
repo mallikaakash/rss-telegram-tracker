@@ -4416,5 +4416,65 @@
    "Uncovers practical platform quirks: Ollama falling through from CUDA 12 to 13 runners for compute capability 1210 and the need to disable the default Vulkan path.",
    "Provides hard-won operational insights on interconnect transport bottlenecks, quantisation limits, and shell process handling on bare-metal inference nodes."
   ]
+ },
+ "28eb2486c8e72fe3": {
+  "url": "https://ajaxdavis.dev/345842-tokens-a-second-on-a-training-stack-with-no-pytorch-in-it/",
+  "title": "345,842 tokens a second on a training stack with no PyTorch in it — Lord Ajax",
+  "domain": "ajaxdavis.dev",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "2c4ff7c43a37850e": {
+  "url": "https://www.linkedin.com/feed/update/urn:li:activity:7491063067359891456",
+  "title": "⚡ LLM training demands ever more GPU-hours and memory, and as models grow, BF16 is getting expensive fast, in both compute and memory. FP8 is rapidly becoming the standard for large-scale pretraining, …",
+  "domain": "linkedin.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f5ed0d7f9f07377a": {
+  "url": "https://theflow.svmpsp.dev/story/output-embedding-centering-for-stable-llm-pretraining-b8079ee9",
+  "title": "Output Embedding Centering for Stable LLM Pretraining · The Flow",
+  "domain": "theflow.svmpsp.dev",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "c7a12d091f1e859b": {
+  "url": "https://inboxpraveen.github.io/all-blogs.html",
+  "title": "Blog - Praveen Kumar | Notes on Inference, LLMs and Speech AI",
+  "domain": "inboxpraveen.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f6902c745710d985": {
+  "url": "https://labhub.hopto.org/blog/mlops/2026-08-02-multi-gpu-parallelism-explained?lang=en",
+  "title": "The Four Kinds of Multi-GPU Parallelism — What You Split and What You Communicate — LabHub Blog",
+  "domain": "labhub.hopto.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-09-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a552e2eca0339f2d": {
+  "url": "https://arxiv.org/abs/2609.19107",
+  "title": "[2609.19107] How Model Growth, Recursion, and Boundary Operators Influence Scaling Exponents",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-27",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
