@@ -73357,5 +73357,62 @@
    "Reaches over 1 billion tokens per minute on a single H100 GPU (>10x faster than standard vLLM baselines).",
    "Achieves an average 1.84x geometric speedup over vLLM on AI-SQL benchmarks, driving serving costs below 6 cents per billion tokens on Modal."
   ]
+ },
+ "71ac5a164a1de7a9": {
+  "feed": "YC Hacker News",
+  "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+  "link": "https://arxiv.org/abs/2609.25021",
+  "date": "2026-09-27",
+  "tier": "must_read",
+  "why": "Directly relevant to LLM post-training and mechanistic interpretability, showing how chat formatting and internal activation directions dictate model behavior.",
+  "points": [
+   "Across 8 open-source instruct models up to 9B parameters, chat templates act as an explicit switch driving disclaimer voice ('I am an AI') and suppressing experiential voice.",
+   "Researchers identified a specific linear direction in activation space that reproduces or eliminates this disclaimer behavior even without chat templates.",
+   "Demonstrates that LLM introspective self-reports are artifacts of template formatting and steerable states rather than intrinsic model self-knowledge."
+  ]
+ },
+ "422f82198929fce3": {
+  "feed": "YC Hacker News",
+  "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+  "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "Covers legal litigation and copyright PR rather than technical ML engineering or systems architecture.",
+  "points": [
+   "Unsealed court briefs highlight OpenAI executive concerns over public optics and book copyright infringement in training sets."
+  ]
+ },
+ "7c6eb850cb1beafb": {
+  "feed": "YC Hacker News",
+  "title": "Finally, A True Blue Rose Exists",
+  "link": "https://www.sciencenews.org/article/true-blue-rose-pigment-copigment",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "Off-target plant genetics news with no relevance to ML or backend engineering.",
+  "points": [
+   "Researchers engineered a violet-blue rose using helper molecules alongside blue pigments."
+  ]
+ },
+ "922fcc23636461e6": {
+  "feed": "YC Hacker News",
+  "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
+  "link": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "Semiconductor business and geopolitical news without direct technical or ML infrastructure takeaways.",
+  "points": [
+   "ASML reported zero lithography machine sales in Europe for 2026, urging EU policy action to stimulate regional fab demand."
+  ]
+ },
+ "10fc33dac676cd7a": {
+  "feed": "YC Hacker News",
+  "title": "Biology might not be quantum, but its math is quantumlike",
+  "link": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/",
+  "date": "2026-09-27",
+  "tier": "low_priority",
+  "why": "Theoretical biophysics and popular science piece unrelated to distributed systems or applied ML.",
+  "points": [
+   "Quanta exploration arguing biological systems mimic quantum-like mathematical dynamics classically rather than maintaining true quantum coherence."
+  ]
  }
 }
