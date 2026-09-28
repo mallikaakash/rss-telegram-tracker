@@ -4476,5 +4476,63 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "2d9c311754a8b91d": {
+  "url": "https://www.linkedin.com/posts/shengzha_compute-optimal-is-not-cluster-optimal-activity-7493365696765022209-TfWU",
+  "title": "Dear pretraining people, compute-optimal is not cluster-optimal.",
+  "domain": "linkedin.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-28",
+  "tier": "solid_find",
+  "why": "A sharp conceptual take on pretraining scaling laws showing why FLOP-optimal models fail to be cluster-optimal once MFU and parallel topologies are factored in.",
+  "points": [
+   "Argues that traditional scaling laws optimize model FLOPs instead of cluster GPU-hours, failing to account for how architecture affects achievable MFU.",
+   "Reveals that under a pure FLOP budget, sparse MoE has no interior optimum (scaling laws favor max sparsity), whereas cluster constraints force an interior optimum.",
+   "Demonstrates that ranking model architectures by raw FLOP conversion on a hardware budget misorders designs relative to final validation loss."
+  ]
+ },
+ "827516ca73d99cea": {
+  "url": "https://www.linkedin.com/posts/dheevatsa_advancing-emerging-optimizers-for-accelerated-activity-7488834182299914240-rIJF",
+  "title": "Full-length paper on this work now on arXiv - SOAP, Muon, and Beyond: Pushing LLM Pretraining Scales - with more details on both algorithms + systems | Dheevatsa Mudigere",
+  "domain": "linkedin.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-28",
+  "tier": "skip",
+  "why": "A brief promotional LinkedIn paper announcement with minimal standalone technical depth in the post itself.",
+  "points": []
+ },
+ "965f03a33fd452ab": {
+  "url": "https://quant67.com/post/transformer/33-rlhf/33-rlhf.html",
+  "title": "【Transformer 与注意力机制】33｜RLHF：从 PPO 到 DPO，再到 GRPO | 土法炼钢 · 系统与基础设施",
+  "domain": "quant67.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-09-28",
+  "tier": "skip",
+  "why": "A textbook-style tutorial blog summarizing well-known alignment methods (PPO, DPO, GRPO) without original empirical findings.",
+  "points": []
+ },
+ "b05656f3decf4994": {
+  "url": "https://labhub.hopto.org/blog/ai-platform/2026-08-12-vllm-paged-attention?lang=en",
+  "title": "Inside vLLM (2) — Why PagedAttention Splits the KV Cache Into Pages — LabHub Blog",
+  "domain": "labhub.hopto.org",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-28",
+  "tier": "skip",
+  "why": "A generic explainer walking through the basic virtual memory analogy of vLLM's PagedAttention paper.",
+  "points": []
+ },
+ "990547b20b0b4bd5": {
+  "url": "https://kelvinlee.io/blog/qwen38-27b-cmp-170hx-vllm-ollama",
+  "title": "Qwen3.8 27b on a 8 Gig GPU serving at 383 tokens per second HACK!  — Kelvin Lee",
+  "domain": "kelvinlee.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-09-28",
+  "tier": "hidden_gem",
+  "why": "A gritty, original engineering postmortem documenting how to run a hybrid SSM/attention model at 383 tok/s on an eccentric driver-patched CMP 170HX mining card paired with a 2012 Sandy Bridge CPU.",
+  "points": [
+   "Benchmarks Qwen3.8 27B serving 8 concurrent clients at 383 tokens/sec on an NVIDIA CMP 170HX running over a crippled PCIe Gen1 x4 link.",
+   "Dissects Qwen3.8's hybrid design (16 gated attention layers and 48 Gated DeltaNet recurrent layers), showing it slashes KV cache memory to roughly 25% of standard 27B transformers.",
+   "Demonstrates that keeping execution entirely in HBM2e on Compute Capability 8.0 makes inference resilient to extreme host-side bottlenecks like lack of AVX2 and DDR3 memory."
+  ]
  }
 }
