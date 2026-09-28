@@ -73616,5 +73616,159 @@
   "points": [
    "The OS decides whether your app may open a URL — before any of your code runs. We swapped the SDK underneath that, without republishing the links we already owned. A partner taps a link in an SMS, a push, a share sheet — and lands on the exact screen they needed. We changed the SDK that resolves those links in Swiggy’s partner app. More than a thousand of them were already in inboxes, campaigns, and support threads."
   ]
+ },
+ "8e748fa566260db0": {
+  "feed": "YC Hacker News",
+  "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+  "link": "https://git.mills.io/prologic/parley",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "prologic/parley: Federated, decentralised chat that speaks plain IRC. Run your own instance for your domain; talk to anyone as user@domain from irssi or any IRC client. - parley - Mills This website requires JavaScript. Explore Help Sign In prologic / parley Watch 1 Star 2 Fork 1 You've already forked parley Code Issues 4 Pull Requests Actions Releases 5 Wiki Activity 192 Commits 1 Branch 5 Tags main Go to file Add File New File Upload File Apply Patch Code Clone HTTPS Tea CLI Open with VS Code Open with VSCodium Open with Intellij IDEA Download ZIP Download TAR.GZ Download BUNDLE I am Fastidious 52118a9e24 All checks were successful 🚀 Publish / 🧪 Test and vet (push) Successful in 5m9s Details 🚀 Publish / publish (push) Successful in 13m27s Details 🚀 Publish / 🚢 Deploy (push) Successful in 2s Details chat: push a mention only to the person the sender meant ( #39 ) ..."
+  ]
+ },
+ "84623b791054c328": {
+  "feed": "YC Hacker News",
+  "title": "What Heraldry and Mon Can Teach Us About Building Visual-Identity Generators",
+  "link": "https://benovermyer.com/blog/2026/09/japanese-vs-western-heraldry/",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What Heraldry and Japanese Mon Can Teach Us About Building Visual-Identity Generators by Ben Overmyer Home About The Blog Recipes ResumÃ© My Works Heraldry Knowledge Base Uses Links Now W hat Heraldry and Japanese Mon Can Teach Us About Building Visual-Identity Generators September 28, 2026 I spend a lot of time thinking about heraldry, but perhaps not in quite the same way that a heraldic historian does."
+  ]
+ },
+ "477373a559eced7e": {
+  "feed": "YC Hacker News",
+  "title": "Coding Is Not Solved",
+  "link": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Coding is NOT solved - Alex Ewerlöf Notes Subscribe Sign in Reliability Engineering Coding is NOT solved Alex Ewerlöf Sep 26, 2026 12 1 5 Share Disclaimer: you are about to read a lot of opinions, many of them have references but some are the result of my own experience building with AI and building AI systems in the past 4 years. Regardless, beware of the straw-man fallacy: just because one argument doesn’t map to your belief system, it doesn’t mean the rest are invalid."
+  ]
+ },
+ "5798d2081e163999": {
+  "feed": "YC Hacker News",
+  "title": "37,500 border drawings: a map of the world as people remember it",
+  "link": "https://www.habibicode.org/thedrawnworld",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Drawn World: a map of every border drawn from memory ← The Drawn Maps Every border and coastline people have drawn playing Borderline games. · drawings · countries Drawings Real coastlines and borders Reset view © Nicolas · habibicode.org/thedrawnworld × Drawings have an opacity based on their score and ink builds up. Strong means accurate; dark means many people drew the same line."
+  ]
+ },
+ "4a76cb4492f13ad1": {
+  "feed": "YC Hacker News",
+  "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
+  "link": "https://www.thisamericanlife.org/897/transcript",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "897: Intergenerational Space Travel - This American Life Skip to main content You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience. Subscribe to watch Ira's LA show online Become a Life Partner to get exclusive access to the October 9 livestream. Plus ad-free listening and bonus episodes."
+  ]
+ },
+ "d6ebb3bfb87ecb52": {
+  "feed": "Technica",
+  "title": "Microsoft goes quiet after church groups ask for 1% of data center costs",
+  "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Microsoft has spent all year telling communities that when it brings a new data center into their area, it is committed to being a “good neighbor.\" It will pay local property taxes that support local hospitals, schools, parks, and libraries, and it will invest in “vital services the community cares about,” the company promised. And it has sent liaisons into those communities to learn what those needs are."
+  ]
+ },
+ "9552195c964ddb7b": {
+  "feed": "Hugging Face Blog",
+  "title": "Holo4: powering generalist computer-use agents",
+  "link": "https://huggingface.co/blog/Hcompany/holo4",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Holo4: powering generalist computer-use agents Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Holo4: powering generalist computer-use agents Team Article Published September 28, 2026 Upvote 30 +24 Tony Wu h-tonywu Follow Hcompany Maxime Theillard h-maxime Follow Hcompany Frederic Renard frenard-h Follow Hcompany Vincent Coyette vincentcoyette Follow Hcompany Emrick Sinitambirivoutin emricksini-h Follow Hcompany Avshalom Manevich avshalom-h Follow Hcompany Antonio Loison antonioloison Follow Hcompany Antoine Bonnet ABonnetH Follow Hcompany Maxime Langevin maxime-hcompany Follow Hcompany Aleix Cambray (H-AI) h-aleixcambray Follow Hcompany Léonard Benedetti l-benedetti Follow Hcompany Tony Wu tonywu71 Follow Hcompany Mats L."
+  ]
+ },
+ "875cad4e1ea46687": {
+  "feed": "MIT News (AI)",
+  "title": "New formulation helps RNA vaccines withstand high temperatures",
+  "link": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RNA vaccines, which have been proven effective against Covid-19, are now being developed for many other diseases, including cancer. One of the drawbacks to these vaccines is that they require ultracold storage, but researchers from MIT have found a promising way to overcome that limitation. With help from an AI algorithm, the researchers tweaked the formulation surrounding the lipid nanoparticles that are typically used to deliver mRNA vaccines, making the vaccines more heat-resistant."
+  ]
+ },
+ "2ca5e93979aa2225": {
+  "feed": "Cloudflare Blog",
+  "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+  "link": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When we launched Vinext in February, it was the result of an audacious week-long AI-driven experiment to see how far one engineer, and a stack of tokens, could get to replicating the NextJS framework backed by Vite. In the seven months since that experiment, Vinext has grown into a framework that our customers trust and run in production for high-traffic, dynamic applications."
+  ]
+ },
+ "d044268b9fbdb005": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+  "link": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over the last year, agent use of Wrangler has skyrocketed. In March 2026, agents were responsible for a quarter of Wrangler use, up from single-digit percentages the year prior. Last week, agent usage reached 48%. Agents are more prolific users, using almost twice as many distinct commands per day, and are almost four times as likely to use six or more commands."
+  ]
+ },
+ "27560066175b4228": {
+  "feed": "Cloudflare Blog",
+  "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+  "link": "https://blog.cloudflare.com/how-fast-is-the-web/",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "If you work in technology, you’re probably reading this on a powerful laptop or flagship mobile on robust, lightning-fast Wi-Fi. This is fantastic for building software, but often is far removed from the reality facing many who are using that software. End users might be nursing a four-year-old budget phone, running low on battery, on a data plan that throttles after 2 GB, living with under-invested public infrastructure, or even just walking into that corner of the gym where the Wi-Fi never seems to work."
+  ]
+ },
+ "02cbbd27f8a86dcc": {
+  "feed": "Cloudflare Blog",
+  "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+  "link": "https://blog.cloudflare.com/voidzero-update/",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When VoidZero joined Cloudflare four months ago, we made a commitment to open source, promising that Vite, Vitest, Rolldown, Oxc, and Vite+ will stay open source, vendor-agnostic, and community-driven. As part of Cloudflare’s Birthday Week, where Cloudflare gives back to the Internet, we thought it’d be a good time to check in on how we’ve been doing against this commitment."
+  ]
+ },
+ "15f0bef0526eab39": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+  "link": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today we’re introducing Forge , a fresh approach to generating SDKs, CLIs, docs, and libraries. Forge is an open source, pluggable generation pipeline that anyone can deploy and run for free. Forge is early in its life, but already generates the output required for the cf CLI , and over the next few months will power Cloudflare’s API documentation, SDKs, and much more."
+  ]
+ },
+ "701c3915cd311917": {
+  "feed": "Stripe Blog",
+  "title": "Travel’s AI dilemma at Skift Global Forum",
+  "link": "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum",
+  "date": "2026-09-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Travel’s AI dilemma at Skift Global Forum 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Guide me Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Not sure where to start?"
+  ]
  }
 }
