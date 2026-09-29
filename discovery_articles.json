@@ -4534,5 +4534,25 @@
    "Dissects Qwen3.8's hybrid design (16 gated attention layers and 48 Gated DeltaNet recurrent layers), showing it slashes KV cache memory to roughly 25% of standard 27B transformers.",
    "Demonstrates that keeping execution entirely in HBM2e on Compute Capability 8.0 makes inference resilient to extreme host-side bottlenecks like lack of AVX2 and DDR3 memory."
   ]
+ },
+ "cfbad68e48ed0602": {
+  "url": "https://www.g-ftech.com/blog/latent-grpo-b300-part-2-adapter-bugs-parallel-rollouts",
+  "title": "Latent-GRPO on B300, Part 2: Adapter Bugs and 8-GPU Rollouts | g factor",
+  "domain": "g-ftech.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "7da6b4a6ce6dedc7": {
+  "url": "https://arxiv.org/pdf/2608.17325",
+  "title": "What Tokens are Learned when Tokenization is Optimized Jointly with Language Modeling?",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-29",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
