@@ -4554,5 +4554,55 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "ebeabfed08fac114": {
+  "url": "https://kenimoto.dev/blog/karpathy-nanochat-macbook-runcpu-end-to-end-log/",
+  "title": "Karpathy's nanochat on a MacBook: End-to-End runcpu.sh Log from Tokenizer to Chat (2026) — Ken Imoto",
+  "domain": "kenimoto.dev",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-30",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "658385e8b2c227a3": {
+  "url": "https://www.alphaxiv.org/abs/2608.23922",
+  "title": "Data Mixing as Mixture Experiment: Response Surface Methodology and Optimal Design for Large Language Model Pretraining | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-09-30",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "53335690caaeeb8c": {
+  "url": "https://swarnava.dev/blogs/how-flash-attention-works",
+  "title": "How Flash Attention Works: Tiling, Softmax, GPU I/O",
+  "domain": "swarnava.dev",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-09-30",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "0939ace2d9e3a87c": {
+  "url": "https://exa.ai/library/publication/wrkgqd3cks9",
+  "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser | Exa",
+  "domain": "exa.ai",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-09-30",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "ccc794a80209025c": {
+  "url": "https://deepwiki.com/latere-ai/open-llms/3-serving-plane:-runtime-and-shim",
+  "title": "Serving Plane: Runtime and Shim | latere-ai/open-llms | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-09-30",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
