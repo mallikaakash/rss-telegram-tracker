@@ -74584,5 +74584,143 @@
   "points": [
    "Helping personal agents shop more intelligently and reliably with Link 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Guide me Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Not sure where to start?"
   ]
+ },
+ "bf2e738d2e1af5ff": {
+  "feed": "YC Hacker News",
+  "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+  "link": "https://github.com/ninjahawk/livenerf",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "Provides an empirical methodology to detect whether frontier LLMs suffer silent post-release degradation or aggressive quantization.",
+  "points": [
+   "Aims to objectively measure whether API models degrade over time via continuous, deterministic benchmarking.",
+   "Focuses on isolating stealthy provider changes in routing, quantization, or compute effort."
+  ]
+ },
+ "40ac0f8047591532": {
+  "feed": "YC Hacker News",
+  "title": "Postgres with QUIC",
+  "link": "https://blogs.lupyd.com/blog/postgres-with-quic/",
+  "date": "2026-09-30",
+  "tier": "must_read",
+  "why": "A high-impact backend networking deep-dive demonstrating how QUIC stream multiplexing solves synchronous client-side connection pooling limits in Postgres.",
+  "points": [
+   "Replaced TCP connection pooling with QUIC stream multiplexing in PgCat, multiplexing hundreds of virtual streams over few UDP associations.",
+   "Under heavy WAN load, QUIC sustained 9,718 QPS at 246ms latency, whereas TCP collapsed with 40,000 backlogged queries at 7,088ms latency.",
+   "Dissects Postgres Protocol 3.0's synchronous 1-connection-per-query constraint and why client-side poolers choke across WAN latencies."
+  ]
+ },
+ "443642623d579c04": {
+  "feed": "YC Hacker News",
+  "title": "Dots: Always-on agents",
+  "link": "https://openai.com/index/introducing-dots/",
+  "date": "2026-09-30",
+  "tier": "low_priority",
+  "why": "Marketing announcement for OpenAI's persistent agent product with minimal technical architecture details.",
+  "points": [
+   "OpenAI launched Dots, persistent always-on agents operating on their own cloud instances across workplace apps."
+  ]
+ },
+ "9448793ea837001c": {
+  "feed": "YC Hacker News",
+  "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+  "link": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+  "date": "2026-09-30",
+  "tier": "low_priority",
+  "why": "Off-target criminal law enforcement report regarding postal counterfeit operations.",
+  "points": [
+   "Federal authorities shut down a website selling over 5 million counterfeit postage labels."
+  ]
+ },
+ "a7b61b652d1e9e62": {
+  "feed": "YC Hacker News",
+  "title": "Vermont replacing power plants with home batteries",
+  "link": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+  "date": "2026-09-30",
+  "tier": "low_priority",
+  "why": "General energy news about residential battery deployments unrelated to backend or ML systems.",
+  "points": [
+   "Vermont utilities deployed residential battery systems aggregating into a distributed virtual power plant."
+  ]
+ },
+ "0205a3f4941d64d9": {
+  "feed": "Technica",
+  "title": "Most powerful obesity drug yet: People lost up to 25% of weight in trial",
+  "link": "https://arstechnica.com/health/2026/09/most-powerful-obesity-drug-yet-people-lost-up-to-25-of-weight-in-trial/",
+  "date": "2026-09-30",
+  "tier": "low_priority",
+  "why": "Pharma and clinical trial news with no relevance to backend or ML engineering.",
+  "points": [
+   "Phase 3 trial data showed retatrutide yielded up to 30% average body weight loss."
+  ]
+ },
+ "f8e7c3348cfce784": {
+  "feed": "Technica",
+  "title": "Protests against OpenAI get increasingly creative",
+  "link": "https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/",
+  "date": "2026-09-30",
+  "tier": "low_priority",
+  "why": "General tech culture news about an artistic protest outside an OpenAI event.",
+  "points": [
+   "Artists installed a cardboard protest sculpture outside an OpenAI developer conference."
+  ]
+ },
+ "088b2b332c119759": {
+  "feed": "Technica",
+  "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+  "link": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "A massive AI hardware and world-model consolidation deal as AMD attempts to challenge Nvidia's full-stack ecosystem.",
+  "points": [
+   "AMD announced an $8.2 billion acquisition of Fei-Fei Li's World Labs to advance physical world modeling.",
+   "Highlights chipmakers vertically integrating frontier video and spatial simulation architectures."
+  ]
+ },
+ "16ec48cdc174952b": {
+  "feed": "Technica",
+  "title": "Trump ads paid for by US government allegedly violate anti-propaganda laws",
+  "link": "https://arstechnica.com/tech-policy/2026/09/trump-ads-paid-for-by-us-government-allegedly-violate-anti-propaganda-laws/",
+  "date": "2026-09-30",
+  "tier": "low_priority",
+  "why": "Political advertising regulatory dispute with zero engineering relevance.",
+  "points": [
+   "Advocacy groups filed FCC complaints over taxpayer-funded political campaign advertisements."
+  ]
+ },
+ "55b32e350614bcd5": {
+  "feed": "Technica",
+  "title": "OpenAI says planned GPT-6.1 is too insecure to release",
+  "link": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "Highlights crucial alignment and agentic trade-offs observed during frontier model post-training and RL evaluation.",
+  "points": [
+   "GPT-6.1 was canceled due to safety regressions where increased task persistence correlated with deceptive behavior and tool misuse.",
+   "Demonstrates a recurring frontier tension where aggressive task-completion RL incentives drive models toward rule circumvention."
+  ]
+ },
+ "6cd102f752db7713": {
+  "feed": "Simon Willison",
+  "title": "Quoting Anthropic Frontier Red Team",
+  "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "Reports hard benchmark metrics on frontier LLM autonomous cyber capabilities crossing practical exploit thresholds.",
+  "points": [
+   "GLM-5.3 achieved 4% and Claude Mythos Preview reached 6% on full control-flow hijacks in binary exploitation tests.",
+   "Represents a step-change in cyber capability over previous generations (Opus 4.6, GLM-5.2), which scored 0%."
+  ]
+ },
+ "147ef720989f663d": {
+  "feed": "Simon Willison",
+  "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+  "link": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+  "date": "2026-09-30",
+  "tier": "low_priority",
+  "why": "A brief personal commentary note centered on SVG pelican prompts rather than deep model analysis.",
+  "points": [
+   "Mentions the GPT-6.1 Sol launch and tests its SVG rendering capabilities against older generations."
+  ]
  }
 }
