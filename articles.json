@@ -74722,5 +74722,159 @@
   "points": [
    "Mentions the GPT-6.1 Sol launch and tests its SVG rendering capabilities against older generations."
   ]
+ },
+ "2e3d5dcc0b0c96b5": {
+  "feed": "YC Hacker News",
+  "title": "Pi.dev: You Said No MCP",
+  "link": "https://earendil.com/posts/you-said-no-mcp/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "“You Said No MCP!” | Earendil MENU Purpose Values Join Us Posts RFC Pi Radius Lefos Works “You Said No MCP!” Date: Tue, 29 Sep 2026 From: Earendil Engineering < rfc@earendil.com > To: You Subject: “You Said No MCP!” If you went to pi.dev in the past, you found a proud declaration that Pi does not support MCP . If you listen to podcasts where we talked about Pi, you will have found more than one dismissive statement about MCP from us."
+  ]
+ },
+ "75d9a59f35eb5b6c": {
+  "feed": "YC Hacker News",
+  "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+  "link": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "SDF vs MSDF vs Slug: GPU Text Rendering | AlphaPixel Skip to content Home Resources Portfolio Gallery News / Blog OpenGL Distilled Skew Matrix Software Partners & Open Source Expertise Computer Vision Development Air-Gapped AI Code Review Geospatial & Terrain Development OpenSceneGraph & osgEarth Technologies & Platforms Space Domain Slughorn Visual Simulation VR, AR & XR Development Safety-Critical & Embedded Graphics RISC-V Core Development Linux, Drivers & Mesa Nobori MIL-STD-2525 SDK 3D Graphics Mobile 3D & GLES Biomedical 3D & Visualization UAV & Drone Simulation GPS-Denied & Vision Nav Python & C/C++ Integration aipython WrapStar Avionics & Synthetic Vision OSG to VSG Migration Unreal Engine Open Source CAD, CNC & Fabrication Government & Defense Services Consulting Staffing Custom Software Development Legacy Software Modernization About Testimonials Capabilities Statement Help Frequently Asked Questions Tutorials Support Contact Home Resources Portfolio Gallery News / Blog OpenGL Distilled Skew Matrix Software Partners & Open Source Expertise Computer Vision Development Air-Gapped AI Code Review Geospatial & Terrain Development OpenSceneGraph & osgEarth Technologies & Platforms Space Domain Slughorn Visual Simulation VR, AR & XR Development Safety-Critical & Embedded Graphics RISC-V Core Development Linux, Drivers & Mesa Nobori MIL-STD-2525 SDK 3D Graphics Mobile 3D & GLES Biomedical 3D & Visualization UAV & Drone Simulation GPS-Denied & Vision Nav Python & C/C++ Integration aipython WrapStar Avionics & Synthetic Vision OSG to VSG Migration Unreal Engine Open Source CAD, CNC & Fabrication Government & Defense Services Consulting Staffing Custom Software Development Legacy Software Modernization About Testimonials Capabilities Statement Help Frequently Asked Questions Tutorials Support Contact SDF vs MSDF vs Slug vs Rive vs Texture Atlas: GPU Text Rendering Explained Home Tutorials SDF vs MSDF vs Slug vs Rive vs Texture Atlas: GPU Text Rendering Explained By Chris Hanson Posted on September 23, 2026 How do I choose a text rendering algorithm between SDF, MSDF, Slug, Texture Atlas or Rive?"
+  ]
+ },
+ "cf3d0c091bb6104e": {
+  "feed": "YC Hacker News",
+  "title": "Show HN: JBR-001 – An open-source 3D printable desktop robot",
+  "link": "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "JBR-001: A Desktop Companion Robot Powered by Arduino UNO Q | Arduino Project Hub Projects Featured Robotics Hub Dragonwing Hub FAQ + NEW PROJECT Projects Featured Robotics Hub Dragonwing Hub FAQ + NEW PROJECT More JBR-001: A Desktop Companion Robot Powered by Arduino UNO Q JBR-001 is an open-source desktop companion robot powered by the Arduino® UNO™ Q and built to make robotics, computer vision, edge AI, and physical AI fun to explore."
+  ]
+ },
+ "df5481490693d242": {
+  "feed": "YC Hacker News",
+  "title": "Mathematical Origami",
+  "link": "https://mathigon.org/origami",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Mathematical Origami – Mathigon Please enable JavaScript in your browser to access Mathigon. Unfortunately, Internet Explorer does not support all of Mathigon’s features. We recommend using <a href=\"https://www.google.com/chrome/\" target=\"_blank\" rel=\"noopener\">Google Chrome</a>. Skip Navigation Polypad Courses Activities Lessons Sign in Create New Account Courses Polypad Activities Lesson Plans Dark Mode Change Language Change Language English عربى 中文 Deutsch Español Eesti Français हिन्दी עִברִית Hrvatski Bahasa Indonesia Italiano 日本語 한국어 Nederlands Polski Português Română Русский Svenska ภาษาไทย Türkçe Українська Tiếng Việt Sign in to Mathigon Google Microsoft or Email or Username Password New Account Reset Password Sign in Mathematical Origami Platonic Solids Platonic Solids are the most regular polyhedra: all faces are the same regular polygon, and they look the same at every vertex."
+  ]
+ },
+ "3da9dacfb7bf5d75": {
+  "feed": "YC Hacker News",
+  "title": "Solving Factorio Quality",
+  "link": "https://exyr.org/2026/solving-factorio-quality/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Solving Factorio Quality â Exyr.org Exyr.org Solving Factorio Quality Simon Sapin, 2026-02-15 I play Factorio the normal way: by writing matrix math code to plan the factory. But weâll get to that. Or, TL;DR , go to my new online calculator tool . Intro to Factorio and Quality Factorio pretty much founded the factory video game genre: you play a character who harvests resources and combines them to craft increasingly complex items, which in turn enable more sophisticated crafting."
+  ]
+ },
+ "3a6addc1240b8168": {
+  "feed": "Technica",
+  "title": "Cloudflare plans to issue quantum-safe TLS certificates",
+  "link": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare said Tuesday it plans to issue quantum-proof TLS certificates, making it one of the first authorities to issue such certificates that use a form of cryptography that is widely believed to withstand attacks from quantum computers. The Internet infrastructure provider said it will use an open source platform that issues both classic TLS certificates and a post-quantum equivalent known as Merkle Tree Certificates ."
+  ]
+ },
+ "b04e939d35b780a0": {
+  "feed": "Technica",
+  "title": "Anthropic’s IPO pitch includes a warning about human extinction",
+  "link": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anthropic has formally warned investors that its technology may pose “existential risks to humanity” in a long-awaited initial public offering prospectus circulated with a small group of partners in recent days. The nearly $1 trillion AI start-up led by Dario Amodei devoted almost a third of its lengthy S-1 filing to detailing “risk factors,” including the potential of increasingly advanced AI models to manipulate, blackmail, and exhibit other unpredictable behaviors."
+  ]
+ },
+ "41149516380caa14": {
+  "feed": "Technica",
+  "title": "Interview: Firefox's chief on why he hopes a redesign will help win users from Chrome",
+  "link": "https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, the Firefox 157 update will roll out a redesign of the web browser across desktop and mobile platforms. The team that made it hopes it will help expand the browser's audience beyond privacy-conscious techies and open-web or open source advocates to a broader audience who might simply pick the browser because they prefer its user experience over competitors like Chrome, Edge, and Safari."
+  ]
+ },
+ "afe6a29f26715829": {
+  "feed": "Simon Willison",
+  "title": "Photo Scrubber — local face blur & metadata removal",
+  "link": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build this experimental tool that would identify faces and automatically blur them out. It uses Google's MediaPipe C++ library, compiled to WebAssembly via @mediapipe/tasks-vision , plus the BlazeFace face detection model."
+  ]
+ },
+ "b57976a1b5c8c2de": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare Impact reaches $100 million in donations",
+  "link": "https://blog.cloudflare.com/100-million-donations/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This week, Cloudflare's Impact programs will reach $100 million in donated services. It's a significant milestone, and one that we are proud of because it means that thousands of organizations, like journalism outlets, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks. But Cloudflare's Impact programs have never been about philanthropy."
+  ]
+ },
+ "9f522b01c3091471": {
+  "feed": "Cloudflare Blog",
+  "title": "Cut your AI spend with AI Gateway's Auto Router",
+  "link": "https://blog.cloudflare.com/auto-router/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "From our conversations with companies at every stage of their AI adoption journey, we've seen some common patterns. First, there is an exploration period as you bring on every new tool, dole out API keys freely, and let the tokens flow. Then, you converge on the canonical tools for your organization for agentic coding, for non-technical workflows, for running and deploying agents."
+  ]
+ },
+ "569b98b7f2ac3896": {
+  "feed": "Cloudflare Blog",
+  "title": "Detect and send production issues straight to your agent",
+  "link": "https://blog.cloudflare.com/real-time-issue-detection/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As agents help us build more complex applications, both humans and agents need a better way to stay on top of what goes wrong in production. Coding agents can already query observability data, navigate a repository, change code, write tests, and open a pull request. What remains manual is connecting those steps: recognizing that repeated failures come from the same bug, gathering the relevant logs and traces, sending that context to an agent, and checking whether the fix worked."
+  ]
+ },
+ "30863997b7e20dce": {
+  "feed": "Cloudflare Blog",
+  "title": "Simplifying domains for people and agents",
+  "link": "https://blog.cloudflare.com/simplifying-domains/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "You just thought of your next great idea, and buying the right domain feels like the easiest way to make that first bit of progress. Naturally, you open a new tab in your browser, only to find yourself face-to-face with an experience that feels like a budget airline peppering you with add-ons at checkout: Want security? How about a website? Do you want email?"
+  ]
+ },
+ "e008d3bb3e9261d0": {
+  "feed": "Cloudflare Blog",
+  "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+  "link": "https://blog.cloudflare.com/monetization-gateway-beta/",
+  "date": "2026-09-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, we’re making the Cloudflare Monetization Gateway available as part of a closed beta, and showcasing four customer use cases that are in production today. Since we announced the plan three months ago, we have been working closely with our customers to make the Gateway fast, flexible, and easy to use. With just a few clicks, the Monetization Gateway allows domain owners to charge agents for access to their website, APIs, MCP tools, or datasets."
+  ]
  }
 }
