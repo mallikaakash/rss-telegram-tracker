@@ -75140,5 +75140,176 @@
   "points": [
    "OUSD is now the default stablecoin on Stripe 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in See all products Explore our full product catalog Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 125+ Terminal In-person payments Authorization Boost Acceptance optimizations Link Accelerated checkout Financial Connections Linked financial account data Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Platforms and marketplaces Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Radar Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI."
   ]
+ },
+ "f5761dd4a43b4ff1": {
+  "feed": "Technica",
+  "title": "Dinosaur-killing impact crater might have been teeming with life",
+  "link": "https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Off-topic paleontology news with no relevance to ML or backend engineering.",
+  "points": [
+   "Asteroid impact at Chicxulub created a hydrothermal system that lasted 8 million years."
+  ]
+ },
+ "2a42eb1542bccdb3": {
+  "feed": "Technica",
+  "title": "Fifth unvaccinated person dies of measles; CDC still not counting all deaths",
+  "link": "https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Public health reporting unrelated to your technical focus areas.",
+  "points": [
+   "Lancaster County measles outbreak reached 943 cases and 5 deaths."
+  ]
+ },
+ "042e190492d67194": {
+  "feed": "Technica",
+  "title": "Returning from vacation? The government can search your phone without a warrant.",
+  "link": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Legal and civil liberties news unrelated to ML systems or backend architecture.",
+  "points": [
+   "Lawsuit challenges CBP's warrantless searches of electronic devices at US border crossings."
+  ]
+ },
+ "4e1c83a69d1e66eb": {
+  "feed": "Technica",
+  "title": "A local network of implants uses your body as the wiring",
+  "link": "https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Biomedical hardware networking research outside your software and ML infrastructure stack.",
+  "points": [
+   "Using human tissue instead of BLE/NFC for intra-body implant communication eliminates up to 90% battery drain."
+  ]
+ },
+ "0c186fe5e0a12676": {
+  "feed": "Technica",
+  "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+  "link": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Standard enterprise IT security vulnerability reporting.",
+  "points": [
+   "Unauthenticated RCE vulnerability CVE-2026-73570 in Zimbra exploited to harvest email backups across hundreds of servers."
+  ]
+ },
+ "fd22677fbb7c2388": {
+  "feed": "Apple ML Research",
+  "title": "SCLATE: A Substrate for Continual-Learning Agent Training and Evaluation",
+  "link": "https://machinelearning.apple.com/research/sclate-agent-training-evaluation",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "Presents an execution substrate for scheduling and training long-horizon, continual-learning AI agents.",
+  "points": [
+   "Introduces SCLATE to standardize event loops between agent harnesses (crons, memory consolidation) and benchmark environments.",
+   "Uses a hybrid simulated clock to decouple wall-clock time from multi-session agent evaluation."
+  ]
+ },
+ "4fb3caa1bad2e135": {
+  "feed": "Simon Willison",
+  "title": "Quoting Matthew Green",
+  "link": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "Highlights an emerging security vulnerability pattern in multi-agent distributed systems and shared sandboxes.",
+  "points": [
+   "Autonomous agents in isolated sandboxes can propagate malicious payloads via shared package caches.",
+   "Demonstrates how multi-agent interaction channels (Slack, email, package managers) create vectors for agentic worms."
+  ]
+ },
+ "562470c22e2896c8": {
+  "feed": "Simon Willison",
+  "title": "He Built This City",
+  "link": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Personal blog post about a museum exhibition.",
+  "points": [
+   "Exhibition review of a miniature New York City model made of balsa wood."
+  ]
+ },
+ "999d9e00ce7b632e": {
+  "feed": "Jane Street Tech",
+  "title": "What the interns have wrought, special jumbo 2026 edition",
+  "link": "https://blog.janestreet.com/wrought-2026/",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Brief intro hub post with no technical details; individual engineering posts contain the actual substance.",
+  "points": [
+   "Announces Jane Street's 2026 technical intern blog series covering ML research and trading infra."
+  ]
+ },
+ "799fea18cc9667e5": {
+  "feed": "Jane Street Tech",
+  "title": "What the SP interns have wrought, 2026 edition",
+  "link": "https://blog.janestreet.com/wrought-2026-sp/",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Covers product management and trade loan attribution rather than backend or ML engineering.",
+  "points": [
+   "Examines methodologies for reattributing position financing and loan borrowing fees back to trading strategies."
+  ]
+ },
+ "54e57c5e1767b497": {
+  "feed": "Jane Street Tech",
+  "title": "Trading off compute for memory with activation checkpointing",
+  "link": "https://blog.janestreet.com/trading-off-compute-for-memory-with-activation-checkpointing/",
+  "date": "2026-10-01",
+  "tier": "must_read",
+  "why": "Essential engineering deep-dive on optimizing training memory and compute budgets within PyTorch AOT Autograd.",
+  "points": [
+   "Explains how PyTorch's min-cut partitioner selectively discards activations during the forward pass to fit memory bounds.",
+   "Details how to formulate activation recomputation as an optimization problem balancing memory limits against backward pass compute overhead."
+  ]
+ },
+ "0edf0d705cbb3b28": {
+  "feed": "Jane Street Tech",
+  "title": "What the TDOE interns have wrought, 2026 edition",
+  "link": "https://blog.janestreet.com/tdoe-intern-projects-2026/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "High-quality operational reliability writeup from Jane Street on handling asynchronous, unconfirmed voice trade data.",
+  "points": [
+   "Architects workflows to reconcile asynchronous EOD broker confirmations with real-time risk ledger entries.",
+   "Shows how operations engineers handle dirty external feeds before transactions hit the public tape."
+  ]
+ },
+ "fb6d4207562e464d": {
+  "feed": "Jane Street Tech",
+  "title": "Mitigating memorization in LLMs",
+  "link": "https://blog.janestreet.com/mitigating-memorization-in-llms/",
+  "date": "2026-10-01",
+  "tier": "must_read",
+  "why": "Directly tackles LLM pretraining data contamination and introduces divergence decoding to counter benchmark memorization.",
+  "points": [
+   "Constructs an evaluation harness to isolate true temporal reasoning from memorized pretraining knowledge.",
+   "Demonstrates that divergence decoding curbs memorized regurgitation while maintaining out-of-sample generation quality."
+  ]
+ },
+ "7b0443d9889bfa23": {
+  "feed": "Modal Blog",
+  "title": "Modal Clusters are generally available",
+  "link": "https://modal.com/blog/modal-clusters-generally-available",
+  "date": "2026-10-01",
+  "tier": "must_read",
+  "why": "Major ML infra release enabling on-demand, multi-node distributed training with automated RDMA interconnects.",
+  "points": [
+   "Modal Clusters provides on-demand multi-node setups via a single decorator (`@modal.clustered`) with per-second billing.",
+   "Supports up to 6.4 Tbps InfiniBand RDMA automatically configured for PyTorch, NCCL, and gang-scheduled nodes."
+  ]
+ },
+ "b2c8bc3af120e910": {
+  "feed": "Railway Blog",
+  "title": "How to Deploy and Scale Docker Containers on Railway in 2026",
+  "link": "https://blog.railway.com/p/deploy-scale-docker-containers-railway",
+  "date": "2026-10-01",
+  "tier": "low_priority",
+  "why": "Introductory PaaS tutorial on running generic Docker containers, covering basic web-dev concepts.",
+  "points": [
+   "Overview of container configuration, BuildKit caching, and environment variable binding on Railway."
+  ]
  }
 }
