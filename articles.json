@@ -75311,5 +75311,192 @@
   "points": [
    "Overview of container configuration, BuildKit caching, and environment variable binding on Railway."
   ]
+ },
+ "f738c6cb89437abf": {
+  "feed": "Technica",
+  "title": "PS5 emulation is suddenly making big strides on PC",
+  "link": "https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For a long time, PC gamers could access many PlayStation 5 games only if the publisher invested in a bespoke port (something Sony has recently said it will be scaling back ). Now, though, rapid advancements in PS5 emulators and other tools are making recent PlayStation titles increasingly playable on generic PCs. SharpEmu was the first of these emulators, advancing from a \"very early alpha stage\" in May to a current state that can \"load the eboot.bin of real games, execute native CPU instructions, and partially handle GPU-related functionality.\" The most recent release boasts 10 tested games that reach a \"playable\" state , including six that developer CursedIfElse says are \"fully playable at 60 fps.\" That includes simple 2D games like Tetris Forever but also 3D titles like Astro Bot and the PS5 Demon's Souls remaster running at playable frame rates."
+  ]
+ },
+ "89de220aeef70dc4": {
+  "feed": "Technica",
+  "title": "NASA squeezed Treasury, vibe coded, and broke the mold in bid to save Swift",
+  "link": "https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "An attempt to save NASA's $500 million Neil Gehrels Swift Observatory from dropping out of orbit fell short, but the behind-the-scenes machinations required just to make a rescue possible deserve recognition, government and commercial space officials said in a recounting of the mission. The rescue mission was developed by Katalyst Space Technologies, working under a $30 million contract awarded by NASA last September."
+  ]
+ },
+ "556e1e4b03fe94eb": {
+  "feed": "Technica",
+  "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+  "link": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google promised Gemini 3.5 Pro in June, but it spent the summer trotting out smaller Flash models . Now, Google is ready to take on the frontier again with Gemini 4 Argon . The company claims this new AI offers industry-leading performance in coding, knowledge work, and cybersecurity, but you aren't allowed to use it yet. While most of us will have to wait to test Gemini 4, Google says engineers inside the company are already using the new model extensively."
+  ]
+ },
+ "bd00d22f16f5f7ee": {
+  "feed": "Technica",
+  "title": "Reddit is putting more limits on Old.Reddit.com",
+  "link": "https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Soon, Reddit won’t let people use Old.Reddit.com unless they have used the site while logged in within the previous six months. In July, Reddit started requiring that users be logged in to access Old Reddit. This new requirement is an effort to reduce Reddit’s biggest source of scraping and automated traffic, the company says. Today, the social media platform announced additional upcoming restrictions on Old Reddit."
+  ]
+ },
+ "cb18e27612ef0ac1": {
+  "feed": "Technica",
+  "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+  "link": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a Make America Healthy Again event Tuesday, anti-vaccine Health Secretary Robert F. Kennedy opened a \"fireside chat\" with Vice President JD Vance on the topic of artificial intelligence. While MAHA generally coalesces around things like healthy lifestyles and mistrust of drugmakers, Kennedy quickly turned to extolling the potential of artificial intelligence, surprising Vance, who said he was expecting to discuss \"weight loss and acid, not AI.\" Kennedy boasted that the Trump administration is \"making it easy for every American to use AI,\" which he claimed would free us from the \"medical tyranny\" of doctors and health experts."
+  ]
+ },
+ "9a10e64e9774ad7c": {
+  "feed": "Apple ML Research",
+  "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+  "link": "https://machinelearning.apple.com/research/harness-autonomous-ml-engineering",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machinery: multi-agent orchestrators, dedicated retrieval subagents, and more."
+  ]
+ },
+ "946559fc29dd189f": {
+  "feed": "Apple ML Research",
+  "title": "RLTL;DR: Self-Improvement by Internalizing Self-Generated Feedback",
+  "link": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The common paradigm of reinforcement learning with verifiable rewards (RLVR) is to let agents make multiple attempts at a task, and optimize towards the successful ones. This becomes problematic in the realms of self-improvement, where tasks are so difficult that the agent has a low or even no chance of success, and where there are no teacher models or example solutions to distill from."
+  ]
+ },
+ "a80484c2d5849bdb": {
+  "feed": "OpenAI News",
+  "title": "How Albertsons Companies is reimagining retail from the inside out",
+  "link": "https://openai.com/index/albertsons-reimagining-retail",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Albertsons Companies is reimagining retail from the inside out | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 1, 2026 Company How Albertsons Companies is reimagining retail from the inside out Albertsons Cos."
+  ]
+ },
+ "0bf00b70dbd762e2": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+  "link": "https://huggingface.co/blog/allenai/olmocore3",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs Enterprise Article Published October 1, 2026 Upvote 4 Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> Building a training stack around how MoEs actually work Scaling and optimizing MoE training Scaling into the trillion-parameter range Built for the next generation of Olmo, open for everyone 📄 Tech Report | 💻 Code | 🧩 Interactive demo Today we’re releasing Olmo-core 3 , a significant upgrade to our framework for developing large language models featuring a redesigned open mixture-of-experts (MoE) training system."
+  ]
+ },
+ "e51b7c45ac647819": {
+  "feed": "Jane Street Tech",
+  "title": "A resilient kernel log reporter",
+  "link": "https://blog.janestreet.com/linux-engineering-kernel-reporter-index/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - A resilient kernel log reporter Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team A resilient kernel log reporter Oct 01, 2026 | 7 min read Share on Facebook Share on Twitter Share on LinkedIn By: Varun Gupta The following is part of a series of posts about 2026 summer intern projects—for more, see “What the interns have wrought, special jumbo 2026 edition” We centrally store kernel logs from all Linux hosts at JS, and these end up being invaluable for debugging or wider analysis."
+  ]
+ },
+ "da2df5102d8219a3": {
+  "feed": "Jane Street Tech",
+  "title": "A FUSE server for our in-house storage backend",
+  "link": "https://blog.janestreet.com/linux-engineering-depot-fuse-index/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - A FUSE server for our in-house storage backend Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team A FUSE server for our in-house storage backend Oct 01, 2026 | 7 min read Share on Facebook Share on Twitter Share on LinkedIn By: Ben Steffen The following is part of a series of posts about 2026 summer intern projects—for more, see “What the interns have wrought, special jumbo 2026 edition” At Jane Street, we have many data processing workloads that require high-throughput access to large amounts of storage."
+  ]
+ },
+ "8dd66e7303ef668f": {
+  "feed": "Jane Street Tech",
+  "title": "Can you use autoregressive diffusion to generate market data?",
+  "link": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - Can you use autoregressive diffusion to generate market data? Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team Can you use autoregressive diffusion to generate market data?"
+  ]
+ },
+ "b82838909f4e3fbd": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+  "link": "https://blog.cloudflare.com/clef-decision-models/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over the last few weeks, there has been lots of buzz around decision models such as Typesafe AI’s Jev System One model. While classifier models have been around for some time, Jev introduces a new decision model concept into the world of AI — a model that produces bounded structured outputs cheaply, quickly and consistently that can be added into a workflow when a decision is required."
+  ]
+ },
+ "e6efcd2d8736e87e": {
+  "feed": "Cloudflare Blog",
+  "title": "One year later: Sovereign AI and the fight for choice",
+  "link": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It's Birthday Week, when we traditionally ship presents to the Internet. This year, two of them come from Europe: EuroLLM, which covers all 24 official EU languages, and Apertus, Switzerland's fully open model, trained on more than 1,500 languages. Both were built by public universities and research institutions. Both are coming to Workers AI, and you can request access today."
+  ]
+ },
+ "dfea90186ab7dd5d": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Workers KV Instant — powered by Quicksilver",
+  "link": "https://blog.cloudflare.com/workers-kv-instant/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, we’re introducing Workers KV Instant, a new mode for Workers KV that pushes your changes globally for instant availability without cold read penalties. Workers KV has been one of our most popular services on the Developer Platform since launching during Birthday Week in 2018 . It’s great for quickly accessing data like static assets and user configuration that is written occasionally but read frequently."
+  ]
+ },
+ "bd915a6a7b72a603": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+  "link": "https://blog.cloudflare.com/managed-cloudflare-os/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. Today, we're opening the waitlist for fully managed Cloudflare OS deployments. If I asked you to prepare for an important customer meeting later today, what would you do? You might learn how your company typically runs customer meetings, review the account in your CRM, check recent support tickets and product usage, then turn it into a short presentation to review with the group."
+  ]
+ },
+ "34410eab95b4f9a0": {
+  "feed": "Cloudflare Blog",
+  "title": "Announcing Cloudflare K2: serverless event streams",
+  "link": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+  "date": "2026-10-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "With traditional Remote Procedure Call (RPC) architectures, there exists a core challenge: producers and consumers must align in scale and in time. If your producers send too much data for your consumers to handle or if your consumers or downstream services become unavailable, events are dropped. This problem is compounded with multiple consumers that need to independently process the data."
+  ]
  }
 }
