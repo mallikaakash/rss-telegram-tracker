@@ -4604,5 +4604,75 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "01e8fa0a56ce5757": {
+  "url": "https://kenashe.ai/blog/2026-08-05-teaching-models-formal-logic-before-words-what-logic-ppt-actually-shows/",
+  "title": "Teaching Models Formal Logic Before Words: What Logic-PPT Actually Shows - Ken Ashe | AI Application Builder",
+  "domain": "kenashe.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "1a58f1554bcc39bd": {
+  "url": "https://www.alphaxiv.org/abs/2608.12419",
+  "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "337d16dd67994278": {
+  "url": "https://www.g-ftech.com/blog/multi-reward-rl-part-2-trainer-benchmark",
+  "title": "GRPO vs DAPO vs CISPO: DEX Trainer Results, Part 2 | g factor",
+  "domain": "g-ftech.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "e27ce24e1ef95b44": {
+  "url": "https://implicit-none.com/en/jax-tpu-v6e-dp-fsdp-benchmark/",
+  "title": "JAX on TPU v6e: DP vs FSDP-like Benchmark at 0.8B and 3.2B | Implicit None",
+  "domain": "implicit-none.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "c0f2a3318e9f5658": {
+  "url": "https://www.alphaxiv.org/abs/2608.11859",
+  "title": "Small-Scale Experiments: Are We There Yet? | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "e09cbaf4d0960ab0": {
+  "url": "https://github.com/kimtth/azure-openai-llm-notes/blob/main/section/x_llm_apps.md",
+  "title": "azure-openai-llm-notes/section/x_llm_apps.md at main · kimtth/azure-openai-llm-notes · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "554c2d4d3155b87c": {
+  "url": "https://corti.com/running-a-320b-moe-on-two-dgx-sparks-what-actually-went-wrong/",
+  "title": "Running a 320B MoE on two DGX Sparks: what actually went wrong",
+  "domain": "corti.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-01",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
