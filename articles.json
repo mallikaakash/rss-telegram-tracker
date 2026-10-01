@@ -75498,5 +75498,181 @@
   "points": [
    "With traditional Remote Procedure Call (RPC) architectures, there exists a core challenge: producers and consumers must align in scale and in time. If your producers send too much data for your consumers to handle or if your consumers or downstream services become unavailable, events are dropped. This problem is compounded with multiple consumers that need to independently process the data."
   ]
+ },
+ "898d664fff9445a3": {
+  "feed": "Technica",
+  "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+  "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Pentagon is informing more than 2 million current and former military members that their personnel records storing sensitive personal information were stolen over a monthslong compromise of one of its networks. The breach is the second one in recent months to expose sensitive government information. The records, according to one notification letter posted to Reddit, included Social Security numbers, names, addresses, sex, race, and occupational specialty."
+  ]
+ },
+ "de8e231194157ca9": {
+  "feed": "Technica",
+  "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+  "link": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In a setback for publishers worried about the effects of AI search, a US federal judge has dismissed lawsuits filed by Chegg and Penske Media against Google. The companies accused Google of antitrust violations in products like AI overviews, which have led to decreasing traffic at numerous sites. However, US District Judge Amit Mehta has ruled that Google's conduct is not illegal under antitrust law."
+  ]
+ },
+ "296e46630b71919a": {
+  "feed": "Technica",
+  "title": "Can good design stop content creators from having sex in robotaxis?",
+  "link": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Humans can be a frisky bunch, and it wasn’t very long after Tesla Autopilot started letting drivers go hands-free before people decided to post footage of themselves having sex from the driver’s seat. Recently, The San Francisco Standard interviewed multiple people who claimed to have had sex in robotaxis belonging to General Motors’ now-defunct Cruise."
+  ]
+ },
+ "d86da61cb2d26992": {
+  "feed": "Technica",
+  "title": "Marvel releases one last VisionQuest trailer",
+  "link": "https://arstechnica.com/culture/2026/10/marvel-releases-one-last-visionquest-trailer/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "With its premiere just two weeks away, Marvel Studios has dropped one last trailer for the limited series, VisionQuest , which will complete the trilogy begun with WandaVision and Agatha All Along. (Spoilers for WandaVision and Agatha All Along below.) As previously reported , Marvel’s streaming TV portfolio has kind of been all over the place: a handful of hits, a few misses, and a bunch of middling offerings."
+  ]
+ },
+ "31149676b158612e": {
+  "feed": "Technica",
+  "title": "Memory executives expect RAM shortage to continue through 2028",
+  "link": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Micron and Samsung executives this week said the memory shortage will continue for at least the next couple of years. Micron CEO Sanjay Mehrotra expects demand for the firm’s memory to exceed its available supply over that period, he told investors last night. Micron no longer sells consumer RAM, and Mehrotra’s statements refer to Micron’s business-to-business sales of high-bandwidth memory (HBM) for AI and DRAM for servers."
+  ]
+ },
+ "7e67b43cf9d0e609": {
+  "feed": "OpenAI News",
+  "title": "The eternal complement",
+  "link": "https://openai.com/index/the-eternal-complement",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The eternal complement | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI Intelligence Age The eternal complement Why genius machines might prove their greatest value doing monotonous work."
+  ]
+ },
+ "3bba527585738108": {
+  "feed": "OpenAI News",
+  "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+  "link": "https://openai.com/index/the-den-family-social",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Den frees up 10-15 hours a week to grow with ChatGPT Work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 1, 2026 The Den frees up 10-15 hours a week to grow with ChatGPT Work As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days."
+  ]
+ },
+ "aae936499b85c1be": {
+  "feed": "Modal Blog",
+  "title": "VM Sandboxes: Full computers for agents",
+  "link": "https://modal.com/blog/vm-sandboxes-agent-computers",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "VM Sandboxes: Full computers for agents Skip to content Runtime is here: Join TypeSafe AI, Cognition, DoorDash and more in SF. Last chance to register Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back News Amit Prasad Oct 1, 2026 VM Sandboxes: Full computers for agents Today weâre making VM Sandboxes generally available on Modal, built for those who need to give their agents the power of a full computer."
+  ]
+ },
+ "36eed9ec660d1d05": {
+  "feed": "Modal Blog",
+  "title": "Runtime Roundup: VM Sandboxes, Multi-node clusters, and more",
+  "link": "https://modal.com/blog/runtime-product-update-sandbox-endpoints",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Runtime Roundup: VM Sandboxes, Multi-node clusters, and more Skip to content Runtime is here: Join TypeSafe AI, Cognition, DoorDash and more in SF. Last chance to register Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back News Olivia Johnston Oct 1, 2026 Runtime Roundup: VM Sandboxes, Multi-node clusters, and more Modal just hosted our inaugural conference, Runtime ."
+  ]
+ },
+ "1ed19649a632bb9e": {
+  "feed": "Modal Blog",
+  "title": "Sidecars: A low-latency trust boundary for Sandboxes",
+  "link": "https://modal.com/blog/introducing-sandbox-sidecars-trust-boundary",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sidecars: A low-latency trust boundary for Sandboxes Skip to content Runtime is here: Join TypeSafe AI, Cognition, DoorDash and more in SF. Last chance to register Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back News Olivia Johnston Oct 1, 2026 Sidecars: A low-latency trust boundary for Sandboxes At Modal, our customers rely on Sandboxes to execute untrusted code written by their downstream users or, almost exclusively now, by agents."
+  ]
+ },
+ "a25e0b48a42460a5": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: September 30, 2026: Domain Routing Disruption",
+  "link": "https://blog.railway.com/p/incident-report-sept-30-2026-routing-disruption",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Angelo Saraceno On September 30, 2026, domains hosted on Railway returned 404 not found errors for new connections for a five minute period for all customers. While rolling out a change to our distributed routing control plane, the new deployment didn’t wait for the schema updates needed to support new functionality. Our distributed routing control plane is the system that tells our edge how to route user requests to the workloads behind every domain."
+  ]
+ },
+ "c8bf83daf8e333be": {
+  "feed": "Cloudflare Blog",
+  "title": "We want you to build the next Git platform on Cloudflare",
+  "link": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GitHub was built for a world where humans write code, organize it into repositories, and collaborate through branches, commits, issues, and pull requests. But the next generation of software is going to be built differently because it is going to be built by a different kind of developer: agents. Agents are already writing more code than ever before — they’re fixing bugs, building features, writing tests, reviewing changes, updating dependencies, and doing the routine maintenance required to keep an application running."
+  ]
+ },
+ "468c7037a6f6fa45": {
+  "feed": "Cloudflare Blog",
+  "title": "AI Search is now generally available",
+  "link": "https://blog.cloudflare.com/ai-search-ga/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare’s AI Search combines Workers AI, Vectorize, R2, and Browser Run into a fully managed index and retrieval pipeline. Since we launched AI Search over a year ago, we’ve seen developers use it to power a wide range of search use cases, from searching internal documentation to powering search for their websites. We use AI Search ourselves to power search on our own blog and developer docs."
+  ]
+ },
+ "277ffec43349f649": {
+  "feed": "Cloudflare Blog",
+  "title": "Support for modern cryptographic algorithms in Workers",
+  "link": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, Cloudflare Workers is adding support for post-quantum-resistant algorithms within Web Crypto. These are defined in Modern Algorithms in the Web Cryptography API draft community group report , and include: ML-KEM-768 and ML-KEM-1024 for key encapsulation ML-DSA-44, ML-DSA-65, and ML-DSA-87 for signatures encapsulateBits() , decapsulateBits() , encapsulateKey() , and decapsulateKey() getPublicKey() SubtleCrypto.supports() JWK import and export for these algorithms For developers preparing for the post-quantum transition, these opt-in Web Crypto APIs make it easier to experiment with ML-KEM and ML-DSA without bundling a separate cryptographic implementation."
+  ]
+ },
+ "8b31ee038024834e": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+  "link": "https://blog.cloudflare.com/cloudflare-basin/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "During Birthday Week 2025, we announced the Cloudflare Data Platform , a suite of products that ingest, store, and query your analytical data. Today, we’re announcing that the platform is generally available, and we’re giving it a new name: Cloudflare Basin . Basin is a serverless data analytics platform built on Apache Iceberg , the open standard for data lakes, and R2 Object Storage ."
+  ]
+ },
+ "1d7be80d9aa04491": {
+  "feed": "Stripe Blog",
+  "title": "Why I tried to kill token billing (and why we kept it)",
+  "link": "https://stripe.com/blog/where-pricing-is-headed",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why I tried to kill token billing (and why we kept it) 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in See all products Explore our full product catalog Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 125+ Terminal In-person payments Authorization Boost Acceptance optimizations Link Accelerated checkout Financial Connections Linked financial account data Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Platforms and marketplaces Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Radar Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI."
+  ]
  }
 }
