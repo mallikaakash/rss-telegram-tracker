@@ -75839,5 +75839,203 @@
   "points": [
    "Today, end users carry too much of the burden of online privacy. To avoid third-party trackers or targeted ads, users are instructed to use a VPN, disable cookies, or install adblockers. Meanwhile, some app developers end up knowing more about their users than they’d care to: a typical client-server exchange creates a trail of user data, like the client’s IP address or TLS fingerprint."
   ]
+ },
+ "355fa56a83b56dae": {
+  "feed": "Technica",
+  "title": "Research roundup: 6 cool science stories we almost missed",
+  "link": "https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. September’s list includes a tantalizing hint of the elusive dark matter at the LUX-ZEPLIN detector; entangled Z bosons at the Large Hadron Collider; possible use of psychoactive substances in the Late Pleistocene; and an intriguing technical description of a telescope attributed to Galileo."
+  ]
+ },
+ "85448cc0d75ba66c": {
+  "feed": "Technica",
+  "title": "US military ends long-running program to spot nuclear missile launches",
+  "link": "https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In late 1970, a Titan IIIC rocket launched from Space Launch Complex 40 at what was then called Cape Canaveral Air Force Station. It carried a top-secret payload for the US military. Much has changed in spaceflight since then. The Titan IIIC would bow out in 1982 after dozens of launches. Various Titans continued launching from Space Launch Complex 40 until 2005, at which point the US Air Force—in a competitive process hotly opposed by United Launch Alliance—turned the pad over to a small, largely unknown startup called SpaceX."
+  ]
+ },
+ "002b559fd9cfb7f6": {
+  "feed": "Technica",
+  "title": "How I kept cool with NYC's free battery program for window AC units",
+  "link": "https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My family has spent four summers participating in demand response programs whereby utility companies pay customers to reduce energy use on the hottest summer days. Most summers have involved carefully precooling our New York City apartment before switching off the air conditioners and sweating it out during the designated demand response periods. But this year, we kept our window air conditioners running throughout a heat dome event that drove daytime temperatures into the triple digits and made the nights oppressively hot."
+  ]
+ },
+ "1bca426ffc658517": {
+  "feed": "Technica",
+  "title": "Cybertruck sales in free fall as Tesla reports mediocre sales for Q3",
+  "link": "https://arstechnica.com/cars/2026/10/tesla-sales-drop-2-percent-in-underwhelming-q3-2026/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tesla sold 486,532 electric vehicles during the third quarter of 2026. That’s a 2.1 percent decrease on the same quarter in 2025, when the company found homes for 497,099 EVs, and one might think that would be bad news for a company valued on the premise of near-constant growth. But Tesla stock is up this morning; the year-over-year numbers might look bad, but the company still exceeded analysts’ expectations of 456,600 cars, which would have been a larger 8 percent year-on-year decline Total production at Tesla actually increased year over year; it built 464,391 vehicles—a 3.7 percent increase—457,387 of which were Models 3 and Y (a 4.9 percent increase year over year)."
+  ]
+ },
+ "d3446779ff0f63d4": {
+  "feed": "Technica",
+  "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
+  "link": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The era of generative AI has upended technology supply chains, and there is one ironclad rule in 2026: If it has memory or storage, it's getting more expensive. Even devices with years-old tech inside are still apparently subject to that unwritten rule. Nvidia has just announced that the Shield TV Pro is getting $100 more expensive, effective immediately."
+  ]
+ },
+ "b9b18411de990de0": {
+  "feed": "Google Research",
+  "title": "Toward provably private learning from federated data",
+  "link": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Toward provably private learning from federated data Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "e9cede16a2ab73cc": {
+  "feed": "Apple ML Research",
+  "title": "Language Discrimination Improves Linguistic Learning in Multilingual Speech Models",
+  "link": "https://machinelearning.apple.com/research/language-discrimination-multilingual-learning",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Multilingual self-supervised speech models can benefit from sharing information across languages, but under a matched total pretraining data budget they still fall short of monolingual models. We show that strengthening the model’s ability to discriminate languages during pretraining reduces and, on some measures, closes this multilingual gap on continuous phonetic and higher-level linguistic measures, while preserving substantial cross-language sharing."
+  ]
+ },
+ "8e206c4d9ed6ea5b": {
+  "feed": "OpenAI News",
+  "title": "A model guide for the GPT-6 family",
+  "link": "https://openai.com/index/practical-guide-building-gpt-6",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A model guide for the GPT-6 family | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 2, 2026 Product A model guide for the GPT‑6 family Practical tips for getting the best results from GPT‑6 models while managing time and cost Loading… Share TL;DR TL;DR 1."
+  ]
+ },
+ "a97398f76ee518bf": {
+  "feed": "OpenAI News",
+  "title": "Chatham scales its capital markets expertise with OpenAI",
+  "link": "https://openai.com/index/chatham-financial",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chatham scales its capital markets expertise with OpenAI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 2, 2026 Chatham scales its capital markets expertise with OpenAI Chatham Financial uses Codex and GPT‑5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4."
+  ]
+ },
+ "d599f0a282be129f": {
+  "feed": "Hugging Face Blog",
+  "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+  "link": "https://huggingface.co/blog/allenai/astabrief",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Open-sourcing AstaBrief, the fast report-generation model in Asta Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Open-sourcing AstaBrief, the fast report-generation model in Asta Enterprise Article Published October 2, 2026 Upvote 8 +2 Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> Training the model Collecting SFT training data Creating DPO pairs Filtering data for better attribution Validating the approach Where this goes next 🤗 Model | 📊 Data Language models can already help researchers search the literature, synthesize evidence, and work through complex questions."
+  ]
+ },
+ "84b251b19cc12d1e": {
+  "feed": "MIT News (AI)",
+  "title": "Computational tools for society’s most complex challenges",
+  "link": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As far back as she can remember, Cathy Wu ’12, MNG ’13 wanted to find ways to solve problems to improve people’s lives. Her parents were Taiwanese immigrants, and her father had a long commute to his job, which took him away from the family. On a tight budget, the rest of the family often stayed home on a street that was too busy for playing outdoors."
+  ]
+ },
+ "7073f9adeb8b6211": {
+  "feed": "MIT News (AI)",
+  "title": "Documenting the tech worker movement",
+  "link": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Despite the “dot-com crash” in 2000, the tech industry remained an attractive career destination for many who believed technology represented the future. The digital age — defined by global connectivity and computers — had firmly taken hold, and over time, the tech industry emerged as a dominant force in the labor market. High-paying jobs for engineers, designers, and professionals across a wide range of fields became increasingly common."
+  ]
+ },
+ "24c5143edc1614e5": {
+  "feed": "Jane Street Tech",
+  "title": "How recurring network maintenance exposed 6 bugs",
+  "link": "https://blog.janestreet.com/how-recurring-network-maintenance-exposed-6-bugs/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street does a lot of network maintenance over the weekends. In each maintenance, a cabinet may lose connectivity for 15 to 25 minutes. Our internal Kafka infrastructure is supposed to be resilient to these partitions, and reconnect when connectivity resumes. For several months this year, it didn’t: processes segfaulted, leaked hundreds of thousands of sockets, or crashed in a surge of half a million TCP connections."
+  ]
+ },
+ "e733c3de8356b0c9": {
+  "feed": "Cloudflare Blog",
+  "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+  "link": "https://blog.cloudflare.com/streamline/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare Stream is a powerful broadcasting platform that, for many of our customers, just works. But what if you wanted to render dynamic annotations on a livestream or create an alternate version of a hosted video with burned-in subtitles? You would need to run a custom video pipeline. Today, we’re releasing a new developer playground, Streamline, that demonstrates how you can build a system to deliver these bespoke video experiences on Cloudflare’s Developer Platform."
+  ]
+ },
+ "5d98daf100b5bb4e": {
+  "feed": "Cloudflare Blog",
+  "title": "Follow the thread: a new dashboard to investigate account abuse",
+  "link": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Traditionally, preventing online fraud relied on point-in-time proof of identity: enter the correct password, complete a biometric verification, or pass a liveness check, and gain access. To defeat these controls, fraudsters had to steal credentials and other identity evidence from a real user, which was difficult to execute and scale. Today, widespread access to AI enables fraudsters to fabricate or imitate legitimate identities by combining exposed credentials with synthetic media designed to evade identity verification."
+  ]
+ },
+ "86aa5ffa97a51456": {
+  "feed": "Cloudflare Blog",
+  "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+  "link": "https://blog.cloudflare.com/protected-quick-tunnels/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We launched Quick Tunnels in 2021 to give developers an easy way to share their latest service, application, or project running in their local development environment. A lot has changed since then, but the core use case remains the same. Your coding agent has just finished the feature. The dev server is up on localhost:5173 , and before you ask, the agent offers to let you try it on your phone."
+  ]
+ },
+ "dd30f56014c3d67a": {
+  "feed": "Cloudflare Blog",
+  "title": "Building for good: How civil society organizations are automating on Cloudflare",
+  "link": "https://blog.cloudflare.com/civil-society-automation/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tracking how governments target dissidents living in exile. Helping people in crisis find mental health support. Advocating for legislation that protects free expression online. These are a few examples of how some of the world's leading organizations are building the future of non-profit work with Cloudflare. AI is changing how people do their work. The goal of Cloudflare Impact is to help ensure that non-profit organizations are among the first to benefit."
+  ]
+ },
+ "d78d05baa02730e0": {
+  "feed": "Cloudflare Blog",
+  "title": "2026 Birthday week: network performance update",
+  "link": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare is now the fastest provider in 74% of the 1,000 largest networks around the world, up from 60% in April 2026. This huge improvement matters because every millisecond affects how quickly users can reach the applications, APIs, and websites they rely on. In this Birthday Week performance update, we’ll review how we get our measurements, introduce a new measurement methodology using Cloudflare Challenge Pages, and discuss where these improvements have had the biggest impact for customers."
+  ]
  }
 }
