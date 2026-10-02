@@ -75762,5 +75762,82 @@
   "points": [
    "“What you see is what you get” is a guiding principle for many software engineers — create programs where the content you’re editing looks the same as the final product. But when you’re using generative artificial intelligence systems to 3D print, say, a mug, you’ll likely get a cup that can’t hold your coffee. Why is that? The issue is that AI models understand how an object should look, but not how it works, leading to impractical designs that undermine an item’s intended use."
   ]
+ },
+ "79727cd75e0ed03c": {
+  "feed": "Technica",
+  "title": "TCL is right to question Samsung’s use of the term “Mini LED”",
+  "link": "https://arstechnica.com/gadgets/2026/10/tcl-is-right-to-question-samsungs-use-of-the-term-mini-led/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What makes a display a Mini LED display? It's a question that sounds like it should have a simple answer. But it's now at the center of a lawsuit between two of the biggest names in TVs, with TCL accusing its longtime competitor Samsung of falsely advertising budget LCD-LED TVs as Mini LED sets. TCL may have a point. Samsung's M-series TVs, which range from $300 for a 43-inch model to $2,300 for a 100-inch model, do raise some legitimate questions about what should qualify as Mini LED."
+  ]
+ },
+ "f0807b5e88a4189d": {
+  "feed": "Jane Street Tech",
+  "title": "Results from the ASIC puzzle",
+  "link": "https://blog.janestreet.com/asic-puzzle-results/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - Results from the ASIC puzzle Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team Results from the ASIC puzzle Oct 02, 2026 | 13 min read Share on Facebook Share on Twitter Share on LinkedIn By: Benjamin Devlin By: Anish Singhani In August, we published a puzzle that handed you the final GDS layout of a small chip and asked you to work out what it did."
+  ]
+ },
+ "13ee131b9ce923d5": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Web Search API via AI Gateway",
+  "link": "https://blog.cloudflare.com/introducing-web-search-api/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fun fact: when you use an agent and it needs to fetch a live web page, the agent usually just guesses the URL of the page and then makes a tool call to curl it. This is why you’ll sometimes see web fetches come back with a 404 Not Found, which happens if the agent incorrectly guesses the URL of that information. As you can imagine, it’s not super efficient to randomly guess URLs all the time."
+  ]
+ },
+ "343e5bef1ddaa417": {
+  "feed": "Cloudflare Blog",
+  "title": "8 major updates to Cloudflare Observability",
+  "link": "https://blog.cloudflare.com/one-observability-platform/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, we’re launching eight major updates that bring your logs, traces, analytics, alerts, dashboards, and exporting into one observability platform , with simpler and more predictable pricing. Here's what's launching: One place to explore logs from across Cloudflare End-to-end tracing from Cloudflare's edge to your origin One unified SQL API for querying Cloudflare data One pricing model for observability data ingested and stored across Cloudflare Custom alerts on your observability data All analytics for your domain in one place, with 30 days of data retention Custom dashboards built from your observability data Export your data with Logpush -- now available on self-serve plans One observability platform for all of Cloudflare Understanding an issue often requires data from more than one Cloudflare product."
+  ]
+ },
+ "616bf489957b36aa": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+  "link": "https://blog.cloudflare.com/cloudflare-tracing/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, we’re introducing Cloudflare Traces in open beta, extending automatic tracing beyond Workers to the rest of the request path. In one trace, you can see supported security rules, transformations, cache decisions, routing, Worker execution, and origin handling, then continue that trace through services running on Cloudflare, at your origin, or elsewhere in your stack."
+  ]
+ },
+ "710bb679bde21c1e": {
+  "feed": "Cloudflare Blog",
+  "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+  "link": "https://blog.cloudflare.com/enterprise-for-all-update/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A year ago, Cloudflare CTO Dane Knecht announced our intention to make every Cloudflare feature available to everyone . Cloudflare launched an Enterprise tier years ago when larger customers came to us looking for procurement options beyond a credit card, like invoices, custom contracts, and dedicated support. Those offerings met a customer need but over time, a two-tier system developed where some of our most advanced and powerful features were only available to Enterprise customers."
+  ]
+ },
+ "1f522f410fbceb13": {
+  "feed": "Cloudflare Blog",
+  "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+  "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+  "date": "2026-10-02",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, end users carry too much of the burden of online privacy. To avoid third-party trackers or targeted ads, users are instructed to use a VPN, disable cookies, or install adblockers. Meanwhile, some app developers end up knowing more about their users than they’d care to: a typical client-server exchange creates a trail of user data, like the client’s IP address or TLS fingerprint."
+  ]
  }
 }
