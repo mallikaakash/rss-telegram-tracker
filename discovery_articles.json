@@ -4674,5 +4674,35 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "b7d148ace73de547": {
+  "url": "https://www.alphaxiv.org/abs/2608.27370",
+  "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090 | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-02",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "e1e0fb3b5885a17c": {
+  "url": "https://arxiv.org/html/2610.00661",
+  "title": "Exploring More, Reasoning Better: Stepwise Risk-Sensitive GRPO for Diffusion Language Models",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-02",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "7d6b6ef8ca8743ef": {
+  "url": "https://github.com/superiorlu/aitreasurebox",
+  "title": "GitHub - superiorlu/AITreasureBox: 🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎 · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-02",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
