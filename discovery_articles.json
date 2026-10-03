@@ -4704,5 +4704,75 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "7a54043e2c87414c": {
+  "url": "https://arxiv.org/html/2608.01804v2",
+  "title": "1Introduction",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "771e46557338b96b": {
+  "url": "https://acornjelly2205.github.io/projects/transformer/decoder-only-transformer/",
+  "title": "Dissecting the Decoder-Only Transformer from a Kernel Perspective — Training, Prefill, Decode, and KV Cache | Acornjelly",
+  "domain": "acornjelly2205.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "d6ffe34efb10db66": {
+  "url": "https://jaehun.me/en/posts/code-series-jmaczan--tiny-vllm-05/",
+  "title": "5. The decode path that produces one token — why separate kernels were made |\nJaehun's Blog",
+  "domain": "jaehun.me",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "5d2f99f6cce00009": {
+  "url": "https://deepwiki.com/pytorch/pytorch/4.4.2-communication-compute-overlap-and-bucketing",
+  "title": "Communication-Compute Overlap and Bucketing | pytorch/pytorch | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "2ef4f9ecccf5520a": {
+  "url": "https://koleslaw.ai/blog/designing-for-the-gpu-being-gone",
+  "title": "AWS reclaimed my only GPU seven times in 21 hours — The Koleslaw Blog",
+  "domain": "koleslaw.ai",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "8c10b044dab7897c": {
+  "url": "https://www.lyth.de/en/gpu-fallen-off-the-bus/",
+  "title": "#2 · Thrown Under the Bus: Power, Heat, and Other Lessons from Our 8×3090 Rig – LYTH Website",
+  "domain": "lyth.de",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "184f511bf12f9450": {
+  "url": "https://www.cncf.io/blog/2026/08/28/scale-before-the-spike-predictive-autoscaling-for-gpu-workloads-on-kubernetes/",
+  "title": "Scale before the spike: Predictive autoscaling for GPU workloads on Kubernetes | CNCF",
+  "domain": "cncf.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-03",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
