@@ -76106,5 +76106,38 @@
    "Demonstrates that products of independent per-position distributions fundamentally fail to capture dependent token groups in sequence domains like text or audio.",
    "Provides critical theoretical bounds for evaluating non-autoregressive and discrete diffusion alternatives to standard autoregressive LLMs."
   ]
+ },
+ "b7597f7e38044d53": {
+  "feed": "Technica",
+  "title": "The 2008 economic crisis changed the US's relationship with energy",
+  "link": "https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "One argument that often comes up about climate change is that fossil fuels are good because they powered economic growth that has left most people better off overall. And, to an extent, that has been true, but it's also an extremely limited perspective. It's pretty obvious now that the growth they powered has come with very high costs that we've only recently started to pay, in the form of damages and disruptions from extreme weather events."
+  ]
+ },
+ "d3db30efe56f6be9": {
+  "feed": "Technica",
+  "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+  "link": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The US has arrested another suspect accused of smuggling high-end computer servers containing export-controlled Nvidia chips into China. In a press release on Thursday, the Department of Justice accused 38-year-old Greg Lui of using false paperwork to mask shipments of servers worth more than $300 million that he allegedly knew were ultimately destined for China."
+  ]
+ },
+ "f5426fc3fd27597a": {
+  "feed": "Technica",
+  "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
+  "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome to Edition 9.13 of the Rocket Report! This week, SpaceX celebrated the first orbital launch of its new Starship rocket. I'm not sure many people, at least those outside of SpaceX, expected it to take 14 flights of Starship before it technically reached low-Earth orbit, but Monday morning's launch finally added that to SpaceX's list of accomplishments with its new super-heavy rocket."
+  ]
  }
 }
