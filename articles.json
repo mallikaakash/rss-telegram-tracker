@@ -76139,5 +76139,16 @@
   "points": [
    "Welcome to Edition 9.13 of the Rocket Report! This week, SpaceX celebrated the first orbital launch of its new Starship rocket. I'm not sure many people, at least those outside of SpaceX, expected it to take 14 flights of Starship before it technically reached low-Earth orbit, but Monday morning's launch finally added that to SpaceX's list of accomplishments with its new super-heavy rocket."
   ]
+ },
+ "f42f541075400208": {
+  "feed": "Technica",
+  "title": "The dawn of the age of the exoskeleton",
+  "link": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/",
+  "date": "2026-10-03",
+  "tier": "low_priority",
+  "why": "This post covers general consumer hardware and robotics testing for search and rescue, with no relevance to ML systems or backend infrastructure.",
+  "points": [
+   "Seattle Mountain Rescue is testing powered lower-body exoskeletons to enhance endurance and carry heavy loads in rugged terrain."
+  ]
  }
 }
