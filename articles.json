@@ -76150,5 +76150,16 @@
   "points": [
    "Seattle Mountain Rescue is testing powered lower-body exoskeletons to enhance endurance and carry heavy loads in rugged terrain."
   ]
+ },
+ "da9bc33d3feb59e4": {
+  "feed": "Simon Willison",
+  "title": "Rex's Dino Store",
+  "link": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+  "date": "2026-10-04",
+  "tier": "low_priority",
+  "why": "This is a brief personal photo post about an art installation/newsstand in Brooklyn with no relevance to ML or backend engineering.",
+  "points": [
+   "Brief personal highlight of Rex's Dino Store, a dinosaur-themed novelty newsstand in Brooklyn's Grand Army Plaza subway station."
+  ]
  }
 }
