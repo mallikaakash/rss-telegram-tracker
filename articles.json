@@ -76037,5 +76037,74 @@
   "points": [
    "Cloudflare is now the fastest provider in 74% of the 1,000 largest networks around the world, up from 60% in April 2026. This huge improvement matters because every millisecond affects how quickly users can reach the applications, APIs, and websites they rely on. In this Birthday Week performance update, we’ll review how we get our measurements, introduce a new measurement methodology using Cloudflare Challenge Pages, and discuss where these improvements have had the biggest impact for customers."
   ]
+ },
+ "6ee8ae0821d338b7": {
+  "feed": "Technica",
+  "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+  "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+  "date": "2026-10-03",
+  "tier": "low_priority",
+  "why": "This is consumer OS security and privacy drama involving AI agent permissions rather than core ML/backend infrastructure.",
+  "points": [
+   "Apple is updating macOS full-disk access settings after Meta's Muse agent accessed Messages history via existing granted permissions."
+  ]
+ },
+ "58571d5add743777": {
+  "feed": "Technica",
+  "title": "Someone got Doom in an SQL database",
+  "link": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
+  "date": "2026-10-03",
+  "tier": "worth_a_skim",
+  "why": "A clever database engineering stunt demonstrating extreme query complexity and execution performance in CedarDB.",
+  "points": [
+   "SQLDoom implements game logic and rendering via ~1,300 lines of SQL across 89 Common Table Expressions (CTEs).",
+   "Runs on CedarDB to output full-color 640x480 bitmap frames at 35 frames per second using a thin Python I/O driver."
+  ]
+ },
+ "f10ac2fa6ec29335": {
+  "feed": "Technica",
+  "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+  "link": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+  "date": "2026-10-03",
+  "tier": "low_priority",
+  "why": "Covers corporate PR and public relations backlash over AWS data center power and water usage.",
+  "points": [
+   "Amazon pledged $1B over five years to neighboring data center communities to offset local environmental and infrastructure concerns."
+  ]
+ },
+ "68dc190714d347e8": {
+  "feed": "Technica",
+  "title": "Patient-zero drill put health facilities to the test—40% of them failed",
+  "link": "https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/",
+  "date": "2026-10-03",
+  "tier": "low_priority",
+  "why": "Medical and public health readiness drills are completely outside the reader's ML and backend systems focus.",
+  "points": [
+   "A regional New York healthcare drill showed 40% of facilities failed basic identification and PPE protocols for potential pandemic pathogens."
+  ]
+ },
+ "37af281425d03200": {
+  "feed": "Technica",
+  "title": "Lyft settles landmark driver misclassification lawsuit for $272.5M",
+  "link": "https://arstechnica.com/tech-policy/2026/10/lyft-settles-landmark-driver-misclassification-lawsuit-for-272-5m/",
+  "date": "2026-10-03",
+  "tier": "low_priority",
+  "why": "General tech legal and labor settlement news with no engineering or ML takeaways.",
+  "points": [
+   "Lyft settled a California worker misclassification lawsuit for $272.5 million covering the 2016-2020 period."
+  ]
+ },
+ "e88b1c85ce7db82a": {
+  "feed": "Apple ML Research",
+  "title": "Limits of Confidence in Diffusion",
+  "link": "https://machinelearning.apple.com/research/limits-confidence-diffusion",
+  "date": "2026-10-03",
+  "tier": "must_read",
+  "why": "Directly impacts core ML modeling theory by revealing mathematical constraints in discrete diffusion sequence and token generation.",
+  "points": [
+   "Proves discrete diffusion sampling only matches training distributions when simultaneously written token positions are conditionally independent given fixed tokens.",
+   "Demonstrates that products of independent per-position distributions fundamentally fail to capture dependent token groups in sequence domains like text or audio.",
+   "Provides critical theoretical bounds for evaluating non-autoregressive and discrete diffusion alternatives to standard autoregressive LLMs."
+  ]
  }
 }
