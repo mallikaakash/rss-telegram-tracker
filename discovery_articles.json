@@ -4774,5 +4774,53 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "da97b87d9be61897": {
+  "url": "https://iotdigitaltwinplm.com/gpu-memory-physics-dram-vs-sram-flashattention-kernel-fusion-2026/",
+  "title": "GPU Memory Physics: DRAM vs SRAM, Kernel Fusion and FlashAtt",
+  "domain": "iotdigitaltwinplm.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-04",
+  "tier": "solid_find",
+  "why": "While covering familiar FlashAttention and GPU memory concepts, it provides rigorous quantitative byte-counting arithmetic, roofline model derivations, and verified H100 hardware numbers.",
+  "points": [
+   "Examines the memory wall arithmetic where H100 SXM5 delivers ~989.5 TFLOPS FP16 dense compute versus ~3.35 TB/s memory bandwidth, necessitating 300 FLOPs per byte transferred to avoid stalls",
+   "Explains kernel fusion with tiling to exploit SRAM/DRAM bandwidth disparities and bypass roundtrips in standard multi-head attention",
+   "Connects online softmax algorithm implementation directly to memory hierarchy limits across modern GPU hardware"
+  ]
+ },
+ "7cf1fef263c81525": {
+  "url": "https://haroldbenoit.com/notes/ml/engineering/training/parallelism/fsdp/fsdp-code",
+  "title": "FSDP code",
+  "domain": "haroldbenoit.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-04",
+  "tier": "skip",
+  "why": "This is a brief, standard summary of PyTorch FSDP concepts (hybrid sharding, backward prefetch) that duplicates official documentation and tutorials without novel findings.",
+  "points": []
+ },
+ "ff031e43b27815c4": {
+  "url": "https://kaelresearch.com/papers/2609.19145",
+  "title": "Does tokenizer search matter more than its objective? | Kael Research",
+  "domain": "kaelresearch.com",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-04",
+  "tier": "hidden_gem",
+  "why": "An exceptional, independent empirical audit reproducing and stress-testing an EMNLP 2026 paper's claims about tokenizer search vs objective using seed-matched experiments and public CSV logs.",
+  "points": [
+   "Reproduced 92 of 96 published intrinsic values from Yavuz et al., but failed to confirm the paper's core claim that search dominates objective in a controlled tiny GRU setup (+0.0286 BPB search effect)",
+   "Found BottomUpLL was +0.0486 BPB worse than UnigramLM (95% CI +0.017 to +0.080) across five paired seeds",
+   "Audited published code to reveal implementation details including self-pair counting discrepancies and differing top-down pruning schedules"
+  ]
+ },
+ "0bf9ec9cd80a4051": {
+  "url": "https://dev.to/praveenlavu/how-i-crashed-my-machine-running-ai-workloads-1p66",
+  "title": "How I Crashed My Machine Running AI Workloads - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-04",
+  "tier": "skip",
+  "why": "A dramatic but technically shallow personal narrative on running out of system RAM by running too many programs at once.",
+  "points": []
  }
 }
