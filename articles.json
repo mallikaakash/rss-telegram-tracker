@@ -76161,5 +76161,52 @@
   "points": [
    "Brief personal highlight of Rex's Dino Store, a dinosaur-themed novelty newsstand in Brooklyn's Grand Army Plaza subway station."
   ]
+ },
+ "8e9e87a9e35135f7": {
+  "feed": "Technica",
+  "title": "Milt Windler, NASA flight director who helped save Apollo 13, dies at 94",
+  "link": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
+  "date": "2026-10-04",
+  "tier": "low_priority",
+  "why": "General historical news and obituary unrelated to ML, backend systems, or engineering practices.",
+  "points": [
+   "Milt Windler, NASA flight director for Apollo 13 and Skylab, passed away at age 94."
+  ]
+ },
+ "89764eae00994ca8": {
+  "feed": "Hugging Face Blog",
+  "title": "The Agent Said It Was Done. The Database Disagreed.",
+  "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+  "date": "2026-10-04",
+  "tier": "must_read",
+  "why": "Presents a critical paradigm shift in agent evaluation: grading agents against persistent backend/database states rather than superficial tool-call syntax.",
+  "points": [
+   "Introduces ThinkingBox, testing agents across 507 stateful workflows run 20 times each to measure consistency and failure signatures.",
+   "Highlights that syntactically valid tool calls frequently fail to reach required terminal database states (e.g., ticket status remains solved instead of hold).",
+   "Provides an OpenEnv and MCP-based evaluation framework to measure the true reliability and Pareto cost frontier of autonomous agents."
+  ]
+ },
+ "5a3f1f4a82c5b0a8": {
+  "feed": "Simon Willison",
+  "title": "We're going to need default hard budget caps on pretty much everything",
+  "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+  "date": "2026-10-04",
+  "tier": "worth_a_skim",
+  "why": "Relevant infra/operational commentary on cloud cost controls to guard against runaway agentic workflows and API bills.",
+  "points": [
+   "Argues that pay-by-usage APIs and clouds need default opt-in hard caps rather than soft warning emails to prevent runaway agent bills.",
+   "Notes recent support for hard spending caps in AWS project settings and Google Cloud Spend Caps."
+  ]
+ },
+ "4956a5acae88d47d": {
+  "feed": "Simon Willison",
+  "title": "September sponsors-only newsletter",
+  "link": "https://simonwillison.net/2026/Oct/3/newsletter/",
+  "date": "2026-10-04",
+  "tier": "low_priority",
+  "why": "A paywalled monthly newsletter announcement containing no actionable technical depth in the post itself.",
+  "points": [
+   "Promotional announcement for a sponsors-only newsletter covering LLM models, pricing, and software updates."
+  ]
  }
 }
