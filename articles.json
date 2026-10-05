@@ -76340,5 +76340,126 @@
   "points": [
    "A year ago, many companies were cutting intern and new-graduate hiring . We went the other way. We announced a goal to hire as many as 1,111 interns in 2026, a number that’s a nod to 1.1.1.1, our public DNS resolver. The bet was that AI makes early-career talent more valuable and able to make an impact faster. The best AI tools help people learn a system faster, try more ideas, and take on harder problems."
   ]
+ },
+ "aaf1cc502a6b1603": {
+  "feed": "Technica",
+  "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+  "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The adoption of AI agents in millions of organizations is creating new opportunities for attackers to make them take malicious actions, such as exfiltrating database contents and sensitive business and personal information. In the past five months, Google and four other organizations—with little in common except for their use of AI agents—have acknowledged vulnerabilities that exploit one agent inside a targeted network to spread harmful instructions to other internal agents."
+  ]
+ },
+ "9f8c948f698c5de3": {
+  "feed": "Technica",
+  "title": "Cable lobby to sue Trump FCC over repeal of national TV ownership cap",
+  "link": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cable lobby groups notified the Federal Communications Commission that they will sue the agency to block its controversial repeal of the National Television Ownership Rule, which limits the number of broadcast TV stations a single company may own. The cable groups said that larger broadcast TV station groups will have leverage to demand higher retransmission fees from TV providers, resulting in \"higher monthly TV bills for consumers.\" They said the FCC repeal order \"arbitrarily and capriciously ignores the harms that will surely follow from allowing broadcast station groups to exceed the National Cap.\" The cable lobby groups represent top providers Comcast, Charter, and various other cable operators."
+  ]
+ },
+ "e2ed63c890b1d74d": {
+  "feed": "Technica",
+  "title": "Texas city demands $2M for public records on Flock usage",
+  "link": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As bipartisan backlash against Flock grows , some cities are asking anti-surveillance advocates and media outlets to pay eye-popping fees—including charging tens of thousands or even millions—to get information about how police departments are using and potentially abusing AI-enabled camera systems that track every vehicle that passes them. On Monday, the Texas Tribune reported that city officials in a Fort Worth suburb, North Richland Hills, asked one group to pay $2.3 million before it would fulfill a public records request for Flock data."
+  ]
+ },
+ "04277ae7314bbae1": {
+  "feed": "Technica",
+  "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+  "link": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A new tool is allowing Mac users the ability again to easily turn off Apple Intelligence with one click and free up to 12GB of storage. Unlike with previous versions of macOS, macOS 27 Golden Gate doesn’t have a toggle for turning off Apple Intelligence. That makes disabling AI features that you may not want more difficult. It also means that the AI models necessary for running Apple Intelligence will take up space on your disk , even if you don’t use them or if you go through your settings to individually find and disable AI capabilities."
+  ]
+ },
+ "8059555356edb251": {
+  "feed": "Technica",
+  "title": "Controlling the brain with light earns a physiology Nobel",
+  "link": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over decades of research, scientists have built up a partial picture of what specialized cells within the brain and spinal cord do. By studying how the brain develops, they could identify genes that were active in different populations of neurons and where in the brain those neurons resided. In some cases, these genes could then be used to genetically delete the neurons, allowing us to get some indication of what they might be doing, building on the information we've obtained from studies of brains with damaged regions."
+  ]
+ },
+ "c3d66983a8dc7ed3": {
+  "feed": "Google Research",
+  "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+  "link": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "85a8bb470467d61e": {
+  "feed": "Apple ML Research",
+  "title": "Negotiating Ontological Boundaries in User-Authored Personal Sensing Systems",
+  "link": "https://machinelearning.apple.com/research/ontological-boundary-negotiation",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Designed artifacts are ontological, shaping, and at times limiting, what becomes possible or imaginable. One path toward mitigating such foreclosures is giving people power over how systems are designed and built. Despite decades of scholarship around systems that enable such authorship, these systems are often evaluated on whether or not they are usable, useful, or technically feasible, leaving questions of ontological boundary negotiation, unexamined."
+  ]
+ },
+ "88d553ae09bb6778": {
+  "feed": "Simon Willison",
+  "title": "Qwen3.8 27B addition in words",
+  "link": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment."
+  ]
+ },
+ "88caa1a107f0635d": {
+  "feed": "Simon Willison",
+  "title": "pwasm 0.2a0",
+  "link": "https://simonwillison.net/2026/Oct/1/pwasm/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improvements: Evaluate current state of pwasm - then consider what it would take to get the MicroPython and micro JavaScript experiments from the research repo working under it - and what it would take to speed it up 42 commits later (with minimal follow-up prompting) it now handles almost all of the WASM specification, and the wheel from PyPI bundles working WASM builds of MicroPython , QuickJS and Micro QuickJS ."
+  ]
+ },
+ "e9331b1c07602897": {
+  "feed": "Simon Willison",
+  "title": "llm-anthropic 0.30",
+  "link": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push a new release just to add support for a newly released model. I also added an llm anthropic count command which can use their free token counting API to return a count of tokens that will be used by any prompt, before you send that prompt."
+  ]
+ },
+ "78af8fe57baaabe8": {
+  "feed": "Railway Blog",
+  "title": "Railway Agent now available in Slack and Discord",
+  "link": "https://blog.railway.com/p/railway-agent-slack-discord",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: David Banys We first shipped the Railway Agent for Slack and Discord to Priority Boarding in July, and now we're ready to release the agent bot(s) to GA. Railway Agent in Slack To get started you'll need to go to your Account Settings and scroll down to Railway Agent Integrations. There you should see options for connecting Slack and Discord. Agent integrations are available in Account Settings From there, you'll need to use the following commands to link the Railway Agent to your Slack or Discord workspace: Slack - Run /railway-link in any channel Discord - Run /link workspace in any channel Once linked, you simply need to mention @Railway Agent in the chat and the Railway Agent will be at your service."
+  ]
  }
 }
