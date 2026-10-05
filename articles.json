@@ -76241,5 +76241,104 @@
   "points": [
    "Egyptologists have long debated whether the earliest pharoahs of the First Dynasty were buried with various servants and officials to serve them in the afterlife—a form of human sacrifice . But there is very little archaeological evidence available, given that many of the earliest Egyptian tombs were plundered and/or hastily excavated. A new paper published in the journal Frontiers in Environmental Archaeology reassesses a collection of skulls excavated from tombs in the 1920s and concludes that over one-third show evidence of blunt force trauma."
   ]
+ },
+ "279aa6f0958fd28f": {
+  "feed": "Technica",
+  "title": "Mass quarantine issued in Russia after unexplained death of plague researcher",
+  "link": "https://arstechnica.com/health/2026/10/researchers-death-from-undisclosed-illness-sparks-mass-quarantine-in-russia/",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Roughly 200 people are under medical observation, several hospitals are under quarantine , and dozens are in isolation in Russia following the unexplained death of an infectious disease researcher at the Irkutsk Anti-Plague Research Institute of Siberia, in the town of Shelekhov, according to early reports of the situation on Sunday and Monday. Researcher Darya Shipilova reportedly died last week from pneumonia of \" unknown \" cause, according to Rospotrebnadzor, a Russian public health agency."
+  ]
+ },
+ "fdcf6b49e5f5916c": {
+  "feed": "Technica",
+  "title": "AI glasses face their first major government crackdown",
+  "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Norway has become the first major country to propose a temporary ban on the use of AI glasses in selected public places amid growing privacy concerns over wearable technology. The rich Scandinavian country’s center-left government said on Monday that it would introduce a law to parliament soon on a temporary ban for places such as parks, beaches, schools, and kindergartens."
+  ]
+ },
+ "02277a651620344c": {
+  "feed": "Technica",
+  "title": "Explaining Hall-effect, TMR, and other new types of \"mechanical\" switches",
+  "link": "https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The mechanical keyboard isn't always so mechanical anymore. Over the past six years, keyboards with optical, Hall-effect, and other \"contactless\" switches have become increasingly common, often going for higher prices than traditional mechanical keyboards, which already command a premium over basic membrane boards. In return, they promise some theoretical advantages, particularly for gamers."
+  ]
+ },
+ "78ad53815846c15c": {
+  "feed": "OpenAI News",
+  "title": "Our approach to EU text provenance rules",
+  "link": "https://openai.com/index/eu-text-provenance",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Our approach to EU text provenance rules | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 5, 2026 Safety Our approach to EU text provenance rules Promoting transparency within the limits of today’s technology."
+  ]
+ },
+ "3cbec84de8bf6155": {
+  "feed": "OpenAI News",
+  "title": "Building advertising for the way people use AI",
+  "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Building advertising for the way people use AI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 5, 2026 Product ChatGPT Building advertising for the way people use AI A new visual ad format helps people explore products and services, with expanded measurement to help businesses understand ad impact."
+  ]
+ },
+ "a30a6af008def6d3": {
+  "feed": "Hugging Face Blog",
+  "title": "Welcome RL Environments to the hub",
+  "link": "https://huggingface.co/blog/rl-environments",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome RL Environments to the hub Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Welcome RL Environments to the hub Published September 28, 2026 Update on GitHub Upvote 9 +3 ben burtenshaw burtenshaw Follow Adithya S K AdithyaSK Follow Florian xeophon Follow guest Ryan Marten ryanmarten Follow guest merve merve Follow Quentin Lhoest lhoestq Follow Julien Chaumond julien-c Follow :last-child]:mb-0\"> Stop building environment registries What shipped Run an environment and inspect its reward Harbor: run a reference solution Verifiers: run a model on the same task OpenEnv: run an agent and inspect its reward NeMo Gym: generate responses and inspect rewards Tag your environment Already on the Hub What comes next Reinforcement Learning environments give new capabilities to agentic AI systems, and they’re a great way to measure and improve performance in your agents."
+  ]
+ },
+ "e8b95f90030b2885": {
+  "feed": "Together AI",
+  "title": "Together Link: open models in the harness you already use. Start with one command today.",
+  "link": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Together Link: open models in the harness you already use. Start with one command today. Webflow Analyze/Optimize tracking bridge --> Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → 📈 GLM-5.3 vs. GLM 5.3 Flash on DeepSWE → 🚀 DeepSeek V4 Pro 0813 vs."
+  ]
+ },
+ "a7cc45bdb24c4dc8": {
+  "feed": "Cloudflare Blog",
+  "title": "Everything we launched during Birthday Week 2026",
+  "link": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We celebrated our 16th birthday last week by sharing how we’re building a better Internet for today’s world. As Matthew and Michelle reflected in this year’s Founders’ Letter , this year saw some of the most consequential changes in the history of the Internet. For the first time, automated traffic surpassed human activity. AI is empowering people to build like never before, leading the Internet to grow massively in scale and unlocking more ambition and creativity."
+  ]
+ },
+ "a83aaf595ea79e2a": {
+  "feed": "Cloudflare Blog",
+  "title": "One year later: the power of 1.1.1.1 interns",
+  "link": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+  "date": "2026-10-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A year ago, many companies were cutting intern and new-graduate hiring . We went the other way. We announced a goal to hire as many as 1,111 interns in 2026, a number that’s a nod to 1.1.1.1, our public DNS resolver. The bet was that AI makes early-career talent more valuable and able to make an impact faster. The best AI tools help people learn a system faster, try more ideas, and take on harder problems."
+  ]
  }
 }
