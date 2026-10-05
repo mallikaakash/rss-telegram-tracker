@@ -4822,5 +4822,65 @@
   "tier": "skip",
   "why": "A dramatic but technically shallow personal narrative on running out of system RAM by running too many programs at once.",
   "points": []
+ },
+ "888378647c5a579f": {
+  "url": "https://arxiv.org/html/2609.37119",
+  "title": "Unlocking the Critic:Reward-Free Policy Optimization for LLM Post-Training",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f0aa74e1aba8118a": {
+  "url": "https://www.g-ftech.com/blog/multi-reward-rl-part-3-gdpo-cispo-repo-r-27b",
+  "title": "GDPO + CISPO + REPO-R at 27B: Multi-Reward RL, Part 3 | g factor",
+  "domain": "g-ftech.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "e6f59e930a0b1e4f": {
+  "url": "https://implicit-none.com/en/deepspeed-zero-vs-fsdp2-benchmark/",
+  "title": "DeepSpeed ZeRO vs PyTorch FSDP2, Measured: 1.8x on NVLink, Barely Finishing on PCIe (Plus How to Actually Get GPUs on GKE) | Implicit None",
+  "domain": "implicit-none.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "58976151a913e8d4": {
+  "url": "https://ta-paperlens.web.app/en/a/distributed-training/",
+  "title": "Distributed Training from Scratch — Data Parallel, Model Parallel, and When Communication Becomes the Bottleneck — PaperLens",
+  "domain": "ta-paperlens.web.app",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "18699f663a0c3774": {
+  "url": "https://arxivsignals.io/papers/2609.27581",
+  "title": "Does Step Law Transfer to Small-Scale Language Models? An Empirical Recalibration Below 59M Parameters · ArXivSignals",
+  "domain": "arxivsignals.io",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "38d14eebe220ebc9": {
+  "url": "https://p.rst.im/q/Github.com/SGPT9/shothik-gortex",
+  "title": "About GSPxy 静态资源代理",
+  "domain": "p.rst.im",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-05",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
