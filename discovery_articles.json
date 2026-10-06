@@ -4882,5 +4882,63 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "a109d22963b3f066": {
+  "url": "https://readpriors.com/you-can-now-pretrain-a-competitive-llm-for-less-than-a-used-car/",
+  "title": "You Can Now Pretrain a Competitive LLM for Less Than a Used Car – Priors",
+  "domain": "readpriors.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-06",
+  "tier": "solid_find",
+  "why": "Provides a sharp, skeptical breakdown of Tsinghua's sub-$7k LLM pretraining paper, cutting through benchmark caveats and hardware limitations.",
+  "points": [
+   "Puro-2B was trained on 1.4T tokens with FP8 on consumer RTX 5090s for under $6,900, claiming near Qwen2.5-1.5B performance.",
+   "The headline cost comparison is skewed by evaluating against 3B-parameter models rather than identical 1.5B baselines under custom evaluation protocols.",
+   "Identifies major production training risks on consumer RTX 5090s, including thermal throttling, lack of NVLink interconnect, and unquantified failure rates."
+  ]
+ },
+ "7fd2e1f4a08b684d": {
+  "url": "https://dev.to/shrsv/zero-and-fsdp-how-llm-training-escapes-the-gpu-memory-wall-36ai",
+  "title": "ZeRO and FSDP: How LLM Training Escapes the GPU Memory Wall - DEV Community",
+  "domain": "dev.to",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-06",
+  "tier": "skip",
+  "why": "A standard introductory explainer of ZeRO and FSDP memory redundancy that reiterates widely documented concepts alongside self-promotional plug content.",
+  "points": []
+ },
+ "3d3a3993c199cd64": {
+  "url": "https://coreconceptlearning.com/blog/llm-post-training-sft-dpo-grpo-rlvr",
+  "title": "LLM Post-Training: SFT vs DPO vs GRPO and RLVR | Core Concept Learning",
+  "domain": "coreconceptlearning.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-06",
+  "tier": "solid_find",
+  "why": "A crisp, structured comparison that unifies modern post-training methods (SFT, DPO, GRPO, RLVR) through their exact GPU resident model counts and signal limits.",
+  "points": [
+   "Frames post-training progression around resident GPU models: PPO requires four (policy, ref, reward, critic), DPO cuts to two, GRPO drops the critic via group sampling, and RLVR swaps the reward model for programmatic verification.",
+   "Explains why SFT cannot be skipped: preference (DPO) and RL (GRPO) gradients collapse into noise if the base policy does not already sample parseable, comparable formats.",
+   "Evaluates each algorithm's distinct failure mode and GPU memory trade-off on a unified held-out Python verification suite."
+  ]
+ },
+ "b3ea7d3651703f71": {
+  "url": "https://martinuke0.github.io/posts/2026-09-20-build-a-flashattention-2-kernel-from-scratch-in-triton/",
+  "title": "Build a FlashAttention-2 Kernel from Scratch in Triton | martinuke0's Blog",
+  "domain": "martinuke0.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-06",
+  "tier": "skip",
+  "why": "A tutorial on FlashAttention in Triton heavily framed around resume-building and ML infrastructure job hunting rather than novel systems insights.",
+  "points": []
+ },
+ "554b4d36ca9f826c": {
+  "url": "https://coreconceptlearning.com/blog/llm-training-parallelism-explained",
+  "title": "LLM Training Parallelism: Data, Tensor, Pipeline, Expert | Core Concept Learning",
+  "domain": "coreconceptlearning.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-06",
+  "tier": "skip",
+  "why": "Rehashes textbook distributed training calculations (16 bytes per parameter, DP/TP/PP/EP) found across standard Hugging Face and Megatron documentation.",
+  "points": []
  }
 }
