@@ -76596,5 +76596,225 @@
   "points": [
    "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com . Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including the protocol, server, client through Meta’s Time library on GitHub ."
   ]
+ },
+ "7bac83ddcb0e48e5": {
+  "feed": "Technica",
+  "title": "Paramount completes $111B Warner merger, creating “Skydance” behemoth",
+  "link": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Paramount Skydance completed its $111 billion merger with Warner Bros. Discovery today, after a last-ditch effort to block the deal was rejected by Supreme Court Justice Elena Kagan. The post-merger company is called Skydance, taking the name of a firm that Paramount bought in a separate deal last year. The new Skydance combines two of the largest movie studios, streaming services Paramount+ and HBO Max, CBS, CNN, \"and a portfolio of live sports including CBS Sports and TNT Sports, as well as a deep programming library and expansive collection of brands and franchises,\" Skydance said today in a press release announcing completion of the deal."
+  ]
+ },
+ "676b42ba89fe28e7": {
+  "feed": "Technica",
+  "title": "Support Ars and get a better reading experience in return",
+  "link": "https://arstechnica.com/staff/2026/10/make-ars-better-with-an-arspro-subscription/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When Ars launched in 1998, there was one way to read it: in a web browser on a PC (or Mac). Your screen of choice was either some massive CRT or a very expensive LCD monitor (or, in my case, the less-expensive grayscale, passive-matrix LCD on a PowerBook). Either way, it was butt in chair, chair at desk. One of the first perks we offered subscribers way back at the turn of the millennium allowed them to read Ars without a browser."
+  ]
+ },
+ "c22f3c6c4dd52b5d": {
+  "feed": "Technica",
+  "title": "Amazon kills Alexa’s ability to control Echo speakers' AUX input",
+  "link": "https://arstechnica.com/gadgets/2026/10/amazon-bricks-alexas-ability-to-control-echo-speakers-aux-input/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Amazon has disabled Alexa control of devices plugged into the company's Echo smart speaker’s AUX port. Users have reported receiving an email from Amazon this week informing them of the change. “This is a reminder that as of today, voice commands to control your Echo device’s Aux input are no longer available. Requests like 'Alexa, play from line in” or “Alexa, set aux input' will no longer work,” an email that Amazon sent reads, according to a screenshot a Reddit user shared this week."
+  ]
+ },
+ "63acdfec310474b4": {
+  "feed": "Technica",
+  "title": "Neutrino physicist wins 2026 Nobel Physics Prize",
+  "link": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Francis Halzen, a physicist at the University of Wisconsin, Madison, has won the 2026 Nobel Prize in Physics \"for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.” Halzen spearheaded the development and construction of the IceCube Neutrino Observatory in Antarctica, enabling physicists to capture high-energy neutrinos created in the distant universe."
+  ]
+ },
+ "19eca8890bba3d00": {
+  "feed": "Technica",
+  "title": "Googlebook \"Better Together\" phone features don't work with Samsung at launch",
+  "link": "https://arstechnica.com/gadgets/2026/10/googlebook-better-together-phone-features-dont-work-with-samsung-at-launch/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Googlebooks are Google's latest attempt to carve out a piece of the premium laptop market, and tight integration with Android phones is a key part of that effort. Now that Googlebooks are available, we're learning of some frustrating limitations of that plan. For now, Googlebooks will only play nicely with your phone if you have a Pixel. When Google announced the launch window for Googlebooks, it said the laptops were \"engineered to work with your Android phone right out of the box.\" But as with many things Google, the truth is more convoluted."
+  ]
+ },
+ "4dd290070848fb61": {
+  "feed": "Google DeepMind",
+  "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+  "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "EmbeddingGemma 2 is a best-in-class open model for natively multimodal embeddings Skip to main content EmbeddingGemma 2: an open, lightweight multimodal embedding model Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed EmbeddingGemma 2: an open, lightweight multimodal embedding model Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (English) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Technology Developer tools EmbeddingGemma 2: an open, lightweight multimodal embedding model Oct 06, 2026 | x.com Facebook LinkedIn Mail Copy link EmbeddingGemma 2 is the most capable model for on-device multimodal embeddings, natively mapping combinations of text, images, audio, and video into a unified embedding space."
+  ]
+ },
+ "9553a8404854fbdd": {
+  "feed": "Microsoft Research",
+  "title": "What AI gets wrong and what failure teaches us",
+  "link": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jennifer Neville is a partner research manager at Microsoft who’s built a career around understanding and advancing AI for real-world use, and much like the human-AI interactions she’s been studying, her early-career path was multiturn: math, then physics; cognitive science, then work; and finally computer science—despite her best efforts to avoid the field."
+  ]
+ },
+ "9964af802e9c5fde": {
+  "feed": "OpenAI News",
+  "title": "Advancing computer use with Ironclad",
+  "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Advancing computer use with Ironclad | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 6, 2026 Company Publication Advancing computer use with Ironclad How a research collaboration in contracting is helping us train and evaluate AI agents on complex professional work."
+  ]
+ },
+ "60ef2af305e795fe": {
+  "feed": "OpenAI News",
+  "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+  "link": "https://openai.com/index/atlassian-partnership",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 6, 2026 Company Atlassian and OpenAI expand partnership to turn enterprise knowledge into action Loading… Share Connecting OpenAI models with enterprise knowledge Connecting OpenAI models with enterprise knowledge Building toward the next generation of AI-powered teamwork Connecting OpenAI models with enterprise knowledge Building toward the next generation of AI-powered teamwork Atlassian and OpenAI are expanding their partnership, bringing frontier models in the GPT‑6 family across Atlassian’s platform to power AI experiences that help teams plan, build, and deliver work."
+  ]
+ },
+ "03d35b281f61e7cb": {
+  "feed": "Together AI",
+  "title": "Expanding our enterprise inference capacity with IBM Cloud and NVIDIA",
+  "link": "https://www.together.ai/blog/expanding-our-enterprise-inference-capacity-with-ibm-cloud-and-nvidia",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Expanding our enterprise inference capacity with IBM Cloud and NVIDIA Webflow Analyze/Optimize tracking bridge --> Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → 📈 GLM-5.3 vs. GLM 5.3 Flash on DeepSWE → 🚀 DeepSeek V4 Pro 0813 vs. GPT-5.6 Sol on DeepSWE → ⚡ On-demand B200s now available on Together GPU Clusters → Inference Together Link Run open models in your harness Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Explore Top Open-Source Models Chat Image Code Vision Video Show all Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training Post-training for frontier quality at scale Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Together Link Run open models in your harness Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Together Link Run open models in your harness Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models MiniMax M3 Gemma 4 31B DeepSeek V4 Pro GLM-5.2 kimi K2.7 Code gpt-oss-120B Model library Explore the top open-source models Explore Top Open-Source Models Chat Image Code Vision Video Show all Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training Post-training for frontier quality at scale Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research public"
+  ]
+ },
+ "21c23ab08aafeb08": {
+  "feed": "MIT News (AI)",
+  "title": "Supercomputing researchers document evolution of AI hardware",
+  "link": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As artificial intelligence transforms industries and national security, understanding the latest hardware capabilities is important for maintainind technological advantage. AI accelerators — specialized systems designed to speed up capabilities such as neural networks, deep learning, and machine learning — have been a major area of development for nearly a decade."
+  ]
+ },
+ "cc060c5c55029528": {
+  "feed": "MIT News (AI)",
+  "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
+  "link": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chris Bourg, who has served as director of the MIT Libraries since 2015, has been named vice provost and Barbara K. Ostrom (1978) Director of the Libraries, MIT Provost Anantha Chandrakasan announced today. “The title ‘vice provost’ signals the enduring importance of the MIT Libraries in the digital age,” said Chandrakasan. “While the ways in which the libraries meet the needs of our community might change as technology changes, their mission of protecting access to knowledge and information is as vital as ever.” Thanks to a generous gift from Barbara K."
+  ]
+ },
+ "f2b4a146fbeb53f2": {
+  "feed": "Simon Willison",
+  "title": "llm-mistral 0.16",
+  "link": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-mistral 0.16 Simon Willison’s Weblog Subscribe Sponsored by: Deepgram — Flux TTS remembers the conversation, so your agent sounds right on reply 20. Hear the demo 6th October 2026 Release llm-mistral 0.16 — LLM plugin providing access to Mistral models using the Mistral API Adds support for reasoning models, such as the newly released Mistral Large 4 ."
+  ]
+ },
+ "b3ffaa721999ed41": {
+  "feed": "Simon Willison",
+  "title": "EmbeddingGemma 2",
+  "link": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My comment on EmbeddingGemma 2 — Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison."
+  ]
+ },
+ "a651b0ec0b3d2f74": {
+  "feed": "Simon Willison",
+  "title": "Introducing Mistral Large 4: Le chonk",
+  "link": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\"."
+  ]
+ },
+ "f5f88d08399f657b": {
+  "feed": "Simon Willison",
+  "title": "Using Parseable with Datasette for OpenTelemetry traces",
+  "link": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enterprise\" version with extra features and a cloud hosted option. Since Datasette 1.0a41 added OpenTelemetry support (thanks, Alex Garcia), I decided to fire up Codex and have it figure out how to run Parseable and feed it traces from Datasette."
+  ]
+ },
+ "ec56094036c906f8": {
+  "feed": "Simon Willison",
+  "title": "Mistral Large 4",
+  "link": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My comment on Mistral Large 4 — Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default reasoning levels for each: https://tools.simonwillison.net/markdown-svg-renderer?url=ht..."
+  ]
+ },
+ "4e8b809e294111d7": {
+  "feed": "Jane Street Tech",
+  "title": "Building and testing a config management orchestrator for Windows",
+  "link": "https://blog.janestreet.com/config-management-orchestrator-for-windows/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - Building and testing a config management orchestrator for Windows Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team Building and testing a config management orchestrator for Windows Oct 06, 2026 | 6 min read Share on Facebook Share on Twitter Share on LinkedIn By: Israel Milgrom The following is part of a series of posts about 2026 summer intern projects—for more, see “What the interns have wrought, special jumbo 2026 edition” Windows config management is a challenging engineering problem in every IT department."
+  ]
+ },
+ "39b1c47659cf1086": {
+  "feed": "Jane Street Tech",
+  "title": "Scaling and benchmarking a critical message bus using a new indexing strategy",
+  "link": "https://blog.janestreet.com/scaling-and-benchmarking-a-critical-message-bus/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - Scaling and benchmarking a critical message bus using a new indexing strategy Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team Scaling and benchmarking a critical message bus using a new indexing strategy Oct 05, 2026 | 10 min read Share on Facebook Share on Twitter Share on LinkedIn By: Nicholas Yang The following is part of a series of posts about 2026 summer intern projects—for more, see “What the interns have wrought, special jumbo 2026 edition” Aria is our internal messaging framework and hosted system that processes multiple terabytes of data per day."
+  ]
+ },
+ "c34e297b4aea2f1a": {
+  "feed": "Cloudflare Blog",
+  "title": "The keys to the Internet change on October 11. Are you ready?",
+  "link": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On October 11, 2026, the DNS root is scheduled to change its key-signing key (KSK) for only the second time ever. This key anchors DNSSEC’s chain of trust, which lets DNS resolvers authenticate answers using cryptographic signatures. The change is called a KSK rollover. Validating resolvers need to trust the new key before the switch, as otherwise healthy websites could become unreachable."
+  ]
  }
 }
