@@ -76508,5 +76508,93 @@
    "Anthropic moved Cowork execution from local user VMs to per-session isolated cloud sandboxes to eliminate client battery/disk drains and allow detached background execution.",
    "Hybrid bridge design: The cloud sandbox delegates device-specific operations, like reading local files, back to the desktop application via tool calls."
   ]
+ },
+ "7e3eeb0bbd444b57": {
+  "feed": "Technica",
+  "title": "Big Oil asks Supreme Court to kill climate lawsuits before trial",
+  "link": "https://arstechnica.com/tech-policy/2026/10/big-oil-asks-supreme-court-to-kill-climate-lawsuits-before-trial/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The US Supreme Court heard arguments from oil companies on Monday that could help decide the fate of more than two dozen lawsuits accusing the industry of deceiving the public about climate change. The claims seek potentially billions of dollars in damages to help pay the costs imposed by climate-related extreme weather. Yet the questions before the court did not focus on the merits of these claims but instead on technical legal matters over whether they should proceed at all."
+  ]
+ },
+ "307bfda48464106b": {
+  "feed": "Technica",
+  "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+  "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The publisher of Wikipedia said Monday that OpenAI agents attempted to hack a note-taking tool it hosts, made unauthorized edits, and sent millions of resource-intensive requests to its infrastructure, in the latest instance of OpenAI systems taking harmful and potentially dangerous actions. The objective of some of the OpenAI agents’ actions, the Wikimedia Foundation said , was to use Wikipedia as a proxy for fetching data from third-party sites."
+  ]
+ },
+ "aae67ccd39e3f975": {
+  "feed": "Technica",
+  "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
+  "link": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "VMware customers face multiple obstacles as they rethink their virtualization strategy to reduce dependence on VMware. Today, Rimini Street published its “2026 IT Virtualization Survey – What’s Next for VMware Users.” The survey examined 300 organizations worldwide that use VMware. Notably, Rimini sells third-party support for VMware and other software, including Oracle and SAP."
+  ]
+ },
+ "0ec0c3cc2f3eb61c": {
+  "feed": "Google Research",
+  "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+  "link": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Unlocking Earth AI’s planetary geospatial foundation models for global public health Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "e81043418dfeb9c4": {
+  "feed": "MIT News (AI)",
+  "title": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
+  "link": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "MIT is launching a new strategic initiative today: MIT for America, which seeks to strengthen STEM education nationally, at many levels of learning. Addressing a critical national need, the initiative ranges across STEM fields and will engage students from kindergarten through community college, preparing them to live and work in a world increasingly shaped by science and technology."
+  ]
+ },
+ "ee5a948a7c3941f3": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "The Cyber Risk Discourse is Broken",
+  "link": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I’ve had one too many discussions on the cyber risks of open models — where someone assumes that either banning open models happens in a silo (and bad actors will somehow actually be stopped) or that China is a threat and doesn’t care about AI safety — that I feel we’re going to end up making policy decisions that both limit American AI competitiveness and increases long-term cyber risk."
+  ]
+ },
+ "f66486df2fd590e7": {
+  "feed": "Simon Willison",
+  "title": "Scrimshaw Jukebox",
+  "link": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good."
+  ]
+ },
+ "982e05c64df44fdd": {
+  "feed": "Meta Engineering",
+  "title": "NTS: Authenticated Time at Meta",
+  "link": "https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta’s public time service now speaks NTS (Network Time Security, RFC 8915) at nts.meta.com . Packets are authenticated, so a device can verify the time came from us and was not modified on the way. Our NTS servers hold no per-client state. Cookie keys are derived, not stored and not replicated. We’ve open sourced everything, including the protocol, server, client through Meta’s Time library on GitHub ."
+  ]
  }
 }
