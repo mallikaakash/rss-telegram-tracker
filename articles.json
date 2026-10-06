@@ -76461,5 +76461,52 @@
   "points": [
    "Author: David Banys We first shipped the Railway Agent for Slack and Discord to Priority Boarding in July, and now we're ready to release the agent bot(s) to GA. Railway Agent in Slack To get started you'll need to go to your Account Settings and scroll down to Railway Agent Integrations. There you should see options for connecting Slack and Discord. Agent integrations are available in Account Settings From there, you'll need to use the following commands to link the Railway Agent to your Slack or Discord workspace: Slack - Run /railway-link in any channel Discord - Run /link workspace in any channel Once linked, you simply need to mention @Railway Agent in the chat and the Railway Agent will be at your service."
   ]
+ },
+ "9bdb34782c42fc86": {
+  "feed": "Technica",
+  "title": "Russian drones strike Ukraine’s data centers by exploiting air defense gaps",
+  "link": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
+  "date": "2026-10-06",
+  "tier": "low_priority",
+  "why": "Geopolitical news coverage of military strikes on physical telecom infrastructure with no technical ML or backend engineering insights.",
+  "points": [
+   "Russian drone strikes damaged data centers and telecom networks across Kyiv, causing internet disruptions for over 100,000 households."
+  ]
+ },
+ "055f9ef01fa22877": {
+  "feed": "Technica",
+  "title": "F1 in Bahrain... in Malaysia: The race needed a software update to start",
+  "link": "https://arstechnica.com/cars/2026/10/f1-in-bahrain-in-malaysia-the-race-needed-a-software-update-to-start/",
+  "date": "2026-10-06",
+  "tier": "low_priority",
+  "why": "Formula 1 sports commentary that is completely unrelated to ML, backend systems, or software engineering.",
+  "points": [
+   "Heavy rain and tire strategy trade-offs delayed a relocated Grand Prix event in Sepang, Malaysia."
+  ]
+ },
+ "085f7195b66fbb80": {
+  "feed": "Hugging Face Blog",
+  "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+  "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+  "date": "2026-10-06",
+  "tier": "must_read",
+  "why": "Provides technical insights into dialect LLM adaptation and Falcon-H1's hybrid Mamba-Transformer architecture designed for efficient long-context modeling.",
+  "points": [
+   "Falcon-H1 uses a hybrid block architecture running Mamba (SSM) and Transformer attention in parallel, fusing outputs before projection for linear-time long-context efficiency.",
+   "The 7B dialect model adapts Falcon-H1-Arabic using a blend of authentic dialect web text, cultural corpus data, and glossary-guided synthetic generation.",
+   "Supports long-context windows up to 128K/256K tokens, evaluated using native-speaker human benchmarks and pairwise LLM-as-judge scoring."
+  ]
+ },
+ "16140ec435b023df": {
+  "feed": "Simon Willison",
+  "title": "Quoting Felix Rieseberg",
+  "link": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+  "date": "2026-10-06",
+  "tier": "worth_a_skim",
+  "why": "Offers a concise engineering takeaway on agent sandbox architecture and the trade-offs between local and cloud execution environments.",
+  "points": [
+   "Anthropic moved Cowork execution from local user VMs to per-session isolated cloud sandboxes to eliminate client battery/disk drains and allow detached background execution.",
+   "Hybrid bridge design: The cloud sandbox delegates device-specific operations, like reading local files, back to the desktop application via tool calls."
+  ]
  }
 }
