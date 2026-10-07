@@ -76981,5 +76981,38 @@
   "points": [
    "You have almost certainly done this. Your cart is at ₹340. Bread, milk, a bag of onions, a shampoo you were running low on. You are one tap from paying. And then you notice the line at the top of the screen: add ₹59 more to unlock ₹75 off. So you do the arithmetic. If I add something for around ₹60 and save ₹75, the new item is effectively free. Better than free, actually."
   ]
+ },
+ "3c79eed021ebe5f6": {
+  "feed": "Technica",
+  "title": "Why is NASA bringing 7,500 contractors back to work as civil servants?",
+  "link": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As a flight director during NASA's Apollo missions, Gerry Griffin led several lunar landings. He helped bring the crew of Apollo 13 safely back to Earth. Later, he directed Johnson Space Center in Houston. Through these experiences, Griffin learned the value of teamwork in spaceflight—during the dynamic moments that can make or break a successful launch or landing, you absolutely have to trust your colleagues in the trenches."
+  ]
+ },
+ "a455b53a5605095c": {
+  "feed": "Technica",
+  "title": "All-electric camping gets a solar upgrade: The 2027 Pebble Flow",
+  "link": "https://arstechnica.com/cars/2026/10/this-self-parking-electric-travel-trailer-gets-a-solar-upgrade-for-2027/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There is, I think, a pent-up demand for bringing electrification to camping. Anyone who’s had their sleep disturbed by the sound of someone else’s generator running at night would probably agree. Certainly, any time we cover an electric van , comments are filled with people wondering if and when a camper conversion might appear. Kia showed off such a concept a couple of years ago , as did Winnebago , and Volkswagen is adding a camper trim to its electric ID."
+  ]
+ },
+ "5bdd694c62903534": {
+  "feed": "Hugging Face Blog",
+  "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+  "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO Enterprise + Article Published October 7, 2026 Upvote 5 Aleksander aficek Follow nvidia Igor Gitman igitman Follow nvidia Sean Narenthiran SeanNaren Follow nvidia Mehrzad Samadi mehrzads Follow nvidia Somshubra Majumdar smajumdar94 Follow nvidia :last-child]:mb-0\"> A reusable specialization recipe From general coding ability to IOI gold Teaching Nemotron to prove, check, and revise Fine-tuning and test-time compute work together Open models, data, and recipes on Hugging Face The International Olympiad in Informatics (IOI) and the International Mathematical Olympiad (IMO) test different skills."
+  ]
  }
 }
