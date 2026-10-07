@@ -4940,5 +4940,85 @@
   "tier": "skip",
   "why": "Rehashes textbook distributed training calculations (16 bytes per parameter, DP/TP/PP/EP) found across standard Hugging Face and Megatron documentation.",
   "points": []
+ },
+ "ba98f6f5021c93b9": {
+  "url": "https://dev.to/gulding/building-a-200m-parameter-llm-from-scratch-in-pytorch-1c9k",
+  "title": "Building a 200M parameter LLM from scratch in PyTorch - DEV Community",
+  "domain": "dev.to",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f2dbbfb994c8f155": {
+  "url": "https://gunjandhanuka.github.io/research-hub/learn/rl/09-rl-for-reasoning",
+  "title": "09 · RL for Reasoning (RLVR, GRPO, R1) · Gunjan Dhanuka",
+  "domain": "gunjandhanuka.github.io",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "8cc4821b6fc34016": {
+  "url": "https://ninaddeshpande.com/posts/transformer-internals-attention-without-the-mysticism.html",
+  "title": "Transformer internals: attention without the mysticism — Ninad Deshpande",
+  "domain": "ninaddeshpande.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "b864b137e81755c0": {
+  "url": "https://manishklach.github.io/writings/pagedattention-internals-blocks-copy-on-write.html",
+  "title": "PagedAttention, Internals First: Blocks, Tables, and Copy-on-Write | MANISH AI",
+  "domain": "manishklach.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "ae7238647b4766dc": {
+  "url": "https://gunjandhanuka.github.io/research-hub/learn/gpu/06-memory-wall-and-flashattention",
+  "title": "Learn: The Memory Wall & FlashAttention · Gunjan Dhanuka",
+  "domain": "gunjandhanuka.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "694f421deca71ba5": {
+  "url": "https://www.eveon.com/how-a-transformer-layer-maps-to-gpu-memory/",
+  "title": "How a Transformer Layer Maps to GPU Memory",
+  "domain": "eveon.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "5af498c97acd9819": {
+  "url": "https://manishklach.github.io/writings/parallelism-communications-tp-pp-ep-dp-math.html",
+  "title": "TP vs PP vs EP vs DP: The Communication Math That Picks Your Parallelism | MANISH AI",
+  "domain": "manishklach.github.io",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "e5a2e392c216966a": {
+  "url": "https://arxiv.org/abs/2608.08800",
+  "title": "[2608.08800] Instability of LLM Pre-Pretraining: It Doesn't Always Help. An Investigation on Multiple Languages",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-07",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
