@@ -77014,5 +77014,159 @@
   "points": [
    "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO Enterprise + Article Published October 7, 2026 Upvote 5 Aleksander aficek Follow nvidia Igor Gitman igitman Follow nvidia Sean Narenthiran SeanNaren Follow nvidia Mehrzad Samadi mehrzads Follow nvidia Somshubra Majumdar smajumdar94 Follow nvidia :last-child]:mb-0\"> A reusable specialization recipe From general coding ability to IOI gold Teaching Nemotron to prove, check, and revise Fine-tuning and test-time compute work together Open models, data, and recipes on Hugging Face The International Olympiad in Informatics (IOI) and the International Mathematical Olympiad (IMO) test different skills."
   ]
+ },
+ "f3d4ea284abe8ecb": {
+  "feed": "Technica",
+  "title": "Chemistry Nobel goes to reactions like those that gave life a hand",
+  "link": "https://arstechnica.com/science/2026/10/chemistry-nobel-goes-to-reactions-like-those-that-gave-life-a-hand/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Life is remarkably selective. Life relies on many molecules with what is termed \"handedness\"—they're chemically identical but are mirror images of each other. Most chemical reactions will make a 50-50 mix of the left- and right-handed forms of a chemical, but life uses only one of them. In fact, because of the differences between left- and right-handed chemicals, most of the key enzymes used by organisms will fail to work if they're presented with chemicals that have the wrong handedness."
+  ]
+ },
+ "197d2e5bb51b2b14": {
+  "feed": "Technica",
+  "title": "Pediatricians renew call to ban raw milk as anti-science rhetoric reigns",
+  "link": "https://arstechnica.com/health/2026/10/pediatricians-renew-call-to-ban-raw-milk-as-anti-science-rhetoric-reigns/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As many doctors are moving ahead with the latest advances of modern medicine—from powerful obesity drugs to breakthrough cancer treatments—pediatricians are being forced to turn back, fighting to maintain advances in children's health that were hard-won decades ago. With anti-vaccine advocate Robert F. Kennedy Jr. as health secretary, the American Academy of Pediatrics (AAP) has spent a considerable amount of time and resources in the past year fiercely defending lifesaving vaccinations—safe, routine shots that have saved the lives of millions of children over decades and thwarted untold suffering and disability."
+  ]
+ },
+ "2943f19100563cde": {
+  "feed": "Technica",
+  "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
+  "link": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "After pleading guilty, a 54-year-old North Carolina man, Michael Smith, was sentenced to 18 months in prison for using artificial intelligence to generate songs for a scheme that stole millions from music streaming platforms. In a press release Tuesday, the US Department of Justice said that Smith is the first American criminally charged with AI-assisted streaming fraud."
+  ]
+ },
+ "1e84fb701fa58604": {
+  "feed": "Technica",
+  "title": "Jaguar Type 01 debuts; now, no one remembers the electric Ferrari",
+  "link": "https://arstechnica.com/cars/2026/10/jaguar-makes-its-controversial-all-ev-return-with-the-type-01/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Does it feel like people are perhaps a little grumpier or more on edge these days? It’s not like it’s without reason. There are wars . The climate is going haywire . Someone just died of plague . Scientific research is under attack . Machines keep stealing humans’ work . The media is a mess . And just when it all starts to feel a little overwhelming, Jaguar goes and unveils a new car."
+  ]
+ },
+ "6ee83946f5f93e76": {
+  "feed": "Technica",
+  "title": "Trade group crunches numbers on Trump’s impossible push for 100% US-made tech",
+  "link": "https://arstechnica.com/tech-policy/2026/10/trade-group-crunches-numbers-on-trumps-impossible-push-for-100-us-made-tech/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "One of Donald Trump’s biggest goals as president is to increase domestic manufacturing and reshore supply chains so that the most in-demand technologies in the world can be 100 percent made in the United States. By executive order last December, he launched his “Genesis Mission,” an ambitious plan seeking to leverage US dominance in AI to maintain or seize an edge in advanced robotics, biotechnology, semiconductors, and nuclear technologies."
+  ]
+ },
+ "fc6c16485847d7e3": {
+  "feed": "Google Research",
+  "title": "Does better work always mean better workers?",
+  "link": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Does better work always mean better workers? Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "ca6869a908ae7c74": {
+  "feed": "Microsoft Research",
+  "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+  "link": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a glance Harnessed Agentic RL: Microsoft Research Asia introduces a training paradigm in which the same agent harness used in deployment participates directly in reinforcement learning, removing the need to reimplement the agent inside the training framework. Lightweight by design: Agent Lightning v1.0 delivers a complete agent RL control plane in roughly 3,500 lines of code."
+  ]
+ },
+ "ad4e14640e358f44": {
+  "feed": "OpenAI News",
+  "title": "Helping teens learn, plan, and shape the future of AI",
+  "link": "https://openai.com/index/teens-learn-and-plan",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Helping teens learn, plan, and shape the future of AI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 7, 2026 Product Helping teens learn, plan, and shape the future of AI College Planner is coming to ChatGPT for teens, alongside a new teen AI council and more tools for learning."
+  ]
+ },
+ "04e9dc3828b5420c": {
+  "feed": "OpenAI News",
+  "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+  "link": "https://openai.com/index/radisson",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Radisson Hotel Group brings hotel discovery into ChatGPT | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 7, 2026 Radisson Hotel Group brings hotel discovery into ChatGPT Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips."
+  ]
+ },
+ "0ca1450969b5beb5": {
+  "feed": "OpenAI News",
+  "title": "GPT-6 and Intelligent UI for everyone",
+  "link": "https://openai.com/index/gpt-6-for-everyone",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT-6 and Intelligent UI for everyone | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 7, 2026 Product Release GPT‑6 and Intelligent UI for everyone Loading… Share Introducing Intelligent UI Introducing Intelligent UI More visual responses to everyday questions Learn complex topics more easily Create interactive experiences just by asking How Intelligent UI works Frontier Intelligence – delivered more quickly Deploying GPT-6 safely Availability What comes next Introducing Intelligent UI More visual responses to everyday questions Learn complex topics more easily Create interactive experiences just by asking How Intelligent UI works Frontier Intelligence – delivered more quickly Deploying GPT-6 safely Availability What comes next Last month we introduced the first GPT‑6 models for paid customers and today we're bringing that next generation of intelligence to more people with a new GPT‑6 model built for more than 1.2 billion people who use ChatGPT each week."
+  ]
+ },
+ "0825a4897dea2e82": {
+  "feed": "Hugging Face Blog",
+  "title": "Multimodal open d1 decision models for the edge",
+  "link": "https://huggingface.co/blog/LiquidAI/open-d1",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Multimodal open d1 decision models for the edge Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Multimodal open d1 decision models for the edge Team Article Published October 7, 2026 Upvote 16 +10 Aurelien Lac Aurelien-Lac Follow LiquidAI Fernando Fernandes Neto fernandofernandes Follow LiquidAI Edoardo Mosca EdoardoMosca Follow LiquidAI Maxime Labonne mlabonne Follow LiquidAI Leonie Monigatti iamleonie Follow LiquidAI :last-child]:mb-0\"> How we built decision models for the edge Benchmark results Speed How to use open d1 decision models Get Started with open d1 decision models Citation Today, we release two open decision models in our d1 decision model family : d1-3B and d1-omni-600M (experimental)."
+  ]
+ },
+ "4d5e1f5c1fab6083": {
+  "feed": "MIT News (AI)",
+  "title": "Discovering the value of humanistic inquiry",
+  "link": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Artificial intelligence has become part of the zeitgeist. And while it’s a polarizing topic, Linda Rabieh has a unique take on AI: “It’s good for business. Our business, of humanistic thinking.” As senior lecturer in the Concourse program, one of MIT’s first-year learning communities , Rabieh has been introducing students to the “business” since 2010."
+  ]
+ },
+ "dd551f425089cbdd": {
+  "feed": "Simon Willison",
+  "title": "Anti-Patterns in Software Blogging",
+  "link": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality. He also warns against overreliance on links as an excuse not to explain terminology. This one hurt! I do this all the time, but I have a nagging suspicion that almost nobody ever clicks on them."
+  ]
+ },
+ "d59fe0acf6e9503b": {
+  "feed": "Cloudflare Blog",
+  "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+  "link": "https://blog.cloudflare.com/agentic-security-operations/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Security alerts rarely arrive one at a time. A single alert can cause a spike across the environment, requiring a human analyst to decide which alerts are related and what they mean. When multiple arrive at the same time, it can quickly overwhelm even a seasoned security analyst. Enter the alert paradox. Now, our built-in, multi-AI-agent security operations harness can handle more of this work at Cloudflare scale."
+  ]
  }
 }
