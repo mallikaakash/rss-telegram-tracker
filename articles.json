@@ -76816,5 +76816,170 @@
   "points": [
    "On October 11, 2026, the DNS root is scheduled to change its key-signing key (KSK) for only the second time ever. This key anchors DNSSEC’s chain of trust, which lets DNS resolvers authenticate answers using cryptographic signatures. The change is called a KSK rollover. Validating resolvers need to trust the new key before the switch, as otherwise healthy websites could become unreachable."
   ]
+ },
+ "c7efea1afae5de2e": {
+  "feed": "Technica",
+  "title": "Drones sink ships near NATO countries in “unacceptable” attacks, EU says",
+  "link": "https://arstechnica.com/gadgets/2026/10/drone-strikes-likely-russian-sink-ships-in-nato-countries-economic-zones/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Drones sank two cargo ships and damaged a third in the exclusive economic zones of NATO member countries for the first time, killing at least two sailors. The attacks represent a notable escalation as Black Sea commercial shipping has increasingly come under attack during the Russian invasion of Ukraine, with Russia also being accused of carrying out “hybrid warfare” incidents across Europe."
+  ]
+ },
+ "11669444bfa3fd7b": {
+  "feed": "Technica",
+  "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+  "link": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI will begin automatically watermarking text generated with ChatGPT in the European Union, the company has announced. It will also offer the watermarking feature in other regions, but it will be off by default outside of the EU. The move in Europe is driven by a need to comply with the EU AI Act, which took effect in August. It requires marking content produced by AI models in a way that another tool can detect."
+  ]
+ },
+ "0bd4ec4ad1002c72": {
+  "feed": "Technica",
+  "title": "HBO Max, Paramount+, and Discovery+ \"will unify into a single service”",
+  "link": "https://arstechnica.com/gadgets/2026/10/hbo-max-paramount-and-discovery-will-unify-into-a-single-service/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "After months of industry and customer speculation, Paramount Skydance has shed some light on the future of the HBO Max and Paramount+ streaming services. Paramount Skydance completed its acquisition of Warner Bros. Discovery (WBD) today, ending a monthslong saga that began when Netflix last year announced its own plans to buy WBD. Netflix scrapped those plans in February."
+  ]
+ },
+ "8ff70ec736cc6d9b": {
+  "feed": "Technica",
+  "title": "It looks like the Atlantic storm season may finally produce a hurricane",
+  "link": "https://arstechnica.com/science/2026/10/it-looks-like-the-atlantic-storm-season-may-finally-produce-a-hurricane/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A low-pressure system in the western Gulf of Mexico should soon become a tropical storm, and based on the latest forecast modeling, it has a decent chance of becoming a hurricane. Normally, a hurricane forming in early October would not be particularly noteworthy. However, this year the development of a hurricane would be a big deal—because it has not happened yet."
+  ]
+ },
+ "5690cd69281835fe": {
+  "feed": "Technica",
+  "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+  "link": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Attackers hijacked three top-level domains and used their control to mint counterfeit TLS certificates for Google and other large organizations, Google said Tuesday. The attackers launched a series of attacks on the .gh, .sl, and .as country code top-level domains (ccTLDs) and then modified authoritative DNS records for selected domains within those namespaces."
+  ]
+ },
+ "2debcb2591c339e5": {
+  "feed": "Apple ML Research",
+  "title": "RISED: Rubrics for Agentic Multi-Environment Selection and Self-Distillation",
+  "link": "https://machinelearning.apple.com/research/rised-multi-environment-selection",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Training a single LLM agent jointly across diverse interactive environments has attracted increasing attention as a route to generalist agents. Existing curriculum and data-selection strategies often allocate training at the environment level or prioritize local reward-based signals, without explicitly considering relationships between current rollouts across environments for prompt-group selection."
+  ]
+ },
+ "342677ae7eadb2eb": {
+  "feed": "OpenAI News",
+  "title": "How Jump Trading is scaling quant research with ChatGPT",
+  "link": "https://openai.com/index/jump-trading",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Jump Trading is scaling quant research with ChatGPT | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 6, 2026 How Jump Trading is scaling quant research with ChatGPT Jump Trading uses GPT‑6 Astra to take on longer, more ambiguous research problems."
+  ]
+ },
+ "47b9255d8fa0f8e8": {
+  "feed": "OpenAI News",
+  "title": "Sharing AI progress in mathematics",
+  "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sharing AI progress in mathematics | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 6, 2026 Research Publication Sharing AI progress in mathematics View on GitHub (opens in a new window) Loading… Share We’re releasing a broad range of new mathematical results produced by an internal frontier model ."
+  ]
+ },
+ "544da1e9a61fc2a9": {
+  "feed": "Simon Willison",
+  "title": "Quoting Jake Boggan",
+  "link": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it. But it's supposedly proven here - problem 180 ."
+  ]
+ },
+ "40c4d27cba869495": {
+  "feed": "Simon Willison",
+  "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+  "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI."
+  ]
+ },
+ "c41d88164f839288": {
+  "feed": "Simon Willison",
+  "title": "Quoting Victoria Kim",
+  "link": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Australian parliament Tags: accidental-cyberattacks , generative-ai , ai-security-research , openai , ai , llms"
+  ]
+ },
+ "bc657e1acdd70771": {
+  "feed": "Simon Willison",
+  "title": "llm-openai-decisions 0.1a0",
+  "link": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-decisions plugin inspired by llm-typesafe . Unlike Jev, the new gpt-6-luna decision model supports image input in addition to text."
+  ]
+ },
+ "17c1ef68addffb00": {
+  "feed": "Simon Willison",
+  "title": "datasette-atom 0.11a0",
+  "link": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-atom 0.11a0 Simon Willison’s Weblog Subscribe Sponsored by: Deepgram — Flux TTS remembers the conversation, so your agent sounds right on reply 20. Hear the demo 6th October 2026 Release datasette-atom 0.11a0 — Datasette plugin that adds a .atom output format A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41."
+  ]
+ },
+ "3f752e834bc38f86": {
+  "feed": "Modal Blog",
+  "title": "TypeSafe AI scales Jev to trillions of tokens in three days on Modal",
+  "link": "https://modal.com/blog/typesafeai-case-study",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "TypeSafe AI scales Jev to trillions of tokens in three days on Modal Skip to content Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Customer Stories Oct 5, 2026 TypeSafe AI scales Jev to trillions of tokens in three days on Modal TypeSafe AI âs manifesto is contrarian for an AI lab: âBuild Prod, Not God.â Their first model, Jev, delivers fast, structured decisions with frontier intelligence."
+  ]
+ },
+ "f7748159c4f17c22": {
+  "feed": "Zepto Engineering",
+  "title": "What Do You Add? | Recommending the right next item when intent is already there",
+  "link": "https://blog.zepto.com/what-do-you-add-recommending-the-right-next-item-when-intent-is-already-there-7a35a408b175?source=rss----bd632b1d570d---4",
+  "date": "2026-10-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "You have almost certainly done this. Your cart is at ₹340. Bread, milk, a bag of onions, a shampoo you were running low on. You are one tap from paying. And then you notice the line at the top of the screen: add ₹59 more to unlock ₹75 off. So you do the arithmetic. If I add something for around ₹60 and save ₹75, the new item is effectively free. Better than free, actually."
+  ]
  }
 }
