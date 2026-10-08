@@ -77256,5 +77256,115 @@
   "points": [
    "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month."
   ]
+ },
+ "9523a2fdd9f2139a": {
+  "feed": "Technica",
+  "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
+  "link": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "If there was a year the world began waking up to climate change, it might have been 1988. That June, the NASA climatologist James Hansen testified to Congress that the climate was warming and would continue to do so as long as humans pumped fossil fuel pollution into the atmosphere. Months later, the United Nations established the Intergovernmental Panel on Climate Change."
+  ]
+ },
+ "5387f8e8d5e8c2a4": {
+  "feed": "Technica",
+  "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+  "link": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Investors bullish on AI data centers may be fueling Nvidia’s multitrillion-dollar market capitalization, but the AI chipmaker has also bet billions of dollars on physical AI technologies such as robotics and self-driving cars. Part of that gambit has involved developing a full-stack safety system that companies can build upon to reduce the risk of their machines harming nearby people."
+  ]
+ },
+ "4b27c28ad65735dd": {
+  "feed": "Technica",
+  "title": "A senator tried to ban gambling on prediction markets—now she's a Kalshi lobbyist",
+  "link": "https://arstechnica.com/tech-policy/2026/10/a-senator-tried-to-ban-gambling-on-prediction-markets-now-shes-a-kalshi-lobbyist/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In July 2010, US Senator Blanche Lincoln (D-Ark.) predicted the rise of prediction markets and the problems they could cause. If not properly regulated, Lincoln warned during Senate proceedings on the Dodd–Frank Wall Street Reform and Consumer Protection Act, prediction markets could evade gambling laws by offering \"event contracts\" that let people place wagers on sports games."
+  ]
+ },
+ "eba1d42227099159": {
+  "feed": "Technica",
+  "title": "Google rolls out improved SynthID AI content detector, now available globally",
+  "link": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Every piece of AI content from Google's Gemini models has a hidden SynthID label, which makes it very difficult to pass the content off as authentic . SynthID has also gotten buy-in from other major AI players, but actually checking for those invisible watermarks has been a convoluted process. It's going to be a little easier going forward, though. Google has announced that its SynthID detector now supports watermarks from all its partners, and it's available for anyone to use on a new dedicated website."
+  ]
+ },
+ "782015d1e003f656": {
+  "feed": "Technica",
+  "title": "AI/ML is becoming a performance factor in motorsport",
+  "link": "https://arstechnica.com/cars/2026/10/ai-ml-setups-became-a-tool-in-indycar-champion-alex-palous-toolbox/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There’s been something of a change in the world of motorsport over the past few years. It has to do with where the money comes from. In the old days, it was tobacco and, to a lesser extent, booze. Today such things are mostly banned, and when you look at a racecar covered in sponsor logos, you’re likely to see something crypto-, cyber-, or AI-related. This makes sense—an ever-larger share of our GDP is wrapped up in those segments."
+  ]
+ },
+ "57f15a162562c94f": {
+  "feed": "Apple ML Research",
+  "title": "Normalizing Trajectory Models",
+  "link": "https://machinelearning.apple.com/research/normalizing-trajectory-models",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Diffusion-based models decompose sampling into many small Gaussian denoising steps, an assumption that breaks down when generation is compressed to a few coarse transitions. Existing few-step methods address this through distillation, consistency training, or adversarial objectives, but sacrifice the likelihood framework in the process. We introduce Normalizing Trajectory Models (NTM), which models each reverse step as an expressive conditional normalizing flow with exact likelihood training."
+  ]
+ },
+ "077dea1e8a7adb2e": {
+  "feed": "OpenAI News",
+  "title": "Disrupting AI-enabled “false front” operations",
+  "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Disrupting AI-enabled “false front” operations | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 8, 2026 Safety Disrupting AI-enabled “false front” operations Loading… Share Russia: Operation “Dark Clark” Russia: Operation “Dark Clark” Actor Internal reporting The “research platform” Creating fakes Impact Iran: Operation “Bogus Bylines” Actor Planting articles Mass commenting Internal reporting Impact Russia: Operation “Dark Clark” Actor Internal reporting The “research platform” Creating fakes Impact Iran: Operation “Bogus Bylines” Actor Planting articles Mass commenting Internal reporting Impact Over the past two and a half years, we’ve reported on many of the ways in which threat actors tried to use our models to conduct cyber attacks, covert influence operations (IO), scams, and other violations of our Usage Policies."
+  ]
+ },
+ "91ed3eb235f3237f": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing Falcon ASR",
+  "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Falcon ASR Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Introducing Falcon ASR Team Article Published October 7, 2026 Upvote 1 Abdul Muneer abdulmuneertii Follow tiiuae Rishabh Saraf rishabh-saraf Follow tiiuae Ramesh Gundluru gundlururamesh Follow tiiuae Shamsa Hamad shamsaH Follow tiiuae Lepauloux Ludovick Follow tiiuae Hakim Hacid HakimHacid Follow tiiuae :last-child]:mb-0\"> Recognising spoken Arabic Arabic benchmark results Evaluating Emirati speech Training for different recording conditions English and other languages Model foundation Try Falcon ASR Acknowledgments English · العربية Arabic WER: 20.92% · Parameters: 1.6B · Emirati WER (TII evaluation): 22.73% We’re introducing Falcon-ASR, our 1.6 billion parameter speech recognition model for Arabic, with a particular focus on the Emirati dialect."
+  ]
+ },
+ "21a756e168ddf132": {
+  "feed": "Cloudflare Blog",
+  "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+  "link": "https://blog.cloudflare.com/radar-redesign/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Radar provides a real-time view into global Internet trends, powered by Cloudflare’s global network. We support Cloudflare’s mission to help build a better Internet by making web data visible, clear, and actionable for everyone. Since launching in 2020 , Radar has found a natural audience amongst expert users with technical backgrounds, such as network operators and academic researchers who rely on Radar data to observe industry trends and global events."
+  ]
+ },
+ "de15a8d9d121a693": {
+  "feed": "Swiggy Bytes",
+  "title": "Solving Regional Consistency of Delivery ETA with a Deep Probabilistic Framework",
+  "link": "https://medium.com/swiggy-bytes/solving-regional-consistency-of-delivery-eta-with-a-deep-probabilistic-framework-8d82d6abdf41?source=rss----9556560f659---4",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "1. Introduction In the on-demand food delivery ecosystem, an app’s Expected Time of Arrival (ETA) is the foundation of customer trust. Promise 25 minutes for a 40-minute delivery, and you leave a customer frustrated. Show 50 minutes for a 30-minute delivery, and that customer might abandon their cart entirely. Balancing under- and over-prediction is a delicate trade-off."
+  ]
  }
 }
