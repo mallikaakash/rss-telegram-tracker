@@ -5020,5 +5020,75 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "f4a133817d4c7aad": {
+  "url": "https://passdrill.org/ai-engineering/grpo-vs-ppo-worked-advantage-example/",
+  "title": "GRPO vs PPO for LLM Fine-Tuning: A Worked Advantage Example | PassDrill",
+  "domain": "passdrill.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-08",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3d9613799e55f9f3": {
+  "url": "https://intvml.com/dl0108-ppo-vs-dpo-vs-grpo/",
+  "title": "DL0108 PPO vs DPO vs GRPO - Interview for Machine Learning",
+  "domain": "intvml.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-08",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "614c495c05ff0476": {
+  "url": "https://martinuke0.github.io/posts/2026-09-04-kv-caching-in-production-how-transformers-trade-memory-for-latency/",
+  "title": "KV Caching in Production: How Transformers Trade Memory for Latency | martinuke0's Blog",
+  "domain": "martinuke0.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-08",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "33b433244e5aecf1": {
+  "url": "https://gunjandhanuka.github.io/research-hub/learn/gpu/08-data-parallelism-and-collectives",
+  "title": "Learn: Data Parallelism & Collective Communication · Gunjan Dhanuka",
+  "domain": "gunjandhanuka.github.io",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-08",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "70040cb0fcb30542": {
+  "url": "https://thelatestinai.com/papers/2610.05978",
+  "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation | The Latest in AI",
+  "domain": "thelatestinai.com",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-08",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "b0172259369187be": {
+  "url": "https://robotnurse.io/posts/07-one-slow-request-locks-out-everything",
+  "title": "One Slow Request Locks Out Everything Else",
+  "domain": "robotnurse.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-08",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "d122a51a1e16f685": {
+  "url": "https://robotnurse.io/posts/09-the-crash-we-could-not-reproduce",
+  "title": "The Crash We Couldn't Reproduce on Purpose",
+  "domain": "robotnurse.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-08",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
