@@ -77366,5 +77366,119 @@
   "points": [
    "1. Introduction In the on-demand food delivery ecosystem, an app’s Expected Time of Arrival (ETA) is the foundation of customer trust. Promise 25 minutes for a 40-minute delivery, and you leave a customer frustrated. Show 50 minutes for a 30-minute delivery, and that customer might abandon their cart entirely. Balancing under- and over-prediction is a delicate trade-off."
   ]
+ },
+ "87023935733fbc8e": {
+  "feed": "Technica",
+  "title": "R.I.P. Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
+  "link": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
+  "date": "2026-10-09",
+  "tier": "low_priority",
+  "why": "Obituary and historical tribute to computing pioneer Margaret Hamilton without technical engineering depth.",
+  "points": [
+   "Margaret Hamilton passed away at age 90 after pioneering software engineering for Apollo 11."
+  ]
+ },
+ "2685ba6348fe63fd": {
+  "feed": "Technica",
+  "title": "Let's Encrypt cuts certificate lifetimes to 64 days starting February 2027",
+  "link": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/",
+  "date": "2026-10-09",
+  "tier": "worth_a_skim",
+  "why": "Relevant to backend infrastructure automation and TLS certificate management practices.",
+  "points": [
+   "Let's Encrypt will reduce certificate lifetimes from 90 days to 64 days on February 10, 2027.",
+   "Testing begins October 2026; environments without automated ACME Renewal Information (ARI) risk unexpected expirations."
+  ]
+ },
+ "3ee9adb1f52cabda": {
+  "feed": "Technica",
+  "title": "Driver wins $76 after ALPR led to bogus traffic stop, drug searches",
+  "link": "https://arstechnica.com/tech-policy/2026/10/driver-wins-76-after-alpr-led-to-bogus-traffic-stop-drug-searches/",
+  "date": "2026-10-09",
+  "tier": "low_priority",
+  "why": "General legal news regarding law enforcement use of license plate readers.",
+  "points": [
+   "A federal jury awarded a driver $76 after an automated license plate reader triggered an unconstitutional search."
+  ]
+ },
+ "de81479b4675a0a5": {
+  "feed": "Technica",
+  "title": "RFK Jr. unveils sweeping federal initiative to find evidence of vaccine injuries",
+  "link": "https://arstechnica.com/health/2026/10/rfk-jr-unveils-sweeping-federal-initiative-to-find-evidence-of-vaccine-injuries/",
+  "date": "2026-10-09",
+  "tier": "low_priority",
+  "why": "General political and public health news unrelated to ML or backend systems.",
+  "points": [
+   "HHS announced an initiative to investigate vaccine adverse events using VAERS."
+  ]
+ },
+ "26eaa63657f70e8f": {
+  "feed": "Technica",
+  "title": "An experimental tour-de-force: Entanglement between glass bead and light",
+  "link": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
+  "date": "2026-10-09",
+  "tier": "low_priority",
+  "why": "Basic physics research piece that does not intersect with applied engineering or computing.",
+  "points": [
+   "Researchers successfully demonstrated macroscopic quantum entanglement between a microscopic glass bead and a light beam."
+  ]
+ },
+ "112b5f00879d4fef": {
+  "feed": "OpenAI News",
+  "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+  "link": "https://openai.com/index/oracle",
+  "date": "2026-10-09",
+  "tier": "low_priority",
+  "why": "Standard corporate marketing case study promoting OpenAI enterprise tools.",
+  "points": [
+   "Oracle deployed ChatGPT and Codex internally for talent acquisition and natural language SQL querying."
+  ]
+ },
+ "ca1ec6c6a1a1314d": {
+  "feed": "OpenAI News",
+  "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+  "link": "https://openai.com/index/pollo-ai",
+  "date": "2026-10-09",
+  "tier": "low_priority",
+  "why": "Promotional startup customer spotlight lacking architectural or infrastructure detail.",
+  "points": [
+   "Pollo AI uses GPT-5.6 for prompt routing and higher-tier models for generative video campaign planning."
+  ]
+ },
+ "0f05fd4155a46f47": {
+  "feed": "Hugging Face Blog",
+  "title": "The model that didn't exist, so you made it yourself",
+  "link": "https://huggingface.co/blog/building-with-ml-intern",
+  "date": "2026-10-09",
+  "tier": "must_read",
+  "why": "Provides an actionable, low-cost recipe for distilling large language models into small language models running on CPU.",
+  "points": [
+   "Distilled a 9B prompt-rewriter down to a 0.8B CPU-runnable model achieving 99.7% validity using 8,797 teacher-labeled synthetic examples for $16.",
+   "Highlights critical evaluation workflows: forcing pre-training baseline scores, 50-step checkpoint smoke tests, and budget limits on autonomous agents.",
+   "Demonstrates practical small language model (SLM) compression to cut generation latency and token usage by 75%."
+  ]
+ },
+ "7a987f35931dff79": {
+  "feed": "MIT News (AI)",
+  "title": "3 Questions: What is the best path forward for AI in academia?",
+  "link": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+  "date": "2026-10-09",
+  "tier": "worth_a_skim",
+  "why": "Sasha Rakhlin outlines how fast, automated verifiability dictates where reasoning models succeed and disrupt research.",
+  "points": [
+   "AI progress concentrates heavily where verification is fast and automated (formal mathematics, code execution), creating compounding feedback loops.",
+   "Predicts graduate training will shift away from routine implementation and paper polish toward problem formulation and verification rigor."
+  ]
+ },
+ "f55b626ec460a20b": {
+  "feed": "Simon Willison",
+  "title": "Quoting Carson Gross",
+  "link": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+  "date": "2026-10-09",
+  "tier": "low_priority",
+  "why": "A brief quote with no technical substance or concrete engineering takeaways.",
+  "points": [
+   "Argues programming remains fundamentally about problem-solving and managing complexity regardless of AI tools."
+  ]
  }
 }
