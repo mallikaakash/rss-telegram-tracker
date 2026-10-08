@@ -77168,5 +77168,93 @@
   "points": [
    "Security alerts rarely arrive one at a time. A single alert can cause a spike across the environment, requiring a human analyst to decide which alerts are related and what they mean. When multiple arrive at the same time, it can quickly overwhelm even a seasoned security analyst. Enter the alert paradox. Now, our built-in, multi-AI-agent security operations harness can handle more of this work at Cloudflare scale."
   ]
+ },
+ "3a0428350fd02b1e": {
+  "feed": "Technica",
+  "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+  "link": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In its first live event in two years, Microsoft today announced its newest Surface laptop, outlined a host of changes coming to Windows 11, and shared a vision of how local-AI and agentic workflows could reshape personal computing for those in the dev community as well as home enthusiasts. Surface Laptop Ultra Originally teased in May 2026 , the new Surface Laptop Ultra will be Microsoft's first offering to take advantage of the new Nvidia RTX Spark SoC (system on a chip)."
+  ]
+ },
+ "0598a3e5bb11bf63": {
+  "feed": "Technica",
+  "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+  "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For a while, those hoping to avoid the difficulty and expense of dealing with Adobe's Creative Suite have been able to use several free and/or open-source alternatives that replicate some or all of those capabilities. Now, one developer is using AI-powered reverse engineering to mimic the look, feel, and functionality of Adobe's well-known software with what he hopes will soon be perfect fidelity."
+  ]
+ },
+ "dcf8c6406bc7cfef": {
+  "feed": "Technica",
+  "title": "PA measles outbreak tops 1,000 cases, largest since disease was eliminated",
+  "link": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Pennsylvania's explosive measles outbreak is now the largest the US has seen since the highly infectious virus was declared eliminated in 2000. With well over 1,000 cases, it's the largest on record since 1991. Pennsylvania's health officials reported 1,078 measles cases in all of 2026 as of this afternoon. That includes 12 cases in January and March, with the remaining 1,066 cases since April , when the current outbreak began."
+  ]
+ },
+ "d560ae1b3e234270": {
+  "feed": "Technica",
+  "title": "TP-Link problems in US grow amid FCC router ban and four state lawsuits",
+  "link": "https://arstechnica.com/tech-policy/2026/10/florida-sues-tp-link-claiming-it-hides-router-security-risks-and-links-to-china/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "TP-Link is facing more legal troubles in the US as Florida and three other states filed lawsuits alleging that it lied to consumers about its connections to China and the risks of its routers being exploited by Chinese state hackers. The lawsuits were filed yesterday, about six months after the Federal Communications Commission announced a sweeping ban on consumer-grade routers produced wholly or partly outside of the US."
+  ]
+ },
+ "e1ff572449c9001b": {
+  "feed": "Technica",
+  "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
+  "link": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As tensions mount over who gets access to top-end artificial intelligence , French company Mistral has released a new freely available model that it claims can compete with the very best from the US and China. The new 1 trillion-parameter model, Mistral Large 4—nicknamed Le Chonk—can be used and customized by anyone. It’s currently available in preview, with a final version to follow by the end of the month."
+  ]
+ },
+ "4c75baed558f55ac": {
+  "feed": "MIT News (AI)",
+  "title": "Using AI to mitigate the growing environmental threat of data centers",
+  "link": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The global building boom of power-hungry data centers is straining electrical grids, causing greater reliance on energy from polluting fossil fuels. Christina Delimitrou, a newly tenured associate professor at MIT, is fighting this environmental threat by rethinking how the computer servers and networking equipment inside those data centers operate. She and her group apply machine learning to make large-scale data centers more efficient, secure, and reliable."
+  ]
+ },
+ "0f47a943c04a6d3c": {
+  "feed": "Simon Willison",
+  "title": "Quoting Ben Affleck",
+  "link": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning. So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transformer can do, which is just much more computation simultaneously, you would do things like look at what's called a tensor, which is just the numerical translation of a visual image in numbers — like the batch number, the frame number, the red, green, and blue values of each pixel in each frame."
+  ]
+ },
+ "6dcb3088ac59686b": {
+  "feed": "Simon Willison",
+  "title": "Claude Haiku 5.5",
+  "link": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+  "date": "2026-10-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million input and $5/million output - relatively expensive even back then, and a full 10x the price of OpenAI's GPT-6 Luna , released last month."
+  ]
  }
 }
