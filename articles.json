@@ -77705,5 +77705,149 @@
    "Separated Source SQL, physical precomputed tables, and lightweight runtime query stubs so analyst workflows remain completely unchanged.",
    "Reduced total warehouse compute spend by 30–35% and dashboard runtimes by 60–95% on high-frequency dashboards."
   ]
+ },
+ "9f4f46039e3dc6c1": {
+  "feed": "Technica",
+  "title": "AI coding agents generate more code, but not more software",
+  "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "Provides empirical, large-scale data on real-world engineering bottlenecks caused by AI coding agents.",
+  "points": [
+   "Study analyzed 300 million work events across 700,000 engineers and 700 firms via Jellyfish data from 2021 to 2026.",
+   "Human code review becomes the primary bottleneck, causing longer PR review cycles and more revisions without increasing overall software output.",
+   "Efficiency gains during generation are absorbed by downstream testing, review, and integration constraints."
+  ]
+ },
+ "ca3b473c634fabcd": {
+  "feed": "Technica",
+  "title": "Outrage grows as CDC reportedly poised to fund \"unethical\" vaccine trial",
+  "link": "https://arstechnica.com/health/2026/10/rfk-jr-still-eager-to-fund-vaccine-trial-that-would-expose-babies-to-deadly-virus/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Completely unrelated to ML, backend systems, or engineering infra.",
+  "points": [
+   "Controversy over CDC setting aside $1.6M to fund a halted infant hepatitis B trial in Guinea-Bissau."
+  ]
+ },
+ "417ef50af1b02863": {
+  "feed": "Technica",
+  "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
+  "link": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "General consumer hardware shipping statistics with no relevance to server hardware or ML infrastructure.",
+  "points": [
+   "Global PC shipments dropped 21.2% year-over-year in Q3 2026 to 58.1 million units."
+  ]
+ },
+ "9304db4f19bb1881": {
+  "feed": "Technica",
+  "title": "AI disqualification yields new Nikon Small World in Motion winner",
+  "link": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Non-technical photography contest dispute regarding generative AI usage.",
+  "points": [
+   "Nikon disqualified its microscopy video winner for using AI to reconstruct cellular motion, re-awarding first place to a Vietnamese researcher."
+  ]
+ },
+ "1b2c3437a485e012": {
+  "feed": "Technica",
+  "title": "Your artwork could be featured in the next Debian release",
+  "link": "https://arstechnica.com/gadgets/2026/10/your-artwork-could-be-featured-in-the-next-debian-release/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Desktop Linux aesthetic contest, unrelated to backend engineering or systems internals.",
+  "points": [
+   "Debian opened community artwork submissions for Debian 14 (Forky) with a November 26 deadline."
+  ]
+ },
+ "90995f7dbc9c2674": {
+  "feed": "OpenAI News",
+  "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+  "link": "https://openai.com/index/asana-browser-agent",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "Illustrates concrete prompt caching and context management bugs that blow up inference costs in long-running agent workflows.",
+  "points": [
+   "Asana reduced browser agent cost 76x (to $0.47 per run) and achieved a 5x speedup using GPT-6.1 Sol.",
+   "Found that dynamically pruning context and modifying history invalidated prompt caches, forcing every request to re-send raw page text and screenshots at full price.",
+   "Demonstrates how automated test suites pinpoint context caching failures in web-navigation agents."
+  ]
+ },
+ "a2a546c0e3c5a9ca": {
+  "feed": "OpenAI News",
+  "title": "Think Bigger: How Small Teams Win with ChatGPT",
+  "link": "https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Basic product marketing and prompt recipes aimed at non-technical small business users.",
+  "points": [
+   "OpenAI promotional guide for SMBs using ChatGPT Business for copy writing and budgeting."
+  ]
+ },
+ "0072654de9edf8f3": {
+  "feed": "OpenAI News",
+  "title": "A Practical Guide to Building AI Agents",
+  "link": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "Decent conceptual reference for agent execution control flows, state handling, and tool execution boundaries.",
+  "points": [
+   "Defines agents strictly as LLM-controlled workflow managers capable of dynamic tool routing and self-correction, distinguishing them from linear LLM pipelines.",
+   "Breaks down orchestration into single-agent, hierarchical multi-agent, and decentralized patterns with deterministic guardrails.",
+   "Advocates reserving agentic patterns for non-deterministic decision spaces where rules engines fail."
+  ]
+ },
+ "13df0b4540935c59": {
+  "feed": "OpenAI News",
+  "title": "Building with the GPT-5 Model Series: A Practical Guide",
+  "link": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-with-ai",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "Covers practical backend migration to OpenAI's Responses API to persist chain-of-thought state across tool invocations.",
+  "points": [
+   "The Responses API allows persistent reasoning items (chains of thought) across multiple turns and tool calls without re-computing context.",
+   "Details explicit steerability parameters over model reasoning effort and verbosity to control latency and token costs.",
+   "Highlights frontier model benchmark baselines, including 74.9% on SWE-bench Verified."
+  ]
+ },
+ "3b6563cf9ee9dc77": {
+  "feed": "OpenAI News",
+  "title": "Inside GPT-5 for Work",
+  "link": "https://openai.com/business/guides-and-resources/inside-gpt5-our-best-model-for-work",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "High-level enterprise marketing overview of GPT-5 lacking implementation depth.",
+  "points": [
+   "Promotional overview of GPT-5 enterprise performance claims, such as 74.9% on SWE-bench and reduced output tokens versus o3."
+  ]
+ },
+ "992438874f535dcc": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "I expect rapid progress but not towards general superintelligence",
+  "link": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+  "date": "2026-10-10",
+  "tier": "must_read",
+  "why": "Sharp analysis on how automated coding agents will conquer distributed GPU infrastructure and inference optimization before general superintelligence.",
+  "points": [
+   "Argues that AI will become superhuman at verifiable systems domains (distributed GPU training, token throughput, FLOP efficiency) long before general research.",
+   "Predicts near-exponential declines in inference costs as automated agents capture low-hanging performance engineering gains across the GPU software stack.",
+   "Frames the immediate AI frontier as inference-time compute scaling and co-design of accelerator hardware with flexible architectures."
+  ]
+ },
+ "f0f76cf03830d6a3": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+  "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+  "date": "2026-10-10",
+  "tier": "must_read",
+  "why": "A stellar architectural deep-dive from Cloudflare detailing an MoE decision model that completely skips token generation for latency-critical multimodal scoring.",
+  "points": [
+   "Built Clef-omni on top of Qwen3-Omni-30B-A3B-Instruct MoE, retaining multimodal comprehension while discarding the TTS generation components.",
+   "Eliminates token generation entirely: executes a single prefill pass across audio, video, text, and images to score valid parameters simultaneously.",
+   "Uses a two-stage attention routing mechanism and built-in lexical grammar to pull candidate values directly from internal embeddings, fine-tuned via LoRA."
+  ]
  }
 }
