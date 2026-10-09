@@ -5090,5 +5090,65 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "46ec0805b9584213": {
+  "url": "https://james.trappett.org/blog/lokiformer-faster-llm-pretraining-via-local-attention-and-memory/",
+  "title": "LoKiFormer: Faster LLM Pretraining via Local Attention and Memory",
+  "domain": "james.trappett.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-09",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "0c074d1c7a2df9a3": {
+  "url": "https://yanxulab.github.io/posts/03-post-training-from-first-principles/index.html",
+  "title": "Post-Training from First Principles: SFT, RLHF, DPO and GRPO – Yan Xu",
+  "domain": "yanxulab.github.io",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-09",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "70bc292d1081d383": {
+  "url": "https://gozhiyuan.github.io/large-language-model/llm-inference/2026/09/09/nanovllm-02.html",
+  "title": "nano-vLLM Part 2: Block Tables, KV Cache, and the Path to the GPU | YuanPang Blog",
+  "domain": "gozhiyuan.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-09",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "0d07e7b6507a596c": {
+  "url": "https://youzhi.netlify.app/post/2026-08-30-interconnect/tuning-the-interconnect/",
+  "title": "\n    Y. Yu @ UChicago\n      |\n      Tuning the GPU Interconnect in Multi-Node Language Model Pretraining\n\n\n    \n\n  ",
+  "domain": "youzhi.netlify.app",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-09",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "173a61e73fa0ff74": {
+  "url": "https://arxiv.science/abs/2608.11859",
+  "title": "Small-Scale Experiments: Are We There Yet? | arXiv Science",
+  "domain": "arxiv.science",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-09",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "9c64c90cf2db10f8": {
+  "url": "https://dev.to/rahul_r15/the-real-post-mortem-serving-open-llms-on-aws-sagemaker-vllm-vs-bedrock-custom-models-216b",
+  "title": "The Real Post-Mortem: Serving Open LLMs on AWS (SageMaker vLLM vs. Bedrock Custom Models) - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-09",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
