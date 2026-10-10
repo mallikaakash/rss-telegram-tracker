@@ -77987,5 +77987,82 @@
    "The Deno runtime will be phased out after one year of maintenance as the team pivots away from Node compatibility parity.",
    "Ryan Dahl argues that persistence and distributed coordination backed by object storage represent a far more impactful architectural primitive than runtime emulation."
   ]
+ },
+ "8701263ea07bd092": {
+  "feed": "Technica",
+  "title": "One with the world? A new look at brains transformed by psychedelics.",
+  "link": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For about a decade, the mainstream understanding has been that psychedelics cause chaos in the brain. Brain networks—the stable patterns of communication that handle vision, attention, or our sense of self, and more—loosen and start talking to each other all at once. EEG traces get noisier and more complex. “Think of the networks of the brain as highways,” says Devon Stoliker, a neuroscientist at Monash University."
+  ]
+ },
+ "7ef38413033bf971": {
+  "feed": "Technica",
+  "title": "Starlink spectrum deal boosts Musk plan to beat AT&T, T-Mobile, and Verizon",
+  "link": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "SpaceX has a deal to purchase nationwide low-band spectrum licenses for a planned terrestrial mobile network that would complement the space-based Starlink cellular service. SpaceX will buy up to 14 megahertz of spectrum in the 800 MHz band from investment firm Grain Management , which bought the spectrum rights from T-Mobile earlier this year. T-Mobile had obtained the spectrum when it bought Sprint in 2020 and was required to sell the licenses under a merger condition imposed by the US government."
+  ]
+ },
+ "8de566fd077c6341": {
+  "feed": "OpenAI News",
+  "title": "Personalize ChatGPT with custom instructions",
+  "link": "https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Personalize ChatGPT with custom instructions | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI Demo Personalize ChatGPT with custom instructions See how custom instructions help personalize ChatGPT for your role, preferences, and work."
+  ]
+ },
+ "040145814426707b": {
+  "feed": "OpenAI News",
+  "title": "Collaborate and write with GPT-4o",
+  "link": "https://openai.com/business/learn/collaborate-and-write-with-gpt-4o",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Collaborate and write with GPT-4o | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI Demo Collaborate and write with GPT‑4o Explore how GPT‑4o makes writing and collaboration more natural, helping teams draft, refine, and adjust tone faster."
+  ]
+ },
+ "f34c5ee9a7e5b6bf": {
+  "feed": "OpenAI News",
+  "title": "Create on-brand visuals with image generation",
+  "link": "https://openai.com/business/learn/create-on-brand-visuals-with-image-generation",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Create on-brand visuals with image generation | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI Demo Create on-brand visuals with image generation See how ChatGPT image generation helps create branded visuals and product mockups from prompts, sketches, or uploaded images."
+  ]
+ },
+ "6acc7b35957a68a0": {
+  "feed": "OpenAI News",
+  "title": "Automate complex workflows with OpenAI o3",
+  "link": "https://openai.com/business/learn/automate-complex-workflows-with-openai-o3",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Automate complex workflows with OpenAI o3 | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI Demo Automate complex workflows with OpenAI o3 See how OpenAI o3 can reason through complex tasks and help automate multi-step workflows."
+  ]
+ },
+ "833d355880d31c09": {
+  "feed": "OpenAI News",
+  "title": "Connect internal knowledge from Google Drive",
+  "link": "https://openai.com/business/learn/connect-internal-knowledge-from-google-drive",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Connect internal knowledge from Google Drive | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI Demo Connect internal knowledge from Google Drive See how ChatGPT can connect to Google Drive to use internal knowledge and answer questions with relevant context."
+  ]
  }
 }
