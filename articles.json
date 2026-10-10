@@ -77849,5 +77849,143 @@
    "Eliminates token generation entirely: executes a single prefill pass across audio, video, text, and images to score valid parameters simultaneously.",
    "Uses a two-stage attention routing mechanism and built-in lexical grammar to pull candidate values directly from internal embeddings, fine-tuned via LoRA."
   ]
+ },
+ "c16ef37659298f7a": {
+  "feed": "Technica",
+  "title": "Neanderthal wooden tools from Spain found preserved in stone",
+  "link": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Irrelevant archaeology study on prehistoric woodworking tools with no engineering application.",
+  "points": [
+   "Spanish archaeologists cataloged nearly 600 preserved Neanderthal wooden artifacts from 40,000 to 62,000 years ago."
+  ]
+ },
+ "5df45c5813134c05": {
+  "feed": "Technica",
+  "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+  "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Geopolitical conflict news reporting facility strikes without technical architecture or reliability details.",
+  "points": [
+   "Ukrainian drone strikes disabled two of Yandex's five data centers, degrading Russian online and chatbot services."
+  ]
+ },
+ "8bf4a74a0b163a55": {
+  "feed": "Technica",
+  "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+  "link": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "An entertaining distributed systems hobby project benchmarking a cluster of legacy commodity nodes against historic vector architectures.",
+  "points": [
+   "Built a 1:1 Cray-1 physical replica using 30 networked 2012-era Mac Minis totaling 64 active CPU cores.",
+   "Achieved 1.3 to 1.5 TFLOPS using custom matrix-multiplication Python scripts, far exceeding the Cray-1's original 160 MFLOPS vector performance.",
+   "Highlights the evolutionary shift from purpose-built vector supercomputers to distributed commodity parallelism."
+  ]
+ },
+ "45f81eceed5bb20c": {
+  "feed": "Technica",
+  "title": "NASA issues long-awaited call to industry for private space stations",
+  "link": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Aerospace procurement RFP that does not touch software, machine learning, or backend systems.",
+  "points": [
+   "NASA released a formal commercial solicitation for private space stations to succeed the ISS by 2030."
+  ]
+ },
+ "0c26cd5d6f26f02c": {
+  "feed": "Technica",
+  "title": "What's been driving Hawaii's lava fountains?",
+  "link": "https://arstechnica.com/science/2026/10/whats-been-driving-hawaiis-lava-fountains/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Geology research into volcanic activity with no relevance to applied ML or distributed infrastructure.",
+  "points": [
+   "USGS researchers gathered multimodal sensor data from 35 stations to study Kilauea's rare lava fountain dynamics."
+  ]
+ },
+ "73ffe07773466187": {
+  "feed": "OpenAI News",
+  "title": "How OpenAI Uses Codex to Accelerate Engineering",
+  "link": "https://openai.com/business/guides-and-resources/how-openai-uses-codex",
+  "date": "2026-10-10",
+  "tier": "worth_a_skim",
+  "why": "Offers pragmatic insights into how OpenAI's core infrastructure and performance engineering teams structure workflows using coding agents.",
+  "points": [
+   "OpenAI infra and performance engineers use Codex for multi-file migrations, incident response tracing, and codebase onboarding.",
+   "Recommends writing prompts like GitHub issues, leveraging Best-of-N sampling, and using AGENTS.md for persistent architectural context.",
+   "Emphasizes using the tool task queue as an engineering backlog to handle cross-service refactors."
+  ]
+ },
+ "c4b5927104698aa9": {
+  "feed": "OpenAI News",
+  "title": "Using Codex across the software development lifecycle",
+  "link": "https://openai.com/business/learn/using-codex-across-the-software-development-lifecycle",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Pure webinar marketing landing page lacking technical substance.",
+  "points": [
+   "OpenAI event stub for a webinar on software development lifecycle tooling."
+  ]
+ },
+ "ed84f4b6a776c3ee": {
+  "feed": "OpenAI News",
+  "title": "How OpenAI uses ChatGPT Atlas at work",
+  "link": "https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Promotional webinar stub with zero architectural or technical content.",
+  "points": [
+   "OpenAI promotional placeholder for an enterprise product webinar."
+  ]
+ },
+ "7b431c4620f17592": {
+  "feed": "OpenAI News",
+  "title": "GPT-5: Our best model for work",
+  "link": "https://openai.com/business/learn/gpt-5-our-best-model-for-work",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Marketing demo page stub without technical documentation, benchmarks, or training insights.",
+  "points": [
+   "Promotional stub showcasing enterprise productivity use cases for GPT-5."
+  ]
+ },
+ "94c0ed69a0be1472": {
+  "feed": "OpenAI News",
+  "title": "Delegate work to ChatGPT agent",
+  "link": "https://openai.com/business/learn/delegate-work-to-chatgpt-agent",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Marketing product demo stub lacking implementation details on agent architectures or execution.",
+  "points": [
+   "Promotional demo stub for ChatGPT autonomous task execution."
+  ]
+ },
+ "5528ba1d9cba341e": {
+  "feed": "Simon Willison",
+  "title": "Quoting The New York Times",
+  "link": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+  "date": "2026-10-10",
+  "tier": "low_priority",
+  "why": "Extremely brief news snippet on agent misuse without engineering analysis or mitigation architectures.",
+  "points": [
+   "Anthropic agents submitted 20 incomplete automated visa applications to a US State Department web portal."
+  ]
+ },
+ "8506d75553e5b958": {
+  "feed": "Simon Willison",
+  "title": "Deno is joining Cloudflare",
+  "link": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+  "date": "2026-10-10",
+  "tier": "must_read",
+  "why": "A critical backend infrastructure development bringing open-source distributed coordination and state persistence primitives into Cloudflare's workerd.",
+  "points": [
+   "Cloudflare acquired Deno to incorporate celld (Durable Objects abstraction) into workerd, making self-hosted actor-model execution first-class.",
+   "The Deno runtime will be phased out after one year of maintenance as the team pivots away from Node compatibility parity.",
+   "Ryan Dahl argues that persistence and distributed coordination backed by object storage represent a far more impactful architectural primitive than runtime emulation."
+  ]
  }
 }
