@@ -5150,5 +5150,81 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "f30a38ab2e39d142": {
+  "url": "https://www.pedromarques.io/pretraining/",
+  "title": "wtf is pretraining? - Pedro Marques",
+  "domain": "pedromarques.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-10",
+  "tier": "solid_find",
+  "why": "A practical personal log detailing the end-to-end training of a 13.8M parameter model from scratch on CPU using empirical execution labels rather than LLM judges.",
+  "points": [
+   "Trained a 13.8M parameter router from scratch on an 8-core CPU across 5,000 steps without GPU acceleration.",
+   "Generated 10k routing prompts evaluated across three live models (30k runs) to use empirical success and cost as ground-truth labels.",
+   "Used a two-stage process: general task structure pre-training followed by cost-optimal routing classification."
+  ]
+ },
+ "7a292ae626251605": {
+  "url": "https://discovery.ucl.ac.uk/id/eprint/10231749/",
+  "title": "\n       Reinforcement Learning Post-Training for Reasoning Large Language Models: Methods, Systems, and Evaluation \n      -\n      UCL Discovery\n    ",
+  "domain": "discovery.ucl.ac.uk",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-10",
+  "tier": "skip",
+  "why": "This is an institutional repository catalog page containing only bibliographic metadata without readable paper contents or findings.",
+  "points": []
+ },
+ "3b4406740d9e196b": {
+  "url": "https://martinuke0.github.io/posts/2026-09-13-build-a-flashattention-2-inference-kernel-from-scratch-in-pure-python/",
+  "title": "Build a FlashAttention-2 Inference Kernel from Scratch in Pure Python | martinuke0's Blog",
+  "domain": "martinuke0.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-10",
+  "tier": "skip",
+  "why": "Framed primarily as a resume-building exercise for hiring managers with a NumPy simulation rather than an actual low-level GPU kernel implementation.",
+  "points": []
+ },
+ "6d6660737dfd1c6c": {
+  "url": "https://aicassindra.com/blogs/gpu/gpu_collective_ops.html",
+  "title": "GPU Collective Operations, in depth: all-reduce, all-gather, reduce-scatter and all-to-all mapped to DDP, FSDP, tensor and expert parallelism — Belgavi.AI Lab",
+  "domain": "aicassindra.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-10",
+  "tier": "solid_find",
+  "why": "A rigorous, practical reference manual mapping collective communication primitives directly to distributed LLM architectures with bandwidth cost models.",
+  "points": [
+   "Breaks down exact data-transfer formulas showing all-reduce approaches a constant 2S transfer factor as rank count grows.",
+   "Maps specific collectives to parallelism schemes: all-reduce for DDP, reduce-scatter and all-gather for FSDP, and all-to-all for MoE routing.",
+   "Provides diagnostic formulas to model communication bottlenecks before launching multi-GPU training runs."
+  ]
+ },
+ "83e2ce048db8a8fe": {
+  "url": "https://arxiv.science/abs/2610.05978",
+  "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation | arXiv Science",
+  "domain": "arxiv.science",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-10",
+  "tier": "hidden_gem",
+  "why": "Presents surprising research demonstrating that pure byte-level Transformers organically develop tokenizer-like segmentations and unlock massive speculative decoding gains.",
+  "points": [
+   "Byte Transformers with hash embeddings and token-superposition training consistently beat subword models at scale without custom architectures.",
+   "Byte models discover emergent segmentation where restricting up to 25% of intermediate layers to local representations preserves accuracy.",
+   "Concentrated entropy at structural boundaries enables speculative decoding with 3.4x more accepted tokens compared to subword models."
+  ]
+ },
+ "1e004f3e458c0cd1": {
+  "url": "https://www.marstack.ai/insights/gb10-traveller-sovereign-infra",
+  "title": "Taking one node travelling: what running a sovereign AI stack on DGX Spark actually taught us | MarStack",
+  "domain": "marstack.ai",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-10",
+  "tier": "hidden_gem",
+  "why": "A rare, high-signal infrastructure postmortem uncovering dangerous unified-memory failure modes when running Blackwell GB10 hardware in production.",
+  "points": [
+   "Unified memory across Grace Blackwell lacks VRAM protection boundaries, allowing CPU weight-streaming memory pressure to trigger the OS OOM killer against active GPU ranks.",
+   "Losing one node in a tensor-parallel pair caused wedged head-node retries and complete cluster failure.",
+   "Establishes an operational invariant that unified-memory nodes cannot mix worker and standalone inference modes without strict hard transitions."
+  ]
  }
 }
