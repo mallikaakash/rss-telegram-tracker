@@ -78064,5 +78064,60 @@
   "points": [
    "Connect internal knowledge from Google Drive | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI Demo Connect internal knowledge from Google Drive See how ChatGPT can connect to Google Drive to use internal knowledge and answer questions with relevant context."
   ]
+ },
+ "b87f8b52251dabca": {
+  "feed": "OpenAI News",
+  "title": "Prototyping with canvas in ChatGPT",
+  "link": "https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "This is a basic product marketing demo for ChatGPT Canvas generating React prototypes, lacking any engineering or architectural depth.",
+  "points": [
+   "Demonstrates converting PRDs into HTML/React prototypes using ChatGPT Canvas."
+  ]
+ },
+ "ebd2f131cb3afdc3": {
+  "feed": "OpenAI News",
+  "title": "Market research with ChatGPT",
+  "link": "https://openai.com/business/learn/market-research-with-chatgpt",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "Pure product marketing showing end users how to run market research queries in ChatGPT, irrelevant to ML systems engineering.",
+  "points": [
+   "Walks through standard web search and report synthesis using ChatGPT."
+  ]
+ },
+ "84bcc3b7e1d6aade": {
+  "feed": "OpenAI News",
+  "title": "Creating a contextual workspace in ChatGPT",
+  "link": "https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "Product feature overview of ChatGPT Projects for file organization, offering no technical insights into ML infrastructure or modeling.",
+  "points": [
+   "Explains ChatGPT Projects for organizing context and conversation history across workstreams."
+  ]
+ },
+ "06af876095c68fdf": {
+  "feed": "OpenAI News",
+  "title": "Writing with canvas in ChatGPT",
+  "link": "https://openai.com/business/learn/writing-with-canvas-in-chatgpt",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "Consumer-facing tutorial on drafting and editing text in ChatGPT Canvas, with no relevance to technical priorities.",
+  "points": [
+   "Demonstrates turning notes and transcripts into drafts within the ChatGPT Canvas UI."
+  ]
+ },
+ "b2f23be4e4da8025": {
+  "feed": "OpenAI News",
+  "title": "Vision and voice in ChatGPT",
+  "link": "https://openai.com/business/learn/vision-and-voice-in-chatgpt",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "Surface-level marketing demo of ChatGPT multimodal features without technical details on model architectures, tokenization, or serving infra.",
+  "points": [
+   "Highlights general consumer use cases for ChatGPT voice and vision interfaces."
+  ]
  }
 }
