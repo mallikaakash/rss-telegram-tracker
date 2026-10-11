@@ -78198,5 +78198,38 @@
   "points": [
    "Python version tracking landed in GitHub Actions' python-versions repository for CI matrix testing."
   ]
+ },
+ "cea40bbbc6df6a77": {
+  "feed": "OpenAI News",
+  "title": "Put AI to work: Lessons from hundreds of successful deployments",
+  "link": "https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "This is a recorded marketing webinar landing page on enterprise AI deployments with no technical engineering content.",
+  "points": [
+   "Promotional webinar page discussing high-level enterprise AI adoption lessons without technical architecture details."
+  ]
+ },
+ "e2374a9eee5eb1e2": {
+  "feed": "OpenAI News",
+  "title": "Fine-tuning GPT-4o webinar",
+  "link": "https://openai.com/business/fine-tuning-gpt-4o-webinar",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "Although titled around fine-tuning GPT-4o, this is an empty webinar landing page focused on API-level fine-tuning rather than ML infrastructure.",
+  "points": [
+   "Landing page for a webinar on OpenAI's managed fine-tuning API, containing no technical write-up or implementation insights."
+  ]
+ },
+ "39f1b2cb7d48b1e0": {
+  "feed": "OpenAI News",
+  "title": "Enabling a data-driven workforce",
+  "link": "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "This is pure sales and marketing collateral targeting business users of ChatGPT Enterprise.",
+  "points": [
+   "Marketing webinar recording showcasing practical ChatGPT Enterprise use cases for non-technical workforce data analysis."
+  ]
  }
 }
