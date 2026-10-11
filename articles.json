@@ -78119,5 +78119,84 @@
   "points": [
    "Highlights general consumer use cases for ChatGPT voice and vision interfaces."
   ]
+ },
+ "574267a6595ec8a1": {
+  "feed": "OpenAI News",
+  "title": "Strategic planning with ChatGPT",
+  "link": "https://openai.com/business/learn/strategic-planning-with-chatgpt",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "This is a generic product demo landing page for business users with zero technical or engineering substance.",
+  "points": [
+   "Promotional demo page focused on using ChatGPT for high-level business planning."
+  ]
+ },
+ "52823765ea8bac9c": {
+  "feed": "OpenAI News",
+  "title": "Shipping code to your IDE with ChatGPT",
+  "link": "https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "A consumer- and product-facing demo page with no technical details on IDE integrations or model architectures.",
+  "points": [
+   "Marketing demo page illustrating basic code handoff from ChatGPT to IDEs."
+  ]
+ },
+ "11385929cf5b0c0b": {
+  "feed": "OpenAI News",
+  "title": "Put AI to work for marketing teams",
+  "link": "https://openai.com/business/put-ai-to-work-for-marketing-teams",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "Pure non-technical marketing webinar aimed at enterprise marketing teams.",
+  "points": [
+   "Marketing webinar page on using AI for enterprise campaign development."
+  ]
+ },
+ "b3ad379499a5bee3": {
+  "feed": "OpenAI News",
+  "title": "Solving complex problems with OpenAI o1 models",
+  "link": "https://openai.com/business/solving-complex-problems-with-openai-o1-models",
+  "date": "2026-10-11",
+  "tier": "worth_a_skim",
+  "why": "Although an enterprise webinar stub, it touches on practical application domains and problem framing for OpenAI's o1 reasoning models.",
+  "points": [
+   "Focuses on high-level problem solving with o1 across coding, strategy, and scientific research.",
+   "Lacks underlying RL or architectural implementation details, serving primarily as a capability overview."
+  ]
+ },
+ "bd87c27ebb0ff857": {
+  "feed": "OpenAI News",
+  "title": "Put AI to work: Automate and scale financial operations",
+  "link": "https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "A non-technical enterprise webinar landing page aimed at finance and back-office operations.",
+  "points": [
+   "Promotional webinar stub discussing enterprise workflow automation in financial operations."
+  ]
+ },
+ "a786585932c30cce": {
+  "feed": "Simon Willison",
+  "title": "Dwarf Fortress uses version control now",
+  "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+  "date": "2026-10-11",
+  "tier": "worth_a_skim",
+  "why": "An entertaining engineering culture anecdote about managing massive legacy codebases and the eventual inevitability of source control.",
+  "points": [
+   "Details Tarn Adams' transition from 15+ years of avoiding version control to adopting it for Dwarf Fortress's commercial Steam release.",
+   "Highlights the tension between solo hacker workflow preferences and team-based production demands."
+  ]
+ },
+ "ffe9771dd0f2e869": {
+  "feed": "Simon Willison",
+  "title": "Python 3.15.0 added to actions/python-versions",
+  "link": "https://simonwillison.net/2026/Oct/10/python-actions/",
+  "date": "2026-10-11",
+  "tier": "low_priority",
+  "why": "A two-sentence micro-update about GitHub Actions CI tooling with no broader engineering analysis.",
+  "points": [
+   "Python version tracking landed in GitHub Actions' python-versions repository for CI matrix testing."
+  ]
  }
 }
