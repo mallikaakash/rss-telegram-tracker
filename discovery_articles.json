@@ -5226,5 +5226,43 @@
    "Losing one node in a tensor-parallel pair caused wedged head-node retries and complete cluster failure.",
    "Establishes an operational invariant that unified-memory nodes cannot mix worker and standalone inference modes without strict hard transitions."
   ]
+ },
+ "604f68e1e178d22a": {
+  "url": "https://www.lancedb.com/blog/practical-llm-pretraining",
+  "title": "A Practical LLM Pretraining Pipeline with LanceDB",
+  "domain": "lancedb.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-11",
+  "tier": "skip",
+  "why": "This is a blog index and aggregation page containing snippet links and promotional event banners rather than deep technical writing.",
+  "points": []
+ },
+ "6a52fafeb0d89df3": {
+  "url": "https://sultanulovi.com/notes/fsdp-throughput-cliff.html",
+  "title": "The FSDP throughput cliff nobody warns you about | Sultanul Ovi",
+  "domain": "sultanulovi.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-11",
+  "tier": "hidden_gem",
+  "why": "A concise, sharp infra debugging note diagnosing a non-obvious PyTorch FSDP throughput cliff caused by module sharding boundaries rather than network bandwidth.",
+  "points": [
+   "Scaling efficiency unexpectedly dropped to 61% on 8 GPUs before rebounding to 78% on 16 GPUs, indicating an architectural wrap issue rather than interconnect saturation.",
+   "The size-based auto wrap policy split parameters midway through a transformer block, doubling the required all-gather operations during each forward pass.",
+   "Switching to transformer_auto_wrap_policy sharding cleanly on module boundaries recovered 8-GPU scaling efficiency to 94%."
+  ]
+ },
+ "50d856ec1ad1f386": {
+  "url": "https://arxiv.org/abs/2608.17325",
+  "title": "[2608.17325] What Tokens are Learned when Tokenization is Optimized Jointly with Language Modeling?",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-11",
+  "tier": "solid_find",
+  "why": "An empirical arXiv study analyzing vocabulary formation when tokenization is optimized jointly with language modeling across 18 typologically diverse languages.",
+  "points": [
+   "Compares joint tokenization models like SSLMs and H-Nets against fixed subword tokenizers across diverse scripts and agglutinative languages.",
+   "Finds that SSLMs discover morphologically aligned tokens while H-Nets maximize byte efficiency, yielding minimal overlap with standard BPE/WordPiece vocabularies.",
+   "Demonstrates that joint optimization reduces perplexity and retains competitive downstream BERT performance despite radically different vocabularies."
+  ]
  }
 }
