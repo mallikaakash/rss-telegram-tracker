@@ -5264,5 +5264,77 @@
    "Finds that SSLMs discover morphologically aligned tokens while H-Nets maximize byte efficiency, yielding minimal overlap with standard BPE/WordPiece vocabularies.",
    "Demonstrates that joint optimization reduces perplexity and retains competitive downstream BERT performance despite radically different vocabularies."
   ]
+ },
+ "74c854532fa53b37": {
+  "url": "https://martinuke0.github.io/posts/2026-09-05-optimizing-triton-kernels-for-custom-attention-patterns-on-h100-gpus/",
+  "title": "Optimizing Triton Kernels for Custom Attention Patterns on H100 GPUs | martinuke0's Blog",
+  "domain": "martinuke0.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-12",
+  "tier": "hidden_gem",
+  "why": "A deeply technical personal engineering field guide on low-level Triton kernel optimization for non-standard attention on Hopper H100 architecture.",
+  "points": [
+   "Explains how custom masks, sliding windows, and paged KV break FlashAttention invariants and demand bespoke Triton kernels.",
+   "Identifies H100 bottlenecks around latency hiding rather than memory bandwidth, detailing TMA asynchronous copies (tl.make_block_ptr) and warp specialization (tl.async_task) splits.",
+   "Highlights concrete tuning priorities: tile shape, num_stages, and TMA descriptor reuse over raw theoretical FLOP calculations."
+  ]
+ },
+ "fb514c46b91df8b8": {
+  "url": "https://wenhaochai.com/blogs/vocab-overfitting.html",
+  "title": "How Vocabulary Size Shapes Overfitting | Wenhao Chai",
+  "domain": "wenhaochai.com",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-12",
+  "tier": "hidden_gem",
+  "why": "An original, code-backed empirical study tracking how tokenizer vocabulary truncation impacts model overfitting and parameter allocation.",
+  "points": [
+   "Directly compares vocabulary sizes from 128K down to raw 256-byte tokenizers across 130M to 1.2B Qwen3 models trained on FineWeb-Edu.",
+   "Evaluates performance using normalized Paloma bits-per-byte to maintain an identical scale across differing tokenization granularities.",
+   "Highlights the severe impact of untied embedding tables, where shrinking to an 8K vocabulary cuts total model parameters by more than half for a 300M model."
+  ]
+ },
+ "3426aed087cefa9c": {
+  "url": "https://deepwiki.com/alibaba/rtp-llm",
+  "title": "alibaba/rtp-llm | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-12",
+  "tier": "skip",
+  "why": "An automated AI-generated documentation scrape (DeepWiki) indexing an open-source repository rather than original technical analysis.",
+  "points": []
+ },
+ "9e38aee1fb3ce31d": {
+  "url": "https://deepwiki.com/patchy631/time-to-first-token",
+  "title": "patchy631/time-to-first-token | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-12",
+  "tier": "skip",
+  "why": "An auto-generated wiki table of contents for a generic 10-week LLM curriculum, lacking standalone technical depth.",
+  "points": []
+ },
+ "e3c2c13896f6ac66": {
+  "url": "https://vllm-project.github.io/2026/09/29/disaggregated-serving-guide.html",
+  "title": "Taking vLLM Apart: A Practical Guide to Disaggregated Serving | vLLM Blog",
+  "domain": "vllm-project.github.io",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-12",
+  "tier": "solid_find",
+  "why": "An authoritative engineering guide from the official vLLM project breaking down the mechanics and network transfer costs of disaggregated prefill/decode serving.",
+  "points": [
+   "Calculates transfer penalties for disaggregated prefill/decode, noting Llama-3.1-70B requires transferring ~3 GB of KV cache for a 10k prompt (~65 ms over 400 Gb/s RDMA).",
+   "Catalogs the emerging ecosystem of KV connectors (NIXL, LMCache, Mooncake, MoRI-IO) and chaining strategies.",
+   "Advocates moving CPU-bound tokenization, detokenization, and structured reasoning parsing off GPU nodes to dedicated render/derender endpoints."
+  ]
+ },
+ "3e6a203155eaf32e": {
+  "url": "https://llmdeploy.to/blog/infiano-40-gpu-cluster",
+  "title": "Standing Up a 40-GPU Inference Cluster in 48 Hours - LLMDeploy",
+  "domain": "llmdeploy.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-12",
+  "tier": "skip",
+  "why": "A company promotional case study / marketing blog post covering a standard devops setup on rented GPUs rather than deep engineering insights.",
+  "points": []
  }
 }
