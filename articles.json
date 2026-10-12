@@ -78253,5 +78253,137 @@
   "points": [
    "Alex Gibney's four-hour documentary examines Elon Musk's career and challenges his persona as an inventor versus an investor."
   ]
+ },
+ "b4c6a3e5aa4cab30": {
+  "feed": "Technica",
+  "title": "Russia was not ready for the data center war it started with Ukraine",
+  "link": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When Russia began attacking Ukrainian data centers and telecommunication infrastructure, it apparently failed to prepare for possible retaliation. Now Russia’s digital services are facing widespread outages after Ukrainian drone strikes knocked out three of the largest data centers owned by Russian tech giant Yandex within several days. Pro-Kremlin bloggers are warning that Russia’s centralized digital economy could collapse because the country is not prepared for the “data center war” it started, according to posts translated by the pseudonymous independent researcher ChrisO_wiki ."
+  ]
+ },
+ "7d96927ae75dea28": {
+  "feed": "Technica",
+  "title": "Long-lost horror gaming cult classic P.T. gets a much-needed PC port",
+  "link": "https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For over a decade now, the only \"official\" way to play Hideo Kojima's cult classic, P.T. —the long-discontinued \"playable trailer\" for Kojima's canceled \"Silent Hills\" project —has been via one of the increasingly rare PlayStation 4s that previously downloaded a copy during its monthslong availability window. Now, though, one coder is helping to preserve the game with a porting tool that builds a playable x86 PC executable from the original PS4 files."
+  ]
+ },
+ "c5e0195fa84e3323": {
+  "feed": "Technica",
+  "title": "F1 in Singapore: There's a new fastest car now",
+  "link": "https://arstechnica.com/cars/2026/10/f1-in-singapore-theres-a-new-fastest-car-now/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Formula 1’s lengthy 2026 season is entering its final stretch. The sport took to the floodlit streets of Singapore on Sunday night, but Saturday saw action, too; this Grand Prix weekend was also the final of six sprints this year. The night race might be one of modern F1’s greatest spectacles. From overhead shots, the track becomes a bright, illuminated ribbon among the looming darkness of the city-state’s overpasses and skyscrapers."
+  ]
+ },
+ "57c9de67bce45bf0": {
+  "feed": "Technica",
+  "title": "Google announces the Fitbit Edge, a middle ground between Pixel Watch 5 and Fitbit Air",
+  "link": "https://arstechnica.com/gadgets/2026/10/google-announces-the-fitbit-edge-a-middle-ground-between-pixel-watch-5-and-fitbit-air/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google is releasing its second Fitbit tracker of 2026, offering fans of the aging Charge 6 a more refined option. The new Fitbit Edge slots right in between the Pixel Watch 5 and the Fitbit Air , featuring a compact screen and more health sensors than the Air. You won't get all the apps and features of the Pixel Watch 5, but the Edge is only about half as expensive."
+  ]
+ },
+ "5dfaa1d43f85e664": {
+  "feed": "Technica",
+  "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
+  "link": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "No organization in the world operates more robots than Amazon. The company already has more than 1 million robots working in warehouses around the clock to make tens of millions of same-day and one-day package deliveries happen on a daily basis—and Amazon is poised to significantly grow that robotic fleet in the coming years as it establishes new factories to churn out increasingly more capable robot workers."
+  ]
+ },
+ "f96296a1d120c231": {
+  "feed": "Microsoft Research",
+  "title": "Simulating student learning for better AI tutoring",
+  "link": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI tutoring tools need feedback from students to improve, but collecting that feedback through human studies is slow, costly, and difficult to scale StudentSim trains personalized AI student simulators from publicly available, de-identified learner records, with one simulator adapted to each student The work evaluates simulators along two education-grounded dimensions: whether they respond like a specific student, and whether they update after tutor guidance Across chess, second-language English writing, and mathematics, StudentSim outperforms leading baselines and provides a useful feedback signal for training an AI tutor In research settings, teams are exploring how AI-powered tutoring systems can help explain a math problem, suggest an edit to a writing assignment, or guide a learner through a chess position."
+  ]
+ },
+ "92f57cbc8464c256": {
+  "feed": "Simon Willison",
+  "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+  "link": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15."
+  ]
+ },
+ "59e7fc14e8c1a5c7": {
+  "feed": "Simon Willison",
+  "title": "datasette-ports 0.4",
+  "link": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-ports 0.4 Simon Willison’s Weblog Newsletter Sponsored by: Pomerium — Static OAuth scopes won't stop AI agent breakouts. Upgrade to Pomerium's agentic access management trusted by NVIDIA and OpenAI 12th October 2026 Release datasette-ports 0.4 — Find all currently running Datasette instances and list their ports My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well."
+  ]
+ },
+ "05317d29c2777533": {
+  "feed": "Meta Engineering",
+  "title": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+  "link": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta has begun deploying Media over QUIC (MoQ), an emerging open protocol for real-time video streaming at scale. MoQ will help simplify our protocol stack for live streaming video and enhance overall user experience for live video. We’re sharing how we shipped MoQ on Instagram Live ingest, and what the future looks like from here. This work was also presented at DEMOQED 2026 ."
+  ]
+ },
+ "2d2a49a48ee4878b": {
+  "feed": "Meta Engineering",
+  "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+  "link": "https://engineering.fb.com/2026/10/12/ml-applications/turning-opportunistic-ai-inference-capacity-into-better-ads-recommendations/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capacity, without compromising baseline performance. This post describes how we designed and now operate the system at Meta’s scale and how it drives significant advertiser value and capacity efficiency."
+  ]
+ },
+ "25f5234515946d3e": {
+  "feed": "Modal Blog",
+  "title": "Endpoint Candidates: evaluate and promote inference endpoints",
+  "link": "https://modal.com/blog/endpoint-candidates",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Endpoint Candidates: evaluate and promote inference endpoints Skip to content Runtime recap: the full keynote, VM Sandboxes, Modal Clusters, and more. See what's new Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back News Amit Lohe Deven Navani Garrett O'Brien Oct 12, 2026 Endpoint Candidates: evaluate and promote inference endpoints Latency, throughput, and cost optimization are at the core of modern inference engineering."
+  ]
+ },
+ "5fd5ac5f15116a31": {
+  "feed": "Cloudflare Blog",
+  "title": "Filter, reshape, and redact logs before export with Transformers",
+  "link": "https://blog.cloudflare.com/transformers-on-logpush/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Logpush delivers logs in batches as quickly as possible, enabling Cloudflare to provide information almost in real time. During our recent Birthday Week , we made Logpush available on all self-serve plans and Transformers generally available. Those changes were among eight major updates to Cloudflare Observability and reflect our commitment to make every Cloudflare feature available to everyone ."
+  ]
  }
 }
