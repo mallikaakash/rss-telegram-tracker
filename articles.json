@@ -78385,5 +78385,132 @@
   "points": [
    "Logpush delivers logs in batches as quickly as possible, enabling Cloudflare to provide information almost in real time. During our recent Birthday Week , we made Logpush available on all self-serve plans and Transformers generally available. Those changes were among eight major updates to Cloudflare Observability and reflect our commitment to make every Cloudflare feature available to everyone ."
   ]
+ },
+ "e71e24bf397cbe1a": {
+  "feed": "Technica",
+  "title": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania",
+  "link": "https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "General public health news with zero relevance to ML or backend engineering.",
+  "points": [
+   "Reports a measles-related death in Pennsylvania."
+  ]
+ },
+ "37b5a1e81dc84f2f": {
+  "feed": "Technica",
+  "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+  "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "High-level gaming business news regarding AI-assisted code generation rather than technical engineering depth.",
+  "points": [
+   "Epic Games delayed its Disney collaboration to transition to an AI-first development workflow using Claude."
+  ]
+ },
+ "3389ac4661cdc87f": {
+  "feed": "Technica",
+  "title": "After a 10-year redemption arc, No Man's Sky is coming to the iPhone and iPad",
+  "link": "https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "Consumer gaming release announcement on iOS devices.",
+  "points": [
+   "No Man's Sky ported its procedural galaxy generation engine to iPhone and iPad."
+  ]
+ },
+ "9f52844271e4c8a8": {
+  "feed": "Technica",
+  "title": "WHO report on Russian lab worker death highlights \"key uncertainty\"",
+  "link": "https://arstechnica.com/health/2026/10/who-report-on-russian-lab-worker-death-highlights-key-uncertainty/",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "General news on epidemiology and global health reporting.",
+  "points": [
+   "WHO issued a disease outbreak report following an unexplained researcher death in Russia."
+  ]
+ },
+ "b470d062734aea8f": {
+  "feed": "Technica",
+  "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+  "link": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "Reveals a real-world agent evaluation failure mode where Claude Haiku unexpectedly executed external API actions.",
+  "points": [
+   "Claude Haiku 4.5 submitted forms during evaluation after mispredicting the presence of a confirmation page.",
+   "Highlights the critical risk of autonomous tool-use actions leaking into production external systems without strict sandboxing."
+  ]
+ },
+ "95b9ad4a67fedb72": {
+  "feed": "Apple ML Research",
+  "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+  "link": "https://machinelearning.apple.com/research/llm-translation-quality-annotation",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "Evaluates LLM reliability as automated evaluators against standard translation metrics (MQM and ESA).",
+  "points": [
+   "Assesses LLMs against human raters across multidimensional error annotations and granularity levels.",
+   "Demonstrates where LLM-as-a-judge approaches fail when scoring subtle domain-specific translation errors."
+  ]
+ },
+ "71216ca597ac4791": {
+  "feed": "Apple ML Research",
+  "title": "Minions: A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+  "link": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+  "date": "2026-10-13",
+  "tier": "must_read",
+  "why": "Directly tackles distributed ML inference serving by constructing an elastic virtual GPU cloud over idle edge hardware.",
+  "points": [
+   "Introduces Minions, an orchestration system pooling idle Apple Silicon GPUs to serve ML inference workloads.",
+   "Offers an alternative paradigm to centralized cloud GPUs, addressing high costs and wait times with elastic macOS pooling."
+  ]
+ },
+ "266901d5f427e014": {
+  "feed": "Apple ML Research",
+  "title": "Self-Compacting Language Model Agents",
+  "link": "https://machinelearning.apple.com/research/self-compacting-language-agents",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "Presents an inference-time context management technique for long-horizon LLM agents without losing intermediate search state.",
+  "points": [
+   "Replaces naive token-threshold context truncation with model-directed self-compaction (SELFCOMPACT).",
+   "Uses explicit compaction tool calls so agents summarize trajectories without dropping mid-derivation thoughts."
+  ]
+ },
+ "bbe9efcd05754558": {
+  "feed": "MIT News (AI)",
+  "title": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
+  "link": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "Non-technical academic Q&A centered on public policy, philosophy, and civic discourse.",
+  "points": [
+   "Discusses accountability and human verification for AI-generated comments in civic processes."
+  ]
+ },
+ "93062c67d6f00e76": {
+  "feed": "Simon Willison",
+  "title": "web-edit 0.1a0",
+  "link": "https://simonwillison.net/2026/Oct/12/web-edit/",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "Lightweight personal side project announcing a mobile-friendly web text editor over Tailscale.",
+  "points": [
+   "A small CodeMirror 6 Python web wrapper built to edit remote credential files from mobile."
+  ]
+ },
+ "4b416d6814af9cb4": {
+  "feed": "Meta Engineering",
+  "title": "OCP Summit 2026: Powering AI with Open Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+  "link": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+  "date": "2026-10-13",
+  "tier": "must_read",
+  "why": "Exceptional deep-dive into gigawatt-scale distributed training network infrastructure and custom RDMA protocols from Meta.",
+  "points": [
+   "Unveils IceCube, a 102.4T liquid-cooled switch platform supporting 128x800G non-blocking switching running FBOSS.",
+   "Introduces Flattened Planar Fabric (FPF) and MetaRoCE, Meta's open-source RDMA transport protocol for multi-site GPU training clusters.",
+   "Details MTIA 300 scale-up networking with 51.2T Ethernet switches delivering 6.4 Tbps per accelerator."
+  ]
  }
 }
