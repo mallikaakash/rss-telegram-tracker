@@ -5336,5 +5336,45 @@
   "tier": "skip",
   "why": "A company promotional case study / marketing blog post covering a standard devops setup on rented GPUs rather than deep engineering insights.",
   "points": []
+ },
+ "c240de27ffae317d": {
+  "url": "https://dl.acm.org/doi/10.52202/085713-1608",
+  "title": "S-GRPO | Proceedings of the 39th International Conference on Neural Information Processing Systems",
+  "domain": "dl.acm.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-13",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "db2796e494e558b4": {
+  "url": "https://aicassindra.com/blogs/ai/ai_reinforcement.html",
+  "title": "RL for LLM architecture, in depth: choosing the reward signal, reward models, PPO vs GRPO vs DPO, the KL constraint and how the loop fails — Belgavi.AI Lab",
+  "domain": "aicassindra.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-13",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a83e304cb26c3d80": {
+  "url": "https://alex-wiki.langotime.ai/sources/small-scale-experiments-2026",
+  "title": "Small-Scale Experiments: Are We There Yet?",
+  "domain": "alex-wiki.langotime.ai",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-13",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "94c460e8237869dc": {
+  "url": "https://hysenlabs.com/projects/jax-ml-scaling-book",
+  "title": "jax-ml/scaling-book Review: A TPU Scaling Textbook You Build Locally",
+  "domain": "hysenlabs.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-13",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
