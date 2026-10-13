@@ -78512,5 +78512,126 @@
    "Introduces Flattened Planar Fabric (FPF) and MetaRoCE, Meta's open-source RDMA transport protocol for multi-site GPU training clusters.",
    "Details MTIA 300 scale-up networking with 51.2T Ethernet switches delivering 6.4 Tbps per accelerator."
   ]
+ },
+ "defde54c3f814088": {
+  "feed": "Technica",
+  "title": "High-speed video reveals how honey bee stingers pump venom",
+  "link": "https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "The post covers biological mechanics of honey bee stingers and has no relevance to ML or backend engineering.",
+  "points": [
+   "Discovers a double-piston pump mechanism enabling honey bee stingers to inject venom autonomously after detachment."
+  ]
+ },
+ "884ebf3c3978ea46": {
+  "feed": "Google DeepMind",
+  "title": "Gemini 4 Argon for Robotics",
+  "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "Demonstrates frontier physical reasoning and Real2Sim workflows that bridge foundation models with simulation environments like MuJoCo.",
+  "points": [
+   "Gemini 4 Argon achieves 87% on the Embodied Reasoning (ERQA) benchmark via pure reasoning.",
+   "Uses automated Real2Sim to create MuJoCo digital twins for practice before zero-shot execution on physical robots like Boston Dynamics Spot."
+  ]
+ },
+ "f174716114a9131e": {
+  "feed": "Google DeepMind",
+  "title": "Gemini 4 Argon: Built to solve your hardest problems",
+  "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "The entry contains no content or technical substance.",
+  "points": [
+   "Empty post placeholder with no technical details."
+  ]
+ },
+ "a9e2747a67fec67c": {
+  "feed": "Apple ML Research",
+  "title": "Mix, Don't Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings",
+  "link": "https://machinelearning.apple.com/research/mix-dont-tune",
+  "date": "2026-10-13",
+  "tier": "must_read",
+  "why": "Directly tackles LLM pre-training data constraints and challenges standard regularization assumptions with data-mixing strategies.",
+  "points": [
+   "Shows mixing high-resource auxiliary language data beats aggressive hyperparameter tuning (like high weight decay) in data-constrained regimes.",
+   "Prevents representation collapse and overfitting when repeating low-resource tokens across training epochs by expanding feature distribution."
+  ]
+ },
+ "550c4c02e9ff21a9": {
+  "feed": "Hugging Face Blog",
+  "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+  "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+  "date": "2026-10-13",
+  "tier": "must_read",
+  "why": "A masterclass in modern efficient LLM training, covering MoE architecture, tokenizer vocabulary expansion, mid-training, and multi-stage agentic RL.",
+  "points": [
+   "Uses a 24B total parameter MoE with only 2B active parameters across 40 layers and 64 experts (top-4 routing), combining gated short convolutions with GQA.",
+   "Pre-training scaled from 17T to 33T tokens, adding 2T mid-training tokens at 32K context and 300B at 131K context with an expanded 128K vocabulary.",
+   "Applies a five-stage post-training pipeline including supervised fine-tuning, multi-domain on-policy distillation, and agentic RL directly within agent harnesses.",
+   "Achieves 184 tok/s on Apple M5 Max and 21K output tok/s on an NVIDIA B300."
+  ]
+ },
+ "87e22abf54d8b628": {
+  "feed": "Simon Willison",
+  "title": "Quoting Geoffrey Huntley",
+  "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "Offers a pragmatic backend trick for enforcing architectural boundaries and guardrails against drift in AI coding agent workflows.",
+  "points": [
+   "Enforces agent tool compliance using git pre-commit hooks that detect bypassed modules and inject corrective prompts directly into agent diffs."
+  ]
+ },
+ "2064494a55c5f963": {
+  "feed": "Meta Engineering",
+  "title": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+  "link": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+  "date": "2026-10-13",
+  "tier": "must_read",
+  "why": "A top-tier Meta engineering deep-dive on applying LLM architectures, scaling laws, and post-training distillation to massive real-time recommender systems.",
+  "points": [
+   "Applies LLM scaling laws to recommendation systems using the Kunlun architecture, achieving 2.5x model complexity growth and long-context user history modeling.",
+   "Introduces LoopFM post-training to transfer internal representations and memory to user-facing models, doubling intelligence transfer without extra inference compute.",
+   "Delivers 18.9% conversion gains and 12% CTR uplift across Facebook, Instagram, and Reels via elastic pre-computation (Solaris)."
+  ]
+ },
+ "201b2521fbf33264": {
+  "feed": "Cloudflare Blog",
+  "title": "Under the hood, off the hot path: how D1 scales to millions of databases",
+  "link": "https://blog.cloudflare.com/d1-control-plane/",
+  "date": "2026-10-13",
+  "tier": "must_read",
+  "why": "A high-quality infrastructure architecture deep dive on designing a zero-bottleneck distributed control plane for millions of multi-tenant SQLite databases.",
+  "points": [
+   "Scales D1 to 5.5 million SQLite databases (18x YoY daily active growth) without putting central bottlenecks on the query hot path.",
+   "Stores critical routing metadata in Workers KV edge cache to eliminate central lookups for routine database access.",
+   "Utilizes Hyperdrive connection pooling to central Postgres clusters and precomputes metadata aggregations asynchronously."
+  ]
+ },
+ "6f6e1a4486b05041": {
+  "feed": "Cloudflare Blog",
+  "title": "Rewinding the exponential: How we keep hardware usage down",
+  "link": "https://blog.cloudflare.com/rewinding-the-exponential/",
+  "date": "2026-10-13",
+  "tier": "worth_a_skim",
+  "why": "A valuable performance engineering case study detailing concrete distributed data pipeline optimizations that dramatically cut network and hardware overhead.",
+  "points": [
+   "Handles 2 billion events/sec by decomposing a monolithic schema into product-specific streams, reducing backbone bandwidth by 35-40%.",
+   "Migrated logging pipeline compression from LZ4 to zstd across server fleets, achieving a 40% reduction in compressed throughput with negligible CPU overhead.",
+   "Deferred 2.5 years of hardware expansion via schema dismantling, compression improvements, and decentralized sampling."
+  ]
+ },
+ "26f69b8a039131af": {
+  "feed": "Stripe Blog",
+  "title": "The “alien” economics of AI monetization",
+  "link": "https://stripe.com/blog/economics-of-ai-monetization",
+  "date": "2026-10-13",
+  "tier": "low_priority",
+  "why": "A high-level event recap covering monetization and pricing models rather than technical ML or systems engineering.",
+  "points": [
+   "Summarizes discussions from Monetize 2026 on combining subscriptions with usage-based billing for AI workloads."
+  ]
  }
 }

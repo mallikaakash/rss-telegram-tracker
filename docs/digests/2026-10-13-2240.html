@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Tue 13 Oct 2026, 22:40 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Tue 13 Oct 2026, 22:40 IST &middot; 10 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; LiquidAI&#x27;s LFM2.5-24B-A2B details efficient MoE pretraining and agentic RL, alongside Meta&#x27;s LLM-scale ads foundation model and Apple&#x27;s data-mixing pretraining findings.</div><div class="section">Must read &middot; 4</div><div class="card"><span class="badge must">Must read</span><span class="src">Apple ML Research</span><h2><a href="https://machinelearning.apple.com/research/mix-dont-tune">Mix, Don&#x27;t Tune: Bilingual Pre-Training Outperforms Hyperparameter Search in Data-Constrained Settings</a></h2><div class="why">Directly tackles LLM pre-training data constraints and challenges standard regularization assumptions with data-mixing strategies.</div><ul><li>Shows mixing high-resource auxiliary language data beats aggressive hyperparameter tuning (like high weight decay) in data-constrained regimes.</li><li>Prevents representation collapse and overfitting when repeating low-resource tokens across training epochs by expanding feature distribution.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b">Run fast, private agents on-device with LFM2.5-24B-A2B</a></h2><div class="why">A masterclass in modern efficient LLM training, covering MoE architecture, tokenizer vocabulary expansion, mid-training, and multi-stage agentic RL.</div><ul><li>Uses a 24B total parameter MoE with only 2B active parameters across 40 layers and 64 experts (top-4 routing), combining gated short convolutions with GQA.</li><li>Pre-training scaled from 17T to 33T tokens, adding 2T mid-training tokens at 32K context and 300B at 131K context with an expanded 128K vocabulary.</li><li>Applies a five-stage post-training pipeline including supervised fine-tuning, multi-domain on-policy distillation, and agentic RL directly within agent harnesses.</li><li>Achieves 184 tok/s on Apple M5 Max and 21K output tok/s on an NVIDIA B300.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Meta Engineering</span><h2><a href="https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/">Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI</a></h2><div class="why">A top-tier Meta engineering deep-dive on applying LLM architectures, scaling laws, and post-training distillation to massive real-time recommender systems.</div><ul><li>Applies LLM scaling laws to recommendation systems using the Kunlun architecture, achieving 2.5x model complexity growth and long-context user history modeling.</li><li>Introduces LoopFM post-training to transfer internal representations and memory to user-facing models, doubling intelligence transfer without extra inference compute.</li><li>Delivers 18.9% conversion gains and 12% CTR uplift across Facebook, Instagram, and Reels via elastic pre-computation (Solaris).</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/d1-control-plane/">Under the hood, off the hot path: how D1 scales to millions of databases</a></h2><div class="why">A high-quality infrastructure architecture deep dive on designing a zero-bottleneck distributed control plane for millions of multi-tenant SQLite databases.</div><ul><li>Scales D1 to 5.5 million SQLite databases (18x YoY daily active growth) without putting central bottlenecks on the query hot path.</li><li>Stores critical routing metadata in Workers KV edge cache to eliminate central lookups for routine database access.</li><li>Utilizes Hyperdrive connection pooling to central Postgres clusters and precomputes metadata aggregations asynchronously.</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Google DeepMind</span><h2><a href="https://deepmind.google/blog/gemini-4-argon-for-robotics/">Gemini 4 Argon for Robotics</a></h2><div class="why">Demonstrates frontier physical reasoning and Real2Sim workflows that bridge foundation models with simulation environments like MuJoCo.</div><ul><li>Gemini 4 Argon achieves 87% on the Embodied Reasoning (ERQA) benchmark via pure reasoning.</li><li>Uses automated Real2Sim to create MuJoCo digital twins for practice before zero-shot execution on physical robots like Boston Dynamics Spot.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Oct/13/geoffrey-huntley/">Quoting Geoffrey Huntley</a></h2><div class="why">Offers a pragmatic backend trick for enforcing architectural boundaries and guardrails against drift in AI coding agent workflows.</div><ul><li>Enforces agent tool compliance using git pre-commit hooks that detect bypassed modules and inject corrective prompts directly into agent diffs.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/rewinding-the-exponential/">Rewinding the exponential: How we keep hardware usage down</a></h2><div class="why">A valuable performance engineering case study detailing concrete distributed data pipeline optimizations that dramatically cut network and hardware overhead.</div><ul><li>Handles 2 billion events/sec by decomposing a monolithic schema into product-specific streams, reducing backbone bandwidth by 35-40%.</li><li>Migrated logging pipeline compression from LZ4 to zstd across server fleets, achieving a 40% reduction in compressed throughput with negligible CPU overhead.</li><li>Deferred 2.5 years of hardware expansion via schema dismantling, compression improvements, and decentralized sampling.</li></ul></div><div class="section">Low priority &middot; 3</div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/">High-speed video reveals how honey bee stingers pump venom</a></h2><div class="why">The post covers biological mechanics of honey bee stingers and has no relevance to ML or backend engineering.</div><ul><li>Discovers a double-piston pump mechanism enabling honey bee stingers to inject venom autonomously after detachment.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Google DeepMind</span><h2><a href="https://deepmind.google/blog/introducing-gemini-4-argon/">Gemini 4 Argon: Built to solve your hardest problems</a></h2><div class="why">The entry contains no content or technical substance.</div><ul><li>Empty post placeholder with no technical details.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Stripe Blog</span><h2><a href="https://stripe.com/blog/economics-of-ai-monetization">The “alien” economics of AI monetization</a></h2><div class="why">A high-level event recap covering monetization and pricing models rather than technical ML or systems engineering.</div><ul><li>Summarizes discussions from Monetize 2026 on combining subscriptions with usage-based billing for AI workloads.</li></ul></div></body></html>
