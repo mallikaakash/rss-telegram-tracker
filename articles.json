@@ -78776,5 +78776,115 @@
   "points": [
    "Toward RL on mixed-precision, mixed-accelerator samplers Skip to content Runtime recap: the full keynote, VM Sandboxes, Modal Clusters, and more. See what's new Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Research Nan Jiang Oct 13, 2026 Toward RL on mixed-precision, mixed-accelerator samplers In large-model reinforcement learning (RL), samplers usually run on the same accelerators and often the same precision as the trainer, keeping the two numerically close for stable training."
   ]
+ },
+ "de63a5b31e17e0ee": {
+  "feed": "Technica",
+  "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
+  "link": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Martin Shkreli—the ex-pharmaceutical executive infamous for illegally hiking the price of a lifesaving anti-parasitic drug by more than 4,000 percent and getting a seven-year prison sentence for the fraudulent scheme he used to do it— has been under a lifetime ban from the pharmaceutical industry since 2022. However, according to the Federal Trade Commission and the attorneys general of seven states, Shkreli has \"flagrantly and repeatedly\" violated that ban nearly the entire time—allegedly by trading stock in dozens of drug companies and discussing the industry during livestreams on social media."
+  ]
+ },
+ "0d95cb46b728ae9c": {
+  "feed": "Technica",
+  "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
+  "link": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For years, Chinese hardware manufacturers have carved out a market niche with an array of handheld Android gaming devices focused on retro emulation and/or more modern game-streaming capabilities. Now, though, a major game industry trade group is targeting one of those manufacturers, Anbernic, asking the US Trade Representative (USTR) to add the company to its list of \"Notorious Markets\" that \"engage in or facilitate substantial copyright piracy or trademark counterfeiting.\" TorrentFreak was among the first to notice the request from the Entertainment Software Association (ESA), which was submitted to the USTR last week."
+  ]
+ },
+ "a61134e8630a6937": {
+  "feed": "Technica",
+  "title": "Topgolf saved over $11.3 million after leaving VMware",
+  "link": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Topgolf’s VMware costs were going to increase by 400 percent under Broadcom. To avoid that cost, the sports entertainment company moved 12,000 virtual machines (VMs) to VergeIO’s VergeOS and has saved over $11 million so far. Before migrating, Topgolf’s VMware connection “ran very deep,” Scott Forehand, Topgolf’s global infrastructure manager, told Ars Technica."
+  ]
+ },
+ "93ecef6966889274": {
+  "feed": "Technica",
+  "title": "Trump commercial railing against his enemies kept airing after court blocked it",
+  "link": "https://arstechnica.com/tech-policy/2026/10/trumps-taxpayer-funded-ads-kept-airing-on-tv-the-day-after-judge-blocked-them/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Trump commercials paid for by the US government continued airing on TV the day after a judge blocked the ads because they likely violate a US law against government-funded publicity or propaganda. In the most widely aired commercial, Trump railed against his perceived enemies and said he would \"liberate America from these villains once and for all.” The campaign also included a commercial praising Trump's record as president, another in which Trump calls the US the \"most exceptional nation ever to exist in human history,\" and commercials related to the Iran war and the capture of Venezuelan President Nicolás Maduro."
+  ]
+ },
+ "63b1605b51b19bf5": {
+  "feed": "Technica",
+  "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+  "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In a bankruptcy proceeding that kicked off yesterday, Disney has offered to buy some of the technology that powers the controversy-plagued chatbot Character.AI. Disney is willing to pay $20 million for “a non-exclusive perpetual license” of certain Character Technologies intellectual property, the chatbot maker said in a press release that did not go into much further detail on which assets Disney wanted."
+  ]
+ },
+ "58e4191fcfe4b88c": {
+  "feed": "Google DeepMind",
+  "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+  "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On-Device AI Against Scams: Google DeepMind & MDDI — Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Genie 3 Generate and explore interactive worlds Lyria Generate high fidelity music and audio Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Genie 3 Generate and explore interactive worlds Lyria Generate high fidelity music and audio Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science Skills About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Buil"
+  ]
+ },
+ "fd83ae3d1e3e02de": {
+  "feed": "Simon Willison",
+  "title": "Redesigning source control at Anthropic",
+  "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months. In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, we merged over 30,000 per day."
+  ]
+ },
+ "781a955ce352281b": {
+  "feed": "Simon Willison",
+  "title": "llm-gemini 0.35",
+  "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high pelicans . As expected, they are all excellent: Gemini has a track record of producing great SVGs, and are the only lab where I know their staff have invested in SVG specifically (and who have boasted about their pelicans before.) Here's the \"high\" illustration, which cost me 17.166 cents: The pricing is interesting."
+  ]
+ },
+ "9512e72db4bde2c6": {
+  "feed": "Simon Willison",
+  "title": "web-edit 0.1a1",
+  "link": "https://simonwillison.net/2026/Oct/13/web-edit/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: web-edit 0.1a1 Simon Willison’s Weblog Newsletter Sponsored by: Pomerium — Static OAuth scopes won't stop AI agent breakouts. Upgrade to Pomerium's agentic access management trusted by NVIDIA and OpenAI 13th October 2026 Release web-edit 0.1a1 — Web app for editing files in a folder Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra."
+  ]
+ },
+ "ef47cf6a028c4b74": {
+  "feed": "Simon Willison",
+  "title": "llm-meta-ai 0.2",
+  "link": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for Muse Wonder for the six reasoning levels: minimal, low, medium, high, xhigh, max."
+  ]
  }
 }
