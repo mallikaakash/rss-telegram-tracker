@@ -78886,5 +78886,49 @@
   "points": [
    "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol. I updated my llm-meta-ai plugin for the new model. Here are pelicans for Muse Wonder for the six reasoning levels: minimal, low, medium, high, xhigh, max."
   ]
+ },
+ "f92f8a3e1d761b58": {
+  "feed": "Technica",
+  "title": "The Internet’s undersea backbone is slipping into the danger zone",
+  "link": "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Despite the expansion of Starlink and other communications satellite services, most of the world’s Internet traffic still travels through subsea cables crisscrossing the ocean floors. Those fiber-optic cables coexist with a network of oil and gas pipelines and submarine power cables—and all these crucial links connecting countries and continents now face growing sabotage risks as gray-zone warfare and open conflicts have become widespread."
+  ]
+ },
+ "9fd67fba7efb1f2d": {
+  "feed": "Technica",
+  "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+  "link": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Safety researchers continue to warn that a large volume of AI-generated explicit content is spreading unchecked, while regulators do little to meaningfully stop it. This non-consensual content is commonly shared in text and direct messages or stored in private clouds where it’s less likely to be detected or reported, a Google co-authored study of Internet users across the United States, Australia, and the United Kingdom found this July."
+  ]
+ },
+ "282555699f36f073": {
+  "feed": "Technica",
+  "title": "Skydance’s Discovery+ prices increase by up to 20 percent",
+  "link": "https://arstechnica.com/gadgets/2026/10/skydances-discovery-prices-increase-by-up-to-20-percent/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Discovery+ subscription prices went up today. Ad-free plans for new subscribers went from $10 per month to $12/month. Ad-based plans went from $6 to $7. The new prices take effect for new subscribers immediately. Current subscribers to the streaming service, which primarily features unscripted content, like reality shows and documentaries, will receive 30 days’ notice before the new prices take effect, starting with bills issued as of November 12."
+  ]
+ },
+ "2f3282e483141f68": {
+  "feed": "OpenAI News",
+  "title": "The EU’s next chapter in AI is agentic",
+  "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The EU’s next chapter in AI is agentic | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 14, 2026 Global Affairs The EU’s next chapter in AI is agentic Interact with the data (opens in a new window) Download the PDF (opens in a new window) Loading… Share Across the EU, businesses are expanding how they use AI through agentic tools."
+  ]
  }
 }
