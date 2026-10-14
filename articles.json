@@ -78930,5 +78930,159 @@
   "points": [
    "The EU’s next chapter in AI is agentic | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 14, 2026 Global Affairs The EU’s next chapter in AI is agentic Interact with the data (opens in a new window) Download the PDF (opens in a new window) Loading… Share Across the EU, businesses are expanding how they use AI through agentic tools."
   ]
+ },
+ "0bcda70fdea0b4a8": {
+  "feed": "Technica",
+  "title": "Ukraine blindsided by Starlink throttling restrictions and intelligence gaps",
+  "link": "https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ukrainian troops have been caught off guard by restrictions on Elon Musk’s Starlink satellite Internet systems that disrupted frontline operations, while Kyiv received no warning from its partners of a Russian missile attack on its energy facilities for the second day running, according to Ukrainian officials. Starlink terminals used by Ukrainian drone units began experiencing signal failures at speeds above 160 km/h, disrupting several missions early on Wednesday morning, according to military personnel and senior Ukrainian officials."
+  ]
+ },
+ "7923e9fedadd3085": {
+  "feed": "Technica",
+  "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+  "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI company Anthropic is warning that advances in small AI models could soon usher in a new era of self-replicating malware that’s capable of infecting smart fridges, vacuum cleaners, and a wide range of other Internet-of-things devices and is more resistant to takedown. By next year, smaller AI models may be able to autonomously self-replicate on all kinds of IoT devices, the company said."
+  ]
+ },
+ "19f3965005eb6d51": {
+  "feed": "Google Research",
+  "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+  "link": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Research@ 2026: 10 ways we're amplifying human ingenuity Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "93dc9e9d57baf201": {
+  "feed": "Google Research",
+  "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+  "link": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "e5f78e0104d8f376": {
+  "feed": "Google Research",
+  "title": "Analyzing technical documents with Deep Review",
+  "link": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Analyzing technical documents with Deep Review Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ]
+ },
+ "b67f8ba73a8abdd1": {
+  "feed": "Apple ML Research",
+  "title": "The Design Space of Tri-Modal Masked Diffusion Models",
+  "link": "https://machinelearning.apple.com/research/tri-modal-masked-diffusion",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Discrete diffusion models have emerged as strong alternatives to autoregressive language models, with recent work initializing and finetuning a base unimodal model for bi-modal generation. Diverging from previous approaches, we introduce the first tri-modal Masked Diffusion Models (MDM) pretrained from scratch on text, image-text, and audio-text data."
+  ]
+ },
+ "4d325c7f976167f6": {
+  "feed": "Apple ML Research",
+  "title": "Code-Switching Detection via Language-Selective Dimensions in Speech Foundation Models",
+  "link": "https://machinelearning.apple.com/research/code-switching-detection",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Code-switching (CS), the alternation between languages within an utterance, is common in multilingual speech but underrepresented in pretraining corpora. Increasing CS coverage requires finding relevant utterances in large speech collections so that they can be included in training data. One way to find such utterances is to transcribe the speech and detect language alternation in the text, but this depends on obtaining accurate multilingual transcriptions."
+  ]
+ },
+ "a0e0fec2c2b5f568": {
+  "feed": "OpenAI News",
+  "title": "Amp puts AI agents to work beyond code with OpenAI models",
+  "link": "https://openai.com/index/amp-beyond-coding",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Amp puts AI agents to work beyond code with OpenAI models | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 14, 2026 Startup Amp puts AI agents to work beyond code with OpenAI models See how Amp pushes the frontier of what agents can do with GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT."
+  ]
+ },
+ "e181547094b0a112": {
+  "feed": "OpenAI News",
+  "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+  "link": "https://openai.com/index/third-moment-research",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Third Moment Research runs 10,000 agents for 36+ hours | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 14, 2026 Startup How Third Moment Research runs 10,000 agents for 36+ hours With GPT‑6 Astra and GPT‑6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use."
+  ]
+ },
+ "672ebf75c430cf70": {
+  "feed": "Hugging Face Blog",
+  "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+  "link": "https://huggingface.co/blog/allenai/hiro-acev2",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost Enterprise Article Published October 14, 2026 Upvote 3 Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> Visualizing and using HiRO outputs 🤗 Models | 📄 Paper | 📓 Tutorial notebooks | 🌎 Demo We introduce HiRO-ACEv2 , the newest update to our High Resolution Output Ai2 Climate Emulator (HiRO-ACE) system."
+  ]
+ },
+ "378737ffe80d7a1a": {
+  "feed": "MIT News (AI)",
+  "title": "Researchers improve weather forecasts looking two to six weeks out",
+  "link": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In 2021, Texas suffered the worst energy infrastructure failure in state history, following three severe winter storms in February. At least 246 people were killed as a result of the disruptions, which led to food, water, heat and electricity shortages. If energy officials had had more time to prepare for the storms, for example by bringing in more trucks of natural gas to disrupted areas, damage from the event could have been mitigated."
+  ]
+ },
+ "8560636ebc000f33": {
+  "feed": "Simon Willison",
+  "title": "AI is mass decompiling games. That's both awesome and scary.",
+  "link": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly). I like how this piece captures both the positives and the negatives of this new development: Most people already realized the scary part by now."
+  ]
+ },
+ "71a5965a5f1d660d": {
+  "feed": "Modal Blog",
+  "title": "Modal crosses $1B in Annualized Run Rate and raises $750M Series D",
+  "link": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Modal crosses $1B in Annualized Run Rate and raises $750M Series D Skip to content Series D: $1B in annualized run rate, new funding, and where Modal goes next. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back News Erik Bernhardsson Oct 14, 2026 Modal crosses $1B in Annualized Run Rate and raises $750M Series D Just five months ago, when we announced our Series C, I wrote that demand was accelerating ."
+  ]
+ },
+ "d5ae079938340747": {
+  "feed": "Cloudflare Blog",
+  "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+  "link": "https://blog.cloudflare.com/hyperdrive-mysql/",
+  "date": "2026-10-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hyperdrive support for MySQL is now generally available (GA). Hyperdrive , Cloudflare’s database connection pooler for Workers, initially only supported Postgres. Since we announced the beta for MySQL protocol support last year, we have been working on making our MySQL handling as reliable as our Postgres support. We’ve learned some things from building and running a MySQL connection pooler on Cloudflare’s network."
+  ]
  }
 }
