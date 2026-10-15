@@ -5452,5 +5452,155 @@
   "tier": "skip",
   "why": "A synthetic, directory-style review page summarizing an open-source book repository rather than primary technical research or engineering work.",
   "points": []
+ },
+ "6fb695faa99efb3a": {
+  "url": "https://ajaxdavis.dev/making-gpt-2-train-faster-by-launching-fewer-kernels/",
+  "title": "Making GPT-2 train faster by launching fewer kernels — Lord Ajax",
+  "domain": "ajaxdavis.dev",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "30ece7bebbdf0fbb": {
+  "url": "https://jianyuh.github.io/llm/infra/2026/10/12/Megatron-Core-Bitwise-Deterministic-Pretraining.html",
+  "title": "Bitwise-Deterministic Pretraining at Scale: How Megatron Core Finds and Removes Every Flipped Bit | Gradients & Tides",
+  "domain": "jianyuh.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "a4262ac521732d3f": {
+  "url": "https://yuntaozhang999.github.io/ai/technical/scaling-ladder-and-moe-pretraining-key-concepts/",
+  "title": "Key Concepts in LLM Pre-training: Scaling Ladder, Logit z-loss, and Token Dropping from 535B-A23B Training Discussions - Yuntao Zhang",
+  "domain": "yuntaozhang999.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f14b5dad2c9bd24b": {
+  "url": "https://spencerfrei.github.io/blog/2026-08-17_pretraining_variance/",
+  "title": "Quantifying Pretraining Variance: Data, Initialization, and Floating Point Arithmetic — Spencer Frei",
+  "domain": "spencerfrei.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "1bdd42061d1c8c71": {
+  "url": "https://dl.acm.org/doi/full/10.1145/3834858",
+  "title": "A Technical Survey of Reinforcement Learning Techniques for Large Language Models | ACM Transactions on Intelligent Systems and Technology",
+  "domain": "dl.acm.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "7a06d04e294ae8c2": {
+  "url": "https://arxiv.org/html/2608.24949v1",
+  "title": "Demystifying Reinforcement Learning Post-Training of Language Models",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "891c3eb41ff646f7": {
+  "url": "https://arxiv.org/html/2609.29421v1",
+  "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "d44617548b22f989": {
+  "url": "https://dev.to/shrsv/tilelang-writing-llm-gpu-kernels-by-thinking-in-tiles-4k52",
+  "title": "TileLang: Writing LLM GPU Kernels by Thinking in Tiles - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "6001334064477c74": {
+  "url": "https://l1-ca0.github.io/posts/flash-attention-3-on-hopper/",
+  "title": "FlashAttention-3 on Hopper | Li Cao's Blog",
+  "domain": "l1-ca0.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "4378b37e99a449f2": {
+  "url": "https://dev.to/yuan_lei_e631e36865ed370b/how-vllm-cuda-kernels-write-and-read-the-paged-kv-cache-4c2a",
+  "title": "How vLLM CUDA Kernels Write and Read the Paged KV Cache - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "791ff4022d277659": {
+  "url": "https://stanfordgroup.org/index.php/BioQI/article/view/885",
+  "title": "Distributed AI Model Training\n\t\t\t\t\t\t\t|  Bio-QI  Journal",
+  "domain": "stanfordgroup.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "b93e02e8e49aab60": {
+  "url": "https://arxiv.org/html/2609.06506",
+  "title": "Sharing a Fabric with Collective Communication: Two Storage Penalties in Deep Learning Training",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "d39e9ce17649c3e4": {
+  "url": "https://arxiv.org/pdf/2608.05944",
+  "title": "Operating Multi-Node Full Fine-Tuning on NVIDIA B300: A Field Report on Telemetry-Based Triage, Negative Results, and Operational Hardening",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "458186151a89a160": {
+  "url": "https://arxiv.org/html/2609.34334v1",
+  "title": "HOCCL: Offloading Collective Communication from GPU Cores to Accelerate Distributed Training",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "6e806ae25c976444": {
+  "url": "https://dl.acm.org/doi/10.1145/3832810.3832820",
+  "title": "OmniPipe: Efficient, Flexible and Scalable Pipeline Parallelism for Large Model Training | Proceedings of the 55th International Conference on Parallel Processing",
+  "domain": "dl.acm.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-15",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
