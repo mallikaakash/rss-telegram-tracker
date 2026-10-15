@@ -79272,5 +79272,115 @@
    "Reveals that while aggregate traffic dropped by up to 99%, malicious bots rapidly migrated to alternative hosting providers rather than ceasing activity.",
    "Demonstrates the necessity of request-level behavioral scoring over aggregate volume metrics when assessing network-level disruptions."
   ]
+ },
+ "b37970432b62b31c": {
+  "feed": "Technica",
+  "title": "Georgia man sues Flock, sheriff's office over alleged ALPR-fueled retaliation",
+  "link": "https://arstechnica.com/tech-policy/2026/10/georgia-man-sues-flock-sheriffs-office-over-alleged-alpr-fueled-retaliation/",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A small-business owner in Georgia has sued Flock and the Coweta County Sheriff’s Office over alleged retaliation using license plate cameras. “[The lawsuit] alleges illegal [license plate tracking] searches over many months without probable cause and unrelated to any specific investigation,” Hall & Lampros, attorneys for plaintiff Tyler Murkerson, wrote in a press release ."
+  ]
+ },
+ "6fef56417b774bfe": {
+  "feed": "Technica",
+  "title": "Software development and rules stability: Prototype racing in 2030",
+  "link": "https://arstechnica.com/cars/2026/10/software-development-and-rules-stability-prototype-racing-in-2030/",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "IMSA provided accommodation so Ars could attend the Petit Le Mans. Ars does not accept paid editorial content. The rising tide that has been the Drive to Survive effect has lifted more boats in motorsport than simply Formula 1’s. Sportscar racing is enjoying its own surge in popularity internationally at races like Le Mans in France, but also in North America in IMSA’s WeatherTech Sportscar Championship."
+  ]
+ },
+ "b946321ef1f27d42": {
+  "feed": "Technica",
+  "title": "Greta Gerwig channels Bowie in psychedelic The Magician's Nephew trailer",
+  "link": "https://arstechnica.com/culture/2026/10/greta-gerwig-channels-bowie-in-psychedelic-the-magicians-nephew-trailer/",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Director Greta Gerwig could have made pretty much any movie she wanted after 2023's Barbie racked up nearly $1.5 billion at the box office. She chose to make Narnia: The Magician's Nephew for Netflix, an adaptation of C.S. Lewis' sixth novel in The Chronicles of Narnia series. Gerwig has said little publicly about the film, other than that she was inspired by 1960s-era David Bowie, although she said it would not be a musical."
+  ]
+ },
+ "224ee0818768ef5f": {
+  "feed": "Technica",
+  "title": "Researchers use AI to design proteins that cut up other proteins",
+  "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A protein is a chain of amino acids held together by what are called peptide bonds. On their own, those bonds are extremely stable; they're estimated to have a half-life of several hundred years. But in Earth's environment, most proteins don't last nearly that long. That's because organisms have evolved a handful of ways to catalyze the break-up of peptide bonds, which have diversified into countless specialized protein-digesting enzymes."
+  ]
+ },
+ "c3523710f928c3f4": {
+  "feed": "Technica",
+  "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+  "link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It took OpenAI two days to notice that a recording device was hidden in a restricted executive conference room where leadership met to discuss highly confidential information, including technical progress, government engagements, and commercial partnerships. Only those with special clearance are supposed to access that room. But the FBI believes the recording device was planted by Abdulrahman Alfozan, a 35-year-old engineer from Saudi Arabia, who became a permanent US legal resident in 2020."
+  ]
+ },
+ "f58f3f82b9aae4ee": {
+  "feed": "Netflix TechBlog",
+  "title": "Netflix Conductor: The Next Chapter",
+  "link": "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649?source=rss----2615bd06b42e---4",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Netflix Conductor : The Next Chapter by Aravindan Ramkumar on behalf of the Conductor team Conductor is the workflow orchestration engine Netflix uses to stitch micro-services into reliable, observable business processes. If you’ve followed Conductor from the outside, the last thing you heard was probably the note on its GitHub repository : Netflix discontinued maintenance of Conductor OSS to refocus its resources on the internal fork."
+  ]
+ },
+ "c6c5908992af4108": {
+  "feed": "Netflix TechBlog",
+  "title": "Running Apache Spark experiments in my sleep (and on a plane)",
+  "link": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8?source=rss----2615bd06b42e---4",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "By Prashanth Gedde Narayanaswamy As one of Netflix’s largest and critical data pipelines, member-sessionizer consolidates tens of billions of hourly client events, encompassing user taps, playbacks, and engagement signals, into individual viewing sessions per profile. A quick two-week tuning effort spiraled into two months when standard approaches hit a wall."
+  ]
+ },
+ "44f624f424c443ca": {
+  "feed": "Netflix TechBlog",
+  "title": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
+  "link": "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508?source=rss----2615bd06b42e---4",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "By Emma Yanyang Kong , JJ Tan , Ishan Gupta , Lars Olds , Claire Campbell , David Fagnan , Ratna Kavuri , Rohan Gosain , Veli Balin , Minsu Jang , Louis Garcia Introduction Any team generating text with an LLM at scale hits the same problem. You cannot evaluate everything manually. You don't know which outputs are great, which are mediocre, and which are harmful, because you simply cannot read them all."
+  ]
+ },
+ "9735a41892c2a8d7": {
+  "feed": "Netflix TechBlog",
+  "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
+  "link": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801?source=rss----2615bd06b42e---4",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "By Violetta Pidvolotska and Naveen Mareddy Stratum is Netflix’s internal serverless media processing platform, shaped by over a decade of experience developing large-scale distributed systems. It powers a wide range of media workloads — including encoding, packaging, inspection, and quality scoring — behind playback, advertising, studio workflows, AI embeddings, and more."
+  ]
+ },
+ "e4f4b681414ed721": {
+  "feed": "Netflix TechBlog",
+  "title": "Reliable GPU compute for large training & inference jobs",
+  "link": "https://netflixtechblog.com/reliable-gpu-compute-for-large-training-inference-jobs-d62b03a96d7a?source=rss----2615bd06b42e---4",
+  "date": "2026-10-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How we detect failing GPUs and network fabric, remediate machines automatically, and let long-running jobs survive hardware loss. Authors: Nick Rutigliano , Argha C , Samartha Chandrashekar Open Netflix, and the home screen is assembled for you: which rows appear, the order they appear in, the titles within them, and the artwork for each title are chosen by machine learning models trained on how hundreds of millions of members watch."
+  ]
  }
 }
