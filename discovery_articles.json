@@ -5602,5 +5602,187 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "b167dbc02d0b2fcd": {
+  "url": "https://huggingface.co/blog/RitishReal/1b-petrain-llm-in-4gb-vram",
+  "title": "Pre-training a 1.11B LLM on a 6 GB Laptop GPU — Measured, Not Claimed",
+  "domain": "huggingface.co",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-16",
+  "tier": "hidden_gem",
+  "why": "A gritty, empirical engineering post detailing how to squeeze pre-training of a 1.11B parameter model onto a consumer 6 GB laptop GPU.",
+  "points": [
+   "Achieves 1,100 tokens/sec at 4,096 context on an RTX 4050 with peak VRAM under 4.85 GB.",
+   "Attains ~30% whole-step MFU via a 5-technique stack combining tied embeddings, offloading, and chunked loss.",
+   "Provides raw, measured hardware metrics rather than theoretical claims."
+  ]
+ },
+ "e0b2e3a18d805e6f": {
+  "url": "https://huggingface.co/blog/junafinity/gala-an-apple-silicon-first-model-trained-on-one",
+  "title": "Gala: an Apple-Silicon-first model, trained on one",
+  "domain": "huggingface.co",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-16",
+  "tier": "hidden_gem",
+  "why": "An original architectural exploration tailored specifically to Apple Silicon's unique memory-to-compute ratio using pure MLX.",
+  "points": [
+   "Demonstrates a post-transformer architecture sustaining constant decode latency (386 tok/s) and fixed recurrent state (3.07 MB) up to 10.5M tokens.",
+   "Trades compute for unified memory bandwidth by keeping FLOPs per token strictly rationed while expanding parameters.",
+   "Includes empirical comparisons against standard Transformers showing massive KV cache savings at extreme contexts."
+  ]
+ },
+ "12818b93ef8eb887": {
+  "url": "https://james.trappett.org/blog/training-llms-without-backpropagation-forward-pass-only-adaptation/",
+  "title": "Training LLMs Without Backpropagation: Forward-Pass-Only Adaptation",
+  "domain": "james.trappett.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-16",
+  "tier": "solid_find",
+  "why": "A sharp technical breakdown of a novel backpropagation-free fine-tuning technique for transformer MLPs.",
+  "points": [
+   "Exploits the observation that output prediction error has a 0.47-0.59 cosine similarity with true MLP gradients in the final 25% of transformer layers.",
+   "Yields 2.7x to 3.2x throughput increases and ~40% peak memory savings by completely avoiding autograd graph construction.",
+   "Includes a two-minute empirical diagnostic test to identify target layers across architectures."
+  ]
+ },
+ "3b6af619968424d8": {
+  "url": "https://www.eloidereynal.com/p/layer-shuffling-as-regularization",
+  "title": "Layer shuffling as regularization - by Eloi de Reynal",
+  "domain": "eloidereynal.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-16",
+  "tier": "hidden_gem",
+  "why": "A quirky personal research log documenting a counterintuitive regularizer: randomly shuffling transformer layers during training.",
+  "points": [
+   "Discovers that shuffling transformer layers during training noticeably improves sample efficiency on tiny corpora (Shakespeare 1.8M tokens).",
+   "Measures generalization and compression in bits-per-byte (bpb) across unseen test sequences.",
+   "Shares authentic failure modes and unexpected empirical side effects from training experiments."
+  ]
+ },
+ "c7dbe912211efff6": {
+  "url": "https://kenhuangus.substack.com/p/the-physics-of-llm-inference-memory",
+  "title": "Chapter 1: The Physics of LLM Inference: Memory Walls, Arithmetic Intensity, and Compute Ceilings",
+  "domain": "kenhuangus.substack.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-16",
+  "tier": "skip",
+  "why": "Standard textbook-style explanation of the roofline model and prefill versus decode memory dynamics without novel data.",
+  "points": []
+ },
+ "2e78fbd8e149eaad": {
+  "url": "https://www.worldprogramming.org/posts/inside-vllm-following-one-request-from-the-api-to-gpu-execution-ilke8m",
+  "title": "Inside vLLM: Following One Request from the API to GPU Execution — WPS",
+  "domain": "worldprogramming.org",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-16",
+  "tier": "solid_find",
+  "why": "A detailed engineering walkthrough tracing a request end-to-end through vLLM V1 internals.",
+  "points": [
+   "Deconstructs the exact path from LLM.generate through scheduling, batch flattening, and paged KV cache allocation.",
+   "Maps high-level Python coordination directly to lower-level GPU execution phases.",
+   "Provides clear source-level references useful for inference engine developers."
+  ]
+ },
+ "4dedea6ba978fb45": {
+  "url": "https://nagarjun.beehiiv.com/p/nvidia-s-nvlink-and-the-myth-of-the-single-gpu",
+  "title": "NVIDIA's NVLink and the Myth of the Single GPU",
+  "domain": "nagarjun.beehiiv.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-16",
+  "tier": "skip",
+  "why": "High-level summary of well-known interconnect bandwidth figures and multi-GPU communication bottlenecks.",
+  "points": []
+ },
+ "1f847043bb263a29": {
+  "url": "https://temperature2.com/p/2026-09-04-guide-what-is-fsdp/",
+  "title": "What is FSDP, and how does it shard a model? · temperature2",
+  "domain": "temperature2.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-16",
+  "tier": "skip",
+  "why": "Basic tutorial explaining standard ZeRO stages and PyTorch FSDP concepts available in official documentation.",
+  "points": []
+ },
+ "e029d8d1c70cf814": {
+  "url": "https://arxiv.org/abs/2609.27581",
+  "title": "[2609.27581] Does Step Law Transfer to Small-Scale Language Models? An Empirical Recalibration Below 59M Parameters",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-16",
+  "tier": "hidden_gem",
+  "why": "An exhaustive empirical study of 935 training runs testing whether established Step Law scaling transfers to sub-59M parameter models.",
+  "points": [
+   "Proves that standard Step Law systematically overestimates the optimal learning rate by 2.4x to 6.6x (median ~4.0x) below 59M parameters.",
+   "Confirms batch size independence from parameter count (p=0.87), but reveals optimal batch size grows nearly twice as steeply with dataset size D.",
+   "Supplies concrete recalibrated scaling coefficients for single-GPU and interpretability researchers."
+  ]
+ },
+ "4b143c8890b78508": {
+  "url": "https://arxiv.org/html/2610.05978v1",
+  "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-16",
+  "tier": "hidden_gem",
+  "why": "A rigorous paper investigating byte-level language models that uncovers emergent token-like structure inside standard Transformers.",
+  "points": [
+   "Shows byte models naturally form local segmentations, allowing up to 25% of intermediate layers to be restricted to local representations without performance loss.",
+   "Observes that generation uncertainty clusters at word boundaries, which can be leveraged for speculative decoding to yield 3.4x more accepted tokens.",
+   "Demonstrates byte-level models scaling beyond subword baselines when combined with token-superposition and hash embeddings."
+  ]
+ },
+ "260631dca8f65efc": {
+  "url": "https://pyshine.com/xinference/",
+  "title": "One Command to a Serving Cluster - Inside xorbitsai/inference | PyShine",
+  "domain": "pyshine.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-16",
+  "tier": "skip",
+  "why": "Superficial overview of the Xinference library reading like a README summary without deep benchmarks.",
+  "points": []
+ },
+ "82352044d7e2ba00": {
+  "url": "https://pyshine.com/sglang/",
+  "title": "SGLang: RadixAttention and Cache-Aware Serving - Inside sgl-project/sglang | PyShine",
+  "domain": "pyshine.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-16",
+  "tier": "skip",
+  "why": "Broad high-level recap of SGLang features and supported backends without original technical insights.",
+  "points": []
+ },
+ "8ebd0107774b993d": {
+  "url": "https://deepwiki.com/ai-dynamo/dynamo",
+  "title": "ai-dynamo/dynamo | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-16",
+  "tier": "skip",
+  "why": "Raw scrape of documentation and file directory listings containing no analytical content.",
+  "points": []
+ },
+ "b4f8c1f70ef792a0": {
+  "url": "https://indierouter.ai/blog/h200-part-07-failures-and-fixes/",
+  "title": "Part 7: Everything that broke, and what fixed it - IndieRouter Blog",
+  "domain": "indierouter.ai",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-16",
+  "tier": "hidden_gem",
+  "why": "An exceptionally honest infrastructure debugging ledger documenting hard failures across real H200 cluster deployments.",
+  "points": [
+   "Catalogs specific failure modes across DeepSeek and GLM runs on SGLang, including broken GPU peer traffic, memory headroom exhaustion, and driver-level faults.",
+   "Details concrete fixes such as expert parallelism (EP4) adjustments and prefix caching mitigations versus failed attempts like turning off CUDA graphs.",
+   "Offers a rare, unfiltered operations postmortem contrasting spec-sheet expectations with production realities."
+  ]
+ },
+ "ae7f507ebe7541da": {
+  "url": "https://www.cudocompute.com/blog/what-breaks-in-long-training-runs-and-how-recovery-actually-works",
+  "title": "What breaks in long training runs, and how recovery actually works - CUDO Compute",
+  "domain": "cudocompute.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-16",
+  "tier": "skip",
+  "why": "Cloud marketing post summarizing well-known historical data from Meta's OPT-175B logbook.",
+  "points": []
  }
 }

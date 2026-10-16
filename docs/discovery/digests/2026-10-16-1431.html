@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Discovery &middot; Fri 16 Oct 2026, 14:31 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Discovery</h1><div class="meta">Fri 16 Oct 2026, 14:31 IST &middot; 8 finds &middot; <a href="../index.html">main library</a> &middot; <a href="index.html">discovery library</a> &middot; <a href="runs.html">all discovery runs</a></div><div class="section">Hidden gem &middot; 6</div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">huggingface.co</span><h2><a href="https://huggingface.co/blog/RitishReal/1b-petrain-llm-in-4gb-vram">Pre-training a 1.11B LLM on a 6 GB Laptop GPU — Measured, Not Claimed</a></h2><div class="why">A gritty, empirical engineering post detailing how to squeeze pre-training of a 1.11B parameter model onto a consumer 6 GB laptop GPU.</div><ul><li>Achieves 1,100 tokens/sec at 4,096 context on an RTX 4050 with peak VRAM under 4.85 GB.</li><li>Attains ~30% whole-step MFU via a 5-technique stack combining tied embeddings, offloading, and chunked loss.</li><li>Provides raw, measured hardware metrics rather than theoretical claims.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">huggingface.co</span><h2><a href="https://huggingface.co/blog/junafinity/gala-an-apple-silicon-first-model-trained-on-one">Gala: an Apple-Silicon-first model, trained on one</a></h2><div class="why">An original architectural exploration tailored specifically to Apple Silicon&#x27;s unique memory-to-compute ratio using pure MLX.</div><ul><li>Demonstrates a post-transformer architecture sustaining constant decode latency (386 tok/s) and fixed recurrent state (3.07 MB) up to 10.5M tokens.</li><li>Trades compute for unified memory bandwidth by keeping FLOPs per token strictly rationed while expanding parameters.</li><li>Includes empirical comparisons against standard Transformers showing massive KV cache savings at extreme contexts.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">eloidereynal.com</span><h2><a href="https://www.eloidereynal.com/p/layer-shuffling-as-regularization">Layer shuffling as regularization - by Eloi de Reynal</a></h2><div class="why">A quirky personal research log documenting a counterintuitive regularizer: randomly shuffling transformer layers during training.</div><ul><li>Discovers that shuffling transformer layers during training noticeably improves sample efficiency on tiny corpora (Shakespeare 1.8M tokens).</li><li>Measures generalization and compression in bits-per-byte (bpb) across unseen test sequences.</li><li>Shares authentic failure modes and unexpected empirical side effects from training experiments.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">arxiv.org</span><h2><a href="https://arxiv.org/abs/2609.27581">[2609.27581] Does Step Law Transfer to Small-Scale Language Models? An Empirical Recalibration Below 59M Parameters</a></h2><div class="why">An exhaustive empirical study of 935 training runs testing whether established Step Law scaling transfers to sub-59M parameter models.</div><ul><li>Proves that standard Step Law systematically overestimates the optimal learning rate by 2.4x to 6.6x (median ~4.0x) below 59M parameters.</li><li>Confirms batch size independence from parameter count (p=0.87), but reveals optimal batch size grows nearly twice as steeply with dataset size D.</li><li>Supplies concrete recalibrated scaling coefficients for single-GPU and interpretability researchers.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">arxiv.org</span><h2><a href="https://arxiv.org/html/2610.05978v1">Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation</a></h2><div class="why">A rigorous paper investigating byte-level language models that uncovers emergent token-like structure inside standard Transformers.</div><ul><li>Shows byte models naturally form local segmentations, allowing up to 25% of intermediate layers to be restricted to local representations without performance loss.</li><li>Observes that generation uncertainty clusters at word boundaries, which can be leveraged for speculative decoding to yield 3.4x more accepted tokens.</li><li>Demonstrates byte-level models scaling beyond subword baselines when combined with token-superposition and hash embeddings.</li></ul></div><div class="card"><span class="badge gem">Hidden gem</span><span class="src">indierouter.ai</span><h2><a href="https://indierouter.ai/blog/h200-part-07-failures-and-fixes/">Part 7: Everything that broke, and what fixed it - IndieRouter Blog</a></h2><div class="why">An exceptionally honest infrastructure debugging ledger documenting hard failures across real H200 cluster deployments.</div><ul><li>Catalogs specific failure modes across DeepSeek and GLM runs on SGLang, including broken GPU peer traffic, memory headroom exhaustion, and driver-level faults.</li><li>Details concrete fixes such as expert parallelism (EP4) adjustments and prefix caching mitigations versus failed attempts like turning off CUDA graphs.</li><li>Offers a rare, unfiltered operations postmortem contrasting spec-sheet expectations with production realities.</li></ul></div><div class="section">Solid find &middot; 2</div><div class="card"><span class="badge skim">Solid find</span><span class="src">james.trappett.org</span><h2><a href="https://james.trappett.org/blog/training-llms-without-backpropagation-forward-pass-only-adaptation/">Training LLMs Without Backpropagation: Forward-Pass-Only Adaptation</a></h2><div class="why">A sharp technical breakdown of a novel backpropagation-free fine-tuning technique for transformer MLPs.</div><ul><li>Exploits the observation that output prediction error has a 0.47-0.59 cosine similarity with true MLP gradients in the final 25% of transformer layers.</li><li>Yields 2.7x to 3.2x throughput increases and ~40% peak memory savings by completely avoiding autograd graph construction.</li><li>Includes a two-minute empirical diagnostic test to identify target layers across architectures.</li></ul></div><div class="card"><span class="badge skim">Solid find</span><span class="src">worldprogramming.org</span><h2><a href="https://www.worldprogramming.org/posts/inside-vllm-following-one-request-from-the-api-to-gpu-execution-ilke8m">Inside vLLM: Following One Request from the API to GPU Execution — WPS</a></h2><div class="why">A detailed engineering walkthrough tracing a request end-to-end through vLLM V1 internals.</div><ul><li>Deconstructs the exact path from LLM.generate through scheduling, batch flattening, and paged KV cache allocation.</li><li>Maps high-level Python coordination directly to lower-level GPU execution phases.</li><li>Provides clear source-level references useful for inference engine developers.</li></ul></div></body></html>
