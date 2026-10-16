@@ -79580,5 +79580,203 @@
   "points": [
    "Applications rely on current Stripe data to fulfill orders, update customer accounts, and manage access to paid features. Until now, developers have had to build and maintain custom integrations to keep application databases in sync with Stripe. We’re introducing real-time sync to Postgres for Stripe Data Pipeline, which lets them keep databases current without having to build custom integrations."
   ]
+ },
+ "05651cde6263878f": {
+  "feed": "Technica",
+  "title": "KDE turns 30 with Plasma 6.8, remote upgrades, and an X11 farewell",
+  "link": "https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell/",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Marking the 30th anniversary of software developer KDE on October 14, the company released Plasma 6.8, debuted a movie, and retired Plasma's native X11 session support. The announcement from KDE dubs the new Plasma 6.8 as the \"30th Anniversary Edition\" and describes the update as preparing Plasma for the future. Legacy X11 applications will still function via the XWayland compatibility layer , and KDE applications will also continue supporting X11 under other desktop environments."
+  ]
+ },
+ "faa035cb0353cf9c": {
+  "feed": "Technica",
+  "title": "Plex now helps sell movie theater tickets",
+  "link": "https://arstechnica.com/gadgets/2026/10/plex-now-helps-sell-movie-theater-tickets/",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Plex, which made a name for itself by letting users share movies they own, is now helping sell movie theater tickets. The company is looking to monetize its content-discovery capabilities and expand its business beyond its media server software. Plex partnered with Fandango, which has sold movie tickets since 2000, to drive ticket sales from people searching for movies to stream."
+  ]
+ },
+ "366b679499020c5d": {
+  "feed": "Technica",
+  "title": "Hegseth’s dubious low-T screening may flag up to 25 percent of the Army",
+  "link": "https://arstechnica.com/health/2026/10/hegseths-dubious-low-t-screening-may-flag-up-to-25-percent-of-the-army/",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Up to a quarter of active-duty Army members could receive a low testosterone result from mandatory military screening, despite the true prevalence of the condition likely being a tiny fraction of that figure, according to a study published Thursday in JAMA . The finding adds to concerns that the mandatory screening announced by Defense Secretary Pete Hegseth in July will lead to a cascade of unnecessary medical evaluations for military members."
+  ]
+ },
+ "048b26c65907c94d": {
+  "feed": "Technica",
+  "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
+  "link": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Researchers say that mercenary hackers laced ads with zero-click exploits that installed sophisticated malware on the devices of targeted individuals when they did nothing other than load a website or open an installed app. The finding, published Thursday by the University of Toronto’s Citizen Lab, said the incident is likely to be the first confirmation of zero-click mercenary spyware delivered through targeted ads."
+  ]
+ },
+ "00b5a13304dacc14": {
+  "feed": "Technica",
+  "title": "Above the 911? Porsche previews a new mid-engined supercar.",
+  "link": "https://arstechnica.com/cars/2026/10/porsche-previews-its-future-with-mission-s-supercar-concept/",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Porsche showed us a preview of a new model this afternoon as it unveiled the Mission S concept in New York. It’s a mid-engined sports car that will slot into the Porsche range above the 911 . But this won’t be a limited-run car like the Carrera GT or 918 Spyder—instead it will be a regular production model, part of Porsche’s plan to dig itself out of a financial hole by 2035."
+  ]
+ },
+ "85432e60fb3e37db": {
+  "feed": "Apple ML Research",
+  "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+  "link": "https://machinelearning.apple.com/research/selection-structured-reasoning",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Multimodal agents commonly generate freeform reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection-based Structured Reasoning (SSR), a framework that reformulates reasoning as selection instead of open-ended generation."
+  ]
+ },
+ "a9a6e9fd102081ee": {
+  "feed": "Apple ML Research",
+  "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
+  "link": "https://machinelearning.apple.com/research/plan-retrieve-tool-discovery",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt. The dominant approach, which we term Retrieve-then-Plan (RtP), embeds the user query and retrieves similar tools via approximate nearest-neighbor search. We study an alternative Plan-then-Retrieve (PtR) paradigm in which the LLM first generates Abstract Tool Stubs (hypothesized function signatures describing needed capabilities) which then serve as retrieval queries against the registry."
+  ]
+ },
+ "a72d1e4da6b0e106": {
+  "feed": "OpenAI News",
+  "title": "Bringing GPT-Rosalind to academic research labs",
+  "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Bringing GPT-Rosalind to academic research labs | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 15, 2026 Research Product Bringing GPT‑Rosalind to academic research labs Introducing the Rosalind Academic Plan, offering eligible labs sponsored access to GPT‑Rosalind and tools for life sciences discovery."
+  ]
+ },
+ "dd00c04c9b95848e": {
+  "feed": "OpenAI News",
+  "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+  "link": "https://openai.com/index/sullivan-cromwell",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sullivan & Cromwell brings legal expertise into agreement review | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 15, 2026 Sullivan & Cromwell brings legal expertise into agreement review In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement."
+  ]
+ },
+ "ba4e7337aba280a4": {
+  "feed": "Hugging Face Blog",
+  "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+  "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline Enterprise + Article Published October 16, 2026 Upvote 5 Will Jennings WillJenningsDC Follow nvidia Kiran Praveen kipraveen Follow nvidia Sriharsha Niverty sniverty Follow nvidia Raviraj Joshi ravirajoshi Follow nvidia Markus Kliegl mkliegl-nv Follow nvidia Yev Meyer nv-3mei Follow nvidia Utkarsh Vaidya uvaidya Follow nvidia Niket Agarwal niketagarwal Follow nvidia :last-child]:mb-0\"> What is in the corpus?"
+  ]
+ },
+ "a01e02239da0a38e": {
+  "feed": "Hugging Face Blog",
+  "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+  "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint Enterprise Article Published October 15, 2026 Upvote 18 +12 Kate Soule katesoule Follow ibm-granite Subhajit Chaudhury subhajit1412 Follow ibm-granite Hendrik Strobelt hen Follow ibm-granite Luis A Lastras GrizleeBer Follow ibm-granite :last-child]:mb-0\"> Granite Libraries: The OG Decision Models Compose and Extend Your Own Granite Switch Model Resources for Getting Started Introduced last spring, the Granite Switch project enables a modular approach to model development."
+  ]
+ },
+ "63ba47f4d2a2d4b5": {
+  "feed": "Together AI",
+  "title": "Meta Muse Spark Open is live on Together AI",
+  "link": "https://www.together.ai/blog/meta-muse-spark-open",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta Muse Spark Open is live on Together AI Webflow Analyze/Optimize tracking bridge --> Introducing Together Link: Run open models inside the harness you already use → Try Muse Spark Open for free on Together AI through 10/18 at 12 p.m. PT → The Open Source AI Stack: models, inference, routers, harnesses & tools → 📈 GLM-5.3 vs. GLM 5.3 Flash on DeepSWE → ⚡ On-demand B200s now available on Together GPU Clusters → Inference Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models Together Link Run open models in your harness Explore Top Open-Source Models Chat Image Code Vision Video Show all Compute Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Model Shaping Custom Training Post-training for frontier quality at scale Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Developers Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for production Open-source AI Build better with open models Together Link Run open models in your harness Model Library Playground Together Chat Which LLM to use Open-source ROI calculator Company Resources Customer stories Testimonials from AI Natives Startup accelerator Build and scale your startup Customer support Find answers to your questions Blog Our latest news & blog posts Events Explore our events calendar Company About Get to know us Careers Join our mission Press Together in the news Pricing Serverless Inference High-performance inference as APIs Batch Inference Inference for batch workloads Provisioned Throughput Token-based capacity with SLAs Dedicated Model Inference Inference on custom hardware Dedicated Container Inference Inference for custom models Together Link Run open models in your harness Explore Top Open-Source Models Chat Image Code Vision Video Show all Accelerated Compute GPU Clusters Reliable GPU clusters at scale AI Factory Custom infrastructure at frontier scale Developer Environments Sandbox Build development environments for AI Storage Managed Storage Store model weights & data securely GB300 GB200 B200 H200 H100 Custom Training Post-training for frontier quality at scale Fine-Tuning Shape models with your data Evaluations Measure model quality kimi K2.7 Code Gemma 4 31B-it FP8 GLM 5.1 FP4 gpt-oss-120b Qwen3.5 397B A17b Llama 4 Maverick Model library Fine-tune top open-source models Research Systems research for production AI Research blog All our research publications Featured publications FlashAttention ATLAS Kernel Collection ThunderKittens DSGym Show all Documentation Technical docs for Together AI Demos Our open-source demo apps Cookbooks Practical implementation guides Voice Agents Build voice agents for"
+  ]
+ },
+ "e2eb449edbb77f0a": {
+  "feed": "MIT News (AI)",
+  "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+  "link": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When corporate leaders discuss climate strategy, the message that still dominates is that, despite competing priorities and external pressures, sustainability matters. According to the 2026 State of Supply Chain Sustainability report from the MIT Sustainable Supply Chain Lab , which surveyed 1,810 supply chain professionals across 91 countries, 83 percent rate sustainability as important or very important to long-term business success, the highest level in the report's seven-year history."
+  ]
+ },
+ "c0a2e19f9297635f": {
+  "feed": "MIT News (AI)",
+  "title": "AI model decodes the language cells use to communicate",
+  "link": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As an embryo develops from a small cluster of stem cells, those once “blank slate” cells begin to take on more specialized roles like brain, liver, or muscle cells, and organize themselves into three-dimensional structures such as tissues and organs. The fate of each cell — what type of specialized cell it will become — depends on which genes are turned on or off in the cell."
+  ]
+ },
+ "08c79764230e6e3c": {
+  "feed": "Simon Willison",
+  "title": "Chirp Pong",
+  "link": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong Claude Opus 5.5 Extra in Claude Code ."
+  ]
+ },
+ "d57855fe70746325": {
+  "feed": "Meta Engineering",
+  "title": "How Meta Built Forum With AI-Native Engineering",
+  "link": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta’s newest app, Forum, is for anyone who wants to go deeper into the conversations in their Facebook groups. To build Forum, Meta engineers adopted a whole new way of working by bringing an AI agent into the development cycle. We’re sharing insights into what it took to build Forum with agentic AI: how we adapted the codebase, tested frameworks and internal tooling for agentic execution, what worked, and what didn’t."
+  ]
+ },
+ "40f3aca09c9f81b0": {
+  "feed": "Meta Engineering",
+  "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
+  "link": "https://engineering.fb.com/2026/10/15/production-engineering/2026-world-cup-record-traffic-reliability-at-scale/",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Every four years, the World Cup becomes the largest planned stress test of our infrastructure. This year it also set an all-time record! There are a few moments throughout the year, like New Years Eve, that really let us see the collective impact of everything we’ve built — but none are bigger than the quadrennial World Cup tournament. The 2026 World Cup broke records across messaging, video, recommendations, and networking at the same time."
+  ]
+ },
+ "f48b69816fcc712f": {
+  "feed": "Modal Blog",
+  "title": "Muse Spark Open is now available on Modal",
+  "link": "https://modal.com/blog/meta-muse-spark-open-now-available-on-modal",
+  "date": "2026-10-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Muse Spark Open is now available on Modal Skip to content Series D: $1B in annualized run rate, new funding, and where Modal goes next. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Product Oct 15, 2026 Muse Spark Open is now available on Modal Meta just released weights for Muse Spark Open, and itâs now available on Modal Auto Endpoints."
+  ]
  }
 }
