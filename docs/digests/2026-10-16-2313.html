@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Fri 16 Oct 2026, 23:13 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Fri 16 Oct 2026, 23:13 IST &middot; 12 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Beam&#x27;s open 501B MoE model leads this batch, alongside high-caliber engineering deep-dives from Modal, Netflix, and Jane Street on systems performance.</div><div class="section">Must read &middot; 4</div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/reflection-beam">Welcome Beam: a 501B open model you can own, customize, and scale</a></h2><div class="why">Announces a major open-source 501B MoE architecture with explicit post-training GRPO recipes and day-0 vLLM support.</div><ul><li>501B total parameter sparse MoE model with 23B active per token (52 layers, 256 experts, 8 routed) under Apache 2.0.</li><li>Supports a 1M token context window with native BF16, FP8, and NVFP4 checkpoints.</li><li>Includes day-0 serving support in vLLM and SGLang, speculative decoding drafter support (DFlash2), and full-parameter GRPO post-training via Miles.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Netflix TechBlog</span><h2><a href="https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4">Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale</a></h2><div class="why">Production architecture deep-dive from Netflix on structuring observability data into an end-to-end knowledge graph at immense scale.</div><ul><li>Solves the bottleneck of 4-hour MTTR triage across 38M logging events/sec and 65M concurrent live streams.</li><li>Unifies disconnected MELT silos (Metrics, Events, Logs, Traces) into a contextualized graph to trace cross-service regressions.</li><li>Provides the necessary structured operational ontology required to safely deploy AI agents for root cause analysis without hallucinations.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Jane Street Tech</span><h2><a href="https://blog.janestreet.com/flex-model-an-event-driven-feature-engineering-system/">Flex Model: an event-driven feature engineering system</a></h2><div class="why">High-value Jane Street architecture post on building a composable, low-latency streaming feature extraction pipeline for ML models.</div><ul><li>Replaced a 17k+ LOC C++ monolith where adding a single feature required modifying 19 separate files.</li><li>Designed a modular, event-driven framework to process market ticks and compute stateful rolling-window features on the fly.</li><li>Decoupled feature definitions across different trading venues to prevent redundant evaluations and eliminate cross-market performance regressions.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Modal Blog</span><h2><a href="https://modal.com/blog/vm-sandbox-filesystem">Building fast filesystems for VMs</a></h2><div class="why">Directly covers GPU/sandbox infrastructure and low-level filesystem optimizations essential for high-throughput RL rollouts and agent execution.</div><ul><li>Explains the evolution from container-based ImageFS (lazy FUSE mounts with tiered caching) to hardware-isolated VM Sandboxes.</li><li>Eliminates container cold-start overhead via metadata-first pulling and background chunk prefetching from local/CDN tiers.</li><li>Optimizes execution environments specifically for multi-thousand GPU reinforcement learning rollouts and untrusted agent workloads.</li></ul></div><div class="section">Worth a skim &middot; 1</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/verified-bots-accountability/">Continuous accountability for Verified bots</a></h2><div class="why">Relevant to distributed systems and crawler management, detailing how Cloudflare tracks agent compliance with web standards.</div><ul><li>Introduces continuous trust scoring that measures whether bots respect robots.txt (RFC 9309) and rate limits over time.</li><li>Separates cryptographic identity verification (Web Bot Auth) from ongoing behavioral compliance to penalize bad actors like unauthorized AI scrapers.</li></ul></div><div class="section">Low priority &middot; 7</div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/">Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees</a></h2><div class="why">Covers legal and copyright policy implications regarding Meta&#x27;s terms of service rather than ML systems or engineering.</div><ul><li>Meta updated commercial terms to crawl business account websites for AI training without licensing fees.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/">Polymarket saw $600 million in election trades after the elections were over</a></h2><div class="why">Discusses trading anomalies on political prediction markets, completely off-target from ML engineering and backend systems.</div><ul><li>Polymarket saw over $600M in post-election volume concentrated on losing candidates in foreign elections.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again/">Tesla turns to 50-year-old stunt technology as it tries to Roadster again</a></h2><div class="why">Covers consumer automotive stunts and vehicle styling, unrelated to technical infra or ML.</div><ul><li>Tesla demonstrated prototype Roadster thrusters using compressed nitrogen stunt technology.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/">Super Scam Me documentary shows what it takes to catch a romance scammer</a></h2><div class="why">Television documentary recap about cyber romance fraud with no technical engineering substance.</div><ul><li>National Geographic documentary covers social engineering tactics used by romance scammers.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/">The Surface Laptop Ultra delivers on most of Microsoft&#x27;s promises</a></h2><div class="why">Consumer PC hardware review that does not offer actionable ML architecture or systems engineering insights.</div><ul><li>Microsoft&#x27;s Surface Laptop Ultra integrates Nvidia RTX Spark to run local 70B models and gaming workloads.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">MIT News (AI)</span><h2><a href="https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016">Fostering community amid Kendall Square’s innovation</a></h2><div class="why">Local community gathering and economics talk recap with zero engineering content.</div><ul><li>Kendall Square Association hosted an annual meeting focused on innovation, community collaboration, and democracy.</li></ul></div><div class="card"><span class="badge low">Low priority</span><span class="src">Stripe Blog</span><h2><a href="https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally">New ways for fintechs to move money and expand globally</a></h2><div class="why">Pure product marketing and sales material for Stripe&#x27;s global fintech and payments services.</div><ul><li>Stripe overview of payment methods, global payouts, and billing features for enterprise fintech customers.</li></ul></div></body></html>
