@@ -79778,5 +79778,60 @@
   "points": [
    "Muse Spark Open is now available on Modal Skip to content Series D: $1B in annualized run rate, new funding, and where Modal goes next. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools Playground Explore Modal in the browser GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Product Oct 15, 2026 Muse Spark Open is now available on Modal Meta just released weights for Muse Spark Open, and itâs now available on Modal Auto Endpoints."
   ]
+ },
+ "82903c15251f17dc": {
+  "feed": "Technica",
+  "title": "Rocket Report: FAA eyes more Starbase traffic; India's Skyroot snares US customer",
+  "link": "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer/",
+  "date": "2026-10-16",
+  "tier": "low_priority",
+  "why": "Covers aerospace launch schedules and commercial space startups with zero relevance to ML or backend engineering.",
+  "points": [
+   "Summarizes commercial spaceflight updates, including Skyroot Aerospace securing US customer Reflect Orbital."
+  ]
+ },
+ "c04081904cfe9106": {
+  "feed": "Technica",
+  "title": "Blue Origin is going all in on the New Glenn rocket",
+  "link": "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket/",
+  "date": "2026-10-16",
+  "tier": "low_priority",
+  "why": "Corporate aerospace infrastructure news unrelated to software, machine learning, or distributed systems.",
+  "points": [
+   "Blue Origin is expanding Cape Canaveral facilities aiming for up to 150 New Glenn flights annually."
+  ]
+ },
+ "cd9e1401f00190c9": {
+  "feed": "Technica",
+  "title": "Googlebook review: Android on a laptop is still Android",
+  "link": "https://arstechnica.com/reviews/2026/10/googlebook-review-android-on-a-laptop-is-still-android/",
+  "date": "2026-10-16",
+  "tier": "low_priority",
+  "why": "A consumer hardware review of Android laptops with no backend or ML engineering insights.",
+  "points": [
+   "Reviews Googlebook OS, highlighting ongoing UI and software ecosystem friction when adapting mobile Android to laptops."
+  ]
+ },
+ "a793efbe648fa186": {
+  "feed": "Technica",
+  "title": "What did the Liberty Bell sound like? Science is on the case.",
+  "link": "https://arstechnica.com/science/2026/10/what-did-the-liberty-bell-sound-like-science-is-on-the-case/",
+  "date": "2026-10-16",
+  "tier": "low_priority",
+  "why": "Acoustic modeling and historical science trivia completely outside the reader's technical domain.",
+  "points": [
+   "Penn State researchers modeled the historical acoustic properties of the Liberty Bell using replica measurements."
+  ]
+ },
+ "d9f616d9ddcc05da": {
+  "feed": "Technica",
+  "title": "Black Sea drone attacks enter NATO country's territorial waters for first time",
+  "link": "https://arstechnica.com/gadgets/2026/10/black-sea-drone-attacks-enter-nato-countrys-territorial-waters-for-first-time/",
+  "date": "2026-10-16",
+  "tier": "low_priority",
+  "why": "Geopolitical conflict and defense news with no connection to engineering or ML priorities.",
+  "points": [
+   "Reports on Russian drone strikes affecting maritime traffic near NATO waters off Romania and Bulgaria."
+  ]
  }
 }
