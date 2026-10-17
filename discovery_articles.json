@@ -5784,5 +5784,131 @@
   "tier": "skip",
   "why": "Cloud marketing post summarizing well-known historical data from Meta's OPT-175B logbook.",
   "points": []
+ },
+ "ef43b372eba7e9ec": {
+  "url": "https://robbiewmthompson.com/blog/pretraining-ablations/",
+  "title": "Pretraining ablations, week of September 21, 2026",
+  "domain": "robbiewmthompson.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-17",
+  "tier": "hidden_gem",
+  "why": "An authentic personal research log providing empirical ablation data on model architectures, optimizers, and autonomous research agent failure modes.",
+  "points": [
+   "Demonstrates that switching to a Lean-specific tokenizer and Muon optimizer produced the strongest downstream RL performance gains on natural deduction proofs.",
+   "Finds that architectural variations like 4 ALiBi + 4 NoPE attention heads and MTP auxiliary loss reliably outperformed standard RoPE baselines.",
+   "Highlights practical pitfalls of autonomous LLM research agents, such as agents assuming speedups were out-of-bounds and failing on torch.compile."
+  ]
+ },
+ "09dd07d6a35c9072": {
+  "url": "https://docs.pytorch.org/devlogs/distributed/2026-09-02-olmo3-reproduction/",
+  "title": "Olmo3 reproduction in TorchTitan — PyTorch DevLog",
+  "domain": "docs.pytorch.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-17",
+  "tier": "solid_find",
+  "why": "A concrete engineering reproduction log validating TorchTitan against official Olmo3-7B pre-training runs across 512 H100 GPUs.",
+  "points": [
+   "Reproduces 23% of Olmo3-7B's pre-training loss curve over 4 days on 512 H100s, closely matching Ai2's reference WandB metrics at step 323k.",
+   "Replaces FlashAttention-2 with Varlen FlashAttention-3 and shifts HSDP configuration from dp_shard=8/dp_replicate=64 to 16/32."
+  ]
+ },
+ "226ee7fc9d59a1d3": {
+  "url": "https://dl.acm.org/doi/abs/10.1145/3837057",
+  "title": "Reinforcement Learning in the Era of Large Language Models: Challenges and Opportunities | ACM Computing Surveys",
+  "domain": "dl.acm.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-17",
+  "tier": "skip",
+  "why": "A high-level academic survey abstract behind a paywall offering broad taxonomies rather than novel technical implementation details.",
+  "points": []
+ },
+ "cd2a301aff0993ce": {
+  "url": "https://mohashari.github.io/implementing-custom-cuda-kernels-flashdecoding-optimizing-long-context-llm-inference-parallelizing-decode/",
+  "title": "Implementing Custom CUDA Kernels for FlashDecoding: Optimizing Long-Context LLM Inference by Parallelizing the Decode Phase – Moh Ashari Muklis",
+  "domain": "mohashari.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-17",
+  "tier": "solid_find",
+  "why": "A thorough, math-grounded walkthrough explaining FlashDecoding kernel implementation and GPU streaming multiprocessor occupancy bottlenecks.",
+  "points": [
+   "Quantifies arithmetic intensity during long-context decode, showing why low batch size (B=1) starves H100 tensor cores by leaving up to 100 of 132 SMs idle.",
+   "Calculates exact KV cache memory footprints (e.g. 128k context Llama 3 70B FP16) to demonstrate the transition to a pure memory-bandwidth wall.",
+   "Explains how parallelizing attention along the sequence dimension saturates idle SMs during the decode stage."
+  ]
+ },
+ "dcf6209a65496cc4": {
+  "url": "https://iotdigitaltwinplm.com/distributed-training-parallelism-data-tensor-pipeline-fsdp-zero-nccl-2026/",
+  "title": "Distributed Training Parallelism: Data, Tensor, Pipeline, FS",
+  "domain": "iotdigitaltwinplm.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-17",
+  "tier": "skip",
+  "why": "A high-level SEO-style primer summarizing standard distributed training concepts and decades-old paper abstracts.",
+  "points": []
+ },
+ "05706853d291b8ed": {
+  "url": "https://doi.org/10.48550/arxiv.2610.07516",
+  "title": "[2610.07516] NCCL M2N: A Layout- and Topology-Aware Collective for Distributed Tensor Resharding",
+  "domain": "doi.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-17",
+  "tier": "hidden_gem",
+  "why": "A rigorous systems paper introducing a novel collective communication primitive for M-to-N tensor resharding in large-scale RL post-training.",
+  "points": [
+   "Targets the 29.4% RL step-time overhead in DeepSeek-V3 on 256 GPUs caused by legacy all-gather and broadcast during weight redistribution.",
+   "Designs a hierarchical routing scheme that overlaps inter-node network transfer with local NVLink replication to eliminate redundant egress traffic.",
+   "Delivers up to 7.9x speedups on FFN-MoE layers and cuts NeMo-RL weight-sync time from 5.78s to 2.77s on 256 GB200 GPUs."
+  ]
+ },
+ "d5be3ca2ef48be1d": {
+  "url": "https://manishklach.github.io/writings/distributed-llm-serving-inference-engineering.html",
+  "title": "Inference Engineering: Building a Distributed LLM Serving Stack | MANISH AI",
+  "domain": "manishklach.github.io",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-17",
+  "tier": "skip",
+  "why": "A broad, conceptual overview of distributed inference systems that rehashes common architectural layers without specific empirical findings.",
+  "points": []
+ },
+ "bfd1284f4640c626": {
+  "url": "https://www.bigiron.cc/guides/nvidia-open-module-kernel-panic-from-a-wedged-vision-prefill",
+  "title": "A Kernel Panic After Hours of Wedged Vision Prefills: An NVIDIA Open-Module Postmortem - Big Iron",
+  "domain": "bigiron.cc",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-17",
+  "tier": "hidden_gem",
+  "why": "An exceptionally detailed, hands-on Linux kernel and hardware postmortem debugging an NVIDIA open kernel module crash under sustained vision model inference.",
+  "points": [
+   "Walks through configuring netconsole to capture kernel panics when local logging and consoles lock up completely during wedged GPU workloads.",
+   "Details the process of analyzing kernel oops stack traces to differentiate between physical hardware defects and driver-level concurrency deadlocks.",
+   "Documents specific failure modes in the open-source NVIDIA kernel modules under prolonged vision token prefill pressure."
+  ]
+ },
+ "8472604016f3f2cc": {
+  "url": "https://medium.com/@thirukrishna86/the-67-milliseconds-latency-ray-serve-was-quietly-stealing-from-us-749ea7099b6f",
+  "title": "The ~67 Milliseconds Ray Serve Was Quietly Stealing From Us | by Thirukrishna | Aug, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-17",
+  "tier": "solid_find",
+  "why": "A focused production postmortem detailing an empirical investigation into a hidden latency regression inside Ray Serve.",
+  "points": [
+   "Identifies specific framework-level serialization and routing hops inside Ray Serve that introduced 67ms of latency overhead.",
+   "Demonstrates practical profiling techniques to isolate framework overhead from actual GPU model execution times."
+  ]
+ },
+ "03f4cf639833bcfc": {
+  "url": "https://forums.developer.nvidia.com/t/4x-dgx-spark-running-qwen3-8-27b-nvfp4-with-sglang-dflash2-107-6-tok-s-greedy-full-repro-the-8-pitfalls-that-nearly-killed-the-cluster/382754/1",
+  "title": "4× DGX Spark running Qwen3.8-27B (NVFP4) with SGLang + DFlash2 — 107.6 tok/s greedy, full repro + the 8 pitfalls that nearly killed the cluster - DGX Spark / GB10 User Forum / DGX Spark / GB10 - NVIDIA Developer Forums",
+  "domain": "forums.developer.nvidia.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-17",
+  "tier": "hidden_gem",
+  "why": "A rare, highly detailed forum post sharing bare-metal cluster deployment pitfalls, custom patches, and reproducible benchmarks for distributed speculative decoding.",
+  "points": [
+   "Achieves 107.6 tok/s single-stream greedy on Qwen3.8-27B across 4x DGX Spark (GB10) using TP4, NVFP4 weights, FP8 KV, and DFlash2 speculative decoding.",
+   "Details network plane isolation between RoCEv2 for NCCL RDMA data communication and standard ethernet for SSH/bootstrapping.",
+   "Shares three bind-mounted external patches and a cron watchdog that recovers from cluster-killing crashes within 8 minutes without modifying base images."
+  ]
  }
 }
