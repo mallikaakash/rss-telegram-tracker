@@ -60,7 +60,7 @@ li{font-size:.92rem;margin-bottom:5px}
 .stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
  float:right;text-transform:uppercase}
 .toolbar{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
-.toolbar input[type=text],.toolbar input[type=email]{
+.toolbar input[type=text],.toolbar input[type=password]{
  font-family:var(--font-mono);font-size:.85rem;background:var(--panel);
  color:var(--text);border:1px solid var(--border);padding:8px 10px;flex:1;min-width:160px}
 .toolbar input:focus{outline:2px solid var(--accent);outline-offset:-1px}
@@ -91,7 +91,7 @@ li{font-size:.92rem;margin-bottom:5px}
 <script type="module">
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm";
 
-const READER_EMAIL = "mallik.aakash777@gmail.com";
+const PASS_KEY = "library-passphrase";
 const supabase = createClient(
   "https://pzvtstgwvcgwpuqxtibv.supabase.co",
   "sb_publishable_InIfcKlWwe5F0hXxuZ8uJQ_w00574mL"
@@ -120,7 +120,8 @@ const state = {
   status: "inbox",
   q: "",
   shown: 40,
-  session: null,
+  passphrase: "",
+  unlocked: false,
   busy: null,
   loaded: false,
 };
@@ -158,49 +159,50 @@ function chips(el, items, key) {
 }
 function renderAuth() {
   const box = document.getElementById("auth");
-  const session = state.session;
-  if (session) {
-    const email = session.user.email || "";
-    const ok = email.toLowerCase() === READER_EMAIL;
-    box.innerHTML = `<p>Signed in as ${esc(email)}.${ok ? "" : " This account cannot change marks."}</p>
-      <button class="plain" id="signout" type="button">Sign out</button>`;
-    document.getElementById("signout").onclick = () => supabase.auth.signOut();
+  if (state.unlocked) {
+    box.innerHTML = `<p>Marks unlocked in this browser.</p>
+      <button class="plain" id="lock" type="button">Lock</button>`;
+    document.getElementById("lock").onclick = () => {
+      localStorage.removeItem(PASS_KEY);
+      state.passphrase = "";
+      state.unlocked = false;
+      renderAuth();
+      render();
+    };
     return;
   }
-  box.innerHTML = `<p>Sign in to mark a piece important, read, or ignored.</p>
-    <form class="toolbar" id="login">
-      <input type="email" id="email" required value="${esc(READER_EMAIL)}">
-      <button class="plain" type="submit">Send link</button>
-    </form>
-    <form class="toolbar" id="confirm">
-      <input type="text" id="token" inputmode="numeric" placeholder="code from the email">
-      <button class="plain" type="submit">Confirm code</button>
+  box.innerHTML = `<p>Enter the passphrase to mark a piece important, read, or ignored.</p>
+    <form class="toolbar" id="unlock">
+      <input type="password" id="passphrase" autocomplete="current-password" required placeholder="passphrase">
+      <button class="plain" type="submit">Unlock</button>
     </form>
     <p class="note" id="authnote"></p>`;
-  document.getElementById("login").onsubmit = async (ev) => {
+  document.getElementById("unlock").onsubmit = async (ev) => {
     ev.preventDefault();
-    const email = document.getElementById("email").value.trim();
     const note = document.getElementById("authnote");
-    note.textContent = "Sending…";
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: { emailRedirectTo: location.href.split("#")[0] },
-    });
-    note.textContent = error ? error.message : "Check that inbox for a link or a code.";
+    note.textContent = "Checking…";
+    const ok = await unlock(document.getElementById("passphrase").value);
+    if (!ok) note.textContent = "Wrong passphrase.";
   };
-  document.getElementById("confirm").onsubmit = async (ev) => {
-    ev.preventDefault();
-    const email = document.getElementById("email").value.trim();
-    const token = document.getElementById("token").value.trim();
-    const note = document.getElementById("authnote");
-    const { error } = await supabase.auth.verifyOtp({ email, token, type: "email" });
-    note.textContent = error ? error.message : "";
-  };
+}
+async function unlock(pass) {
+  const { data, error } = await supabase.rpc("check_mark_passphrase", { p_passphrase: pass });
+  if (error || data !== true) {
+    state.passphrase = "";
+    state.unlocked = false;
+    return false;
+  }
+  state.passphrase = pass;
+  state.unlocked = true;
+  localStorage.setItem(PASS_KEY, pass);
+  renderAuth();
+  render();
+  return true;
 }
 function render() {
   const filtered = state.rows.filter(matches);
   const slice = filtered.slice(0, state.shown);
-  const signedIn = !!state.session;
+  const signedIn = state.unlocked;
   let html = "";
   let lastDay = null;
   for (const row of slice) {
@@ -279,7 +281,7 @@ document.body.addEventListener("click", async (ev) => {
     return;
   }
   const mark = ev.target.closest(".mark");
-  if (!mark || !state.session) return;
+  if (!mark || !state.unlocked) return;
   const id = mark.dataset.id;
   const pipeline = mark.dataset.pipeline;
   const next = mark.dataset.mark;
@@ -287,8 +289,12 @@ document.body.addEventListener("click", async (ev) => {
   if (!row || state.busy === id + pipeline) return;
   const value = row.reading_status === next ? null : next;
   state.busy = id + pipeline;
-  const { error } = await supabase.from("findings").update({ reading_status: value })
-    .eq("id", id).eq("pipeline", pipeline);
+  const { error } = await supabase.rpc("set_reading_status", {
+    p_id: id,
+    p_pipeline: pipeline,
+    p_status: value,
+    p_passphrase: state.passphrase,
+  });
   state.busy = null;
   if (error) {
     document.getElementById("meta").textContent = error.message;
@@ -301,14 +307,9 @@ document.getElementById("more").onclick = () => {
   state.shown += 40;
   render();
 };
-const { data } = await supabase.auth.getSession();
-state.session = data.session;
 renderAuth();
-supabase.auth.onAuthStateChange((_event, session) => {
-  state.session = session;
-  renderAuth();
-  render();
-});
+const saved = localStorage.getItem(PASS_KEY);
+if (saved) await unlock(saved);
 load();
 </script>
 </body>

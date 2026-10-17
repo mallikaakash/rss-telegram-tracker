@@ -15,7 +15,7 @@ pages.
 
 Both pipelines write into **The Library** (`docs/index.html`): one page that
 reads every triaged article from Supabase, grouped by the day it was indexed.
-You can mark a card important, read, or ignored. Run digests remain under
+You can mark a card important, read, or ignored after unlocking with the passphrase. Run digests remain under
 `docs/digests/` and `docs/discovery/digests/`.
 
 ## Setup checklist (one time)
