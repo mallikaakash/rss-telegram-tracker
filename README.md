@@ -1,7 +1,8 @@
 # RSS/Discovery → AI Digest → Telegram
 
 Free, always-online blog tracker with two independent pipelines, both running
-on GitHub Actions only (no server, no database):
+on GitHub Actions. Findings live in Supabase. Run digests are still static
+pages.
 
 1. **RSS tracker** (`tracker.py`) - 9×/day it checks the feeds, has Gemini
    triage everything against **your** interests, publishes a clean digest
@@ -12,11 +13,10 @@ on GitHub Actions only (no server, no database):
    they are - actively penalizing mainstream/famous-creator content unless
    it's genuinely novel. Separate page, separate Telegram ping.
 
-Both pipelines write into **The Library** (`docs/index.html` for RSS,
-`docs/discovery/index.html` for discovery): every article/find ever surfaced,
-ranked by tier then recency, with a search box and tier filter chips. No
-rounded corners, earth-tone palette, monospace labels - a library catalog,
-not a feed.
+Both pipelines write into **The Library** (`docs/index.html`): one page that
+reads every triaged article from Supabase, grouped by the day it was indexed.
+You can mark a card important, read, or ignored. Run digests remain under
+`docs/digests/` and `docs/discovery/digests/`.
 
 ## Setup checklist (one time)
 
@@ -27,6 +27,7 @@ not a feed.
 - [ ] Repo → Settings → Secrets and variables → Actions → add:
   - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `GEMINI_API_KEY` (both pipelines)
   - `EXA_API_KEY`, `FIRECRAWL_API_KEY` (discovery, plus the once-a-day Uber and Meta AI watches)
+  - `SUPABASE_SERVICE_ROLE_KEY` (so each run can upsert new findings; the library page reads with the public key)
 - [ ] Repo → Settings → **Pages** → Source: "Deploy from a branch" → Branch: `main`, folder: `/docs` → Save
 - [ ] Actions tab → enable workflows → run **"RSS Tracker"** once (first run just initializes; you get a ✅ message) → run it once more to see a real digest
 - [ ] Run **"Niche Discovery"** once too (first run has nothing to dedup against, so it'll judge a full batch immediately)

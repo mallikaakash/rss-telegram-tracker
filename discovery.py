@@ -242,6 +242,15 @@ def build_runs_page() -> None:
 
 
 def build_library() -> None:
+    DISCOVERY_DOCS.mkdir(parents=True, exist_ok=True)
+    DISCOVERY_DOCS.joinpath("index.html").write_text(
+        '<!doctype html><html><head><meta charset="utf-8">'
+        '<meta http-equiv="refresh" content="0;url=../index.html?pipeline=discovery">'
+        '<title>Discovery</title></head><body>'
+        '<p><a href="../index.html?pipeline=discovery">Open the library</a></p>'
+        '</body></html>'
+    )
+    return
     store = load_store()
     items = [dict(id=cid, **rec) for cid, rec in store.items() if rec.get("tier") in TIER_META]
     items.sort(key=lambda a: a.get("date") or "", reverse=True)
@@ -385,11 +394,22 @@ def main() -> None:
             record["published_on"] = c["published"]
         if reason in REJECT_REASONS:
             record["reject_reason"] = reason
+            c["reject_reason"] = reason
         store[c["id"]] = record
         if c["tier"] != "skip":
             kept.append(c)
 
     save_store(store)
+    common.upsert_findings([
+        {
+            "id": c["id"], "pipeline": "discovery", "tier": c["tier"],
+            "title": c.get("title"), "url": c.get("url"), "source_name": c.get("domain"),
+            "query": c.get("query"), "seen_on": today, "published_on": c.get("published"),
+            "why": c.get("why"), "points": c.get("points") if isinstance(c.get("points"), list) else None,
+            "reject_reason": c.get("reject_reason") if c.get("reject_reason") in REJECT_REASONS else None,
+        }
+        for c in ranked
+    ])
 
     if not kept:
         print("No hidden gems or solid finds today.")
@@ -407,7 +427,9 @@ def main() -> None:
              + (f" · <b>{len(gems)} hidden gem{'s' if len(gems) != 1 else ''}</b>" if gems else "")]
     for c in (gems or kept)[:3]:
         lines.append(f"\U0001f48e {html.escape(c['title'])}")
-    lines.append(f'\n<a href="{url}">Open discovery digest →</a>')
+    library = common.pages_url("index.html?pipeline=discovery")
+    lines.append(f'\n<a href="{library}">Open library →</a>')
+    lines.append(f'<a href="{url}">This run →</a>')
     common.send_telegram(BOT_TOKEN, CHAT_ID, "\n".join(lines))
     print(f"Discovery digest: {url}")
 

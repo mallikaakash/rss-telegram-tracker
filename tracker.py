@@ -464,6 +464,8 @@ def build_runs_page() -> None:
 
 
 def build_library() -> None:
+    """docs/index.html is the Supabase library. A tracker run must not overwrite it."""
+    return
     store = load_articles()
     items = [dict(id=aid, **rec) for aid, rec in store.items()
              if rec.get("tier") in TIER_META]
@@ -713,6 +715,16 @@ def main() -> None:
         articles_store[a["id"]] = record
 
     save_articles(articles_store)
+    common.upsert_findings([
+        {
+            "id": a["id"], "pipeline": "rss", "tier": a["tier"],
+            "title": a.get("title"), "url": a.get("link"), "source_name": a.get("feed"),
+            "seen_on": today, "published_on": a.get("published_on"),
+            "why": a.get("why"), "points": a.get("points") if isinstance(a.get("points"), list) else None,
+            "reject_reason": a.get("reject_reason"),
+        }
+        for a in new_articles
+    ])
     build_library()
 
     shown = [a for a in new_articles if a["tier"] != "low_priority"]
@@ -734,7 +746,9 @@ def main() -> None:
         lines.append(f"⚡ {html.escape(tldr)}")
     for a in must[:3]:
         lines.append(f"🔴 {html.escape(a['title'])}")
-    lines.append(f'\n<a href="{url}">Open digest →</a>')
+    library = common.pages_url("index.html")
+    lines.append(f'\n<a href="{library}">Open library →</a>')
+    lines.append(f'<a href="{url}">This run →</a>')
     common.send_telegram(BOT_TOKEN, CHAT_ID, "\n".join(lines))
     print(f"Digest: {url}")
 

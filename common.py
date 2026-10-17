@@ -66,6 +66,48 @@ def save_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, indent=1, ensure_ascii=False))
 
 
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://pzvtstgwvcgwpuqxtibv.supabase.co").rstrip("/")
+
+
+def upsert_findings(rows: list[dict]) -> None:
+    """Insert or update findings. reading_status is never sent, so a mark survives a later run."""
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not rows:
+        return
+    if not key:
+        print("  supabase upsert skipped: SUPABASE_SERVICE_ROLE_KEY is not set")
+        return
+
+    def clean(value):
+        if isinstance(value, str):
+            return value.replace("\u0000", "")
+        if isinstance(value, list):
+            return [clean(v) for v in value]
+        if isinstance(value, dict):
+            return {k: clean(v) for k, v in value.items()}
+        return value
+
+    endpoint = f"{SUPABASE_URL}/rest/v1/findings?on_conflict=pipeline,id"
+    headers = {
+        "apikey": key,
+        "Authorization": f"Bearer {key}",
+        "Content-Type": "application/json",
+        "Prefer": "resolution=merge-duplicates,return=minimal",
+    }
+    payload = [clean(row) for row in rows]
+    for i in range(0, len(payload), 200):
+        chunk = payload[i:i + 200]
+        try:
+            r = requests.post(endpoint, headers=headers, json=chunk, timeout=60)
+        except requests.RequestException as e:
+            print(f"  supabase upsert failed: {e}")
+            return
+        if not r.ok:
+            print(f"  supabase upsert {r.status_code}: {r.text[:300]}")
+            return
+    print(f"  supabase upserted {len(payload)} findings")
+
+
 # ---------------------------------------------------------------- telegram
 
 def send_telegram(bot_token: str, chat_id: str, msg: str) -> None:
