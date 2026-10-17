@@ -28,6 +28,7 @@ import datetime as dt
 import hashlib
 import html
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -53,7 +54,9 @@ CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 GEMINI_MODEL = "gemini-flash-latest"
 
 EXA_NUM_RESULTS = 6          # per query
-DISCOVERY_LOOKBACK_DAYS = 60 # freshness bias, not a hard requirement for quality
+DISCOVERY_LOOKBACK_DAYS = 60 # hard drop for dated results and arXiv ids
+ARXIV_RE = re.compile(r"arxiv\.org/(?:abs|pdf|html)/(\d{2})(\d{2})(?:\.\d|$)")
+REJECT_REASONS = {"stale", "off_topic", "marketing", "shallow"}
 MAX_NEW_CANDIDATES = 15      # caps Firecrawl scrapes + judge cost per run
 ARTICLE_CHAR_BUDGET = 3000
 LIBRARY_LIMIT = 300
@@ -77,6 +80,28 @@ def save_store(store: dict) -> None:
 
 def candidate_id(url: str) -> str:
     return hashlib.sha1(url.encode()).hexdigest()[:16]
+
+
+def parse_published(value: str | None) -> dt.datetime | None:
+    if not value:
+        return None
+    try:
+        return dt.datetime.fromisoformat(value.strip().replace("Z", "")[:19])
+    except ValueError:
+        return None
+
+
+def too_old(url: str, published: str | None, cutoff: dt.datetime) -> bool:
+    when = parse_published(published)
+    if when and when < cutoff:
+        return True
+    match = ARXIV_RE.search(url)
+    if not match:
+        return False
+    year, month = 2000 + int(match.group(1)), int(match.group(2))
+    if not 1 <= month <= 12:
+        return False
+    return dt.datetime(year, month, 1) < cutoff
 
 
 def domain_of(url: str) -> str:
@@ -134,7 +159,8 @@ def judge_llm(candidates: list[dict], guidance: str) -> dict | None:
         return None
     blocks = []
     for i, c in enumerate(candidates):
-        blocks.append(f"[{i}] URL: {c['url']}\nTITLE: {c['title']}\n"
+        published = c.get("published") or "unknown"
+        blocks.append(f"[{i}] URL: {c['url']}\nTITLE: {c['title']}\nDATE: {published}\n"
                       f"TEXT: {c['text'][:ARTICLE_CHAR_BUDGET]}\n")
     prompt = f"""You are judging web pages found via search, to decide if they are worth
 surfacing to a specific reader hunting for niche, high-signal material.
@@ -145,15 +171,19 @@ Below are {len(candidates)} candidate pages. For EACH, decide a tier:
 - "hidden_gem": rare, deep, high-signal - exactly what the reader is hunting for.
 - "solid_find": genuinely good and on-topic, but not rare/surprising enough to be a gem.
 - "skip": mainstream, shallow, off-topic, marketing, or a duplicate of common knowledge.
+  If DATE is present and the page is a paper or post whose contribution is already old
+  news, skip it.
 
 For each candidate give:
 - "why": one sentence on why it earned this tier (be specific about what's novel or rare,
   or why it's mainstream/shallow).
 - "points": for hidden_gem/solid_find, 2-4 concrete takeaways - what's novel, the key
   numbers, the conclusion. For skip, omit or leave empty.
+- "reject_reason": null for hidden_gem and solid_find. For skip, one of "stale",
+  "off_topic", "marketing", or "shallow".
 
 Respond with ONLY valid JSON, no markdown fences:
-{{"items": [{{"idx": 0, "tier": "hidden_gem", "why": "...", "points": ["...", "..."]}}, ...]}}
+{{"items": [{{"idx": 0, "tier": "hidden_gem", "why": "...", "points": ["...", "..."], "reject_reason": null}}, ...]}}
 Include every idx from 0 to {len(candidates) - 1}.
 
 CANDIDATES:
@@ -288,6 +318,10 @@ def main() -> None:
 
     interests = yaml.safe_load(INTERESTS_FILE.read_text())
     store = load_store()
+    now = dt.datetime.utcnow() + dt.timedelta(hours=5, minutes=30)
+    today = now.strftime("%Y-%m-%d")
+    cutoff = dt.datetime.utcnow() - dt.timedelta(days=DISCOVERY_LOOKBACK_DAYS)
+    dropped_stale = False
 
     candidates: dict[str, dict] = {}
     for q in interests["queries"]:
@@ -299,15 +333,27 @@ def main() -> None:
             cid = candidate_id(url)
             if cid in store or cid in candidates:
                 continue
+            published = res.get("publishedDate") or ""
+            if too_old(url, published, cutoff):
+                store[cid] = {
+                    "url": url, "title": res.get("title") or url, "domain": domain_of(url),
+                    "query": q, "date": today, "tier": "skip", "why": "", "points": [],
+                    "reject_reason": "stale", "published_on": published[:10] or None,
+                }
+                dropped_stale = True
+                continue
             candidates[cid] = {
                 "id": cid, "url": url, "title": res.get("title") or url,
                 "query": q, "domain": domain_of(url),
+                "published": published[:10] or None,
                 "exa_text": (res.get("text") or "")[:1500],
             }
         time.sleep(0.3)
 
     ranked = list(candidates.values())[:MAX_NEW_CANDIDATES]
     if not ranked:
+        if dropped_stale:
+            save_store(store)
         print("No new candidates.")
         return
 
@@ -322,8 +368,6 @@ def main() -> None:
 
     judged = judge_llm(ranked, interests.get("guidance", "")) or {}
 
-    now = dt.datetime.utcnow() + dt.timedelta(hours=5, minutes=30)
-    today = now.strftime("%Y-%m-%d")
     kept = []
     for i, c in enumerate(ranked):
         info = judged.get(i, {})
@@ -331,11 +375,17 @@ def main() -> None:
         c["tier"] = tier if tier in TIER_META else "skip"
         c["why"] = info.get("why", "")
         c["points"] = info.get("points") or []
-        store[c["id"]] = {
+        reason = info.get("reject_reason")
+        record = {
             "url": c["url"], "title": c["title"], "domain": c["domain"],
             "query": c["query"], "date": today, "tier": c["tier"],
             "why": c["why"], "points": c["points"],
         }
+        if c.get("published"):
+            record["published_on"] = c["published"]
+        if reason in REJECT_REASONS:
+            record["reject_reason"] = reason
+        store[c["id"]] = record
         if c["tier"] != "skip":
             kept.append(c)
 

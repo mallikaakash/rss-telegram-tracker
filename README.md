@@ -3,7 +3,7 @@
 Free, always-online blog tracker with two independent pipelines, both running
 on GitHub Actions only (no server, no database):
 
-1. **RSS tracker** (`tracker.py`) - 5×/day it checks ~30 feeds, has Gemini
+1. **RSS tracker** (`tracker.py`) - 9×/day it checks the feeds, has Gemini
    triage everything against **your** interests, publishes a clean digest
    page, and sends **one** Telegram message with a tl;dr + link.
 2. **Niche discovery** (`discovery.py`) - once/day it runs your interest
@@ -26,7 +26,7 @@ not a feed.
 - [ ] Create a **public** GitHub repo (public = free Pages + unlimited Actions minutes; your secrets stay secret) and push these files
 - [ ] Repo → Settings → Secrets and variables → Actions → add:
   - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `GEMINI_API_KEY` (both pipelines)
-  - `EXA_API_KEY`, `FIRECRAWL_API_KEY` (discovery pipeline only - skip if you don't want it; the workflow just won't run usefully without them)
+  - `EXA_API_KEY`, `FIRECRAWL_API_KEY` (discovery, plus the once-a-day Uber and Meta AI watches)
 - [ ] Repo → Settings → **Pages** → Source: "Deploy from a branch" → Branch: `main`, folder: `/docs` → Save
 - [ ] Actions tab → enable workflows → run **"RSS Tracker"** once (first run just initializes; you get a ✅ message) → run it once more to see a real digest
 - [ ] Run **"Niche Discovery"** once too (first run has nothing to dedup against, so it'll judge a full batch immediately)
@@ -57,18 +57,23 @@ different concerns.
   distributed systems or web3 in a few months). No code changes needed;
   the file is read fresh every run. Queries are phrased as descriptive
   sentences, not keywords, since Exa's neural search matches on meaning.
-- **Feeds**: edit `feeds.yml`. Sources without public RSS are listed as
-  comments - generate feeds for them at rss.app (free) and paste in.
+- **Feeds**: edit `feeds.yml`. Blogs with no feed go under `pages`. `html`
+  indexes are fetched directly. Uber uses Firecrawl and Meta AI uses Exa,
+  once a day, with the same secrets as the discovery job.
 
 ## Notes
 
 - **Model**: both pipelines use `gemini-flash-latest`. Retries on 429/5xx.
-- **RSS schedule**: 5 runs/day at ~07:17, 11:17, 15:17, 19:17, 23:17 IST
-  (cron in `.github/workflows/rss.yml`, UTC; IST = UTC+5:30).
+- **RSS schedule**: 9 runs/day, every 2 hours from ~07:17 through 23:17 IST
+  (cron in `.github/workflows/rss.yml`, UTC; IST = UTC+5:30). Uber and Meta AI
+  are the exception: those two cost a Firecrawl or Exa call and run once per IST day.
 - **Discovery schedule**: once/day at ~09:47 IST (`.github/workflows/discovery.yml`)
   - each run costs real Exa search + Firecrawl scrape credits, capped at
     15 new candidates/day (`MAX_NEW_CANDIDATES` in `discovery.py`).
-- **Anti-spam caps**: RSS max 5 new posts/feed/run, 25/run total. Discovery
-  max 15 new candidates/run, 6 Exa results/query.
+- **Anti-spam caps**: RSS max 5 new posts/feed/run, 25/run total, round-robin
+  across sources. Posts older than 21 days are stored and dropped. Discovery
+  max 15 new candidates/run, 6 Exa results/query, and dated results older than
+  60 days (including old arXiv ids) are dropped before Firecrawl.
+- **Low priority** RSS posts stay in the Library. The digest and the Telegram ping include must-read and worth-a-skim posts.
 - Both bots' own commits keep the scheduled workflows from being
   auto-disabled after 60 days of GitHub Actions inactivity.

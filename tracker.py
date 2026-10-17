@@ -2,7 +2,9 @@
 RSS -> LLM triage -> HTML digest (GitHub Pages) -> single Telegram ping.
 
 Each run:
-  1. Fetches all feeds, finds posts whose id isn't already in articles.json.
+  1. Fetches all feeds plus the non-RSS pages in feeds.yml, and keeps posts
+     whose id isn't already in articles.json. Posts older than 21 days are
+     remembered and dropped. Firecrawl/Exa pages run at most once per IST day.
   2. One Gemini call ranks everything (must-read / worth-a-skim / low-priority),
      writes key points per post, and a one-line tl;dr for the whole batch.
   3. Renders a mobile-friendly HTML digest into docs/digests/ (served by
@@ -26,12 +28,12 @@ Optional override: PAGES_BASE_URL (e.g. custom domain).
 import datetime as dt
 import hashlib
 import html
-import json
 import os
 import re
 import sys
 import time
 from pathlib import Path
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 import feedparser
 import requests
@@ -49,12 +51,19 @@ DIGESTS = DOCS / "digests"
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
+EXA_KEY = os.environ.get("EXA_API_KEY", "")
+FIRECRAWL_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
 GEMINI_MODEL = "gemini-flash-latest"
 
 MAX_NEW_PER_FEED = 5
 ARTICLE_CHAR_BUDGET = 3500   # per-article text sent to the LLM
 MAX_ARTICLES_PER_RUN = 25    # safety cap on total batch size
+MAX_AGE_DAYS = 21            # hard drop; still remembered so it never returns
 LIBRARY_LIMIT = 500          # max cards rendered on the Library page
+PAID_STAMP_FILE = ROOT / "pages_paid_on.json"
+SKIP_EXT = (".png", ".jpg", ".jpeg", ".gif", ".svg", ".css", ".js", ".xml",
+            ".pdf", ".mp4", ".webp", ".ico")
+REJECT_REASONS = {"stale", "off_topic", "marketing", "shallow"}
 
 READER_PROFILE = """
 The reader is an early-career ML/backend engineer. Priorities, in order:
@@ -140,6 +149,215 @@ def get_entry_text(entry) -> str:
     return strip_html(entry.get("summary", ""))[:ARTICLE_CHAR_BUDGET]
 
 
+def ist_now() -> dt.datetime:
+    return dt.datetime.utcnow() + dt.timedelta(hours=5, minutes=30)
+
+
+def entry_published(entry) -> dt.datetime | None:
+    for key in ("published_parsed", "updated_parsed"):
+        parsed = entry.get(key)
+        if not parsed:
+            continue
+        try:
+            return dt.datetime(*parsed[:6])
+        except (TypeError, ValueError):
+            continue
+    return None
+
+
+def url_id(url: str) -> str:
+    return hashlib.sha1(url.encode()).hexdigest()[:16]
+
+
+def slug_title(url: str) -> str:
+    slug = urlsplit(url).path.rstrip("/").split("/")[-1]
+    return slug.replace("-", " ").replace("_", " ").strip() or url
+
+
+def canon_url(url: str) -> str:
+    parts = urlsplit(url)
+    path = parts.path.rstrip("/") or "/"
+    return urlunsplit((parts.scheme, parts.netloc, path, "", ""))
+
+
+def same_host(a: str, b: str) -> bool:
+    return urlsplit(a).netloc.removeprefix("www.") == urlsplit(b).netloc.removeprefix("www.")
+
+
+def fair_cap(articles: list[dict], limit: int) -> list[dict]:
+    """One post from each source before any source gets a second."""
+    buckets: dict[str, list[dict]] = {}
+    order: list[str] = []
+    for article in articles:
+        key = article["feed"]
+        if key not in buckets:
+            buckets[key] = []
+            order.append(key)
+        buckets[key].append(article)
+    picked: list[dict] = []
+    while len(picked) < limit:
+        progressed = False
+        for key in order:
+            if not buckets[key]:
+                continue
+            picked.append(buckets[key].pop(0))
+            progressed = True
+            if len(picked) >= limit:
+                break
+        if not progressed:
+            break
+    return picked
+
+
+def remember(store: dict, aid: str, **rec) -> None:
+    store.setdefault(aid, rec)
+
+
+def fetch_html(url: str) -> str:
+    try:
+        r = requests.get(url, headers=common.UA, timeout=25)
+        r.raise_for_status()
+        return r.content[:500_000].decode(r.encoding or "utf-8", "replace")
+    except requests.RequestException as e:
+        print(f"  page fetch failed for {url}: {e}")
+        return ""
+
+
+def fetch_html_article(url: str) -> tuple[str, str]:
+    raw = fetch_html(url)
+    if not raw:
+        return "", ""
+    match = re.search(r"<title[^>]*>(.*?)</title>", raw, flags=re.I | re.S)
+    title = strip_html(match.group(1)) if match else ""
+    title = title.split(" | ")[0].strip()
+    return title[:180], strip_html(raw)[:ARTICLE_CHAR_BUDGET]
+
+
+def page_links(page: dict) -> list[str]:
+    """Article URLs from a server-rendered index. One path segment past the prefix, same host."""
+    raw = fetch_html(page["url"])
+    if not raw:
+        return []
+    prefix = page["link_prefix"]
+    extra = int(page.get("extra_segments") or 1)
+    deny = page.get("deny_contains") or []
+    found, seen = [], set()
+    for href in re.findall(r"""href=["']([^"'#]+)["']""", raw, flags=re.I):
+        if href.startswith(("mailto:", "javascript:", "tel:")) or "\\" in href:
+            continue
+        absolute = urljoin(page["url"], href)
+        if not same_host(absolute, page["url"]):
+            continue
+        parts = urlsplit(absolute)
+        path = parts.path
+        if any(piece in path for piece in deny):
+            continue
+        if not path.startswith(prefix):
+            continue
+        segments = [s for s in path[len(prefix):].strip("/").split("/") if s]
+        if len(segments) != extra:
+            continue
+        if segments[-1].lower().endswith(SKIP_EXT):
+            continue
+        canon = canon_url(absolute)
+        if canon.rstrip("/") == page["url"].rstrip("/"):
+            continue
+        if canon not in seen:
+            seen.add(canon)
+            found.append(canon)
+    return found
+
+
+def firecrawl_scrape(url: str, formats: list[str]) -> dict | None:
+    if not FIRECRAWL_KEY:
+        return None
+    try:
+        r = requests.post(
+            "https://api.firecrawl.dev/v2/scrape",
+            headers={"Authorization": f"Bearer {FIRECRAWL_KEY}", "Content-Type": "application/json"},
+            json={"url": url, "formats": formats, "onlyMainContent": True, "timeout": 30000},
+            timeout=45,
+        )
+        if not r.ok:
+            print(f"  firecrawl {r.status_code} for {url}")
+            return None
+        data = r.json()
+        return data.get("data") if data.get("success") else None
+    except requests.RequestException as e:
+        print(f"  firecrawl failed for {url}: {e}")
+        return None
+
+
+def uber_posts(index_url: str) -> list[str]:
+    """Engineering posts from the JS-rendered Uber index. One Firecrawl scrape."""
+    data = firecrawl_scrape(index_url, ["links", "markdown"]) or {}
+    raw_links: list[str] = []
+    for item in data.get("links") or []:
+        if isinstance(item, str):
+            raw_links.append(item)
+        elif isinstance(item, dict):
+            raw_links.append(item.get("url") or item.get("href") or "")
+    raw_links += re.findall(r"\((https?://[^)\s]+)\)", data.get("markdown") or "")
+    best: dict[str, str] = {}
+    for url in raw_links:
+        if not url or not same_host(url, "https://www.uber.com/"):
+            continue
+        path = urlsplit(url).path
+        key = re.sub(r"^/[a-z]{2}(?:-[a-z]{2})?/[a-z]{2}(?=/blog/)", "", path).rstrip("/")
+        if not re.fullmatch(r"/blog/engineering/[^/]+", key):
+            continue
+        slug = key.rsplit("/", 1)[-1].lower()
+        if len(slug) < 3 or slug in {"engineering", "rss", "feed"}:
+            continue
+        chosen = canon_url(url)
+        previous = best.get(key)
+        if previous is None or ("/us/en/" in chosen and "/us/en/" not in previous):
+            best[key] = chosen
+    return list(best.values())
+
+
+def exa_posts(domain: str, path_contains: str) -> list[dict]:
+    if not EXA_KEY:
+        return []
+    start = dt.datetime.utcnow() - dt.timedelta(days=MAX_AGE_DAYS)
+    try:
+        r = requests.post(
+            "https://api.exa.ai/search",
+            headers={"x-api-key": EXA_KEY, "Content-Type": "application/json"},
+            json={
+                "query": f"Recent research blog post from {domain}",
+                "type": "auto",
+                "numResults": 8,
+                "includeDomains": [domain],
+                "startPublishedDate": start.strftime("%Y-%m-%dT00:00:00.000Z"),
+                "contents": {"text": {"maxCharacters": 2000}},
+            },
+            timeout=30,
+        )
+        r.raise_for_status()
+        results = r.json().get("results", [])
+    except requests.RequestException as e:
+        print(f"  exa failed for {domain}: {e}")
+        return []
+    posts = []
+    for res in results:
+        url = res.get("url") or ""
+        if path_contains not in urlsplit(url).path:
+            continue
+        published = (res.get("publishedDate") or "")[:10] or None
+        posts.append({
+            "url": canon_url(url),
+            "title": res.get("title") or slug_title(url),
+            "text": (res.get("text") or "")[:ARTICLE_CHAR_BUDGET],
+            "published_on": published,
+        })
+    return posts
+
+
+def paid_due(today: str) -> bool:
+    return common.load_json(PAID_STAMP_FILE, {}).get("date") != today
+
+
 # ---------------------------------------------------------------- triage
 
 def triage_llm(articles: list[dict]) -> dict | None:
@@ -148,8 +366,9 @@ def triage_llm(articles: list[dict]) -> dict | None:
         return None
     blocks = []
     for i, a in enumerate(articles):
+        published = a.get("published_on") or "unknown"
         blocks.append(f"[{i}] SOURCE: {a['feed']}\nTITLE: {a['title']}\n"
-                      f"TEXT: {a['text'][:ARTICLE_CHAR_BUDGET]}\n")
+                      f"DATE: {published}\nTEXT: {a['text'][:ARTICLE_CHAR_BUDGET]}\n")
     prompt = f"""You are triaging new blog posts for one specific reader.
 
 {READER_PROFILE}
@@ -164,12 +383,14 @@ For each post give:
 - "why": one sentence on why it matters (or doesn't) FOR THIS READER.
 - "points": the 2-4 most important takeaways - what's novel, the key numbers,
   the conclusion. For low_priority, 1 point is enough. Be concrete, not vague.
+- "reject_reason": null for must_read and worth_a_skim. For low_priority, one
+  of "off_topic", "marketing", or "shallow".
 
 Also write "tldr": ONE sentence (max 25 words) summarizing what's most
 important in this whole batch, leading with the top must-read.
 
 Respond with ONLY valid JSON, no markdown fences:
-{{"tldr": "...", "items": [{{"idx": 0, "tier": "must_read", "why": "...", "points": ["...", "..."]}}, ...]}}
+{{"tldr": "...", "items": [{{"idx": 0, "tier": "must_read", "why": "...", "points": ["...", "..."], "reject_reason": null}}, ...]}}
 Include every idx from 0 to {len(articles) - 1}.
 
 POSTS:
@@ -309,14 +530,64 @@ document.addEventListener('DOMContentLoaded', function(){
 
 # ---------------------------------------------------------------- main
 
+def blank_record(name: str, title: str, link: str, tier: str, **extra) -> dict:
+    rec = {"tier": tier, "feed": name, "title": title, "link": link,
+           "date": None, "why": None, "points": None}
+    rec.update(extra)
+    return rec
+
+
+def take_links(name: str, links: list[dict], articles_store: dict, bootstrapped: dict,
+               boot_key: str, first_run: set, new_articles: list, today: str) -> None:
+    """First sight marks every current link seen. Later sights triage only new ones."""
+    if boot_key not in bootstrapped:
+        if not links:
+            print(f"  {name}: no links this run, bootstrap will retry")
+            return
+        first_run.add(name)
+        bootstrapped[boot_key] = True
+        for item in links:
+            remember(articles_store, url_id(item["url"]), **blank_record(
+                name, item.get("title") or slug_title(item["url"]), item["url"], "bootstrap"))
+        print(f"  first sight {name}: {len(links)} marked seen")
+        return
+    fresh = []
+    for item in links:
+        aid = url_id(item["url"])
+        if aid in articles_store:
+            continue
+        published = item.get("published_on")
+        if published:
+            try:
+                age = (dt.datetime.utcnow().date() - dt.date.fromisoformat(published)).days
+            except ValueError:
+                age = 0
+            if age > MAX_AGE_DAYS:
+                remember(articles_store, aid, **blank_record(
+                    name, item.get("title") or slug_title(item["url"]), item["url"], "reject",
+                    date=today, reject_reason="stale", published_on=published))
+                continue
+        fresh.append(item)
+    for item in fresh[:MAX_NEW_PER_FEED]:
+        new_articles.append({
+            "feed": name, "title": item.get("title") or slug_title(item["url"]),
+            "link": item["url"], "id": url_id(item["url"]),
+            "published_on": item.get("published_on"), "mode": item.get("mode") or "html",
+            "text": item.get("text") or "",
+        })
+
+
 def main() -> None:
     if not BOT_TOKEN or not CHAT_ID:
         sys.exit("Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID.")
 
-    feeds = yaml.safe_load(FEEDS_FILE.read_text())["feeds"]
+    cfg = yaml.safe_load(FEEDS_FILE.read_text())
+    feeds, pages = cfg["feeds"], cfg.get("pages") or []
     articles_store = load_articles()
     bootstrapped = common.load_json(BOOTSTRAP_FILE, {})
     new_articles, first_run = [], set()
+    now = ist_now()
+    today = now.strftime("%Y-%m-%d")
 
     for feed in feeds:
         name, url = feed["name"], feed["url"]
@@ -328,17 +599,64 @@ def main() -> None:
             first_run.add(name)
             bootstrapped[url] = True
             for e in parsed.entries:
-                aid = entry_id(e)
-                articles_store.setdefault(aid, {
-                    "tier": "bootstrap", "feed": name,
-                    "title": e.get("title", ""), "link": e.get("link", ""),
-                    "date": None, "why": None, "points": None,
-                })
+                remember(articles_store, entry_id(e), **blank_record(
+                    name, e.get("title", ""), e.get("link", ""), "bootstrap"))
             continue
-        candidates = [e for e in parsed.entries if entry_id(e) not in articles_store]
-        for e in candidates[:MAX_NEW_PER_FEED]:
-            new_articles.append({"feed": name, "title": e.get("title", "Untitled"),
-                                 "link": e.get("link", ""), "id": entry_id(e), "entry": e})
+        fresh = []
+        for e in parsed.entries:
+            aid = entry_id(e)
+            if aid in articles_store:
+                continue
+            published = entry_published(e)
+            if published and (dt.datetime.utcnow() - published).days > MAX_AGE_DAYS:
+                remember(articles_store, aid, **blank_record(
+                    name, e.get("title", ""), e.get("link", ""), "reject",
+                    date=today, reject_reason="stale",
+                    published_on=published.date().isoformat()))
+                continue
+            fresh.append(e)
+        for e in fresh[:MAX_NEW_PER_FEED]:
+            published = entry_published(e)
+            new_articles.append({
+                "feed": name, "title": e.get("title", "Untitled"),
+                "link": e.get("link", ""), "id": entry_id(e), "entry": e,
+                "mode": "rss", "text": "",
+                "published_on": published.date().isoformat() if published else None,
+            })
+
+    run_paid = paid_due(today)
+    paid_attempted = False
+    for page in pages:
+        name, mode = page["name"], page.get("mode", "html")
+        print(f"Checking page: {name} ({mode})")
+        if mode == "html":
+            links = [{"url": url, "mode": "html"} for url in page_links(page)]
+            take_links(name, links, articles_store, bootstrapped, page["url"],
+                       first_run, new_articles, today)
+        elif mode in ("firecrawl", "exa"):
+            if not run_paid:
+                print("  paid page check already ran today")
+                continue
+            if mode == "firecrawl" and not FIRECRAWL_KEY:
+                print("  skipped, FIRECRAWL_API_KEY is not set")
+                continue
+            if mode == "exa" and not EXA_KEY:
+                print("  skipped, EXA_API_KEY is not set")
+                continue
+            if mode == "firecrawl":
+                links = [{"url": url, "mode": "firecrawl"} for url in uber_posts(page["url"])]
+            else:
+                links = []
+                for post in exa_posts(page["domain"], page.get("path_contains") or "/blog/"):
+                    post["mode"] = "exa"
+                    links.append(post)
+            take_links(name, links, articles_store, bootstrapped, page["url"],
+                       first_run, new_articles, today)
+            paid_attempted = True
+        else:
+            print(f"  unknown page mode: {mode}")
+    if paid_attempted:
+        common.save_json(PAID_STAMP_FILE, {"date": today})
 
     common.save_json(BOOTSTRAP_FILE, bootstrapped)
 
@@ -349,41 +667,68 @@ def main() -> None:
         print("No new posts.")
         return
 
-    new_articles = new_articles[:MAX_ARTICLES_PER_RUN]
+    new_articles = fair_cap(new_articles, MAX_ARTICLES_PER_RUN)
     print(f"{len(new_articles)} new posts; fetching text...")
     for a in new_articles:
-        a["text"] = get_entry_text(a.pop("entry"))
+        mode = a.get("mode") or "rss"
+        if a.get("text"):
+            a.pop("entry", None)
+        elif mode == "firecrawl":
+            data = firecrawl_scrape(a["link"], ["markdown"]) or {}
+            title = (data.get("metadata") or {}).get("title")
+            if title:
+                a["title"] = title
+            a["text"] = (data.get("markdown") or "")[:ARTICLE_CHAR_BUDGET]
+            if len(a["text"]) < 300:
+                title, text = fetch_html_article(a["link"])
+                a["title"] = title or a["title"]
+                a["text"] = text or a["text"]
+        elif mode == "html":
+            title, text = fetch_html_article(a["link"])
+            if title:
+                a["title"] = title
+            a["text"] = text
+        else:
+            a["text"] = get_entry_text(a.pop("entry"))
         time.sleep(0.3)
 
     triage = triage_llm(new_articles)
 
-    # IST timestamps for filenames/labels
-    now = dt.datetime.utcnow() + dt.timedelta(hours=5, minutes=30)
-    today = now.strftime("%Y-%m-%d")
     for i, a in enumerate(new_articles):
         info = (triage or {}).get("items", {}).get(i, {})
         tier = info.get("tier", "worth_a_skim")
         a["tier"] = tier if tier in TIER_META else "worth_a_skim"
         a["why"] = info.get("why", "")
         a["points"] = info.get("points") or fallback_points(a["text"])
-        articles_store[a["id"]] = {
+        reason = info.get("reject_reason")
+        a["reject_reason"] = reason if reason in REJECT_REASONS else None
+        record = {
             "feed": a["feed"], "title": a["title"], "link": a["link"],
             "date": today, "tier": a["tier"], "why": a["why"], "points": a["points"],
         }
+        if a.get("published_on"):
+            record["published_on"] = a["published_on"]
+        if a.get("reject_reason"):
+            record["reject_reason"] = a["reject_reason"]
+        articles_store[a["id"]] = record
 
     save_articles(articles_store)
+    build_library()
+
+    shown = [a for a in new_articles if a["tier"] != "low_priority"]
+    if not shown:
+        print("Nothing above low priority.")
+        return
 
     tldr = (triage or {}).get("tldr", "")
     fname = now.strftime("%Y-%m-%d-%H%M") + ".html"
     DIGESTS.mkdir(parents=True, exist_ok=True)
-    DIGESTS.joinpath(fname).write_text(render_digest(new_articles, tldr, now))
+    DIGESTS.joinpath(fname).write_text(render_digest(shown, tldr, now))
     build_runs_page()
-    build_library()
     url = common.pages_url(f"digests/{fname}")
 
-    must = [a for a in new_articles if a["tier"] == "must_read"]
-
-    lines = [f"📬 <b>{len(new_articles)} new posts</b>"
+    must = [a for a in shown if a["tier"] == "must_read"]
+    lines = [f"📬 <b>{len(shown)} new posts</b>"
              + (f" · <b>{len(must)} must-read{'s' if len(must) != 1 else ''}</b>" if must else "")]
     if tldr:
         lines.append(f"⚡ {html.escape(tldr)}")

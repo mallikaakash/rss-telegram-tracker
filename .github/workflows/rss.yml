@@ -2,7 +2,7 @@ name: RSS Tracker
 
 on:
   schedule:
-    # 5 runs/day in IST: 07:17, 11:17, 15:17, 19:17, 23:17
+    # 9 runs/day in IST, every 2 hours from 07:17 through 23:17
     - cron: "47 1,3,5,7,9,11,13,15,17 * * *"
   workflow_dispatch: {}
 
@@ -30,6 +30,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: python tracker.py
 
       - name: Commit state + digests
@@ -37,5 +39,6 @@ jobs:
           git config user.name "rss-bot"
           git config user.email "bot@users.noreply.github.com"
           git add articles.json feeds_bootstrapped.json docs/
+          if [ -f pages_paid_on.json ]; then git add pages_paid_on.json; fi
           git diff --cached --quiet || git commit -m "digest update [skip ci]"
           git push

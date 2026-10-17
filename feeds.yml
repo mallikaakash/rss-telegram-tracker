@@ -1,5 +1,7 @@
-# All URLs below verified working as of 2026-07-15.
+# Feed URLs verified working as of 2026-10-17.
 # Add/remove feeds and commit; next run picks it up.
+# `pages` are blogs with no public feed. html is a plain GET of the index.
+# firecrawl (Uber) and exa (Meta AI) run at most once per IST day.
 feeds:
   # ---- Tech News
   - name: YC Hacker News
@@ -69,15 +71,71 @@ feeds:
     url: https://medium.com/feed/swiggy-bytes
   - name: Zepto Engineering
     url: https://blog.zeptonow.com/feed
+  - name: Sakana AI
+    url: https://sakana.ai/feed.xml
+  - name: ClickHouse
+    url: https://clickhouse.com/rss.xml
+  - name: Fly.io
+    url: https://fly.io/blog/feed.xml
+  - name: Shopify Engineering
+    url: https://shopify.engineering/blog.atom
+  - name: GitHub Engineering
+    url: https://github.blog/engineering/feed/
+  - name: Ramp
+    url: https://engineering.ramp.com/rss.xml
+  - name: Dropbox Tech
+    url: https://dropbox.tech/feed
+  - name: Spotify Engineering
+    url: https://engineering.atspotify.com/feed/
+  - name: Pinterest Engineering
+    url: https://medium.com/feed/pinterest-engineering
+  - name: Airbnb Engineering
+    url: https://medium.com/feed/airbnb-engineering
+  - name: Slack Engineering
+    url: https://slack.engineering/feed/
+  - name: NVIDIA Technical Blog
+    url: https://developer.nvidia.com/blog/feed/
+  - name: Engineering at Microsoft
+    url: https://devblogs.microsoft.com/engineering-at-microsoft/feed/
 
-# ---- Wanted but NO working public RSS as of 2026-07-15.
-# To add any of these: generate a feed at https://rss.app (free tier) and paste it here.
-#  - Shopify Engineering   (https://shopify.engineering)
+# Indexes with no public feed. First run marks whatever is on the page as seen.
+pages:
+  - name: Anthropic Engineering
+    mode: html
+    url: https://www.anthropic.com/engineering
+    link_prefix: /engineering/
+  - name: Prime Intellect
+    mode: html
+    url: https://www.primeintellect.ai/blog
+    link_prefix: /blog/
+  - name: Cursor
+    mode: html
+    url: https://cursor.com/blog
+    link_prefix: /blog/
+    deny_contains:
+      - /blog/topic
+  - name: Notion
+    mode: html
+    url: https://www.notion.com/blog
+    link_prefix: /blog/
+    deny_contains:
+      - /blog/topic
+  - name: LinkedIn Engineering
+    mode: html
+    url: https://www.linkedin.com/blog/engineering
+    link_prefix: /blog/engineering/
+    extra_segments: 2
+  - name: Uber Engineering
+    mode: firecrawl
+    url: https://www.uber.com/us/en/blog/engineering/
+  - name: Meta AI
+    mode: exa
+    url: https://ai.meta.com/blog/
+    domain: ai.meta.com
+    path_contains: /blog/
+
+# Still no public feed, and not worth a paid watch yet:
 #  - Zomato Blog           (https://blog.zomato.com)
 #  - Perplexity Hub        (https://www.perplexity.ai/hub)
-#  - Prime Intellect       (https://www.primeintellect.ai/blog)
-#  - Anthropic News        (https://www.anthropic.com/news)
-#  - Meta AI Research      (https://ai.meta.com/blog)
-#  - Uber Engineering      (https://www.uber.com/blog/engineering)
 #  - Epoch AI              (https://epoch.ai/blog)
 #  - Stanford HAI          (https://hai.stanford.edu/news)
