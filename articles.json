@@ -95704,5 +95704,45 @@
   ],
   "published_on": "2026-10-17",
   "reject_reason": "off_topic"
+ },
+ "631c78f18e2760a2": {
+  "feed": "MIT News (AI)",
+  "title": "Giving AI a “crystal clear” view of the materials world",
+  "link": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+  "date": "2026-10-18",
+  "tier": "worth_a_skim",
+  "why": "Presents a novel multimodal approach bridging 3D periodic atomic structures and LLMs for materials science discovery.",
+  "points": [
+   "Integrates 3D atomic graph representations with literature-derived natural language to train a domain-specific multimodal model.",
+   "Overcomes text-only LLM blind spots regarding spatial geometry, bonding patterns, and computational crystal databases.",
+   "Demonstrated real-world utility by successfully identifying promising candidate materials for solid-state battery electrolytes."
+  ],
+  "published_on": "2026-10-18"
+ },
+ "69ead926e6899b5e": {
+  "feed": "Simon Willison",
+  "title": "Inline rendering with document​.currentScript",
+  "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+  "date": "2026-10-18",
+  "tier": "low_priority",
+  "why": "Covers a client-side vanilla JavaScript DOM trick completely unrelated to backend systems or ML engineering.",
+  "points": [
+   "Uses `document.currentScript.replaceWith()` to implement tiny self-replacing inline template scripts in HTML."
+  ],
+  "published_on": "2026-10-17",
+  "reject_reason": "off_topic"
+ },
+ "d6c06ffc09a8bd33": {
+  "feed": "Simon Willison",
+  "title": "web-edit 0.1a2",
+  "link": "https://simonwillison.net/2026/Oct/17/web-edit/",
+  "date": "2026-10-18",
+  "tier": "low_priority",
+  "why": "A brief personal project release note for a lightweight file-editing utility with no backend or infra depth.",
+  "points": [
+   "Adds a clipboard copy feature for text and images to a personal web-based remote file browser."
+  ],
+  "published_on": "2026-10-17",
+  "reject_reason": "off_topic"
  }
 }
