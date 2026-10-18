@@ -5910,5 +5910,86 @@
    "Details network plane isolation between RoCEv2 for NCCL RDMA data communication and standard ethernet for SSH/bootstrapping.",
    "Shares three bind-mounted external patches and a cron watchdog that recovers from cluster-killing crashes within 8 minutes without modifying base images."
   ]
+ },
+ "a9a29c8674f69f86": {
+  "url": "https://arxiv.org/abs/2608.23392",
+  "title": "[2608.23392] Towards a Densing Law for User Representation Learning at Billion-Scale Capacity",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-08-24"
+ },
+ "83f93c6d0ad6da94": {
+  "url": "https://akillness.github.io/posts/freetoken-edge-native-moe-serving/",
+  "title": "FreeToken: 284B on a Gaming Desktop, 753B on One Workstation GPU - and the Ratio That Makes It Work | Fodev JEO",
+  "domain": "akillness.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-18",
+  "tier": "solid_find",
+  "why": "A thoughtful practitioner breakdown of the FreeToken edge MoE serving architecture, analyzing cache miss handling and PCIe residency constraints from a game engine perspective.",
+  "points": [
+   "Explores how to serve 284B to 753B parameter MoE models on consumer GPUs by managing the 140 GB parameter footprint across host RAM and PCIe.",
+   "Highlights the challenge of prefill sparsity collapse and the difficulty of handling decode cache misses within CUDA Graphs.",
+   "Bridges high-level distributed systems theory with low-level game-engine-style memory residency management."
+  ],
+  "published_on": "2026-08-22"
+ },
+ "f88af3b531ad87d3": {
+  "url": "https://jaehun.me/en/posts/code-series-jmaczan--tiny-vllm-06/",
+  "title": "6. Splitting the KV cache into 16-token blocks — reading non-contiguous blocks via the block table |\nJaehun's Blog",
+  "domain": "jaehun.me",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-18",
+  "tier": "skip",
+  "why": "A purely speculative code walkthrough of standard PagedAttention in a toy repository, written without executing or benchmarking the code.",
+  "points": [],
+  "published_on": "2026-09-16",
+  "reject_reason": "shallow"
+ },
+ "0ff71a89836a3f94": {
+  "url": "https://arxiv.org/html/2610.14277",
+  "title": "Echo: Error-Compensated 4-Bit Tensor-ParallelCommunication for LLM Training and Inference",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-18",
+  "tier": "hidden_gem",
+  "why": "A high-signal ML systems paper solving the unhideable all-reduce bottleneck in tensor parallelism using error-compensated 4-bit communication without specialized FP4 hardware.",
+  "points": [
+   "Applies error-feedback compensation to tensor-parallel all-reduce, moving 4-bit data while summing in high precision to prove depth-independent bounded error.",
+   "Achieves 2.09x speedup over 16-bit NCCL on 1GB transfers on A100s, yielding up to 1.44x TTFT speedup under network contention.",
+   "Maintains benchmark accuracy within 0.4 points of FP16 on Qwen3-8B and stays within 0.9% of baseline loss during pretraining."
+  ],
+  "published_on": "2026-10-09"
+ },
+ "ad4d97c5b2762522": {
+  "url": "https://arxiv.org/html/2610.21679",
+  "title": "No Single Tokenizer Feature Reliably Predicts Downstream Language Model Performance",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-18",
+  "tier": "solid_find",
+  "why": "A rigorous empirical study across 200 models and 9 languages that systematically debunks the predictive utility of standard intrinsic tokenizer evaluations.",
+  "points": [
+   "Evaluates approximately 200 language models across 9 languages to correlate intrinsic tokenizer metrics with downstream performance.",
+   "Finds that no single intrinsic tokenizer metric reliably predicts downstream task accuracy across diverse model families and languages.",
+   "Demonstrates the necessity of empirical pretraining benchmarks over static vocabulary heuristics."
+  ],
+  "published_on": "2026-10-15"
+ },
+ "e7cf3a00e539a0f7": {
+  "url": "https://converter.brightcoding.dev/blog/cfreglyai-performance-engineering-gpu-training-inference-scaling-guide",
+  "title": "cfregly/ai-performance-engineering: GPU Training & Inference Scaling Guide",
+  "domain": "converter.brightcoding.dev",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-18",
+  "tier": "skip",
+  "why": "A promotional book companion overview and repository summary rather than an original technical investigation.",
+  "points": [],
+  "published_on": "2026-08-23",
+  "reject_reason": "marketing"
  }
 }
