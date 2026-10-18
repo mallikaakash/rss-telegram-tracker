@@ -95744,5 +95744,18 @@
   ],
   "published_on": "2026-10-17",
   "reject_reason": "off_topic"
+ },
+ "c82b8eb2cf968bbd": {
+  "feed": "Technica",
+  "title": "Anthropic gives outside AI watchdog “employee-like” access",
+  "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+  "date": "2026-10-19",
+  "tier": "low_priority",
+  "why": "This is a high-level AI governance and safety announcement lacking technical insights into model training or engineering infrastructure.",
+  "points": [
+   "Anthropic granted nonprofit safety evaluator METR employee-like access to internal systems and hardware to assess catastrophic model risks."
+  ],
+  "published_on": "2026-10-18",
+  "reject_reason": "off_topic"
  }
 }
