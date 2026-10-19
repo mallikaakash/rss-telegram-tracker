@@ -95757,5 +95757,31 @@
   ],
   "published_on": "2026-10-18",
   "reject_reason": "off_topic"
+ },
+ "b8a89dddc6c67001": {
+  "feed": "Simon Willison",
+  "title": "llm-tools-datasette 0.1.1",
+  "link": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+  "date": "2026-10-19",
+  "tier": "low_priority",
+  "why": "This is a two-sentence release note fixing a minor dependency bug in an LLM CLI plugin.",
+  "points": [
+   "Fixes broken dependency on httpx after LLM switched to httpx2."
+  ],
+  "published_on": "2026-10-18",
+  "reject_reason": "shallow"
+ },
+ "12899128ec45e6d3": {
+  "feed": "Simon Willison",
+  "title": "llm-echo 0.5",
+  "link": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+  "date": "2026-10-19",
+  "tier": "low_priority",
+  "why": "This is a brief release note for a mock debug plugin with simulated token accounting.",
+  "points": [
+   "llm-echo 0.5 updates simulated token usage counts to account for tool calls, system prompts, and reasoning tokens."
+  ],
+  "published_on": "2026-10-18",
+  "reject_reason": "shallow"
  }
 }
