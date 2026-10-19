@@ -95891,5 +95891,217 @@
    "Nearly 100 years after the dirigible Graf Zeppelin made the first nonstop airship journey across the Pacific Ocean, another airship has successfully completed a round-trip flight from New Mexico to Japan and back. But the significance of this modern feat was less about the journey's length and more about its purpose: demonstrating how a lighter-than-air platform can act as a cell phone tower in the sky."
   ],
   "published_on": "2026-10-19"
+ },
+ "013592636b30e6ee": {
+  "feed": "Technica",
+  "title": "Startup taps underwater volcano as energy source in \"proof point\" test",
+  "link": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Covers marine geothermal energy testing, which is completely unrelated to ML systems or backend engineering.",
+  "points": [
+   "Endurance Energy completed a prototype subsea geothermal test near an underwater volcano generating brief net-positive power."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
+ },
+ "9dbc0d55ff9123c6": {
+  "feed": "Hugging Face Blog",
+  "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+  "link": "https://huggingface.co/blog/hf-torchneuron",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "Announces native PyTorch integration for AWS Trainium, supporting FSDP2, TP, and torch.compile directly within Hugging Face.",
+  "points": [
+   "Replaces PyTorch XLA compiler-heavy workflows with native eager execution, DTensor, and FSDP2 via torch-neuronx.",
+   "Expands out-of-the-box text generation model architecture support from 46% to 89% via device_map='neuron'.",
+   "Employs static caching during generation to prevent recurrent recompilation overhead on Neuron cores."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "ccc1e44fc582bdd0": {
+  "feed": "Together AI",
+  "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
+  "link": "https://www.together.ai/blog/together-post-training",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "A promotional landing page announcing Together AI's managed post-training and compute offerings without technical substance.",
+  "points": [
+   "Together AI announces managed fine-tuning, RL loops, and on-demand B200 GPU clusters."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "marketing"
+ },
+ "0dbde1ea11534cb3": {
+  "feed": "MIT News (AI)",
+  "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+  "link": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Focuses on medical computer vision for fetal MRI scans rather than core ML infra or industrial optimization.",
+  "points": [
+   "Embeds E(3) symmetry and physics priors directly into a neural network to reconstruct fetal brain MRIs during motion."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
+ },
+ "219bbb66f6ab4d13": {
+  "feed": "Meta Engineering",
+  "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
+  "link": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "Meta deep-dive on replacing traditional item IDs with semantic LLM tokenization to build generative recommendation systems.",
+  "points": [
+   "Replaces high-cardinality item IDs with a compact, structured semantic token vocabulary across all ad entities.",
+   "Enables cross-campaign transfer and cold-start generalization by grounding unseen items in pre-trained LLM world knowledge.",
+   "Achieved a +0.35% conversion lift in production when integrated with Meta's Generative Ads Model (GEM)."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "bddfe014686278f6": {
+  "feed": "Cloudflare Blog",
+  "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+  "link": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "A detailed Cloudflare engineering war story demonstrating how to aggressively optimize production agent inference costs and latency.",
+  "points": [
+   "Reduced per-review cost from $2.43 to $0.77 (68% drop) and median duration from 4m 09s to 1m 32s.",
+   "Demonstrates that high KV cache hit rates (97%) can still inflate bills if prompt engineering allows overall token counts to triple.",
+   "Attributed 40% of savings to rewriting the agent orchestration engine (OpenCode v2) and 60% to model routing and effort tuning."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "388c1ff631025c41": {
+  "feed": "Stripe Blog",
+  "title": "Stripe survey: Four trends reshaping how SaaS platforms compete in the AI era",
+  "link": "https://stripe.com/blog/saas-platform-trends-in-AI-era",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "A marketing-oriented SaaS survey from Stripe covering commercial AI trends rather than systems engineering.",
+  "points": [
+   "Surveys high-level business and monetization trends for SaaS platforms integrating AI features."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "marketing"
+ },
+ "156f20b2881bdd86": {
+  "feed": "Pinterest Engineering",
+  "title": "Introducing ModuleLens: Zooming into PyTorch Modules for Human and Agentic Engineering",
+  "link": "https://medium.com/pinterest-engineering/introducing-modulelens-zooming-into-pytorch-modules-for-human-and-agentic-engineering-b7e9be9d29f8?source=rss----4c5a5f6279b6---4",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "Pinterest engineering deep-dive on isolating and debugging distributed model parallel (DMP) PyTorch modules locally on single GPUs.",
+  "points": [
+   "Solves the multi-GPU debugging bottleneck by capturing PyTorch module forward hooks, initialization arguments, and state dicts.",
+   "Runs lightweight single-step tracing loops with early-stop callbacks to eliminate full distributed training initialization overhead.",
+   "Allows engineers and automated refactoring agents to reconstruct and profile isolated modules locally in seconds."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "e2b31666c72a5cf0": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+  "link": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "Introduces cuTile, NVIDIA's Python DSL for high-performance tile-level GPU kernel development, targeting Mamba-2 SSMs.",
+  "points": [
+   "cuTile provides a Python DSL that abstracts warp and thread scheduling into high-level, tile-centric primitives.",
+   "Applies tile programming to accelerate Mamba-2 forward pass kernels without requiring raw CUDA C++ implementation.",
+   "Uses compiler optimizations to automatically target peak hardware capabilities on modern NVIDIA GPUs."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "3d9cd855f89bfdfa": {
+  "feed": "Cursor",
+  "title": "Navan cuts a month-long migration down to a week, without freezing the codebase · Cursor",
+  "link": "https://cursor.com/blog/navan",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "A commercial case study praising Cursor's cloud agents during a routine application migration.",
+  "points": [
+   "Navan migrated 8 applications and 15 libraries to Spring Boot using Cursor Cloud Agents."
+  ],
+  "reject_reason": "marketing"
+ },
+ "cb225f071b6aa310": {
+  "feed": "Notion",
+  "title": "Agents, rebuilt to do more for less.",
+  "link": "https://www.notion.com/blog/notion-ai-more-for-less",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Product marketing announcement for Notion AI's model router, billing credits, and agent UI features.",
+  "points": [
+   "Notion introduces a model router called Auto and revised seat credit pricing for multi-model usage."
+  ],
+  "reject_reason": "marketing"
+ },
+ "2a8784c05ca0e457": {
+  "feed": "Technica",
+  "title": "ReactOS reaches major milestone with NTFS install support",
+  "link": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Reports on NTFS filesystem compatibility in ReactOS, unrelated to ML engineering or distributed systems.",
+  "points": [
+   "ReactOS can now install directly to NTFS partitions, though the driver lacks caching and journaling."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
+ },
+ "c854e99d01b7fbd5": {
+  "feed": "Meta Engineering",
+  "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
+  "link": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "Meta engineering case study on reducing agent hallucinations by shrinking orchestrator context and isolating specialized subagents.",
+  "points": [
+   "Replaced a monolithic domain-aware agent with a 1,300-line deterministic router and 14 isolated domain specialist subagents.",
+   "Showed that loading an orchestrator with cross-stage schema context caused concept cross-contamination and dropped task accuracy to 10-20%.",
+   "Validated against empirical research showing multi-agent task isolation maintains 65.3% accuracy where single agents degrade to 16.6%."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "52d55b205d5de98d": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Clairic, a new System One class of extraction models",
+  "link": "https://blog.cloudflare.com/clairic-extraction-model/",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "Introduces a non-autoregressive class of single-pass models for structured data extraction and forecasting without token-by-token generation.",
+  "points": [
+   "Clairic operates as a single-pass System One model that extracts typed values, spans, and forecast bounds without autoregressive decoding.",
+   "Charges purely on input tokens and reduces latency below one second compared to frontier LLM tool-calling approaches."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "5d37bd28a169e437": {
+  "feed": "Technica",
+  "title": "AI game clones are making indie developers afraid to show their work",
+  "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "General gaming industry news regarding generative AI cloning risks for indie game mechanics.",
+  "points": [
+   "Indie game studios are withholding public demos over fears that generative AI tools enable rapid game cloning."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
+ },
+ "e4263dbe4c94a873": {
+  "feed": "Technica",
+  "title": "Florida DMV hacked after police dept insecurely stored login info",
+  "link": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Mainstream news coverage of a credential leak and data breach at the Florida DMV.",
+  "points": [
+   "Insecurely stored police credentials led to an unauthorized breach of Florida DMV driver's license records."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
  }
 }

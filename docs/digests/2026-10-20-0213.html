@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Tue 20 Oct 2026, 02:13 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Tue 20 Oct 2026, 02:13 IST &middot; 7 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Meta&#x27;s semantic tokenization for generative recommenders leads a batch rich in distributed PyTorch tooling, GPU kernel DSLs, and production agent cost optimizations.</div><div class="section">Must read &middot; 6</div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/hf-torchneuron">TorchNeuron: running HF models on AWS Trainium is easier than ever</a></h2><div class="why">Announces native PyTorch integration for AWS Trainium, supporting FSDP2, TP, and torch.compile directly within Hugging Face.</div><ul><li>Replaces PyTorch XLA compiler-heavy workflows with native eager execution, DTensor, and FSDP2 via torch-neuronx.</li><li>Expands out-of-the-box text generation model architecture support from 46% to 89% via device_map=&#x27;neuron&#x27;.</li><li>Employs static caching during generation to prevent recurrent recompilation overhead on Neuron cores.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Meta Engineering</span><h2><a href="https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/">GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary</a></h2><div class="why">Meta deep-dive on replacing traditional item IDs with semantic LLM tokenization to build generative recommendation systems.</div><ul><li>Replaces high-cardinality item IDs with a compact, structured semantic token vocabulary across all ad entities.</li><li>Enables cross-campaign transfer and cold-start generalization by grounding unseen items in pre-trained LLM world knowledge.</li><li>Achieved a +0.35% conversion lift in production when integrated with Meta&#x27;s Generative Ads Model (GEM).</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/obsessive-inference-optimization/">Cutting our inference bill by 68% by being obsessive about optimization</a></h2><div class="why">A detailed Cloudflare engineering war story demonstrating how to aggressively optimize production agent inference costs and latency.</div><ul><li>Reduced per-review cost from $2.43 to $0.77 (68% drop) and median duration from 4m 09s to 1m 32s.</li><li>Demonstrates that high KV cache hit rates (97%) can still inflate bills if prompt engineering allows overall token counts to triple.</li><li>Attributed 40% of savings to rewriting the agent orchestration engine (OpenCode v2) and 60% to model routing and effort tuning.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Pinterest Engineering</span><h2><a href="https://medium.com/pinterest-engineering/introducing-modulelens-zooming-into-pytorch-modules-for-human-and-agentic-engineering-b7e9be9d29f8?source=rss----4c5a5f6279b6---4">Introducing ModuleLens: Zooming into PyTorch Modules for Human and Agentic Engineering</a></h2><div class="why">Pinterest engineering deep-dive on isolating and debugging distributed model parallel (DMP) PyTorch modules locally on single GPUs.</div><ul><li>Solves the multi-GPU debugging bottleneck by capturing PyTorch module forward hooks, initialization arguments, and state dicts.</li><li>Runs lightweight single-step tracing loops with early-stop callbacks to eliminate full distributed training initialization overhead.</li><li>Allows engineers and automated refactoring agents to reconstruct and profile isolated modules locally in seconds.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">NVIDIA Technical Blog</span><h2><a href="https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/">Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile</a></h2><div class="why">Introduces cuTile, NVIDIA&#x27;s Python DSL for high-performance tile-level GPU kernel development, targeting Mamba-2 SSMs.</div><ul><li>cuTile provides a Python DSL that abstracts warp and thread scheduling into high-level, tile-centric primitives.</li><li>Applies tile programming to accelerate Mamba-2 forward pass kernels without requiring raw CUDA C++ implementation.</li><li>Uses compiler optimizations to automatically target peak hardware capabilities on modern NVIDIA GPUs.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Meta Engineering</span><h2><a href="https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/">The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do</a></h2><div class="why">Meta engineering case study on reducing agent hallucinations by shrinking orchestrator context and isolating specialized subagents.</div><ul><li>Replaced a monolithic domain-aware agent with a 1,300-line deterministic router and 14 isolated domain specialist subagents.</li><li>Showed that loading an orchestrator with cross-stage schema context caused concept cross-contamination and dropped task accuracy to 10-20%.</li><li>Validated against empirical research showing multi-agent task isolation maintains 65.3% accuracy where single agents degrade to 16.6%.</li></ul></div><div class="section">Worth a skim &middot; 1</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Cloudflare Blog</span><h2><a href="https://blog.cloudflare.com/clairic-extraction-model/">Introducing Clairic, a new System One class of extraction models</a></h2><div class="why">Introduces a non-autoregressive class of single-pass models for structured data extraction and forecasting without token-by-token generation.</div><ul><li>Clairic operates as a single-pass System One model that extracts typed values, spans, and forecast bounds without autoregressive decoding.</li><li>Charges purely on input tokens and reduces latency below one second compared to frontier LLM tool-calling approaches.</li></ul></div></body></html>
