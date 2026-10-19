@@ -5991,5 +5991,60 @@
   "points": [],
   "published_on": "2026-08-23",
   "reject_reason": "marketing"
+ },
+ "c8d8291000c14347": {
+  "url": "https://www.gilesthomas.com/til-deep-dives",
+  "title": "Giles' blog",
+  "domain": "gilesthomas.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-10"
+ },
+ "51b4dc496fae2571": {
+  "url": "https://ickma2311.github.io/ML/CS336/lecture06-kernels-triton.html",
+  "title": "A Faster Kernel Starts with Fewer Memory Trips – ∇ ickma.dev",
+  "domain": "ickma2311.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-18"
+ },
+ "3f7e2ed7308f5a96": {
+  "url": "https://aik8s.run/en/ai-k8s/training/rdma-distributed-training-benchmark/",
+  "title": "How Much Faster Does RDMA Really Make Distributed Training: DeepSeek V4 Dual-Node 16-GPU Field Test - AI/LLM on Kubernetes Infrastructure",
+  "domain": "aik8s.run",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-08-24"
+ },
+ "9629988d4b3e2f9b": {
+  "url": "https://pyshine.com/inference/",
+  "title": "Xinference: Where Models Live - A Second Tour of xorbitsai/inference | PyShine",
+  "domain": "pyshine.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-17"
+ },
+ "2c2753aed5eefc6b": {
+  "url": "https://syusodo.co.jp/tech-blog/articles/repo-modular-modular",
+  "title": "LLM推論エンジンにModular Platformが選ばれる理由 | 秋霜堂株式会社",
+  "domain": "syusodo.co.jp",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-08-29"
  }
 }
