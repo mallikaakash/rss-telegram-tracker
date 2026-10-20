@@ -96330,5 +96330,101 @@
   ],
   "published_on": "2026-10-19",
   "reject_reason": "off_topic"
+ },
+ "3f48fe49da2fc398": {
+  "feed": "Technica",
+  "title": "Polestar tries to quantify what it’s like to drive a performance car",
+  "link": "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The human desire to go fast is old, dating back at least as far as the first time some adventurous Yamnaya saw a horse on the Pontic-Caspian steppe and thought, “I bet if I jumped on that thing’s back, it would be faster than walking.” A thousand years later, someone else invented the wheel—and the chariot—and humanity was ready to roll. Now, about five millennia since that first horseback ride, equestrianism is mostly a leisure activity, and we drive cars, propelled by motors with more power than an entire herd of beasts could muster."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "b3fcb2e42d321123": {
+  "feed": "OpenAI News",
+  "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+  "link": "https://openai.com/index/ted-taylor-restaurant",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Franchisee reconciles cash in 94% less time with ChatGPT Work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 20, 2026 Franchisee reconciles cash in 94% less time with ChatGPT Work An independent Schlotzsky’s and Cinnabon franchisee cut repricing time by 95% and built a workflow that could free up $100K in cash flow."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "ca293d8533a3487d": {
+  "feed": "Hugging Face Blog",
+  "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+  "link": "https://huggingface.co/blog/allenai/fairstress",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "FairStress: A deeper evaluation of fairness in LLM decision-making Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> FairStress: A deeper evaluation of fairness in LLM decision-making Enterprise Article Published October 20, 2026 Upvote - Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> Measuring fairness beyond the final answer Models do not always hold correct answers equally Why existing benchmarks can produce a different result Training for symmetric robustness Can existing fixes help?"
+  ],
+  "published_on": "2026-10-20"
+ },
+ "34b84ef907f5fd9b": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+  "link": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The geopolitics of open-weight AI are accelerating again this fall, as we would expect with the risks of all AI systems (open and closed) rising rapidly. We’ve seen many news items in the last week showing both the U.S. and Chinese governments positioning themselves for some controls on open models. MOFCOM, the Ministry of Commerce of the People’s Republic of China, released a policy proposal (it’s not yet a law) that would require frontier AI models and some other technologies to get pre-approval from the government before they can be shared internationally."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "a3f6bdb00a02c3e6": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing tsrs: A port of TypeScript to Rust",
+  "link": "https://blog.cloudflare.com/typescript-rust-port/",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare and VoidZero are now working with Max Schwenk of Owner.com on tsrs , a Rust port of the TypeScript compiler. We are doing this work in close collaboration with the TypeScript team, and incubating tsrs as part of the Oxc JavaScript compiler toolchain . Our goal is to help developers spend less time waiting for their code to be checked and more time building."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "2a8881dbb81f9154": {
+  "feed": "Shopify Engineering",
+  "title": "Cross-store product clustering across millions of stores",
+  "link": "https://shopify.engineering/catalog-clustering-part-ii",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cross-store product clustering across millions of stores (2026) - Shopify Skip to Content Solutions Start Start your business . Build your brand Create your website . Online store editor Customize your store . Store themes Find business apps . Shopify app store Own your site domain . Domains & hosting Explore free business tools . Tools to run your business Sell Sell your products ."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "94e7f4f5c0e52bb7": {
+  "feed": "Hugging Face Blog",
+  "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+  "link": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model Enterprise Article Published October 20, 2026 Upvote 15 +9 Ashwath Vaithinathan Aravindan ashwath-vaithina Follow ibm-research Vatche Isahagian Vatche Follow ibm-research Vinod Muthusamy vinodmut Follow ibm-research Jayaram Radhakrishnan jayaramkr Follow ibm-research Evelyn Duesterwald evduester Follow ibm-research Gaodan Fang gaodan-fang Follow ibm-research Punleuk Oum illeatmyhat Follow ibm-research G Thomas gsthomasx Follow ibm-research Michał Ulewicz Michal Follow ibm-research Merve Unuvar mrvnvr Follow ibm-research Ayhan Sebin ayhansebin Follow ibm-research :last-child]:mb-0\"> Learned memory takes a basic ReAct agent with GPT-4.1 to the top τ²-bench tests policy-bound customer service Guidelines improve capability and reliability The best amount of guidance depends on the domain Better performance costs more tokens, not more turns Learned guidelines also improve agents using frontier models ALTK-Evolve tops the leaderboard comparison Agents can improve without weight updates Links: ALTK-Evolve learns and applies a playbook using GPT-4.1, outperforming the retail entries on τ²-bench, a customer service agent benchmark—without updating model weights."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "84cd8d44e9825e73": {
+  "feed": "Hugging Face Blog",
+  "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+  "link": "https://huggingface.co/blog/hf-torchtpu",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hugging Face ❤️ TorchTPU: TPUs, Natively Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Hugging Face ❤️ TorchTPU: TPUs, Natively Published October 20, 2026 Update on GitHub Upvote 4 Alvaro Moran tengomucho Follow Jingya Huang Jingya Follow Simon Pagezy pagezyhf Follow Jeff Boudier jeffboudier Follow Régis Pierrard regisss Follow :last-child]:mb-0\"> Wait, what's a TPU?"
+  ],
+  "published_on": "2026-10-20"
  }
 }
