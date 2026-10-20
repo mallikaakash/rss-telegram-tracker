@@ -96103,5 +96103,125 @@
   ],
   "published_on": "2026-10-19",
   "reject_reason": "off_topic"
+ },
+ "582e7d53b6bab2de": {
+  "feed": "Technica",
+  "title": "Japan launches mission to bring home a piece of the Martian moon Phobos",
+  "link": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "This is general aerospace news with no connection to ML, backend systems, or data infrastructure.",
+  "points": [
+   "Japan launched its MMX mission on an H3 rocket to land on Phobos and return soil samples to Earth."
+  ],
+  "published_on": "2026-10-20",
+  "reject_reason": "off_topic"
+ },
+ "7a364f356aab4946": {
+  "feed": "OpenAI News",
+  "title": "Advancing coding in low‑resource programming languages",
+  "link": "https://openai.com/index/low-resource-programming-languages",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "Highlights frontier model evaluation paradigms for low-resource code generation and legacy system modernization benchmarks.",
+  "points": [
+   "Introduces MultiLangBench (implementing SQLite across 20 languages) and a COBOL migration benchmark.",
+   "GPT-6 Astra achieved an 87.4% pass rate on MultiLangBench, up from 26.8% on GPT-5.6 Sol.",
+   "GPT-6.1 Sol reached 86.6% accuracy at low reasoning effort (and 97.9% at high effort) on COBOL translation."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "af02b0baed077a86": {
+  "feed": "Simon Willison",
+  "title": "My obituary for programming",
+  "link": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "A brief opinion quote about the emotional impact of coding agents on traditional programming puzzles without technical depth.",
+  "points": [
+   "Reflects on how coding agents shift programming away from direct puzzle-solving to system building."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "shallow"
+ },
+ "a8bfe6770725af70": {
+  "feed": "Shopify Engineering",
+  "title": "Building Overexposed: understanding application exposure",
+  "link": "https://shopify.engineering/overexposed",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "A solid infrastructure engineering post from Shopify on building scheduled security auditing for Kubernetes and Cloud Run services.",
+  "points": [
+   "Replaced static config file scanning with dynamic discovery via GCP Cloud Asset Inventory API to audit actual running workloads.",
+   "Audits public exposure by sending unauthenticated probes to endpoints and mapping responses to six explicit policy verdicts.",
+   "Targets both Google Kubernetes Engine Ingresses and Cloud Run services across multi-tenant production environments."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "5322b0008711e8a2": {
+  "feed": "Prime Intellect",
+  "title": "prime-rl 0.10.0: faster training, our new RL loss IPO, and one unified eval stack",
+  "link": "https://www.primeintellect.ai/blog/prime-rl-0-10-verifiers-0-4",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "Essential reading covering distributed MoE training performance engineering, custom GPU kernels, and a new async RL algorithm (IPO).",
+  "points": [
+   "prime-rl achieves 46.6% MFU on 4x8 B300 nodes for Qwen3-235B SFT (1.15x faster than torchtitan) via fused projections and fullgraph MoE compilation.",
+   "Optimized GLM-5.3 sparse attention using FlashMLA for forward passes (1.9–3.6x faster than TileLang on H200) and cuDNN for backward passes.",
+   "Introduces IPO (INTELLECT Policy Optimization), replacing policy ratio clipping with absolute probability differences to stabilize async RL training.",
+   "DeepSeek V4 Flash gains custom fused FP8 and sparse attention kernels, including a fused RoPE kernel matching vLLM."
+  ]
+ },
+ "bc26a53f6a05e124": {
+  "feed": "Technica",
+  "title": "Pennsylvania issues alert on congenital measles—something US hasn't seen for decades",
+  "link": "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Public health news completely unrelated to machine learning or backend engineering.",
+  "points": [
+   "Pennsylvania health officials issued alerts following an outbreak resulting in over 1,200 measles cases."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
+ },
+ "fe83ce01af3ac508": {
+  "feed": "Technica",
+  "title": "Russian spacecraft maneuvers in \"extreme proximity\" to satellite used by Ukraine",
+  "link": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Geopolitical and military satellite tracking news with no technical relevance to software or ML infrastructure.",
+  "points": [
+   "A Russian military satellite conducted close-proximity orbital maneuvers around a commercial imaging satellite used by Ukraine."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
+ },
+ "71a28de11a06820b": {
+  "feed": "Technica",
+  "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+  "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Corporate espionage legal reporting with no technical or architectural insights for an engineer.",
+  "points": [
+   "Federal prosecutors detained an ex-OpenAI engineer accused of planting audio bugs to exfiltrate proprietary information."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
+ },
+ "cc76f984ef227a75": {
+  "feed": "Technica",
+  "title": "Batteries help reduce emissions, but how do we reduce their emissions?",
+  "link": "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "A general science summary on battery lifecycle carbon emissions unrelated to ML industrial optimization or backend engineering.",
+  "points": [
+   "Manufacturing emissions from lithium-ion batteries could increase tenfold by 2050 without targeted recycling and cleaner mineral processing."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
  }
 }
