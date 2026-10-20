@@ -6046,5 +6046,32 @@
   "why": "",
   "points": [],
   "published_on": "2026-08-29"
+ },
+ "fef110beba776eda": {
+  "url": "https://dl.acm.org/doi/10.52202/085713-1017",
+  "title": "Broken tokens? your language model can secretly handle non-canonical tokenizations | Proceedings of the 39th International Conference on Neural Information Processing Systems",
+  "domain": "dl.acm.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-20",
+  "tier": "hidden_gem",
+  "why": "Presents surprising, rigorous experimental findings on language models' latent robustness to non-canonical tokenizations and how intentionally broken tokenization can improve performance.",
+  "points": [
+   "Instruction-tuned LMs retain up to 93.4% of original benchmark performance on randomly sampled tokenizations and 90.8% on pure character-level tokenization without specific training.",
+   "Deliberate non-canonical tokenization improves performance on specific failure modes: character-level segmentation boosts code understanding and string manipulation by up to +14%, and right-aligned digit grouping boosts arithmetic by +33%.",
+   "Robustness primarily emerges during instruction tuning; base models comprehend non-canonical tokens but mimic perceived errors, whereas post-trained models enforce fluent responses."
+  ],
+  "published_on": "2026-10-08"
+ },
+ "389bc5e0940b99a3": {
+  "url": "https://github.laiyagushi.com/character-tech/sglang",
+  "title": "GitHub - character-tech/sglang: SGLang is a high-performance serving framework for large language models and multimodal models. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-20",
+  "tier": "skip",
+  "why": "This is a generic GitHub mirror page for a well-known open-source serving framework (SGLang) containing only file directories and standard news snippets.",
+  "points": [],
+  "published_on": "2026-08-26",
+  "reject_reason": "shallow"
  }
 }
