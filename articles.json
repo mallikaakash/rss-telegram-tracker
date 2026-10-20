@@ -96223,5 +96223,112 @@
   ],
   "published_on": "2026-10-19",
   "reject_reason": "off_topic"
+ },
+ "fb9936745ef93e7f": {
+  "feed": "Technica",
+  "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+  "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "This is mainstream consumer tech reporting on a web URL enumeration security bug rather than ML or infrastructure engineering.",
+  "points": [
+   "Meta Muse generated easily discoverable share URLs, allowing researchers to enumerate 6,800 links and expose user conversations."
+  ],
+  "published_on": "2026-10-20",
+  "reject_reason": "off_topic"
+ },
+ "2596ff929aeef557": {
+  "feed": "Hugging Face Blog",
+  "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+  "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Focuses on client-side Swift SDK wrappers for Apple platform app developers rather than backend systems or model architecture.",
+  "points": [
+   "AnyLanguageModel 1.0 provides a unified Swift interface wrapping Apple Foundation Models, local runtimes (llama.cpp, MLX), and remote inference providers."
+  ],
+  "published_on": "2026-10-20",
+  "reject_reason": "off_topic"
+ },
+ "444be81cc91c4b22": {
+  "feed": "Sakana AI",
+  "title": "オープンエンドな探索を意思決定支援へ：推薦の質と多様性を高める「QD-Rec」を提案",
+  "link": "/qd-rec/",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "Presents an innovative formulation combining Quality-Diversity evolutionary search with LLMs for structured hypothesis exploration and recommendation.",
+  "points": [
+   "QD-Rec pairs candidates with explanatory hypotheses using bandit selection to balance exploring unvisited options versus exploiting promising ones.",
+   "Uses mutation and crossover prompts with LLMs to generate new hypotheses, keeping diverse entries alive via niche-based local competition instead of global ranking.",
+   "Evaluated on M&A target discovery, customer targeting, and academic paper recommendations against zero-shot novelty baselines."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "2aeecbe56188e7e6": {
+  "feed": "ClickHouse",
+  "title": "The Agentic Analytics Benchmark, round two: GPT-6, Claude Opus 5.5, Claude Sonnet 5.5",
+  "link": "https://clickhouse.com/blog/agentic-analytics-benchmark-round-two",
+  "date": "2026-10-20",
+  "tier": "worth_a_skim",
+  "why": "Provides empirical evaluation data on LLM agentic performance, SQL generation reliability, and cost-per-query over an OLAP engine.",
+  "points": [
+   "Benchmark evaluates models over 201 analytical queries on ClickHouse with an agentic SQL tool-calling budget of 60 turns.",
+   "Claude Fable 5.1 retained top performance at 76.6% accuracy, while Claude Sonnet 5.5 saw the biggest jump (+6.5 points over Sonnet 5, zero budget timeouts at ~5 cents/question).",
+   "Newer GPT-6 family models scored in a tight 68.7–69.7% band, showing negligible improvement over GPT-5.5 on SQL analytics."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "dcfeea6f79ce33b7": {
+  "feed": "LinkedIn Engineering",
+  "title": "Rebuilding LinkedIn's Tracking Infrastructure: Scaling, Migrating, and Hardening a High-Volume Event Pipeline",
+  "link": "https://www.linkedin.com/blog/engineering/infrastructure/rebuilding-linkedins-tracking-infrastructure-scaling-migrating-and-hardening-a-high-volume-event-pipeline",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "A classic high-scale infrastructure war story from LinkedIn on modernizing a mission-critical distributed event streaming system.",
+  "points": [
+   "Processes hundreds of billions of events per day (millions per second peak) across hundreds of schemas for analytics and ML signals.",
+   "Migrated from legacy Java 8/Play REST services to modern Java and gRPC, requiring complete serialization rewrites rather than a simple transport swap.",
+   "Decoupled shared capacity pools into isolated resources to prevent bursty media and heavy observability payloads from starving critical engagement events."
+  ]
+ },
+ "c690855c32f0a682": {
+  "feed": "Technica",
+  "title": "Visiting Slate’s first showroom as its $25,000 electric truck nears production",
+  "link": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Consumer automotive coverage with zero relevance to backend engineering, distributed systems, or machine learning.",
+  "points": [
+   "Slate opened a Chicago showroom showcasing a bare-bones $25,000 electric pickup truck."
+  ],
+  "published_on": "2026-10-20",
+  "reject_reason": "off_topic"
+ },
+ "3eb18e5ff7f2a0ef": {
+  "feed": "Hugging Face Blog",
+  "title": "MPS in PyTorch 2.15",
+  "link": "https://huggingface.co/blog/mps-pytorch-2-15",
+  "date": "2026-10-20",
+  "tier": "must_read",
+  "why": "Directly covers GPU performance engineering and inference acceleration, featuring major MoE kernel optimizations and FP8 quantization.",
+  "points": [
+   "MoE decoding achieves 5–6.5x speedups (Qwen3.6-35B-A3B jumped from 9.4 to 61.3 tok/s on M3 Ultra) via native grouped GEMM, faster top-k routing, and eliminated GPU-CPU syncs.",
+   "Introduces native FP8 (`float8_e4m3fn`) storage and scaled matrix multiplication on Apple Silicon.",
+   "Optimized vocabulary softmax is ~8x faster and Wan2.2 video VAE decode peak memory dropped from 270 GiB down to 8 GiB by swapping MPSGraph for custom Metal kernels."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "de7b0df69eea7ab9": {
+  "feed": "Technica",
+  "title": "PSA: Patch your Plex media server before someone hacks it",
+  "link": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+  "date": "2026-10-20",
+  "tier": "low_priority",
+  "why": "Security advisory for consumer media server software that is completely irrelevant to the reader's ML and backend infra priorities.",
+  "points": [
+   "A 4-CVE exploit chain dubbed 'Plex2Shell' is actively used in the wild to achieve remote code execution on unpatched Plex servers."
+  ],
+  "published_on": "2026-10-19",
+  "reject_reason": "off_topic"
  }
 }

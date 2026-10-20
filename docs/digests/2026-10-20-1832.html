@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Tue 20 Oct 2026, 18:32 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Tue 20 Oct 2026, 18:32 IST &middot; 4 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; LinkedIn details rebuilding its massive event-tracking pipeline using gRPC, while PyTorch 2.15 delivers 5-6.5x faster MoE decoding and FP8 on Apple MPS.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">LinkedIn Engineering</span><h2><a href="https://www.linkedin.com/blog/engineering/infrastructure/rebuilding-linkedins-tracking-infrastructure-scaling-migrating-and-hardening-a-high-volume-event-pipeline">Rebuilding LinkedIn&#x27;s Tracking Infrastructure: Scaling, Migrating, and Hardening a High-Volume Event Pipeline</a></h2><div class="why">A classic high-scale infrastructure war story from LinkedIn on modernizing a mission-critical distributed event streaming system.</div><ul><li>Processes hundreds of billions of events per day (millions per second peak) across hundreds of schemas for analytics and ML signals.</li><li>Migrated from legacy Java 8/Play REST services to modern Java and gRPC, requiring complete serialization rewrites rather than a simple transport swap.</li><li>Decoupled shared capacity pools into isolated resources to prevent bursty media and heavy observability payloads from starving critical engagement events.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/mps-pytorch-2-15">MPS in PyTorch 2.15</a></h2><div class="why">Directly covers GPU performance engineering and inference acceleration, featuring major MoE kernel optimizations and FP8 quantization.</div><ul><li>MoE decoding achieves 5–6.5x speedups (Qwen3.6-35B-A3B jumped from 9.4 to 61.3 tok/s on M3 Ultra) via native grouped GEMM, faster top-k routing, and eliminated GPU-CPU syncs.</li><li>Introduces native FP8 (`float8_e4m3fn`) storage and scaled matrix multiplication on Apple Silicon.</li><li>Optimized vocabulary softmax is ~8x faster and Wan2.2 video VAE decode peak memory dropped from 270 GiB down to 8 GiB by swapping MPSGraph for custom Metal kernels.</li></ul></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Sakana AI</span><h2><a href="/qd-rec/">オープンエンドな探索を意思決定支援へ：推薦の質と多様性を高める「QD-Rec」を提案</a></h2><div class="why">Presents an innovative formulation combining Quality-Diversity evolutionary search with LLMs for structured hypothesis exploration and recommendation.</div><ul><li>QD-Rec pairs candidates with explanatory hypotheses using bandit selection to balance exploring unvisited options versus exploiting promising ones.</li><li>Uses mutation and crossover prompts with LLMs to generate new hypotheses, keeping diverse entries alive via niche-based local competition instead of global ranking.</li><li>Evaluated on M&amp;A target discovery, customer targeting, and academic paper recommendations against zero-shot novelty baselines.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">ClickHouse</span><h2><a href="https://clickhouse.com/blog/agentic-analytics-benchmark-round-two">The Agentic Analytics Benchmark, round two: GPT-6, Claude Opus 5.5, Claude Sonnet 5.5</a></h2><div class="why">Provides empirical evaluation data on LLM agentic performance, SQL generation reliability, and cost-per-query over an OLAP engine.</div><ul><li>Benchmark evaluates models over 201 analytical queries on ClickHouse with an agentic SQL tool-calling budget of 60 turns.</li><li>Claude Fable 5.1 retained top performance at 76.6% accuracy, while Claude Sonnet 5.5 saw the biggest jump (+6.5 points over Sonnet 5, zero budget timeouts at ~5 cents/question).</li><li>Newer GPT-6 family models scored in a tight 68.7–69.7% band, showing negligible improvement over GPT-5.5 on SQL analytics.</li></ul></div></body></html>
