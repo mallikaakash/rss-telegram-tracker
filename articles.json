@@ -96617,5 +96617,189 @@
    "Since launching in 2015, JustWatch has helped people navigate the growing number of streaming services by providing a guide on where to find movies they want to stream. Now JustWatch has its own streaming service and wants people to subscribe. Launched today, JustWatch TV offers some movies available for free with ads that aren’t free on any other streaming service, including Green Room (2015), Locke (2013), and Sing Sing (2023)."
   ],
   "published_on": "2026-10-20"
+ },
+ "165cb15531466377": {
+  "feed": "Technica",
+  "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+  "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "Legal and policy controversy over Meta's terms of service with no technical depth.",
+  "points": [
+   "Meta dropped 'train' from commercial TOS after backlash over automated scraping of linked websites."
+  ],
+  "published_on": "2026-10-20",
+  "reject_reason": "off_topic"
+ },
+ "61f4d0141ff303c0": {
+  "feed": "OpenAI News",
+  "title": "OpenAI models are coming to Google Cloud",
+  "link": "https://openai.com/index/openai-models-google-cloud",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "Enterprise cloud availability and commercial partnership announcement with zero systems engineering details.",
+  "points": [
+   "OpenAI frontier models and Codex agent workflows will be offered natively via Google Cloud Model Garden."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
+ },
+ "38715d90bd30f009": {
+  "feed": "Hugging Face Blog",
+  "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+  "link": "https://huggingface.co/blog/nvidia/kumo-forecast",
+  "date": "2026-10-21",
+  "tier": "must_read",
+  "why": "Directly relevant to industrial sensor optimization, introducing open-source multivariate forecasting that blends transformer representations with nearest-neighbor historical pattern retrieval.",
+  "points": [
+   "Combines a 340M-parameter MOMENT-1-large Transformer base with Domain-Aware Representation and Retrieval (DARR).",
+   "Retrieval pathway pulls historical patterns independently from the direct forecast input window.",
+   "Provides DataFrame-first APIs and a horizon-specific interpretability framework without modifying the underlying model under Apache 2.0."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "c89f270435b07ef4": {
+  "feed": "Cloudflare Blog",
+  "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+  "link": "https://blog.cloudflare.com/webmcp-commerce/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "Useful look at emerging AI agent standards (WebMCP) and Cloudflare's edge-level injection architecture.",
+  "points": [
+   "WebMCP replaces brittle HTML scraping with structured client-side tools executed in active browser sessions.",
+   "Cloudflare injects WebMCP scripts at the edge across 100,000 domains while proxying merchant backend MCP servers."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "58ff932c3050baf6": {
+  "feed": "ClickHouse",
+  "title": "Running ClickHouse on NVIDIA Vera CPU: Is your favorite database up to the challenge?",
+  "link": "https://clickhouse.com/blog/clickhouse-performance-on-nvidia-vera",
+  "date": "2026-10-21",
+  "tier": "must_read",
+  "why": "High-value systems and hardware performance deep-dive benchmarking analytics queries on next-generation Arm server silicon.",
+  "points": [
+   "NVIDIA Vera platform pairs dual sockets with 176 Olympus Arm-v9.2 cores (352 threads via Spatial Multithreading).",
+   "Delivers 1.0 to 1.2 TB/s memory bandwidth with 164 MB shared L3 cache.",
+   "Stock ClickHouse binaries topped the ClickBench hardware leaderboard without custom hardware optimizations."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "b43bb9d51cd16bc9": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search",
+  "link": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "Short teaser on biological protein sequence design rather than general reasoning RL infrastructure.",
+  "points": [
+   "Applies reward-guided inference-time search across combinatorial amino acid sequence spaces."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "shallow"
+ },
+ "f74f11fae08faea7": {
+  "feed": "Technica",
+  "title": "Gemini's Personal Intelligence is coming to cars",
+  "link": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "Consumer-facing product feature rollout for in-car infotainment systems.",
+  "points": [
+   "Google is rolling out Gemini Personal Intelligence context integration to Android Auto."
+  ],
+  "published_on": "2026-10-20",
+  "reject_reason": "off_topic"
+ },
+ "15dc543e01911fd2": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
+  "link": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "Truncated promotional summary of NVIDIA's runtime security monitoring framework for agents.",
+  "points": [
+   "NVIDIA Sentry monitors agent runtime execution outside the agent's reach to enforce permission boundaries."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "shallow"
+ },
+ "29d4156f7865e17e": {
+  "feed": "Technica",
+  "title": "OpenBSD 8.0 arrives with security record still intact",
+  "link": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "Notable OS kernel milestone featuring memory management changes allowing kernel VRAM mapping beyond 4GB.",
+  "points": [
+   "Expands AMD64 kernel virtual address space to 512GB to map modern graphics cards with over 4GB VRAM.",
+   "Adds RISC-V Vector extensions ('V') and up to 64 virtual CPUs per guest in vmm/vmd."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "a304b6a0504ae589": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
+  "link": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale/",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "High-level marketing teaser for an agent governance reference architecture.",
+  "points": [
+   "OpenShell framework outlines sandboxing and privilege governance for long-horizon autonomous agents."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "shallow"
+ },
+ "cd17d628776a5ae2": {
+  "feed": "Technica",
+  "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+  "link": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "Critical infrastructure reliability and security event involving compromised intermediate CA certificates across internet PKI.",
+  "points": [
+   "Eight intermediate CA private keys from eMudhra were exposed and cryptographically verified as compromised.",
+   "Major browsers blocked the certificates, but IoT and Linux trust stores remain exposed to unauthorized credential minting."
+  ],
+  "published_on": "2026-10-20"
+ },
+ "b7422fdbc46468e5": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
+  "link": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "Promotional post regarding Omniverse industrial digital twin software workflows.",
+  "points": [
+   "NVIDIA Omniverse DSX Blueprint provides CAD and layout workflows for data center digital twins."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
+ },
+ "eaf3821d0893693e": {
+  "feed": "Technica",
+  "title": "TP-Link tries to appease Trump admin with pledge to assemble routers in US",
+  "link": "https://arstechnica.com/tech-policy/2026/10/tp-link-tries-to-appease-trump-admin-with-pledge-to-assemble-routers-in-us/",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "Consumer networking hardware regulatory and manufacturing news.",
+  "points": [
+   "TP-Link plans to assemble Wi-Fi 8 routers in Mississippi to satisfy regulatory hurdles."
+  ],
+  "published_on": "2026-10-20",
+  "reject_reason": "off_topic"
+ },
+ "0acaf72d59e93890": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD",
+  "link": "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod/",
+  "date": "2026-10-21",
+  "tier": "low_priority",
+  "why": "Turnkey data center product marketing for turnkey hardware pods.",
+  "points": [
+   "NVIDIA DSX POD packages pre-integrated data center infrastructure modules for enterprise AI deployments."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
  }
 }
