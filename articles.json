@@ -96801,5 +96801,245 @@
   ],
   "published_on": "2026-10-21",
   "reject_reason": "marketing"
+ },
+ "c265b4d39c82f31e": {
+  "feed": "Technica",
+  "title": "SpaceX to attempt Starship catch on next flight, with eye on rapid cadence increase",
+  "link": "https://arstechnica.com/space/2026/10/spacex-will-attempt-to-reach-weekly-starship-launches-by-early-2027/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In its current iteration, SpaceX is largely a data company seeking to provide enormous amounts of compute for artificial intelligence. During an earnings call on Tuesday afternoon, company officials spent much of their time discussing ambitious plans to roll out up to 10 GW of compute in 2027—on the ground. Gone are the days of aspirational talk about sending humans to Mars and settling the red planet."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "2de1f3f85cd444cf": {
+  "feed": "Google Research",
+  "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+  "link": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Empowering frontline maternal care with AI-assisted ultrasound Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "00f5c01ef0a9d5e6": {
+  "feed": "Microsoft Research",
+  "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
+  "link": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Microsoft researcher and collaborator combine new mathematical ideas with human-directed AI to resolve a central problem in high-dimensional geometry and probability At a glance Fundamental scientific breakthrough: Researchers resolved the Kannan-Lovász-Simonovits (KLS) conjecture, a 31-year-old problem widely regarded as one of the central open questions in high-dimensional geometry, with implications for statistics, optimization, algorithms, and computer science."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "d3f519557f32dd3d": {
+  "feed": "OpenAI News",
+  "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+  "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Patch the Planet: global response coordination as agents uncover critical vulnerabilities | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 21, 2026 Security Product Patch the Planet: global response coordination as agents uncover critical vulnerabilities Loading… Share Coordinating a global response Coordinating a global response Giving maintainers the capacity and resources to respond Building more secure software foundations Help us improve this approach Coordinating a global response Giving maintainers the capacity and resources to respond Building more secure software foundations Help us improve this approach Over the past two months, we led a coalition of maintainers, researchers, and security providers to address critical vulnerabilities in PHP, an open-source programming language used to run websites and web applications."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "13017feda779280c": {
+  "feed": "Hugging Face Blog",
+  "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0",
+  "link": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 Enterprise + Article Published October 21, 2026 Upvote 2 Oluwaseun Doherty seun-doherty Follow nvidia Oyindamola Omotuyi OOyindamola Follow nvidia Richard AntRi31 Follow nvidia Asier Arranz asiernvidia Follow nvidia :last-child]:mb-0\"> TL;DR Introduction 1."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "6c1da1b548c04122": {
+  "feed": "Simon Willison",
+  "title": "Panache — RTS Belle Époque pour mobile",
+  "link": "https://simonwillison.net/2026/Oct/21/panache/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : dirigeables, Fardiers à vapeur, Creusot cuirassés, automates en képi, Gargantua la forteresse marchante — et beaucoup de panache."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "5e1de757df13cda9": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing full transaction detection for Cloudflare WAF",
+  "link": "https://blog.cloudflare.com/full-transaction-waf/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, we are expanding our web application firewall (WAF) by adding two new capabilities: full transaction detections and response rules. Full transaction detections evaluate each HTTP request alongside its response to identify evidence of exploitation. It helps answer both \"Does this request look malicious?\" and \"What happened when the application handled it?\" Response rules can then block the origin’s response before it reaches the requester."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "8f99f6dadd2c0228": {
+  "feed": "GitHub Engineering",
+  "title": "The bridge to agent-scale Git infrastructure",
+  "link": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over the past year, while Git traffic grew exponentially, 99.99999% of the Git repositories on GitHub began living in two places at once: our own data centers and Azure. The rest are among the busiest on the platform, and they’re held back by just one thing: a 25ms round trip. In an earlier blog post , we laid out the two principles behind our next-generation storage architecture: Minimize coordination Decouple storage from compute In this post, we’ll look at the immediate bridge between our old design and our new one."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "2f67d3a79def457f": {
+  "feed": "Technica",
+  "title": "The $15 billion ad-powered AI startup your doctor may already be using",
+  "link": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nearly two-thirds of US doctors are turning to an AI-powered search engine to make patient decisions, propelling a little-known tech startup to a $15 billion valuation while prompting a debate over the future of patient care. Miami-based OpenEvidence, founded by serial entrepreneur Daniel Nadler in 2022, said that many of America’s 1 million physicians processed more than 42 million prompts last month."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "74fcf21eca7add4a": {
+  "feed": "OpenAI News",
+  "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+  "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 21, 2026 Product ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "354f89a6c7dbf10c": {
+  "feed": "Hugging Face Blog",
+  "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+  "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications Team Article Published October 21, 2026 Upvote 1 Bernardo França de Aguiar bernardoaguiar Follow Dharma-AI Gabriel Pimenta de Freitas Cardoso GabrielPimenta99 Follow Dharma-AI Bruno Duarte brunoduarte01 Follow Dharma-AI Francisco de Almeida Rocha Alves falves9101 Follow Dharma-AI :last-child]:mb-0\"> A Vocabulary Built for Everyone Reading Is Cheap, Writing Is Expensive Why Existing Solutions Fell Short How We Solved It What Changed in the Grader Beyond the Grader Paying Only for the Tokens That Matter Sources Further Reading Models specialized for a domain or a task by fine-tuning general open-source models, such as Qwen and Gemma, inherit a vocabulary built for many domains and general applications."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "00c66b5eda27345f": {
+  "feed": "Simon Willison",
+  "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
+  "link": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Research: sparqlite: SPARQL 1.1 inside SQLite, written in Rust This research task is really an experiment in running Claude Code for web in \"Ultracode\" mode, as described in Orchestrate subagents at scale with dynamic workflows in the Claude Code documentation. With Ultracode turned on, Claude Code makes aggressive use of dynamic workflows - it generates JavaScript that defines and coordinates a network of subagents to take on complex problems."
+  ],
+  "published_on": "2026-10-16"
+ },
+ "da92d86b61e50399": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare deploys protections against php2shell vulnerability",
+  "link": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, Calif.io, Wiz, OpenAI and Quarkslab disclosed two vulnerabilities in PHP, tracked as CVE-2026-109618 and CVE-2026-109619 and known as php2shell . The vulnerabilities affect all web servers running PHP 5.4 or later and they may allow an attacker to cause denial of service, remote code execution, and data exposure when an application processes specially crafted HTTP traffic."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "25ea45fa0784296b": {
+  "feed": "Technica",
+  "title": "Review: Carrie is a triumphant remix with one major flaw",
+  "link": "https://arstechnica.com/culture/2026/10/review-carrie-is-a-triumphant-remix-with-one-major-flaw/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Carrie White, the telekinetic prom queen from hell, is one of the most beloved horror icons in popular culture. First introduced in Stephen King's 1974 novel, Carrie , the character was immortalized in director Brian De Palma's 1976 adaptation, widely regarded as one of the best horror films of all time. It's certainly one of the best King adaptations."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "1de8e62ff715d1f1": {
+  "feed": "OpenAI News",
+  "title": "Using thousands of AI agents to uncover new leads in biological data",
+  "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Using thousands of AI agents to uncover new leads in biological data | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 21, 2026 Publication Research Using thousands of AI agents to uncover new leads in biological data How OpenAI, PerturbAI, and Scripps Research used distributed AI agents to help scientists identify promising research leads in data from millions of brain cells Read the paper (opens in a new window) See how OpenAI, PerturbAI, and Scripps Research deployed thousands of AI agents in parallel to identify promising biological connections in complex data from millions of brain cells."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "f9b499debdda31c0": {
+  "feed": "Hugging Face Blog",
+  "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+  "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium. Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "6b99f32d26e79636": {
+  "feed": "Technica",
+  "title": "The past, present, and future share a show floor at Pinball Expo 2026",
+  "link": "https://arstechnica.com/gaming/2026/10/the-past-present-and-future-share-a-show-floor-at-pinball-expo-2026/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It's October in the Midwest, which means it's time for the pinball world to descend on a convention center in Chicagoland for the annual Pinball Expo. Once thought to be an entertainment sector slowly bleeding out, pinball has come back in a big way in recent years. I visited one of Chicago's last old-school manufacturers before heading down the road to see what's new in the silver-ball universe."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "edef63b51aedc012": {
+  "feed": "OpenAI News",
+  "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+  "link": "https://openai.com/index/building-chatgpt-ad-stack",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How we built ChatGPT’s novel ad stack for user trust and relevance | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 21, 2026 Engineering How we built ChatGPT’s novel ad stack for user trust and relevance By Ritendra Datta and Karthik Gopalratnam, Members of Technical Staff Loading… Share How should ads work in agentic chat?"
+  ],
+  "published_on": "2026-10-21"
+ },
+ "9b35c0bfb2f0e3cd": {
+  "feed": "Hugging Face Blog",
+  "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+  "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster Enterprise Article Published October 21, 2026 Upvote 15 +9 George Saon gsaon Follow ibm-granite Brian Kingsbury bedkingsbury Follow ibm-granite Ron Hoory rhoory Follow ibm-granite Vishal Sunder vishalsunder Follow ibm-granite Zvi Kons konszvi Follow ibm-granite Jeff Kuo ibm-jeffkuo Follow ibm-granite Samuel Thomas sthomas12 Follow ibm-granite Avihu Dekel Avihu Follow ibm-granite Hagai Aronowitz hagaia Follow ibm-granite Takashi Fukuda fukuda1 Follow ibm-granite Tohru Nagano tohru3 Follow ibm-granite Sashi Novitasari sasnov Follow ibm-granite Masayuki Suzuki szuk Follow ibm-granite Madison Lee kristunlee Follow ibm-granite :last-child]:mb-0\"> Granite Speech 5.0 2B: more accurate, more robust, more control Granite Speech 5.0 Turbo CTC: now multilingual, more robust, and even faster Granite Speech 4.1 2B Plus: better at who said what, and when Get started We're excited to share three updates to IBM's Granite Speech collection: a new speech-language model, granite-speech-5.0-2b , and revised versions of two models the community already uses, granite-speech-5.0-470m-turboctc and granite-speech-4.1-2b-plus ."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "943d99608ea1b276": {
+  "feed": "Technica",
+  "title": "Does anyone actually want to win the medium-lift race in the United States?",
+  "link": "https://arstechnica.com/space/2026/10/does-anyone-actually-want-to-win-the-medium-lift-race-in-the-united-states/",
+  "date": "2026-10-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It has been 13 years since the debut of a new medium-lift rocket in the United States, the Antares vehicle developed by Orbital Sciences Corporation. The initial 100-series variant of the Antares rocket was kind of a hot mess. The rocket used old Soviet engines built during the era when Apollo astronauts were landing on the Moon. Decades later, in the 1990s, Aerojet acquired the engines and refurbished them for a rocket that would launch in the 2010s."
+  ],
+  "published_on": "2026-10-20"
  }
 }
