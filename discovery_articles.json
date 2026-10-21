@@ -6073,5 +6073,60 @@
   "points": [],
   "published_on": "2026-08-26",
   "reject_reason": "shallow"
+ },
+ "51ca295ed7169c6f": {
+  "url": "https://yanxu.io/posts/03-post-training-from-first-principles/index.html",
+  "title": "Post-Training from First Principles: SFT, RLHF, DPO and GRPO – Yan Xu",
+  "domain": "yanxu.io",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-26"
+ },
+ "85ae759dfe05f1d0": {
+  "url": "https://blog.kubesimplify.com/running-a-big-llm-across-multiple-gpus-with-vllm",
+  "title": "Running a big LLM across multiple GPUs with vLLM | Kubesimplify",
+  "domain": "blog.kubesimplify.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-01"
+ },
+ "7682c1d445c4570a": {
+  "url": "https://github.com/stephenmcconnachie/starred",
+  "title": "GitHub - stephenmcconnachie/starred · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-11"
+ },
+ "7c14c66800a85392": {
+  "url": "https://ondiversity.cloud/blog/gpu-cluster-proof-of-concept-production-readiness/",
+  "title": "Why most GPU cluster proof of concepts never reach production",
+  "domain": "ondiversity.cloud",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-09"
+ },
+ "0a61623ec6ee28f0": {
+  "url": "https://dev.to/jamse_bao/the-silent-oom-why-our-llamafactory-multi-gpu-fine-tune-died-at-87-postmortem-43pm",
+  "title": "The Silent OOM: Why Our LlamaFactory Multi-GPU Fine-Tune Died at 87% (Postmortem) - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-20"
  }
 }
