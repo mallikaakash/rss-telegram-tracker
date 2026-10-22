@@ -97302,5 +97302,176 @@
   ],
   "published_on": "2026-10-22",
   "reject_reason": "shallow"
+ },
+ "2f1ed42ebe24824a": {
+  "feed": "Technica",
+  "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
+  "link": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "General cybersecurity news regarding Tor exit node compromise is irrelevant to ML training and backend infrastructure.",
+  "points": [
+   "Attackers compromised over 300 Tor exit nodes using stolen credentials and the 12-year-old Ebury Linux backdoor to sniff unencrypted SSH and email traffic."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "off_topic"
+ },
+ "5d118fadbe793ddd": {
+  "feed": "Hugging Face Blog",
+  "title": "Ensemble forecasting with IBM Granite time-series models",
+  "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "Directly relates to industrial sensor analysis and time-series modeling relevant to your blast-furnace process optimization work.",
+  "points": [
+   "Introduces a zero-retraining ensemble wrapper combining four pre-trained IBM Granite time-series models without fitted ensemble weights.",
+   "Offers probabilistic uniform pooling as a default and an adaptive Inter-Quartile Range (IQR) method to produce calibrated median and quantile forecasts.",
+   "Packaged via `granite-tsfm` on Hugging Face, allowing easy integration into existing pandas-based sensor data pipelines."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "4e935f50e0d3a2c7": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Check for Anomalous GitHub Access",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-check-for-anomalous-github-access",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Repetitive, post-incident operational checklist for GitHub credential auditing with no architectural insight.",
+  "points": [
+   "Provides standard operational guidance for auditing GitHub OAuth authorizations, SSH keys, and personal access tokens following Railway's breach."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "e0bd59849ef40379": {
+  "feed": "Cloudflare Blog",
+  "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
+  "link": "https://blog.cloudflare.com/k-isms/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Focuses on regulatory compliance and front-end sign-up form gating rather than backend systems or distributed architecture.",
+  "points": [
+   "Cloudflare dropped social login in South Korea to enforce four mandatory compliance checkboxes dictated by KISA's ISMS-P framework."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "33f583d3d7c2a095": {
+  "feed": "Fly.io",
+  "title": "SBD: We Have a Filesystem at Home",
+  "link": "https://fly.io/blog/sprites-block-device/",
+  "date": "2026-10-22",
+  "tier": "must_read",
+  "why": "Superb infrastructure post-mortem on the perils of layered metadata and writeback caching when backing block devices with object storage.",
+  "points": [
+   "Details why Fly.io's initial architecture—a custom JuiceFS fork with SQLite metadata synced via Litestream to hold ext4 loop devices—failed with metadata desyncs.",
+   "Explains how writeback caching caused 404 missing chunk errors upon VM crashes because chunk metadata was committed before payload uploads completed.",
+   "Introduces Sprites Block Device (SBD) to discard complex layered abstractions in favor of a simpler, robust block translation engine for object storage."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "7bad704140823655": {
+  "feed": "Technica",
+  "title": "UN says we're going to blow past 1.5º warming, offers a \"now what?\" answer",
+  "link": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "General environmental news with zero technical engineering or ML relevance.",
+  "points": [
+   "The UN Environmental Programme officially conceded that staying under 1.5°C warming is no longer achievable without massive carbon removal."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "off_topic"
+ },
+ "b1692463c70857d7": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Check for Unexpected Usage in Stripe",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-check-for-unexpected-usage-in-stripe",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Basic customer advisory guide for rotating Stripe keys following Railway's credential incident.",
+  "points": [
+   "Outlines how to rotate Stripe API keys with overlap windows and inspect request logs for unauthorized traffic."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "ec2684f4715d6976": {
+  "feed": "Technica",
+  "title": "RIP BioWare: EA shuts down storied RPG studio after over three decades",
+  "link": "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Video game industry news entirely unrelated to your technical stack.",
+  "points": [
+   "EA shuttered BioWare and cancelled the upcoming Mass Effect project as part of company-wide layoffs."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "off_topic"
+ },
+ "4fe1b3f9423ffb33": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Check for Unexpected OpenAI Usage",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-check-for-unexpected-openai-usage",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Operational incident response checklist for rotating OpenAI credentials with no architectural substance.",
+  "points": [
+   "Steps for auditing OpenAI project dashboard logs and rotating exposed developer API keys."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "53db5cc109270879": {
+  "feed": "Technica",
+  "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+  "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Commercial distribution announcement with no technical details regarding model training or inference serving mechanics.",
+  "points": [
+   "OpenAI's latest models are launching on Google Cloud Model Garden alongside Gemini and Claude."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
+ },
+ "8b92872e7274a04f": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Check for Unexpected Anthropic Usage",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-check-for-unexpected-anthropic-usage",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Operational incident remediation checklist for rotating Anthropic API keys.",
+  "points": [
+   "Advises users on querying Anthropic's Usage and Cost Admin APIs to detect compromised key activity."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "5c98085c7b76485e": {
+  "feed": "Technica",
+  "title": "Report: Musk ordered Starlink slowdown in Ukraine, then blamed it on Trump",
+  "link": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Geopolitical tech news regarding satellite throttling without relevant backend or ML takeaways.",
+  "points": [
+   "Reports indicate Elon Musk unilaterally capped Starlink network speeds used by Ukrainian military drones."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "off_topic"
+ },
+ "bbb4c72b860c60a4": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Redeploy Buckets and Reconnect GitHub After the Credential Reset",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-redeploy-buckets-and-reconnect-github-after-the-credential-reset",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Procedural status update detailing Railway's internal service credential reset routines.",
+  "points": [
+   "Explains how Railway forcibly reset internal S3 bucket credentials and invalidated third-party GitHub integration tokens."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
  }
 }
