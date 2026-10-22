@@ -97473,5 +97473,245 @@
   ],
   "published_on": "2026-10-22",
   "reject_reason": "shallow"
+ },
+ "1be1f8041c404346": {
+  "feed": "Technica",
+  "title": "Meta shocked by $25B fine after N.M. refused to join multistate settlement",
+  "link": "https://arstechnica.com/tech-policy/2026/10/meta-whines-new-mexico-is-impossible-to-please-after-historic-25-billion-fine/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta must pay $25 billion to New Mexico after a jury found the tech giant guilty of nearly 44 million violations of state consumer protection laws. The largest fine to ever hit Meta came after New Mexico Attorney General Raúl Torrez declined to join an $18 billion settlement Meta reached earlier this year with attorneys general in nearly all states. In his opinion Wednesday, US district court judge Francis J."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "e66e9796ba6be5e9": {
+  "feed": "Google DeepMind",
+  "title": "Beyond tree cover: mapping the world’s forest types",
+  "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Not All Forests Are Equal: Mapping the World’s Forests — Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie 3 Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA 2 An agent that plays, reasons, and learns with you Genie 3 Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impa"
+  ],
+  "published_on": "2026-10-22"
+ },
+ "b100a97a93d68c42": {
+  "feed": "Microsoft Research",
+  "title": "Flint-interactive: A language for creating interactive data visualizations",
+  "link": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a glance Brings rich interactivity to AI-generated charts: Flint-interactive enables agents to create data visualizations that users can explore directly through clicking, filtering, zooming, highlighting, and cross-chart interactions. Makes complex interactions easier to build: Instead of requiring low-level visualization code, Flint-interactive lets users and agents define behaviors using high-level semantic events and update operators."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "63c31ca523f91ccf": {
+  "feed": "OpenAI News",
+  "title": "What FDE means at OpenAI",
+  "link": "https://openai.com/index/forward-deployed-engineering-means",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What FDE means at OpenAI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 22, 2026 Engineering What FDE means at OpenAI What we do, how we work, and how we solve enterprise’s toughest problems to deliver real impact."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "eaa0ebff7daf626e": {
+  "feed": "Hugging Face Blog",
+  "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+  "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> OlmoEarth v1.3: State-of-the-art embeddings for the whole planet Enterprise Article Published October 22, 2026 Upvote 3 Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> Compute once, reuse everywhere State-of-the-art embeddings One place, nine years The OlmoEarth Embeddings Explorer Get started 🤗 Models | 📄 Tech Report | 📊 Data | 💻 Code | 🌎 Embeddings Explorer | 🗺️ Interactive story Today, we’re releasing OlmoEarth v1.3 , a state-of-the-art satellite embedding model."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "09776931f4659a5d": {
+  "feed": "Simon Willison",
+  "title": "Donating Agent Skills to the Agentic AI Foundation",
+  "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP)."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "4d7234d72c4df94a": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Check for Unexpected Grok Usage",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-check-for-unexpected-grok-usage",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Mykal Machon This guide is part of Railway's response to the security disclosure published on October 21, 2026 . If you use Grok with Railway, disable any xAI API key that may have been exposed, review the Usage Explorer for requests you didn't make, and redeploy your services with a new key. If you have an xAI API key that may have been exposed, or your credit balance dropped without a matching change in your traffic, check your Grok usage."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "6304024a8a38462f": {
+  "feed": "Stripe Blog",
+  "title": "Trends from Money20/20 2026: The rise of “hidden” financial services",
+  "link": "https://stripe.com/blog/trends-from-money20-20-2026-the-rise-of-hidden-financial-services",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Trends from Money20/20 2026: The rise of “hidden” financial services 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Guide me Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Not sure where to start?"
+  ],
+  "published_on": "2026-10-22"
+ },
+ "ce29ad327ed352ee": {
+  "feed": "Shopify Engineering",
+  "title": "We gave AI agents a mobile dev environment",
+  "link": "https://shopify.engineering/remote-dev",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We gave AI agents a mobile dev environment (2026) - Shopify Skip to Content Solutions Start Start your business . Build your brand Create your website . Online store editor Customize your store . Store themes Find business apps . Shopify app store Own your site domain . Domains & hosting Explore free business tools . Tools to run your business Sell Sell your products ."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "af796ac2c60695cb": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
+  "link": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPU applications are processing ever-growing datasets with increasingly powerful accelerators. According to the 2025 Stanford AI Index, compute for notable AI... GPU applications are processing ever-growing datasets with increasingly powerful accelerators. According to the 2025 Stanford AI Index, compute for notable AI models has been doubling approximately every five months, while the size of datasets used to train LLMs has been doubling approximately every eight months."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "10c60e172a34f938": {
+  "feed": "Technica",
+  "title": "US-backed vaccine trial on babies canceled after international outcry",
+  "link": "https://arstechnica.com/health/2026/10/unethical-vaccine-trial-on-babies-backed-by-rfk-jr-is-formally-canceled/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Government officials in Guinea-Bissau have formally rejected a clinical trial that would be run by Danish researchers and funded by the US to look for alleged nonspecific harms from the newborn dose of the hepatitis B vaccine. The vaccine dose is currently recommended globally for all newborns and has been used safely and effectively for decades. In an email to Ars Technica, one of the trial's lead researchers, Christine Stabell Benn of Bandim Health Project and the University of Southern Denmark, said that Guinea-Bissau's Council of Ministers \"formally reaffirmed its non-acceptance of the study on 16 October.\" The revelation that the study was formally rejected last week comes after news on Monday that judicial police in Guinea-Bissau raided Bandim Health's offices and seized vaccines ."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "ba6fa07d677a8221": {
+  "feed": "OpenAI News",
+  "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+  "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Uber brings ChatGPT Work to all employees with OpenAI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 22, 2026 Company Uber brings ChatGPT Work to all employees with OpenAI Loading… Share Uber announced the company-wide rollout of ChatGPT Work , an agent that helps employees take on a wide range of tasks within ChatGPT Enterprise, starting today."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "0acbee798fb21bdf": {
+  "feed": "Simon Willison",
+  "title": "Quoting Armin Ronacher",
+  "link": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A quote from Armin Ronacher Simon Willison’s Weblog Newsletter Sponsored by: Teleport — AI agents (and sub-agents they spawn) are given the same access as humans, but they never sleep. Learn how to monitor and constrain their behavior with isolated ephemeral trusted runtimes. 22nd October 2026 As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "67dc27f84f342c6a": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Rotate PostgreSQL Database Credentials",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-rotate-postgresql-database-credentials",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Mykal Machon This guide is part of Railway's response to the security disclosure published on October 21, 2026 . If you run PostgreSQL on Railway, regenerate its password, redeploy every service that uses it, and confirm nothing is still connecting with the old credential. If your PostgreSQL password or DATABASE_URL may have been exposed, rotate your credentials."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "085abd1e41bc4a39": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+  "link": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting... AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting with frontier-class architectures that demand hundreds of gigabytes of memory."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "9d1bb006dae909c7": {
+  "feed": "Technica",
+  "title": "This emulator reimagines Nintendo’s Virtual Boy with a full color display",
+  "link": "https://arstechnica.com/gaming/2026/10/this-emulator-reimagines-nintendos-virtual-boy-with-a-full-color-display/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last year, we reported on Red Viper , a Virtual Boy emulator that added a splash of Super Game Boy-style color to Nintendo's famously failed red-on-black \"portable\" 3D headset from the '90s. Now, a new emulation experiment, VBoy Color , has taken the concept to a higher level, using a tile-based palette system that allows for many more distinct colors in each individual Virtual Boy frame."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "ee00788ea9f45632": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Check for Unexpected OpenRouter Usage",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-check-for-unexpected-openrouter-usage",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Mykal Machon This guide is part of Railway's response to the security disclosure published on October 21, 2026 . If you use OpenRouter with Railway, disable any API key that may have been exposed, review the Activity page for requests you didn't make, and redeploy your services with a new key. If you have an OpenRouter API key that may have been exposed, or your credit balance dropped without a matching change in your traffic, check your OpenRouter usage."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "c625905b3719c2e1": {
+  "feed": "Technica",
+  "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+  "link": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Amazon has warned that vulnerabilities in a programming language that underpins much of the Internet, discovered using AI tools, are being “broadly exploited” as governments and companies rush to secure their systems. The world’s largest cloud computing provider on Wednesday said it had identified an attempt by hackers to exploit the bug four days before the weakness was disclosed to the public."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "5699ea0146a98f84": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure: Wednesday October 21st",
+  "link": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Jacob Cooper Earlier this morning, Railway detected anomalous activity involving systems that store customer environment variables. After further investigation, our investigation to date indicates that an unauthorized third party may have accessed encrypted environment variables and, for some of them, obtained the decrypted contents. Environment variables may contain secrets such as API keys or database and registry credentials."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "9f501da3adf8105e": {
+  "feed": "Technica",
+  "title": "Sauron recruits his future Ringwraiths in Rings of Power S3 trailer",
+  "link": "https://arstechnica.com/culture/2026/10/sauron-recruits-his-future-ringwraiths-in-rings-of-power-s3-trailer/",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Lord of the Rings: The Rings of Power returns next month for its third season. Prime Video unveiled a teaser earlier this year at San Diego Comic-Con, but we haven't heard much about the new season otherwise. We now have the official full trailer, and it's jam-packed with a rising Sauron, who is intent on conquering Middle-Earth with his army of Orcs—with the fractured opposition of elves, dwarves, and men scrambling to figure out how best to stop him."
+  ],
+  "published_on": "2026-10-22"
  }
 }
