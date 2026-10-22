@@ -6128,5 +6128,40 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-20"
+ },
+ "7f689864f6bec897": {
+  "url": "https://arxiv.org/html/2608.11859",
+  "title": "Small-Scale Experiments: Are We There Yet?",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-22",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-10-21"
+ },
+ "8b84a37012b1f55b": {
+  "url": "https://infrabytes.io/i-turned-off-the-fast-networks-on-a-gpu-cluster-to-see-what-they-were-worth/",
+  "title": "I turned off the fast networks on a GPU cluster to see what they were worth -",
+  "domain": "infrabytes.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-22",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-08-23"
+ },
+ "64838e9797cddbe0": {
+  "url": "https://miquinn.dev/writing/High-Perf-Matrix-Multiplies/",
+  "title": "High Performance Matrix Kernels | Matthias Quinn",
+  "domain": "miquinn.dev",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-22",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-16"
  }
 }
