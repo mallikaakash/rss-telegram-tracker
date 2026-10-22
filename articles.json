@@ -97041,5 +97041,266 @@
    "It has been 13 years since the debut of a new medium-lift rocket in the United States, the Antares vehicle developed by Orbital Sciences Corporation. The initial 100-series variant of the Antares rocket was kind of a hot mess. The rocket used old Soviet engines built during the era when Apollo astronauts were landing on the Moon. Decades later, in the 1990s, Aerojet acquired the engines and refurbished them for a rocket that would launch in the 2010s."
   ],
   "published_on": "2026-10-20"
+ },
+ "7edb1a939aeccf2e": {
+  "feed": "Technica",
+  "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
+  "link": "https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Political and regulatory news concerning broadcast media that has no technical relevance.",
+  "points": [
+   "FCC warns broadcasters against airing unverified or hoax polls."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "off_topic"
+ },
+ "4ab93569e260b2b0": {
+  "feed": "OpenAI News",
+  "title": "How AT&T is rethinking in-house legal work with OpenAI",
+  "link": "https://openai.com/index/att-legal",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Enterprise case study and marketing PR without technical architectural details.",
+  "points": [
+   "AT&T uses OpenAI models to build an internal legal request intake and triage system."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
+ },
+ "7104bc51c29585cc": {
+  "feed": "Hugging Face Blog",
+  "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+  "link": "https://huggingface.co/blog/nvidia/kumo-relational",
+  "date": "2026-10-22",
+  "tier": "must_read",
+  "why": "Directly impacts tabular and enterprise ML, competing with gradient boosting workflows relevant to your industrial optimization work.",
+  "points": [
+   "Pre-trained relational foundation model predicts directly on relational databases using up to 10k historical examples in a single forward pass without manual feature engineering.",
+   "Outperforms expert-engineered gradient-boosted trees by nearly 4 AUROC points on RelBench V1 and beats XGBoost by 7 to 13 MRR points on SAP SALT.",
+   "Scales to databases with over 500B rows and is packaged as open-source GPU-native libraries and NVIDIA NIMs."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "952285572a8e70b9": {
+  "feed": "Simon Willison",
+  "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+  "link": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "PHP security disclosure timeline not relevant to ML, backend systems, or data infrastructure.",
+  "points": [
+   "Coordinated disclosure failure led to leaked PoC videos for two PHP 8.x remote code execution vulnerabilities."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "off_topic"
+ },
+ "26a91edd7a647346": {
+  "feed": "Modal Blog",
+  "title": "Get started with LLM training on Modal",
+  "link": "https://modal.com/blog/get-started-with-llm-training-on-modal",
+  "date": "2026-10-22",
+  "tier": "must_read",
+  "why": "Covers practical LLM post-training and RL infrastructure on a leading GPU compute platform.",
+  "points": [
+   "Introduces Modal Dojo, an abstraction layer simplifying distributed post-training and RL on serverless GPUs.",
+   "Built on top of battle-tested open-source RL training frameworks like Miles and Slime.",
+   "Focuses on bridging production agent telemetry and rollout traces into reproducible RL training recipes."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "bcce63af369d87ce": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Check for Anomalous GCP Access",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-check-for-anomalous-gcp-access",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Standard operational credential rotation playbook specific to Railway's security incident.",
+  "points": [
+   "Step-by-step instructions for revoking compromised GCP service account keys and auditing GCP Cloud Audit Logs."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "251d819f7a538567": {
+  "feed": "ClickHouse",
+  "title": "Trace and evaluate Cursor agents with Langfuse, powered by ClickHouse",
+  "link": "https://clickhouse.com/blog/cursor-agents-with-langfuse",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "Shows how ClickHouse is architected under the hood to store and aggregate high-volume LLM agent traces and evaluation metrics.",
+  "points": [
+   "Langfuse v4 uses a wide ClickHouse observations table storing session tags, latency, cost, and token usage alongside spans.",
+   "ClickHouse enables sub-second aggregations for LLM eval dashboards and tracing APIs over high-cardinality metadata."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "b1d9a37e18712692": {
+  "feed": "LinkedIn Engineering",
+  "title": "From Member Tap to Backend: How LinkedIn Traced the Member Journey with OpenTelemetry",
+  "link": "https://www.linkedin.com/blog/engineering/infrastructure/from-membertap-to-backend-how-linkedin-traced-the-member-journey-with-opentelemetry",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "Solid high-scale distributed systems deep-dive on bridging client telemetry with backend OpenTelemetry traces at LinkedIn.",
+  "points": [
+   "Unifies client-side member journey telemetry with backend microservice distributed traces into an end-to-end OpenTelemetry pipeline.",
+   "Enables full path reconstruction from client touch events down through downstream database queries for latency debugging."
+  ]
+ },
+ "56259d9e9e192ae4": {
+  "feed": "Technica",
+  "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
+  "link": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Consumer gaming news and cloud gaming service pricing.",
+  "points": [
+   "Microsoft introduces per-hour cloud gaming fees for owned Xbox titles."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "off_topic"
+ },
+ "2ed22a61b2f19a0c": {
+  "feed": "OpenAI News",
+  "title": "Broad access through consistent standards",
+  "link": "https://openai.com/index/broad-access-through-consistent-standards",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Policy update and corporate safety PR lacking technical implementation details.",
+  "points": [
+   "OpenAI standardizes partner usage policies and enforcement rules for model access."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
+ },
+ "079d183cd70f6ac8": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Check for Anomalous AWS Access",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-check-for-anomalous-aws-access",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Basic checklist for rotating compromised AWS access keys.",
+  "points": [
+   "Guidance on checking CloudTrail for anomalous API calls and rotating AWS credentials."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "15a0005e94141608": {
+  "feed": "ClickHouse",
+  "title": "Front-end observability at scale: How OpenReplay captures billions of daily events in real time with ClickHouse",
+  "link": "https://clickhouse.com/blog/openreplay-front-end-observability-at-scale-clickhouse",
+  "date": "2026-10-22",
+  "tier": "worth_a_skim",
+  "why": "Practical engineering case study on scaling OLAP storage for real-time telemetry using ClickHouse.",
+  "points": [
+   "OpenReplay ingests billions of events (~6 TB/day) into a single vertically scaled ClickHouse node with sub-second query latency.",
+   "ClickHouse TTL configurations and materialized views eliminated multi-day manual PostgreSQL maintenance cycles."
+  ],
+  "published_on": "2026-10-21"
+ },
+ "3b4c4293f21feb06": {
+  "feed": "Technica",
+  "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
+  "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Enterprise IT survey report with no technical engineering content.",
+  "points": [
+   "Origina survey claims enterprises spend 28% of software budgets on unwanted upgrades."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "off_topic"
+ },
+ "9201054eeb4c743a": {
+  "feed": "OpenAI News",
+  "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+  "link": "https://openai.com/index/cloudflare-cyber",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Product marketing and partnership announcement between Cloudflare and OpenAI.",
+  "points": [
+   "Cloudflare integrates OpenAI Daybreak to analyze web traffic signals and suggest vulnerability mitigations."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
+ },
+ "b9b08305c03132f6": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Rotate MySQL Database Credentials",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-rotate-mysql-database-credentials",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Vendor-specific tactical runbook for rotating database passwords.",
+  "points": [
+   "Step-by-step instructions for regenerating MySQL passwords on Railway."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "91c9bfe279122e6e": {
+  "feed": "Technica",
+  "title": "Tesla profits drop 43% in Q3",
+  "link": "https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Quarterly corporate financial earnings report.",
+  "points": [
+   "Tesla Q3 profit dropped 43% year-over-year despite stable total revenue."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "off_topic"
+ },
+ "b2deaf97c98cf0ff": {
+  "feed": "OpenAI News",
+  "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+  "link": "https://openai.com/index/empowering-cyber-defenders",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "High-level policy paper and lobbying blueprint for cybersecurity regulation.",
+  "points": [
+   "OpenAI published policy recommendations urging governments and labs to strengthen frontier AI cyber defenses."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
+ },
+ "c052d83be3ad108a": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Rotate Redis Database Credentials",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-rotate-redis-database-credentials",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Tactical incident response steps for rotating Redis tokens.",
+  "points": [
+   "Walkthrough of regenerating Redis credentials and terminating unauthorized connections on Railway."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
+ },
+ "140d853f0e3f908f": {
+  "feed": "Technica",
+  "title": "The new human-crafted Apple Music brand matters in an AI world",
+  "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Consumer brand identity and design commentary.",
+  "points": [
+   "Opinion piece discussing Apple Music's updated visual branding and design language."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "off_topic"
+ },
+ "bc967896826d4c2a": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Rotate MongoDB Database Credentials",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-rotate-mongodb-database-credentials",
+  "date": "2026-10-22",
+  "tier": "low_priority",
+  "why": "Standard administrative credential rotation instructions.",
+  "points": [
+   "Procedure for rotating MongoDB database credentials on Railway."
+  ],
+  "published_on": "2026-10-22",
+  "reject_reason": "shallow"
  }
 }
