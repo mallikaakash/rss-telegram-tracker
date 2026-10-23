@@ -97893,5 +97893,89 @@
    "eMudhra, the certificate authority that issued eight intermediate TLS credentials so weak that anyone could mint certificates for any website or mail server—one had a private encryption key of just 4—said it’s getting out of the business. V. Srinivasan, chairman of India-based eMudhra Limited, cited increasing costs and complexities of compliance requirements—paired with the business generating just 1 percent of its revenue."
   ],
   "published_on": "2026-10-22"
+ },
+ "dc1383425a6f8192": {
+  "feed": "Technica",
+  "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
+  "link": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Elon Musk’s Starlink satellite service has played a pivotal role in supporting Ukraine’s successful resistance to Russia’s full-scale invasion for years. But with Starlink having become increasingly unreliable due to Musk’s political inclinations and the latest surprise disruptions to service in Ukraine, the Ukrainians and Europe as a whole are now facing urgent questions about how to move forward without it."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "8fe8e9967a375503": {
+  "feed": "ClickHouse",
+  "title": "How Shipsidekick replaced Neon with ClickHouse Managed Postgres for 10x faster queries and better reliability",
+  "link": "https://clickhouse.com/blog/shipsidekick-neon-to-clickhouse-managed-postgres",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> How Shipsidekick replaced Neon with ClickHouse Managed Postgres for 10x faster queries and better reliability | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "dce20cc45d999e8b": {
+  "feed": "Fly.io",
+  "title": "Feng Shui for Robots: The Fly MCP Server",
+  "link": "https://fly.io/blog/feng-shui-for-robots/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In Databricks’ State of AI Agents 2026 report, there’s a chart from Neon’s telemetry that’s somehow both mind-blowing and unsurprising. In October 2023, AI agents created 0.1% of the databases on Neon. By October 2025 they created 80% of them. We’re seeing this play out all across the infra landscape, including here at Fly.io, where agents have overtaken humans as our most common customer species."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "57c7fcd34eb28d8b": {
+  "feed": "Technica",
+  "title": "Review: Crystal Lake suffers a bit from its obsession with Pam Voorhees",
+  "link": "https://arstechnica.com/culture/2026/10/review-crystal-lake-suffers-a-bit-from-its-obsession-with-pam-voorhees/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Peacock’s series, Crystal Lake , doesn’t feel like a Friday the 13th movie when you first press play, even though it’s set up to be a prequel to the original film. (This review includes spoilers of the original Friday the 13th movie but avoids major Crystal Lake spoilers.) Instead, Crystal Lake strives to build a drama that’s half homage, half uncharted territory while giving a long-awaited backstory to Pamela Voorhees."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "7e041e1086ddc784": {
+  "feed": "Technica",
+  "title": "Rocket Report: SpaceX says no thanks to military launches; Spanish rocket nearly ready",
+  "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome to Edition 9.16 of the Rocket Report! Lots of SpaceX-related news this week including a couple of Thursday shockers. In one story, the company told the US Space Force thanks, but no thanks after being offered three military launch contracts. Then, on the civil space side of things, SpaceX's Starship may required up to 22 refuelings to support a lunar landing, a NASA safety panel said."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "c4119488f6b0dfec": {
+  "feed": "Technica",
+  "title": "Leaked Mass Effect: Universe trailer gives a taste of what we're all missing",
+  "link": "https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Those mourning yesterday's shuttering of highly praised and influential developer BioWare also had to deal with the cancellation of the next Mass Effect game, which was first teased back in 2020 . Today, we got our best look at what that game could have been with a short, leaked trailer for Mass Effect: Universe . In the roughly two-minute montage—which describes itself as \"in-engine footage from our small team\" that \"uses our pre-production assets\"—an ex-military officer wearing an N7 trenchcoat (similar to the one seen in that 2020 teaser) encounters an Asari at a bar."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "fbb542eeca400acb": {
+  "feed": "Technica",
+  "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
+  "link": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A 25-year-old German experimental photographer has won the 2026 Nikon Small World photomicrography competition with a striking image of droplets of ink being deposited on paper by an inkjet printer. Ole Bielfeldt beat out 1,802 other entries hailing from 69 different countries. Bielfeldt became interested in photomicrography during the COVID-19 lockdown after discovering an old microscope in his parents' attic."
+  ],
+  "published_on": "2026-10-22"
  }
 }
