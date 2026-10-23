@@ -97713,5 +97713,185 @@
    "Lord of the Rings: The Rings of Power returns next month for its third season. Prime Video unveiled a teaser earlier this year at San Diego Comic-Con, but we haven't heard much about the new season otherwise. We now have the official full trailer, and it's jam-packed with a rising Sauron, who is intent on conquering Middle-Earth with his army of Orcs—with the fractured opposition of elves, dwarves, and men scrambling to figure out how best to stop him."
   ],
   "published_on": "2026-10-22"
+ },
+ "47234b822080ed07": {
+  "feed": "Technica",
+  "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+  "link": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A security researcher has demonstrated a software-only partial jailbreak of the Switch 2, gaining \"userland\" access that he says \"lets us run homebrew, reverse engineer and mod Switch 2 games, back up save files off the Switch, and access most of the Switch 2’s peripherals through MMIO.\" The hack relies on the original Switch version of SmileBasic 4 , the latest in a long-running series of programming environments and interpreters that run on Nintendo hardware."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "15c1f8ef7a582594": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+  "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI and Poland’s NASK partner to advance AI safety and security | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 23, 2026 Global Affairs OpenAI and Poland’s NASK partner to advance AI safety and security Loading… Share OpenAI and Poland’s NASK National Research Institute have signed an agreement to explore collaboration on AI safety, security and technical research."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "95eb6975ad245049": {
+  "feed": "Hugging Face Blog",
+  "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+  "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox Enterprise Article Published October 22, 2026 Upvote 5 Tuhin Kundu tuhink Follow microsoft :last-child]:mb-0\"> Contents What the benchmark found, in sixty seconds Results: the dependability column moved Where the gains landed What dependability costs The training loop Offline policy-relative difficulty Estimating difficulty from limited probes One task, end to end What earns a reward Run the training stack Before you start Install Create the validated environment Prepare the training data Configure and inspect the launch Train Evaluate the checkpoint through OpenEnv Where this goes next Cite the paper This is the follow up to our first blog post, The Agent Said It Was Done."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "690aea53d2bd1733": {
+  "feed": "MIT News (AI)",
+  "title": "Q&A: How AI came to model the “messy” human mind",
+  "link": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Generative artificial intelligence models are rooted in ideas of mid-20th century engineers who thought some amount of irrationality was essential for a machine that could think like a human, contends Benjamin Lindquist, an assistant professor in the MIT History Section, who holds an MIT Schwarzman College of Computing shared position with the Department of Electrical Engineering and Computer Science (EECS) and is a principal investigator in the Laboratory for Information and Decision Systems."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "474d46551650ea30": {
+  "feed": "Simon Willison",
+  "title": "DE STAAT - FREEDOM (Official Music Video)",
+  "link": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding-a-bicycle"
+  ],
+  "published_on": "2026-10-22"
+ },
+ "8e4ffc7662a0f2fb": {
+  "feed": "Netflix TechBlog",
+  "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
+  "link": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Samartha Chandrashekar & Nick Parker You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that actually run containers) patched and up to date, so application teams get a consistent and reliable container experience."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "36d704729415bc14": {
+  "feed": "Modal Blog",
+  "title": "Introducing our Training API",
+  "link": "https://modal.com/blog/introducing-training-api",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing our Training API Skip to content Series D: $1B in annualized run rate, new funding, and where Modal goes next. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Product Kailash Ranganathan Micah Yong Oct 22, 2026 Introducing our Training API Thinking Machinesâ Tinker changed how people do post-training."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "c3419192c60356d5": {
+  "feed": "Sakana AI",
+  "title": "オントロジーを基盤に、意思決定・実行を支援するAIエージェントプラットフォーム「Sakana Aquarium」",
+  "link": "/aquarium-release/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sakana AIは、オントロジーを基盤に組織の意思決定とその実行を支援するAIエージェント構築・実行・運用プラットフォーム「Sakana Aquarium（以下、Aquarium）」を発表しました。 Aquariumは、組織に合わせたAIエージェントを効率的に構築し、安全に運用し続けるためのプラットフォームです。散らばる情報をオントロジーで共通の定義に整理し、その上でAIエージェントが情報の確認から判断、実行までを担います。 詳細は、 Aquariumのプラットフォーム紹介ページ をご覧ください。 Aquariumとは 何を根拠に、どのような手順で判断するかは、組織ごとに異なります。Aquariumは、こうした組織固有の判断の前提をAIが扱える形に整え、その上でAIエージェントを動かすためのプラットフォームです。中核となるのは、次の3つの仕組みです。 Ontology（オントロジー） ：組織の判断を支える知識・ルール・データを、それぞれの意味や相互の関係とともに体系化します。テーブルや文書など形式の異なる情報を、既存の保存先から移し替えることなくつなぎ、更新も反映するため、AIエージェントは最新の状況をもとに判断できます。 Governance（ガバナンス） ：データ・オントロジー・エージェントを統制します。アクセス権限や実行前の承認を設定し、判断の根拠から実行結果までを記録します。実行の速度・精度やモデルの利用状況も把握できます。 Managed Agents（エージェント実行基盤） ：オントロジー上の情報をもとに、AIエージェントがタスクを実行します。情報の参照、AIによる判断、関数の実行、人の承認をワークフローとして記述するだけでデプロイでき、エージェントのライフサイクル全体を管理します。 整備したデータとオントロジーは別のエージェントでもそのまま使えるため、オペレーションごとのエージェントを素早く立ち上げ、同じ基盤でまとめて管理できます。多くの魚がひとつの水槽で整えられた環境のもとに泳ぐ姿になぞらえ、「Aquarium（水族館）」と名付けました。 Aquariumで変わる組織の判断と行動 Aquariumが目指すのは、組織に蓄積された情報を、日々の判断と行動に活かせるようにすることです。一度整備したデータの接続とオントロジーは別のエージェントでもそのまま使えるため、AIの活用を組織の中で広げやすくなります。 組織のあらゆる情報を、意思決定に。 組織に蓄積されたデータや文書をAIが読み取り、幅広い情報を判断の材料にできます。 状況の変化を捉え、迅速な対応へ。 更新された情報をもとに状況を把握できるため、各所から情報を集め直す負担が減り、判断と対応に集中できます。 人の関与の下、AIが機敏に実行。 定められた権限とルールのもとで、AIが情報の確認から実行までを担い、必要な箇所で人が承認します。 判断の根拠をたどり、オペレーションを改善。 AIが参照した情報、判断、承認、実行結果を記録からたどり、手順の見直しにつなげられます。 AIソリューション構築の、これまでとこれから Sakana AIは設立以来、 推論時スケーリング や複数モデルの協調、 自己改善 など、モデルを大きくすること以外の方法でAIの能力を引き上げる研究に取り組んできました。並行して、金融をはじめ精度と説明責任が求められる領域で、AIの実装を重ねてきました（三菱UFJ銀行との AI融資エキスパート 、SMBCグループとの 提案書自動生成 、大和証券グループとの 共同開発 など）。 いずれの案件でも、FDE（Forward Deployed Engineer）が現場のデータや手順を理解し、ワークフローの設計から評価、精度改善までを担ってきました。その中で、データの接続や用語・判断基準の整理を案件ごとに一から繰り返している課題が見えてきました。Aquariumは、こうした作業を組織の中で共通して使える基盤にまとめたものです。開発には、Sakana AIでAI実装を担ってきたAREやFDEと、Palantir、Snowflake、Microsoft、AWSなどでデータ基盤やデータガバナンスの構築に携わってきたメンバーが取り組んでいます。 Aquariumは今後も機能の拡充を続けていきます。運用の中で生まれる修正や判断を取り込み、組織の変化に合わせてオントロジーとエージェントを更新し続ける仕組みや、エージェントの構築そのものをAIが支援する仕組みの開発も進めています。 あわせて、Sakana AIのFDEがお客様とともに構築と検証を重ね、ひとつのオペレーションから組織全体へと、AIの活用を広げていきます。活用事例も順次ご紹介する予定です。 解決したい課題やオペレーションの条件に応じて、導入・活用のご相談を承ります。Aquariumの詳細やお問い合わせについては、 プラットフォーム紹介ページ をご覧ください。 Sakana AI 日本でのAIの未来を、Sakana AIと一緒に切り拓いてくださる方を募集しています。当社の 採用情報 をご覧ください。"
+  ],
+  "published_on": "2026-10-22"
+ },
+ "f8a65aefb8bc668b": {
+  "feed": "Ramp",
+  "title": "Agentic Credit Analysis",
+  "link": "https://builders.ramp.com/post/credit-analysis-using-semantics",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Building an agentic pipeline that makes autonomous credit decisions from financial statements."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "9423c8063b2efc30": {
+  "feed": "Technica",
+  "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+  "link": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Personalized mRNA vaccines against melanoma—the deadliest form of skin cancer—reduced the risk of death or recurrence by 42 percent compared to standard treatment in a late-stage trial, pharmaceutical partners Merck and Moderna announced Thursday . The results are a significant advance in melanoma treatment; Merck and Moderna are already engaging with regulatory authorities to get the vaccine approved."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "27825e3003584012": {
+  "feed": "OpenAI News",
+  "title": "Build more responsive apps with the Decisions API",
+  "link": "https://openai.com/index/decisions-api",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Build more responsive apps with the Decisions API | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 22, 2026 Product Build more responsive apps with the Decisions API Fast, focused, low-cost decisions for any application."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "88e73b340e5cf3c4": {
+  "feed": "MIT News (AI)",
+  "title": "This design software reimagines everyday objects as self-aware devices",
+  "link": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As a child, you likely saw a few Disney movies depicting inanimate objects, such as clocks, cups, and toys, as interactive companions to humans — an act of pure magic, seemingly. But scientists at MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) are now doing something similar: transforming stationary items into self-aware tools that perceive and respond to human motion to complete a task."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "724bb9eec32d8ed7": {
+  "feed": "Technica",
+  "title": "Latest estimate for Starship launches required to support a Moon landing? 22.",
+  "link": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NASA does not have, nor want, nuclear weapons. But when it comes to a particular metric that is part of the Artemis Program to land people on the Moon, NASA guards a particular number like they are trying to prevent outsiders from cracking nuclear codes. I am speaking of the number of Starship launches required to fuel a Starship-based lunar lander in low-Earth orbit such that it can fly out to the Moon, land there, and return to lunar orbit."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "c7b5a9ccdc95aa92": {
+  "feed": "Technica",
+  "title": "Comcast loses more customers, claims other ISPs' cheap prices are \"irrational\"",
+  "link": "https://arstechnica.com/tech-policy/2026/10/comcast-loses-more-customers-claims-other-isps-cheap-prices-are-irrational/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Comcast reportedly plans significant job cuts in its cable division as the firm continues to lose residential broadband and TV customers. Comcast lost 144,000 residential broadband customers in Q3 2026, up from a 91,000-customer loss in the same quarter a year ago, the company said in its earnings report today. Comcast historically capitalized on a lack of competition for high-speed wired broadband."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "49672d89136f62eb": {
+  "feed": "Technica",
+  "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
+  "link": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "eMudhra, the certificate authority that issued eight intermediate TLS credentials so weak that anyone could mint certificates for any website or mail server—one had a private encryption key of just 4—said it’s getting out of the business. V. Srinivasan, chairman of India-based eMudhra Limited, cited increasing costs and complexities of compliance requirements—paired with the business generating just 1 percent of its revenue."
+  ],
+  "published_on": "2026-10-22"
  }
 }
