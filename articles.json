@@ -97977,5 +97977,173 @@
    "A 25-year-old German experimental photographer has won the 2026 Nikon Small World photomicrography competition with a striking image of droplets of ink being deposited on paper by an inkjet printer. Ole Bielfeldt beat out 1,802 other entries hailing from 69 different countries. Bielfeldt became interested in photomicrography during the COVID-19 lockdown after discovering an old microscope in his parents' attic."
   ],
   "published_on": "2026-10-22"
+ },
+ "d0c1a1316e2615d2": {
+  "feed": "Technica",
+  "title": "Crows can evaluate visual info twice as fast as mammals",
+  "link": "https://arstechnica.com/science/2026/10/crows-can-evaluate-visual-info-twice-as-fast-as-mammals/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Much of what we know about how a brain makes decisions comes from studying monkeys watching dots. in a task known as a random-dot-motion task, a cloud of flickering specks drifts weakly in one direction while the subject tries to determine whether—and in which direction— it’s moving. The task has shown that in the primate neocortex, neurons gather visual evidence over time, with their firing rates climbing until they cross a threshold, when the animal commits to a decision."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "298c8de07d18f423": {
+  "feed": "OpenAI News",
+  "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+  "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 23, 2026 Engineering Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II) How we optimized Azure Cosmos DB in our application storage platform, Habitat, to manage unprecedented growth."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "d5dfb55b012918e7": {
+  "feed": "Hugging Face Blog",
+  "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+  "link": "https://huggingface.co/blog/allenai/litpivot",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> LitPivot: Developing research ideas through dynamic contextualization within the literature landscape Enterprise Article Published October 23, 2026 Upvote 2 Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> Why pivoting is hard How LitPivot works Our findings Supporting scientific discovery 📄 Paper Encountering a new paper can change a research idea's trajectory."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "2a2662c6f33e7187": {
+  "feed": "Modal Blog",
+  "title": "Augment Your LiveKit Agent with Modal GPUs",
+  "link": "https://modal.com/blog/livekit-modal",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Augment Your LiveKit Agent with Modal GPUs Skip to content Series D: $1B in annualized run rate, new funding, and where Modal goes next. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Tutorials Ben Shababo Andrew Hinh Oct 15, 2026 Augment Your LiveKit Agent with Modal GPUs LiveKit and their Agents SDK are a popular choice for implementing WebRTC-based audio-video applications."
+  ],
+  "published_on": "2026-10-15"
+ },
+ "9616b977c1f5d430": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Recover Failing Deploys",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-recover-failing-deploys",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Mykal Machon This guide is part of Railway's response to the security disclosure published on October 21, 2026 . During the October 21st security incident, Railway stopped accepting new deployments while the platform was secured. Follow the Railway status page for the latest updates. Now that deployments are accepted again, some services need a manual push to catch up."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "c5f800f665bdee33": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+  "link": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and... The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and end-to-end performance tuning within TensorRT by customizing different optimizations for different models."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "e44aee2d4402241c": {
+  "feed": "Technica",
+  "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+  "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "US chip champion Intel was so confused by the US government ban on foreign-made robots that it requested and received a waiver “out of an abundance of caution.” The tech company wanted to make sure that it could continue using certain robotic vehicles in its US chip fabs. The uncertainty surrounding the Federal Communications Commission ban on certain foreign-made robots was revealed in the agency’s decision to grant Intel’s waiver request."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "6430909168b58685": {
+  "feed": "Hugging Face Blog",
+  "title": "Does Your Model Run on AWS Trainium? Look It Up",
+  "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Does Your Model Run on AWS Trainium? Look It Up Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Does Your Model Run on AWS Trainium?"
+  ],
+  "published_on": "2026-10-23"
+ },
+ "d671266dc23bea17": {
+  "feed": "Railway Blog",
+  "title": "Preliminary Report: Oct 21st Security Incident",
+  "link": "https://blog.railway.com/p/preliminary-report-october-security-incident",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Authors: Jacob Cooper & Angelo Saraceno Railway identified a security incident that ultimately led to unauthorized access to a subset of internal Railway systems. This is a follow up to the initial security disclosure published on October 21st . Our forensic investigation is still ongoing. Railway engaged external incident response experts and the authorities to assist in forensics."
+  ],
+  "published_on": "2026-10-22"
+ },
+ "314759a41f0d7f4b": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
+  "link": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Deploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For... Deploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For example, when NVIDIA TensorRT builds an engine, it makes interdependent decisions about graph-IR transformations, fusion, implementation selection, memory placement, and quantization."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "c8908ef22464e0d7": {
+  "feed": "Technica",
+  "title": "RFK Jr.’s vaccine injury clinic could damage NIH hospital, board warns",
+  "link": "https://arstechnica.com/health/2026/10/rfk-jr-s-vaccine-injury-clinic-could-damage-nih-hospital-board-warns/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a recent meeting of the board that oversees the National Institutes of Health's Clinical Center Research Hospital, chair Jack Leslie opened with cheerful introductions and gregarious chatter—then diverted from the agenda of the regularly scheduled meeting. He spent the next six minutes delivering a pointed rebuke of Health Secretary Robert F. Kennedy, warning that his anti-vaccine activities could tarnish the venerable hospital, often called the \"house of hope\" for patients with rare conditions or those who have exhausted all other options."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "3981bbd868a5b1d5": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+  "link": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions... Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions when obstacles block the path ahead."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "9311c26cfe2c15a7": {
+  "feed": "Technica",
+  "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
+  "link": "https://arstechnica.com/tech-policy/2026/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The New York Knicks organization sent employees a phishing email promising free championship rings in a test of its staff's ability to detect scams, The New York Times reported yesterday. “Congratulations, your Employee Championship Ring is here,” the email sent in late September said, instructing employees to click a link to make a selection from two ring designs."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "5228e8626507a60c": {
+  "feed": "Technica",
+  "title": "Everybody panic: A Valve developer said \"HLX\" in public",
+  "link": "https://arstechnica.com/gaming/2026/10/everybody-panic-a-valve-developer-said-hlx-in-public/",
+  "date": "2026-10-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Gamers still hoping against hope for a true follow-up to Half-Life 2 (after so, so many years ) may remember last year's flurry of speculation that Half-Life 3 was finally nearing completion . Amid all those rumors, though, we never got any official sign from anyone inside Valve that a Half-Life project was currently in development. That changed this week thanks to an apparent slip-up during a panel at GameSoundCon , an industry conference devoted to \"the art, technology, and business of game audio.\" In a panel devoted to Valve's use of open audio engines (captured in this Vimeo clip ), Valve composer and audio artist Mike Morasky let an interesting string of three letters slip while talking about the way the company implements high dynamic range (HDR) audio: Our HDR system is basically that's one of the three pieces that come together to make an HDR that you can easily optimize."
+  ],
+  "published_on": "2026-10-23"
  }
 }
