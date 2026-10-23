@@ -6163,5 +6163,93 @@
   "why": "",
   "points": [],
   "published_on": "2026-09-16"
+ },
+ "04569806c68d2e6b": {
+  "url": "https://dineshblog.com/blog/session-dl-053-pretrain-100m",
+  "title": "Training a 100M model: complete local recipe and budget · Dinesh",
+  "domain": "dineshblog.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-09"
+ },
+ "5db152a46a46a532": {
+  "url": "https://www.linkedin.com/posts/erik-aldape_excited-to-share-some-research-and-open-source-activity-7500626591316652032-mUof",
+  "title": "Excited to share some research and open-source a tool, PUFFER, that Xiao Y.t Xiao Y., Beren Millidge, and I designed to deal with some of the issues that arise when building an … | Erik Aldape, PhD",
+  "domain": "linkedin.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-01"
+ },
+ "92ca4b6b2555892b": {
+  "url": "https://dev.to/gtausa197svg/i-trained-my-own-150m-non-transformer-language-model-from-scratch-on-300m-tokens-warpstate-268m",
+  "title": "I trained my own 150M non-Transformer language model from scratch on 300M tokens — WarpState - DEV Community",
+  "domain": "dev.to",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-08-30"
+ },
+ "29d690f1c5cd24de": {
+  "url": "https://shanhuang.net/blog/training-a-200b-model-from-scratch-part-9",
+  "title": "[Training a 200B LLM from Scratch] 9/25: How Do We Turn the Material into a Training Recipe? | Shan Huang",
+  "domain": "shanhuang.net",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-22"
+ },
+ "c707e4e93f50ad53": {
+  "url": "https://blog.dailydoseofds.com/p/kv-cache-engineering-for-llm-serving",
+  "title": "KV Cache Engineering for LLM Serving - by Avi Chawla",
+  "domain": "blog.dailydoseofds.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-06"
+ },
+ "b81280f04608f410": {
+  "url": "https://dl.acm.org/doi/10.52202/085713-5280",
+  "title": "Synergistic tensor and pipeline parallelism | Proceedings of the 39th International Conference on Neural Information Processing Systems",
+  "domain": "dl.acm.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-08"
+ },
+ "1d3c58f5695ff19a": {
+  "url": "https://github.laiyagushi.com/milind2/vllm-k8s-deploy",
+  "title": "GitHub - milind2/vllm-k8s-deploy: Helm chart for deploying vLLM on GPU Kubernetes — startup probes tuned for slow model loads, correct GPU scheduling, sized /dev/shm, and GPU-utilization/queue-depth autoscaling. · GitHub",
+  "domain": "github.laiyagushi.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-08-28"
+ },
+ "cd2650c4273f7908": {
+  "url": "https://pyshine.com/lmdeploy/",
+  "title": "Two Engines, One Server - Inside InternLM/lmdeploy | PyShine",
+  "domain": "pyshine.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-15"
  }
 }
