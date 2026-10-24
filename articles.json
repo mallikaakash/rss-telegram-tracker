@@ -98345,5 +98345,32 @@
   ],
   "published_on": "2026-10-23",
   "reject_reason": "off_topic"
+ },
+ "a39371ef5d6b5c5a": {
+  "feed": "Technica",
+  "title": "The reactor meant to showcase nuclear’s comeback keeps hitting problems",
+  "link": "https://arstechnica.com/tech-policy/2026/10/safety-concerns-cloud-americas-flagship-nuclear-restart/",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "This is general news about nuclear power plant safety and regulation, completely off-topic from ML and backend engineering.",
+  "points": [
+   "US NRC warned Holtec over safety lapses and workplace culture issues while rushing to reopen Michigan's Palisades nuclear plant."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "off_topic"
+ },
+ "d1a3b4fa5d93fb49": {
+  "feed": "Sebastian Raschka (Ahead of AI)",
+  "title": "Building Reasoning Models from the Ground Up: A Video Course",
+  "link": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+  "date": "2026-10-24",
+  "tier": "must_read",
+  "why": "Directly targets priority #1 with an end-to-end, code-level guide to implementing reasoning post-training, RL, and inference scaling in PyTorch.",
+  "points": [
+   "Provides 11 hours of PyTorch-based coding walkthroughs implementing reasoning post-training, RL with verifiable rewards, distillation, and inference scaling.",
+   "Builds on top of a small pre-trained Qwen model, making the training techniques accessible on modest compute.",
+   "Frames reasoning models as the core execution engine inside agent harnesses, breaking down architecture and context management."
+  ],
+  "published_on": "2026-10-24"
  }
 }
