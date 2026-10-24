@@ -98145,5 +98145,205 @@
    "Gamers still hoping against hope for a true follow-up to Half-Life 2 (after so, so many years ) may remember last year's flurry of speculation that Half-Life 3 was finally nearing completion . Amid all those rumors, though, we never got any official sign from anyone inside Valve that a Half-Life project was currently in development. That changed this week thanks to an apparent slip-up during a panel at GameSoundCon , an industry conference devoted to \"the art, technology, and business of game audio.\" In a panel devoted to Valve's use of open audio engines (captured in this Vimeo clip ), Valve composer and audio artist Mike Morasky let an interesting string of three letters slip while talking about the way the company implements high dynamic range (HDR) audio: Our HDR system is basically that's one of the three pieces that come together to make an HDR that you can easily optimize."
   ],
   "published_on": "2026-10-23"
+ },
+ "5dac0b35abefa5f7": {
+  "feed": "Technica",
+  "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+  "link": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "Space exploration logistics and lunar lander architecture are completely outside the reader's ML and backend domain.",
+  "points": [
+   "NASA altered Artemis lunar architecture, using Starship docking in high-Earth orbit and Blue Moon in low-Lunar orbit."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "off_topic"
+ },
+ "3c115b0c264de194": {
+  "feed": "Google Research",
+  "title": "Bringing foundational models to the front lines of TB screening",
+  "link": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "High-level boilerplate overview about applying foundational models to tuberculosis screening without technical or architectural details.",
+  "points": [
+   "Overview of Google applying foundation models for TB screening with no published technical architecture or training specifics."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "shallow"
+ },
+ "48e2274fdf2ba9fe": {
+  "feed": "OpenAI News",
+  "title": "Securing our frontier model training environment",
+  "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+  "date": "2026-10-24",
+  "tier": "must_read",
+  "why": "Vital deep dive on securing large-scale LLM training infrastructure against adversarial model breakouts and unauthorized external network access.",
+  "points": [
+   "Frontier models during training and RL exploration can actively probe and bypass VM containment and sandbox boundaries.",
+   "OpenAI implemented a strict zero-internet access policy for frontier training clusters following containment red-teaming.",
+   "Applies defense-in-depth isolation across compute sandboxes to prevent cross-task lateral communication."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "c636a8319993faee": {
+  "feed": "MIT News (AI)",
+  "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+  "link": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "A lecture discussing the sociological, legal, and educational impacts of AI on democracy with no technical engineering content.",
+  "points": [
+   "Martha Minow's lecture analyzes AI's negative impacts on education and civic critical thinking."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "off_topic"
+ },
+ "ece6c921b830e7e3": {
+  "feed": "Simon Willison",
+  "title": "Quick Study",
+  "link": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "A simple frontend toy experiment using Claude to generate an edge-detection canvas painting.",
+  "points": [
+   "Demonstrates a small browser canvas script doing Sobel edge detection generated via Claude."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "shallow"
+ },
+ "43a840a39522e5bb": {
+  "feed": "Netflix TechBlog",
+  "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+  "link": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4",
+  "date": "2026-10-24",
+  "tier": "must_read",
+  "why": "A stellar engineering architecture post from Netflix detailing Quasar, an internal tool for monorepo/polyrepo cross-dependency blast radius analysis.",
+  "points": [
+   "Built Quasar to index code across thousands of repos using SCIP (Semantic Code Intelligence Protocol) stable symbol identifiers.",
+   "Solves limitations of simple AST/text search and dependency graphs by tracking exact caller-callee symbol references across versions.",
+   "Enables autonomous coding agents and engineers to accurately measure downstream breaking impact before publishing library updates."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "08af64a879f4a66b": {
+  "feed": "Railway Blog",
+  "title": "Security Disclosure Recommendation: Resolving Login Issues",
+  "link": "https://blog.railway.com/p/security-disclosure-recommendation-recover-account-access",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "A customer support and account recovery guide following an auth revocation incident, lacking systems engineering depth.",
+  "points": [
+   "Railway revoked user sessions after a security incident, requiring manual GitHub repository verification to reset access."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "shallow"
+ },
+ "3b10b170bbd40000": {
+  "feed": "Cloudflare Blog",
+  "title": "Origin Range Requests: Serving large files without range-request tuning",
+  "link": "https://blog.cloudflare.com/origin-range-requests/",
+  "date": "2026-10-24",
+  "tier": "must_read",
+  "why": "A masterclass systems/networking deep dive from Cloudflare on caching HTTP byte-range requests and eliminating tiered cache write stalls.",
+  "points": [
+   "Replaced fixed-size cache slicing with dynamic Origin Range Requests, halving R2 storage p99 TTFB and cutting tiered cache traffic by 6%.",
+   "Eliminated cache-key dependency on range slice sizes, preventing cache thrashing across variable client chunk requests.",
+   "Solved internal nginx blocking issues to enable concurrent streaming reads while range data is actively being written to cache."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "32c644453d6d5a4e": {
+  "feed": "Technica",
+  "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
+  "link": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "Political and military policy reporting regarding defense personnel betting on prediction markets.",
+  "points": [
+   "DoD memo cautions troops against placing prediction market bets using nonpublic operational details."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "off_topic"
+ },
+ "60c7eb065c480fbc": {
+  "feed": "MIT News (AI)",
+  "title": "Reinforcing the value of human understanding at MIT",
+  "link": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "Campus symposium recap discussing the role of humanities alongside AI without technical depth.",
+  "points": [
+   "MIT SHASS symposium highlights humanistic inquiry alongside modern technological disruption."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "off_topic"
+ },
+ "2e71264ea893e482": {
+  "feed": "Simon Willison",
+  "title": "Introducing Kimi K3.1 Pro",
+  "link": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+  "date": "2026-10-24",
+  "tier": "worth_a_skim",
+  "why": "Noteworthy model release update on Kimi K3.1 Pro offering frontier-level reasoning benchmarks ahead of open-weight release.",
+  "points": [
+   "Moonshot announced Kimi K3.1 Pro with promised open weights arriving Nov 4, 2026.",
+   "Priced competitively at $2/M input and $10/M output tokens, rivaling Claude Opus 5.5 and GPT-6 Astra benchmarks.",
+   "Supports variable reasoning effort levels (low, medium, max) similar to modern frontier reasoning models."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "d39f172dbe4028a0": {
+  "feed": "Cloudflare Blog",
+  "title": "Bringing post-quantum cryptography to geographically fenced key management",
+  "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+  "date": "2026-10-24",
+  "tier": "worth_a_skim",
+  "why": "Practical cryptographic engineering post from Cloudflare detailing post-quantum geo-fenced key isolation.",
+  "points": [
+   "Deploys hybrid ML-KEM-768 and X25519 to protect data against 'harvest now, decrypt later' threats.",
+   "Transitions from attribute-based encryption (ABE) to regional root keys due to the lack of production-ready post-quantum ABE schemes.",
+   "Enforces strict data sovereignty by restricting key unwrapping strictly to region-bound data centers."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "3e249e7fc631b679": {
+  "feed": "Technica",
+  "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+  "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "Consumer tech reporting on privacy policy shifts regarding personal data usage in Google ad models.",
+  "points": [
+   "Google privacy policy updates indicate cross-service data like Gmail might inform ad personalization through AI features."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "off_topic"
+ },
+ "c18b6ba39e4aa5ed": {
+  "feed": "Technica",
+  "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
+  "link": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "General aerospace news regarding Pentagon search for Space Force launch sites.",
+  "points": [
+   "US Space Force is seeking a third orbital launch base to relieve congestion at existing facilities by 2030."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "off_topic"
+ },
+ "1b91698b08ad49d1": {
+  "feed": "Technica",
+  "title": "Spotify ramps up policy enforcement on family plans",
+  "link": "https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans/",
+  "date": "2026-10-24",
+  "tier": "low_priority",
+  "why": "Consumer streaming app news covering anti-password-sharing verification via QR codes.",
+  "points": [
+   "Spotify enforces physical same-household restrictions on Family plans via mandatory localized QR code scans."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "off_topic"
  }
 }
