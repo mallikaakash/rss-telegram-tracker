@@ -6251,5 +6251,60 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-15"
+ },
+ "211674ec900a99c1": {
+  "url": "https://arxiv.org/html/2608.24949",
+  "title": "Demystifying Reinforcement Learning Post-Training of Language Models",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-24",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-08-28"
+ },
+ "91a134fe5a8cfda9": {
+  "url": "https://arxiv.org/abs/2610.25812",
+  "title": "[2610.25812] Is it RL or Data? A Controlled Comparison of GRPO and Rejection-Sampling Fine-Tuning",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-24",
+  "tier": "hidden_gem",
+  "why": "It provides a rigorous, pre-registered experimental comparison unpacking whether RL (GRPO) gains stem from the algorithm or merely data filtering versus rejection sampling.",
+  "points": [
+   "Finds GRPO outperforms rejection-sampling fine-tuning (RFT) by 10.9 points on held-out test problems even when RFT receives a 27-run hyperparameter sweep and GRPO uses default settings.",
+   "Shows curating prompts to only those solvable by the base model actively hurts RFT (-2.7 points) while mixed-difficulty data helps RFT (+3.7 points).",
+   "Demonstrates that an iterated-RFT setup resampling from the current policy recovers only about 30% (3.2 points) of the gap to GRPO.",
+   "Highlights that reported gains in RL sample efficiency are genuinely algorithmic rather than just an artifact of implicit data curation."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "1c3ae698f334bbdf": {
+  "url": "https://www.databricks.com/blog/reducing-qwen-training-time-6x-ai-runtime",
+  "title": "Reducing Qwen training time by 6x on AI Runtime | Databricks Blog",
+  "domain": "databricks.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-24",
+  "tier": "skip",
+  "why": "Vendor marketing blog post covering standard PyTorch training loop optimizations and FSDP2 setup.",
+  "points": [],
+  "published_on": "2026-10-14",
+  "reject_reason": "marketing"
+ },
+ "ff65d6f8d29cfa5a": {
+  "url": "https://marigold.run/blog/layered-architecture.html",
+  "title": "One GPU, Many Applications: Layering a Self-Hosted Inference Platform",
+  "domain": "marigold.run",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-24",
+  "tier": "solid_find",
+  "why": "A thoughtful system design breakdown of refactoring an open-source inference platform to decouple model weights, orchestration, and applications on a single GPU.",
+  "points": [
+   "Decouples monolithic single-tenant Docker deployments into three distinct layers: platform (orchestration/cache), package (declarations), and application (runtime container).",
+   "Centralizes weight storage and artifact downloading into an isolated cache gateway so applications share weights without redundant storage or network permissions.",
+   "Enables multi-tenancy on a single host/GPU without letting application lifecycles interfere with global platform state."
+  ],
+  "published_on": "2026-09-21"
  }
 }
