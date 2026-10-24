@@ -98372,5 +98372,41 @@
    "Frames reasoning models as the core execution engine inside agent harnesses, breaking down architecture and context management."
   ],
   "published_on": "2026-10-24"
+ },
+ "7e7984ce45f70d7a": {
+  "feed": "Technica",
+  "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+  "link": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
+  "date": "2026-10-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Every morning during the Martian spring and summer, a thin and extremely long cloud emerges, only to disappear again. The wispy formation appears near the volcano Arsia Mons and gradually elongates until it reaches over 1,000 miles—about the distance from New York to Kansas City as the crow flies—before dissipating. This cycle then repeats for several months."
+  ],
+  "published_on": "2026-10-24"
+ },
+ "3812b4d599bb7adb": {
+  "feed": "Simon Willison",
+  "title": "battledrones v14: Compass Rose, a four player map",
+  "link": "https://simonwillison.net/2026/Oct/24/battledrones/",
+  "date": "2026-10-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude Opus 4.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR codes."
+  ],
+  "published_on": "2026-10-24"
+ },
+ "6ca78a3868779056": {
+  "feed": "Technica",
+  "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
+  "link": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
+  "date": "2026-10-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Barnes Ice Cap sits on the central plateau of Baffin Island, in the Canadian Arctic. It is the last surviving fragment of the Laurentide Ice Sheet, the largest of the Pleistocene ice sheets, which at its peak buried most of Canada under two miles of ice and locked away around 80 meters of sea level. That remnant has now yielded direct physical evidence that ice sheets might have reversed their retreat and started to grow again thousands of years ago."
+  ],
+  "published_on": "2026-10-24"
  }
 }
