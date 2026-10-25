@@ -6306,5 +6306,49 @@
    "Enables multi-tenancy on a single host/GPU without letting application lifecycles interfere with global platform state."
   ],
   "published_on": "2026-09-21"
+ },
+ "8c89069e7d4c9eab": {
+  "url": "https://vidyal.ai/blog/attention-kernel/",
+  "title": "Writing an Attention Kernel: FlashAttention and Decode in Triton | VidyalAI",
+  "domain": "vidyal.ai",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-24"
+ },
+ "23173efc62e44e06": {
+  "url": "https://monishver11.github.io/blog/2026/llm-training-systems/",
+  "title": " Large-Scale LLM Training Systems - How and Why | Monishver Chandrasekaran ",
+  "domain": "monishver11.github.io",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-02"
+ },
+ "fbb37873b7207233": {
+  "url": "https://doi.org/10.5281/zenodo.23555614",
+  "title": "Distributed Tensor and Pipeline Parallelism for Trillion-Parameter Foundation Models: Communication Topologies, 3D/4D Parallel Scaling, and Fault-Tolerant Checkpointing | Zenodo",
+  "domain": "doi.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-22"
+ },
+ "3b68f151a9acea8e": {
+  "url": "https://vaibhav016.github.io/blog/2026/09/07/interrogating-the-gpu-part-7-building-at-scale/",
+  "title": "The GPU, Part 7: Building at Scale | Vaibhav Singh",
+  "domain": "vaibhav016.github.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-07"
  }
 }
