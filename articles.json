@@ -98422,5 +98422,18 @@
    "Touches on shifting hiring dynamics for junior technical talent at frontier labs like Anthropic."
   ],
   "published_on": "2026-10-25"
+ },
+ "0f0699fee62f739a": {
+  "feed": "Meta AI",
+  "title": "Facebook AI's co-teaching program to increase pathways into ...",
+  "link": "https://ai.meta.com/blog/facebook-ai-co-teaching-program-to-increase-pathways-ai-for-diverse-candidates",
+  "date": "2026-10-26",
+  "tier": "low_priority",
+  "why": "This is a corporate PR announcement regarding an educational co-teaching initiative with no technical deep-dive into ML architectures or systems.",
+  "points": [
+   "Facebook AI announced a co-teaching and funding partnership with U.S. universities to support graduate-level deep learning courses for underrepresented groups."
+  ],
+  "published_on": "2026-10-21",
+  "reject_reason": "marketing"
  }
 }
