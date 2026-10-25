@@ -98408,5 +98408,19 @@
    "Barnes Ice Cap sits on the central plateau of Baffin Island, in the Canadian Arctic. It is the last surviving fragment of the Laurentide Ice Sheet, the largest of the Pleistocene ice sheets, which at its peak buried most of Canada under two miles of ice and locked away around 80 meters of sea level. That remnant has now yielded direct physical evidence that ice sheets might have reversed their retreat and started to grow again thousands of years ago."
   ],
   "published_on": "2026-10-24"
+ },
+ "cb0e6541c41d00d8": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+  "link": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+  "date": "2026-10-25",
+  "tier": "worth_a_skim",
+  "why": "Provides industry commentary on the recent Kimi K3.1 Pro release, open-weight safety/cyber risks, and frontier lab hiring trends, though in a loose podcast transcript format.",
+  "points": [
+   "Analyzes the mixed reception and astroturfed marketing around Kimi K3.1 Pro despite strong benchmark scores.",
+   "Explores the debate on open-weight LLMs, cybersecurity risks (like LiteLLM incidents and abliterated models), and defensive cyber evals.",
+   "Touches on shifting hiring dynamics for junior technical talent at frontier labs like Anthropic."
+  ],
+  "published_on": "2026-10-25"
  }
 }
