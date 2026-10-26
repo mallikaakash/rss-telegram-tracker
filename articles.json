@@ -98482,5 +98482,243 @@
   "points": [
    "Prime Mega MoE: Fast Fused MoE Kernels for Training TRAINING 01 INFERENCE 02 COMPUTE 03 RESEARCH 04 DOCS BLOG CAREERS 39 Login Start training Prime Mega MoE: Fast Fused MoE Kernels for Training Mario Sieg OCT 23RD, 2026 • Research Prime Mega MoE: Fast Fused MoE Kernels for Training Mixture-of-experts (MoE) models scale more efficiently by activating only a subset of experts per token, but communication between GPUs can become a major bottleneck during training."
   ]
+ },
+ "3fc2009cb59fea8a": {
+  "tier": "reject",
+  "feed": "Modal Blog",
+  "title": "One compute platform for end-to-end training at Markov Robotics",
+  "link": "https://modal.com/blog/markov-case-study",
+  "date": "2026-10-27",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-09-04"
+ },
+ "830f46d3a8fd49bc": {
+  "feed": "Technica",
+  "title": "Boston Dynamics employees want to block sale of robot dogs to ICE",
+  "link": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hundreds of employees at the US robotics firm Boston Dynamics signed a petition calling for executives to halt a sale of the company’s robot dogs to US Immigrations and Customs Enforcement—but executives stood by the deal, while saying the robots would not be weaponized. On September 25, the Department of Homeland Security contract awarded $1.3 million to a Connecticut company called Radeco to provide ICE with modified versions of Boston Dynamics’ quadruped robots."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "954e49682b2f3346": {
+  "feed": "Apple ML Research",
+  "title": "GHARP: Real-Time Gaussian Head Animation from Large-Scale Reconstruction Prior",
+  "link": "https://machinelearning.apple.com/research/gharp-head-animation",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We present GHARP (Real-time Gaussian Head Animation from Large-scale Reconstruction Prior), a method that animates 3D human heads in real time from a few input images of a subject and a driving expression signal. We decouple the problem into an identity stage that builds a representation of the subject’s geometry and appearance offline, and an animation stage that predicts expression-dependent residuals on top of it at runtime."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "64d59b55a8fb8666": {
+  "feed": "OpenAI News",
+  "title": "ChatGPT’s expanding world of work",
+  "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ChatGPT’s expanding world of work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 26, 2026 Research ChatGPT’s expanding world of work OpenAI Economic Research releases data for researchers to explore questions on AI and labor more deeply."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "f3b6de314f91f101": {
+  "feed": "MIT News (AI)",
+  "title": "At New York Climate Week 2026, MIT connects with a global network",
+  "link": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Each year, Climate Week NYC brings together more than 100,000 people in more than 1,000 events across the city to discuss climate challenges, explore solutions, and spur action. Participants come from industry, academia, philanthropy, nonprofits, government, and finance and venture capital. And this year, the mix included a strong, cross-campus presence from MIT."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "34adadfb171aaca1": {
+  "feed": "Simon Willison",
+  "title": "Quoting Jason Koebler",
+  "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasingly, ChatGPT is telling people that have normal tech support problems that they have discovered something journalistically notable and that 404 Media, specifically, can help them."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "e411cc279f625911": {
+  "feed": "Netflix TechBlog",
+  "title": "Making Failure Diagnosis Reliable with Pensive AI",
+  "link": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm At Netflix, data and machine learning practitioners run millions of workloads each day across orchestration systems and compute engines such as Titus, Spark, Trino, and Druid. On peak days, roughly 100,000 workloads fail. When workloads fail, the failure itself is only the beginning."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "24048f96c62a7501": {
+  "feed": "Meta Engineering",
+  "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+  "link": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark , and our gigawatt-scale Prometheus cluster . Highlights IcePack & IceCube: Meta’s first liquid-cooled network rack with 102.4T switch blades (128×800G, Broadcom Tomahawk 6C and NVIDIA Spectrum-6 variants), running FBOSS."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "e60f4b374473a9fa": {
+  "feed": "Modal Blog",
+  "title": "How Legora runs 2,000 parallel agent evals on Modal Sandboxes",
+  "link": "https://modal.com/blog/how-legora-runs-thousand-scale-parallel-agent-evals-on-modal-sandboxes",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Legora runs 2,000 parallel agent evals on Modal Sandboxes Skip to content Series D: $1B in annualized run rate, new funding, and where Modal goes next. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Products Resources Customers Pricing Docs Log in Sign up Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Products Products Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Platform Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Resources Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Customer Stories Oct 19, 2026 How Legora runs 2,000 parallel agent evals on Modal Sandboxes Legora is an agentic system that supports lawyers in research, review, and drafting across complex matters."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "77bb3c16e9f4355c": {
+  "feed": "ClickHouse",
+  "title": "Expanding Customer Notifications for ClickHouse Managed Postgres",
+  "link": "https://clickhouse.com/blog/expanding-customer-notifications-managed-postgres",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Expanding Customer Notifications for ClickHouse Managed Postgres | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse. Available on AWS, GCP, and Azure."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "b9987900d6625ba2": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield",
+  "link": "https://developer.nvidia.com/blog/how-nvidia-minerva-turns-telemetry-chaos-into-peak-gpu-yield/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI Factories are some of the most technologically complex operational environments ever created. Hundreds of thousands of GPUs, NVIDIA Spectrum-X Ethernet... AI Factories are some of the most technologically complex operational environments ever created. Hundreds of thousands of GPUs, NVIDIA Spectrum-X Ethernet scale-out, scale-across and scale-in fabrics, NVIDIA NVLink scale-up fabrics, distributed schedulers, and multi-week training runs operate in continuous lockstep.These layers function as one production system even when different teams own their… Source"
+  ],
+  "published_on": "2026-10-26"
+ },
+ "f40066880a48ed2f": {
+  "feed": "Cursor",
+  "title": "Introducing the Agent SDK · Cursor",
+  "link": "https://cursor.com/blog/agent-sdk",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing the Agent SDK · Cursor Skip to content Cursor Models ↓ Grok Evals Product ↓ Agents Cloud Grok Bot ↗ Mobile Automations CLI Marketplace ↗ Review Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Models → Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / product Oct 20, 2026 · product Introducing the Agent SDK Rustam Lalkaka · 5 min read Table of Contents ↑ Build around your workflow Define everything in code Deploy agents wherever you need them Get started Software teams use agents defined as code to handle recurring work across the development lifecycle."
+  ]
+ },
+ "0838a8885736dbc7": {
+  "feed": "Technica",
+  "title": "Musk accuses Ukraine of violating Starlink terms with deadly drone strikes",
+  "link": "https://arstechnica.com/tech-policy/2026/10/musk-accuses-ukraine-of-violating-starlink-terms-with-deadly-drone-strikes/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Elon Musk accused Ukraine of violating Starlink terms of service by using it for lethal drone strikes. Musk said Ukraine used the Starlink commercial service for offensive drone strikes. Musk's comment on Saturday came after SpaceX imposed a restriction preventing Ukraine from using the satellite technology on drones flying above certain speeds. One current and one former Ukraine official denied Musk's accusation and said previous limits imposed by SpaceX already prevented Ukraine's military from using Starlink in the way Musk described."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "8f2f08b6e197805b": {
+  "feed": "OpenAI News",
+  "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+  "link": "https://openai.com/index/openai-cut-incident-investigation",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Ultrafast cut incident investigation from hours to minutes at OpenAI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 26, 2026 OpenAI on OpenAI How Ultrafast cut incident investigation from hours to minutes at OpenAI Loading… Share Finding the needle in the haystack Finding the needle in the haystack Fast responses in under 30 seconds Working as a copilot Finding the needle in the haystack Fast responses in under 30 seconds Working as a copilot This is part of our series sharing internal examples of how OpenAI is using its own technology and APIs."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "3a95764b110b99c0": {
+  "feed": "Netflix TechBlog",
+  "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+  "link": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna Pulido , Rebecka Swe , Sanford Holsapple Introduction Clips in the Netflix mobile app. At Netflix, a crucial part of our mission is ensuring our content looks stunning on any device."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "8e25e92e127bf58f": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "How NVIDIA Mission Control 2.5 Brings Autonomous Recovery to Kubernetes",
+  "link": "https://developer.nvidia.com/blog/how-nvidia-mission-control-2-5-brings-autonomous-recovery-to-kubernetes/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Training large-scale AI models on thousands of GPUs is a high-stakes operation where monitoring and automation must be built-in to optimize cluster resiliency... Training large-scale AI models on thousands of GPUs is a high-stakes operation where monitoring and automation must be built-in to optimize cluster resiliency and uptime at scale. This concept isn’t new to data center operators who have measured mean-time-to-repair (MTTR) and mean-time-between-failure (MTBF) long before AI factories existed."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "71784ce3534e69e4": {
+  "feed": "Technica",
+  "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
+  "link": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Highway thieves are using sophisticated digital tactics that investigators worry make it easy to rob trucks carrying millions in expensive data center equipment. NBC News spoke to “several industry leaders, consultants, and investigators advising law enforcement” offices probing the biggest thefts yet and reported that since June, thieves have “made away with more than $100 million in data center freight.” Here’s how they said thieves get away with it: First, thieves hack freight brokers’ accounts on shipment-listing websites and post fake shipments to lure real bids, then send a malicious link to any trucking companies that respond."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "1758535ac6be3e6b": {
+  "feed": "OpenAI News",
+  "title": "Introducing GPT-6.1 Terra",
+  "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing GPT-6.1 Terra | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI GPT-6.1 Terra From visual understanding to action From visual understanding to action A significant step up on factuality and coding Safety and alignment Pricing and availability From visual understanding to action A significant step up on factuality and coding Safety and alignment Pricing and availability Delivering fast and capable computer use at scale We’re introducing GPT-6.1 Terra , a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "ec2a619f2f91a307": {
+  "feed": "Technica",
+  "title": "Some iPhone Duo screens are already failing",
+  "link": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The iPhone Duo launched last week, offering anyone willing to spend $2,000 a chance to experience Apple's first foldable phone. For some early buyers, the morning after isn't going great. Despite the company's big talk about its \"precision-engineered\" hinge, some devices appear to have a hardware flaw that destroys the device's impressive internal display within hours (or minutes) of use."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "082e41c8ec7149dd": {
+  "feed": "Technica",
+  "title": "F1 in Texas: The American race that fans love to attend",
+  "link": "https://arstechnica.com/cars/2026/10/f1-in-texas-one-more-race-and-well-have-a-new-champion/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Audi provided flights from Washington, DC, to Austin, Texas, and accommodation so Ars could attend the US Grand Prix. Ars does not accept paid editorial content. AUSTIN, Texas—Formula 1 returned to US shores this weekend with its annual visit to the Circuit of the Americas in Austin, Texas. Once in danger of falling off the calendar due to lack of interest, it’s now one of the most popular tracks on the calendar and, of the US’s three races, it's the one the real fans mostly attend."
+  ],
+  "published_on": "2026-10-26"
  }
 }
