@@ -98447,5 +98447,40 @@
    "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example."
   ],
   "published_on": "2026-10-25"
+ },
+ "9ffa0ff77ad0a743": {
+  "feed": "Technica",
+  "title": "From impulse purchase to pocket studio: The M-Vave FM-1",
+  "link": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/",
+  "date": "2026-10-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The M-Vave FM-1 is exactly the kind of device I have a weakness for. I may not have an intended use for the frequency-modulation synthesizer, but when a low price meets a high coolness factor, I'm powerless to keep it out of my cart. Initially billed as a pocket cousin of the famous Yamaha DX7 synthesizer, the FM-1 is a bargain at only $59.72 after fees."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "eb7708c5f537ab79": {
+  "feed": "OpenAI News",
+  "title": "How Fanatics and OpenAI streamline the fan experience",
+  "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+  "date": "2026-10-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Fanatics and OpenAI streamline the fan experience | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 26, 2026 How Fanatics and OpenAI streamline the fan experience New “Shop the Look” online commerce feature launches in time for fall sports calendar."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "ccb49124cd21ed91": {
+  "feed": "Prime Intellect",
+  "title": "Prime Mega MoE: Fast Fused MoE Kernels for Training",
+  "link": "https://www.primeintellect.ai/blog/prime-mega-moe",
+  "date": "2026-10-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Prime Mega MoE: Fast Fused MoE Kernels for Training TRAINING 01 INFERENCE 02 COMPUTE 03 RESEARCH 04 DOCS BLOG CAREERS 39 Login Start training Prime Mega MoE: Fast Fused MoE Kernels for Training Mario Sieg OCT 23RD, 2026 • Research Prime Mega MoE: Fast Fused MoE Kernels for Training Mixture-of-experts (MoE) models scale more efficiently by activating only a subset of experts per token, but communication between GPUs can become a major bottleneck during training."
+  ]
  }
 }
