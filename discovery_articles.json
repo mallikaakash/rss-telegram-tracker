@@ -6350,5 +6350,17 @@
   "why": "",
   "points": [],
   "published_on": "2026-09-07"
+ },
+ "912a079cded069f7": {
+  "url": "https://aitop.news/item/28071",
+  "title": "Curvature-Conditioned Multiscale Momentum for LLM Pretraining | AITOP",
+  "domain": "aitop.news",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-26",
+  "tier": "skip",
+  "why": "This is an automated news aggregator page merely reposting an arXiv abstract rather than providing original engineering analysis or the full paper.",
+  "points": [],
+  "published_on": "2026-08-28",
+  "reject_reason": "shallow"
  }
 }
