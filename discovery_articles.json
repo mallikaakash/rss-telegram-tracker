@@ -6362,5 +6362,27 @@
   "points": [],
   "published_on": "2026-08-28",
   "reject_reason": "shallow"
+ },
+ "4e3829836e470657": {
+  "url": "https://vidyal.ai/blog/pretraining-scaling-laws/",
+  "title": "Pretraining: Data, Scaling Laws and Training at Scale | VidyalAI",
+  "domain": "vidyal.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-27",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-23"
+ },
+ "7897894c8138adc7": {
+  "url": "https://github.com/yibie/awesome-jev/blob/main/README.md",
+  "title": "awesome-jev/README.md at main · yibie/awesome-jev · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-27",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-17"
  }
 }
