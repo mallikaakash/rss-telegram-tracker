@@ -98900,5 +98900,267 @@
    "The Internet can feel invisible when everything is working normally. But when connectivity breaks, the many systems it depends upon become evident in an instant. Because Cloudflare’s global network handles more than 20% of the web’s traffic, it offers a unique perspective of how Internet traffic is behaving. When failures in infrastructure, power, policy, or security disrupt access to the Internet, Cloudflare Radar can observe the impact by monitoring traffic to our customers."
   ],
   "published_on": "2026-10-27"
+ },
+ "ea8e0b180ce620e8": {
+  "tier": "reject",
+  "feed": "Hugging Face Blog",
+  "title": "Kimina-Prover-RL",
+  "link": "https://huggingface.co/blog/project-numina/kimina-prover-rl",
+  "date": "2026-10-28",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2025-08-14"
+ },
+ "bc1cffd3eb242a78": {
+  "tier": "reject",
+  "feed": "Hugging Face Blog",
+  "title": "Kimina-Prover: Applying Test-time RL Search on Large Formal Reasoning Models",
+  "link": "https://huggingface.co/blog/project-numina/kimina-prover",
+  "date": "2026-10-28",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2025-07-10"
+ },
+ "04011d5a5c5a0433": {
+  "feed": "Technica",
+  "title": "Ford simplifies using your EV as a home battery with the $30K Fathom",
+  "link": "https://arstechnica.com/cars/2026/10/ford-builds-bidrectional-charging-into-its-30k-electric-truck/",
+  "date": "2026-10-28",
+  "tier": "low_priority",
+  "why": "Consumer automotive review of an electric pickup truck completely unrelated to ML and backend infrastructure.",
+  "points": [
+   "Ford introduces the sub-$30k Fathom EV with a built-in inverter for vehicle-to-home AC power."
+  ],
+  "published_on": "2026-10-27",
+  "reject_reason": "off_topic"
+ },
+ "91ab09be6954d23d": {
+  "feed": "Google Research",
+  "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+  "link": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "Directly tackles continual learning and catastrophic forgetting in LLMs, though the provided text is primarily header boilerplate.",
+  "points": [
+   "Proposes a bio-inspired 'sleep phase' during LLM training to consolidate acquired knowledge.",
+   "Aims to prevent catastrophic forgetting during continual model updating without requiring full pretraining runs."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "d17d13a0006a776d": {
+  "feed": "Google DeepMind",
+  "title": "Genie 4: A new generation of world simulation",
+  "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "Strategically notable world model release from DeepMind with implications for agent simulation and robotic pretraining.",
+  "points": [
+   "Genie 4 generates real-time interactive virtual worlds from prompts without pre-rendered game assets.",
+   "Positions generative world models as continuous, infinite training environments for autonomous agents and robotics."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "a3a879144b2984ac": {
+  "feed": "OpenAI News",
+  "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+  "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+  "date": "2026-10-28",
+  "tier": "low_priority",
+  "why": "Enterprise partnership announcement between OpenAI and Oracle with no technical depth or architectural detail.",
+  "points": [
+   "OpenAI and Oracle announce enterprise integrations bringing Oracle workflows into ChatGPT."
+  ],
+  "published_on": "2026-10-27",
+  "reject_reason": "marketing"
+ },
+ "db98bf59a6c7e420": {
+  "feed": "Hugging Face Blog",
+  "title": "Build specialized multimodal models with LFM3",
+  "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+  "date": "2026-10-28",
+  "tier": "must_read",
+  "why": "Covers small language model architecture and training recipes across modalities on a single lightweight backbone.",
+  "points": [
+   "Introduces a new tri-hybrid backbone allowing LFM3-1.7B to surpass LFM2.5-2.6B using 35% fewer parameters.",
+   "Unifies six 2B-class modality models (text, vision, audio, omni, action) fine-tunable on a single GPU.",
+   "Text model is optimized for edge deployment, consuming only ~1 GB at 4-bit quantization."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "a4839def38447fd5": {
+  "feed": "Meta Engineering",
+  "title": "PrivacyLib: Privacy Controls at the Data Access Boundary",
+  "link": "https://engineering.fb.com/2026/10/27/security/privacylib/",
+  "date": "2026-10-28",
+  "tier": "must_read",
+  "why": "Meta engineering deep-dive on scaling privacy boundary checks to billions per second across distributed backend clients.",
+  "points": [
+   "Decouples data access enforcement from underlying storage engines by deploying a common client-side library across hundreds of systems.",
+   "Handles billions of checks per second using split enforcing (blocking) and observing (telemetry) modules.",
+   "Propagates AI agent session context through tool calls to dynamically govern internal agent data access."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "36b14cfd928b1c58": {
+  "feed": "Stripe Blog",
+  "title": "How the fastest-growing enterprises on Stripe scale globally",
+  "link": "https://stripe.com/blog/how-the-fastest-growing-enterprises-on-stripe-scale-globally",
+  "date": "2026-10-28",
+  "tier": "low_priority",
+  "why": "High-level Stripe marketing page for enterprise sales, devoid of engineering details.",
+  "points": [
+   "Promotional overview of Stripe's suite of enterprise global payments and billing features."
+  ],
+  "published_on": "2026-10-27",
+  "reject_reason": "marketing"
+ },
+ "57f26011589097d5": {
+  "feed": "ClickHouse",
+  "title": "The Agentic Analytics Benchmark: ranking tables and labeling failures with Jev",
+  "link": "https://clickhouse.com/blog/agentic-analytics-benchmark-jev",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "Useful look at using specialized low-latency classification models to evaluate agent failures and rank database tables.",
+  "points": [
+   "Jev operates as a fast non-generative classifier returning calibrated rubric scores in 70–500 ms.",
+   "Ranks warehouse tables per question at nDCG@10 0.951 in 0.4s without task-specific fine-tuning.",
+   "Identifies wrong data selection and entity resolution as primary drivers of agentic analytical failures."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "ba44bc49307ace3a": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "NVIDIA RTX Spark Powers Neural Rendering and AI Characters in Games",
+  "link": "https://developer.nvidia.com/blog/nvidia-rtx-spark-powers-neural-rendering-and-ai-characters-in-games/",
+  "date": "2026-10-28",
+  "tier": "low_priority",
+  "why": "Hardware marketing announcement for Windows AI PC workstations without system-level performance analysis.",
+  "points": [
+   "NVIDIA unveils RTX Spark combining Blackwell GPUs, Grace CPUs, and up to 128 GB unified memory for client AI."
+  ],
+  "published_on": "2026-10-27",
+  "reject_reason": "marketing"
+ },
+ "a60188d04998fded": {
+  "feed": "Technica",
+  "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+  "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "Provides industry perspective and utility analysis on DeepMind's Genie 4 world model release.",
+  "points": [
+   "Generates interactive video frame-by-frame in real-time guided by prompt conditioning.",
+   "Highlights the shift toward using world simulators to produce synthetic training data for embodied robotics."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "c6099fc8919f3d54": {
+  "feed": "OpenAI News",
+  "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+  "link": "https://openai.com/index/anima",
+  "date": "2026-10-28",
+  "tier": "low_priority",
+  "why": "Promotional startup case study on healthcare call processing without underlying infrastructure insights.",
+  "points": [
+   "Anima uses GPT-6 and GPT-Live for clinical intake workflows, reducing phone wait times by 75%."
+  ],
+  "published_on": "2026-10-23",
+  "reject_reason": "marketing"
+ },
+ "34370e88c88d0cd4": {
+  "feed": "Hugging Face Blog",
+  "title": "Can we trust LLMs to judge whether a research idea is novel?",
+  "link": "https://huggingface.co/blog/allenai/novelty-bench",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "Rigorous LLM evaluation study exposing the volatility and brittleness of using frontier models as judges.",
+  "points": [
+   "Evaluates frontier models (GPT-5, Claude Sonnet/Opus) on assessing scientific novelty against prior art.",
+   "Minor prompt wording shifts cause over 50 percentage point variations in comparative novelty accuracy.",
+   "Additional test-time reasoning and retrieval pipelines do not reliably improve novelty scoring consistency."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "7838a15d1ede7e0b": {
+  "feed": "Meta Engineering",
+  "title": "Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape",
+  "link": "https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "Practical engineering survey detailing how AI coding agents interact with Python type checkers and generate code.",
+  "points": [
+   "AI tool involvement in typing surged, with 42.5% of respondents using AI to write annotations.",
+   "Common failure mode: coding agents suppress type checker warnings using `#type: ignore` or fallback `object` types.",
+   "Highlights the ongoing pain point of missing type stubs in core data science libraries."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "2a5c8ec1ffaebb29": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages",
+  "link": "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "Covers post-training adaptation of open Nemotron models for localized and domain-specific knowledge.",
+  "points": [
+   "Discusses post-training pipelines to adapt base LLMs to jurisdiction-specific rules and cultural context.",
+   "Emphasizes the necessity of localized synthetic datasets and evaluation rubrics over simple language translation."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "8b7c3e50fad15c06": {
+  "feed": "Technica",
+  "title": "From cheap tool to premium subscription: When a beloved app's price skyrockets",
+  "link": "https://arstechnica.com/gadgets/2026/10/from-cheap-tool-to-premium-subscription-when-a-beloved-apps-price-skyrockets/",
+  "date": "2026-10-28",
+  "tier": "low_priority",
+  "why": "Commentary on consumer software pricing strategies with zero technical relevance.",
+  "points": [
+   "Discusses consumer backlash following steep subscription price increases for Evernote."
+  ],
+  "published_on": "2026-10-27",
+  "reject_reason": "off_topic"
+ },
+ "538db15dde4576d1": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+  "link": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/",
+  "date": "2026-10-28",
+  "tier": "must_read",
+  "why": "Directly targets MoE architecture decoding bottlenecks and hardware-level inference optimization.",
+  "points": [
+   "Profiles batch-size-1 decoding on DGX Spark, demonstrating execution time is dominated by memory-bound weight reads.",
+   "Pinpoints MoE expert routing computation and the final vocabulary projection layer as the two primary bottlenecks.",
+   "Explores targeted kernel and memory optimizations to accelerate decoding throughput for MoE models."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "5a9a13a86b6279d1": {
+  "feed": "Technica",
+  "title": "Apple iPhone Duo review: Two screens, two experiences, two thousand dollars",
+  "link": "https://arstechnica.com/gadgets/2026/10/apple-iphone-duo-review-two-screens-two-experiences-two-thousand-dollars/",
+  "date": "2026-10-28",
+  "tier": "low_priority",
+  "why": "Consumer smartphone hardware review with no relevance to backend systems or machine learning.",
+  "points": [
+   "Reviews Apple's dual-screen foldable iPhone Duo priced at $1,999."
+  ],
+  "published_on": "2026-10-27",
+  "reject_reason": "off_topic"
+ },
+ "f85a05bebb589c52": {
+  "feed": "Technica",
+  "title": "Sculpture re-creates odd optical effects of famed Lycurgus Cup",
+  "link": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/",
+  "date": "2026-10-28",
+  "tier": "low_priority",
+  "why": "Historical archaeology and material physics piece unrelated to software engineering or machine learning.",
+  "points": [
+   "Researchers reproduce the dichroic optical effects of the Roman Lycurgus Cup using gold and silver nanoparticles."
+  ],
+  "published_on": "2026-10-27",
+  "reject_reason": "off_topic"
  }
 }

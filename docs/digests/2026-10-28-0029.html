@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Wed 28 Oct 2026, 00:29 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Wed 28 Oct 2026, 00:29 IST &middot; 10 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; NVIDIA explores memory-bound MoE inference bottlenecks, while Liquid AI details its tri-hybrid LFM3 family and Meta shares its PrivacyLib boundary architecture.</div><div class="section">Must read &middot; 3</div><div class="card"><span class="badge must">Must read</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/LiquidAI/lfm3">Build specialized multimodal models with LFM3</a></h2><div class="why">Covers small language model architecture and training recipes across modalities on a single lightweight backbone.</div><ul><li>Introduces a new tri-hybrid backbone allowing LFM3-1.7B to surpass LFM2.5-2.6B using 35% fewer parameters.</li><li>Unifies six 2B-class modality models (text, vision, audio, omni, action) fine-tunable on a single GPU.</li><li>Text model is optimized for edge deployment, consuming only ~1 GB at 4-bit quantization.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Meta Engineering</span><h2><a href="https://engineering.fb.com/2026/10/27/security/privacylib/">PrivacyLib: Privacy Controls at the Data Access Boundary</a></h2><div class="why">Meta engineering deep-dive on scaling privacy boundary checks to billions per second across distributed backend clients.</div><ul><li>Decouples data access enforcement from underlying storage engines by deploying a common client-side library across hundreds of systems.</li><li>Handles billions of checks per second using split enforcing (blocking) and observing (telemetry) modules.</li><li>Propagates AI agent session context through tool calls to dynamically govern internal agent data access.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">NVIDIA Technical Blog</span><h2><a href="https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark/">3 Ways to Boost MoE Inference on NVIDIA DGX Spark</a></h2><div class="why">Directly targets MoE architecture decoding bottlenecks and hardware-level inference optimization.</div><ul><li>Profiles batch-size-1 decoding on DGX Spark, demonstrating execution time is dominated by memory-bound weight reads.</li><li>Pinpoints MoE expert routing computation and the final vocabulary projection layer as the two primary bottlenecks.</li><li>Explores targeted kernel and memory optimizations to accelerate decoding throughput for MoE models.</li></ul></div><div class="section">Worth a skim &middot; 7</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Google Research</span><h2><a href="https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/">The sleep framework: A new way for LLMs to retain knowledge in continual learning</a></h2><div class="why">Directly tackles continual learning and catastrophic forgetting in LLMs, though the provided text is primarily header boilerplate.</div><ul><li>Proposes a bio-inspired &#x27;sleep phase&#x27; during LLM training to consolidate acquired knowledge.</li><li>Aims to prevent catastrophic forgetting during continual model updating without requiring full pretraining runs.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Google DeepMind</span><h2><a href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/">Genie 4: A new generation of world simulation</a></h2><div class="why">Strategically notable world model release from DeepMind with implications for agent simulation and robotic pretraining.</div><ul><li>Genie 4 generates real-time interactive virtual worlds from prompts without pre-rendered game assets.</li><li>Positions generative world models as continuous, infinite training environments for autonomous agents and robotics.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">ClickHouse</span><h2><a href="https://clickhouse.com/blog/agentic-analytics-benchmark-jev">The Agentic Analytics Benchmark: ranking tables and labeling failures with Jev</a></h2><div class="why">Useful look at using specialized low-latency classification models to evaluate agent failures and rank database tables.</div><ul><li>Jev operates as a fast non-generative classifier returning calibrated rubric scores in 70–500 ms.</li><li>Ranks warehouse tables per question at nDCG@10 0.951 in 0.4s without task-specific fine-tuning.</li><li>Identifies wrong data selection and entity resolution as primary drivers of agentic analytical failures.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/">DeepMind unveils Genie 4 world model promising more realistic physics and humans</a></h2><div class="why">Provides industry perspective and utility analysis on DeepMind&#x27;s Genie 4 world model release.</div><ul><li>Generates interactive video frame-by-frame in real-time guided by prompt conditioning.</li><li>Highlights the shift toward using world simulators to produce synthetic training data for embodied robotics.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/allenai/novelty-bench">Can we trust LLMs to judge whether a research idea is novel?</a></h2><div class="why">Rigorous LLM evaluation study exposing the volatility and brittleness of using frontier models as judges.</div><ul><li>Evaluates frontier models (GPT-5, Claude Sonnet/Opus) on assessing scientific novelty against prior art.</li><li>Minor prompt wording shifts cause over 50 percentage point variations in comparative novelty accuracy.</li><li>Additional test-time reasoning and retrieval pipelines do not reliably improve novelty scoring consistency.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Meta Engineering</span><h2><a href="https://engineering.fb.com/2026/10/27/developer-tools/python-typing-survey-2026-ai-tools-checker-landscape/">Python Typing Survey 2026: AI Tools and the Shifting Checker Landscape</a></h2><div class="why">Practical engineering survey detailing how AI coding agents interact with Python type checkers and generate code.</div><ul><li>AI tool involvement in typing surged, with 42.5% of respondents using AI to write annotations.</li><li>Common failure mode: coding agents suppress type checker warnings using `#type: ignore` or fallback `object` types.</li><li>Highlights the ongoing pain point of missing type stubs in core data science libraries.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">NVIDIA Technical Blog</span><h2><a href="https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-to-know-local-rules-not-just-local-languages/">Fine-Tuning NVIDIA Nemotron to Know Local Rules, Not Just Local Languages</a></h2><div class="why">Covers post-training adaptation of open Nemotron models for localized and domain-specific knowledge.</div><ul><li>Discusses post-training pipelines to adapt base LLMs to jurisdiction-specific rules and cultural context.</li><li>Emphasizes the necessity of localized synthetic datasets and evaluation rubrics over simple language translation.</li></ul></div></body></html>
