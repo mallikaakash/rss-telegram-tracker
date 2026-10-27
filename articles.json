@@ -98864,5 +98864,41 @@
    "The iPhone Duo may be a bit of a risk right now , but there's a new mid-size Apple touchscreen device that might do the job. Starting at $699, the 8th-gen iPad mini price has gone up, but there are some big changes. Apple says the refreshed 8th-gen iPad mini marks the most significant update ever for its petite tablet, featuring an OLED screen and the A20 Pro chip that we first saw in the iPhone 18 Pro and iPhone Duo."
   ],
   "published_on": "2026-10-26"
+ },
+ "6a47f3e0c8812311": {
+  "feed": "Technica",
+  "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
+  "link": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Elon Musk’s “flying” Roadster jumped and flipped through the air this month in a stunt that went viral around the world. But his bigger bet is on changing the way Tesla makes money—and the wider car industry is scrambling to catch up. Five days after the spectacle, made possible by compressed-gas thrusters developed by Musk’s SpaceX, he revealed the companies were exploring a merger that could accelerate his push into autonomous driving."
+  ],
+  "published_on": "2026-10-26"
+ },
+ "8287856c911befb1": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+  "link": "https://blog.cloudflare.com/php-ctf/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last week was one for the Internet security history books. First, eight eMudhra intermediate certificates were compromised , creating the possibility of forged certificates that could be used to impersonate servers. Then came php2shell : serious vulnerabilities in PHP, the runtime behind a large portion of the Web. Cloudflare worked around the clock as these events unfolded to protect our customers and help protect the Internet."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "1e587b8eb99f1d75": {
+  "feed": "Cloudflare Blog",
+  "title": "What took the Internet offline in Q3 2026",
+  "link": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+  "date": "2026-10-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Internet can feel invisible when everything is working normally. But when connectivity breaks, the many systems it depends upon become evident in an instant. Because Cloudflare’s global network handles more than 20% of the web’s traffic, it offers a unique perspective of how Internet traffic is behaving. When failures in infrastructure, power, policy, or security disrupt access to the Internet, Cloudflare Radar can observe the impact by monitoring traffic to our customers."
+  ],
+  "published_on": "2026-10-27"
  }
 }
