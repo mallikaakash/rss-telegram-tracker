@@ -6384,5 +6384,79 @@
   "why": "",
   "points": [],
   "published_on": "2026-09-17"
+ },
+ "86d0beae31a0ab64": {
+  "url": "https://byin-cwi.github.io/MatrixWeb/posts/byin-splitting-the-learning.html",
+  "title": "Splitting the learning: local learning at billion-parameter scale | Bojian Yin",
+  "domain": "byin-cwi.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-28",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-03"
+ },
+ "e89e2e3037e2d0d7": {
+  "url": "https://amitpatnaik.com/explainers/rl-post-training/",
+  "title": "The RL post-training map · Explainers · Amit Patnaik",
+  "domain": "amitpatnaik.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-28",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-26"
+ },
+ "412b068c31f395bc": {
+  "url": "https://arxiv.org/html/2610.22035",
+  "title": "ETH: Data-Balanced Heterogeneous Pipeline Parallelism for Training Large Models",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-10-28",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-19"
+ },
+ "e5cae313162d579b": {
+  "url": "https://arxiv.org/abs/2609.04565",
+  "title": "[2609.04565] Extremely Sparse Supervision Incentivizes Reasoning Ability",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-28",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-03"
+ },
+ "f6c4122256900788": {
+  "url": "https://github.com/aws-solutions-library-samples/global-capacity-orchestrator-on-aws",
+  "title": "GitHub - aws-solutions-library-samples/global-capacity-orchestrator-on-aws: AI/ML and HPC at planetary scale. One API. Every Accelerator. Any Region. MIT-0 licensed · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-28",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "f3d6e460bcbecc40": {
+  "url": "https://github.com/flyteorg",
+  "title": "Flyte · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-28",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "eec5d7617cc56660": {
+  "url": "https://github.com/zenml-io",
+  "title": "ZenML · GitHub",
+  "domain": "github.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-28",
+  "tier": "skip",
+  "why": "",
+  "points": []
  }
 }
