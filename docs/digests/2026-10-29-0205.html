@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Thu 29 Oct 2026, 02:05 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Thu 29 Oct 2026, 02:05 IST &middot; 5 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="tldr">&#9889; Meta&#x27;s Andromeda retrieval architecture and Modal&#x27;s 1T MoE Blackwell serving lead this batch, alongside NVIDIA&#x27;s Nemotron 3.5 speech release.</div><div class="section">Must read &middot; 2</div><div class="card"><span class="badge must">Must read</span><span class="src">Meta Engineering</span><h2><a href="https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/">Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design</a></h2><div class="why">A premier engineering deep-dive on GPU hardware-software co-design to scale ML retrieval throughput by 100x.</div><ul><li>Co-designed models, GPU memory hierarchy, and NVIDIA GH200 Grace Hopper systems to evaluate over 1 billion candidate ads per second.</li><li>Achieves ranking-level model capacity directly at retrieval scale, yielding a 2.4% Facebook conversion lift.</li><li>Overcomes severe terabyte-per-second memory bandwidth bottlenecks from intermediate tensors across GPU kernels.</li></ul></div><div class="card"><span class="badge must">Must read</span><span class="src">Modal Blog</span><h2><a href="https://modal.com/blog/sakana-case-study">Launching a trillion-parameter model at Sakana AI</a></h2><div class="why">Directly tackles extreme-scale MoE serving infrastructure, Blackwell NVFP4 quantization, and speculative decoding.</div><ul><li>Modal deployed Sakana AI&#x27;s ~1-trillion parameter MoE model (Sakana Namazu) without dedicated capacity reservations.</li><li>Customized NVFP4 lower-precision numerics on NVIDIA Blackwell GPUs to avoid language and tool-calling degradation seen in standard PTQ.</li><li>Trained a custom speculative draft model on raw token streams to accelerate production inference.</li></ul></div><div class="section">Worth a skim &middot; 3</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Hugging Face Blog</span><h2><a href="https://huggingface.co/blog/nvidia/nemotron-transcribe-granary">NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt</a></h2><div class="why">Provides an open-weight multimodal speech model, curation dataset, and domain fine-tuning recipes via NeMo.</div><ul><li>Nemotron 3.5 Transcribe supports 40 languages and handles transcription, diarization (up to 8 speakers), and translation in a single checkpoint.</li><li>Releases Granary v2 curation pipeline and NeMo fine-tuning recipes that reduced medical ASR WER by 45.8% over prompting.</li><li>Quantized checkpoints are planned for edge platforms (Jetson AGX Thor) up to Blackwell data-center GPUs.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Oct/28/github-octoverse-2026/">GitHub Octoverse 2026</a></h2><div class="why">Offers hard empirical data on how agentic coding tooling is altering GitHub commit volume and PR dynamics.</div><ul><li>Merged PRs tripled year-over-year to 220 million per month, and commits tripled to 7.38 billion per month in 2026.</li><li>New repository creation rate doubled to 30.3 million per month.</li><li>Methodology utilized fine-tuned multilingual embeddings and LLM classification to categorize repositories by NAICS sector and handle VPN bias.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Technica</span><h2><a href="https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/">Google announces Gemini 4 Carbon, its latest frontier AI model that you can&#x27;t use</a></h2><div class="why">Strategically notable frontier model benchmark update with concrete cybersecurity and coding metrics.</div><ul><li>Gemini 4 Carbon reportedly generates half the code vulnerabilities of Argon and is 10x better at generating security patches than non-Google baselines.</li><li>Gained 89 points on WebDev Arena to take the number four spot on the leaderboard.</li><li>The model remains in a staged enterprise rollout with access restricted initially.</li></ul></div></body></html>

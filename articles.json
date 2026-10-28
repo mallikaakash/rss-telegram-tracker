@@ -99462,5 +99462,192 @@
    "The end of the year is fast approaching and with it, the pre-Christmas release of Dune: Part Three , the final installment in Denis Villeneuve's acclaimed adaptation of sci-fi author Frank Herbert's novel(s). Warner Bros. gave us a broody and haunting extended teaser in March and a July trailer jam-packed with tantalizing hints of what to expect, along with plenty of Easter eggs to delight avid book fans."
   ],
   "published_on": "2026-10-27"
+ },
+ "d175d4f66bfd1ea4": {
+  "feed": "Technica",
+  "title": "Trump admin sues Utah to save Kalshi from the state's total ban on gambling",
+  "link": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "Covers legal and regulatory battles regarding online prediction markets and gambling bans.",
+  "points": [
+   "The US government is suing Utah to block enforcement of its constitutional gambling ban against Kalshi."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "off_topic"
+ },
+ "b0da25ea6c1a2967": {
+  "feed": "Google DeepMind",
+  "title": "Gemini 4 Carbon: Our next frontier model",
+  "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "The post content is almost entirely website navigation markup with virtually no technical model details.",
+  "points": [
+   "Announces Gemini 4 Carbon as DeepMind's frontier model focusing on cybersecurity and long-horizon tasks."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "shallow"
+ },
+ "75e2017ed4c5a2ec": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+  "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "Standard corporate enterprise partnership announcement without technical architecture details.",
+  "points": [
+   "OpenAI and ServiceNow expanded their partnership to integrate ChatGPT and Codex into enterprise IT workflows."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "marketing"
+ },
+ "7ae8eb20550eee76": {
+  "feed": "Hugging Face Blog",
+  "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+  "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+  "date": "2026-10-29",
+  "tier": "worth_a_skim",
+  "why": "Provides an open-weight multimodal speech model, curation dataset, and domain fine-tuning recipes via NeMo.",
+  "points": [
+   "Nemotron 3.5 Transcribe supports 40 languages and handles transcription, diarization (up to 8 speakers), and translation in a single checkpoint.",
+   "Releases Granary v2 curation pipeline and NeMo fine-tuning recipes that reduced medical ASR WER by 45.8% over prompting.",
+   "Quantized checkpoints are planned for edge platforms (Jetson AGX Thor) up to Blackwell data-center GPUs."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "071e826394b5b671": {
+  "feed": "MIT News (AI)",
+  "title": "3 Questions: Why infrastructure is entering a defining era",
+  "link": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "Discusses macro civil engineering and physical utility infrastructure rather than computing systems.",
+  "points": [
+   "An interview exploring how climate change, global poverty shifts, and resource constraints require new models for civil infrastructure."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "off_topic"
+ },
+ "d8f853e661d65a1d": {
+  "feed": "Simon Willison",
+  "title": "GitHub Octoverse 2026",
+  "link": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+  "date": "2026-10-29",
+  "tier": "worth_a_skim",
+  "why": "Offers hard empirical data on how agentic coding tooling is altering GitHub commit volume and PR dynamics.",
+  "points": [
+   "Merged PRs tripled year-over-year to 220 million per month, and commits tripled to 7.38 billion per month in 2026.",
+   "New repository creation rate doubled to 30.3 million per month.",
+   "Methodology utilized fine-tuned multilingual embeddings and LLM classification to categorize repositories by NAICS sector and handle VPN bias."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "39127629a91edc24": {
+  "feed": "Meta Engineering",
+  "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
+  "link": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
+  "date": "2026-10-29",
+  "tier": "must_read",
+  "why": "A premier engineering deep-dive on GPU hardware-software co-design to scale ML retrieval throughput by 100x.",
+  "points": [
+   "Co-designed models, GPU memory hierarchy, and NVIDIA GH200 Grace Hopper systems to evaluate over 1 billion candidate ads per second.",
+   "Achieves ranking-level model capacity directly at retrieval scale, yielding a 2.4% Facebook conversion lift.",
+   "Overcomes severe terabyte-per-second memory bandwidth bottlenecks from intermediate tensors across GPU kernels."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "ec41f36f49e7d806": {
+  "feed": "Modal Blog",
+  "title": "Launching a trillion-parameter model at Sakana AI",
+  "link": "https://modal.com/blog/sakana-case-study",
+  "date": "2026-10-29",
+  "tier": "must_read",
+  "why": "Directly tackles extreme-scale MoE serving infrastructure, Blackwell NVFP4 quantization, and speculative decoding.",
+  "points": [
+   "Modal deployed Sakana AI's ~1-trillion parameter MoE model (Sakana Namazu) without dedicated capacity reservations.",
+   "Customized NVFP4 lower-precision numerics on NVIDIA Blackwell GPUs to avoid language and tool-calling degradation seen in standard PTQ.",
+   "Trained a custom speculative draft model on raw token streams to accelerate production inference."
+  ],
+  "published_on": "2026-10-23"
+ },
+ "39134a7f0350ad9f": {
+  "feed": "Technica",
+  "title": "The last, best hope for space tourism just rolled onto a runway in Arizona",
+  "link": "https://arstechnica.com/space/2026/10/the-last-best-hope-for-space-tourism-just-rolled-onto-a-runway-in-arizona/",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "Covers aerospace industry commercial space tourism programs.",
+  "points": [
+   "Commercial suborbital and orbital space tourism has stalled with the pausing or retiring of New Shepard, Crew Dragon, and Virgin Galactic missions."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "off_topic"
+ },
+ "0dc3cf0b7c98dcde": {
+  "feed": "OpenAI News",
+  "title": "The future of the firm",
+  "link": "https://openai.com/index/the-future-of-the-firm",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "A speculative sociological essay on corporate management structures rather than backend or ML engineering.",
+  "points": [
+   "Presents three conceptual models for how enterprise org charts will incorporate AI labor: beneath, beside, or between human workers."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "off_topic"
+ },
+ "88f09ecccd09330c": {
+  "feed": "Technica",
+  "title": "Touchscreen MacBook Pro hands-on: OLED looks great on a Mac",
+  "link": "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "Consumer laptop hardware impressions and display ergonomics.",
+  "points": [
+   "Hands-on impressions of the new OLED touchscreen MacBook Pro highlighting weight reduction and screen quality."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "off_topic"
+ },
+ "41c97fe8dc29ac4a": {
+  "feed": "OpenAI News",
+  "title": "Legora is building the agentic operating system for legal work",
+  "link": "https://openai.com/index/legora",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "Customer marketing case study highlighting high-level workflow metrics for a legal tech SaaS.",
+  "points": [
+   "OpenAI highlights customer Legora using ChatGPT and Codex to accelerate contract review turnaround."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "marketing"
+ },
+ "bfd6acefc1fbf840": {
+  "feed": "Technica",
+  "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+  "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+  "date": "2026-10-29",
+  "tier": "worth_a_skim",
+  "why": "Strategically notable frontier model benchmark update with concrete cybersecurity and coding metrics.",
+  "points": [
+   "Gemini 4 Carbon reportedly generates half the code vulnerabilities of Argon and is 10x better at generating security patches than non-Google baselines.",
+   "Gained 89 points on WebDev Arena to take the number four spot on the leaderboard.",
+   "The model remains in a staged enterprise rollout with access restricted initially."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "fb777c0e9df72438": {
+  "feed": "Technica",
+  "title": "Amazon turns its most capable smart speaker into a smart camera, too",
+  "link": "https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra/",
+  "date": "2026-10-29",
+  "tier": "low_priority",
+  "why": "Consumer smart home and audio hardware release.",
+  "points": [
+   "Amazon updated its Echo Studio smart speaker with an integrated camera and AZ3 Pro AI processor."
+  ],
+  "published_on": "2026-10-28",
+  "reject_reason": "off_topic"
  }
 }
