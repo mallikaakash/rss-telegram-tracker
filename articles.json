@@ -99342,5 +99342,125 @@
    "The Securities and Exchange Commission 's publication on Monday of Anthropic's S-1 form —ahead of a heavily anticipated initial public offering—has led to plenty of discussion of whether the company's quickly ballooning revenues will be able to overcome its even higher costs. But amid the numbers and forward-looking optimism about AI \"rapidly transform[ing] every sector of the global economy in ways greater than the impact of industrialization, electricity, semiconductors, and the internet,\" Anthropic also spends an inordinate amount of time in its S-1 laying out the myriad risk factors that could bring the company down."
   ],
   "published_on": "2026-10-27"
+ },
+ "a08575681f83f59d": {
+  "feed": "Technica",
+  "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
+  "link": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Subsea cable projects owned by US companies such as Google and Meta face some of the greatest risks from the threat of deep-sea sabotage in the Pacific Ocean, according to a new report. That coincides with Chinese research ships spending an extraordinary amount of time apparently surveying undersea cables—not to mention Chinese commercial ships being investigated for cutting cables in both European and Asian waters."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "2fc8e689e413caad": {
+  "feed": "OpenAI News",
+  "title": "Legora is building the agentic operating system for legal work",
+  "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Legora is building the agentic operating system for legal work | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 28, 2026 Legora is building the agentic operating system for legal work Powered by OpenAI models and coding agents, Legora helps legal teams move faster, broaden analysis and focus on higher-value work."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "45f878f3f6da2df1": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+  "link": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Housekeeping: I’m on the road so the voiceover will be late. Hill-climbing is easy, knowing what to hill-climb is hard. Making scores go up is expensive , but we have a much clearer playbook for it than we do for creating meaningful benchmarks at the true frontier of AI today. Independent evaluation of language models is under-appreciated in how hard of a … Read more"
+  ],
+  "published_on": "2026-10-28"
+ },
+ "93b9dc1d31289278": {
+  "feed": "Simon Willison",
+  "title": "The October inflection point for vibe game development",
+  "link": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games ."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "9a1b1b68560a9e2c": {
+  "feed": "ClickHouse",
+  "title": "The new cost-based join optimizer with reordering support for non-inner joins",
+  "link": "https://clickhouse.com/blog/the-new-cost-based-join-optimizer-with-reordering-support-for-non-inner-joins",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> The new cost-based join optimizer with reordering support for non-inner joins | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "71d9cb2bf3e5ef86": {
+  "feed": "Technica",
+  "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+  "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Defenders across the world face the burden of responding to yet another botched code-execution vulnerability, this time in boot-time firmware used by most of the world’s server vendors and data centers. The vulnerability, with a severity rating of 9.5 out of 10, resides in the TianoCore EDK II , an open source codebase that hardware makers and cloud providers use to create the UEFI firmware that runs during the boot-up sequence."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "5d9615019ec259be": {
+  "feed": "Simon Willison",
+  "title": "Quoting Terk Terkowitz",
+  "link": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for. — Terk Terkowitz , An update from Amazon engineering leadership on the role of the developer in the age of AI Tags: amazon , generative-ai , agentic-engineering , ai , llms"
+  ],
+  "published_on": "2026-10-28"
+ },
+ "d5ef55b539d3f48c": {
+  "feed": "Technica",
+  "title": "Google begins certifying Registered App Stores for Android, but not in the US",
+  "link": "https://arstechnica.com/gadgets/2026/10/googles-android-registered-app-stores-program-launches-dec-1-applications-now-open/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Running an app ecosystem has gotten a lot more complex for Google after its loss in the Epic Games antitrust case. While US users can access app stores in Google Play by court order, international users will use Google's voluntary Registered App Stores program . Google has announced that stores wishing to be part of that program are now free to apply, and support will roll out to some Android devices later this year."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "a6a1f4abbd10c813": {
+  "feed": "Technica",
+  "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+  "link": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Protein design tools may be getting increasingly sophisticated , but you still need a sophisticated understanding of protein structure for them to work. This can include knowing enzyme mechanisms down to the positions of specific amino acids, as well as the water molecules that also occupy the area where catalysis takes place. Once you specify these, the tools can build the rest of a protein around this target."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "70b57af5f2a2e8a3": {
+  "feed": "Technica",
+  "title": "Warner Bros. drops final trailer for Dune: Part Three",
+  "link": "https://arstechnica.com/culture/2026/10/warner-bros-drops-final-trailer-for-dune-part-three/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The end of the year is fast approaching and with it, the pre-Christmas release of Dune: Part Three , the final installment in Denis Villeneuve's acclaimed adaptation of sci-fi author Frank Herbert's novel(s). Warner Bros. gave us a broody and haunting extended teaser in March and a July trailer jam-packed with tantalizing hints of what to expect, along with plenty of Easter eggs to delight avid book fans."
+  ],
+  "published_on": "2026-10-27"
  }
 }
