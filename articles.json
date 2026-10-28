@@ -99162,5 +99162,185 @@
   ],
   "published_on": "2026-10-27",
   "reject_reason": "off_topic"
+ },
+ "5b2f53c323415a2b": {
+  "feed": "Technica",
+  "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+  "link": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple has announced refreshes for the iMac and the entry-level, 14-inch MacBook Pro . Both machines are getting the M6 chip, which was introduced in the Mac mini several weeks ago. The M6 is split into two variants for the iMac. Picking the \"M6 chip with two Thunderbolt ports\" option gets you a 10-core CPU and a 10-core GPU, whereas picking \"M6 chip with four Thunderbolt ports\" gets you 12 cores for each, instead."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "8cb333260a17a324": {
+  "feed": "OpenAI News",
+  "title": "How Check Point accelerates vulnerability research with Daybreak",
+  "link": "https://openai.com/index/check-point-daybreak",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Check Point accelerates vulnerability research with Daybreak | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 27, 2026 How Check Point accelerates vulnerability research with Daybreak With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "92255bce16632fd4": {
+  "feed": "Together AI",
+  "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+  "link": "https://www.together.ai/blog/auto-repair-for-together-gpu-clusters",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Auto repair for Together GPU Clusters: from GPU fault to healthy node Webflow Analyze/Optimize tracking bridge --> Introducing Together Post-Training: Better models, faster runs, lower costs → Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → GLM-5.3 vs."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "9e57b3c7cb0d7eb2": {
+  "feed": "MIT News (AI)",
+  "title": "Making machines that can listen",
+  "link": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The crack of a bat accompanied by a roar from the crowd can capture a baseball fan’s attention, even if they miss seeing the home run. Humans may be visual creatures, but we also perceive the world around us by listening to it. To improve artificial perception, MIT Professor Paris Smaragdis SM ’97, PhD ’01 seeks to make machines that can hear and understand sound even better than humans."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "a9c65cb8282253c6": {
+  "feed": "Simon Willison",
+  "title": "Game Boy Color on My Conference Badge",
+  "link": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into with Steve Francia... who worked with Gemini to get a full NES emulator working on it, and then went a step further and deployed an emulator for both the Game Boy and the Game Boy Color."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "9c4b0bce2c02be9d": {
+  "feed": "Swiggy Bytes",
+  "title": "Search That Gets You: Inside Instamart’s LLM-Powered Search",
+  "link": "https://medium.com/swiggy-bytes/search-that-gets-you-inside-instamarts-llm-powered-search-b95b6a93ed60?source=rss----9556560f659---4",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How large language models help shoppers find what they mean, not just what they type. Author: Aarav Nigam Introduction Every search box eventually hits a wall where traditional search stops being useful. Searching tide powder 100g on Instamart works seamlessly. Exact keywords match product titles — a problem classical search solved decades ago. Then someone types this: Get me ready for beach holidays Snacks for a 5-year-old birthday party No added sugar biscuits for my diabetic grandfather I’m tired These natural queries derail traditional keyword search: No exact match: There is no product named “i’m tired,” nor does the catalog metadata capture such situational intent."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "7974399322fbe42b": {
+  "feed": "ClickHouse",
+  "title": "Why ClickHouse Cloud wins at real-time analytics",
+  "link": "https://clickhouse.com/blog/why-clickhouse-cloud-wins-at-real-time-analytics",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Why ClickHouse Cloud wins at real-time analytics | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse. Available on AWS, GCP, and Azure."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "3a92d8ebc0659491": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Memory-Enforced GPU Sharing in Kubernetes with NVIDIA CUDA 13.4",
+  "link": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Many AI workloads need only a fraction of a GPU. Giving each one an entire device can leave capacity idle; sharing GPUs lets platform teams serve more workloads... Many AI workloads need only a fraction of a GPU. Giving each one an entire device can leave capacity idle; sharing GPUs lets platform teams serve more workloads with the infrastructure they already have."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "60c506bba53d46ca": {
+  "feed": "Technica",
+  "title": "South Carolina's measles outbreak jumped to Washington state 5 times in 2 weeks",
+  "link": "https://arstechnica.com/health/2026/10/domestic-travel-poses-growing-risk-for-measles-and-a-new-challenge-for-states/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Since measles was declared eliminated in the US in 2000, the country's occasional cases have come mainly from international travelers—visitors from far-flung places where the virus still spreads freely — or unvaccinated US residents who return from abroad with a highly infectious souvenir. But as vaccination rates have slipped nationwide in recent years and outbreaks grow bigger and more frequent, domestic travel now poses a greater risk than international incursions."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "827221925d8dc2bc": {
+  "feed": "OpenAI News",
+  "title": "How Localiza reorganized work around generative AI",
+  "link": "https://openai.com/index/localiza-generative-ai",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Localiza reorganized work around generative AI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 16, 2026 How Localiza reorganized work around generative AI For the company, generative AI is more than a productivity layer: it is a new computing interface."
+  ],
+  "published_on": "2026-10-16"
+ },
+ "67f0b179673ce3b4": {
+  "feed": "MIT News (AI)",
+  "title": "Learner collaborates with MIT peers to develop book of AI insights",
+  "link": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Like many leaders today, Prabha Jha has been feeling the significant impact artificial intelligence is having on business operations. While the rapid evolution of the technology can bring fear, uncertainty, and confusion, Jha chose a different response: excitement. She began asking herself, “How do I become part of this once-in-a-lifetime thing?” Jha holds a bachelor’s degree in information technology from the University of Calcutta and earned her MBA while working at Verizon, where she continues to build her career."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "c0a45b82d2e027eb": {
+  "feed": "Technica",
+  "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
+  "link": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A winged Chinese spacecraft bearing a strong resemblance to the US military's X-37B spaceplane was photographed in orbit by a passing US-owned commercial satellite in 2024, and we finally have the image. The Chinese spaceplane has delta wings, payload bay doors, a dark heat shield, and a rear-mounted service module with power-generating solar arrays."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "1d7d75b47c31f4d0": {
+  "feed": "OpenAI News",
+  "title": "How Grupo Boticário uses AI to strengthen human connections",
+  "link": "https://openai.com/index/grupo-boticario",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Grupo Boticário uses AI to strengthen human connections | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 16, 2026 How Grupo Boticário uses AI to strengthen human connections Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role."
+  ],
+  "published_on": "2026-10-16"
+ },
+ "6849d36ab61f28e0": {
+  "feed": "Technica",
+  "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+  "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A Delaware proposal to let companies be operated by AI agents would help the firms' human owners evade legal responsibility for reckless and harmful actions taken by the AI, US Rep. James Comer (R-Ky.) told Delaware Governor Matt Meyer in a letter yesterday. Comer, chairman of the House Committee on Oversight and Government Reform, told Meyer that the committee \"seeks assistance obtaining documents related to your state administration’s efforts to establish a new form of corporate entity to be known as an Artificial Intelligence Company (AIC).\" Comer said the proposal is ripe for abuse."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "78aca7aaafb2150d": {
+  "feed": "Technica",
+  "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+  "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+  "date": "2026-10-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Securities and Exchange Commission 's publication on Monday of Anthropic's S-1 form —ahead of a heavily anticipated initial public offering—has led to plenty of discussion of whether the company's quickly ballooning revenues will be able to overcome its even higher costs. But amid the numbers and forward-looking optimism about AI \"rapidly transform[ing] every sector of the global economy in ways greater than the impact of industrialization, electricity, semiconductors, and the internet,\" Anthropic also spends an inordinate amount of time in its S-1 laying out the myriad risk factors that could bring the company down."
+  ],
+  "published_on": "2026-10-27"
  }
 }
