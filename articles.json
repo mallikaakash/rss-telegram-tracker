@@ -99877,5 +99877,161 @@
    "Let's face it, the mid-December box office will be dominated by Avengers: Doomsday and Dune: Part Three , but for those seeking fun holiday family fare, Jumanji: Open World opens the very next week on Christmas Day. Sony Pictures just released a new trailer for director Jake Kasdan’s sequel to his 2019 hit, Jumanji: The Next Level , teasing the usual wacky hijinks with a twist that calls back to the original 1995 film."
   ],
   "published_on": "2026-10-28"
+ },
+ "ca205e978a06d148": {
+  "feed": "Technica",
+  "title": "Windows 11 gets right-click menu improvements as PC revenue slides",
+  "link": "https://arstechnica.com/gadgets/2026/10/windows-11-gets-right-click-menu-improvements-as-pc-revenue-slides/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Microsoft is beginning the rollout of a Windows 11 preview update that finally addresses a persistent power user complaint with the operating system: the right-click menu that obliterated years of muscle memory on command locations, and hid others behind an additional click. The timing for the release is notable, as the announcement comes alongside Microsoft's quarterly financial report that saw a continued decline in the business of selling Windows licenses for new PCs."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "4f15bf93edb6f2a9": {
+  "feed": "Microsoft Research",
+  "title": "Microsoft Research Focus – Edition #97",
+  "link": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What’s new in research? You may already be familiar with the Research Focus newsletter (opens in new tab) on LinkedIn. Now, you can catch up on highlights from across the research community at Microsoft on our social channels, YouTube, and major podcast platforms, too. In this edition of Microsoft Research Focus , host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "7bf0065ceb1646f5": {
+  "feed": "OpenAI News",
+  "title": "An updated Model Spec for more capable and beneficial AI",
+  "link": "https://openai.com/index/updated-model-spec",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "An updated Model Spec for more capable and beneficial AI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 29, 2026 Safety An updated Model Spec for more capable and beneficial AI Read the updated Spec (opens in a new window) Loading… Share Organizing the Spec around core values Organizing the Spec around core values New and retired sections What comes next Organizing the Spec around core values New and retired sections What comes next As our models get smarter and take more consequential actions in the world, it becomes increasingly important that they go beyond just interpreting the specific instructions they receive."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "e1c742c1d925baf7": {
+  "feed": "Hugging Face Blog",
+  "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+  "link": "https://huggingface.co/blog/announcing-project-protostar",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready Hugging Face Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready Published October 29, 2026 Update on GitHub Upvote 10 +4 Avijit Ghosh evijit Follow hfpolicy Sayeed Choudhury sayeedmd Follow CMU-OSPO Greg Tananbaum gtananbaum Follow ORCA-Open Emma Scharfmann EmmaScharfmann Follow hugging-science Georgia Channing cgeorgiaw Follow hugging-science Eunice Mercado-Lara EuniceML Follow ORCA-Open Irene Solaiman irenesolaiman Follow hfpolicy :last-child]:mb-0\"> Making publicly funded science more usable Open Science Challenges The first challenge: Climate Risk Intelligence How to Join Project ProtoStar An initiative bringing together universities, research organizations, industry, and the open science community to make publicly funded research easier to discover, reuse, and build upon."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "672400a4a73efc0d": {
+  "feed": "Simon Willison",
+  "title": "Building a multiplayer game world with autonomous Fable-class models",
+  "link": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "1b82706e0c793e18": {
+  "feed": "Meta Engineering",
+  "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+  "link": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive impact we’ve seen with Catching JiTTests deployed into production. Our paper, “ Just-in-Time Catching Test Generation at Meta ,” fully details our initial deployment and testing with Catching JiTTests."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "fa55622cf905c495": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+  "link": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These... Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These simulations come with a cost-accuracy trade-off."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "69e91b7f989d65c7": {
+  "feed": "Technica",
+  "title": "Pentagon IG refuses to investigate Starlink/Starshield slowdown in Ukraine",
+  "link": "https://arstechnica.com/tech-policy/2026/10/pentagon-ig-refuses-to-investigate-starlink-starshield-slowdown-in-ukraine/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Pentagon inspector general's office declined a request from US senators to investigate restrictions recently imposed on the Ukraine military's use of SpaceX's satellite network. Ukraine, which uses SpaceX's Starlink service and the military version known as Starshield, said earlier this month that military drones lost satellite connectivity when traveling above 161 kilometers per hour (100 miles per hour)."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "d28967fce9c692cd": {
+  "feed": "OpenAI News",
+  "title": "How we detect frontier model misalignment",
+  "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How we detect frontier model misalignment | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 29, 2026 Security Safety Publication How we detect frontier model misalignment Loading… Share Our internal monitoring system today Our internal monitoring system today Layer 0: activation probes Layer 1: model-based reviewer Layer 2: investigative agent Layer 3: automated investigation Human response What our monitors have been finding in internal traffic How we’re evaluating and improving our monitoring system Tests on recorded incidents and simulated attacks Audits of current internal traffic Red-teaming Monitoring agents without incentivizing obfuscation or evasion Safeguarding external usage of Astra Looking forward Our internal monitoring system today Layer 0: activation probes Layer 1: model-based reviewer Layer 2: investigative agent Layer 3: automated investigation Human response What our monitors have been finding in internal traffic How we’re evaluating and improving our monitoring system Tests on recorded incidents and simulated attacks Audits of current internal traffic Red-teaming Monitoring agents without incentivizing obfuscation or evasion Safeguarding external usage of Astra Looking forward As we train increasingly capable AI models, we need reliable ways to detect when their behavior departs from what we intended."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "2eb0eeefec6e6320": {
+  "feed": "Technica",
+  "title": "Trump declares robot imports a national security threat",
+  "link": "https://arstechnica.com/gadgets/2026/10/trump-declares-robot-imports-a-national-security-threat/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "President Donald Trump has declared the imports of foreign-made factory robots to be a national security threat—ordering new US negotiations with trading partners while holding out the possibility of imposing new tariffs on such robot imports in the future. Issued on October 28, Trump’s presidential proclamation represents heightened government scrutiny of foreign-made industrial robots that could complicate the manufacturing operations of major US corporations that rely on such robots."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "2d9928289658e986": {
+  "feed": "OpenAI News",
+  "title": "How Ropes & Gray is developing AI for transactional diligence",
+  "link": "https://openai.com/index/ropes-gray-ai-diligence",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Ropes & Gray is developing AI for transactional diligence | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 29, 2026 How Ropes & Gray is developing AI for transactional diligence Law firm Ropes & Gray is developing a transactional diligence AI tool in partnership with OpenAI."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "6df4ac5022245d54": {
+  "feed": "Technica",
+  "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
+  "link": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Donald Trump apparently is so aligned with Nvidia CEO Jensen Huang—who has become the president’s key advisor on AI —that he ignored intelligence indicating that Huang was the target of a “Chinese spy plot,” and did so partly to protect Nvidia’s stock. The New York Times spoke with people briefed on US intelligence agencies’ surveillance and granted them anonymity to discuss findings drawn from “classified intelligence.” According to sources, about a year ago, Trump was briefed that “Beijing was getting reports from someone with direct access” to Huang."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "3ac3d3b67de1d5da": {
+  "feed": "Technica",
+  "title": "Turning a solar power system into its own backup",
+  "link": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Rather than directly converting photons into electricity, concentrated solar energy uses mirrors to turn sunlight into heat, which can then be used to drive traditional generating turbines. Up to about a decade ago, there was a case to be made that concentrated solar energy had a bright future, as improvements in heat storage had turned it into a way to generate power around the clock."
+  ],
+  "published_on": "2026-10-29"
  }
 }
