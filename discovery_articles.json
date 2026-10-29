@@ -6458,5 +6458,51 @@
   "tier": "skip",
   "why": "",
   "points": []
+ },
+ "77720c3bfa86a679": {
+  "url": "https://deepwiki.com/antirez/ds4",
+  "title": "antirez/ds4 | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-29",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-08-30"
+ },
+ "b2fab445629ea37d": {
+  "url": "https://deepwiki.com/antirez/ds4/2.4-distributed-inference-and-tensor-parallelism",
+  "title": "Distributed Inference and Tensor Parallelism | antirez/ds4 | DeepWiki",
+  "domain": "deepwiki.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-29",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-08-30"
+ },
+ "24f6526bec5c34d8": {
+  "url": "https://github.devotd.net/en/posts/seuros-mdma/",
+  "title": "seuros/mdma — a Rust inference engine with seven backends · Devotd Github",
+  "domain": "github.devotd.net",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-29",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-18"
+ },
+ "08335ab16cce990d": {
+  "url": "https://llmdeploy.to/field-notes/infiano-40-gpu-cluster",
+  "title": "Standing Up a 40-GPU Inference Cluster in 48 Hours",
+  "domain": "llmdeploy.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-29",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-16"
  }
 }
