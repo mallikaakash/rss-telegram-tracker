@@ -6504,5 +6504,74 @@
   "why": "",
   "points": [],
   "published_on": "2026-09-16"
+ },
+ "5c8ab9715b2ef6f6": {
+  "url": "https://arxiv.org/abs/2609.00925",
+  "title": "[2609.00925] Context-Grounding Gains Are Mediated by Pre-existing Machinery: Auditing GRPO, SFT, and DPO",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-10-30",
+  "tier": "hidden_gem",
+  "why": "Rigorous empirical and mechanistic audit demonstrating that context-grounding gains across post-training methods rely almost entirely on attention heads already present in the base model.",
+  "points": [
+   "GRPO yields negligible grounding gains compared to conflict-SFT, even across seeds and after supervised warm starts.",
+   "Steering the base model with its pre-existing grounding direction recovers 35% of DPO's performance gains without side effects.",
+   "Mechanistic tracing confirms conflict-SFT and DPO rely on the exact same causal attention-head circuits as the starting checkpoint."
+  ],
+  "published_on": "2026-09-01"
+ },
+ "4526dabe1704206c": {
+  "url": "https://www.alphaxiv.org/abs/2610.vocabulary-scaling-law-metric",
+  "title": "A Corrected Metric Does Not Validate a Vocabulary Scaling Law | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-30",
+  "tier": "hidden_gem",
+  "why": "A sharp, rigorous technical audit that disproves a widely cited vocabulary scaling law by correcting metric bias and testing on held-out model sizes.",
+  "points": [
+   "Unigram-normalized loss artificially shifts optimal vocabulary recommendations as text prediction improves, skewing 70B parameter prescriptions wildly between 106K and 764K.",
+   "Re-evaluating checkpoints under an exact bits-per-character identity drops the vocabulary parameter scaling exponent from 0.416 to ~0.31.",
+   "When evaluated on held-out model sizes (1.13B), existing scaling law procedures miss the empirical optimum by 8–40% compute-equivalent."
+  ],
+  "published_on": "2026-10-07"
+ },
+ "3a3bd5edc61fb9da": {
+  "url": "https://hysenlabs.com/projects/meesho-bharatmlstack",
+  "title": "BharatMLStack review: Meesho's ML infrastructure stack and its BSL 1.1 licence",
+  "domain": "hysenlabs.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-30",
+  "tier": "skip",
+  "why": "An automated directory-style summary and license overview of an open-source project based on GitHub stats and the project README.",
+  "points": [],
+  "published_on": "2026-09-10",
+  "reject_reason": "shallow"
+ },
+ "644eabf4d5c9f70e": {
+  "url": "https://brainfuel.space/posts/2026-09-01-kserve-multi-model-serving-autoscaling/",
+  "title": "AI Model Serving at Scale: KServe, Multi-Model Serving & GPU-Aware Autoscaling on Kubernetes — BrainFuel",
+  "domain": "brainfuel.space",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-30",
+  "tier": "skip",
+  "why": "A standard architectural explainer covering widely known KServe concepts and generic Kubernetes serving patterns without novel benchmarks or findings.",
+  "points": [],
+  "published_on": "2026-09-01",
+  "reject_reason": "shallow"
+ },
+ "406eecd60dd0505d": {
+  "url": "https://crsmith.dev/blog/gpu-faults/",
+  "title": "Measuring the cost of GPU faults in training runs · Chris Smith",
+  "domain": "crsmith.dev",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-30",
+  "tier": "hidden_gem",
+  "why": "A hands-on, data-driven personal engineering post measuring exact recovery times and failure modes across distributed GPU training setups.",
+  "points": [
+   "Process crashes and lost containers recovered in 22s and 34s respectively under torchrun, but GPU hangs completely stalled built-in timeouts for 23+ minutes.",
+   "A lightweight custom watchdog reduced hang recovery time down to 52 seconds.",
+   "Benchmarks DDP versus FSDP2 step times and Model FLOPs Utilization (MFU) over non-NVLink PCIe interconnects on L40S cards."
+  ],
+  "published_on": "2026-10-22"
  }
 }
