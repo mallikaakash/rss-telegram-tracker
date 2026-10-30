@@ -100072,5 +100072,100 @@
   ],
   "published_on": "2026-10-29",
   "reject_reason": "off_topic"
+ },
+ "ff7b8812916f91ec": {
+  "feed": "Technica",
+  "title": "GM to pay $220 million after selling customer Smart Driver data",
+  "link": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "General Motors marketed its Smart Driver system as a way for parents to monitor teen drivers or for adults to track their driving behavior. But in 2024, it emerged that GM had been sharing that data with brokers. Those brokers then sold the data to insurance companies , and some drivers found that their insurance became more expensive as a result. To make matters worse, many of those drivers claimed they had no knowledge of ever agreeing to share such data for such purposes."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "108ca5faea389b03": {
+  "feed": "Microsoft Research",
+  "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+  "link": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a glance Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. To resolve this tension, we built Industry Evaluation Data Generation Platform: full-scale synthetic enterprise environments grounded in publicly available real-world data sources such as O*NET occupational data, online job postings, and SEC filings."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "68ab75b34b37bf6b": {
+  "feed": "Cloudflare Blog",
+  "title": "Cloudflare services for private origins is now generally available",
+  "link": "https://blog.cloudflare.com/private-origins-public-to-private/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Today, Cloudflare services for private origins is generally available. Point a proxied DNS record at a private IP, and Cloudflare reaches the origin over your existing Cloudflare One connection . Your origin stays private, while web application firewall ( WAF ), caching , bot management , and Workers work just as they do for public origins. In June, we launched this capability in closed beta to address a problem we kept hearing from customers: Their internal APIs, AI agent backends, MCP servers, and operational tools weren’t built to face the Internet, but those services still need to accept requests from partners, customers, or agents over the Internet."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "f5c413d739568323": {
+  "feed": "Cursor",
+  "title": "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace · Cursor",
+  "link": "https://cursor.com/blog/claude-code-extension-security-notice",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace · Cursor Skip to content Cursor Models ↓ Grok Evals Product ↓ Agents Cloud Grok Bot ↗ Mobile Automations CLI Marketplace ↗ Review Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Models → Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / company Oct 29, 2026 · company Security notice — malicious version of Anthropic.claude-code (2.1.313) identified in the Cursor Extension Marketplace 5 min read Table of Contents ↑ What happened What we did What you should do Check whether you are impacted Remediate affected machines Indicators of compromise Package Network SSH Files and persistence Process / command-line Today we identified a security incident involving a specific extension package in the Cursor VS Code extension Marketplace: Anthropic.claude-code version 2.1.313 ."
+  ]
+ },
+ "ff5ccffe8e2cadf1": {
+  "feed": "Technica",
+  "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+  "link": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Binance has suspended all withdrawals after the world’s largest cryptocurrency exchange fell victim to what appears to be the biggest heist in history. The exchange put the “estimated total impact” of the hack at about $6.3 billion and said around $3 billion of affected assets, mainly stablecoins that act as cash for the crypto market, had been frozen."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "f2d90ec51a55d5ea": {
+  "feed": "Technica",
+  "title": "2027 Nissan Rogue Hybrid: Drives like an EV, but there's no plug involved",
+  "link": "https://arstechnica.com/cars/2026/10/2027-nissan-rogue-hybrid-drives-like-an-ev-but-theres-no-plug-involved/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nissan provided flights from Washington, DC, to Santa Barbara, California, and accommodation so Ars could drive the Rogue Hybrid. Ars does not accept paid editorial content. Nissan has a new version of its best-selling Rogue SUV, and it’s launching the model here with the latest version of its e-Power hybrid system, which Ars tested back in February. Most of the hybrid cars you can buy today are parallel hybrids, which means that they have an internal combustion engine and an electric motor, both of which drive some or all of the wheels—everything works in parallel."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "ac707bc2c60f8805": {
+  "feed": "Technica",
+  "title": "Review: You Can See Everything blurs the view of Elizabeth Holmes' deceit",
+  "link": "https://arstechnica.com/culture/2026/10/review-you-can-see-everything-blurs-the-view-of-elizabeth-holmes-deceit/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In 2015, biomedical entrepreneur Elizabeth Holmes was Silicon Valley's golden girl, lauded as the youngest and richest self-made female billionaire thanks to the company she founded, Theranos, which was valued at $9 billion at the height of its success. Then it all came crashing down when accusations of fraud surfaced about the company's signature blood-testing device, culminating in a sensational trial."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "213759144b2cb6ac": {
+  "feed": "Technica",
+  "title": "Rocket Report: Winter is coming for Themis; Cowboy Space adds iron to the fire",
+  "link": "https://arstechnica.com/space/2026/10/rocket-report-winter-is-coming-for-themis-cowboy-space-adds-iron-to-the-fire/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome to Edition 9.17 of the Rocket Report! It's been a while since an American company announced plans for a medium-lift new launch vehicle, but that's what happened this week when a startup named Cowboy Space revealed specs for its Big Iron rocket, named for the classic country-western song by Marty Robbins. I'm a huge fan of the name. Maybe Cowboy Space is striking while the iron is hot as the space industry frets over demand for launch outpacing supply."
+  ],
+  "published_on": "2026-10-30"
  }
 }
