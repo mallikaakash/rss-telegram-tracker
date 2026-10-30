@@ -100167,5 +100167,188 @@
    "Welcome to Edition 9.17 of the Rocket Report! It's been a while since an American company announced plans for a medium-lift new launch vehicle, but that's what happened this week when a startup named Cowboy Space revealed specs for its Big Iron rocket, named for the classic country-western song by Marty Robbins. I'm a huge fan of the name. Maybe Cowboy Space is striking while the iron is hot as the space industry frets over demand for launch outpacing supply."
   ],
   "published_on": "2026-10-30"
+ },
+ "64f7a393ec935a4c": {
+  "feed": "Technica",
+  "title": "Rare meteorite from Mars gives us a view into its ancient crust",
+  "link": "https://arstechnica.com/science/2026/10/rare-meteorite-from-mars-gives-us-a-view-into-its-ancient-crust/",
+  "date": "2026-10-31",
+  "tier": "low_priority",
+  "why": "Planetary science news on Martian meteorites is entirely unrelated to ML, backend systems, or process optimization.",
+  "points": [
+   "Study reveals the 4.1-billion-year-old Teghaza 001 meteorite from Mali, shedding light on early Martian crust formation."
+  ],
+  "published_on": "2026-10-30",
+  "reject_reason": "off_topic"
+ },
+ "25cc4c9bb2e3e7e5": {
+  "feed": "OpenAI News",
+  "title": "Making it easier for websites to express AI training preferences",
+  "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "Relevant to foundational model training workflows and data scraping standards across AI providers.",
+  "points": [
+   "OpenAI adopts a shared, unified robots.txt signal developed with the IETF AI Preferences working group.",
+   "Allows site operators to set AI scraping/pretraining preferences across multiple providers simultaneously rather than managing per-crawler rules."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "b2263e9f84127c76": {
+  "feed": "Hugging Face Blog",
+  "title": "nemotron-halloween",
+  "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "Shows an end-to-end edge inference pipeline combining small language models, ASR, and TTS on a single workstation.",
+  "points": [
+   "Demonstrates a multi-modal agent stack using Nemotron 3 ASR, Nemotron 3.5 Bolt E4B with LoRA adapters, Magpie TTS, and Audio2Face-3D.",
+   "Runs real-time speech-to-speech conversational character pipelines entirely local on workstation hardware."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "226d6d5c25cb9ac1": {
+  "feed": "MIT News (AI)",
+  "title": "Q&A: Hey AI, who should I vote for this year?",
+  "link": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+  "date": "2026-10-31",
+  "tier": "low_priority",
+  "why": "Social science and election dashboard analysis with no technical depth on LLM architecture, training, or serving.",
+  "points": [
+   "MIT researchers launched the LLM Election Observatory to monitor how chatbots respond to midterm political questions."
+  ],
+  "published_on": "2026-10-30",
+  "reject_reason": "off_topic"
+ },
+ "77b8021d805e32e5": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Was I wrong about open models & cyber risks?",
+  "link": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "Thoughtful perspective from an open-source ML researcher analyzing the real-world cybersecurity impact of releasing frontier open-weight models.",
+  "points": [
+   "Argues empirical evidence shows open weights (like GLM-5.3) accelerate patching and defense rather than creating step-change societal infrastructure collapse.",
+   "Reflects on the predictive accuracy of extreme cyber-risk warnings surrounding frontier model weight leaks."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "0d012593adeaa328": {
+  "feed": "Cloudflare Blog",
+  "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+  "link": "https://blog.cloudflare.com/emudhra-patching/",
+  "date": "2026-10-31",
+  "tier": "must_read",
+  "why": "Top-tier reliability and security post-mortem from Cloudflare detailing widespread CA key failures and custom mitigation in Pingora.",
+  "points": [
+   "eMudhra CA generated absurdly weak private keys (single/low digits like 4, 56, 115) allowing instantaneous offline key recovery by anyone.",
+   "Cloudflare leveraged Rust-based Pingora origin proxies to detect and block weak handshakes, logging ~22,000 exploitation attempts in one week.",
+   "Employed AI-assisted codebase scanning to triage and patch internal systems across the organization within hours."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "b7d248bc90d8f889": {
+  "feed": "Stripe Blog",
+  "title": "Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts",
+  "link": "https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts",
+  "date": "2026-10-31",
+  "tier": "low_priority",
+  "why": "A corporate marketing case study on Stripe's internal use of its Global Payouts product lacking engineering architecture specifics.",
+  "points": [
+   "Stripe migrated $1B of vendor payments to its own Global Payouts product to consolidate operations."
+  ],
+  "published_on": "2026-10-30",
+  "reject_reason": "marketing"
+ },
+ "825dfb6f5c6747da": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+  "link": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
+  "date": "2026-10-31",
+  "tier": "low_priority",
+  "why": "A short promotional stub for an NVIDIA framework with virtually no technical content provided.",
+  "points": [
+   "Announces NVIDIA NemoClaw runtime for enforcing enterprise security and observability in autonomous agents."
+  ],
+  "published_on": "2026-10-30",
+  "reject_reason": "shallow"
+ },
+ "b10570d1171fb89b": {
+  "feed": "Technica",
+  "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+  "link": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "Highlights macro infrastructure supply-chain pressures driven by mass AI pretraining and checkpoint archival storage.",
+  "points": [
+   "Fujifilm is boosting LTO magnetic tape production capacity by 5x with a 10 billion yen investment through 2028.",
+   "Generative AI training data and model checkpoint archival demands are primary drivers for physical cold-storage capacity."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "c7606af40dbb903f": {
+  "feed": "OpenAI News",
+  "title": "Community safety report and new protections for teens",
+  "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+  "date": "2026-10-31",
+  "tier": "low_priority",
+  "why": "Product safety announcements and policy reporting lacking backend ML engineering substance.",
+  "points": [
+   "OpenAI introduces semi-annual Community Safety Reports and tighter safety guardrails for minors."
+  ],
+  "published_on": "2026-10-30",
+  "reject_reason": "off_topic"
+ },
+ "5a7dce29cec87a47": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+  "link": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/",
+  "date": "2026-10-31",
+  "tier": "must_read",
+  "why": "Essential ML infrastructure guide on optimizing direct GPU-storage data paths for high-throughput distributed training and inference.",
+  "points": [
+   "Explains verification and configuration of GPUDirect Storage (GDS) for bypassing CPU/system RAM bottlenecks.",
+   "Direct NVMe-to-GPU memory DMA paths dramatically reduce latency and CPU overhead during heavy ML dataset loading."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "1a9f926a45b8d184": {
+  "feed": "Technica",
+  "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+  "link": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+  "date": "2026-10-31",
+  "tier": "low_priority",
+  "why": "Mainstream news coverage of cybercrime and student loan fraud.",
+  "points": [
+   "DOJ indicts individuals using AI for synthetic identity fraud targeting federal student loans."
+  ],
+  "published_on": "2026-10-30",
+  "reject_reason": "off_topic"
+ },
+ "6750c2461412185f": {
+  "feed": "OpenAI News",
+  "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+  "link": "https://openai.com/index/credit-saison",
+  "date": "2026-10-31",
+  "tier": "low_priority",
+  "why": "Promotional enterprise sales case study praising ChatGPT business ROI.",
+  "points": [
+   "Credit Saison claims a 954% ROI and 14 hours saved per employee each month from ChatGPT Enterprise."
+  ],
+  "published_on": "2026-10-29",
+  "reject_reason": "marketing"
+ },
+ "f6163eced81a920b": {
+  "feed": "Technica",
+  "title": "Analysts find looming launch crisis is \"more severe\" than anticipated",
+  "link": "https://arstechnica.com/space/2026/10/analysts-find-looming-launch-crisis-is-more-severe-than-anticipated/",
+  "date": "2026-10-31",
+  "tier": "low_priority",
+  "why": "Aerospace industry market analysis regarding satellite launch capacity.",
+  "points": [
+   "Quilty Space forecasts a 150-launch deficit through 2030 outside of China due to constrained rocket supply."
+  ],
+  "published_on": "2026-10-30",
+  "reject_reason": "off_topic"
  }
 }
