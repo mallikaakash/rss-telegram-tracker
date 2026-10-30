@@ -100033,5 +100033,44 @@
    "Rather than directly converting photons into electricity, concentrated solar energy uses mirrors to turn sunlight into heat, which can then be used to drive traditional generating turbines. Up to about a decade ago, there was a case to be made that concentrated solar energy had a bright future, as improvements in heat storage had turned it into a way to generate power around the clock."
   ],
   "published_on": "2026-10-29"
+ },
+ "adc226400758a68f": {
+  "feed": "Technica",
+  "title": "Reddit is moving to “a logged-in-only experience,” CEO says",
+  "link": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+  "date": "2026-10-30",
+  "tier": "low_priority",
+  "why": "General consumer platform news about user authentication with no technical depth on anti-scraping infrastructure or engineering architectures.",
+  "points": [
+   "Reddit plans to enforce a logged-in-only requirement to protect its data corpus from scraping and boost targeted ad engagement."
+  ],
+  "published_on": "2026-10-29",
+  "reject_reason": "off_topic"
+ },
+ "07b8277675a3d49f": {
+  "feed": "Simon Willison",
+  "title": "API credits benefit for eligible ChatGPT subscriptions",
+  "link": "https://simonwillison.net/2026/Oct/29/api-credits/",
+  "date": "2026-10-30",
+  "tier": "worth_a_skim",
+  "why": "Directly impacts prototyping and inference experimentation budgets by offering 1:1 API credits for high-tier ChatGPT subscriptions, mirroring Anthropic.",
+  "points": [
+   "OpenAI now matches Anthropic by offering equivalent API credits for $100, $200, and $500 monthly ChatGPT subscription tiers.",
+   "Effectively subsidizes developer API spend for shipping evals, prototypes, and public demos if already maintaining a high-tier account."
+  ],
+  "published_on": "2026-10-29"
+ },
+ "4fecc0fbd4dea111": {
+  "feed": "Technica",
+  "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+  "link": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+  "date": "2026-10-30",
+  "tier": "low_priority",
+  "why": "Financial earnings coverage focusing on Wall Street expectations and search ad revenue rather than AI infrastructure or ML techniques.",
+  "points": [
+   "Alphabet reported increased AI CapEx and lower margins on AI-driven search relative to organic search, triggering a post-earnings stock dip."
+  ],
+  "published_on": "2026-10-29",
+  "reject_reason": "off_topic"
  }
 }
