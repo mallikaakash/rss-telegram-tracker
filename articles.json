@@ -100350,5 +100350,125 @@
   ],
   "published_on": "2026-10-30",
   "reject_reason": "off_topic"
+ },
+ "e7a0d7ebfffdbdc5": {
+  "feed": "Technica",
+  "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
+  "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Hubble Space Telescope still shines in the eyes of astronomers after 36 years in orbit, but it is not as nimble as it once was. Left alone, the observatory will plunge back into the atmosphere in the early-to-mid-2030s, closing the book on one of the most famous scientific instruments of the century. NASA last raised the orbit of Hubble in 2002, when the Space Shuttle Columbia visited the observatory for a servicing mission."
+  ],
+  "published_on": "2026-10-31"
+ },
+ "d2282bcce1625c64": {
+  "feed": "OpenAI News",
+  "title": "Fair use benefits everyone",
+  "link": "https://openai.com/index/fair-use-benefits-everyone",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Fair use benefits everyone | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 30, 2026 Company Fair use benefits everyone Authors, journalists, creators, academics, accessibility advocates, legal experts, librarians, economists and business leaders are voicing their support for the longstanding principle of fair use and its application to AI training."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "de7eef275564015a": {
+  "feed": "MIT News (AI)",
+  "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+  "link": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Five MIT faculty members and two additional alumni were recently named to the 2026 cohort of AI2050 Fellows. The honor is announced annually by Schmidt Sciences, Eric and Wendy Schmidt’s philanthropic initiative that aims to accelerate scientific innovation. Conceived and co-chaired by Eric Schmidt and James Manyika, AI2050 is a philanthropic initiative aimed at helping to solve hard problems in artificial intelligence ."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "1649c5dd07045357": {
+  "feed": "Simon Willison",
+  "title": "dbreunig/nesformer",
+  "link": "https://simonwillison.net/2026/Oct/30/nesformer/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "eb885d774e423d4e": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+  "link": "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference... Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference framework that coordinates model serving across GPU workers."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "b1311b7a9510b7df": {
+  "feed": "Technica",
+  "title": "Flesh-eating screwworms spread to third state and are attacking pets",
+  "link": "https://arstechnica.com/health/2026/10/flesh-eating-screwworms-are-feasting-on-pets-4-dogs-and-cat-attacked-this-week/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For a genuine fright this Halloween, you can turn your gaze to the southern border, where ravenous, flesh-eating maggots are festering and have taken to eating people's pets. This week, the country's New World Screwworm (NWS) infestation spread to a third state, Arizona, which joins New Mexico and Texas in being plagued by the horrifying parasites. To date, 74 animal cases have been identified in the US since the flies re-invaded the country in June."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "da033122846d5b69": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Run AI Models for Edge Application Development with Just a Few Commands",
+  "link": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,... AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions, helping robots understand their surroundings and plan tasks, and coordinating fleets of machines on production lines."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "df4feec8b4d8c967": {
+  "feed": "Technica",
+  "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart",
+  "link": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Along with the rest of the world, we at Ars are mourning Sir Patrick Stewart —the beloved award-winning actor best known as Captain Jean-Luc Picard in Star Trek: The Next Generation and Professor Charles Xavier in the X-Men franchise—who died yesterday at the age of 86. A statement released by Stewart's representatives said: We announce with great sorrow the passing of Sir Patrick Stewart yesterday at his home in Los Angeles, in the loving care of his beloved wife Sunny, following a brief and poignant journey with Alzheimer’s Disease and Lewy Body Dementia."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "df26d5473c418f43": {
+  "feed": "Technica",
+  "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+  "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Boom Supersonic CEO Blake Scholl recently declared “it’s time for a renaissance in energy and in supersonic flight” as the supersonic airliner company unveiled a Colorado factory dedicated to making gas turbines for AI data centers. But Boom may be facing turbulence after early backers for both ventures have questioned the company’s delivery timeline or backed out entirely."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "ce0cce9f3bc5563c": {
+  "feed": "Technica",
+  "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+  "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "An official extension for Anthropic’s Claude model was backdoored and threatened as many as 5,000 developers' machines, multiple sources reported Friday. Anthropic so far has yet to warn customers of the incident. The compromised package was a VS Code extension available in the marketplace of Cursor, a maker of AI-assisted developer tools, the company said Friday."
+  ],
+  "published_on": "2026-10-30"
  }
 }
