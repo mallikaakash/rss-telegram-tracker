@@ -100470,5 +100470,65 @@
    "An official extension for Anthropic’s Claude model was backdoored and threatened as many as 5,000 developers' machines, multiple sources reported Friday. Anthropic so far has yet to warn customers of the incident. The compromised package was a VS Code extension available in the marketplace of Cursor, a maker of AI-assisted developer tools, the company said Friday."
   ],
   "published_on": "2026-10-30"
+ },
+ "e58df0c82cd4e2a2": {
+  "feed": "Technica",
+  "title": "Seabirds racing home over the ocean can get jet-lagged",
+  "link": "https://arstechnica.com/science/2026/10/seabirds-racing-home-over-the-ocean-can-get-jet-lagged/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Flying across several time zones often causes jet lag, a feeling when the body insists it's the middle of the night while the clock says it's lunchtime. Now it turns out this nuisance is not exclusive to humans. A new Science study on Manx shearwaters, seabirds that can fly hundreds of kilometers a day over the North Atlantic, shows they jet-lag themselves during their excursions."
+  ],
+  "published_on": "2026-10-31"
+ },
+ "58f1874bf514e218": {
+  "feed": "Technica",
+  "title": "The FDA wants to pull its approval of a drug. It’s not so easy.",
+  "link": "https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In May 2021, the US Food and Drug Administration released a lengthy briefing document on an experimental medication for a rare autoimmune form of vasculitis that often damages the kidneys and lungs. The agency was on the fence about whether to approve the treatment, and it wanted an independent advisory committee to weigh in. Among the questions at hand: Was the drug meaningfully better than existing therapies?"
+  ],
+  "published_on": "2026-10-31"
+ },
+ "65d255a74525f3ca": {
+  "feed": "Technica",
+  "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+  "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On August 9, 2026, Dartmouth College provost Santiago Schnell wrote a Washington Post op-ed called \"Universities are fighting AI cheating. But there’s a deeper problem.\" This week, Schnell discovered the depths of the problem himself as he resigned from the university after an advisory committee found that he failed to disclose significant AI use in an academic paper and in the Washington Post op-ed, even though publishers required such disclosure."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "a222d0a212be4059": {
+  "feed": "Technica",
+  "title": "Over 25% of people lie to get antibiotics—and their lies aren't even good",
+  "link": "https://arstechnica.com/health/2026/10/over-25-of-people-lie-to-get-antibiotics-and-their-lies-arent-even-good/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A significant number of patients in the US lie to their doctors to get antibiotics they likely don't need, according to two new studies. While that may not be a startling revelation, the studies drills down on the phenomenon, finding that the lies patients tell are generally bad ones—and yet, they work almost all the time. In the two linked studies published Friday in JAMA Network Open, a team of researchers led by Alistair Thorpe at the University of Utah analyzed online survey data from over 1,000 adults."
+  ],
+  "published_on": "2026-10-30"
+ },
+ "538ea1326a6a8ff9": {
+  "feed": "Technica",
+  "title": "Basically no one is using AI agents for their DoorDash orders",
+  "link": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+  "date": "2026-10-31",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As AI tools and agents have continued their march across all aspects of digital life, many companies are trying to use LLMs to improve the experience of purchasing goods and services on the Internet. Thus far, though, a vanishingly small number of people seem to be taking advantage of those capabilities, at least when it comes to using the popular food delivery app DoorDash with an outside AI agent."
+  ],
+  "published_on": "2026-10-30"
  }
 }
