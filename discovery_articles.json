@@ -6573,5 +6573,60 @@
    "Benchmarks DDP versus FSDP2 step times and Model FLOPs Utilization (MFU) over non-NVLink PCIe interconnects on L40S cards."
   ],
   "published_on": "2026-10-22"
+ },
+ "0d4fc4d6eb58439a": {
+  "url": "https://www.jayaprakash.net/blog/2026-09-22-pretraining-a-0.5b-model-on-one-gpu/",
+  "title": "Pretraining a 0.5B model on one rented GPU - Jayaprakash Sundararaj",
+  "domain": "jayaprakash.net",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-10-31",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-22"
+ },
+ "da85e9dfa0e16b64": {
+  "url": "https://mlai.blog/static/tensor-kernels/",
+  "title": "From Tensor Equations to Fast Kernels: Interactive reader",
+  "domain": "mlai.blog",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-10-31",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-13"
+ },
+ "7623c8567436c7a8": {
+  "url": "https://www.alphaxiv.org/abs/2610.22428",
+  "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models | alphaXiv",
+  "domain": "alphaxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-10-31",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-15"
+ },
+ "9166ca4c3e36afe1": {
+  "url": "https://github.devotd.net/en/posts/kserve-kserve/",
+  "title": "kserve/kserve v0.21.0 — Kubernetes-native AI inference platform · Devotd Github",
+  "domain": "github.devotd.net",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-10-31",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-20"
+ },
+ "402185179390b636": {
+  "url": "https://hiren.me/posts/inference-in-production-part-3/",
+  "title": "\n  Inference in production (part 3): when hardware goes bad · Hiren Panchasara\n",
+  "domain": "hiren.me",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-10-31",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-30"
  }
 }
