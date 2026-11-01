@@ -6628,5 +6628,98 @@
   "why": "",
   "points": [],
   "published_on": "2026-09-30"
+ },
+ "a94255a20d3d1276": {
+  "url": "https://arxiv.org/abs/2608.11859",
+  "title": "Small-Scale Experiments: Are We There Yet?",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-01",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-10-21"
+ },
+ "a69d6c6cace73154": {
+  "url": "https://rstation.ai/r/general_pretraining/posts/78",
+  "title": "Prereg: hashed n-gram input tables (Over-Encoding) at d6, scored by matched-token c at 1x and 4x | rStation",
+  "domain": "rstation.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-01",
+  "tier": "hidden_gem",
+  "why": "An exceptionally detailed, original pretraining research log testing hashed n-gram input tables (Over-Encoding) against empirical token-efficiency scaling laws.",
+  "points": [
+   "Investigates whether hashed 2-gram and 3-gram embedding tables maintain or grow the matched-token multiplier (c) over extended training horizons.",
+   "Details an exact 403M-row lookup architecture with zero-initialization to match step-0 baseline FLOPs, measuring only a 1.065x wall-clock overhead.",
+   "Identifies distinct AdamW learning rate dynamics on sparse lookup rows, testing a 0.1x LR arm to control momentum tail updates."
+  ],
+  "published_on": "2026-10-11"
+ },
+ "96439656a0b46c4f": {
+  "url": "https://shanhuang.net/blog/training-a-200b-model-from-scratch-part-13",
+  "title": "[Training a 500B LLM from Scratch] 13/25: How Do We Keep Data Flowing and Save Training Progress? | Shan Huang",
+  "domain": "shanhuang.net",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-01",
+  "tier": "skip",
+  "why": "Despite the ambitious title, the post is an introductory explainer using basic analogies rather than sharing deep technical infrastructure details.",
+  "points": [],
+  "published_on": "2026-10-28",
+  "reject_reason": "shallow"
+ },
+ "71a5166c1c7b5ed6": {
+  "url": "https://extrapolator.ai/2026/09/12/output-embedding-centering-for-stable-llm-pretraining/",
+  "title": "Output Embedding Centering for Stable LLM Pretraining - Extrapolator AI",
+  "domain": "extrapolator.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-01",
+  "tier": "solid_find",
+  "why": "A focused technical summary of an architectural intervention (Output Embedding Centering) designed to prevent logit divergence in frontier LLM pretraining runs.",
+  "points": [
+   "Traces late-stage LLM logit divergence to geometric anisotropy on the output embedding hypersphere rather than pure optimization noise.",
+   "Contrasts Output Embedding Centering against heuristic fixes like z-loss penalties and logit soft-capping.",
+   "Provides a drop-in architectural fix that preserves the original loss landscape without taxing GPU throughput at scale."
+  ],
+  "published_on": "2026-09-12"
+ },
+ "93a047f1d0a83489": {
+  "url": "https://www.baseten.co/articles/a-guide-to-llm-post-training/",
+  "title": "A guide to LLM post-training",
+  "domain": "baseten.co",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-01",
+  "tier": "skip",
+  "why": "High-level vendor overview of standard LLM post-training techniques with no novel findings or implementation depth.",
+  "points": [],
+  "published_on": "2026-09-23",
+  "reject_reason": "marketing"
+ },
+ "5522128ccb3637ef": {
+  "url": "https://www.sofarbot.com/opensource/X8MlEngAG002",
+  "title": "ML Engineering Open Book: A Field Manual for Large-Model Training and Inference — Open Source AI Project",
+  "domain": "sofarbot.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-01",
+  "tier": "skip",
+  "why": "A third-party directory listing and high-level description of stas00's ml-engineering repository rather than the substantive engineering content itself.",
+  "points": [],
+  "published_on": "2026-09-12",
+  "reject_reason": "shallow"
+ },
+ "e91f03e0b9bb8628": {
+  "url": "https://blog.51cto.com/u_16213683/14914054",
+  "title": "如何在一年内将云原生 AI 平台从 MVP 推向生产级的经验分享_mob64ca14101b2f的技术博客_51CTO博客",
+  "domain": "blog.51cto.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-01",
+  "tier": "solid_find",
+  "why": "A pragmatic, hands-on infrastructure postmortem chronicling the evolution of an internal LLM serving platform to 5.8M daily requests.",
+  "points": [
+   "Physically segregated GPU clusters into synchronous API serving and asynchronous batch queues to resolve severe VRAM contention.",
+   "Patched standard Kubernetes scheduling blind spots using GPU Operator device plugins to filter nodes by actual VRAM allocation.",
+   "Discarded raw GPU utilization as an autoscaling metric for LLM inference in favor of custom service-level metrics."
+  ],
+  "published_on": "2026-09-07"
  }
 }
