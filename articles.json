@@ -100530,5 +100530,29 @@
    "As AI tools and agents have continued their march across all aspects of digital life, many companies are trying to use LLMs to improve the experience of purchasing goods and services on the Internet. Thus far, though, a vanishingly small number of people seem to be taking advantage of those capabilities, at least when it comes to using the popular food delivery app DoorDash with an outside AI agent."
   ],
   "published_on": "2026-10-30"
+ },
+ "0def4a2fca6b3a20": {
+  "feed": "Simon Willison",
+  "title": "How We Took Over ChatGPT Accounts",
+  "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+  "date": "2026-11-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data."
+  ],
+  "published_on": "2026-10-31"
+ },
+ "bc9463905bbd6e7a": {
+  "feed": "Simon Willison",
+  "title": "datasette-llm 0.1a9",
+  "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+  "date": "2026-11-01",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra ."
+  ],
+  "published_on": "2026-10-31"
  }
 }
