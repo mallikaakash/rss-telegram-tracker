@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Digest &middot; Mon 02 Nov 2026, 13:51 IST</title><style>
+:root{
+  color-scheme:light dark;
+  --bg:#f3ead6; --panel:#fbf6ea; --border:#cdb98c; --border-strong:#a8905f;
+  --text:#241c10; --muted:#7a6a4c; --accent:#9c3b1a; --link:#7a3315;
+  --must-bg:#9c3b1a; --must-fg:#f6ecd9;
+  --skim-bg:#9c7a1f; --skim-fg:#231a06;
+  --low-bg:#6b6b4c; --low-fg:#f0ead9;
+  --gem-bg:#3c5c3a; --gem-fg:#f0ead9;
+  --font-serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;
+  --font-mono:ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#191309; --panel:#211a10; --border:#4a3c26; --border-strong:#6b5636;
+    --text:#e9dfc4; --muted:#a3906c; --accent:#d4763f; --link:#e08a52;
+    --must-bg:#7a2c12; --must-fg:#f6ecd9;
+    --skim-bg:#7a5f16; --skim-fg:#f6ecd9;
+    --low-bg:#4a4a36; --low-fg:#d9d2ba;
+    --gem-bg:#2e4a2c; --gem-fg:#e9dfc4;
+  }
+}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-serif);background:var(--bg);color:var(--text);
+ max-width:720px;margin:0 auto;padding:28px 18px 70px;line-height:1.6}
+a{color:var(--link)}
+h1{font-family:var(--font-mono);font-size:1.05rem;font-weight:700;
+ letter-spacing:.02em;text-transform:uppercase;margin-bottom:6px}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-bottom:22px;text-transform:uppercase;letter-spacing:.04em;
+ border-bottom:1px solid var(--border);padding-bottom:12px}
+.meta a{color:var(--muted)}
+.tldr{background:var(--panel);border:1px solid var(--border);
+ border-left:4px solid var(--accent);padding:14px 16px;margin-bottom:26px;
+ font-size:.98rem}
+.card{background:var(--panel);border:1px solid var(--border);
+ box-shadow:3px 3px 0 0 var(--border);padding:16px 18px;margin:0 0 18px}
+.badge{display:inline-block;font-family:var(--font-mono);font-size:.68rem;
+ font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ padding:2px 7px;border:1px solid rgba(0,0,0,.15);margin-bottom:9px}
+.badge.must{background:var(--must-bg);color:var(--must-fg)}
+.badge.skim{background:var(--skim-bg);color:var(--skim-fg)}
+.badge.low{background:var(--low-bg);color:var(--low-fg)}
+.badge.gem{background:var(--gem-bg);color:var(--gem-fg)}
+.src{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-left:8px;text-transform:uppercase;letter-spacing:.03em}
+.card h2{font-size:1.08rem;line-height:1.4;margin:2px 0 8px;font-weight:700}
+.card h2 a{text-decoration:none;color:var(--text)}
+.card h2 a:hover{color:var(--accent)}
+.why{color:var(--muted);font-size:.88rem;font-style:italic;margin-bottom:9px;
+ border-left:2px solid var(--border);padding-left:10px}
+ul{padding-left:20px}
+li{font-size:.92rem;margin-bottom:5px}
+.section{margin:30px 0 12px;font-family:var(--font-mono);font-size:.74rem;
+ font-weight:700;color:var(--muted);text-transform:uppercase;
+ letter-spacing:.08em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.idx a{display:block;padding:12px 14px;background:var(--panel);
+ border:1px solid var(--border);box-shadow:3px 3px 0 0 var(--border);
+ margin-bottom:10px;text-decoration:none;color:var(--text)}
+.idx .sub{font-family:var(--font-mono);color:var(--muted);font-size:.72rem;
+ margin-top:3px;text-transform:uppercase;letter-spacing:.03em}
+.stamp{font-family:var(--font-mono);color:var(--muted);font-size:.7rem;
+ float:right;text-transform:uppercase}
+.toolbar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar input[type=text]{font-family:var(--font-mono);font-size:.85rem;
+ background:var(--panel);color:var(--text);border:1px solid var(--border);
+ padding:8px 10px;flex:1;min-width:160px}
+.toolbar input[type=text]:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.chip{font-family:var(--font-mono);font-size:.7rem;text-transform:uppercase;
+ letter-spacing:.04em;background:var(--panel);color:var(--muted);
+ border:1px solid var(--border);padding:7px 11px;cursor:pointer;user-select:none}
+.chip.active{background:var(--accent);color:var(--must-fg);border-color:var(--accent)}
+.empty{color:var(--muted);font-size:.9rem;font-style:italic;padding:20px 0}
+</style></head><body><h1>Reading Digest</h1><div class="meta">Mon 02 Nov 2026, 13:51 IST &middot; 2 new posts &middot; <a href="../index.html">library</a> &middot; <a href="../runs.html">all runs</a></div><div class="section">Worth a skim &middot; 2</div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Simon Willison</span><h2><a href="https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/">If in doubt, delete the uv.lock file</a></h2><ul><li>I&#x27;ve been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I&#x27;m having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don&#x27;t include a uv.lock file, since it&#x27;s rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories.</li></ul></div><div class="card"><span class="badge skim">Worth a skim</span><span class="src">Sakana AI</span><h2><a href="/symposium-2026/">【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI</a></h2><ul><li>基調講演を行うSakana AI Chief Scientific Advisorのユルゲン・シュミットフーバー教授 （English Report Below.） 2026年10月26日、Sakana AIは東京・一橋講堂でシンポジウム「From World Models to Real-World AI — 日本から拓くAIの新時代」を開催しました。9月に Chief Scientific Advisorとしてお迎えした ユルゲン・シュミットフーバー（Jürgen Schmidhuber）教授は、1980年代から、最初のTransformer（正規化なし線形Transformer）、深層ニューラルネットワークの事前学習と蒸留、現代的な世界モデル、生成的・敵対的なネットワークによる人工好奇心、再帰的自己改善など、いまの深層学習と生成AIの土台となる数多くのアイデアを切り拓いてきた研究者です。20世紀で最も引用されたAI論文となった1997年のLSTM論文の共著者でもあります。教授の基調講演と、2018年に教授と論文「 World Models 」を共著した共同創業者兼CEOのDavid Haとの対談に、日本各地から400名を超える方にご参加いただきました。 このシンポジウムで、Sakana AIは自社による事前学習モデルの開発に乗り出すことを明らかにしました。チーフサイエンティストの秋葉拓哉が、事前学習から自社で開発する言語モデルシリーズ「Sakana Sawara（仮称）」を発表しました。最初のモデルとなる小規模な「Sawara Small（仮称）」は、順調に進めば2027年春に公開する予定です。 このシンポジウムは、Schmidhuber教授を迎えたSakana AIの意気込みをお伝えし、日本の企業や研究機関の皆さんとともにAIの次の時代を切り開いていくスタート地点として企画しました。本記事では、各講演と対談の内容を、講演録の形でお伝えします（抜粋し、読みやすさのために一部の順序を入れ替えて編集しています）。 目次 オープニング：From World Models to Real-World AI：David Ha 基調講演：Jürgen Schmidhuber LLM Development at the RSI Lab：秋葉拓哉 Towards Open-Ended Autonomous Discovery Systems：Robert Tjarko Lange World Models &amp; Physical AI：Stefania Druga／Sebastian Risi 対談：David Ha × Jürgen Schmidhuber おわりに 司会を務めたSakana AI Chief of Staffの田附千絵子 オープニング：From World Models to Real-World AI：David Ha 最初に、共同創業者兼CEOのDavid Haが登壇しました。 Sakana AI CEOのDavid Ha 知能は制約から生まれる 今日着ているTシャツには、世界モデルの図がプリントされています。Schmidhuber教授が1990年に描いたものです。当時は計算のコストがいまより100万倍から10億倍も高く、論文の図も手で描いて貼り付けていました。いまではAIサイエンティストが一緒に論文を書く時代になりましたが、1980年代から90年代のイノベーションがいまにつながっていることを、ときどき思い出すのは良いことだと思います。 私がSNSでよく言っている持論に、「基盤モデルは、人類史上もっとも速く価値を失う金融資産の一つだ」というものがあります。AIのモデルをつくる会社を始めた私にとって、これは悩ましい問題です。日本は、この分野で世界とどう戦えばいいのか。 私の信念は、計算資源とデータを大量に投入してモデルを大きくし続けることだけが道ではない、というものです。知能は制約から生まれます。いまのAIは豊かさによってスケールしていますが、生物の知能は欠乏の中から生まれました。進化は、より少ない資源でより多くをなすものを選びます。脳も、言語も、文化も、制約が知能を生むことの証拠です。 10年ほど前、私はAIの研究にのめり込み、OpenAI Gymの難しい課題にいくつも挑戦していました。二足歩行ロボットの課題では、ニューラルネットワークだけでなく、ロボットの体の大きさや使うエネルギーも最小にするよう制約をかけてみました。すると、AIは虫のように歩く小さなロボットを生み出しました。では、制約をまったくなくすとどうなるか。AIが見つけたのは、脳を持たず、ゴールに向かってただ倒れ込む巨大なロボットでした。AIが脳を持つためには、制約が必要なのです。 Schmidhuber教授の論文との出会い ピクセルから車を運転するカーレースの課題では、エージェントに世界モデルを持たせました。未来に何が起きるかを予測し、世界を潜在空間で表現できるようにしたのです。 そのとき私がしたのは、Jürgenがいつも言うように、過去の研究をさかのぼることでした。そこで出会ったのが、世界を微分可能にする1990年の論文から、2015年の「On Learning to Think」に至る、教授の世界モデルの一連の論文です。アルゴリズム情報理論から人工好奇心まで、多くの概念がまとめられていて、とても刺激を受けました。エージェントをコントローラー（C）と世界モデル（M）に分けて考える、という発想もそこで学びました。 その後、Jürgenと共同で書いたのが、NeurIPSで発表した論文「World Models」です。この論文では、エージェントが世界モデルの見る「夢」の中で学習できることを示しました。こうした考え方は、いまでは自動運転やロボティクスなど、多くのイノベーションの土台になっています。 Sakana AIの研究と、日本のAI主権 2023年、私はLlion Jones、伊藤錬とともにSakana AIを創業しました。サカナは日本語で魚のことです。知能は一匹の魚ではなく、群れにある。私たちはそう考えて、集合知のアプローチをとっています。そして、資源の限られた日本の会社として、他社と同じことはしたくありません。群れとは少し違う方向に泳ぐ、赤い魚でありたいと考えています。 「知能は一匹の魚ではなく、群れにある」と話すDavid これまでに、脳に着想を得た Continuous Thought Machines 、誤差逆伝播法を使わずに1,000層のネットワークを学習する PC-ALM 、今年 Nature誌に掲載されたAIサイエンティスト 、そしてSchmidhuber教授のゲーデルマシンの考えをLLMで実装した ダーウィン・ゲーデルマシン などの研究を発表してきました。 では、日本は世界の競争の中でどうAIをつくっていくのか。私は、日本のAI主権を3本の柱で考えています。一から技術をつくれる「事前学習」、日本の価値観に合わせる「事後学習」、そして世界のフロンティアモデルと自社のモデルを組み合わせて性能を引き出す「オーケストレーション」です。オーケストレーションでは Sakana Fugu を、事後学習では Sakana Namazu を提供しています。 そして最後の柱が、事前学習です。私たちは、自社のモデルの事前学習に取り組み始めます。詳しくは、このあとチーフサイエンティストの秋葉拓哉が話します。 私たちが描いているのは、エージェント・ネイティブな言語モデルと世界モデルを事前学習し、互いに連携させて難しいタスクに取り組ませ、AIサイエンティストによる自己改善のループでモデルを磨いていく計画です。この計画は、Jürgenの論文にあるコントローラーと世界モデルの構成と、大きくは変わりません。いま手に入る技術を組み合わせれば、過去の優れたアイデアを生かして、フロンティアを押し広げることができるのです。 基調講演：Jürgen Schmidhuber 続いて、Jürgen Schmidhuber教授が基調講演を行いました。 ニューラルネットワークは230年前に生まれた Davidが1990年に私が描いた図のTシャツを着てきてくれたことを、とても誇りに思います。 現代のAIは、人工ニューラルネットワ</li></ul></div></body></html>
