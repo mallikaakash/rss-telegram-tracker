@@ -100591,5 +100591,220 @@
    "基調講演を行うSakana AI Chief Scientific Advisorのユルゲン・シュミットフーバー教授 （English Report Below.） 2026年10月26日、Sakana AIは東京・一橋講堂でシンポジウム「From World Models to Real-World AI — 日本から拓くAIの新時代」を開催しました。9月に Chief Scientific Advisorとしてお迎えした ユルゲン・シュミットフーバー（Jürgen Schmidhuber）教授は、1980年代から、最初のTransformer（正規化なし線形Transformer）、深層ニューラルネットワークの事前学習と蒸留、現代的な世界モデル、生成的・敵対的なネットワークによる人工好奇心、再帰的自己改善など、いまの深層学習と生成AIの土台となる数多くのアイデアを切り拓いてきた研究者です。20世紀で最も引用されたAI論文となった1997年のLSTM論文の共著者でもあります。教授の基調講演と、2018年に教授と論文「 World Models 」を共著した共同創業者兼CEOのDavid Haとの対談に、日本各地から400名を超える方にご参加いただきました。 このシンポジウムで、Sakana AIは自社による事前学習モデルの開発に乗り出すことを明らかにしました。チーフサイエンティストの秋葉拓哉が、事前学習から自社で開発する言語モデルシリーズ「Sakana Sawara（仮称）」を発表しました。最初のモデルとなる小規模な「Sawara Small（仮称）」は、順調に進めば2027年春に公開する予定です。 このシンポジウムは、Schmidhuber教授を迎えたSakana AIの意気込みをお伝えし、日本の企業や研究機関の皆さんとともにAIの次の時代を切り開いていくスタート地点として企画しました。本記事では、各講演と対談の内容を、講演録の形でお伝えします（抜粋し、読みやすさのために一部の順序を入れ替えて編集しています）。 目次 オープニング：From World Models to Real-World AI：David Ha 基調講演：Jürgen Schmidhuber LLM Development at the RSI Lab：秋葉拓哉 Towards Open-Ended Autonomous Discovery Systems：Robert Tjarko Lange World Models & Physical AI：Stefania Druga／Sebastian Risi 対談：David Ha × Jürgen Schmidhuber おわりに 司会を務めたSakana AI Chief of Staffの田附千絵子 オープニング：From World Models to Real-World AI：David Ha 最初に、共同創業者兼CEOのDavid Haが登壇しました。 Sakana AI CEOのDavid Ha 知能は制約から生まれる 今日着ているTシャツには、世界モデルの図がプリントされています。Schmidhuber教授が1990年に描いたものです。当時は計算のコストがいまより100万倍から10億倍も高く、論文の図も手で描いて貼り付けていました。いまではAIサイエンティストが一緒に論文を書く時代になりましたが、1980年代から90年代のイノベーションがいまにつながっていることを、ときどき思い出すのは良いことだと思います。 私がSNSでよく言っている持論に、「基盤モデルは、人類史上もっとも速く価値を失う金融資産の一つだ」というものがあります。AIのモデルをつくる会社を始めた私にとって、これは悩ましい問題です。日本は、この分野で世界とどう戦えばいいのか。 私の信念は、計算資源とデータを大量に投入してモデルを大きくし続けることだけが道ではない、というものです。知能は制約から生まれます。いまのAIは豊かさによってスケールしていますが、生物の知能は欠乏の中から生まれました。進化は、より少ない資源でより多くをなすものを選びます。脳も、言語も、文化も、制約が知能を生むことの証拠です。 10年ほど前、私はAIの研究にのめり込み、OpenAI Gymの難しい課題にいくつも挑戦していました。二足歩行ロボットの課題では、ニューラルネットワークだけでなく、ロボットの体の大きさや使うエネルギーも最小にするよう制約をかけてみました。すると、AIは虫のように歩く小さなロボットを生み出しました。では、制約をまったくなくすとどうなるか。AIが見つけたのは、脳を持たず、ゴールに向かってただ倒れ込む巨大なロボットでした。AIが脳を持つためには、制約が必要なのです。 Schmidhuber教授の論文との出会い ピクセルから車を運転するカーレースの課題では、エージェントに世界モデルを持たせました。未来に何が起きるかを予測し、世界を潜在空間で表現できるようにしたのです。 そのとき私がしたのは、Jürgenがいつも言うように、過去の研究をさかのぼることでした。そこで出会ったのが、世界を微分可能にする1990年の論文から、2015年の「On Learning to Think」に至る、教授の世界モデルの一連の論文です。アルゴリズム情報理論から人工好奇心まで、多くの概念がまとめられていて、とても刺激を受けました。エージェントをコントローラー（C）と世界モデル（M）に分けて考える、という発想もそこで学びました。 その後、Jürgenと共同で書いたのが、NeurIPSで発表した論文「World Models」です。この論文では、エージェントが世界モデルの見る「夢」の中で学習できることを示しました。こうした考え方は、いまでは自動運転やロボティクスなど、多くのイノベーションの土台になっています。 Sakana AIの研究と、日本のAI主権 2023年、私はLlion Jones、伊藤錬とともにSakana AIを創業しました。サカナは日本語で魚のことです。知能は一匹の魚ではなく、群れにある。私たちはそう考えて、集合知のアプローチをとっています。そして、資源の限られた日本の会社として、他社と同じことはしたくありません。群れとは少し違う方向に泳ぐ、赤い魚でありたいと考えています。 「知能は一匹の魚ではなく、群れにある」と話すDavid これまでに、脳に着想を得た Continuous Thought Machines 、誤差逆伝播法を使わずに1,000層のネットワークを学習する PC-ALM 、今年 Nature誌に掲載されたAIサイエンティスト 、そしてSchmidhuber教授のゲーデルマシンの考えをLLMで実装した ダーウィン・ゲーデルマシン などの研究を発表してきました。 では、日本は世界の競争の中でどうAIをつくっていくのか。私は、日本のAI主権を3本の柱で考えています。一から技術をつくれる「事前学習」、日本の価値観に合わせる「事後学習」、そして世界のフロンティアモデルと自社のモデルを組み合わせて性能を引き出す「オーケストレーション」です。オーケストレーションでは Sakana Fugu を、事後学習では Sakana Namazu を提供しています。 そして最後の柱が、事前学習です。私たちは、自社のモデルの事前学習に取り組み始めます。詳しくは、このあとチーフサイエンティストの秋葉拓哉が話します。 私たちが描いているのは、エージェント・ネイティブな言語モデルと世界モデルを事前学習し、互いに連携させて難しいタスクに取り組ませ、AIサイエンティストによる自己改善のループでモデルを磨いていく計画です。この計画は、Jürgenの論文にあるコントローラーと世界モデルの構成と、大きくは変わりません。いま手に入る技術を組み合わせれば、過去の優れたアイデアを生かして、フロンティアを押し広げることができるのです。 基調講演：Jürgen Schmidhuber 続いて、Jürgen Schmidhuber教授が基調講演を行いました。 ニューラルネットワークは230年前に生まれた Davidが1990年に私が描いた図のTシャツを着てきてくれたことを、とても誇りに思います。 現代のAIは、人工ニューラルネットワ"
   ],
   "published_on": "2026-11-01"
+ },
+ "95189256059f9398": {
+  "feed": "Technica",
+  "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+  "link": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple’s new CEO, John Ternus, is apparently pushing the tech company’s development of household robots—and the first to debut may be a home robot designed to autonomously roam around while supporting FaceTime calls and switching lights on whenever a person enters the room. People who worked on Apple’s robotic projects told The Information that the AI-driven home robot, code-named J595, could be named HomeView Ultra in line with Apple’s new HomeView stationary smart display ."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "094c331a98fae894": {
+  "feed": "Google DeepMind",
+  "title": "Speeding up planning decisions with AI",
+  "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Speeding up planning decisions with AI â Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact on the world Build "
+  ],
+  "published_on": "2026-10-30"
+ },
+ "19244c7aa2063fd3": {
+  "feed": "OpenAI News",
+  "title": "Introducing the Grid Protectors Program",
+  "link": "https://openai.com/index/grid-protectors-program",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing the Grid Protectors Program | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 2, 2026 Global Affairs Company Introducing the Grid Protectors Program Launching a national program to help our future compute campuses support reliable, affordable electricity."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "624e23d0cdf0ab77": {
+  "feed": "MIT News (AI)",
+  "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+  "link": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Regina Barzilay, MIT’s School of Engineering Distinguished Professor of AI and Health, and James Collins, MIT’s Termeer Professor of Medical Engineering and Science, are the recipients of the 2026 Pritzker Prize for AI in Science Research Excellence . The award recognizes their joint work in “pioneering AI-enabled antibiotic discovery, integrating deep learning, bioengineering, and experimental validation to identify novel antibacterial candidates against drug-resistant pathogens.” Established in 2024 by the University of Chicago in partnership with Caltech, the Pritzker Prize for AI in Science Research Excellence recognizes contributions that jointly advance AI and the natural sciences or engineering."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "6bf0704cb5e2b6fd": {
+  "feed": "Simon Willison",
+  "title": "The U.S. Census Bureau and “Super Intelligence”",
+  "link": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis , and then to experiment with Claude's new Code Interpreter ."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "b10d0651ae4c4f7c": {
+  "feed": "Cloudflare Blog",
+  "title": "How we halved DNS build delay and cut memory use by 85%",
+  "link": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When I last wrote about our DNS propagation pipeline in 2022 , the Zone Builder received about 250 DNS record changes per second. Today it receives about 700, nearly three times as many, plus about 100 other events, such as zone setting changes. However, the number of events was never the real problem. The problem was the kind of work some of those events needed, and how that work grows with the size of a zone."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "dc1499209aeb3447": {
+  "feed": "ClickHouse",
+  "title": "How OpenRouter observes, understands, and acts on 740 million LLM requests a day with ClickHouse Cloud",
+  "link": "https://clickhouse.com/blog/openrouter-llm-routing-observability-clickhouse-cloud",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> How OpenRouter observes, understands, and acts on 740 million LLM requests a day with ClickHouse Cloud | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "7a3dd5379a37951a": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
+  "link": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking,... Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking, operators, and schedulers must work together, with settings tuned to the hardware and workload."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "0e0a60d2bedb844a": {
+  "feed": "LinkedIn Engineering",
+  "title": "How we scale deployments with a custom GitOps engine",
+  "link": "https://www.linkedin.com/blog/engineering/infrastructure/how-we-scale-deployments-with-a-custom-gitops-engine",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How we scale deployments with a custom GitOps engine Skip to main content Engineering Blog Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership How we scale deployments with a custom GitOps engine Authored by Ramesh G."
+  ]
+ },
+ "778dbacaaeb9af89": {
+  "feed": "Technica",
+  "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+  "link": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last week, Anthropic introduced a new system prompt designed to stop its Claude models from re-creating specific, existing video games. While that move could help shield Anthropic from some liability, it's unlikely to slow much of the massive wave of AI-assisted game porting and copying that has emerged in recent months. A social media user and AI decompilation enthusiast going by the name \"chasm\" was among the first to note the prompt change late last week, saying a new rule seemed to be added to the Claude Code prompt on or around October 27."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "ed4b58253682640f": {
+  "feed": "OpenAI News",
+  "title": "LifeVal",
+  "link": "https://openai.com/index/lifeval",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LifeVal | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 2, 2026 Research Publication LifeVal L i f e V a l L i f e V a l Measuring AI progress on the tasks that matter in everyday life."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "fa05bf12dcbfd078": {
+  "feed": "ClickHouse",
+  "title": "What's new in clickhousectl v0.5.0",
+  "link": "https://clickhouse.com/blog/clickhousectl-v0-5-0",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> What's new in clickhousectl v0.5.0 | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse. Available on AWS, GCP, and Azure."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "302821d6ae1872ab": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
+  "link": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into... Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into applications reliably. NVIDIA Cosmos addresses each."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "ed27b2587dba8a5c": {
+  "feed": "Technica",
+  "title": "China publicly discloses plan for a lunar landing within three years",
+  "link": "https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Chinese space officials confirmed this weekend that the Asian nation plans to land its astronauts on the Moon within three years. At the Seventh Manned Spaceflight Conference in Beijing, officials, including Wang Xiang, chief designer for the lunar exploration program, laid out the country's most publicly detailed plans yet for a series of missions leading up to a crewed lunar landing \"before 2030.\" China's lunar landings will involve a lunar-orbit rendezvous similar to what NASA did in the 1960s and early 1970s with the Apollo program."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "598c6194c0d34c23": {
+  "feed": "OpenAI News",
+  "title": "Qodo builds context into AI code review with Codex",
+  "link": "https://openai.com/index/qodo-codex-plugin",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Qodo builds context into AI code review with Codex | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 2, 2026 Startup Qodo builds context into AI code review with Codex Qodo brings organizational context and codebase standards into Codex, helping developers catch P0 issues across repositories."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "eac6c34b7124194e": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Support New AI Frameworks Faster Using NVIDIA Workload Map",
+  "link": "https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NVIDIA DSX AI Factory Platform brings together technologies to help the ecosystem design, build, and operate more efficient AI factories, including open source,... NVIDIA DSX AI Factory Platform brings together technologies to help the ecosystem design, build, and operate more efficient AI factories, including open source, modular software components built to support multi-tenant operations and scaling."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "3327074e4a4a361d": {
+  "feed": "Technica",
+  "title": "F1 in Mexico City: Yet another Ferrari fiasco, but that’s not all",
+  "link": "https://arstechnica.com/cars/2026/11/f1-in-mexico-city-we-have-a-new-world-champion/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Formula 1 has a new World Drivers' Champion. Just a few months after turning 20, Kimi Antonelli sealed his first title this weekend at Mexico City, becoming the sport’s youngest-ever champion. Elsewhere, there was drama aplenty, perhaps a consequence of the thin air affecting decision-making in some cases. The race was Ferrari’s to win, but yet again, the team handed victory to a rival this season, in this case Red Bull."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "78036d3639ccfc48": {
+  "feed": "Technica",
+  "title": "The world has a new plan to save nature, but it still needs the money",
+  "link": "https://arstechnica.com/science/2026/11/the-world-has-a-new-plan-to-save-nature-but-it-still-needs-the-money/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The world is set to miss its 2030 conservation goals as finance and action have fallen short, leaders recognized at a UN biodiversity summit in Armenia’s capital, where they agreed to step up efforts after a final overnight session. Representatives from almost 200 countries gathered in Yerevan over the past two weeks to review progress on a landmark agreement set four years ago to protect about a third of the world’s land and seas by 2030."
+  ],
+  "published_on": "2026-11-02"
  }
 }
