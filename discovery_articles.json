@@ -6721,5 +6721,49 @@
    "Discarded raw GPU utilization as an autoscaling metric for LLM inference in favor of custom service-level metrics."
   ],
   "published_on": "2026-09-07"
+ },
+ "e7824102cb0bb937": {
+  "url": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/",
+  "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core | NVIDIA Technical Blog",
+  "domain": "developer.nvidia.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-02",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-06"
+ },
+ "50d12c6522e1bea9": {
+  "url": "https://dev.to/afonsofaro/im-16-and-spent-a-year-training-my-own-780b-language-model-heres-what-i-learned-1kl4",
+  "title": "I'm 16 and spent a year training my own 780B language model. Here's what I learned - DEV Community",
+  "domain": "dev.to",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-02",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-21"
+ },
+ "d4a55f898fe6bd2d": {
+  "url": "https://doi.org/10.48550/arxiv.2609.21594",
+  "title": "[2609.21594] HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods",
+  "domain": "doi.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-02",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-18"
+ },
+ "7d0ce13d97c559fe": {
+  "url": "https://doi.org/10.48550/arxiv.2610.24818",
+  "title": "[2610.24818] Efficiency Measured in English: Tokeniser Coverage Bounds Small Language Models on Indic Scripts",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-02",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-17"
  }
 }
