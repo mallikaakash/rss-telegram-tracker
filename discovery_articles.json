@@ -6765,5 +6765,73 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-17"
+ },
+ "0b3a7765d9501ca7": {
+  "url": "https://arxiv.org/abs/2609.10221",
+  "title": "[2609.10221] Why Sample What You Can Enumerate? Exact Policy Optimization for Genomic Tool Selection",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-03",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-09"
+ },
+ "eda9f4023edf0f75": {
+  "url": "https://arxiv.org/abs/2609.21594",
+  "title": "[2609.21594] HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-03",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-18"
+ },
+ "a0e3ceaabd362692": {
+  "url": "https://dev.to/ifnodoraemon/evolution-of-attention-kernels-from-flashattention-123-sram-tiling-to-flashinfer-unified-13km",
+  "title": "Evolution of Attention Kernels: From FlashAttention-1/2/3 SRAM Tiling to FlashInfer Unified Heterogeneous Serving - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-03",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-21"
+ },
+ "3b6a6f020e751e68": {
+  "url": "https://arxiv.org/abs/2610.38228",
+  "title": "[2610.38228] The Endgame of FSDP Communication: Layout-Aware Collectives on Copy Engines, RDMA, and NVSwitch",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-03",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-28"
+ },
+ "c7ca641eb64629a6": {
+  "url": "https://doi.org/10.48550/arxiv.2610.22428",
+  "title": "[2610.22428] Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-03",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-15"
+ },
+ "e1ebd93ffdfad14f": {
+  "url": "https://nagarjun.beehiiv.com/p/why-llm-scaling-doesn-t-work-like-microservice-scaling",
+  "title": "Why LLM Scaling Doesn't Work Like Microservice Scaling",
+  "domain": "nagarjun.beehiiv.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-03",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-26"
  }
 }
