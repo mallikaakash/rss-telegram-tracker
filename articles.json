@@ -100806,5 +100806,209 @@
    "The world is set to miss its 2030 conservation goals as finance and action have fallen short, leaders recognized at a UN biodiversity summit in Armenia’s capital, where they agreed to step up efforts after a final overnight session. Representatives from almost 200 countries gathered in Yerevan over the past two weeks to review progress on a landmark agreement set four years ago to protect about a third of the world’s land and seas by 2030."
   ],
   "published_on": "2026-11-02"
+ },
+ "0dfcca5dfebcdf89": {
+  "feed": "Technica",
+  "title": "\"At Home in Space\" opens, caps Air and Space Museum renovation",
+  "link": "https://arstechnica.com/space/2026/11/at-home-in-space-opens-caps-air-and-space-museum-renovation/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "After seven years of work and nearly $1 billion, the Smithsonian has completed the renovation of the National Air and Space Museum's flagship building in Washington, DC. On October 30, the museum debuted its last-to-open spaceflight exhibition , returning \"home\" with a gallery devoted to establishing a spacefaring civilization. \"Welcome to 'At Home in Space'!\" said curator Jennifer Levasseur, who guided us through a virtual tour of the gallery."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "de4cf53f9db96311": {
+  "feed": "OpenAI News",
+  "title": "Scaling Git at OpenAI",
+  "link": "https://openai.com/index/scaling-git-at-openai",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Scaling Git at OpenAI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 2, 2026 Engineering Scaling Git at OpenAI Building agentic-scale scale source control while investing in the Git ecosystem."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "fec0e46ceba430b8": {
+  "feed": "Hugging Face Blog",
+  "title": "Transformers Model Integration Contracts",
+  "link": "https://huggingface.co/blog/transformers-mic",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Transformers Model Integration Contracts Hugging Face Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Transformers Model Integration Contracts Published November 3, 2026 Update on GitHub Upvote 2 Tarek Ziadé tarekziade Follow :last-child]:mb-0\"> Why bugs reach main Introducing Model Integration Contracts The UMT5 regression How models are shrunk Building MICs with agents Random vs Overfit Open questions On July 30, 2026, Transformers enabled PyTorch's scaled dot-product attention (SDPA) for T5."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "b91db1d100bf604d": {
+  "feed": "MIT News (AI)",
+  "title": "Powering up for a pivotal moment",
+  "link": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Utilizing waste carbon at scale, assessing public trust in artificial intelligence and data centers, and building a quantum toolkit for critical applications were among the topics energy experts explored at the MIT Energy Initiative (MITEI)’s annual research conference on Sept. 22-23. The complexity of the energy transition demands “a truly interdisciplinary and international approach,” said Paula Hammond, Institute Professor and dean of the MIT School of Engineering, kicking off the conference, which was themed “Transitioning energy at a pivotal moment.” More than 200 people attended Energizing@MIT: MITEI’s Annual Research Conference in person and online, including faculty, scientists, and researchers; representatives of global energy firms; nonprofit organizations; and academic institutions."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "22c23cfe758c1cb6": {
+  "feed": "Simon Willison",
+  "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+  "link": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "fd7577f014a0536d": {
+  "feed": "Zepto Engineering",
+  "title": "From Data to Action: Designing for Faster Decisions in Dark Store Operations",
+  "link": "https://blog.zepto.com/from-data-to-action-designing-for-faster-decisions-in-dark-store-operations-aac167dd07b9?source=rss----bd632b1d570d---4",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Imagine it’s 7:00 AM. You step into the dark store (a mini-warehouse), and the 10-minute delivery clock is already ticking. You are responsible for fulfilling 2,500 orders today. Even a 30-second delay can ripple through subsequent orders and throw off delivery times. You sit down in front of your laptop and open up your usual eight browser tabs. One is tracking stock levels, another is tracking staff schedules and efficiency, the third is tracking customer orders and so on."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "597d80ce0f1337f9": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Diagnose Distributed AI Workload Failures with NVIDIA Attribution",
+  "link": "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In distributed AI workloads, a single error can produce a cascade of symptoms. A GPU or fabric event may surface as NCCL errors on other ranks, scheduler state... In distributed AI workloads, a single error can produce a cascade of symptoms. A GPU or fabric event may surface as NCCL errors on other ranks, scheduler state changes, and thousands of downstream messages."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "187838088a8fdfb2": {
+  "feed": "Technica",
+  "title": "Why large dogs age faster than small ones, and other October research highlights",
+  "link": "https://arstechnica.com/science/2026/11/research-roundup-6-cool-science-stories-we-almost-missed-7/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It’s a regrettable reality that there is never enough time to cover all the interesting scientific stories we come across. So every month, we highlight a handful of the best stories that nearly slipped through the cracks. October’s list includes an epigenetic mechanism for why large dogs age faster than smaller ones; physicists who trapped a single particle of antimatter for months; and invisible tattoo inks that only show up under UV light."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "6fd6ad7938fa5bc5": {
+  "feed": "OpenAI News",
+  "title": "Rewarding defenders with bigger bug bounties",
+  "link": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Rewarding defenders with bigger bug bounties | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 2, 2026 Security Rewarding defenders with bigger bug bounties Security Bug Bounty program (opens in a new window) Loading… Share Serious vulnerabilities get serious rewards Serious vulnerabilities get serious rewards High quality report bonus multipliers Loyalty program bonuses Priority campaign multipliers Updated payout calculation examples Retroactive payments Meet us in Oakland Serious vulnerabilities get serious rewards High quality report bonus multipliers Loyalty program bonuses Priority campaign multipliers Updated payout calculation examples Retroactive payments Meet us in Oakland We’re raising rewards in OpenAI’s Security Bug Bounty program to further encourage independent researchers to pursue vulnerabilities in OpenAI software that our testing may have missed."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "c006e897d48e9930": {
+  "feed": "Simon Willison",
+  "title": "October sponsors-only newsletter",
+  "link": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , as a preview of what you'll get."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "d57460c89892741a": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Keep Distributed Training Running with Automated Workload Recovery",
+  "link": "https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As distributed AI training scales, failures across hardware and software dependencies increasingly disrupt training progress, making fast, reliable recovery... As distributed AI training scales, failures across hardware and software dependencies increasingly disrupt training progress, making fast, reliable recovery essential. A stalled training rank can trigger an NVIDIA Collective Communications Library (NCCL) timeout, a GPU node can stop responding to the scheduler, or a straggler can slow the entire job."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "f329f77c5b55830f": {
+  "feed": "Technica",
+  "title": "Third person dies of bird flu since virus started jumping to livestock",
+  "link": "https://arstechnica.com/health/2026/11/third-person-dies-of-bird-flu-since-virus-started-jumping-to-livestock/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A person in Washington state has died from bird flu after exposure at an infected dairy farm, state health officials reported Sunday . It marks the third human bird flu death in the US since a strain of highly pathogenic (H5) avian influenza (HPAI) made the unprecedented jump from wild, migratory birds to dairy cows, which was first reported in the US in March 2024 ."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "262cfa35f4308cc0": {
+  "feed": "OpenAI News",
+  "title": "Preparing our next security sprint to harden OpenAI",
+  "link": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Preparing our next security sprint to harden OpenAI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 2, 2026 Security Preparing our next security sprint to harden OpenAI Loading… Share We’re planning our next internal security sprint at OpenAI, bringing new researchers and security partners together with our own teams to use our models to test and strengthen our systems."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "10dab842bc689c46": {
+  "feed": "Simon Willison",
+  "title": "llm 0.37",
+  "link": "https://simonwillison.net/2026/Nov/2/llm/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna ."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "65e0f2251cb459ed": {
+  "feed": "Technica",
+  "title": "Googling \"Zelda\" today offers a glimpse of how search worked in 1998",
+  "link": "https://arstechnica.com/gaming/2026/11/googles-legend-of-zelda-easter-egg-transports-you-back-to-1998/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The year was 1998. Britney Spears topped the charts, Bill Clinton was impeached, and a couple of little websites called Google and Ars Technica came online. It was also the year Nintendo released The Legend of Zelda: Ocarina of Time on the Nintendo 64. Google, which has come to dominate the Internet (Ars is still working on that), is celebrating the imminent release of the Ocarina of Time remaster by temporarily transporting us back to that storied year with a search Easter egg."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "ff138f709a7e7c37": {
+  "feed": "OpenAI News",
+  "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+  "link": "https://openai.com/index/dan-driscoll-joins-openai",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 2, 2026 Company Global Affairs OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization Loading… Share Dan Driscoll will join OpenAI as Senior Counselor for National Security Modernization, working with senior leadership and external partners to advise on how advanced AI can strengthen national and cyber security, with a particular focus on working with U.S."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "3cf3bf32d79452cc": {
+  "feed": "Technica",
+  "title": "Most of our measures of a key cognitive process don't agree",
+  "link": "https://arstechnica.com/science/2026/11/most-of-our-measures-of-a-key-cognitive-process-dont-agree/",
+  "date": "2026-11-03",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It's widely acknowledged that it's nearly impossible to publish negative results in scientific journals. \"We didn't see anything\" is a much harder sell than finding that a hypothesis is clearly right. Findings of no effect tend to either be shuffled off to low-profile journals or left behind as unpublished lab lore. The high-profile journal Nature, however, made a notable exception this week, publishing a study that tells us that a bunch of methods we have been using to try to measure a key emotional ability don't seem to be measuring the same thing."
+  ],
+  "published_on": "2026-11-02"
  }
 }
