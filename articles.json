@@ -101178,5 +101178,160 @@
    "The Environmental Protection Agency late last week announced it would end a 20-plus-year effort to develop methods to monitor air pollution from factory farms, effectively shuttering the agency’s stop-and-start attempts to regulate the potentially pollutant-spewing facilities under the Clean Air Act. The announcement came just days before the midterm elections and was characterized by the agency as a long-awaited reprieve for farmers, a historically important constituency for Trump and the Republican Party."
   ],
   "published_on": "2026-11-03"
+ },
+ "2f70d6c369eb8871": {
+  "feed": "Technica",
+  "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+  "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Russian tech companies are scrambling to harden and hide their data centers underground after Ukrainian drone strikes damaged facilities housing AI supercomputers and disrupted cloud services for millions of Russian users. Meanwhile, the Kremlin is requiring data center owners to reserve computing capacity for emergency state needs and has even authorized possible use of foreign data centers."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "26c6032e1d267765": {
+  "feed": "OpenAI News",
+  "title": "Accelerating engineering for the physical world",
+  "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Accelerating engineering for the physical world | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 3, 2026 Research Publication Accelerating engineering for the physical world Loading… Share Designing a device with Astra Designing a device with Astra Accelerating OpenAI hardware teams Measuring progress on engineering tasks Safely deploying with industry collaborators Help shape AI for engineering and manufacturing Designing a device with Astra Accelerating OpenAI hardware teams Measuring progress on engineering tasks Safely deploying with industry collaborators Help shape AI for engineering and manufacturing Today, we’re sharing advances in how OpenAI models help engineers design, simulate, and build physical products."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "20954e3ac0ff87f7": {
+  "feed": "Hugging Face Blog",
+  "title": "CWE-bench v2: More coverage, quality, and transparency",
+  "link": "https://huggingface.co/blog/cwe-bench",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "CWE-bench v2: More coverage, quality, and transparency Hugging Face Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> CWE-bench v2: More coverage, quality, and transparency Published November 3, 2026 Update on GitHub Upvote 6 Gonzalo Gonzalez chalo2000 Follow collinear-ai Ajay Jagannath ajayjagan2511 Follow collinear-ai Nazneen Rajani nazneen Follow collinear-ai Nathan Habib SaylorTwift Follow :last-child]:mb-0\"> Results Run it from the Hub CWE-bench is designed to test the limits of frontier cyber capabilities."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "12feaf67ddae85b1": {
+  "feed": "MIT News (AI)",
+  "title": "Building connections across the research infrastructure",
+  "link": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Running a modern research laboratory requires more than maintaining sophisticated instruments. Researchers need to complete training, obtain access, schedule and operate equipment, navigate billing, and more. For large, shared facilities, coordinating these activities across hundreds of instruments and thousands of users can be a significant undertaking."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "939b6c723f549b72": {
+  "feed": "ClickHouse",
+  "title": "What's new in ClickStack - September and October '26",
+  "link": "https://clickhouse.com/blog/whats-new-in-clickstack-october-2026",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> What's new in ClickStack - September and October '26 | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse. Available on AWS, GCP, and Azure."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "5989961cdc8ca0fd": {
+  "feed": "Prime Intellect",
+  "title": "Learnings from Auditing Public Evaluations",
+  "link": "https://www.primeintellect.ai/blog/auditing-public-evaluations",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Learnings from Auditing Public Evaluations model factory inference compute research resources careers 40 open roles Login get started Login get started Blog / Learnings from Auditing Public Evaluations Florian Brand NOV 3RD, 2026 • Research Learnings from Auditing Public Evaluations Evaluations are the foundation of LLM training, allowing us to put concrete numbers on the capabilities we care about."
+  ]
+ },
+ "e9e1cc36cc97b110": {
+  "feed": "Technica",
+  "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
+  "link": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The New York Times and other newspaper companies sued Brave Software yesterday, alleging that the browser maker illegally bypasses paywalls and sells stolen news content to AI companies. \"Brave is the supplier, dealer, and distributor of stolen copyrighted content for its own users and many of the most prominent GenAI companies, including Anthropic, Perplexity, Mistral, xAI, and Cohere,\" the NYT alleged in a lawsuit filed in US District Court for the Southern District of New York."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "a2357e701f020223": {
+  "feed": "OpenAI News",
+  "title": "How Cisco defends at machine speed with OpenAI",
+  "link": "https://openai.com/index/cisco-cyber",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Cisco defends at machine speed with OpenAI | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 3, 2026 How Cisco defends at machine speed with OpenAI Cisco combines network intelligence and OpenAI models to build more adaptive defenses."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "2d0707b1461a0a2b": {
+  "feed": "Technica",
+  "title": "Buttons are back and storage is king when it comes to car interiors",
+  "link": "https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As with interior design for houses, interior design for vehicles is also subject to fashion trends. And like any fashion trend, even the best ideas can become stale and played out with overuse. Some ideas weren’t the best, either, like demonstrably worse human-machine interfaces that add to driver distraction; yet, they still proliferated throughout the industry and across the cars offered for sale."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "3d509e27bae229a3": {
+  "feed": "OpenAI News",
+  "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+  "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 3, 2026 Company OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer Loading… Share Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "b121628aeba070c8": {
+  "feed": "Technica",
+  "title": "Google will let schools skip AI tools, but they have to give up search, too",
+  "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "While Google is trying to move beyond Chromebooks , the ubiquity of these devices has made the company's education products huge in schools. Now, Google says it will let educators choose whether to allow its AI tools in the classroom. However, blocking AI tools also means giving up search, leaving schools with a difficult decision. Google's new overarching approach to AI in K-12 classrooms sounds good on the surface."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "bbd4d7a8dcb56d48": {
+  "feed": "OpenAI News",
+  "title": "Evernote turns AI-driven discovery into paid subscriptions",
+  "link": "https://openai.com/ads/customers/evernote",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Evernote turns AI-driven discovery into paid subscriptions | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI October 28, 2026 Evernote turns AI-driven discovery into paid subscriptions Evernote used ChatGPT Ads to reach people working with AI and followed new users from free trial to first subscription payment."
+  ],
+  "published_on": "2026-10-28"
+ },
+ "991337267be1467b": {
+  "feed": "Technica",
+  "title": "Another child dies of measles as CDC reportedly holds up health alert",
+  "link": "https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A child in New York has died of measles, health officials in the state announced late Monday . It marks the first reported measles-associated death in New York in more than 30 years. It is the seventh measles-linked death reported in the US this year; all six of the other deaths were reported in Pennsylvania, which is experiencing a dramatic measles outbreak that has stricken over 1,430 people this year ."
+  ],
+  "published_on": "2026-11-03"
  }
 }
