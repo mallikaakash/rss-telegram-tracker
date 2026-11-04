@@ -6833,5 +6833,94 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-26"
+ },
+ "fd19a697fe1737f0": {
+  "url": "http://arxiv.org/abs/2609.20359v1",
+  "title": "Accelerating Sharded Data Parallelism at Scale with Federated Learning",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-04",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-17"
+ },
+ "485b86175b8956a8": {
+  "url": "https://rlhfbook.com/c/appendix-c-practical",
+  "title": "Appendix C: Practical Issues | RLHF and Post-Training Book by Nathan Lambert",
+  "domain": "rlhfbook.com",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-04",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-30"
+ },
+ "08e82a6f3c84c77f": {
+  "url": "https://aidxhxr.com/writing/spark-kernels",
+  "title": "spark-kernels: beating cublas on an rtx 5090 by hand — Amirkhan Aidarkhan",
+  "domain": "aidxhxr.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-04",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-26"
+ },
+ "b02f717e353923f2": {
+  "url": "https://doi.org/10.48550/arxiv.2610.38228",
+  "title": "[2610.38228] The Endgame of FSDP Communication: Layout-Aware Collectives on Copy Engines, RDMA, and NVSwitch",
+  "domain": "doi.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-04",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-28"
+ },
+ "9cc8cbfbcaf928fc": {
+  "url": "https://arcxiv.org/abs/2611.04215",
+  "title": "Tokenizer Myths and Where To Find Them | ArcXiv",
+  "domain": "arcxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-04",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "d63b4bfce1b61f2e": {
+  "url": "https://www.promptquorum.com/power-local-llm/kserve-review",
+  "title": "KServe Review 2026: Kubernetes AI Model Serving",
+  "domain": "promptquorum.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-04",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-19"
+ },
+ "79aa5f0176639d9c": {
+  "url": "https://shanhuang.net/blog/training-a-200b-model-from-scratch-part-19",
+  "title": "[Training a 500B LLM from Scratch] 19/25: Training Stopped. How Do We Pick Up Where We Left Off? | Shan Huang",
+  "domain": "shanhuang.net",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-04",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "e57ccb98dfdb1e2a": {
+  "url": "https://praveentn.live/architecture/digs/keeping-the-training-run-alive",
+  "title": "Keeping the training run alive — Praveen T N",
+  "domain": "praveentn.live",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-04",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-26"
  }
 }
