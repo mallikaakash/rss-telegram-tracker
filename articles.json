@@ -101368,5 +101368,161 @@
    "Mercedes-Benz provided flights from Los Angeles to Stuttgart, Germany, and accommodation so Ars could experience the holographic display. Ars does not accept paid editorial content. Do screens in cars represent luxury? Judging by the latest car interiors, the answer would seem to be an emphatic “yes.” Screens aren't just getting larger; they are multiplying across the dashboard and morphing into different forms and concepts."
   ],
   "published_on": "2026-11-03"
+ },
+ "868b661c5e46d114": {
+  "feed": "Technica",
+  "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+  "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The hackers who stole billions of dollars in cryptocurrency from the Binance exchange spent months working on the theft and used both social engineering and novel malware in the process, the company said Tuesday. The heist, which both the FBI and the TRM Security firm attributed to North Korean actors, initially targeted $6.34 billion in cryptocurrency from Binance wallets."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "3a06f84c0f51a102": {
+  "feed": "OpenAI News",
+  "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+  "link": "https://openai.com/index/openai-to-acquire-pierre",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI to acquire Pierre Computer Company, Inc. | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 4, 2026 Company OpenAI to acquire Pierre Computer Company, Inc."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "09aa947305129d47": {
+  "feed": "Together AI",
+  "title": "Together Compiler: Continual Compilation for AI inference",
+  "link": "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Together Compiler: Continual Compilation for AI inference Webflow Analyze/Optimize tracking bridge --> Introducing Polymorphic Inference, starting with Together Compiler → Introducing Together Post-Training: Better models, faster runs, lower costs → Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → GLM-5.3 vs."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "c85e9d7dd64e1f57": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "How big is the open model economy today?",
+  "link": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My longest running agent testbed has been building the Interconnects Dashboard — an aggregator of all of the best data on open model adoption and performance from across the web. This dashboard is freely available and becoming quite useful. Still, all the measurements we have on open model adoption are incredibly imprecise. We have noisy platform metrics, marketing-related metrics from startups, and imperfect public evaluations."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "84a9df9895da05c3": {
+  "feed": "Cloudflare Blog",
+  "title": "See the agents, set the terms: new visibility and control for personal agents",
+  "link": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Personal agents are the intermediary between humans and the Internet, turning a person’s instructions into requests and actions on websites. A customer might ask a personal agent to compare products across your site, find support articles, or complete a purchase. To a site owner, all three interactions show up as automated traffic — and without a clear view of which agents are visiting and what they are doing, it can be difficult to know whether that traffic is helping your business or creating risk."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "73ebbbfe01abad03": {
+  "feed": "ClickHouse",
+  "title": "Fencing a Postgres primary that might still be alive",
+  "link": "https://clickhouse.com/blog/fencing-a-postgres-primary-that-might-still-be-alive",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Fencing a Postgres primary that might still be alive | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse. Available on AWS, GCP, and Azure."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "2a3c1588aa9c3570": {
+  "feed": "Pinterest Engineering",
+  "title": "Scaling Model Evaluation at Pinterest with Ray (Part 4)",
+  "link": "https://medium.com/pinterest-engineering/scaling-model-evaluation-at-pinterest-with-ray-part-4-4a96cd12cc11?source=rss----4c5a5f6279b6---4",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Vishnu Arun | Tech Lead, Feature Importance Platform; Anderson Lam | Sr Software Engineer; Andrew Qiu | Machine Learning Engineer I; Helena Xu | Data Scientist I; Tianyou Wang | Data Scientist II Introduction In our multi-part blog series, we have discussed why we chose Ray as a last mile data processing framework, how we integrated Ray into our existing ML Training Infrastructure, and how we enabled efficient Batch Inference at scale."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "3330bfa3d53495f6": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+  "link": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A Siemens report estimates that unplanned downtime costs an average large plant in the surveyed sectors $253 million per year. Whether investigating a failed... A Siemens report estimates that unplanned downtime costs an average large plant in the surveyed sectors $253 million per year. Whether investigating a failed circuit board or responding to a rush order, factory teams must gather evidence across systems, consult specialists, and coordinate the next step."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "36a84a9152761a71": {
+  "feed": "Technica",
+  "title": "What I learned driving the Slate electric truck prototype",
+  "link": "https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "If my 45-minute drive yesterday morning is anything to go by, I think Slate Auto will have quite the hit on its hands. The startup had one of its prototype trucks in town and asked if I wanted to check it out—no jumping on a plane or having to spend yet another night in an interchangeable hotel room, just a drive from southwest DC to Rockville, Maryland."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "75679f5aa60bfcf8": {
+  "feed": "OpenAI News",
+  "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+  "link": "https://openai.com/index/daybreak-red-aws-govcloud",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Daybreak Red is now available in AWS GovCloud (US-East) | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 4, 2026 Product Security Daybreak Red is now available in AWS GovCloud (US-East) Loading… Share Bringing frontier cybersecurity capabilities to government teams Bringing frontier cybersecurity capabilities to government teams Get started Bringing frontier cybersecurity capabilities to government teams Get started Building on the availability of Daybreak models on Amazon Bedrock, GPT‑5.6 Cyber is now available to approved customers in AWS GovCloud (US-East) ⁠ (opens in a new window) through Daybreak Red."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "493a258a275812f7": {
+  "feed": "Together AI",
+  "title": "Polymorphic Inference: self-tuning inference for open models",
+  "link": "https://www.together.ai/blog/polymorphic-inference",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Polymorphic Inference: self-tuning inference for open models Webflow Analyze/Optimize tracking bridge --> Introducing Polymorphic Inference, starting with Together Compiler → Introducing Together Post-Training: Better models, faster runs, lower costs → Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → GLM-5.3 vs."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "9a8ab4ff6cd306ef": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+  "link": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Turn production evidence into prioritized issues and custom evaluations that help you improve prompts, tools, models, memory, skills, and harness code. When you... Turn production evidence into prioritized issues and custom evaluations that help you improve prompts, tools, models, memory, skills, and harness code. When you build an agent for your domain, generic benchmark scores may not explain its failures."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "bffe34ab28d264de": {
+  "feed": "Technica",
+  "title": "The DEA banned a drug some opioid users called a miracle",
+  "link": "https://arstechnica.com/health/2026/11/the-dea-banned-a-drug-some-opioid-users-called-a-miracle/",
+  "date": "2026-11-04",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In 2012, as the driver of deaths in the opioid crisis began moving from prescription pills to heroin, Laura Bohn was tasked with finding safer drugs to manage pain. Funded by the National Institute on Drug Abuse, in 2017 she and other scientists revealed in the science journal Cell that several compounds—including a particularly promising one called SR-17018—could relieve pain in mice without causing respiratory depression."
+  ],
+  "published_on": "2026-11-04"
  }
 }
