@@ -101788,5 +101788,220 @@
    "The first modern smartphones had 3.5-inch screens, which can be hard to remember in today's world of gargantuan glass slabs. Sure, people talk about wanting smaller phones, but will they buy one? Enough Phone is betting they will. The company will begin taking preorders for its first device today, which is built around a petite 5.3-inch screen that is apparently the smallest it could find with decent performance metrics."
   ],
   "published_on": "2026-11-04"
+ },
+ "bb7377ab6e9bc286": {
+  "feed": "Technica",
+  "title": "Motorola's new Signature 27 has it all if you can stomach the $1,600 price tag",
+  "link": "https://arstechnica.com/gadgets/2026/11/motorolas-new-signature-27-has-it-all-if-you-can-stomach-the-1600-price-tag/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Motorola is patching a hole in its US lineup with a non-folding flagship phone, but the pricing puts this device dangerously close to the company's expensive tablet-style foldable . The long-rumored Motorola Signature 27 is real, featuring top-of-the-line specs, a super-bright OLED screen, and a ton of cameras. But all this high-end hardware won't come cheap in the age of AI."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "25f255575df3acb6": {
+  "feed": "Google Research",
+  "title": "Detecting signs of hypertension using wearable sensors",
+  "link": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Detecting signs of hypertension using wearable sensors Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "825a50d1c0ad7f36": {
+  "feed": "Google DeepMind",
+  "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+  "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Gemini Omni 1.2 Flash: 15-second video and lower pricing Skip to main content Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (English) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Technology Developer tools Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips Nov 05, 2026 | x.com Facebook LinkedIn Mail Copy link Gemini Omni 1.2 Flash brings 15-second clips, stronger consistency, and faster, more cost-effective generation."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "9e59ae4232aa1de4": {
+  "feed": "Microsoft Research",
+  "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+  "link": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At a glance Formal methods for everyday software. PDD Kit helps you turn your intent into a formal spec, then proves the code your agent writes for every input and uses tests where a proof can’t reach. It takes formal methods beyond niche, specialist work to engineers without a formal methods background and to everyday applications, like the full-stack web app shown here."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "2b1eb15af857f38c": {
+  "feed": "Apple ML Research",
+  "title": "Faster Retrieval for Better, More Efficient RAG",
+  "link": "https://machinelearning.apple.com/research/faster-retrieval",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG). Given a query vector, MIPS systems search within a database of millions of candidate key vectors for the one that best matches the query. The original data point associated with that best-matching key is then used to handle the query: in RAG, the document that is best suited to answer the question is typically prefixed to the query."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "f93567576105c713": {
+  "feed": "OpenAI News",
+  "title": "Setting a new standard for responsible AI infrastructure",
+  "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "89209ab642b10e25": {
+  "feed": "Hugging Face Blog",
+  "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+  "link": "https://huggingface.co/blog/phonon-tts",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks. Hugging Face Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> A Closer Look at Phonon TTS."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "5b7a36df3272f771": {
+  "feed": "Cloudflare Blog",
+  "title": "Agents aren’t humans (but they kinda are)",
+  "link": "https://blog.cloudflare.com/trusted-agent-delegation/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI Agents now act on the web for millions of people. To a Site, an Agent can take many forms. It may be indistinguishable from a human user carrying out a task, or it might look like one visitor carrying many Users. This removes the ability for the Site to recognize, serve, and hold accountable the user or users behind the Agent, and causes the Site to face the costs when something goes wrong."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "1bfc4b2e169815fe": {
+  "feed": "Stripe Blog",
+  "title": "Analyze your Stripe data directly with your agent",
+  "link": "https://stripe.com/blog/analyze-your-stripe-data-directly-with-your-agent",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Analyze your Stripe data directly with your agent 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in See all products Explore our full product catalog Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 125+ Terminal In-person payments Authorization Boost Acceptance optimizations Link Accelerated checkout Financial Connections Linked financial account data Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Embedded Finance Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Radar Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Stripe Sessions 2026 See how Stripe is building the economic infrastructure for AI."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "3f453d9910c0c1f7": {
+  "feed": "Shopify Engineering",
+  "title": "Reflex: an architecture for building mobile apps with agents",
+  "link": "https://shopify.engineering/reflex",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Reflex: an architecture for building mobile apps with agents (2026) - Shopify Skip to Content Solutions Start Start your business . Build your brand Create your website . Online store editor Customize your store . Store themes Find business apps . Shopify app store Own your site domain . Domains & hosting Explore free business tools . Tools to run your business Sell Sell your products ."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "13e4297a454eda82": {
+  "feed": "Dropbox Tech",
+  "title": "How two engineer side projects became the agent taking action inside Dropbox",
+  "link": "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI can help people turn an idea into a first draft, but getting to something usable depends on more than a prompt. It needs the files and context behind the request, software to carry out the work, and a way for people to review and refine the result. With the new Dropbox experience , we’re bringing those pieces together where people already keep their work, so they can ask questions about their content and request tasks such as organizing folders, renaming files, and preparing materials to share."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "6e3a02fd6e68a810": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
+  "link": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "One underperforming GPU can slow an entire distributed training job. The node may pass basic health checks and show normal utilization, leaving operators to... One underperforming GPU can slow an entire distributed training job. The node may pass basic health checks and show normal utilization, leaving operators to discover the problem only after the workload is running."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "2553bf3c064a4904": {
+  "feed": "LinkedIn Engineering",
+  "title": "Responsible AI Principles in Practice",
+  "link": "https://www.linkedin.com/blog/engineering/responsible-ai/responsible-ai-principles-in-practice",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Responsible AI Principles in Practice Skip to main content Engineering Blog Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Responsible AI Principles in Practice Authored by Sara Harrington November 5, 2026 Co-authors: Co-authored by Sara Harrington , Co-authored by Jon Adams , Co-authored by Esteban Arcaute , and Co-authored by Daniel Olmedilla In April 2023 , we shared how we apply our Responsible AI principles, in alignment with Microsoft’s Responsible AI Principles, to build products worthy of the trust of our members and customers."
+  ]
+ },
+ "f050bc895e36e285": {
+  "feed": "Technica",
+  "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+  "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Humanoid robots remain unproven at scale and have not yet achieved widespread commercialization, compared with industrial robots that have decades of proven track records in warehouses and factories. That frank acknowledgment is among the risks outlined in a securities filing by Agility Robotics—the first dedicated developer of humanoid robots to become a publicly traded company in the United States."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "1c18e54041b6add3": {
+  "feed": "Dropbox Tech",
+  "title": "How AI-assisted development helped us build the new Dropbox experience",
+  "link": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For three years, we’ve been working toward a new Dropbox experience that helps people do more with their files, from finding a project decision to getting a folder ready to share. Today, we’re beginning to roll that experience out to customers. But getting here meant changing how we build software. We had complex integrations to tackle and a deadline to meet, and AI-assisted development helped us take on work that would've previously been difficult to complete in time for launch."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "b08562142edf078d": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory",
+  "link": "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In an AI factory, high bandwidth memory (HBM)is the fastest, most expensive, and most contested memory tier. Every byte spent on a redundant weight copy, an... In an AI factory, high bandwidth memory (HBM)is the fastest, most expensive, and most contested memory tier. Every byte spent on a redundant weight copy, an idle session’s KV cache, or a recomputed prefix is a byte that is not being used to produce tokens."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "d71cfb9ab8de5762": {
+  "feed": "Technica",
+  "title": "2026 iPad mini review: Maximizing the mini",
+  "link": "https://arstechnica.com/gadgets/2026/11/ipad-mini-2026-review-maximizing-the-mini/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The iPad mini has long felt like a niche product. It has earned a reputation as a quality tablet for people who want something small, comfortable, and portable, but its small screen and comparatively limited processing power have restricted its appeal, making it best suited to watching media or playing games. With the 2026 version , the iPad mini is more competitive than ever."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "35d3ebff4d1bd479": {
+  "feed": "Technica",
+  "title": "Mercedes-AMG GT 4-Door Coupe first drive: Where tech and fun collide",
+  "link": "https://arstechnica.com/cars/2026/11/mercedes-amg-gt-4-door-coupe-first-drive-where-tech-and-fun-collide/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Mercedes-Benz provided flights from San Francisco to Malaga, Spain, and accommodation so Ars could drive the AMG GT 4-Door Coupe. Ars does not accept paid editorial content. The night before I drove the AMG GT 4-Door Coupe, I complained to a group of journalists that automakers don't want to take chances and just build fun, weird cars anymore. About 12 hours later, Mercedes made me eat my words."
+  ],
+  "published_on": "2026-11-05"
  }
 }
