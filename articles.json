@@ -101716,5 +101716,77 @@
    "Senator Ted Cruz (R-Texas) is aiming to widen the Republican majority on the Federal Communications Commission before Democrats take over control of the Senate in January 2027. Just before the Republicans' midterm loss, Cruz yesterday announced a November 10 nomination hearing for Trump's FCC nominee, Danielle Thumann Severs. In his final two months as chairman of the Senate Commerce Committee, Cruz seems set on moving the Thumann Severs nomination to a full vote of the Senate."
   ],
   "published_on": "2026-11-04"
+ },
+ "c2991dcf58cf05b1": {
+  "feed": "Technica",
+  "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
+  "link": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For years, the AI industry's insatiable demand for memory and storage has had plenty of knock-on effects on the price and availability of PC components like RAM , SSDs , and GPUs . Now those shortages are also squeezing the supply of ROM chips that power physical Nintendo Switch and Switch 2 game cartridges. Chip manufacturer Macronix announced in its third-quarter earnings report that the company's production of ROM chips \"has reached its end\" and that it will begin \"gradually decoupling from the game industry,\" as reported by Taiwanese news site BigGo Finance ."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "0a437d67f2effbc5": {
+  "feed": "OpenAI News",
+  "title": "Introducing Images 2.6",
+  "link": "https://openai.com/index/introducing-images-2-6",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "16de4ca3c25d3eed": {
+  "feed": "MIT News (AI)",
+  "title": "Clearing up a robot’s fuzzy memory",
+  "link": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In an emergency, a human might someday ask a robotic assistant to fetch a wall-mounted defibrillator located down the hall. But if the robot has incorrectly labeled the defibrillator as a fire extinguisher in its stored memory, it may not know where to find the life-saving device. This robotic assistant could benefit from a new memory system created by MIT researchers."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "bc594cd9fbf90549": {
+  "feed": "Technica",
+  "title": "Hackers exploited iOS and Android flaws to infect phones",
+  "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hackers possibly linked to the Kremlin exploited previously patched iOS and Android flaws in an attempt to hack visitors of multiple websites, including one celebrating the 250th anniversary of American independence, researchers said Wednesday. The attackers, which the researchers assessed with “moderate to high confidence” were part of Russia’s Foreign Intelligence Service, targeted other sites, many with links to that country’s ongoing war against Ukraine."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "3b2ef923cb90e13e": {
+  "feed": "Technica",
+  "title": "Uranium cubes reveal why the German nuclear project failed",
+  "link": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "During World War II, physicists on the Manhattan Project worried that the Nazi German nuclear program might achieve the first nuclear bomb before the US and its allies. That's not what transpired, but historians have debated just how close the Germans came to achieving criticality in their last attempt at building a reactor: the B8 pile. Werner Heisenberg, who led that effort, claimed that they were close and had only needed a little more uranium."
+  ],
+  "published_on": "2026-11-04"
+ },
+ "130f1c049dde7084": {
+  "feed": "Technica",
+  "title": "People say they want small smartphones—the Enough Phone will put that to the test",
+  "link": "https://arstechnica.com/gadgets/2026/11/people-say-they-want-small-smartphones-the-enough-phone-will-put-that-to-the-test/",
+  "date": "2026-11-05",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The first modern smartphones had 3.5-inch screens, which can be hard to remember in today's world of gargantuan glass slabs. Sure, people talk about wanting smaller phones, but will they buy one? Enough Phone is betting they will. The company will begin taking preorders for its first device today, which is built around a petite 5.3-inch screen that is apparently the smallest it could find with decent performance metrics."
+  ],
+  "published_on": "2026-11-04"
  }
 }
