@@ -102003,5 +102003,148 @@
    "Mercedes-Benz provided flights from San Francisco to Malaga, Spain, and accommodation so Ars could drive the AMG GT 4-Door Coupe. Ars does not accept paid editorial content. The night before I drove the AMG GT 4-Door Coupe, I complained to a group of journalists that automakers don't want to take chances and just build fun, weird cars anymore. About 12 hours later, Mercedes made me eat my words."
   ],
   "published_on": "2026-11-05"
+ },
+ "b6411ac47a803928": {
+  "feed": "Technica",
+  "title": "Sony revives the original Walkman headphones, adds USB-C",
+  "link": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Color us nostalgic. Sony has brought back the MDR-3-series headphones that debuted in 1979 alongside the Walkman TPS-L2 cassette player. In this marketing image Sony shared, you can see the Walkman TPS-L2. Credit: Sony Originally called the \"MDR-3L2,\" the first Walkman headphones were known for their sleek, adjustable gray plastic headband, which extended via metal sliders and ended in signature orange, circular ear cushions."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "53c56afbaf05f856": {
+  "feed": "OpenAI News",
+  "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+  "link": "https://openai.com/index/introducing-gpt-6-cyber",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "e8690f74b67f5698": {
+  "feed": "Hugging Face Blog",
+  "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+  "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation Hugging Face Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> New NVIDIA Cosmos 3 Open Models for Interactive World Simulation Enterprise + Article Published November 5, 2026 Upvote 5 Pranjali Joshi PranjaliJoshi Follow nvidia Rick Z rickznv Follow nvidia Yao Xu yaoxuhf Follow nvidia Qianli Ma qianlim Follow nvidia Chen-Hsuan Lin chenhsuanlin Follow nvidia Ming-Yu Liu mingyuliutw Follow nvidia Xiang Li ryanxli Follow nvidia Zhengfei Kuang zhengfei-nvidia Follow nvidia Zhonghao Wang zhonghaow Follow nvidia kiui ashawkey Follow nvidia :last-child]:mb-0\"> TL;DR Why do you need these checkpoints?"
+  ],
+  "published_on": "2026-11-05"
+ },
+ "3089c4e12a10528f": {
+  "feed": "Simon Willison",
+  "title": "Quoting Paul Ford",
+  "link": "https://simonwillison.net/2026/Nov/5/paul-ford/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A quote from Paul Ford Simon Willison’s Weblog Newsletter Sponsored by: Greptile — Your code reviewer uses Computer Use to catch bugs by opening your app and clicking through it. Now you can configure its test environment and define the key user journeys it tests. Try it for free 5th November 2026 The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day ."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "9cc54efda0204064": {
+  "feed": "Railway Blog",
+  "title": "Managed Postgres on Railway",
+  "link": "https://blog.railway.com/p/managed-postgres",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Mahmoud Abdelwahab Postgres had a big year on Railway! We shipped improvements across the entire database lifecycle. Going highly available, bouncing back from a bad migrations, tracking down slow queries, and more are now just a few clicks (or one prompt) away. Here's how it all fits together, from your first DATABASE_URL to a production cluster, whether you're in the dashboard or handing the work to your agent."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "f333d8cce6ce4e8f": {
+  "feed": "GitHub Engineering",
+  "title": "Inside GitHub’s new Git storage architecture",
+  "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last week at GitHub Universe, we announced our new Git storage architecture, capable of handling thousands of writes per second with reads that scale on demand. Through internal testing, we’ve demonstrated the ability to support 5,000 concurrent agents working on a repository, sending 7,200 pushes per second to a repo, all while serving read traffic with consistently low latency."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "be07fb1ecd265521": {
+  "feed": "Notion",
+  "title": "The Next Era of Notion",
+  "link": "https://www.notion.com/blog/the-next-era-of-notion",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Next Era of Notion Product Features See all features → Capture Bring everything into one system of record. Find Get answers, instantly—with citations. Automate Keep work moving 24/7 with agents. . See what’s new → Download the Notion App → Resources Notion for Enterprise Small businesses Startups Developers Discover What's New Customer stories Webinars Templates Consultants Learn Academy Product tours Help Center Pricing Request a demo Log in Get Notion free All posts ← ← All posts Published November 5, 2026 in Notion HQ The Next Era of Notion By Ivan Zhao Share this post I love David Bowie."
+  ]
+ },
+ "8fdd6a5d2137a408": {
+  "feed": "Technica",
+  "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+  "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google faced the ire of educators and parents earlier this week when it announced a new AI policy for K–12 schools . Google said that it developed its new approach to give schools more control, but early reporting also suggested Google would block search access for schools that didn't want to use AI. Google didn't see the backlash coming, but now that it's here, the search giant is clarifying what exactly its new policy means and what's changing."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "7b38a664e869ec8e": {
+  "feed": "Railway Blog",
+  "title": "Production Postgres on Railway: From First Deploy to High Availability",
+  "link": "https://blog.railway.com/p/guide-production-postgres-on-railway",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: Will Raphaelson Railway lets you deploy your application and Postgres together in one project. As you grow, you can add recovery, connection pooling, and automatic failover to meet your application's traffic and uptime needs. This guide follows a small orders API from its first database connection to recovering deleted orders and adding high availability (HA)."
+  ],
+  "published_on": "2026-10-15"
+ },
+ "d7bd7c1e685c0dfb": {
+  "feed": "Technica",
+  "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+  "link": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ChatGPT allegedly helped a North Carolina woman, Cheryl Gates, craft a “personalized plan” to poison her husband, James, after fueling her delusions that he planned to divorce her and leave her with nothing. A grand jury indicted Cheryl Gates on charges of attempted first-degree murder and food contamination in October. About a week prior, the accusations that ChatGPT was a co-conspirator in the attempted murder came in a lawsuit filed in San Francisco County Superior Court that was made public this week."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "fb2a1ae59af370a7": {
+  "feed": "Technica",
+  "title": "BMW bumps battery for the better: The 2027 i7 60 xDrive, driven",
+  "link": "https://arstechnica.com/cars/2026/11/bmw-bumps-battery-for-the-better-the-2027-i7-60-xdrive-driven/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "BMW provided flights from Washington, DC, to Los Angeles and accommodation so Ars could drive the 2027 i7 as well as the 2027 iX5 and X5. Ars does not accept paid editorial content. When BMW debuted the new 7 Series in 2022, it set a new standard for large luxury sedans, increasingly irrelevant though that class is. Rather than siloing off an electric alternative like Mercedes, with its EQS alongside the normal S-Class, BMW simply made the powertrain an option."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "18bb0a59786ff7df": {
+  "feed": "Technica",
+  "title": "Software squeezes more data out of Webb Telescope for imaging exoplanets",
+  "link": "https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "With a huge and still-growing catalog of exoplanets, researchers are eager to take the next steps: trying to infer what conditions are like on them, either by imaging them directly or by capturing the light that has passed through their atmosphere. Both are substantial challenges, given the presence of stars that are far, far brighter than light that has come to us via the planet."
+  ],
+  "published_on": "2026-11-05"
  }
 }
