@@ -6922,5 +6922,82 @@
   "why": "",
   "points": [],
   "published_on": "2026-09-26"
+ },
+ "c210cdefe3778859": {
+  "url": "https://shanhuang.net/blog/training-a-500b-llm-from-scratch",
+  "title": "Train a 500B LLM from Scratch with Me (25 Chapters) | Shan Huang",
+  "domain": "shanhuang.net",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-05",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "120bd9aefd7d3861": {
+  "url": "https://dev.to/ravikishan/slang-is-a-dial-training-a-125m-language-model-from-scratch-on-free-gpus-2g3k",
+  "title": "Slang Is a Dial: Training a 125M Language Model From Scratch on Free GPUs - DEV Community",
+  "domain": "dev.to",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-05",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-02"
+ },
+ "c65c02fca2fc5866": {
+  "url": "https://dev.to/gfactor/gpu-kernels-explained-cuda-triton-cublas-torchcompile-and-kernelbench-200m",
+  "title": "GPU Kernels, Explained: CUDA, Triton, cuBLAS, torch.compile and KernelBench - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-05",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "6173fd2d29601f4a": {
+  "url": "https://arxiv.org/abs/2611.04215",
+  "title": "[2611.04215] Tokenizer Myths and Where To Find Them",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-05",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "27b7f10495783961": {
+  "url": "https://sumus.im/blog/deepinfer",
+  "title": "DeepInfer: DeepSeek's Open-Source Inference Engine, Explained | Sumus",
+  "domain": "sumus.im",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-05",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-23"
+ },
+ "0cc24e7ea13aee7f": {
+  "url": "https://dev.to/gde/building-sarrera-self-hosted-enterprise-ai-inference-gateway-with-rbac-token-quotas-telemetry-316o",
+  "title": "Building Sarrera: Self-Hosted Enterprise AI Inference Gateway with RBAC, Token Quotas & Telemetry - DEV Community",
+  "domain": "dev.to",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-05",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-02"
+ },
+ "a738c4a579cbbd77": {
+  "url": "https://pyshine.com/localai/",
+  "title": "LocalAI: One Binary, Many Engines - A Source Tour of mudler/LocalAI | PyShine",
+  "domain": "pyshine.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-05",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-17"
  }
 }
