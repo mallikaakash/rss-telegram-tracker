@@ -6999,5 +6999,50 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-17"
+ },
+ "1057d60210e84a3c": {
+  "url": "https://www.dailydoseofds.com/p/kv-cache-engineering-for-llm-serving/",
+  "title": "KV Cache Engineering for LLM Serving",
+  "domain": "dailydoseofds.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-06",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-07"
+ },
+ "54f7806ceb6ba459": {
+  "url": "https://www.wthrajat.com/blogs/memory-coalescing/",
+  "title": "gpu memory coalescing for llm inference kernels",
+  "domain": "wthrajat.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-06",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-05"
+ },
+ "249ed19671f4990f": {
+  "url": "https://arxiv.org/html/2610.14935",
+  "title": "BSIPipe: Bidirectional Sequence-Level Interleaved Pipeline Parallelism for Long-Sequence Large Language Model Training",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-06",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-10"
+ },
+ "aabddee834598679": {
+  "url": "https://github.devotd.net/en/posts/algebra-mcx-mini-deepinfer/",
+  "title": "algebra-mcx/mini-deepinfer — Reimplementing the Structure of the DeepInfer Inference Engine · Devotd Github",
+  "domain": "github.devotd.net",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-06",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-24"
  }
 }
