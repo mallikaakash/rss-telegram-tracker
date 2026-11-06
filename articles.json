@@ -102555,5 +102555,149 @@
    "Before Tuesday’s election, Republicans held more governorships and state legislative seats than Democrats, along with an advantage in state trifectas—unified control of the governor’s office and both chambers of the legislature. That advantage has disappeared, clearing the path for more climate and clean energy legislation, according to analysts and advocates."
   ],
   "published_on": "2026-11-05"
+ },
+ "a5eef3cf57a4e410": {
+  "feed": "Technica",
+  "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+  "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Blockchain analysis firm Chainalysis said that hackers have obtained sensitive personal information—including names, usernames, password hashes, and live tokens—for all of its users following a breach of its network security. The accomplishment could be a major coup for the attackers. Both Chainalysis and public sources have revealed a long list of high-profile customers, including government agencies such as the FBI, US Immigration and Customs Enforcement agency, and the US Air Force, as well as private companies such as Microsoft, Coinbase, and Barclays."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "bc8f9eac19663ff6": {
+  "feed": "OpenAI News",
+  "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+  "link": "https://openai.com/index/partnering-with-hacktron",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "ba5f1cdb14f57903": {
+  "feed": "MIT News (AI)",
+  "title": "How to predict the behavior of molecules from scant data",
+  "link": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Discovering new molecules for specific uses is a major driver of progress in a wide variety of industries, whether it’s pharmaceutical companies looking for new drugs, or electronics or energy companies seeking new materials with particular properties. But it’s also largely a trial-and-error process, because there is not yet any way to perfectly predict how a given chemical compound will behave in terms of the myriad different properties and responses materials can exhibit."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "04ff5155f60621be": {
+  "feed": "Simon Willison",
+  "title": "Quoting Nilay Patel",
+  "link": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "ccd5118fa6f503c6": {
+  "feed": "Jane Street Tech",
+  "title": "Our software engineering interviews are changing (a little)",
+  "link": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - Our software engineering interviews are changing (a little) Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team Our software engineering interviews are changing (a little) Nov 02, 2026 | 3 min read Share on Facebook Share on Twitter Share on LinkedIn By: Matthew Saffer Over the last few years, LLMs have changed how software gets built and that’s no different for us at Jane Street."
+  ],
+  "published_on": "2026-11-02"
+ },
+ "bc8064ac5ee66462": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+  "link": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an... When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an image requires multiple sequential passes through a model with billions of parameters, and higher resolutions increase attention costs."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "8437660c5ac92baa": {
+  "feed": "Technica",
+  "title": "Earth's churning mantle may have created the Great Unconformity",
+  "link": "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In the Grand Canyon, there is a line in the rock where time seems to have gone missing. Ancient crystalline rocks mark its bottom, while sandstones laid down as life started to diversify during the Cambrian explosion mark the top. “It’s called the Great Unconformity, and it’s a gap in the geologic record,” says Nicolas Flament, a geoscientist at the University of Wollongong, Australia."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "cfd4354afa14004f": {
+  "feed": "OpenAI News",
+  "title": "Measuring how AI agents handle everyday wet-lab science",
+  "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "c9345e60ce47fcb1": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+  "link": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For... During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For training efficiency, it is common to run inference and training in parallel on separate GPU resources in a disaggregated setup."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "b20401b1101b6ddf": {
+  "feed": "Technica",
+  "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
+  "link": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A shipment of Nvidia hardware valued at $11.4 million vanished in transport between Oakland and Texas over the summer, and more than two months later, police have announced no arrests or recovery of the cargo. As reported by The Mercury News , six pallets of unknown Nvidia equipment left Oakland on August 29 on a truck bound for Fort Worth, Texas. The hardware was reportedly picked up as scheduled by a truck bearing the logo of a food transportation company before vanishing off the grid."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "9feda61082cb5908": {
+  "feed": "Technica",
+  "title": "Developer ends lucrative screensaver deal with Roku because Fox bought it",
+  "link": "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Some Roku OS users have been sad to learn that their favorite screensaver will no longer be available as of December 1. This week, affected users reported receiving an alert on their device that they will not be able to use the “Aquatic Life” screensaver after this month, as first reported by Cord Cutters News . The screensaver has been an option for Roku OS users for 10 years."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "41593e4bb483603d": {
+  "feed": "Technica",
+  "title": "FAA to finally ditch floppy disks in what it calls \"historic\" tech upgrade",
+  "link": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "While you might be pondering whether to replace a smartphone with one that has a slightly better camera or a second screen, the Federal Aviation Administration is planning a much bigger leap in technology for the country's air traffic control system. The FAA said yesterday that it will stop using floppy disks as part of a long-awaited upgrade that will give air traffic controllers faster access to data needed for crucial safety alerts."
+  ],
+  "published_on": "2026-11-06"
  }
 }
