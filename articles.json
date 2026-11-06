@@ -102266,5 +102266,294 @@
    "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks."
   ],
   "published_on": "2026-11-05"
+ },
+ "3e1b541724db9b9c": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Run Paperclip AI on a Sprite",
+  "link": "https://fly.io/blog/paperclip-on-a-sprite/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-04-01"
+ },
+ "258826b3121ddbdd": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Run a Local LLM on a CPU With BitNet and a Sprite",
+  "link": "https://fly.io/blog/local-llm-on-a-sprite/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-03-16"
+ },
+ "aa773bfeed28fada": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Context Engineering Is Just Writing Things Down",
+  "link": "https://fly.io/blog/context-engineering-is-just-writing-things-down/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-02-23"
+ },
+ "ac2841103ca3d39b": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Agent Swarms on Sprites",
+  "link": "https://fly.io/blog/agent-swarms-on-sprites/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-02-09"
+ },
+ "16e17b9eebc00861": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Closing the Loop: The Missing Ingredient in Agentic Development",
+  "link": "https://fly.io/blog/closing-the-loop/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-02-05"
+ },
+ "06513dc34f1ec1a4": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "I Build Everything In Sprites Now",
+  "link": "https://fly.io/blog/i-build-everything-in-sprites-now/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-02-03"
+ },
+ "2820adc2d9282457": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "How to Run Untrusted Code Safely",
+  "link": "https://fly.io/blog/running-untrusted-code/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-02-02"
+ },
+ "66440606093aab5e": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Make Computers Make Computers",
+  "link": "https://fly.io/blog/make-computers-make-computers/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-01-28"
+ },
+ "aa2f83dba8e644cb": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Slack Bots on Sprites: OAuth is Easy Now",
+  "link": "https://fly.io/blog/slack-bots-on-sprites/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-01-27"
+ },
+ "be19938ba4f3923e": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Run OpenClaw (Formerly Moltbot and Clawdbot) in a Sprite",
+  "link": "https://fly.io/blog/openclaw-in-a-sprite/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-01-26"
+ },
+ "440341c7e266f6a7": {
+  "tier": "reject",
+  "feed": "Fly.io",
+  "title": "Run Claude Code From Your Phone With Sprites",
+  "link": "https://fly.io/blog/how-sprites-accidentally-solved-mobile-development/",
+  "date": "2026-11-06",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-01-21"
+ },
+ "8250334af19793e3": {
+  "feed": "Technica",
+  "title": "Nvidia CEO Jensen Huang summoned by Congress over Chinese espionage concerns",
+  "link": "https://arstechnica.com/tech-policy/2026/11/nvidia-ceo-jensen-huang-summoned-by-congress-over-chinese-espionage-concerns/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Top Republican lawmakers have asked Jensen Huang to appear before Congress to answer questions after it was reported that US intelligence officials believe Nvidia’s chief executive has been targeted by a Chinese spying operation. The chairs of the House committees on China, foreign affairs, and intelligence wrote to Huang this week asking him to appear before a joint closed-door briefing for their committees on November 18."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "be1ba71e55b7f125": {
+  "feed": "Hugging Face Blog",
+  "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+  "link": "https://huggingface.co/blog/allenai/toyblocks",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ToyBlocks: A controlled world for robot learning and evaluation Hugging Face Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> ToyBlocks: A controlled world for robot learning and evaluation Enterprise Article Published November 6, 2026 Upvote - Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> How ToyBlocks works Research building on ToyBlocks Low-level action models: VLA spatial generalization High-level reasoning: vision-language models High-level reasoning: agentic systems Action-conditioned world models as simulators Real-world experiments with high- and low-level models Opening the tools for further research 💻 Code | 📊 Data | 🤖 Models | 📖 Documentation Robots are learning to fold laundry, sort parts, and handle unfamiliar objects."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "580f3a98cd380696": {
+  "feed": "Modal Blog",
+  "title": "How Snorkel runs realistic agent simulations with Modal",
+  "link": "https://modal.com/blog/how-snorkel-runs-realistic-agent-simulations-with-modal",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Snorkel runs realistic agent simulations with Modal Skip to content Download logo as .svg Download wordmark as .svg Go to press kit Product Resources Customers Pricing Docs Log in Sign up Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Featured Model Endpoints Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Product Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Featured Model Endpoints Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Resources Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Customer Stories Nov 6, 2026 How Snorkel runs realistic agent simulations with Modal Snorkel , a frontier AI data lab, develops and validates complex datasets to train and evaluate AI systems."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "e91e9e4fade7b6b0": {
+  "feed": "Cloudflare Blog",
+  "title": "The post-quantum future of web privacy",
+  "link": "https://blog.cloudflare.com/vole-mole/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The highest priorities for the transition to post-quantum cryptography are the basic building blocks of authenticated key-agreement protocols such as TLS. Without these building blocks in place, secure communication on the Internet will not be possible once cryptographically relevant quantum computers come online. However, today we rely on quantum-vulnerable cryptography for much more than TLS."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "666d693c35d3bb0a": {
+  "feed": "ClickHouse",
+  "title": "What I learned from a month with WalShadow on ClickHouse Managed Postgres",
+  "link": "https://clickhouse.com/blog/a-month-with-walshadow-clickhouse-managed-postgres",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> What I learned from a month with WalShadow on ClickHouse Managed Postgres | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "914f230fb5f054a0": {
+  "feed": "Fly.io",
+  "title": "Well, That Wasn't Fun: October 16 '26",
+  "link": "https://fly.io/blog/well-that-wasnt-fun/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "October 16, 2026 began like any other day at Fly.io (meaning, we were anticipating only a medium amount of chaos). By that evening, we had patched and rebooted our entire fleet in response to a Linux kernel bug . The full rollout took 10 hours, but the emotional damage persists. CVE-2026-99999 The rest of this won’t make much sense without a clear read on the bug itself, so: the Linux kernel CVE team and pwn.ai announced CVE-2026-99999 on the morning of the 15th."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "e4ced540a5d6560b": {
+  "feed": "Pinterest Engineering",
+  "title": "Safe and Efficient Multi-Epoch Embedding Training",
+  "link": "https://medium.com/pinterest-engineering/safe-and-efficient-multi-epoch-embedding-training-103bec2abc83?source=rss----4c5a5f6279b6---4",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Authors: Shruthi Hariharan | Machine Learning Engineer II; Konish Dutta | Machine Learning Engineer II; Abhinav Naikawadi | Sr. Machine Learning Engineer; Zhihua Zhang | Machine Learning Engineer II; Rakshita Nagalla | Sr. Machine Learning Engineer; Kousik Rajesh* | Machine Learning Engineer II; Matt Lawhon | Staff Machine Learning Engineer Tags: Machine Learning, Infrastructure, Recommendation Systems Content Track: Technical Discussion / Architecture of big components * == work done while at Pinterest Introduction Large ID embedding tables underpin some of the largest modeling advances at Pinterest, including teacher-model scaling and cross-domain pretraining for ranking and retrieval."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "ba6c83f8e1dea815": {
+  "feed": "Technica",
+  "title": "No more Cybertrucks; Musk moves on from the angular metallic flop",
+  "link": "https://arstechnica.com/cars/2026/11/the-cybertruck-is-dead-makes-way-for-cybercab-says-elon-musk/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Elon’s Edsel is no more. Last night Tesla CEO Elon Musk revealed on social media that his car company is calling time on its failed attempt to wrest control of the American pickup truck market. The Cybertruck will cease production in the middle of 2027, liberating that space in Tesla’s cavernous factory for other uses—more Cybercabs , most likely. Musk first revealed the Cybertruck in late 2019 , back when Tesla was still trading at a theoretically understandable price-to-earning ratio."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "82196d4ece0a644e": {
+  "feed": "Hugging Face Blog",
+  "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+  "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Egyptian and Nigerian English join the Open ASR Leaderboard Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Egyptian and Nigerian English join the Open ASR Leaderboard Published November 6, 2026 Update on GitHub Upvote 3 Eric Bezzam bezzam Follow Ashley Mo ashleymo2025 Follow liva-ai Aoi Otani aonorii Follow liva-ai :last-child]:mb-0\"> Richer accent breakdown in the Private tab About Liva AI A few months ago, we added private data to the Open ASR Leaderboard : 11 splits from Appen and DataOceanAI covering scripted and conversational speech from five accents ( blog )."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "cc3837c5ab758052": {
+  "feed": "ClickHouse",
+  "title": "How Infinitas Learning uses ClickHouse Managed Postgres to process billions of events for 1.6M unique learners",
+  "link": "https://clickhouse.com/blog/infinitas-learning-clickhouse-managed-postgres",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> How Infinitas Learning uses ClickHouse Managed Postgres to process billions of events for 1.6M unique learners | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "1d078774c42946c2": {
+  "feed": "Technica",
+  "title": "Rocket Report: Artemis II literally tore through the atmosphere; New Glenn delay",
+  "link": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome to Edition 9.18 of the Rocket Report! Blue Origin packed a lot of news into one afternoon Thursday with the reveal of a new kick stage for the New Glenn rocket, a new rocket engine design, and the minor and widely expected delay for New Glenn's return-to-flight mission from December until January. The reconstruction of Blue Origin's wrecked launch pad at Cape Canaveral, Florida, continues apace after a catastrophic explosion nearly six months ago."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "f082614c39561ab0": {
+  "feed": "ClickHouse",
+  "title": "ClickHouse release 26.10",
+  "link": "https://clickhouse.com/blog/clickhouse-release-26-10",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> ClickHouse release 26.10 | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Products ClickHouse Cloud The best way to use ClickHouse. Available on AWS, GCP, and Azure. Bring Your Own Cloud A fully managed ClickHouse service, deployed in your own AWS, GCP or Azure account."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "738698803d84514c": {
+  "feed": "Technica",
+  "title": "Gamers go to ridiculous lengths to \"improve\" GTA VI with Nvidia's DLSS 5",
+  "link": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "While the upcoming Grand Theft Auto VI won't be available on PC this month, some gamers are making ridiculous preparations to use their PC graphics cards to apply Nvidia's DLSS 5 technology to the console exclusive. On an explicitly unmoderated GTAVI subreddit, user RevolutionaryBus8208 lays out a proposed setup, which runs a PlayStation 5 through a 4K capture card to a PC."
+  ],
+  "published_on": "2026-11-05"
+ },
+ "f67900c7bb6b248e": {
+  "feed": "Technica",
+  "title": "Statehouse wins give Democrats new power to push clean energy",
+  "link": "https://arstechnica.com/science/2026/11/statehouse-wins-give-democrats-new-power-to-push-clean-energy/",
+  "date": "2026-11-06",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Before Tuesday’s election, Republicans held more governorships and state legislative seats than Democrats, along with an advantage in state trifectas—unified control of the governor’s office and both chambers of the legislature. That advantage has disappeared, clearing the path for more climate and clean energy legislation, according to analysts and advocates."
+  ],
+  "published_on": "2026-11-05"
  }
 }
