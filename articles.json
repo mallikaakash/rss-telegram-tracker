@@ -102759,5 +102759,70 @@
    "There are optimistic plans for spaceflight, and then there are optimistic plans. AST SpaceMobile is a Texas-based, publicly traded company building very large satellites to provide direct-to-cell communications on Earth. But it has been having trouble finding rides to space. So on Friday, AST announced that it is developing a medium-lift rocket, named Blacklift, which will have the capacity to lift 20 metric tons to low-Earth orbit."
   ],
   "published_on": "2026-11-06"
+ },
+ "f510be305e79a5cd": {
+  "feed": "Technica",
+  "title": "The Bantu expansion changed Africa. Scientists are still tracing how.",
+  "link": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
+  "date": "2026-11-07",
+  "tier": "low_priority",
+  "why": "Although it mentions ancient iron-smelting furnaces, this is an archeological history article completely unrelated to modern industrial process optimization or ML.",
+  "points": [
+   "Explores historical natural-draft clay furnaces used for smelting iron in ancient Great Zimbabwe."
+  ],
+  "published_on": "2026-11-07",
+  "reject_reason": "off_topic"
+ },
+ "130145bcfb89b24c": {
+  "feed": "Technica",
+  "title": "British soldier ignored order to pull his SIM card, then got blackmailed",
+  "link": "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/",
+  "date": "2026-11-07",
+  "tier": "low_priority",
+  "why": "This is a military operational security and blackmail news item with no bearing on backend infrastructure or machine learning.",
+  "points": [
+   "A British soldier was court-martialed after failing to pull his SIM card near the Russian border, leading to personal device compromise."
+  ],
+  "published_on": "2026-11-07",
+  "reject_reason": "off_topic"
+ },
+ "95ff043a27dc1284": {
+  "feed": "Technica",
+  "title": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+  "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+  "date": "2026-11-07",
+  "tier": "worth_a_skim",
+  "why": "Provides context on the escalating legal and data-licensing hurdles labs face when assembling web-scale pretraining datasets for frontier LLMs.",
+  "points": [
+   "Meta paused a planned commercial terms revision that would have allowed extensive AI crawling on external sites linked via Facebook.",
+   "Critics and publishers warned the vague policy would let Meta bypass robots.txt constraints to avoid millions in data licensing fees."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "1443d6af9b059965": {
+  "feed": "Technica",
+  "title": "Wisconsin reports measles death of a baby, first death in over 35 years",
+  "link": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years/",
+  "date": "2026-11-07",
+  "tier": "low_priority",
+  "why": "Public health news regarding measles outbreaks is completely irrelevant to ML and backend engineering.",
+  "points": [
+   "Wisconsin recorded its first measles fatality in over 35 years amidst nationwide localized outbreaks."
+  ],
+  "published_on": "2026-11-06",
+  "reject_reason": "off_topic"
+ },
+ "01aef0d2f976d959": {
+  "feed": "Technica",
+  "title": "Could potential AI clones of GTA VI force a quicker official port?",
+  "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
+  "date": "2026-11-07",
+  "tier": "low_priority",
+  "why": "Contains casual gaming industry speculation about AI-assisted decompilation rather than substantive ML engineering or architecture.",
+  "points": [
+   "A former Rockstar tech director speculates potential AI-assisted PC decompilations could pressure the studio to accelerate an official PC port."
+  ],
+  "published_on": "2026-11-06",
+  "reject_reason": "shallow"
  }
 }
