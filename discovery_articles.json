@@ -7044,5 +7044,85 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-24"
+ },
+ "680c9b67cce05798": {
+  "url": "https://arxiv.org/pdf/2605.20555v2",
+  "title": "Complementing reinforcement learning with SFT through logit averaging in the post training of LLMs",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-07",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-09"
+ },
+ "cc05f7ea5ccef60c": {
+  "url": "https://arxiv.org/abs/2609.06506",
+  "title": "Sharing a Fabric with Collective Communication: Two Storage Penalties in Deep Learning Training",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-07",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-19"
+ },
+ "44c6dfee7596b2ff": {
+  "url": "https://arxiv.org/abs/2609.08690",
+  "title": "[2609.08690] Hyperparameter Scaling Laws Across MoE Sparsity",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-07",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-08"
+ },
+ "ddda262ed483d8e6": {
+  "url": "https://jaehun.me/en/posts/code-series-jmaczan--tiny-vllm-01/",
+  "title": "1. An Inference Engine in 1,500 Lines of CUDA: The Map |\nJaehun's Blog",
+  "domain": "jaehun.me",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-07",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-16"
+ },
+ "ee3ebb0cf1a03688": {
+  "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
+  "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective | NVIDIA Technical Blog",
+  "domain": "developer.nvidia.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-07",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-06"
+ },
+ "50b0462856d840a2": {
+  "url": "https://arxiv.org/abs/2610.24818",
+  "title": "[2610.24818] Efficiency Measured in English: Tokeniser Coverage Bounds Small Language Models on Indic Scripts",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-07",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-17"
+ },
+ "4fa79d975051fdad": {
+  "url": "https://dev.to/andriizvorygin/how-a-gpu-job-queue-became-a-shared-inference-scheduler-517b",
+  "title": "How a GPU Job Queue Became a Shared Inference Scheduler - DEV Community",
+  "domain": "dev.to",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-07",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-01"
  }
 }
