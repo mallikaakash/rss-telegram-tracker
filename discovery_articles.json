@@ -7124,5 +7124,83 @@
   "why": "",
   "points": [],
   "published_on": "2026-11-01"
+ },
+ "72b06e7310910662": {
+  "url": "https://arxiv.org/pdf/2609.31900",
+  "title": "Understanding the Synergy betweenSFT, RLVR, and OPD in LLM Post-Training",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-08",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-25"
+ },
+ "01faf630bf781be5": {
+  "url": "https://shanhuang.net/blog/training-a-500b-model-from-scratch-part-19",
+  "title": "[Training a 500B LLM from Scratch] 19/25: Training Stopped. How Do We Pick Up Where We Left Off? | Shan Huang",
+  "domain": "shanhuang.net",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-08",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "deab6ec268ee4a20": {
+  "url": "https://shanhuang.net/blog/training-a-500b-model-from-scratch-part-9",
+  "title": "[Training a 500B LLM from Scratch] 9/25: How Do We Split Long Documents and Build a Training Mix? | Shan Huang",
+  "domain": "shanhuang.net",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-08",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-22"
+ },
+ "13c707f3fa3cec68": {
+  "url": "https://arxiv.org/pdf/2610.22035",
+  "title": "ETH: Data-Balanced Heterogeneous Pipeline Parallelism for Training Large Models",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-08",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-19"
+ },
+ "ce24ebb00b9712da": {
+  "url": "https://arxiv.org/pdf/2610.21679",
+  "title": "No Single Tokenizer Feature Reliably Predicts Downstream Language Model Performance",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-08",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-20"
+ },
+ "ae5210f99d40689f": {
+  "url": "https://www.cncf.io/case-studies/seres/",
+  "title": "Seres | CNCF",
+  "domain": "cncf.io",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-08",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "b69a093eb0e4bd74": {
+  "url": "https://priyankavergadia.substack.com/p/i-studied-netflix-nvidia-and-pytorch",
+  "title": "How GPU Training Survives Failure - Cloud Girl",
+  "domain": "priyankavergadia.substack.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-08",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
  }
 }
