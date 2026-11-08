@@ -102836,5 +102836,18 @@
    "Apple's new MacBook Pro is expensive as hell. Let's get that out there right away, because for a lot of people, it will be the only thing that matters. As with so many things in life, though, you get what you pay for. There's no questioning the quality of the laptop's display or most of its other hardware components. But should you buy it? Well, that's a complicated question in 2026."
   ],
   "published_on": "2026-11-06"
+ },
+ "3880bf849bb943e9": {
+  "feed": "Simon Willison",
+  "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+  "link": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+  "date": "2026-11-08",
+  "tier": "low_priority",
+  "why": "This post discusses a niche browser prefetching quirk in Datasette rather than machine learning or distributed backend infrastructure.",
+  "points": [
+   "Firefox aggressively prefetches pages with link rel=next HTTP headers, causing Datasette to drop the header to avoid wasteful server-side rendering."
+  ],
+  "published_on": "2026-11-07",
+  "reject_reason": "off_topic"
  }
 }
