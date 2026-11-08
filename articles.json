@@ -102849,5 +102849,17 @@
   ],
   "published_on": "2026-11-07",
   "reject_reason": "off_topic"
+ },
+ "bfb781931450978a": {
+  "feed": "Technica",
+  "title": "Physicists listened to electrical noise to crack a superconductor mystery",
+  "link": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+  "date": "2026-11-08",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Superconductors carry electricity without resistance, but most only work a few degrees above absolute zero. In the late 1980s, copper-based materials called cuprates were found to superconduct at higher temperatures—reachable with affordable liquid nitrogen. Yet nearly 40 years later, physicists still don't agree on why. In a recent Science study, a team of physicists led by Milan Allan of Ludwig Maximilian University of Munich and Ingmar Swart of Utrecht University in the Netherlands has found some answers by listening to the faint electrical crackle of current flowing into a cuprate."
+  ],
+  "published_on": "2026-11-08"
  }
 }
