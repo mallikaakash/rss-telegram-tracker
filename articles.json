@@ -102967,5 +102967,245 @@
   ],
   "published_on": "2026-11-03",
   "reject_reason": "shallow"
+ },
+ "8abde1ce00befc7c": {
+  "feed": "Technica",
+  "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+  "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hackers are actively exploiting a recently discovered critical vulnerability that allows them to log in to privileged accounts on many Linux systems, multiple researchers are reporting. The vulnerability, tracked under the name *sshole, arises from the interaction between OpenSSH and a code library known as musl. Linux systems that use both of these packages and meet certain other requirements can be hacked to give unauthenticated access to high-privilege accounts in a matter of seconds."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "9c331579e229757a": {
+  "feed": "OpenAI News",
+  "title": "ChatGPT Enterprise now available in AWS Marketplace",
+  "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "057e22ab69c04fb1": {
+  "feed": "Hugging Face Blog",
+  "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+  "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context Enterprise + Article Published November 9, 2026 Upvote 5 Atsunori Fujita Atsunori Follow nvidia Masaya Ogushi SnowMasaya Follow nvidia Vincent Gong vg1024 Follow nvidia Kotaro Yamamoto kyamamoto-nv Follow nvidia Yoshi Suhara suhara Follow nvidia Will Jennings WillJenningsDC Follow nvidia Yev Meyer nv-3mei Follow nvidia :last-child]:mb-0\"> How We Built It</strong>\",\"children\":[{\"id\":\"data-generation-pipeline\",\"label\":\"<strong>Data Generation Pipeline</strong>\",\"children\":[],\"isValid\":true,\"title\":\"Data Generation Pipeline\"},{\"id\":\"enhanced-cultural-context\",\"label\":\"<strong>Enhanced Cultural Context</strong>\",\"children\":[],\"isValid\":true,\"title\":\"Enhanced Cultural Context\"}],\"isValid\":true,\"title\":\"How We Built It\"},{\"id\":\"private-by-design\",\"label\":\"<strong>Private By Design</strong>\",\"children\":[],\"isValid\":true,\"title\":\"Private By Design\"},{\"id\":\"who-this-data-is-for\",\"label\":\"<strong>Who This Data Is For</strong>\",\"children\":[],\"isValid\":true,\"title\":\"Who This Data Is For\"},{\"id\":\"practical-ai-applications\",\"label\":\"<strong>Practical AI Applications</strong>\",\"children\":[],\"isValid\":true,\"title\":\"Practical AI Applications\"},{\"id\":\"why-it-matters\",\"label\":\"<strong>Why It Matters</strong>\",\"children\":[],\"isValid\":true,\"title\":\"Why It Matters\"},{\"id\":\"pairs-with-nemotron-pii-japan\",\"label\":\"<strong>Pairs with Nemotron-PII-Japan</strong>\",\"children\":[],\"isValid\":true,\"title\":\"Pairs with Nemotron-PII-Japan\"},{\"id\":\"start-building-with-nemotron-personas-finance-japan\",\"label\":\"<strong>Start Building with Nemotron-Personas-Finance-Japan</strong>\",\"children\":[],\"isValid\":true,\"title\":\"Start Building with Nemotron-Personas-Finance-Japan\"}],\"classNames\":\"not-prose hidden lg:block\"}\"> Open Data Breaking Down Privacy Barriers to Pave the Way for AI in Finance What’s in the Dataset?"
+  ],
+  "published_on": "2026-11-09"
+ },
+ "5d9edf20f6313367": {
+  "feed": "BAIR (Berkeley AI)",
+  "title": "BAIR at CoRL 2026",
+  "link": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other universities and companies."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "588e442ed6a9000a": {
+  "feed": "Netflix TechBlog",
+  "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+  "link": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "By Shreya S Ramanujam , Yongce Li , Afshine Amidi , Sina Ghiassian , Benjamin Klein . Introduction Picture this — you’re home after a long day at work and can’t wait to catch up on Bridgerton. You log on to Netflix, search for “Bridgerton” and land on this screen: If this sounds familiar, you already know what a synopsis is — it’s a short glimpse into what a viewer can expect to see in a show."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "4a8b2fa918e8bc6e": {
+  "feed": "Meta Engineering",
+  "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+  "link": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes while presenting them in one debugging session. Modern AI applications rarely execute in one place."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "fb3d55aec3e5f5a7": {
+  "feed": "Cloudflare Blog",
+  "title": "Launching the Vite Ecosystem Fund",
+  "link": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem. When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start. Sponsoring open source has always mattered, but now AI has made funding urgent. AI is changing open source AI has made open source more valuable while triggering more maintainer burnout."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "9de57fd4360325ae": {
+  "feed": "ClickHouse",
+  "title": "Announcing ClickHouse Observability - fully managed observability on ClickHouse Cloud",
+  "link": "https://clickhouse.com/blog/announcing-clickhouse-observability",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Announcing ClickHouse Observability - fully managed observability on ClickHouse Cloud | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "965dc2912b0e84a7": {
+  "feed": "Spotify Engineering",
+  "title": "AI Product Management at Spotify: A View From Three Angles",
+  "link": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI Product Management at Spotify: A View From Three Angles | Spotify Engineering AI Product Management at Spotify: A View From Three Angles Almost every article or podcast about product management and AI refers to \"the AI PM\" as one job. But what that job looks like depends on what you’re building. The three of us work at the same company, on the same technology stack, and in the same part of the organization."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "72f5e68026ccc8ba": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5",
+  "link": "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Picture guiding a robot arm by hand while its motors supply just enough torque to support its weight and keep the robot upright. This simple interaction, a... Picture guiding a robot arm by hand while its motors supply just enough torque to support its weight and keep the robot upright. This simple interaction, a useful starting point for robots that learn by demonstration, manipulate objects, or work alongside people, depends on a gravity-compensation loop."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "04df3a9aa5cdedc2": {
+  "feed": "Technica",
+  "title": "Pentagon mulls placing fleet of military satellites around the Moon",
+  "link": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The US military has published a Request for Information on a federal procurement website signaling interest in deploying a \"proliferated cislunar constellation\" consisting of an unspecified number of satellites performing an undisclosed mission in the vicinity of the Moon. The announcement follows statements in recent months from the Space Force's acquisitions chief for advanced programs, Maj."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "932fe34bad728f30": {
+  "feed": "OpenAI News",
+  "title": "Kuken Industries searches 70 years of drawings in minutes",
+  "link": "https://openai.com/index/kuken",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "7b1451fc786c34f9": {
+  "feed": "Hugging Face Blog",
+  "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+  "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Your Experts Have Partners. There's HOPE for Keeping Them Together Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Your Experts Have Partners."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "221a77411bf59946": {
+  "feed": "ClickHouse",
+  "title": "The largest expansion of ClickHouse yet",
+  "link": "https://clickhouse.com/blog/announcing-clickhouse-platform-largest-expansion",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> The largest expansion of ClickHouse yet | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "4065836ff3f518ca": {
+  "feed": "Technica",
+  "title": "Claude Code is accidentally exposing secrets all over GitHub",
+  "link": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Claude Code is leaking sensitive information on public GitHub instances thanks to a partial oversight in the way its settings files are handled. That's the finding of AI security researchers at Apiiro, who discovered thousands of secrets , including database passwords, API tokens, and root logins, amid Claude Code settings files embedded in GitHub repositories."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "994dc96c6921fefd": {
+  "feed": "ClickHouse",
+  "title": "ClickHouse Unifies Enterprise AI Data Stack with Launch of Expanded Platform",
+  "link": "https://clickhouse.com/blog/clickhouse-unifies-enterprise-ai-data-stack",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> ClickHouse Unifies Enterprise AI Data Stack with Launch of Expanded Platform | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "8af7bc60b8918a4b": {
+  "feed": "Technica",
+  "title": "SpaceX now fundamentally an \"infrastructure company,\" senior official says",
+  "link": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For a long time, SpaceX has been synonymous with the development of newer, larger, and ever-more-reusable rockets. But that began to change over the last decade with the introduction of Starlink, and the change has accelerated during the last 18 months as the company has pivoted to data and artificial intelligence. At last week's UP.Summit conference in Florida, the vice president of launch at SpaceX, Kiko Dontchev, offered some of the most revealing comments to date about the company's changing focus, how it is embracing AI, and why the Falcon 9 rocket—which has dominated global launch for a decade and remains the world's preeminent launch vehicle—is firmly on the road to retirement."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "e6309e5cb5d9760b": {
+  "feed": "ClickHouse",
+  "title": "Introducing ClickHouse Security in private preview, built on RunReveal",
+  "link": "https://clickhouse.com/blog/introducing-clickhouse-security-agentic-siem",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Introducing ClickHouse Security in private preview, built on RunReveal | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "5d63754d84e9ecf3": {
+  "feed": "Technica",
+  "title": "Nvidia CEO's affair becomes a national security problem",
+  "link": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nvidia’s chief executive Jensen Huang has admitted having an affair two days after the FT reported his alleged romantic relationship with a woman the US intelligence community believes was working as a spy for China. Huang revealed the affair in an internal message to employees on Sunday that was obtained by the FT. “I owe my family and all of you an apology,” Huang said in the message."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "721a37df7cec682a": {
+  "feed": "ClickHouse",
+  "title": "Langfuse launches AI Gateway",
+  "link": "https://clickhouse.com/blog/langfuse-ai-gateway",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Langfuse launches AI Gateway | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-09"
  }
 }
