@@ -7202,5 +7202,39 @@
   "why": "",
   "points": [],
   "published_on": "2026-11-03"
+ },
+ "b836b2c0f85af5a9": {
+  "url": "https://arxiv.org/abs/2609.11739",
+  "title": "[2609.11739] LOCUS: Task-Aware Low-Rank Post-Training for Token-Efficient Language Generation",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-09",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-10"
+ },
+ "d7edf1c1b8f0f418": {
+  "url": "https://arxiv.org/html/2610.12144",
+  "title": "Language-Specific Effects of Tokenizer Choice in Multilingual Language Models",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-09",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-08"
+ },
+ "0371141d75b51164": {
+  "url": "https://www.worldprogramming.org/posts/building-a-reliable-cloud-native-foundation-for-distributed-ai-training-rwnxhy",
+  "title": "Building a reliable cloud native foundation for distributed AI training — WPS",
+  "domain": "worldprogramming.org",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-09",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-11"
  }
 }
