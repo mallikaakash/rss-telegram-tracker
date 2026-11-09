@@ -102861,5 +102861,111 @@
    "Superconductors carry electricity without resistance, but most only work a few degrees above absolute zero. In the late 1980s, copper-based materials called cuprates were found to superconduct at higher temperatures—reachable with affordable liquid nitrogen. Yet nearly 40 years later, physicists still don't agree on why. In a recent Science study, a team of physicists led by Milan Allan of Ludwig Maximilian University of Munich and Ingmar Swart of Utrecht University in the Netherlands has found some answers by listening to the faint electrical crackle of current flowing into a cuprate."
   ],
   "published_on": "2026-11-08"
+ },
+ "8422634c9a069030": {
+  "feed": "MIT News (AI)",
+  "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+  "link": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+  "date": "2026-11-09",
+  "tier": "worth_a_skim",
+  "why": "Explores a unified foundation model approach (WorldParticle) for simulating multi-regime physical dynamics using particle representations.",
+  "points": [
+   "Unifies disparate physical solvers (fluids, deformable solids, granular media) into a single deep learning architecture.",
+   "Represents physical systems as discrete particles and predicts next-step motion dynamics instead of relying on hand-coded PDEs.",
+   "Aims to act as a general-purpose physical world model capable of generalization across coupled physical regimes."
+  ],
+  "published_on": "2026-11-09"
+ },
+ "5b851a3023343d96": {
+  "feed": "Simon Willison",
+  "title": "The Web Is More Than Enough, by Paul Ford",
+  "link": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+  "date": "2026-11-09",
+  "tier": "low_priority",
+  "why": "Covers casual 3D WebGL code generation using Claude, which is outside core backend and ML engineering priorities.",
+  "points": [
+   "Demonstrates prompting Claude Opus 5.5 to port Three.js 3D graphics into raw Vanilla JS and WebGL."
+  ],
+  "published_on": "2026-11-09",
+  "reject_reason": "off_topic"
+ },
+ "129436d09d18bc78": {
+  "feed": "LinkedIn Engineering",
+  "title": "Profile Relevance: Boosting Feed Relevance with LLMs at LinkedIn",
+  "link": "https://www.linkedin.com/blog/engineering/feed/profile-relevance-boosting-feed-relevance-with-llms-at-linkedin",
+  "date": "2026-11-09",
+  "tier": "must_read",
+  "why": "A concrete production deep-dive from LinkedIn on scaling an unsupervised LLM-embedding retrieval system for large-scale feed relevance.",
+  "points": [
+   "Introduces Profile Relevance, an unsupervised retrieval system using LLM-generated embeddings to surface unconnected content beyond network proximity.",
+   "Constructs structured member prompts from profile attributes to generate high-quality user representations.",
+   "Addresses cold-start discovery for creators while scaling vector retrieval across hundreds of millions of members."
+  ]
+ },
+ "aac00f5f941f51b6": {
+  "feed": "MIT News (AI)",
+  "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+  "link": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+  "date": "2026-11-09",
+  "tier": "low_priority",
+  "why": "High-level press recap of academic robotics trajectory planning using conversational LLMs, outside core infra and industrial process priorities.",
+  "points": [
+   "MIT's FLEX pipeline uses LLMs to infer high-level safety constraints (e.g., avoiding liquids near electronics) during robotic motion planning."
+  ],
+  "published_on": "2026-11-09",
+  "reject_reason": "off_topic"
+ },
+ "a92667754bb129c0": {
+  "feed": "Simon Willison",
+  "title": "Hide your slop PR descriptions behind <details><summary>",
+  "link": "https://simonwillison.net/2026/Nov/9/details-summary/",
+  "date": "2026-11-09",
+  "tier": "low_priority",
+  "why": "A brief personal workflow tip regarding GitHub markdown formatting for agentic PR descriptions.",
+  "points": [
+   "Suggests collapsing verbose AI-generated PR bodies inside HTML details tags to maintain concise human summaries."
+  ],
+  "published_on": "2026-11-09",
+  "reject_reason": "shallow"
+ },
+ "9572242cc9fc8ca1": {
+  "feed": "Simon Willison",
+  "title": "parse_number() as a SQLite extension: C vs Rust",
+  "link": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+  "date": "2026-11-09",
+  "tier": "worth_a_skim",
+  "why": "A practical systems performance case study comparing C and Rust SQLite extension overhead, binary sizes, and float-parsing throughput.",
+  "points": [
+   "C extension compiled to 14 KB versus ~300 KB for Rust extensions built with rusqlite and sqlite-loadable-rs.",
+   "Initial Rust implementation beat standard C strtod, but a C rewrite using Clinger's fast path reached 18 ns per row versus Rust's 47-55 ns.",
+   "Benchmarked over 2 million rows to highlight how number parsing fast paths dictate SQLite UDF latency."
+  ],
+  "published_on": "2026-11-08"
+ },
+ "dadfbd3c3260c4b0": {
+  "feed": "Simon Willison",
+  "title": "Terry Pratchett's Study",
+  "link": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+  "date": "2026-11-09",
+  "tier": "low_priority",
+  "why": "Non-technical personal musing on wealth and hobbies based on a Terry Pratchett quote.",
+  "points": [
+   "Reflects on Terry Pratchett's concept of horizontal wealth as funding personal hobbies rather than lifestyle inflation."
+  ],
+  "published_on": "2026-11-07",
+  "reject_reason": "off_topic"
+ },
+ "5b7b48c647c50787": {
+  "feed": "Simon Willison",
+  "title": "AI is destroying my CS degree",
+  "link": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
+  "date": "2026-11-09",
+  "tier": "low_priority",
+  "why": "Short opinion commentary on AI's impact on higher education and computer science curricula.",
+  "points": [
+   "Argues that long multi-year feedback loops prevent educators from properly evaluating AI-assisted teaching methodologies."
+  ],
+  "published_on": "2026-11-03",
+  "reject_reason": "shallow"
  }
 }
