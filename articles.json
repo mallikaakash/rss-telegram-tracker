@@ -103651,5 +103651,190 @@
    "The Food and Drug Administration is warning that popular obesity drugs—including Ozempic, Wegovy, Zepbound, and Mounjaro—may carry a \"potential increased risk\" of a rare eye condition that can lead to permanent vision loss. In a drug safety communication Monday , the FDA said it will now require makers of GLP-1 receptor agonist drugs to add a warning about that risk on their drug labels."
   ],
   "published_on": "2026-11-10"
+ },
+ "82be2561b8d68786": {
+  "tier": "reject",
+  "feed": "OpenAI News",
+  "title": "How OpenAI Uses Codex to Accelerate Engineering",
+  "link": "https://openai.com/business/learn/how-openai-uses-codex",
+  "date": "2026-11-11",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-01-14"
+ },
+ "38616a8c4d11b88c": {
+  "tier": "reject",
+  "feed": "OpenAI News",
+  "title": "Blue J’s approach for scaling fast in complex, regulated domains",
+  "link": "https://openai.com/business/customer-stories/blue-j",
+  "date": "2026-11-11",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2025-08-21"
+ },
+ "f6958f5f3bf6653d": {
+  "tier": "reject",
+  "feed": "OpenAI News",
+  "title": "New in ChatGPT for Business: April 2025",
+  "link": "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
+  "date": "2026-11-11",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2025-04-24"
+ },
+ "2d7884f118d702e3": {
+  "tier": "reject",
+  "feed": "OpenAI News",
+  "title": "New in ChatGPT for Business: March 2025",
+  "link": "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
+  "date": "2026-11-11",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2025-03-18"
+ },
+ "0ecf91ee2a291d5f": {
+  "tier": "reject",
+  "feed": "OpenAI News",
+  "title": "Using GPT-4 to deliver a new customer service standard",
+  "link": "https://openai.com/business/customer-stories/ada",
+  "date": "2026-11-11",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2024-09-05"
+ },
+ "da2b1f66c8211b6e": {
+  "tier": "reject",
+  "feed": "OpenAI News",
+  "title": "Fine-tuning GPT-4o webinar",
+  "link": "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
+  "date": "2026-11-11",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2024-08-26"
+ },
+ "bef8e976cad6a4d6": {
+  "tier": "reject",
+  "feed": "OpenAI News",
+  "title": "Enabling a data-driven workforce",
+  "link": "https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar",
+  "date": "2026-11-11",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2024-08-08"
+ },
+ "61142563917e9a95": {
+  "feed": "Technica",
+  "title": "Democrats oppose plan to stack FCC with Republicans, plan probes of Chairman Carr",
+  "link": "https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Senate Democrats today opposed President Trump's nominee for an open Federal Communications Commission seat, and criticized Republicans for moving to confirm a new commissioner during the period before Democrats take control of Congress in January 2027. Democrats also plan to use their majority next year to launch probes of FCC Chairman Brendan Carr."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "c38a16f6ce9ddbd2": {
+  "feed": "Apple ML Research",
+  "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
+  "link": "https://machinelearning.apple.com/research/attention-mamba-distillation",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "State Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and higher throughput at generation compared to their Attention-based counterparts. On the other hand, the community has built up a considerable body of knowledge on how to train Transformers, and many pretrained Transformer models are readily available."
+  ],
+  "published_on": "2026-11-03"
+ },
+ "5ca4dc7b6d88cb31": {
+  "feed": "OpenAI News",
+  "title": "Introducing Businesses in ChatGPT",
+  "link": "https://openai.com/index/introducing-businesses-chatgpt",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "c1fbfe2e3fcb7bc5": {
+  "feed": "Simon Willison",
+  "title": "llm-gemini 0.36",
+  "link": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to double in price to $4/$20 on December 1st (same as Opus 5.5)."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "840291dff62a4f97": {
+  "feed": "Airbnb Engineering",
+  "title": "Skipper, Airbnb’s embedded workflow engine, is now open source",
+  "link": "https://medium.com/airbnb-engineering/skipper-airbnbs-embedded-workflow-engine-is-now-open-source-78dd354f472b?source=rss----53c7c27702d5---4",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Durable workflows, running inside your service with no separate orchestration cluster. By : Ricardo Gamba , Andriy Sergiyenko Skipper , an embedded workflow engine used in production by teams all across Airbnb, is now available to the open source community. Skipper lets you express multi-step business processes as Java or Kotlin classes, persist their progress, and recover from crashes and transient failures."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "b686da68349e5f78": {
+  "feed": "Technica",
+  "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+  "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Grok Build, the vibe-coding agent from SpaceXSI, is leaking data—some of it proprietary business information and other sensitive secrets—from thousands of its users, including the very same Elon Musk-owned company that offers the platform, new research shows. The information is revealed through links allowing Grok Build users to share their apps with others."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "c4b2e9a50337f305": {
+  "feed": "Technica",
+  "title": "What happens to mathematics when AI becomes an oracle?",
+  "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Our modern world runs on math, from social media algorithms, package delivery, and weather prediction to medical imaging and machine learning. The rise of computers helped fuel its dominance, enabling us to work with increasingly large numbers that would otherwise be beyond the capacity of our finite human brains. But with the rise of large language models, AI chatbots, and, soon, quantum computing, so-called \"big math\" is beginning to outstrip its creators entirely."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "0e4a97de00333460": {
+  "feed": "Technica",
+  "title": "Google Fi adds support for a second 5G network, won't say which one",
+  "link": "https://arstechnica.com/google/2026/11/google-fi-adds-support-for-a-second-5g-network-wont-say-which-one/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google has announced a \" super network \" upgrade for its Fi cell service. For the past few years, Google Fi has operated exclusively on the T-Mobile network, but now it's adding support for a second 5G network. Oddly, Google refuses to say which one. Google's MVNO (mobile virtual network operator) launched in 2015 as Project Fi with support for both T-Mobile and Sprint service."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "b40010d3be3b788a": {
+  "feed": "Technica",
+  "title": "Pixel phones getting new icon styles, Create My Widget, and more in November Pixel Drop",
+  "link": "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google's Pixel phones get an update every month, but most are just security patches and bug fixes. The bigger changes are bundled into quarterly Pixel Drops, and one is rolling out today . The update brings a few new things, and many of the Gemini features previously exclusive to the latest Pixel phones will also expand to Google's Pixel 10 lineup. The Pixel 11 was Google's first foray into \"Gemini Intelligence\" branding, something we'll see a lot more of going forward."
+  ],
+  "published_on": "2026-11-10"
  }
 }
