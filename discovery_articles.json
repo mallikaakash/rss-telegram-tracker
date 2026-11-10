@@ -7236,5 +7236,60 @@
   "why": "",
   "points": [],
   "published_on": "2026-09-11"
+ },
+ "e8e12dca78e6d567": {
+  "url": "https://blog.51cto.com/u_12227/14933250",
+  "title": "优化器状态与学习率调度，在断点续训中的无损对齐经验分享_轩辕的技术博客_51CTO博客",
+  "domain": "blog.51cto.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-10",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-14"
+ },
+ "cf2e33e72c239c09": {
+  "url": "https://dev.to/g_factor/gpu-kernels-explained-cuda-triton-cublas-torchcompile-and-kernelbench-200m",
+  "title": "GPU Kernels, Explained: CUDA, Triton, cuBLAS, torch.compile and KernelBench - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-10",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "3ec4fb23425120c8": {
+  "url": "https://arxiv.org/pdf/2610.14277",
+  "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-10",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-09"
+ },
+ "da461e7f430e10da": {
+  "url": "https://hysenlabs.com/projects/ai-dynamo-dynamo",
+  "title": "NVIDIA Dynamo review: cluster inference orchestration",
+  "domain": "hysenlabs.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-10",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-22"
+ },
+ "959857071fe75481": {
+  "url": "https://www.jonnytooze.com/insights/unattended-model-training-with-a-cap",
+  "title": "Training Laya 6/6: Unattended model training with a cap | Jonny Tooze",
+  "domain": "jonnytooze.com",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-10",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-11"
  }
 }
