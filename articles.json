@@ -103411,5 +103411,245 @@
    "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes."
   ],
   "published_on": "2026-11-09"
+ },
+ "c5b4bb51ba8b6637": {
+  "feed": "Technica",
+  "title": "High oil prices have led to a dip in global carbon emissions",
+  "link": "https://arstechnica.com/science/2026/11/carbon-emissions-are-down-this-year-but-that-probably-wont-last/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Evaluating the annual global temperatures each year requires context. There is a fair amount of natural variability from one year to the next, so it’s important to focus on the trend over time. Famously, global warming did not end in 1998, as some claimed a couple of decades ago—we just had a run of La-Niña-dominated years after a very strong El Niño."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "0b2e1c02de474f20": {
+  "feed": "Google DeepMind",
+  "title": "Gemini 4 Carbon is now available",
+  "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Gemini 4 Carbon is now available Skip to main content Gemini 4 Carbon is now available Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Gemini 4 Carbon is now available Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (English) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Models & research Gemini Models Gemini 4 Carbon is now available Nov 10, 2026 | x.com Facebook LinkedIn Mail Copy link Developers, enterprises, scientists, and consumers can now try our latest frontier model."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "46ecb159c1535b09": {
+  "feed": "OpenAI News",
+  "title": "Helping caregivers use AI in everyday life",
+  "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "724fae9251483a53": {
+  "feed": "Hugging Face Blog",
+  "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+  "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Pay for Hugging Face Hub with your Google Cloud Account Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Pay for Hugging Face Hub with your Google Cloud Account Published November 10, 2026 Update on GitHub Upvote - Zaïd Alhadad zaid-alhadad Follow Pierric Cistac pierric Follow Simon Pagezy pagezyhf Follow Michelle Habonneau michellehbn Follow :last-child]:mb-0\"> Why pay through Google Cloud?"
+  ],
+  "published_on": "2026-11-10"
+ },
+ "35b91347461d2c55": {
+  "feed": "Meta Engineering",
+  "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
+  "link": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Your algorithm is a suite of AI-powered tools that makes Facebook recommendations more transparent and steerable, with a single editable view of the interests that shape Feed and Reels. We’re sharing how Your algorithm turns people’s natural language preferences into responsive recommendations, and how LLMs are tailored to specific tasks within the system."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "2de8f7597bd112f7": {
+  "feed": "Railway Blog",
+  "title": "Incident Report: October 21st Security Attack",
+  "link": "https://blog.railway.com/p/incident-report-october-security-incident",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Authors: Jacob Cooper & Angelo Saraceno & Sarah Bedell & Luca Casonato On October 21st, Railway suffered a security incident from a large-scale malicious attack. Following up on the preliminary report , we outline the nature of the attack and the response to it in greater detail. We hope this helps our customers and the ecosystem better understand the attack."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "f546912bc5bafa66": {
+  "feed": "Shopify Engineering",
+  "title": "How we rebuilt the Shopify app in 12 weeks",
+  "link": "https://shopify.engineering/shopify-app-rebuild",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How we rebuilt the Shopify app in 12 weeks (2026) - Shopify Skip to Content Solutions Start Start your business . Build your brand Create your website . Online store editor Customize your store . Store themes Find business apps . Shopify app store Own your site domain . Domains & hosting Explore free business tools . Tools to run your business Sell Sell your products ."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "d218a5f096f921f0": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits",
+  "link": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide... Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide a foundation for developing these capabilities, but moving them into a vehicle requires additional work to reduce model size, preserve useful reasoning, and validate performance on the target hardware."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "4c4fe289b24da25d": {
+  "feed": "Technica",
+  "title": "One space station company sues another for copying its work",
+  "link": "https://arstechnica.com/space/2026/11/one-space-station-company-sues-another-for-copying-its-work/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NASA's competition for the development of private space stations that will take flight in the 2030s is already nearing crunch time. But a recently unsealed lawsuit may spice things up even further. The lawsuit involves two of the most prominent companies in this competition, Houston-based Axiom Space and Long Beach, California-based Vast Space. And it is surfacing as final proposals for private space stations are due from companies to the US space agency a little more than one month from today, on December 14 ."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "428ac4b42c0b5f39": {
+  "feed": "Google DeepMind",
+  "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+  "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Formal Verification of Signal’s Protocol with Gemini — Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the worl"
+  ],
+  "published_on": "2026-11-10"
+ },
+ "3588ceed41552e46": {
+  "feed": "OpenAI News",
+  "title": "Work at the Frontier: AI’s effect on freelance work",
+  "link": "https://openai.com/index/ai-effect-on-freelance-work",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "3229de0d919212c3": {
+  "feed": "Hugging Face Blog",
+  "title": "Decision Models in Hugging Face",
+  "link": "https://huggingface.co/blog/decision",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Decision Models in Hugging Face Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Decision Models in Hugging Face Published November 10, 2026 Update on GitHub Upvote 23 +17 Aritra Roy Gosthipaty ariG23498 Follow Lysandre lysandre Follow Pedro Cuenca pcuenq Follow Tom Aarsen tomaarsen Follow :last-child]:mb-0\"> What are decision models?"
+  ],
+  "published_on": "2026-11-10"
+ },
+ "c59bd18a7facbe4e": {
+  "feed": "Meta Engineering",
+  "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+  "link": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Triton Low-Level Extensions (TLX) , is an extension to Triton that helps engineers optimize GPU performance while preserving Triton’s productive programming model. TLX introduces explicit warp-group and cluster-level orchestration, letting developers adopt new hardware capabilities without sacrificing velocity. TLX has demonstrated performance improvements in RecSys training, RecSys inference, and large-scale LLM pretraining."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "a1ebe716d4b532ba": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Agent Substrate: Advancing Kubernetes for Agents at Scale",
+  "link": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response. Kubernetes wasn’t built for that. Running one Pod per... AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response. Kubernetes wasn’t built for that. Running one Pod per session holds memory for sessions that aren’t doing anything, and deleting Pods between turns pays a multi-second cold start every time and loses the agent’s state."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "004c51f512e0fac4": {
+  "feed": "Technica",
+  "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+  "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google DeepMind has revealed a new generation of the AI-powered Gemini Robotics platform. In the 2.5 release, Google says its robotic AI is getting tantalizingly close to completing real-world tasks as well as humans do. In fact, some Gemini robots were able to get actual work done in Mercedes-Benz factories, and the team is preparing for a day when robots operate alongside humans with an open source safety benchmark."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "a98763b80c842ad2": {
+  "feed": "Google DeepMind",
+  "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+  "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Gemini Robotics 2.5: Accelerating Physical Intelligence — Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the w"
+  ],
+  "published_on": "2026-11-09"
+ },
+ "a0a1d23e605a8d9a": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
+  "link": "https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NVIDIA Snapshot, a new open-source component of the NVIDIA DSX AI Factory Platform, makes initialized GPU workloads reusable across inference... NVIDIA Snapshot, a new open-source component of the NVIDIA DSX AI Factory Platform, makes initialized GPU workloads reusable across inference replicas—speeding startup and recovery. When inference demand spikes or a replica fails, available GPUs don’t translate immediately into serving capacity."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "952761630128c9fa": {
+  "feed": "Technica",
+  "title": "Nvidia has a Jensen Huang problem—and no obvious successor",
+  "link": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The investigation of Jensen Huang by Nvidia’s board threatens the future of one of Silicon Valley’s longest-serving executives and a key enabler of the AI boom, who has no obvious successor as leader of the world’s second-most-valuable company. Huang is fighting for survival after admitting to an extramarital affair, believed to be with an executive at a large Nvidia customer whom US officials also allege was working as a Chinese spy."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "fadc01073b67484e": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine",
+  "link": "https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NVIDIA is announcing two open source projects for building and operating managed Kubernetes services on GPU infrastructure—NVIDIA Kubernetes Engine (NVKE) and... NVIDIA is announcing two open source projects for building and operating managed Kubernetes services on GPU infrastructure—NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR)."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "50bad3cfec0305a0": {
+  "feed": "Technica",
+  "title": "FDA warns GLP-1 drugs may pose risk of rare condition that causes vision loss",
+  "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-may-increase-risk-of-vision-loss-from-rare-condition-fda-warns/",
+  "date": "2026-11-10",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Food and Drug Administration is warning that popular obesity drugs—including Ozempic, Wegovy, Zepbound, and Mounjaro—may carry a \"potential increased risk\" of a rare eye condition that can lead to permanent vision loss. In a drug safety communication Monday , the FDA said it will now require makers of GLP-1 receptor agonist drugs to add a warning about that risk on their drug labels."
+  ],
+  "published_on": "2026-11-10"
  }
 }
