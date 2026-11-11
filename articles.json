@@ -104003,5 +104003,137 @@
    "Since Valve announced its Steam Deck Verified program in 2021 , players have found that a game's \"Verified\" status doesn't always match how well it actually runs on the handheld. Now, new Steam Deck frame rate data being shared by Valve itself can help players dig deeper into the performance they can expect from many Steam Deck games. Valve has been collecting anonymized frame rate data from Steam players who opt in since February ."
   ],
   "published_on": "2026-11-10"
+ },
+ "66338c1cb4f3b34e": {
+  "feed": "Technica",
+  "title": "Trump wanted little Kei trucks for America, Toyota makes it happen",
+  "link": "https://arstechnica.com/cars/2026/11/toyota-resurrects-scion-with-right-hand-drive-kei-trucks/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The idea that Americans should be offered a greater choice of smaller cars has support from strange bedfellows indeed. After all, who could forget President Trump—usually one to take a maximalist approach to any problem— announcing last year that he wanted the Department of Transportation to make Japan’s diminutive “Kei” cars legal here in the US. Ars’ attempts to get DoT to tell us more about the potential influx of little vehicles have mostly fallen on deaf ears."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "5b916f1bea878c9c": {
+  "feed": "Google DeepMind",
+  "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+  "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AlphaGenome 2: Deciphering how cells read DNA to better understand disease — Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers We’re looking for people who want to make a real, posit"
+  ],
+  "published_on": "2026-11-11"
+ },
+ "d2296a64c0dc3b89": {
+  "feed": "Hugging Face Blog",
+  "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+  "link": "https://huggingface.co/blog/token-pooling",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Token Pooling-Aware Training for Multi-Vector Embedding Models Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Token Pooling-Aware Training for Multi-Vector Embedding Models Published November 11, 2026 Update on GitHub Upvote 16 +10 Tom Aarsen tomaarsen Follow :last-child]:mb-0\"> Table of Contents Why Multi-Vector Retrieval Needs So Many Vectors Token Pooling Choosing a Pooling Budget Calibrating Adaptive Pooling Token Pooling-Aware Training A Loss Wrapper in Sentence Transformers Optional Kernel Acceleration Using the Trained Model Evaluation Results Combining Compression Techniques References Code and Models Multi-vector embedding models give each query token its own opportunity to find a match in a document."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "a19ce5d70afc97e2": {
+  "feed": "Simon Willison",
+  "title": "Anthropic's IPO roadshow video",
+  "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "32ab81b217c29048": {
+  "feed": "Meta Engineering",
+  "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+  "link": "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ads ranking models are growing toward LLM scale faster than the hardware to run them can keep up. An extra unit of compute has more impact on some ad requests, models, and chips than on others. The challenge is deciding where to allocate it to get the best outcome for the entire system. We built Intelligent Delivery, an ML-driven system that allocates resources across the serving stack toward the system-wide optimum."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "16053df9330ef685": {
+  "feed": "Cloudflare Blog",
+  "title": "Choosing QuePaxa, an unusual consensus algorithm",
+  "link": "https://blog.cloudflare.com/choosing-quepaxa/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare recently announced Meerkat , an experimental distributed consensus service designed to manage our internal global control plane. It is powered by a new consensus algorithm published by researchers Tennage & Băsescu et al. called QuePaxa (2023). QuePaxa is an unusual choice; most consensus systems use well-established consensus algorithms like Raft, (Multi-)Paxos or Viewstamped Replication."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "508420d298cc9dd8": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
+  "link": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As teams deploy and scale AI workloads using NVIDIA Dynamo, Kubeflow, or Slurm, tracking what actually runs requires visibility beyond the platform... As teams deploy and scale AI workloads using NVIDIA Dynamo, Kubeflow, or Slurm, tracking what actually runs requires visibility beyond the platform configuration captured in a recipe. Application teams define and update these workloads independently of the platform recipe, so a reproducible deployment bundle alone cannot establish which workload artifacts are running on each node."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "ef892408bebc346b": {
+  "feed": "Technica",
+  "title": "Google DeepMind just mathematically verified key parts of Signal",
+  "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google DeepMind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees—a landmark development for the widely used cryptography and AI itself. Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways. It serves as further independent validation of the cryptography that protects massive quantities of the world's communications on platforms like the Signal app , Google Messages, and WhatsApp."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "e65f1a95fdc7833e": {
+  "feed": "Technica",
+  "title": "Polestar has a new look with its Formula 2030 concept",
+  "link": "https://arstechnica.com/cars/2026/11/polestar-has-a-new-look-with-its-formula-2030-concept/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Perhaps only a small percentage of Ars readers will care about the Polestar 2030 concept, debuted today by the electric automaker. Spun out of Volvo—once upon a time, Polestar was a racing team—the brand has leveraged the resources of parent-automaker Geely to create electric vehicles that marry a modern minimalist style with rewarding driving dynamics ."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "ffd1be60b8ac1c68": {
+  "feed": "Technica",
+  "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+  "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Impervious to battlefield jamming, drones physically connected to human operators by miles of fiber-optic cables have become such a common weapon of war in Ukraine that trees and fields are strewn with tangled cables thinner than fishing lines. But importing such fiber-optic material from China has become more costly as drone warfare’s needs compete with global demand from AI data centers for the same limited supply—and so Ukrainian drone makers have been adapting."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "1e5c1e122cc52eb2": {
+  "feed": "Technica",
+  "title": "Review: Apple's M6 MacBook Pro is good, but it's missing all the exciting stuff",
+  "link": "https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle/",
+  "date": "2026-11-11",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I've written more than once about the weird positioning of Apple's entry-level 14-inch MacBook Pro, which has always occupied an uncomfortable perch between the MacBook Air and the higher-end MacBook Pros. The best versions of this laptop, like last year's M5 refresh, come with the same basic design and external features of the higher-end MacBook Pros, just with a more modest processor and a lower ceiling for specs like RAM and storage."
+  ],
+  "published_on": "2026-11-10"
  }
 }
