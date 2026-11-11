@@ -7291,5 +7291,101 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-11"
+ },
+ "c448fd64da3597cf": {
+  "url": "https://arxiv.org/pdf/2609.29421",
+  "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-11",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-25"
+ },
+ "ae9485eed15f7ccc": {
+  "url": "https://charliez.me/blog/untitled-mv9ug6kr",
+  "title": "Building a tiny (base) LLM from scratch — Charlie X. Zhang",
+  "domain": "charliez.me",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-11",
+  "tier": "skip",
+  "why": "A basic personal learning log replicating standard Stanford CS336 coursework on a 50M parameter toy model with no novel empirical data.",
+  "points": [],
+  "published_on": "2026-10-19",
+  "reject_reason": "shallow"
+ },
+ "016c0d4d0097d154": {
+  "url": "https://logicstack.org/blog/training-llms-pretraining-loss-curves-scaling-laws",
+  "title": "Training LLMs: Pretraining, Loss Curves, and Scaling | LogicStack",
+  "domain": "logicstack.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-11",
+  "tier": "skip",
+  "why": "The page failed to render and provides no readable content beyond a loading placeholder.",
+  "points": [],
+  "published_on": "2026-11-10",
+  "reject_reason": "shallow"
+ },
+ "6043d9bc08f0b70a": {
+  "url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
+  "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile | NVIDIA Technical Blog",
+  "domain": "developer.nvidia.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-11",
+  "tier": "solid_find",
+  "why": "A deep technical engineering breakdown by Jane Street and NVIDIA on writing custom forward-pass kernels for Mamba-2 using the CUDA Tile DSL.",
+  "points": [
+   "Explains the implementation of Mamba-2 state-space forward passes in Python via NVIDIA CUDA Tile, targeting Tensor Cores without writing raw CUDA C++.",
+   "Deconstructs the operator into three specialized kernels: chunk_cumsum, fwd_pass_state, and compute_out.",
+   "Calculates token- and head-level cumulative decay sums in log-space using ct.cumsum primitives for maximum arithmetic intensity."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "6ac2df97ac459d2e": {
+  "url": "https://papers.cool/arxiv/2609.19107",
+  "title": "How Model Growth, Recursion, and Boundary Operators Influence Scaling Exponents | Cool Papers - Immersive Paper Discovery",
+  "domain": "papers.cool",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-11",
+  "tier": "solid_find",
+  "why": "Presents surprising research demonstrating that model growth and recursive depth architectures can alter scaling exponents rather than just constant factors.",
+  "points": [
+   "Shows that architectural interventions like recursive depth/looping alter pre-training scaling law exponents, achieving compounding efficiency gains as compute increases.",
+   "Achieves parity with GPT-3 13B on CORE using a 7.4B model growth architecture with roughly 20x less compute.",
+   "Introduces boundary operators (normalizing and re-injecting earlier block activations) to increase usable computational depth under fixed compute budgets."
+  ],
+  "published_on": "2026-09-16"
+ },
+ "9d1462c7c820ccc2": {
+  "url": "https://github.devotd.net/en/posts/indras-mirror-xolotl/",
+  "title": "indras-mirror/xolotl — a large MoE inference engine for a single GPU · Devotd Github",
+  "domain": "github.devotd.net",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-11",
+  "tier": "hidden_gem",
+  "why": "Surfaces an obscure 32-star C++ engine demonstrating an impressive systems architecture to run 500B+ MoE models on a single consumer GPU.",
+  "points": [
+   "Implements a tiered memory hierarchy partitioning MoE experts across VRAM, DDR4 system RAM, and NVMe with prefetching for token generation.",
+   "Reports 26.8 tok/s decode for DeepSeek-V4.1-Flash (152 GiB model footprint) on a single RTX 4090 24GB with 90 GB DDR4.",
+   "Integrates mixed-precision quantization, speculative decoding, and a 4-bit KV cache supporting context lengths up to 512K."
+  ],
+  "published_on": "2026-10-17"
+ },
+ "9fc24b22af2d6c25": {
+  "url": "https://dev.to/andy_white_e5f5d48052c6ab/lora-on-spot-rtx-4090s-what-happens-when-the-host-dies-mid-run-gmd",
+  "title": "LoRA on spot RTX 4090s: what happens when the host dies mid-run. - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-11",
+  "tier": "solid_find",
+  "why": "Provides practical empirical cost breakdowns, hidden billing traps, and a fault-tolerance design for running LLM fine-tunes on spot consumer GPUs.",
+  "points": [
+   "Demonstrates 86-89% cost reductions using Vast.ai RTX 4090s ($0.19 per run) compared to on-demand AWS A100s ($1.80) for a 300-step QLoRA fine-tune.",
+   "Uncovers the hidden pitfall of host egress/bandwidth billing, which quadrupled initial run costs from downloading the 15 GB base model.",
+   "Outlines an automated heartbeat and checkpointing supervisor targeting Cloudflare R2 that successfully recovers killed training runs in 3.5 to 5 minutes."
+  ],
+  "published_on": "2026-11-10"
  }
 }
