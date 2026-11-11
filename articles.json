@@ -104135,5 +104135,216 @@
    "I've written more than once about the weird positioning of Apple's entry-level 14-inch MacBook Pro, which has always occupied an uncomfortable perch between the MacBook Air and the higher-end MacBook Pros. The best versions of this laptop, like last year's M5 refresh, come with the same basic design and external features of the higher-end MacBook Pros, just with a more modest processor and a lower ceiling for specs like RAM and storage."
   ],
   "published_on": "2026-11-10"
+ },
+ "73f976158f7efb5f": {
+  "feed": "Technica",
+  "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+  "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+  "date": "2026-11-12",
+  "tier": "low_priority",
+  "why": "Corporate gossip and leadership scandal at Nvidia completely outside engineering technical priorities.",
+  "points": [
+   "Nvidia board investigates Jensen Huang over relationship allegations."
+  ],
+  "published_on": "2026-11-11",
+  "reject_reason": "off_topic"
+ },
+ "9a0e58e782b2fa6e": {
+  "feed": "Google Research",
+  "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+  "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+  "date": "2026-11-12",
+  "tier": "low_priority",
+  "why": "Wearable sensor health profiling is consumer medical research unrelated to LLMs, backend, or industrial ML.",
+  "points": [
+   "Google explores wearable biosensors to track cardiovascular-kidney-metabolic risks."
+  ],
+  "published_on": "2026-11-11",
+  "reject_reason": "off_topic"
+ },
+ "8c88af74b58f9262": {
+  "feed": "Apple ML Research",
+  "title": "Evaluating the Evaluators: Investigating LLM Judges for Personalized Writing Style Assessment",
+  "link": "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "Examines failure modes of LLM-as-a-judge setups, relevant when designing automated evaluation pipelines.",
+  "points": [
+   "Investigates how generator-judge pairings and reasoning capabilities impact personalized evaluation reliability.",
+   "Identifies discrepancies when LLMs judge adherence to subjective, nuanced persona and style constraints."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "8c999d6885d24711": {
+  "feed": "OpenAI News",
+  "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+  "link": "https://openai.com/index/jiostar-vijay-seshadri",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "Highlights production ML system design, evaluation, and guardrails at massive scale in an Indian tech giant.",
+  "points": [
+   "Discusses production deployment strategies for generative discovery serving 500 million users.",
+   "Emphasizes practical guardrail implementation and continuous offline/online evaluation loops."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "bb485df9f4f59adb": {
+  "feed": "Simon Willison",
+  "title": "Gemini Decisions API",
+  "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "Introduces Google's specialized classification and decision API, offering calibrated probabilities across multimodal inputs.",
+  "points": [
+   "Gemini Decision 1 costs $0.10/M input tokens with free output, matching GPT-6 Luna pricing.",
+   "Supports text, images, video, audio, and PDFs, outputting continuous probabilities rather than binary 0/1 booleans."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "632cdccd01666d81": {
+  "feed": "Modal Blog",
+  "title": "Modal becomes a gVisor maintainer",
+  "link": "https://modal.com/blog/modal-gvisor-maintainer",
+  "date": "2026-11-12",
+  "tier": "must_read",
+  "why": "Modal details the core security and systems architecture powering isolated GPU execution at massive scale.",
+  "points": [
+   "Modal joins Ant Group and Tines as maintainers donating gVisor to the CNCF.",
+   "Runs 40M+ gVisor containers daily via the Go-based Sentry application kernel for secure GPU inference, multi-node training, and untrusted code execution.",
+   "Solves host kernel isolation for high-performance AI workloads with strict security boundaries."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "45d531b5f5bbc636": {
+  "feed": "Shopify Engineering",
+  "title": "Shopify’s generative discovery model",
+  "link": "https://shopify.engineering/generative-discovery",
+  "date": "2026-11-12",
+  "tier": "must_read",
+  "why": "Production engineering deep-dive on training and serving a unified generative recommendation system within strict latency SLAs.",
+  "points": [
+   "Unifies search intent and behavioral recommendation into a single generative model across billions of catalog items.",
+   "Optimizes end-to-end model inference to meet sub-second live request latency budgets.",
+   "Leverages combined cross-merchant browsing and purchase contexts for personalized retrieval."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "d5b3e3dc3333f292": {
+  "feed": "Technica",
+  "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
+  "link": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
+  "date": "2026-11-12",
+  "tier": "low_priority",
+  "why": "Telecom regulatory dispute and settlement news with zero engineering value.",
+  "points": [
+   "T-Mobile settles NY lawsuit regarding throttling low-income home internet data."
+  ],
+  "published_on": "2026-11-11",
+  "reject_reason": "off_topic"
+ },
+ "f22e3a85a9fee1e9": {
+  "feed": "Apple ML Research",
+  "title": "On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models",
+  "link": "https://machinelearning.apple.com/research/gating-memorization-in-context",
+  "date": "2026-11-12",
+  "tier": "must_read",
+  "why": "Foundational architecture research analyzing why state space models lag behind Transformers in retrieval and in-context learning.",
+  "points": [
+   "Demonstrates that gating mechanisms in modern SSMs directly govern the trade-off between memorization and in-context learning.",
+   "Identifies theoretical and practical limitations preventing vanilla SSMs from matching Transformer retrieval accuracy.",
+   "Offers architectural insights for designing competitive linear-time sequence models."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "02f705171aa939fd": {
+  "feed": "Simon Willison",
+  "title": "aws-emulator",
+  "link": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "Useful backend development utility providing local AWS mocking generated via large-scale agent swarms.",
+  "points": [
+   "AWS released an official Rust-based local emulator generated through 29,684 agent-authored commits.",
+   "Runs via Docker to enable integration testing without cloud provisioning or live credentials."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "d49b4066d81b5935": {
+  "feed": "Technica",
+  "title": "Anduril says its first satellite can see adversaries maneuver in orbital night",
+  "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+  "date": "2026-11-12",
+  "tier": "low_priority",
+  "why": "Defense hardware and infrared satellite payload news with no software or ML infrastructure relevance.",
+  "points": [
+   "Anduril tests an edge-compute long-wave infrared tracking satellite in orbital night."
+  ],
+  "published_on": "2026-11-11",
+  "reject_reason": "off_topic"
+ },
+ "0cebaff9c3943973": {
+  "feed": "Apple ML Research",
+  "title": "Weighted State Souping for Efficient Long-Context Retrieval",
+  "link": "https://machinelearning.apple.com/research/weighted-state-souping",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "Presents state souping caching optimizations to reduce compute and memory overhead during long-context retrieval in SSMs.",
+  "points": [
+   "Evaluates pre-encoding chunks like documents or memory records into modular SSM state vectors.",
+   "Addresses context degradation when merging multiple cached state vectors for downstream queries."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "95dd2fdb0483e254": {
+  "feed": "Simon Willison",
+  "title": "Browse tools.simonwillison.net by tag",
+  "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+  "date": "2026-11-12",
+  "tier": "low_priority",
+  "why": "Personal blog update about static site tag taxonomy and UI navigation.",
+  "points": [
+   "Simon Willison added automated tag categorization to his personal tool showcase."
+  ],
+  "published_on": "2026-11-11",
+  "reject_reason": "shallow"
+ },
+ "d23951db8106a89d": {
+  "feed": "Technica",
+  "title": "NASA's secret weapon in the lunar space race may be ... procurement reform?",
+  "link": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
+  "date": "2026-11-12",
+  "tier": "low_priority",
+  "why": "Government space procurement policies unrelated to backend software or ML engineering.",
+  "points": [
+   "NASA outlines contractual strategy changes for Moon base vendor partnerships."
+  ],
+  "published_on": "2026-11-11",
+  "reject_reason": "off_topic"
+ },
+ "d7c77ea971b934f7": {
+  "feed": "Simon Willison",
+  "title": "llm 0.37.2",
+  "link": "https://simonwillison.net/2026/Nov/11/llm/",
+  "date": "2026-11-12",
+  "tier": "low_priority",
+  "why": "Minor patch release resolving an API key leakage edge case in an open-source CLI utility.",
+  "points": [
+   "LLM 0.37.2 patches an issue that could inadvertently leak OpenAI keys to third-party endpoints."
+  ],
+  "published_on": "2026-11-11",
+  "reject_reason": "shallow"
+ },
+ "d48e4f7a31999a2a": {
+  "feed": "Technica",
+  "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+  "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+  "date": "2026-11-12",
+  "tier": "low_priority",
+  "why": "Financial investment and circular AI funding news without technical architecture substance.",
+  "points": [
+   "TSMC approves $1B investment split between Anthropic IPO common stock and OpenAI preferred stock."
+  ],
+  "published_on": "2026-11-11",
+  "reject_reason": "marketing"
  }
 }
