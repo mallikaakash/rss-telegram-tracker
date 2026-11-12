@@ -104417,5 +104417,137 @@
    "IBM's Quantum Developer's Conference is being held this week, and the company is using the gathering to provide an update to its roadmap: It is aiming to make error-corrected quantum computers before the decade is out. The changes greatly expand the scope of its next-generation Nighthawk general-use processors by adding a version with over 500 programmable qubits."
   ],
   "published_on": "2026-11-11"
+ },
+ "4349f29ce179efd9": {
+  "feed": "Technica",
+  "title": "The amazing disappearing exoplanet",
+  "link": "https://arstechnica.com/science/2026/11/the-amazing-disappearing-exoplanet/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "One nice thing about discovering exoplanets is that, once you work out how long their orbits take, they continue to show up like clockwork. The timing is so regular, in fact, that we can use variations to detect the gravitational influence of additional planets in the same exosolar system. And the precise timing is useful in that we can rely on it to point telescopes at the system when we know some of the light we detect has passed through the planet's atmosphere."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "09092af9ed39b3d0": {
+  "feed": "Apple ML Research",
+  "title": "Theoretical Limits of Language Model Alignment",
+  "link": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model. The most common alignment approaches are (i) reinforcement learning, which maximizes the expected reward under a KL-divergence constraint, and (ii) best-of-NNN alignment, which selects the highest-reward output among NNN independent samples."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "0990939c7d6ea9f7": {
+  "feed": "OpenAI News",
+  "title": "Holiday Extras is rethinking what it can build with Codex",
+  "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "56dac742ff29ffe2": {
+  "feed": "Hugging Face Blog",
+  "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+  "link": "https://huggingface.co/blog/3d-lora-finetuning",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Definitive Fine-Tuning Guide for 3D Generation Models Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> The Definitive Fine-Tuning Guide for 3D Generation Models Published November 12, 2026 Update on GitHub Upvote 7 +1 Suvaditya Mukherjee suvadityamuk Follow merve merve Follow Pedro Cuenca pcuenq Follow :last-child]:mb-0\"> Introduction What we want to improve What will we use?"
+  ],
+  "published_on": "2026-11-12"
+ },
+ "d536c6ce3a6978cb": {
+  "feed": "ClickHouse",
+  "title": "Bring high-performance analytics to your lakehouse with ClickHouse and Amazon S3 Tables",
+  "link": "https://clickhouse.com/blog/clickhouse-amazon-s3-tables",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Bring high-performance analytics to your lakehouse with ClickHouse and Amazon S3 Tables | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "0f0daa4a50c562bb": {
+  "feed": "Shopify Engineering",
+  "title": "Cyber Chaos Monkey: Staying ahead of security threats with AI agents",
+  "link": "https://shopify.engineering/cyber-chaos-monkey",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cyber Chaos Monkey: Staying ahead of security threats with AI agents (2026) - Shopify Skip to Content Solutions Start Start your business . Build your brand Create your website . Online store editor Customize your store . Store themes Find business apps . Shopify app store Own your site domain . Domains & hosting Explore free business tools . Tools to run your business Sell Sell your products ."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "18f5dbe44b3ff077": {
+  "feed": "Pinterest Engineering",
+  "title": "How Pinterest Improved Analytics Agent Compliance with Loop Engineering",
+  "link": "https://medium.com/pinterest-engineering/how-pinterest-improved-analytics-agent-compliance-with-loop-engineering-d3c52d0abaa2?source=rss----4c5a5f6279b6---4",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Skyler Zheng | Software Engineer II; Chris Moradi | Staff Data Scientist; Lu Liu | Staff Software Engineer; Aman Gairola | Manager II; Michael Chau | Manager II The Compliance Problem Compliance means following the right steps at the right time Pinterest’s Analytics Agent helps teams answer questions such as “How did query latency for the ads reporting pipeline change last week?” It searches the company’s data ecosystem, analyzes the relevant information, and recommends an answer or course of action."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "5f96a0ebfa7b0c58": {
+  "feed": "Technica",
+  "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+  "link": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Smartglasses have always faced an uphill road to acceptance. Not only is propping a computer up on your nose an uncomfortable proposition, but the privacy aspect has been vexing people since the Google Glass days . Now, Google is ready to take another swing at \" intelligent eyewear \" for the Gemini era after previewing its plans a couple of times. The first glasses are up for preorder today from Gentle Monster and Warby Parker, but they're no impulse buy."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "b06379671ede1f62": {
+  "feed": "OpenAI News",
+  "title": "Supporting research on AI and children’s safety",
+  "link": "https://openai.com/index/children-first-declaration",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "786f478617ff1d00": {
+  "feed": "Technica",
+  "title": "Hundreds of streaming services and nothing to watch",
+  "link": "https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "“Fifty-seven channels, and nothin’ on.” Bruce Springsteen famously said those words during a concert and later in a song in the 1990s about the number of TV channels seemingly growing disproportionately to the availability of enjoyable content. Within a few years, there would be hundreds of TV channels and still, some would argue in hyperbolic frustration, “ nothing to watch.” Read full article Comments"
+  ],
+  "published_on": "2026-11-12"
+ },
+ "ad3b47c024ee5092": {
+  "feed": "Technica",
+  "title": "Review: Apple's M6 iMac is pricey, but it's still a good choice for a clean desk",
+  "link": "https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Apple Silicon iMac got its fourth refresh this month. Every other Apple Silicon Mac has found a way to move forward over the last half-decade—we've gotten a more Pro design for the MacBook Pro, a mini-er design for the Mac mini, and a Mac Studio that has finally made Apple admit it doesn't want to make the Mac Pro anymore. But the Apple Silicon iMac has always been more interested in looking backward."
+  ],
+  "published_on": "2026-11-12"
  }
 }
