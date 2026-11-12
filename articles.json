@@ -104549,5 +104549,125 @@
    "The Apple Silicon iMac got its fourth refresh this month. Every other Apple Silicon Mac has found a way to move forward over the last half-decade—we've gotten a more Pro design for the MacBook Pro, a mini-er design for the Mac mini, and a Mac Studio that has finally made Apple admit it doesn't want to make the Mac Pro anymore. But the Apple Silicon iMac has always been more interested in looking backward."
   ],
   "published_on": "2026-11-12"
+ },
+ "c95a2fac556e00d3": {
+  "feed": "Technica",
+  "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+  "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The US government has expanded the use of an AI tool for advising air traffic controllers to assist in managing air traffic across the entire national airspace system. Airline executives have voiced support for the rollout, but the US labor union representing air traffic controllers has said it was not involved in designing or testing the AI-driven system."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "4bad5afe01a19f79": {
+  "feed": "Google DeepMind",
+  "title": "Introducing Gemini 4 Hydrogen",
+  "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Gemini 4 Hydrogen for Agentic Workflows Skip to main content Introducing Gemini 4 Hydrogen Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Introducing Gemini 4 Hydrogen Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (English) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Models & research Gemini Models Introducing Gemini 4 Hydrogen Nov 12, 2026 | x.com Facebook LinkedIn Mail Copy link Hydrogen brings cutting-edge intelligence to everyone."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "9363117aae7d47f3": {
+  "feed": "Microsoft Research",
+  "title": "Microsoft Research Focus – Edition #98",
+  "link": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "What’s new in research? In this edition of Microsoft Research Focus , based on the Research Focus newsletter (opens in new tab) , host Anson Ho shares some of the latest news and cutting-edge research from across Microsoft—from bringing AI-powered universal translation closer to reality and solving a 31-year-old mathematical challenge to making AI coding agents faster and more efficient."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "372847c9499451eb": {
+  "feed": "OpenAI News",
+  "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+  "link": "https://openai.com/index/amplitude",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "a88bddb17214a029": {
+  "feed": "Hugging Face Blog",
+  "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+  "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B Enterprise Article Published November 12, 2026 Upvote 10 +4 Abraham Daniels abedaniels Follow ibm-granite Basel Shbita basels Follow ibm-granite Chad DeLuca delucac Follow ibm-granite Dan Gutfreund Gutfreund Follow ibm-granite Michael Hind mikehind Follow ibm-granite Shub A shubs90 Follow ibm-granite :last-child]:mb-0\"> Why not JSON?"
+  ],
+  "published_on": "2026-11-12"
+ },
+ "c1b8ea1b2fb317cf": {
+  "feed": "MIT News (AI)",
+  "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+  "link": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Three technologies developed by MIT Lincoln Laboratory are among recipients of 2026 R&D 100 Awards. The awards recognize the 100 most significant innovations that have transitioned to use or been made available for license in the past year. R&D World , an online publication, manages the awards program, which has run annually since 1963. The worldwide competition is judged by an independent panel of science and technology experts and industry professionals."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "75c7ee7437ec7c0d": {
+  "feed": "Technica",
+  "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
+  "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Drone and missile strikes have inflicted unprecedented damage on data centers in Eastern Europe and the Middle East this year, disrupting cloud services for millions of people and permanently deleting some Amazon Web Services customer data. This trend represents a new concern for Big Tech companies—but also for governments and everyone else who depends on common digital services in modern life."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "68e844945f31335f": {
+  "feed": "Technica",
+  "title": "The Elder Scrolls' most obscure adventure gets a 4K PC makeover",
+  "link": "https://arstechnica.com/gaming/2026/11/the-elder-scrolls-most-obscure-adventure-gets-a-4k-pc-makeover/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "So, you think you're an Elder Scrolls superfan? You say you've been there since The Elder Scrolls Arena on MS-DOS and have logged hundreds of hours in The Elder Scrolls Online ? You say you've bought all of the roughly 5,000 re-releases and remasters of Skyrim that have been made available in the last 15 years? Tell me, then: What do you think of The Elder Scrolls Travels: Shadowkey ?"
+  ],
+  "published_on": "2026-11-12"
+ },
+ "77a7ce670b8cd0eb": {
+  "feed": "Technica",
+  "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+  "link": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google is continuing its elemental AI naming scheme with the new Gemini 4 Hydrogen . These names are less descriptive than the Pro/Flash monikers of earlier releases, but Hydrogen's purpose is clear: It replaces the faster, more economical Flash models most people in Google's ecosystem use. With Google's recent Argon and Carbon releases, the rollout was staged and began with cybersecurity researchers."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "0d3c69cac347f41e": {
+  "feed": "Technica",
+  "title": "Ukraine says it can’t stop Russian strikes because Starshield is limited again",
+  "link": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ukraine President Volodymyr Zelenskyy said today that Starshield has again been disabled on fast-moving drones in Ukrainian territory occupied by Russian forces, and that the US has provided \"very little\" information about the return of the restriction. \"We have detected speed restrictions on Starshield on our Ukrainian territory again, in the temporarily occupied parts of Ukraine,\" Zelenskyy said in a speech at the 9th European Political Community Summit in Ireland."
+  ],
+  "published_on": "2026-11-12"
  }
 }
