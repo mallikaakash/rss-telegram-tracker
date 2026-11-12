@@ -7387,5 +7387,61 @@
    "Outlines an automated heartbeat and checkpointing supervisor targeting Cloudflare R2 that successfully recovers killed training runs in 3.5 to 5 minutes."
   ],
   "published_on": "2026-11-10"
+ },
+ "a4e42fda9df15155": {
+  "url": "https://arxiv.org/pdf/2609.25482v1",
+  "title": "Terminal Shrinkage Averaging Reveals a Schedule-Estimator Interaction in LLM Pretraining",
+  "domain": "arxiv.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-12",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-21"
+ },
+ "d4906d428c3ddf74": {
+  "url": "https://arxiv.org/abs/2610.33451",
+  "title": "[2610.33451] A Comprehensive Framework for All Stages of Large-Model Training: From Data and Tokenization, through Pretraining, to Post-Training Alignment",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-12",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-24"
+ },
+ "27cbcaf5fff5a751": {
+  "url": "https://paudelnirajan.github.io/posts/training-transformer-8-gpus/",
+  "title": "Training a transformer on eight GPUs, then serving it — Nirajan Paudel",
+  "domain": "paudelnirajan.github.io",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-12",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-26"
+ },
+ "37ac626874dac64f": {
+  "url": "https://moses-y.github.io/blog/ai-for-k8s.html",
+  "title": "ai for k8s - Moses Yebei",
+  "domain": "moses-y.github.io",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-12",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-02"
+ },
+ "84ad4d18ef4ae198": {
+  "url": "https://ai-tech-articles.github.io/TechHub/2026/11/distributed-inference-cuda-oom-at-9-9k-rps-a-forensic-post-mortem-from-node-03/",
+  "title": "Distributed Inference Cuda Oom At 9 9K Rps A Forensic Post Mortem From Node 03 | llminfra.dev",
+  "domain": "ai-tech-articles.github.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-12",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-11"
  }
 }
