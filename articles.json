@@ -104346,5 +104346,76 @@
   ],
   "published_on": "2026-11-11",
   "reject_reason": "marketing"
+ },
+ "b6506d640532b941": {
+  "feed": "Technica",
+  "title": "Trump admin loses fight to spy on random journalists’ LinkedIn DMs",
+  "link": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Trump administration’s fight to stop suspected leaks of top-secret military information on LinkedIn can’t sweep in “a vast number of confidential sources” of random journalists “who have no conceivable relationship” to the Department of Justice’s investigation, an appeals court ruled Tuesday. The order came after the DOJ asked LinkedIn to turn over 18 months of communications from targeted journalists who collectively published more than 1,000 articles on many different topics over that time period."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "a865d7bae4f04a4d": {
+  "feed": "MIT News (AI)",
+  "title": "New research could lead to faster, trustworthy AI models for climate prediction",
+  "link": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Accurate, up-to-date climate projections are essential for planning decisions that enhance the resilience of power grids, protect public health, maximize agricultural yields, and more. Now, MIT researchers have developed a technique that streamlines the production of fast, trustworthy, and adaptable artificial intelligence models for climate prediction."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "af32fd1389087f3c": {
+  "feed": "LinkedIn Engineering",
+  "title": "Building View-Agnostic Analytics for Modern iOS UI Systems",
+  "link": "https://www.linkedin.com/blog/engineering/analytics/building-view-agnostic-analytics-for-modern-ios-ui-systems",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Building View-Agnostic Analytics for Modern iOS UI Systems Skip to main content Engineering Blog Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Building View-Agnostic Analytics for Modern iOS UI Systems Authored by Keerthana Reddy Ragi November 12, 2026 Co-authors: Co-authored by Keerthana Reddy Ragi , Co-authored by Guo Li , and Co-authored by Suparth Grover Analytics help us understand whether a product experience is working as intended."
+  ]
+ },
+ "9e2e1c68cf1b43c9": {
+  "feed": "Technica",
+  "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+  "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The last few years have seen significant debate over the widespread use of AI-powered tools in game development and the responsible disclosure of that usage to players. That debate has exploded into a full-blown controversy in the indie game development space this week, as Big Walk developer House House has publicly and belatedly disclosed minimal AI use in its popular co-operative puzzle exploration game."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "9b6a04c66686fe44": {
+  "feed": "Technica",
+  "title": "Apple is shuttering its 28-year-old online community forum",
+  "link": "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Apple’s online community forum will close on November 20. On Tuesday night, Apple posted a message to the Apple Support Community announcing the forum's closure: The Apple Support Community will permanently close on November 20, 2026. Starting today, the site will no longer accept new posts and is available in a read-only state. You can continue to find trusted guidance and support on the official Apple Support site ."
+  ],
+  "published_on": "2026-11-11"
+ },
+ "81c693f5ead5e9cb": {
+  "feed": "Technica",
+  "title": "IBM to offer access to a dual-processor quantum system in 2027",
+  "link": "https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027/",
+  "date": "2026-11-12",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "IBM's Quantum Developer's Conference is being held this week, and the company is using the gathering to provide an update to its roadmap: It is aiming to make error-corrected quantum computers before the decade is out. The changes greatly expand the scope of its next-generation Nighthawk general-use processors by adding a version with over 500 programmable qubits."
+  ],
+  "published_on": "2026-11-11"
  }
 }
