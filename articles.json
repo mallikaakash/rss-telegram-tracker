@@ -105005,5 +105005,173 @@
    "ANTALYA, Turkey—Amid upbeat green-tech pep talks and notices for happy hours at the annual United Nations COP31 climate change conference on Thursday, two new reports offered a stark reminder of how far the world remains from containing global warming. Climate Action Tracker , a nonprofit group that analyzes climate policies, found that the planet is still on track to warm nearly 5 degrees Fahrenheit by 2100, a rise that would devastate coral reefs, disrupt agriculture and forests and melt most of the world’s ice."
   ],
   "published_on": "2026-11-13"
+ },
+ "d1bdb0722f55f2a3": {
+  "feed": "Technica",
+  "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
+  "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GLP-1 medications are everywhere these days. The peptide-based drugs are both highly effective and wildly popular for diabetes, weight loss and a growing range of connected chronic health conditions, including cardiovascular disease and obstructive sleep apnea. But, amid the boom, the latest data suggests millions of Americans have turned to unapproved versions and are using the potent drugs in ways doctors never intended, raising questions about what that real-world use means for safety and efficacy."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "90d40fe08702a974": {
+  "feed": "Google Research",
+  "title": "Advancing science & engineering with Antigravity’s /teamwork",
+  "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Advancing science & engineering with Antigravity’s /teamwork Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "2427bacb74a96b4b": {
+  "feed": "Hugging Face Blog",
+  "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+  "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Build a Robot Pick-and-Place Simulation with SimReady Assets Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Build a Robot Pick-and-Place Simulation with SimReady Assets Enterprise + Article Published November 13, 2026 Upvote 5 Dillon Bailey dillonb-nv Follow nvidia Pomi Lee pomilee Follow nvidia Rishabh Chadha rchadha-nv Follow nvidia :last-child]:mb-0\"> What makes a robot asset SimReady?"
+  ],
+  "published_on": "2026-11-13"
+ },
+ "7ec2e641607a6c44": {
+  "feed": "Modal Blog",
+  "title": "Scaling Intelligence: A landmark commission and exhibition",
+  "link": "https://modal.com/blog/scaling-intelligence",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Scaling Intelligence: A landmark commission and exhibition Skip to content A new frontier for open-weight intelligence: Kimi K3.1 Pro is now available on Modal. A new frontier for open-weight intelligence: Kimi K3.1 Pro is now available on Modal. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Product Resources Customers Pricing Docs Log in Sign up Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Featured Model Endpoints Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Product Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Featured Model Endpoints Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Resources Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Company Peri Langlois Nov 13, 2026 Scaling Intelligence: A landmark commission and exhibition Last week, Modal and Gray Area , the San Francisco nonprofit that has supported artists working at the intersection of art and technology for nearly two decades, opened Scaling Intelligence , an exhibition of 11 new artworks made with machine intelligence and cloud-scale compute."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "2ec9a1acb8a9f29f": {
+  "feed": "Cloudflare Blog",
+  "title": "Kitesurf is now open source",
+  "link": "https://blog.cloudflare.com/kitesurf-open-source/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We introduced Kitesurf , our stateless browser for AI agents that runs entirely on top of Workers, in August and followed up in September with WebMCP support, new APIs, and improved compatibility. On every occasion, we mentioned our commitment to open sourcing it so that developers could run their own browser engine on their own Cloudflare accounts if they want to."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "34654b0122b2d30a": {
+  "feed": "ClickHouse",
+  "title": "Introducing Loom: agent memory that keeps up with your code",
+  "link": "https://clickhouse.com/blog/introducing-loom-agent-memory-that-keeps-up-with-your-code",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Introducing Loom: agent memory that keeps up with your code | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "84bc7ae3f7b083c4": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS",
+  "link": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general... Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general matrix multiplications (GEMM). These operations are called DGEMM for real 64-bit floating-point numbers and ZGEMM for complex 64-bit floating-point numbers."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "c479f2841d4a388a": {
+  "feed": "Technica",
+  "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+  "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The US government has expanded the use of an AI tool for advising air traffic controllers to assist in managing air traffic across the entire national airspace system. Airline executives have voiced support for the rollout, but the US labor union representing air traffic controllers has said it was not involved in designing or testing the AI-driven system."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "6a4fc87060a51263": {
+  "feed": "Cloudflare Blog",
+  "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+  "link": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over the last month, the number of Large Language Model (LLM) penetration testing and orchestration frameworks has exploded. Just a few weeks ago, ARTEX — an open source agentic penetration testing system that automates offensive security workflows — was the only framework available. In just the last three days, we have seen over 50 framework families attempt to scan Cloudflare customers globally."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "f9b7157eebe2600c": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+  "link": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Imaging black holes is challenging because they are distant and appear tiny in the sky—for example, M87*’s observed ring spans just 42 microarcseconds. The... Imaging black holes is challenging because they are distant and appear tiny in the sky—for example, M87*’s observed ring spans just 42 microarcseconds. The black hole itself emits no light, so telescopes capture radio emission from superheated gas swirling outside the event horizon."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "577455be57bd818e": {
+  "feed": "Technica",
+  "title": "In elephants, the resilience of communities has its limits",
+  "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Elephants live in some of the most complex and resilient societies in the animal kingdom. Individuals die or move away, calves grow up, and newcomers join, but the local communities as a whole usually hold together. Long-term studies of African savanna elephants have shown that, even after poaching or other spikes in deaths, survivors tend to rebuild their lost connections over time."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "cbe2444d69d4ad8a": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+  "link": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)... AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA) platforms provide dedicated hardware for deep learning inference."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "61497b9e7ad86e53": {
+  "feed": "Technica",
+  "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
+  "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Donald Trump Jr. agreed to end his advisory role with the prediction market Kalshi shortly after Trump Jr.'s venture capital firm made a large investment in its competitor, Polymarket. “We have mutually agreed to end Don's advisory role after his firm's significant investment in a competitor this past summer. We are grateful for his contributions in helping us market Kalshi to more customers,\" Kalshi said in a statement provided to Ars and other news outlets this week."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "743e8b03b2d96bb7": {
+  "feed": "Technica",
+  "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+  "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How do you think you're going to die? If you go by the current statistics for deaths in the US , it's reasonable to expect that cancer or heart disease will eventually get you. But OpenAI Foundation board member and Alignment Research Center Executive Director Paul Cristiano thinks we should all be worried about another major mortality risk. Speaking at a lecture series this week , Cristiano bluntly told the audience in a Toronto Convention Center, \"I think for most people in this room, the most likely reason they will die is because of an AI accident.\" In the opening lecture of a three-part series , Cristiano outlined his worries about the risk of an impending \"AI takeover.\" He defined that as a situation where goal-pursuing AI systems \"call the shots in the same sense that humans today call the shots and what happens on Earth\" and where any human trying to stop them \"would be as ineffective as if you or me was trying to stop the US military.\" Such a situation would likely lead to mass death and perhaps uninhabitable environments for humans, Cristiano said."
+  ],
+  "published_on": "2026-11-13"
  }
 }
