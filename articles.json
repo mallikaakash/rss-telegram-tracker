@@ -104669,5 +104669,149 @@
    "Ukraine President Volodymyr Zelenskyy said today that Starshield has again been disabled on fast-moving drones in Ukrainian territory occupied by Russian forces, and that the US has provided \"very little\" information about the return of the restriction. \"We have detected speed restrictions on Starshield on our Ukrainian territory again, in the temporarily occupied parts of Ukraine,\" Zelenskyy said in a speech at the 9th European Political Community Summit in Ireland."
   ],
   "published_on": "2026-11-12"
+ },
+ "70b00f33cb175999": {
+  "feed": "Technica",
+  "title": "In reversal, American Cancer Society urges routine prostate cancer screening",
+  "link": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In a significant update to its guidelines for prostate cancer screening, the American Cancer Society is now recommending that men get routinely screened for prostate cancer with a PSA test. Men at average risk should get a PSA test every two years from age 50 to 69, according to the new guidelines released Thursday. Men considered at high risk due to race and family history should start testing earlier, at 45, and most are recommended to get tested every year."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "5b0f73df89a6e310": {
+  "feed": "OpenAI News",
+  "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+  "link": "https://openai.com/business/customer-stories/amplitude",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "606399e29c9ee7e9": {
+  "feed": "MIT News (AI)",
+  "title": "New AI “copilot” helps engineers design better structures",
+  "link": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The use of algorithms to design structures has led to new parts optimized for ultralight aircraft, high-bandwidth antennas, and F1 racing cars. But the best algorithmic design techniques still require lots of computation and time: Users only see the final design after it’s complete, after which they often must start the design process all over again to make changes."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "8d30336b14bfe5e0": {
+  "feed": "Simon Willison",
+  "title": "llm-gemini 0.37",
+  "link": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Argon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Hydrogen $1.50 $0.075 $7.50 Carbon and Argon are the same price , and both are scheduled to double in price on December 1st."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "6c7f2cd8c1ce0916": {
+  "feed": "Modal Blog",
+  "title": "Sandbox resourcing: burst, don't reserve",
+  "link": "https://modal.com/blog/sandbox-bursting",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sandbox resourcing: burst, don't reserve Skip to content A new frontier for open-weight intelligence: Kimi K3.1 Pro is now available on Modal. A new frontier for open-weight intelligence: Kimi K3.1 Pro is now available on Modal. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Product Resources Customers Pricing Docs Log in Sign up Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Featured Model Endpoints Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Product Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Modal Infrastructure Infrastructure rebuilt for AI, from the container runtime and storage to a multi-cloud capacity pool Featured Model Endpoints Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Resources Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up All posts Back Product Kevin Yang Nov 12, 2026 Sandbox resourcing: burst, don't reserve Across Modal, a typical Sandbox spends more than half its life using less than 6% of its peak CPU."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "ecfb782e635791c5": {
+  "feed": "Railway Blog",
+  "title": "Bulletin: Compensation for unauthorized AI usage",
+  "link": "https://blog.railway.com/p/bulletin-compensation",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Author: David Banys On October 21, Railway suffered a sophisticated cyber attack that resulted in a security incident with our customers losing at least ~$740K in AI tokens. Yesterday we published the full report which details the attack in great detail. In this bulletin, we provide an update on the most common question we’re receiving, which is how to get compensated for any unauthorized token spend lost due to the security incident."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "3a3ea46b43b8fa68": {
+  "feed": "Technica",
+  "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+  "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "CHICAGO—Families joined protests in seven cities nationwide on Wednesday, rallying against what they see as Google’s bid to entrench its AI models in schools, turn kids of all ages into Gemini guinea pigs, and hook them on AI. The backlash follows a Google statement last week, confirming that there will be no way for students to use Google Search without AI."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "90d79223706ea3ab": {
+  "feed": "OpenAI News",
+  "title": "Gondola doubles revenue as its team builds more with Codex",
+  "link": "https://openai.com/business/customer-stories/gondola",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "666c9ce2ae9f1142": {
+  "feed": "MIT News (AI)",
+  "title": "Helping robots fit into the human workplace",
+  "link": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Despite fears about robots replacing humans at work, there are still plenty of things humans can do far better than machines. That’s fine with Robust AI, a startup building robots designed to complement what humans do best. The company’s mobile robot, named Carter, resembles a utility cart on wheels and is designed to fit seamlessly alongside humans in fast-changing warehouse and factory environments."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "ebb31e4e108a5c4d": {
+  "feed": "Technica",
+  "title": "Netflix releases new trailer for Ray Gunn",
+  "link": "https://arstechnica.com/culture/2026/11/netflix-releases-new-trailer-for-ray-gunn/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We caught the first trailer for the upcoming Netflix animated film Ray Gunn in September and were charmed by director Brad Bird's blend of a Jetsons-like future with classic 1930s noir detective thrillers. Bird has described it as a mashup of The Maltese Falcon and Buck Rogers , and the latest trailer definitely gives off that energy. As previously reported , Bird has directed some of our all-time favorite animated films: The Iron Giant (1999), The Incredibles (2004), and Ratatouille (2007), with the latter two snagging well-deserved Oscar wins."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "d42cc838cfced909": {
+  "feed": "Technica",
+  "title": "Building a rocket is hard. AST SpaceMobile thinks it's \"simple.\"",
+  "link": "https://arstechnica.com/space/2026/11/building-a-rocket-is-hard-ast-spacemobile-thinks-its-simple/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "During an hour-long event on Thursday, Abel Avellan, the founder and chief executive of the telecommunications company AST SpaceMobile, laid out his vision for developing a large rocket to launch his Bluebird satellites into orbit. Avellan emphasized, over and over again, that AST plans to build a \"simple\" rocket. He paraphrased SpaceX founder Elon Musk several times, saying, \"the best part is no part.\" Avellan emphasized that AST has already procured engines for its proposed Blacklift rocket, asserting that engine development accounts for 80 percent of a typical rocket's development cycle."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "06fff736d30137b8": {
+  "feed": "Technica",
+  "title": "Man's secret use of synthetic testosterone for cows nearly destroyed his heart",
+  "link": "https://arstechnica.com/health/2026/11/mans-secret-use-of-synthetic-testosterone-for-cows-nearly-destroyed-his-heart/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For 11 years, a Massachusetts man had an alarming array of health problems, most notably that his heart kept failing. He landed in the hospital over and over again, needed life support at one point, spent years going to specialists, and underwent a barrage of tests along the way. But through it all, he never revealed a key detail behind his ailments: He was taking powerful, illicit synthetic testosterone derivatives (aka anabolic-androgenic steroids, or AAS)."
+  ],
+  "published_on": "2026-11-12"
  }
 }
