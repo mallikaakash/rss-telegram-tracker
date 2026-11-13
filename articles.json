@@ -104813,5 +104813,197 @@
    "For 11 years, a Massachusetts man had an alarming array of health problems, most notably that his heart kept failing. He landed in the hospital over and over again, needed life support at one point, spent years going to specialists, and underwent a barrage of tests along the way. But through it all, he never revealed a key detail behind his ailments: He was taking powerful, illicit synthetic testosterone derivatives (aka anabolic-androgenic steroids, or AAS)."
   ],
   "published_on": "2026-11-12"
+ },
+ "fcdcf30ed87c5681": {
+  "feed": "Technica",
+  "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+  "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nightmare Eclipse, the pseudonym of a researcher with an ongoing, very public beef with Microsoft, has dropped yet another Windows zero-day. On Tuesday, Nightmare Eclipse disclosed SignDrop, a vulnerability that gives local users full System rights on some versions of Windows. The vulnerability resides in the Common Log File System , which Microsoft describes as a “general-purpose logging service used by software clients running in user-mode or kernel-mode.” By forcing a privileged process such as Windows Defender to open a crafted CLFS container, an attacker with ordinary user rights can abuse the privileged file creation to elevate privileges to System."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "51d2fad240453466": {
+  "feed": "Google DeepMind",
+  "title": "Opening the datasets behind our AI weather models",
+  "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "PARDIG & SatWeave: Foundational Datasets for Earth Science â Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact"
+  ],
+  "published_on": "2026-11-10"
+ },
+ "5bf4951adbe9698d": {
+  "feed": "OpenAI News",
+  "title": "Introducing ChatGPT Wallet",
+  "link": "https://openai.com/index/introducing-chatgpt-wallet",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "8400bdfe1e2afd49": {
+  "feed": "Hugging Face Blog",
+  "title": "XYBench: Helping with the problem behind the question",
+  "link": "https://huggingface.co/blog/allenai/xybench",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "XYBench: Helping with the problem behind the question Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> XYBench: Helping with the problem behind the question Enterprise Article Published November 13, 2026 Upvote 1 Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> Building XYBench Evaluating how an answer helps What the experiments show What this means for evaluation 📄 Paper | 🤗 Data | 💻 Code Truly useful AI assistants need to be able to help users who ask misguided questions—not just users who ask the right question with the right amount of detail."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "cbc1e29c2cbae8a2": {
+  "feed": "Meta Engineering",
+  "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
+  "link": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta’s Reality Labs builds products such as AI glasses . Emulators provide us with a way to scale development and testing without relying on scarce physical hardware. Testing software for non-phone Android devices depends on how closely a virtual device reproduces the software behavior of the physical product. While a lightweight emulator like Goldfish gets you part of the way, differences from the real device can hide bugs until later in development."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "36ea49a5fc6f7736": {
+  "feed": "Jane Street Tech",
+  "title": "Writing a DSL for high performance parallel programming in OxCaml",
+  "link": "https://blog.janestreet.com/writing-a-dsl-for-high-performance-parallel-programming-in-oxcaml/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Jane Street Blog - Writing a DSL for high performance parallel programming in OxCaml Home All Posts Machine Learning Authors Index Jane Street Subscribe to email updates Subscribe to Email Updates Featured Reads Read more Using ASCII waveforms to test hardware designs Read more Finding memory leaks with Memtrace Tags async book c camlp4 code-review comments compiler core hackerschool hg incremental internship interviewing machine-learning ocaml parallel-programming performance ppx real-world-ocaml registers speed ui Get the RSS feed Jane Street Open Source Join Our Team Writing a DSL for high performance parallel programming in OxCaml Nov 06, 2026 | 21 min read Share on Facebook Share on Twitter Share on LinkedIn By: Nicholas Yang The following is part of a series of posts about 2026 summer intern projects—for more, see “What the interns have wrought, special jumbo 2026 edition” We have a lot of performance-critical SIMD code (single-instruction, multiple-data) running on CPUs across the firm."
+  ],
+  "published_on": "2026-11-06"
+ },
+ "5ed3e6f49d19c112": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+  "link": "https://blog.cloudflare.com/spend-management/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Spend controls have been at the top of the list of most requested features from developers building on our developer platform for quite some time now. With more than 10 million developers now building on Cloudflare, this matters more than ever. Although we’ve had usage notifications and budget alerts available to paid plans for a while, this doesn’t solve the problem completely; informing is not the same as controlling."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "a88de49825ff9706": {
+  "feed": "ClickHouse",
+  "title": "SET allow_preview_features = 1: Self-service previews in ClickHouse Cloud",
+  "link": "https://clickhouse.com/blog/self-service-previews-in-clickhouse-cloud",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> SET allow_preview_features = 1: Self-service previews in ClickHouse Cloud | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "1f63ff7f197d9880": {
+  "feed": "Fly.io",
+  "title": "Throwing Out The Phonebook",
+  "link": "https://fly.io/blog/throwing-out-the-phonebook/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There’s really only one hard problem in software engineering: synchronization. OK, maybe two: cache invalidation and synchronization. Synchronization is the harder one though, especially when the thing on the other side is eventually consistent. This year we rebuilt 6PN, the private network between your Fly Machines, and we did it by avoiding the hard thing."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "991bf0e07076c387": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+  "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer fit on one machine. Two NVIDIA DGX Stations... Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer fit on one machine. Two NVIDIA DGX Stations connected over ConnectX-8 RDMA serve one model through a single endpoint, with tensor parallelism splitting the model weights and computation across both GPUs."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "625517f21d455e7b": {
+  "feed": "Technica",
+  "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+  "link": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A global outage taking down a wide range of Microsoft 365 services remains ongoing Friday morning. The outage started midday Thursday, impacting users of Microsoft email, cloud, and AI services. Microsoft has documented the full list of services impacted by the error, while moving early Friday morning to protect customers around the world from losing emails during the extended disruptions."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "40e78db6601d46e6": {
+  "feed": "Hugging Face Blog",
+  "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+  "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem Team Article Published November 13, 2026 Upvote 82 +76 Daniel Bevenius danbev Follow ggml-org Georgi Gerganov ggerganov Follow ggml-org merve merve Follow ggml-org :last-child]:mb-0\"> Releases Semantic version update rules Distribution Development Backend and model coverage Thanks Additional resources llama.cpp makes it possible to run multi-modal LLMs across a wide range of hardware - from consumer-grade local machines to high-end enterprise servers."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "b26bc9eb076e025f": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter",
+  "link": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing... Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing behind natural movement, from everyday actions to complex tasks."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "d7619db8fed18da7": {
+  "feed": "Technica",
+  "title": "It's the end of the world as we know it, per a physicist's 1960 prediction",
+  "link": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As of this morning, Microsoft is still scrambling to restore service following yesterday's global outage, with millions of users unable to access Outlook and other vital tools. It's not the end of the world, but it does seem fitting that this should happen on the day a physicist predicted would be the end of humanity: November 13, 2026. And it falls on a Friday, too."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "109e2cb06f811282": {
+  "feed": "Technica",
+  "title": "Screenless GPS: Slate Auto says, \"Remember the road atlas\"",
+  "link": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Whether it's nostalgia or a sense that technology has gotten a bit too pervasive, there’s no denying that Slate Auto appears to be tuned into the particular moment. The startup has a simple pitch : an affordable electric truck with just the basics , leaving owners to DIY and BYOD for everything else, all for a sub-$25,000 starting price. Among the things Slate does without is an embedded infotainment system."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "eb47d82ddda248fa": {
+  "feed": "Technica",
+  "title": "Scientists warn 1.5°C climate change threshold could arrive by 2029",
+  "link": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/",
+  "date": "2026-11-13",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ANTALYA, Turkey—Amid upbeat green-tech pep talks and notices for happy hours at the annual United Nations COP31 climate change conference on Thursday, two new reports offered a stark reminder of how far the world remains from containing global warming. Climate Action Tracker , a nonprofit group that analyzes climate policies, found that the planet is still on track to warm nearly 5 degrees Fahrenheit by 2100, a rise that would devastate coral reefs, disrupt agriculture and forests and melt most of the world’s ice."
+  ],
+  "published_on": "2026-11-13"
  }
 }
