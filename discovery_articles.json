@@ -7443,5 +7443,71 @@
   "why": "",
   "points": [],
   "published_on": "2026-11-11"
+ },
+ "5890f25a516935f6": {
+  "url": "https://dev.to/badjessab/rebuilding-the-ai-stack-by-hand-part-2-optimizing-the-tokenizer-lim",
+  "title": "Rebuilding the AI Stack by Hand: Optimizing the Tokenizer - DEV Community",
+  "domain": "dev.to",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-13",
+  "tier": "skip",
+  "why": "Covers basic Python optimizations (replacing sorted with a max loop and adding a dictionary lookup) framed as custom tokenizer systems engineering.",
+  "points": [],
+  "published_on": "2026-11-07",
+  "reject_reason": "shallow"
+ },
+ "8ffcabe502c12ae9": {
+  "url": "https://arxiv.org/pdf/2610.25812",
+  "title": "Is it RL or Data? A Controlled Comparison of GRPO and Rejection-Sampling Fine-Tuning",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-13",
+  "tier": "solid_find",
+  "why": "A rigorous, pre-registered empirical study isolating whether GRPO's gains over rejection-sampling fine-tuning stem from RL dynamics or merely implicit prompt difficulty filtering.",
+  "points": [
+   "Compares GRPO and rejection-sampling fine-tuning (RFT) under strictly matched compute budgets, prompts, and a 27-run hyperparameter sweep for RFT.",
+   "Demonstrates that GRPO beats RFT by 10.9 points on curated prompts, and curating prompts actually degrades RFT (-2.7 points), disproving the hypothesis that GRPO's edge is purely passive data filtering.",
+   "Shows that iterated RFT with policy resampling recovers only ~30% (3.2 points) of the performance delta."
+  ],
+  "published_on": "2026-10-19"
+ },
+ "e965a92ad5dbbdba": {
+  "url": "https://arxiv.org/pdf/2610.33451",
+  "title": "A Comprehensive Framework for All Stages of Large-Model Training: From Data and Tokenization, through Pretraining, to Post-Training Alignment",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-13",
+  "tier": "skip",
+  "why": "A broad literature survey compiling 395 existing papers across every stage of LLM training without original empirical data or unexpected findings.",
+  "points": [],
+  "published_on": "2026-10-24",
+  "reject_reason": "shallow"
+ },
+ "f8082caac7631e72": {
+  "url": "https://tobiasrp.github.io/posts/decoding-in-tiles/",
+  "title": "Decoding in Tiles: A Static Megakernel for Llama 3.2 1B on an RTX 3050 | Tobias Rapp | Performance engineering for GPU and AI systems",
+  "domain": "tobiasrp.github.io",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-13",
+  "tier": "hidden_gem",
+  "why": "A detailed, original performance engineering deep-dive on designing a static megakernel to eliminate kernel launch bubbles for batch-1 inference on consumer GPUs.",
+  "points": [
+   "Breaks down runtime overheads for Llama 3.2 1B, showing PyTorch uses 787 kernel launches and llama.cpp uses 213 per token, introducing significant idle bubbles.",
+   "Contrasts the latency and bandwidth bottlenecks of megakernels on an 8 GB RTX 3050 versus datacenter H100/B200 GPUs.",
+   "Details the design of TileInfer, an ahead-of-time planned persistent kernel maximizing memory bandwidth saturation at batch size one."
+  ],
+  "published_on": "2026-10-27"
+ },
+ "dff4fbcec2b331ff": {
+  "url": "https://www.e2enetworks.com/blog/multi-node-megatron-lm-training-slurm-h200",
+  "title": "Multi-Node Megatron-LM Training on Slurm: 49% MFU on 16× H200 | E2E Networks",
+  "domain": "e2enetworks.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-13",
+  "tier": "skip",
+  "why": "A cloud hosting vendor's promotional engineering post detailing standard Megatron-LM configurations on their specific GPU Slurm cluster.",
+  "points": [],
+  "published_on": "2026-10-01",
+  "reject_reason": "marketing"
  }
 }
