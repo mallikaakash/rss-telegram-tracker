@@ -105279,5 +105279,52 @@
    "I love a good Zone 2 ride . There’s nothing like getting on the bike, settling into a groove, and letting the miles (and hours) flow by. But sometimes when I hopped on the Specialized Tarmac SL9 S-Level, Zone 2 would turn into a tempo ride. It was like having a little imp—the stereotype dressed in red with the pitchfork—on my left shoulder whispering into my ear: “Go fast."
   ],
   "published_on": "2026-11-13"
+ },
+ "b04e695359edfc9a": {
+  "tier": "reject",
+  "feed": "Eugene Yan",
+  "title": "A Spark of the Anti-AI Backlash (on Bluesky)",
+  "link": "https://eugeneyan.com/writing/anti",
+  "date": "2026-11-14",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2024-12-08"
+ },
+ "36a3bda3117215c3": {
+  "feed": "Technica",
+  "title": "James Webb telescope finds ice older than the star it orbits",
+  "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Beta Pictoris is a young star, roughly 20 million years old, and located about 64 light-years away from Earth. It is surrounded by a vast disk of dust and rubble where planets are still forming—astronomers have already found three. In a new Science study, a team led by Sarah Betti, an astronomer at the Space Telescope Science Institute in Baltimore, used the James Webb Space Telescope to look for ice in this disk."
+  ],
+  "published_on": "2026-11-14"
+ },
+ "8479f47633fa8f96": {
+  "feed": "Interconnects (Nathan Lambert)",
+  "title": "Open-source AI without Jensen",
+  "link": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The resignation of Nvidia CEO Jensen Huang is a major setback for the US development of an open model ecosystem. Nvidia still has the financial interests in supporting open models, which are to avoid concentration in power among a few customers who would develop their own chips and reduce Nvidia’s profits, but supporting the open ecosystem is a tricky puzzle more than an engineering problem to grind out a solution on."
+  ],
+  "published_on": "2026-11-14"
+ },
+ "c03a709644dfc92e": {
+  "feed": "Technica",
+  "title": "Winemakers are learning that conservation can be good for business",
+  "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "More than 500 vineyards are scattered across the slopes and valleys of South Africa’s Western Cape , one of the world’s most biologically diverse landscapes. The region produces about 90 percent of South Africa’s wine , but winemakers there are increasingly struggling with drought, excessive heat and erratic rainfall. Temperatures in the region have risen 1.5 to 2 times faster than the global average over the past five decades."
+  ],
+  "published_on": "2026-11-14"
  }
 }
