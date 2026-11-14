@@ -7509,5 +7509,72 @@
   "points": [],
   "published_on": "2026-10-01",
   "reject_reason": "marketing"
+ },
+ "09d701311f55b3b5": {
+  "url": "https://arxiv.org/pdf/2609.21594",
+  "title": "HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-14",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-18"
+ },
+ "275b1a093fed1855": {
+  "url": "https://sarojbartaula.com/blogs/i-trained-a-language-model-from-scratch-the-hardest-part-wasn-t-the-transformer",
+  "title": "I Trained a Language Model From Scratch. The Hardest Part Wasn't the Transformer. | Saroj Bartaula",
+  "domain": "sarojbartaula.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-14",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-14"
+ },
+ "bbba070151646c8d": {
+  "url": "https://arxiv.org/pdf/2610.07516",
+  "title": "NCCL M2N: A Layout- and Topology-Aware Collective for Distributed Tensor Resharding",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-14",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-05"
+ },
+ "e6cf81baef1acdfb": {
+  "url": "https://arxiv.org/html/2611.04215v1",
+  "title": "Tokenizer Myths and Where To Find Them",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-14",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "26a170ef5987597d": {
+  "url": "https://arxiv.org/pdf/2610.05978",
+  "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-14",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-05"
+ },
+ "567f0edfcf18406b": {
+  "url": "https://news.lavx.hu/article/runanywhereai-trnrt-an-inference-engine-for-trainium-language-models-2026-11-13",
+  "title": "RunanywhereAI/trnrt: An inference engine for Trainium language models | LavX News",
+  "domain": "news.lavx.hu",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-14",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-13"
  }
 }
