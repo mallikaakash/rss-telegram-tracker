@@ -105173,5 +105173,111 @@
    "How do you think you're going to die? If you go by the current statistics for deaths in the US , it's reasonable to expect that cancer or heart disease will eventually get you. But OpenAI Foundation board member and Alignment Research Center Executive Director Paul Cristiano thinks we should all be worried about another major mortality risk. Speaking at a lecture series this week , Cristiano bluntly told the audience in a Toronto Convention Center, \"I think for most people in this room, the most likely reason they will die is because of an AI accident.\" In the opening lecture of a three-part series , Cristiano outlined his worries about the risk of an impending \"AI takeover.\" He defined that as a situation where goal-pursuing AI systems \"call the shots in the same sense that humans today call the shots and what happens on Earth\" and where any human trying to stop them \"would be as ineffective as if you or me was trying to stop the US military.\" Such a situation would likely lead to mass death and perhaps uninhabitable environments for humans, Cristiano said."
   ],
   "published_on": "2026-11-13"
+ },
+ "91c549d5f212e24d": {
+  "tier": "reject",
+  "feed": "Eugene Yan",
+  "title": "AI Engineer 2026 - Using LLMs to Secure Source Code",
+  "link": "https://eugeneyan.com/speaking/aie-2026",
+  "date": "2026-11-14",
+  "why": null,
+  "points": null,
+  "reject_reason": "stale",
+  "published_on": "2026-06-30"
+ },
+ "46f76adf161f546c": {
+  "feed": "Technica",
+  "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+  "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "STARBASE, Texas—Starship lifted off right on schedule Friday from South Texas, making its 15th test flight in more than three years. The largely successful launch took place in the early evening; as the massive rocket rose into the atmosphere, the Sun sank toward the western horizon. Conditions were ideal for the launch, with the atmospheric winds so calm the rocket’s white plume did not dissipate for many minutes."
+  ],
+  "published_on": "2026-11-14"
+ },
+ "d1318183fe172893": {
+  "feed": "OpenAI News",
+  "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+  "link": "https://openai.com/business/customer-stories/shield",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "a41cf41c3f013527": {
+  "feed": "Simon Willison",
+  "title": "datasette-cluster-map 0.19",
+  "link": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's PG&E , also demonstrating Datasette's recently redesigned facets : Tags: datasette , geospatial , openstreetmap"
+  ],
+  "published_on": "2026-11-13"
+ },
+ "26a46cce7cf42b66": {
+  "feed": "Cursor",
+  "title": "An update on our recent security incident · Cursor",
+  "link": "https://cursor.com/blog/security-incident-update",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "An update on our recent security incident · Cursor Skip to content Cursor Models ↓ Grok Evals Product ↓ Agents Cloud Grok Bot ↗ Mobile Automations CLI Marketplace ↗ Review Enterprise Pricing Resources ↓ Changelog Blog Docs Community Help ↗ Workshops Forum ↗ Careers Models → Product → Enterprise Pricing Resources → Sign in Contact Contact sales Download Blog / company Nov 13, 2026 · company An update on our recent security incident 6 min read Table of Contents ↑ What happened What was not affected What we've done What's next On October 29, we shared that we were investigating a security incident and a malicious, unauthorized copy of Anthropic's Claude Code extension that appeared in the Cursor VS Code extension marketplace."
+  ]
+ },
+ "a3eec27e07e130fe": {
+  "feed": "Technica",
+  "title": "FAA has lifted its third-ever nationwide ground stop",
+  "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Federal Administration lifted its third-ever nationwide ground stop after several hours Friday evening. Domestic flights were cleared to begin taking off at 8:35 pm EST. FAA Transportation Secretary Sean Duffy cautioned that, barring massive system updates, there will be \"more of these\" ahead. \"Today's nationwide ground stop happened because our air traffic control system is operating on DECADES-OLD analog equipment that simply cannot compete with the demands of the 21st century,\" Duffy posted on X ."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "2ff8c47f48f01f5c": {
+  "feed": "Simon Willison",
+  "title": "datasette-leaflet 0.3",
+  "link": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy. datasette-leaflet is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "0d4614944ee44a54": {
+  "feed": "Technica",
+  "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
+  "link": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome to Edition 9.19 of the Rocket Report! Will something historic happen this weekend? No orbital rocket has ever been fully recovered with the intent of reusing all of its components. But that's just what SpaceX is going to try to do with a Starship launch on Friday, and an upper stage landing attempt 22.5 hours later on Saturday afternoon, local time."
+  ],
+  "published_on": "2026-11-13"
+ },
+ "cec77830a78477ca": {
+  "feed": "Technica",
+  "title": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
+  "link": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/",
+  "date": "2026-11-14",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I love a good Zone 2 ride . There’s nothing like getting on the bike, settling into a groove, and letting the miles (and hours) flow by. But sometimes when I hopped on the Specialized Tarmac SL9 S-Level, Zone 2 would turn into a tempo ride. It was like having a little imp—the stereotype dressed in red with the pitchfork—on my left shoulder whispering into my ear: “Go fast."
+  ],
+  "published_on": "2026-11-13"
  }
 }
