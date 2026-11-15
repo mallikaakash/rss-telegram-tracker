@@ -7576,5 +7576,68 @@
   "why": "",
   "points": [],
   "published_on": "2026-11-13"
+ },
+ "74aee8aad3b5c700": {
+  "url": "https://jaehun.me/en/posts/zgcm-1-a-fully-open-and-extremely-efficient-foundation-model-for-math-and-agentic-search/",
+  "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search |\nJaehun's Blog",
+  "domain": "jaehun.me",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-15",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-16"
+ },
+ "18c161c46c249534": {
+  "url": "https://jianyuh.github.io/llm/rl/2026/11/04/Training-On-Outcomes-GRPO-Family-IFStruct.html",
+  "title": "Training on Outcomes: Verifiable Rewards, the GRPO Family, and a 100-Step Recipe for a 350M Model | Gradients & Tides",
+  "domain": "jianyuh.github.io",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-15",
+  "tier": "skip",
+  "why": "This is a brief set of reading notes summarizing publicly available Hugging Face blog posts and well-known frontier model RL techniques.",
+  "points": [],
+  "published_on": "2026-11-04",
+  "reject_reason": "shallow"
+ },
+ "54aeb7d95239f762": {
+  "url": "https://www.talalahmed.dev/articles/kernels-and-memory-llm-inference",
+  "title": "Kernels and Memory in LLM Inference — Talal Ahmed",
+  "domain": "talalahmed.dev",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-15",
+  "tier": "skip",
+  "why": "It is a high-level educational explainer walking through basic GPU concepts and the well-documented evolution of FlashAttention without novel benchmarks or code.",
+  "points": [],
+  "published_on": "2026-10-18",
+  "reject_reason": "shallow"
+ },
+ "4dc348fec15aa682": {
+  "url": "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/",
+  "title": "Training a 1T-Parameter MoE on EU public infrastructure with PyTorch and TorchTitan - PyTorch",
+  "domain": "pytorch.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-15",
+  "tier": "hidden_gem",
+  "why": "Provides rare, concrete engineering details and scaling optimizations for training a massive 1T-parameter MoE on public European supercomputing infrastructure.",
+  "points": [
+   "Pretrained a 951.9B parameter MoE (32.8B active, 384 routed experts top-8, 65k sequence length) using Muon and AdamW.",
+   "Overcame severe interconnect bottlenecks on JUPITER's shared scientific architecture to scale from 90 to ~1,300 tokens/sec per GPU.",
+   "Demonstrated production scaling across 384 NVIDIA GH200 GPUs (96 nodes) using PyTorch and TorchTitan."
+  ],
+  "published_on": "2026-11-12"
+ },
+ "064a94516eacaa6f": {
+  "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard",
+  "title": "ClusterMAX 3.0: The Industry Standard GPU Cloud Rating System Returns",
+  "domain": "newsletter.semianalysis.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-15",
+  "tier": "skip",
+  "why": "A paywalled newsletter teaser that offers high-level promotional commentary rather than accessible, deep technical data.",
+  "points": [],
+  "published_on": "2026-09-23",
+  "reject_reason": "marketing"
  }
 }
