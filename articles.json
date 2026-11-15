@@ -105362,5 +105362,32 @@
    "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this!"
   ],
   "published_on": "2026-11-14"
+ },
+ "f6708dd5d15d9bdc": {
+  "feed": "Technica",
+  "title": "How the world’s fires changed while humanity hit pause",
+  "link": "https://arstechnica.com/science/2026/11/how-the-worlds-fires-changed-while-humanity-hit-pause/",
+  "date": "2026-11-15",
+  "tier": "low_priority",
+  "why": "This is an environmental science article on wildfire frequency during pandemic lockdowns, completely unrelated to ML or backend engineering.",
+  "points": [
+   "A study in Cell Reports Sustainability found that reduced human activity during 2020 lockdowns led to a net drop in global wildfire activity."
+  ],
+  "published_on": "2026-11-15",
+  "reject_reason": "off_topic"
+ },
+ "950ac38f23f2d5a7": {
+  "feed": "Sebastian Raschka (Ahead of AI)",
+  "title": "Understanding Positional Embeddings in Modern LLMs",
+  "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+  "date": "2026-11-15",
+  "tier": "must_read",
+  "why": "Directly targets Priority 1 by breaking down the mechanics, math, and PyTorch implementations of modern positional encodings like RoPE across current LLM architectures.",
+  "points": [
+   "Explores the evolution from learned absolute positional embeddings in early models (like GPT-2) to relative methods like RoPE in modern open LLMs.",
+   "Provides visual walkthroughs, mathematical formulations, and a PyTorch implementation for encoding position information.",
+   "Surveys contemporary 2026 open-weight model architectures to show how recent releases adapt or omit explicit positional encodings."
+  ],
+  "published_on": "2026-11-15"
  }
 }
