@@ -105326,5 +105326,41 @@
    "More than 500 vineyards are scattered across the slopes and valleys of South Africa’s Western Cape , one of the world’s most biologically diverse landscapes. The region produces about 90 percent of South Africa’s wine , but winemakers there are increasingly struggling with drought, excessive heat and erratic rainfall. Temperatures in the region have risen 1.5 to 2 times faster than the global average over the past five decades."
   ],
   "published_on": "2026-11-14"
+ },
+ "ce3d0293b2355a53": {
+  "feed": "Technica",
+  "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
+  "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+  "date": "2026-11-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "STARBASE, Texas —The black and silver ship fell out of the sky, emerging from the cloud deck near the very end of its flight. Incongruously, the rocket flew horizontal until the last moment when three Raptor rocket engines ignited and it swooped into a vertical position. Slowly, gently, haltingly, the Starship upper stage eased its way toward the waiting tower where two arms extended outward, awaiting expectantly."
+  ],
+  "published_on": "2026-11-15"
+ },
+ "2059ff8340bbc5f6": {
+  "feed": "Simon Willison",
+  "title": "datasette-llm 0.1a11",
+  "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+  "date": "2026-11-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model ' { \"model\": \"lmstudio-qwen\", \"model_name\": \"qwen/qwen3.8-27b\", \"api_base\": \"http://localhost:1234/v1\" } ' content.db And you'll get a local server running a Datasette Agent instance powered by your local model!"
+  ],
+  "published_on": "2026-11-14"
+ },
+ "cd67e7c432145cf1": {
+  "feed": "Simon Willison",
+  "title": "datasette-vega 0.7",
+  "link": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+  "date": "2026-11-15",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this!"
+  ],
+  "published_on": "2026-11-14"
  }
 }
