@@ -105389,5 +105389,101 @@
    "Surveys contemporary 2026 open-weight model architectures to show how recent releases adapt or omit explicit positional encodings."
   ],
   "published_on": "2026-11-15"
+ },
+ "2eef4a5b12a19995": {
+  "feed": "Technica",
+  "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
+  "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+  "date": "2026-11-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "United Launch Alliance's Vulcan rocket and 40 Amazon Leo broadband satellites fell back to Earth minutes after liftoff Sunday, a crushing setback that will ripple across all sectors of the US space industry. The Vulcan rocket is on contract to launch roughly half of the US military's national security space missions in the next few years, and Sunday's mission was the first of 38 Vulcan launches booked by Amazon to build out its network of broadband Internet satellites aimed at competing with SpaceX's Starlink."
+  ],
+  "published_on": "2026-11-15"
+ },
+ "87d7014c15ee68a3": {
+  "feed": "OpenAI News",
+  "title": "A step toward defining the Standard Model on a lattice",
+  "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+  "date": "2026-11-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+  ],
+  "published_on": "2026-11-15"
+ },
+ "128a04bf78b6cc3a": {
+  "feed": "Simon Willison",
+  "title": "datasette-maplibre 0.1a0",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+  "date": "2026-11-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view."
+  ],
+  "published_on": "2026-11-15"
+ },
+ "4b0fc5b701ffd77d": {
+  "feed": "OpenAI News",
+  "title": "Our new blog for science",
+  "link": "https://openai.com/index/our-new-blog-for-science",
+  "date": "2026-11-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery."
+  ],
+  "published_on": "2026-11-15"
+ },
+ "67eb98ac1cd8e0ee": {
+  "feed": "Simon Willison",
+  "title": "datasette 1.0a43",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette/",
+  "date": "2026-11-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method."
+  ],
+  "published_on": "2026-11-15"
+ },
+ "3f50af67247cd945": {
+  "feed": "Simon Willison",
+  "title": "datasette 0.65.6",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+  "date": "2026-11-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette"
+  ],
+  "published_on": "2026-11-15"
+ },
+ "968e4ab4d9bb9e07": {
+  "feed": "Simon Willison",
+  "title": "datasette-apps 0.4a0",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+  "date": "2026-11-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use those, plus supported URL schemes are reported back to Datasette Agent so it can help write apps that link to each other."
+  ],
+  "published_on": "2026-11-15"
+ },
+ "cc7b7d65085832de": {
+  "feed": "Simon Willison",
+  "title": "datasette-agent 0.6a0",
+  "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+  "date": "2026-11-16",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries: Tags: datasette-agent , llm , datasette , llms , ai , generative-ai"
+  ],
+  "published_on": "2026-11-15"
  }
 }
