@@ -105996,5 +105996,256 @@
   ],
   "published_on": "2026-11-16",
   "reject_reason": "marketing"
+ },
+ "43f1125fa4c663c5": {
+  "feed": "Technica",
+  "title": "Humanity braces for an alien invasion in 3 Body Problem S2 teaser",
+  "link": "https://arstechnica.com/culture/2026/11/humanity-braces-for-an-alien-invasion-in-3-body-problem-s2-teaser/",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Entertainment news about a sci-fi television show with no technical engineering relevance.",
+  "points": [
+   "Season 2 teaser released for Netflix's 3 Body Problem."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "off_topic"
+ },
+ "14c2512aa2ad3bd6": {
+  "feed": "Microsoft Research",
+  "title": "Can AI help build a healthier future?",
+  "link": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "High-level podcast discussion regarding broad healthcare AI concepts without technical implementation details.",
+  "points": [
+   "General panel discussion on AI in medicine, medical imaging, and biological foundation models."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "shallow"
+ },
+ "549a77347d5e1e5f": {
+  "feed": "OpenAI News",
+  "title": "Introducing GPT-6.2 Astra and Sol",
+  "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "Strategically critical frontier model release announcement affecting the broader LLM ecosystem.",
+  "points": [
+   "OpenAI announced GPT-6.2 Astra and Sol models targeting coding, professional outputs, and computer use.",
+   "Positions models with increased efficiency and lower costs across ChatGPT Work, Codex, and API."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "5ab3ec093f2bd1cf": {
+  "feed": "Simon Willison",
+  "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+  "link": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "Interesting architecture exploration of executing server-side Python apps client-side using WebAssembly and Service Workers.",
+  "points": [
+   "Rewrote Datasette Lite using service workers and Pyodide to run fully in-browser without server backends.",
+   "Supports URL-driven loading of custom SQLite databases, specific package versions, and dynamic plugins."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "0091928bb5b411d9": {
+  "feed": "Netflix TechBlog",
+  "title": "Engineering AI Discover",
+  "link": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4",
+  "date": "2026-11-18",
+  "tier": "must_read",
+  "why": "Detailed architecture deep-dive from Netflix on integrating LLMs with production recommendation systems under strict latency constraints.",
+  "points": [
+   "Introduces an agent harness intelligence layer to plan requests, handle LLM tail latencies, and govern probabilistic outputs.",
+   "Decouples recommendations by treating LLMs as untrusted planners that operate alongside deterministic catalog ranking.",
+   "Optimized for living-room TV constraints where hardware variance is high and responses must feel instantaneous."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "7026f6f7736ae81b": {
+  "feed": "ClickHouse",
+  "title": "Bring your Claude Platform organization to ClickHouse Cloud with linked billing",
+  "link": "https://clickhouse.com/blog/claude-platform-linked-billing",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Cloud SaaS billing integration announcement with no technical or ML relevance.",
+  "points": [
+   "ClickHouse Cloud introduced linked billing for Claude Platform organizations to remove manual API keys."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "marketing"
+ },
+ "d21a29b79316cba4": {
+  "feed": "GitHub Engineering",
+  "title": "Building the Agent Host Protocol for sessions that continue across devices",
+  "link": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+  "date": "2026-11-18",
+  "tier": "must_read",
+  "why": "High-signal system design post from GitHub detailing an open protocol for cross-device, long-running agent session management.",
+  "points": [
+   "Solves agent lifecycle coupling by replacing editor-specific extension harnesses with the open Agent Host Protocol (AHP).",
+   "Uses URI-identified channels with reducer-based state machines to support reconnections and concurrent mutations.",
+   "Maintains strict protocol agnosticism regarding internal agent decision logic to avoid rapid obsolescence."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "0fc9d5d25202daee": {
+  "feed": "Airbnb Engineering",
+  "title": "De-identifying text at scale: How Airbnb protects personal data in AI training",
+  "link": "https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0?source=rss----53c7c27702d5---4",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "Practical production data engineering breakdown on de-identifying unstructured text data before model training.",
+  "points": [
+   "Uses Microsoft Presidio embedded directly as in-process pipeline steps rather than centralized microservices to eliminate bottlenecks.",
+   "Maintains entity consistency across runs using realistic fake replacement values rather than raw masking.",
+   "Governed centrally via privacy architecture policy but deployed modularly across shared ML orchestrators."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "8f2dcd4cb6bed243": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Co-Designing Sparse Attention for Efficient Long-Context Inference",
+  "link": "https://developer.nvidia.com/blog/co-designing-sparse-attention-for-efficient-long-context-inference/",
+  "date": "2026-11-18",
+  "tier": "must_read",
+  "why": "Directly advances core ML systems knowledge by tackling transformer quadratic attention bottlenecks in 100k+ context lengths.",
+  "points": [
+   "Co-designs hardware and sparse attention kernels to eliminate dense attention prefill bottlenecks at 128K+ token contexts.",
+   "Addresses quadratic attention compute costs where attention dominates overall layer execution time during long-context inference."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "89d80c21bb59fe17": {
+  "feed": "Technica",
+  "title": "OpenAI sued by California after admitting to 80 loss-of-control incidents",
+  "link": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Legal and regulatory reporting about OpenAI litigation without engineering takeaways.",
+  "points": [
+   "California AG sued OpenAI over failure to disclose over 80 loss-of-control agent testing incidents."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "off_topic"
+ },
+ "58da9c66b1456ac9": {
+  "feed": "OpenAI News",
+  "title": "Introducing OpenAI for Chile",
+  "link": "https://openai.com/index/introducing-openai-for-chile",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Government partnership announcement with zero technical relevance.",
+  "points": [
+   "OpenAI partnered with the Chilean government for public sector AI training and local startup support."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "marketing"
+ },
+ "07e8b7e7eb50b335": {
+  "feed": "ClickHouse",
+  "title": "ClickHouse forecasting and anomaly detection with time series foundation models",
+  "link": "https://clickhouse.com/blog/clickhouse-time-series-foundation-models",
+  "date": "2026-11-18",
+  "tier": "must_read",
+  "why": "Directly relevant to industrial sensor optimization and anomaly detection workflows using time series foundation models.",
+  "points": [
+   "Replaces per-series classical models (ARIMA) with zero-shot time-series foundation models (TSFMs) running inside ClickHouse.",
+   "Enables out-of-the-box forecasting and anomaly detection on massive metric workloads without dedicated per-series retraining.",
+   "Directly bridges analytical database SQL queries with modern foundation model inference."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "acba478b0fbbbc85": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins",
+  "link": "https://developer.nvidia.com/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Niche HPC quantum integration topic that does not impact distributed ML or backend architectures.",
+  "points": [
+   "Discusses integrating QPUs alongside classical supercomputing clusters via Slurm HRES plugins."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "off_topic"
+ },
+ "1cc34e861f35d556": {
+  "feed": "Technica",
+  "title": "The data is very preliminary, but Vulcan failure may not be due to BE-4 engines",
+  "link": "https://arstechnica.com/features/2026/11/sources-vulcan-launch-anomaly-investigation-is-complex/",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Aerospace failure analysis with no relevance to software, ML, or distributed systems.",
+  "points": [
+   "ULA confirmed Vulcan booster underperformance during launch failure while upper stages performed normally."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "off_topic"
+ },
+ "0604bc2b50fc0c3b": {
+  "feed": "OpenAI News",
+  "title": "Astra for Law leads in legal intelligence",
+  "link": "https://openai.com/index/astra-law-6-2",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Marketing announcement for a domain-specific enterprise legal model wrapper.",
+  "points": [
+   "OpenAI released Astra for Law to ChatGPT Enterprise customers citing legal benchmark performance."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "marketing"
+ },
+ "a513c3b2bdeaedaa": {
+  "feed": "Technica",
+  "title": "Google makes it easier to use Gemini without training AI on your data",
+  "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Consumer privacy UI setting update with no backend architecture or ML infrastructure depth.",
+  "points": [
+   "Google added separate UI toggles in Gemini to detach chat history retention from model training data collection."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "shallow"
+ },
+ "3899b6e8ee3cc1f1": {
+  "feed": "OpenAI News",
+  "title": "At Holiday Extras, dots get to work before anyone asks",
+  "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Enterprise marketing customer case study.",
+  "points": [
+   "Holiday Extras implemented OpenAI internal bots to automate status updates and meeting summaries."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "marketing"
+ },
+ "88b9d79fac3cae3f": {
+  "feed": "Technica",
+  "title": "House Democrats promise a US return to global climate talks",
+  "link": "https://arstechnica.com/tech-policy/2026/11/house-democrats-promise-a-us-return-to-global-climate-talks/",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Political news covering congressional statements at a climate conference.",
+  "points": [
+   "US House Democrats pledged renewed international climate commitments at COP31."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "off_topic"
+ },
+ "a045ec708b22e25e": {
+  "feed": "OpenAI News",
+  "title": "ChatGPT Ads increases its market presence in 44 countries",
+  "link": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+  "date": "2026-11-18",
+  "tier": "low_priority",
+  "why": "Advertising business distribution and reseller announcement.",
+  "points": [
+   "Aleph named exclusive reseller for ChatGPT Ads across 44 international markets."
+  ],
+  "published_on": "2026-11-12",
+  "reject_reason": "marketing"
  }
 }
