@@ -105760,5 +105760,241 @@
    "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems."
   ],
   "published_on": "2026-11-16"
+ },
+ "c9bdcaf265096e22": {
+  "feed": "Technica",
+  "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+  "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "General tech business gossip about a robotics startup missing payroll, offering no technical value.",
+  "points": [
+   "Foundation Future Industries missed payroll and faces collapse amid allegations of CEO fund misappropriation."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "off_topic"
+ },
+ "590cb0b9c5dd23f2": {
+  "feed": "OpenAI News",
+  "title": "Strengthening NATO and allied cyber defenses with AI",
+  "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "High-level corporate partnership announcement lacking architectural or implementation details.",
+  "points": [
+   "OpenAI announced a partnership with NATO to deploy AI tools for cyber defense and vulnerability testing."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "marketing"
+ },
+ "39e8cf4960718900": {
+  "feed": "Together AI",
+  "title": "Last year we built megakernels. This year we deleted them: The road to Together Compiler",
+  "link": "https://www.together.ai/blog/road-to-together-compiler",
+  "date": "2026-11-17",
+  "tier": "must_read",
+  "why": "Directly tackles LLM inference optimization, detailing why Together AI abandoned hand-crafted megakernels in favor of an automated inference compiler.",
+  "points": [
+   "Explains the transition from bespoke, high-maintenance megakernels to a compiler-driven approach for serving LLMs.",
+   "Addresses hardware adaptability across new GPU generations (e.g., B200) without requiring custom CUDA rewrites for every model update.",
+   "Introduces 'Polymorphic Inference' to optimize open-weights models dynamically at runtime."
+  ],
+  "published_on": "2026-11-16"
+ },
+ "ffe4b9c88a23c6ca": {
+  "feed": "MIT News (AI)",
+  "title": "Q&A: Why building math muscles remains important in the AI era",
+  "link": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "A broad Q&A on mathematics pedagogy and college education rather than ML systems, architectures, or training.",
+  "points": [
+   "MIT professor John Urschel discusses teaching quantitative reasoning and his experience using AI to assist with matrix proofs."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "off_topic"
+ },
+ "53b21da3b833c962": {
+  "feed": "Simon Willison",
+  "title": "Quoting Go Proverbs",
+  "link": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "A one-line blog post quoting a standard Go proverb without any technical commentary.",
+  "points": [
+   "Quotes the Go proverb stating that minimal code duplication is preferable to adding third-party dependencies."
+  ],
+  "published_on": "2026-11-17",
+  "reject_reason": "shallow"
+ },
+ "866f8168d56b5df4": {
+  "feed": "Swiggy Bytes",
+  "title": "Migrating Swiggy Partner App’s Deep Link Engine at Scale",
+  "link": "https://medium.com/swiggy-bytes/migrating-swiggy-partner-apps-deep-link-engine-at-scale-37e3bf1003a6?source=rss----9556560f659---4",
+  "date": "2026-11-17",
+  "tier": "must_read",
+  "why": "A stellar real-world architecture deep-dive from Swiggy detailing how they swapped a core routing SDK at scale without breaking active URLs.",
+  "points": [
+   "Migrated app-link handling across millions of live URLs by exploiting OS domain verification and HAProxy edge rewrites.",
+   "Decoupled URL minting via dual-writing and feature flags, avoiding secondary app store releases.",
+   "Outlines explicit failure modes where broken domain association files silently degrade app deep links to browser web pages."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "56243f8618f9316d": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Accelerate Molecular Dynamics Simulations with Accurate, Flexible Primitives Using NVIDIA cuPotential",
+  "link": "https://developer.nvidia.com/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/",
+  "date": "2026-11-17",
+  "tier": "worth_a_skim",
+  "why": "Covers low-level GPU kernel modularity and hardware portability, useful for engineers building custom high-performance CUDA workloads.",
+  "points": [
+   "NVIDIA launched cuPotential to provide modular, optimized CUDA primitives for computing pairwise atomic interactions.",
+   "Focuses on abstracting hardware variations to maintain peak GPU compute efficiency across evolving architectures."
+  ],
+  "published_on": "2026-11-16"
+ },
+ "948b78f962378e67": {
+  "feed": "Technica",
+  "title": "Three small failures combined to take down Microsoft 365",
+  "link": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
+  "date": "2026-11-17",
+  "tier": "worth_a_skim",
+  "why": "A great reliability post-mortem illustrating how dormant gateway bugs and subtle capacity changes compound into massive distributed outages.",
+  "points": [
+   "A 24-hour global Microsoft 365 outage was triggered by a dormant edge gateway bug released in July colliding with traffic shifts and reduced capacity.",
+   "Demonstrates how latent bugs in routing infrastructure can remain hidden until unexceptional operational changes expose them."
+  ],
+  "published_on": "2026-11-16"
+ },
+ "f054a54f8228cfac": {
+  "feed": "OpenAI News",
+  "title": "How Revolut raises ambition without lowering the bar",
+  "link": "https://openai.com/business/customer-stories/revolut",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "Standard enterprise customer promotional case study with no technical or ML infrastructure depth.",
+  "points": [
+   "Revolut reports 30–60% faster developer task execution using OpenAI models for software development and compliance."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "marketing"
+ },
+ "b9d21ce5fcc559c0": {
+  "feed": "Together AI",
+  "title": "Making open models work for long-horizon agentic workloads",
+  "link": "https://www.together.ai/blog/making-open-models-work-for-long-horizon-agentic-workloads",
+  "date": "2026-11-17",
+  "tier": "worth_a_skim",
+  "why": "Addresses post-training and harness design needed to keep open-source language models coherent during long-horizon agentic loops.",
+  "points": [
+   "Examines failure modes in open models during long-context, multi-step tool-calling workflows.",
+   "Highlights post-training and inference harness enhancements to maintain state consistency across extended execution paths."
+  ],
+  "published_on": "2026-11-16"
+ },
+ "1ac3744caa9c0983": {
+  "feed": "MIT News (AI)",
+  "title": "Learning the language of machine learning",
+  "link": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+  "date": "2026-11-17",
+  "tier": "worth_a_skim",
+  "why": "Explores an alternative to mechanical interpretability by training LLMs to explain their internal representations in natural language.",
+  "points": [
+   "Investigates methods for models to communicate their learned internal representations directly rather than relying solely on probing weights.",
+   "Aims to bridge natural language semantics with latent neural representations to make debugging complex models safer."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "3ae3a490dc724670": {
+  "feed": "Simon Willison",
+  "title": "llm 0.37.3",
+  "link": "https://simonwillison.net/2026/Nov/16/llm/",
+  "date": "2026-11-17",
+  "tier": "worth_a_skim",
+  "why": "Highlights an unexpected breaking behavior in SQLite 3.54.1 that affects nested JSON construction in backend data stores.",
+  "points": [
+   "SQLite 3.54.1 treats subquery json_array outputs as SQL text rather than native JSON, altering json_object output formats.",
+   "Requires explicitly wrapping subqueries with json(...) to ensure correct serialization in database logging pipelines."
+  ],
+  "published_on": "2026-11-16"
+ },
+ "1a436479b568fcdc": {
+  "feed": "Technica",
+  "title": "Hyperscale data centers use 2% of US electricity",
+  "link": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "High-level macroeconomic report on data center power usage, devoid of backend or systems engineering takeaways.",
+  "points": [
+   "A study of 403 US hyperscale facilities found they account for roughly 2% of total national electricity consumption."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "off_topic"
+ },
+ "cfcc7acb02e9ca79": {
+  "feed": "OpenAI News",
+  "title": "More ways to move care forward with ChatGPT for Healthcare",
+  "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "Product marketing announcement for healthcare-specific ChatGPT features.",
+  "points": [
+   "OpenAI announced ChatGPT for Healthcare plugins and computer-use agents for clinical workflows."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "marketing"
+ },
+ "84f741940fbdaff2": {
+  "feed": "Technica",
+  "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+  "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "Corporate securities litigation news with zero relevance to software engineering or machine learning.",
+  "points": [
+   "Shareholders filed a class-action lawsuit against Intel executives following a 28.6% single-day stock decline."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "off_topic"
+ },
+ "b0ded74e06b06613": {
+  "feed": "OpenAI News",
+  "title": "Advancing computer-use agents for healthcare teams",
+  "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "Empty post stub without any substantive content.",
+  "points": [
+   "Stub announcement regarding OpenAI computer-use agents for medical teams."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "shallow"
+ },
+ "44692743b794c872": {
+  "feed": "Technica",
+  "title": "Comcast's \"fiber-powered Wi-Fi\" is just cable, AT&T says in false advertising case",
+  "link": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "Broadband ISP false advertising dispute with no engineering relevance.",
+  "points": [
+   "AT&T sued Comcast over marketing hybrid fiber-coaxial cable connections as 'fiber-powered'."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "off_topic"
+ },
+ "e3915f7e4cf071c4": {
+  "feed": "OpenAI News",
+  "title": "The King’s Trust and OpenAI launch £1m partnership",
+  "link": "https://openai.com/index/the-kings-trust-and-openai",
+  "date": "2026-11-17",
+  "tier": "low_priority",
+  "why": "Philanthropic partnership PR lacking technical substance.",
+  "points": [
+   "OpenAI and The King's Trust announced a £1M partnership to deliver digital AI skills training across the UK."
+  ],
+  "published_on": "2026-11-16",
+  "reject_reason": "marketing"
  }
 }
