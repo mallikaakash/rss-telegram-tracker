@@ -7639,5 +7639,39 @@
   "points": [],
   "published_on": "2026-09-23",
   "reject_reason": "marketing"
+ },
+ "31a0abb337eb0a4b": {
+  "url": "https://arxiv.org/html/2507.21931",
+  "title": "Post-Training Large Language Models viaReinforcement Learning from Self-Feedback",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-17",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-11-05"
+ },
+ "31ee598164b0af74": {
+  "url": "https://vincentzed.com/writing/moe-router-gemm",
+  "title": "How an MoE Model Picks Its Experts During LLM Inference — Vincent Zhong",
+  "domain": "vincentzed.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-17",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-11"
+ },
+ "05351b90d843d0a5": {
+  "url": "https://ops.jiunotes.top/en/postmortems/vllm-oom-restart",
+  "title": "LLM Inference OOM Postmortem: vLLM GPU Memory Leak + Over-subscribed Concurrency Caused Repeated Restarts - ops.jiunotes.top",
+  "domain": "ops.jiunotes.top",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-17",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-02"
  }
 }
