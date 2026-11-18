@@ -106415,5 +106415,305 @@
    "On Monday, large trucks began circling the streets of Washington, DC, carrying billboards urging Congress to investigate the Trump administration’s ties with Nvidia’s disgraced CEO Jensen Huang. “Jensen was in bed with a spy from China,” the billboards created by the Tech Oversight Project (TOP) alleged. “Trump was in bed with Jensen.” TOP is a nonprofit that describes itself as “dedicated to reining in Big Tech.” Currently, Trump is supporting a campaign to bring back Huang as Nvidia’s CEO—despite many Republicans calling it a “ horrible idea."
   ],
   "published_on": "2026-11-17"
+ },
+ "cb39ce49d008d74a": {
+  "feed": "Technica",
+  "title": "Will Wright's next simulation will use AI to mine content from your memories",
+  "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The computer gaming world hasn't heard much from Will Wright ( SimCity , The Sims ) since the underwhelming release of Spore in 2008 and Wright's subsequent departure from Maxis owner EA . Now, well over 15 years later, Wright is starting to promote his next digital simulation, which will use generative AI technology to craft a game-like experience from players' memories."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "652211f5c064d475": {
+  "feed": "Google DeepMind",
+  "title": "Genie 4 is now available",
+  "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Project Genie update featuring Genie 4 Skip to main content Genie 4 is now available Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Genie 4 is now available Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (English) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Models & research Google DeepMind Genie 4 is now available Nov 18, 2026 | x.com Facebook LinkedIn Mail Copy link Explore a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4, the Project Genie agent, and a community gallery."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "53f2a14376dda94d": {
+  "feed": "OpenAI News",
+  "title": "Inside the Codex sandbox",
+  "link": "https://openai.com/index/inside-the-codex-sandbox",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "bf1424b145e4fc73": {
+  "feed": "Hugging Face Blog",
+  "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+  "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Time-Series Models in the Streamhouse: A New Frontier and Use Cases Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Time-Series Models in the Streamhouse: A New Frontier and Use Cases Enterprise Article Published November 18, 2026 Upvote 17 +11 Nicholas Fuller nfuller Follow ibm-research Sean Falconer thefalc Follow ibm-research Ayhan Sebin ayhansebin Follow ibm-research Pankaj Dayama pankajdayama Follow ibm-research Roman Vaculin vaculin Follow ibm-research Bilge Zeren Aksu bzeren Follow ibm-research Julian Payne Pyjamacardinal Follow ibm-research Mountu Jinwala mjinwala Follow ibm-research Wesley M."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "628eed619e2bb71f": {
+  "feed": "Simon Willison",
+  "title": "Quoting Daniel Stenberg",
+  "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "79958d7a8558c384": {
+  "feed": "Meta Engineering",
+  "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
+  "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Our previous post in this series introduced the Ranking Engineer Agent (REA) , an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models. Now, we’re sharing how we propagate ranking model improvements like architectural advancements and training optimizations efficiently across a large and diverse fleet of ads ranking models."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "1a154e0d9508156f": {
+  "feed": "Modal Blog",
+  "title": "Building new research tools for Maya epigraphy on Modal",
+  "link": "https://modal.com/blog/scaling-intelligence-asya",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Building new research tools for Maya epigraphy on Modal Skip to content A new frontier for open-weight intelligence: Kimi K3.1 Pro is now available on Modal. A new frontier for open-weight intelligence: Kimi K3.1 Pro is now available on Modal. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Product Resources Customers Pricing Docs Log in Sign up Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Model APIs Access the latest open weight models, optimized for production performance and security Featured models Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Product Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Model APIs Access the latest open weight models, optimized for production performance and security Featured models Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Resources Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up Blog posts Company November 18, 2026 Building new research tools for Maya epigraphy on Modal Peri Langlois Member of Marketing Staff Miguel Novelo grew up surrounded by Maya glyphs carved into stone across Mexico's YucatÃ¡n peninsula, printed in books, and painted on ceramics."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "5d959dd272a316cf": {
+  "feed": "Cloudflare Blog",
+  "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+  "link": "https://blog.cloudflare.com/java4shell-waf-protection/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On November 17, 2026, the security research company Calif disclosed Java4Shell (CVE-2026-114938) , a memory-corruption vulnerability in the Base64 decoder of OpenJDK, the most widely used Java runtime. Under the Common Vulnerability Scoring System (CVSS) 4.0, it scores 9.2 out of 10 (Critical). The flaw affects Java. OpenJDK published a security advisory and Oracle released patched builds in its November 2026 Critical Patch Update the same day, at 21:00 UTC."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "9b84720c7b5ecf6e": {
+  "feed": "ClickHouse",
+  "title": "The day the sky emptied: rendering the FAA outage with ClickHouse FORMAT PNG",
+  "link": "https://clickhouse.com/blog/faa-outage-clickhouse-format-png",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> The day the sky emptied: rendering the FAA outage with ClickHouse FORMAT PNG | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "9815115dbf947fc6": {
+  "feed": "Ramp",
+  "title": "Building LLM Judges to Judge LLMs",
+  "link": "https://builders.ramp.com/post/building-llm-judges-to-judge-llms",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why Ramp SWE-Bench replaced test-based grading with LLM judges, and how separating evidence from judgment made those judges more consistent."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "26964f9b09a6325d": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos",
+  "link": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is... World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is costly and time-consuming. Turning raw data into training-ready datasets adds complexity, particularly when using disconnected tools and manual processes for curation, labeling, generation, and evaluation."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "0acf333306e0e0ba": {
+  "feed": "Technica",
+  "title": "It shouldn’t be this easy to pedal 25 mph: Specialized’s Turbo Vado 3 Evo",
+  "link": "https://arstechnica.com/gadgets/2026/11/it-shouldnt-be-this-easy-to-pedal-25-mph-specializeds-turbo-vado-3-evo/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "I’ve had only one experience of pedaling an e-bike after it ran out of juice, but it was enough to make checking the battery display an anxiety-driven habit: “Can I afford to use the highest assist level up this hill? Should I switch to eco mode to preserve power and make sure I have enough to get home with the bike lights on?” These aren’t fun questions to have rattling around in your head while riding home in the dark."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "e683d40fba103b5f": {
+  "feed": "OpenAI News",
+  "title": "The Silent Consensus",
+  "link": "https://openai.com/index/the-silent-consensus",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "af1852b4c46dc30e": {
+  "feed": "Hugging Face Blog",
+  "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+  "link": "https://huggingface.co/blog/moe-expert-streaming",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> 180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers Published November 18, 2026 Update on GitHub Upvote 2 Tarek Ziadé tarekziade Follow :last-child]:mb-0\"> experts_offload</code>\",\"children\":[],\"isValid\":true,\"title\":\"<code>experts_offload</code>\"},{\"id\":\"running-121-gb-of-experts-on-a-32-gb-mac\",\"label\":\"Running 121 GB of experts on a 32 GB Mac\",\"children\":[],\"isValid\":true,\"title\":\"Running 121 GB of experts on a 32 GB Mac\"}],\"isValid\":true,\"title\":\"Making Qwen3.8-Flash-Next work on my 32 GB Mac with Transformers\"},{\"id\":\"closing-the-gap\",\"label\":\"Closing the gap\",\"children\":[],\"isValid\":true,\"title\":\"Closing the gap\"},{\"id\":\"conclusion\",\"label\":\"Conclusion\",\"children\":[],\"isValid\":true,\"title\":\"Conclusion\"}],\"classNames\":\"not-prose hidden lg:block\"}\"> What is Strata?"
+  ],
+  "published_on": "2026-11-18"
+ },
+ "265c410e16814a52": {
+  "feed": "Simon Willison",
+  "title": "The PSF end-of-year fundraiser",
+  "link": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider donating this year! The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (including running PyCon US every year), and employs a small and excellent staff team to keep everything running."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "37ebeb1e93d7bb20": {
+  "feed": "Meta Engineering",
+  "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
+  "link": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model space, creating a rising tide that lifts all the boats. At Meta, we built a template-driven approach that standardizes model design into a small set of reusable and composable building blocks, turning model iteration from a per-model problem into a shared systems problem."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "8f07b192c6099cc2": {
+  "feed": "ClickHouse",
+  "title": "Trunk cuts observability costs by up to 95% and reclaims 20 engineering hours a week with ClickHouse Observability",
+  "link": "https://clickhouse.com/blog/trunk-clickstack-observability",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Trunk cuts observability costs by up to 95% and reclaims 20 engineering hours a week with ClickHouse Observability | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "e31e93c5654b6ab5": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Tackling GPU Bottlenecks in Plane-Wave DFT with K-Point Batching and Mixed Precision",
+  "link": "https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Training a next-generation machine learning interatomic potential (MLIP) requires ground truth: tens to hundreds of millions of density functional theory (DFT)... Training a next-generation machine learning interatomic potential (MLIP) requires ground truth: tens to hundreds of millions of density functional theory (DFT) calculations of energies, forces, and stresses across diverse structures and chemistries."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "db952f9133244b7f": {
+  "feed": "Technica",
+  "title": "Vulcan failure caused by inadequate fuel supply to engines, ULA says",
+  "link": "https://arstechnica.com/space/2026/11/vulcan-failure-caused-by-inadequate-fuel-supply-to-engines-ula-says/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "United Launch Alliance said Wednesday that the failure of its Vulcan rocket during a launch on Sunday was caused by inadequate fuel supply. \"ULA has completed an initial integrated review of flight data from the Leo 1 launch anomaly that occurred last Sunday,\" the company said in a statement . \"While work remains to determine cause, preliminary indications are that the low booster thrust was the result of inadequate fuel supply from the vehicle to the BE-4 engines, not from the performance of the engines.\" The new information released by ULA confirms reporting from Ars Technica on Tuesday that the rocket's failure was not due to the performance of the vehicle's main engines, which are provided by Blue Origin."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "c7d3ecb006439a13": {
+  "feed": "OpenAI News",
+  "title": "Advancing chip design with OpenAI models",
+  "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "679cee5ea1466f1f": {
+  "feed": "Hugging Face Blog",
+  "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+  "link": "https://huggingface.co/blog/rumble-2-flash",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Rumble-2-Flash: an open 0.5B speech model for 40+ languages Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Rumble-2-Flash: an open 0.5B speech model for 40+ languages Published November 18, 2026 Update on GitHub Upvote 8 +2 Reson8 reson8-thomas Follow Reson8 Mark 't Hart MarktHart Follow Reson8 Eustache Le Bihan eustlb Follow Eric Bezzam bezzam Follow :last-child]:mb-0\"> Quickstart How it's built Results Accuracy for its size Speed Real phone calls Try it Today we're open sourcing Rumble-2-Flash under the Apache 2.0 license."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "22da63961c8eecab": {
+  "feed": "ClickHouse",
+  "title": "More load is faster: Tuning Postgres read replicas",
+  "link": "https://clickhouse.com/blog/tuning-postgres-read-replicas",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> More load is faster: Tuning Postgres read replicas | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-17"
+ },
+ "df7476c00cb8e7d7": {
+  "feed": "Technica",
+  "title": "Waymo has stopped its robotaxis from driving on the freeway—here’s why",
+  "link": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Waymo is currently restricting its fleet of robotaxis to surface streets after getting into hot water with California over its cars' driving behavior on highways. Specifically, the software tends to drive into construction zones at speed. As first reported by the San Francisco Business Times , this behavior actually drew the ire of California’s DMV earlier this month, which ordered Waymo to stop driving on Californian highways immediately and until it can convince the DMV that its cars no longer “pose an imminent hazard to public safety.” This is not Waymo’s first run-in with this problem."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "6cab9c8cd38347e3": {
+  "feed": "OpenAI News",
+  "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+  "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "198345eef087eeb8": {
+  "feed": "Technica",
+  "title": "Tesla’s $30,000 Cybercab comes with a $299 monthly catch",
+  "link": "https://arstechnica.com/cars/2026/11/tesla-will-sell-you-a-cybercab-for-30000-then-charge-299-a-month-to-use-it/",
+  "date": "2026-11-18",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "There is always a catch. Or in the case of Tesla ’s self-driving Cybercab , several. Last Friday night, Tesla said it had invited “select customers” to purchase their very own Cybercabs. The two-seat, gold vehicle is unlike any other on the market: It lacks a steering wheel and brake pedals, and is primarily driven by software. (Other autonomous vehicle companies, including Alphabet's Waymo and Amazon’s Zoox , offer self-driving rides on ride-hail networks , but don’t let people buy their cars.) Tesla’s \" limited release ” will supposedly offer some people (unclear how many) the opportunity to pay $29,900 to take delivery in December."
+  ],
+  "published_on": "2026-11-18"
  }
 }
