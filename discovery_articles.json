@@ -7673,5 +7673,160 @@
   "why": "",
   "points": [],
   "published_on": "2026-11-02"
+ },
+ "75ffb54ccb458436": {
+  "url": "https://arxiv.org/pdf/2609.34334",
+  "title": "HOCCL: Offloading Collective Communication from GPU Cores to Accelerate Distributed Training",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-28"
+ },
+ "d09a9c33ad3a888b": {
+  "url": "https://training.farm/en/blog/puro/",
+  "title": "Puro-2B: How Can a Poor Lab Pretrain a Model from Scratch? · Training Farm",
+  "domain": "training.farm",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-18"
+ },
+ "52b0271654e22aa8": {
+  "url": "https://gavenma.github.io/publications/paper21/",
+  "title": "Understanding the Weight Averaging Mechanism in LLM Training for Post-Training Quantization - Ziye Ma",
+  "domain": "gavenma.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-04"
+ },
+ "9012f7f85ce1e5af": {
+  "url": "https://arxiv.org/abs/2610.25812v1",
+  "title": "[2610.25812v1] Is it RL or Data? A Controlled Comparison of GRPO and Rejection-Sampling Fine-Tuning",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-19"
+ },
+ "719e5e663d870b93": {
+  "url": "https://vlasenkoalexey.github.io/2026/11/rl-primer-rlhf-ppo-grpo-dpo/",
+  "title": "The RL Primer You'll Finally Understand: RLHF, PPO, GRPO, DPO | Aleksey Vlasenko",
+  "domain": "vlasenkoalexey.github.io",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-15"
+ },
+ "770f69f839ffc936": {
+  "url": "https://medium.com/ai-that-ships/llm-inference-after-training-prefill-decode-kv-cache-97ef62a05b4b",
+  "title": "LLM Inference After Training: Prefill, Decode, KV Cache | by Karan Shingde | AI That Ships | Sep, 2026 | Medium",
+  "domain": "medium.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-23"
+ },
+ "78ef7e8e8a47a1f6": {
+  "url": "https://arxiv.org/abs/2610.12815",
+  "title": "[2610.12815] Deploying RDMA for Distributed Inference and Training At Scale",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-08"
+ },
+ "4a2f0f86fb6335b0": {
+  "url": "https://arxiv.org/abs/2611.04215v1",
+  "title": "[2611.04215v1] Tokenizer Myths and Where To Find Them",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-03"
+ },
+ "056fafd112193382": {
+  "url": "https://arxiv.org/abs/2610.05978",
+  "title": "[2610.05978] Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-05"
+ },
+ "7003e77ab3350cfb": {
+  "url": "https://arxiv.org/abs/2610.21679",
+  "title": "[2610.21679] No Single Tokenizer Feature Reliably Predicts Downstream Language Model Performance",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-15"
+ },
+ "e835506899994237": {
+  "url": "https://github.devotd.net/en/posts/johnfink8-sfnx/",
+  "title": "johnfink8/sfnx — CUDA inference engine for three PCIe V100s · Devotd Github",
+  "domain": "github.devotd.net",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-07"
+ },
+ "149276a789c65fd3": {
+  "url": "https://llm-d.ai/blog/llm-d-v1.0-state-of-the-art-inference-ready-for-day-2",
+  "title": "llm-d v1.0: State-of-the-art inference, ready for Day 2 | llm-d",
+  "domain": "llm-d.ai",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-20"
+ },
+ "7cdec2046bd5a9e5": {
+  "url": "https://thakicloud.com/tech-blog/en/llmops/nvidia-flare-local-inference/",
+  "title": "NVIDIA Flare: The Local Inference Server Where Rust Does the Serving | Thaki Cloud Tech Blog",
+  "domain": "thakicloud.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-21"
+ },
+ "39d667c1b39c23e8": {
+  "url": "https://blog.vertexcover.io/fine-tuning-235b-moe-four-gpus",
+  "title": "We fine-tuned a 235B model on four GPUs. Then we didn't need it. | Blog - Vertexcover",
+  "domain": "blog.vertexcover.io",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-18",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-16"
  }
 }
