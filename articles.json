@@ -106715,5 +106715,243 @@
    "There is always a catch. Or in the case of Tesla ’s self-driving Cybercab , several. Last Friday night, Tesla said it had invited “select customers” to purchase their very own Cybercabs. The two-seat, gold vehicle is unlike any other on the market: It lacks a steering wheel and brake pedals, and is primarily driven by software. (Other autonomous vehicle companies, including Alphabet's Waymo and Amazon’s Zoox , offer self-driving rides on ride-hail networks , but don’t let people buy their cars.) Tesla’s \" limited release ” will supposedly offer some people (unclear how many) the opportunity to pay $29,900 to take delivery in December."
   ],
   "published_on": "2026-11-18"
+ },
+ "37938fc8163d31b7": {
+  "feed": "Technica",
+  "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
+  "link": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A Senate committee chaired by Ted Cruz (R-Texas) voted today to approve a Federal Communications Commission nominee, despite accusations that the nominee gave false testimony about her work as a legal advisor for FCC Chairman Brendan Carr. Democrats attempted to prevent a quorum by not showing up, but Cruz proceeded with a Republican-only vote. All 15 Republicans on the Senate Commerce Committee voted to approve Trump nominee Danielle Thumann, while the committee's 13 Democrats were absent."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "0c3c8b23c6caec3f": {
+  "feed": "Google DeepMind",
+  "title": "Introducing Gemini 4 Neon",
+  "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Gemini 4 Neon Skip to main content Introducing Gemini 4 Neon Innovation & AI Products & platforms Company news Feed Newsletter Back Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Back Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Back Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Innovation & AI Innovation & AI See all in Innovation & AI Models & Research Google DeepMind Google Research Google Labs Gemini models Quantum computing See all Products Developer tools Gemini app Gemini Notebook See all Infrastructure & cloud Global network Google Cloud See all Technology Safety & Security Health See all Learn more: Google DeepMind blog Google Research blog Google Developers blog Google Cloud blog Products & platforms Products & platforms See all in Products & platforms Products Search Maps Chrome Google Health Google Workspace Learning & Education Shopping See all Platforms Android Google Play Wear OS See all Devices Pixel Google Nest Fitbit Chromebook Googlebook See all Learn more: Google Ads & Commerce blog Waze blog Company news Company news See all in Company news Outreach & initiatives Creating opportunity Safety & security Google.org Public policy Sustainability Health See all Leadership Sundar Pichai, CEO More authors See all Inside Google Around the globe Life at Google See all Learn more: Google Security blog Feed Introducing Gemini 4 Neon Share x.com Facebook LinkedIn Mail Copy link [] Preferences Global (English) Africa (English) Australia (English) Brasil (Português) Canada (English) Canada (Français) Česko (Čeština) Deutschland (Deutsch) España (Español) France (Français) Greece (Ελληνικά) India (English) Indonesia (Bahasa Indonesia) Ireland (English) Italia (Italiano) 日本 (日本語) 대한민국 (한국어) Latinoamérica (Español) Malaysia (English) الشرق الأوسط وشمال أفريقيا (اللغة العربية) MENA (English) Nederlands (Nederland) New Zealand (English) Polska (Polski) Portugal (Português) România (Română) Sverige (Svenska) ประเทศไทย (ไทย) Türkiye (Türkçe) 台灣 (中文) Links Images RSS feed x.com Facebook LinkedIn Mail Copy link Newsletter Breadcrumb Home Innovation & AI Models & research Gemini Models Introducing Gemini 4 Neon Nov 18, 2026 | x.com Facebook LinkedIn Mail Copy link Bringing frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "9fa731b0ef6c1da9": {
+  "feed": "OpenAI News",
+  "title": "Research acceleration: The jagged frontier",
+  "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "f689168723dc030d": {
+  "feed": "Hugging Face Blog",
+  "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+  "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency Team Article Published November 18, 2026 Upvote 10 +4 Jason Chen jzsc Follow RadixArk :last-child]:mb-0\"> Run DaisyRose-27B Benchmark results High-quality training data Efficient training backend Robust sandbox service Try the model or train your own Today we are releasing DaisyRose-27B , RadixArk’s first model, built on Qwen3.8-27B and trained with reinforcement learning using Miles ."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "62626f8cbcfd5bbe": {
+  "feed": "MIT News (AI)",
+  "title": "This featherweight, flying robot carries its own sensors and computers",
+  "link": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over the past decade, MIT researchers have developed aerial microrobots with bumblebee-like speed, agility, and durability, for tasks like precision agriculture or search-and-rescue. But these featherweight microrobots couldn’t carry the electronics needed for navigation, forcing them to remain connected to a motion-capture system in the lab. Now, the researchers have designed a flapping-wing microrobot with onboard sensors and computation, which can follow a complex trajectory and land precisely on a sunflower outside the lab’s motion capture environment."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "fd1897fc7619b29c": {
+  "feed": "Simon Willison",
+  "title": "llm-gemini 0.38",
+  "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price , and Hydrogen was 3/4 of that price now but will be 1/4 of that price when the other two double an 1st December once their initial discount pricing expires."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "aae03f5dc925c9e6": {
+  "feed": "Zerodha Tech",
+  "title": "Distributed, high-performance blob storage on SQLite",
+  "link": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "TLDR; We built Blobasaur, a sharded, distributed, lightweight blob storage server on top of SQLite to solve our high-throughput blob read/write usecase. JSON blobs varying from a few KBs to MBs are now written and read thousands of times per second on commodity hardware while maintaining single-digit millisecond latency. On Kite , our trading platform with ~20 million customers, users are able to customize their investment and trading screens heavily."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "b8a1a541a3def7c8": {
+  "feed": "Cloudflare Blog",
+  "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+  "link": "https://blog.cloudflare.com/open-clairic/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Cloudflare has become a neolab. We’re building our own frontier AI models for our customers and the open-source community. Today, we’re announcing two open-weight model releases: We’re introducing an updated version of Clairic . Since the preview, we’ve improved extraction from complex documents including images and PDFs (new!), with more reliable handling of tables, lists, and dates, and better grounding of answers in the source material."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "20eacf05f2b38936": {
+  "feed": "ClickHouse",
+  "title": "Why Front migrated from Elasticsearch to ClickHouse for “pixel-perfect” analytics at scale",
+  "link": "https://clickhouse.com/blog/front-elasticsearch-clickhouse",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Why Front migrated from Elasticsearch to ClickHouse for “pixel-perfect” analytics at scale | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "9f61c5979bc1e501": {
+  "feed": "Shopify Engineering",
+  "title": "Building secure mobile apps in the agentic era",
+  "link": "https://shopify.engineering/secure-agentic-apps",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Building secure mobile apps in the agentic era (2026) - Shopify Skip to Content Solutions Start Start your business . Build your brand Create your website . Online store editor Customize your store . Store themes Find business apps . Shopify app store Own your site domain . Domains & hosting Explore free business tools . Tools to run your business Sell Sell your products ."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "091345031379efd6": {
+  "feed": "Prime Intellect",
+  "title": "Introducing Model Factory",
+  "link": "https://www.primeintellect.ai/blog/introducing-model-factory",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Model Factory Introducing Model Factory. Read the announcement model factory inference compute research resources careers 38 open roles Login get started Login get started Blog / Announcements Introducing Model Factory NOV 18TH, 2026 Introducing Model Factory Today we introduce Model Factory: the loop that frontier labs run on. Now, any company can train, deploy, and continuously improve models in production."
+  ]
+ },
+ "bbbf2979cfcb6c08": {
+  "feed": "LinkedIn Engineering",
+  "title": "How LinkedIn Runs Compute: Self-Managed Kubernetes on 500,000+ Bare-Metal Servers",
+  "link": "https://www.linkedin.com/blog/engineering/infrastructure/how-linkedin-runs-compute-self-managed-kubernetes-on-500000-bare-metal-servers",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How LinkedIn Runs Compute: Self-Managed Kubernetes on 500,000+ Bare-Metal Servers Skip to main content Engineering Blog Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership How LinkedIn Runs Compute: Self-Managed Kubernetes on 500,000+ Bare-Metal Servers Authored by Ronak Nathani November 19, 2026 More than a decade ago, LinkedIn built its own container runtime and scheduler."
+  ]
+ },
+ "71d6205e3dcbac0b": {
+  "feed": "Technica",
+  "title": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits",
+  "link": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A Ukrainian barrage of missiles and drones collapsed a crucial segment of Russian President Vladimir Putin’s prized Kerch Strait Bridge—and Ukraine’s military pulled off the strike deep within Russian-occupied territory without relying on the military-grade version of Elon Musk’s Starlink satellite communications to guide the missiles in. On the nights of November 15 and November 16, coordinated waves of Ukrainian drones and missiles caused enough damage to collapse one of two steel arches supporting the Kerch bridge’s roadway for automobile traffic, according to an Institute for the Study of War update ."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "b527b6f0ddceafec": {
+  "feed": "OpenAI News",
+  "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+  "link": "https://openai.com/business/customer-stories/sumitomo-life",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "75623b38e68bd27d": {
+  "feed": "Hugging Face Blog",
+  "title": "Why your fine-tuning job takes longer than the FLOPs say",
+  "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Why your fine-tuning job takes longer than the FLOPs say Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Why your fine-tuning job takes longer than the FLOPs say Team Article Published November 18, 2026 Upvote 7 +1 Bruno Duarte brunoduarte01 Follow Dharma-AI Gabriel Pimenta de Freitas Cardoso GabrielPimenta99 Follow Dharma-AI Isis F Carvalho isisfc Follow Dharma-AI Breno de Almeida Beleza BrenoBeleza Follow Dharma-AI Felipe Lima limafelipe Follow Dharma-AI :last-child]:mb-0\"> The estimate everyone uses is compute-only What we built The data Results What the predictor relies on How wrong is it, and where What it is good for Limitations What's next Further reading Predicting end-to-end fine-tuning time on shared GPU clusters, from 272 production runs."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "25233b116d91ffbe": {
+  "feed": "Simon Willison",
+  "title": "datasette-arrows 0.1a0",
+  "link": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats support streaming data in chunks. The register_output_renderer() plugin hook can now be used to implement the same pattern for other formats."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "e0deff6c5343275c": {
+  "feed": "Technica",
+  "title": "Trump abandons his FDA nominee, and Senate scraps vote on his NSF pick",
+  "link": "https://arstechnica.com/health/2026/11/trump-abandons-his-fda-nominee-and-senate-scraps-vote-on-his-nsf-pick/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In the span of less than 24 hours, two Trump administration nominees have suffered sudden blows—Trump's pick to lead the Food and Drug Administration and his pick to lead the National Science Foundation. Late Tuesday evening, Axios reported that the White House had abruptly withdrawn its controversial nomination of Heidi Overton to lead the FDA. Overton, a top conservative domestic policy aide in the White House, has drawn criticism and skepticism from Republicans and Democrats alike over her stances on vaccines, abortion, vapes, and birth control."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "8b6ac2940fdc0d0e": {
+  "feed": "OpenAI News",
+  "title": "Managing frontier AI risk: From training to deployment",
+  "link": "https://openai.com/index/managing-frontier-ai-risk",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "43948a68c001fef6": {
+  "feed": "Technica",
+  "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
+  "link": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The streaming wars, or the battle to be the top streaming company, are ongoing, according to Ted Sarandos, a co-CEO of what many would consider today’s frontrunner. When it comes to subscribers, no streaming service has more than Netflix, which reported having over 325 million subscribers as of January. But in an interview with Bloomberg published today, Sarandos noted that people are still spending significant time watching traditional broadcast TV."
+  ],
+  "published_on": "2026-11-18"
+ },
+ "7c553ab5a90215f2": {
+  "feed": "Technica",
+  "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
+  "link": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
+  "date": "2026-11-19",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Microsoft's Ignite announcements this week went beyond the Office-in-Copilot overhaul with the reveal of the Windows Server 2028 Public Preview and its new security-by-default stance and what Microsoft calls Hardened Server Core . Windows Server 2028 will implement a default security framework that Microsoft says is aligned with hardened DoD benchmarks, such as the Defense Information Systems Agency's (DISA) Security Technical Implementation Guide (STIG)."
+  ],
+  "published_on": "2026-11-18"
  }
 }
