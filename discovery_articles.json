@@ -7828,5 +7828,62 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-16"
+ },
+ "3c89064ef67a970a": {
+  "url": "https://arxiv.org/html/2607.07646v2",
+  "title": "How New Reasoning Strategies Emerge in RL Post-Training: A Controlled Study",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-11-17"
+ },
+ "6c437af75bb5d3ac": {
+  "url": "https://arxiv.org/pdf/2609.34162",
+  "title": "SlideDP: Scaling Host-Resident LLM Fine-Tuning Across Multiple GPUs",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-09-28"
+ },
+ "ae9ee5560b0ada2a": {
+  "url": "https://blog.llmgo.top/en/articles/gpu-kernel-engineering-cuda-warp-triton-fused-ops/",
+  "title": "LLM GPU Kernel Engineering: CUDA Warp Primitives to Triton Fused Kernels — LLM Systems Architecture",
+  "domain": "blog.llmgo.top",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-18"
+ },
+ "5440d84898c2c3df": {
+  "url": "https://vllm-project.github.io/2026/11/04/introducing-kinference.html",
+  "title": "Introducing Kinference: An Open Source Inference Control Plane for vLLM and Kubernetes | vLLM Blog",
+  "domain": "vllm-project.github.io",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-04"
+ },
+ "cd7fe1b42e9d1a91": {
+  "url": "https://ml-infra.pro/en/journal/2026-10-02-128/",
+  "title": "Why we're building a separate inference platform instead of extending our PaaS · Anton Alekseev",
+  "domain": "ml-infra.pro",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-19",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-02"
  }
 }
