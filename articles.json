@@ -106953,5 +106953,197 @@
    "Microsoft's Ignite announcements this week went beyond the Office-in-Copilot overhaul with the reveal of the Windows Server 2028 Public Preview and its new security-by-default stance and what Microsoft calls Hardened Server Core . Windows Server 2028 will implement a default security framework that Microsoft says is aligned with hardened DoD benchmarks, such as the Defense Information Systems Agency's (DISA) Security Technical Implementation Guide (STIG)."
   ],
   "published_on": "2026-11-18"
+ },
+ "b2b7370ed71a765c": {
+  "feed": "Technica",
+  "title": "Google will launch Android app verification requirement globally in January 2027",
+  "link": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google announced Android developer verification last year , and despite numerous objections from developers and users, the company is forging ahead . It began blocking the installation of unregistered apps in some countries this fall, and the system is expanding globally soon. Google says it will start rolling out the requirement in all regions in January 2027, and it urges devs who still haven't registered their apps to do so soon."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "490a909a408843ae": {
+  "feed": "Apple ML Research",
+  "title": "Complexity of Differentially Private Selection via Federated APIs",
+  "link": "https://machinelearning.apple.com/research/differentially-private-selection",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Differential privacy (DP) has become the standard for privacy-preserving data analysis, yet its practical implementation in federated or distributed settings often faces a significant utility gap compared to the central model. While existing frameworks, including local, shuffle, and secure aggregation models, offer vetted primitives, they can incur high error for important tasks such as selection."
+  ],
+  "published_on": "2026-11-10"
+ },
+ "6687f7be62c34e4a": {
+  "feed": "OpenAI News",
+  "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+  "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "b99a66860b8348d7": {
+  "feed": "CMU ML Blog",
+  "title": "Towards a Science of Capable Autonomous Agents & Provable Safety — Part II",
+  "link": "https://blog.ml.cmu.edu/2026/11/19/towards-a-science-of-capable-autonomous-agents-provable-safety-part-ii/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Part II: Provable Safety In Part I , I talked about what agents must contain as they become increasingly capable. Here, I talk about having provable guarantees on their safety, in spite of these capabilities. This is in large part a contrast from what AI safety used to be like, where more capability ensured more safety: e.g. if a self-driving car can’t reliably detect objects, it’s obviously unsafe."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "d943a23e58cc345e": {
+  "feed": "MIT News (AI)",
+  "title": "Study reveals data centers’ long-distance damage to air quality",
+  "link": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The rapid expansion of data centers for artificial intelligence causes negative health and air quality impacts in regions far from where the brick-and-mortar facilities are located, according to a new study by MIT researchers. The team estimates that additional air pollution from the electricity demands of data centers in 2023 resulted in about 650 premature deaths across the United States."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "9c94043897e0a4c2": {
+  "feed": "Cloudflare Blog",
+  "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+  "link": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Visitors to government election websites surged 363% on November 3, the date of the 2026 midterm elections in the United States. Across Cloudflare's election protection programs, we also detected a significant shift in the types and timing of cyberattacks throughout 2026. Unlike what we saw in other recent elections, attackers focused on gaining access to internal systems and data, rather than knocking websites offline."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "826adec1340d1439": {
+  "feed": "ClickHouse",
+  "title": "ClickHouse and Power BI, columnar end to end: the Arrow Flight connector is in public preview",
+  "link": "https://clickhouse.com/blog/power-bi-arrow-flight-connector-public-preview",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> ClickHouse and Power BI, columnar end to end: the Arrow Flight connector is in public preview | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "e8344587c11e86c1": {
+  "feed": "Spotify Engineering",
+  "title": "When Can You Ship on Offline Evals Alone?",
+  "link": "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "When Can You Ship on Offline Evals Alone? | Spotify Engineering When Can You Ship on Offline Evals Alone? TL;DR Teams building AI features want to skip slow A/B tests and decide from offline evals alone. This post looks at when that’s possible while keeping the risk of harming the online metric low. It can work, but only under strong assumptions that are hard to verify and can change over time."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "f07bd831f81ff7e5": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Enabling Real-Time AI for Scientific Instruments with GPU-Native Data Acquisition",
+  "link": "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In science and industry, analyzing sensor measurements in real time can enable AI to adjust processes, guide experiments, and search for better operating... In science and industry, analyzing sensor measurements in real time can enable AI to adjust processes, guide experiments, and search for better operating conditions. Yet limits on how quickly the measured data can be moved and processed often shape how an instrument is designed, from readout electronics to acquisition timing."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "983221233ae8e1af": {
+  "feed": "Technica",
+  "title": "Mouse fight club might explain why we like to watch violent things",
+  "link": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Credit: J.M. Iravedra-Garcia et al., 2026 Credit: J.M. Iravedra-Garcia et al., 2026 There's something about watching violent events that broadly appeals to us, whether it's the latest John Wick movie, a video game, or a live UFC bout. Scientists have debated whether watching violent things could make us more aggressive, but it could also be an adaptive survival strategy."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "9aca0434d7af607a": {
+  "feed": "ClickHouse",
+  "title": "pg_clickhouse 0.11.1: Now with pgvector, UPDATE, DELETE pushdown",
+  "link": "https://clickhouse.com/blog/pg-clickhouse-0-11-1",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> pg_clickhouse 0.11.1: Now with pgvector, UPDATE, DELETE pushdown | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "c4bd8efeac9da491": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Build Tool-Calling Parsers in Rust with AI Agents",
+  "link": "https://developer.nvidia.com/blog/build-tool-calling-parsers-in-rust-with-ai-agents/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A tool call can arrive in pieces, an argument can be cut short, or model-specific markup can leak into the answer. A frontend parser turns that output, received... A tool call can arrive in pieces, an argument can be cut short, or model-specific markup can leak into the answer. A frontend parser turns that output, received as token IDs or decoded text, into visible text, reasoning, and tool calls an application can use."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "a2d0889c92dfae8f": {
+  "feed": "Technica",
+  "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
+  "link": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "NASA recently announced a significant shakeup to the Artemis program that will land humans on the Moon. The moves were designed to give the agency's lunar lander providers—SpaceX with its Starship vehicle, and Blue Origin with Blue Moon—more flexibility in reaching the Moon. For Starship, this means docking with Orion in Earth orbit, and then traveling to the Moon in tandem."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "bc2011b0a569045f": {
+  "feed": "ClickHouse",
+  "title": "Detect, act, keep the evidence: node reliability across three clouds",
+  "link": "https://clickhouse.com/blog/node-reliability-across-three-clouds",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Detect, act, keep the evidence: node reliability across three clouds | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "45584a3597b1228a": {
+  "feed": "Technica",
+  "title": "How to tell a cyberattack from a plain old outage",
+  "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Over the past week, anyone could be forgiven for wondering whether a Diehard IV –style cyberwar had finally arrived in the US. Across just four consecutive business days, a mass Microsoft exchange outage broke IT services for thousands of companies , a Federal Aviation Administration tech screw-up grounded airplanes across the country, a software problem affecting JPMorgan Chase caused another round of disruption, a United Airlines system glitch delayed flights yet again, and an NSA classified network’s downtime left the agency’s staff sitting at home waiting to return to their office at Fort Meade."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "bf45b68b22eb5d0c": {
+  "feed": "Technica",
+  "title": "Best Buy sells Blu-rays online and in-store again",
+  "link": "https://arstechnica.com/gadgets/2026/11/best-buy-sells-blu-rays-again-after-quitting-the-business-in-2024/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Best Buy is selling Blu-rays directly through its website and in physical stores again after exiting Blu-ray and DVD sales in 2023. The Best Buy website’s movie section currently lists 15 Blu-rays (including one two-pack) that are “sold & shipped by Best Buy.” New titles available include The Odyssey (2026), Project Hail Mary (2026), Supergirl (2026), Super Mario Galaxy (2026), and Obsession (2025)."
+  ],
+  "published_on": "2026-11-18"
  }
 }
