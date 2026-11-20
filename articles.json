@@ -107145,5 +107145,268 @@
    "Best Buy is selling Blu-rays directly through its website and in physical stores again after exiting Blu-ray and DVD sales in 2023. The Best Buy website’s movie section currently lists 15 Blu-rays (including one two-pack) that are “sold & shipped by Best Buy.” New titles available include The Odyssey (2026), Project Hail Mary (2026), Supergirl (2026), Super Mario Galaxy (2026), and Obsession (2025)."
   ],
   "published_on": "2026-11-18"
+ },
+ "4ef64e926586f5c7": {
+  "feed": "Technica",
+  "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+  "link": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In an unprecedented move, Amazon is using its app and website to try to convince shoppers to not support a New York City bill. When I log into Amazon today, I’m met with a vertical banner that reads: “ATTENTION NYC Council could add up to $5 per order” with a button that says “Act now.” A screenshot of the top of Amazon's homepage. Credit: Scharon Harding/Amazon I also saw a smaller version of the notice on an order confirmation page on Amazon's website."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "a3b183c1cf424baf": {
+  "feed": "Google Research",
+  "title": "A game you cannot win unless you have a quantum computer",
+  "link": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A game you cannot win unless you have a quantum computer Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "4b08ec50268e04a4": {
+  "feed": "OpenAI News",
+  "title": "Deploying Daybreak Red",
+  "link": "https://openai.com/business/learn/deploying-daybreak-red",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "cc5d7f4c6c4cae15": {
+  "feed": "Together AI",
+  "title": "Tencent Hy4 is live on Together AI",
+  "link": "https://www.together.ai/blog/tencent-hy4",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tencent Hy4 is live on Together AI Webflow Analyze/Optimize tracking bridge --> Introducing Polymorphic Inference, starting with Together Compiler → Introducing Together Post-Training: Better models, faster runs, lower costs → Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → GLM-5.3 vs."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "4665289b81f88c7a": {
+  "feed": "MIT News (AI)",
+  "title": "AI helps researchers investigate how thousands of medical studies share code",
+  "link": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The data and code that underpin a research study can tell us what was actually done, and how. In a medical study, for example, how were patients selected for inclusion? How were missing values handled? How were the results evaluated? Access to a study's data and code help researchers to answer these questions, to examine the methods, and to build on the work."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "f32d5bea8abf85e8": {
+  "feed": "Simon Willison",
+  "title": "Token fraud is here and it’s BAD (YouTube)",
+  "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD , an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see also the accompanying Twitter post ) Claire describes the flood of token fraud she has seen from groups abusing the product's free trial, sometimes just to get free AI usage but often to resell tokens or run other commercial enterprises on top of the ChatPRD agent."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "6fd6498f94dd7864": {
+  "feed": "Modal Blog",
+  "title": "How Abundant designed efficient rollout architecture with Modal Sandboxes",
+  "link": "https://modal.com/blog/abundant-efficient-rollout-architecture-with-modal-sandboxes",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Abundant designed efficient rollout architecture with Modal Sandboxes Skip to content A new frontier for open-weight intelligence: Kimi K3.1 Pro is now available on Modal. A new frontier for open-weight intelligence: Kimi K3.1 Pro is now available on Modal. Learn more Download logo as .svg Download wordmark as .svg Go to press kit Product Resources Customers Pricing Docs Log in Sign up Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Model APIs Access the latest open weight models, optimized for production performance and security Featured models Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Product Product Inference Serve LLMs, image, video, and audio models, from real-time to batch Sandboxes Isolated environments for coding agents, RL rollouts, and untrusted code Training Fine-tune, run RL, and evaluate models on GPUs that spin up in seconds Model APIs Access the latest open weight models, optimized for production performance and security Featured models Kimi K3.1 Pro DeepSeek v4.1 Flash 1017 GLM 5.3 Muse Spark Open See all models Resources Tools GPU Glossary A fast guide to GPU concepts LLM Engine Advisor Pick the right model Resources Blog Changelog Startup Credits Partners Slack Community Company About Careers Events Featured Scaling to 1 million concurrent sandboxes in seconds Engineering Customers Pricing Docs Log in Sign up Blog posts Customer Stories November 19, 2026 How Abundant designed efficient rollout architecture with Modal Sandboxes Abundant builds reinforcement learning environments that frontier labs like OpenAI, Anthropic, Google, and Meta use to train and evaluate their models."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "0167c94b41ceac64": {
+  "feed": "Cloudflare Blog",
+  "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+  "link": "https://blog.cloudflare.com/nginx2root/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On November 18, 2026, F5 and nginx.org disclosed ten vulnerabilities in nginx. Five of them, detailed by the Xint research team and published under the name nginx2root , are memory corruption flaws that an unauthenticated attacker can use to crash an nginx worker or, per Xint's research, run commands on the server. Xint also found a Linux kernel bug that turns that foothold into root on the host, including from inside a Docker container."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "45ed7d00bf21d144": {
+  "feed": "Stripe Blog",
+  "title": "Give your agents controlled access to analyze your data and move funds",
+  "link": "https://stripe.com/blog/give-your-agents-controlled-access-to-analyze-your-data-and-move-funds",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Give your agents controlled access to analyze your data and move funds 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in See all products Explore our full product catalog Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 125+ Terminal In-person payments Authorization Boost Acceptance optimizations Link Accelerated checkout Financial Connections Linked financial account data Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Embedded Finance Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Radar Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Stripe Sessions 2027 Join us in San Francisco to see what’s next for the AI economy."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "b87ca55cd4b4998f": {
+  "feed": "Sakana AI",
+  "title": "Introducing Sakana AI’s Security Research Group",
+  "link": "/security-research-group/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "（＊日本語は英文の後に） Sakana AI is launching the Security Research Group, an independent R&D team studying collective, AI-driven cyber defense and the security and safety of AI itself. Our research starts from the idea that intelligence and resilience emerge from collectives, like a school of fish rather than a single swimmer. As a company building frontier AI, we also believe we share responsibility for the security of the society that uses it."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "01168b0bd4384b3c": {
+  "feed": "ClickHouse",
+  "title": "What's new in clickhousectl v0.6.0",
+  "link": "https://clickhouse.com/blog/clickhousectl-v0-6-0",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> What's new in clickhousectl v0.6.0 | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "4dd93a76e4e82579": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo",
+  "link": "https://developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Reinforcement learning (RL) uses rewards to train models to solve problems and complete tasks more successfully. Inference drives this process. Workers generate... Reinforcement learning (RL) uses rewards to train models to solve problems and complete tasks more successfully. Inference drives this process. Workers generate rollouts: sequences of model outputs, actions, and environment interactions."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "5b44eddcdf697707": {
+  "feed": "Prime Intellect",
+  "title": "RL Residency: A Retrospective",
+  "link": "https://www.primeintellect.ai/blog/rl-residency-retrospective",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RL Residency: A Retrospective Introducing Model Factory. Read the announcement model factory inference compute research resources careers 38 open roles Login get started Login get started Blog / Research RL Residency: A Retrospective NOV 19TH, 2026 Sebastian Müller RL Residency: A Retrospective The Prime Intellect RL Residency is a program that supports open research through compute grants and personal mentorship, while creating valuable evals, training environments, and other research for Prime Intellect and the wider community."
+  ]
+ },
+ "f7101bc1bc3dc1cd": {
+  "feed": "Technica",
+  "title": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
+  "link": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In the wake of the Make America Healthy Again movement's midterm wipeout , a top leader suggested the heavy losses came down to being outspent by wealthier, more powerful rivals. But a Stat report on MAHA's own spending in the run-up to the election raises questions about whether the group's priority was ever winning elections in the first place. The dive into the financial documents reveals that the MAHA PAC, led by Tony Lyons, spent more on allies, boosters, meals, luxuries, and its affiliated nonprofit than it did on political candidates."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "cb99e2baa62e7866": {
+  "feed": "OpenAI News",
+  "title": "See PR scans in action",
+  "link": "https://openai.com/business/learn/pr-scans-demo",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "d23ef0ed31151ed7": {
+  "feed": "Together AI",
+  "title": "Introducing Together Storage Accelerator: fast, free data caching for your GPU cluster",
+  "link": "https://www.together.ai/blog/introducing-together-storage-accelerator",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Together Storage Accelerator: fast, free data caching for your GPU cluster Webflow Analyze/Optimize tracking bridge --> Introducing Polymorphic Inference, starting with Together Compiler → Introducing Together Post-Training: Better models, faster runs, lower costs → Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → GLM-5.3 vs."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "7339d690dfb602dd": {
+  "feed": "Simon Willison",
+  "title": "PostgreSQL 19 Released",
+  "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalypse. This release was definitely worth the wait. My favorite new feature is this one: For applications that send reads to standbys, PostgreSQL 19 adds \"read-your-writes\" consistency with the new WAIT FOR LSN command."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "545852a9591f5a6b": {
+  "feed": "Technica",
+  "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
+  "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A Russian national has been indicted on suspicions he was a Russian spy who stalked and surveilled employees of a Silicon Valley company that was assisting Ukraine in its ongoing war with its eastern neighbor. Igor D’iu, 25, allegedly photographed the employees and their computer screens as they worked at a coffee shop located near the company’s Palo Alto office, federal prosecutors said Wednesday ."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "e29ac258c013c12c": {
+  "feed": "OpenAI News",
+  "title": "Explore the Codex Security Plugin",
+  "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "a18d40e53c3a1f38": {
+  "feed": "Technica",
+  "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+  "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In October 2025, four Black high school students were sharing Cool Ranch Doritos after football practice, winding down and waiting for their rides home. It was then, in the lull of a moment any teen with after-school activities knows well, that the school’s AI gun detection system suddenly flagged one teen holding a bag of chips as a potential gunman."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "a2fb00344062975f": {
+  "feed": "OpenAI News",
+  "title": "Get started with Daybreak Blue",
+  "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "2fefa24a16c29da0": {
+  "feed": "Technica",
+  "title": "Google turns to Blue Origin for a rocket, but its long-term problem remains",
+  "link": "https://arstechnica.com/space/2026/11/google-turns-to-blue-origin-for-a-rocket-but-its-long-term-problem-remains/",
+  "date": "2026-11-20",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Blue Origin announced Thursday that its New Glenn rocket will launch data center satellites for Google in 2029 as part of that company's Project Suncatcher program. Google disclosed it was working on scalable orbiting data centers about a year ago and characterized the project as one of its research \"moonshots.\" The mission on New Glenn is designed to deploy satellites, each with computing capacity at roughly the scale of a data center rack, into Sun-synchronous orbit where they can receive nearly continuous solar energy."
+  ],
+  "published_on": "2026-11-19"
  }
 }
