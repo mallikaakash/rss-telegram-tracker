@@ -7885,5 +7885,62 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-02"
+ },
+ "57c6d3fda7263380": {
+  "url": "https://arxiv.org/html/2601.07389v3",
+  "title": "The Post-Training Dilemma: Why We Should Rethink the Sequential SFT-RL Paradigm",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-20",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-11-19"
+ },
+ "40eb1e4a6f11c315": {
+  "url": "https://arxiv.org/abs/2606.29858v3",
+  "title": "Smooth Scaling Laws Hide Stepwise Token Learning",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-20",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-11-07"
+ },
+ "b10e4066c07f8125": {
+  "url": "https://blog.dailydoseofds.com/p/moe-inference-engineering-clearly",
+  "title": "MoE inference engineering, clearly explained",
+  "domain": "blog.dailydoseofds.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-20",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-23"
+ },
+ "ca63d33ee9cebb98": {
+  "url": "https://arxiv.org/abs/2610.12815v2",
+  "title": "[2610.12815v2] Deploying RDMA for Distributed Inference and Training At Scale",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-20",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-12"
+ },
+ "2da7a9b8d9a50b4f": {
+  "url": "https://explainx.ai/blog/tensorfold-zig-local-llm-inference-metal-cuda-api-2026",
+  "title": "TensorFold: Zig Metal/CUDA LLM Server (No Python) | explainx.ai Blog",
+  "domain": "explainx.ai",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-20",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-12"
  }
 }
