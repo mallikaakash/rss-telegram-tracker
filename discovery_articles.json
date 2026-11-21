@@ -7942,5 +7942,135 @@
   "why": "",
   "points": [],
   "published_on": "2026-11-12"
+ },
+ "180495dc16963bbd": {
+  "url": "https://openathena.ai/blog/marin-535b-architecture/",
+  "title": "Architecture Decisions for Marin 535B-A23B | Open Athena",
+  "domain": "openathena.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-09"
+ },
+ "0fc82f3c24fa2984": {
+  "url": "https://justin-chae.org/blog/pretraingym/",
+  "title": "PretrainGym: can an agent curate pretraining data? | Justin Yang Chae",
+  "domain": "justin-chae.org",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-20"
+ },
+ "80a87fdbf59fcfd3": {
+  "url": "https://doi.org/10.48550/arxiv.2610.04928",
+  "title": "[2610.04928] Prompt Dominance and Asymmetric Verifier Costs: Empirical Ablations of GRPO at 1B Scale on GSM8K",
+  "domain": "doi.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "395b5566e68de657": {
+  "url": "https://doi.org/10.1142/s2301385028300065",
+  "title": "Reinforcement Learning Post-Training for Reasoning Large Language Models: Methods, Systems, and Evaluation | Unmanned Systems",
+  "domain": "doi.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "3c500ac9bf7d0d62": {
+  "url": "https://dev.to/lewis_won/rewriting-my-triton-flashattention-kernel-in-cute-dsl-one-optimisation-at-a-time-1dnm",
+  "title": "Rewriting My Triton FlashAttention Kernel in CuTe DSL, One Optimisation at a Time - DEV Community",
+  "domain": "dev.to",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-15"
+ },
+ "b6b4a8fdf87e66f5": {
+  "url": "https://iotdigitaltwinplm.com/flashattention-io-aware-attention-flashattention-3-4-tiling-online-softmax-gpu-memory-hierarchy-2026/",
+  "title": "FlashAttention Explained: IO-Aware Attention, Tiling, Online",
+  "domain": "iotdigitaltwinplm.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-28"
+ },
+ "e3ad7343ca381d2d": {
+  "url": "https://aicassindra.com/blogs/algorithms/algo_parallel_matmul.html",
+  "title": "How a Matrix Multiply Runs on a GPU: Tiling, Shared Memory, and Tensor Cores, with Pseudocode — Belgavi.AI Lab",
+  "domain": "aicassindra.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-09-29"
+ },
+ "4e1d3d3bf2d9007b": {
+  "url": "https://xuqi2024.github.io/2026/11/06/2026-11-06-aibrix-k8s-llm-inference-control-plane-kv-cache-pd-disaggregation-deep-dive/",
+  "title": "【AIBrix】核心架构与设计原理深度解析：把 LLM 推理做成 Kubernetes 原生控制面 | 程序员的自我修养",
+  "domain": "xuqi2024.github.io",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-06"
+ },
+ "8e97ba212049aa59": {
+  "url": "https://pyshine.com/tgi/",
+  "title": "The Server That Powered Hugging Chat - Inside huggingface/text-generation-inference | PyShine",
+  "domain": "pyshine.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-15"
+ },
+ "1e062a287914f66b": {
+  "url": "https://asivanadi0.github.io/deepseek-deepinfer-deployment-qa.html",
+  "title": "DeepSeek Open-Sourced DeepInfer. The Deployment Q&A Is the Part to Read. — Anpoo Sivanadi",
+  "domain": "asivanadi0.github.io",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-22"
+ },
+ "28709b0986a2ac1f": {
+  "url": "https://terrytang.dev/writing/inside-sglang",
+  "title": "Inside SGLang - Terry Tang",
+  "domain": "terrytang.dev",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-24"
+ },
+ "8e178d2571825984": {
+  "url": "https://dev.to/dave_mille/gpustack-with-vllm-in-production-pinning-kv-cache-before-the-oom-finds-you-84m",
+  "title": "GPUStack With vLLM in Production: Pinning KV Cache Before the OOM Finds You - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-21",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-18"
  }
 }
