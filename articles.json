@@ -107767,5 +107767,65 @@
    "Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services to find out what happened to sensitive information entrusted to them. What they discovered was an ecosystem that leaked highly sensitive data like a sieve. The exposure was found through an ingenious experiment designed to test if sensitive information can leak through the vast chain of widely used AI services and how that information is exploited when it does."
   ],
   "published_on": "2026-11-20"
+ },
+ "8e097765d1283c66": {
+  "feed": "Technica",
+  "title": "“Race realism” isn’t realistic—and it isn’t good science",
+  "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "At this year’s World Economic Forum meeting in Davos, US President Donald Trump stated that people from Somalia have low IQs. “I always say these are low-IQ people,” he said in his speech. His son, Donald Trump Jr, made a similar statement about Haitian people in 2024 (Trump’s government has since ended the protected status of both Somali and Haitian migrants in the US)."
+  ],
+  "published_on": "2026-11-21"
+ },
+ "51cbc0040f4459f8": {
+  "feed": "Technica",
+  "title": "Watching as a giant star swallowed its neighbor and exploded",
+  "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In the Andromeda Galaxy, a giant star about seven times as massive as the Sun spent nearly a decade slowly swallowing its much smaller companion. The process, known as common envelope evolution, was proposed in the 1970s to explain how some of the tightest pairs of stars in the Universe form, but no one had ever caught it in the act. In a new Nature study, astronomers led by Viraj Karambelkar, an astrophysicist at Columbia University, finally witnessed the entire spectacle from the decades before it began to the eruption that ended it in late 2025."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "1400be933d41048d": {
+  "feed": "Technica",
+  "title": "NASA’s new Moon plan is taking shape, but some big questions remain",
+  "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "SpaceX's successful recovery of its Starship rocket last weekend cleared a major hurdle on NASA's path to the Moon, opening up possibilities for higher launch rates and an all-important, long-delayed orbital refueling demo next year. For SpaceX's purposes, Saturday's mid-air rocket catch will help engineers learn how to rapidly reuse Starships. That should expedite SpaceX's deployment of its newest generation of Starlink Internet satellites."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "bd891512041a1726": {
+  "feed": "Technica",
+  "title": "Prisons get OK to jam contraband phones. CTIA says nearby phones will be jammed too.",
+  "link": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Federal Communications Commission yesterday voted to let state and local prisons use jamming technology to block contraband cellphones, despite warnings that jammers will also block lawful phone calls outside the prisons. Wireless industry lobby group CTIA said a recent test it conducted with the Virginia Tech Applied Research Corporation and South Carolina Department of Corrections confirmed concerns that the jammers would block legitimate communications, including 911 calls."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "7a104b2f8055a66f": {
+  "feed": "Technica",
+  "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
+  "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In a swirl of questions, fears, and outrage, the US Army announced Thursday that it would delay a plan to blow up 68 deteriorating barrels of lead azide, which would launch toxic gas and lead into the air. A federal appeals court further halted plans later on Thursday with an emergency order. The plume, containing neurotoxic lead, could potentially drift 100 miles north of the Army installation housing it in Middletown, Iowa, according to modeling released by the Army earlier this week."
+  ],
+  "published_on": "2026-11-20"
  }
 }
