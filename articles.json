@@ -107540,5 +107540,232 @@
    "Last week, DraftKings asked a federal court in Florida to take over a lawsuit recently filed against it by the Seminole Tribe, opening another front in the nationwide online “swaps” debate . This Florida case adds to an already complex subplot involving Indigenous tribes , some of which are challenging prediction markets , while others are trying to get in on the action themselves."
   ],
   "published_on": "2026-11-20"
+ },
+ "b05c36fbb62f738b": {
+  "feed": "Technica",
+  "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
+  "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Federal Communications Commission ordered California to stop enforcing its Carrier of Last Resort (COLR) rules against AT&T, setting up another battle between the Trump administration and California over the state's right to enforce its own telecom laws and regulations. AT&T's status as a Carrier of Last Resort in California requires it to offer telephone service to any potential customer in its territory."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "064d8fb5049e11e0": {
+  "feed": "Google Research",
+  "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+  "link": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Google Duplex evolved to also call businesses for you in Gemini Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "995156cc2db5aa58": {
+  "feed": "Apple ML Research",
+  "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+  "link": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images and video and predicts depth maps at native resolution."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "3ea993db7e3c60d1": {
+  "feed": "OpenAI News",
+  "title": "Combatting adversarial distillation",
+  "link": "https://openai.com/index/combatting-adversarial-distillation",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Combatting adversarial distillation | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 20, 2026 Combatting adversarial distillation How we’re addressing safety risks of distillation and lessons we’ve learned for strengthening safeguards across the industry."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "80d31a6dee298bbd": {
+  "feed": "Hugging Face Blog",
+  "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+  "link": "https://huggingface.co/blog/inkling2mini",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup Published November 20, 2026 Update on GitHub Upvote 28 +22 merve merve Follow Pedro Cuenca pcuenq Follow Aritra Roy Gosthipaty ariG23498 Follow Guarin Flück guarin Follow :last-child]:mb-0\"> What is new with Inkling 2 Mini?"
+  ],
+  "published_on": "2026-11-20"
+ },
+ "33a61caea8aae9aa": {
+  "feed": "MIT News (AI)",
+  "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
+  "link": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Humans experience and interact with the world through sensory information. This could mean learning correspondences between the sound of bird chirps and the word “robin,” or being able to visually identify and follow your friend “Sarah” in a crowd of people. In many cases, people are able to draw on their latent “multimodal” knowledge — information across multiple data types, from audio to video to text or spoken word — to perform these tasks without many, or sometimes even any, examples."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "1b23955bcb16711a": {
+  "feed": "Eugene Yan",
+  "title": "How Public Evals Work and Fail, and What Should Change",
+  "link": "https://eugeneyan.com/writing/public-evals",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Public Evals Work and Fail, and What Should Change Â· Eugene Yan Skip to content eugeneyan Start Here Writing Speaking Prototyping About Aa Reading font: Serif Theme: Light Search Ctrl P How Public Evals Work and Fail, and What Should Change 42 min read llm eval teardown Contents Patterns: How eval tasks are built and maintained Principles: That shape grading and task selection Failures: Skipped verification and dropped reqs Gaps: Failing correct work and passing wrong work Hot takes: How we’re thinking about evals wrongly Diving into the twelve benchmarks References Contents Patterns: How eval tasks are built and maintained Principles: That shape grading and task selection Failures: Skipped verification and dropped reqs Gaps: Failing correct work and passing wrong work Hot takes: How we’re thinking about evals wrongly Diving into the twelve benchmarks References As models ship faster, eval scores are often the first thing we learn about a new model."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "6a73fdd651f90d83": {
+  "feed": "Simon Willison",
+  "title": "Quoting Ravi Vakil",
+  "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "aa4784fc2bb9e831": {
+  "feed": "Cloudflare Blog",
+  "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+  "link": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On November 19, 2026, the Ruby team disclosed ruby2shell ( CVE-2026-132825 ), a heap buffer overflow in the way Ruby changes the case of strings. Ruby rates the flaw Critical and says it is aware of proofs of concept that achieve remote code execution in some scenarios. Fixes shipped in Ruby 3.3.14, 3.4.13, and 4.0.10 . The reach is wide. Veria Labs reports that Ruby on Rails and classic-style Sinatra applications reach the bug in their default configuration, before any authentication."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "73a1c1534ded056f": {
+  "feed": "Sakana AI",
+  "title": "Introducing the Sakana AI Applied Research Lab",
+  "link": "/applied-research-lab/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "（＊日本語は英文の後に） Today we are announcing the Sakana AI Applied Research Lab, a research group within Sakana AI that applies the company’s research to large, complex real-world systems, advancing the state of the art in their understanding and delivering it as value to Sakana AI clients. The Lab’s first program is in finance and economics. We expect other programs to emerge in the future."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "4cc74bde8c078a43": {
+  "feed": "LinkedIn Engineering",
+  "title": "Composable Torch Dataloader: A High-Performance, Modular Dataloader For PyTorch",
+  "link": "https://www.linkedin.com/blog/engineering/infrastructure/composable-torch-dataloader-a-high-performance-modular-dataloader-for-pytorch",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Composable Torch Dataloader: A High-Performance, Modular Dataloader For PyTorch Skip to main content Engineering Blog Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Infrastructure Composable Torch Dataloader: A High-Performance, Modular Dataloader For PyTorch Authored by Jonathan Hung November 20, 2026 Co-authors: Co-authored by Jonathan Hung , Co-authored by Lijuan Zhang , Co-authored by Tao Huang , Co-authored by Jaideep Ray , and Co-authored by Ni (Jenny) Zhang LinkedIn’s vision is to create economic opportunity for every member of the global workforce."
+  ]
+ },
+ "3a6032c14ad0ee31": {
+  "feed": "Technica",
+  "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
+  "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The representative in the US House expected to chair the House Intelligence Committee in January, Jim Himes (D-Conn.), has threatened to withhold support for funding government-owned systems from SpaceX amid the ongoing inquiry into the use of Starshield in Ukraine. \"SpaceX's potentially unilateral modification of a U.S. Government contract, combined with its lack of responsiveness to congressional oversight, calls into question every contract the U.S."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "d15c45643214b444": {
+  "feed": "OpenAI News",
+  "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+  "link": "https://openai.com/business/customer-stories/hebbia",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hebbia sees improvements in financial research with GPT-6 Astra | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI November 20, 2026 Hebbia sees improvements in financial research with GPT‑6 Astra Hebbia sees gains in financial research in tests of GPT‑6 Astra."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "480a8b723958aa8d": {
+  "feed": "MIT News (AI)",
+  "title": "New approach enables physically consistent AI models of chaotic systems",
+  "link": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Modeling of complex, chaotic processes such as weather and climate patterns and turbulent flows in aviation or in ocean currents has advanced enormously in recent years. However, such models are still prone to drift into physically impossible predictions over time. Now, researchers with MIT’s Laboratory for Information and Decision Systems (LIDS) have found a way to introduce physics-based restrictions on machine learning models that can ensure that such models never exceed realistic bounds, based on what is actually possible in the real world."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "b69fb603148e6e3c": {
+  "feed": "Cloudflare Blog",
+  "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+  "link": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On November 19, 2026, the security research company depthfirst disclosed phpAfterShell (CVE-2026-126714) , a vulnerability in PHP's default file-based session handler that can lead to remote code execution. Under the Common Vulnerability Scoring System (CVSS) 4.0, it scores 9.2 out of 10 (Critical). The PHP project fixed it the same day in versions 8.2.36, 8.3.37, 8.4.28, 8.5.13, and 8.6.0."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "5a49fd4a2d776cb4": {
+  "feed": "Technica",
+  "title": "Google rolls out new search homepage with AI chat history and no search button",
+  "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Google's flagship search experience is evolving into an AI experience with stunning speed. Even time-tested elements of search are getting AI makeovers, and the latest to get this treatment is the search homepage on Google.com. A redesign that's been in testing for the last few weeks is now official, bringing easier access to AI chats and dropping the dedicated search button entirely."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "f4784c30400364a2": {
+  "feed": "OpenAI News",
+  "title": "Can AI help scientists identify promising drug candidates?",
+  "link": "https://openai.com/index/introducing-medchembench",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Can AI help scientists identify promising drug candidates? | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 20, 2026 Research Release Science Can AI help scientists identify promising drug candidates?"
+  ],
+  "published_on": "2026-11-20"
+ },
+ "c4b0222f29f2f6ae": {
+  "feed": "Technica",
+  "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+  "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Meta’s executives are rethinking the company’s original goal of achieving net-zero emissions by 2030. That revelation in Meta’s latest sustainability report comes as the company reported a record percentage increase in greenhouse gas emissions that exceeds any other Big Tech competitor racing to build new AI data centers. The company’s 2026 sustainability report claims that “our long-term ambitions haven’t changed, but our operating environment has,” according to an introduction from Rachel Peterson, vice president of data centers at Meta, and Blair Swedeen, global head of net zero and sustainability at Meta."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "99727b65c29013d0": {
+  "feed": "Technica",
+  "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+  "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+  "date": "2026-11-21",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services to find out what happened to sensitive information entrusted to them. What they discovered was an ecosystem that leaked highly sensitive data like a sieve. The exposure was found through an ingenious experiment designed to test if sensitive information can leak through the vast chain of widely used AI services and how that information is exploited when it does."
+  ],
+  "published_on": "2026-11-20"
  }
 }
