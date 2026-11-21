@@ -107827,5 +107827,70 @@
    "In a swirl of questions, fears, and outrage, the US Army announced Thursday that it would delay a plan to blow up 68 deteriorating barrels of lead azide, which would launch toxic gas and lead into the air. A federal appeals court further halted plans later on Thursday with an emergency order. The plume, containing neurotoxic lead, could potentially drift 100 miles north of the Army installation housing it in Middletown, Iowa, according to modeling released by the Army earlier this week."
   ],
   "published_on": "2026-11-20"
+ },
+ "6bc7da661c0f28f2": {
+  "feed": "Technica",
+  "title": "Review: Godzilla Minus Zero is everything we could want in a sequel",
+  "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
+  "date": "2026-11-22",
+  "tier": "low_priority",
+  "why": "This is a movie review of a Godzilla film and completely unrelated to software engineering or machine learning.",
+  "points": [
+   "Review and critical praise for the movie sequel Godzilla Minus Zero."
+  ],
+  "published_on": "2026-11-21",
+  "reject_reason": "off_topic"
+ },
+ "3ac87bcc9a31507e": {
+  "feed": "Together AI",
+  "title": "Qwen4 Max is live on Together AI",
+  "link": "https://www.together.ai/blog/qwen4-max",
+  "date": "2026-11-22",
+  "tier": "low_priority",
+  "why": "Scraped product availability announcement and landing page copy without any technical details on model architecture or inference benchmarks.",
+  "points": [
+   "Announces Qwen4 Max availability on Together AI alongside generic platform feature listings."
+  ],
+  "published_on": "2026-11-21",
+  "reject_reason": "marketing"
+ },
+ "d63c6404d469aaa2": {
+  "feed": "Simon Willison",
+  "title": "llm-gemini 0.38.1",
+  "link": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+  "date": "2026-11-22",
+  "tier": "worth_a_skim",
+  "why": "Highlights concrete inference token usage and cost tradeoffs across different reasoning tiers in new frontier models.",
+  "points": [
+   "Gemini 4 Hydrogen and Neon support an 'xhigh' reasoning level that is absent in Gemini 4 Carbon.",
+   "Jumping from 'high' to 'xhigh' on Hydrogen scaled reasoning token output roughly 6x (5,311 to 31,477 tokens) and cost from $0.04 to $0.24."
+  ],
+  "published_on": "2026-11-20"
+ },
+ "4ad737fa14e2d298": {
+  "feed": "Technica",
+  "title": "Science has a home here at Ars—please help keep it that way",
+  "link": "https://arstechnica.com/staff/2026/11/science-has-a-home-here-at-ars-please-help-keep-it-that-way/",
+  "date": "2026-11-22",
+  "tier": "low_priority",
+  "why": "Personal editorial appeal soliciting reader subscriptions for Ars Technica.",
+  "points": [
+   "Editorial article making a fundraising plea to support Ars Technica journalism."
+  ],
+  "published_on": "2026-11-20",
+  "reject_reason": "off_topic"
+ },
+ "84ea6cfdf0b6a074": {
+  "feed": "Technica",
+  "title": "Trump admin still won't let Wi-Fi giant TP-Link sell its latest routers in US",
+  "link": "https://arstechnica.com/tech-policy/2026/11/trump-admin-still-wont-let-wi-fi-giant-tp-link-sell-its-latest-routers-in-us/",
+  "date": "2026-11-22",
+  "tier": "low_priority",
+  "why": "Policy and trade news regarding consumer Wi-Fi router imports with no relevance to distributed systems or ML infrastructure.",
+  "points": [
+   "US regulatory import ban continues to block sales of TP-Link's latest consumer Wi-Fi 8 routers."
+  ],
+  "published_on": "2026-11-20",
+  "reject_reason": "off_topic"
  }
 }
