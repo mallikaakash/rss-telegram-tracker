@@ -8072,5 +8072,70 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-18"
+ },
+ "fdcd9a4a75a24fca": {
+  "url": "https://www.radicalnumerics.ai/blog/tessera-data-mixing",
+  "title": "Scaling data mixing for language and DNA pretraining — Radical Numerics",
+  "domain": "radicalnumerics.ai",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-22",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-12"
+ },
+ "58cba0040b161581": {
+  "url": "https://doi.org/10.48550/arxiv.2610.18415",
+  "title": "[2610.18415] Do Factuality Methods Make LLMs More Factual? Reproducibility and Fair Comparison",
+  "domain": "doi.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-22",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-13"
+ },
+ "c6bbcbb2fb9ac0f1": {
+  "url": "https://doi.org/10.48550/arxiv.2609.39321",
+  "title": "[2609.39321] GRPO Training Dynamics for Small Language Models",
+  "domain": "doi.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-22",
+  "tier": "skip",
+  "why": "",
+  "points": []
+ },
+ "1ff7537ebd46062d": {
+  "url": "https://www.technolynx.com/post/empirical-nccl-benchmarking-to-guide-parallelism-strategy-at-scale/",
+  "title": "Empirical NCCL Benchmarking to Guide Parallelism Strategy at Scale | TechnoLynx",
+  "domain": "technolynx.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-22",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-01"
+ },
+ "71d3f36e19e28234": {
+  "url": "https://aniketkarneai.com/blog/2026-10-06-pegainfer-pure-rust-cuda-llm-inference-engine",
+  "title": "PegaInfer: A Pure-Rust + CUDA Inference Engine That Serves Qwen3.8-27B Without a Python Runtime — aniketkarneai.com | aniketkarneai.com",
+  "domain": "aniketkarneai.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-22",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-06"
+ },
+ "ea7a6a187b9f0719": {
+  "url": "https://dev.to/prodbymarcu/my-repair-loop-restarted-the-same-wrong-thing-16-times-39fh",
+  "title": "My repair loop restarted the same wrong thing 16 times - DEV Community",
+  "domain": "dev.to",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-22",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-24"
  }
 }
