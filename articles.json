@@ -107916,5 +107916,17 @@
    "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process."
   ],
   "published_on": "2026-11-21"
+ },
+ "4bf8745996d95d19": {
+  "feed": "Technica",
+  "title": "GLP-1 drugs could have a surprisingly large environmental payoff",
+  "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/",
+  "date": "2026-11-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GLP-1 weight-loss medicines such as Ozempic and Wegovy could affect much more than the waistlines of the people who take them. If widely used, our new research suggests these appetite-suppressing medicines could transform the global food system and free up vast areas of agricultural land. The global food system is ultimately driven by demand. If people eat less, producers respond, affecting production, prices, trade, and how much land is needed."
+  ],
+  "published_on": "2026-11-22"
  }
 }
