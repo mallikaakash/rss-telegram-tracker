@@ -107892,5 +107892,29 @@
   ],
   "published_on": "2026-11-20",
   "reject_reason": "off_topic"
+ },
+ "329b54ad7ed6f9bd": {
+  "feed": "Together AI",
+  "title": "Security event: Prompt leakage for requests in June and July of 2026",
+  "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+  "date": "2026-11-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Security event: Prompt leakage for requests in June and July of 2026 Webflow Analyze/Optimize tracking bridge --> Introducing Polymorphic Inference, starting with Together Compiler → Introducing Together Post-Training: Better models, faster runs, lower costs → Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → GLM-5.3 vs."
+  ],
+  "published_on": "2026-11-21"
+ },
+ "0ceef4b235ec12c3": {
+  "feed": "Simon Willison",
+  "title": "Muru",
+  "link": "https://simonwillison.net/2026/Nov/21/muru/",
+  "date": "2026-11-22",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process."
+  ],
+  "published_on": "2026-11-21"
  }
 }
