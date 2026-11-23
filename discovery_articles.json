@@ -8137,5 +8137,62 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-24"
+ },
+ "f27d10ffdf510f92": {
+  "url": "https://arxiv.org/pdf/2607.07646v2",
+  "title": "How New Reasoning Strategies Emerge in RL Post-Training: A Controlled Study",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-11-17"
+ },
+ "d7a728187ff235cf": {
+  "url": "https://arxiv.org/html/2605.01188v3",
+  "title": "Compute Optimal Tokenization",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "reject_reason": "stale",
+  "published_on": "2026-11-20"
+ },
+ "7f89555c21cc2e70": {
+  "url": "https://arxiv.org/abs/2611.03146",
+  "title": "[2611.03146] Controlling Sharpening in LLM Post-Training",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-02"
+ },
+ "c0ae304e3beb454c": {
+  "url": "https://doi.org/10.48550/arxiv.2610.05978",
+  "title": "[2610.05978] Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+  "domain": "doi.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-05"
+ },
+ "7d78b976003ee60f": {
+  "url": "https://ishwarj.com/writings/deepseek-9-deepinfer/",
+  "title": "DeepInfer: How DeepSeek Serves Its Models, and How It Differs from vLLM and SGLang · Ishwar Jangid",
+  "domain": "ishwarj.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-23",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-10"
  }
 }
