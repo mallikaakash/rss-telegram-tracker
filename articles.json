@@ -107940,5 +107940,29 @@
    "Perplexity and Intelligence | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 22, 2026 Research Safety Perplexity and Intelligence By Jakub Pachocki, Chief Scientist at OpenAI Share From afar, it might seem like modern AI is built similarly to how software has been built in previous decades: with a diverse set of techniques targeting specific capabilities."
   ],
   "published_on": "2026-11-22"
+ },
+ "315fb775dc30231e": {
+  "feed": "MIT News (AI)",
+  "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
+  "link": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+  "date": "2026-11-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A new technique developed by MIT researchers could help engineers use artificial intelligence to streamline the design and innovation of analog integrated circuits, semiconductor chips that perform vital functions like communication and power management in electronic devices. In the future, this method could allow engineers to prototype faster, explore a wider range of chip designs, and discover new design schemes that might improve the performance and energy efficiency of robots, medical monitors, or industrial sensors."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "9b4a55165bbd72c3": {
+  "feed": "Simon Willison",
+  "title": "Select Styling Specimens",
+  "link": "https://simonwillison.net/2026/Nov/22/select-styling/",
+  "date": "2026-11-23",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser After some experimentation I've decided my favorite CSS for select boxes is this: select { appearance : none ; color : # 1f2933 ; padding : 0.5 em 2.25 em 0.5 em 0.75 em ; border : 1 px solid # c4cbd3 ; border-radius : 6 px ; background : # fff url ( \"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23667085' stroke-width='1.5'/%3E%3C/svg%3E\" ) no-repeat right 0.75 em center / 0.75 em ; } Here's what that looks like in the three browsers: Tags: tools , css , html"
+  ],
+  "published_on": "2026-11-22"
  }
 }
