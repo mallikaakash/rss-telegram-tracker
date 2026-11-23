@@ -107964,5 +107964,245 @@
    "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser After some experimentation I've decided my favorite CSS for select boxes is this: select { appearance : none ; color : # 1f2933 ; padding : 0.5 em 2.25 em 0.5 em 0.75 em ; border : 1 px solid # c4cbd3 ; border-radius : 6 px ; background : # fff url ( \"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23667085' stroke-width='1.5'/%3E%3C/svg%3E\" ) no-repeat right 0.75 em center / 0.75 em ; } Here's what that looks like in the three browsers: Tags: tools , css , html"
   ],
   "published_on": "2026-11-22"
+ },
+ "3f36a1cc93f51819": {
+  "feed": "Technica",
+  "title": "Trump halts Iowa detonation, says new governor to blame if it blows accidentally",
+  "link": "https://arstechnica.com/health/2026/11/trump-halts-iowa-detonation-says-new-governor-to-blame-if-it-blows-accidentally/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "President Trump took to social media Monday afternoon to announce that he has ordered the US military to halt plans to detonate 68 deteriorating barrels of lead azide at an Army ammunition plant in Middletown, Iowa. Trump claimed that the fate of the unstable, highly explosive material is now in the hands of a federal court and Rob Sand, Iowa's governor-elect, who won't be sworn into office until January."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "bcf32450cab1acca": {
+  "feed": "Google Research",
+  "title": "Supercharging transformer residual connections",
+  "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Supercharging transformer residual connections Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "9dddeb89e408dae0": {
+  "feed": "Google DeepMind",
+  "title": "Finding faster quantum algorithms with agents and formal verification",
+  "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Finding faster quantum algorithms with agents and formal verification â Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, posi"
+  ],
+  "published_on": "2026-11-23"
+ },
+ "1d0c151fefed0dea": {
+  "feed": "OpenAI News",
+  "title": "OpenAI and Cisco introduce Shirudo",
+  "link": "https://openai.com/index/introducing-shirudo",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "OpenAI and Cisco introduce Shirudo | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 23, 2026 Security OpenAI and Cisco introduce Shirudo An open-source runtime that helps operators protect running Linux systems without needing to wait for the patch or restarts Share How Shirudo works How Shirudo works Rethinking infrastructure Building in the open How Shirudo works Rethinking infrastructure Building in the open OpenAI and Cisco are launching Shirudo, an open-source runtime that helps teams protect Linux systems while they roll out patches."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "ca38829e73128713": {
+  "feed": "Hugging Face Blog",
+  "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+  "link": "https://huggingface.co/blog/allenai/robotrack",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "RoboTrack: Point tracking for real-world robotic manipulation Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> RoboTrack: Point tracking for real-world robotic manipulation Enterprise Article Published November 23, 2026 Upvote 1 Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> RoboTrack-Bench: A benchmark for point-tracking in real-world manipulation Point trackers struggle on real-world manipulation RoboTrack-15M: Simulation data from MolmoSpaces RoboTracker: Point tracker trained on simulated manipulation What makes good simulation data for point tracking?"
+  ],
+  "published_on": "2026-11-23"
+ },
+ "f82e2058d3bb9c30": {
+  "feed": "MIT News (AI)",
+  "title": "Many languages, one common neural code",
+  "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Languages take on thousands of forms. Some are tonal, like Vietnamese, where shifts in pitch convey distinct meanings. English relies on precise word orders, but this matters less for Russian, where words can be swapped without changing the intended message. Despite so much variety in the linguistic kingdom, an MIT study has found that the human brain may process all sorts of languages in a universal way."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "ca7cd22c6e9ceb90": {
+  "feed": "Simon Willison",
+  "title": "Ladybird's first alpha release",
+  "link": "https://simonwillison.net/2026/Nov/23/ladybird/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "1b4f5531137cfa0e": {
+  "feed": "Cloudflare Blog",
+  "title": "Probing DNS at Cloudflare",
+  "link": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Imagine this: you’ve just pushed a release. All the unit tests passed and your dashboards are green. You sit back to relax but then suddenly your phone starts blowing up: prod is broken. This is something the Cloudflare DNS team has experienced firsthand. In one rollout of the service that publishes DNS records to our edge, a scheduling bug let some record changes sit unpublished for hours."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "db5ec702beee3c50": {
+  "feed": "ClickHouse",
+  "title": "ClickHouse expands AWS strategic collaboration with a $1.5 billion-plus agreement to scale its unified enterprise AI data stack",
+  "link": "https://clickhouse.com/blog/clickhouse-expands-aws-strategic-collaboration-scale-unified-enterprise-ai-data-stack",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> ClickHouse expands AWS strategic collaboration with a $1.5 billion-plus agreement to scale its unified enterprise AI data stack | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "7f350655e5b458b5": {
+  "feed": "Fly.io",
+  "title": "Holding the Door for Agents",
+  "link": "https://fly.io/blog/holding-the-door-for-agents/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The agents, man. They’re everywhere. At least 55% of deployments to Fly.io are now performed by agents. Bots passed humans in web traffic for the first time this year, mostly driven by the surge in agent use. Just a year ago, Cursor had 2.5x as many autocomplete users as they did agent users. In February, they reported that the ratio had flipped, with agent users now outnumbering autocomplete by 2x."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "3609bd131e0aebca": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+  "link": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to... Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to circuit simulation and power grid analysis."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "afbf4ed7c77ae2c8": {
+  "feed": "Technica",
+  "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+  "link": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On Monday, Virginia and Oregon became the first states to sue SpaceX, alleging that Grok continues to sexualize, unchecked, real photos of mostly women and children. SpaceX acquired xAI in February and now must handle the ongoing reckoning over the controversial rollout of Grok’s “spicy mode”—a model feature Musk hyped but was soon found to generate a flood of non-consensual intimate imagery (NCII) and child sex abuse images (CSAM)."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "f8a4e02f42124693": {
+  "feed": "OpenAI News",
+  "title": "Connected intelligence for in-house legal",
+  "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Connected intelligence for in-house legal | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI November 23, 2026 Webinars Connected intelligence for in-house legal Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "6fd4c32fe34a4cba": {
+  "feed": "Hugging Face Blog",
+  "title": "How to build and maintain an agentic evaluation",
+  "link": "https://huggingface.co/blog/agentic-evals",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How to build and maintain an agentic evaluation Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> How to build and maintain an agentic evaluation Published November 23, 2026 Update on GitHub Upvote 23 +17 Avijit Ghosh evijit Follow ben burtenshaw burtenshaw Follow Irene Solaiman irenesolaiman Follow :last-child]:mb-0\"> Overview 1."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "d53a31dd809a7238": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
+  "link": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and applications. For developers using DuckDB, reducing... As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and applications. For developers using DuckDB, reducing query times helps keep analytics responsive and can lower compute costs."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "3f6e6e0248b4e820": {
+  "feed": "Technica",
+  "title": "Russia will launch a routine ISS supply mission tomorrow—apparently, it's a big secret",
+  "link": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It was the most simple of questions. On Monday afternoon, during a NASA news conference about the International Space Station, Space News reporter Jeff Foust asked about an upcoming launch of a Russian spacecraft. \"It's my understanding there's another cargo mission going to the ISS this week, a Russian Progress,\" Foust said. \"Can you confirm that, and give the date and time that will launch?\" This Progress MS-36 cargo launch, mind you, is presently scheduled for fewer than 16 hours from now, at 10:13 UTC (05:13 am ET) on Tuesday."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "680b35173b971311": {
+  "feed": "OpenAI News",
+  "title": "Richpanel helps companies automate 50% of support in 30 days",
+  "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Richpanel helps companies automate 50% of support in 30 days | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI November 23, 2026 Startup Richpanel helps companies automate 50% of support in 30 days Richpanel uses GPT‑6 Astra and GPT‑6.1 Sol to equip its AI support agents with tools and procedures, and GPT‑6 Luna for their conversations."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "a5c442dd902c96ee": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Connecting Energy Use to Scientific Output with Science per Joule",
+  "link": "https://developer.nvidia.com/blog/connecting-energy-use-to-scientific-output-with-science-per-joule/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "For high-performance computing (HPC) centers operating under a fixed power budget, every joule spent computing needs to translate into useful scientific work.... For high-performance computing (HPC) centers operating under a fixed power budget, every joule spent computing needs to translate into useful scientific work. Performance alone tells only part of the story: how much energy does it take to complete a simulation, predict a protein structure, or generate a protein design?"
+  ],
+  "published_on": "2026-11-18"
+ },
+ "88c939963f0ddfaf": {
+  "feed": "Technica",
+  "title": "Surveillance pricing uses our personal data to make us pay more",
+  "link": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "“It costs what it costs” is a mindset I’ve found useful when encountering a sizable, but highly necessary or desired, expense. The sentiment encourages me to accept the price because that’s the accepted value of the gadget, app, or service that I really need or want. But with surveillance pricing, that comfort is no longer a given. I could end up paying more for my TV because of where I am or more for a software subscription because of my age."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "f46bae4b16286eb3": {
+  "feed": "Technica",
+  "title": "Amazon fights Delivery Protection Act by putting stickers on its packages",
+  "link": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Amazon is placing a sticker on some of its delivery boxes to urge customers to oppose a New York City bill. This weekend, some Amazon shoppers reported getting a delivery from Amazon with a sticker on it that reads: “NYC Council could add up to $5 per order. Act now to protect low prices.” The sticker reportedly includes a QR code that leads to a link for contacting NYC Councilmembers."
+  ],
+  "published_on": "2026-11-23"
  }
 }
