@@ -108336,5 +108336,243 @@
    "Las Vegas welcomed Formula 1 to its streets this past weekend. And for the first time since the event’s inception in 2023 , the Grand Prix delivered on a long-promised spectacle. The racing was closer to an IndyCar oval race than anything F1 fans will have seen since slipstreaming was the order of the day at places like Monza and Hockenheim, back when humans were still landing on the Moon and downforce had yet to fundamentally change racing."
   ],
   "published_on": "2026-11-23"
+ },
+ "30d256445c7cbe36": {
+  "feed": "Technica",
+  "title": "What's going on with the Riemann hypothesis?",
+  "link": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last week, news broke that a mathematician had used AI to help crack one of the biggest outstanding problems in math: a proof of the Riemann hypothesis . The news follows several other major breakthroughs in math that have either been enabled by or managed entirely by large language model-based systems, a development that has left the entire field of mathematics in a state of upset."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "3c6728c1bfd19879": {
+  "feed": "OpenAI News",
+  "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT-6 models demonstrate intrinsic protein-design capabilities | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI November 24, 2026 Science Publication GPT‑6 models demonstrate intrinsic protein-design capabilities Read the paper (opens in a new window) Share Key findings: Key findings: A closer look at our models’ protein designs Laboratory Experiment 1: Designing small proteins that bind to a target Laboratory Experiment 2: Designing new sequences for 3D protein structures Redesigning the parts of an antibody that bind to a target What else can our models design and predict?"
+  ],
+  "published_on": "2026-11-24"
+ },
+ "16565a3f5dc091b0": {
+  "feed": "Hugging Face Blog",
+  "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+  "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton Enterprise + Article Published November 24, 2026 Upvote 5 Oluwaseun Doherty seun-doherty Follow nvidia Oyindamola Omotuyi OOyindamola Follow nvidia Richard AntRi31 Follow nvidia :last-child]:mb-0\"> TL;DR Introduction 1."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "58c64dd3bfb5f2ac": {
+  "feed": "MIT News (AI)",
+  "title": "Agentic system personalizes physical controls to help users “DJ their art”",
+  "link": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In 2017, Apple removed the home button from its iPhones. Users lost a convenient, tangible control — part of a larger shift to digital buttons, knobs, and sliders we also see in cars (like with radio presets and air conditioning) and kitchens (see smart fridges). We can’t leave physical controls behind entirely, though. They tend to be more convenient and efficient — think of how you can use a physical gaming controller without looking at it — and, at times, more precise, like when you use a dial to get the volume just right."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "c808d58c8ec473e8": {
+  "feed": "Simon Willison",
+  "title": "GPT 6.2 Astra Solves a Historical Mystery",
+  "link": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary and secondary sources."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "4c92b4223b9f3eb1": {
+  "feed": "ClickHouse",
+  "title": "Durable and auditable workflows with DBOS and ClickHouse Managed Postgres",
+  "link": "https://clickhouse.com/blog/dbos-clickhouse-managed-postgres-durable-workflows",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Durable and auditable workflows with DBOS and ClickHouse Managed Postgres | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "e9503c7ee73cecd4": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+  "link": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world... Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world foundation model that generates videos from text, images, and other inputs to support physical AI development."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "94d436b42152137d": {
+  "feed": "Notion",
+  "title": "Research on the shape of context at work",
+  "link": "https://www.notion.com/blog/research-on-the-shape-of-context-at-work",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Research on the shape of context at work Product Features See all features Capture Bring everything into one system of record. Find Get answers, instantly—with citations. Automate Keep work moving 24/7 with agents. . See what’s new Download the Notion App Resources Notion for Enterprise Small businesses Startups Developers Discover What's New Customer stories Webinars Templates Consultants Learn Academy Product tours Help Center Pricing Request a demo Log in Get Notion free All posts ← ← All posts Published November 23, 2026 in For Teams Research on the shape of context at work By Makenna Lowe Head of Market Research, Notion Share this post Across thousands of professional Notion workspaces, teams using Notion’s most advanced AI features make up to 4.3× as many workspace contributions per person as teams that don’t use Notion AI at all."
+  ]
+ },
+ "6699b72eedc633be": {
+  "feed": "LinkedIn Engineering",
+  "title": "Where Agents Meet the Browser: Building a Browser-Native Agent",
+  "link": "https://www.linkedin.com/blog/engineering/ai/where-agents-meet-the-browser-building-a-browser-native-agent",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Where Agents Meet the Browser: Building a Browser-Native Agent Skip to main content Engineering Blog Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership AI Where Agents Meet the Browser: Building a Browser-Native Agent Authored by Chenjie Yu November 24, 2026 Co-authors: Co-authored by Chenjie Yu and Co-authored by Min Chen Disconnected Workflows Across Browser Tabs Ask an engineer, a marketing manager, or a program manager where their day is spent, and the answer is often in a browser: an issue tracker in one tab, a wiki in another, a chat thread, a spreadsheet, an internal dashboard, and a code review."
+  ]
+ },
+ "4a888669ef9ffb44": {
+  "feed": "Technica",
+  "title": "Back-to-back measles deaths is our new reality; US tally now at 14",
+  "link": "https://arstechnica.com/health/2026/11/measles-death-toll-rises-to-14-as-national-case-tally-nears-6000/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Last week, international health authorities formally announced that the US had lost its measles-elimination status, meaning that the virus is once again endemic. But the official determination is a bit like getting the technical readout of a cracked dam while the country is already feet under water. The national tally of measles cases is nearing 6,000 for the year, the highest count since 1991."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "f3aa9260f1094b37": {
+  "feed": "OpenAI News",
+  "title": "Searching for distant planets with Astra",
+  "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Searching for distant planets with Astra | OpenAI Skip to main content Research Products Business Developers Company Foundation (opens in a new window) Log in Try ChatGPT (opens in a new window) Research Products Business Developers Company Foundation (opens in a new window) Try ChatGPT (opens in a new window) Login OpenAI An illustrated view of HD 164604 b zooms out to the Milky Way."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "20705cda544d95f0": {
+  "feed": "ClickHouse",
+  "title": "PostgreSQL 19 on ClickHouse Managed Postgres, from day one",
+  "link": "https://clickhouse.com/blog/postgresql-19-on-clickhouse-managed-postgres-from-day-one",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> PostgreSQL 19 on ClickHouse Managed Postgres, from day one | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "a8b1a179729c3f25": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Prepare Market Data for Forecasting with NVIDIA Megatron Core",
+  "link": "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market... Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market forecasting requires turning price and volume histories into consistent inputs for model training and inference."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "11c9e9b6eedcb890": {
+  "feed": "Technica",
+  "title": "Amazon drone crashes on garage after delivering shampoo, draws FAA probe",
+  "link": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "An Amazon delivery drone that clipped a fiber-optic line before crashing onto a garage roof is now the subject of an investigation by the US Federal Aviation Administration. It’s the latest delivery drone mishap caught on video as Amazon and other companies are ramping up such aerial delivery operations across the United States. The November 20 incident began with Jim Brennan and his wife, residents of Huntington Woods, Michigan, placing an order for shampoo and being surprised by a notification about the package arriving by drone within seven minutes, according to WXYZ 7 News Detroit ."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "ec442b764e041cd2": {
+  "feed": "OpenAI News",
+  "title": "How Intentful uses dots to make more time for growth",
+  "link": "https://openai.com/business/customer-stories/intentful-dots",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How Intentful uses dots to make more time for growth | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI November 24, 2026 How Intentful uses dots to make more time for growth How a small business founder’s dot helps her with research and proposals, while alerting her to critical messages and resolving issues."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "2d1b2528ba284734": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "What’s New for Game Developers: AI Animation and RTX Tools",
+  "link": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image... This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image quality, performance, and creative intent."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "6382aa733e8c6ae1": {
+  "feed": "Technica",
+  "title": "Amazon discovers Falcon 9 and Ariane 6 can deliver when nobody else can",
+  "link": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "A European Ariane 6 launcher propelled 36 satellites into orbit for the Amazon Leo broadband constellation Tuesday, continuing the network's build-out after 40 satellites were lost earlier this month during a failure of United Launch Alliance's Vulcan rocket . The launch was an important rebound for Amazon, bringing the Amazon Leo fleet to 432 satellites as the company seeks to fill the void left by the grounding of ULA's Vulcan rocket, Amazon's primary launch provider."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "7a6462e387eb267a": {
+  "feed": "OpenAI News",
+  "title": "How iFood scales coding agents across 15,000 repositories",
+  "link": "https://openai.com/business/customer-stories/ifood",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "How iFood scales coding agents across 15,000 repositories | OpenAI Skip to main content Why OpenAI Products Solutions Resources Customers Pricing Try OpenAI Contact sales Why OpenAI Products Solutions Resources Customers Pricing Contact sales Try OpenAI OpenAI November 24, 2026 How iFood scales coding agents across 15,000 repositories Contact sales Company size: Enterprise Region: Latin America Industry: Technology Products: API 15,000 code repositories at iFood 25,000+ runs completed by the platform US$0.04 average inference cost per run 2x+ as many vulnerabilities fixed through the security platform Share The challenge isn’t the task—it’s the scale The challenge isn’t the task—it’s the scale A coding agent in the cloud, accessible through an API Why GPT-5.6 Luna How to tell whether the agent completed the task The first major user: security Asynchronous execution gives developers their time back Modeled on the APIs that inspired it Results at a glance Lessons for leaders Tips Next steps The challenge isn’t the task—it’s the scale A coding agent in the cloud, accessible through an API Why GPT-5.6 Luna How to tell whether the agent completed the task The first major user: security Asynchronous execution gives developers their time back Modeled on the APIs that inspired it Results at a glance Lessons for leaders Tips Next steps The Remote Agents Platform turned engineering tasks into API calls: teams delegate the work, execution takes place in a remote sandbox, and the result comes back as a merge request."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "0111e3975aa64d68": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Q&amp;A: How Everstone Brings Where Winds Meet to Life with NVIDIA DLSS 5",
+  "link": "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Where Winds Meet moves between distant mountain landscapes, bustling streets, and quiet moments with its characters. For Everstone Studio, bringing more... Where Winds Meet moves between distant mountain landscapes, bustling streets, and quiet moments with its characters. For Everstone Studio, bringing more realistic lighting and materials to this wuxia world means keeping its aesthetics, recognizable characters, and carefully composed atmosphere intact."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "bf9e1c07c54e34a6": {
+  "feed": "Technica",
+  "title": "How brewers can protect beers from smoke-tainted hops",
+  "link": "https://arstechnica.com/science/2026/11/how-brewers-can-protect-beers-from-smoke-tainted-hops/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The 2020 Oregon wildfires burned over 1 million acres, destroyed thousands of structures, and killed 11 people. Smoke from the fires spread across the entire region; this \"smoke taint\" adversely affected not only local wine production , but also hops grown for beer brewing. Since the Pacific Northwest produces more than 95 percent of US hops and about 40 percent of the global supply, the potential economic impact is significant."
+  ],
+  "published_on": "2026-11-24"
  }
 }
