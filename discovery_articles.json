@@ -8194,5 +8194,49 @@
   "why": "",
   "points": [],
   "published_on": "2026-11-10"
+ },
+ "9bc2c2cb160e5145": {
+  "url": "https://wenhaochai.com/exps/synth-pretrain.html",
+  "title": "Pretraining on Text Written by a Frontier LLM | Wenhao Chai",
+  "domain": "wenhaochai.com",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-24",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-14"
+ },
+ "d1592f4dc6167be4": {
+  "url": "https://arxiv.org/html/2611.03146",
+  "title": "Controlling Sharpening in LLM Post-Training",
+  "domain": "arxiv.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-24",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-02"
+ },
+ "cb245c7c4691ccbb": {
+  "url": "https://doi.org/10.48550/arxiv.2610.14270",
+  "title": "[2610.14270] The Thinking Leakage in Reinforcement Learning for LLMs",
+  "domain": "doi.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-24",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-09"
+ },
+ "26dab58b69193de0": {
+  "url": "https://sanjeevganjihal.substack.com/p/deepseek-gave-away-its-inference",
+  "title": "DeepSeek Gave Away Its Inference Engine. It Kept the Cache.",
+  "domain": "sanjeevganjihal.substack.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-24",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-20"
  }
 }
