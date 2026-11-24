@@ -108204,5 +108204,137 @@
    "Amazon is placing a sticker on some of its delivery boxes to urge customers to oppose a New York City bill. This weekend, some Amazon shoppers reported getting a delivery from Amazon with a sticker on it that reads: “NYC Council could add up to $5 per order. Act now to protect low prices.” The sticker reportedly includes a QR code that leads to a link for contacting NYC Councilmembers."
   ],
   "published_on": "2026-11-23"
+ },
+ "34d720d7557eb60d": {
+  "feed": "Technica",
+  "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
+  "link": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Western intelligence officials worry that Russia could launch a nuclear-armed satellite into orbit before the end of the year, suggesting the country's development of a satellite-killing weapon of mass destruction is more advanced than previously thought, German media reported Monday. The orbiting nuclear weapon would threaten thousands of satellites in low-Earth orbit, including military and commercial communications networks like Starshield and Starlink."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "dea2f8e3c06e9a06": {
+  "feed": "Simon Willison",
+  "title": "datasette-charts 0.2a0",
+  "link": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Download the video (MP4) I prompt Datasette Agent to \"Use #stats to show sqlite-utils downloads over time as a chart\" - where typing \"#stats\" opens a table search box."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "0061038fb64e500b": {
+  "feed": "Stripe Blog",
+  "title": "Custom software, specialized workflows, and other new growth paths from SaaS Platform Summit",
+  "link": "https://stripe.com/blog/custom-software-specialized-workflows-and-other-new-growth-paths-from-saas-platform-summit",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Custom software, specialized workflows, and other new growth paths from SaaS Platform Summit 8 sales reps available We're here to discuss your business needs. Chat now with sales Stripe logo Products Solutions Developers Resources Pricing Dashboard Sign in Sign in Contact sales Stripe logo Back Products Solutions Developers Resources Pricing Dashboard Sign in Sign in See all products Explore our full product catalog Payments Payments Online payments Managed Payments Merchant of record solution Payment links No-code payments Checkout Prebuilt payment UIs Elements Flexible UI components Payment methods Access to 125+ Terminal In-person payments Authorization Boost Acceptance optimizations Link Accelerated checkout Financial Connections Linked financial account data Revenue Billing Recurring revenue Metronome Usage-based billing Subscriptions Subscription management Invoicing One-time or recurring Tax Sales tax & VAT automation Revenue Recognition Accounting automation Stripe Sigma Custom reports Data Pipeline Data sync Money management Treasury Business finances Global Payouts Payouts to third parties Capital Business financing Crypto Wallet, stablecoin issuing, and card infrastructure Crypto Onramp Embeddable crypto purchases Embedded Finance Connect Payments for platforms Capital for platforms Customer financing Treasury for platforms Embedded financial services Issuing Physical and virtual cards More Product roadmap See what’s ahead Radar Fraud prevention Atlas Startup incorporation Climate Carbon removal Identity Online identity verification Stripe Sessions 2027 Join us in San Francisco to see what’s next for the AI economy."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "53ecd8bdb026d603": {
+  "feed": "ClickHouse",
+  "title": "Your agents don't care that you're a batch shop",
+  "link": "https://clickhouse.com/blog/your-agents-dont-care-that-youre-a-batch-shop",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Your agents don't care that you're a batch shop | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "f205e38d2cf732ac": {
+  "feed": "Technica",
+  "title": "Marvel crams every superhero ever into Avengers: Doomsday final trailer",
+  "link": "https://arstechnica.com/culture/2026/11/marvel-crams-every-superhero-ever-into-avengers-doomsday-final-trailer/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Rumors have been swirling for days that we would be getting a final trailer for Avengers: Doomsday , the penultimate film in the Marvel Cinematic Universe’s Phase Six, heralding the end of the so-called “Multiverse Saga.” The rumors were true: Marvel just released the trailer, featuring pretty much every superhero ever represented in the MCU. And it looks like the Avengers will face consequences for messing with the timeline to reverse the blip in Endgame ."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "80ee2a6733f186e4": {
+  "feed": "Simon Willison",
+  "title": "datasette-agent 0.7a1",
+  "link": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way that changes state."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "e09aa9a8dd804800": {
+  "feed": "Technica",
+  "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+  "link": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Nvidia's board of directors has voted to reinstate Jensen Huang as CEO and chairman of the board, just 11 days after he resigned in the wake of multiple scandals . The reinstatement, announced Monday morning , is \"effective immediately\" and was based in part on \"input from senior levels of the United States government\" that assured the board members that \"Mr."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "efc98a45d9318282": {
+  "feed": "Simon Willison",
+  "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+  "link": "https://simonwillison.net/2026/Nov/23/glm-54/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "fd3c1132cf6baf47": {
+  "feed": "Technica",
+  "title": "COP31 ends in failure as countries split over fossil fuels, climate finance",
+  "link": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "ANTALYA, Turkey—By the time the United Nations COP31 climate talks ended Sunday afternoon, the conference center resembled a going-out-of-business sale at a pawnshop for broken dreams. As cleaning crews cleared away the debris left by more than 100,000 participants, Murat Kurum, president of the Conference of the Parties and Turkey’s minister of environment, urbanization, and climate change, tried to tie together disparate parts of a draft climate deal with a shiny ribbon of multilateralism."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "5f7392aa1315ab7d": {
+  "feed": "Simon Willison",
+  "title": "datasette-charts 0.1a0",
+  "link": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here . It looks like this: The new charts plugin works against any table or arbitrary SQL query in Datasette."
+  ],
+  "published_on": "2026-11-23"
+ },
+ "4fc9328efd4a926e": {
+  "feed": "Technica",
+  "title": "F1 in Las Vegas: You've never seen an F1 race like this before",
+  "link": "https://arstechnica.com/cars/2026/11/f1-in-las-vegas-youve-never-seen-an-f1-race-like-this-before/",
+  "date": "2026-11-24",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Las Vegas welcomed Formula 1 to its streets this past weekend. And for the first time since the event’s inception in 2023 , the Grand Prix delivered on a long-promised spectacle. The racing was closer to an IndyCar oval race than anything F1 fans will have seen since slipstreaming was the order of the day at places like Monza and Hockenheim, back when humans were still landing on the Moon and downforce had yet to fundamentally change racing."
+  ],
+  "published_on": "2026-11-23"
  }
 }
