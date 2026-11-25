@@ -108574,5 +108574,125 @@
    "The 2020 Oregon wildfires burned over 1 million acres, destroyed thousands of structures, and killed 11 people. Smoke from the fires spread across the entire region; this \"smoke taint\" adversely affected not only local wine production , but also hops grown for beer brewing. Since the Pacific Northwest produces more than 95 percent of US hops and about 40 percent of the global supply, the potential economic impact is significant."
   ],
   "published_on": "2026-11-24"
+ },
+ "a48327b0b03e1841": {
+  "feed": "Technica",
+  "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+  "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
+  "date": "2026-11-25",
+  "tier": "low_priority",
+  "why": "News about Mars rover hardware and communication issues has no relevance to ML or backend engineering.",
+  "points": [
+   "NASA's Perseverance rover and Odyssey orbiter suspended science operations due to communication and technical anomalies."
+  ],
+  "published_on": "2026-11-24",
+  "reject_reason": "off_topic"
+ },
+ "99b93f3e10984935": {
+  "feed": "OpenAI News",
+  "title": "Clay helps sales teams win with Codex and ChatGPT",
+  "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+  "date": "2026-11-25",
+  "tier": "low_priority",
+  "why": "A standard customer marketing case study on sales tooling with no technical depth or architecture insights.",
+  "points": [
+   "Clay integrates OpenAI models into sales workflows for account research and automated enrichment."
+  ],
+  "published_on": "2026-11-24",
+  "reject_reason": "marketing"
+ },
+ "d0a3a7f662b58965": {
+  "feed": "Hugging Face Blog",
+  "title": "An Indic Voice Agent with CUGA",
+  "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "Provides a practical design pattern for low-resource multilingual voice agents and cross-lingual RAG.",
+  "points": [
+   "Decouples voice from reasoning by wrapping an embedded text RAG agent (CUGA) with thin STT and TTS layers.",
+   "Tackles cross-lingual retrieval where non-English user queries search English reference documentation.",
+   "Supports pluggable speech engines across browser cloud APIs (Sarvam AI) and self-hosted models (SraVaani, Svara)."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "8caf92805426b7bd": {
+  "feed": "Simon Willison",
+  "title": "Three LLM inflection points in twelve months",
+  "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+  "date": "2026-11-25",
+  "tier": "worth_a_skim",
+  "why": "Good high-level analysis of recent inflection points in agentic coding behaviors and autonomous tool creation.",
+  "points": [
+   "Traces the transition from fragile assistive coding models to reliable daily drivers like Claude Opus 4.5 and Codex.",
+   "Defines proactive agent behavior, where models independently generate auxiliary tools and local servers to diagnose bugs."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "cd6ad23f7e9994c9": {
+  "feed": "Sakana AI",
+  "title": "Sakana Namazu Small",
+  "link": "/namazu-small/",
+  "date": "2026-11-25",
+  "tier": "must_read",
+  "why": "Directly relevant to SLMs and post-training, showing a 30B reasoning model beating a 120B architecture.",
+  "points": [
+   "Applies domain continued pretraining and reasoning post-training onto NVIDIA Nemotron 3 Nano (30B-A3B).",
+   "Outperforms the 4x larger Nemotron 3 Super (120B) across 25 benchmarks, notably on BrowseComp (73.5 vs 36.1) and LongBench.",
+   "Tailored for long-context grounded search while maintaining an on-premise runnable footprint."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "5ce3ed5a9fcd22ed": {
+  "feed": "Technica",
+  "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+  "link": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+  "date": "2026-11-25",
+  "tier": "must_read",
+  "why": "A critical distributed systems post-mortem revealing catastrophic failure cascade dynamics and slow deployment pipelines.",
+  "points": [
+   "Outage stemmed from an undetected Windows scalability defect causing lock contention in gateway processes under normal maintenance drain.",
+   "Teams failover traffic dumped unmanageable load onto already degraded gateway capacity, causing widespread service failure.",
+   "Internal memos revealed emergency production rollouts took 5-6 days to saturate globally against an intended 1-hour target."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "ea6f6f7490b23d7d": {
+  "feed": "Technica",
+  "title": "Kalshi makes “difficult decision” to halt Utah trading after losing court fights",
+  "link": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/",
+  "date": "2026-11-25",
+  "tier": "low_priority",
+  "why": "Prediction market legal and state regulatory disputes are completely outside your technical priorities.",
+  "points": [
+   "Kalshi paused operations in Utah after failing to secure a court injunction against state gambling enforcement."
+  ],
+  "published_on": "2026-11-24",
+  "reject_reason": "off_topic"
+ },
+ "34b536284971b1a8": {
+  "feed": "Technica",
+  "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+  "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+  "date": "2026-11-25",
+  "tier": "low_priority",
+  "why": "Consumer streaming platform policy news concerning AI-generated music with zero engineering takeaway.",
+  "points": [
+   "Tidal is purging 27 million fully AI-generated tracks after upload rates surged to 60% of new catalog volume."
+  ],
+  "published_on": "2026-11-24",
+  "reject_reason": "off_topic"
+ },
+ "52ebfa6a66282371": {
+  "feed": "Technica",
+  "title": "Porsche 718 Boxster prototype drive: This electric roadster is real",
+  "link": "https://arstechnica.com/cars/2026/11/fake-gears-and-real-911-dna-driving-porsches-electric-718-boxster/",
+  "date": "2026-11-25",
+  "tier": "low_priority",
+  "why": "Automotive review of an electric sports car prototype, completely off-target.",
+  "points": [
+   "Porsche designed the electric 718 Boxster with mid-mounted batteries rather than a skateboard platform to preserve low seating position."
+  ],
+  "published_on": "2026-11-24",
+  "reject_reason": "off_topic"
  }
 }
