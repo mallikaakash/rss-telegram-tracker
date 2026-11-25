@@ -108694,5 +108694,149 @@
   ],
   "published_on": "2026-11-24",
   "reject_reason": "off_topic"
+ },
+ "6f937299d9db2129": {
+  "feed": "Technica",
+  "title": "Backblaze explains why it's sharing customer information with advertisers",
+  "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Some customers have raised concerns about Backblaze's privacy policy taking effect next month, which says the backup and cloud storage company may sell certain personal information to advertisers. Backblaze’s current privacy policy says that in addition to the personal information that users may provide, such as their email address when creating an account, it may also “automatically” collect information, such as “your software, the operating system you use when accessing our service, your Internet Protocol address, and the date and time of each request you make to Backblaze.” The current policy adds: “Under no circumstances do we rent, trade, or share your address or e-mail address with any other company for their marketing purposes without your consent.” It also makes no mention of advertisers."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "040b9138c7904e7b": {
+  "feed": "Google Research",
+  "title": "Verifiable Social Reasoning for LLM Assistants",
+  "link": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Verifiable Social Reasoning for LLM Assistants Skip to main content Explore our many areas of focus Explore all research areas Applied AI & sciences Earth AI Health AI Science AI Sustainability & crisis resilience Foundational ML & algorithms Algorithms & theory Information retrieval Machine intelligence Machine perception Natural language processing People, systems & quantum AI Human-computer interaction and visualization Networking Quantum AI Responsible AI Anti abuse Software engineering Software systems Learn More Publications Projects Building a collaborative ecosystem Datasets Access high-quality datasets to accelerate your research."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "dd94f7af62fb3fa3": {
+  "feed": "Google DeepMind",
+  "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+  "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Identifying Molecules with Mass Spec Skills for Antigravity â Google DeepMind Skip to main content Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity Our mission is to build AI responsibly to benefit humanity About Google DeepMind Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impact on the world Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Models Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio Specialized models Veo Generate cinematic video with audio Lyria Generate high fidelity music and audio Genie Generate and explore interactive worlds Gemini Robotics Perceive, reason, use tools and interact Open models Gemma Build responsible AI applications at scale Research Our latest AI breakthroughs and updates from the lab Explore research Breakthroughs SIMA An agent that plays, reasons, and learns with you Genie Generate and explore interactive worlds AlphaGo Mastering the game of Go Gemini Robotics Perceive, reason, use tools and interact Learn more Evals Publications Responsibility Frontier safety Science Unlocking a new era of discovery with AI Explore science Breakthroughs AlphaFold Predict protein structures with high accuracy AlphaGenome Using AI to understand the human genome WeatherNext Fast and accurate AI weather forecasting AlphaEarth Map our planet in unprecedented detail AlphaEvolve Design advanced algorithms for math and applications in computing Learn more Gemini for Science Experimental Tools Science on Antigravity About Our mission is to build AI responsibly to benefit humanity About Google DeepMind Learn more Education Our National Partnerships for AI Accelerator programs The Podcast DeepMind Institute Responsibility Ensuring AI safety through proactive security, even against evolving threats News Discover our latest AI breakthroughs, projects, and updates Careers Weâre looking for people who want to make a real, positive impac"
+  ],
+  "published_on": "2026-11-24"
+ },
+ "37b5c9ba93266751": {
+  "feed": "Hugging Face Blog",
+  "title": "Where scientists draw the line on AI agents",
+  "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Where scientists draw the line on AI agents Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing More Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Where scientists draw the line on AI agents Enterprise Article Published November 25, 2026 Upvote 3 Kyle Wiggers Ai2Comms Follow allenai :last-child]:mb-0\"> Helping researchers check the work Keep scientific judgment in the loop Build AI agents alongside scientists 📄 Tech Report Delegating research tasks to AI does not remove scientists’ responsibility for how the work is accomplished."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "7cb7c8d50481febe": {
+  "feed": "Cloudflare Blog",
+  "title": "Introducing Search for Agents",
+  "link": "https://blog.cloudflare.com/search-for-agents/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "AI Search , our service that indexes your content and lets you add search to any application or agent without having to build an entire retrieval infrastructure, has supported adding your website as a data source for a while now, automatically crawling, converting and indexing its pages. Still, setting up an AI Search instance for your website requires manually creating and configuring it initially, and then doing all the integration work to get the search endpoints available from your domain and to make sure that agents know where to find the index and know how to use it."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "1b2e78da4c9fda21": {
+  "feed": "ClickHouse",
+  "title": "How well is ClickHouse tested? A detailed view of increasing our own coverage",
+  "link": "https://clickhouse.com/blog/how-well-is-clickhouse-tested",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> How well is ClickHouse tested? A detailed view of increasing our own coverage | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "4311b870008e9ffc": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
+  "link": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and... Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and NVIDIA Blackwell data center GPUs, FlashAttention3 and FlashAttention4 improve attention performance by overlapping matrix multiply-accumulate (MMA) operations through softmax within a thread block."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "8540e8010e35347f": {
+  "feed": "Technica",
+  "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+  "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In an extraordinary decision, the Federal Communications Commission on Wednesday granted SpaceX conditional authorization to deploy a constellation of up to 1 million Starmind satellites designed to serve as orbital data centers. If fully deployed, this constellation would increase the number of satellites in orbit by roughly 50-fold. \"The United States is moving decisively to ensure that this breakthrough technology creates opportunity, drives investment, and delivers lasting benefits for the American people,\" FCC Chairman Brendan Carr said in a statement on Wednesday."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "d8d6777ecf090783": {
+  "feed": "Hugging Face Blog",
+  "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+  "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000 Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing More Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000 Published November 25, 2026 Update on GitHub Upvote 2 Niels Rogge nielsr Follow :last-child]:mb-0\"> The setup Results Why it stops around 190 tok/s What didn't work vLLM SGLang Benchmarking gotchas Verification and deployment Inkling 2 Mini came out last week and sets a new state of the art for local AI and smaller open-source models."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "863ac3a2c21b8655": {
+  "feed": "Technica",
+  "title": "Ladybird browser's first downloadable alpha is surprisingly capable",
+  "link": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Note: At the time of writing, I was unaware of criticism directed at Ladybird creator Andreas Kling’s public statements. Readers interested in this background can find further context in accounts by Kelson Vibber and Drew DeVault . After four years of work to build a browser engine from scratch, the Ladybird project released its first downloadable alpha on November 23, offering prebuilt versions for macOS and Linux."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "61ca50113ad58c56": {
+  "feed": "Technica",
+  "title": "Etsy clarifies AI terms after seller backlash",
+  "link": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "After backlash from sellers frustrated by Etsy’s new AI policies, which appeared to allow the company to train AI on user artwork, Etsy has now clarified its stance. In a note published on Monday, CEO Kruti Patel Goyal discussed recent tweaks to the company's terms of service and admitted that her team \"should’ve given you more context on what the updates meant for your creative content.\" “Our recent terms update was meant to reflect the evolving technologies we're using to build better tools and experiences for sellers and the Etsy community,” Goyal wrote this week."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "148a75b422c2ea8b": {
+  "feed": "Technica",
+  "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
+  "link": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Drone attacks on data centers. Amazon data centers came under military attack for the first time ever in the Middle East this year, and Russia and Ukraine exchanged an unprecedented flurry of drone strikes on each other’s data centers. To examine what such attacks on data centers mean for the future of cloud services that all modern societies depend upon, Ars hosted a live discussion."
+  ],
+  "published_on": "2026-11-25"
  }
 }
