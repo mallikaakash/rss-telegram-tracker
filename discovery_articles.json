@@ -8238,5 +8238,60 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-20"
+ },
+ "8852f8d927311fce": {
+  "url": "https://doi.org/10.5281/zenodo.24329096",
+  "title": "The Rules Behave as Derived; the Implementation Did Not: A Post Hoc Ten-Seed Study of LoRA, GRPO, and DPO Rebuilt in NumPy, in Which Full Fine-Tuning Beat the Rank 2 Adapter and a GRPO Gradient Defect Was Found and Kept on the Record | Zenodo",
+  "domain": "doi.org",
+  "query": "An obscure but rigorous engineering write-up on post-training techniques for language models: RLHF, GRPO, DPO, or reasoning RL, with real ablations.",
+  "date": "2026-11-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-18"
+ },
+ "dff586536f997f95": {
+  "url": "https://aicassindra.com/blogs/gpu/training_on_thousands_gpus.html",
+  "title": "Training on Thousands of GPUs, in depth: composing TP, PP and DP, mapping the mesh to the network, and a full step budget for 70B on 1,024 GPUs — Belgavi.AI Lab",
+  "domain": "aicassindra.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-07"
+ },
+ "7514ab01099af361": {
+  "url": "https://arxiv.org/abs/2610.37842",
+  "title": "[2610.37842] Improving Data-Constrained Scaling with Hyperparameter Transfer and Ensembling",
+  "domain": "arxiv.org",
+  "query": "An under-the-radar research paper or preprint with a surprising or counter-intuitive finding about scaling laws, tokenizers, or small language models.",
+  "date": "2026-11-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-27"
+ },
+ "235e6f03884279f1": {
+  "url": "https://aniketkarneai.com/blog/2026-10-20-deepinfer-155-trillion-tokens-a-day-and-a-kv-cache-on-the-filesystem/",
+  "title": "DeepInfer: 155 Trillion Tokens a Day, $38 a GPU-Hour, and a KV Cache on the Filesystem — aniketkarneai.com | aniketkarneai.com",
+  "domain": "aniketkarneai.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-20"
+ },
+ "ab968904957f66b5": {
+  "url": "https://vramcalculator.com/nvidia-flare-local-inference-server/",
+  "title": "What Is NVIDIA Flare and Can It Run on Your Machine?",
+  "domain": "vramcalculator.com",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-25",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-25"
  }
 }
