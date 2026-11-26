@@ -108838,5 +108838,197 @@
    "Drone attacks on data centers. Amazon data centers came under military attack for the first time ever in the Middle East this year, and Russia and Ukraine exchanged an unprecedented flurry of drone strikes on each other’s data centers. To examine what such attacks on data centers mean for the future of cloud services that all modern societies depend upon, Ars hosted a live discussion."
   ],
   "published_on": "2026-11-25"
+ },
+ "3e56a8e6d42a378d": {
+  "feed": "Technica",
+  "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+  "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Four years ago, NASA dispatched a small spacecraft on a suicide mission to show how humanity might deflect an asteroid on a collision course with Earth. The first-of-its-kind experiment worked beautifully as the solar-powered space probe slammed into asteroid Dimorphos, permanently altering its trajectory. Using telescopes, astronomers measured changes in the orbit of Dimorphos around a larger asteroid companion named Didymos in the aftermath of NASA's Double Asteroid Redirection Test (DART) mission."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "d3aa48daa62df585": {
+  "feed": "Hugging Face Blog",
+  "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+  "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing More Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference Enterprise + Article Published November 26, 2026 Upvote 6 Ryan Chesler emelryan Follow nvidia Marek Wawrzos mwawrzos Follow nvidia Steve Han steve-nvidia Follow nvidia :last-child]:mb-0\"> What Parse 3.5 produces SFT teaches the capability; RLVR improves consistency Faster inference through architecture and DFlash2 Apply the same SFT/RLVR approach to your documents We recently released NVIDIA Nemotron 3.5 Parse , a compact document model that turns page images into structured data for retrieval-augmented generation (RAG) and agents."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "d46aff2bf273817a": {
+  "feed": "Together AI",
+  "title": "Distilling Kimi-K3.1-Pro into Qwen3.8-27B: Teaching a model a new language",
+  "link": "https://www.together.ai/blog/distilling-kimi-into-qwen",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Distilling Kimi-K3.1-Pro into Qwen3.8-27B: Teaching a model a new language Webflow Analyze/Optimize tracking bridge --> Introducing Polymorphic Inference, starting with Together Compiler → Introducing Together Post-Training: Better models, faster runs, lower costs → Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → GLM-5.3 vs."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "9a5f91905dabf645": {
+  "feed": "Simon Willison",
+  "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+  "link": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO ."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "ce85e7b7a163daaa": {
+  "feed": "Sakana AI",
+  "title": "Sakana Marlinアップデート：調査の深さと速さを引き上げる新モード「Twilight 2.0」「Midnight 2.0」と、スライド出力の刷新",
+  "link": "/marlin-update-2/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "（English Announcement Below.） Sakana AIは本日、「 Sakana Marlin 」をアップデートし、調査の深さ・速さ・広さを引き上げる2つの新モード「Twilight 2.0」「Midnight 2.0」を追加しました。あわせて、Microsoft PowerPoint形式でのスライド出力機能も大幅に刷新しています。 Twilight 2.0：より短時間で、多角的な検討を Midnight 2.0：最も広い視野で、新たな発見を なお、従来のSakana Marlinは、軽量な「Sunlight」モードとして引き続きご利用いただけます。 海は、深さによってその姿を変えます。太陽の光が届く浅い層は「Sunlight zone」、わずかな光だけが届く層は「Twilight zone」、そして光がまったく届かない深い層は「Midnight zone」と呼ばれます。リサーチも同様に、表層で手に入る情報もあれば、深く潜ることで初めて見えてくる構造があります。3つのモード名は、この海の層に由来しています。 3つのモード名の由来となった、海の層 Sakana Marlinのコンセプト 今年6月に公開した「Sakana Marlin」のコンセプトは、「リサーチはAIへ。人間は意思決定に集中する。」です。調査テーマを指示するだけで、仮説立案から情報収集、検証、レポート作成までをAIが自律的に行う戦略リサーチエージェントとして、不確実な環境で重要な決断に向き合う方々を支えてきました。 提供開始以来、戦略立案、市場・競合分析、規制動向の調査など、幅広い業務でご活用いただいています。9月には、レポートと出典を行き来しながらAIと対話できる「Interactive Reading」やPowerPointスライド出力を追加し、調査結果を深く理解し、確信を持って次のアクションにつなげる体験を強化してきました。 深さとスピード、その両方に応えるために ご利用が広がるなかで、調査の深さ・速さ・広さのそれぞれについて、さらに高い水準を求める声を多くいただくようになりました。 会議の前に、まずは全体像をすばやく把握したい すでに知見のある領域で、さらに踏み込んだ分析や多角的な観点がほしい 初期的な全体把握から専門領域の深掘りまで、重視すべき軸は調査の目的やフェーズによって異なります。 同時に、AI技術も急速に進化しています。推論時により多くの計算量を投じてアウトプットの質を引き上げる「推論時スケーリング」は、この数ヶ月でAI開発の主流になりつつあり、Sakana Marlinも当初からこの考え方を土台にしてきました（技術的な詳細は ベータリリース時のブログ をご覧ください）。 ただし、当時もお伝えしたとおり、計算量に比例して成果が上がるわけではありません。正解が一つに定まらない現実のリサーチでは、「何をもって良い調査とするか」という品質評価そのものが極めて難しいからです。評価の軸が定まらないまま推論を重ねても、アウトプットの質は安定しません。「より長く考えさせること」と「より良く考えさせること」は、決して同じではないのです。 1."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "c45dad0755dad529": {
+  "feed": "ClickHouse",
+  "title": "Hints and hazards: pg_plan_advice in PG19",
+  "link": "https://clickhouse.com/blog/pg-plan-advice-postgresql-19",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> Hints and hazards: pg_plan_advice in PG19 | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "fac292dc339c93df": {
+  "feed": "NVIDIA Technical Blog",
+  "title": "Manage Liquid-Cooled AI Factories with NVIDIA Mission Control",
+  "link": "https://developer.nvidia.com/blog/manage-liquid-cooled-ai-factories-with-nvidia-mission-control/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Managing AI infrastructure such as NVIDIA Vera Rubin NVL72 requires coordinated operation of compute, power, and cooling systems. In liquid-cooled AI factories,... Managing AI infrastructure such as NVIDIA Vera Rubin NVL72 requires coordinated operation of compute, power, and cooling systems. In liquid-cooled AI factories, a leak response may require operational teams to stop workloads, isolate affected nodes, and control power circuits and cooling valves."
+  ],
+  "published_on": "2026-11-19"
+ },
+ "5acdb5a9ff5c2174": {
+  "feed": "Technica",
+  "title": "Google search alternative Kagi launches Gmail rival",
+  "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Kagi, a small, Palo Alto, California-based software company that provides a subscription-based search engine as an alternative to Google, has launched a Gmail-like e-mail service. Dubbed Kagi Mail, it makes many of the same claims as the search engine product: privacy, personal data sovereignty, customization, and control. Additionally, Kagi is rolling out a calendar as part of the mail service."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "320d72e607c3ccbc": {
+  "feed": "Together AI",
+  "title": "Introducing Hurdle: Run agent evals on your API, skills, and docs",
+  "link": "https://www.together.ai/blog/introducing-hurdle-run-agent-evals-on-your-api-skills-and-docs",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing Hurdle: Run agent evals on your API, skills, and docs Webflow Analyze/Optimize tracking bridge --> Introducing Polymorphic Inference, starting with Together Compiler → Introducing Together Post-Training: Better models, faster runs, lower costs → Introducing Together Link: Run open models inside the harness you already use → The Open Source AI Stack: models, inference, routers, harnesses & tools → GLM-5.3 vs."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "2c33c3cedb6545ec": {
+  "feed": "Simon Willison",
+  "title": "Quoting Scott Aaronson",
+  "link": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "b99b43256cbae322": {
+  "feed": "ClickHouse",
+  "title": "What is ClickHouse Security? A technical overview of the agentic SIEM built on ClickHouse",
+  "link": "https://clickhouse.com/blog/clickhouse-security-agentic-siem-overview",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   ". --> What is ClickHouse Security? A technical overview of the agentic SIEM built on ClickHouse | ClickHouse Skip to content Collapse the terminal Copy logo as SVG Download full logo Download logomark Open search Open region selector English Japanese Korean Chinese French Spanish Portuguese Arabic Open menu Products Get started with ClickHouse Cloud for free $300 in trial credits for 30 days to spend at your own pace."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "9cfcbabc051f9e01": {
+  "feed": "Technica",
+  "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
+  "link": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "On Tuesday, a US jury convicted one of China’s key telecommunications and AI giants, Huawei Technologies, of stealing trade secrets from US tech firms and evading sanctions against Iran. Although the longrunning charges stem back to 2018, the verdict coming now threatens to inflame US-China tensions at a sensitive time, just as Donald Trump prepares to increase tariffs on China ."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "cd16924426fb73da": {
+  "feed": "Simon Willison",
+  "title": "datasette-charts 0.3a0",
+  "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite , where you can tweak the annotations using the chart builder UI: If you also install Datasette Agent the agent can build annotated charts for you."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "5b2725fe9fc1b28d": {
+  "feed": "Technica",
+  "title": "Lead azide detonation sends clouds over Iowa as questions of health risks swirl",
+  "link": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "In a powerful explosion that launched gray-white clouds over southeastern Iowa, the Army detonated 68 barrels containing 9,700 pounds (4.4 tons) of degraded lead azide on Wednesday at about 9 am CT, preventing a spontaneous unmitigated explosion of the crystallized, highly unstable compound. The detonation occurred at the Iowa Army Ammunition Plant (IAAAP) in Middletown, Iowa, a town of fewer than 400 people."
+  ],
+  "published_on": "2026-11-25"
+ },
+ "b1fca68720fb2e93": {
+  "feed": "Simon Willison",
+  "title": "datasette-charts 0.2a1",
+  "link": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-charts 0.2a1 Minor UI improvements: Collapsing the suggested charts section now leaves the chart visible. Following a link to a chart opens it with the suggestions collapsed for that visit. On table pages the panel now sits below the \"4,235 rows where country = CHN\" line. The \"Data\" table under each chart has been replaced by Copy TSV and Copy CSV buttons."
+  ],
+  "published_on": "2026-11-24"
+ },
+ "b8004cf8d62fc205": {
+  "feed": "Technica",
+  "title": "A familiar Iranian hacking group has found a new way to cause chaos",
+  "link": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
+  "date": "2026-11-26",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "One night in October, hackers staged one of the most unusual cyber attacks in history : cranking up the temperature in refrigeration systems at hundreds of supermarkets across France and destroying millions of euros of food. Hackers have targeted commercial fridges and freezers before, but never at this scale and never in the heart of Europe. The brazen attack left cyber professionals unsure as to who might have executed such a madcap operation."
+  ],
+  "published_on": "2026-11-25"
  }
 }
