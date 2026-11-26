@@ -109030,5 +109030,112 @@
    "One night in October, hackers staged one of the most unusual cyber attacks in history : cranking up the temperature in refrigeration systems at hundreds of supermarkets across France and destroying millions of euros of food. Hackers have targeted commercial fridges and freezers before, but never at this scale and never in the heart of Europe. The brazen attack left cyber professionals unsure as to who might have executed such a madcap operation."
   ],
   "published_on": "2026-11-25"
+ },
+ "242c0816468ef8f2": {
+  "feed": "Technica",
+  "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
+  "link": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Sixty years ago, after two failed attempts, Ford won the 24 Hours of Le Mans with its GT40 race car. In the years since, the Blue Oval has been back to France more than a few times, with varying success. It could never replicate the GT40’s success winning overall, but it celebrated the 40th anniversary with a class win . Now it wants another shot at the really big trophy , and it debuted the car during the Detroit Lions-Chicago Bears football game today: meet the GT41."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "02a088434703556c": {
+  "feed": "Hugging Face Blog",
+  "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+  "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing More Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon Team Article Published November 26, 2026 Upvote 16 +10 angt angt Follow ggml-org Simon Pagezy pagezyhf Follow ggml-org Abdennacer Badaoui badaoui Follow ggml-org :last-child]:mb-0\"> Quick start What the numbers mean How we run the benchmarks Inspect and reuse the results Join the conversation The llama.cpp × AMD Benchmark dashboard is available on Hugging Face."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "316e60a88e0f2ae8": {
+  "feed": "Simon Willison",
+  "title": "Quoting Jack Despain Zhou",
+  "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude ."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "dd126d7ace4736bf": {
+  "feed": "LinkedIn Engineering",
+  "title": "The Database Pin: Zero-Downtime Database Migrations with Strong Read-After-Write Consistency",
+  "link": "https://www.linkedin.com/blog/engineering/infrastructure/the-database-pin-zero-downtime-database-migrations-with-strong-read-after-write-consistency",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "The Database Pin: Zero-Downtime Database Migrations with Strong Read-After-Write Consistency Skip to main content Engineering Blog Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership Data Graph System Economic Graph Skills Graph Knowledge Graph Data Management Data Streams/Processing Data Science Research A/B Testing/Experimentation AI Machine Learning Natural Language Processing Generative AI Data Modeling Responsible AI Trust & Safety Fairness Verification Security Product Design Marketing Sales Learning Hiring Profile Messaging/Notifications Feed Profile Groups Accessibility Member/Customer Experience Search Recommendations Skills Infrastructure Code Scalability Distributed Systems Graph Systems Architecture Analytics Automation Platforms/Platformization Cloud Computing Open Source Additional Innovations Talent Culture Developer Experience/Productivity Leadership The Database Pin: Zero-Downtime Database Migrations with Strong Read-After-Write Consistency November 26, 2026 LinkedIn's Business Platform (LBP) runs the payments, quoting, billing, contracts, and ordering systems behind every transaction on LinkedIn, from Premium subscription renewal to an enterprise customer's invoice."
+  ]
+ },
+ "abca0f7100ad36c1": {
+  "feed": "Technica",
+  "title": "Draining peatlands is responsible for a few percent of our global warming",
+  "link": "https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Much of the focus for human-caused climate change is on fossil fuels, which are creating most of our problems. But land use change is also a large component of the story, accounting for about one-third of total historical CO 2 emissions. Deforestation plays a major role here, but practices like draining wetlands also factor in. Exactly how much of our history of eliminating wetlands has contributed to warming is challenging to figure out."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "c01600d4160315a4": {
+  "feed": "Hugging Face Blog",
+  "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+  "link": "https://huggingface.co/blog/training-swarms",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems Hugging Face Search models, datasets, users... ⌘K Models Datasets Spaces Buckets Docs Enterprise Pricing More Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Hardware Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Back to Articles a]:hidden\"> Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems Published November 26, 2026 Update on GitHub Upvote 16 +10 ben burtenshaw burtenshaw Follow Kashif Rasul kashif Follow :last-child]:mb-0\"> The rise of the swarms Did cooperation help, or did we just spend more?"
+  ],
+  "published_on": "2026-11-26"
+ },
+ "7822140280bf2636": {
+  "feed": "Simon Willison",
+  "title": "The New York Times warns photographers not to update Photoshop over AI features",
+  "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balancing applied but no edits beyond that."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "400430a450f9504d": {
+  "feed": "Technica",
+  "title": "From minimalist to maximalist: Ars staffers show off their home offices",
+  "link": "https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Ars Technica is a place that has always leaned into remote working. Since its beginnings in 1998, Ars has never had a single, central office—a setup that makes for a great commute to work, with little risk of getting stuck in traffic. As Ars staffers step away from their desks for a few days to spend some time with family and friends, we wanted to give you a look inside our home offices."
+  ],
+  "published_on": "2026-11-26"
+ },
+ "e97fae54855e27b5": {
+  "feed": "Technica",
+  "title": "AI may soon change what it means to be a theoretical physicist",
+  "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+  "date": "2026-11-27",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "About six months ago, Suvrat Raju, a professor of theoretical physics at the International Centre for Theoretical Sciences in Bengaluru, India, asked a frontier AI model to solve a physics problem. He didn’t ask because he needed to know the answer. He had actually solved this particular problem already. But he had never published the solution—which made it a perfect question to test how good AI was at physics."
+  ],
+  "published_on": "2026-11-25"
  }
 }
