@@ -8293,5 +8293,71 @@
   "why": "",
   "points": [],
   "published_on": "2026-10-25"
+ },
+ "0eedab7dd0d156c2": {
+  "url": "https://dangvngiang.dev/blog/token-superposition-training-for-faster-language-model-pre-training",
+  "title": "Token Superposition Training for Faster Language Model Pre-Training · Dang Giang",
+  "domain": "dangvngiang.dev",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-26",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-24"
+ },
+ "6eb0b52e7aa87646": {
+  "url": "https://juhoplayground.github.io/posts/Pretraining-LLMs-With-NVFP4/",
+  "title": "Pretraining Large Language Models with NVFP4 - 4비트 정밀도 LLM 사전학습 방법론 정리 | Juho's Dev Note",
+  "domain": "juhoplayground.github.io",
+  "query": "A deeply technical personal blog post explaining a novel trick for LLM pretraining at scale, written by a practitioner rather than a company blog.",
+  "date": "2026-11-26",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-19"
+ },
+ "0174ddbc696bff68": {
+  "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+  "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling | NVIDIA Technical Blog",
+  "domain": "developer.nvidia.com",
+  "query": "A niche blog post explaining GPU kernel internals or memory layout tricks for transformer inference, written for someone who already knows the basics.",
+  "date": "2026-11-26",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-25"
+ },
+ "d597b912c585eb30": {
+  "url": "https://www.coreauto.com/hitchhikers-guide-to-training-on-compute-islands",
+  "title": "\n      The Hitchhiker’s Guide to Training on Compute Islands | Core Automation\n    ",
+  "domain": "coreauto.com",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-26",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-02"
+ },
+ "3c1f15a9dd7d0d21": {
+  "url": "https://mrvitej.in/devops/cncf-kserve/",
+  "title": "KServe: Standardized Model Serving on Kubernetes, from a Scikit-learn Pickle to an LLM · mrvitej",
+  "domain": "mrvitej.in",
+  "query": "A hidden-gem GitHub repository with an exceptionally well-written README or design doc about ML systems infrastructure or inference serving.",
+  "date": "2026-11-26",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-04"
+ },
+ "e82ae8bb88162f68": {
+  "url": "https://thefathacker.tech/blog/2026-09-part-2-dgx-spark-cluster/",
+  "title": "AI @ Home - Part Two: Two Borrowed Supercomputers and Everything That Went Wrong With Them | The Fat Hacker",
+  "domain": "thefathacker.tech",
+  "query": "A deep technical postmortem or war story about running large-scale GPU training or inference infrastructure in production, from a small team or individual, not a big lab's PR blog.",
+  "date": "2026-11-26",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-23"
  }
 }
