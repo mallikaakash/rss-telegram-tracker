@@ -109149,5 +109149,72 @@
    "Volvo provided flights from Washington, DC, to Copenhagen, Denmark, and accommodation so Ars could drive the XC60 and XC90 plug-in hybrids. Ars does not accept paid editorial content. COPENHAGEN, Denmark—If we lived in the world that Volvo’s product planners expected back when the current XC90 debuted in 2015 , both it and the smaller but related XC60 (which arrived in 2017) might have been the last of their kind as everything went electric ."
   ],
   "published_on": "2026-11-27"
+ },
+ "a3a64e2095da62c5": {
+  "feed": "Technica",
+  "title": "The best Black Friday deals Ars could find",
+  "link": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
+  "date": "2026-11-28",
+  "tier": "low_priority",
+  "why": "Black Friday retail deals guide framed as a parody.",
+  "points": [
+   "Non-technical shopping guide."
+  ],
+  "published_on": "2026-11-27",
+  "reject_reason": "off_topic"
+ },
+ "2d7f8b4f8454af31": {
+  "feed": "Hugging Face Blog",
+  "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+  "link": "https://huggingface.co/blog/video-trainium3",
+  "date": "2026-11-28",
+  "tier": "must_read",
+  "why": "Hands-on ML infrastructure deep dive benchmarking multimodal video generation on AWS Trainium3 hardware.",
+  "points": [
+   "Ported LTX-2.5 diffusion model to AWS Trainium3 (trn3.48xlarge, 64 NeuronCores) using Hugging Face diffusers.",
+   "Generated a 10-second 2048x1024 video with audio in 22-23 seconds using half the machine (32 NeuronCores), matching online API latency.",
+   "Demonstrates viable non-CUDA accelerator alternatives for large-scale generative media inference."
+  ],
+  "published_on": "2026-11-27"
+ },
+ "e49ef54182b1b062": {
+  "feed": "Spotify Engineering",
+  "title": "September 29 Outage Incident Report: What we learnt",
+  "link": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/",
+  "date": "2026-11-28",
+  "tier": "must_read",
+  "why": "High-quality engineering post-mortem from a top tech company illustrating complex distributed systems and Kubernetes deployment failures.",
+  "points": [
+   "Conflicting changes between Argo Rollouts migration and diff calculations accidentally forced auth services to minReplicas on every ArgoCD sync.",
+   "Downscaled authentication created a thundering herd with a 200x traffic spike upon client reconnection that overwhelmed backend services.",
+   "Highlights failure modes in Kubernetes reconciler loops overriding autoscalers and the challenge of recovery under heavy auth token reissuance load."
+  ],
+  "published_on": "2026-11-27"
+ },
+ "462e344e0f4f6895": {
+  "feed": "Technica",
+  "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+  "link": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+  "date": "2026-11-28",
+  "tier": "low_priority",
+  "why": "Political and business news report concerning government relations and Intel, offering no technical insights.",
+  "points": [
+   "Covers political pressure and equity demands placed on Intel by the US administration."
+  ],
+  "published_on": "2026-11-27",
+  "reject_reason": "off_topic"
+ },
+ "e3e976d09c056379": {
+  "feed": "Technica",
+  "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
+  "link": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
+  "date": "2026-11-28",
+  "tier": "low_priority",
+  "why": "Consumer holiday gift guide with no relevance to engineering or ML.",
+  "points": [
+   "Curated list of staff consumer purchases and holiday gift recommendations."
+  ],
+  "published_on": "2026-11-27",
+  "reject_reason": "off_topic"
  }
 }
