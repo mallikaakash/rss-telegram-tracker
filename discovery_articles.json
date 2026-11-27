@@ -8359,5 +8359,27 @@
   "why": "",
   "points": [],
   "published_on": "2026-11-23"
+ },
+ "7524f6a3e1c50aa5": {
+  "url": "https://arxiv.org/pdf/2610.38228v1",
+  "title": "The Endgame of FSDP Communication: Layout-Aware Collectives on Copy Engines, RDMA, and NVSwitch",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-27",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-10-28"
+ },
+ "adb49b9b7393b949": {
+  "url": "https://arxiv.org/html/2611.32057",
+  "title": "Generalized Tensor Parallelism: Powering Trillion-Parameter LLM Training at 10+ EFLOP/s",
+  "domain": "arxiv.org",
+  "query": "A little-known write-up on distributed training internals - FSDP, tensor or pipeline parallelism, collective communication - with concrete numbers, not a tutorial.",
+  "date": "2026-11-27",
+  "tier": "skip",
+  "why": "",
+  "points": [],
+  "published_on": "2026-11-24"
  }
 }
