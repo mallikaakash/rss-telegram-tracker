@@ -109216,5 +109216,29 @@
   ],
   "published_on": "2026-11-27",
   "reject_reason": "off_topic"
+ },
+ "c91c032e523155a5": {
+  "feed": "Simon Willison",
+  "title": "datasette-charts 0.4a0",
+  "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+  "date": "2026-11-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in the design. This release addresses those, which should make building additional chart plugins a whole lot more ergonomic."
+  ],
+  "published_on": "2026-11-27"
+ },
+ "6481e9f2df718d99": {
+  "feed": "Simon Willison",
+  "title": "datasette-mcp 0.4",
+  "link": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+  "date": "2026-11-28",
+  "tier": "worth_a_skim",
+  "why": "",
+  "points": [
+   "Release: datasette-mcp 0.4 Simon Willison’s Weblog Newsletter Sponsored by: Greptile — Review code faster with Greptile’s new PR inbox. It puts everything you need to understand a change and merge it on one screen. Try it for free 27th November 2026 Release datasette-mcp 0.4 — Adds a /-/mcp MCP server to any Datasette instance Fixed for compatibility with Datasette 1.0a44 ."
+  ],
+  "published_on": "2026-11-27"
  }
 }
